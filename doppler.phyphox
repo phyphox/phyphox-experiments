@@ -1,0 +1,238 @@
+<phyphox version="1.0">
+    <title>Doppler effect</title>
+    <category>Acoustics</category>
+    <icon>Dpp</icon>
+    <description>
+        Detect small frequency shifts of the Doppler effect.
+
+        You need a tone generator that emits a constant frequency (for example 1000Hz). Enter this base frequency in the experiments setup and select a detection range in which you expect the Doppler shifted frequency (for example 10Hz). The experiment will determine the recorded frequency and calculate the relative speed of the souond source.
+    </description>
+    <translations>
+        <translation locale="de">
+            <title>Dopplereffekt</title>
+            <category>Akustik</category>
+            <description>
+                Kleine Frequenzänderungen des Dopplereffekts messen.
+
+                Hierzu wird ein Tongenerator benötigt, der eine konstante Frequenz erzeugt (z.B. 1000Hz). Diese Frequenz muss im Experiment angegeben werden zusammen mit einer Frequenzspanne, in welcher die Doppler-Verschobene Frequenz erwartet wird (z.B. 10Hz). Das Experiment ermittelt die aufgenommene Frequenz und berechnet die relative Geschwindigkeit der Schallquelle.
+            </description>
+            <string original="Setup">Einstellungen</string>
+            <string original="Base frequency">Grundfrequenz</string>
+            <string original="Frequency range">Frequenzspanne</string>
+            <string original="Speed of sound">Schallgeschwindigkeit</string>
+            <string original="The algorithm will look for a frequency in around the base frequency from -range to +range. And use the nth period (below) to determine the frequency.">Der Algorithmus wird die Frequenz um die Grundfrequenz innerhalb von -Spanne und +Spanne suchen. Dabei verwendet er die n-te Periode der Grundfrequenze (siehe unten)</string>
+            <string original="nth period">n-te Periode</string>
+            <string original="Results">Ergebnisse</string>
+            <string original="Frequency">Frequenz</string>
+            <string original="Frequency (Hz)">Frequenz (Hz)</string>
+            <string original="Speed">Geschwindigkeit</string>
+            <string original="Speed (m/s)">Geschwindigkeit (m/s)</string>
+            <string original="Raw data">Rohdaten</string>
+            <string original="Recording">Aufnahme</string>
+            <string original="Frequency and speed">Frequenz und Geschwindigkeit</string>
+            <string original="Time (s)">Zeit (s)</string>
+            <string original="Recording (a.u.)">Aufnahme (a.u.)</string>
+        </translation>
+    </translations>
+    <data-containers>
+        <container size="12000">recording</container>
+        <container size="12000" static="true">time</container>
+        <container>f</container>
+        <container>df</container>
+        <container>c</container>
+        <container size="20" static="true">Nth_step</container>
+        <container size="20">Nth_frequency_lower_limit</container>
+        <container size="20">Nth_period_upper_limit</container>
+        <container size="20">Nth_step_filtered</container>
+        <container size="20">Nth_period_upper_limit_filtered</container>
+        <container>periodFactor</container>
+        <container>minf</container>
+        <container>maxf</container>
+        <container>minPeriod</container>
+        <container>maxPeriod</container>
+        <container>startTime</container>
+        <container size="25">period</container>
+        <container size="25">frequency</container>
+        <container size="25">temp1</container>
+        <container size="25">temp2</container>
+        <container size="25">speed</container>
+        <container size="25">time_res</container>
+        <container size="1000">frequency_hist</container>
+        <container size="1000">speed_hist</container>
+        <container size="1000">time_hist</container>
+    </data-containers>
+    <input>
+        <audio rate="48000">
+            <output>recording</output>
+        </audio>
+    </input>
+    <views>
+        <view label="Setup">
+            <edit label="Base frequency" unit="Hz" default="1000" signed="false">
+                <output>f</output>
+            </edit>
+            <edit label="Frequency range" unit="Hz" default="10" signed="false">
+                <output>df</output>
+            </edit>
+            <edit label="Speed of sound" unit="m/s" default="340" signed="false">
+                <output>c</output>
+            </edit>
+            <info label="The algorithm will look for a frequency in around the base frequency from -range to +range. And use the nth period (below) to determine the frequency." />
+            <value label="nth period">
+                <input>periodFactor</input>
+            </value>
+        </view>
+        <view label="Results">
+            <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" partialUpdate="true">
+                <input axis="x">time_hist</input>
+                <input axis="y">frequency_hist</input>
+            </graph>
+            <graph label="Speed" labelX="t (s)" labelY="Speed (m/s)" partialUpdate="true">
+                <input axis="x">time_hist</input>
+                <input axis="y">speed_hist</input>
+            </graph>
+        </view>
+        <view label="Raw data">
+            <graph label="Recording" labelX="t (ms)" labelY="Amplitude (a.u.)">
+                <input axis="x">time</input>
+                <input axis="y">recording</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop" type="value">0.25</input>
+            <output>time</output>
+        </ramp>
+
+        <ramp>
+            <input as="start" type="value">1</input>
+            <input as="stop" type="value">20</input>
+            <output>Nth_step</output>
+        </ramp>
+
+        <subtract>
+            <input>f</input>
+            <input>df</input>
+            <output>minf</output>
+        </subtract>
+
+        <add>
+            <input>f</input>
+            <input>df</input>
+            <output>maxf</output>
+        </add>
+
+        <divide>
+            <input>minf</input>
+            <input>Nth_step</input>
+            <output>Nth_frequency_lower_limit</output>
+        </divide>
+
+        <divide>
+            <input type="value">48000</input>
+            <input>Nth_frequency_lower_limit</input>
+            <output>Nth_period_upper_limit</output>
+        </divide>
+
+        <rangefilter>
+            <input>Nth_period_upper_limit</input>
+            <input as="max" type="value">480</input>
+            <input>Nth_step</input>
+            <output>Nth_period_upper_limit_filtered</output>
+            <output>Nth_step_filtered</output>
+        </rangefilter>
+
+        <max>
+            <input as="y">Nth_step_filtered</input>
+            <output as="max">periodFactor</output>
+        </max>
+
+        <multiply>
+            <input>periodFactor</input>
+            <input type="value">48000</input>
+            <output>temp1</output>
+        </multiply>
+
+        <divide>
+            <input>temp1</input>
+            <input>minf</input>
+            <output>maxPeriod</output>
+        </divide>
+
+        <divide>
+            <input>temp1</input>
+            <input>maxf</input>
+            <output>minPeriod</output>
+        </divide>
+
+        <periodicity>
+            <input as="x">time</input>
+            <input as="y">recording</input>
+            <input as="dx" type="value">2400</input>
+            <input as="overlap" type="value">0</input>
+            <input as="min">minPeriod</input>
+            <input as="max">maxPeriod</input>
+            <output as="time">time_res</output>
+            <output as="period">period</output>
+        </periodicity>
+
+        <divide>
+            <input>periodFactor</input>
+            <input>period</input>
+            <output>frequency</output>
+        </divide>
+
+        <divide>
+            <input>f</input>
+            <input>frequency</input>
+            <output>temp1</output>
+        </divide>
+
+        <subtract>
+            <input type="value">1</input>
+            <input>temp1</input>
+            <output>temp2</output>
+        </subtract>
+
+        <multiply>
+            <input>c</input>
+            <input>temp2</input>
+            <output>speed</output>
+        </multiply>
+
+        <append>
+            <input>frequency</input>
+            <output clear="false">frequency_hist</output>
+        </append>
+
+        <append>
+            <input>speed</input>
+            <output clear="false">speed_hist</output>
+        </append>
+
+        <timer>
+            <output>startTime</output>
+        </timer>
+
+        <add>
+            <input>time_res</input>
+            <input>startTime</input>
+            <output clear="false">time_hist</output>
+        </add>
+
+    </analysis>
+
+    <export>
+        <set name="Frequency and speed">
+            <data name="Time (s)">time_hist</data>
+            <data name="Frequency (Hz)">frequency_hist</data>
+            <data name="Speed (m/s)">speed_hist</data>
+        </set>
+        <set name="Raw data">
+            <data name="Time (s)">time</data>
+            <data name="Recording (a.u.)">recording</data>
+        </set>
+    </export>
+</phyphox>

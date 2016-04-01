@@ -130,7 +130,7 @@
         <max>
             <input as="y">search_y</input>
             <input as="x">search_t</input>
-            <output as="position">period</output>
+            <output as="position" clear="false">period</output>
         </max>
         <divide>
             <input type="value">1</input>

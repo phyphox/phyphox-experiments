@@ -34,8 +34,8 @@
         <container size="4800" static="true">time</container>
         <container size="4800">autocorrelation</container>
         <container size="4800">autoco_t</container>
-        <container size="200">period</container>
-        <container size="200">frequency</container>
+        <container>period</container>
+        <container>frequency</container>
         <container>dt</container>
         <container>t0</container>
         <container>t1</container>
