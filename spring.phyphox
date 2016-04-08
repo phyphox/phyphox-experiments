@@ -66,8 +66,8 @@
     </input>
     <analysis>
         <autocorrelation>
-            <input as="x">acc_time</input>
-            <input as="y">accX</input>
+            <input as="x" clear="false">acc_time</input>
+            <input as="y" clear="false">accX</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -75,8 +75,8 @@
         </autocorrelation>
 
         <autocorrelation>
-            <input as="x">acc_time</input>
-            <input as="y">accY</input>
+            <input as="x" clear="false">acc_time</input>
+            <input as="y" clear="false">accY</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -84,8 +84,8 @@
         </autocorrelation>
 
         <autocorrelation>
-            <input as="x">acc_time</input>
-            <input as="y">accZ</input>
+            <input as="x" clear="false">acc_time</input>
+            <input as="y" clear="false">accZ</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -100,30 +100,30 @@
         </add>
 
         <threshold falling="true">
-            <input as="x">autocorrelation_t</input>
-            <input as="y">autocorrelation</input>
+            <input as="x" clear="false">autocorrelation_t</input>
+            <input as="y" clear="false">autocorrelation</input>
             <output>t0</output>
         </threshold>
         <multiply>
-            <input>t0</input>
+            <input clear="false">t0</input>
             <input type="value">2</input>
             <output>dt</output>
         </multiply>
         <add>
-            <input>t0</input>
-            <input>dt</input>
+            <input clear="false">t0</input>
+            <input clear="false">dt</input>
             <output>t1</output>
         </add>
         <add>
-            <input>t1</input>
+            <input clear="false">t1</input>
             <input>dt</input>
             <output>t2</output>
         </add>
         <rangefilter>
-            <input>autocorrelation_t</input>
+            <input clear="false">autocorrelation_t</input>
             <input as="min">t1</input>
             <input as="max">t2</input>
-            <input>autocorrelation</input>
+            <input clear="false">autocorrelation</input>
             <output>search_t</output>
             <output>search_y</output>
         </rangefilter>
@@ -134,7 +134,7 @@
         </max>
         <divide>
             <input type="value">1</input>
-            <input>period</input>
+            <input clear="false">period</input>
             <output>frequency</output>
         </divide>
     </analysis>

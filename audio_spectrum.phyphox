@@ -72,7 +72,7 @@
         </ramp>
 
         <fft>
-            <input>recording</input>
+            <input clear="false">recording</input>
             <output as="re">fftX</output>
             <output as="im">fftY</output>
         </fft>
@@ -87,12 +87,12 @@
             <output>halfFFTtempY</output>
         </rangefilter>
         <multiply>
-            <input>halfFFTtempX</input>
+            <input clear="false">halfFFTtempX</input>
             <input>halfFFTtempX</input>
             <output>halfFFTtempX2</output>
         </multiply>
         <multiply>
-            <input>halfFFTtempY</input>
+            <input clear="false">halfFFTtempY</input>
             <input>halfFFTtempY</input>
             <output>halfFFTtempY2</output>
         </multiply>
@@ -107,8 +107,8 @@
             <output>fft</output>
         </power>
         <max>
-            <input as="y">fft</input>
-            <input as="x">halfFrequency</input>
+            <input as="y" clear="false">fft</input>
+            <input as="x" clear="false">halfFrequency</input>
             <output as="position">f0</output>
          </max>
     </analysis>

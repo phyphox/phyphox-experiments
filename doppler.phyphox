@@ -92,12 +92,6 @@
                 <input axis="y">speed_hist</input>
             </graph>
         </view>
-        <view label="Raw data">
-            <graph label="Recording" labelX="t (ms)" labelY="Amplitude (a.u.)">
-                <input axis="x">time</input>
-                <input axis="y">recording</input>
-            </graph>
-        </view>
     </views>
     <analysis>
         <ramp>
@@ -113,20 +107,20 @@
         </ramp>
 
         <subtract>
-            <input>f</input>
-            <input>df</input>
+            <input clear="false">f</input>
+            <input clear="false">df</input>
             <output>minf</output>
         </subtract>
 
         <add>
-            <input>f</input>
-            <input>df</input>
+            <input clear="false">f</input>
+            <input clear="false">df</input>
             <output>maxf</output>
         </add>
 
         <divide>
-            <input>minf</input>
-            <input>Nth_step</input>
+            <input clear="false">minf</input>
+            <input clear="false">Nth_step</input>
             <output>Nth_frequency_lower_limit</output>
         </divide>
 
@@ -150,13 +144,13 @@
         </max>
 
         <multiply>
-            <input>periodFactor</input>
+            <input clear="false">periodFactor</input>
             <input type="value">48000</input>
             <output>temp1</output>
         </multiply>
 
         <divide>
-            <input>temp1</input>
+            <input clear="false">temp1</input>
             <input>minf</input>
             <output>maxPeriod</output>
         </divide>
@@ -185,8 +179,8 @@
         </divide>
 
         <divide>
-            <input>f</input>
-            <input>frequency</input>
+            <input clear="false">f</input>
+            <input clear="false">frequency</input>
             <output>temp1</output>
         </divide>
 
@@ -197,7 +191,7 @@
         </subtract>
 
         <multiply>
-            <input>c</input>
+            <input clear="false">c</input>
             <input>temp2</input>
             <output>speed</output>
         </multiply>
@@ -229,10 +223,6 @@
             <data name="Time (s)">time_hist</data>
             <data name="Frequency (Hz)">frequency_hist</data>
             <data name="Speed (m/s)">speed_hist</data>
-        </set>
-        <set name="Raw data">
-            <data name="Time (s)">time</data>
-            <data name="Recording (a.u.)">recording</data>
         </set>
     </export>
 </phyphox>

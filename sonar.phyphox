@@ -105,12 +105,6 @@
                 <input axis="y">weighted_chirp</input>
             </graph>
         </view>
-        <view label="Raw Data">
-            <graph label="Recording" labelX="Time (s)" labelY="A (a.u.)">
-                <input axis="x">recording_t</input>
-                <input axis="y">recording</input>
-            </graph>
-        </view>
     </views>
     <analysis sleep="0.2">
         <ramp>
@@ -163,7 +157,7 @@
 
         <crosscorrelation>
             <input>recording</input>
-            <input>weighted_chirp</input>
+            <input clear="false">weighted_chirp</input>
             <output>crosscorrelation</output>
         </crosscorrelation>
 
@@ -174,7 +168,7 @@
         </ramp>
 
         <multiply>
-            <input>crosscorrelation</input>
+            <input clear="false">crosscorrelation</input>
             <input>crosscorrelation</input>
             <input type="value">1e10</input>
             <output>ccTemp</output>
@@ -184,25 +178,25 @@
             <output>crosscorrelation</output>
         </gausssmooth>
         <max>
-            <input as="y">crosscorrelation</input>
-            <input as="x">crosscorrelation_t</input>
+            <input as="y" clear="false">crosscorrelation</input>
+            <input as="x" clear="false">crosscorrelation_t</input>
             <output as="position">t0</output>
         </max>
         <add>
-            <input>t0</input>
+            <input clear="false">t0</input>
             <input type="value">0.002</input>
             <output>t1</output>
         </add>
         <add>
-            <input>t0</input>
+            <input clear="false">t0</input>
             <input type="value">0.025</input>
             <output>t2</output>
         </add>
         <rangefilter>
-            <input>crosscorrelation_t</input>
+            <input clear="false">crosscorrelation_t</input>
             <input as="min">t1</input>
             <input as="max">t2</input>
-            <input>crosscorrelation</input>
+            <input clear="false">crosscorrelation</input>
             <output>cut_t</output>
             <output>relative_cc</output>
         </rangefilter>
@@ -213,18 +207,18 @@
         </subtract>
         <multiply>
             <input>relative_t</input>
-            <input>speedofsound</input>
+            <input clear="false">speedofsound</input>
             <input type="value">50</input>
             <output>distance</output>
         </multiply>
 
         <append>
-            <input>relative_cc</input>
+            <input clear="false">relative_cc</input>
             <output>first_cc</output>
         </append>
 
         <subtract>
-            <input>relative_cc</input>
+            <input clear="false">relative_cc</input>
             <input>first_cc</input>
             <output>diff_cc</output>
         </subtract>
@@ -237,10 +231,6 @@
         <set name="Chirp">
             <data name="Time (s)">chirp_t</data>
             <data name="Amplitude (a.u.)" >weighted_chirp</data>
-        </set>
-        <set name="Recording">
-            <data name="Time (s)">recording_t</data>
-            <data name="Amplitude (a.u.)">recording</data>
         </set>
     </export>
 </phyphox>

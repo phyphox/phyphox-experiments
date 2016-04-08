@@ -57,12 +57,12 @@
     </views>
     <analysis>
         <multiply>
-            <input>gyrY</input>
-            <input>r</input>
+            <input clear="false">gyrY</input>
+            <input clear="false">r</input>
             <output>v</output>
         </multiply>
         <multiply>
-            <input>v</input>
+            <input clear="false">v</input>
             <input type="value">3.6</input>
             <output>vkmh</output>
         </multiply>

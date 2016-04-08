@@ -50,7 +50,7 @@
 
         <divide>
             <input type="value">100</input>
-            <input>f</input>
+            <input clear="false">f</input>
             <output>length</output>
         </divide>
 
@@ -61,8 +61,8 @@
          </rangefilter>
 
         <multiply>
-            <input>f</input>
-            <input>t</input>
+            <input clear="false">f</input>
+            <input clear="false">t</input>
             <input type="value">6.283185307</input>
             <output>phase</output>
         </multiply>

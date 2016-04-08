@@ -58,12 +58,6 @@
                 <input axis="y">period</input>
             </graph>
         </view>
-        <view label="Raw data">
-            <graph label="Recording" labelX="t (ms)" labelY="Amplitude (a.u.)">
-                <input axis="x">time</input>
-                <input axis="y">recording</input>
-            </graph>
-        </view>
     </views>
     <analysis>
         <ramp>
@@ -75,39 +69,39 @@
         <autocorrelation>
             <input as="x">time</input>
             <input as="y">recording</input>
-            <output as="x">autocorrelation_t</output>
-            <output as="y">autocorrelation</output>
+            <output as="x" clear="false">autocorrelation_t</output>
+            <output as="y" clear="false">autocorrelation</output>
         </autocorrelation>
 
         <threshold falling="true">
-            <input as="x">autocorrelation_t</input>
-            <input as="y">autocorrelation</input>
+            <input as="x" clear="false">autocorrelation_t</input>
+            <input as="y" clear="false">autocorrelation</input>
             <output>t0</output>
         </threshold>
 
         <multiply>
-            <input>t0</input>
+            <input clear="false">t0</input>
             <input type="value">2</input>
             <output>dt</output>
         </multiply>
 
         <add>
             <input>t0</input>
-            <input>dt</input>
+            <input clear="false">dt</input>
             <output>t1</output>
         </add>
 
         <add>
-            <input>t1</input>
+            <input clear="false">t1</input>
             <input>dt</input>
             <output>t2</output>
         </add>
 
         <rangefilter>
-            <input>autocorrelation_t</input>
+            <input clear="false">autocorrelation_t</input>
             <input as="min">t1</input>
             <input as="max">t2</input>
-            <input>autocorrelation</input>
+            <input clear="false">autocorrelation</input>
             <output>search_t</output>
             <output>search_y</output>
         </rangefilter>
@@ -133,7 +127,7 @@
 
         <divide>
             <input type="value">1</input>
-            <input>period</input>
+            <input clear="false">period</input>
             <output>frequency</output>
         </divide>
 
@@ -144,10 +138,6 @@
             <data name="Time (s)">time_hist</data>
             <data name="Period (s)">period</data>
             <data name="Frequency (Hz)">frequency</data>
-        </set>
-        <set name="Raw data">
-            <data name="Time (ms)">time</data>
-            <data name="Recording (a.u.)">recording</data>
         </set>
     </export>
 </phyphox>

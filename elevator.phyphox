@@ -68,12 +68,12 @@
     </views>
     <analysis>
         <differentiate>
-            <input>p_time</input>
+            <input clear="false">p_time</input>
             <output>dt</output>
         </differentiate>
 
         <divide>
-            <input>pressure</input>
+            <input clear="false">pressure</input>
             <input type="value">1013.25</input>
             <output>temp1</output>
         </divide>
@@ -88,7 +88,7 @@
             <output>temp1</output>
         </multiply>
         <first>
-            <input>temp1</input>
+            <input clear="false">temp1</input>
             <output>h0</output>
         </first>
         <subtract>
@@ -97,7 +97,7 @@
             <output>h</output>
         </subtract>
         <differentiate>
-            <input>h</input>
+            <input clear="false">h</input>
             <output>temp1</output>
         </differentiate>
         <divide>
@@ -106,7 +106,7 @@
             <output>v</output>
         </divide>
         <multiply>
-            <input>v</input>
+            <input clear="false">v</input>
             <input type="value">3.6</input>
             <output>vkmh</output>
         </multiply>

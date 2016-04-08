@@ -125,8 +125,8 @@
     </views>
     <analysis>
         <autocorrelation>
-            <input as="x">gyr_time</input>
-            <input as="y">gyrX</input>
+            <input as="x" clear="false">gyr_time</input>
+            <input as="y" clear="false">gyrX</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -134,8 +134,8 @@
         </autocorrelation>
 
         <autocorrelation>
-            <input as="x">gyr_time</input>
-            <input as="y">gyrY</input>
+            <input as="x" clear="false">gyr_time</input>
+            <input as="y" clear="false">gyrY</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -143,8 +143,8 @@
         </autocorrelation>
 
         <autocorrelation>
-            <input as="x">gyr_time</input>
-            <input as="y">gyrZ</input>
+            <input as="x" clear="false">gyr_time</input>
+            <input as="y" clear="false">gyrZ</input>
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">2.5</input>
             <output as="x">autocorrelation_t</output>
@@ -159,30 +159,30 @@
         </add>
 
         <threshold falling="true">
-            <input as="x">autocorrelation_t</input>
-            <input as="y">autocorrelation</input>
+            <input as="x" clear="false">autocorrelation_t</input>
+            <input as="y" clear="false">autocorrelation</input>
             <output>t0</output>
         </threshold>
         <multiply>
-            <input>t0</input>
+            <input clear="false">t0</input>
             <input type="value">2</input>
             <output>dt</output>
         </multiply>
         <add>
             <input>t0</input>
-            <input>dt</input>
+            <input clear="false">dt</input>
             <output>t1</output>
         </add>
         <add>
-            <input>t1</input>
+            <input clear="false">t1</input>
             <input>dt</input>
             <output>t2</output>
         </add>
         <rangefilter>
-            <input>autocorrelation_t</input>
+            <input clear="false">autocorrelation_t</input>
             <input as="min">t1</input>
             <input as="max">t2</input>
-            <input>autocorrelation</input>
+            <input clear="false">autocorrelation</input>
             <output>search_t</output>
             <output>search_y</output>
         </rangefilter>
@@ -193,18 +193,18 @@
         </max>
         <divide>
             <input type="value">1</input>
-            <input>period</input>
+            <input clear="false">period</input>
             <output>frequency</output>
         </divide>
         <multiply>
             <input type="value">6.283185307</input>
-            <input>frequency</input>
+            <input clear="false">frequency</input>
             <output>pi2f</output>
         </multiply>
         <multiply>
+            <input clear="false">pi2f</input>
             <input>pi2f</input>
-            <input>pi2f</input>
-            <input>length</input>
+            <input clear="false">length</input>
             <output>g</output>
         </multiply>
     </analysis>
