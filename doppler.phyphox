@@ -77,7 +77,7 @@
             <edit label="Speed of sound" unit="m/s" default="340" signed="false">
                 <output>c</output>
             </edit>
-            <info label="The algorithm will look for a frequency in around the base frequency from -range to +range. And use the nth period (below) to determine the frequency." />
+            <info label="The algorithm will look for a frequency around the base frequency from -range to +range. And use the nth period (below) to determine the frequency." />
             <value label="nth period">
                 <input>periodFactor</input>
             </value>
@@ -93,7 +93,7 @@
             </graph>
         </view>
     </views>
-    <analysis>
+    <analysis sleep="0.1">
         <ramp>
             <input as="start" type="value">0</input>
             <input as="stop" type="value">0.25</input>
@@ -173,7 +173,7 @@
         </periodicity>
 
         <divide>
-            <input>periodFactor</input>
+            <input clear="false">periodFactor</input>
             <input>period</input>
             <output>frequency</output>
         </divide>
