@@ -1,0 +1,107 @@
+<phyphox version="1.0">
+    <title>Audio Amplitude</title>
+    <category>Acoustics</category>
+    <icon>Amp</icon>
+    <description>
+        Get the amplitude of sounds.
+
+        This experiments simply records short intervals from the microphone and calculates the peak amplitude of the signal and the root-mean-square.
+    </description>
+    <translations>
+        <translation locale="de">
+            <title>Audio Amplitude</title>
+            <category>Akustik</category>
+            <description>
+                Ermittelt die Amplitude von Audio-Signalen.
+
+                Dieses Experiment nimmt kurze Intervalle über das Mikrofon auf und berechnet die Spitzenamplitude und den RMS-Wert (Root-mean-square).
+            </description>
+            <string original="Amplitudes">Amplituden</string>
+            <string original="Peak Amplitude">Spitzenamplitude</string>
+            <string original="RMS Amplitude">RMS-Amplitude</string>
+            <string original="Peak Amplitude (a.u.)">Spitzenamplitude (a.u.)</string>
+            <string original="RMS Amplitude (a.u.)">RMS-Amplitude (a.u.)</string>
+            <string original="Time (s)">Zeit (s)</string>
+        </translation>
+    </translations>
+    <data-containers>
+        <container size="2400">recording</container>
+        <container size="2400">recordingCopy</container>
+        <container size="2400">recordingSquared</container>
+        <container>sum</container>
+        <container>mean</container>
+        <container size="300">time</container>
+        <container size="300">peak</container>
+        <container size="300">rms</container>
+    </data-containers>
+    <input>
+        <audio rate="48000">
+            <output>recording</output>
+        </audio>
+    </input>
+    <views>
+        <view label="Amplitudes">
+            <value label="Peak Amplitude" unit="a.u.">
+                <input>peak</input>
+            </value>
+            <value label="RMS Amplitude" unit="a.u.">
+                <input>rms</input>
+            </value>
+            <graph label="Peak Amplitude" labelX="Time (s)" labelY="Peak Amplitude (a.u.)">
+                <input axis="x">time</input>
+                <input axis="y">peak</input>
+            </graph>
+            <graph label="RMS Amplitude" labelX="Time (s)" labelY="RMS Amplitude (a.u.)">
+                <input axis="x">time</input>
+                <input axis="y">rms</input>
+            </graph>
+        </view>
+    </views>
+    <analysis sleep="0.05">
+
+        <append>
+            <input>recording</input>
+            <output>recordingCopy</output>
+        </append>
+
+        <timer>
+            <output clear="false">time</output>
+        </timer>
+
+        <power>
+            <input as="base" clear="false">recordingCopy</input>
+            <input as="exponent" type="value">2</input>
+            <output>recordingSquared</output>
+        </power>
+
+        <integrate>
+            <input clear="false">recordingSquared</input>
+            <output>sum</output>
+        </integrate>
+
+        <divide>
+            <input>sum</input>
+            <input type="value">2400</input>
+            <output>mean</output>
+        </divide>
+
+        <power>
+            <input as="base" clear="false">mean</input>
+            <input as="exponent" type="value">0.5</input>
+            <output clear="false">rms</output>
+        </power>
+
+        <max>
+            <input as="y">recordingCopy</input>
+            <output as="max" clear="false">peak</output>
+        </max>
+
+    </analysis>
+    <export>
+        <set name="Amplitudes">
+            <data name="Time (s)">time</data>
+            <data name="Peak amplitude (a.u.)">peak</data>
+            <data name="RMS amplitude (a.u.)">rms</data>
+        </set>
+    </export>
+</phyphox>
