@@ -26,6 +26,7 @@
         <container size="2400">recordingCopy</container>
         <container size="2400" static="true">time</container>
         <container size="480" static="true">reltime</container>
+        <container size="2">triggerTMinList</container>
         <container>triggerT</container>
         <container>triggerTend</container>
         <container size="480">subtime</container>
@@ -38,7 +39,7 @@
     </input>
     <views>
         <view label="Scope">
-            <graph label="Audio Data" labelX="Time (ms)" labelY="Amplitude (a.u.)">
+            <graph label="Audio Data" labelX="Time (ms)" labelY="Amplitude (a.u.)" scaleMinY="extend" scaleMaxY="extend">
                 <input axis="x">reltime</input>
                 <input axis="y">subdata</input>
             </graph>
@@ -61,11 +62,22 @@
             <output>recordingCopy</output>
         </append>
 
+        <append>
+            <input type="value">40</input>
+            <output>triggerTMinList</output>
+        </append>
+
         <threshold falling="false">
             <input as="y" clear="false">recordingCopy</input>
             <input as="x">time</input>
-            <output>triggerT</output>
+            <output clear="false">triggerTMinList</output>
         </threshold>
+
+        <min>
+            <input as="y">triggerTMinList</input>
+            <output as="min">triggerT</output>
+        </min>
+
         <add>
             <input clear="false">triggerT</input>
             <input type="value">10</input>
