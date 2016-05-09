@@ -1,0 +1,255 @@
+<phyphox version="1.0">
+    <title>Magnetic ruler</title>
+    <category>Tools</category>
+    <description>
+        Use a series of magnets to measure distance, speed and accelleration of the phone.
+
+        For this experiment you should place a series of identical magnets along the track the phone will travel. The distance between the magnets has to be the same for each magnet and should be entered in the experiment. The phone will then use its magnetometer to determine when it has passed a magnet, allowing to calculate the total distance covered.
+    </description>
+    <translations>
+        <translation locale="de">
+            <title>Magnet-Lineal</title>
+            <category>Werkzeuge</category>
+            <description>
+                Mit einer Reihe von Magneten die zurückgelegte Entfernung, Geschwindigkeit und Beschleunigung des Handys messen.
+
+                Für dieses Experiment muss eine Reihe identischer Magnete entlang der Strecke platziert werden, die das Smartphone zurücklegen wird. Der Abstand zwischen den Magneten muss gleich sein und sollte im Experiment eingegeben werden. Mit Hilfe des Magnetometers kann dann bestimmt werden, wann ein Magnet in der Nähe ist und so die insgesamt zurückgelegte Strecke berechnet werden.
+            </description>
+            <string original="Distance">Entfernung</string>
+            <string original="Velocity">Geschwindigkeit</string>
+            <string original="Acceleration">Beschleunigung</string>
+            <string original="Results">Ergebnisse</string>
+            <string original="Raw Data">Rohdaten</string>
+            <string original="Distance of the magnets">Abstand der Magnete</string>
+        </translation>
+    </translations>
+    <data-containers>
+        <container>magnetDistance</container>
+        <container size="600" static="true">magnetIndices</container>
+        <container size="600">magnetPositions</container>
+        <container size="600">magX</container>
+        <container size="600">magX2</container>
+        <container size="600">magY</container>
+        <container size="600">magY2</container>
+        <container size="600">magZ</container>
+        <container size="600">magZ2</container>
+        <container size="600">magSum</container>
+        <container>magMax</container>
+        <container>magMin</container>
+        <container>magDiff</container>
+        <container>magDiffScaled</container>
+        <container>magMaxMin</container>
+        <container>magThreshold</container>
+        <container size="600">t</container>
+        <container size="600">max</container>
+        <container size="600">maxT</container>
+        <container size="600">pos</container>
+        <container size="600">posT</container>
+        <container size="600">speed</container>
+        <container size="600">speedT</container>
+        <container size="600">acc</container>
+        <container size="600">accT</container>
+        <container size="600">dpos</container>
+        <container size="600">dt</container>
+        <container size="600">dt2</container>
+        <container size="600">dspeed</container>
+    </data-containers>
+    <input>
+        <sensor type="magnetic_field">
+            <output component="x">magX</output>
+            <output component="y">magY</output>
+            <output component="z">magZ</output>
+            <output component="t">t</output>
+        </sensor>
+    </input>
+    <views>
+        <view label="Results">
+            <edit label="Distance of the magnets" unit="mm" factor="1000" signed="false" default="100">
+                <output>magnetDistance</output>
+            </edit>
+            <graph label="Distance" labelX="t (s)" labelY="x (m)">
+                <input axis="x">posT</input>
+                <input axis="y">pos</input>
+            </graph>
+            <graph label="Velocity" labelX="t (s)" labelY="v (m/s)">
+                <input axis="x">speedT</input>
+                <input axis="y">speed</input>
+            </graph>
+            <graph label="Acceleration" labelX="t (s)" labelY="a (m/s²)">
+                <input axis="x">accT</input>
+                <input axis="y">acc</input>
+            </graph>
+        </view>
+        <view label="Raw Data">
+            <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magX</input>
+            </graph>
+            <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magY</input>
+            </graph>
+            <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magZ</input>
+            </graph>
+            <graph label="Total magnetic field squared" labelX="t (s)" labelY="B² (µT²)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magSum</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop" type="value">599</input>
+            <input as="length" type="value">600</input>
+            <output>magnetIndices</output>
+        </ramp>
+
+        <multiply>
+            <input>magnetIndices</input>
+            <input>magnetDistance</input>
+            <output>magnetPositions</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">magX</input>
+            <input clear="false">magX</input>
+            <output>magX2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magY</input>
+            <input clear="false">magY</input>
+            <output>magY2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magZ</input>
+            <input clear="false">magZ</input>
+            <output>magZ2</output>
+        </multiply>
+
+        <add>
+            <input>magX2</input>
+            <input>magY2</input>
+            <input>magZ2</input>
+            <output>magSum</output>
+        </add>
+        <max>
+            <input as="y" clear="false">magSum</input>
+            <output as="max">magMax</output>
+        </max>
+        <min>
+            <input as="y" clear="false">magSum</input>
+            <output as="min">magMin</output>
+        </min>
+        <subtract>
+            <input>magMax</input>
+            <input clear="false">magMin</input>
+            <output>magDiff</output>
+        </subtract>
+        <multiply>
+            <input>magDiff</input>
+            <input type="value">0.1</input>
+            <output>magDiffScaled</output>
+        </multiply>
+        <add>
+            <input>magMin</input>
+            <input>magDiffScaled</input>
+            <output>magThreshold</output>
+        </add>
+        <max multiple="true">
+            <input as="y" clear="false">magSum</input>
+            <input as="x" clear="false">t</input>
+            <input as="threshold">magThreshold</input>
+            <output as="max">max</output>
+            <output as="position">maxT</output>
+        </max>
+
+        <match>
+            <input>maxT</input>
+            <input>magnetPositions</input>
+            <output>posT</output>
+            <output>pos</output>
+        </match>
+
+        <differentiate>
+            <input clear="false">posT</input>
+            <output>dt</output>
+        </differentiate>
+        <divide>
+            <input clear="false">dt</input>
+            <input type="value">2</input>
+            <output>dt2</output>
+        </divide>
+        <add>
+            <input clear="false">posT</input>
+            <input>dt2</input>
+            <output>speedT</output>
+        </add>
+        <differentiate>
+            <input clear="false">pos</input>
+            <output>dpos</output>
+        </differentiate>
+        <divide>
+            <input>dpos</input>
+            <input>dt</input>
+            <output>speed</output>
+        </divide>
+
+        <match>
+            <input>speed</input>
+            <input>speedT</input>
+            <output>speed</output>
+            <output>speedT</output>
+        </match>
+
+        <differentiate>
+            <input clear="false">speedT</input>
+            <output>dt</output>
+        </differentiate>
+        <divide>
+            <input clear="false">dt</input>
+            <input type="value">2</input>
+            <output>dt2</output>
+        </divide>
+        <add>
+            <input clear="false">speedT</input>
+            <input>dt2</input>
+            <output>accT</output>
+        </add>
+        <differentiate>
+            <input clear="false">speed</input>
+            <output>dspeed</output>
+        </differentiate>
+        <divide>
+            <input>dspeed</input>
+            <input clear="false">dt</input>
+            <output>acc</output>
+        </divide>
+
+        <match>
+            <input>acc</input>
+            <input>accT</input>
+            <output>acc</output>
+            <output>accT</output>
+        </match>        
+
+    </analysis>
+    <export>
+        <set name="Results">
+            <data name="t (s)">posT</data>
+            <data name="x (m)">pos</data>
+            <data name="t_v (s)">speedT</data>
+            <data name="v (m/s)">speed</data>
+            <data name="t_a (s)">accT</data>
+            <data name="a (m/s²)">acc</data>
+        </set>
+        <set name="Raw Data">
+            <data name="t (s)">t</data>
+            <data name="Magnetometer x (uT)">magX</data>
+            <data name="Magnetometer y (uT)">magY</data>
+            <data name="Magnetometer z (uT)">magZ</data>
+        </set>
+    </export>
+</phyphox>
