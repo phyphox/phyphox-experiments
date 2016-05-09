@@ -1,4 +1,4 @@
-<phyphox version="1.0">
+<phyphox version="1.0" locale="en">
     <title>Gyroscope</title>
     <category>Raw Sensors</category>
     <description>Get raw data from the gyroscope.</description>

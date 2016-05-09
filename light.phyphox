@@ -1,15 +1,22 @@
 <phyphox version="1.0">
-    <title>Light</title>
-    <category>Raw Sensors</category>
-    <description>Get raw data from the light sensor.</description>
     <translations>
+        <translation locale="en">
+            <title>Light</title>
+            <category>Raw Sensors</category>
+            <description>Get raw data from the light sensor.</description>
+            <string original="Raw Data">Raw Data</string>
+            <string original="Illuminance">Illuminance</string>
+            <string original="Info">
+                Note: On some devices the light sensor is only updated when there is a coarse change of illuminance.
+            </string>
+        </translation>
         <translation locale="de">
             <title>Licht</title>
             <category>Sensoren</category>
             <description>Rohdaten des Lichtsensors auslesen.</description>
             <string original="Raw Data">Rohdaten</string>
             <string original="Illuminance">Beleuchtungsstärke</string>
-            <string original="Note: On some devices the light sensor is only updated when there is a coarse change of illuminance.">
+            <string original="Info">
                 Auf manchen Geräten wird der Wert des Lichtsensors nur aktualisiert, wenn sich eine große Änderung der Beleuchtungsstärke ergibt.
             </string>
         </translation>
@@ -30,7 +37,7 @@
                 <input axis="x">illum_time</input>
                 <input axis="y">illum</input>
             </graph>
-            <info label="Note: On some devices the light sensor is only updated when there is a coarse change of illuminance." />
+            <info label="Info" />
         </view>
     </views>
     <export>
