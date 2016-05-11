@@ -25,34 +25,34 @@
     </translations>
     <data-containers>
         <container>magnetDistance</container>
-        <container size="600" static="true">magnetIndices</container>
-        <container size="600">magnetPositions</container>
-        <container size="600">magX</container>
-        <container size="600">magX2</container>
-        <container size="600">magY</container>
-        <container size="600">magY2</container>
-        <container size="600">magZ</container>
-        <container size="600">magZ2</container>
-        <container size="600">magSum</container>
+        <container size="3000" static="true">magnetIndices</container>
+        <container size="3000">magnetPositions</container>
+        <container size="3000">magX</container>
+        <container size="3000">magX2</container>
+        <container size="3000">magY</container>
+        <container size="3000">magY2</container>
+        <container size="3000">magZ</container>
+        <container size="3000">magZ2</container>
+        <container size="3000">magSum</container>
         <container>magMax</container>
         <container>magMin</container>
         <container>magDiff</container>
         <container>magDiffScaled</container>
         <container>magMaxMin</container>
         <container>magThreshold</container>
-        <container size="600">t</container>
-        <container size="600">max</container>
-        <container size="600">maxT</container>
-        <container size="600">pos</container>
-        <container size="600">posT</container>
-        <container size="600">speed</container>
-        <container size="600">speedT</container>
-        <container size="600">acc</container>
-        <container size="600">accT</container>
-        <container size="600">dpos</container>
-        <container size="600">dt</container>
-        <container size="600">dt2</container>
-        <container size="600">dspeed</container>
+        <container size="3000">t</container>
+        <container size="3000">max</container>
+        <container size="3000">maxT</container>
+        <container size="3000">pos</container>
+        <container size="3000">posT</container>
+        <container size="3000">speed</container>
+        <container size="3000">speedT</container>
+        <container size="3000">acc</container>
+        <container size="3000">accT</container>
+        <container size="3000">dpos</container>
+        <container size="3000">dt</container>
+        <container size="3000">dt2</container>
+        <container size="3000">dspeed</container>
     </data-containers>
     <input>
         <sensor type="magnetic_field">
@@ -150,7 +150,7 @@
         </subtract>
         <multiply>
             <input>magDiff</input>
-            <input type="value">0.1</input>
+            <input type="value">0.25</input>
             <output>magDiffScaled</output>
         </multiply>
         <add>
