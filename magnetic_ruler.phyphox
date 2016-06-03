@@ -50,6 +50,8 @@
         <container size="3000">posT</container>
         <container size="3000">speed</container>
         <container size="3000">speedT</container>
+        <container size="3000">speedClean</container>
+        <container size="3000">speedTClean</container>
         <container size="3000">dpos</container>
         <container size="3000">dt</container>
         <container size="3000">dt2</container>
@@ -72,8 +74,8 @@
                 <input axis="y">pos</input>
             </graph>
             <graph label="Velocity" labelX="t (s)" labelY="v (m/s)">
-                <input axis="x">speedT</input>
-                <input axis="y">speed</input>
+                <input axis="x">speedTClean</input>
+                <input axis="y">speedClean</input>
             </graph>
         </view>
         <view label="Raw Data">
@@ -207,8 +209,8 @@
         <match>
             <input>speed</input>
             <input>speedT</input>
-            <output>speed</output>
-            <output>speedT</output>
+            <output>speedClean</output>
+            <output>speedTClean</output>
         </match>
 
     </analysis>
@@ -216,8 +218,8 @@
         <set name="Results">
             <data name="t (s)">posT</data>
             <data name="x (m)">pos</data>
-            <data name="t_v (s)">speedT</data>
-            <data name="v (m/s)">speed</data>
+            <data name="t_v (s)">speedTClean</data>
+            <data name="v (m/s)">speedClean</data>
         </set>
         <set name="Raw Data">
             <data name="t (s)">t</data>
