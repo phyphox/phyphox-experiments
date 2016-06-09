@@ -38,10 +38,6 @@
         <container size="3000">magSumSmooth</container>
         <container size="3000">magSumFiltered</container>
         <container>magMax</container>
-        <container>magMin</container>
-        <container>magDiff</container>
-        <container>magDiffScaled</container>
-        <container>magMaxMin</container>
         <container>magThreshold</container>
         <container size="3000">t</container>
         <container size="3000">max</container>
@@ -148,25 +144,11 @@
             <input as="y" clear="false">magSumFiltered</input>
             <output as="max">magMax</output>
         </max>
-        <min>
-            <input as="y" clear="false">magSumFiltered</input>
-            <output as="min">magMin</output>
-        </min>
-        <subtract>
-            <input>magMax</input>
-            <input clear="false">magMin</input>
-            <output>magDiff</output>
-        </subtract>
         <multiply>
-            <input>magDiff</input>
-            <input type="value">0.25</input>
-            <output>magDiffScaled</output>
-        </multiply>
-        <add>
-            <input>magMin</input>
-            <input>magDiffScaled</input>
+            <input>magMax</input>
+            <input type="value">0.1</input>
             <output>magThreshold</output>
-        </add>
+        </multiply>
         <max multiple="true">
             <input as="y" clear="false">magSumFiltered</input>
             <input as="x" clear="false">t</input>
