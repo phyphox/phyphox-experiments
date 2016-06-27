@@ -26,6 +26,7 @@
             <string original="Vertical velocity">Vertikale Geschwindigkeit</string>
             <string original="Raw Data">Rohdaten</string>
             <string original="Pressure">Druck</string>
+            <string original="Height">Höhe</string>
         </translation>
     </translations>
     <data-containers>

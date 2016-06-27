@@ -21,7 +21,7 @@
             <string original="Acceleration">Beschleunigung</string>
             <string original="Results">Ergebnisse</string>
             <string original="Raw Data">Rohdaten</string>
-            <string original="Distance of the magnets">Abstand der Magnete</string>
+            <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
         </translation>
     </translations>
     <data-containers>
@@ -62,9 +62,10 @@
     </input>
     <views>
         <view label="Results">
-            <edit label="Distance of the magnets" unit="mm" factor="1000" signed="false" default="100">
+            <edit label="dx" unit="mm" factor="1000" signed="false" default="100">
                 <output>magnetDistance</output>
             </edit>
+            <info label="dx is the distance between two magnets" />
             <graph label="Distance" labelX="t (s)" labelY="x (m)">
                 <input axis="x">posT</input>
                 <input axis="y">pos</input>
@@ -87,7 +88,7 @@
                 <input axis="x">t</input>
                 <input axis="y">magZ</input>
             </graph>
-            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" partialUpdate="true">
+            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" lineWidth="2" color="#09d7de" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">magSumFiltered</input>
             </graph>
