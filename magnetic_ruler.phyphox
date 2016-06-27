@@ -88,7 +88,7 @@
                 <input axis="x">t</input>
                 <input axis="y">magZ</input>
             </graph>
-            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" lineWidth="2" color="#09d7de" partialUpdate="true">
+            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" lineWidth="2" color="09d7de" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">magSumFiltered</input>
             </graph>
