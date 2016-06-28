@@ -50,7 +50,7 @@
             </graph>
         </view>
         <view label="Raw Data">
-            <graph label="Gyroscope Y" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true">
+            <graph label="Gyroscope Y" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true" color="fff057">
                 <input axis="x">gyr_time</input>
                 <input axis="y">gyrY</input>
             </graph>

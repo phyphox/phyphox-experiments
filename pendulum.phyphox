@@ -90,7 +90,7 @@
             <graph label="Frequency" labelX="result index" labelY="Frequency (Hz)">
                 <input>frequency</input>
             </graph>
-            <graph label="g" labelX="result index" labelY="g (m/s²)">
+            <graph label="g" labelX="result index" labelY="g (m/s²)" color="8cc060">
                 <input>g</input>
             </graph>
         </view>
@@ -107,15 +107,15 @@
             </value>
         </view>
         <view label="Raw Data">
-            <graph label="Gyroscope X" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true">
+            <graph label="Gyroscope X" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true" color="09d7de">
                 <input axis="x">gyr_time</input>
                 <input axis="y">gyrX</input>
             </graph>
-            <graph label="Gyroscope Y" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true">
+            <graph label="Gyroscope Y" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true" color="fff057">
                 <input axis="x">gyr_time</input>
                 <input axis="y">gyrY</input>
             </graph>
-            <graph label="Gyroscope Z" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true">
+            <graph label="Gyroscope Z" labelX="t (s)" labelY="w (rad/s)" partialUpdate="true" color="ff456a">
                 <input axis="x">gyr_time</input>
                 <input axis="y">gyrZ</input>
             </graph>

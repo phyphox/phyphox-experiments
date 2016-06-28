@@ -21,6 +21,7 @@
             <string original="Fourier Transform">Fourier-Transformierte</string>
             <string original="Raw data">Rohdaten</string>
             <string original="Recording">Aufnahme</string>
+            <string original="Frequency (Hz)">Frequenz (Hz)</string>
         </translation>
     </translations>
     <data-containers>

@@ -30,15 +30,15 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Linear Acceleration X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Linear Acceleration X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="09d7de">
                 <input axis="x">acc_time</input>
                 <input axis="y">accX</input>
             </graph>
-            <graph label="Linear Acceleration Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Linear Acceleration Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="fff057">
                 <input axis="x">acc_time</input>
                 <input axis="y">accY</input>
             </graph>
-            <graph label="Linear Acceleration Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Linear Acceleration Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff456a">
                 <input axis="x">acc_time</input>
                 <input axis="y">accZ</input>
             </graph>

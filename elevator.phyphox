@@ -48,11 +48,11 @@
     </input>
     <views>
         <view label="Velocity">
-            <graph label="Vertical velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true">
+            <graph label="Vertical velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="fff057">
                 <input axis="x">p_time</input>
                 <input axis="y">v</input>
             </graph>
-            <graph label="Vertical velocity" labelX="t (s)" labelY="v (km/h)" partialUpdate="true">
+            <graph label="Vertical velocity" labelX="t (s)" labelY="v (km/h)" partialUpdate="true" color="fff057">
                 <input axis="x">p_time</input>
                 <input axis="y">vkmh</input>
             </graph>
