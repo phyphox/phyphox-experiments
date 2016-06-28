@@ -61,6 +61,8 @@
         <container size="240" static="true">chirp_f</container>
         <container size="240" static="true">chirp_temp1</container>
         <container size="240" static="true">chirp_temp2</container>
+        <container size="240" static="true">chirp_temp3</container>
+        <container size="240" static="true">chirp_temp4</container>
         <container size="240" static="true">chirp</container>
         <container size="240" static="true">weighted_chirp</container>
 
@@ -138,21 +140,21 @@
         <power>
             <input as="base">chirp_temp2</input>
             <input as="exponent" type="value">0.25</input>
-            <output>chirp_temp1</output>
+            <output>chirp_temp3</output>
         </power>
         <multiply>
             <input>chirp_f</input>
             <input>chirp_t</input>
             <input type="value">6.283185307</input>
-            <output>chirp_temp2</output>
+            <output>chirp_temp4</output>
         </multiply>
         <sin>
-            <input>chirp_temp2</input>
+            <input>chirp_temp4</input>
             <output>chirp</output>
         </sin>
         <multiply>
             <input>chirp</input>
-            <input>chirp_temp1</input>
+            <input>chirp_temp3</input>
             <output>weighted_chirp</output>
         </multiply>
 
