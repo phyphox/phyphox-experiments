@@ -75,7 +75,7 @@
         </power>
 
         <integrate>
-            <input clear="false">recordingSquared</input>
+            <input>recordingSquared</input>
             <output>sum</output>
         </integrate>
 
@@ -86,7 +86,7 @@
         </divide>
 
         <power>
-            <input as="base" clear="false">mean</input>
+            <input as="base">mean</input>
             <input as="exponent" type="value">0.5</input>
             <output clear="false">rms</output>
         </power>
