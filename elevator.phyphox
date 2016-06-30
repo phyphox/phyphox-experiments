@@ -30,15 +30,15 @@
         </translation>
     </translations>
     <data-containers>
-        <container size="600">pressure</container>
-        <container size="600">p_time</container>
-        <container size="600">dt</container>
-        <container size="600">v</container>
-        <container size="600">vkmh</container>
-        <container size="600">h</container>
+        <container size="0">pressure</container>
+        <container size="0">p_time</container>
+        <container size="0">dt</container>
+        <container size="0">v</container>
+        <container size="0">vkmh</container>
+        <container size="0">h</container>
         <container>h0</container>
-        <container size="600">temp1</container>
-        <container size="600">temp2</container>
+        <container size="0">temp1</container>
+        <container size="0">temp2</container>
     </data-containers>
     <input>
         <sensor type="pressure" rate="1" average="true">

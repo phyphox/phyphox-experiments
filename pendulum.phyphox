@@ -55,10 +55,10 @@
         <container>t2</container>
         <container size="125">search_t</container>
         <container size="125">search_y</container>
-        <container size="200">period</container>
-        <container size="200">frequency</container>
-        <container size="200">pi2f</container>
-        <container size="200">g</container>
+        <container size="0">period</container>
+        <container size="0">frequency</container>
+        <container size="0">pi2f</container>
+        <container size="0">g</container>
     </data-containers>
     <input>
         <sensor type="gyroscope" rate="50">

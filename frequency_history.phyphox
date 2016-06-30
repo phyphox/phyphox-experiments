@@ -38,9 +38,9 @@
         <container size="480">search_y</container>
         <container>period_single</container>
         <container>time_single</container>
-        <container size="1000">period</container>
-        <container size="1000">frequency</container>
-        <container size="1000">time_hist</container>
+        <container size="0">period</container>
+        <container size="0">frequency</container>
+        <container size="0">time_hist</container>
     </data-containers>
     <input>
         <audio rate="48000">

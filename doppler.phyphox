@@ -60,9 +60,9 @@
         <container size="100">temp2</container>
         <container size="100">speed</container>
         <container size="100">time_res</container>
-        <container size="1000">frequency_hist</container>
-        <container size="1000">speed_hist</container>
-        <container size="1000">time_hist</container>
+        <container size="0">frequency_hist</container>
+        <container size="0">speed_hist</container>
+        <container size="0">time_hist</container>
     </data-containers>
     <input>
         <audio rate="48000">

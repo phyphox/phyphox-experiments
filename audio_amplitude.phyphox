@@ -30,9 +30,9 @@
         <container size="2400">recordingSquared</container>
         <container>sum</container>
         <container>mean</container>
-        <container size="300">time</container>
-        <container size="300">peak</container>
-        <container size="300">rms</container>
+        <container size="0">time</container>
+        <container size="0">peak</container>
+        <container size="0">rms</container>
     </data-containers>
     <input>
         <audio rate="48000">

@@ -54,8 +54,8 @@
         <container>t2</container>
         <container size="125">search_t</container>
         <container size="125">search_y</container>
-        <container size="200">period</container>
-        <container size="200">frequency</container>
+        <container size="0">period</container>
+        <container size="0">frequency</container>
     </data-containers>
     <input>
         <sensor type="linear_acceleration" rate="50">

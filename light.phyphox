@@ -23,8 +23,8 @@
         </translation>
     </translations>
     <data-containers>
-        <container size="500">illum</container>
-        <container size="500">illum_time</container>
+        <container size="0">illum</container>
+        <container size="0">illum_time</container>
     </data-containers>
     <input>
         <sensor type="light">
