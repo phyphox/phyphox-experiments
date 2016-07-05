@@ -49,11 +49,11 @@
     </input>
     <views>
         <view label="History">
-            <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" style="dots" partialUpdate="true" logY="true" color="09d7de">
+            <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" style="dots" partialUpdate="true" logY="true">
                 <input axis="x">time_hist</input>
                 <input axis="y">frequency</input>
             </graph>
-            <graph label="Period" labelX="t (s)" labelY="Period (s)" style="dots" partialUpdate="true" color="fff057">
+            <graph label="Period" labelX="t (s)" labelY="Period (s)" style="dots" partialUpdate="true" color="ffff00">
                 <input axis="x">time_hist</input>
                 <input axis="y">period</input>
             </graph>

@@ -33,17 +33,18 @@
 
                 Hierbei müssen allerdings ein paar Dinge beachtet werden:
 
-                1. Ihr Smartphone kann eine unvorteilhafte Anordnung von Lautsprecher und Mikrofon haben.
+                1. Dein Smartphone kann eine unvorteilhafte Anordnung von Lautsprecher und Mikrofon haben.
                 Im Idealfall sind Mikrofon und Lautsprecher in die gleiche Richtung ausgerichtet. Offensichtlich entwürft man Smartphones aber so, dass der Lautsprecher beim Telefonieren am Ohr und das Mikrofon in der Nähe des Mundes ist. Meistens wird der Ton auch über einen zweiten Lautsprecher auf der Rückseite ausgegeben, der Klingeltöne möglichst laut und ungerichtet ausgeben soll.
 
                 2. Manche Objekte absorbieren Schall statt ihn zu reflektieren.
-                Es ist schwer möglich, die Entfernung zu &quot;weichen&quot; Objekten wie beispielsweise einem Menschen oder einem Sofa zu messen. Statt dessen sollten Sie es mit harten Objekten wie einer Steinwand oder einem Fenster versuchen.
+                Es ist schwer möglich, die Entfernung zu &quot;weichen&quot; Objekten wie beispielsweise einem Menschen oder einem Sofa zu messen. Statt dessen solltest du es mit harten Objekten wie einer Steinwand oder einem Fenster versuchen.
 
                 3. Man erhält Echos von vielen Objekten.
-                Schall breitet sich in der Regel ungerichtet aus. Für das Sonar bedeutet dies, dass Sie beim Versuch eine Wand zu messen auch Echos vom Boden, von der Decke, einer weiteren Wand in der Nähe, einem Pfosten und generell von jeder harten Oberfläche in Ihrer Umgebung erhalten. Das Ergebnis kann daher sehr schwer zu interpretieren sein und die Überlagerung kann die Messung unbrauchbar machen. Es empfielt sich daher, mit einem kleinen harten Zielobjekt zu beginnen und alle anderen Richtungen mit Schaumstoff abzuschirmen.
+                Schall breitet sich in der Regel ungerichtet aus. Für das Sonar bedeutet dies, dass du beim Versuch eine Wand zu messen auch Echos vom Boden, von der Decke, einer weiteren Wand in der Nähe, einem Pfosten und generell von jeder harten Oberfläche in deiner Umgebung erhalten. Das Ergebnis kann daher sehr schwer zu interpretieren sein und die Überlagerung kann die Messung unbrauchbar machen. Es empfielt sich daher, mit einem kleinen harten Zielobjekt zu beginnen und alle anderen Richtungen mit Schaumstoff abzuschirmen.
             </description>
             <string original="Speed of Sound">Schallgeschw.</string>
             <string original="Echo location">Entfernung der Echos</string>
+            <string original="Normalized to spherical surface">Auf Kugeloberfläche normiert</string>
             <string original="distance (cm)">Entfernung (cm)</string>
             <string original="Time (s)">Zeit (s)</string>
             <string original="Raw Data">Rohdaten</string>
@@ -65,6 +66,9 @@
         <container size="240" static="true">chirp_temp4</container>
         <container size="240" static="true">chirp</container>
         <container size="240" static="true">weighted_chirp</container>
+        <container size="1260" static="true">padding</container>
+        <container size="1500" static="true">padded_chirp</container>
+        <container size="7500" static="true">multi_chirp</container>
 
         <container size="11760">crosscorrelation_t</container>
         <container size="11760">crosscorrelation</container>
@@ -74,12 +78,11 @@
         <container>t1</container>
         <container>t2</container>
 
-        <container size="1200">cut_t</container>
-        <container size="1200">relative_cc</container>
-        <container size="1200">relative_t</container>
-        <container size="1200">distance</container>
-        <container size="1200" static="true">first_cc</container>
-        <container size="1200">diff_cc</container>
+        <container size="12000">cut_t</container>
+        <container size="12000">relative_cc</container>
+        <container size="12000">relative_t</container>
+        <container size="12000">distance</container>
+        <container size="12000">weighted_cc</container>
     </data-containers>
 
     <input>
@@ -89,7 +92,7 @@
     </input>
     <output>
         <audio>
-            <input>weighted_chirp</input>
+            <input>multi_chirp</input>
         </audio>
     </output>
     <views>
@@ -100,6 +103,10 @@
             <graph label="Echo location" history="5" labelX="distance (cm)" labelY="A (a.u.)">
                 <input axis="x">distance</input>
                 <input axis="y">relative_cc</input>
+            </graph>
+            <graph label="Normalized to spherical surface" history="5" labelX="distance (cm)" labelY="A (a.u.)">
+                <input axis="x">distance</input>
+                <input axis="y">weighted_cc</input>
             </graph>
         </view>
         <view label="Chirp">
@@ -158,9 +165,28 @@
             <output>weighted_chirp</output>
         </multiply>
 
+        <const>
+            <output>padding</output>
+        </const>
+
+        <append>
+            <input>weighted_chirp</input>
+            <input>padding</input>
+            <output>padded_chirp</output>
+        </append>
+
+        <append>
+            <input>padded_chirp</input>
+            <input>padded_chirp</input>
+            <input>padded_chirp</input>
+            <input>padded_chirp</input>
+            <input>padded_chirp</input>
+            <output>multi_chirp</output>
+        </append>
+
         <crosscorrelation>
             <input>recording</input>
-            <input clear="false">weighted_chirp</input>
+            <input clear="false">multi_chirp</input>
             <output>crosscorrelation</output>
         </crosscorrelation>
 
@@ -215,16 +241,12 @@
             <output>distance</output>
         </multiply>
 
-        <append>
+        <multiply>
             <input clear="false">relative_cc</input>
-            <output>first_cc</output>
-        </append>
-
-        <subtract>
-            <input clear="false">relative_cc</input>
-            <input>first_cc</input>
-            <output>diff_cc</output>
-        </subtract>
+            <input clear="false">distance</input>
+            <input clear="false">distance</input>
+            <output>weighted_cc</output>
+        </multiply>
     </analysis>
     <export>
         <set name="Echo location">

@@ -76,19 +76,19 @@
             </graph>
         </view>
         <view label="Raw Data">
-            <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true">
+            <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true" color="ffffff">
                 <input axis="x">t</input>
                 <input axis="y">magX</input>
             </graph>
-            <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true">
+            <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true" color="ffffff">
                 <input axis="x">t</input>
                 <input axis="y">magY</input>
             </graph>
-            <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true">
+            <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true" color="ffffff">
                 <input axis="x">t</input>
                 <input axis="y">magZ</input>
             </graph>
-            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" lineWidth="2" color="09d7de" partialUpdate="true">
+            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="B² (µT²)" lineWidth="2" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">magSumFiltered</input>
             </graph>

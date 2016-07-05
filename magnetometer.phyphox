@@ -27,15 +27,15 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Magnetometer X" labelX="t (s)" labelY="B (µT)" partialUpdate="true" color="09d7de">
+            <graph label="Magnetometer X" labelX="t (s)" labelY="B (µT)" partialUpdate="true">
                 <input axis="x">mag_time</input>
                 <input axis="y">magX</input>
             </graph>
-            <graph label="Magnetometer Y" labelX="t (s)" labelY="B (µT)" partialUpdate="true" color="fff057">
+            <graph label="Magnetometer Y" labelX="t (s)" labelY="B (µT)" partialUpdate="true" color="ffff00">
                 <input axis="x">mag_time</input>
                 <input axis="y">magY</input>
             </graph>
-            <graph label="Magnetometer Z" labelX="t (s)" labelY="B (µT)" partialUpdate="true" color="ff456a">
+            <graph label="Magnetometer Z" labelX="t (s)" labelY="B (µT)" partialUpdate="true" color="ff6060">
                 <input axis="x">mag_time</input>
                 <input axis="y">magZ</input>
             </graph>
