@@ -253,6 +253,7 @@
         <set name="Echo location">
             <data name="Distance (cm)">distance</data>
             <data name="Crosscorrelation (a.u.)">crosscorrelation</data>
+            <data name="Normalized CC (a.u.)">weighted_cc</data>
         </set>
         <set name="Chirp">
             <data name="Time (s)">chirp_t</data>

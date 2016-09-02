@@ -151,9 +151,9 @@
         </autocorrelation>
 
         <add>
-            <input>autocorrelation_x</input>
-            <input>autocorrelation_y</input>
-            <input>autocorrelation_z</input>
+            <input clear="false">autocorrelation_x</input>
+            <input clear="false">autocorrelation_y</input>
+            <input clear="false">autocorrelation_z</input>
             <output>autocorrelation</output>
         </add>
 
