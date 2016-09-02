@@ -45,6 +45,17 @@
         <container size="4800">search_y</container>
         <container>max</container>
         <container>period_1000</container>
+        <container size="100" static="true">factors</container>
+        <container size="100">multiples</container>
+        <container>multipleFactor</container>
+        <container>multiplePeriod</container>
+        <container>periodHalf</container>
+        <container>fineSearchMin</container>
+        <container>fineSearchMax</container>
+        <container size="4800">fineSearch</container>
+        <container size="4800">fineSearch_t</container>
+        <container>fineSearchResult</container>
+        <container>fineFrequency_1000</container>
     </data-containers>
     <input>
         <audio rate="48000">
@@ -120,8 +131,62 @@
             <output as="max">max</output>
             <output as="position">period_1000</output>
         </max>
+        <ramp>
+            <input as="start" type="value">1</input>
+            <input as="stop" type="value">100</input>
+            <output>factors</output>
+        </ramp>
         <multiply>
-            <input>period_1000</input>
+            <input clear="false">period_1000</input>
+            <input clear="false">factors</input>
+            <output>multiples</output>
+        </multiply>
+        <rangefilter>
+            <input as="in">multiples</input>
+            <input as="max" type="value">18</input>
+            <input as="in">factors</input>
+            <output>multiplePeriod</output>
+            <output>multipleFactor</output>
+        </rangefilter>
+        <divide>
+            <input clear="false">period_1000</input>
+            <input type="value">2</input>
+            <output>periodHalf</output>
+        </divide>
+        <subtract>
+            <input clear="false">multiplePeriod</input>
+            <input clear="false">periodHalf</input>
+            <output>fineSearchMin</output>
+        </subtract>
+        <add>
+            <input clear="false">multiplePeriod</input>
+            <input>periodHalf</input>
+            <output>fineSearchMax</output>
+        </add>
+        <rangefilter>
+            <input as="in" clear="false">autoco_t</input>
+            <input as="min">fineSearchMin</input>
+            <input as="max">fineSearchMax</input>
+            <input as="in" clear="false">autocorrelation</input>
+            <output>fineSearch_t</output>
+            <output>fineSearch</output>
+        </rangefilter>
+
+        <max>
+            <input as="y">fineSearch</input>
+            <input as="x">fineSearch_t</input>
+            <output as="max">max</output>
+            <output as="position">fineSearchResult</output>
+        </max>
+
+        <divide>
+            <input>fineSearchResult</input>
+            <input>multipleFactor</input>
+            <output>fineFrequency_1000</output>
+        </divide>
+
+        <multiply>
+            <input>fineFrequency_1000</input>
             <input type="value">0.001</input>
             <output>period</output>
         </multiply>
