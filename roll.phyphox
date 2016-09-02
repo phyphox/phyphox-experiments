@@ -40,7 +40,7 @@
     </input>
     <views>
         <view label="Velocity">
-            <edit label="Roll radius" unit="cm" factor="100" default="10" signed="false">
+            <edit label="Roll radius" unit="cm" factor="100" default="0.05" signed="false">
                 <output>r</output>
             </edit>
             <graph label="Velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true">

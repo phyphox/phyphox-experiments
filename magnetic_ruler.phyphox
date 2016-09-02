@@ -65,7 +65,7 @@
     </input>
     <views>
         <view label="Results">
-            <edit label="dx" unit="mm" factor="1000" signed="false" default="100">
+            <edit label="dx" unit="mm" factor="1000" signed="false" default="0.1">
                 <output>magnetDistance</output>
             </edit>
             <info label="dx is the distance between two magnets" />

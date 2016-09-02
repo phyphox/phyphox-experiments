@@ -77,7 +77,7 @@
             <value label="Frequency" unit="Hz">
                 <input>frequency</input>
             </value>
-            <edit label="Length" unit="cm" factor="100" default="50" signed="false">
+            <edit label="Length" unit="cm" factor="100" default="0.5" signed="false">
                 <output>length</output>
             </edit>
             <value label="g" unit="m/s²">
