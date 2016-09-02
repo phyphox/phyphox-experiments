@@ -9,6 +9,7 @@
 
         The analysis is done by calculating the autocorrelation of the audio signal, which is then analyzed for its first maximum. As an autocorrelation shows a maximum at dt = 0, we look for the first time t0 it crosses zero. From there we expect the autocorrelation to oscillate periodically about zero. Through this assumption we extract the position of the first full maximum to be in the range 3x t0 to 5x t0 in which we look for the maximum value.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Autocorrelation</link>
     <translations>
         <translation locale="de">
             <title>Audio Autokorrelation</title>

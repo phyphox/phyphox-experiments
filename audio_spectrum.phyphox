@@ -7,6 +7,7 @@
 
             This experiment records audio from the microphone and calculates its frequency spectrum through a Fourier transformation (FFT). If you only have a single tone with a single frequency, you might get more precise results from the &quot;autocorrelation&quot; audio experiment.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
     <translations>
         <translation locale="de">
             <title>Audio Spektrum</title>

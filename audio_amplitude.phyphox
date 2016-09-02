@@ -7,6 +7,7 @@
 
         This experiments simply records short intervals from the microphone and calculates the peak amplitude of the signal and the root-mean-square.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Amplitude</link>
     <translations>
         <translation locale="de">
             <title>Audio Amplitude</title>

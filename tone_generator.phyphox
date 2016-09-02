@@ -5,6 +5,7 @@
     <description>
         Generate a tone of specific frequency.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Tone_Generator</link>
     <translations>
         <translation locale="de">
             <title>Tongenerator</title>

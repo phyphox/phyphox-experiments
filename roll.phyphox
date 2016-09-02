@@ -7,6 +7,8 @@
 
         You should place your phone in a paper roll so that it rotates about its longest side. This experiment then takes the angular velocity measured by the gyroscope as well as the radius of the roll to calculate the speed at which the roll travels.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Roll</link>
+    <link label="Video">https://youtu.be/gPq4Le9kXWE</link>
     <translations>
         <translation locale="de">
             <title>Rolle</title>
@@ -16,6 +18,7 @@
 
                 Platzieren Sie Ihr Smartphone in einer Papprolle so, dass es um seine längste Achse rotiert. Das Experiment ermittelt die Winkelgeschwindigkeit über das Gyroskop berechnet hieraus und aus dem eingegebenen Radius der Rolle die Geschwindigkeit mit der sich die Rolle bewegt.
             </description>
+            <link label="Video">https://youtu.be/gqxBT3R0fw8</link>
             <string original="Velocity">Geschwindigkeit</string>
             <string original="Roll radius">Rollenradius</string>
             <string original="Raw Data">Rohdaten</string>

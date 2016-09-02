@@ -7,6 +7,7 @@
 
         This experiment records audio from the microphone and analyses it for its frequency over short periods of time. This only works if there is a single tone with a fixed frequency as it uses autocorrelation. The result will be plotted as a frequency over time.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Frequency_History</link>
     <translations>
         <translation locale="de">
             <title>Frequenz-Verlauf</title>

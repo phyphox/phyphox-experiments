@@ -10,6 +10,7 @@
         More details:
         To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a height difference using the international barometric height formula. The height difference with divided by their time difference gives the vertical speed.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Elevator</link>
     <translations>
         <translation locale="de">
             <title>Aufzug</title>

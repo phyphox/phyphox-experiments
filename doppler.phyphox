@@ -7,6 +7,7 @@
 
         You need a tone generator that emits a constant frequency (for example 1000Hz). Enter this base frequency in the experiments setup and select a detection range in which you expect the Doppler shifted frequency (for example 10Hz). The experiment will determine the recorded frequency and calculate the relative speed of the souond source.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Doppler_Effect</link>
     <translations>
         <translation locale="de">
             <title>Dopplereffekt</title>

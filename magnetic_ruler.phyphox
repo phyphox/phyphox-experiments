@@ -7,6 +7,8 @@
 
         For this experiment you should place a series of identical magnets along the track the phone will travel. The distance between the magnets has to be the same for each magnet and should be entered in the experiment. The phone will then use its magnetometer to determine when it has passed a magnet, allowing to calculate the total distance covered.
     </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Ruler</link>
+    <link label="Video">https://youtu.be/TS0zw1ecy6A</link>
     <translations>
         <translation locale="de">
             <title>Magnet-Lineal</title>
@@ -16,6 +18,7 @@
 
                 Für dieses Experiment muss eine Reihe identischer Magnete entlang der Strecke platziert werden, die das Smartphone zurücklegen wird. Der Abstand zwischen den Magneten muss gleich sein und sollte im Experiment eingegeben werden. Mit Hilfe des Magnetometers kann dann bestimmt werden, wann ein Magnet in der Nähe ist und so die insgesamt zurückgelegte Strecke berechnet werden.
             </description>
+            <link label="Video">https://youtu.be/kyxQukhq_io</link>
             <string original="Distance">Entfernung</string>
             <string original="Velocity">Geschwindigkeit</string>
             <string original="Acceleration">Beschleunigung</string>
