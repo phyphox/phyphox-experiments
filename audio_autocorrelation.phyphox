@@ -17,7 +17,7 @@
             <description>
                 Die Frequenz eines einzelnen Tons ermitteln.
 
-                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn Sie mehrere Frequenzen (wie in einem Akkord) analysieren möchten, verwenden Sie statt dessen das Experiment &quot;Audio Spektrum&quot;.
+                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment &quot;Audio Spektrum&quot;.
 
                 Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Die Frequenz entspricht dem ersten Maximum der Autokorrelation nach dem stets auftretenden Maximum bei dt = 0. Von dem Punkt t0, an welchem das Signal zum ersten Mal die Nulllinie unterschreitet, sucht der Algorithmus in dem Bereich 3x t0 bis 5x t0 nach dem Maximum der Autokorrelation, in der Annahme, dass diese sich periodisch um die Nulllinie bewegt.
             </description>
