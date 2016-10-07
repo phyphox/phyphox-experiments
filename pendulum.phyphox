@@ -13,7 +13,7 @@
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Pendulum</link>
     <translations>
         <translation locale="de">
-            <title>Pendel</title>
+            <title>Fadenpendel</title>
             <category>Mechanik</category>
             <description>
                 Misst die Erdbeschleunigung (g=9.81m/s²) indem das Smartphone als Pendel benutzt wird.
