@@ -1,0 +1,178 @@
+<phyphox version="1.0" locale="en">
+    <title>Centrifugal acceleration</title>
+    <category>Mechanics</category>
+    <description>
+        Visualizes the centrifugal acceleration as a function of angular velocity.
+
+        This experiment calculates the absolute value of the angular velocity ω from the gyroscope as well as the absolute acceleration a from the accelerometer. By plotting a against ω the relation a = r·ω² can be shown easily, especially when plotting against ω² gives a straight line.
+
+        To see this, you need to measure at different angular velocities but at a fixed radius. A salad spinner or a small carousel work great.
+    </description>
+    <icon format="base64">
+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
+    </icon>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Centrifugal_Acceleration</link>
+    <translations>
+        <translation locale="de">
+            <title>Zentrifugalbeschleunigung</title>
+            <category>Mechanik</category>
+            <description>
+                Stellt die Zentrifugalbeschleunigung als Funktion der Winkelgeschwindigkeit dar.
+
+                Dieses Experiment berechnet den Absolutwert der Winkelgeschwindigkeit ω des Gyroskops sowie den Absolutwert der Beschleunigung a des Beschleunigungssensors. Durch Auftragen von a gegen ω kann man leicht die Beziehung a = r·ω² veranschaulichen, insbesondere wenn beim Auftragen gegen ω² eine Gerade entsteht.
+
+                Um dies sehen zu können, muss bei verschiedenen Winkelgeschwindigkeiten mit festem Radius gemessen werden. Eine Salatschleuder oder ein kleines Karussell eigenen sich hierfür hervorragend.
+            </description>
+            <string original="Relation">Verhältnis</string>
+            <string original="Time">Zeit</string>
+            <string original="Acceleration">Beschleunigung</string>
+            <string original="Angular velocity">Winkelgeschwindigkeit</string>
+            <string original="Acceleration a (m/s²)">Beschleunigung a (m/s²)</string>
+            <string original="Angular velocity ω (rad/s)">Winkelgeschwindigkeit ω (rad/s)</string>
+            <string original="Square plot">Quadratische Auftragung</string>
+        </translation>
+    </translations>
+    <data-containers>
+        <container size="1">accX</container>
+        <container size="1">accY</container>
+        <container size="1">accZ</container>
+        <container size="1">accX2</container>
+        <container size="1">accY2</container>
+        <container size="1">accZ2</container>
+        <container size="1">acc_temp</container>
+        <container size="1">acc_result</container>
+        <container size="1">acc_time</container>
+        <container size="1">gyrX</container>
+        <container size="1">gyrY</container>
+        <container size="1">gyrZ</container>
+        <container size="1">gyrX2</container>
+        <container size="1">gyrY2</container>
+        <container size="1">gyrZ2</container>
+        <container size="1">gyr_squared_result</container>
+        <container size="1">gyr_result</container>
+        <container size="1">gyr_time</container>
+        <container size="1">t_temp</container>
+        <container size="1">t_result</container>
+        <container size="0">acc</container>
+        <container size="0">gyr</container>
+        <container size="0">gyr_squared</container>
+        <container size="0">t</container>
+    </data-containers>
+    <input>
+        <sensor type="linear_acceleration" rate="2" average="true">
+            <output component="x">accX</output>
+            <output component="y">accY</output>
+            <output component="z">accZ</output>
+            <output component="t">acc_time</output>
+        </sensor>
+        <sensor type="gyroscope" rate="2" average="true">
+            <output component="x">gyrX</output>
+            <output component="y">gyrY</output>
+            <output component="z">gyrZ</output>
+            <output component="t">gyr_time</output>
+        </sensor>
+    </input>
+    <views>
+        <view label="Relation">
+            <graph label="Acceleration" labelX="Angular velocity ω (rad/s)" labelY="Acceleration a (m/s²)" partialUpdate="false" style="dots">
+                <input axis="x">gyr</input>
+                <input axis="y">acc</input>
+            </graph>
+            <graph label="Square plot" labelX="ω² (rad/s)²" labelY="a (m/s²)" partialUpdate="false" style="dots">
+                <input axis="x">gyr_squared</input>
+                <input axis="y">acc</input>
+            </graph>
+        </view>
+        <view label="Time">
+            <graph label="Acceleration" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">acc</input>
+            </graph>
+            <graph label="Angular velocity" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">gyr</input>
+            </graph>
+        </view>
+    </views>
+    <analysis sleep="0.5">
+        <multiply>
+            <input clear="false">accX</input>
+            <input clear="true">accX</input>
+            <output clear="true">accX2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accY</input>
+            <input clear="true">accY</input>
+            <output clear="true">accY2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accZ</input>
+            <input clear="true">accZ</input>
+            <output clear="true">accZ2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">gyrX</input>
+            <input clear="true">gyrX</input>
+            <output clear="true">gyrX2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">gyrY</input>
+            <input clear="true">gyrY</input>
+            <output clear="true">gyrY2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">gyrZ</input>
+            <input clear="true">gyrZ</input>
+            <output clear="true">gyrZ2</output>
+        </multiply>
+        <add>
+            <input clear="true">acc_time</input>
+            <input clear="true">gyr_time</input>
+            <output clear="true">t_temp</output>
+        </add>
+        <add>
+            <input clear="true">accX2</input>
+            <input clear="true">accY2</input>
+            <input clear="true">accZ2</input>
+            <output clear="true">acc_temp</output>
+        </add>
+        <add>
+            <input clear="true">gyrX2</input>
+            <input clear="true">gyrY2</input>
+            <input clear="true">gyrZ2</input>
+            <output clear="true">gyr_squared_result</output>
+        </add>
+        <divide>
+            <input clear="true">t_temp</input>
+            <input type="value">2</input>
+            <output clear="true">t_result</output>
+        </divide>
+        <power>
+            <input as="base" clear="true">acc_temp</input>
+            <input as="exponent" type="value">0.5</input>
+            <output clear="true">acc_result</output>
+        </power>
+        <power>
+            <input as="base" clear="false">gyr_squared_result</input>
+            <input as="exponent" type="value">0.5</input>
+            <output clear="true">gyr_result</output>
+        </power>
+        <match>
+            <input clear="true">acc_result</input>
+            <input clear="true">gyr_result</input>
+            <input clear="true">gyr_squared_result</input>
+            <input clear="true">t_result</input>
+            <output clear="false">acc</output>
+            <output clear="false">gyr</output>
+            <output clear="false">gyr_squared</output>
+            <output clear="false">t</output>
+        </match>
+    </analysis>
+    <export>
+        <set name="Data">
+            <data name="Time (s)">t</data>
+            <data name="Angular velocity (rad/s)">gyr</data>
+            <data name="Acceleration (m/s^2)">acc</data>
+        </set>
+    </export>
+</phyphox>
