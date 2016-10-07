@@ -24,6 +24,11 @@
             <string original="Acceleration">Beschleunigung</string>
             <string original="Results">Ergebnisse</string>
             <string original="Raw Data">Rohdaten</string>
+            <string original="Magnetic field x">Magnetfeld x</string>
+            <string original="Magnetic field y">Magnetfeld y</string>
+            <string original="Magnetic field z">Magnetfeld z</string>
+            <string original="Total magnetic field squared and filtered">Gesamtfeld quadriert und gefiltert</string>
+            <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
             <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
         </translation>
     </translations>
