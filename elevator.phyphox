@@ -33,7 +33,9 @@
     <data-containers>
         <container size="0">pressure</container>
         <container size="0">p_time</container>
+        <container size="0">v_time</container>
         <container size="0">dt</container>
+        <container size="0">dt2</container>
         <container size="0">v</container>
         <container size="0">vkmh</container>
         <container size="0">h</container>
@@ -50,11 +52,11 @@
     <views>
         <view label="Velocity">
             <graph label="Vertical velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
-                <input axis="x">p_time</input>
+                <input axis="x">v_time</input>
                 <input axis="y">v</input>
             </graph>
             <graph label="Vertical velocity" labelX="t (s)" labelY="v (km/h)" partialUpdate="true" color="ffff00">
-                <input axis="x">p_time</input>
+                <input axis="x">v_time</input>
                 <input axis="y">vkmh</input>
             </graph>
             <graph label="Height" labelX="t (s)" labelY="h (m)" partialUpdate="true">
@@ -74,6 +76,21 @@
             <input clear="false">p_time</input>
             <output>dt</output>
         </differentiate>
+        <divide>
+            <input clear="false">dt</input>
+            <input type="value">2</input>
+            <output>dt2</output>
+        </divide>
+        <match>
+            <input clear="false">p_time</input>
+            <input clear="false">dt2</input>
+            <output>temp1</output>
+        </match>
+        <add>
+            <input>temp1</input>
+            <input>dt2</input>
+            <output>v_time</output>
+        </add>
 
         <divide>
             <input clear="false">pressure</input>
