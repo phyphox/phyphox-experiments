@@ -5,7 +5,7 @@
     <description>
         Determine the speed of an evelator using the barometer.
 
-        Changes in height within a short time can be measured quite accurately using the barometer. This can be used to derive the vertical speed of an elevator.
+        Changes in height within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator.
 
         More details:
         To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a height difference using the international barometric height formula. The height difference with divided by their time difference gives the vertical speed.
@@ -16,9 +16,9 @@
             <title>Aufzug</title>
             <category>Alltag</category>
             <description>
-                Bestimmt die Geschwindigkeit eines Aufzugs mithilfe des Barometers.
+                Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
 
-                Höhenänderung können über eine kurze Zeitdauer recht genau mit einem Barometer bestimmt werden. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen.
+                Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen.
 
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinanderfolgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
