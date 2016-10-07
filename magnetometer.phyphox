@@ -10,6 +10,7 @@
         Do not expose your phone to strong magnetic fields!
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Magnetic_field</link>
+    <link label="x / y / z">http://phyphox.org/sensors/</link>
     <translations>
         <translation locale="de">
             <title>Magnetfeld</title>
@@ -22,6 +23,7 @@
                 Setze dein Handy niemals starken Magnetfeldern aus!
             </description>
             <string original="Raw Data">Rohdaten</string>
+            <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
     </translations>
     <data-containers>

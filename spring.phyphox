@@ -11,6 +11,7 @@
         The oscillation period is obtained through the autocorrelation of each accelerometer component. The sum of three autocorrelations is then analyzed for its first maximum. As an autocorrelation shows a maximum at dt = 0, we look for the first time t0 it crosses zero. From there we expect the autocorrelation to oscillate as the pendulum gives a sine function. Through this assumption we extract the position of the first full maximum to be in the range 3 t0 to 5 t0 in which we look for the maximum value.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Spring</link>
+    <link label="x / y / z">http://phyphox.org/sensors/</link>
     <translations>
         <translation locale="de">
             <title>Federpendel</title>
@@ -36,6 +37,7 @@
             <string original="Accelerometer X">Beschleunigung X</string>
             <string original="Accelerometer Y">Beschleunigung Y</string>
             <string original="Accelerometer Z">Beschleunigung Z</string>
+            <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
     </translations>
     <data-containers>
