@@ -100,7 +100,7 @@
     </output>
     <views>
         <view label="Echo location">
-            <edit label="Speed of Sound" unit="m/s" default="343">
+            <edit label="Speed of Sound" unit="m/s" default="340">
                 <output>speedofsound</output>
             </edit>
             <graph label="Echo location" history="5" labelX="distance (cm)" labelY="A (a.u.)">
