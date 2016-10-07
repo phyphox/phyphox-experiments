@@ -20,8 +20,8 @@
             <string original="Amplitudes">Amplituden</string>
             <string original="Peak Amplitude">Spitzenamplitude</string>
             <string original="RMS Amplitude">RMS-Amplitude</string>
-            <string original="Peak Amplitude (a.u.)">Spitzenamplitude (a.u.)</string>
-            <string original="RMS Amplitude (a.u.)">RMS-Amplitude (a.u.)</string>
+            <string original="Peak (a.u.)">Spitze (a.u.)</string>
+            <string original="RMS (a.u.)">RMS (a.u.)</string>
             <string original="Time (s)">Zeit (s)</string>
         </translation>
     </translations>
@@ -48,11 +48,11 @@
             <value label="RMS Amplitude" unit="a.u.">
                 <input>rms</input>
             </value>
-            <graph label="Peak Amplitude" labelX="Time (s)" labelY="Peak Amplitude (a.u.)">
+            <graph label="Peak Amplitude" labelX="Time (s)" labelY="Peak (a.u.)">
                 <input axis="x">time</input>
                 <input axis="y">peak</input>
             </graph>
-            <graph label="RMS Amplitude" labelX="Time (s)" labelY="RMS Amplitude (a.u.)" color="ffff00">
+            <graph label="RMS Amplitude" labelX="Time (s)" labelY="RMS (a.u.)" color="ffff00">
                 <input axis="x">time</input>
                 <input axis="y">rms</input>
             </graph>

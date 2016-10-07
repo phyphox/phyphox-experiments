@@ -6,7 +6,7 @@
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Pressure</link>
     <translations>
         <translation locale="de">
-            <title>Druck</title>
+            <title>Luftdruck</title>
             <category>Sensoren</category>
             <description>Rohdaten des Barometers auslesen.</description>
             <string original="Raw Data">Rohdaten</string>
