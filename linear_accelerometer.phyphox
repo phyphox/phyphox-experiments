@@ -15,6 +15,9 @@
             <string original="Linear Acceleration X">Lineare Beschleunigung X</string>
             <string original="Linear Acceleration Y">Lineare Beschleunigung Y</string>
             <string original="Linear Acceleration Z">Lineare Beschleunigung Z</string>
+            <string original="Acceleration X">Beschleunigung X</string>
+            <string original="Acceleration Y">Beschleunigung Y</string>
+            <string original="Acceleration Z">Beschleunigung Z</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
     </translations>
@@ -48,13 +51,13 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Linear Acceleration X" size="3" precision="3" unit="m/s²">
+            <value label="Acceleration X" size="2" precision="3" unit="m/s²">
                 <input>accX</input>
             </value>
-            <value label="Linear Acceleration Y" size="3" precision="3" unit="m/s²">
+            <value label="Acceleration Y" size="2" precision="3" unit="m/s²">
                 <input>accY</input>
             </value>
-            <value label="Linear Acceleration Z" size="3" precision="3" unit="m/s²">
+            <value label="Acceleration Z" size="2" precision="3" unit="m/s²">
                 <input>accZ</input>
             </value>
         </view>

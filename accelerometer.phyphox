@@ -48,13 +48,13 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Accelerometer X" size="3" precision="3" unit="m/s²">
+            <value label="Accelerometer X" size="2" precision="3" unit="m/s²">
                 <input>accX</input>
             </value>
-            <value label="Accelerometer Y" size="3" precision="3" unit="m/s²">
+            <value label="Accelerometer Y" size="2" precision="3" unit="m/s²">
                 <input>accY</input>
             </value>
-            <value label="Accelerometer Z" size="3" precision="3" unit="m/s²">
+            <value label="Accelerometer Z" size="2" precision="3" unit="m/s²">
                 <input>accZ</input>
             </value>
         </view>

@@ -43,7 +43,7 @@
             <info label="Info" />
         </view>
         <view label="Simple">
-            <value label="Illuminance" size="3" precision="1" unit="lx">
+            <value label="Illuminance" size="2" precision="1" unit="lx">
                 <input>illum</input>
             </value>
         </view>

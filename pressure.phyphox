@@ -32,7 +32,7 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Pressure" size="3" precision="3" unit="hPa">
+            <value label="Pressure" size="2" precision="3" unit="hPa">
                 <input>pressure</input>
             </value>
         </view>

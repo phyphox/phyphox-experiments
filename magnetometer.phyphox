@@ -57,13 +57,13 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Magnetometer X" size="3" precision="2" unit="µT">
+            <value label="Magnetometer X" size="2" precision="2" unit="µT">
                 <input>magX</input>
             </value>
-            <value label="Magnetometer Y" size="3" precision="2" unit="µT">
+            <value label="Magnetometer Y" size="2" precision="2" unit="µT">
                 <input>magY</input>
             </value>
-            <value label="Magnetometer Z" size="3" precision="2" unit="µT">
+            <value label="Magnetometer Z" size="2" precision="2" unit="µT">
                 <input>magZ</input>
             </value>
         </view>
