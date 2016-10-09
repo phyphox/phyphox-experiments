@@ -10,6 +10,7 @@
             <category>Sensoren</category>
             <description>Rohdaten des Barometers auslesen.</description>
             <string original="Raw Data">Rohdaten</string>
+            <string original="Simple">Einfach</string>
             <string original="Pressure">Druck</string>
         </translation>
     </translations>
@@ -24,11 +25,16 @@
         </sensor>
     </input>
     <views>
-        <view label="Raw Data">
+        <view label="Graph">
             <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" yPrecision="6" partialUpdate="true">
                 <input axis="x">p_time</input>
                 <input axis="y">pressure</input>
             </graph>
+        </view>
+        <view label="Simple">
+            <value label="Pressure" size="3" precision="3" unit="hPa">
+                <input>pressure</input>
+            </value>
         </view>
     </views>
     <export>

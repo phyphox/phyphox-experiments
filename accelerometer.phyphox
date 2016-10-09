@@ -1,4 +1,4 @@
-<phyphox version="1.0" locale="en">
+<phyphox version="1.2" locale="en">
     <title>Acceleration with g</title>
     <category>Raw Sensors</category>
     <icon format="base64">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</icon>
@@ -11,6 +11,7 @@
             <category>Sensoren</category>
             <description>Rohdaten des Beschleunigungssensors auslesen. Dieser Sensor entfernt nicht die Gravitationskraft aus den Daten, so dass er eine konstante Beschleunigung von 9.81 m/s² anzeigt, selbst wenn das Smartphone nicht bewegt wird.</description>
             <string original="Raw Data">Rohdaten</string>
+            <string original="Simple">Einfach</string>
             <string original="Accelerometer X">Beschleunigung X</string>
             <string original="Accelerometer Y">Beschleunigung Y</string>
             <string original="Accelerometer Z">Beschleunigung Z</string>
@@ -32,7 +33,7 @@
         </sensor>
     </input>
     <views>
-        <view label="Raw Data">
+        <view label="Graph">
             <graph label="Accelerometer X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
                 <input axis="x">acc_time</input>
                 <input axis="y">accX</input>
@@ -45,6 +46,17 @@
                 <input axis="x">acc_time</input>
                 <input axis="y">accZ</input>
             </graph>
+        </view>
+        <view label="Simple">
+            <value label="Accelerometer X" size="3" precision="3" unit="m/s²">
+                <input>accX</input>
+            </value>
+            <value label="Accelerometer Y" size="3" precision="3" unit="m/s²">
+                <input>accY</input>
+            </value>
+            <value label="Accelerometer Z" size="3" precision="3" unit="m/s²">
+                <input>accZ</input>
+            </value>
         </view>
     </views>
     <export>
