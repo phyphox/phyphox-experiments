@@ -48,13 +48,13 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Gyroscope X" size="2" precision="4" unit="rad/s">
+            <value label="Gyroscope X" size="2" precision="3" unit="rad/s">
                 <input>gyrX</input>
             </value>
-            <value label="Gyroscope Y" size="2" precision="4" unit="rad/s">
+            <value label="Gyroscope Y" size="2" precision="3" unit="rad/s">
                 <input>gyrY</input>
             </value>
-            <value label="Gyroscope Z" size="2" precision="4" unit="rad/s">
+            <value label="Gyroscope Z" size="2" precision="3" unit="rad/s">
                 <input>gyrZ</input>
             </value>
         </view>

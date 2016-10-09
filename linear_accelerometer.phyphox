@@ -51,13 +51,13 @@
             </graph>
         </view>
         <view label="Simple">
-            <value label="Acceleration X" size="2" precision="3" unit="m/s²">
+            <value label="Acceleration X" size="2" precision="2" unit="m/s²">
                 <input>accX</input>
             </value>
-            <value label="Acceleration Y" size="2" precision="3" unit="m/s²">
+            <value label="Acceleration Y" size="2" precision="2" unit="m/s²">
                 <input>accY</input>
             </value>
-            <value label="Acceleration Z" size="2" precision="3" unit="m/s²">
+            <value label="Acceleration Z" size="2" precision="2" unit="m/s²">
                 <input>accZ</input>
             </value>
         </view>
