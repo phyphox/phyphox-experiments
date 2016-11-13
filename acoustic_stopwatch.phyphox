@@ -1,0 +1,193 @@
+<phyphox version="1.3" locale="en">
+    <title>Acoustic Stopwatch</title>
+    <category>Experimentalphysik I</category>
+    <description>
+        Get the time between two acoustic events.
+
+        This experiment allows to measure the time between two loud acoustic signals. These can be clicks, beeps, claps etc. as long as they are louder than the environment. You might want to adjust the threshold, giving the level at which the stop watch is triggered (ranging from 0 to 1).
+
+        After starting the experiment, the clock will start on the first noise exceeding the threshold and will be stopped on the second noise. To repeat the experiment, clear the data and start again. Make sure that the first noise is short as a long sound might be immediately detected as a stop.
+    </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Acoustic_Stopwatch</link>
+    <icon format="base64">
+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
+    </icon>
+    <data-containers>
+        <container>threshold</container>
+        <container size="4000">recording</container>
+        <container size="4000">recordingCopy</container>
+        <container size="4000">workingCopy</container>
+        <container>i</container>
+        <container>i2</container>
+        <container>t</container>
+        <container>limit</container>
+        <container>max</container>
+        <container init="0">t0</container>
+        <container init="0">t1</container>
+        <container>t0effective</container>
+        <container>t1effective</container>
+        <container>tmax</container>
+        <container>dt</container>
+        <container>count</container>
+        <container>empty</container>
+        <container init="0">index</container>
+    </data-containers>
+    <translations>
+        <translation locale="de">
+            <title>Akustische Stoppuhr</title>
+            <category>Experimentalphysik I</category>
+            <description>
+                Stoppe die Zeit zwischen zwei akustischen Ereignissen.
+
+                Dieses Experiment ermöglicht es dir, die Zeit zwischen zwei akustischen Signalen zu messen. Dies kann ein Klick, ein Piepen, ein Klatschen oder ähnliches sein, solange es lauter ist als der Geräusche der Umgebung. Hierzu muss die Schwelle so eingestellt werden, dass sie über den Umgebungsgeräuschen, aber unter der Lautstärke des Auslöse-Geräuschs liegt (im Bereich von 0 bis 1).
+
+                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit dem ersten Geräusch das die Schwelle überschreitet und wird mit dem zweiten Geräusch beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass das Startgeräusch kurz ist, da ein langes Geräusch direkt auch als Stopp interpretiert werden könnte. 
+            </description>
+            <string original="Stopwatch">Stoppuhr</string>
+            <string original="Threshold">Schwelle</string>
+            <string original="Time">Zeit</string>
+            <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these).">Ändere die Schwelle auf einen Werte oberhalb der Umgebungsgeräusche, aber unterhalb des Auslösegeräuschs (dies kannst du zum Beispiel im Experiment "Audio Oszilloskop" prüfen).</string>
+        </translation>
+    </translations>
+    <input>
+        <audio rate="48000">
+            <output>recording</output>
+        </audio>
+    </input>
+    <views>
+        <view label="Stopwatch">
+            <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
+                <output>threshold</output>
+            </edit>
+            <value label="Time" size="3" precision="3" unit="s">
+                <input>dt</input>
+            </value>
+            <button label="Reset">
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <output>t0</output>
+                <output>t1</output>
+                <output>index</output>
+            </button>
+            <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these)." />
+        </view>
+    </views>
+    <analysis>
+        <append>
+            <input clear="true">recording</input>
+            <output clear="true">recordingCopy</output>
+        </append>
+
+        <count>
+            <input clear="false">recordingCopy</input>
+            <output>count</output>
+        </count>
+
+        <max>
+            <input as="y">recordingCopy</input>
+            <output as="position">i</output>
+            <output as="max">max</output>
+        </max>
+
+        <add>
+            <input>i</input>
+            <input clear="false">index</input>
+            <output>i2</output>
+        </add>
+
+        <divide>
+            <input>i2</input>
+            <input type="value">48000</input>
+            <output>t</output>
+        </divide>
+
+        <if less="true" equal="true">
+            <input clear="false">max</input>
+            <input clear="false">threshold</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>t</output>
+        </if>
+
+        <add>
+            <input clear="false">t0</input>
+            <input type="value">0.1</input>
+            <output>limit</output>
+        </add>
+
+        <if less="true" equal="true">
+            <input clear="false">limit</input>
+            <input clear="false">t</input>
+            <input clear="false">t</input>
+            <input type="value">0</input>
+            <output>t</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t</input>
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>t</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t1</input>
+            <input clear="false">t0</input>
+            <input clear="false">t</input>
+            <input clear="false">t1</input>
+            <output>t1</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <input clear="false">t0</input>
+            <output>t0</output>
+        </if>
+
+        <add>
+            <input clear="false">index</input>
+            <input>count</input>
+            <output>index</output>
+        </add>
+
+        <divide>
+            <input clear="false">index</input>
+            <input type="value">48000</input>
+            <output>tmax</output>
+        </divide>
+
+        <if less="true" equal="true">
+            <input clear="false">t1</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t1</input>
+            <output>t1effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t0</input>
+            <output>t0effective</output>
+        </if>
+
+        <subtract>
+            <input>t1effective</input>
+            <input>t0effective</input>
+            <output>dt</output>
+        </subtract>
+
+    </analysis>
+    <export>
+        <set name="Stopwatch">
+            <data name="Start (s)">t0</data>
+            <data name="Stop (s)">t1</data>
+            <data name="Difference (s)">dt</data>
+        </set>
+    </export>
+</phyphox>
