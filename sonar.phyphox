@@ -12,7 +12,7 @@
         However, sound usually travels in every direction. For a sonar this means, that when targeting a wall, you also get reflections from the floor, the ceiling, another wall nearby, a post and simply from every suitable &quot;hard&quot; surface nearby. Therefore this sonar gives you all the reflections and it is up to you to interpret the result and to figure out, which reflection corresponds to the target you intended to measure. So start with a small hard target and try to screen all other directions with some foam material.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Sonar</link>
-    <link label="Video">https://youtu.be/Ebj3v701HE0</link>
+    <link label="Video" highlight="true">https://youtu.be/Ebj3v701HE0</link>
     <translations>
         <translation locale="de">
             <title>Sonar</title>
@@ -26,7 +26,7 @@
 
                 Allerdings breitet sich Schall in der Regel ungerichtet aus. Für das Sonar bedeutet dies, dass du beim Versuch eine Wand zu messen auch Echos vom Boden, von der Decke, einer weiteren Wand in der Nähe, einem Pfosten und generell von jeder harten Oberfläche in deiner Umgebung erhalten. Das Ergebnis kann daher sehr schwer zu interpretieren sein und die Überlagerung kann die Messung unbrauchbar machen. Es empfielt sich daher, mit einem kleinen harten Zielobjekt zu beginnen und alle anderen Richtungen mit Schaumstoff abzuschirmen.
             </description>
-            <link label="Video">https://youtu.be/3JtJoJAAgKU</link>
+            <link label="Video" highlight="true">https://youtu.be/3JtJoJAAgKU</link>
             <string original="Speed of Sound">Schallgeschw.</string>
             <string original="Echo location">Entfernung der Echos</string>
             <string original="Normalized to spherical surface">Auf Kugeloberfläche normiert</string>
