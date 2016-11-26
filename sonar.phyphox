@@ -28,7 +28,10 @@
             </description>
             <link label="Video" highlight="true">https://youtu.be/3JtJoJAAgKU</link>
             <string original="Speed of Sound">Schallgeschw.</string>
+            <string original="Speed of Sound (m/s)">Schallgeschwindigkeit (m/s)</string>
+            <string original="Target distance">Ziel-Entfernug</string>
             <string original="Echo location">Entfernung der Echos</string>
+            <string original="Echo strength">Stärke der Echos</string>
             <string original="Normalized to spherical surface">Auf Kugeloberfläche normiert</string>
             <string original="distance (cm)">Entfernung (cm)</string>
             <string original="Time (s)">Zeit (s)</string>
@@ -42,6 +45,7 @@
         <container size="12000" static="true">recording_t</container>
 
         <container>speedofsound</container>
+        <container>targetdistance</container>
 
         <container size="240" static="true">chirp_t</container>
         <container size="240" static="true">chirp_f</container>
@@ -67,6 +71,7 @@
         <container size="12000">relative_cc</container>
         <container size="12000">relative_t</container>
         <container size="12000">distance</container>
+        <container size="12000">sos</container>
         <container size="12000">weighted_cc</container>
     </data-containers>
 
@@ -91,6 +96,19 @@
             </graph>
             <graph label="Normalized to spherical surface" history="5" labelX="distance (cm)" labelY="A (a.u.)">
                 <input axis="x">distance</input>
+                <input axis="y">weighted_cc</input>
+            </graph>
+        </view>
+        <view label="Speed of Sound">
+            <edit label="Target distance" unit="m" default="1">
+                <output>targetdistance</output>
+            </edit>
+            <graph label="Echo strength" history="5" labelX="Speed of Sound (m/s)" labelY="A (a.u.)">
+                <input axis="x">sos</input>
+                <input axis="y">relative_cc</input>
+            </graph>
+            <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound (m/s)" labelY="A (a.u.)">
+                <input axis="x">sos</input>
                 <input axis="y">weighted_cc</input>
             </graph>
         </view>
@@ -220,11 +238,18 @@
             <output>relative_t</output>
         </subtract>
         <multiply>
-            <input>relative_t</input>
+            <input clear="false">relative_t</input>
             <input clear="false">speedofsound</input>
             <input type="value">50</input>
             <output>distance</output>
         </multiply>
+
+        <divide>
+            <input clear="false">targetdistance</input>
+            <input>relative_t</input>
+            <input type="value">0.5</input>
+            <output>sos</output>
+        </divide>
 
         <multiply>
             <input clear="false">relative_cc</input>
