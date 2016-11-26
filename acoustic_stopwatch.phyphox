@@ -14,6 +14,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </icon>
     <data-containers>
         <container>threshold</container>
+        <container>mindelay</container>
         <container size="4000">recording</container>
         <container size="4000">recordingCopy</container>
         <container size="4000">workingCopy</container>
@@ -24,10 +25,27 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>max</container>
         <container init="0">t0</container>
         <container init="0">t1</container>
+        <container init="0">t2</container>
+        <container init="0">t3</container>
+        <container init="0">t4</container>
+        <container init="0">t5</container>
+        <container init="0">last</container>
         <container>t0effective</container>
         <container>t1effective</container>
+        <container>t2effective</container>
+        <container>t3effective</container>
+        <container>t4effective</container>
+        <container>t5effective</container>
         <container>tmax</container>
-        <container>dt</container>
+        <container>dt01</container>
+        <container>dt02</container>
+        <container>dt03</container>
+        <container>dt04</container>
+        <container>dt05</container>
+        <container>dt12</container>
+        <container>dt23</container>
+        <container>dt34</container>
+        <container>dt45</container>
         <container>count</container>
         <container>empty</container>
         <container init="0">index</container>
@@ -44,9 +62,19 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
                 Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit dem ersten Geräusch das die Schwelle überschreitet und wird mit dem zweiten Geräusch beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass das Startgeräusch kurz ist, da ein langes Geräusch direkt auch als Stopp interpretiert werden könnte. 
             </description>
             <string original="Stopwatch">Stoppuhr</string>
+            <string original="Simple">Einfach</string>
+            <string original="Sequence">Sequenz</string>
+            <string original="Parallel">Parallel</string>
             <string original="Threshold">Schwelle</string>
+            <string original="Minimum Delay">Mindestverzögerung</string>
             <string original="Time">Zeit</string>
-            <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these).">Ändere die Schwelle auf einen Werte oberhalb der Umgebungsgeräusche, aber unterhalb des Auslösegeräuschs (dies kannst du zum Beispiel im Experiment "Audio Oszilloskop" prüfen).</string>
+            <string original="Time 1">Zeit 1</string>
+            <string original="Time 2">Zeit 2</string>
+            <string original="Time 3">Zeit 3</string>
+            <string original="Time 4">Zeit 4</string>
+            <string original="Time 5">Zeit 5</string>
+            <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverbaration).">Ändere die Schwelle auf einen Werte oberhalb der Umgebungsgeräusche, aber unterhalb des Auslösegeräuschs (dies kannst du zum Beispiel im Experiment "Audio Oszilloskop" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden (beispielsweise durch Echos oder Hall).</string>
+            <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche es erst mit einer normalen Uhr, um sicherzugehe, dass es wie gewünscht arbeitet.</string>
         </translation>
     </translations>
     <input>
@@ -55,22 +83,100 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </audio>
     </input>
     <views>
-        <view label="Stopwatch">
+        <view label="Simple">
             <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
                 <output>threshold</output>
             </edit>
+            <edit label="Minimum Delay" unit="s" default="0.1" signed="false">
+                <output>mindelay</output>
+            </edit>
             <value label="Time" size="3" precision="3" unit="s">
-                <input>dt</input>
+                <input>dt01</input>
             </value>
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>
                 <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
                 <output>t0</output>
                 <output>t1</output>
+                <output>t2</output>
+                <output>t3</output>
+                <output>t4</output>
+                <output>t5</output>
                 <output>index</output>
             </button>
-            <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these)." />
+            <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverbaration)." />
+            <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected." />
+        </view>
+        <view label="Sequence">
+            <value label="Time 1" size="3" precision="3" unit="s">
+                <input>dt01</input>
+            </value>
+            <value label="Time 2" size="3" precision="3" unit="s">
+                <input>dt12</input>
+            </value>
+            <value label="Time 3" size="3" precision="3" unit="s">
+                <input>dt23</input>
+            </value>
+            <value label="Time 4" size="3" precision="3" unit="s">
+                <input>dt34</input>
+            </value>
+            <value label="Time 5" size="3" precision="3" unit="s">
+                <input>dt45</input>
+            </value>
+            <button label="Reset">
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <output>t0</output>
+                <output>t1</output>
+                <output>t2</output>
+                <output>t3</output>
+                <output>t4</output>
+                <output>t5</output>
+                <output>index</output>
+            </button>
+        </view>
+        <view label="Parallel">
+            <value label="Time 1" size="3" precision="3" unit="s">
+                <input>dt01</input>
+            </value>
+            <value label="Time 2" size="3" precision="3" unit="s">
+                <input>dt02</input>
+            </value>
+            <value label="Time 3" size="3" precision="3" unit="s">
+                <input>dt03</input>
+            </value>
+            <value label="Time 4" size="3" precision="3" unit="s">
+                <input>dt04</input>
+            </value>
+            <value label="Time 5" size="3" precision="3" unit="s">
+                <input>dt05</input>
+            </value>
+            <button label="Reset">
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <output>t0</output>
+                <output>t1</output>
+                <output>t2</output>
+                <output>t3</output>
+                <output>t4</output>
+                <output>t5</output>
+                <output>index</output>
+            </button>
         </view>
     </views>
     <analysis>
@@ -110,9 +216,57 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output>t</output>
         </if>
 
-        <add>
+        <if less="true" equal="true">
             <input clear="false">t0</input>
-            <input type="value">0.1</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <input clear="false">t0</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t1</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t1</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t2</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t2</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t3</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t3</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t4</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t4</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t5</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t5</input>
+            <output>last</output>
+        </if>
+
+        <add>
+            <input clear="false">last</input>
+            <input clear="false">mindelay</input>
             <output>limit</output>
         </add>
 
@@ -126,10 +280,42 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <if less="true" equal="true">
             <input clear="false">t</input>
-            <input clear="false">t0</input>
+            <input clear="false">last</input>
             <input type="value">0</input>
             <input clear="false">t</input>
             <output>t</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t5</input>
+            <input clear="false">t4</input>
+            <input clear="false">t</input>
+            <input clear="false">t5</input>
+            <output>t5</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t4</input>
+            <input clear="false">t3</input>
+            <input clear="false">t</input>
+            <input clear="false">t4</input>
+            <output>t4</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t3</input>
+            <input clear="false">t2</input>
+            <input clear="false">t</input>
+            <input clear="false">t3</input>
+            <output>t3</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t2</input>
+            <input clear="false">t1</input>
+            <input clear="false">t</input>
+            <input clear="false">t2</input>
+            <output>t2</output>
         </if>
 
         <if less="true">
@@ -161,6 +347,38 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </divide>
 
         <if less="true" equal="true">
+            <input clear="false">t5</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t5</input>
+            <output>t5effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t4</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t4</input>
+            <output>t4effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t3</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t3</input>
+            <output>t3effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t2</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t2</input>
+            <output>t2effective</output>
+        </if>
+
+        <if less="true" equal="true">
             <input clear="false">t1</input>
             <input type="value">0</input>
             <input clear="false">tmax</input>
@@ -177,17 +395,73 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </if>
 
         <subtract>
+            <input clear="false">t5effective</input>
+            <input clear="false">t4effective</input>
+            <output>dt45</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t4effective</input>
+            <input clear="false">t3effective</input>
+            <output>dt34</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t3effective</input>
+            <input clear="false">t2effective</input>
+            <output>dt23</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t2effective</input>
+            <input clear="false">t1effective</input>
+            <output>dt12</output>
+        </subtract>
+
+        <subtract>
+            <input>t5effective</input>
+            <input clear="false">t0effective</input>
+            <output>dt05</output>
+        </subtract>
+
+        <subtract>
+            <input>t4effective</input>
+            <input clear="false">t0effective</input>
+            <output>dt04</output>
+        </subtract>
+
+        <subtract>
+            <input>t3effective</input>
+            <input clear="false">t0effective</input>
+            <output>dt03</output>
+        </subtract>
+
+        <subtract>
+            <input>t2effective</input>
+            <input clear="false">t0effective</input>
+            <output>dt02</output>
+        </subtract>
+
+        <subtract>
             <input>t1effective</input>
             <input>t0effective</input>
-            <output>dt</output>
+            <output>dt01</output>
         </subtract>
 
     </analysis>
     <export>
-        <set name="Stopwatch">
+        <set name="Simple">
             <data name="Start (s)">t0</data>
             <data name="Stop (s)">t1</data>
-            <data name="Difference (s)">dt</data>
+            <data name="Difference (s)">dt01</data>
+        </set>
+        <set name="Multiple">
+            <data name="Start (s)">t0</data>
+            <data name="Stop 1 (s)">t1</data>
+            <data name="Stop 2 (s)">t2</data>
+            <data name="Stop 3 (s)">t3</data>
+            <data name="Stop 4 (s)">t4</data>
+            <data name="Stop 5 (s)">t5</data>
         </set>
     </export>
 </phyphox>
