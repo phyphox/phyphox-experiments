@@ -18,7 +18,7 @@
             <description>
                 Rohdaten des Magnetometers auslesen.
 
-                Das Magnetometer ist sehr empfindlich, da es darauf ausgelegt ist, das Erdmagnetfeld zu messen und somit als Kompass zu dienen. Dennoch solltest du den absoluten Messwerten nicht ohne Weiters vertrauen, da diese leicht durch Magnetisierungen im Handy beeinflusst werden (welche sich sogar durch externe Felder verändern lassen). Zudem rekalibrieren viele Handys den Sensor gelegentlich, um eben diese Einflüsse auszugleichen.
+                Das Magnetometer ist sehr empfindlich, da es darauf ausgelegt ist, das Erdmagnetfeld zu messen und somit als Kompass zu dienen. Dennoch solltest du den absoluten Messwerten nicht ohne Weiteres vertrauen, da diese leicht durch Magnetisierungen im Handy beeinflusst werden (welche sich sogar durch externe Felder verändern lassen). Zudem rekalibrieren viele Handys den Sensor gelegentlich, um eben diese Einflüsse auszugleichen.
 
                 Setze dein Handy niemals starken Magnetfeldern aus!
             </description>
