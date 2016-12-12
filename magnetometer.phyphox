@@ -7,6 +7,8 @@
 
         The magnetometer is quite sensitive as it is designed to measure the earth's magnetic field to act as a compass. However, you should not trust its absolute values as they are easily influenced by magnetizations in the phone (which can even be altered by external fields) and since most phones try to recalibrate this sensor once in a while to compensate for these influences.
 
+        Note, that phyphox uses the calibrated data. Depending on your phone, this calibration may be off and can change suddenly. It usually helps to turn the phone around a few times to get a better and more stable calibration. You can also choose to use the raw data instead by switching via the experiment menu.
+
         Do not expose your phone to strong magnetic fields!
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Magnetic_field</link>
@@ -19,6 +21,8 @@
                 Rohdaten des Magnetometers auslesen.
 
                 Das Magnetometer ist sehr empfindlich, da es darauf ausgelegt ist, das Erdmagnetfeld zu messen und somit als Kompass zu dienen. Dennoch solltest du den absoluten Messwerten nicht ohne Weiteres vertrauen, da diese leicht durch Magnetisierungen im Handy beeinflusst werden (welche sich sogar durch externe Felder verändern lassen). Zudem rekalibrieren viele Handys den Sensor gelegentlich, um eben diese Einflüsse auszugleichen.
+
+                Beachte, dass phyphox die kalibrierten Sensordaten nutzt. Je nach Smartphone, können diese falsch sein oder sich plötzlich ändern. Es hilft in der Regel, das Handy ein paar Mal zu drehen, um eine bessere und stabilere Kalibrierung zu erhalten. Du kannst außerdem über das Experiment-Menü zu den Rohdaten des Sensors wechseln.
 
                 Setze dein Handy niemals starken Magnetfeldern aus!
             </description>
