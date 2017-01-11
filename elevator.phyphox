@@ -5,7 +5,7 @@
     <description>
         Determine the speed of an elevator using the barometer.
 
-        Changes in height within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator.
+        Changes in height within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator. Additionally, the acceleration is measured using the z-component accelerometer, so for an accurate measurement of the acceleration, the phone should lie flat on the floor of the elevator.
 
         More details:
         To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a height difference using the international barometric height formula. The height difference with divided by their time difference gives the vertical speed.
@@ -18,16 +18,21 @@
             <description>
                 Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
 
-                Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen.
+                Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen. Zusätzlich wird die Beschleunigung über die z-Komponente des Beschleunigungssensors aufgezeichnet. Um die Beschleunigung genau zu messen, sollte das Smartphone entsprechend flach auf dem Boden des Aufzugs liegen.
 
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
             </description>
             <string original="Velocity">Geschwindigkeit</string>
             <string original="Vertical velocity">Vertikale Geschwindigkeit</string>
+            <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
             <string original="Raw Data">Rohdaten</string>
             <string original="Pressure">Druck</string>
             <string original="Height">Höhe</string>
+            <string original="Height (from barometer)">Höhe (über Barometer)</string>
+            <string original="Motion">Bewegung</string>
+            <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>
+            <string original="Accelerometer z">Beschleunigung z</string>
         </translation>
     </translations>
     <data-containers>
@@ -37,37 +42,46 @@
         <container size="0">dt</container>
         <container size="0">dt2</container>
         <container size="0">v</container>
-        <container size="0">vkmh</container>
         <container size="0">h</container>
         <container>h0</container>
         <container size="0">temp1</container>
         <container size="0">temp2</container>
+        <container size="0">a_time</container>
+        <container size="0">a</container>
     </data-containers>
     <input>
         <sensor type="pressure" rate="1" average="true">
             <output component="x">pressure</output>
             <output component="t">p_time</output>
         </sensor>
+        <sensor type="linear_acceleration" rate="25" average="true">
+            <output component="t">a_time</output>
+            <output component="z">a</output>
+        </sensor>
     </input>
     <views>
-        <view label="Velocity">
-            <graph label="Vertical velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
+        <view label="Motion">
+            <graph label="Height (from barometer)" labelX="t (s)" labelY="h (m)" partialUpdate="true">
+                <input axis="x">p_time</input>
+                <input axis="y">h</input>
+            </graph>
+            <graph label="Vertical velocity (from height)" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
                 <input axis="x">v_time</input>
                 <input axis="y">v</input>
             </graph>
-            <graph label="Vertical velocity" labelX="t (s)" labelY="v (km/h)" partialUpdate="true" color="ffff00">
-                <input axis="x">v_time</input>
-                <input axis="y">vkmh</input>
-            </graph>
-            <graph label="Height" labelX="t (s)" labelY="h (m)" partialUpdate="true">
-                <input axis="x">p_time</input>
-                <input axis="y">h</input>
+            <graph label="z acceleration (from accelerometer)" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="e0ff00">
+                <input axis="x">a_time</input>
+                <input axis="y">a</input>
             </graph>
         </view>
         <view label="Raw Data">
             <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" partialUpdate="true">
                 <input axis="x">p_time</input>
                 <input axis="y">pressure</input>
+            </graph>
+            <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+                <input axis="x">a_time</input>
+                <input axis="y">a</input>
             </graph>
         </view>
     </views>
@@ -125,18 +139,18 @@
             <input>dt</input>
             <output>v</output>
         </divide>
-        <multiply>
-            <input clear="false">v</input>
-            <input type="value">3.6</input>
-            <output>vkmh</output>
-        </multiply>
     </analysis>
     <export>
         <set name="Pressure and velocity">
             <data name="Time (s)">p_time</data>
             <data name="Pressure (hPa)">pressure</data>
-            <data name="Velocity (m/s)">v</data>
             <data name="Height (m)">h</data>
+            <data name="Time (velocity) (s)">v_time</data>
+            <data name="Velocity (m/s)">v</data>
+        </set>
+        <set name="Acceleration">
+            <data name="Time (s)">a_time</data>
+            <data name="Acceleration (m/s²)">a</data>
         </set>
     </export>
 </phyphox>
