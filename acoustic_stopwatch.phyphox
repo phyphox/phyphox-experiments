@@ -47,7 +47,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>dt34</container>
         <container>dt45</container>
         <container>count</container>
-        <container>empty</container>
         <container init="0">index</container>
     </data-containers>
     <translations>
