@@ -60,7 +60,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
                 Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit dem ersten Geräusch das die Schwelle überschreitet und wird mit dem zweiten Geräusch beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass das Startgeräusch kurz ist, da ein langes Geräusch direkt auch als Stopp interpretiert werden könnte. 
             </description>
-            <string original="Stopwatch">Stoppuhr</string>
             <string original="Simple">Einfach</string>
             <string original="Sequence">Sequenz</string>
             <string original="Parallel">Parallel</string>

@@ -10,7 +10,6 @@
             <title>Beschleunigung (ohne g)</title>
             <category>Sensoren</category>
             <description>Rohdaten des Sensors "lineare Beschleunigung" auslesen, welcher der tatsächlichen Beschleunigung ohne den Beitrag der Erdbeschleunigung entspricht. Im Gegensatz zu "Beschleunigung mit g" liefert dieser Sensor 0, wenn das Gerät ruht.</description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Simple">Einfach</string>
             <string original="Linear Acceleration X">Lineare Beschleunigung X</string>
             <string original="Linear Acceleration Y">Lineare Beschleunigung Y</string>

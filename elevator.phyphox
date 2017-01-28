@@ -23,12 +23,9 @@
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
             </description>
-            <string original="Velocity">Geschwindigkeit</string>
-            <string original="Vertical velocity">Vertikale Geschwindigkeit</string>
             <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
             <string original="Raw Data">Rohdaten</string>
             <string original="Pressure">Druck</string>
-            <string original="Height">Höhe</string>
             <string original="Height (from barometer)">Höhe (über Barometer)</string>
             <string original="Motion">Bewegung</string>
             <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>

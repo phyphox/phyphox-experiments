@@ -35,8 +35,6 @@
             <string original="Normalized to spherical surface">Auf Kugeloberfläche normiert</string>
             <string original="distance (cm)">Entfernung (cm)</string>
             <string original="Time (s)">Zeit (s)</string>
-            <string original="Raw Data">Rohdaten</string>
-            <string original="Recording">Aufnahme</string>
         </translation>
     </translations>
 

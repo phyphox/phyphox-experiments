@@ -10,7 +10,6 @@
             <title>Gyroskop</title>
             <category>Sensoren</category>
             <description>Rohdaten des Gyroskops auslesen.</description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Simple">Einfach</string>
             <string original="Gyroscope X">Gyroskop X</string>
             <string original="Gyroscope Y">Gyroskop Y</string>

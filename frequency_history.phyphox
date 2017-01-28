@@ -22,8 +22,6 @@
             <string original="Frequency">Frequenz</string>
             <string original="Period (s)">Periode (s)</string>
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
-            <string original="Raw data">Rohdaten</string>
-            <string original="Recording">Aufnahme</string>
         </translation>
     </translations>
     <data-containers>

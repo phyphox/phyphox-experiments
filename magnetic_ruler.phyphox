@@ -23,7 +23,6 @@
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <string original="Distance">Entfernung</string>
             <string original="Velocity">Geschwindigkeit</string>
-            <string original="Acceleration">Beschleunigung</string>
             <string original="Results">Ergebnisse</string>
             <string original="Raw Data">Rohdaten</string>
             <string original="Magnetic field x">Magnetfeld x</string>

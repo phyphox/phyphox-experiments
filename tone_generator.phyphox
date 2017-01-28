@@ -15,6 +15,7 @@
             </description>
             <string original="Frequency">Frequenz</string>
             <string original="Time (s)">Zeit (s)</string>
+            <string original="Tone generator">Tongenerator</string>
         </translation>
     </translations>
     <data-containers>

@@ -10,7 +10,6 @@
             <title>Beschleunigung mit g</title>
             <category>Sensoren</category>
             <description>Rohdaten des Beschleunigungssensors auslesen. Dieser Sensor entfernt nicht die Gravitationskraft aus den Daten, so dass er eine konstante Beschleunigung von 9.81 m/s² anzeigt, selbst wenn das Smartphone nicht bewegt wird.</description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Simple">Einfach</string>
             <string original="Accelerometer X">Beschleunigung X</string>
             <string original="Accelerometer Y">Beschleunigung Y</string>

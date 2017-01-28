@@ -29,11 +29,6 @@
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
             <string original="Speed">Geschwindigkeit</string>
             <string original="Speed (m/s)">Geschwindigkeit (m/s)</string>
-            <string original="Raw data">Rohdaten</string>
-            <string original="Recording">Aufnahme</string>
-            <string original="Frequency and speed">Frequenz und Geschwindigkeit</string>
-            <string original="Time (s)">Zeit (s)</string>
-            <string original="Recording (a.u.)">Aufnahme (a.u.)</string>
         </translation>
     </translations>
     <data-containers>

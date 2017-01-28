@@ -22,7 +22,6 @@
 
                 Setze dein Handy niemals starken Magnetfeldern aus!
             </description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Simple">Einfach</string>
             <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Das Magnetometer deines Smartphones ist ständig internen Magnetfeldern von elektronischen Bauteilen ausgesetzt, die zu falschen Ergebnissen führen. Daher versucht phyphox das kalibrierte Magnetfeld vom Betriebssystem zu erhalten. Manchmal kann es vorkommen, dass du keine Daten erhältst, wenn das Magnetometer noch nicht kalibriert wurde (z.B. wenn das Smartphone gerade gestartet wurde). In diesem Fall solltest du dein Handy bei laufendem Experiment einige Male drehen. Dies hilft dem System, den Sensor zu kalibrieren. Außerdem ist es auf vielen (nicht allen) Geräten möglich, auf die unkalibrierten Daten über das Menü oben rechts zu wechseln.</string>
             <string original="Help">Hilfe</string>

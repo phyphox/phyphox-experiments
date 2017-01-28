@@ -9,7 +9,6 @@
             <title>Luftdruck</title>
             <category>Sensoren</category>
             <description>Rohdaten des Barometers auslesen.</description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Simple">Einfach</string>
             <string original="Pressure">Druck</string>
         </translation>

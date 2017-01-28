@@ -6,8 +6,7 @@
             <title>Light</title>
             <category>Raw Sensors</category>
             <description>Get raw data from the light sensor.</description>
-            <string original="Raw Data">Raw Data</string>
-            <string original="Simple">Einfach</string>
+            <string original="Simple">Simple</string>
             <string original="Illuminance">Illuminance</string>
             <string original="Info">
                 Note: On some devices the light sensor is only updated when there is a coarse change of illuminance.
@@ -17,8 +16,8 @@
             <title>Licht</title>
             <category>Sensoren</category>
             <description>Rohdaten des Lichtsensors auslesen.</description>
-            <string original="Raw Data">Rohdaten</string>
             <string original="Illuminance">Beleuchtungsstärke</string>
+            <string original="Simple">Einfach</string>
             <string original="Info">
                 Auf manchen Geräten wird der Wert des Lichtsensors nur aktualisiert, wenn sich eine große Änderung der Beleuchtungsstärke ergibt.
             </string>
