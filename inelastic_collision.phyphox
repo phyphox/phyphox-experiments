@@ -1,0 +1,506 @@
+<phyphox version="1.3" locale="en">
+    <title>Inelastic collision</title>
+    <category>Mechanics</category>
+    <description>
+        Determine the energy lost during inelastic collision of a bouncing ball.
+
+        In principle, this experiment works like the acoustic stopwatch experiment. However, this experiment expects the sound to come from a ball (or something similar) bouncing on a surface and will calculate the remaining kinetic energy relative to the first bounce by analyzing the interval between the sound from the impact.
+
+        So, start the experiment and let a ball bounce of a surface in a way that it generates a clearly hearable noise. You might want to change the threshold in the settings (in the range 0 to 1), so that the experiment reacts to the noise level of the ball but not to the background noise. Also, if you struggle with echoes, you might want to change the minimum delay as well to set the minimum interval the experiment will ignore before reacting to the next noise.
+    </description>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Inelastic_Collision</link>
+    <translations>
+        <translation locale="de">
+            <title>Inelastischer Stoß</title>
+            <category>Mechanik</category>
+            <description>
+                Bestimme den Energieverlust während des inelastischen Stoßes eines springenden Balls.
+
+                Im Grunde arbeitet dieses Experiment wie das Akustische Stoppuhr-Experiment. Diese Experiment erwartet jedoch, dass die Geräuche von einem springenden Ball (oder etwas ähnlichem) stammen und berechnet aus den Zeitintervallen der Aufprallgeräuche, wie viel kinetische Energie bei jedem Aufprall verlieren geht.
+
+                Starte also das Experiment und lasse einen Ball so springen, dass er ein deutlich hörbares Geräuch erzeugt. Eventuell solltest du auf der Einstellungs-Seite die Schwelle (im Bereich von 0 bis 1) anpassen, so dass das Experiment auf die Geräuche des Balls, nicht aber auf die Geräuche der Umgebung reagiert. Ebenso kannst du die Mindestverzögerung einstellen, wenn du Probleme mit Echos hast, so dass das Experiment wartet, bevor es auf ein neues Geräuch reagiert.
+            </description>
+            <string original="Threshold">Schwelle</string>
+            <string original="Minimum Delay">Mindestverzögerung</string>
+            <string original="Energy">Energie</string>
+            <string original="Settings">Einstellungen</string>
+            <string original="Time 1">Zeit 1</string>
+            <string original="Time 2">Zeit 2</string>
+            <string original="Time 3">Zeit 3</string>
+            <string original="Time 4">Zeit 4</string>
+            <string original="Time 5">Zeit 5</string>
+            <string original="Total energy 1">Gesamtenergie 1</string>
+            <string original="Total energy 2">Gesamtenergie 2</string>
+            <string original="Total energy 3">Gesamtenergie 3</string>
+            <string original="Total energy 4">Gesamtenergie 4</string>
+            <string original="Total energy 5">Gesamtenergie 5</string>
+            <string original="Retained on collision 2">Bei Stoß 2 behalten</string>
+            <string original="Retained on collision 3">Bei Stoß 3 behalten</string>
+            <string original="Retained on collision 4">Bei Stoß 4 behalten</string>
+            <string original="Retained on collision 5">Bei Stoß 5 behalten</string>
+            <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche das Akustische Stoppuhr-Experiment erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet. Wenn ja, sollte dieses Experiment hier ebenso funktionieren.</string>
+        </translation>
+    </translations>
+    <data-containers>
+        <container>threshold</container>
+        <container>mindelay</container>
+        <container size="4000">recording</container>
+        <container size="4000">recordingCopy</container>
+        <container size="4000">workingCopy</container>
+        <container>i</container>
+        <container>i2</container>
+        <container>t</container>
+        <container>limit</container>
+        <container>max</container>
+        <container init="0">t0</container>
+        <container init="0">t1</container>
+        <container init="0">t2</container>
+        <container init="0">t3</container>
+        <container init="0">t4</container>
+        <container init="0">t5</container>
+        <container init="0">last</container>
+        <container>t0effective</container>
+        <container>t1effective</container>
+        <container>t2effective</container>
+        <container>t3effective</container>
+        <container>t4effective</container>
+        <container>t5effective</container>
+        <container>tmax</container>
+        <container>dt01</container>
+        <container>dt12</container>
+        <container>dt23</container>
+        <container>dt34</container>
+        <container>dt45</container>
+        <container>dt01_2</container>
+        <container>dt12_2</container>
+        <container>dt23_2</container>
+        <container>dt34_2</container>
+        <container>dt45_2</container>
+        <container init="1">E1</container>
+        <container>E2</container>
+        <container>E3</container>
+        <container>E4</container>
+        <container>E5</container>
+        <container>E12</container>
+        <container>E23</container>
+        <container>E34</container>
+        <container>E45</container>
+        <container>count</container>
+        <container init="0">index</container>
+    </data-containers>
+    <input>
+        <audio rate="48000">
+            <output>recording</output>
+        </audio>
+    </input>
+    <views>
+        <view label="Energy">
+            <value label="Total energy 1" size="2" precision="1" unit="%" factor="100">
+                <input>E1</input>
+            </value>
+            <value label="Time 1" precision="3" unit="s">
+                <input>dt01</input>
+            </value>
+            <value label="Total energy 2" size="2" precision="1" unit="%" factor="100">
+                <input>E2</input>
+            </value>
+            <value label="Retained on collision 2" precision="1" unit="%" factor="100">
+                <input>E12</input>
+            </value>
+            <value label="Time 2" precision="3" unit="s">
+                <input>dt12</input>
+            </value>
+            <value label="Total energy 3" size="2" precision="1" unit="%" factor="100">
+                <input>E3</input>
+            </value>
+            <value label="Retained on collision 3" precision="1" unit="%" factor="100">
+                <input>E23</input>
+            </value>
+            <value label="Time 3" precision="3" unit="s">
+                <input>dt23</input>
+            </value>
+            <value label="Total energy 4" size="2" precision="1" unit="%" factor="100">
+                <input>E4</input>
+            </value>
+            <value label="Retained on collision 4" precision="1" unit="%" factor="100">
+                <input>E34</input>
+            </value>
+            <value label="Time 4" precision="3" unit="s">
+                <input>dt34</input>
+            </value>
+            <value label="Total energy 5" size="2" precision="1" unit="%" factor="100">
+                <input>E5</input>
+            </value>
+            <value label="Retained on collision 5" precision="1" unit="%" factor="100">
+                <input>E45</input>
+            </value>
+            <value label="Time 5" precision="3" unit="s">
+                <input>dt45</input>
+            </value>
+            <button label="Reset">
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <output>t0</output>
+                <output>t1</output>
+                <output>t2</output>
+                <output>t3</output>
+                <output>t4</output>
+                <output>t5</output>
+                <output>index</output>
+            </button>
+        </view>
+        <view label="Settings">
+            <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
+                <output>threshold</output>
+            </edit>
+            <edit label="Minimum Delay" unit="s" default="0.1" signed="false">
+                <output>mindelay</output>
+            </edit>
+            <info label="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well." />
+        </view>
+    </views>
+    <analysis>
+        <append>
+            <input clear="true">recording</input>
+            <output clear="true">recordingCopy</output>
+        </append>
+
+        <count>
+            <input clear="false">recordingCopy</input>
+            <output>count</output>
+        </count>
+
+        <max>
+            <input as="y">recordingCopy</input>
+            <output as="position">i</output>
+            <output as="max">max</output>
+        </max>
+
+        <add>
+            <input>i</input>
+            <input clear="false">index</input>
+            <output>i2</output>
+        </add>
+
+        <divide>
+            <input>i2</input>
+            <input type="value">48000</input>
+            <output>t</output>
+        </divide>
+
+        <if less="true" equal="true">
+            <input clear="false">max</input>
+            <input clear="false">threshold</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>t</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <input clear="false">t0</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t1</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t1</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t2</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t2</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t3</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t3</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t4</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t4</input>
+            <output>last</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t5</input>
+            <input type="value">0</input>
+            <input clear="false">last</input>
+            <input clear="false">t5</input>
+            <output>last</output>
+        </if>
+
+        <add>
+            <input clear="false">last</input>
+            <input clear="false">mindelay</input>
+            <output>limit</output>
+        </add>
+
+        <if less="true" equal="true">
+            <input clear="false">limit</input>
+            <input clear="false">t</input>
+            <input clear="false">t</input>
+            <input type="value">0</input>
+            <output>t</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t</input>
+            <input clear="false">last</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>t</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t5</input>
+            <input clear="false">t4</input>
+            <input clear="false">t</input>
+            <input clear="false">t5</input>
+            <output>t5</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t4</input>
+            <input clear="false">t3</input>
+            <input clear="false">t</input>
+            <input clear="false">t4</input>
+            <output>t4</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t3</input>
+            <input clear="false">t2</input>
+            <input clear="false">t</input>
+            <input clear="false">t3</input>
+            <output>t3</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t2</input>
+            <input clear="false">t1</input>
+            <input clear="false">t</input>
+            <input clear="false">t2</input>
+            <output>t2</output>
+        </if>
+
+        <if less="true">
+            <input clear="false">t1</input>
+            <input clear="false">t0</input>
+            <input clear="false">t</input>
+            <input clear="false">t1</input>
+            <output>t1</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <input clear="false">t0</input>
+            <output>t0</output>
+        </if>
+
+        <add>
+            <input clear="false">index</input>
+            <input>count</input>
+            <output>index</output>
+        </add>
+
+        <divide>
+            <input clear="false">index</input>
+            <input type="value">48000</input>
+            <output>tmax</output>
+        </divide>
+
+        <if less="true" equal="true">
+            <input clear="false">t5</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t5</input>
+            <output>t5effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t4</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t4</input>
+            <output>t4effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t3</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t3</input>
+            <output>t3effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t2</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t2</input>
+            <output>t2effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t1</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t1</input>
+            <output>t1effective</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">t0</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
+            <input clear="false">t0</input>
+            <output>t0effective</output>
+        </if>
+
+        <subtract>
+            <input clear="false">t5effective</input>
+            <input clear="false">t4effective</input>
+            <output>dt45</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t4effective</input>
+            <input clear="false">t3effective</input>
+            <output>dt34</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t3effective</input>
+            <input clear="false">t2effective</input>
+            <output>dt23</output>
+        </subtract>
+
+        <subtract>
+            <input clear="false">t2effective</input>
+            <input clear="false">t1effective</input>
+            <output>dt12</output>
+        </subtract>
+
+        <subtract>
+            <input>t1effective</input>
+            <input>t0effective</input>
+            <output>dt01</output>
+        </subtract>
+
+        <multiply>
+            <input clear="false">dt01</input>
+            <input clear="false">dt01</input>
+            <output>dt01_2</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt12</input>
+            <input clear="false">dt12</input>
+            <output>dt12_2</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt23</input>
+            <input clear="false">dt23</input>
+            <output>dt23_2</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt34</input>
+            <input clear="false">dt34</input>
+            <output>dt34_2</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt45</input>
+            <input clear="false">dt45</input>
+            <output>dt45_2</output>
+        </multiply>
+
+        <divide>
+            <input clear="false">dt12</input>
+            <input clear="false">dt01</input>
+            <output>E2</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt23</input>
+            <input clear="false">dt01</input>
+            <output>E3</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt34</input>
+            <input clear="false">dt01</input>
+            <output>E4</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt45</input>
+            <input clear="false">dt01</input>
+            <output>E5</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt12</input>
+            <input clear="false">dt01</input>
+            <output>E12</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt23</input>
+            <input clear="false">dt12</input>
+            <output>E23</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt34</input>
+            <input clear="false">dt23</input>
+            <output>E34</output>
+        </divide>
+
+        <divide>
+            <input clear="false">dt45</input>
+            <input clear="false">dt34</input>
+            <output>E45</output>
+        </divide>
+
+    </analysis>
+    <export>
+        <set name="Energy">
+            <data name="Start (s)">t0</data>
+            <data name="Stop 1 (s)">t1</data>
+            <data name="Total energy">E1</data>
+            <data name="Stop 2 (s)">t2</data>
+            <data name="Total energy">E2</data>
+            <data name="Stop 3 (s)">t3</data>
+            <data name="Total energy">E3</data>
+            <data name="Stop 4 (s)">t4</data>
+            <data name="Total energy">E4</data>
+            <data name="Stop 5 (s)">t5</data>
+            <data name="Total energy">E5</data>
+        </set>
+    </export>
+</phyphox>
