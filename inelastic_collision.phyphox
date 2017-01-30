@@ -22,6 +22,7 @@
             </description>
             <string original="Threshold">Schwelle</string>
             <string original="Minimum Delay">Mindestverzögerung</string>
+            <string original="Heights">Höhen</string>
             <string original="Energy">Energie</string>
             <string original="Settings">Einstellungen</string>
             <string original="Time 1">Zeit 1</string>
@@ -29,6 +30,11 @@
             <string original="Time 3">Zeit 3</string>
             <string original="Time 4">Zeit 4</string>
             <string original="Time 5">Zeit 5</string>
+            <string original="Height 1">Höhe 1</string>
+            <string original="Height 2">Höhe 2</string>
+            <string original="Height 3">Höhe 3</string>
+            <string original="Height 4">Höhe 4</string>
+            <string original="Height 5">Höhe 5</string>
             <string original="Total energy 1">Gesamtenergie 1</string>
             <string original="Total energy 2">Gesamtenergie 2</string>
             <string original="Total energy 3">Gesamtenergie 3</string>
@@ -76,6 +82,11 @@
         <container>dt23_2</container>
         <container>dt34_2</container>
         <container>dt45_2</container>
+        <container>h1</container>
+        <container>h2</container>
+        <container>h3</container>
+        <container>h4</container>
+        <container>h5</container>
         <container init="1">E1</container>
         <container>E2</container>
         <container>E3</container>
@@ -94,12 +105,57 @@
         </audio>
     </input>
     <views>
-        <view label="Energy">
-            <value label="Total energy 1" size="2" precision="1" unit="%" factor="100">
-                <input>E1</input>
+        <view label="Heights">
+            <value label="Height 1" size="2" precision="2" unit="cm" factor="100">
+                <input>h1</input>
             </value>
             <value label="Time 1" precision="3" unit="s">
                 <input>dt01</input>
+            </value>
+            <value label="Height 2" size="2" precision="2" unit="cm" factor="100">
+                <input>h2</input>
+            </value>
+            <value label="Time 2" precision="3" unit="s">
+                <input>dt12</input>
+            </value>
+            <value label="Height 3" size="2" precision="2" unit="cm" factor="100">
+                <input>h3</input>
+            </value>
+            <value label="Time 3" precision="3" unit="s">
+                <input>dt23</input>
+            </value>
+            <value label="Height 4" size="2" precision="2" unit="cm" factor="100">
+                <input>h4</input>
+            </value>
+            <value label="Time 4" precision="3" unit="s">
+                <input>dt34</input>
+            </value>
+            <value label="Height 5" size="2" precision="2" unit="cm" factor="100">
+                <input>h5</input>
+            </value>
+            <value label="Time 5" precision="3" unit="s">
+                <input>dt45</input>
+            </value>
+            <button label="Reset">
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <input type="value">0</input>
+                <output>t0</output>
+                <output>t1</output>
+                <output>t2</output>
+                <output>t3</output>
+                <output>t4</output>
+                <output>t5</output>
+                <output>index</output>
+            </button>
+        </view>
+        <view label="Energy">
+            <value label="Total energy 1" size="2" precision="1" unit="%" factor="100">
+                <input>E1</input>
             </value>
             <value label="Total energy 2" size="2" precision="1" unit="%" factor="100">
                 <input>E2</input>
@@ -107,17 +163,11 @@
             <value label="Retained on collision 2" precision="1" unit="%" factor="100">
                 <input>E12</input>
             </value>
-            <value label="Time 2" precision="3" unit="s">
-                <input>dt12</input>
-            </value>
             <value label="Total energy 3" size="2" precision="1" unit="%" factor="100">
                 <input>E3</input>
             </value>
             <value label="Retained on collision 3" precision="1" unit="%" factor="100">
                 <input>E23</input>
-            </value>
-            <value label="Time 3" precision="3" unit="s">
-                <input>dt23</input>
             </value>
             <value label="Total energy 4" size="2" precision="1" unit="%" factor="100">
                 <input>E4</input>
@@ -125,17 +175,11 @@
             <value label="Retained on collision 4" precision="1" unit="%" factor="100">
                 <input>E34</input>
             </value>
-            <value label="Time 4" precision="3" unit="s">
-                <input>dt34</input>
-            </value>
             <value label="Total energy 5" size="2" precision="1" unit="%" factor="100">
                 <input>E5</input>
             </value>
             <value label="Retained on collision 5" precision="1" unit="%" factor="100">
                 <input>E45</input>
-            </value>
-            <value label="Time 5" precision="3" unit="s">
-                <input>dt45</input>
             </value>
             <button label="Reset">
                 <input type="value">0</input>
@@ -439,67 +483,102 @@
             <output>dt45_2</output>
         </multiply>
 
+        <multiply>
+            <input clear="false">dt01_2</input>
+            <input type="value">1.22625</input> <!-- 1/8 g -->
+            <output>h1</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt12_2</input>
+            <input type="value">1.22625</input> <!-- 1/8 g -->
+            <output>h2</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt23_2</input>
+            <input type="value">1.22625</input> <!-- 1/8 g -->
+            <output>h3</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt34_2</input>
+            <input type="value">1.22625</input> <!-- 1/8 g -->
+            <output>h4</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">dt45_2</input>
+            <input type="value">1.22625</input> <!-- 1/8 g -->
+            <output>h5</output>
+        </multiply>
+
         <divide>
-            <input clear="false">dt12</input>
-            <input clear="false">dt01</input>
+            <input clear="false">dt12_2</input>
+            <input clear="false">dt01_2</input>
             <output>E2</output>
         </divide>
 
         <divide>
-            <input clear="false">dt23</input>
-            <input clear="false">dt01</input>
+            <input clear="false">dt23_2</input>
+            <input clear="false">dt01_2</input>
             <output>E3</output>
         </divide>
 
         <divide>
-            <input clear="false">dt34</input>
-            <input clear="false">dt01</input>
+            <input clear="false">dt34_2</input>
+            <input clear="false">dt01_2</input>
             <output>E4</output>
         </divide>
 
         <divide>
-            <input clear="false">dt45</input>
-            <input clear="false">dt01</input>
+            <input clear="false">dt45_2</input>
+            <input clear="false">dt01_2</input>
             <output>E5</output>
         </divide>
 
         <divide>
-            <input clear="false">dt12</input>
-            <input clear="false">dt01</input>
+            <input clear="false">dt12_2</input>
+            <input clear="false">dt01_2</input>
             <output>E12</output>
         </divide>
 
         <divide>
-            <input clear="false">dt23</input>
-            <input clear="false">dt12</input>
+            <input clear="false">dt23_2</input>
+            <input clear="false">dt12_2</input>
             <output>E23</output>
         </divide>
 
         <divide>
-            <input clear="false">dt34</input>
-            <input clear="false">dt23</input>
+            <input clear="false">dt34_2</input>
+            <input clear="false">dt23_2</input>
             <output>E34</output>
         </divide>
 
         <divide>
-            <input clear="false">dt45</input>
-            <input clear="false">dt34</input>
+            <input clear="false">dt45_2</input>
+            <input clear="false">dt34_2</input>
             <output>E45</output>
         </divide>
 
     </analysis>
     <export>
         <set name="Energy">
-            <data name="Start (s)">t0</data>
-            <data name="Stop 1 (s)">t1</data>
+            <data name="Bounce 0 (s)">t0</data>
+            <data name="Bounce 1 (s)">t1</data>
+            <data name="Height 1 (m)">h1</data>
             <data name="Total energy">E1</data>
-            <data name="Stop 2 (s)">t2</data>
+            <data name="Bounce 2 (s)">t2</data>
+            <data name="Height 2 (m)">h2</data>
             <data name="Total energy">E2</data>
-            <data name="Stop 3 (s)">t3</data>
+            <data name="Bounce 3 (s)">t3</data>
+            <data name="Height 3 (m)">h3</data>
             <data name="Total energy">E3</data>
-            <data name="Stop 4 (s)">t4</data>
+            <data name="Bounce 4 (s)">t4</data>
+            <data name="Height 4 (m)">h4</data>
             <data name="Total energy">E4</data>
-            <data name="Stop 5 (s)">t5</data>
+            <data name="Bounce 5 (s)">t5</data>
+            <data name="Height 5 (m)">h5</data>
             <data name="Total energy">E5</data>
         </set>
     </export>
