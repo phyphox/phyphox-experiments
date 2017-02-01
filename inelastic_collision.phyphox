@@ -30,6 +30,7 @@
             <string original="Time 3">Zeit 3</string>
             <string original="Time 4">Zeit 4</string>
             <string original="Time 5">Zeit 5</string>
+            <string original="Height 1">Höhe 0</string>
             <string original="Height 1">Höhe 1</string>
             <string original="Height 2">Höhe 2</string>
             <string original="Height 3">Höhe 3</string>
@@ -44,6 +45,7 @@
             <string original="Retained on collision 3">Bei Stoß 3 behalten</string>
             <string original="Retained on collision 4">Bei Stoß 4 behalten</string>
             <string original="Retained on collision 5">Bei Stoß 5 behalten</string>
+            <string original="Average retained">Im Mittel behalten</string>
             <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche das Akustische Stoppuhr-Experiment erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet. Wenn ja, sollte dieses Experiment hier ebenso funktionieren.</string>
         </translation>
     </translations>
@@ -82,6 +84,7 @@
         <container>dt23_2</container>
         <container>dt34_2</container>
         <container>dt45_2</container>
+        <container>h0</container>
         <container>h1</container>
         <container>h2</container>
         <container>h3</container>
@@ -96,6 +99,8 @@
         <container>E23</container>
         <container>E34</container>
         <container>E45</container>
+        <container>dEsum</container>
+        <container>dEavg</container>
         <container>count</container>
         <container init="0">index</container>
     </data-containers>
@@ -106,6 +111,9 @@
     </input>
     <views>
         <view label="Heights">
+            <value label="Height 0" size="2" precision="2" unit="cm" factor="100">
+                <input>h0</input>
+            </value>
             <value label="Height 1" size="2" precision="2" unit="cm" factor="100">
                 <input>h1</input>
             </value>
@@ -136,6 +144,7 @@
             <value label="Time 5" precision="3" unit="s">
                 <input>dt45</input>
             </value>
+
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>
@@ -180,6 +189,9 @@
             </value>
             <value label="Retained on collision 5" precision="1" unit="%" factor="100">
                 <input>E45</input>
+            </value>
+            <value label="Average retained" size="2" precision="1" unit="%" factor="100">
+                <input>dEavg</input>
             </value>
             <button label="Reset">
                 <input type="value">0</input>
@@ -559,6 +571,26 @@
             <input clear="false">dt45_2</input>
             <input clear="false">dt34_2</input>
             <output>E45</output>
+        </divide>
+
+        <add>
+            <input clear="false">E12</input>
+            <input clear="false">E23</input>
+            <input clear="false">E34</input>
+            <input clear="false">E45</input>
+            <output>dEsum</output>
+        </add>
+
+        <divide>
+            <input clear="false">dEsum</input>
+            <input type="value">4</input>
+            <output>dEavg</output>
+        </divide>
+
+        <divide>
+            <input clear="false">h1</input>
+            <input clear="false">E12</input>
+            <output>h0</output>
         </divide>
 
     </analysis>
