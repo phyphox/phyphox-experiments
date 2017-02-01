@@ -16,9 +16,9 @@
             <description>
                 Bestimme den Energieverlust während des inelastischen Stoßes eines springenden Balls.
 
-                Im Grunde arbeitet dieses Experiment wie das Akustische Stoppuhr-Experiment. Diese Experiment erwartet jedoch, dass die Geräuche von einem springenden Ball (oder etwas ähnlichem) stammen und berechnet aus den Zeitintervallen der Aufprallgeräuche, wie viel kinetische Energie bei jedem Aufprall verlieren geht.
+                Im Grunde arbeitet dieses Experiment wie das Akustische Stoppuhr-Experiment. Diese Experiment erwartet jedoch, dass die Geräusche von einem springenden Ball (oder etwas ähnlichem) stammen und berechnet aus den Zeitintervallen der Aufprallgeräusche, wie viel kinetische Energie bei jedem Aufprall verloren geht.
 
-                Starte also das Experiment und lasse einen Ball so springen, dass er ein deutlich hörbares Geräuch erzeugt. Eventuell solltest du auf der Einstellungs-Seite die Schwelle (im Bereich von 0 bis 1) anpassen, so dass das Experiment auf die Geräuche des Balls, nicht aber auf die Geräuche der Umgebung reagiert. Ebenso kannst du die Mindestverzögerung einstellen, wenn du Probleme mit Echos hast, so dass das Experiment wartet, bevor es auf ein neues Geräuch reagiert.
+                Starte also das Experiment und lasse einen Ball so springen, dass er ein deutlich hörbares Geräusch erzeugt. Eventuell solltest du auf der Einstellungs-Seite die Schwelle (im Bereich von 0 bis 1) anpassen, so dass das Experiment auf die Geräusche des Balls, nicht aber auf die Geräusche der Umgebung reagiert. Ebenso kannst du die Mindestverzögerung einstellen, wenn du Probleme mit Echos hast, so dass das Experiment wartet, bevor es auf ein neues Geräusch reagiert.
             </description>
             <string original="Threshold">Schwelle</string>
             <string original="Minimum Delay">Mindestverzögerung</string>
