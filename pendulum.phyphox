@@ -108,29 +108,29 @@
     </input>
     <views>
         <view label="g">
-            <value label="Period" unit="s">
+            <value label="Period" size="2" unit="s">
                 <input>period</input>
             </value>
-            <value label="Frequency" unit="Hz">
+            <value label="Frequency size="2"" unit="Hz">
                 <input>frequency</input>
             </value>
             <edit label="Length" unit="cm" factor="100" default="0.5" signed="false" min="0.05" max="10">
                 <output>length</output>
             </edit>
-            <value label="g" unit="m/s²">
+            <value label="g" size="2" unit="m/s²">
                 <input>g</input>
             </value>
             <separator height="1" />
             <info label="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g." />
         </view>
         <view label="Length">
-            <value label="Period" unit="s">
+            <value label="Period" size="2" unit="s">
                 <input>period</input>
             </value>
-            <value label="Frequency" unit="Hz">
+            <value label="Frequency" size="2" unit="Hz">
                 <input>frequency</input>
             </value>
-            <value label="Length" unit="cm" factor="100">
+            <value label="Length" size="2" unit="cm" factor="100">
                 <input>lengthcalc</input>
             </value>
             <separator height="1" />
