@@ -24,7 +24,7 @@
         <container size="0">gyr_time</container>
     </data-containers>
     <input>
-        <sensor type="gyroscope" rate="25">
+        <sensor type="gyroscope">
             <output component="x">gyrX</output>
             <output component="y">gyrY</output>
             <output component="z">gyrZ</output>

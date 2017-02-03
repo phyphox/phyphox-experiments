@@ -24,7 +24,7 @@
         <container size="0">acc_time</container>
     </data-containers>
     <input>
-        <sensor type="accelerometer" rate="25">
+        <sensor type="accelerometer">
             <output component="x">accX</output>
             <output component="y">accY</output>
             <output component="z">accZ</output>

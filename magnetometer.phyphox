@@ -35,7 +35,7 @@
         <container size="0">magZ</container>
     </data-containers>
     <input>
-        <sensor type="magnetic_field" rate="25">
+        <sensor type="magnetic_field">
             <output component="x">magX</output>
             <output component="y">magY</output>
             <output component="z">magZ</output>

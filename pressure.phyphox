@@ -18,7 +18,7 @@
         <container size="0">p_time</container>
     </data-containers>
     <input>
-        <sensor type="pressure" rate="25">
+        <sensor type="pressure">
             <output component="t">p_time</output>
             <output component="x">pressure</output>
         </sensor>
