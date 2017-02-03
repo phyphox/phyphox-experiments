@@ -111,7 +111,7 @@
             <value label="Period" size="2" unit="s">
                 <input>period</input>
             </value>
-            <value label="Frequency size="2"" unit="Hz">
+            <value label="Frequency" size="2" unit="Hz">
                 <input>frequency</input>
             </value>
             <edit label="Length" unit="cm" factor="100" default="0.5" signed="false" min="0.05" max="10">
