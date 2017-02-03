@@ -1,4 +1,4 @@
-<phyphox version="1.3" locale="en">
+<phyphox version="1.4" locale="en">
     <title>Acoustic Stopwatch</title>
     <category>Tools</category>
     <description>
@@ -107,7 +107,9 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
                 <output>t5</output>
                 <output>index</output>
             </button>
+            <separator height="1" />
             <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation)." />
+            <separator height="1" />
             <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected." />
         </view>
         <view label="Sequence">
@@ -126,6 +128,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <value label="Time 5" size="3" precision="3" unit="s">
                 <input>dt45</input>
             </value>
+            <separator height="1" />
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>
@@ -159,6 +162,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <value label="Time 5" size="3" precision="3" unit="s">
                 <input>dt05</input>
             </value>
+            <separator height="1" />
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>

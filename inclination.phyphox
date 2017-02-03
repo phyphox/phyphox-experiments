@@ -1,4 +1,4 @@
-<phyphox version="1.2" locale="en">
+<phyphox version="1.4" locale="en">
     <title>Inclination</title>
     <category>Tools</category>
     <icon format="base64">
@@ -54,14 +54,15 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
                 <input axis="x">t</input>
                 <input axis="y">angle</input>
             </graph>
-            <value label="Inclination" precision="2" scientific="false" unit="°" factor="1">
+            <value label="Inclination" size="2" precision="2" scientific="false" unit="°" factor="1">
                 <input>angle</input>
             </value>
+            <separator height="1" />
             <graph label="Rotation" labelX="t (s)" labelY="Angle (°)" partialUpdate="true" style="line">
                 <input axis="x">t</input>
                 <input axis="y">anglePlane</input>
             </graph>
-            <value label="Rotation" precision="2" scientific="false" unit="°" factor="1">
+            <value label="Rotation" size="2" precision="2" scientific="false" unit="°" factor="1">
                 <input>anglePlane</input>
             </value>
         </view>
