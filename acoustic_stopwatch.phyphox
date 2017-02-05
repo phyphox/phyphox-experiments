@@ -1,6 +1,6 @@
 <phyphox version="1.4" locale="en">
     <title>Acoustic Stopwatch</title>
-    <category>Tools</category>
+    <category>Timers</category>
     <description>
         Get the time between two acoustic events.
 
@@ -52,7 +52,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <translations>
         <translation locale="de">
             <title>Akustische Stoppuhr</title>
-            <category>Werkzeuge</category>
+            <category>Zeitmessung</category>
             <description>
                 Stoppe die Zeit zwischen zwei akustischen Ereignissen.
 
