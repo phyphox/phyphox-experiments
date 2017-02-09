@@ -22,6 +22,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container size="0">search_a</container>
         <container size="0">search_t</container>
         <container size="0">trigger_t</container>
+        <container>trigger_last</container>
         <container>on0</container>
         <container>on1</container>
         <container>on2</container>
@@ -245,7 +246,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">reset</input>
             <input type="value">0</input>
             <input clear="false">traw</input>
-            <output>t0</output>
+            <output clear="false">t0</output>
         </if>
 
         <if greater="true">
@@ -457,6 +458,11 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output>reset</output>
         </append>
 
+        <append>
+            <input type="value">0</input>
+            <output>trigger_last</output>
+        </append>
+
         <subtract>
             <input clear="false">traw</input>
             <input clear="false">t0</input>
@@ -490,8 +496,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on0</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on0</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on0</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -517,8 +531,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output>off0</output>
         </first>
 
-        <add>
+        <if greater="true">
             <input clear="false">off0</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">off0</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -550,8 +572,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on1</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on1</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on1</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -579,8 +609,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <!-- 2 -->
 
-        <add>
+        <if greater="true">
             <input clear="false">off1</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">off1</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -612,8 +650,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on2</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on2</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on2</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -641,8 +687,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <!-- 3 -->
 
-        <add>
+        <if greater="true">
             <input clear="false">off2</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">off2</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -674,8 +728,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on3</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on3</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on3</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -703,8 +765,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <!-- 4 -->
 
-        <add>
+        <if greater="true">
             <input clear="false">off3</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">off3</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -736,8 +806,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on4</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on4</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on4</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -765,8 +843,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <!-- 5 -->
 
-        <add>
+        <if greater="true">
             <input clear="false">off4</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">off4</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
@@ -798,8 +884,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <output as="min">on5</output>
         </min>
 
-        <add>
+        <if greater="true">
             <input clear="false">on5</input>
+            <input clear="false">trigger_last</input>
+            <input clear="false">on5</input>
+            <input clear="false">trigger_last</input>
+            <output>trigger_last</output>
+        </if>
+
+        <add>
+            <input clear="false">trigger_last</input>
             <input type="value">0.001</input>
             <output>trigger_t</output>
         </add>
