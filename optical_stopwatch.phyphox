@@ -23,18 +23,18 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container size="0">search_t</container>
         <container size="0">trigger_t</container>
         <container>trigger_last</container>
-        <container>on0</container>
-        <container>on1</container>
-        <container>on2</container>
-        <container>on3</container>
-        <container>on4</container>
-        <container>on5</container>
-        <container>off0</container>
-        <container>off1</container>
-        <container>off2</container>
-        <container>off3</container>
-        <container>off4</container>
-        <container>off5</container>
+        <container init="0">on0</container>
+        <container init="0">on1</container>
+        <container init="0">on2</container>
+        <container init="0">on3</container>
+        <container init="0">on4</container>
+        <container init="0">on5</container>
+        <container init="0">off0</container>
+        <container init="0">off1</container>
+        <container init="0">off2</container>
+        <container init="0">off3</container>
+        <container init="0">off4</container>
+        <container init="0">off5</container>
         <container>don0</container>
         <container>don1</container>
         <container>don2</container>
@@ -242,6 +242,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </views>
     <analysis>
 
+
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
@@ -267,84 +268,84 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on0</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off0</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on1</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off1</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on2</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off2</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on3</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off3</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on4</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off4</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>on5</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="value">0</input>
             <output>off5</output>
         </if>
 
@@ -1010,6 +1011,112 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on5</input>
             <output>don5</output>
         </subtract>
+
+        <if less="true" equal="true">
+            <input clear="false">dt01</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt01</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt02</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt02</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt03</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt03</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt04</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt04</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt05</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt05</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt12</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt12</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt23</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt23</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt34</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt34</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">dt45</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>dt45</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don0</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don0</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don1</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don1</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don2</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don2</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don3</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don3</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don4</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don4</output>
+        </if>
+
+        <if less="true" equal="true">
+            <input clear="false">don5</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output>don5</output>
+        </if>
+
 
     </analysis>
     <export>
