@@ -501,7 +501,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on0</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on0</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -536,7 +536,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">off0</input>
             <input clear="false">trigger_last</input>
             <input clear="false">off0</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -577,7 +577,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on1</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on1</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -614,7 +614,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">off1</input>
             <input clear="false">trigger_last</input>
             <input clear="false">off1</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -655,7 +655,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on2</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on2</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -692,7 +692,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">off2</input>
             <input clear="false">trigger_last</input>
             <input clear="false">off2</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -733,7 +733,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on3</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on3</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -770,7 +770,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">off3</input>
             <input clear="false">trigger_last</input>
             <input clear="false">off3</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -811,7 +811,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on4</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on4</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -848,7 +848,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">off4</input>
             <input clear="false">trigger_last</input>
             <input clear="false">off4</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
@@ -889,7 +889,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">on5</input>
             <input clear="false">trigger_last</input>
             <input clear="false">on5</input>
-            <input clear="false">trigger_last</input>
+            <input clear="false">t</input>
             <output>trigger_last</output>
         </if>
 
