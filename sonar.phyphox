@@ -117,7 +117,7 @@
             </graph>
         </view>
     </views>
-    <analysis sleep="0.3">
+    <analysis sleep="0.25">
         <ramp>
             <input as="start" type="value">0</input>
             <input as="stop" type="value">0.25</input>
