@@ -39,8 +39,9 @@
     </translations>
 
     <data-containers>
-        <container size="12000">recording</container>
-        <container size="12000" static="true">recording_t</container>
+        <container size="24000">recording</container>
+        <container size="24000" static="true">recording_count</container>
+        <container size="9000">recording_range</container>
 
         <container>speedofsound</container>
         <container>targetdistance</container>
@@ -57,20 +58,25 @@
         <container size="1500" static="true">padded_chirp</container>
         <container size="7500" static="true">multi_chirp</container>
 
-        <container size="11760">crosscorrelation_t</container>
-        <container size="11760">crosscorrelation</container>
-        <container size="11760">ccTemp</container>
+        <container size="1500">crosscorrelation</container>
+        <container size="1500" static="true">count</container>
+        <container size="1500">ccTemp</container>
+
+        <container>max</container>
+        <container>threshold</container>
 
         <container>t0</container>
         <container>t1</container>
         <container>t2</container>
 
-        <container size="12000">cut_t</container>
-        <container size="12000">relative_cc</container>
-        <container size="12000">relative_t</container>
-        <container size="12000">distance</container>
-        <container size="12000">sos</container>
-        <container size="12000">weighted_cc</container>
+        <container size="1200" static="true">count_t</container>
+        <container size="1200" static="true">relative_t</container>
+        <container size="1200">relative_cc</container>
+        <container size="1200">distance</container>
+        <container size="1200">sos</container>
+        <container size="1200">weighted_cc</container>
+
+	<container>not used</container>
     </data-containers>
 
     <input>
@@ -117,12 +123,7 @@
             </graph>
         </view>
     </views>
-    <analysis sleep="0.25">
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" type="value">0.25</input>
-            <output>recording_t</output>
-        </ramp>
+    <analysis sleep="0.45">
 
         <ramp>
             <input as="start" type="value">0</input>
@@ -185,17 +186,80 @@
             <output>multi_chirp</output>
         </append>
 
-        <crosscorrelation>
-            <input>recording</input>
-            <input clear="false">multi_chirp</input>
-            <output>crosscorrelation</output>
-        </crosscorrelation>
+	<!-- end chirp -->
+
+	<!-- Relative time -->
 
         <ramp>
             <input as="start" type="value">0</input>
-            <input as="stop" type="value">0.245</input>
-            <output>crosscorrelation_t</output>
+            <input as="stop" type="value">23999</input>
+            <output>recording_count</output>
         </ramp>
+
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop" type="value">1499</input>
+            <output>count</output>
+        </ramp>
+
+        <ramp>
+            <input as="start" type="value">96</input>
+            <input as="stop" type="value">1295</input>
+            <output>count_t</output>
+        </ramp>
+
+        <divide>
+            <input>count_t</input>
+            <input type="value">48000</input>
+            <output>relative_t</output>
+        </divide>
+
+        <!-- Estimate start point -->
+
+        <max>
+            <input as="y" clear="false">recording</input>
+            <output as="max">max</output>
+        </max>
+
+        <multiply>
+            <input clear="false">max</input>
+            <input type="value">0.75</input>
+            <output>threshold</output>
+        </multiply>
+
+        <threshold>
+            <input as="y" clear="false">recording</input>
+            <input as="threshold">threshold</input>
+            <output>t0</output>
+        </threshold>
+       
+        <subtract>
+            <input clear="false">t0</input>
+            <input type="value">240</input> <!-- chirp -->
+            <output>t1</output>
+        </subtract>
+        <add>
+            <input clear="false">t1</input>
+            <input type="value">9000</input> <!-- five chirps with padding + distance + headroom -->
+            <output>t2</output>
+        </add>
+
+        <rangefilter>
+            <input clear="false">recording_count</input>
+            <input as="min" clear="false">t1</input>
+            <input as="max" clear="false">t2</input>
+            <input clear="false">recording</input>
+            <output>not used</output>
+            <output>recording_range</output>
+        </rangefilter>
+
+	<!-- Crosscorrelation -->        
+
+        <crosscorrelation>
+            <input clear="false">recording_range</input>
+            <input clear="false">multi_chirp</input>
+            <output>crosscorrelation</output>
+        </crosscorrelation>
 
         <multiply>
             <input clear="false">crosscorrelation</input>
@@ -203,38 +267,37 @@
             <input type="value">1e10</input>
             <output>ccTemp</output>
         </multiply>
+
         <gausssmooth sigma="3">
             <input>ccTemp</input>
             <output>crosscorrelation</output>
         </gausssmooth>
+
+	<!-- Find start and range -->
+
         <max>
             <input as="y" clear="false">crosscorrelation</input>
-            <input as="x" clear="false">crosscorrelation_t</input>
             <output as="position">t0</output>
         </max>
         <add>
             <input clear="false">t0</input>
-            <input type="value">0.002</input>
+            <input type="value">96</input> <!-- 2ms -->
             <output>t1</output>
         </add>
         <add>
-            <input clear="false">t0</input>
-            <input type="value">0.025</input>
+            <input clear="false">t1</input>
+            <input type="value">1200</input> <!-- 25ms -->
             <output>t2</output>
         </add>
         <rangefilter>
-            <input clear="false">crosscorrelation_t</input>
+            <input clear="false">count</input>
             <input as="min">t1</input>
             <input as="max">t2</input>
             <input clear="false">crosscorrelation</input>
-            <output>cut_t</output>
+            <output>not used</output>
             <output>relative_cc</output>
         </rangefilter>
-        <subtract>
-            <input>cut_t</input>
-            <input>t0</input>
-            <output>relative_t</output>
-        </subtract>
+
         <multiply>
             <input clear="false">relative_t</input>
             <input clear="false">speedofsound</input>
@@ -259,12 +322,12 @@
     <export>
         <set name="Echo location">
             <data name="Distance (cm)">distance</data>
-            <data name="Crosscorrelation (a.u.)">crosscorrelation</data>
+            <data name="Crosscorrelation (a.u.)">relative_cc</data>
             <data name="Normalized CC (a.u.)">weighted_cc</data>
         </set>
         <set name="Speed of sound">
             <data name="Speed of sound (m/s)">sos</data>
-            <data name="Crosscorrelation (a.u.)">crosscorrelation</data>
+            <data name="Crosscorrelation (a.u.)">relative_cc</data>
             <data name="Normalized CC (a.u.)">weighted_cc</data>
         </set>
         <set name="Chirp">
