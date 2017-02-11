@@ -25,7 +25,6 @@
     </translations>
     <data-containers>
         <container size="2400">recording</container>
-        <container size="2400">recordingCopy</container>
         <container size="2400" static="true">time</container>
         <container size="480" static="true">reltime</container>
         <container size="2">triggerTMinList</container>
@@ -60,17 +59,12 @@
         </ramp>
 
         <append>
-            <input>recording</input>
-            <output>recordingCopy</output>
-        </append>
-
-        <append>
             <input type="value">40</input>
             <output>triggerTMinList</output>
         </append>
 
         <threshold falling="false">
-            <input as="y" clear="false">recordingCopy</input>
+            <input as="y" clear="false">recording</input>
             <input as="x">time</input>
             <output clear="false">triggerTMinList</output>
         </threshold>
@@ -89,7 +83,7 @@
             <input>time</input>
             <input as="min">triggerT</input>
             <input as="max">triggerTend</input>
-            <input>recordingCopy</input>
+            <input>recording</input>
             <output>subtime</output>
             <output>subdata</output>
          </rangefilter>

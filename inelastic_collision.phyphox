@@ -60,8 +60,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>threshold</container>
         <container>mindelay</container>
         <container size="4000">recording</container>
-        <container size="4000">recordingCopy</container>
-        <container size="4000">workingCopy</container>
         <container>i</container>
         <container>i2</container>
         <container>t</container>
@@ -246,18 +244,14 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </view>
     </views>
     <analysis>
-        <append>
-            <input clear="true">recording</input>
-            <output clear="true">recordingCopy</output>
-        </append>
 
         <count>
-            <input clear="false">recordingCopy</input>
+            <input clear="false">recording</input>
             <output>count</output>
         </count>
 
         <max>
-            <input as="y">recordingCopy</input>
+            <input as="y">recording</input>
             <output as="position">i</output>
             <output as="max">max</output>
         </max>

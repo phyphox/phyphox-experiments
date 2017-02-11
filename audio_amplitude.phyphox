@@ -27,7 +27,6 @@
     </translations>
     <data-containers>
         <container size="2400">recording</container>
-        <container size="2400">recordingCopy</container>
         <container size="2400">recordingSquared</container>
         <container>sum</container>
         <container>mean</container>
@@ -61,17 +60,12 @@
     </views>
     <analysis sleep="0.05">
 
-        <append>
-            <input>recording</input>
-            <output>recordingCopy</output>
-        </append>
-
         <timer>
             <output clear="false">time</output>
         </timer>
 
         <power>
-            <input as="base" clear="false">recordingCopy</input>
+            <input as="base" clear="false">recording</input>
             <input as="exponent" type="value">2</input>
             <output>recordingSquared</output>
         </power>
@@ -94,7 +88,7 @@
         </power>
 
         <max>
-            <input as="y">recordingCopy</input>
+            <input as="y">recording</input>
             <output as="max" clear="false">peak</output>
         </max>
 
