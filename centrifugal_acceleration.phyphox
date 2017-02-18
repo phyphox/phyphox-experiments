@@ -35,21 +35,8 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </translation>
     </translations>
     <data-containers>
-        <container size="1">accX</container>
-        <container size="1">accY</container>
-        <container size="1">accZ</container>
-        <container size="1">accX2</container>
-        <container size="1">accY2</container>
-        <container size="1">accZ2</container>
-        <container size="1">acc_temp</container>
         <container size="1">acc_result</container>
         <container size="1">acc_time</container>
-        <container size="1">gyrX</container>
-        <container size="1">gyrY</container>
-        <container size="1">gyrZ</container>
-        <container size="1">gyrX2</container>
-        <container size="1">gyrY2</container>
-        <container size="1">gyrZ2</container>
         <container size="1">gyr_squared_result</container>
         <container size="1">gyr_result</container>
         <container size="1">gyr_time</container>
@@ -62,15 +49,11 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </data-containers>
     <input>
         <sensor type="linear_acceleration" rate="2" average="true">
-            <output component="x">accX</output>
-            <output component="y">accY</output>
-            <output component="z">accZ</output>
+            <output component="abs">acc_result</output>
             <output component="t">acc_time</output>
         </sensor>
         <sensor type="gyroscope" rate="2" average="true">
-            <output component="x">gyrX</output>
-            <output component="y">gyrY</output>
-            <output component="z">gyrZ</output>
+            <output component="abs">gyr_result</output>
             <output component="t">gyr_time</output>
         </sensor>
     </input>
@@ -97,68 +80,23 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </view>
     </views>
     <analysis sleep="0.5">
-        <multiply>
-            <input clear="false">accX</input>
-            <input clear="true">accX</input>
-            <output clear="true">accX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">accY</input>
-            <input clear="true">accY</input>
-            <output clear="true">accY2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">accZ</input>
-            <input clear="true">accZ</input>
-            <output clear="true">accZ2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">gyrX</input>
-            <input clear="true">gyrX</input>
-            <output clear="true">gyrX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">gyrY</input>
-            <input clear="true">gyrY</input>
-            <output clear="true">gyrY2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">gyrZ</input>
-            <input clear="true">gyrZ</input>
-            <output clear="true">gyrZ2</output>
-        </multiply>
         <add>
             <input clear="true">acc_time</input>
             <input clear="true">gyr_time</input>
             <output clear="true">t_temp</output>
-        </add>
-        <add>
-            <input clear="true">accX2</input>
-            <input clear="true">accY2</input>
-            <input clear="true">accZ2</input>
-            <output clear="true">acc_temp</output>
-        </add>
-        <add>
-            <input clear="true">gyrX2</input>
-            <input clear="true">gyrY2</input>
-            <input clear="true">gyrZ2</input>
-            <output clear="true">gyr_squared_result</output>
         </add>
         <divide>
             <input clear="true">t_temp</input>
             <input type="value">2</input>
             <output clear="true">t_result</output>
         </divide>
-        <power>
-            <input as="base" clear="true">acc_temp</input>
-            <input as="exponent" type="value">0.5</input>
-            <output clear="true">acc_result</output>
-        </power>
-        <power>
-            <input as="base" clear="false">gyr_squared_result</input>
-            <input as="exponent" type="value">0.5</input>
-            <output clear="true">gyr_result</output>
-        </power>
+
+        <multiply>
+            <input clear="false">gyr_result</input>
+            <input clear="false">gyr_result</input>
+            <output clear="true">gyr_squared_result</output>
+        </multiply>
+
         <match>
             <input clear="true">acc_result</input>
             <input clear="true">gyr_result</input>
