@@ -114,7 +114,7 @@
 
         <multiply>
             <input>magnetIndices</input>
-            <input>magnetDistance</input>
+            <input clear="false">magnetDistance</input>
             <output>magnetPositions</output>
         </multiply>
 
