@@ -54,6 +54,7 @@
         <container size="100">frequency</container>
         <container size="100">temp1</container>
         <container size="100">temp2</container>
+        <container size="100">temp3</container>
         <container size="100">speed</container>
         <container size="100">time_res</container>
         <container size="0">frequency_hist</container>
@@ -190,18 +191,18 @@
         <divide>
             <input clear="false">f</input>
             <input clear="false">frequency</input>
-            <output>temp1</output>
+            <output>temp2</output>
         </divide>
 
         <subtract>
             <input type="value">1</input>
-            <input>temp1</input>
-            <output>temp2</output>
+            <input>temp2</input>
+            <output>temp3</output>
         </subtract>
 
         <multiply>
             <input clear="false">c</input>
-            <input>temp2</input>
+            <input>temp3</input>
             <output>speed</output>
         </multiply>
 
