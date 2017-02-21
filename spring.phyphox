@@ -309,10 +309,9 @@
             <data name="Time shift (s)">autocorrelation_t</data>
             <data name="Autocorrelation of sum">autocorrelation</data>
         </set>
-        <set name="Result History">
-            <data name="Period (s)">periodhist</data>
+        <set name="Resonance">
             <data name="Frequency (Hz)">frequencyhist</data>
-            <data name="Relative amplitude (a.u.)">relamplitude</data>
+            <data name="Rel. amplitude (a.u.)">relamplitude</data>
         </set>
     </export>
 </phyphox>
