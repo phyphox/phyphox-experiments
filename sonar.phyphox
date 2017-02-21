@@ -300,6 +300,11 @@
             <data name="Crosscorrelation (a.u.)">relative_cc</data>
             <data name="Normalized CC (a.u.)">weighted_cc</data>
         </set>
+        <set name="Time">
+            <data name="Delay (s)">relative_t</data>
+            <data name="Crosscorrelation (a.u.)">relative_cc</data>
+            <data name="Normalized CC (a.u.)">weighted_cc</data>
+        </set>
         <set name="Chirp">
             <data name="Time (s)">chirp_t</data>
             <data name="Amplitude (a.u.)" >weighted_chirp</data>
