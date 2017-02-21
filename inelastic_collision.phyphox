@@ -43,11 +43,11 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Height 3">Höhe 3</string>
             <string original="Height 4">Höhe 4</string>
             <string original="Height 5">Höhe 5</string>
-            <string original="Total energy 1">Gesamtenergie 1</string>
-            <string original="Total energy 2">Gesamtenergie 2</string>
-            <string original="Total energy 3">Gesamtenergie 3</string>
-            <string original="Total energy 4">Gesamtenergie 4</string>
-            <string original="Total energy 5">Gesamtenergie 5</string>
+            <string original="Energy 1">Energie 1</string>
+            <string original="Energy 2">Energie 2</string>
+            <string original="Energy 3">Energie 3</string>
+            <string original="Energy 4">Energie 4</string>
+            <string original="Energy 5">Energie 5</string>
             <string original="Retained on collision 2">Bei Stoß 2 behalten</string>
             <string original="Retained on collision 3">Bei Stoß 3 behalten</string>
             <string original="Retained on collision 4">Bei Stoß 4 behalten</string>
@@ -175,32 +175,32 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             </button>
         </view>
         <view label="Energy">
-            <value label="Total energy 1" size="2" precision="1" unit="%" factor="100">
+            <value label="Energy 1" size="2" precision="1" unit="%" factor="100">
                 <input>E1</input>
             </value>
             <separator height="1" />
-            <value label="Total energy 2" size="2" precision="1" unit="%" factor="100">
+            <value label="Energy 2" size="2" precision="1" unit="%" factor="100">
                 <input>E2</input>
             </value>
             <value label="Retained on collision 2" precision="1" unit="%" factor="100">
                 <input>E12</input>
             </value>
             <separator height="1" />
-            <value label="Total energy 3" size="2" precision="1" unit="%" factor="100">
+            <value label="Energy 3" size="2" precision="1" unit="%" factor="100">
                 <input>E3</input>
             </value>
             <value label="Retained on collision 3" precision="1" unit="%" factor="100">
                 <input>E23</input>
             </value>
             <separator height="1" />
-            <value label="Total energy 4" size="2" precision="1" unit="%" factor="100">
+            <value label="Energy 4" size="2" precision="1" unit="%" factor="100">
                 <input>E4</input>
             </value>
             <value label="Retained on collision 4" precision="1" unit="%" factor="100">
                 <input>E34</input>
             </value>
             <separator height="1" />
-            <value label="Total energy 5" size="2" precision="1" unit="%" factor="100">
+            <value label="Energy 5" size="2" precision="1" unit="%" factor="100">
                 <input>E5</input>
             </value>
             <value label="Retained on collision 5" precision="1" unit="%" factor="100">
@@ -616,21 +616,22 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <export>
         <set name="Energy">
             <data name="Bounce 0 (s)">t0</data>
+            <data name="Height 0 (m)">h0</data>
             <data name="Bounce 1 (s)">t1</data>
             <data name="Height 1 (m)">h1</data>
-            <data name="Total energy">E1</data>
+            <data name="Energy 1">E1</data>
             <data name="Bounce 2 (s)">t2</data>
             <data name="Height 2 (m)">h2</data>
-            <data name="Total energy">E2</data>
+            <data name="Energy 2">E2</data>
             <data name="Bounce 3 (s)">t3</data>
             <data name="Height 3 (m)">h3</data>
-            <data name="Total energy">E3</data>
+            <data name="Energy 3">E3</data>
             <data name="Bounce 4 (s)">t4</data>
             <data name="Height 4 (m)">h4</data>
-            <data name="Total energy">E4</data>
+            <data name="Energy 4">E4</data>
             <data name="Bounce 5 (s)">t5</data>
             <data name="Height 5 (m)">h5</data>
-            <data name="Total energy">E5</data>
+            <data name="Energy 5">E5</data>
         </set>
     </export>
 </phyphox>
