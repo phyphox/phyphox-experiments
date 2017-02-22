@@ -45,6 +45,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>dt23</container>
         <container>dt34</container>
         <container>dt45</container>
+        <container>count</container>
     </data-containers>
     <translations>
         <translation locale="de">
@@ -175,6 +176,8 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </views>
     <analysis>
 
+        <!-- We create a local copy of the new acc data and fill it with a zero if there is none as an empty buffer messes up our calculations -->
+
         <append>
             <input clear="true">acc</input>
             <output clear="true">accCopy</output>
@@ -184,6 +187,27 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="true">accT</input>
             <output clear="true">accTCopy</output>
         </append>
+
+        <count>
+            <input clear="false">accCopy</input>
+            <output>count</output>
+        </count>
+
+        <if equal="true">
+            <input clear="false">count</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <output clear="false">accCopy</output>
+        </if>
+
+        <if equal="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <output clear="false">accTCopy</output>
+        </if>
+
+        <!--  -->
 
         <append>
             <input clear="false">accTCopy</input>
