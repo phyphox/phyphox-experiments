@@ -197,14 +197,16 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <input clear="false">count</input>
             <input type="value">0</input>
             <input type="value">0</input>
-            <output clear="false">accCopy</output>
+            <input clear="false">accCopy</input>
+            <output clear="true">accCopy</output>
         </if>
 
         <if equal="true">
             <input>count</input>
             <input type="value">0</input>
             <input type="value">0</input>
-            <output clear="false">accTCopy</output>
+            <input clear="false">accTCopy</input>
+            <output clear="true">accTCopy</output>
         </if>
 
         <!--  -->
