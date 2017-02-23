@@ -226,7 +226,7 @@
         <subrange>
             <input as="from" clear="false">t1</input>
             <input as="length" type="value">9000</input> <!-- five chirps with padding + distance + headroom -->
-            <input clear="false">recording</input>
+            <input as="in" clear="false">recording</input>
             <output>recording_range</output>
         </subrange>
 
@@ -264,7 +264,7 @@
         <subrange>
             <input as="from">t1</input>
             <input as="length" type="value">1200</input><!-- 25ms -->
-            <input clear="false">crosscorrelation</input>
+            <input as="in" clear="false">crosscorrelation</input>
             <output>relative_cc</output>
         </subrange>
 

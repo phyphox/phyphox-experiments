@@ -141,9 +141,9 @@
         </multiply>
 
         <rangefilter>
-            <input>Nth_period_upper_limit</input>
+            <input as="in">Nth_period_upper_limit</input>
             <input as="max" clear="false">dt_samples</input>
-            <input>Nth_step</input>
+            <input as="in">Nth_step</input>
             <output>Nth_period_upper_limit_filtered</output>
             <output>Nth_step_filtered</output>
         </rangefilter>

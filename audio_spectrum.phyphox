@@ -80,11 +80,11 @@
             <output as="im">fftY</output>
         </fft>
         <rangefilter>
-            <input>frequency</input>
+            <input as="in">frequency</input>
             <input as="min" type="value">1</input>
             <input as="max" type="value">23994</input>
-            <input>fftX</input>
-            <input>fftY</input>
+            <input as="in">fftX</input>
+            <input as="in">fftY</input>
             <output>halfFrequency</output>
             <output>halfFFTtempX</output>
             <output>halfFFTtempY</output>
