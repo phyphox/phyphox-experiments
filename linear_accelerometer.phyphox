@@ -17,7 +17,7 @@
             <string original="Acceleration X">Beschleunigung X</string>
             <string original="Acceleration Y">Beschleunigung Y</string>
             <string original="Acceleration Z">Beschleunigung Z</string>
-            <string original="Absolute Acceleration">Absolute Beschleunigung</string>
+            <string original="Absolute acceleration">Absolute Beschleunigung</string>
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
