@@ -12,6 +12,7 @@
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Spring</link>
     <link label="x / y / z">http://phyphox.org/sensors/</link>
+    <link label="Video" highlight="true">https://youtu.be/VbL4IInVAO4</link>
     <translations>
         <translation locale="de">
             <title>Federpendel</title>
@@ -38,6 +39,7 @@
             <string original="Accelerometer Z">Beschleunigung Z</string>
             <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+            <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
         </translation>
     </translations>
     <data-containers>
