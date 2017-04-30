@@ -46,7 +46,7 @@
             </graph>
         </view>
     </views>
-    <analysis sleep="0.05">
+    <analysis sleep="0.1">
         <ramp>
             <input as="start" type="value">0</input>
             <input as="stop" type="value">50</input>
