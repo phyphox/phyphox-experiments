@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.5" locale="en">
     <title>Audio Autocorrelation</title>
     <category>Acoustics</category>
     <icon format="base64">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</icon>
@@ -56,6 +56,15 @@
         <container size="4800">fineSearch_t</container>
         <container>fineSearchResult</container>
         <container>fineFrequency_1000</container>
+        <container>ratio</container>
+        <container static="true">log2</container>
+        <container>logRatio</container>
+        <container>log2Ratio</container>
+        <container>cents</container>
+        <container>semitones</container>
+        <container>semitonesRound</container>
+        <container>semitonesDiff</container>
+        <container>centsDiff</container>
     </data-containers>
     <input>
         <audio rate="48000">
@@ -69,6 +78,81 @@
             </value>
             <value label="Frequency" unit="Hz">
                 <input>frequency</input>
+            </value>
+            <separator height="1" />
+            <value label="Note">
+                <input>semitonesRound</input>
+                <map max="-25">Low</map>
+
+                <map max="-24">A2</map>
+                <map max="-23">A#2 / Bb2</map>
+                <map max="-22">B2</map>
+                <map max="-21">C3</map>
+                <map max="-20">C#3 / Db3</map>
+                <map max="-19">D3</map>
+                <map max="-18">D#3 / Eb3</map>
+                <map max="-17">E3</map>
+                <map max="-16">F3</map>
+                <map max="-15">F#3 / Gb3</map>
+                <map max="-14">G3</map>
+                <map max="-13">G#3 / Ab3</map>
+
+                <map max="-12">A3</map>
+                <map max="-11">A#3 / Bb3</map>
+                <map max="-10">B3</map>
+                <map max="-9">C4</map>
+                <map max="-8">C#4 / Db4</map>
+                <map max="-7">D4</map>
+                <map max="-6">D#4 / Eb4</map>
+                <map max="-5">E4</map>
+                <map max="-4">F4</map>
+                <map max="-3">F#4 / Gb4</map>
+                <map max="-2">G4</map>
+                <map max="-1">G#4 / Ab4</map>
+
+                <map max="0">A4</map>
+                <map max="1">A#4 / Bb4</map>
+                <map max="2">B4</map>
+                <map max="3">C5</map>
+                <map max="4">C#5 / Db5</map>
+                <map max="5">D5</map>
+                <map max="6">D#5 / Eb5</map>
+                <map max="7">E5</map>
+                <map max="8">F5</map>
+                <map max="9">F#5 / Gb5</map>
+                <map max="10">G5</map>
+                <map max="11">G#5 / Ab5</map>
+
+                <map max="12">A5</map>
+                <map max="13">A#5 / Bb5</map>
+                <map max="14">B5</map>
+                <map max="15">C6</map>
+                <map max="16">C#6 / Db6</map>
+                <map max="17">D6</map>
+                <map max="18">D#6 / Eb6</map>
+                <map max="19">E6</map>
+                <map max="20">F6</map>
+                <map max="21">F#6 / Gb6</map>
+                <map max="22">G6</map>
+                <map max="23">G#6 / Ab6</map>
+
+                <map max="24">A6</map>
+                <map max="25">A#6 / Bb6</map>
+                <map max="26">B6</map>
+                <map max="27">C7</map>
+                <map max="28">C#7 / Db7</map>
+                <map max="29">D7</map>
+                <map max="30">D#7 / Eb7</map>
+                <map max="31">E7</map>
+                <map max="32">F7</map>
+                <map max="33">F#7 / Gb7</map>
+                <map max="34">G7</map>
+                <map max="35">G#7 / Ab7</map>
+
+                <map min="35">High</map>
+            </value>
+            <value label="Cents from note">
+                <input>centsDiff</input>
             </value>
             <separator height="1" />
             <graph label="Autocorrelation" labelX="Δt (ms)" labelY="correlation (a.u.)">
@@ -196,6 +280,57 @@
             <input clear="false">period</input>
             <output>frequency</output>
         </divide>
+
+        <divide>
+            <input clear="false">frequency</input>
+            <input type="value">440</input>
+            <output>ratio</output>
+        </divide>
+
+        <log>
+            <input type="value">2</input>
+            <output>log2</output>
+        </log>
+
+        <log>
+            <input>ratio</input>
+            <output>logRatio</output>
+        </log>
+
+        <divide>
+            <input>logRatio</input>
+            <input>log2</input>
+            <output>log2Ratio</output>
+        </divide>
+
+        <multiply>
+            <input>log2Ratio</input>
+            <input type="value">1200</input>
+            <output>cents</output>
+        </multiply>
+
+        <divide>
+            <input clear="false">cents</input>
+            <input type="value">100</input>
+            <output>semitones</output>
+        </divide>
+
+        <round>
+            <input clear="false">semitones</input>
+            <output>semitonesRound</output>
+        </round>
+
+        <subtract>
+            <input clear="false">semitones</input>
+            <input clear="false">semitonesRound</input>
+            <output>semitonesDiff</output>
+        </subtract>
+
+        <multiply>
+            <input clear="false">semitonesDiff</input>
+            <input type="value">100</input>
+            <output>centsDiff</output>
+        </multiply>
     </analysis>
 
     <export>
