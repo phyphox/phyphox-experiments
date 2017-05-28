@@ -28,6 +28,8 @@
             <string original="correlation (a.u.)">Korrelation (a.u.)</string>
             <string original="Raw data">Rohdaten</string>
             <string original="Recording">Aufnahme</string>
+            <string original="Musical note">Note (Musik)</string>
+            <string original="Cents from note">Cent über Note</string>
         </translation>
     </translations>
     <data-containers>
@@ -80,7 +82,7 @@
                 <input>frequency</input>
             </value>
             <separator height="1" />
-            <value label="Note">
+            <value label="Musical note">
                 <input>semitonesRound</input>
                 <map max="-25">Low</map>
 

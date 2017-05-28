@@ -23,6 +23,8 @@
             <string original="Raw data">Rohdaten</string>
             <string original="Recording">Aufnahme</string>
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
+            <string original="Musical note">Note (Musik)</string>
+            <string original="Cents from note">Cent über Note</string>
         </translation>
     </translations>
     <data-containers>
@@ -59,7 +61,7 @@
                 <input>f0</input>
             </value>
             <separator height="1" />
-            <value label="Note">
+            <value label="Musical note">
                 <input>semitonesRound</input>
                 <map max="-25">Low</map>
 
