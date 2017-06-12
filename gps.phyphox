@@ -34,7 +34,7 @@
             <string original="Waiting for signal">Warte auf Signal</string>
             <string original="Active">Aktiv</string>
             <string original="Simple">Einfach</string>
-            <string original="Direction (m/s)">Richtung (m/s)</string>
+            <string original="Direction (°)">Richtung (°)</string>
             <string original="Compass">Kompass</string>
         </translation>
     </translations>
@@ -89,7 +89,7 @@
                 <input axis="x">t</input>
                 <input axis="y">v</input>
             </graph>
-            <graph label="Direction" labelX="t (s)" labelY="Direction (m/s)" partialUpdate="true" style="dots">
+            <graph label="Direction" labelX="t (s)" labelY="Direction (°)" partialUpdate="true" style="dots">
                 <input axis="x">t</input>
                 <input axis="y">dir</input>
             </graph>
