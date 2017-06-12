@@ -39,25 +39,13 @@
         <container size="4800">autoco_t</container>
         <container>period</container>
         <container>frequency</container>
-        <container>dt</container>
-        <container>t0</container>
-        <container>t1</container>
-        <container>t2</container>
-        <container size="4800">search_t</container>
-        <container size="4800">search_y</container>
         <container>max</container>
-        <container>period_1000</container>
-        <container size="100" static="true">factors</container>
-        <container size="100">multiples</container>
-        <container>multipleFactor</container>
-        <container>multiplePeriod</container>
-        <container>periodHalf</container>
-        <container>fineSearchMin</container>
-        <container>fineSearchMax</container>
-        <container size="4800">fineSearch</container>
-        <container size="4800">fineSearch_t</container>
-        <container>fineSearchResult</container>
-        <container>fineFrequency_1000</container>
+        <container>threshold</container>
+        <container>count</container>
+        <container>count-1</container>
+        <container size="0">peaksX</container>
+        <container size="0">peaksXfiltered</container>
+        <container size="1">lastX</container>
         <container>ratio</container>
         <container static="true">log2</container>
         <container>logRatio</container>
@@ -183,100 +171,54 @@
             <input as="minX" type="value">0</input>
             <input as="maxX" type="value">20</input>
         </autocorrelation>
-        <threshold falling="true">
+
+        <max>
+            <input as="y" clear="false">autocorrelation</input>
+            <output as="max">max</output>
+        </max>
+
+        <multiply>
+            <input clear="false">max</input>
+            <input type="value">0.5</input>
+            <output>threshold</output>
+        </multiply>
+
+        <max multiple="true">
             <input as="x" clear="false">autoco_t</input>
             <input as="y" clear="false">autocorrelation</input>
-            <input as="threshold" type="value">0</input>
-            <output>t0</output>
-        </threshold>
-        <multiply>
-            <input clear="false">t0</input>
-            <input type="value">2</input>
-            <output>dt</output>
-        </multiply>
-        <add>
-            <input clear="false">t0</input>
-            <input clear="false">dt</input>
-            <output>t1</output>
-        </add>
-        <add>
-            <input clear="false">t1</input>
-            <input>dt</input>
-            <output>t2</output>
-        </add>
-        <rangefilter>
-            <input as="in" clear="false">autoco_t</input>
-            <input as="min">t1</input>
-            <input as="max">t2</input>
-            <input as="in" clear="false">autocorrelation</input>
-            <output>search_t</output>
-            <output>search_y</output>
-        </rangefilter>
-        <max>
-            <input as="y">search_y</input>
-            <input as="x">search_t</input>
-            <output as="max">max</output>
-            <output as="position">period_1000</output>
+            <input as="threshold" clear="false">threshold</input>
+            <output as="position">peaksX</output>
         </max>
-        <ramp>
-            <input as="start" type="value">1</input>
-            <input as="stop" type="value">100</input>
-            <output>factors</output>
-        </ramp>
-        <multiply>
-            <input clear="false">period_1000</input>
-            <input clear="false">factors</input>
-            <output>multiples</output>
-        </multiply>
+
         <rangefilter>
-            <input as="in">multiples</input>
-            <input as="max" type="value">18</input>
-            <input as="in">factors</input>
-            <output>multiplePeriod</output>
-            <output>multipleFactor</output>
+            <input clear="false">peaksX</input>
+            <input as="max" type="value">19.9</input>
+            <output>peaksXfiltered</output>
         </rangefilter>
-        <divide>
-            <input clear="false">period_1000</input>
-            <input type="value">2</input>
-            <output>periodHalf</output>
-        </divide>
+
+        <count>
+            <input clear="false">peaksXfiltered</input>
+            <output>count</output>
+        </count>
+
         <subtract>
-            <input clear="false">multiplePeriod</input>
-            <input clear="false">periodHalf</input>
-            <output>fineSearchMin</output>
+            <input clear="false">count</input>
+            <input type="value">1</input>
+            <output>count-1</output>
         </subtract>
-        <add>
-            <input clear="false">multiplePeriod</input>
-            <input>periodHalf</input>
-            <output>fineSearchMax</output>
-        </add>
-        <rangefilter>
-            <input as="in" clear="false">autoco_t</input>
-            <input as="min">fineSearchMin</input>
-            <input as="max">fineSearchMax</input>
-            <input as="in" clear="false">autocorrelation</input>
-            <output>fineSearch_t</output>
-            <output>fineSearch</output>
-        </rangefilter>
 
-        <max>
-            <input as="y">fineSearch</input>
-            <input as="x">fineSearch_t</input>
-            <output as="max">max</output>
-            <output as="position">fineSearchResult</output>
-        </max>
+        <append>
+            <input clear="false">peaksXfiltered</input>
+            <output>lastX</output>
+        </append>
 
         <divide>
-            <input>fineSearchResult</input>
-            <input>multipleFactor</input>
-            <output>fineFrequency_1000</output>
+            <input clear="false">lastX</input>
+            <input type="value">1000</input>
+            <input clear="false">count-1</input>
+            <output>period</output>
         </divide>
 
-        <multiply>
-            <input>fineFrequency_1000</input>
-            <input type="value">0.001</input>
-            <output>period</output>
-        </multiply>
         <divide>
             <input type="value">1</input>
             <input clear="false">period</input>
