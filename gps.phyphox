@@ -111,9 +111,14 @@
             <value label="Height" size="1" precision="1" unit="m">
                 <input>z</input>
             </value>
+            <separator height="1" />
             <value label="Speed" size="1" precision="1" unit="m/s">
                 <input>v</input>
             </value>
+            <value label="Speed" size="1" precision="1" factor="3.6" unit="km/h">
+                <input>v</input>
+            </value>
+            <separator height="1" />
             <value label="Direction" size="1" precision="1" unit="°">
                 <input>dir</input>
             </value>
