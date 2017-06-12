@@ -156,7 +156,7 @@
             <value label="Samples used">
                 <input>actual_samples</input>
             </value>
-            <value label="Period used" unit="ms" precision="2">
+            <value label="Period used" unit="ms" precision="2" factor="1000">
                 <input>period</input>
             </value>
         </view>
