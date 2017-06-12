@@ -20,25 +20,37 @@
             <string original="Spectrum">Spektrum</string>
             <string original="Peak-Frequency">Frequenzspitze</string>
             <string original="Fourier Transform">Fourier-Transformierte</string>
+            <string original="Settings">Einstellungen</string>
             <string original="Raw data">Rohdaten</string>
             <string original="Recording">Aufnahme</string>
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
             <string original="Musical note">Note (Musik)</string>
             <string original="Cents from note">Cent über Note</string>
+            <string original="Samples used">Genutzte Werte</string>
+            <string original="Period used">Genutzte Periode</string>
+            <string original="Samples">Messwerte</string>
+            <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
         </translation>
     </translations>
     <data-containers>
-        <container size="8192">recording</container>
-        <container size="8192" static="true">time</container>
-        <container size="8192" static="true">frequency</container>
-        <container size="8192">fftX</container>
-        <container size="8192">fftY</container>
-        <container size="4096">halfFrequency</container>
-        <container size="4096">halfFFTtempX</container>
-        <container size="4096">halfFFTtempY</container>
-        <container size="4096">halfFFTtempX2</container>
-        <container size="4096">halfFFTtempY2</container>
-        <container size="4096">fft</container>
+        <container size="32768">recording</container>
+        <container size="32768">recording_subrange</container>
+        <container>recording_length</container>
+        <container init="8192">samples</container>
+        <container>actual_samples</container>
+        <container>actual_samples+1</container>
+        <container>subrange_start</container>
+        <container>period</container>
+        <container size="32768">time</container>
+        <container size="32769">frequency</container>
+        <container size="32768">fftX</container>
+        <container size="32768">fftY</container>
+        <container size="16384">halfFrequency</container>
+        <container size="16384">halfFFTtempX</container>
+        <container size="16384">halfFFTtempY</container>
+        <container size="16384">halfFFTtempX2</container>
+        <container size="16384">halfFFTtempY2</container>
+        <container size="16384">fft</container>
         <container>f0</container>
         <container>ratio</container>
         <container static="true">log2</container>
@@ -140,35 +152,102 @@
                 <input axis="x">halfFrequency</input>
                 <input axis="y">fft</input>
             </graph>
+            <separator height="1" precision="0" />
+            <value label="Samples used">
+                <input>actual_samples</input>
+            </value>
+            <value label="Period used" unit="ms" precision="2">
+                <input>period</input>
+            </value>
+        </view>
+        <view label="Settings">
+            <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution." />
+            <value label="Samples" precision="0">
+                <input>samples</input>
+            </value>
+            <separator height="0.5" />
+            <button label="4096">
+                <input type="value">4096</input>
+                <output>samples</output>
+            </button>
+            <button label="8192">
+                <input type="value">8192</input>
+                <output>samples</output>
+            </button>
+            <button label="16384">
+                <input type="value">16384</input>
+                <output>samples</output>
+            </button>
+            <button label="32768">
+                <input type="value">32768</input>
+                <output>samples</output>
+            </button>
         </view>
         <view label="Raw data">
-            <graph label="Recording" labelX="t (ms)" labelY="Amplitude (a.u.)" >
+            <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)" >
                 <input axis="x">time</input>
-                <input axis="y">recording</input>
+                <input axis="y">recording_subrange</input>
             </graph>
         </view>
     </views>
-    <analysis sleep="0.2">
+    <analysis sleep="0.1" dynamicSleep="period">
+        <count>
+            <input clear="false">recording</input>
+            <output>recording_length</output>
+        </count>
+
+        <subtract>
+            <input>recording_length</input>
+            <input clear="false">samples</input>
+            <output>subrange_start</output>
+        </subtract>
+
+        <subrange>
+            <input clear="false" as="from">subrange_start</input>
+            <input clear="false">recording</input>
+            <output>recording_subrange</output>
+        </subrange>
+
+        <count>
+            <input clear="false">recording_subrange</input>
+            <output>actual_samples</output>
+        </count>
+
+        <add>
+            <input clear="false">actual_samples</input>
+            <input type="value">1</input>
+            <output>actual_samples+1</output>
+        </add>
+
+        <divide>
+            <input clear="false">actual_samples</input>
+            <input type="value">48000</input>
+            <output>period</output>
+        </divide>
+
         <ramp>
             <input as="start" type="value">0</input>
-            <input as="stop" type="value">170.645833</input>
+            <input as="stop" clear="false">period</input>
+            <input as="length" clear="false">actual_samples+1</input>
             <output>time</output>
         </ramp>
+
         <ramp>
             <input as="start" type="value">0</input>
-            <input as="stop" type="value">47994</input>
+            <input as="stop" type="value">48000</input>
+            <input as="length" clear="false">actual_samples+1</input>
             <output>frequency</output>
         </ramp>
 
         <fft>
-            <input clear="false">recording</input>
+            <input clear="false">recording_subrange</input>
             <output as="re">fftX</output>
             <output as="im">fftY</output>
         </fft>
         <rangefilter>
             <input as="in">frequency</input>
-            <input as="min" type="value">1</input>
-            <input as="max" type="value">23994</input>
+            <input as="min" type="value">0.001</input>
+            <input as="max" type="value">24000</input>
             <input as="in">fftX</input>
             <input as="in">fftY</input>
             <output>halfFrequency</output>
@@ -251,6 +330,7 @@
             <input type="value">100</input>
             <output>centsDiff</output>
         </multiply>
+
     </analysis>
     <export>
         <set name="FFT Spectrum">
@@ -258,8 +338,8 @@
             <data name="Absolute Amplitude (a.u.)">fft</data>
         </set>
         <set name="Raw data">
-            <data name="Time (ms)">time</data>
-            <data name="Recording (a.u.)">recording</data>
+            <data name="Time (s)">time</data>
+            <data name="Recording (a.u.)">recording_subrange</data>
         </set>
     </export>
 </phyphox>
