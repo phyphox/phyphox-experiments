@@ -36,6 +36,7 @@
             <string original="Simple">Einfach</string>
             <string original="Direction (°)">Richtung (°)</string>
             <string original="Compass">Kompass</string>
+            <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
         </translation>
     </translations>
     <data-containers>
@@ -149,6 +150,8 @@
             <value label="Satellites" size="1" precision="0">
                 <input>satellites</input>
             </value>
+            <separator height="1" />
+            <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy." />
         </view>
     </views>
     <export>
