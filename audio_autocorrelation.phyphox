@@ -7,7 +7,7 @@
 
         This experiment records audio from the microphone and analyses it for its frequency. This only works if there is a single tone with a fixed frequency - if there are multiple frequencies (like an accord), use the &quot;spectrum&quot; experiment instead.
 
-        The analysis is done by calculating the autocorrelation of the audio signal, which is then analyzed for its first maximum. As an autocorrelation shows a maximum at dt = 0, we look for the first time t0 it crosses zero. From there we expect the autocorrelation to oscillate periodically about zero. Through this assumption we extract the position of the first full maximum to be in the range 3x t0 to 5x t0 in which we look for the maximum value.
+        The analysis is done by calculating the autocorrelation of the audio signal. The experiment then considers all peaks that exceed half of the maximum signal in the autocorrelation. The position of the last of these peaks within the autocorrelation gives a multiple of the period of the signal. By counting the number of peaks we can get the period of the base frequency.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Autocorrelation</link>
     <translations>
@@ -19,7 +19,7 @@
 
                 Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment &quot;Audio Spektrum&quot;.
 
-                Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Die Frequenz entspricht dem ersten Maximum der Autokorrelation nach dem stets auftretenden Maximum bei dt = 0. Von dem Punkt t0, an welchem das Signal zum ersten Mal die Nulllinie unterschreitet, sucht der Algorithmus in dem Bereich 3x t0 bis 5x t0 nach dem Maximum der Autokorrelation, in der Annahme, dass diese sich periodisch um die Nulllinie bewegt.
+                Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Das Experiment sucht alle Maxima im Korrelationssignal heraus, die die Hälfte des globalen Maximums überschreiten. Die Position des letzten Maximums in der Autokorrelation entspricht dem Vielfachen der gesuchten Periode, die wir durch Abzählen der Maxima ermitteln können.
             </description>
             <string original="Autocorr.">Autokorr.</string>
             <string original="Period">Periode</string>
