@@ -123,14 +123,6 @@
                 <input>samples</input>
             </value>
             <separator height="0.5" />
-            <button label="32">
-                <input type="value">32</input>
-                <output>samples</output>
-            </button>
-            <button label="64">
-                <input type="value">64</input>
-                <output>samples</output>
-            </button>
             <button label="128">
                 <input type="value">128</input>
                 <output>samples</output>
