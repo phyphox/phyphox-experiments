@@ -59,7 +59,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <data-containers>
         <container>threshold</container>
         <container>mindelay</container>
-        <container size="24000">recording</container>
+        <container size="16384">recording</container>
         <container>i</container>
         <container>i2</container>
         <container>t</container>
