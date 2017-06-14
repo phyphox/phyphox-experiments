@@ -199,7 +199,7 @@
         <subrange>
             <input as="from" clear="false">count-1</input>
             <input as="length" type="value">1</input>
-            <input clear="false">time</input>
+            <input as="in" clear="false">time</input>
             <output>t1</output>
         </subrange>
 
@@ -230,25 +230,25 @@
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">magX</input>
+            <input as="in" clear="false">magX</input>
             <output>magX_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">magY</input>
+            <input as="in" clear="false">magY</input>
             <output>magY_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">magZ</input>
+            <input as="in" clear="false">magZ</input>
             <output>magZ_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">time</input>
+            <input as="in" clear="false">time</input>
             <output>time_subrange</output>
         </subrange>
 

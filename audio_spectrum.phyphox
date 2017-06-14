@@ -204,7 +204,7 @@
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">recording</input>
+            <input as="in" clear="false">recording</input>
             <output>recording_subrange</output>
         </subrange>
 

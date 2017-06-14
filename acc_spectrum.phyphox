@@ -199,7 +199,7 @@
         <subrange>
             <input as="from" clear="false">count-1</input>
             <input as="length" type="value">1</input>
-            <input clear="false">time</input>
+            <input as="in" clear="false">time</input>
             <output>t1</output>
         </subrange>
 
@@ -230,25 +230,25 @@
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">accX</input>
+            <input as="in" clear="false">accX</input>
             <output>accX_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">accY</input>
+            <input as="in" clear="false">accY</input>
             <output>accY_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">accZ</input>
+            <input as="in" clear="false">accZ</input>
             <output>accZ_subrange</output>
         </subrange>
 
         <subrange>
             <input clear="false" as="from">subrange_start</input>
-            <input clear="false">time</input>
+            <input as="in" clear="false">time</input>
             <output>time_subrange</output>
         </subrange>
 
