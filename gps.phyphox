@@ -10,7 +10,7 @@
 
         Speed and velocity are typically given by the device ans are based on two or more consecutive position fixes.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Location_(GPS)</link>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Location_(GPS)</link>
     <translations>
         <translation locale="de">
             <title>Standort (GPS)</title>
