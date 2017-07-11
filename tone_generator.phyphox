@@ -16,6 +16,9 @@
             <string original="Frequency">Frequenz</string>
             <string original="Time (s)">Zeit (s)</string>
             <string original="Tone generator">Tongenerator</string>
+            <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Obwohl phyphox beliebige Frequenzen erlaubt, können die Ergebnisse aufgrund von Hardware-Einschränkungen unter 100Hz oder über 8000Hz deutlich schlechter werden.</string>
+            <string original="Frequency low">Frequenz niedrig</string>
+            <string original="Frequency high">Frequenz hoch</string>
         </translation>
     </translations>
     <data-containers>
@@ -35,13 +38,20 @@
     </output>
     <views>
         <view label="Tone generator">
-            <edit label="Frequency" unit="Hz" default="440" signed="false" min="100" max="8000">
+            <edit label="Frequency" unit="Hz" default="440" signed="false" min="0" max="24000">
                 <output>f</output>
             </edit>
             <graph label="Signal" labelX="Time (s)" labelY="A (a.u.)" >
                 <input axis="x">t</input>
                 <input axis="y">signal</input>
             </graph>
+            <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations." />
+            <value label="Status">
+                <input>f</input>
+                <map max="100">Frqeuency low</map>
+                <map min="8000">Frequency high</map>
+                <map>OK</map>
+            </value>
         </view>
     </views>
     <analysis onUserInput="true">

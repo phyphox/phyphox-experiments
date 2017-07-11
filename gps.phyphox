@@ -10,7 +10,7 @@
 
         Speed and velocity are typically given by the device ans are based on two or more consecutive position fixes.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Location_(GPS)</link>
+    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Location_(GPS)</link>
     <translations>
         <translation locale="de">
             <title>Standort (GPS)</title>
@@ -31,8 +31,7 @@
             <string original="Vertical Accuracy">Vertikale Genauigkeit</string>
             <string original="Satellites">Satelliten</string>
             <string original="GPS disabled">GPS deaktiviert</string>
-            <string original="Waiting for signal">Warte auf Signal</string>
-            <string original="Active">Aktiv</string>
+            <string original="GPS active">GPS aktiv</string>
             <string original="Simple">Einfach</string>
             <string original="Direction (°)">Richtung (°)</string>
             <string original="Compass">Kompass</string>
@@ -70,8 +69,7 @@
             <value label="Status">
                 <input>status</input>
                 <map max="-1">GPS disabled</map>
-                <map max="0">Waiting for signal</map>
-                <map max="1">Active</map>
+                <map min="0">GPS active</map>
             </value>
             <separator height="1" />
             <graph label="Latitude" labelX="t (s)" labelY="φ (°)" partialUpdate="true">
@@ -99,8 +97,7 @@
             <value label="Status">
                 <input>status</input>
                 <map max="-1">GPS disabled</map>
-                <map max="0">Waiting for signal</map>
-                <map max="1">Active</map>
+                <map min="0">GPS active</map>
             </value>
             <separator height="1" />
             <value label="Latitude" size="1" precision="6" unit="°">

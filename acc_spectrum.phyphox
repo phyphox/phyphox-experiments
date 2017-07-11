@@ -23,10 +23,7 @@
             <string original="Fourier Transform">Fourier-Transformierte</string>
             <string original="Settings">Einstellungen</string>
             <string original="Raw data">Rohdaten</string>
-            <string original="Recording">Aufnahme</string>
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
-            <string original="Musical note">Note (Musik)</string>
-            <string original="Cents from note">Cent über Note</string>
             <string original="Samples used">Genutzte Werte</string>
             <string original="Period used">Genutzte Periode</string>
             <string original="Acquisition rate">Aufnahmerate</string>
