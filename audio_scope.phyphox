@@ -35,7 +35,8 @@
         <container size="24000">subdata</container>
         <container init="10">length</container>
         <container>sleep1000</container>
-        <container init="0.05">sleep</container>
+        <container init="0.1">sleep</container>
+        <container init="0.1">effective_sleep</container>
     </data-containers>
     <input>
         <audio rate="48000">
@@ -65,6 +66,14 @@
             <input type="value">1000</input>
             <output>sleep</output>
         </divide>
+
+        <if less="true">
+            <input clear="false">sleep</input>
+            <input type="value">0.1</input>
+            <input type="value">0.1</input>
+            <input clear="false">sleep</input>
+            <output>effective_sleep</output>
+        </if>
 
         <ramp>
             <input as="start" type="value">0</input>
