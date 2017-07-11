@@ -68,7 +68,7 @@
 
         <ramp>
             <input as="start" type="value">0</input>
-            <input as="stop" type="value">500</input>
+            <input as="stop" type="value">550</input>
             <output>time</output>
         </ramp>
 
