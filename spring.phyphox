@@ -20,7 +20,7 @@
             <description>
                 Misst die Frequenz und Periode eines Federpendels.
 
-                Dieses Experiment nutzt den Beschleunigungssensor um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellend er Frequenz die Resonanz ausmessen.
+                Dieses Experiment nutzt den Beschleunigungssensor um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellen der Frequenz die Resonanz ausmessen.
 
                 Weitere Details:
                 Die Schwingungsperiode wird durch eine Autokorrelation der Summe der drei Komponenten des Beschleunigungs-Vektors ermittelt. Im Ergebnis der Autokorrelation wird dann nach dem ersten Maximum gesucht, die als erste Schätzung der Frequenz genutzt wird. Die genaue Frequenz folgt dann aus dem letzten Maximum der berechneten Autokorrelation.
