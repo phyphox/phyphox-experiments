@@ -37,6 +37,45 @@
             <string original="Compass">Kompass</string>
             <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
         </translation>
+        <translation locale="cs">
+            <string original="λ (°)">λ (°)</string>
+            <string original="Graph">Graf</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Latitude">Zeměpisná šířka</string>
+            <category>Senzory</category>
+            <string original="Direction">Směr</string>
+            <title>Pozice (GPS)</title>
+            <string original="NE">SV</string>
+            <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Prosím vemte v potaz, že některá zařízení nejsou vybavena senzorem GPS a vaši pozici určují pomocí telefonního signálu či WIFI připojení. Tyto zdroje dat jsou bohužel nepřesné.</string>
+            <string original="Compass">Kompas</string>
+            <string original="Active">Aktivní</string>
+            <string original="SW">JZ</string>
+            <string original="NW">SZ</string>
+            <string original="Status">Status</string>
+            <string original="E">V</string>
+            <description>Získejte surová data o vaší pozici ze satelitní navigace.
+
+Chování tohoto modulu záleží na konkrétní implementaci vašeho mobilního zařízení. Systém Android neposkytuje informace o vertikální přesnosti. Naproti tomu systém iOS neposkytuje informace o počtu satelitů a satelitní data jsou v iOS smíchána s pozičními údaji z jiných zdrojů.
+
+Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a je zpravidla založen na několika po sobě jdoucích údajích o pozici.</description>
+            <string original="Longitude">Zeměpisná délka</string>
+            <string original="N">S</string>
+            <string original="Vertical Accuracy">Vertikální přesnost</string>
+            <string original="Satellites">Satelity</string>
+            <string original="S">J</string>
+            <string original="W">Z</string>
+            <string original="v (m/s)">v (m/s)</string>
+            <string original="GPS disabled">GPS neaktivní</string>
+            <string original="φ (°)">φ (°)</string>
+            <string original="Waiting for signal">Čekám na signál</string>
+            <string original="Simple">Zjednodušeně</string>
+            <string original="Direction (°)">Direction (°)</string>
+            <string original="z (m)">z (m)</string>
+            <string original="Height">Výška</string>
+            <string original="Horizontal Accuracy">Horizontální přesnost</string>
+            <string original="Speed">Rychlost</string>
+            <string original="SE">JV</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="0">lat</container>

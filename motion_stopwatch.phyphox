@@ -72,6 +72,29 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Ändere die Schwelle auf einen Wert oberhalb des Sensorrauschens, aber unterhalb der Auslösebeschleunigung (dies kannst du zum Beispiel im Experiment "Beschleunigung (ohne g)" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden.</string>
             <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Die Genauigkeit dieses Experiments hängt vom Beschleunigungssensor deines Smartphones ab. Schnelle Sensoren können besser sein als eine Hundertstelsekunde, während langsame nur eine Auflösung von einer Sekunde schaffen.</string>
         </translation>
+        <translation locale="cs">
+            <category>Časovače</category>
+            <string original="Reset">Reset</string>
+            <description>Měření času, který uběhl mezi dvěma pohybovými událostmi.
+
+Tento experiment umožňuje měřit čas mezi dvěma zrychleními (míníme tím malé otřesy). Je možné, že budete chtít nastavit práh pro spuštění jednotlivých měření.
+
+Po spuštění experimentu začnou stopky běžet poté co poprvé celkové zrychlení mobilu překoná zvolený práh, a zastaví se po dalším překonání. Pro opakování experimentu vymažte naměřená data a spusťte jej znovu. První zrychlení musí být krátké, neboť dlouhý vibrace by mohly být rovnou vyhodnoceny i jako stopka.</description>
+            <title>Pohybové stopky</title>
+            <string original="Simple">Stručně</string>
+            <string original="Time 1">Čas 1</string>
+            <string original="Sequence">Sekvence</string>
+            <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Nastavte práh tak, aby byl vyšší než míra šumu ze senzoru, avšak spouštěcí vibrace jej přesahovala (tyto hodnoty můžete zjistit pomocí experimentu Akcelerace bez g). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem.</string>
+            <string original="Time 5">Čas 5</string>
+            <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Přesnost měření závisí na kvalitě akcelerometru ve vašem mobilním zařízení. Rychlé akcelerometry umí měřit hodnoty rychleji než za setinu sekundy, avšak pomalé mohou mít rozlišení i jedné sekundy.</string>
+            <string original="Time">Čas</string>
+            <string original="Threshold">Práh měření</string>
+            <string original="Time 4">Čas 4</string>
+            <string original="Minimum Delay">Minimální zpoždění</string>
+            <string original="Parallel">Paralelní</string>
+            <string original="Time 3">Čas 3</string>
+            <string original="Time 2">Čas 2</string>
+        </translation>
     </translations>
     <input>
         <sensor type="linear_acceleration" rate="0">
