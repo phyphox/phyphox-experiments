@@ -34,6 +34,25 @@
             <string original="Accelerometer z">Beschleunigung z</string>
             <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
         </translation>
+        <translation locale="cs">
+            <category>Běžný život</category>
+            <string original="a (m/s²)">a (m/s²)</string>
+            <description>Zjistěte rychlost výtahu pomocí barometru.
+
+Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Pomocí derivace takto získaných měření je pak snadné zjistit rychlost svislého pohybu výtahu. Dodatečně je zrychlení měřeno Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.</description>
+            <title>Výtah</title>
+            <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
+            <string original="h (m)">h (m)</string>
+            <string original="Vertical velocity (from height)">Svislá rychlost (z výšky)</string>
+            <string original="Motion">Pohyb</string>
+            <string original="Pressure">Tlak</string>
+            <string original="Height (from barometer)">Výška (z barometru)</string>
+            <string original="Raw Data">Čistá data</string>
+            <string original="Accelerometer z">Akcelerometr z</string>
+            <string original="v (m/s)">v (m/s)</string>
+            <string original="t (s)">t (s)</string>
+            <string original="p (hPa)">p (hPa)</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="0">pressure</container>

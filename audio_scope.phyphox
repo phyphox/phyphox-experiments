@@ -23,6 +23,18 @@
             <string original="Time (ms)">Zeit (ms)</string>
             <string original="Duration">Dauer</string>
         </translation>
+        <translation locale="cs">
+            <category>Akustika</category>
+            <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
+            <description>Ukázat zaznamenaná zvuková data.
+
+Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.</description>
+            <title>Zvukový záznam</title>
+            <string original="Audio Data">Zvuková data</string>
+            <string original="Duration">Trvání</string>
+            <string original="Scope">Záznam</string>
+            <string original="Time (ms)">Čas (ms)</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="26400">recording</container>

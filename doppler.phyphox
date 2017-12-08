@@ -30,6 +30,26 @@
             <string original="Speed">Geschwindigkeit</string>
             <string original="Speed (m/s)">Geschwindigkeit (m/s)</string>
         </translation>
+        <translation locale="cs">
+            <category>Akustika</category>
+            <string original="Frequency range">Rozsah frekvencí</string>
+            <description>Detekce malých Dopplerovských posunů frekvence.
+
+Potřebujete tónový generátor produkující konstantní frekvenci (například 1000Hz). Tuto základní frekvenci zadejte do nastavení experimentu. Dále nastavte detekční rozsah, do nějž očekáváte, že se vejde frekvenční posun (například 10Hz). Experiment určí zaznamenanou frekvenci a vypočítá z ní relativní rychlost zdroje zvuku.</description>
+            <title>Dopplerův jev</title>
+            <string original="Setup">Nastavení</string>
+            <string original="nth period">N-tá perioda</string>
+            <string original="Results">Výsledky</string>
+            <string original="Base frequency">Základní frekvence zdroje</string>
+            <string original="Frequency (Hz)">Frekvence (Hz)</string>
+            <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Časový krok určuje tempo a množství získávaných dat, které jsou použity pro výpočet rychlosti v jednom bodě. Algoritmus bude hledat frekvenci kolem základní frekvence zdroje +-Rozsah frekvencí. K určení frekvence bude použita n-tá perioda (viz níže. Zadání extrémních hodnot do políček rozsahu nebo časového kroku může způsobit vyšší nepřesnost měření anebo znemožnit výpočet kvůli omezené výpočetní kapacitě vašeho mobilního zařízení. Dále byste měli udržet rozsah v hodnotách podstatně menších než je 1/krok.</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Frequency">Frekvence</string>
+            <string original="Speed">Rychlost</string>
+            <string original="Time step">Časový krok</string>
+            <string original="Speed (m/s)">Rychlost (m/s)</string>
+            <string original="Speed of sound">Rychlost zvuku</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="48000">recording</container>

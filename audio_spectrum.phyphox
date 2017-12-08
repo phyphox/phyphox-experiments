@@ -31,6 +31,32 @@
             <string original="Samples">Messwerte</string>
             <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
         </translation>
+        <translation locale="cs">
+            <string original="FFT Mag (a.u.)">FFT Mag (libovolná jednotka)</string>
+            <string original="High">Vysoké</string>
+            <string original="Period used">Použitá perioda</string>
+            <string original="Low">Nízké</string>
+            <string original="Samples">Vzorků</string>
+            <string original="t (s)">t (s)</string>
+            <string original="4096">4096</string>
+            <category>Akustika</category>
+            <string original="Raw data">Čistá data</string>
+            <title>Zvukové spektrum</title>
+            <string original="Fourier Transform">Fourierova Transformace</string>
+            <string original="Peak-Frequency">Maximální frekvence</string>
+            <description>Zobrazení spektra frekvencí zvukového signálu.
+
+Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem pak můžete docílit lepších výsledků použitím experimentu "autokorelace".</description>
+            <string original="Settings">Nastavení</string>
+            <string original="Samples used">Počet vzorků</string>
+            <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
+            <string original="Recording">Záznam</string>
+            <string original="Frequency (Hz)">Frekvence (Hz)</string>
+            <string original="Musical note">Tón</string>
+            <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+            <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
+            <string original="Spectrum">Spektrum</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="32768">recording</container>

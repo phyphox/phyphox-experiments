@@ -26,6 +26,19 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Inclination">Neigung</string>
             <string original="Angle (°)">Winkel (°)</string>
         </translation>
+        <translation locale="cs">
+            <category>Nástroje</category>
+            <description>Měření úhlu náklonu mobilního zařízení.
+
+Tento nástroj využívá akcelerometr k určení náklonu mobilu. Když je telefon vodorovně pak je náklon 0. Pro nenulový náklon je směr udán jako rotace.
+
+Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon (například pro experimenty s nakloněnou rovinou) nezávisle na rotaci mobilu (kolem osy z).</description>
+            <title>Náklon</title>
+            <string original="t (s)">t (s)</string>
+            <string original="Angle (°)">Angle (°)</string>
+            <string original="Rotation">Rotace</string>
+            <string original="Inclination">Náklon</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="1">accX</container>

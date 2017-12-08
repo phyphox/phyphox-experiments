@@ -18,6 +18,19 @@
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
+        <translation locale="cs">
+            <category>Senzory</category>
+            <description>Získejte surová data z akcelerometru. Tento senzor neodečítá gravitační zrychlení, takže bude neustále hlásit konstantní zrychlení 9.81 m/s² a to i když bude mobil v klidu.</description>
+            <title>Akcelerace s g</title>
+            <string original="Simple">Stručně</string>
+            <string original="Graph">Graf</string>
+            <string original="a (m/s²)">a (m/sÂ˛)</string>
+            <string original="Accelerometer X">Akcelerometr X</string>
+            <string original="Accelerometer Y">Akcelerometr Y</string>
+            <string original="Accelerometer Z">Akcelerometr Z</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Absolute">Celkové zrychlení</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="0">accX</container>

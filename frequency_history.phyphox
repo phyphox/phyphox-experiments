@@ -23,6 +23,19 @@
             <string original="Period (s)">Periode (s)</string>
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
         </translation>
+        <translation locale="cs">
+            <category>Akustika</category>
+            <description>Měření změny frekvence jednoho tónu v průběhu času.
+
+Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť použitá metoda je autokorelace. Výsledek je zobrazen jako graf závislosti frekvence na čase.</description>
+            <title>Časosběrné meření frekvence</title>
+            <string original="Period">Perioda</string>
+            <string original="Frequency">Frekvence</string>
+            <string original="Period (s)">Perioda (s)</string>
+            <string original="Frequency (Hz)">Frekvence (Hz)</string>
+            <string original="t (s)">t (s)</string>
+            <string original="History">Historie</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="480">recording</container>

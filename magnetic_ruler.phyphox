@@ -32,6 +32,30 @@
             <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
             <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
         </translation>
+        <translation locale="cs">
+            <category>Nástroje</category>
+            <string original="Distance">Vzdálenost</string>
+            <string original="Magnetic field y">Magnetické pole y</string>
+            <description>Měřte ujetou vzdálenost, rychlost a zrychlení mobilu pomocí série magnetů.
+
+Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdálenost mezi magnety musí být stejná a je potřeba ji zadat do experimentu. Telefon využije svůj magnetometr k tomu, aby zjistil, kdy projel kolem magnetu a pomocí toho může určit ujetou vzdálenost.</description>
+            <string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string>
+            <string original="Bz (µT)">Bz (µT)</string>
+            <title>Magnetické pravítko</title>
+            <string original="Results">Výsledky</string>
+            <string original="Raw Data">Čistá data</string>
+            <string original="Bx (µT)">Bx (µT)</string>
+            <string original="Total magnetic field squared and filtered">Čtverec celkové magnetické indukce. Filtrovaný.</string>
+            <string original="v (m/s)">v (m/s)</string>
+            <string original="dx">dx</string>
+            <string original="Velocity">Rychlost</string>
+            <string original="Magnetic field z">Magnetické pole z</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Magnetic field x">Magnetické pole x</string>
+            <string original="x (m)">x (m)</string>
+            <string original="Filtered B² (µT²)">Filtrované B² (µT²)</string>
+            <string original="By (µT)">By (µT)</string>
+        </translation>
     </translations>
     <data-containers>
         <container>magnetDistance</container>

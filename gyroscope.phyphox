@@ -17,6 +17,19 @@
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
+        <translation locale="cs">
+            <category>Senzory</category>
+            <description>Získejte čistá data z gyroskopu.</description>
+            <title>Gyroskop</title>
+            <string original="Simple">Stručně</string>
+            <string original="Graph">Graf</string>
+            <string original="w (rad/s)">w (rad/s)</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Gyroscope X">Gyroskop X</string>
+            <string original="Gyroscope Y">Gyroskop Y</string>
+            <string original="Gyroscope Z">Gyroskop Z</string>
+            <string original="Absolute">Celkové</string>
+        </translation>
     </translations>
     <data-containers>
         <container size="0">gyrX</container>

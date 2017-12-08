@@ -97,6 +97,51 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf helle Beleuchtung reagieren möchtest, setzte den Wert &quot;Auslösen unter&quot; auf Null. Wenn du nur auf dunkle Ereignisse reagieren möchtest, setze &quot;Auslösen über&quot; auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen.</string>
             <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Die Genauigkeit der Zeitmessung hängt vom Lichtsensor in deinem Smartphone ab. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich.</string>
         </translation>
+        <translation locale="cs">
+            <string original="Trigger duration 4">Trvání události 4</string>
+            <string original="Trigger duration 5">Trvání události 5</string>
+            <string original="Trigger duration 2">Trvání události 2</string>
+            <string original="Trigger duration 3">Trvání události 3</string>
+            <string original="Trigger duration 0">Trvání události 0</string>
+            <string original="Trigger duration 1">Trvání události 1</string>
+            <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Stopky se spouštějí při hodnotách pod i nad stanoveným pásmem. Chcete-li, aby se spouštěly jen při silném osvětlení, pak nastavte hodnotu "Spustit pod" na nulu. Chcete-li, aby spouštěly jen při temných událostech, pak nastavte hodnotu "Spustit nad" hodně vysoko. Správné hodnoty prahů můžete odhadnout pomocí následujícího grafu.</string>
+            <string original="Illuminance">Intenzita osvětlení</string>
+            <category>Časovače</category>
+            <string original="Trigger off 4">Vypnutí spouště 4</string>
+            <string original="Trigger off 5">Vypnutí spouště 5</string>
+            <string original="Trigger off 2">Vypnutí spouště 2</string>
+            <string original="Trigger off 3">Vypnutí spouště 3</string>
+            <string original="Trigger off 0">Vypnutí spouště 0</string>
+            <title>Optické stopky</title>
+            <string original="Triggers">Spouště</string>
+            <string original="Trigger below">Spustit pod</string>
+            <string original="Time 5">Čas 5</string>
+            <string original="Time 4">Čas 4</string>
+            <string original="Time 1">Čas 1</string>
+            <string original="Parallel">Paralelní</string>
+            <string original="Time 3">Čas 3</string>
+            <string original="Time 2">Čas 2</string>
+            <string original="Reset">Reset</string>
+            <description>Měření času spouštěné světelným signálem.
+
+Tento experiment měří délku osvětlení či potemnění světelného senzoru a dobu mezi jednotlivými takovými událostmi. Například můžete změřit dobu mezi dvěma zakrytími světelného zdroje.
+
+Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě světelného senzoru ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".</description>
+            <string original="Settings">Nastavení</string>
+            <string original="Trigger on 3">Zapnutí spouště 3</string>
+            <string original="Trigger on 2">Zapnutí spouště 2</string>
+            <string original="Trigger on 1">Zapnutí spouště 1</string>
+            <string original="Trigger on 0">Zapnutí spouště 0</string>
+            <string original="Trigger on 5">Zapnutí spouště 5</string>
+            <string original="Trigger on 4">Zapnutí spouště 4</string>
+            <string original="Trigger above">Spustit nad</string>
+            <string original="t (s)">t (s)</string>
+            <string original="Sequence">Sekvence</string>
+            <string original="Trigger off 1">Vypnutí spouště 1</string>
+            <string original="Duration">Trvání</string>
+            <string original="Ev (lx)">E (lx)</string>
+            <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Přesnost měření silně závisí na kvalitě světelného senzoru ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".</string>
+        </translation>
     </translations>
     <input>
         <sensor type="light">
