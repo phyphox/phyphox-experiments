@@ -58,7 +58,7 @@
             <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations." />
             <value label="Status">
                 <input>f</input>
-                <map max="100">Frqeuency low</map>
+                <map max="100">Frequency low</map>
                 <map min="8000">Frequency high</map>
                 <map>OK</map>
             </value>
