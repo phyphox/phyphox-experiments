@@ -36,7 +36,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <translation locale="cs">
             <category>Mechanika</category>
             <string original="Acceleration">Zrychlení</string>
-            <string original="ω (rad/s)">ω (rad/s)</string>
             <description>
         Vizualizace odstředivého zrychlení jako funkce úhlové rychlosti.
 
@@ -46,12 +45,9 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
     </description>
             <title>Odstředivé zrychlení</title>
             <string original="Angular velocity">Úhlová rychlost</string>
-            <string original="a (m/s²)">a (m/s²)</string>
             <string original="Acceleration a (m/s²)">Zrychlení a (m/s²)</string>
             <string original="Angular velocity ω (rad/s)">Úhlová rychlost ω (rad/s)</string>
             <string original="Time">Čas</string>
-            <string original="t (s)">t (s)</string>
-            <string original="ω² (rad/s)²">ω² (rad/s)²</string>
             <string original="Square plot">Graf čtverce</string>
         </translation>
     </translations>

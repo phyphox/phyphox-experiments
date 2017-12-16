@@ -6,8 +6,6 @@
             <title>Light</title>
             <category>Raw Sensors</category>
             <description>Get raw data from the light sensor.</description>
-            <string original="Simple">Simple</string>
-            <string original="Illuminance">Illuminance</string>
             <string original="Info">
                 Note: On some devices the light sensor is only updated when there is a coarse change of illuminance.
             </string>
@@ -24,15 +22,12 @@
         </translation>
         <translation locale="cs">
             <category>Senzory</category>
-            <string original="Info"/>
             <description>Získejte čistá data ze senzoru osvětlení.</description>
             <title>Světlo</title>
             <string original="Simple">Stručně</string>
             <string original="Graph">Graf</string>
             <string original="Illuminance">Osvětlení</string>
-            <string original="Ev (lx)">E (lx)</string>
-            <string original="t (s)">t (s)</string>
-        </translation>
+            </translation>
     </translations>
     <data-containers>
         <container size="0">illum</container>

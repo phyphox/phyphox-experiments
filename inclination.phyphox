@@ -36,8 +36,6 @@ Tento nástroj využívá akcelerometr k určení náklonu mobilu. Když je tele
 Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon (například pro experimenty s nakloněnou rovinou) nezávisle na rotaci mobilu (kolem osy z).
     </description>
             <title>Náklon</title>
-            <string original="t (s)">t (s)</string>
-            <string original="Angle (°)">Angle (°)</string>
             <string original="Rotation">Rotace</string>
             <string original="Inclination">Náklon</string>
         </translation>

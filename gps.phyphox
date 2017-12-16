@@ -36,11 +36,9 @@
             <string original="Direction (°)">Richtung (°)</string>
             <string original="Compass">Kompass</string>
             <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
-        </translation>
+        <string original="Distance">Entfernung</string></translation>
         <translation locale="cs">
-            <string original="λ (°)">λ (°)</string>
             <string original="Graph">Graf</string>
-            <string original="t (s)">t (s)</string>
             <string original="Latitude">Zeměpisná šířka</string>
             <category>Senzory</category>
             <string original="Direction">Směr</string>
@@ -51,7 +49,6 @@
             <string original="Active">Aktivní</string>
             <string original="SW">JZ</string>
             <string original="NW">SZ</string>
-            <string original="Status">Status</string>
             <string original="E">V</string>
             <description>
         Získejte surová data o vaší pozici ze satelitní navigace.
@@ -66,18 +63,14 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <string original="Satellites">Satelity</string>
             <string original="S">J</string>
             <string original="W">Z</string>
-            <string original="v (m/s)">v (m/s)</string>
             <string original="GPS disabled">GPS neaktivní</string>
-            <string original="φ (°)">φ (°)</string>
             <string original="Waiting for signal">Čekám na signál</string>
             <string original="Simple">Stručně</string>
-            <string original="Direction (°)">Direction (°)</string>
-            <string original="z (m)">z (m)</string>
             <string original="Height">Výška</string>
             <string original="Horizontal Accuracy">Horizontální přesnost</string>
             <string original="Speed">Rychlost</string>
             <string original="SE">JV</string>
-        </translation>
+        <string original="Distance">Vzdálenost</string></translation>
     </translations>
     <data-containers>
         <container size="0">lat</container>
@@ -90,6 +83,22 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
         <container size="0">t</container>
         <container size="1">status</container>
         <container size="0">satellites</container>
+
+        <container size="1" init="0">countT</container>
+        <container size="0">d</container>
+        <container size="0">dist</container>
+        <container size="0">dnew</container>
+        <container size="1" init="0">countUpdated</container>
+        <container size="1" init="1">countUpdated+1</container>
+        <container size="0">subLat</container>
+        <container size="0">subLon</container>
+        <container size="0">dLat</container>
+        <container size="0">dLon</container>
+        <container size="0">dLat2</container>
+        <container size="0">dLon2</container>
+        <container size="0">cosLat</container>
+        <container size="0">dphi2</container>
+        <container size="0">dphi</container>
     </data-containers>
     <input>
         <location>
@@ -132,6 +141,10 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <graph label="Direction" labelX="t (s)" labelY="Direction (°)" partialUpdate="true" style="dots">
                 <input axis="x">t</input>
                 <input axis="y">dir</input>
+            </graph>
+            <graph label="Distance" labelX="t (s)" labelY="d (km)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">dist</input>
             </graph>
         </view>
         <view label="Simple">
@@ -177,7 +190,10 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
                 <map max="337.5">NW</map>
                 <map>N</map>
             </value>
-
+            <separator height="1"/>
+            <value label="Distance" size="1" precision="3" unit="km">
+                <input>dist</input>
+            </value>
             <separator height="1"/>
             <value label="Horizontal Accuracy" size="1" precision="1" unit="m">
                 <input>accuracy</input>
@@ -192,6 +208,81 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
         </view>
     </views>
+    <analysis sleep="0.1">
+        <count>
+            <input clear="false">t</input>
+            <output clear="false">countT</output>
+        </count>
+        <count>
+            <input clear="false">d</input>
+            <output>countUpdated</output>
+        </count>
+        <add>
+            <input clear="false">countUpdated</input>
+            <input type="value">1</input>
+            <output>countUpdated+1</output>
+        </add>
+        <subrange>
+            <input clear="false" as="from">countUpdated</input>
+            <input clear="false" as="in">lat</input>
+            <output>subLat</output>
+        </subrange>
+        <subrange>
+            <input clear="false" as="from">countUpdated</input>
+            <input clear="false" as="in">lon</input>
+            <output>subLon</output>
+        </subrange>
+        <differentiate>
+            <input clear="false">subLat</input>
+            <output>dLat</output>
+        </differentiate>
+        <differentiate>
+            <input clear="false">subLon</input>
+            <output>dLon</output>
+        </differentiate>
+        <cos deg="true">
+            <input clear="false">subLat</input>
+            <output>cosLat</output>
+        </cos>
+        <multiply>
+            <input clear="false">dLon</input>
+            <input clear="false">dLon</input>
+            <input clear="false">cosLat</input>
+            <input clear="false">cosLat</input>
+            <output>dLon2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">dLat</input>
+            <input clear="false">dLat</input>
+            <output>dLat2</output>
+        </multiply>
+        <add>
+            <input clear="false">dLon2</input>
+            <input clear="false">dLat2</input>
+            <output>dphi2</output>
+        </add>
+        <power>
+            <input as="base" clear="false">dphi2</input>
+            <input as="exponent" type="value">0.5</input>
+            <output>dphi</output>
+        </power>
+        <multiply>
+            <input clear="false">dphi</input>
+            <input type="value">6371</input>
+            <input type="value">0.017453293</input>
+            <output>dnew</output>
+        </multiply>
+        <if greater="true">
+            <input clear="false">countT</input>
+            <input clear="false">countUpdated+1</input>
+            <input clear="false">dnew</input>
+            <output clear="false">d</output>
+        </if>
+        <integrate>
+            <input clear="false">d</input>
+            <output>dist</output>
+        </integrate>
+    </analysis>
     <export>
         <set name="Raw Data">
             <data name="Time (s)">t</data>
@@ -200,6 +291,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <data name="Height (m)">z</data>
             <data name="Speed (m/s)">v</data>
             <data name="Direction (°)">dir</data>
+            <data name="Distance (km)">dist</data>
             <data name="Horizontal Accuracy (m)">accuracy</data>
             <data name="Vertical Accuracy (m)">zAccuracy</data>
             <data name="Satellites">satellites</data>

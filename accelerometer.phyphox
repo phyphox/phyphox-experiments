@@ -24,11 +24,9 @@
             <title>Akcelerace s g</title>
             <string original="Simple">Stručně</string>
             <string original="Graph">Graf</string>
-            <string original="a (m/s²)">a (m/sÂ˛)</string>
             <string original="Accelerometer X">Akcelerometr X</string>
             <string original="Accelerometer Y">Akcelerometr Y</string>
             <string original="Accelerometer Z">Akcelerometr Z</string>
-            <string original="t (s)">t (s)</string>
             <string original="Absolute">Celkové</string>
         <string original="Absolute acceleration">Celkové zrychlení</string></translation>
     </translations>

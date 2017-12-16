@@ -38,7 +38,6 @@
             <string original="Period used">Použitá perioda</string>
             <string original="Raw data">Čistá data</string>
             <string original="Samples">Vzorků</string>
-            <string original="B (µT)">B (µT)</string>
             <category>Nástroje</category>
             <title>Magnetické spektrum</title>
             <string original="Fourier Transform">Fourierova transformace</string>
@@ -54,7 +53,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
             <string original="Settings">Nastavení</string>
             <string original="Samples used">Počet vzorků</string>
             <string original="Frequency (Hz)">Frekvence (Hz)</string>
-            <string original="t (s)">t (s)</string>
             <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
             <string original="Acquisition rate">Vzorkovací frekvence</string>
             <string original="Spectrum">Spektrum</string>

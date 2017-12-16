@@ -56,10 +56,8 @@
             <title>Amplituda Audia</title>
             <string original="FAQ">Často kladené dotazy?</string>
             <string original="Time (s)">Čas (s)</string>
-            <string original="SPL (dB)">SPL (dB)</string>
             <string original="Why isn't this already calibrated?">Proč není aplikace rovnou zkalibrována?</string>
             <string original="History">Historie</string>
-            <string original="Status">Stav</string>
             <string original="NOT calibrated">NENÍ zkalibrováno</string>
             <description>
         Zjistěte amplitudu zvuku.

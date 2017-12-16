@@ -28,11 +28,9 @@
             <string original="Simple">Stručně</string>
             <string original="Graph">Graf</string>
             <string original="Absolute acceleration">Celkové zrychlení</string>
-            <string original="a (m/s²)">a (m/s²)</string>
             <string original="Acceleration Z">Zrychlení Z</string>
             <string original="Linear Acceleration Y">Lineární zrychlení Y</string>
             <string original="Linear Acceleration X">Lineární zrychlení X</string>
-            <string original="t (s)">t (s)</string>
             <string original="Linear Acceleration Z">Lineární zrychlení Z</string>
             <string original="Acceleration Y">Zrychlení Y</string>
             <string original="Acceleration X">Zrychlení X</string>

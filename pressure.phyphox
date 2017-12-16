@@ -19,9 +19,7 @@
             <string original="Simple">Stručně</string>
             <string original="Graph">Graf</string>
             <string original="Pressure">Tlak</string>
-            <string original="t (s)">t (s)</string>
-            <string original="p (hPa)">p (hPa)</string>
-        </translation>
+            </translation>
     </translations>
     <data-containers>
         <container size="0">pressure</container>

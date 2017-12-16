@@ -65,7 +65,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </description>
             <string original="Settings">Einstellungen</string>
             <string original="Sequence">Sequenz</string>
-            <string original="Parallel">Parallel</string>
             <string original="Duration">Dauer</string>
             <string original="Triggers">Auslöser</string>
             <string original="Trigger above">Auslösen über</string>
@@ -113,7 +112,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Trigger off 3">Vypnutí spouště 3</string>
             <string original="Trigger off 0">Vypnutí spouště 0</string>
             <title>Stopky přiblížení</title>
-            <string original="d (cm)">d (cm)</string>
             <string original="Triggers">Spouště</string>
             <string original="Trigger below">Spustit pod</string>
             <string original="Time 5">Čas 5</string>
@@ -122,7 +120,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Parallel">Paralelní</string>
             <string original="Time 3">Čas 3</string>
             <string original="Time 2">Čas 2</string>
-            <string original="Reset">Reset</string>
             <string original="Distance">Vzdálenost</string>
             <description>
         Měření času spouštěné signálem senzoru přiblížení.
@@ -139,7 +136,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <string original="Trigger on 5">Zapnutí spouště 5</string>
             <string original="Trigger on 4">Zapnutí spouště 4</string>
             <string original="Trigger above">Spustit nad</string>
-            <string original="t (s)">t (s)</string>
             <string original="Sequence">Sekvence</string>
             <string original="Trigger off 1">Vypnutí spouště 1</string>
             <string original="Duration">Trvání</string>

@@ -33,11 +33,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
             <title>Valení</title>
             <string original="Roll radius">Poloměr valení</string>
-            <string original="w (rad/s)">w (rad/s)</string>
-            <string original="v (km/h)">v (km/h)</string>
             <string original="Raw Data">Čistá data</string>
-            <string original="v (m/s)">v (m/s)</string>
-            <string original="t (s)">t (s)</string>
             <string original="Velocity">Rychlost</string>
             <string original="Gyroscope Y">Gyroskop Y</string>
         </translation>

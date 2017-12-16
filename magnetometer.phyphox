@@ -29,9 +29,7 @@
             <string original="Accuracy">Genauigkeit</string>
             <string original="Uncalibrated">Nicht kalibriert</string>
             <string original="Raw data">Rohdaten</string>
-            <string original="Low">Niedrig</string>
             <string original="Medium">Mittel</string>
-            <string original="High">Hoch</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
         <translation locale="cs">
@@ -57,9 +55,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
             <string original="Low">Nízké</string>
             <string original="Help">Nápověda</string>
             <string original="Magnetometer Z">Magnetometr Z</string>
-            <string original="t (s)">t (s)</string>
             <string original="Magnetometer X">Magnetometr X</string>
-            <string original="B (µT)">B (µT)</string>
             <string original="Accuracy">Přesnost</string>
         </translation>
     </translations>

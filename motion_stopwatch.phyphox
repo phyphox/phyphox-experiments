@@ -60,7 +60,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </description>
             <string original="Simple">Einfach</string>
             <string original="Sequence">Sequenz</string>
-            <string original="Parallel">Parallel</string>
             <string original="Threshold">Schwelle</string>
             <string original="Minimum Delay">Mindestverzögerung</string>
             <string original="Time">Zeit</string>
@@ -74,7 +73,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </translation>
         <translation locale="cs">
             <category>Časovače</category>
-            <string original="Reset">Reset</string>
             <description>
         Měření času, který uběhl mezi dvěma pohybovými událostmi.
 

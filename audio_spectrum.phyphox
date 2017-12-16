@@ -37,8 +37,6 @@
             <string original="Period used">Použitá perioda</string>
             <string original="Low">Nízké</string>
             <string original="Samples">Vzorků</string>
-            <string original="t (s)">t (s)</string>
-            <string original="4096">4096</string>
             <category>Akustika</category>
             <string original="Raw data">Čistá data</string>
             <title>Zvukové spektrum</title>

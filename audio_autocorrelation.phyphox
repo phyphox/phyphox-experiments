@@ -33,7 +33,6 @@
         </translation>
         <translation locale="cs">
             <string original="High">Vysoké</string>
-            <string original="Δt (ms)">Δt (ms)</string>
             <category>Akustika</category>
             <string original="Raw data">Čistá data</string>
             <title>Zvuková autokorelace</title>
@@ -44,7 +43,6 @@ Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem 
 
 Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.
     </description>
-            <string original="t (ms)">t (ms)</string>
             <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
             <string original="Recording">Záznam</string>
             <string original="Autocorrelation">Autokorelace</string>

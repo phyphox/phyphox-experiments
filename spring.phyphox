@@ -52,9 +52,7 @@ Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypoč
             <title>Pružina</title>
             <string original="correlation (a.u.)">Korelace (libovolná jednotka)</string>
             <string original="Period">Perioda</string>
-            <string original="Δt (s)">Δt (s)</string>
             <string original="Results">Výsledky</string>
-            <string original="a (m/s²)">a (m/s²)</string>
             <string original="Frequency">Frekvence</string>
             <string original="Accelerometer X">Akcelerometr X</string>
             <string original="Raw Data">Čistá data</string>
@@ -64,8 +62,7 @@ Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypoč
             <string original="Resonance">Rezonance</string>
             <string original="Rel. amplitude (a.u.)">Reál. Amplituda (libovolná jednotka)</string>
             <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
-            <string original="t (s)">t (s)</string>
-        </translation>
+            </translation>
     </translations>
     <data-containers>
         <container size="500">accX</container>
