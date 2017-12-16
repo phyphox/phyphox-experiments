@@ -11,8 +11,8 @@
             <title>Tongenerator</title>
             <category>Akustik</category>
             <description>
-                Generiert einen Ton einer bestimmten Frequenz.
-            </description>
+        Generiert einen Ton einer bestimmten Frequenz.
+    </description>
             <string original="Frequency">Frequenz</string>
             <string original="Time (s)">Zeit (s)</string>
             <string original="Tone generator">Tongenerator</string>
@@ -23,7 +23,9 @@
         <translation locale="cs">
             <category>Akustika</category>
             <string original="Tone generator">Tónový generátor</string>
-            <description>Vytváří tón o specifické frekvenci.</description>
+            <description>
+        Vytváří tón o specifické frekvenci.
+    </description>
             <title>Tónový generátor</title>
             <string original="Signal">Signál</string>
             <string original="Time (s)">Čas (s)</string>
@@ -51,11 +53,11 @@
             <edit label="Frequency" unit="Hz" default="440" signed="false" min="0" max="24000">
                 <output>f</output>
             </edit>
-            <graph label="Signal" labelX="Time (s)" labelY="A (a.u.)" >
+            <graph label="Signal" labelX="Time (s)" labelY="A (a.u.)">
                 <input axis="x">t</input>
                 <input axis="y">signal</input>
             </graph>
-            <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations." />
+            <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations."/>
             <value label="Status">
                 <input>f</input>
                 <map max="100">Frequency low</map>

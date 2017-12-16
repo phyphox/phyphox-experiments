@@ -53,12 +53,12 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <title>Akustische Stoppuhr</title>
             <category>Zeitmessung</category>
             <description>
-                Stoppe die Zeit zwischen zwei akustischen Ereignissen.
+        Stoppe die Zeit zwischen zwei akustischen Ereignissen.
 
                 Dieses Experiment ermöglicht es dir, die Zeit zwischen zwei akustischen Signalen zu messen. Dies kann ein Klick, ein Piepen, ein Klatschen oder ähnliches sein, solange es lauter ist als der Geräusche der Umgebung. Hierzu muss die Schwelle so eingestellt werden, dass sie über den Umgebungsgeräuschen, aber unter der Lautstärke des Auslösegeräusches liegt (im Bereich von 0 bis 1).
 
-                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit dem ersten Geräusch das die Schwelle überschreitet und wird mit dem zweiten Geräusch beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass das Startgeräusch kurz ist, da ein langes Geräusch direkt auch als Stopp interpretiert werden könnte. 
-            </description>
+                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit dem ersten Geräusch das die Schwelle überschreitet und wird mit dem zweiten Geräusch beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass das Startgeräusch kurz ist, da ein langes Geräusch direkt auch als Stopp interpretiert werden könnte.
+    </description>
             <link label="Video" highlight="true">https://youtu.be/-XSTRqhJ6MQ</link>
             <string original="Simple">Einfach</string>
             <string original="Sequence">Sequenz</string>
@@ -78,11 +78,13 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <category>Časovače</category>
             <string original="Reset">Reset</string>
             <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Nastavte práh tak, aby byl veškerý šum z okolí pod ním, avšak spouštěcí zvuk jej přesahoval (tyto hodnoty můžete zjistit pomocí experimentu zvukový rozsah). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem (ozvěny, zvuky vibrací).</string>
-            <description>Zjistěte čas mezi dvěmi zvukovými událostmi.
+            <description>
+        Zjistěte čas mezi dvěmi zvukovými událostmi.
 
 Tento experiment umožňuje měřit čas mezi dvěma silnými akustickými signály. Může jít o cvaknutí, pípnutí, tlesknutí apod. dokavaď jsou signály hlasitější než hluk v pozadí. Je možné, že kvůli tomu budete chtít nastavit práh pro spuštění jednotlivých měření (rozsah je 0 až 1).
 
-Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu, který překoná zvolený práh, a zastaví se po dalším. Pro opakování experimentu vymažte naměřená data a spusťte jej znovu. První zvuk musí být krátký, neboť dlouhý signál by mohl být rovnou vyhodnocen i jako stopka.</description>
+Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu, který překoná zvolený práh, a zastaví se po dalším. Pro opakování experimentu vymažte naměřená data a spusťte jej znovu. První zvuk musí být krátký, neboť dlouhý signál by mohl být rovnou vyhodnocen i jako stopka.
+    </description>
             <title>Akustické stopky</title>
             <string original="Simple">Stručně</string>
             <string original="Time 1">Čas 1</string>
@@ -90,7 +92,7 @@ Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu,
             <string original="Sequence">Sekvence</string>
             <string original="Time 5">Čas 5</string>
             <string original="Time">Čas</string>
-            <string original="Threshold">Práh hlasitosti</string>
+            <string original="Threshold">Práh měření</string>
             <string original="Time 4">Čas 4</string>
             <string original="Minimum Delay">Minimální zpoždění</string>
             <string original="Parallel">Paralelní</string>
@@ -130,10 +132,10 @@ Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu,
                 <output>t5</output>
                 <output>index</output>
             </button>
-            <separator height="1" />
-            <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation)." />
-            <separator height="1" />
-            <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected." />
+            <separator height="1"/>
+            <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation)."/>
+            <separator height="1"/>
+            <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected."/>
         </view>
         <view label="Sequence">
             <value label="Time 1" size="3" precision="3" unit="s">
@@ -151,7 +153,7 @@ Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu,
             <value label="Time 5" size="3" precision="3" unit="s">
                 <input>dt45</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>
@@ -185,7 +187,7 @@ Po spuštění experimentu začnou stopky běžet po prvním zvukovém signálu,
             <value label="Time 5" size="3" precision="3" unit="s">
                 <input>dt05</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">0</input>
                 <input type="value">0</input>

@@ -5,7 +5,7 @@
     <description>
         Measure the frequency of a single tone.
 
-        This experiment records audio from the microphone and analyses it for its frequency. This only works if there is a single tone with a fixed frequency - if there are multiple frequencies (like an accord), use the &quot;spectrum&quot; experiment instead.
+        This experiment records audio from the microphone and analyses it for its frequency. This only works if there is a single tone with a fixed frequency - if there are multiple frequencies (like an accord), use the "spectrum" experiment instead.
 
         The analysis is done by calculating the autocorrelation of the audio signal. The experiment then considers all peaks that exceed half of the maximum signal in the autocorrelation. The position of the last of these peaks within the autocorrelation gives a multiple of the period of the signal. By counting the number of peaks we can get the period of the base frequency.
     </description>
@@ -15,12 +15,12 @@
             <title>Audio Autokorrelation</title>
             <category>Akustik</category>
             <description>
-                Die Frequenz eines einzelnen Tons ermitteln.
+        Die Frequenz eines einzelnen Tons ermitteln.
 
-                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment &quot;Audio Spektrum&quot;.
+                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment \"Audio Spektrum\".
 
                 Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Das Experiment sucht alle Maxima im Korrelationssignal heraus, die die Hälfte des globalen Maximums überschreiten. Die Position des letzten Maximums in der Autokorrelation entspricht dem Vielfachen der gesuchten Periode, die wir durch Abzählen der Maxima ermitteln können.
-            </description>
+    </description>
             <string original="Autocorr.">Autokorr.</string>
             <string original="Period">Periode</string>
             <string original="Frequency">Frequenz</string>
@@ -37,11 +37,13 @@
             <category>Akustika</category>
             <string original="Raw data">Čistá data</string>
             <title>Zvuková autokorelace</title>
-            <description>Měření frekvence tónu.
+            <description>
+        Měření frekvence tónu.
 
-Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment "spektrum".
+Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment \"spektrum\".
 
-Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.</description>
+Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.
+    </description>
             <string original="t (ms)">t (ms)</string>
             <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
             <string original="Recording">Záznam</string>
@@ -92,7 +94,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
             <value label="Frequency" unit="Hz">
                 <input>frequency</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Musical note">
                 <input>semitonesRound</input>
                 <map max="-25">Low</map>
@@ -167,7 +169,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
             <value label="Cents from note">
                 <input>centsDiff</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <graph label="Autocorrelation" labelX="Δt (ms)" labelY="correlation (a.u.)">
                 <input axis="x">autoco_t</input>
                 <input axis="y">autocorrelation</input>

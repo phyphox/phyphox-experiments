@@ -5,7 +5,7 @@
     <description>
             Display the frequency spectrum of an audio signal.
 
-            This experiment records audio from the microphone and calculates its frequency spectrum through a Fourier transformation (FFT). If you only have a single tone with a single frequency, you might get more precise results from the &quot;autocorrelation&quot; audio experiment.
+            This experiment records audio from the microphone and calculates its frequency spectrum through a Fourier transformation (FFT). If you only have a single tone with a single frequency, you might get more precise results from the "autocorrelation" audio experiment.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
     <translations>
@@ -13,10 +13,10 @@
             <title>Audio Spektrum</title>
             <category>Akustik</category>
             <description>
-                Zeigt das Frequenz-Spektrum von Audiosignalen.
+            Zeigt das Frequenz-Spektrum von Audiosignalen.
 
-                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment &quot;Autokorrelation&quot;.
-            </description>
+                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment \"Autokorrelation\".
+    </description>
             <string original="Spectrum">Spektrum</string>
             <string original="Peak-Frequency">Frequenzspitze</string>
             <string original="Fourier Transform">Fourier-Transformierte</string>
@@ -42,11 +42,13 @@
             <category>Akustika</category>
             <string original="Raw data">Čistá data</string>
             <title>Zvukové spektrum</title>
-            <string original="Fourier Transform">Fourierova Transformace</string>
+            <string original="Fourier Transform">Fourierova transformace</string>
             <string original="Peak-Frequency">Maximální frekvence</string>
-            <description>Zobrazení spektra frekvencí zvukového signálu.
+            <description>
+            Zobrazení spektra frekvencí zvukového signálu.
 
-Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem pak můžete docílit lepších výsledků použitím experimentu "autokorelace".</description>
+Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem pak můžete docílit lepších výsledků použitím experimentu \"autokorelace\".
+    </description>
             <string original="Settings">Nastavení</string>
             <string original="Samples used">Počet vzorků</string>
             <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
@@ -98,7 +100,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             <value label="Peak-Frequency" unit="Hz">
                 <input>f0</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Musical note">
                 <input>semitonesRound</input>
                 <map max="-25">Low</map>
@@ -173,12 +175,12 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             <value label="Cents from note">
                 <input>centsDiff</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
                 <input axis="x">halfFrequency</input>
                 <input axis="y">fft</input>
             </graph>
-            <separator height="1" precision="0" />
+            <separator height="1" precision="0"/>
             <value label="Samples used">
                 <input>actual_samples</input>
             </value>
@@ -187,11 +189,11 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             </value>
         </view>
         <view label="Settings">
-            <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution." />
+            <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
             <value label="Samples" precision="0">
                 <input>samples</input>
             </value>
-            <separator height="0.5" />
+            <separator height="0.5"/>
             <button label="4096">
                 <input type="value">4096</input>
                 <output>samples</output>
@@ -210,7 +212,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             </button>
         </view>
         <view label="Raw data">
-            <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)" >
+            <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)">
                 <input axis="x">time</input>
                 <input axis="y">recording_subrange</input>
             </graph>

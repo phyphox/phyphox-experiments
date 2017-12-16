@@ -17,22 +17,24 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <title>Neigung</title>
             <category>Werkzeuge</category>
             <description>
-                Miss den Neigungswinkel des Smartphones.
+        Miss den Neigungswinkel des Smartphones.
 
                 Dieses Werkzeug nutzt den Beschleunigungssensor um die Neigung des Handys zu bestimmen. Wenn das Gerät flach auf einem Tisch liegt, ist die Neigung null. Bei höherer Neigung wird die Richtung der Neigung als Rotation angegeben.
 
                 Die Winkel wurden hier so festgelegt, dass Neigungen (insbesondere für Experimente an der schiefen Ebene) unabhängig von der Rotation (um die z-Achse) des Handys ermittelt werden können.
-            </description>
+    </description>
             <string original="Inclination">Neigung</string>
             <string original="Angle (°)">Winkel (°)</string>
         </translation>
         <translation locale="cs">
             <category>Nástroje</category>
-            <description>Měření úhlu náklonu mobilního zařízení.
+            <description>
+        Měření úhlu náklonu mobilního zařízení.
 
 Tento nástroj využívá akcelerometr k určení náklonu mobilu. Když je telefon vodorovně pak je náklon 0. Pro nenulový náklon je směr udán jako rotace.
 
-Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon (například pro experimenty s nakloněnou rovinou) nezávisle na rotaci mobilu (kolem osy z).</description>
+Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon (například pro experimenty s nakloněnou rovinou) nezávisle na rotaci mobilu (kolem osy z).
+    </description>
             <title>Náklon</title>
             <string original="t (s)">t (s)</string>
             <string original="Angle (°)">Angle (°)</string>
@@ -70,7 +72,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
             <value label="Inclination" size="2" precision="2" scientific="false" unit="°" factor="1">
                 <input>angle</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <graph label="Rotation" labelX="t (s)" labelY="Angle (°)" partialUpdate="true" style="line">
                 <input axis="x">t</input>
                 <input axis="y">anglePlane</input>

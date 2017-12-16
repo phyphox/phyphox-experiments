@@ -14,10 +14,10 @@
             <title>Rolle</title>
             <category>Mechanik</category>
             <description>
-                Bestimmt die Geschwindigkeit einer Rolle, in der das Smartphone steckt.
+        Bestimmt die Geschwindigkeit einer Rolle, in der das Smartphone steckt.
 
                 Platziere dein Smartphone in einer Papprolle so, dass es um seine längste Achse rotiert. Das Experiment ermittelt die Winkelgeschwindigkeit über das Gyroskop und berechnet hieraus und aus dem eingegebenen Radius der Rolle die Geschwindigkeit, mit der sich die Rolle bewegt.
-            </description>
+    </description>
             <link label="Video" highlight="true">https://youtu.be/gqxBT3R0fw8</link>
             <string original="Velocity">Geschwindigkeit</string>
             <string original="Roll radius">Rollenradius</string>
@@ -26,9 +26,11 @@
         </translation>
         <translation locale="cs">
             <category>Mechanika</category>
-            <description>Umístěte váš mobil do ruličky a určete jeho rychlost.
+            <description>
+        Umístěte váš mobil do ruličky a určete jeho rychlost.
 
-Umístěte své mobilní zařízení do papírového válce tak, aby se mohl otáčet kolem osy rovnoběžné s jeho delší stranou. Tento experiment pak měří pomocí gyroskopu jeho úhlovou rychlost a poloměr valení. Následně pak vypočítává rychlost tohoto valení.</description>
+Umístěte své mobilní zařízení do papírového válce tak, aby se mohl otáčet kolem osy rovnoběžné s jeho delší stranou. Tento experiment pak měří pomocí gyroskopu jeho úhlovou rychlost a poloměr valení. Následně pak vypočítává rychlost tohoto valení.
+    </description>
             <title>Valení</title>
             <string original="Roll radius">Poloměr valení</string>
             <string original="w (rad/s)">w (rad/s)</string>

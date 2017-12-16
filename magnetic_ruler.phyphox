@@ -15,10 +15,10 @@
             <title>Magnet-Lineal</title>
             <category>Werkzeuge</category>
             <description>
-                Mit einer Reihe von Magneten die zurückgelegte Entfernung, Geschwindigkeit und Beschleunigung des Handys messen.
+        Mit einer Reihe von Magneten die zurückgelegte Entfernung, Geschwindigkeit und Beschleunigung des Handys messen.
 
                 Für dieses Experiment muss eine Reihe identischer Magnete entlang der Strecke platziert werden, die das Smartphone zurücklegen wird. Der Abstand zwischen den Magneten muss gleich sein und sollte im Experiment eingegeben werden. Mit Hilfe des Magnetometers kann dann bestimmt werden, wann ein Magnet in der Nähe ist und so die insgesamt zurückgelegte Strecke berechnet werden.
-            </description>
+    </description>
             <link label="Video" highlight="true">https://youtu.be/kyxQukhq_io</link>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <string original="Distance">Entfernung</string>
@@ -36,9 +36,11 @@
             <category>Nástroje</category>
             <string original="Distance">Vzdálenost</string>
             <string original="Magnetic field y">Magnetické pole y</string>
-            <description>Měřte ujetou vzdálenost, rychlost a zrychlení mobilu pomocí série magnetů.
+            <description>
+        Měřte ujetou vzdálenost, rychlost a zrychlení mobilu pomocí série magnetů.
 
-Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdálenost mezi magnety musí být stejná a je potřeba ji zadat do experimentu. Telefon využije svůj magnetometr k tomu, aby zjistil, kdy projel kolem magnetu a pomocí toho může určit ujetou vzdálenost.</description>
+Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdálenost mezi magnety musí být stejná a je potřeba ji zadat do experimentu. Telefon využije svůj magnetometr k tomu, aby zjistil, kdy projel kolem magnetu a pomocí toho může určit ujetou vzdálenost.
+    </description>
             <string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string>
             <string original="Bz (µT)">Bz (µT)</string>
             <title>Magnetické pravítko</title>
@@ -98,8 +100,8 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
             <edit label="dx" unit="mm" factor="1000" signed="false" default="0.1" min="0.02" max="2">
                 <output>magnetDistance</output>
             </edit>
-            <info label="dx is the distance between two magnets" />
-            <separator height="1" />
+            <info label="dx is the distance between two magnets"/>
+            <separator height="1"/>
             <graph label="Distance" labelX="t (s)" labelY="x (m)">
                 <input axis="x">posT</input>
                 <input axis="y">pos</input>

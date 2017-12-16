@@ -13,10 +13,10 @@
             <title>Frequenz-Verlauf</title>
             <category>Akustik</category>
             <description>
-                Den Frequenzverlauf eines einzelnen Tons ermitteln.
+        Den Frequenzverlauf eines einzelnen Tons ermitteln.
 
                 Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz über kurze Zeitspannen. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt, da dieses Experiment eine Autokorrelation verwendet. Als Ergebnis wird der Verlauf dieser Frequenz über die Zeit angezeigt.
-            </description>
+    </description>
             <string original="History">Verlauf</string>
             <string original="Period">Periode</string>
             <string original="Frequency">Frequenz</string>
@@ -25,9 +25,11 @@
         </translation>
         <translation locale="cs">
             <category>Akustika</category>
-            <description>Měření změny frekvence jednoho tónu v průběhu času.
+            <description>
+        Měření změny frekvence jednoho tónu v průběhu času.
 
-Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť použitá metoda je autokorelace. Výsledek je zobrazen jako graf závislosti frekvence na čase.</description>
+Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť použitá metoda je autokorelace. Výsledek je zobrazen jako graf závislosti frekvence na čase.
+    </description>
             <title>Časosběrné meření frekvence</title>
             <string original="Period">Perioda</string>
             <string original="Frequency">Frekvence</string>

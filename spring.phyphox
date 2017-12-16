@@ -18,13 +18,13 @@
             <title>Federpendel</title>
             <category>Mechanik</category>
             <description>
-                Misst die Frequenz und Periode eines Federpendels.
+        Misst die Frequenz und Periode eines Federpendels.
 
                 Dieses Experiment nutzt den Beschleunigungssensor um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellen der Frequenz die Resonanz ausmessen.
 
                 Weitere Details:
                 Die Schwingungsperiode wird durch eine Autokorrelation der Summe der drei Komponenten des Beschleunigungs-Vektors ermittelt. Im Ergebnis der Autokorrelation wird dann nach dem ersten Maximum gesucht, die als erste Schätzung der Frequenz genutzt wird. Die genaue Frequenz folgt dann aus dem letzten Maximum der berechneten Autokorrelation.
-            </description>
+    </description>
             <string original="Results">Ergebnisse</string>
             <string original="Period">Periode</string>
             <string original="Frequency">Frequenz</string>
@@ -44,9 +44,11 @@
         <translation locale="cs">
             <category>Mechanika</category>
             <string original="Accelerometer Y">Akcelerometr Y</string>
-            <description>Analýza frekvence a periody pružinového oscilátoru.
+            <description>
+        Analýza frekvence a periody pružinového oscilátoru.
 
-Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypočítává periodu kmitání T. Dále, v záložce rezonance modul vykresluje graf závislosti amplitudy na frekvenci. Takto můžete pomocí buzení oscilátoru a následné změny frekvence kmitání určit jeho rezonanční křivku.</description>
+Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypočítává periodu kmitání T. Dále, v záložce rezonance modul vykresluje graf závislosti amplitudy na frekvenci. Takto můžete pomocí buzení oscilátoru a následné změny frekvence kmitání určit jeho rezonanční křivku.
+    </description>
             <title>Pružina</title>
             <string original="correlation (a.u.)">Korelace (libovolná jednotka)</string>
             <string original="Period">Perioda</string>
@@ -57,7 +59,7 @@ Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypoč
             <string original="Accelerometer X">Akcelerometr X</string>
             <string original="Raw Data">Čistá data</string>
             <string original="Accelerometer Z">Akcelerometr Z</string>
-            <string original="Frequency (Hz)">Frekvence</string>
+            <string original="Frequency (Hz)">Frekvence (Hz)</string>
             <string original="Autocorrelation">Autokorelace</string>
             <string original="Resonance">Rezonance</string>
             <string original="Rel. amplitude (a.u.)">Reál. Amplituda (libovolná jednotka)</string>
@@ -293,15 +295,15 @@ Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypoč
                 <input axis="x">frequencyhist</input>
                 <input axis="y">relamplitude</input>
             </graph>
-            <separator height="1" />
-            <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1." />
+            <separator height="1"/>
+            <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
         </view>
         <view label="Autocorrelation">
-            <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)" >
+            <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
                 <input axis="x">autocorrelation_t</input>
                 <input axis="y">autocorrelation</input>
             </graph>
-            <value label="Period" unit="s" >
+            <value label="Period" unit="s">
                 <input>period</input>
             </value>
             <value label="Frequency" unit="Hz">

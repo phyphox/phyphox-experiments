@@ -21,7 +21,7 @@
         Beachte, dass das Verhalten vom jeweiligen Gerät abhängen kann. Android bietet keine Angabe über die vertikale Genauigkeit während iOS nicht die Anzahl der genutzten Satelliten ausgibt. Ebenso können unter iOS Positionsdaten aus anderen Quellen zwischen den Satellitendaten auftauchen.
 
         Geschwindigkeit und Richtung der Bewegung werden typischerweise vom System bereit gestellt und ergeben sich aus zwei oder mehr aufeinander folgenden Positionsmessungen.
-            </description>
+    </description>
             <string original="Latitude">Breitengrad</string>
             <string original="Longitude">Längengrad</string>
             <string original="Height">Höhe</string>
@@ -53,11 +53,13 @@
             <string original="NW">SZ</string>
             <string original="Status">Status</string>
             <string original="E">V</string>
-            <description>Získejte surová data o vaší pozici ze satelitní navigace.
+            <description>
+        Získejte surová data o vaší pozici ze satelitní navigace.
 
 Chování tohoto modulu záleží na konkrétní implementaci vašeho mobilního zařízení. Systém Android neposkytuje informace o vertikální přesnosti. Naproti tomu systém iOS neposkytuje informace o počtu satelitů a satelitní data jsou v iOS smíchána s pozičními údaji z jiných zdrojů.
 
-Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a je zpravidla založen na několika po sobě jdoucích údajích o pozici.</description>
+Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a je zpravidla založen na několika po sobě jdoucích údajích o pozici.
+    </description>
             <string original="Longitude">Zeměpisná délka</string>
             <string original="N">S</string>
             <string original="Vertical Accuracy">Vertikální přesnost</string>
@@ -68,7 +70,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <string original="GPS disabled">GPS neaktivní</string>
             <string original="φ (°)">φ (°)</string>
             <string original="Waiting for signal">Čekám na signál</string>
-            <string original="Simple">Zjednodušeně</string>
+            <string original="Simple">Stručně</string>
             <string original="Direction (°)">Direction (°)</string>
             <string original="z (m)">z (m)</string>
             <string original="Height">Výška</string>
@@ -110,7 +112,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
                 <map max="-1">GPS disabled</map>
                 <map min="0">GPS active</map>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <graph label="Latitude" labelX="t (s)" labelY="φ (°)" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">lat</input>
@@ -138,7 +140,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
                 <map max="-1">GPS disabled</map>
                 <map min="0">GPS active</map>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Latitude" size="1" precision="6" unit="°">
                 <input>lat</input>
             </value>
@@ -148,14 +150,14 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <value label="Height" size="1" precision="1" unit="m">
                 <input>z</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Speed" size="1" precision="1" unit="m/s">
                 <input>v</input>
             </value>
             <value label="Speed" size="1" precision="1" factor="3.6" unit="km/h">
                 <input>v</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Direction" size="1" precision="1" unit="°">
                 <input>dir</input>
             </value>
@@ -176,7 +178,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
                 <map>N</map>
             </value>
 
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Horizontal Accuracy" size="1" precision="1" unit="m">
                 <input>accuracy</input>
             </value>
@@ -186,8 +188,8 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             <value label="Satellites" size="1" precision="0">
                 <input>satellites</input>
             </value>
-            <separator height="1" />
-            <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy." />
+            <separator height="1"/>
+            <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
         </view>
     </views>
     <export>

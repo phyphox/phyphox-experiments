@@ -24,7 +24,7 @@
         </translation>
         <translation locale="cs">
             <category>Senzory</category>
-            <string original="Info"></string>
+            <string original="Info"/>
             <description>Získejte čistá data ze senzoru osvětlení.</description>
             <title>Světlo</title>
             <string original="Simple">Stručně</string>
@@ -50,8 +50,8 @@
                 <input axis="x">illum_time</input>
                 <input axis="y">illum</input>
             </graph>
-            <separator height="1" />
-            <info label="Info" />
+            <separator height="1"/>
+            <info label="Info"/>
         </view>
         <view label="Simple">
             <value label="Illuminance" size="2" precision="1" unit="lx">

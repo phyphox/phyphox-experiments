@@ -22,17 +22,17 @@
             <title>Fadenpendel</title>
             <category>Mechanik</category>
             <description>
-                Misst die Erdbeschleunigung (g=9.81m/s²) indem das Smartphone als Pendel benutzt wird.
+        Misst die Erdbeschleunigung (g=9.81m/s²) indem das Smartphone als Pendel benutzt wird.
 
                 Dieses Experiment nutzt das Gyroskop um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Der Nutzer muss die Länge des Pendels eingeben, so dass phyphox g = 4π²/T² L berechnen kann.
 
-                Alternativ kann man auf der Seite "Länge" statt g zu messen annehmen, dass g = 9.81 m/s² und somit aus der Pendelbewegung die Länge des Pendels bestimmen. (Genau genommen ist dies die Entfernung des Drehpunkts zum Schwerpunkt des Pendels.)
+                Alternativ kann man auf der Seite \"Länge\" statt g zu messen annehmen, dass g = 9.81 m/s² und somit aus der Pendelbewegung die Länge des Pendels bestimmen. (Genau genommen ist dies die Entfernung des Drehpunkts zum Schwerpunkt des Pendels.)
 
                 Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellend er Frequenz die Resonanz ausmessen.
 
                 Weitere Details:
                 Die Schwingungsperiode wird durch eine Autokorrelation der Summe der drei Komponenten des Gyroskops ermittelt. Im Ergebnis der Autokorrelation wird dann nach dem ersten Maximum gesucht, die als erste Schätzung der Frequenz genutzt wird. Die genaue Frequenz folgt dann aus dem letzten Maximum der berechneten Autokorrelation.
-            </description>
+    </description>
             <string original="Period">Periode</string>
             <string original="Frequency">Frequenz</string>
             <string original="Resonance">Resonanz</string>
@@ -61,13 +61,15 @@
             <string original="Δt (s)">Δt (s)</string>
             <category>Mechanika</category>
             <title>Kyvadlo</title>
-            <description>Zjistěte hodnotu tíhového zrychlení (g=9.81m/s²) pomocí kyvadla udělaného z vašeho mobilního telefonu.
+            <description>
+        Zjistěte hodnotu tíhového zrychlení (g=9.81m/s²) pomocí kyvadla udělaného z vašeho mobilního telefonu.
 
 Tento experiment používá gyroskop k měření pohybu kyvadla a vypočítá jeho periodu kmitu T. Uživatel musí zadat délku L použitého závěsu, aby phyphox mohl vypočítat g = 4π²/T² L.
 
 Druhou možností, jak experiment provádět, je namísto měření g, vypočítávat délku závěsu z pohybu kyvadla (Přesněji řečeno vzdálenost od bodu zavěšení do hmotného středu.). Pro tyto výpočty se pak předpokládá že g = 9.81 m/s².
 
-V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekvenci kmitů. Proměnou frekvence je zde možno změřit rezonanční křivku buzeného oscilátoru.</description>
+V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekvenci kmitů. Proměnou frekvence je zde možno změřit rezonanční křivku buzeného oscilátoru.
+    </description>
             <string original="Length">Délka</string>
             <string original="Frequency (Hz)">Frekvence (Hz)</string>
             <string original="Autocorrelation">Autokorelace</string>
@@ -80,7 +82,7 @@ V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekven
             <string original="Gyroscope X">Gyroskop X</string>
             <string original="Gyroscope Y">Gyroskop Y</string>
             <string original="Gyroscope Z">Gyroskop Z</string>
-            <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Zde můžete určit délku vašeho kyvadla (od závěsu k hmotnému středu) za předpokladu, že g = 9.81 m/sÂ˛.</string>
+            <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Zde můžete určit délku vašeho kyvadla (od závěsu k hmotnému středu) za předpokladu, že g = 9.81 m/s².</string>
         </translation>
     </translations>
     <data-containers>
@@ -152,8 +154,8 @@ V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekven
             <value label="g" size="2" unit="m/s²">
                 <input>g</input>
             </value>
-            <separator height="1" />
-            <info label="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g." />
+            <separator height="1"/>
+            <info label="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g."/>
         </view>
         <view label="Length">
             <value label="Period" size="2" unit="s">
@@ -165,23 +167,23 @@ V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekven
             <value label="Length" size="2" unit="cm" factor="100">
                 <input>lengthcalc</input>
             </value>
-            <separator height="1" />
-            <info label="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s²." />
+            <separator height="1"/>
+            <info label="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s²."/>
         </view>
         <view label="Resonance">
             <graph label="Resonance" labelX="Frequency (Hz)" labelY="Rel. amplitude (a.u.)" style="dots">
                 <input axis="x">frequencyhist</input>
                 <input axis="y">relamplitude</input>
             </graph>
-            <separator height="1" />
-            <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1." />
+            <separator height="1"/>
+            <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
         </view>
         <view label="Autocorrelation">
-            <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)" >
+            <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
                 <input axis="x">autocorrelation_t</input>
                 <input axis="y">autocorrelation</input>
             </graph>
-            <value label="Period" unit="s" >
+            <value label="Period" unit="s">
                 <input>period</input>
             </value>
             <value label="Frequency" unit="Hz">

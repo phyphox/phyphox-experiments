@@ -57,12 +57,12 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <title>Näherungs-Stoppuhr</title>
             <category>Zeitmessung</category>
             <description>
-                Miss Zeiten mittels des Näherungssensors.
+        Miss Zeiten mittels des Näherungssensors.
 
                 In diesem Experiment kannst du ein Objekt nahe an den Näherungssensor bringen und die Zeit messen, in welcher das Objekt nah am Smartphone oder weit entfernt ist. Der Näherungssensor befindet sich in der Regel auf der Vorderseite des Smartphones in der Nähe des zum Telefonieren benutzen Lautsprechers.
 
                 Beachte, dass die Genauigkeit der Zeitmessung vom Näherungssensor in deinem Smartphone abhängt. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich.
-            </description>
+    </description>
             <string original="Settings">Einstellungen</string>
             <string original="Sequence">Sequenz</string>
             <string original="Parallel">Parallel</string>
@@ -94,7 +94,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Trigger off 4">Auslöser aus 4</string>
             <string original="Trigger on 5">Auslöser an 5</string>
             <string original="Trigger off 5">Auslöser aus 5</string>
-            <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf weite Entfernungen reagieren möchtest, setzte den Wert &quot;Auslösen unter&quot; auf Null. Wenn du nur auf nahe Entfernungen reagieren möchtest, setze &quot;Auslösen über&quot; auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen. Die meisten Sensoren können nur zwei Entfernungen messen, oft 0 cm und etwa 5 cm.</string>
+            <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf weite Entfernungen reagieren möchtest, setzte den Wert "Auslösen unter" auf Null. Wenn du nur auf nahe Entfernungen reagieren möchtest, setze "Auslösen über" auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen. Die meisten Sensoren können nur zwei Entfernungen messen, oft 0 cm und etwa 5 cm.</string>
             <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Die Genauigkeit der Zeitmessung hängt vom Näherungssensor in deinem Smartphone ab. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich. Auf iPhones funktioniert der Sensor nur in Portrait-Ausrichtung (also wenn man das iPhone aufrecht hält) und schaltet den Bildschirm aus, solange er ausgelöst ist.</string>
         </translation>
         <translation locale="cs">
@@ -124,11 +124,13 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Time 2">Čas 2</string>
             <string original="Reset">Reset</string>
             <string original="Distance">Vzdálenost</string>
-            <description>Měření času spouštěné signálem senzoru přiblížení.
+            <description>
+        Měření času spouštěné signálem senzoru přiblížení.
 
 V tomto experimentu přiblížíte předmět blízko k senzoru přiblížení (většinou je umístěn na mobilu vepředu, hned vedle reproduktoru pro hovory) a měříte kdy byl blízko či daleko k telefonu.
 
-Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě senzoru přiblížení ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".</description>
+Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě senzoru přiblížení ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu \"Akustické stopky\".
+    </description>
             <string original="Settings">Nastavení</string>
             <string original="Trigger on 3">Zapnutí spouště 3</string>
             <string original="Trigger on 2">Zapnutí spouště 2</string>
@@ -157,15 +159,15 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <edit label="Trigger above" unit="cm" default="100" signed="false" min="0">
                 <output>threshold_high</output>
             </edit>
-            <separator height="1" />
-            <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm." />
-            <separator height="1" />
+            <separator height="1"/>
+            <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm."/>
+            <separator height="1"/>
             <graph label="Distance" labelX="t (s)" labelY="d (cm)" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">amplitude</input>
             </graph>
-            <separator height="1" />
-            <info label="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered." />
+            <separator height="1"/>
+            <info label="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered."/>
         </view>
         <view label="Sequence">
             <value label="Time 1" size="3" precision="2" unit="s">
@@ -183,7 +185,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <value label="Time 5" size="3" precision="2" unit="s">
                 <input>dt45</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">1</input>
                 <output>reset</output>
@@ -205,7 +207,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <value label="Time 5" size="3" precision="2" unit="s">
                 <input>dt05</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">1</input>
                 <output>reset</output>
@@ -230,7 +232,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <value label="Trigger duration 5" size="3" precision="2" unit="s">
                 <input>don5</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">1</input>
                 <output>reset</output>
@@ -243,42 +245,42 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
             <value label="Trigger off 0" size="1" precision="2" unit="s">
                 <input>off0</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Trigger on 1" size="1" precision="2" unit="s">
                 <input>on1</input>
             </value>
             <value label="Trigger off 1" size="1" precision="2" unit="s">
                 <input>off1</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Trigger on 2" size="1" precision="2" unit="s">
                 <input>on2</input>
             </value>
             <value label="Trigger off 2" size="1" precision="2" unit="s">
                 <input>off2</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Trigger on 3" size="1" precision="2" unit="s">
                 <input>on3</input>
             </value>
             <value label="Trigger off 3" size="1" precision="2" unit="s">
                 <input>off3</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Trigger on 4" size="1" precision="2" unit="s">
                 <input>on4</input>
             </value>
             <value label="Trigger off 4" size="1" precision="2" unit="s">
                 <input>off4</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <value label="Trigger on 5" size="1" precision="2" unit="s">
                 <input>on5</input>
             </value>
             <value label="Trigger off 5" size="1" precision="2" unit="s">
                 <input>off5</input>
             </value>
-            <separator height="1" />
+            <separator height="1"/>
             <button label="Reset">
                 <input type="value">1</input>
                 <output>reset</output>
@@ -297,7 +299,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>amplitude</output>
         </if>
 
@@ -305,7 +307,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>traw</output>
         </if>
 
@@ -396,105 +398,105 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don0</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don1</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don2</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don3</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don4</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don5</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt01</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt12</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt23</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt34</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt45</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt02</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt03</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt04</output>
         </if>
 
         <if greater="true">
             <input clear="false">reset</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt05</output>
         </if>
 
@@ -1059,105 +1061,105 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
         <if less="true" equal="true">
             <input clear="false">dt01</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt01</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt02</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt02</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt03</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt03</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt04</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt04</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt05</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt05</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt12</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt12</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt23</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt23</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt34</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt34</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">dt45</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>dt45</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don0</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don0</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don1</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don1</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don2</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don2</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don3</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don3</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don4</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don4</output>
         </if>
 
         <if less="true" equal="true">
             <input clear="false">don5</input>
             <input type="value">0</input>
-            <input type="empty" />
+            <input type="empty"/>
             <output>don5</output>
         </if>
 

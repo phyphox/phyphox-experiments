@@ -13,10 +13,10 @@
             <title>Dopplereffekt</title>
             <category>Akustik</category>
             <description>
-                Kleine Frequenzänderungen des Dopplereffekts messen.
+        Kleine Frequenzänderungen des Dopplereffekts messen.
 
                 Hierzu wird ein Tongenerator benötigt, der eine konstante Frequenz erzeugt (z.B. 1000Hz). Diese Frequenz muss im Experiment angegeben werden zusammen mit einer Frequenzspanne, in welcher die Doppler-Verschobene Frequenz erwartet wird (z.B. 10Hz). Das Experiment ermittelt die aufgenommene Frequenz und berechnet die relative Geschwindigkeit der Schallquelle.
-            </description>
+    </description>
             <string original="Setup">Einstellungen</string>
             <string original="Base frequency">Grundfrequenz</string>
             <string original="Frequency range">Frequenzspanne</string>
@@ -33,9 +33,11 @@
         <translation locale="cs">
             <category>Akustika</category>
             <string original="Frequency range">Rozsah frekvencí</string>
-            <description>Detekce malých Dopplerovských posunů frekvence.
+            <description>
+        Detekce malých Dopplerovských posunů frekvence.
 
-Potřebujete tónový generátor produkující konstantní frekvenci (například 1000Hz). Tuto základní frekvenci zadejte do nastavení experimentu. Dále nastavte detekční rozsah, do nějž očekáváte, že se vejde frekvenční posun (například 10Hz). Experiment určí zaznamenanou frekvenci a vypočítá z ní relativní rychlost zdroje zvuku.</description>
+Potřebujete tónový generátor produkující konstantní frekvenci (například 1000Hz). Tuto základní frekvenci zadejte do nastavení experimentu. Dále nastavte detekční rozsah, do nějž očekáváte, že se vejde frekvenční posun (například 10Hz). Experiment určí zaznamenanou frekvenci a vypočítá z ní relativní rychlost zdroje zvuku.
+    </description>
             <title>Dopplerův jev</title>
             <string original="Setup">Nastavení</string>
             <string original="nth period">N-tá perioda</string>
@@ -100,8 +102,8 @@ Potřebujete tónový generátor produkující konstantní frekvenci (napříkla
             <edit label="Speed of sound" unit="m/s" default="340" signed="false">
                 <output>c</output>
             </edit>
-            <separator height="1" />
-            <info label="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step." />
+            <separator height="1"/>
+            <info label="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step."/>
             <value label="nth period">
                 <input>periodFactor</input>
             </value>

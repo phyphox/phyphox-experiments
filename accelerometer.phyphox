@@ -29,8 +29,8 @@
             <string original="Accelerometer Y">Akcelerometr Y</string>
             <string original="Accelerometer Z">Akcelerometr Z</string>
             <string original="t (s)">t (s)</string>
-            <string original="Absolute">Celkové zrychlení</string>
-        </translation>
+            <string original="Absolute">Celkové</string>
+        <string original="Absolute acceleration">Celkové zrychlení</string></translation>
     </translations>
     <data-containers>
         <container size="0">accX</container>

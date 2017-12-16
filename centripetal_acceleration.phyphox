@@ -18,12 +18,12 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <title>Zentripetalbeschleunigung</title>
             <category>Mechanik</category>
             <description>
-                Stellt die Zentripetalbeschleunigung als Funktion der Winkelgeschwindigkeit dar.
+        Stellt die Zentripetalbeschleunigung als Funktion der Winkelgeschwindigkeit dar.
 
                 Dieses Experiment berechnet den Absolutwert der Winkelgeschwindigkeit ω des Gyroskops sowie den Absolutwert der Beschleunigung a des Beschleunigungssensors. Durch Auftragen von a gegen ω kann man leicht die Beziehung a = r·ω² veranschaulichen, insbesondere wenn beim Auftragen gegen ω² eine Gerade entsteht.
 
                 Um dies sehen zu können, muss bei verschiedenen Winkelgeschwindigkeiten mit festem Radius gemessen werden. Eine Salatschleuder oder ein kleines Karussell eigenen sich hierfür hervorragend.
-            </description>
+    </description>
             <link label="Video" highlight="true">https://youtu.be/W9p_KNRK-0Y</link>
             <string original="Relation">Verhältnis</string>
             <string original="Time">Zeit</string>
@@ -37,11 +37,13 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <category>Mechanika</category>
             <string original="Acceleration">Zrychlení</string>
             <string original="ω (rad/s)">ω (rad/s)</string>
-            <description>Vizualizace odstředivého zrychlení jako funkce úhlové rychlosti.
+            <description>
+        Vizualizace odstředivého zrychlení jako funkce úhlové rychlosti.
 
 Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti ω a celkové zrychlení pomocí akcelerometru. Vynesením závislosti a vůči Ď‰ můžeme snadno prokázat, že platí vztah a = r·ω². Závislost na ω² je přímkou.
 
-Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.</description>
+Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.
+    </description>
             <title>Odstředivé zrychlení</title>
             <string original="Angular velocity">Úhlová rychlost</string>
             <string original="a (m/s²)">a (m/s²)</string>

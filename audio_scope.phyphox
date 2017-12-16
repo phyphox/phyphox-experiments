@@ -13,10 +13,10 @@
             <title>Audio Oszilloskop</title>
             <category>Akustik</category>
             <description>
-                Stellt Audioaufnahmen dar.
+        Stellt Audioaufnahmen dar.
 
                 Dieses Experiment nimmt Audiodaten über das Mikrofon auf und stellt diese dar. Um ein stabiles Bild zu zeigen, wird ähnlich einem Oszilloskop ein Trigger verwendet, wenn das Signal die Nulllinie durchläuft und die Zeitskala so verschoben, dass t=0 auf der ersten positiven Flanke liegt.
-            </description>
+    </description>
 
             <string original="Scope">Oszilloskop</string>
             <string original="Audio Data">Audiodaten</string>
@@ -26,9 +26,11 @@
         <translation locale="cs">
             <category>Akustika</category>
             <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
-            <description>Ukázat zaznamenaná zvuková data.
+            <description>
+        Ukázat zaznamenaná zvuková data.
 
-Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.</description>
+Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.
+    </description>
             <title>Zvukový záznam</title>
             <string original="Audio Data">Zvuková data</string>
             <string original="Duration">Trvání</string>

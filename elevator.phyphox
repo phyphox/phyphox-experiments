@@ -18,13 +18,13 @@
             <title>Aufzug</title>
             <category>Alltag</category>
             <description>
-                Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
+        Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
 
                 Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen. Zusätzlich wird die Beschleunigung über die z-Komponente des Beschleunigungssensors aufgezeichnet. Um die Beschleunigung genau zu messen, sollte das Smartphone entsprechend flach auf dem Boden des Aufzugs liegen.
 
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
-            </description>
+    </description>
             <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
             <string original="Raw Data">Rohdaten</string>
             <string original="Pressure">Druck</string>
@@ -37,9 +37,11 @@
         <translation locale="cs">
             <category>Běžný život</category>
             <string original="a (m/s²)">a (m/s²)</string>
-            <description>Zjistěte rychlost výtahu pomocí barometru.
+            <description>
+        Zjistěte rychlost výtahu pomocí barometru.
 
-Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Pomocí derivace takto získaných měření je pak snadné zjistit rychlost svislého pohybu výtahu. Dodatečně je zrychlení měřeno Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.</description>
+Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Pomocí derivace takto získaných měření je pak snadné zjistit rychlost svislého pohybu výtahu. Dodatečně je zrychlení měřeno Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
+    </description>
             <title>Výtah</title>
             <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
             <string original="h (m)">h (m)</string>

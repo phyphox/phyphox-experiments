@@ -16,12 +16,12 @@
             <title>Magnetfeld</title>
             <category>Sensoren</category>
             <description>
-                Rohdaten des Magnetometers auslesen.
+        Rohdaten des Magnetometers auslesen.
 
                 Das Magnetometer ist sehr empfindlich, da es darauf ausgelegt ist, das Erdmagnetfeld zu messen und somit als Kompass zu dienen. Es ist jedoch ständig internen Magnetfeldern von elektronischen Bauteilen ausgesetzt, die zu falschen Ergebnissen führen. Daher versucht phyphox das kalibrierte Magnetfeld vom Betriebssystem zu erhalten. Manchmal kann es vorkommen, dass du keine Daten erhältst, wenn das Magnetometer noch nicht kalibriert wurde (z.B. wenn das Smartphone gerade gestartet wurde). In diesem Fall solltest du dein Handy bei laufendem Experiment einige Male drehen. Dies hilft dem System, den Sensor zu kalibrieren. Außerdem ist es auf vielen (nicht allen) Geräten möglich, auf die unkalibrierten Daten über das Menü oben rechts zu wechseln.
 
                 Setze dein Handy niemals starken Magnetfeldern aus!
-            </description>
+    </description>
             <string original="Simple">Einfach</string>
             <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Das Magnetometer deines Smartphones ist ständig internen Magnetfeldern von elektronischen Bauteilen ausgesetzt, die zu falschen Ergebnissen führen. Daher versucht phyphox das kalibrierte Magnetfeld vom Betriebssystem zu erhalten. Manchmal kann es vorkommen, dass du keine Daten erhältst, wenn das Magnetometer noch nicht kalibriert wurde (z.B. wenn das Smartphone gerade gestartet wurde). In diesem Fall solltest du dein Handy bei laufendem Experiment einige Male drehen. Dies hilft dem System, den Sensor zu kalibrieren. Außerdem ist es auf vielen (nicht allen) Geräten möglich, auf die unkalibrierten Daten über das Menü oben rechts zu wechseln.</string>
             <string original="Help">Hilfe</string>
@@ -39,20 +39,22 @@
             <string original="Uncalibrated">Nezkalibrován</string>
             <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Magnetometry v mobilních zařízeních jsou vždy do jisté míry nepřesné, díky magnetickým polím vznikajícím uvnitř mobilu. Phyphox se kvůli tomu pokouší získat ze systému kalibrované magnetické pole. Pokud ke kalibraci ještě nedošlo, je možné že z experimentu nedostanete žádná data (to může nastat například pokud byl mobil právě nastartován). V tomto případě byste měli za běžícího experimentu mobilem několikrát otočit. To systému umožní senzor zkalibrovat. Na mnoha přístrojích (ovšem ne na všech) můžete navíc přepnout na nekalibrovaná data z magnetometru pomocí nabídky vpravo nahoře.</string>
             <string original="Medium">Střední</string>
-            <description>Získejte čistá data z vašeho magnetometru.
+            <description>
+        Získejte čistá data z vašeho magnetometru.
 
 Magnetometr je poměrně citlivý, neboť je určen k měření slabého zemského magnetického pole. Slouží totiž jako kompas. Bohužel magnetometry v mobilních zařízeních jsou vždy do jisté míry nepřesné, díky magnetickým polím vznikajícím uvnitř mobilu Phyphox se kvůli tomu pokouší získat ze systému kalibrované magnetické pole. Pokud ke kalibraci ještě nedošlo, je možné že z experimentu nedostanete žádná data (to může nastat například pokud byl mobil právě nastartován). V tomto případě byste měli za běžícího experimentu mobilem několikrát otočit. To systému umožní senzor zkalibrovat. Na mnoha přístrojích (ovšem ne na všech) můžete navíc přepnout na nekalibrovaná data z magnetometru pomocí nabídky vpravo nahoře.
 
 
-Nevystavujte svůj mobil silnému magnetickému poli!</description>
+Nevystavujte svůj mobil silnému magnetickému poli!
+    </description>
             <title>Magnetometr</title>
             <string original="Simple">Stručně</string>
             <string original="Graph">Graf</string>
             <string original="Raw data">Čistá data</string>
             <string original="Absolute">Celkové</string>
-            <string original="High">Vysoká</string>
+            <string original="High">Vysoké</string>
             <string original="Magnetometer Y">Magnetometr Y</string>
-            <string original="Low">Nízká</string>
+            <string original="Low">Nízké</string>
             <string original="Help">Nápověda</string>
             <string original="Magnetometer Z">Magnetometr Z</string>
             <string original="t (s)">t (s)</string>
@@ -89,7 +91,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!</description>
 		<map max="2">Medium</map>
 		<map max="3">High</map>
             </value>
-            <separator height="0.5" />
+            <separator height="0.5"/>
             <graph label="Magnetometer X" labelX="t (s)" labelY="B (µT)" partialUpdate="true">
                 <input axis="x">mag_time</input>
                 <input axis="y">magX</input>
@@ -112,7 +114,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!</description>
 		<map max="2">Medium</map>
 		<map max="3">High</map>
             </value>
-            <separator height="0.5" />
+            <separator height="0.5"/>
             <graph label="Absolute" labelX="t (s)" labelY="B (µT)" partialUpdate="true">
                 <input axis="x">mag_time</input>
                 <input axis="y">mag</input>
@@ -130,7 +132,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!</description>
 		<map max="2">Medium</map>
 		<map max="3">High</map>
             </value>
-            <separator height="0.5" />
+            <separator height="0.5"/>
             <value label="Magnetometer X" size="2" precision="2" unit="µT">
                 <input>magX</input>
             </value>
@@ -145,7 +147,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!</description>
             </value>
         </view>
         <view label="Help">
-            <info label="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right." />
+            <info label="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right."/>
         </view>
     </views>
     <export>
