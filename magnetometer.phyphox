@@ -31,7 +31,7 @@
             <string original="Raw data">Rohdaten</string>
             <string original="Medium">Mittel</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-        </translation>
+        <string original="Low">Niedrig</string><string original="High">Hoch</string></translation>
         <translation locale="cs">
             <category>Senzory</category>
             <string original="Uncalibrated">Nezkalibrován</string>

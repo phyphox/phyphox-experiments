@@ -15,7 +15,7 @@
             <description>
             Zeigt das Frequenz-Spektrum von Audiosignalen.
 
-                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment \"Autokorrelation\".
+                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment "Autokorrelation".
     </description>
             <string original="Spectrum">Spektrum</string>
             <string original="Peak-Frequency">Frequenzspitze</string>
@@ -30,7 +30,7 @@
             <string original="Period used">Genutzte Periode</string>
             <string original="Samples">Messwerte</string>
             <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
-        </translation>
+        <string original="Low">Niedrig</string><string original="High">Hoch</string></translation>
         <translation locale="cs">
             <string original="FFT Mag (a.u.)">FFT Mag (libovolná jednotka)</string>
             <string original="High">Vysoké</string>
@@ -45,7 +45,7 @@
             <description>
             Zobrazení spektra frekvencí zvukového signálu.
 
-Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem pak můžete docílit lepších výsledků použitím experimentu \"autokorelace\".
+Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem pak můžete docílit lepších výsledků použitím experimentu "autokorelace".
     </description>
             <string original="Settings">Nastavení</string>
             <string original="Samples used">Počet vzorků</string>

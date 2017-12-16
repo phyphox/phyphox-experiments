@@ -17,7 +17,7 @@
             <description>
         Die Frequenz eines einzelnen Tons ermitteln.
 
-                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment \"Audio Spektrum\".
+                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment "Audio Spektrum".
 
                 Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Das Experiment sucht alle Maxima im Korrelationssignal heraus, die die Hälfte des globalen Maximums überschreiten. Die Position des letzten Maximums in der Autokorrelation entspricht dem Vielfachen der gesuchten Periode, die wir durch Abzählen der Maxima ermitteln können.
     </description>
@@ -30,7 +30,7 @@
             <string original="Recording">Aufnahme</string>
             <string original="Musical note">Note (Musik)</string>
             <string original="Cents from note">Cent über Note</string>
-        </translation>
+        <string original="Low">Niedrig</string><string original="High">Hoch</string></translation>
         <translation locale="cs">
             <string original="High">Vysoké</string>
             <category>Akustika</category>
@@ -39,7 +39,7 @@
             <description>
         Měření frekvence tónu.
 
-Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment \"spektrum\".
+Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment "spektrum".
 
 Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.
     </description>

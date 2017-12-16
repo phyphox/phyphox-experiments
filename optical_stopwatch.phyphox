@@ -125,7 +125,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
 Tento experiment měří délku osvětlení či potemnění světelného senzoru a dobu mezi jednotlivými takovými událostmi. Například můžete změřit dobu mezi dvěma zakrytími světelného zdroje.
 
-Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě světelného senzoru ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu \"Akustické stopky\".
+Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě světelného senzoru ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".
     </description>
             <string original="Settings">Nastavení</string>
             <string original="Trigger on 3">Zapnutí spouště 3</string>
