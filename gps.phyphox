@@ -206,6 +206,8 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
             </value>
             <separator height="1"/>
             <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
+            <separator height="1"/>
+            <info label="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network."/>
         </view>
     </views>
     <analysis sleep="0.1">
