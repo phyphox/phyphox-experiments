@@ -36,7 +36,7 @@
             <string original="Direction (°)">Richtung (°)</string>
             <string original="Compass">Kompass</string>
             <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
-        <string original="Distance">Entfernung</string></translation>
+        <string original="Distance">Entfernung</string><string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Stelle auch sicher, dass die Systemeinstellung zum Standort nicht auf "Energie sparen" steht, denn dies schaltet GPS ab, während Navigations-Apps weiterhin einen vagen Standort über das Netzwerk ermitteln.</string></translation>
         <translation locale="cs">
             <string original="Graph">Graf</string>
             <string original="Latitude">Zeměpisná šířka</string>
