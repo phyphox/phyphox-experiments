@@ -51,7 +51,7 @@
 
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <link label="Video" highlight="true">https://youtu.be/q3_m1JW1ttQ</link>
-        </translation>
+        <string original="Results">Ergebnisse</string></translation>
         <translation locale="cs">
             <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Zde můžete zadat délku svého kyvadla (od bodu závěsu k hmotnému středu) a zjistit tak tíhové zrychlení g.</string>
             <string original="Raw Data">Čistá data</string>
@@ -79,7 +79,7 @@ V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekven
             <string original="Gyroscope Y">Gyroskop Y</string>
             <string original="Gyroscope Z">Gyroskop Z</string>
             <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Zde můžete určit délku vašeho kyvadla (od závěsu k hmotnému středu) za předpokladu, že g = 9.81 m/s².</string>
-        </translation>
+        <string original="Results">Výsledky</string></translation>
     </translations>
     <data-containers>
         <container size="500">gyr_time</container>
@@ -137,6 +137,14 @@ V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekven
         </sensor>
     </input>
     <views>
+        <view label="Results">
+            <value label="Period" size="2" unit="s">
+                <input>period</input>
+            </value>
+            <value label="Frequency" size="2" unit="Hz">
+                <input>frequency</input>
+            </value>
+        </view>
         <view label="g">
             <value label="Period" size="2" unit="s">
                 <input>period</input>
