@@ -80,7 +80,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
             </value>
         </view>
     </views>
-    <analysis>
+    <analysis sleep="0.5">
         <multiply>
             <input clear="false">accX</input>
             <input clear="false">accX</input>
@@ -92,8 +92,8 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
             <output clear="true">accY2</output>
         </multiply>
         <atan2 deg="true">
-            <input clear="true">accX</input>
-            <input clear="true">accY</input>
+            <input clear="false">accX</input>
+            <input clear="false">accY</input>
             <output clear="false">anglePlane</output>
         </atan2>
         <add>
@@ -108,11 +108,11 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         </power>
         <atan2 deg="true">
             <input clear="true">accXY</input>
-            <input clear="true">accZ</input>
+            <input clear="false">accZ</input>
             <output clear="false">angle</output>
         </atan2>
         <append>
-            <input clear="true">accT</input>
+            <input clear="false">accT</input>
             <output clear="false">t</output>
         </append>
     </analysis>
