@@ -23,7 +23,15 @@
             <string original="Time (ms)">Zeit (ms)</string>
             <string original="Duration">Dauer</string>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Zvukový záznam</title><category>Akustika</category><description>
+        Ukázat zaznamenaná zvuková data.
+
+Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.
+    </description><string original="Scope">Záznam</string><string original="Audio Data">Zvuková data</string><string original="Time (ms)">Čas (ms)</string><string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string><string original="Duration">Trvání</string></translation><translation locale="pl"><title>Audio oscylogram</title><category>Akustyka</category><description>
+        Prezentuje zarejestrowane przebiegi akustyczne.
+
+        W eksperymencie rejestrowane są fragmenty nagrań dźwiękowych, które następnie są wizualizowane w postaci akustycznych przebiegów czasowych. Aby uzyskać stabilny obraz przebiegu przejście przez zerową wartość amplitudy zostało wybrane do wyzwalania rejestracji danych oraz t=0 zostało przypisane do pierwszego przejścia (w kierunku wartości dodatnich).
+    </description><string original="Scope">Oscylogram</string><string original="Audio Data">Dane audio</string><string original="Time (ms)">Czas (ms)</string><string original="Amplitude (a.u.)">Amplituda (j.u.)</string><string original="Duration">Przedział</string></translation></translations>
     <data-containers>
         <container size="26400">recording</container>
         <container size="26400" static="true">time</container>

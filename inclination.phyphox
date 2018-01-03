@@ -26,7 +26,19 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Inclination">Neigung</string>
             <string original="Angle (°)">Winkel (°)</string>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Náklon</title><category>Nástroje</category><description>
+        Měření úhlu náklonu mobilního zařízení.
+
+Tento nástroj využívá akcelerometr k určení náklonu mobilu. Když je telefon vodorovně pak je náklon 0. Pro nenulový náklon je směr udán jako rotace.
+
+Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon (například pro experimenty s nakloněnou rovinou) nezávisle na rotaci mobilu (kolem osy z).
+    </description><string original="Inclination">Náklon</string><string original="Rotation">Rotace</string></translation><translation locale="pl"><title>Nachylenie</title><category>Narzędzia</category><description>
+        Umożliwia pomiar nachylenia urządzenia.
+
+        To narzędzie wykorzystuje akcelerometr do określenia nachylenia urządzenia względem poziomu. Jeśli urządzenie spoczywa na powierzchni równoległej do podłoża nachylenie wynosi zero. Dla innych położeń nachylenie jest wskazywane jako część obrótu.
+
+        Należy zaznaczyć, że kąta nachylenia został zdefiniowany (szczególnie dla eksperymentu z nachylona powirzchnią) niezależnie od kąta obrotu (wokół osi z) urządzenia.
+    </description><string original="Inclination">Nachylenie</string><string original="Angle (°)">Kąt (°)</string><string original="Rotation">Obrót</string></translation></translations>
     <data-containers>
         <container size="1">accX</container>
         <container size="1">accX2</container>

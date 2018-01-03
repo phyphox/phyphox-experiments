@@ -18,7 +18,7 @@
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Akcelerace s g</title><category>Senzory</category><description>Získejte surová data z akcelerometru. Tento senzor neodečítá gravitační zrychlení, takže bude neustále hlásit konstantní zrychlení 9.81 m/s² a to i když bude mobil v klidu.</description><string original="Graph">Graf</string><string original="Accelerometer X">Akcelerometr X</string><string original="Accelerometer Y">Akcelerometr Y</string><string original="Accelerometer Z">Akcelerometr Z</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string></translation><translation locale="pl"><title>Przyspieszenie z g</title><category>Surowe dane</category><description>Uzyskaj surowe dane z akcelerometru urządzenia. Czujnik nie odejmuje wartości związanych z polem grawitacyjnym stąd wartość 9.81 m/s² jest wskazywana nawet dla nieruchomego urządzenia.</description><string original="Graph">Wykres</string><string original="Accelerometer X">Akceleromter - składowa X</string><string original="Accelerometer Y">Akceleromter - składowa Y</string><string original="Accelerometer Z">Akceleromter - składowa Z</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string></translation></translations>
     <data-containers>
         <container size="0">accX</container>
         <container size="0">accY</container>

@@ -20,7 +20,9 @@
                 Auf manchen Geräten wird der Wert des Lichtsensors nur aktualisiert, wenn sich eine große Änderung der Beleuchtungsstärke ergibt.
             </string>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Světlo</title><category>Senzory</category><description>Získejte čistá data ze senzoru osvětlení.</description><string original="Graph">Graf</string><string original="Illuminance">Osvětlení</string><string original="Simple">Stručně</string></translation><translation locale="pl"><title>Światło</title><category>Surowe dane</category><description>Uzyskaj surowe dane z czujnika światła.</description><string original="Graph">Wykres</string><string original="Illuminance">Natężenie oświetlenia</string><string original="Info">
+                Komentarz: W niektórych urządzeń status czujnika światła jest zapisywany jedynie w przypadku znacznych zmian w natężeniu światła padającego na czujnik.
+            </string><string original="Simple">Próbka</string></translation></translations>
     <data-containers>
         <container size="0">illum</container>
         <container size="0">illum_time</container>

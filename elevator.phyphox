@@ -34,7 +34,19 @@
             <string original="Accelerometer z">Beschleunigung z</string>
             <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Výtah</title><category>Běžný život</category><description>
+        Zjistěte rychlost výtahu pomocí barometru.
+
+Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Pomocí derivace takto získaných měření je pak snadné zjistit rychlost svislého pohybu výtahu. Dodatečně je zrychlení měřeno Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
+    </description><string original="Motion">Pohyb</string><string original="Height (from barometer)">Výška (z barometru)</string><string original="Vertical velocity (from height)">Svislá rychlost (z výšky)</string><string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string><string original="Raw Data">Čistá data</string><string original="Pressure">Tlak</string><string original="Accelerometer z">Akcelerometr z</string></translation><translation locale="pl"><title>Winda</title><category>Życie codzienne</category><description>
+        Wyznacz szybkość windy korzystając z barometru.
+
+        Zmiany w położeniu windy mogą być bardo precyzyjnie określone dzięki wykorzystaniu barometru - zwłaszcza w miejscach gdzie nie działa GPS. Informacje o zmianie położenia mogą posłużyć do wyznaczenia prędkości ruchu w pionie. 
+Dodatkowo, dzięki wskazaniom acelerometru można zarejestrować poinową składową - z - przyspieszenia pod warunkiem, że urządzenie spoczywa na płaskiej powierzchni podłogi windy.
+
+        Dodatkowe wskazówki:
+        Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu pionie.
+    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z baromoteru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wyskości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr z</string></translation></translations>
     <data-containers>
         <container size="0">pressure</container>
         <container size="0">p_time</container>

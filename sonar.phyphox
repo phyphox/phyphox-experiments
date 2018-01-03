@@ -39,7 +39,23 @@
             <string original="Delay (s)">Laufzeit (s)</string>
             <string original="On this page you just get the measured delay.">Auf dieser Seite bekommst du nur die ermittelten Zeiten.</string>
         </translation>
-    </translations>
+    <translation locale="cs"><title>Sonar</title><category>Akustika</category><description>
+        Měření vzdálenosti pomocí ozvěn a rychlosti zvuku.
+
+Sonar vysílá krátký zvukový signál, který se odráží od okolí od okolních předmětů (tedy ideálně od toho jehož vzdálenost chcete měřit). Vzhledem k tomu, že se zvuk šíří přibližně rychlostí 340 m/s, tak je výpočet vzdálenosti možný z celkového času, který zvuku trvalo dorazit k předmětu a zpátky.
+
+Tento experiment vygeneruje "cvrkot", vyšle ho z reproduktoru a zahájí záznam zvuku. Křížová korelace "cvrkotu" a zaznamenaného zvuku podává informaci o času v němž nastane ozvěna. Doba zpoždění ozvěny vynásobená rychlostí zvuku (a vydělená dvěma, neboť zvuk musel letět tam a zpět) dá vzdálenost ze které ozvěna přišla.
+
+Nicméně zvuk se většinou šiří všemi směry. To pro sonar znamená jistou komplikaci, neboť při snaze o změření vzdálenosti stěny dostanete navíc ozvěnu od stropu, podlahy, dalších stěn a vlastně od všech vhodných tvrdých předmětů v okolí. Sonar vám dá informace o všech těchto odrazech a je jen na vás, abyste tyto výsledky interpretovali a vyhodnotili, které odpovídají měřenému předmětu. Doporučujeme pokrytí nežádoucích povrchů měkkým pěnovým materiály a měřit menší tvrdý předmět. Je také zapotřebí, aby okolí bylo tiché.
+    </description><string original="Echo location">Echolokace</string><string original="Speed of Sound">Rychlost zvuku</string><string original="distance (cm)">Vzdálenost (cm)</string><string original="A (a.u.)">A (libovolná jednotka)</string><string original="Normalized to spherical surface">Znormováno na kulovou plochu</string><string original="Target distance">Vzdálenost cíle</string><string original="Echo strength">Síla ozvěny</string><string original="Speed of Sound (m/s)">Rychlost zvuku (m/s)</string><string original="Timing">Měření času</string><string original="On this page you just get the measured delay.">Na této stránce uvidíte pouze změřená zpoždění.</string><string original="Delay (s)">Zpoždění (s)</string><string original="Chirp">Cvrkot</string><string original="Time (s)">Čas (s)</string></translation><translation locale="pl"><title>Sonar</title><category>Akustyka</category><description>
+        Pomiar odległości w oparciu o zjawisko echa i znajomość szybkości dźwięku.
+
+        Sonar jest źródłem impulsów dźwiękowych, które są odbijane od przeszody znajdującej się w pewnej odległości od urządzenia. Dźwięk rozchodzi się w powietrzy z szybkością około 340 m/s, dlatego pomiar czasu po jakim mikrofon urządzenia rejestruje dźwięk odbity można wykorzystać do pomiaru odległości do przeszkody.
+
+        W eksperymencie wytwarzane są "ćwierknięcia", które dzięki głośnikom urządzenia są z niego wysyłane i jednocześnie ropoczynają pomiar. Korelacja czasowa ćwiekrnięcia oraz zarejestrowanego sygnały odbitego dostarcza informacji o czasie powstania echa. Ten przedział czasu pomnożony przez wartość prędkości dźwięku (i podzielny przez 2 ponieważ impuls ma do pokonania drogę tam i z powrotem) pozwala uzyskać odległość do przeszkody powodującej powstanie echa.
+
+        Jednak dźwięk porusza się we wszystkich kierunkach. Oznacza to, że urządzenie zwane sonarem skierowane głościnkiem w stronę ściany rejestruje także dźwięk odbity od podłogi, sufity, pozostałych ścian, a nawet innych, znajdujacych się w pobliżu obiektów posiadających powierzchnie odbijające dźwięk. Stąd sonar rejestruje wszystkie te sygnały, a zadanie ich interperetacji pozostawia użytkownikowi. Warto rozpocząć pomiar od lokalizacji znacznych rozmiarów, twardej przeszkody i ekranowania sygnału pochodzącego od innych źródeł np. za pomocą gąbki. Warto także prowadzić pomiary w pomieszczeniu pozbawionym innych źródeł dźwięku.
+    </description><string original="Echo location">Echolokalizacja</string><string original="Speed of Sound">Szybkość dźwięku</string><string original="distance (cm)">Dystans (cm)</string><string original="A (a.u.)">A (j.u.)</string><string original="Normalized to spherical surface">Znormalizowane do powierzchni sferycznej</string><string original="Target distance">Dystans do przeszkody</string><string original="Echo strength">Sygnał echa</string><string original="Speed of Sound (m/s)">Szybkość dźwięku (m/s)</string><string original="Timing">Czas</string><string original="On this page you just get the measured delay.">W tej zakładce wyświetlany jest czas opóźnienia sygnału.</string><string original="Delay (s)">Opóźnienie (s)</string><string original="Chirp">Ćwierknięcie</string><string original="Time (s)">Czas (s)</string></translation></translations>
 
     <data-containers>
         <container size="48000">recording</container>
