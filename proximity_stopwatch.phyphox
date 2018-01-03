@@ -96,50 +96,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf weite Entfernungen reagieren möchtest, setzte den Wert "Auslösen unter" auf Null. Wenn du nur auf nahe Entfernungen reagieren möchtest, setze "Auslösen über" auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen. Die meisten Sensoren können nur zwei Entfernungen messen, oft 0 cm und etwa 5 cm.</string>
             <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Die Genauigkeit der Zeitmessung hängt vom Näherungssensor in deinem Smartphone ab. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich. Auf iPhones funktioniert der Sensor nur in Portrait-Ausrichtung (also wenn man das iPhone aufrecht hält) und schaltet den Bildschirm aus, solange er ausgelöst ist.</string>
         </translation>
-        <translation locale="cs">
-            <string original="Trigger duration 4">Trvání spouště 4</string>
-            <string original="Trigger duration 5">Trvání spouště 5</string>
-            <string original="Trigger duration 2">Trvání spouště 2</string>
-            <string original="Trigger duration 3">Trvání spouště 3</string>
-            <string original="Trigger duration 0">Trvání spouště 0</string>
-            <string original="Trigger duration 1">Trvání spouště 1</string>
-            <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě senzoru přiblížení ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky". V iPhonech tento senzor funguje pouze v režimu "portrét" (tedy když držíte mobil svisle) a když je spuštěn vypíná obrazovku.</string>
-            <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stopky se spouštějí při hodnotách pod i nad stanoveným pásmem. Chcete-li, aby se spouštěly jen při velkých vzdálenostech, pak nastavte hodnotu "Spustit pod" na nulu. Chcete-li, aby spouštěly jen při malých vzdálenostech, pak nastavte hodnotu "Spustit nad" hodně vysoko. Správné hodnoty prahů můžete odhadnout pomocí následujícího grafu. Většina senzorů měří jen dvě různé vzdálenosti. Většinou to je 0 cm a 5 cm.</string>
-            <category>Časovače</category>
-            <string original="Trigger off 4">Vypnutí spouště 4</string>
-            <string original="Trigger off 5">Vypnutí spouště 5</string>
-            <string original="Trigger off 2">Vypnutí spouště 2</string>
-            <string original="Trigger off 3">Vypnutí spouště 3</string>
-            <string original="Trigger off 0">Vypnutí spouště 0</string>
-            <title>Stopky přiblížení</title>
-            <string original="Triggers">Spouště</string>
-            <string original="Trigger below">Spustit pod</string>
-            <string original="Time 5">Čas 5</string>
-            <string original="Time 4">Čas 4</string>
-            <string original="Time 1">Čas 1</string>
-            <string original="Parallel">Paralelní</string>
-            <string original="Time 3">Čas 3</string>
-            <string original="Time 2">Čas 2</string>
-            <string original="Distance">Vzdálenost</string>
-            <description>
-        Měření času spouštěné signálem senzoru přiblížení.
-
-V tomto experimentu přiblížíte předmět blízko k senzoru přiblížení (většinou je umístěn na mobilu vepředu, hned vedle reproduktoru pro hovory) a měříte kdy byl blízko či daleko k telefonu.
-
-Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě senzoru přiblížení ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".
-    </description>
-            <string original="Settings">Nastavení</string>
-            <string original="Trigger on 3">Zapnutí spouště 3</string>
-            <string original="Trigger on 2">Zapnutí spouště 2</string>
-            <string original="Trigger on 1">Zapnutí spouště 1</string>
-            <string original="Trigger on 0">Zapnutí spouště 0</string>
-            <string original="Trigger on 5">Zapnutí spouště 5</string>
-            <string original="Trigger on 4">Zapnutí spouště 4</string>
-            <string original="Trigger above">Spustit nad</string>
-            <string original="Sequence">Sekvence</string>
-            <string original="Trigger off 1">Vypnutí spouště 1</string>
-            <string original="Duration">Trvání</string>
-        </translation>
     </translations>
     <input>
         <sensor type="proximity">

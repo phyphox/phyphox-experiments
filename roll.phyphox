@@ -24,19 +24,6 @@
             <string original="Raw Data">Rohdaten</string>
             <string original="Gyroscope Y">Gyroskop Y</string>
         </translation>
-        <translation locale="cs">
-            <category>Mechanika</category>
-            <description>
-        Umístěte váš mobil do ruličky a určete jeho rychlost.
-
-Umístěte své mobilní zařízení do papírového válce tak, aby se mohl otáčet kolem osy rovnoběžné s jeho delší stranou. Tento experiment pak měří pomocí gyroskopu jeho úhlovou rychlost a poloměr valení. Následně pak vypočítává rychlost tohoto valení.
-    </description>
-            <title>Valení</title>
-            <string original="Roll radius">Poloměr valení</string>
-            <string original="Raw Data">Čistá data</string>
-            <string original="Velocity">Rychlost</string>
-            <string original="Gyroscope Y">Gyroskop Y</string>
-        </translation>
     </translations>
     <data-containers>
         <container size="500">gyrY</container>

@@ -20,18 +20,6 @@
             <string original="Frequency low">Frequenz niedrig</string>
             <string original="Frequency high">Frequenz hoch</string>
         </translation>
-        <translation locale="cs">
-            <category>Akustika</category>
-            <string original="Tone generator">Tónový generátor</string>
-            <description>
-        Vytváří tón o specifické frekvenci.
-    </description>
-            <title>Tónový generátor</title>
-            <string original="Signal">Signál</string>
-            <string original="Time (s)">Čas (s)</string>
-            <string original="Frequency">Frekvence</string>
-            <string original="A (a.u.)">A (libovolná jednotka)</string>
-        </translation>
     </translations>
     <data-containers>
         <container>f</container>

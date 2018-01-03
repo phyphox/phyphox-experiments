@@ -33,23 +33,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Angular velocity ω (rad/s)">Winkelgeschwindigkeit ω (rad/s)</string>
             <string original="Square plot">Quadratische Auftragung</string>
         </translation>
-        <translation locale="cs">
-            <category>Mechanika</category>
-            <string original="Acceleration">Zrychlení</string>
-            <description>
-        Vizualizace odstředivého zrychlení jako funkce úhlové rychlosti.
-
-Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti ω a celkové zrychlení pomocí akcelerometru. Vynesením závislosti a vůči Ď‰ můžeme snadno prokázat, že platí vztah a = r·ω². Závislost na ω² je přímkou.
-
-Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.
-    </description>
-            <title>Odstředivé zrychlení</title>
-            <string original="Angular velocity">Úhlová rychlost</string>
-            <string original="Acceleration a (m/s²)">Zrychlení a (m/s²)</string>
-            <string original="Angular velocity ω (rad/s)">Úhlová rychlost ω (rad/s)</string>
-            <string original="Time">Čas</string>
-            <string original="Square plot">Graf čtverce</string>
-        </translation>
     </translations>
     <data-containers>
         <container size="1">acc_result</container>

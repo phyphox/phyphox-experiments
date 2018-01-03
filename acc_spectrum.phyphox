@@ -34,31 +34,6 @@
             <string original="Samples">Messwerte</string>
             <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
         </translation>
-        <translation locale="cs">
-            <string original="Period used">Použitá perioda</string>
-            <string original="Raw data">Čistá data</string>
-            <string original="Samples">Vzorků</string>
-            <category>Nástroje</category>
-            <title>Spektrum zrychlení</title>
-            <string original="Fourier Transform">Fourierova transformace</string>
-            <string original="Peak-Frequency">Maximální frekvence</string>
-            <description>
-            Zobrazte spektrum frekvence hodnot z akcelerometru.
-
-Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítává spektrum jejich frekvencí pomocí Fourierovy transformace(FFT). Maximální detekovatelná frekvence záleží na maximální vzorkovací frekvenci vašeho senzoru.
-    </description>
-            <string original="Settings">Nastavení</string>
-            <string original="Samples used">Počet vzorků</string>
-            <string original="Frequency (Hz)">Frekvence (Hz)</string>
-            <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
-            <string original="Acceleration y">Zrychlení y</string>
-            <string original="Acquisition rate">Vzorkovací frekvence</string>
-            <string original="Spectrum">Spektrum</string>
-            <string original="FFT Mag (a.u.)">FFT Mag (libovolná jednotka)</string>
-            <string original="Nyquist frequency">Nyquistova frekvence</string>
-            <string original="Acceleration z">Zrychlení z</string>
-            <string original="Acceleration x">Zrychlení x</string>
-            </translation>
     </translations>
     <data-containers>
         <container size="0">accInX</container>

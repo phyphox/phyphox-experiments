@@ -12,14 +12,6 @@
             <string original="Simple">Einfach</string>
             <string original="Pressure">Druck</string>
         </translation>
-        <translation locale="cs">
-            <category>Senzory</category>
-            <description>Získejte čistá data z barometru.</description>
-            <title>Tlak</title>
-            <string original="Simple">Stručně</string>
-            <string original="Graph">Graf</string>
-            <string original="Pressure">Tlak</string>
-            </translation>
     </translations>
     <data-containers>
         <container size="0">pressure</container>

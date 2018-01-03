@@ -52,34 +52,6 @@
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <link label="Video" highlight="true">https://youtu.be/q3_m1JW1ttQ</link>
         <string original="Results">Ergebnisse</string></translation>
-        <translation locale="cs">
-            <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Zde můžete zadat délku svého kyvadla (od bodu závěsu k hmotnému středu) a zjistit tak tíhové zrychlení g.</string>
-            <string original="Raw Data">Čistá data</string>
-            <string original="Resonance">Rezonance</string>
-            <string original="Rel. amplitude (a.u.)">Reál. Amplituda (libovolná jednotka)</string>
-            <category>Mechanika</category>
-            <title>Kyvadlo</title>
-            <description>
-        Zjistěte hodnotu tíhového zrychlení (g=9.81m/s²) pomocí kyvadla udělaného z vašeho mobilního telefonu.
-
-Tento experiment používá gyroskop k měření pohybu kyvadla a vypočítá jeho periodu kmitu T. Uživatel musí zadat délku L použitého závěsu, aby phyphox mohl vypočítat g = 4π²/T² L.
-
-Druhou možností, jak experiment provádět, je namísto měření g, vypočítávat délku závěsu z pohybu kyvadla (Přesněji řečeno vzdálenost od bodu zavěšení do hmotného středu.). Pro tyto výpočty se pak předpokládá že g = 9.81 m/s².
-
-V záložce rezonance je dále graf závislosti amplitudy na zjištěné frekvenci kmitů. Proměnou frekvence je zde možno změřit rezonanční křivku buzeného oscilátoru.
-    </description>
-            <string original="Length">Délka</string>
-            <string original="Frequency (Hz)">Frekvence (Hz)</string>
-            <string original="Autocorrelation">Autokorelace</string>
-            <string original="correlation (a.u.)">Korelace (libovolná jednotka)</string>
-            <string original="Period">Perioda</string>
-            <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
-            <string original="Frequency">Frekvence</string>
-            <string original="Gyroscope X">Gyroskop X</string>
-            <string original="Gyroscope Y">Gyroskop Y</string>
-            <string original="Gyroscope Z">Gyroskop Z</string>
-            <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Zde můžete určit délku vašeho kyvadla (od závěsu k hmotnému středu) za předpokladu, že g = 9.81 m/s².</string>
-        <string original="Results">Výsledky</string></translation>
     </translations>
     <data-containers>
         <container size="500">gyr_time</container>

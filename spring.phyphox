@@ -41,28 +41,6 @@
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
         </translation>
-        <translation locale="cs">
-            <category>Mechanika</category>
-            <string original="Accelerometer Y">Akcelerometr Y</string>
-            <description>
-        Analýza frekvence a periody pružinového oscilátoru.
-
-Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypočítává periodu kmitání T. Dále, v záložce rezonance modul vykresluje graf závislosti amplitudy na frekvenci. Takto můžete pomocí buzení oscilátoru a následné změny frekvence kmitání určit jeho rezonanční křivku.
-    </description>
-            <title>Pružina</title>
-            <string original="correlation (a.u.)">Korelace (libovolná jednotka)</string>
-            <string original="Period">Perioda</string>
-            <string original="Results">Výsledky</string>
-            <string original="Frequency">Frekvence</string>
-            <string original="Accelerometer X">Akcelerometr X</string>
-            <string original="Raw Data">Čistá data</string>
-            <string original="Accelerometer Z">Akcelerometr Z</string>
-            <string original="Frequency (Hz)">Frekvence (Hz)</string>
-            <string original="Autocorrelation">Autokorelace</string>
-            <string original="Resonance">Rezonance</string>
-            <string original="Rel. amplitude (a.u.)">Reál. Amplituda (libovolná jednotka)</string>
-            <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
-            </translation>
     </translations>
     <data-containers>
         <container size="500">accX</container>

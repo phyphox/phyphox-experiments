@@ -31,29 +31,6 @@
             <string original="Musical note">Note (Musik)</string>
             <string original="Cents from note">Cent über Note</string>
         <string original="Low">Niedrig</string><string original="High">Hoch</string></translation>
-        <translation locale="cs">
-            <string original="High">Vysoké</string>
-            <category>Akustika</category>
-            <string original="Raw data">Čistá data</string>
-            <title>Zvuková autokorelace</title>
-            <description>
-        Měření frekvence tónu.
-
-Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment "spektrum".
-
-Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.
-    </description>
-            <string original="Amplitude (a.u.)">Amplituda (libovolná jednotka)</string>
-            <string original="Recording">Záznam</string>
-            <string original="Autocorrelation">Autokorelace</string>
-            <string original="Musical note">Tón</string>
-            <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
-            <string original="correlation (a.u.)">Korelace (libovolná jednotka)</string>
-            <string original="Period">Perioda</string>
-            <string original="Autocorr.">Autokor.</string>
-            <string original="Frequency">Frekvence</string>
-            <string original="Low">Nízké</string>
-        </translation>
     </translations>
     <data-containers>
         <container size="4800">recording</container>
