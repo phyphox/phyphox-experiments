@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.6" locale="en">
     <title>Acoustic Stopwatch</title>
     <category>Timers</category>
     <description>
@@ -18,6 +18,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>threshold</container>
         <container>mindelay</container>
         <container size="16384">recording</container>
+        <container>rate</container>
         <container>i</container>
         <container>i2</container>
         <container>t</container>
@@ -77,8 +78,9 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         </translation>
     </translations>
     <input>
-        <audio rate="48000">
+        <audio>
             <output>recording</output>
+            <output component="rate">rate</output>
         </audio>
     </input>
     <views>
@@ -203,7 +205,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <divide>
             <input>i2</input>
-            <input type="value">48000</input>
+            <input clear="false">rate</input>
             <output>t</output>
         </divide>
 
@@ -341,7 +343,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         <divide>
             <input clear="false">index</input>
-            <input type="value">48000</input>
+            <input clear="false">rate</input>
             <output>tmax</output>
         </divide>
 
