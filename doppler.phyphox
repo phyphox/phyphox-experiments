@@ -164,7 +164,7 @@
 
         <multiply>
             <input clear="false">periodFactor</input>
-            <input type="value">48000</input>
+            <input clear="false">rate</input>
             <output>temp1</output>
         </multiply>
 
