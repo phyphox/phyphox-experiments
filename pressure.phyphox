@@ -12,7 +12,7 @@
             <string original="Simple">Einfach</string>
             <string original="Pressure">Druck</string>
         </translation>
-    <translation locale="cs"><title>Tlak</title><category>Senzory</category><description>Získejte čistá data z barometru.</description><string original="Graph">Graf</string><string original="Pressure">Tlak</string><string original="Simple">Stručně</string></translation><translation locale="pl"><title>Ciśnienie</title><category>Surowe dane</category><description>Uzyskaj surowe dane z barometru.</description><string original="Graph">Wykres</string><string original="Pressure">Ciśnienie</string><string original="Simple">Próbka</string></translation></translations>
+    <translation locale="cs"><title>Tlak</title><category>Senzory</category><description>Zobrazí neupravená data z barometru.</description><string original="Graph">Graf</string><string original="Pressure">Tlak</string><string original="Simple">Stručně</string></translation><translation locale="pl"><title>Ciśnienie</title><category>Surowe dane</category><description>Uzyskaj surowe dane z barometru.</description><string original="Graph">Wykres</string><string original="Pressure">Ciśnienie</string><string original="Simple">Próbka</string></translation></translations>
     <data-containers>
         <container size="0">pressure</container>
         <container size="0">p_time</container>

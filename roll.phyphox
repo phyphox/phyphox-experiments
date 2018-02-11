@@ -27,12 +27,12 @@
     <translation locale="cs"><title>Valení</title><category>Mechanika</category><description>
         Umístěte váš mobil do ruličky a určete jeho rychlost.
 
-Umístěte své mobilní zařízení do papírového válce tak, aby se mohl otáčet kolem osy rovnoběžné s jeho delší stranou. Tento experiment pak měří pomocí gyroskopu jeho úhlovou rychlost a poloměr valení. Následně pak vypočítává rychlost tohoto valení.
-    </description><string original="Velocity">Rychlost</string><string original="Roll radius">Poloměr valení</string><string original="Raw Data">Čistá data</string><string original="Gyroscope Y">Gyroskop Y</string></translation><translation locale="pl"><title>Toczenie</title><category>Mechanika</category><description>
+Umístěte své mobilní zařízení do papírového válce tak, aby se mohl otáčet kolem osy rovnoběžné s jeho delší stranou. Tento experiment pak pomocí gyroskopu měří úhlovou rychlost valícího se zařízení. Zadáme-li poloměr valení, následně pak vypočítává i rychlost tohoto valení.
+    </description><string original="Velocity">Rychlost</string><string original="Roll radius">Poloměr valení</string><string original="Raw Data">Neupravená data</string><string original="Gyroscope Y">Gyroskop Y</string></translation><translation locale="pl"><title>Toczenie</title><category>Mechanika</category><description>
         Umieść swój smartfon w toczącym się przedmiocie i wyznacz wartość jego prędkości.
 
-        Umieść telefon w papierowej rolce lub puszce, by mógł się toczyć (obracać wokół najdłuższej krawędzi). W tym eksperymecie dokonywany jest pomiar wartości prędkości kątowej z wykorzystaniem żyroskopu urządzenia, a przy znanym promieniu rolki możliwe jest także wyznaczenie wartości prędkości liniowej toczącego się przedmiotu.
-    </description><string original="Velocity">Prędkość</string><string original="Roll radius">Promień rolki</string><string original="Raw Data">Surowe dane</string><string original="Gyroscope Y">Żyroskop - składowa Y</string></translation></translations>
+        Umieść telefon (tablet) w papierowej rolce lub puszce, by mógł się toczyć (obracać wokół najdłuższej krawędzi). W tym eksperymencie dokonywany jest pomiar wartości prędkości kątowej z wykorzystaniem żyroskopu urządzenia. Przy znanym promieniu rolki możliwe jest także wyznaczenie wartości prędkości liniowej toczącego się przedmiotu.
+    </description><string original="Velocity">Prędkość</string><string original="Roll radius">Promień rolki</string><string original="Raw Data">Surowe dane</string><string original="Gyroscope Y">Żyroskop - składowa y</string><string original="w (rad/s)">ω (rad/s)</string></translation></translations>
     <data-containers>
         <container size="500">gyrY</container>
         <container size="500">gyr_time</container>

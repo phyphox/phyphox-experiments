@@ -24,10 +24,10 @@
             <string original="Frequency (Hz)">Frequenz (Hz)</string>
         </translation>
     <translation locale="cs"><title>Časosběrné meření frekvence</title><category>Akustika</category><description>
-        Měření změny frekvence jednoho tónu v průběhu času.
+        Měří změny frekvence jednoho tónu v průběhu času.
 
-Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť použitá metoda je autokorelace. Výsledek je zobrazen jako graf závislosti frekvence na čase.
-    </description><string original="History">Historie</string><string original="Frequency">Frekvence</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Period">Perioda</string><string original="Period (s)">Perioda (s)</string></translation><translation locale="pl"><title>Przebieg częstotliwości</title><category>Akustyka</category><description>
+Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť měření používá autokorelaci. Výsledek je zobrazen jako graf závislosti frekvence na čase.
+    </description><string original="History">Historie</string><string original="Frequency">Frekvence</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Period">Perioda</string><string original="Period (s)">Perioda (s)</string></translation><translation locale="pl"><title>Zmiany częstotliwości</title><category>Akustyka</category><description>
         Zarejestruj zmiany częstotliwości w czasie dla tonu.
 
         W tym eksperymencie badany jest dźwięk rejestrowany przez mikrofon urządzenia w bardzo krótkich przedziałach czasu. Procedura wykorzystuje autokorelację i pozwala uzyskać satyfkacjonujące wyniki jedynie w przypadku analizy pojedyńczych tonów. Wyniki są wizualizowane na wykresie częstotliwości w funkcji czasu.

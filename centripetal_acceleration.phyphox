@@ -34,17 +34,17 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
             <string original="Square plot">Quadratische Auftragung</string>
         </translation>
     <translation locale="cs"><title>Odstředivé zrychlení</title><category>Mechanika</category><description>
-        Vizualizace odstředivého zrychlení jako funkce úhlové rychlosti.
+        Vizualizuje odstředivého zrychlení jako funkci úhlové rychlosti.
 
-Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti ω a celkové zrychlení pomocí akcelerometru. Vynesením závislosti a vůči Ď‰ můžeme snadno prokázat, že platí vztah a = r·ω². Závislost na ω² je přímkou.
+Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti ω a celkové zrychlení pomocí akcelerometru. Vynesením závislosti a vůči ω můžeme snadno prokázat, že platí vztah a = r·ω². Závislost na ω² je přímkou.
 
 Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.
-    </description><string original="Acceleration">Zrychlení</string><string original="Angular velocity ω (rad/s)">Úhlová rychlost ω (rad/s)</string><string original="Acceleration a (m/s²)">Zrychlení a (m/s²)</string><string original="Square plot">Graf čtverce</string><string original="Time">Čas</string><string original="Angular velocity">Úhlová rychlost</string></translation><translation locale="pl"><title>Przyspieszenie dośrodkowe</title><category>Mechanika</category><description>
-        Zwizualizuj wartość przyspieszenie dośrodkowe jako funkcję wartości prędkości kątowej.
+    </description><string original="Acceleration">Zrychlení</string><string original="Angular velocity ω (rad/s)">Úhlová rychlost ω (rad/s)</string><string original="Acceleration a (m/s²)">Zrychlení a (m/s²)</string><string original="Square plot">Graf druhé mocniny</string><string original="Time">Čas</string><string original="Angular velocity">Úhlová rychlost</string><string original="Relation">Závislost</string></translation><translation locale="pl"><title>Przyspieszenie dośrodkowe</title><category>Mechanika</category><description>
+        Wizualizuj wartość przyspieszenie dośrodkowe jako funkcję wartości prędkości kątowej.
 
-        W tym eksperymencie wyznaczana jest całkowita wartość prędkości kątowej ω uzyskiwana z żyroskopu oraz całkowita wartość przyspieszenia a rejestrowana przez akcelerometr urządzenia. Wizualizacja zależności a od ω pozwla zobrazować równanie a = r·ω², a w konsekwencji zależności ω² od a ilustruje linia prosta.
+        W tym eksperymencie wyznaczana jest całkowita wartość prędkości kątowej ω uzyskiwana z żyroskopu oraz całkowita wartość przyspieszenia a rejestrowana przez akcelerometr urządzenia. Wizualizacja zależności a od ω pozwala zobrazować równanie a = r·ω², a w konsekwencji zależności ω² od a ilustruje linia prosta.
 
-        Pomiary należy przeprowadzić dla różnych wartości prędkości kątowej przy stałym promieniu okręgu, po którym porusza się badane ciało. W tym celu można wykorzystać obrotową suszarkę do sałaty bądź niewielką karuzelę.
+        Pomiary należy przeprowadzić dla różnych wartości prędkości kątowej przy stałym promieniu okręgu, po którym porusza się badane ciało. W tym celu można wykorzystać obrotową suszarkę do sałaty bądź niewielką karuzelę (np. tarczę gramofonu).
     </description><string original="Relation">Zależności</string><string original="Acceleration">Przyspieszenie</string><string original="Angular velocity ω (rad/s)">Prędkość kątowa ω (rad/s)</string><string original="Acceleration a (m/s²)">Przyspieszenie a (m/s²)</string><string original="Square plot">Zależność kwadratowa</string><string original="Time">Czas</string><string original="Angular velocity">Prędkość kątowa</string></translation></translations>
     <data-containers>
         <container size="1">acc_result</container>
