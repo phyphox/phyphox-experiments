@@ -35,7 +35,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         <container>t3effective</container>
         <container>t4effective</container>
         <container>t5effective</container>
-        <container>tmax</container>
+        <container init="0">tmax</container>
         <container>dt01</container>
         <container>dt02</container>
         <container>dt03</container>
@@ -213,19 +213,22 @@ Po spuštění experimentu začnou stopky běžet poté co poprvé celkové zryc
         </if>
 
         <if equal="true">
-            <input>count</input>
+            <input clear="false">count</input>
             <input type="value">0</input>
             <input type="value">0</input>
             <input clear="false">accTCopy</input>
             <output clear="true">accTCopy</output>
         </if>
 
-        <!--  -->
-
-        <append>
+        <if equal="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input clear="false">tmax</input>
             <input clear="false">accTCopy</input>
             <output>tmax</output>
-        </append>
+        </if>
+
+        <!--  -->
 
         <max>
             <input as="x">accTCopy</input>
