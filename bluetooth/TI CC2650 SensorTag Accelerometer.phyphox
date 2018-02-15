@@ -1,0 +1,37 @@
+<phyphox version="1.5">
+    <title>Accelerometer</title>
+    <category>Texas Instruments SensorTag</category>
+    <description>Read the accelerometer</description>
+    <data-containers>
+        <container size="0">accX</container>
+        <container size="0">accY</container>
+        <container size="0">accZ</container>
+        <container size="0">t</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA83-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
+            <config char="F000AA82-0451-4000-B000-000000000000" conversion="hexadecimal">3802</config>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="ti_acc_x">accX</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="ti_acc_y">accY</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="ti_acc_z">accZ</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" extra="time">t</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Acceleration X" labelX="t (s)" labelY="F (g)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accX</input>
+            </graph>
+            <graph label="Acceleration Y" labelX="t (s)" labelY="F (g)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accY</input>
+            </graph>
+            <graph label="Acceleration Z" labelX="t (s)" labelY="F (g)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accZ</input>
+            </graph>
+        </view>
+    </views>
+</phyphox>
