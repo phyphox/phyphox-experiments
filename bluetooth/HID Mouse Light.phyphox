@@ -1,0 +1,179 @@
+<phyphox version="1.0">
+    <title>HID Mouse: Illuminance vs. distance</title>
+    <category>Bluetooth</category>
+    <description>Measure illuminance as a function of the distance tracked by a mouse.</description>
+    <data-containers>
+        <container size="1">last</container>
+        <container size="0">tempAll</container>
+        <container size="0">-tempAll</container>
+        <container size="0">new</container>
+        <container size="1">count</container>
+        <container size="0">dx</container>
+        <container size="0">dy</container>
+        <container size="0" init="0">x</container>
+        <container size="0" init="0">y</container>
+
+        <container size="1">x2</container>
+        <container size="1">y2</container>
+        <container size="1">d2</container>
+        <container size="1">d</container>
+
+        <container size="1">illum</container>
+
+        <container size="0">dHist</container>
+        <container size="0">illumHist</container>
+
+        <container size="1">offset</container>
+        <container size="0">dHistOff</container>
+        <container size="0">d2Hist</container>
+        <container size="0">1/d2Hist</container>
+
+        
+    </data-containers>
+    <input>
+        <bluetooth uuid="00001812-0000-1000-8000-00805f9b34fb" mode="notification">
+            <config char="00002A4e-0000-1000-8000-00805F9B34FB"  conversion="hexadecimal">00</config>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="firstByte">dx</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="firstByte">dy</output>
+        </bluetooth>
+        <sensor type="light">
+            <output component="x">illum</output>
+        </sensor>
+    </input>
+    <views>
+        <view label="Illuminance">
+            <value label="Distance from start" unit="a.u.">
+                <input>d</input>
+            </value>
+            <edit label="Offset" unit="a.u.">
+                <output>offset</output>
+            </edit>
+            <graph label="Illuminance" labelX="d (a.u.)" labelY="Ev (lx)">
+                <input axis="y">illumHist</input>
+                <input axis="x">dHistOff</input>
+            </graph>
+
+            <graph label="Inverse Square Plot" labelX="1/d² (a.u.)" labelY="Ev (lx)">
+                <input axis="y">illumHist</input>
+                <input axis="x">1/d2Hist</input>
+            </graph>
+        </view>
+        <view label="Mouse">
+            <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
+                <input axis="y">y</input>
+                <input axis="x">x</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <append>
+            <input clear="false">x</input>
+            <output>last</output>
+        </append>
+        <integrate>
+            <input>dx</input>
+            <output>tempAll</output>
+        </integrate>
+        <count>
+            <input clear="false">tempAll</input>
+            <output>count</output>
+        </count>
+        <add>
+            <input>tempAll</input>
+            <input>last</input>
+            <output>new</output>
+        </add>
+        <if greater="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input>new</input>
+            <output clear="false">x</output>
+        </if>
+
+        <append>
+            <input clear="false">y</input>
+            <output>last</output>
+        </append>
+        <integrate>
+            <input>dy</input>
+            <output>tempAll</output>
+        </integrate>
+        <multiply>
+            <input clear="false">tempAll</input>
+            <input type="value">-1</input>
+            <output>-tempAll</output>
+        </multiply>
+        <count>
+            <input clear="false">tempAll</input>
+            <output>count</output>
+        </count>
+        <add>
+            <input>-tempAll</input>
+            <input>last</input>
+            <output>new</output>
+        </add>
+        <if greater="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input>new</input>
+            <output clear="false">y</output>
+        </if>
+
+        <multiply>
+            <input clear="false">x</input>
+            <input clear="false">x</input>
+            <output>x2</output>
+        </multiply>
+        <multiply>
+            <input clear="false">y</input>
+            <input clear="false">y</input>
+            <output>y2</output>
+        </multiply>
+        <add>
+            <input clear="false">x2</input>
+            <input clear="false">y2</input>
+            <output>d2</output>
+        </add>
+        <power>
+            <input clear="false" as="base">d2</input>
+            <input type="value" as="exponent">0.5</input>
+            <output>d</output>
+        </power>
+
+        <count>
+            <input clear="false">illum</input>
+            <output>count</output>
+        </count>
+        <if greater="true">
+            <input clear="false">count</input>
+            <input type="value">0</input>
+            <input>illum</input>
+            <output clear="false">illumHist</output>
+        </if>
+        <if greater="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input>d</input>
+            <output clear="false">dHist</output>
+        </if>
+
+        <add>
+            <input clear="false">dHist</input>
+            <input clear="false">offset</input>
+            <output>dHistOff</output>
+        </add>
+
+        <multiply>
+            <input clear="false">dHistOff</input>
+            <input clear="false">dHistOff</input>
+            <output>d2Hist</output>
+        </multiply>
+
+        <divide>
+            <input type="value">1</input>
+            <input clear="false">d2Hist</input>
+            <output>1/d2Hist</output>
+        </divide>
+
+    </analysis>
+</phyphox>
