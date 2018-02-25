@@ -1,0 +1,57 @@
+<phyphox version="1.5">
+    <title>Accelerometer</title>
+    <category>Texas Instruments SensorTag</category>
+    <description>Read the accelerometer</description>
+    <data-containers>
+        <container size="0">accXraw</container>
+        <container size="0">accYraw</container>
+        <container size="0">accZraw</container>
+        <container size="0">accX</container>
+        <container size="0">accY</container>
+        <container size="0">accZ</container>
+        <container size="0">t</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA83-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
+            <config char="F000AA82-0451-4000-B000-000000000000" conversion="hexadecimal">3802</config>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="6" length="2">accXraw</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="8" length="2">accYraw</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="10" length="2">accZraw</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" extra="time">t</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Acceleration X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accX</input>
+            </graph>
+            <graph label="Acceleration Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accY</input>
+            </graph>
+            <graph label="Acceleration Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accZ</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <multiply>
+            <input clear="false">accXraw</input>
+            <input type="value">0.00239502</input> <!-- 9.81 / 32768 * 8 -->
+            <output clear="true">accX</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accYraw</input>
+            <input type="value">0.00239502</input>
+            <output clear="true">accY</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accZraw</input>
+            <input type="value">0.00239502</input>
+            <output clear="true">accZ</output>
+        </multiply>
+    </analysis>
+</phyphox>

@@ -1,0 +1,86 @@
+<phyphox version="1.0">
+    <title>HID Mouse</title>
+    <category>Bluetooth</category>
+    <description>A generic mouse in boot protocol mode.</description>
+    <data-containers>
+        <container size="1">last</container>
+        <container size="0">tempAll</container>
+        <container size="0">-tempAll</container>
+        <container size="0">new</container>
+        <container size="1">count</container>
+        <container size="0">dx</container>
+        <container size="0">dy</container>
+        <container size="0" init="0">x</container>
+        <container size="0" init="0">y</container>
+    </data-containers>
+    <input>
+        <bluetooth uuid="00001812-0000-1000-8000-00805f9b34fb" mode="notification">
+            <config char="00002A4e-0000-1000-8000-00805F9B34FB"  conversion="hexadecimal">00</config>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="firstByte">dx</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="firstByte">dy</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
+                <input axis="y">y</input>
+                <input axis="x">x</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <append>
+            <input clear="false">x</input>
+            <output>last</output>
+        </append>
+        <integrate>
+            <input>dx</input>
+            <output>tempAll</output>
+        </integrate>
+        <count>
+            <input clear="false">tempAll</input>
+            <output>count</output>
+        </count>
+        <add>
+            <input>tempAll</input>
+            <input>last</input>
+            <output>new</output>
+        </add>
+        <if greater="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input>new</input>
+            <output clear="false">x</output>
+        </if>
+
+        <append>
+            <input clear="false">y</input>
+            <output>last</output>
+        </append>
+        <integrate>
+            <input>dy</input>
+            <output>tempAll</output>
+        </integrate>
+        <multiply>
+            <input clear="false">tempAll</input>
+            <input type="value">-1</input>
+            <output>-tempAll</output>
+        </multiply>
+        <count>
+            <input clear="false">tempAll</input>
+            <output>count</output>
+        </count>
+        <add>
+            <input>-tempAll</input>
+            <input>last</input>
+            <output>new</output>
+        </add>
+        <if greater="true">
+            <input>count</input>
+            <input type="value">0</input>
+            <input>new</input>
+            <output clear="false">y</output>
+        </if>
+
+    </analysis>
+</phyphox>
