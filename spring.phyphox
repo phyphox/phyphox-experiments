@@ -34,13 +34,11 @@
             <string original="Autocorrelation">Autokorrelation</string>
             <string original="correlation (a.u.)">Korrelation (a.u.)</string>
             <string original="Raw Data">Rohdaten</string>
-            <string original="Accelerometer X">Beschleunigung X</string>
-            <string original="Accelerometer Y">Beschleunigung Y</string>
-            <string original="Accelerometer Z">Beschleunigung Z</string>
+            <string original="Accelerometer z">Beschleunigung z</string>
             <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
             <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
-        </translation>
+        <string original="Accelerometer x">Beschleunigung x</string><string original="Accelerometer y">Beschleunigung y</string></translation>
     <translation locale="cs"><title>Pružina</title><category>Mechanika</category><description>
         Analyzuje frekvenci a periodu pružinového oscilátoru.
 
@@ -48,14 +46,14 @@ Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypoč
 
 Další detaily:
 Perioda kmitání je získána autokorelací součtu všech složek zrychlení. První maximum autokorelace je použito k prvotnímu odhadu hodnoty a ten je pak zpřesněn pomocí posledního maxima autokorelace.
-    </description><string original="Results">Výsledky</string><string original="Period">Perioda</string><string original="Frequency">Frekvence</string><string original="Resonance">Rezonance</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Rel. amplitude (a.u.)">Reál. Amplituda</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string><string original="Autocorrelation">Autokorelace</string><string original="correlation (a.u.)">Korelace</string><string original="Raw Data">Neupravená data</string><string original="Accelerometer X">Akcelerometr X</string><string original="Accelerometer Y">Akcelerometr Y</string><string original="Accelerometer Z">Akcelerometr Z</string></translation><translation locale="pl"><title>Sprężyna</title><category>Mechanika</category><description>
+    </description><string original="Results">Výsledky</string><string original="Period">Perioda</string><string original="Frequency">Frekvence</string><string original="Resonance">Rezonance</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Rel. amplitude (a.u.)">Reál. Amplituda</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string><string original="Autocorrelation">Autokorelace</string><string original="correlation (a.u.)">Korelace</string><string original="Raw Data">Neupravená data</string><string original="Accelerometer z">Akcelerometr z</string><string original="Accelerometer x">Akcelerometr x</string><string original="Accelerometer y">Akcelerometr y</string></translation><translation locale="pl"><title>Sprężyna</title><category>Mechanika</category><description>
         Przeprowadź analizę częstotliwości drgań oraz okresu ruchu wahadła sprężynowego.
 
         W tym eksperymencie wykorzystywany jest akcelerometr do określania okresu T ruchu drgającego wahadła sprężynowego. Dodatkowo, w zakładce 'Rezonans', wizualizowany jest wykres zależności amplitudy jako funkcji częstotliwości. W ten sposób można zbudować oscylator z siłą wymuszającą i określić krzywą rezonansową układu drgającego.
 
         Dodatkowe informacje:
         Okres drgań jest wyznaczany w oparciu o autokorelacę sumy trzech sładowych przyspieszenia rejestrowanych przez urządzenie. Funkcja autokorelacji jest następnie analizowana i określane jest jej pierwsze maksimum, ostatnie maksimum jest wykorzystywane do poprawy dokładności oszacowania.
-    </description><string original="Results">Rezultaty</string><string original="Period">Okres</string><string original="Frequency">Częstotliwość</string><string original="Resonance">Rezonans</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string><string original="Autocorrelation">Autokorelacja</string><string original="correlation (a.u.)">Korelacja (j.u.)</string><string original="Raw Data">Surowe dane</string><string original="Accelerometer X">Akcelerometr - składowa x</string><string original="Accelerometer Y">Akcelerometr - składowa y</string><string original="Accelerometer Z">Akcelerometr - składowa z</string></translation></translations>
+    </description><string original="Results">Rezultaty</string><string original="Period">Okres</string><string original="Frequency">Częstotliwość</string><string original="Resonance">Rezonans</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string><string original="Autocorrelation">Autokorelacja</string><string original="correlation (a.u.)">Korelacja (j.u.)</string><string original="Raw Data">Surowe dane</string><string original="Accelerometer z">Akcelerometr - składowa z</string><string original="Accelerometer x">Akcelerometr - składowa x</string><string original="Accelerometer y">Akcelerometr - składowa y</string></translation></translations>
     <data-containers>
         <container size="500">accX</container>
         <container size="500">accY</container>
@@ -300,15 +298,15 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
             </value>
         </view>
         <view label="Raw Data">
-            <graph label="Accelerometer X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Accelerometer x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
                 <input axis="x">acc_time</input>
                 <input axis="y">accX</input>
             </graph>
-            <graph label="Accelerometer Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+            <graph label="Accelerometer y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
                 <input axis="x">acc_time</input>
                 <input axis="y">accY</input>
             </graph>
-            <graph label="Accelerometer Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+            <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
                 <input axis="x">acc_time</input>
                 <input axis="y">accZ</input>
             </graph>

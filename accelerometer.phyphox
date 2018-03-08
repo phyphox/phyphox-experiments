@@ -11,14 +11,12 @@
             <category>Sensoren</category>
             <description>Rohdaten des Beschleunigungssensors auslesen. Dieser Sensor entfernt nicht die Gravitationskraft aus den Daten, so dass er eine konstante Beschleunigung von 9.81 m/s² anzeigt, selbst wenn das Smartphone nicht bewegt wird.</description>
             <string original="Simple">Einfach</string>
-            <string original="Accelerometer X">Beschleunigung X</string>
-            <string original="Accelerometer Y">Beschleunigung Y</string>
-            <string original="Accelerometer Z">Beschleunigung Z</string>
+            <string original="Accelerometer z">Beschleunigung z</string>
             <string original="Absolute acceleration">Absolute Beschleunigung</string>
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-        </translation>
-    <translation locale="cs"><title>Akcelerace s g</title><category>Senzory</category><description>Zobrazuje neupravená data z akcelerometru. Tento senzor neodečítá gravitační zrychlení, takže bude neustále hlásit konstantní zrychlení 9.81 m/s², a to i když bude mobil v klidu.</description><string original="Graph">Graf</string><string original="Accelerometer X">Akcelerometr X</string><string original="Accelerometer Y">Akcelerometr Y</string><string original="Accelerometer Z">Akcelerometr Z</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string></translation><translation locale="pl"><title>Przyspieszenie (zawiera g)</title><category>Surowe dane</category><description>Uzyskaj surowe dane z akcelerometru urządzenia. Czujnik nie odejmuje wartości związanych z polem grawitacyjnym stąd wartość 9.81 m/s² jest wskazywana nawet dla nieruchomego urządzenia.</description><string original="Graph">Wykres</string><string original="Accelerometer X">Akcelerometr - składowa x</string><string original="Accelerometer Y">Akcelerometr - składowa y</string><string original="Accelerometer Z">Akcelerometr - składowa z</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string></translation></translations>
+        <string original="Accelerometer x">Beschleunigung x</string><string original="Accelerometer y">Beschleunigung y</string></translation>
+    <translation locale="cs"><title>Akcelerace s g</title><category>Senzory</category><description>Zobrazuje neupravená data z akcelerometru. Tento senzor neodečítá gravitační zrychlení, takže bude neustále hlásit konstantní zrychlení 9.81 m/s², a to i když bude mobil v klidu.</description><string original="Graph">Graf</string><string original="Accelerometer z">Akcelerometr z</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string><string original="Accelerometer x">Akcelerometr x</string><string original="Accelerometer y">Akcelerometr y</string></translation><translation locale="pl"><title>Przyspieszenie (zawiera g)</title><category>Surowe dane</category><description>Uzyskaj surowe dane z akcelerometru urządzenia. Czujnik nie odejmuje wartości związanych z polem grawitacyjnym stąd wartość 9.81 m/s² jest wskazywana nawet dla nieruchomego urządzenia.</description><string original="Graph">Wykres</string><string original="Accelerometer z">Akcelerometr - składowa z</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string><string original="Accelerometer x">Akcelerometr - składowa x</string><string original="Accelerometer y">Akcelerometr - składowa y</string></translation></translations>
     <data-containers>
         <container size="0">accX</container>
         <container size="0">accY</container>
@@ -37,15 +35,15 @@
     </input>
     <views>
         <view label="Graph">
-            <graph label="Accelerometer X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Accelerometer x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
                 <input axis="x">acc_time</input>
                 <input axis="y">accX</input>
             </graph>
-            <graph label="Accelerometer Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+            <graph label="Accelerometer y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
                 <input axis="x">acc_time</input>
                 <input axis="y">accY</input>
             </graph>
-            <graph label="Accelerometer Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+            <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
                 <input axis="x">acc_time</input>
                 <input axis="y">accZ</input>
             </graph>
@@ -60,13 +58,13 @@
             </value>
         </view>
         <view label="Simple">
-            <value label="Accelerometer X" size="2" precision="2" unit="m/s²">
+            <value label="Accelerometer x" size="2" precision="2" unit="m/s²">
                 <input>accX</input>
             </value>
-            <value label="Accelerometer Y" size="2" precision="2" unit="m/s²">
+            <value label="Accelerometer y" size="2" precision="2" unit="m/s²">
                 <input>accY</input>
             </value>
-            <value label="Accelerometer Z" size="2" precision="2" unit="m/s²">
+            <value label="Accelerometer z" size="2" precision="2" unit="m/s²">
                 <input>accZ</input>
             </value>
             <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">

@@ -46,7 +46,7 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
 
         Dodatkowe wskazówki:
         Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
-    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z barometru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr z</string></translation></translations>
+    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z barometru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr - składowa z</string></translation></translations>
     <data-containers>
         <container size="0">pressure</container>
         <container size="0">p_time</container>

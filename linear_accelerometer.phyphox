@@ -11,17 +11,14 @@
             <category>Sensoren</category>
             <description>Rohdaten des Sensors "lineare Beschleunigung" auslesen, welcher der tatsächlichen Beschleunigung ohne den Beitrag der Erdbeschleunigung entspricht. Im Gegensatz zu "Beschleunigung mit g" liefert dieser Sensor 0, wenn das Gerät ruht.</description>
             <string original="Simple">Einfach</string>
-            <string original="Linear Acceleration X">Lineare Beschleunigung X</string>
-            <string original="Linear Acceleration Y">Lineare Beschleunigung Y</string>
-            <string original="Linear Acceleration Z">Lineare Beschleunigung Z</string>
-            <string original="Acceleration X">Beschleunigung X</string>
-            <string original="Acceleration Y">Beschleunigung Y</string>
-            <string original="Acceleration Z">Beschleunigung Z</string>
+            <string original="Acceleration x">Beschleunigung x</string>
+            <string original="Acceleration y">Beschleunigung y</string>
+            <string original="Acceleration z">Beschleunigung z</string>
             <string original="Absolute acceleration">Absolute Beschleunigung</string>
             <string original="Absolute">Betrag</string>
             <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-        </translation>
-    <translation locale="cs"><title>Akcelerace (bez g)</title><category>Senzory</category><description>Zobrazí neupravená data z takzvaného lineárního akcelerometru, který měří zrychlení bez tíhového zrychlení. Na rozdíl od experimentu "Akcelerace s g" tento experiment naměří ve chvíli, kdy je mobil v klidu, hodnotu zrychlení 0.</description><string original="Graph">Graf</string><string original="Linear Acceleration X">Lineární zrychlení X</string><string original="Linear Acceleration Y">Lineární zrychlení Y</string><string original="Linear Acceleration Z">Lineární zrychlení Z</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string><string original="Acceleration X">Zrychlení X</string><string original="Acceleration Y">Zrychlení Y</string><string original="Acceleration Z">Zrychlení Z</string></translation><translation locale="pl"><title>Przyspieszenie (bez g)</title><category>Surowe dane</category><description>Uzyskaj surowe dane z tzw. akcelerometru liniowego, który rejestruje bieżące przyspieszenie urządzenia bez uwzględniania pola grawitacyjnego. W przeciwieństwie do "Przyspieszenia (wraz z g)", czujnik wskazuje wartość 0, gdy spoczywa nieruchomo na powierzchni równoległej do podłoża.</description><string original="Graph">Wykres</string><string original="Linear Acceleration X">Przyspieszenie liniowe x</string><string original="Linear Acceleration Y">Przyspieszenie liniowe y</string><string original="Linear Acceleration Z">Przyspieszenie liniowe z</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string><string original="Acceleration X">Przyspieszenie - składowa x</string><string original="Acceleration Y">Przyspieszenie - składowa y</string><string original="Acceleration Z">Przyspieszenie - składowa z</string></translation></translations>
+        <string original="Linear Acceleration x">Lineare Beschleunigung x</string><string original="Linear Acceleration y">Lineare Beschleunigung y</string><string original="Linear Acceleration z">Lineare Beschleunigung z</string></translation>
+    <translation locale="cs"><title>Akcelerace (bez g)</title><category>Senzory</category><description>Zobrazí neupravená data z takzvaného lineárního akcelerometru, který měří zrychlení bez tíhového zrychlení. Na rozdíl od experimentu "Akcelerace s g" tento experiment naměří ve chvíli, kdy je mobil v klidu, hodnotu zrychlení 0.</description><string original="Graph">Graf</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string><string original="Acceleration x">Zrychlení x</string><string original="Acceleration y">Zrychlení y</string><string original="Acceleration z">Zrychlení z</string><string original="Linear Acceleration x">Lineární zrychlení x</string><string original="Linear Acceleration y">Lineární zrychlení y</string><string original="Linear Acceleration z">Lineární zrychlení z</string></translation><translation locale="pl"><title>Przyspieszenie (bez g)</title><category>Surowe dane</category><description>Uzyskaj surowe dane z tzw. akcelerometru liniowego, który rejestruje bieżące przyspieszenie urządzenia bez uwzględniania pola grawitacyjnego. W przeciwieństwie do "Przyspieszenia (wraz z g)", czujnik wskazuje wartość 0, gdy spoczywa nieruchomo na powierzchni równoległej do podłoża.</description><string original="Graph">Wykres</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string><string original="Acceleration x">Przyspieszenie - składowa x</string><string original="Acceleration y">Przyspieszenie - składowa y</string><string original="Acceleration z">Przyspieszenie - składowa z</string><string original="Linear Acceleration x">Przyspieszenie liniowe x</string><string original="Linear Acceleration y">Przyspieszenie liniowe y</string><string original="Linear Acceleration z">Przyspieszenie liniowe z</string></translation></translations>
     <data-containers>
         <container size="0">acc_time</container>
         <container size="0">accX</container>
@@ -40,15 +37,15 @@
     </input>
     <views>
         <view label="Graph">
-            <graph label="Linear Acceleration X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+            <graph label="Linear Acceleration x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
                 <input axis="x">acc_time</input>
                 <input axis="y">accX</input>
             </graph>
-            <graph label="Linear Acceleration Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+            <graph label="Linear Acceleration y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
                 <input axis="x">acc_time</input>
                 <input axis="y">accY</input>
             </graph>
-            <graph label="Linear Acceleration Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+            <graph label="Linear Acceleration z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
                 <input axis="x">acc_time</input>
                 <input axis="y">accZ</input>
             </graph>
@@ -63,13 +60,13 @@
             </value>
         </view>
         <view label="Simple">
-            <value label="Acceleration X" size="2" precision="2" unit="m/s²">
+            <value label="Acceleration x" size="2" precision="2" unit="m/s²">
                 <input>accX</input>
             </value>
-            <value label="Acceleration Y" size="2" precision="2" unit="m/s²">
+            <value label="Acceleration y" size="2" precision="2" unit="m/s²">
                 <input>accY</input>
             </value>
-            <value label="Acceleration Z" size="2" precision="2" unit="m/s²">
+            <value label="Acceleration z" size="2" precision="2" unit="m/s²">
                 <input>accZ</input>
             </value>
             <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
