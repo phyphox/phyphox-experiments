@@ -7,9 +7,9 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <description>
         Measure times based on the light shining onto your phone.
 
-        In this experiment you can expose your light sensor to a light source measures the time between or the duration of bright or dark states. For example, you could measure the time between two events blocking a light source.
+        In this experiment you can expose your light sensor to a light source to measure the time between or the duration of bright or dark states. For example, you could measure the time between two events blocking a light source.
 
-        Note, that the precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.
+        Note, that the precision depends strongly on the light sensor in your phone. For slow sensors this can easily be more than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements can be achieved using the acoustic stopwatch experiment, which is based on sounds.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Optical_Stopwatch</link>
     <data-containers>
