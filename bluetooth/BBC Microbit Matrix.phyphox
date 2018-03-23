@@ -1,0 +1,149 @@
+<phyphox version="1.5">
+    <title>micro:bit Matrix</title>
+    <category>Bluetooth</category>
+    <description>Control the LED matrix with your accelerometer</description>
+    <data-containers>
+        <container size="1">x</container>
+        <container size="1">y</container>
+        <container size="1">xfac</container>
+        <container size="1">yfac</container>
+        <container size="1">xoff</container>
+        <container size="1">yoff</container>
+        <container size="1">xlimit</container>
+        <container size="1">ylimit</container>
+        <container size="1">xint</container>
+        <container size="1">yint</container>
+        <container size="1">xbin</container>
+        <container size="1">byte1</container>
+        <container size="1">byte2</container>
+        <container size="1">byte3</container>
+        <container size="1">byte4</container>
+        <container size="1">byte5</container>
+        <container size="5">matrix</container>
+    </data-containers>
+    <input>
+        <sensor type="accelerometer" rate="50" average="true">
+            <output component="x">x</output>
+            <output component="y">y</output>
+        </sensor>
+    </input>
+    <output>
+        <bluetooth name="BBC micro:bit">
+            <input char="E95D7B77-251D-470A-A062-FA1922DFA9A8" conversion="byteArray">matrix</input>
+        </bluetooth>
+    </output>
+    <views>
+        <view label="Raw Data">
+            <graph aspectRatio="1" minX="-5" scaleMinX="fixed" maxX="5" scaleMaxX="fixed" minY="-5" scaleMinY="fixed" maxY="5" scaleMaxY="fixed" labelX="x (m/s²)" labelY="y (m/s²)" style="dots" lineWidth="10">
+                <input axis="x">x</input>
+                <input axis="y">y</input>
+            </graph>
+        </view>
+    </views>
+    <analysis sleep="0.02">
+        <multiply>
+            <input clear="false">x</input>
+            <input type="value">0.5</input>
+            <output>xfac</output>
+        </multiply>
+        <multiply>
+            <input clear="false">y</input>
+            <input type="value">0.5</input>
+            <output>yfac</output>
+        </multiply>
+        <round>
+            <input>xfac</input>
+            <output>xint</output>
+        </round>
+        <round>
+            <input>yfac</input>
+            <output>yint</output>
+        </round>
+        <add>
+            <input>xint</input>
+            <input type="value">2</input>
+            <output>xoff</output>
+        </add>
+        <add>
+            <input>yint</input>
+            <input type="value">2</input>
+            <output>yoff</output>
+        </add>
+        <if less="true">
+            <input clear="false">xoff</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <input clear="false">xoff</input>
+            <output>xlimit</output>
+        </if>
+        <if greater="true">
+            <input clear="false">xoff</input>
+            <input type="value">4</input>
+            <input type="value">4</input>
+            <input clear="false">xlimit</input>
+            <output>xlimit</output>
+        </if>
+        <if less="true">
+            <input clear="false">yoff</input>
+            <input type="value">0</input>
+            <input type="value">0</input>
+            <input clear="false">yoff</input>
+            <output>ylimit</output>
+        </if>
+        <if greater="true">
+            <input clear="false">yoff</input>
+            <input type="value">4</input>
+            <input type="value">4</input>
+            <input clear="false">ylimit</input>
+            <output>ylimit</output>
+        </if>
+        <power>
+            <input as="base" type="value">2</input>
+            <input as="exponent">xlimit</input>
+            <output>xbin</output>
+        </power>
+        <if equal="true">
+            <input clear="false">ylimit</input>
+            <input type="value">0</input>
+            <input clear="false">xbin</input>
+            <input type="value">0</input>
+            <output>byte1</output>
+        </if>
+        <if equal="true">
+            <input clear="false">ylimit</input>
+            <input type="value">1</input>
+            <input clear="false">xbin</input>
+            <input type="value">0</input>
+            <output>byte2</output>
+        </if>
+        <if equal="true">
+            <input clear="false">ylimit</input>
+            <input type="value">2</input>
+            <input clear="false">xbin</input>
+            <input type="value">0</input>
+            <output>byte3</output>
+        </if>
+        <if equal="true">
+            <input clear="false">ylimit</input>
+            <input type="value">3</input>
+            <input clear="false">xbin</input>
+            <input type="value">0</input>
+            <output>byte4</output>
+        </if>
+        <if equal="true">
+            <input clear="false">ylimit</input>
+            <input type="value">4</input>
+            <input clear="false">xbin</input>
+            <input type="value">0</input>
+            <output>byte5</output>
+        </if>
+        <append>
+            <input clear="false">byte1</input>
+            <input clear="false">byte2</input>
+            <input clear="false">byte3</input>
+            <input clear="false">byte4</input>
+            <input clear="false">byte5</input>
+            <output>matrix</output>
+        </append>
+    </analysis>
+</phyphox>

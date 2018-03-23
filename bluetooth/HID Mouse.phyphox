@@ -16,8 +16,8 @@
     <input>
         <bluetooth uuid="00001812-0000-1000-8000-00805f9b34fb" mode="notification">
             <config char="00002A4e-0000-1000-8000-00805F9B34FB"  conversion="hexadecimal">00</config>
-            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="firstByte">dx</output>
-            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="firstByte">dy</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="singleByte">dx</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="singleByte">dy</output>
         </bluetooth>
     </input>
     <views>

@@ -1,7 +1,7 @@
 <phyphox version="1.0">
-    <title>HID Mouse: Illuminance vs. distance</title>
+    <title>HID Mouse: B-field vs. distance</title>
     <category>Bluetooth</category>
-    <description>Measure illuminance as a function of the distance tracked by a mouse.</description>
+    <description>Measure magnetic fields as a function of the distance tracked by a mouse.</description>
     <data-containers>
         <container size="1">last</container>
         <container size="0">tempAll</container>
@@ -18,15 +18,16 @@
         <container size="1">d2</container>
         <container size="1">d</container>
 
-        <container size="1">illum</container>
+        <container size="1">Bx</container>
+        <container size="1">By</container>
+        <container size="1">Bz</container>
+        <container size="1">B</container>
 
         <container size="0">dHist</container>
-        <container size="0">illumHist</container>
-
-        <container size="1">offset</container>
-        <container size="0">dHistOff</container>
-        <container size="0">d2Hist</container>
-        <container size="0">1/d2Hist</container>
+        <container size="0">BxHist</container>
+        <container size="0">ByHist</container>
+        <container size="0">BzHist</container>
+        <container size="0">BHist</container>
 
         
     </data-containers>
@@ -36,27 +37,36 @@
             <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="singleByte">dx</output>
             <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="singleByte">dy</output>
         </bluetooth>
-        <sensor type="light">
-            <output component="x">illum</output>
+        <sensor type="magnetic_field">
+            <output component="x">Bx</output>
+            <output component="y">By</output>
+            <output component="z">Bz</output>
+            <output component="abs">B</output>
         </sensor>
     </input>
     <views>
-        <view label="Illuminance">
-            <value label="Distance from start" unit="a.u.">
-                <input>d</input>
-            </value>
-            <edit label="Offset" unit="a.u.">
-                <output>offset</output>
-            </edit>
-            <graph label="Illuminance" labelX="d (a.u.)" labelY="Ev (lx)">
-                <input axis="y">illumHist</input>
-                <input axis="x">dHistOff</input>
+        <view label="B-field">
+            <graph label="Absolute magnetic field" labelX="d (a.u.)" labelY="B (mT)">
+                <input axis="y">BHist</input>
+                <input axis="x">dHist</input>
             </graph>
 
-            <graph label="Inverse Square Plot" labelX="1/d² (a.u.)" labelY="Ev (lx)">
-                <input axis="y">illumHist</input>
-                <input axis="x">1/d2Hist</input>
+        </view>
+        <view label="x/y/z">
+            <graph label="Magnetic field x" labelX="d (a.u.)" labelY="Bx (mT)">
+                <input axis="y">BxHist</input>
+                <input axis="x">dHist</input>
             </graph>
+
+            <graph label="Magnetic field y" labelX="d (a.u.)" labelY="By (mT)">
+                <input axis="y">ByHist</input>
+                <input axis="x">dHist</input>
+            </graph>
+            <graph label="Magnetic field z" labelX="d (a.u.)" labelY="Bz (mT)">
+                <input axis="y">BzHist</input>
+                <input axis="x">dHist</input>
+            </graph>
+
         </view>
         <view label="Mouse">
             <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
@@ -141,14 +151,32 @@
         </power>
 
         <count>
-            <input clear="false">illum</input>
+            <input clear="false">B</input>
             <output>count</output>
         </count>
         <if greater="true">
             <input clear="false">count</input>
             <input type="value">0</input>
-            <input>illum</input>
-            <output clear="false">illumHist</output>
+            <input>B</input>
+            <output clear="false">BHist</output>
+        </if>
+        <if greater="true">
+            <input clear="false">count</input>
+            <input type="value">0</input>
+            <input>Bx</input>
+            <output clear="false">BxHist</output>
+        </if>
+        <if greater="true">
+            <input clear="false">count</input>
+            <input type="value">0</input>
+            <input>By</input>
+            <output clear="false">ByHist</output>
+        </if>
+        <if greater="true">
+            <input clear="false">count</input>
+            <input type="value">0</input>
+            <input>Bz</input>
+            <output clear="false">BzHist</output>
         </if>
         <if greater="true">
             <input>count</input>
@@ -157,23 +185,6 @@
             <output clear="false">dHist</output>
         </if>
 
-        <add>
-            <input clear="false">dHist</input>
-            <input clear="false">offset</input>
-            <output>dHistOff</output>
-        </add>
-
-        <multiply>
-            <input clear="false">dHistOff</input>
-            <input clear="false">dHistOff</input>
-            <output>d2Hist</output>
-        </multiply>
-
-        <divide>
-            <input type="value">1</input>
-            <input clear="false">d2Hist</input>
-            <output>1/d2Hist</output>
-        </divide>
 
     </analysis>
 </phyphox>

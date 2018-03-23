@@ -1,0 +1,51 @@
+<phyphox version="1.5">
+    <title>micro:bit Counter</title>
+    <category>Bluetooth</category>
+    <description>Count taps and display them on the LED matrix</description>
+    <data-containers>
+        <container size="0">acc_abs</container>
+        <container size="1">max</container>
+        <container size="1" init="0">count</container>
+        <container size="1">count+1</container>
+        <container size="1">char</container>
+    </data-containers>
+    <input>
+        <sensor type="linear_acceleration">
+            <output component="abs">acc_abs</output>
+        </sensor>
+    </input>
+    <output>
+        <bluetooth name="BBC micro:bit">
+            <input char="E95D93EE-251D-470A-A062-FA1922DFA9A8" conversion="singleByte">char</input>
+        </bluetooth>
+    </output>
+    <views>
+        <view label="Raw Data">
+            <value label="Count" size="3" precision="0">
+                <input>count</input>
+            </value>
+        </view>
+    </views>
+    <analysis sleep="2">
+        <max>
+            <input as="y">acc_abs</input>
+            <output as="max">max</output>
+        </max>
+        <add>
+            <input clear="false">count</input>
+            <input type="value">1</input>
+            <output>count+1</output>
+        </add>
+        <if greater="true">
+            <input>max</input>
+            <input type="value">1</input>
+            <input clear="false">count+1</input>
+            <output>count</output>
+        </if>
+        <add>
+            <input clear="false">count</input>
+            <input type="value">48</input>
+            <output>char</output>
+        </add>
+    </analysis>
+</phyphox>
