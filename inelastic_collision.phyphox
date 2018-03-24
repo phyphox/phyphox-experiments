@@ -14,6 +14,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
         So, start the experiment and let a ball bounce of a surface in a way that it generates a clearly hearable noise. You might want to change the threshold in the settings (in the range 0 to 1), so that the experiment reacts to the noise level of the ball but not to the background noise. Also, if you struggle with echoes, you might want to change the minimum delay as well to set the minimum interval the experiment will ignore before reacting to the next noise.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Inelastic_Collision</link>
+    <link label="Video" highlight="true">https://youtu.be/ikvtPDwV1FE</link>
     <translations>
         <translation locale="de">
             <title>(In)elastischer Stoß</title>
@@ -27,6 +28,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
                 Starte also das Experiment und lasse einen Ball so springen, dass er ein deutlich hörbares Geräusch erzeugt. Eventuell solltest du auf der Einstellungs-Seite die Schwelle (im Bereich von 0 bis 1) anpassen, so dass das Experiment auf die Geräusche des Balls, nicht aber auf die Geräusche der Umgebung reagiert. Ebenso kannst du die Mindestverzögerung einstellen, wenn du Probleme mit Echos hast, so dass das Experiment wartet, bevor es auf ein neues Geräusch reagiert.
     </description>
+            <link label="Video" highlight="true">https://youtu.be/sqCEo4tj3e4</link>
             <string original="Threshold">Schwelle</string>
             <string original="Minimum Delay">Mindestverzögerung</string>
             <string original="Heights">Höhen</string>
