@@ -46,7 +46,14 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
 
         Dodatkowe wskazówki:
         Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
-    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z barometru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr - składowa z</string></translation></translations>
+    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z barometru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr - składowa z</string></translation><translation locale="nl"><title>Lift</title><category>Leven van elke dag</category><description>
+        Bepaal de snelheid van een lift met behulp van de drukmeter.
+
+    Snelle hoogteveranderingen kunnen zeer nauwkeurig worden gemeten met behulp van de drukmeter - zelfs als GPS niet werkt. Dit kan worden gebruikt om de verticale snelheid van een lift af te leiden. De versnelling wordt gemeten met behulp van de versnellingsmeter met z-component, dus voor een nauwkeurige meting van de versnelling moet de smartphone plat op de vloer van de lift liggen.
+
+ Meer details:
+         Om een deel van de ruis in dit experiment te elimineren, worden de waarden van de drukmeter uitgemiddeld over 1 s. Het verschil van opeenvolgende gemiddelden wordt omgezet in een hoogteverschil met behulp van de internationale barometrische hoogteformule. Het hoogteverschil gedeeld door het tijdsverschil geeft de verticale snelheid.
+    </description><string original="Motion">Beweging</string><string original="Height (from barometer)">Hoogte (van drukmeter)</string><string original="Vertical velocity (from height)">Verticale snelheid (uit hoogte)</string><string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string><string original="Raw Data">Onbewerkte data</string><string original="Pressure">Druk</string></translation></translations>
     <data-containers>
         <container size="0">pressure</container>
         <container size="0">p_time</container>

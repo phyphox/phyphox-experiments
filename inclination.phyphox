@@ -38,7 +38,13 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         To narzędzie wykorzystuje akcelerometr do określenia nachylenia urządzenia względem poziomu. Jeśli urządzenie spoczywa na powierzchni równoległej do podłoża nachylenie wynosi zero. Dla innych położeń nachylenie jest wskazywane jako część obrotu.
 
         Należy zaznaczyć, że kąta nachylenia został zdefiniowany (szczególnie dla eksperymentu z nachyloną powierzchnią) niezależnie od kąta obrotu (wokół osi z) urządzenia.
-    </description><string original="Inclination">Nachylenie</string><string original="Angle (°)">Kąt (°)</string><string original="Rotation">Obrót</string></translation></translations>
+    </description><string original="Inclination">Nachylenie</string><string original="Angle (°)">Kąt (°)</string><string original="Rotation">Obrót</string></translation><translation locale="nl"><title>Helling</title><category>Gereedschap</category><description>
+        Meet de hellingshoek van je smartphone.
+
+   Deze tool gebruikt de versnellingsmeter om de helling van de smartphone te bepalen. Wanneer de smartphone op een tafel ligt, is de helling nul. Voor een niet-nul helling wordt de richting van de helling gegeven als een rotatie.
+
+ Merk op dat de definitie van de hoeken is gekozen voor het meten van een helling (in het bijzonder voor experimenten met schuine vlakken), onafhankelijk van de rotatie (rond de z-as) van de smartphone.
+    </description><string original="Inclination">Helling</string><string original="Angle (°)">Hoek (°)</string><string original="Rotation">Rotatie</string></translation></translations>
     <data-containers>
         <container size="1">accX</container>
         <container size="1">accX2</container>

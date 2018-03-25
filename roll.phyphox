@@ -31,7 +31,11 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
         Umieść swój smartfon w toczącym się przedmiocie i wyznacz wartość jego prędkości.
 
         Umieść telefon (tablet) w papierowej rolce lub puszce, by mógł się toczyć (obracać wokół najdłuższej krawędzi). W tym eksperymencie dokonywany jest pomiar wartości prędkości kątowej z wykorzystaniem żyroskopu urządzenia. Przy znanym promieniu rolki możliwe jest także wyznaczenie wartości prędkości liniowej toczącego się przedmiotu.
-    </description><string original="Velocity">Prędkość</string><string original="Roll radius">Promień rolki</string><string original="Raw Data">Surowe dane</string><string original="w (rad/s)">ω (rad/s)</string><string original="Gyroscope y">Żyroskop - składowa y</string></translation></translations>
+    </description><string original="Velocity">Prędkość</string><string original="Roll radius">Promień rolki</string><string original="Raw Data">Surowe dane</string><string original="w (rad/s)">ω (rad/s)</string><string original="Gyroscope y">Żyroskop - składowa y</string></translation><translation locale="nl"><title>Rolbeweging</title><category>Mechanica</category><description>
+        Plaats uw telefoon in een kartonnen rol en bepaal de snelheid ervan.
+
+         Plaats uw telefoon in een kartonnen rol, die u van een hellend vlak laat rollen. Met de straal van de rol en de met de gyroscoopsensor gemeten hoeksnelheid kan de snelheid berekend worden waarmee de rol beweegt.
+    </description><string original="Velocity">Snelheid</string><string original="Roll radius">Straal van de rol</string><string original="Raw Data">Onbewerkte data</string><string original="Gyroscope y">Gyroscoop y</string></translation></translations>
     <data-containers>
         <container size="500">gyrY</container>
         <container size="500">gyr_time</container>

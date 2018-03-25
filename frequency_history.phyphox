@@ -31,7 +31,11 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
         Zarejestruj zmiany częstotliwości w czasie dla tonu.
 
         W tym eksperymencie badany jest dźwięk rejestrowany przez mikrofon urządzenia w bardzo krótkich przedziałach czasu. Procedura wykorzystuje autokorelację i pozwala uzyskać satyfkacjonujące wyniki jedynie w przypadku analizy pojedyńczych tonów. Wyniki są wizualizowane na wykresie częstotliwości w funkcji czasu.
-    </description><string original="History">Historia</string><string original="Frequency">Częstotliwość</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Period">Okres</string><string original="Period (s)">Okres (s)</string></translation></translations>
+    </description><string original="History">Historia</string><string original="Frequency">Częstotliwość</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Period">Okres</string><string original="Period (s)">Okres (s)</string></translation><translation locale="nl"><title>Frequentiegeschiedenis</title><category>Geluid</category><description>
+        Meet de frequentieverandering voor een bepaalde toonhoogte in de tijd.
+
+         Dit experiment neemt geluid op via de microfoon en analyseert de frequentie ervan gedurende korte tijdsintervallen. Dit werkt alleen bij één bepaalde toonhoogte (met vaste frequentie) omdat autocorrelatie gebruikt wordt. Het resultaat is een grafiek van de  frequentie in functie van de tijd.
+    </description><string original="History">Geschiedenis</string><string original="Frequency">Frequentie</string><string original="Frequency (Hz)">Frequentie (Hz)</string><string original="Period">Periode</string><string original="Period (s)">Periode (s)</string></translation></translations>
     <data-containers>
         <container size="480">recording</container>
         <container>rate</container>

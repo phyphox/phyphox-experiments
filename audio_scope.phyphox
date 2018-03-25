@@ -31,7 +31,11 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
         Prezentuj zarejestrowane przebiegi akustyczne.
 
         W eksperymencie rejestrowane są fragmenty nagrań dźwiękowych, które następnie są wizualizowane w postaci akustycznych przebiegów czasowych. Aby uzyskać stabilny obraz przebiegu przejście przez zerową wartość amplitudy zostało wybrane do wyzwalania rejestracji danych oraz t=0 zostało przypisane do pierwszego przejścia (w kierunku wartości dodatnich).
-    </description><string original="Scope">Oscylogram</string><string original="Audio Data">Dane audio</string><string original="Time (ms)">Czas (ms)</string><string original="Amplitude (a.u.)">Amplituda (j.u.)</string><string original="Duration">Przedziały</string></translation></translations>
+    </description><string original="Scope">Oscylogram</string><string original="Audio Data">Dane audio</string><string original="Time (ms)">Czas (ms)</string><string original="Amplitude (a.u.)">Amplituda (j.u.)</string><string original="Duration">Przedziały</string></translation><translation locale="nl"><title>Audio scope</title><category>Geluid</category><description>
+        Toon opgenomen audio data.
+
+         Dit experiment registreert slechts korte periodes van audio data en geeft deze weer. Voor een stabiel beeld wordt een nuldoorgang als trigger gebruikt en wordt t = 0 naar het eerste (positieve) snijpunt verplaatst.
+    </description><string original="Time (ms)">Tijd (ms)</string><string original="Duration">Duurtijd</string></translation></translations>
     <data-containers>
         <container size="26400">recording</container>
         <container>rate</container>

@@ -45,7 +45,13 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
         W tym eksperymencie wyznaczana jest całkowita wartość prędkości kątowej ω uzyskiwana z żyroskopu oraz całkowita wartość przyspieszenia a rejestrowana przez akcelerometr urządzenia. Wizualizacja zależności a od ω pozwala zobrazować równanie a = r·ω², a w konsekwencji zależności ω² od a ilustruje linia prosta.
 
         Pomiary należy przeprowadzić dla różnych wartości prędkości kątowej przy stałym promieniu okręgu, po którym porusza się badane ciało. W tym celu można wykorzystać obrotową suszarkę do sałaty bądź niewielką karuzelę (np. tarczę gramofonu).
-    </description><string original="Relation">Zależności</string><string original="Acceleration">Przyspieszenie</string><string original="Angular velocity ω (rad/s)">Prędkość kątowa ω (rad/s)</string><string original="Acceleration a (m/s²)">Przyspieszenie a (m/s²)</string><string original="Square plot">Zależność kwadratowa</string><string original="Time">Czas</string><string original="Angular velocity">Prędkość kątowa</string></translation></translations>
+    </description><string original="Relation">Zależności</string><string original="Acceleration">Przyspieszenie</string><string original="Angular velocity ω (rad/s)">Prędkość kątowa ω (rad/s)</string><string original="Acceleration a (m/s²)">Przyspieszenie a (m/s²)</string><string original="Square plot">Zależność kwadratowa</string><string original="Time">Czas</string><string original="Angular velocity">Prędkość kątowa</string></translation><translation locale="nl"><title>Centripetale versnelling</title><category>Mechanica</category><description>
+        Visualiseert de centripetale versnelling als een functie van de hoeksnelheid.
+
+        Dit experiment berekent de absolute waarde van de hoeksnelheid ω van de gyroscoop, evenals de absolute versnelling a via de accelerometer (versnellingsmeter). Door a tegenover ω uit te zetten, kan het verband a = r · ω² eenvoudig worden aangetoond, vooral wanneer de grafiek een rechte lijn is.
+
+        Om dit te zien, moet u meten met verschillende hoeksnelheden, maar met een contante straal. Een slacentrifuge of een (speelgoed) draaimolen werkt geweldig.
+    </description><string original="Relation">Verhouding</string><string original="Acceleration">Versnelling</string><string original="Angular velocity ω (rad/s)">Hoeksnelheid ω (rad/s)</string><string original="Acceleration a (m/s²)">Versnelling a (m/s²)</string><string original="Square plot">Plot tegenover ω²</string><string original="Time">Tijd</string><string original="Angular velocity">Hoeksnelheid</string></translation></translations>
     <data-containers>
         <container size="1">acc_result</container>
         <container size="1">acc_time</container>
