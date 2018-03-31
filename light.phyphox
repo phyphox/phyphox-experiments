@@ -24,7 +24,7 @@
                 Poznámka: Na některých zařízeních světelný senzor obnovuje údaje, pouze když dojde k výrazné změně osvětlení.
             </string></translation><translation locale="pl"><title>Światło</title><category>Surowe dane</category><description>Uzyskaj surowe dane z czujnika światła.</description><string original="Graph">Wykres</string><string original="Illuminance">Natężenie oświetlenia</string><string original="Info">
                 Komentarz: W niektórych urządzeniach status czujnika światła jest zapisywany jedynie w przypadku znacznych zmian natężenia światła padającego na czujnik.
-            </string><string original="Simple">Próbka</string></translation><translation locale="nl"><title>Licht</title><category>Onbewerkte sensoren</category><description>Verkrijg onbewerkte data van de lichtsensor</description><string original="Graph">Grafiek</string><string original="Illuminance">Verlichting</string><string original="Ev (lx)">E (lx)</string><string original="Info">
+            </string><string original="Simple">Próbka</string></translation><translation locale="nl"><title>Licht</title><category>Onbewerkte sensoren</category><description>Verkrijg onbewerkte data van de lichtsensor.</description><string original="Graph">Grafiek</string><string original="Illuminance">Verlichting</string><string original="Ev (lx)">E (lx)</string><string original="Info">
                 Opmerking: op sommige smartphones wordt de lichtsensor alleen bijgewerkt als de verlichtingssterkte sterk verandert.
             </string><string original="Simple">Eenvoudig</string></translation></translations>
     <data-containers>
