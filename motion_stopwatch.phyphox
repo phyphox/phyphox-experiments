@@ -9,7 +9,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         This experiment allows to measure the time between two accelerations (like small shocks). You might want to adjust the threshold, giving the level at which the stop watch is triggered.
 
-        After starting the experiment, the clock will start on the first (total) acceleration exceeding the threshold and will be stopped on the second acceleration. To repeat the experiment, clear the data and start again. Make sure that the first acceleration signal is short as a long vibration might be immediately detected as a stop.
+        After starting the experiment, the clock will start on the first (total) acceleration exceeding the threshold and will be stopped on the second acceleration. Make sure that the first acceleration signal is short as a long vibration might be immediately detected as a stop.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Motion_Stopwatch</link>
     <data-containers>
@@ -56,7 +56,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
                 Dieses Experiment ermöglicht es dir, die Zeit zwischen zwei Beschleunigungen (wie einer leichten Erschütterung) zu messen. Hierzu muss die Schwelle so eingestellt werden, bei welcher die Stoppuhr auslöst.
 
-                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit der ersten (absoluten) Beschleunigung, die die Schwelle überschreitet und wird mit der zweiten Beschleunigung beendet. Um das Experiment zu wiederholen, lösche die Daten und starte erneut. Achte darauf, dass die Startbeschleunigung kurz ist, da eine lange Vibration direkt auch als Stopp interpretiert werden könnte.
+                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit der ersten (absoluten) Beschleunigung, die die Schwelle überschreitet und wird mit der zweiten Beschleunigung beendet. Achte darauf, dass die Startbeschleunigung kurz ist, da eine lange Vibration direkt auch als Stopp interpretiert werden könnte.
     </description>
             <string original="Simple">Einfach</string>
             <string original="Sequence">Sequenz</string>

@@ -8,7 +8,7 @@
 
         Note that the behaviour may depend on the implementation on your smartphone. Android devices do not provide vertical accuracy information while iOS devices do not provide the number of satellites. Also, on iOS there may be data from other sources mixed into the data from satellite navigation.
 
-        Speed and velocity are typically given by the device ans are based on two or more consecutive position fixes.
+        Speed and direction are typically given by the device and are based on two or more consecutive position fixes.
     </description>
     <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Location_(GPS)</link>
     <translations>
