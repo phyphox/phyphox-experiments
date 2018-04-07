@@ -1,86 +1,134 @@
 <phyphox version="1.4" locale="en">
-    <title>Acceleration (without g)</title>
-    <category>Raw Sensors</category>
-    <icon format="base64">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</icon>
-    <description>Get raw data from the so called linear accelerometer, which gives the actual acceleration without the gravitational acceleration. In contrast to "acceleration with g", this sensor reports 0 when the device is resting.</description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Acceleration_(without_g)</link>
-    <link label="x / y / z">http://phyphox.org/sensors/</link>
-    <translations>
-        <translation locale="de">
-            <title>Beschleunigung (ohne g)</title>
-            <category>Sensoren</category>
-            <description>Rohdaten des Sensors "lineare Beschleunigung" auslesen, welcher der tatsächlichen Beschleunigung ohne den Beitrag der Erdbeschleunigung entspricht. Im Gegensatz zu "Beschleunigung mit g" liefert dieser Sensor 0, wenn das Gerät ruht.</description>
-            <string original="Simple">Einfach</string>
-            <string original="Acceleration x">Beschleunigung x</string>
-            <string original="Acceleration y">Beschleunigung y</string>
-            <string original="Acceleration z">Beschleunigung z</string>
-            <string original="Absolute acceleration">Absolute Beschleunigung</string>
-            <string original="Absolute">Betrag</string>
-            <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-        <string original="Linear Acceleration x">Lineare Beschleunigung x</string><string original="Linear Acceleration y">Lineare Beschleunigung y</string><string original="Linear Acceleration z">Lineare Beschleunigung z</string></translation>
-    <translation locale="cs"><title>Akcelerace (bez g)</title><category>Senzory</category><description>Zobrazí neupravená data z takzvaného lineárního akcelerometru, který měří zrychlení bez tíhového zrychlení. Na rozdíl od experimentu "Akcelerace s g" tento experiment naměří ve chvíli, kdy je mobil v klidu, hodnotu zrychlení 0.</description><string original="Graph">Graf</string><string original="Absolute">Celkové</string><string original="Absolute acceleration">Celkové zrychlení</string><string original="Simple">Stručně</string><string original="Acceleration x">Zrychlení x</string><string original="Acceleration y">Zrychlení y</string><string original="Acceleration z">Zrychlení z</string><string original="Linear Acceleration x">Lineární zrychlení x</string><string original="Linear Acceleration y">Lineární zrychlení y</string><string original="Linear Acceleration z">Lineární zrychlení z</string></translation><translation locale="pl"><title>Przyspieszenie (bez g)</title><category>Surowe dane</category><description>Uzyskaj surowe dane z tzw. akcelerometru liniowego, który rejestruje bieżące przyspieszenie urządzenia bez uwzględniania pola grawitacyjnego. W przeciwieństwie do "Przyspieszenia (wraz z g)", czujnik wskazuje wartość 0, gdy spoczywa nieruchomo na powierzchni równoległej do podłoża.</description><string original="Graph">Wykres</string><string original="Absolute">Całkowite</string><string original="Absolute acceleration">Przyspieszenie wypadkowe</string><string original="Simple">Próbka</string><string original="Acceleration x">Przyspieszenie - składowa x</string><string original="Acceleration y">Przyspieszenie - składowa y</string><string original="Acceleration z">Przyspieszenie - składowa z</string><string original="Linear Acceleration x">Przyspieszenie liniowe x</string><string original="Linear Acceleration y">Przyspieszenie liniowe y</string><string original="Linear Acceleration z">Przyspieszenie liniowe z</string></translation><translation locale="nl"><title>Versnelling (zonder g)</title><category>Onbewerkte sensoren</category><description>Verkrijg ruwe gegevens van de zogenaamde lineaire accelerometer (versnellingsmeter), die de feitelijke versnelling geeft zonder de zwaarteversnelling. In tegenstelling tot "versnelling met g" geeft deze sensor 0 weer wanneer de smartphone in rust is.</description><string original="Graph">Grafiek</string><string original="Linear Acceleration x">Lineaire versnelling x</string><string original="Linear Acceleration y">Lineaire versnelling y</string><string original="Linear Acceleration z">Lineaire versnelling z</string><string original="Absolute">Absoluut</string><string original="Absolute acceleration">Absolute versnelling</string><string original="Simple">Eenvoudig</string><string original="Acceleration x">Versnelling x</string><string original="Acceleration y">Versnelling y</string><string original="Acceleration z">Versnelling z</string></translation></translations>
-    <data-containers>
-        <container size="0">acc_time</container>
-        <container size="0">accX</container>
-        <container size="0">accY</container>
-        <container size="0">accZ</container>
-        <container size="0">acc</container>
-    </data-containers>
-    <input>
-        <sensor type="linear_acceleration">
-            <output component="x">accX</output>
-            <output component="y">accY</output>
-            <output component="z">accZ</output>
-            <output component="t">acc_time</output>
-            <output component="abs">acc</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Graph">
-            <graph label="Linear Acceleration x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
-                <input axis="x">acc_time</input>
-                <input axis="y">accX</input>
-            </graph>
-            <graph label="Linear Acceleration y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
-                <input axis="x">acc_time</input>
-                <input axis="y">accY</input>
-            </graph>
-            <graph label="Linear Acceleration z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
-                <input axis="x">acc_time</input>
-                <input axis="y">accZ</input>
-            </graph>
-        </view>
-        <view label="Absolute">
-            <graph label="Absolute acceleration" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
-                <input axis="x">acc_time</input>
-                <input axis="y">acc</input>
-            </graph>
-            <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
-                <input>acc</input>
-            </value>
-        </view>
-        <view label="Simple">
-            <value label="Acceleration x" size="2" precision="2" unit="m/s²">
-                <input>accX</input>
-            </value>
-            <value label="Acceleration y" size="2" precision="2" unit="m/s²">
-                <input>accY</input>
-            </value>
-            <value label="Acceleration z" size="2" precision="2" unit="m/s²">
-                <input>accZ</input>
-            </value>
-            <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
-                <input>acc</input>
-            </value>
-        </view>
-    </views>
-    <export>
-        <set name="Raw Data">
-            <data name="Time (s)">acc_time</data>
-            <data name="Linear Acceleration x (m/s^2)">accX</data>
-            <data name="Linear Acceleration y (m/s^2)">accY</data>
-            <data name="Linear Acceleration z (m/s^2)">accZ</data>
-            <data name="Absolute acceleration (m/s^2)">acc</data>
-        </set>
-    </export>
+  <title>Acceleration (without g)</title>
+  <category>Raw Sensors</category>
+  <icon format="base64">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</icon>
+  <description>Get raw data from the so called linear accelerometer, which gives the actual acceleration without the gravitational acceleration. In contrast to "acceleration with g", this sensor reports 0 when the device is resting.</description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Acceleration_(without_g)</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <translations>
+    <translation locale="de">
+      <title>Beschleunigung (ohne g)</title>
+      <category>Sensoren</category>
+      <description>Rohdaten des Sensors "lineare Beschleunigung" auslesen, welcher der tatsächlichen Beschleunigung ohne den Beitrag der Erdbeschleunigung entspricht. Im Gegensatz zu "Beschleunigung mit g" liefert dieser Sensor 0, wenn das Gerät ruht.</description>
+      <string original="Simple">Einfach</string>
+      <string original="Acceleration x">Beschleunigung x</string>
+      <string original="Acceleration y">Beschleunigung y</string>
+      <string original="Acceleration z">Beschleunigung z</string>
+      <string original="Absolute acceleration">Absolute Beschleunigung</string>
+      <string original="Absolute">Betrag</string>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <string original="Linear Acceleration x">Lineare Beschleunigung x</string>
+      <string original="Linear Acceleration y">Lineare Beschleunigung y</string>
+      <string original="Linear Acceleration z">Lineare Beschleunigung z</string>
+    </translation>
+    <translation locale="cs">
+      <title>Akcelerace (bez g)</title>
+      <category>Senzory</category>
+      <description>Zobrazí neupravená data z takzvaného lineárního akcelerometru, který měří zrychlení bez tíhového zrychlení. Na rozdíl od experimentu "Akcelerace s g" tento experiment naměří ve chvíli, kdy je mobil v klidu, hodnotu zrychlení 0.</description>
+      <string original="Graph">Graf</string>
+      <string original="Absolute">Celkové</string>
+      <string original="Absolute acceleration">Celkové zrychlení</string>
+      <string original="Simple">Stručně</string>
+      <string original="Acceleration x">Zrychlení x</string>
+      <string original="Acceleration y">Zrychlení y</string>
+      <string original="Acceleration z">Zrychlení z</string>
+      <string original="Linear Acceleration x">Lineární zrychlení x</string>
+      <string original="Linear Acceleration y">Lineární zrychlení y</string>
+      <string original="Linear Acceleration z">Lineární zrychlení z</string>
+    </translation>
+    <translation locale="pl">
+      <title>Przyspieszenie (bez g)</title>
+      <category>Surowe dane</category>
+      <description>Uzyskaj surowe dane z tzw. akcelerometru liniowego, który rejestruje bieżące przyspieszenie urządzenia bez uwzględniania pola grawitacyjnego. W przeciwieństwie do "Przyspieszenia (wraz z g)", czujnik wskazuje wartość 0, gdy spoczywa nieruchomo na powierzchni równoległej do podłoża.</description>
+      <string original="Graph">Wykres</string>
+      <string original="Absolute">Całkowite</string>
+      <string original="Absolute acceleration">Przyspieszenie wypadkowe</string>
+      <string original="Simple">Próbka</string>
+      <string original="Acceleration x">Przyspieszenie - składowa x</string>
+      <string original="Acceleration y">Przyspieszenie - składowa y</string>
+      <string original="Acceleration z">Przyspieszenie - składowa z</string>
+      <string original="Linear Acceleration x">Przyspieszenie liniowe x</string>
+      <string original="Linear Acceleration y">Przyspieszenie liniowe y</string>
+      <string original="Linear Acceleration z">Przyspieszenie liniowe z</string>
+    </translation>
+    <translation locale="nl">
+      <title>Versnelling (zonder g)</title>
+      <category>Onbewerkte sensoren</category>
+      <description>Verkrijg ruwe gegevens van de zogenaamde lineaire accelerometer (versnellingsmeter), die de feitelijke versnelling geeft zonder de zwaarteversnelling. In tegenstelling tot "versnelling met g" geeft deze sensor 0 weer wanneer de smartphone in rust is.</description>
+      <string original="Graph">Grafiek</string>
+      <string original="Linear Acceleration x">Lineaire versnelling x</string>
+      <string original="Linear Acceleration y">Lineaire versnelling y</string>
+      <string original="Linear Acceleration z">Lineaire versnelling z</string>
+      <string original="Absolute">Absoluut</string>
+      <string original="Absolute acceleration">Absolute versnelling</string>
+      <string original="Simple">Eenvoudig</string>
+      <string original="Acceleration x">Versnelling x</string>
+      <string original="Acceleration y">Versnelling y</string>
+      <string original="Acceleration z">Versnelling z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">acc_time</container>
+    <container size="0">accX</container>
+    <container size="0">accY</container>
+    <container size="0">accZ</container>
+    <container size="0">acc</container>
+  </data-containers>
+  <input>
+    <sensor type="linear_acceleration">
+      <output component="x">accX</output>
+      <output component="y">accY</output>
+      <output component="z">accZ</output>
+      <output component="t">acc_time</output>
+      <output component="abs">acc</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Graph">
+      <graph label="Linear Acceleration x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+        <input axis="x">acc_time</input>
+        <input axis="y">accX</input>
+      </graph>
+      <graph label="Linear Acceleration y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+        <input axis="x">acc_time</input>
+        <input axis="y">accY</input>
+      </graph>
+      <graph label="Linear Acceleration z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+        <input axis="x">acc_time</input>
+        <input axis="y">accZ</input>
+      </graph>
+    </view>
+    <view label="Absolute">
+      <graph label="Absolute acceleration" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+        <input axis="x">acc_time</input>
+        <input axis="y">acc</input>
+      </graph>
+      <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
+        <input>acc</input>
+      </value>
+    </view>
+    <view label="Simple">
+      <value label="Acceleration x" size="2" precision="2" unit="m/s²">
+        <input>accX</input>
+      </value>
+      <value label="Acceleration y" size="2" precision="2" unit="m/s²">
+        <input>accY</input>
+      </value>
+      <value label="Acceleration z" size="2" precision="2" unit="m/s²">
+        <input>accZ</input>
+      </value>
+      <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
+        <input>acc</input>
+      </value>
+    </view>
+  </views>
+  <export>
+    <set name="Raw Data">
+      <data name="Time (s)">acc_time</data>
+      <data name="Linear Acceleration x (m/s^2)">accX</data>
+      <data name="Linear Acceleration y (m/s^2)">accY</data>
+      <data name="Linear Acceleration z (m/s^2)">accZ</data>
+      <data name="Absolute acceleration (m/s^2)">acc</data>
+    </set>
+  </export>
 </phyphox>

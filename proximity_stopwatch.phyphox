@@ -1,1157 +1,1137 @@
 <phyphox version="1.4" locale="en">
-    <title>Proximity Stopwatch</title>
-    <category>Timers</category>
-    <icon format="base64">
+  <title>Proximity Stopwatch</title>
+  <category>Timers</category>
+  <icon format="base64">
 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
     </icon>
-    <description>
+  <description>
         Measure times based on the proximity sensor.
 
         In this experiment you bring an object close to your proximity sensor (usually located at the front next to the speaker used for phone calls) and measure the times when the object is close to or far away from your phone.
 
         Note, that the precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Proximity_Stopwatch</link>
-    <data-containers>
-        <container>threshold_low</container>
-        <container>threshold_high</container>
-        <container size="0">amplitude</container>
-        <container size="0">t</container>
-        <container size="0">traw</container>
-        <container init="0">t0</container>
-        <container size="0">search_a</container>
-        <container size="0">search_t</container>
-        <container size="0">trigger_t</container>
-        <container>trigger_last</container>
-        <container init="0">on0</container>
-        <container init="0">on1</container>
-        <container init="0">on2</container>
-        <container init="0">on3</container>
-        <container init="0">on4</container>
-        <container init="0">on5</container>
-        <container init="0">off0</container>
-        <container init="0">off1</container>
-        <container init="0">off2</container>
-        <container init="0">off3</container>
-        <container init="0">off4</container>
-        <container init="0">off5</container>
-        <container>don0</container>
-        <container>don1</container>
-        <container>don2</container>
-        <container>don3</container>
-        <container>don4</container>
-        <container>don5</container>
-        <container>dt01</container>
-        <container>dt02</container>
-        <container>dt03</container>
-        <container>dt04</container>
-        <container>dt05</container>
-        <container>dt12</container>
-        <container>dt23</container>
-        <container>dt34</container>
-        <container>dt45</container>
-        <container init="1">reset</container>
-    </data-containers>
-    <translations>
-        <translation locale="de">
-            <title>Näherungs-Stoppuhr</title>
-            <category>Zeitmessung</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Proximity_Stopwatch</link>
+  <data-containers>
+    <container>threshold_low</container>
+    <container>threshold_high</container>
+    <container size="0">amplitude</container>
+    <container size="0">t</container>
+    <container size="0">traw</container>
+    <container init="0">t0</container>
+    <container size="0">search_a</container>
+    <container size="0">search_t</container>
+    <container size="0">trigger_t</container>
+    <container>trigger_last</container>
+    <container init="0">on0</container>
+    <container init="0">on1</container>
+    <container init="0">on2</container>
+    <container init="0">on3</container>
+    <container init="0">on4</container>
+    <container init="0">on5</container>
+    <container init="0">off0</container>
+    <container init="0">off1</container>
+    <container init="0">off2</container>
+    <container init="0">off3</container>
+    <container init="0">off4</container>
+    <container init="0">off5</container>
+    <container>don0</container>
+    <container>don1</container>
+    <container>don2</container>
+    <container>don3</container>
+    <container>don4</container>
+    <container>don5</container>
+    <container>dt01</container>
+    <container>dt02</container>
+    <container>dt03</container>
+    <container>dt04</container>
+    <container>dt05</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container init="1">reset</container>
+  </data-containers>
+  <translations>
+    <translation locale="de">
+      <title>Näherungs-Stoppuhr</title>
+      <category>Zeitmessung</category>
+      <description>
         Miss Zeiten mittels des Näherungssensors.
 
                 In diesem Experiment kannst du ein Objekt nahe an den Näherungssensor bringen und die Zeit messen, in welcher das Objekt nah am Smartphone oder weit entfernt ist. Der Näherungssensor befindet sich in der Regel auf der Vorderseite des Smartphones in der Nähe des zum Telefonieren benutzen Lautsprechers.
 
                 Beachte, dass die Genauigkeit der Zeitmessung vom Näherungssensor in deinem Smartphone abhängt. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich.
     </description>
-            <string original="Settings">Einstellungen</string>
-            <string original="Sequence">Sequenz</string>
-            <string original="Duration">Dauer</string>
-            <string original="Triggers">Auslöser</string>
-            <string original="Trigger above">Auslösen über</string>
-            <string original="Trigger below">Auslösen unter</string>
-            <string original="Distance">Entfernung</string>
-            <string original="Time 1">Zeit 1</string>
-            <string original="Time 2">Zeit 2</string>
-            <string original="Time 3">Zeit 3</string>
-            <string original="Time 4">Zeit 4</string>
-            <string original="Time 5">Zeit 5</string>
-            <string original="Trigger duration 0">Auslösedauer 0</string>
-            <string original="Trigger duration 1">Auslösedauer 1</string>
-            <string original="Trigger duration 2">Auslösedauer 2</string>
-            <string original="Trigger duration 3">Auslösedauer 3</string>
-            <string original="Trigger duration 4">Auslösedauer 4</string>
-            <string original="Trigger duration 5">Auslösedauer 5</string>
-            <string original="Trigger on 0">Auslöser an 0</string>
-            <string original="Trigger off 0">Auslöser aus 0</string>
-            <string original="Trigger on 1">Auslöser an 1</string>
-            <string original="Trigger off 1">Auslöser aus 1</string>
-            <string original="Trigger on 2">Auslöser an 2</string>
-            <string original="Trigger off 2">Auslöser aus 2</string>
-            <string original="Trigger on 3">Auslöser an 3</string>
-            <string original="Trigger off 3">Auslöser aus 3</string>
-            <string original="Trigger on 4">Auslöser an 4</string>
-            <string original="Trigger off 4">Auslöser aus 4</string>
-            <string original="Trigger on 5">Auslöser an 5</string>
-            <string original="Trigger off 5">Auslöser aus 5</string>
-            <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf weite Entfernungen reagieren möchtest, setzte den Wert "Auslösen unter" auf Null. Wenn du nur auf nahe Entfernungen reagieren möchtest, setze "Auslösen über" auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen. Die meisten Sensoren können nur zwei Entfernungen messen, oft 0 cm und etwa 5 cm.</string>
-            <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Die Genauigkeit der Zeitmessung hängt vom Näherungssensor in deinem Smartphone ab. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich. Auf iPhones funktioniert der Sensor nur in Portrait-Ausrichtung (also wenn man das iPhone aufrecht hält) und schaltet den Bildschirm aus, solange er ausgelöst ist.</string></translation>
-    <translation locale="cs"><title>Stopky pomocí přiblížení</title><category>Měření času</category><description>
+      <string original="Settings">Einstellungen</string>
+      <string original="Sequence">Sequenz</string>
+      <string original="Duration">Dauer</string>
+      <string original="Triggers">Auslöser</string>
+      <string original="Trigger above">Auslösen über</string>
+      <string original="Trigger below">Auslösen unter</string>
+      <string original="Distance">Entfernung</string>
+      <string original="Time 1">Zeit 1</string>
+      <string original="Time 2">Zeit 2</string>
+      <string original="Time 3">Zeit 3</string>
+      <string original="Time 4">Zeit 4</string>
+      <string original="Time 5">Zeit 5</string>
+      <string original="Trigger duration 0">Auslösedauer 0</string>
+      <string original="Trigger duration 1">Auslösedauer 1</string>
+      <string original="Trigger duration 2">Auslösedauer 2</string>
+      <string original="Trigger duration 3">Auslösedauer 3</string>
+      <string original="Trigger duration 4">Auslösedauer 4</string>
+      <string original="Trigger duration 5">Auslösedauer 5</string>
+      <string original="Trigger on 0">Auslöser an 0</string>
+      <string original="Trigger off 0">Auslöser aus 0</string>
+      <string original="Trigger on 1">Auslöser an 1</string>
+      <string original="Trigger off 1">Auslöser aus 1</string>
+      <string original="Trigger on 2">Auslöser an 2</string>
+      <string original="Trigger off 2">Auslöser aus 2</string>
+      <string original="Trigger on 3">Auslöser an 3</string>
+      <string original="Trigger off 3">Auslöser aus 3</string>
+      <string original="Trigger on 4">Auslöser an 4</string>
+      <string original="Trigger off 4">Auslöser aus 4</string>
+      <string original="Trigger on 5">Auslöser an 5</string>
+      <string original="Trigger off 5">Auslöser aus 5</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf weite Entfernungen reagieren möchtest, setzte den Wert "Auslösen unter" auf Null. Wenn du nur auf nahe Entfernungen reagieren möchtest, setze "Auslösen über" auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen. Die meisten Sensoren können nur zwei Entfernungen messen, oft 0 cm und etwa 5 cm.</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Die Genauigkeit der Zeitmessung hängt vom Näherungssensor in deinem Smartphone ab. Bei langsamen Sensoren kann dies schlechter als eine Sekunde sein, während auch schnelle Sensoren selten besser sind als eine Zehntelsekunde. Schnellere Messungen, aber mittels Geräuschen, sind mit dem Experiment Akustische Stoppuhr möglich. Auf iPhones funktioniert der Sensor nur in Portrait-Ausrichtung (also wenn man das iPhone aufrecht hält) und schaltet den Bildschirm aus, solange er ausgelöst ist.</string>
+    </translation>
+    <translation locale="cs">
+      <title>Stopky pomocí přiblížení</title>
+      <category>Měření času</category>
+      <description>
         Měří čas na základě signálu ze senzoru přiblížení.
 
 V tomto experimentu přiblížíte předmět blízko k senzoru přiblížení (většinou je umístěn na mobilu vepředu, hned vedle reproduktoru pro hovory) a měříte kdy byl blízko či daleko k telefonu.
 
 Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě senzoru přiblížení ve vašem mobilu. Pomalé senzory mohou být pomalejší než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky".
-    </description><string original="Settings">Nastavení</string><string original="Trigger below">Spustit pod</string><string original="Trigger above">Spustit nad</string><string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stopky se spouštějí při hodnotách pod i nad stanovenou mezí. Chcete-li, aby se spouštěly jen při velkých vzdálenostech, pak nastavte hodnotu "Spustit pod" na nulu. Chcete-li, aby se spouštěly jen při malých vzdálenostech, pak nastavte hodnotu "Spustit nad" hodně vysoko. Správné hodnoty prahů můžete odhadnout pomocí následujícího grafu. Většina senzorů měří jen dvě různé vzdálenosti. Většinou to je 0 cm a 5 cm.</string><string original="Distance">Vzdálenost</string><string original="Sequence">Sekvence</string><string original="Time 1">Čas 1</string><string original="Time 2">Čas 2</string><string original="Time 3">Čas 3</string><string original="Time 4">Čas 4</string><string original="Time 5">Čas 5</string><string original="Parallel">Paralelně</string><string original="Duration">Trvání</string><string original="Trigger duration 0">Trvání spouště 0</string><string original="Trigger duration 1">Trvání spouště 1</string><string original="Trigger duration 2">Trvání spouště 2</string><string original="Trigger duration 3">Trvání spouště 3</string><string original="Trigger duration 4">Trvání spouště 4</string><string original="Trigger duration 5">Trvání spouště 5</string><string original="Triggers">Spouště</string><string original="Trigger on 0">Zapnutí spouště 0</string><string original="Trigger off 0">Vypnutí spouště 0</string><string original="Trigger on 1">Zapnutí spouště 1</string><string original="Trigger off 1">Vypnutí spouště 1</string><string original="Trigger on 2">Zapnutí spouště 2</string><string original="Trigger off 2">Vypnutí spouště 2</string><string original="Trigger on 3">Zapnutí spouště 3</string><string original="Trigger off 3">Vypnutí spouště 3</string><string original="Trigger on 4">Zapnutí spouště 4</string><string original="Trigger off 4">Vypnutí spouště 4</string><string original="Trigger on 5">Zapnutí spouště 5</string><string original="Trigger off 5">Vypnutí spouště 5</string><string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě světelného senzoru ve vašem zařízení. Pomalé senzory mohou mít pomalejší odezvu než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky". V iPhonech tento senzor funguje pouze v režimu "portrét" (tedy když držíte mobil svisle) a když je spuštěn, vypíná obrazovku.</string></translation><translation locale="pl"><title>Stoper zbliżeniowy</title><category>Czasomierze</category><description>
+    </description>
+      <string original="Settings">Nastavení</string>
+      <string original="Trigger below">Spustit pod</string>
+      <string original="Trigger above">Spustit nad</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stopky se spouštějí při hodnotách pod i nad stanovenou mezí. Chcete-li, aby se spouštěly jen při velkých vzdálenostech, pak nastavte hodnotu "Spustit pod" na nulu. Chcete-li, aby se spouštěly jen při malých vzdálenostech, pak nastavte hodnotu "Spustit nad" hodně vysoko. Správné hodnoty prahů můžete odhadnout pomocí následujícího grafu. Většina senzorů měří jen dvě různé vzdálenosti. Většinou to je 0 cm a 5 cm.</string>
+      <string original="Distance">Vzdálenost</string>
+      <string original="Sequence">Sekvence</string>
+      <string original="Time 1">Čas 1</string>
+      <string original="Time 2">Čas 2</string>
+      <string original="Time 3">Čas 3</string>
+      <string original="Time 4">Čas 4</string>
+      <string original="Time 5">Čas 5</string>
+      <string original="Parallel">Paralelně</string>
+      <string original="Duration">Trvání</string>
+      <string original="Trigger duration 0">Trvání spouště 0</string>
+      <string original="Trigger duration 1">Trvání spouště 1</string>
+      <string original="Trigger duration 2">Trvání spouště 2</string>
+      <string original="Trigger duration 3">Trvání spouště 3</string>
+      <string original="Trigger duration 4">Trvání spouště 4</string>
+      <string original="Trigger duration 5">Trvání spouště 5</string>
+      <string original="Triggers">Spouště</string>
+      <string original="Trigger on 0">Zapnutí spouště 0</string>
+      <string original="Trigger off 0">Vypnutí spouště 0</string>
+      <string original="Trigger on 1">Zapnutí spouště 1</string>
+      <string original="Trigger off 1">Vypnutí spouště 1</string>
+      <string original="Trigger on 2">Zapnutí spouště 2</string>
+      <string original="Trigger off 2">Vypnutí spouště 2</string>
+      <string original="Trigger on 3">Zapnutí spouště 3</string>
+      <string original="Trigger off 3">Vypnutí spouště 3</string>
+      <string original="Trigger on 4">Zapnutí spouště 4</string>
+      <string original="Trigger off 4">Vypnutí spouště 4</string>
+      <string original="Trigger on 5">Zapnutí spouště 5</string>
+      <string original="Trigger off 5">Vypnutí spouště 5</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě světelného senzoru ve vašem zařízení. Pomalé senzory mohou mít pomalejší odezvu než jedna sekunda a nejrychlejší většinou nereagují rychleji než za desetinu sekundy. Rychlejší a přesnější měření, ovšem založené na zvuku, je možné provést pomocí experimentu "Akustické stopky". V iPhonech tento senzor funguje pouze v režimu "portrét" (tedy když držíte mobil svisle) a když je spuštěn, vypíná obrazovku.</string>
+    </translation>
+    <translation locale="pl">
+      <title>Stoper zbliżeniowy</title>
+      <category>Czasomierze</category>
+      <description>
         Mierz czas z wykorzystaniem czujnika zbliżeniowego.
 
         W tym eksperymencie umieszcza się przedmiot w pobliżu czujnika zbliżeniowego urządzenia (zazwyczaj zlokalizowanego obok głośnika smartfonu) i dokonuje pomiaru czasu przebywania przedmiotu tuż obok czujnika lub w znacznej odległości od niego.
 
         Należy zaznaczyć, że dokładność pomiaru silnie zależy od parametrów czujnika zbliżeniowego urządzenia. Dla czujników pracujących z niską częstotliwością niepewność pomiaru czasu bywa większa niż sekunda, a dla szybkich czujników nie przekracza dziesiatych części sekundy. Pomiary charakteryzujące się większą dokładnością, ale wykorzystujące dźwięk, można przeprowadzić korzystając z eksperymentu ze stoperem akustycznym.
-    </description><string original="Settings">Ustawienia</string><string original="Trigger below">Wyzwól poniżej</string><string original="Trigger above">Wyzwól powyżej</string><string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stoper jest wyzwalany w przypadku, gdy odległość jest mniejsza od minimalnej bądź większa od maksymalną wprowadzonej przez użytkownika wartości. Jeśli wyzwalanie ma odbywać się jedynie powyżej zadanej wartości, drugą z nich należy ustawić jako zero. Odpowiedni zakres można dobrać korzystając z danym zamieszczonych na poniższym wykresie (należy rozpocząć rejestrację). Większość czujników zbliżeniowych dokonuje zazwyczaj pomiaru dwóch dystansów 0 cm oraz około 5 cm.</string><string original="Distance">Dystans</string><string original="Sequence">Międzyczasy</string><string original="Time 1">Czas 1</string><string original="Time 2">Czas 2</string><string original="Time 3">Czas 3</string><string original="Time 4">Czas 4</string><string original="Time 5">Czas 5</string><string original="Reset">Wyczyść</string><string original="Parallel">Śródczasy</string><string original="Duration">Przedziały</string><string original="Trigger duration 0">Czas wyzwalania 0</string><string original="Trigger duration 1">Czas przedziału 1</string><string original="Trigger duration 2">Czas przedziału 2</string><string original="Trigger duration 3">Czas przedziału 3</string><string original="Trigger duration 4">Czas przedziału 4</string><string original="Trigger duration 5">Czas przedziału 5</string><string original="Triggers">Wyzwalania</string><string original="Trigger on 0">Wyzwolenie wł. 0</string><string original="Trigger off 0">Wyzwolenie wył. 0</string><string original="Trigger on 1">Wyzwolenie wł. 1</string><string original="Trigger off 1">Wyzwolenie wył. 1</string><string original="Trigger on 2">Wyzwolenie wł. 2</string><string original="Trigger off 2">Wyzwolenie wył. 2</string><string original="Trigger on 3">Wyzwolenie wł. 3</string><string original="Trigger off 3">Wyzwolenie wył. 3</string><string original="Trigger on 4">Wyzwolenie wł. 4</string><string original="Trigger off 4">Wyzwolenie wył. 4</string><string original="Trigger on 5">Wyzwolenie wł. 5</string><string original="Trigger off 5">Wyzwolenie wył. 5</string><string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Niepewność pomiaru silnie zależy od rodzaju czujnika światła znajdującego się w urządzeniu. Dla czujników pracujących z niską częstotliwością może być ona większa niż sekunda, a dla szybszych czujników nie przekracza dziesiątych części sekundy. Dokładniejsze pomiary można przeprowadzić wykorzystując dźwięk oraz eksperyment ze stoperem akustycznym. Czujnik zbliżeniowy w telefonach iPhones pracuje wyłącznie w trybie portretu (tzn. gdy telefon jest trzymany pionowo) i wyłącza ekran podczas wyzwalania.</string></translation><translation locale="nl"><title>Nabijheidschronometer</title><category>Chronometers</category><description>
+    </description>
+      <string original="Settings">Ustawienia</string>
+      <string original="Trigger below">Wyzwól poniżej</string>
+      <string original="Trigger above">Wyzwól powyżej</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stoper jest wyzwalany w przypadku, gdy odległość jest mniejsza od minimalnej bądź większa od maksymalną wprowadzonej przez użytkownika wartości. Jeśli wyzwalanie ma odbywać się jedynie powyżej zadanej wartości, drugą z nich należy ustawić jako zero. Odpowiedni zakres można dobrać korzystając z danym zamieszczonych na poniższym wykresie (należy rozpocząć rejestrację). Większość czujników zbliżeniowych dokonuje zazwyczaj pomiaru dwóch dystansów 0 cm oraz około 5 cm.</string>
+      <string original="Distance">Dystans</string>
+      <string original="Sequence">Międzyczasy</string>
+      <string original="Time 1">Czas 1</string>
+      <string original="Time 2">Czas 2</string>
+      <string original="Time 3">Czas 3</string>
+      <string original="Time 4">Czas 4</string>
+      <string original="Time 5">Czas 5</string>
+      <string original="Reset">Wyczyść</string>
+      <string original="Parallel">Śródczasy</string>
+      <string original="Duration">Przedziały</string>
+      <string original="Trigger duration 0">Czas wyzwalania 0</string>
+      <string original="Trigger duration 1">Czas przedziału 1</string>
+      <string original="Trigger duration 2">Czas przedziału 2</string>
+      <string original="Trigger duration 3">Czas przedziału 3</string>
+      <string original="Trigger duration 4">Czas przedziału 4</string>
+      <string original="Trigger duration 5">Czas przedziału 5</string>
+      <string original="Triggers">Wyzwalania</string>
+      <string original="Trigger on 0">Wyzwolenie wł. 0</string>
+      <string original="Trigger off 0">Wyzwolenie wył. 0</string>
+      <string original="Trigger on 1">Wyzwolenie wł. 1</string>
+      <string original="Trigger off 1">Wyzwolenie wył. 1</string>
+      <string original="Trigger on 2">Wyzwolenie wł. 2</string>
+      <string original="Trigger off 2">Wyzwolenie wył. 2</string>
+      <string original="Trigger on 3">Wyzwolenie wł. 3</string>
+      <string original="Trigger off 3">Wyzwolenie wył. 3</string>
+      <string original="Trigger on 4">Wyzwolenie wł. 4</string>
+      <string original="Trigger off 4">Wyzwolenie wył. 4</string>
+      <string original="Trigger on 5">Wyzwolenie wł. 5</string>
+      <string original="Trigger off 5">Wyzwolenie wył. 5</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Niepewność pomiaru silnie zależy od rodzaju czujnika światła znajdującego się w urządzeniu. Dla czujników pracujących z niską częstotliwością może być ona większa niż sekunda, a dla szybszych czujników nie przekracza dziesiątych części sekundy. Dokładniejsze pomiary można przeprowadzić wykorzystując dźwięk oraz eksperyment ze stoperem akustycznym. Czujnik zbliżeniowy w telefonach iPhones pracuje wyłącznie w trybie portretu (tzn. gdy telefon jest trzymany pionowo) i wyłącza ekran podczas wyzwalania.</string>
+    </translation>
+    <translation locale="nl">
+      <title>Nabijheidschronometer</title>
+      <category>Timers</category>
+      <description>
         Meet tijden met behulp van de nabijheidssensor.
 
         In dit experiment brengen we een voorwerp in de buurt van de nabijheidssensor (meestal aan de voorkant naast de luidspreker voor telefoongesprekken) en registreer je de tijden wanneer het voorwerp zich dichtbij of ver van je telefoon bevindt.
 
-        Merk op dat de precisie sterk afhankelijk is van de nabijheidssensor in uw telefoon. Voor langzame sensoren kan dit gemakkelijk meer zijn dan een seconde, terwijl snelle sensoren meestal niet sneller reageren dan een tiende van een seconde. Snellere metingen  kunnen gerealiseerd worden met behulp van het akoestische chronometer-experiment (dit is dan op basis van geluid).
-    </description><string original="Settings">Instellingen</string><string original="Trigger below">Start onder</string><string original="Trigger above">Start boven</string><string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">De timer triggert zowel boven als onder een bepaalde grenswaarde. Als u alleen op verre afstanden wilt triggeren, stelt u de waarde voor "trigger onder" in op nul. Als u alleen op korte afstanden wilt triggeren, stelt u de waarde "trigger boven" hoog in. U kunt een geschikte drempelwaarde voor uw andere trigger uit onderstaande grafiek halen. De meeste sensoren meten slechts twee afstanden, meestal 0 cm en ongeveer 5 cm.</string><string original="Distance">Afstand</string><string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">De precisie hangt sterk af van de nabijheidssensor in uw telefoon. Voor langzame sensoren kan dit gemakkelijk meer zijn dan een seconde, terwijl snelle sensoren meestal niet sneller zijn dan een tiende van een seconde. Snellere metingen  kunnen gerealiseerd worden met behulp van het akoestische chronometer-experiment (dit is dan op basis van geluid).
-Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon rechtop wordt gehouden) en schakelt het scherm uit wanneer deze wordt geactiveerd.</string><string original="Sequence">Opeenvolgend</string><string original="Time 1">Tijdstip 1</string><string original="Time 2">Tijdstip 2</string><string original="Time 3">Tijdstip 3</string><string original="Time 4">Tijdstip 4</string><string original="Time 5">Tijdstip 5</string><string original="Duration">Duurtijd</string><string original="Trigger duration 0">Duurtijd trigger 0</string><string original="Trigger duration 1">Duurtijd trigger 1</string><string original="Trigger duration 2">Duurtijd trigger 2</string><string original="Trigger duration 3">Duurtijd trigger 3</string><string original="Trigger duration 4">Duurtijd trigger 4</string><string original="Trigger duration 5">Duurtijd trigger 5</string><string original="Trigger on 0">Trigger aan 0</string><string original="Trigger off 0">Trigger uit 0</string><string original="Trigger on 1">Trigger aan 1</string><string original="Trigger off 1">Trigger uit 1</string><string original="Trigger on 2">Trigger aan 2</string><string original="Trigger off 2">Trigger uit 2</string><string original="Trigger on 3">Trigger aan 3</string><string original="Trigger off 3">Trigger uit 3</string><string original="Trigger on 4">Trigger aan 4</string><string original="Trigger off 4">Trigger uit 4</string><string original="Trigger on 5">Trigger aan 5</string><string original="Trigger off 5">Trigger uit 5</string></translation></translations>
-    <input>
-        <sensor type="proximity">
-            <output component="t">traw</output>
-            <output component="x">amplitude</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Settings">
-            <edit label="Trigger below" unit="cm" default="3" signed="false" min="0">
-                <output>threshold_low</output>
-            </edit>
-            <edit label="Trigger above" unit="cm" default="100" signed="false" min="0">
-                <output>threshold_high</output>
-            </edit>
-            <separator height="1"/>
-            <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm."/>
-            <separator height="1"/>
-            <graph label="Distance" labelX="t (s)" labelY="d (cm)" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">amplitude</input>
-            </graph>
-            <separator height="1"/>
-            <info label="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered."/>
-        </view>
-        <view label="Sequence">
-            <value label="Time 1" size="3" precision="2" unit="s">
-                <input>dt01</input>
-            </value>
-            <value label="Time 2" size="3" precision="2" unit="s">
-                <input>dt12</input>
-            </value>
-            <value label="Time 3" size="3" precision="2" unit="s">
-                <input>dt23</input>
-            </value>
-            <value label="Time 4" size="3" precision="2" unit="s">
-                <input>dt34</input>
-            </value>
-            <value label="Time 5" size="3" precision="2" unit="s">
-                <input>dt45</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">1</input>
-                <output>reset</output>
-            </button>
-        </view>
-        <view label="Parallel">
-            <value label="Time 1" size="3" precision="2" unit="s">
-                <input>dt01</input>
-            </value>
-            <value label="Time 2" size="3" precision="2" unit="s">
-                <input>dt02</input>
-            </value>
-            <value label="Time 3" size="3" precision="2" unit="s">
-                <input>dt03</input>
-            </value>
-            <value label="Time 4" size="3" precision="2" unit="s">
-                <input>dt04</input>
-            </value>
-            <value label="Time 5" size="3" precision="2" unit="s">
-                <input>dt05</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">1</input>
-                <output>reset</output>
-            </button>
-        </view>
-        <view label="Duration">
-            <value label="Trigger duration 0" size="3" precision="2" unit="s">
-                <input>don0</input>
-            </value>
-            <value label="Trigger duration 1" size="3" precision="2" unit="s">
-                <input>don1</input>
-            </value>
-            <value label="Trigger duration 2" size="3" precision="2" unit="s">
-                <input>don2</input>
-            </value>
-            <value label="Trigger duration 3" size="3" precision="2" unit="s">
-                <input>don3</input>
-            </value>
-            <value label="Trigger duration 4" size="3" precision="2" unit="s">
-                <input>don4</input>
-            </value>
-            <value label="Trigger duration 5" size="3" precision="2" unit="s">
-                <input>don5</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">1</input>
-                <output>reset</output>
-            </button>
-        </view>
-        <view label="Triggers">
-            <value label="Trigger on 0" size="1" precision="2" unit="s">
-                <input>on0</input>
-            </value>
-            <value label="Trigger off 0" size="1" precision="2" unit="s">
-                <input>off0</input>
-            </value>
-            <separator height="1"/>
-            <value label="Trigger on 1" size="1" precision="2" unit="s">
-                <input>on1</input>
-            </value>
-            <value label="Trigger off 1" size="1" precision="2" unit="s">
-                <input>off1</input>
-            </value>
-            <separator height="1"/>
-            <value label="Trigger on 2" size="1" precision="2" unit="s">
-                <input>on2</input>
-            </value>
-            <value label="Trigger off 2" size="1" precision="2" unit="s">
-                <input>off2</input>
-            </value>
-            <separator height="1"/>
-            <value label="Trigger on 3" size="1" precision="2" unit="s">
-                <input>on3</input>
-            </value>
-            <value label="Trigger off 3" size="1" precision="2" unit="s">
-                <input>off3</input>
-            </value>
-            <separator height="1"/>
-            <value label="Trigger on 4" size="1" precision="2" unit="s">
-                <input>on4</input>
-            </value>
-            <value label="Trigger off 4" size="1" precision="2" unit="s">
-                <input>off4</input>
-            </value>
-            <separator height="1"/>
-            <value label="Trigger on 5" size="1" precision="2" unit="s">
-                <input>on5</input>
-            </value>
-            <value label="Trigger off 5" size="1" precision="2" unit="s">
-                <input>off5</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">1</input>
-                <output>reset</output>
-            </button>
-        </view>
-    </views>
-    <analysis>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input clear="false">traw</input>
-            <output clear="false">t0</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>amplitude</output>
-        </if>
-
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>traw</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on0</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off0</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on1</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off1</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on2</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off2</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on3</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off3</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on4</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off4</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>on5</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <output>off5</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don0</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don1</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don2</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don3</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don4</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don5</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt01</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt12</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt23</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt34</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt45</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt02</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt03</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt04</output>
-        </if>
-
-        <if greater="true">
-            <input clear="false">reset</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt05</output>
-        </if>
-
-        <append>
-            <input type="value">0</input>
-            <output>reset</output>
-        </append>
-
-        <append>
-            <input type="value">0</input>
-            <output>trigger_last</output>
-        </append>
-
-        <subtract>
-            <input clear="false">traw</input>
-            <input clear="false">t0</input>
-            <output>t</output>
-        </subtract>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min" type="value">0.001</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on0</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on0</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on0</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off0</output>
-        </first>
-
-        <if greater="true">
-            <input clear="false">off0</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">off0</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on1</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on1</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on1</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off1</output>
-        </first>
-
-        <!-- 2 -->
-
-        <if greater="true">
-            <input clear="false">off1</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">off1</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on2</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on2</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on2</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off2</output>
-        </first>
-
-        <!-- 3 -->
-
-        <if greater="true">
-            <input clear="false">off2</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">off2</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on3</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on3</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on3</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off3</output>
-        </first>
-
-        <!-- 4 -->
-
-        <if greater="true">
-            <input clear="false">off3</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">off3</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on4</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on4</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on4</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off4</output>
-        </first>
-
-        <!-- 5 -->
-
-        <if greater="true">
-            <input clear="false">off4</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">off4</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input clear="false">search_t</input>
-            <input clear="false">search_a</input>
-            <input as="max" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="min" clear="false">threshold_high</input>
-            <output clear="false">trigger_t</output>
-        </rangefilter>
-
-        <min>
-            <input as="y">trigger_t</input>
-            <output as="min">on5</output>
-        </min>
-
-        <if greater="true">
-            <input clear="false">on5</input>
-            <input clear="false">trigger_last</input>
-            <input clear="false">on5</input>
-            <input clear="false">t</input>
-            <output>trigger_last</output>
-        </if>
-
-        <add>
-            <input clear="false">trigger_last</input>
-            <input type="value">0.001</input>
-            <output>trigger_t</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">t</input>
-            <input as="min">trigger_t</input>
-            <input clear="false">amplitude</input>
-            <output>search_t</output>
-            <output>search_a</output>
-        </rangefilter>
-
-        <rangefilter>
-            <input>search_t</input>
-            <input>search_a</input>
-            <input as="max" clear="false">threshold_high</input>
-            <input as="min" clear="false">threshold_low</input>
-            <output>trigger_t</output>
-        </rangefilter>
-
-        <first>
-            <input>trigger_t</input>
-            <output>off5</output>
-        </first>
-
-        <!-- Collect results -->
-
-        <subtract>
-            <input clear="false">on1</input>
-            <input clear="false">on0</input>
-            <output>dt01</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on2</input>
-            <input clear="false">on0</input>
-            <output>dt02</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on3</input>
-            <input clear="false">on0</input>
-            <output>dt03</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on4</input>
-            <input clear="false">on0</input>
-            <output>dt04</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on5</input>
-            <input clear="false">on0</input>
-            <output>dt05</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on2</input>
-            <input clear="false">on1</input>
-            <output>dt12</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on3</input>
-            <input clear="false">on2</input>
-            <output>dt23</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on4</input>
-            <input clear="false">on3</input>
-            <output>dt34</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">on5</input>
-            <input clear="false">on4</input>
-            <output>dt45</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off0</input>
-            <input clear="false">on0</input>
-            <output>don0</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off1</input>
-            <input clear="false">on1</input>
-            <output>don1</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off2</input>
-            <input clear="false">on2</input>
-            <output>don2</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off3</input>
-            <input clear="false">on3</input>
-            <output>don3</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off4</input>
-            <input clear="false">on4</input>
-            <output>don4</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">off5</input>
-            <input clear="false">on5</input>
-            <output>don5</output>
-        </subtract>
-
-        <if less="true" equal="true">
-            <input clear="false">dt01</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt01</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt02</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt02</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt03</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt03</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt04</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt04</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt05</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt05</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt12</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt12</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt23</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt23</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt34</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt34</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">dt45</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>dt45</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don0</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don0</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don1</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don1</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don2</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don2</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don3</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don3</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don4</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don4</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">don5</input>
-            <input type="value">0</input>
-            <input type="empty"/>
-            <output>don5</output>
-        </if>
-
-    </analysis>
-    <export>
-        <set name="Raw">
-            <data name="t (s)">t</data>
-            <data name="Illuminance (lx)">amplitude</data>
-        </set>
-        <set name="Timing">
-            <data name="On 0 (s)">on0</data>
-            <data name="Off 0 (s)">off0</data>
-            <data name="On 1 (s)">on1</data>
-            <data name="Off 1 (s)">off1</data>
-            <data name="On 2 (s)">on2</data>
-            <data name="Off 2 (s)">off2</data>
-            <data name="On 3 (s)">on3</data>
-            <data name="Off 3 (s)">off3</data>
-            <data name="On 4 (s)">on4</data>
-            <data name="Off 4 (s)">off4</data>
-            <data name="On 5 (s)">on5</data>
-            <data name="Off 5 (s)">off5</data>
-        </set>
-    </export>
+        Merk op dat de precisie sterk afhankelijk is van de nabijheidssensor in je smartphone. Voor langzame sensoren kan dit gemakkelijk meer zijn dan een seconde, terwijl snelle sensoren meestal niet sneller reageren dan een tiende van een seconde. Snellere metingen  kunnen gerealiseerd worden met behulp van het akoestische chronometer-experiment (dit is dan op basis van geluid).
+    </description>
+      <string original="Settings">Instellingen</string>
+      <string original="Trigger below">Start onder</string>
+      <string original="Trigger above">Start boven</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">De timer triggert zowel boven als onder een bepaalde grenswaarde. Als u alleen op verre afstanden wilt triggeren, stelt u de waarde voor "trigger onder" in op nul. Als u alleen op korte afstanden wilt triggeren, stelt u de waarde "trigger boven" hoog in. U kunt een geschikte drempelwaarde voor uw andere trigger uit onderstaande grafiek halen. De meeste sensoren meten slechts twee afstanden, meestal 0 cm en ongeveer 5 cm.</string>
+      <string original="Distance">Afstand</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">De precisie hangt sterk af van de nabijheidssensor in uw telefoon. Voor langzame sensoren kan dit gemakkelijk meer zijn dan een seconde, terwijl snelle sensoren meestal niet sneller zijn dan een tiende van een seconde. Snellere metingen  kunnen gerealiseerd worden met behulp van het akoestische chronometer-experiment (dit is dan op basis van geluid).
+Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon rechtop wordt gehouden) en schakelt het scherm uit wanneer deze wordt geactiveerd.</string>
+      <string original="Sequence">Opeenvolgend</string>
+      <string original="Time 1">Tijdstip 1</string>
+      <string original="Time 2">Tijdstip 2</string>
+      <string original="Time 3">Tijdstip 3</string>
+      <string original="Time 4">Tijdstip 4</string>
+      <string original="Time 5">Tijdstip 5</string>
+      <string original="Duration">Duurtijd</string>
+      <string original="Trigger duration 0">Duurtijd trigger 0</string>
+      <string original="Trigger duration 1">Duurtijd trigger 1</string>
+      <string original="Trigger duration 2">Duurtijd trigger 2</string>
+      <string original="Trigger duration 3">Duurtijd trigger 3</string>
+      <string original="Trigger duration 4">Duurtijd trigger 4</string>
+      <string original="Trigger duration 5">Duurtijd trigger 5</string>
+      <string original="Trigger on 0">Trigger aan 0</string>
+      <string original="Trigger off 0">Trigger uit 0</string>
+      <string original="Trigger on 1">Trigger aan 1</string>
+      <string original="Trigger off 1">Trigger uit 1</string>
+      <string original="Trigger on 2">Trigger aan 2</string>
+      <string original="Trigger off 2">Trigger uit 2</string>
+      <string original="Trigger on 3">Trigger aan 3</string>
+      <string original="Trigger off 3">Trigger uit 3</string>
+      <string original="Trigger on 4">Trigger aan 4</string>
+      <string original="Trigger off 4">Trigger uit 4</string>
+      <string original="Trigger on 5">Trigger aan 5</string>
+      <string original="Trigger off 5">Trigger uit 5</string>
+    </translation>
+  </translations>
+  <input>
+    <sensor type="proximity">
+      <output component="t">traw</output>
+      <output component="x">amplitude</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Settings">
+      <edit label="Trigger below" unit="cm" default="3" signed="false" min="0">
+        <output>threshold_low</output>
+      </edit>
+      <edit label="Trigger above" unit="cm" default="100" signed="false" min="0">
+        <output>threshold_high</output>
+      </edit>
+      <separator height="1"/>
+      <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm."/>
+      <separator height="1"/>
+      <graph label="Distance" labelX="t (s)" labelY="d (cm)" partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">amplitude</input>
+      </graph>
+      <separator height="1"/>
+      <info label="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered."/>
+    </view>
+    <view label="Sequence">
+      <value label="Time 1" size="3" precision="2" unit="s">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="s">
+        <input>dt12</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="s">
+        <input>dt23</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="s">
+        <input>dt34</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="s">
+        <input>dt45</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Parallel">
+      <value label="Time 1" size="3" precision="2" unit="s">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="s">
+        <input>dt02</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="s">
+        <input>dt03</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="s">
+        <input>dt04</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="s">
+        <input>dt05</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Duration">
+      <value label="Trigger duration 0" size="3" precision="2" unit="s">
+        <input>don0</input>
+      </value>
+      <value label="Trigger duration 1" size="3" precision="2" unit="s">
+        <input>don1</input>
+      </value>
+      <value label="Trigger duration 2" size="3" precision="2" unit="s">
+        <input>don2</input>
+      </value>
+      <value label="Trigger duration 3" size="3" precision="2" unit="s">
+        <input>don3</input>
+      </value>
+      <value label="Trigger duration 4" size="3" precision="2" unit="s">
+        <input>don4</input>
+      </value>
+      <value label="Trigger duration 5" size="3" precision="2" unit="s">
+        <input>don5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Triggers">
+      <value label="Trigger on 0" size="1" precision="2" unit="s">
+        <input>on0</input>
+      </value>
+      <value label="Trigger off 0" size="1" precision="2" unit="s">
+        <input>off0</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 1" size="1" precision="2" unit="s">
+        <input>on1</input>
+      </value>
+      <value label="Trigger off 1" size="1" precision="2" unit="s">
+        <input>off1</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 2" size="1" precision="2" unit="s">
+        <input>on2</input>
+      </value>
+      <value label="Trigger off 2" size="1" precision="2" unit="s">
+        <input>off2</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 3" size="1" precision="2" unit="s">
+        <input>on3</input>
+      </value>
+      <value label="Trigger off 3" size="1" precision="2" unit="s">
+        <input>off3</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 4" size="1" precision="2" unit="s">
+        <input>on4</input>
+      </value>
+      <value label="Trigger off 4" size="1" precision="2" unit="s">
+        <input>off4</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 5" size="1" precision="2" unit="s">
+        <input>on5</input>
+      </value>
+      <value label="Trigger off 5" size="1" precision="2" unit="s">
+        <input>off5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+  </views>
+  <analysis>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input clear="false">traw</input>
+      <output clear="false">t0</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>amplitude</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>traw</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on0</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off0</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on1</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off1</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on2</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off2</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on3</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off3</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on4</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off4</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>on5</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>off5</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don0</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don1</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don2</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don3</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don4</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don5</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt01</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt12</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt23</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt34</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt45</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt02</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt03</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt04</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt05</output>
+    </if>
+    <append>
+      <input type="value">0</input>
+      <output>reset</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>trigger_last</output>
+    </append>
+    <subtract>
+      <input clear="false">traw</input>
+      <input clear="false">t0</input>
+      <output>t</output>
+    </subtract>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min" type="value">0.001</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on0</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on0</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on0</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off0</output>
+    </first>
+    <if greater="true">
+      <input clear="false">off0</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off0</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on1</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on1</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on1</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off1</output>
+    </first>
+    <!-- 2 -->
+    <if greater="true">
+      <input clear="false">off1</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off1</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on2</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on2</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on2</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off2</output>
+    </first>
+    <!-- 3 -->
+    <if greater="true">
+      <input clear="false">off2</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off2</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on3</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on3</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on3</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off3</output>
+    </first>
+    <!-- 4 -->
+    <if greater="true">
+      <input clear="false">off3</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off3</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on4</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on4</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on4</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off4</output>
+    </first>
+    <!-- 5 -->
+    <if greater="true">
+      <input clear="false">off4</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off4</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min">on5</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on5</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on5</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output>off5</output>
+    </first>
+    <!-- Collect results -->
+    <subtract>
+      <input clear="false">on1</input>
+      <input clear="false">on0</input>
+      <output>dt01</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on0</input>
+      <output>dt02</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on0</input>
+      <output>dt03</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on0</input>
+      <output>dt04</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on0</input>
+      <output>dt05</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on1</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on2</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on3</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on4</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off0</input>
+      <input clear="false">on0</input>
+      <output>don0</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off1</input>
+      <input clear="false">on1</input>
+      <output>don1</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off2</input>
+      <input clear="false">on2</input>
+      <output>don2</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off3</input>
+      <input clear="false">on3</input>
+      <output>don3</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off4</input>
+      <input clear="false">on4</input>
+      <output>don4</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off5</input>
+      <input clear="false">on5</input>
+      <output>don5</output>
+    </subtract>
+    <if less="true" equal="true">
+      <input clear="false">dt01</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt01</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt02</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt02</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt03</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt03</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt04</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt04</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt05</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt05</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt12</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt12</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt23</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt23</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt34</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt34</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt45</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt45</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don0</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don0</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don1</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don1</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don2</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don2</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don3</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don3</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don4</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don4</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don5</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don5</output>
+    </if>
+  </analysis>
+  <export>
+    <set name="Raw">
+      <data name="t (s)">t</data>
+      <data name="Illuminance (lx)">amplitude</data>
+    </set>
+    <set name="Timing">
+      <data name="On 0 (s)">on0</data>
+      <data name="Off 0 (s)">off0</data>
+      <data name="On 1 (s)">on1</data>
+      <data name="Off 1 (s)">off1</data>
+      <data name="On 2 (s)">on2</data>
+      <data name="Off 2 (s)">off2</data>
+      <data name="On 3 (s)">on3</data>
+      <data name="Off 3 (s)">off3</data>
+      <data name="On 4 (s)">on4</data>
+      <data name="Off 4 (s)">off4</data>
+      <data name="On 5 (s)">on5</data>
+      <data name="Off 5 (s)">off5</data>
+    </set>
+  </export>
 </phyphox>

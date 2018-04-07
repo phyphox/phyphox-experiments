@@ -1,8 +1,8 @@
 <phyphox version="1.0" locale="en">
-    <title>Elevator</title>
-    <category>Everyday life</category>
-    <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAjnSURBVHic7d1rqGVlHcfx3zPOODqpNaOlWZPZZbR6IaMS5YXIBo3CitREIpFSy7svgowE7U1pSDjdCwnKQHshFN0Ig5JSCi0qAjVCTU1Nc8pq1NFmvr3Ye/I07nnO2mevvdae2d8PiLjPWs/+n2G+7utaK5EkSZIkSZIkSZIkSZpJwJHAiX3PIc0k4BbgTmBF37NIMwU4nedc0vc80swAVgF/XhDIJuCAvueSZgJwJc/35b7nknoHrAU2jwjkP8ARfc8n9Qq4cUQc2/0cKH3PKPUCOAbYVgkE4NS+55Q6BywDbl8kDoD7gVV9zyt1CjinQRzbXd73vFJngH2Bh8cIZDPwir7nljoBXDNGHNtd3/fc0tQBrwGeXkIg24Dj+p5fmirg+0uIY7tfA8v6/h2kqQA2TBDHdmf1/XtIrQOWA39oIZBHgP36/n3mhQ/X3bkoyRtaWOfAJB9vYR1pNgBrgMdbePTYbgvw2r5/r3ngI0g3PpVkTYvr7ZnkMy2uJ/UDOILBN3OnYUPfv580EeCnU4oDBi/6l/f9O+7O/Cr1FAF7JDmkwabnJLlsh9uuS/LpBvs+WEp5ZtzZ1Iz/95miUsrWJPcsth3w+IibnyilLLqvpssX6VKFgUgVBiJVGIhUYSBShYFIFQYiVRiIVGEgUoWBSBUGIlUYiFRhIFKFgUgVBiJVGIhUYSBShYFIFQYiVRiIVGEgUoWBSBUGIlUYiFRhIFKFgUgVBiJVGIhUYSBShYFIFQYiVczV9UGAknavFdiWVSNu2xvYv/NJFreplELfQ3Rlrq4wNfwL97e+59jFHVBKGXXBn92ST7GkCgORKgxEqjAQqcJApAoDkSoMRKowEKlirj5JHwNJ/t7h/e2V53+a/nSSJzucYXXm7INj7QDYn2Y6/aQY+OiIGa7peIbHG/7ZzOLXX6bGp1hShYFIFQYiVRiIVGEgUoWBSBUGIlUYiFRhIFKFgUgVBiJVGIhUYSBShYFIFQYiVRiIVGEgUoWBSBUekz4bHk9y9w63PdrHIJpjs3pM+izwmPTRfIolVRiIVGEgUoWBSBUGIlUYiFRhIFKFgUgVBiJVGIhUYSBShYFIFQYiVRiIVGEgUoWBSBUGIlUYiFRhIFKFgUgVBiJVeNqfGQDsk+SYJAcPb3ooyW2llH/3N5Xmzqyd9gdYB9wIPDVihqeGP1vX0Sye9mfezVIgwNnAlgazPAtc0ME8BjLvZiUQ4IKGcyx0/pRnMpARfJHeMeDoJNcuYddrgaPankd1BtK9q7O0N0dWDPdVhwykQ8Ark5wwwRJvAw5taRw1YCDdOqmFNTa0sIYaMpBuHTIja6ghA+nWni2ssVcLa6ghA+nWwy2s8ZcW1lBDBtKt21pY49YW1lBDBtKtXyW5b4L9701yRzujqAkDaRmwEvgecAbwf685SinbklwxwfJXDNdYeH97AKcA3wDKBGtr3tHBV02ADyxY5xHgKuCQBT8vwA0N51jopoUBAC8ELgHuXbDN2yeY26+azDu6CeSXI9bbyuBRZQODQFYB3204C8B3gFXD9Q8HNgKbR2z3gwnmNpB5x5QDAdY3WPtu4GPDWS4GHqts+xhwEbAcOBm4GdhW2X4bcNgSZzeQETxgql0XNdhmXZKrknwiyQ1J3plkbZK3Dv+dJPcn+VkG73q9L8mf0uwDwpLkvCSXjjO0lGS6jyDAakY/7WniF8BpwIrhWrWnUYv5J7DfEub3EWQEH0Ha86Ekq5a477HDfx4AHsjg8Nul2jfJmUm+MMEaGvJt3hYAyzJ4ajOptZksju0uxLd8W2Eg7XhHklf1PcQChyU5se8hdgcG0o5nk/y27yEWuCvJHn0PsTswkBaUUn5cSlmf5OgkX0vydA9jbEvykyTvSvL6UsoPe5hBuzI6OmkDcBBwOfDgmO9ALcU/gM8Cr55wZt/Fmnd0fFYTYBnNPuBbij8y+KrJPi3NaiDzjh5P+8PgJHFXAZvGTuE5WxnEdjItv0uFgYgZOC8WsC9wLvD7McJ4AvgqcPgU5zKQeTcLgewwz3HUv4v1JC0+jVpkFgMZwXex+vVkkgMqP987ya2exLo/BtKvJl8qnPp5ebVzBtIT4CVJTmuw6RnAgdOeR6MZSH/OS7NT+KxMcs6UZ9FOGEgPgJVJPjLGLucx/Cq8umUg/Tg9yUFjbH9wklOmNIsqDKQfTY483NHFrU+hRRlIx4DjM/hS47jeDLyx7XlUZyDdu2SCfS9sbQo1YiAdYnB+rHdPsMTpwDivXTQhA+nWhZnsPAB7JvlwS7OoAQPpCIMTv32whaXOH75NrA4YSHfOSrKmhXWafgKvFhhIBxgcu9HmC2xPDNcRA+nGSUle1+J6RwFvanE97YSBdGMaH/L5wWEHDGTKgHVpfnXbW9L8AjmnAi9f2lRqykCm79I0/3PemORLDbddkeTcJU0kjdL1IbfAi4B/NbzP+xhcLWolgwvvNPEo0MpVb/GQ25F8BJmus5M0PZ78c6WUraWULUmua7jPizP4ZrA0OTp8BBk+GtzT8P42A2sW7Hsw8EzDfX8z6azD+/QRZAQfQabnPUkObbjt10spm7b/RynloSQ3Ndx3PXDsuMOpGQOZnqbf2iXJF0fc/vkx7su3fKfEQKYAWJ/k+Iab/6iUcteON5ZSbktye8M13gusXXwzjctApmOcYz42Vn7W9CpRyzPeMe5qyEBaxuBqU01fe9yZ5ObKz7+d5K8N13r/8L7VIv9AW1ZK2VZKeUsGh9Ven8HFdXZmYymFylpbknxlkbt8KMknkxxVStk27rzS/9DDuXkZXCvkSp5/Dt5NwAsa7P9SYMuIGe8AzgRauRCrb/Oq78sfrBz+hf7d8D6uHmPfbw33eRr4JnDEFOYzkHnXZyA7zHEC8LIxtj8SuGyafzkNRDMTyCwykNF8kS5VGIhUYSBSRStvEe6GVs/h65DVfQ8wiwxktJJ2TtGjXZxPsaQKA5EqDESqMBCpwkCkCgORKgxEqjAQqaL0PUCXGFyGwA8AJ7OpdhSkJEmSJEmSJEmSJO3y/gv0JpdH90KiwwAAAABJRU5ErkJggg==</icon>
-    <description>
+  <title>Elevator</title>
+  <category>Everyday life</category>
+  <icon format="base64">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</icon>
+  <description>
         Determine the speed of an elevator using the barometer.
 
         Changes in height within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator. Additionally, the acceleration is measured using the z-component accelerometer, so for an accurate measurement of the acceleration, the phone should lie flat on the floor of the elevator.
@@ -10,14 +10,13 @@
         More details:
         To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a height difference using the international barometric height formula. The height difference with divided by their time difference gives the vertical speed.
     </description>
-
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Elevator</link>
-    <link label="Video" highlight="true">https://youtu.be/y-goBtfuXAM</link>
-    <translations>
-        <translation locale="de">
-            <title>Aufzug</title>
-            <category>Alltag</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Elevator</link>
+  <link label="Video" highlight="true">https://youtu.be/y-goBtfuXAM</link>
+  <translations>
+    <translation locale="de">
+      <title>Aufzug</title>
+      <category>Alltag</category>
+      <description>
         Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
 
                 Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen. Zusätzlich wird die Beschleunigung über die z-Komponente des Beschleunigungssensors aufgezeichnet. Um die Beschleunigung genau zu messen, sollte das Smartphone entsprechend flach auf dem Boden des Aufzugs liegen.
@@ -25,20 +24,35 @@
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
     </description>
-            <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
-            <string original="Raw Data">Rohdaten</string>
-            <string original="Pressure">Druck</string>
-            <string original="Height (from barometer)">Höhe (über Barometer)</string>
-            <string original="Motion">Bewegung</string>
-            <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>
-            <string original="Accelerometer z">Beschleunigung z</string>
-            <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
-        </translation>
-    <translation locale="cs"><title>Výtah</title><category>Běžný život</category><description>
+      <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Pressure">Druck</string>
+      <string original="Height (from barometer)">Höhe (über Barometer)</string>
+      <string original="Motion">Bewegung</string>
+      <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>
+      <string original="Accelerometer z">Beschleunigung z</string>
+      <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
+    </translation>
+    <translation locale="cs">
+      <title>Výtah</title>
+      <category>Běžný život</category>
+      <description>
         Zjistí rychlost výtahu pomocí barometru.
 
 Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Zároveň můžeme z tohoto měření zjistit i rychlost svislého pohybu výtahu. Zároveň je měřeno zrychlení Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
-    </description><string original="Motion">Pohyb</string><string original="Height (from barometer)">Výška (z barometru)</string><string original="Vertical velocity (from height)">Svislá rychlost (z výšky)</string><string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string><string original="Raw Data">Neupravená data</string><string original="Pressure">Tlak</string><string original="Accelerometer z">Akcelerometr z</string></translation><translation locale="pl"><title>Winda</title><category>Życie codzienne</category><description>
+    </description>
+      <string original="Motion">Pohyb</string>
+      <string original="Height (from barometer)">Výška (z barometru)</string>
+      <string original="Vertical velocity (from height)">Svislá rychlost (z výšky)</string>
+      <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Pressure">Tlak</string>
+      <string original="Accelerometer z">Akcelerometr z</string>
+    </translation>
+    <translation locale="pl">
+      <title>Winda</title>
+      <category>Życie codzienne</category>
+      <description>
         Wyznacz szybkość ruchu windy korzystając z barometru.
 
         Zmiany w położeniu windy mogą być bardo precyzyjnie określone dzięki wykorzystaniu barometru - zwłaszcza w miejscach gdzie nie działa GPS. Informacje o zmianie położenia mogą posłużyć do wyznaczenia prędkości ruchu w pionie. 
@@ -46,130 +60,149 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
 
         Dodatkowe wskazówki:
         Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
-    </description><string original="Motion">Ruch</string><string original="Height (from barometer)">Wysokość (z barometru)</string><string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string><string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string><string original="Raw Data">Surowe dane</string><string original="Pressure">Ciśnienie</string><string original="Accelerometer z">Akcelerometr - składowa z</string></translation><translation locale="nl"><title>Lift</title><category>Leven van elke dag</category><description>
+    </description>
+      <string original="Motion">Ruch</string>
+      <string original="Height (from barometer)">Wysokość (z barometru)</string>
+      <string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string>
+      <string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Pressure">Ciśnienie</string>
+      <string original="Accelerometer z">Akcelerometr - składowa z</string>
+    </translation>
+    <translation locale="nl">
+      <title>Lift</title>
+      <category>Leven van elke dag</category>
+      <description>
         Bepaal de snelheid van een lift met behulp van de drukmeter.
 
     Snelle hoogteveranderingen kunnen zeer nauwkeurig worden gemeten met behulp van de drukmeter - zelfs als GPS niet werkt. Dit kan worden gebruikt om de verticale snelheid van een lift af te leiden. De versnelling wordt gemeten met behulp van de versnellingsmeter met z-component, dus voor een nauwkeurige meting van de versnelling moet de smartphone plat op de vloer van de lift liggen.
 
  Meer details:
          Om een deel van de ruis in dit experiment te elimineren, worden de waarden van de drukmeter uitgemiddeld over 1 s. Het verschil van opeenvolgende gemiddelden wordt omgezet in een hoogteverschil met behulp van de internationale barometrische hoogteformule. Het hoogteverschil gedeeld door het tijdsverschil geeft de verticale snelheid.
-    </description><string original="Motion">Beweging</string><string original="Height (from barometer)">Hoogte (van drukmeter)</string><string original="Vertical velocity (from height)">Verticale snelheid (uit hoogte)</string><string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string><string original="Raw Data">Onbewerkte data</string><string original="Pressure">Druk</string></translation></translations>
-    <data-containers>
-        <container size="0">pressure</container>
-        <container size="0">p_time</container>
-        <container size="0">v_time</container>
-        <container size="0">dt</container>
-        <container size="0">dt2</container>
-        <container size="0">v</container>
-        <container size="0">h</container>
-        <container>h0</container>
-        <container size="0">temp1</container>
-        <container size="0">temp2</container>
-        <container size="0">a_time</container>
-        <container size="0">a</container>
-    </data-containers>
-    <input>
-        <sensor type="pressure" rate="1" average="true">
-            <output component="x">pressure</output>
-            <output component="t">p_time</output>
-        </sensor>
-        <sensor type="linear_acceleration" rate="25" average="true">
-            <output component="t">a_time</output>
-            <output component="z">a</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Motion">
-            <graph label="Height (from barometer)" labelX="t (s)" labelY="h (m)" partialUpdate="true">
-                <input axis="x">p_time</input>
-                <input axis="y">h</input>
-            </graph>
-            <graph label="Vertical velocity (from height)" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
-                <input axis="x">v_time</input>
-                <input axis="y">v</input>
-            </graph>
-            <graph label="z acceleration (from accelerometer)" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="e0ff00">
-                <input axis="x">a_time</input>
-                <input axis="y">a</input>
-            </graph>
-        </view>
-        <view label="Raw Data">
-            <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" partialUpdate="true">
-                <input axis="x">p_time</input>
-                <input axis="y">pressure</input>
-            </graph>
-            <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
-                <input axis="x">a_time</input>
-                <input axis="y">a</input>
-            </graph>
-        </view>
-    </views>
-    <analysis>
-        <differentiate>
-            <input clear="false">p_time</input>
-            <output>dt</output>
-        </differentiate>
-        <divide>
-            <input clear="false">dt</input>
-            <input type="value">2</input>
-            <output>dt2</output>
-        </divide>
-        <match>
-            <input clear="false">p_time</input>
-            <input clear="false">dt2</input>
-            <output>temp1</output>
-        </match>
-        <add>
-            <input>temp1</input>
-            <input>dt2</input>
-            <output>v_time</output>
-        </add>
-
-        <divide>
-            <input clear="false">pressure</input>
-            <input type="value">1013.25</input>
-            <output>temp1</output>
-        </divide>
-        <power>
-            <input as="base">temp1</input>
-            <input as="exponent" type="value">0.190294957</input>
-            <output>temp2</output>
-        </power>
-        <multiply>
-            <input>temp2</input>
-            <input type="value">-44330.769230769</input>
-            <output>temp1</output>
-        </multiply>
-        <first>
-            <input clear="false">temp1</input>
-            <output>h0</output>
-        </first>
-        <subtract>
-            <input>temp1</input>
-            <input>h0</input>
-            <output>h</output>
-        </subtract>
-        <differentiate>
-            <input clear="false">h</input>
-            <output>temp1</output>
-        </differentiate>
-        <divide>
-            <input>temp1</input>
-            <input>dt</input>
-            <output>v</output>
-        </divide>
-    </analysis>
-    <export>
-        <set name="Pressure and velocity">
-            <data name="Time (s)">p_time</data>
-            <data name="Pressure (hPa)">pressure</data>
-            <data name="Height (m)">h</data>
-            <data name="Time (velocity) (s)">v_time</data>
-            <data name="Velocity (m/s)">v</data>
-        </set>
-        <set name="Acceleration">
-            <data name="Time (s)">a_time</data>
-            <data name="Acceleration (m/s²)">a</data>
-        </set>
-    </export>
+    </description>
+      <string original="Motion">Beweging</string>
+      <string original="Height (from barometer)">Hoogte (van drukmeter)</string>
+      <string original="Vertical velocity (from height)">Verticale snelheid (uit hoogte)</string>
+      <string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string>
+      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Pressure">Druk</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">pressure</container>
+    <container size="0">p_time</container>
+    <container size="0">v_time</container>
+    <container size="0">dt</container>
+    <container size="0">dt2</container>
+    <container size="0">v</container>
+    <container size="0">h</container>
+    <container>h0</container>
+    <container size="0">temp1</container>
+    <container size="0">temp2</container>
+    <container size="0">a_time</container>
+    <container size="0">a</container>
+  </data-containers>
+  <input>
+    <sensor type="pressure" rate="1" average="true">
+      <output component="x">pressure</output>
+      <output component="t">p_time</output>
+    </sensor>
+    <sensor type="linear_acceleration" rate="25" average="true">
+      <output component="t">a_time</output>
+      <output component="z">a</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Motion">
+      <graph label="Height (from barometer)" labelX="t (s)" labelY="h (m)" partialUpdate="true">
+        <input axis="x">p_time</input>
+        <input axis="y">h</input>
+      </graph>
+      <graph label="Vertical velocity (from height)" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
+        <input axis="x">v_time</input>
+        <input axis="y">v</input>
+      </graph>
+      <graph label="z acceleration (from accelerometer)" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="e0ff00">
+        <input axis="x">a_time</input>
+        <input axis="y">a</input>
+      </graph>
+    </view>
+    <view label="Raw Data">
+      <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" partialUpdate="true">
+        <input axis="x">p_time</input>
+        <input axis="y">pressure</input>
+      </graph>
+      <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+        <input axis="x">a_time</input>
+        <input axis="y">a</input>
+      </graph>
+    </view>
+  </views>
+  <analysis>
+    <differentiate>
+      <input clear="false">p_time</input>
+      <output>dt</output>
+    </differentiate>
+    <divide>
+      <input clear="false">dt</input>
+      <input type="value">2</input>
+      <output>dt2</output>
+    </divide>
+    <match>
+      <input clear="false">p_time</input>
+      <input clear="false">dt2</input>
+      <output>temp1</output>
+    </match>
+    <add>
+      <input>temp1</input>
+      <input>dt2</input>
+      <output>v_time</output>
+    </add>
+    <divide>
+      <input clear="false">pressure</input>
+      <input type="value">1013.25</input>
+      <output>temp1</output>
+    </divide>
+    <power>
+      <input as="base">temp1</input>
+      <input as="exponent" type="value">0.190294957</input>
+      <output>temp2</output>
+    </power>
+    <multiply>
+      <input>temp2</input>
+      <input type="value">-44330.769230769</input>
+      <output>temp1</output>
+    </multiply>
+    <first>
+      <input clear="false">temp1</input>
+      <output>h0</output>
+    </first>
+    <subtract>
+      <input>temp1</input>
+      <input>h0</input>
+      <output>h</output>
+    </subtract>
+    <differentiate>
+      <input clear="false">h</input>
+      <output>temp1</output>
+    </differentiate>
+    <divide>
+      <input>temp1</input>
+      <input>dt</input>
+      <output>v</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="Pressure and velocity">
+      <data name="Time (s)">p_time</data>
+      <data name="Pressure (hPa)">pressure</data>
+      <data name="Height (m)">h</data>
+      <data name="Time (velocity) (s)">v_time</data>
+      <data name="Velocity (m/s)">v</data>
+    </set>
+    <set name="Acceleration">
+      <data name="Time (s)">a_time</data>
+      <data name="Acceleration (m/s²)">a</data>
+    </set>
+  </export>
 </phyphox>

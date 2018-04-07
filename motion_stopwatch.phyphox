@@ -1,490 +1,503 @@
 <phyphox version="1.4" locale="en">
-    <title>Motion Stopwatch</title>
-    <category>Timers</category>
-    <icon format="base64">
+  <title>Motion Stopwatch</title>
+  <category>Timers</category>
+  <icon format="base64">
 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
     </icon>
-    <description>
+  <description>
         Get the time between two motion events.
 
         This experiment allows to measure the time between two accelerations (like small shocks). You might want to adjust the threshold, giving the level at which the stop watch is triggered.
 
         After starting the experiment, the clock will start on the first (total) acceleration exceeding the threshold and will be stopped on the second acceleration. Make sure that the first acceleration signal is short as a long vibration might be immediately detected as a stop.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Motion_Stopwatch</link>
-    <data-containers>
-        <container>threshold</container>
-        <container>mindelay</container>
-        <container size="50">acc</container>
-        <container size="50">accT</container>
-        <container size="50">accCopy</container>
-        <container size="50">accTCopy</container>
-        <container>t</container>
-        <container>limit</container>
-        <container>max</container>
-        <container init="0">t0</container>
-        <container init="0">t1</container>
-        <container init="0">t2</container>
-        <container init="0">t3</container>
-        <container init="0">t4</container>
-        <container init="0">t5</container>
-        <container init="0">last</container>
-        <container>t0effective</container>
-        <container>t1effective</container>
-        <container>t2effective</container>
-        <container>t3effective</container>
-        <container>t4effective</container>
-        <container>t5effective</container>
-        <container init="0">tmax</container>
-        <container>dt01</container>
-        <container>dt02</container>
-        <container>dt03</container>
-        <container>dt04</container>
-        <container>dt05</container>
-        <container>dt12</container>
-        <container>dt23</container>
-        <container>dt34</container>
-        <container>dt45</container>
-        <container>count</container>
-    </data-containers>
-    <translations>
-        <translation locale="de">
-            <title>Bewegungs-Stoppuhr</title>
-            <category>Zeitmessung</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Motion_Stopwatch</link>
+  <data-containers>
+    <container>threshold</container>
+    <container>mindelay</container>
+    <container size="50">acc</container>
+    <container size="50">accT</container>
+    <container size="50">accCopy</container>
+    <container size="50">accTCopy</container>
+    <container>t</container>
+    <container>limit</container>
+    <container>max</container>
+    <container init="0">t0</container>
+    <container init="0">t1</container>
+    <container init="0">t2</container>
+    <container init="0">t3</container>
+    <container init="0">t4</container>
+    <container init="0">t5</container>
+    <container init="0">last</container>
+    <container>t0effective</container>
+    <container>t1effective</container>
+    <container>t2effective</container>
+    <container>t3effective</container>
+    <container>t4effective</container>
+    <container>t5effective</container>
+    <container init="0">tmax</container>
+    <container>dt01</container>
+    <container>dt02</container>
+    <container>dt03</container>
+    <container>dt04</container>
+    <container>dt05</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container>count</container>
+  </data-containers>
+  <translations>
+    <translation locale="de">
+      <title>Bewegungs-Stoppuhr</title>
+      <category>Zeitmessung</category>
+      <description>
         Stoppe die Zeit zwischen zwei Bewegungs-Ereignissen.
 
                 Dieses Experiment ermöglicht es dir, die Zeit zwischen zwei Beschleunigungen (wie einer leichten Erschütterung) zu messen. Hierzu muss die Schwelle so eingestellt werden, bei welcher die Stoppuhr auslöst.
 
                 Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit der ersten (absoluten) Beschleunigung, die die Schwelle überschreitet und wird mit der zweiten Beschleunigung beendet. Achte darauf, dass die Startbeschleunigung kurz ist, da eine lange Vibration direkt auch als Stopp interpretiert werden könnte.
     </description>
-            <string original="Simple">Einfach</string>
-            <string original="Sequence">Sequenz</string>
-            <string original="Threshold">Schwelle</string>
-            <string original="Minimum Delay">Mindestverzögerung</string>
-            <string original="Time">Zeit</string>
-            <string original="Time 1">Zeit 1</string>
-            <string original="Time 2">Zeit 2</string>
-            <string original="Time 3">Zeit 3</string>
-            <string original="Time 4">Zeit 4</string>
-            <string original="Time 5">Zeit 5</string>
-            <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Ändere die Schwelle auf einen Wert oberhalb des Sensorrauschens, aber unterhalb der Auslösebeschleunigung (dies kannst du zum Beispiel im Experiment "Beschleunigung (ohne g)" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden.</string>
-            <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Die Genauigkeit dieses Experiments hängt vom Beschleunigungssensor deines Smartphones ab. Schnelle Sensoren können besser sein als eine Hundertstelsekunde, während langsame nur eine Auflösung von einer Sekunde schaffen.</string>
-        </translation>
-    <translation locale="cs"><title>Pohybové stopky</title><category>Měření času</category><description>
+      <string original="Simple">Einfach</string>
+      <string original="Sequence">Sequenz</string>
+      <string original="Threshold">Schwelle</string>
+      <string original="Minimum Delay">Mindestverzögerung</string>
+      <string original="Time">Zeit</string>
+      <string original="Time 1">Zeit 1</string>
+      <string original="Time 2">Zeit 2</string>
+      <string original="Time 3">Zeit 3</string>
+      <string original="Time 4">Zeit 4</string>
+      <string original="Time 5">Zeit 5</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Ändere die Schwelle auf einen Wert oberhalb des Sensorrauschens, aber unterhalb der Auslösebeschleunigung (dies kannst du zum Beispiel im Experiment "Beschleunigung (ohne g)" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Die Genauigkeit dieses Experiments hängt vom Beschleunigungssensor deines Smartphones ab. Schnelle Sensoren können besser sein als eine Hundertstelsekunde, während langsame nur eine Auflösung von einer Sekunde schaffen.</string>
+    </translation>
+    <translation locale="cs">
+      <title>Pohybové stopky</title>
+      <category>Měření času</category>
+      <description>
         Měří čas mezi dvěma pohybovými událostmi.
 
 Tento experiment umožňuje měřit čas mezi dvěma zrychleními (míníme tím malé otřesy). Je možné, že budete chtít nastavit práh pro spuštění jednotlivých měření.
 
 Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zrychlení mobilu překoná zvolený práh, a zastaví se po dalším překonání. Pro opakování experimentu vymažte naměřená data a spusťte jej znovu. První zrychlení musí být krátké, neboť dlouhé vibrace by mohly být rovnou vyhodnoceny i jako stopka.
-    </description><string original="Simple">Stručně</string><string original="Threshold">Práh měření</string><string original="Minimum Delay">Minimální zpoždění</string><string original="Time">Čas</string><string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Nastavte práh tak, aby byl vyšší než míra šumu ze senzoru, avšak spouštěcí vibrace jej přesahovala (tyto hodnoty můžete zjistit pomocí experimentu Akcelerace bez g). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem.</string><string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Přesnost měření závisí na kvalitě akcelerometru ve vašem mobilním zařízení. Rychlé akcelerometry umí měřit hodnoty rychleji než za setinu sekundy, avšak pomalé mohou mít rozlišení i jedné sekundy.</string><string original="Sequence">Sekvence</string><string original="Time 1">Čas 1</string><string original="Time 2">Čas 2</string><string original="Time 3">Čas 3</string><string original="Time 4">Čas 4</string><string original="Time 5">Čas 5</string><string original="Parallel">Paralelně</string></translation><translation locale="pl"><title>Stoper wyzwalany ruchem</title><category>Czasomierze</category><description>
+    </description>
+      <string original="Simple">Stručně</string>
+      <string original="Threshold">Práh měření</string>
+      <string original="Minimum Delay">Minimální zpoždění</string>
+      <string original="Time">Čas</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Nastavte práh tak, aby byl vyšší než míra šumu ze senzoru, avšak spouštěcí vibrace jej přesahovala (tyto hodnoty můžete zjistit pomocí experimentu Akcelerace bez g). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Přesnost měření závisí na kvalitě akcelerometru ve vašem mobilním zařízení. Rychlé akcelerometry umí měřit hodnoty rychleji než za setinu sekundy, avšak pomalé mohou mít rozlišení i jedné sekundy.</string>
+      <string original="Sequence">Sekvence</string>
+      <string original="Time 1">Čas 1</string>
+      <string original="Time 2">Čas 2</string>
+      <string original="Time 3">Čas 3</string>
+      <string original="Time 4">Čas 4</string>
+      <string original="Time 5">Čas 5</string>
+      <string original="Parallel">Paralelně</string>
+    </translation>
+    <translation locale="pl">
+      <title>Stoper wyzwalany ruchem</title>
+      <category>Czasomierze</category>
+      <description>
         Uzyskaj dane o czasie między dwoma zdarzeniami związanymi z ruchem.
 
         W tym eksperymencie rejestrowany jest czas pomiędzy dwoma zdarzeniami związanymi ze zmianą stanu ruchu (np. niewielkimi wstrząsami). Niezbędne może okazać się dopasowanie warunków wyzwalania pomiaru do warunków zdarzenia uruchamiającego stoper.
 
         Po uruchomieniu eksperymentu stoper rozpocznie rejestrowanie czasu po pierwszym zdarzeniu, w którym przekroczona zostanie zadana wartość całkowitego przyspieszenia i zakończy rejestrację po drugim zdarzeniu tego rodzaju. Kolejny pomiar można przeprowadzić po usunięciu zarejestrowanych wyników. Należy zadbać, by wyzwalający pomiar sygnał był dostatecznie krótki i nie został, po krótkim czasie, zinterpretowany jako sygnał kończący pomiar.
-    </description><string original="Simple">Próbka</string><string original="Threshold">Poziom wyzwalania</string><string original="Minimum Delay">Minimalne opóźnienie</string><string original="Time">Czas</string><string original="Reset">Wyczyść</string><string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Określ poziom wyzwalania tak, by znajdował się powyżej poziomu szumu czujnika, ale poniżej wartości rozpoczynającej pomiar. Warto posłużyć się eksperymentem 'Przyspieszenie (bez g)' do określenia tej wartości. Dopasuj także poziom minimalnego opóźnienia.</string><string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Dokładność uzyskiwanych wyników silnie zależy od akcelerometru urządzenia. Dla czujników pracujących z dużą szybkością mogą to być setne części sekundy, podczas gdy dla wolniejszych modeli może nie przekraczać sekundy.</string><string original="Sequence">Międzyczasy</string><string original="Time 1">Czas 1</string><string original="Time 2">Czas 2</string><string original="Time 3">Czas 3</string><string original="Time 4">Czas 4</string><string original="Time 5">Czas 5</string><string original="Parallel">Śródczasy</string></translation><translation locale="nl"><title>Bewegingschronometer</title><category>Timers</category><description>
+    </description>
+      <string original="Simple">Próbka</string>
+      <string original="Threshold">Poziom wyzwalania</string>
+      <string original="Minimum Delay">Minimalne opóźnienie</string>
+      <string original="Time">Czas</string>
+      <string original="Reset">Wyczyść</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Określ poziom wyzwalania tak, by znajdował się powyżej poziomu szumu czujnika, ale poniżej wartości rozpoczynającej pomiar. Warto posłużyć się eksperymentem 'Przyspieszenie (bez g)' do określenia tej wartości. Dopasuj także poziom minimalnego opóźnienia.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Dokładność uzyskiwanych wyników silnie zależy od akcelerometru urządzenia. Dla czujników pracujących z dużą szybkością mogą to być setne części sekundy, podczas gdy dla wolniejszych modeli może nie przekraczać sekundy.</string>
+      <string original="Sequence">Międzyczasy</string>
+      <string original="Time 1">Czas 1</string>
+      <string original="Time 2">Czas 2</string>
+      <string original="Time 3">Czas 3</string>
+      <string original="Time 4">Czas 4</string>
+      <string original="Time 5">Czas 5</string>
+      <string original="Parallel">Śródczasy</string>
+    </translation>
+    <translation locale="nl">
+      <title>Bewegingschronometer</title>
+      <category>Timers</category>
+      <description>
         Verkrijg de tijd tussen twee 'bewegingsevenementen'.
 
         Met dit experiment kan de tijd tussen twee versnellingen worden gemeten (zoals kleine schokken). U kunt de drempelwaarde aanpassen, waarbij u het waarde opgeeft waarop de chronometer wordt geactiveerd.
 
         De klok start op de eerste (totale) versnelling die de drempelwaarde overschrijdt en wordt gestopt bij de tweede versnelling. Als u het experiment wilt herhalen, wist u de gegevens en begint u opnieuw. Zorg ervoor dat het eerste versnellingssignaal kort is, omdat een lange trilling onmiddellijk als stopsignaal kan worden gedetecteerd.
-    </description><string original="Simple">Eenvoudig</string><string original="Threshold">Drempel</string><string original="Minimum Delay">Minimale vertraging</string><string original="Time">Tijd</string><string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Wijzig de drempelwaarde om boven het sensorniveau te komen, maar onder de triggerversnelling (u kunt het 'accelerosmeter-experiment zonder g' proberen  om dit te controleren). Stel ook de minimale vertraging in om triggers korter dan die tijd te vermijden.</string><string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">De nauwkeurigheid van dit experiment is afhankelijk van de accelerometer in uw smartphone. Snelle accelerometers kunnen evenementen korter dan een honderdste van een seconde detecteren, terwijl trage accelerometers soms slechts een resolutie van één seconde halen.</string><string original="Sequence">Opeenvolgend</string><string original="Time 1">Tijdstip 1</string><string original="Time 2">Tijdstip 2</string><string original="Time 3">Tijdstip 3</string><string original="Time 4">Tijdstip 4</string><string original="Time 5">Tijdstip 5</string></translation></translations>
-    <input>
-        <sensor type="linear_acceleration" rate="0">
-            <output component="abs">acc</output>
-            <output component="t">accT</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Simple">
-            <edit label="Threshold" unit="m/s²" default="1" signed="false" min="0">
-                <output>threshold</output>
-            </edit>
-            <edit label="Minimum Delay" unit="s" default="0.2" signed="false" min="0">
-                <output>mindelay</output>
-            </edit>
-            <value label="Time" size="3" precision="3" unit="s">
-                <input>dt01</input>
-            </value>
-            <button label="Reset">
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <output>t0</output>
-                <output>t1</output>
-                <output>t2</output>
-                <output>t3</output>
-                <output>t4</output>
-                <output>t5</output>
-            </button>
-            <separator height="1"/>
-            <info label="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time."/>
-            <separator height="1"/>
-            <info label="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second."/>
-        </view>
-        <view label="Sequence">
-            <value label="Time 1" size="3" precision="3" unit="s">
-                <input>dt01</input>
-            </value>
-            <value label="Time 2" size="3" precision="3" unit="s">
-                <input>dt12</input>
-            </value>
-            <value label="Time 3" size="3" precision="3" unit="s">
-                <input>dt23</input>
-            </value>
-            <value label="Time 4" size="3" precision="3" unit="s">
-                <input>dt34</input>
-            </value>
-            <value label="Time 5" size="3" precision="3" unit="s">
-                <input>dt45</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <output>t0</output>
-                <output>t1</output>
-                <output>t2</output>
-                <output>t3</output>
-                <output>t4</output>
-                <output>t5</output>
-            </button>
-        </view>
-        <view label="Parallel">
-            <value label="Time 1" size="3" precision="3" unit="s">
-                <input>dt01</input>
-            </value>
-            <value label="Time 2" size="3" precision="3" unit="s">
-                <input>dt02</input>
-            </value>
-            <value label="Time 3" size="3" precision="3" unit="s">
-                <input>dt03</input>
-            </value>
-            <value label="Time 4" size="3" precision="3" unit="s">
-                <input>dt04</input>
-            </value>
-            <value label="Time 5" size="3" precision="3" unit="s">
-                <input>dt05</input>
-            </value>
-            <separator height="1"/>
-            <button label="Reset">
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <input type="value">0</input>
-                <output>t0</output>
-                <output>t1</output>
-                <output>t2</output>
-                <output>t3</output>
-                <output>t4</output>
-                <output>t5</output>
-            </button>
-        </view>
-    </views>
-    <analysis>
-
-        <!-- We create a local copy of the new acc data and fill it with a zero if there is none as an empty buffer messes up our calculations -->
-
-        <append>
-            <input clear="true">acc</input>
-            <output clear="true">accCopy</output>
-        </append>
-
-        <append>
-            <input clear="true">accT</input>
-            <output clear="true">accTCopy</output>
-        </append>
-
-        <count>
-            <input clear="false">accCopy</input>
-            <output>count</output>
-        </count>
-
-        <if equal="true">
-            <input clear="false">count</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <input clear="false">accCopy</input>
-            <output clear="true">accCopy</output>
-        </if>
-
-        <if equal="true">
-            <input clear="false">count</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <input clear="false">accTCopy</input>
-            <output clear="true">accTCopy</output>
-        </if>
-
-        <if equal="true">
-            <input>count</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">accTCopy</input>
-            <output>tmax</output>
-        </if>
-
-        <!--  -->
-
-        <max>
-            <input as="x">accTCopy</input>
-            <input as="y">accCopy</input>
-            <output as="position">t</output>
-            <output as="max">max</output>
-        </max>
-
-        <if less="true" equal="true">
-            <input clear="false">max</input>
-            <input clear="false">threshold</input>
-            <input type="value">0</input>
-            <input clear="false">t</input>
-            <output>t</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t0</input>
-            <input type="value">0</input>
-            <input type="value">0</input>
-            <input clear="false">t0</input>
-            <output>last</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t1</input>
-            <input type="value">0</input>
-            <input clear="false">last</input>
-            <input clear="false">t1</input>
-            <output>last</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t2</input>
-            <input type="value">0</input>
-            <input clear="false">last</input>
-            <input clear="false">t2</input>
-            <output>last</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t3</input>
-            <input type="value">0</input>
-            <input clear="false">last</input>
-            <input clear="false">t3</input>
-            <output>last</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t4</input>
-            <input type="value">0</input>
-            <input clear="false">last</input>
-            <input clear="false">t4</input>
-            <output>last</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t5</input>
-            <input type="value">0</input>
-            <input clear="false">last</input>
-            <input clear="false">t5</input>
-            <output>last</output>
-        </if>
-
-        <add>
-            <input clear="false">last</input>
-            <input clear="false">mindelay</input>
-            <output>limit</output>
-        </add>
-
-        <if less="true" equal="true">
-            <input clear="false">limit</input>
-            <input clear="false">t</input>
-            <input clear="false">t</input>
-            <input type="value">0</input>
-            <output>t</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t</input>
-            <input clear="false">last</input>
-            <input type="value">0</input>
-            <input clear="false">t</input>
-            <output>t</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">t5</input>
-            <input clear="false">t4</input>
-            <input clear="false">t</input>
-            <input clear="false">t5</input>
-            <output>t5</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">t4</input>
-            <input clear="false">t3</input>
-            <input clear="false">t</input>
-            <input clear="false">t4</input>
-            <output>t4</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">t3</input>
-            <input clear="false">t2</input>
-            <input clear="false">t</input>
-            <input clear="false">t3</input>
-            <output>t3</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">t2</input>
-            <input clear="false">t1</input>
-            <input clear="false">t</input>
-            <input clear="false">t2</input>
-            <output>t2</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">t1</input>
-            <input clear="false">t0</input>
-            <input clear="false">t</input>
-            <input clear="false">t1</input>
-            <output>t1</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t0</input>
-            <input type="value">0</input>
-            <input clear="false">t</input>
-            <input clear="false">t0</input>
-            <output>t0</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t5</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t5</input>
-            <output>t5effective</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t4</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t4</input>
-            <output>t4effective</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t3</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t3</input>
-            <output>t3effective</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t2</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t2</input>
-            <output>t2effective</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t1</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t1</input>
-            <output>t1effective</output>
-        </if>
-
-        <if less="true" equal="true">
-            <input clear="false">t0</input>
-            <input type="value">0</input>
-            <input clear="false">tmax</input>
-            <input clear="false">t0</input>
-            <output>t0effective</output>
-        </if>
-
-        <subtract>
-            <input clear="false">t5effective</input>
-            <input clear="false">t4effective</input>
-            <output>dt45</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">t4effective</input>
-            <input clear="false">t3effective</input>
-            <output>dt34</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">t3effective</input>
-            <input clear="false">t2effective</input>
-            <output>dt23</output>
-        </subtract>
-
-        <subtract>
-            <input clear="false">t2effective</input>
-            <input clear="false">t1effective</input>
-            <output>dt12</output>
-        </subtract>
-
-        <subtract>
-            <input>t5effective</input>
-            <input clear="false">t0effective</input>
-            <output>dt05</output>
-        </subtract>
-
-        <subtract>
-            <input>t4effective</input>
-            <input clear="false">t0effective</input>
-            <output>dt04</output>
-        </subtract>
-
-        <subtract>
-            <input>t3effective</input>
-            <input clear="false">t0effective</input>
-            <output>dt03</output>
-        </subtract>
-
-        <subtract>
-            <input>t2effective</input>
-            <input clear="false">t0effective</input>
-            <output>dt02</output>
-        </subtract>
-
-        <subtract>
-            <input>t1effective</input>
-            <input>t0effective</input>
-            <output>dt01</output>
-        </subtract>
-
-    </analysis>
-    <export>
-        <set name="Simple">
-            <data name="Start (s)">t0</data>
-            <data name="Stop (s)">t1</data>
-            <data name="Difference (s)">dt01</data>
-        </set>
-        <set name="Multiple">
-            <data name="Start (s)">t0</data>
-            <data name="Stop 1 (s)">t1</data>
-            <data name="Stop 2 (s)">t2</data>
-            <data name="Stop 3 (s)">t3</data>
-            <data name="Stop 4 (s)">t4</data>
-            <data name="Stop 5 (s)">t5</data>
-        </set>
-    </export>
+    </description>
+      <string original="Simple">Eenvoudig</string>
+      <string original="Threshold">Drempel</string>
+      <string original="Minimum Delay">Minimale vertraging</string>
+      <string original="Time">Tijd</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Wijzig de drempelwaarde om boven het sensorniveau te komen, maar onder de triggerversnelling (u kunt het 'accelerosmeter-experiment zonder g' proberen  om dit te controleren). Stel ook de minimale vertraging in om triggers korter dan die tijd te vermijden.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">De nauwkeurigheid van dit experiment is afhankelijk van de accelerometer in uw smartphone. Snelle accelerometers kunnen evenementen korter dan een honderdste van een seconde detecteren, terwijl trage accelerometers soms slechts een resolutie van één seconde halen.</string>
+      <string original="Sequence">Opeenvolgend</string>
+      <string original="Time 1">Tijdstip 1</string>
+      <string original="Time 2">Tijdstip 2</string>
+      <string original="Time 3">Tijdstip 3</string>
+      <string original="Time 4">Tijdstip 4</string>
+      <string original="Time 5">Tijdstip 5</string>
+    </translation>
+  </translations>
+  <input>
+    <sensor type="linear_acceleration" rate="0">
+      <output component="abs">acc</output>
+      <output component="t">accT</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Simple">
+      <edit label="Threshold" unit="m/s²" default="1" signed="false" min="0">
+        <output>threshold</output>
+      </edit>
+      <edit label="Minimum Delay" unit="s" default="0.2" signed="false" min="0">
+        <output>mindelay</output>
+      </edit>
+      <value label="Time" size="3" precision="3" unit="s">
+        <input>dt01</input>
+      </value>
+      <button label="Reset">
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>t0</output>
+        <output>t1</output>
+        <output>t2</output>
+        <output>t3</output>
+        <output>t4</output>
+        <output>t5</output>
+      </button>
+      <separator height="1"/>
+      <info label="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time."/>
+      <separator height="1"/>
+      <info label="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second."/>
+    </view>
+    <view label="Sequence">
+      <value label="Time 1" size="3" precision="3" unit="s">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="3" unit="s">
+        <input>dt12</input>
+      </value>
+      <value label="Time 3" size="3" precision="3" unit="s">
+        <input>dt23</input>
+      </value>
+      <value label="Time 4" size="3" precision="3" unit="s">
+        <input>dt34</input>
+      </value>
+      <value label="Time 5" size="3" precision="3" unit="s">
+        <input>dt45</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>t0</output>
+        <output>t1</output>
+        <output>t2</output>
+        <output>t3</output>
+        <output>t4</output>
+        <output>t5</output>
+      </button>
+    </view>
+    <view label="Parallel">
+      <value label="Time 1" size="3" precision="3" unit="s">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="3" unit="s">
+        <input>dt02</input>
+      </value>
+      <value label="Time 3" size="3" precision="3" unit="s">
+        <input>dt03</input>
+      </value>
+      <value label="Time 4" size="3" precision="3" unit="s">
+        <input>dt04</input>
+      </value>
+      <value label="Time 5" size="3" precision="3" unit="s">
+        <input>dt05</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>t0</output>
+        <output>t1</output>
+        <output>t2</output>
+        <output>t3</output>
+        <output>t4</output>
+        <output>t5</output>
+      </button>
+    </view>
+  </views>
+  <analysis>
+    <!-- We create a local copy of the new acc data and fill it with a zero if there is none as an empty buffer messes up our calculations -->
+    <append>
+      <input clear="true">acc</input>
+      <output clear="true">accCopy</output>
+    </append>
+    <append>
+      <input clear="true">accT</input>
+      <output clear="true">accTCopy</output>
+    </append>
+    <count>
+      <input clear="false">accCopy</input>
+      <output>count</output>
+    </count>
+    <if equal="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">accCopy</input>
+      <output clear="true">accCopy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">accTCopy</input>
+      <output clear="true">accTCopy</output>
+    </if>
+    <if equal="true">
+      <input>count</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">accTCopy</input>
+      <output>tmax</output>
+    </if>
+    <!--  -->
+    <max>
+      <input as="x">accTCopy</input>
+      <input as="y">accCopy</input>
+      <output as="position">t</output>
+      <output as="max">max</output>
+    </max>
+    <if less="true" equal="true">
+      <input clear="false">max</input>
+      <input clear="false">threshold</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>t</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">t0</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t1</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t1</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t2</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t2</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t3</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t3</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t4</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t4</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t5</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t5</input>
+      <output>last</output>
+    </if>
+    <add>
+      <input clear="false">last</input>
+      <input clear="false">mindelay</input>
+      <output>limit</output>
+    </add>
+    <if less="true" equal="true">
+      <input clear="false">limit</input>
+      <input clear="false">t</input>
+      <input clear="false">t</input>
+      <input type="value">0</input>
+      <output>t</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t</input>
+      <input clear="false">last</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>t</output>
+    </if>
+    <if less="true">
+      <input clear="false">t5</input>
+      <input clear="false">t4</input>
+      <input clear="false">t</input>
+      <input clear="false">t5</input>
+      <output>t5</output>
+    </if>
+    <if less="true">
+      <input clear="false">t4</input>
+      <input clear="false">t3</input>
+      <input clear="false">t</input>
+      <input clear="false">t4</input>
+      <output>t4</output>
+    </if>
+    <if less="true">
+      <input clear="false">t3</input>
+      <input clear="false">t2</input>
+      <input clear="false">t</input>
+      <input clear="false">t3</input>
+      <output>t3</output>
+    </if>
+    <if less="true">
+      <input clear="false">t2</input>
+      <input clear="false">t1</input>
+      <input clear="false">t</input>
+      <input clear="false">t2</input>
+      <output>t2</output>
+    </if>
+    <if less="true">
+      <input clear="false">t1</input>
+      <input clear="false">t0</input>
+      <input clear="false">t</input>
+      <input clear="false">t1</input>
+      <output>t1</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <input clear="false">t0</input>
+      <output>t0</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t5</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t5</input>
+      <output>t5effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t4</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t4</input>
+      <output>t4effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t3</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t3</input>
+      <output>t3effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t2</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t2</input>
+      <output>t2effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t1</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t1</input>
+      <output>t1effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t0</input>
+      <output>t0effective</output>
+    </if>
+    <subtract>
+      <input clear="false">t5effective</input>
+      <input clear="false">t4effective</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t4effective</input>
+      <input clear="false">t3effective</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t3effective</input>
+      <input clear="false">t2effective</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t2effective</input>
+      <input clear="false">t1effective</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input>t5effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt05</output>
+    </subtract>
+    <subtract>
+      <input>t4effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt04</output>
+    </subtract>
+    <subtract>
+      <input>t3effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt03</output>
+    </subtract>
+    <subtract>
+      <input>t2effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt02</output>
+    </subtract>
+    <subtract>
+      <input>t1effective</input>
+      <input>t0effective</input>
+      <output>dt01</output>
+    </subtract>
+  </analysis>
+  <export>
+    <set name="Simple">
+      <data name="Start (s)">t0</data>
+      <data name="Stop (s)">t1</data>
+      <data name="Difference (s)">dt01</data>
+    </set>
+    <set name="Multiple">
+      <data name="Start (s)">t0</data>
+      <data name="Stop 1 (s)">t1</data>
+      <data name="Stop 2 (s)">t2</data>
+      <data name="Stop 3 (s)">t3</data>
+      <data name="Stop 4 (s)">t4</data>
+      <data name="Stop 5 (s)">t5</data>
+    </set>
+  </export>
 </phyphox>

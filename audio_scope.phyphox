@@ -1,147 +1,166 @@
 <phyphox version="1.6" locale="en">
-    <title>Audio Scope</title>
-    <category>Acoustics</category>
-    <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
-    <description>
+  <title>Audio Scope</title>
+  <category>Acoustics</category>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
+  <description>
         Show recorded audio data.
 
         This experiment just records short periods of audio data and displays them. To achieve a steady image, a zero crossing is used as a trigger and t=0 is shifted to the first (positive) crossing.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Scope</link>
-    <translations>
-        <translation locale="de">
-            <title>Audio Oszilloskop</title>
-            <category>Akustik</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Scope</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Oszilloskop</title>
+      <category>Akustik</category>
+      <description>
         Stellt Audioaufnahmen dar.
 
                 Dieses Experiment nimmt Audiodaten über das Mikrofon auf und stellt diese dar. Um ein stabiles Bild zu zeigen, wird ähnlich einem Oszilloskop ein Trigger verwendet, wenn das Signal die Nulllinie durchläuft und die Zeitskala so verschoben, dass t=0 auf der ersten positiven Flanke liegt.
     </description>
-
-            <string original="Scope">Oszilloskop</string>
-            <string original="Audio Data">Audiodaten</string>
-            <string original="Time (ms)">Zeit (ms)</string>
-            <string original="Duration">Dauer</string>
-        </translation>
-    <translation locale="cs"><title>Zvukový záznam</title><category>Akustika</category><description>
+      <string original="Scope">Oszilloskop</string>
+      <string original="Audio Data">Audiodaten</string>
+      <string original="Time (ms)">Zeit (ms)</string>
+      <string original="Duration">Dauer</string>
+    </translation>
+    <translation locale="cs">
+      <title>Zvukový záznam</title>
+      <category>Akustika</category>
+      <description>
         Ukáže zaznamenaná zvuková data
 
 Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.
-    </description><string original="Scope">Záznam</string><string original="Audio Data">Zvuková data</string><string original="Time (ms)">Čas (ms)</string><string original="Amplitude (a.u.)">Amplituda</string><string original="Duration">Trvání</string></translation><translation locale="pl"><title>Oscylogram audio</title><category>Akustyka</category><description>
+    </description>
+      <string original="Scope">Záznam</string>
+      <string original="Audio Data">Zvuková data</string>
+      <string original="Time (ms)">Čas (ms)</string>
+      <string original="Amplitude (a.u.)">Amplituda</string>
+      <string original="Duration">Trvání</string>
+    </translation>
+    <translation locale="pl">
+      <title>Oscylogram audio</title>
+      <category>Akustyka</category>
+      <description>
         Prezentuj zarejestrowane przebiegi akustyczne.
 
         W eksperymencie rejestrowane są fragmenty nagrań dźwiękowych, które następnie są wizualizowane w postaci akustycznych przebiegów czasowych. Aby uzyskać stabilny obraz przebiegu przejście przez zerową wartość amplitudy zostało wybrane do wyzwalania rejestracji danych oraz t=0 zostało przypisane do pierwszego przejścia (w kierunku wartości dodatnich).
-    </description><string original="Scope">Oscylogram</string><string original="Audio Data">Dane audio</string><string original="Time (ms)">Czas (ms)</string><string original="Amplitude (a.u.)">Amplituda (j.u.)</string><string original="Duration">Przedziały</string></translation><translation locale="nl"><title>Audio scope</title><category>Geluid</category><description>
+    </description>
+      <string original="Scope">Oscylogram</string>
+      <string original="Audio Data">Dane audio</string>
+      <string original="Time (ms)">Czas (ms)</string>
+      <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
+      <string original="Duration">Przedziały</string>
+    </translation>
+    <translation locale="nl">
+      <title>Audio scoop</title>
+      <category>Geluid</category>
+      <description>
         Toon opgenomen audio data.
 
          Dit experiment registreert slechts korte periodes van audio data en geeft deze weer. Voor een stabiel beeld wordt een nuldoorgang als trigger gebruikt en wordt t = 0 naar het eerste (positieve) snijpunt verplaatst.
-    </description><string original="Time (ms)">Tijd (ms)</string><string original="Duration">Duurtijd</string></translation></translations>
-    <data-containers>
-        <container size="26400">recording</container>
-        <container>rate</container>
-        <container>tmax</container>
-        <container size="26400" static="true">time</container>
-        <container size="26400">subtime0</container>
-        <container size="2">triggerTMinList</container>
-        <container>triggerT</container>
-        <container>triggerTend</container>
-        <container size="24000">subtime</container>
-        <container size="24000">subdata</container>
-        <container init="10">length</container>
-        <container>sleep1000</container>
-        <container init="0.1">sleep</container>
-        <container init="0.1">effective_sleep</container>
-    </data-containers>
-    <input>
-        <audio>
-            <output>recording</output>
-            <output component="rate">rate</output>
-        </audio>
-    </input>
-    <views>
-        <view label="Scope">
-            <graph label="Audio Data" labelX="Time (ms)" labelY="Amplitude (a.u.)" scaleMinY="extend" scaleMaxY="extend">
-                <input axis="x">subtime0</input>
-                <input axis="y">subdata</input>
-            </graph>
-            <edit label="Duration" unit="ms" min="1" max="500">
-                <output>length</output>
-            </edit>
-        </view>
-    </views>
-    <analysis sleep="0.1" dynamicSleep="sleep">
-        <add>
-            <input clear="false">length</input>
-            <input type="value">50</input>
-            <output>sleep1000</output>
-        </add>
-
-        <divide>
-            <input clear="false">sleep1000</input>
-            <input type="value">1000</input>
-            <output>sleep</output>
-        </divide>
-
-        <if less="true">
-            <input clear="false">sleep</input>
-            <input type="value">0.1</input>
-            <input type="value">0.1</input>
-            <input clear="false">sleep</input>
-            <output>effective_sleep</output>
-        </if>
-
-        <divide>
-            <input type="value">26400000</input> <!-- 26400 / rate * 1000 -->
-            <input clear="false">rate</input>
-            <output>tmax</output>
-        </divide>
-
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" clear="false">tmax</input>
-            <output>time</output>
-        </ramp>
-
-        <append>
-            <input type="value">50</input>
-            <output>triggerTMinList</output>
-        </append>
-
-        <threshold falling="false">
-            <input as="y" clear="false">recording</input>
-            <input as="x">time</input>
-            <output clear="false">triggerTMinList</output>
-        </threshold>
-
-        <min>
-            <input as="y">triggerTMinList</input>
-            <output as="min">triggerT</output>
-        </min>
-
-        <add>
-            <input clear="false">triggerT</input>
-            <input clear="false">length</input>
-            <output>triggerTend</output>
-        </add>
-        <rangefilter>
-            <input>time</input>
-            <input as="min">triggerT</input>
-            <input as="max">triggerTend</input>
-            <input>recording</input>
-            <output>subtime</output>
-            <output>subdata</output>
-         </rangefilter>
-
-        <match>
-            <input clear="false">time</input>
-            <input clear="false">subdata</input>
-            <output>subtime0</output>
-        </match>
-    </analysis>
-    <export>
-        <set name="Audio data">
-            <data name="Time (ms)">subtime0</data>
-            <data name="Recording (a.u.)">subdata</data>
-        </set>
-    </export>
+    </description>
+      <string original="Time (ms)">Tijd (ms)</string>
+      <string original="Duration">Duurtijd</string>
+      <string original="Scope">Scoop</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="26400">recording</container>
+    <container>rate</container>
+    <container>tmax</container>
+    <container size="26400" static="true">time</container>
+    <container size="26400">subtime0</container>
+    <container size="2">triggerTMinList</container>
+    <container>triggerT</container>
+    <container>triggerTend</container>
+    <container size="24000">subtime</container>
+    <container size="24000">subdata</container>
+    <container init="10">length</container>
+    <container>sleep1000</container>
+    <container init="0.1">sleep</container>
+    <container init="0.1">effective_sleep</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Scope">
+      <graph label="Audio Data" labelX="Time (ms)" labelY="Amplitude (a.u.)" scaleMinY="extend" scaleMaxY="extend">
+        <input axis="x">subtime0</input>
+        <input axis="y">subdata</input>
+      </graph>
+      <edit label="Duration" unit="ms" min="1" max="500">
+        <output>length</output>
+      </edit>
+    </view>
+  </views>
+  <analysis sleep="0.1" dynamicSleep="sleep">
+    <add>
+      <input clear="false">length</input>
+      <input type="value">50</input>
+      <output>sleep1000</output>
+    </add>
+    <divide>
+      <input clear="false">sleep1000</input>
+      <input type="value">1000</input>
+      <output>sleep</output>
+    </divide>
+    <if less="true">
+      <input clear="false">sleep</input>
+      <input type="value">0.1</input>
+      <input type="value">0.1</input>
+      <input clear="false">sleep</input>
+      <output>effective_sleep</output>
+    </if>
+    <divide>
+      <input type="value">26400000</input>
+      <!-- 26400 / rate * 1000 -->
+      <input clear="false">rate</input>
+      <output>tmax</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">tmax</input>
+      <output>time</output>
+    </ramp>
+    <append>
+      <input type="value">50</input>
+      <output>triggerTMinList</output>
+    </append>
+    <threshold falling="false">
+      <input as="y" clear="false">recording</input>
+      <input as="x">time</input>
+      <output clear="false">triggerTMinList</output>
+    </threshold>
+    <min>
+      <input as="y">triggerTMinList</input>
+      <output as="min">triggerT</output>
+    </min>
+    <add>
+      <input clear="false">triggerT</input>
+      <input clear="false">length</input>
+      <output>triggerTend</output>
+    </add>
+    <rangefilter>
+      <input>time</input>
+      <input as="min">triggerT</input>
+      <input as="max">triggerTend</input>
+      <input>recording</input>
+      <output>subtime</output>
+      <output>subdata</output>
+    </rangefilter>
+    <match>
+      <input clear="false">time</input>
+      <input clear="false">subdata</input>
+      <output>subtime0</output>
+    </match>
+  </analysis>
+  <export>
+    <set name="Audio data">
+      <data name="Time (ms)">subtime0</data>
+      <data name="Recording (a.u.)">subdata</data>
+    </set>
+  </export>
 </phyphox>
