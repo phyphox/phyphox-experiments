@@ -17,8 +17,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <container>threshold_high</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
-    <container size="0">traw</container>
-    <container init="0">t0</container>
     <container size="0">search_a</container>
     <container size="0">search_t</container>
     <container size="0">trigger_t</container>
@@ -231,7 +229,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
   </translations>
   <input>
     <sensor type="light">
-      <output component="t">traw</output>
+      <output component="t">t</output>
       <output component="x">amplitude</output>
     </sensor>
   </input>
@@ -372,12 +370,54 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </view>
   </views>
   <analysis>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input clear="false">traw</input>
-      <output clear="false">t0</output>
-    </if>
+    <append>
+        <input type="value">0</input>
+        <output>on0</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>on1</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>on2</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>on3</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>on4</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>on5</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off0</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off1</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off2</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off3</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off4</output>
+    </append>
+    <append>
+        <input type="value">0</input>
+        <output>off5</output>
+    </append>
     <if greater="true">
       <input clear="false">reset</input>
       <input type="value">0</input>
@@ -388,169 +428,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <input clear="false">reset</input>
       <input type="value">0</input>
       <input type="empty"/>
-      <output>traw</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on0</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off0</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on1</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off1</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on2</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off2</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on3</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off3</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on4</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off4</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>on5</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <output>off5</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don0</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don1</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don2</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don3</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don4</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>don5</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt01</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt12</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt23</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt34</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt45</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt02</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt03</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt04</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>dt05</output>
+      <output>t</output>
     </if>
     <append>
       <input type="value">0</input>
@@ -560,11 +438,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <input type="value">0</input>
       <output>trigger_last</output>
     </append>
-    <subtract>
-      <input clear="false">traw</input>
-      <input clear="false">t0</input>
-      <output>t</output>
-    </subtract>
     <rangefilter>
       <input clear="false">t</input>
       <input as="min" type="value">0.001</input>
@@ -586,7 +459,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on0</output>
+      <output as="min" clear="false">on0</output>
     </min>
     <if greater="true">
       <input clear="false">on0</input>
@@ -616,7 +489,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off0</output>
+      <output clear="false">off0</output>
     </first>
     <if greater="true">
       <input clear="false">off0</input>
@@ -651,7 +524,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on1</output>
+      <output as="min" clear="false">on1</output>
     </min>
     <if greater="true">
       <input clear="false">on1</input>
@@ -681,7 +554,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off1</output>
+      <output clear="false">off1</output>
     </first>
     <!-- 2 -->
     <if greater="true">
@@ -717,7 +590,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on2</output>
+      <output as="min" clear="false">on2</output>
     </min>
     <if greater="true">
       <input clear="false">on2</input>
@@ -747,7 +620,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off2</output>
+      <output clear="false">off2</output>
     </first>
     <!-- 3 -->
     <if greater="true">
@@ -783,7 +656,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on3</output>
+      <output as="min" clear="false">on3</output>
     </min>
     <if greater="true">
       <input clear="false">on3</input>
@@ -813,7 +686,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off3</output>
+      <output clear="false">off3</output>
     </first>
     <!-- 4 -->
     <if greater="true">
@@ -849,7 +722,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on4</output>
+      <output as="min" clear="false">on4</output>
     </min>
     <if greater="true">
       <input clear="false">on4</input>
@@ -879,7 +752,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off4</output>
+      <output clear="false">off4</output>
     </first>
     <!-- 5 -->
     <if greater="true">
@@ -915,7 +788,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <min>
       <input as="y">trigger_t</input>
-      <output as="min">on5</output>
+      <output as="min" clear="false">on5</output>
     </min>
     <if greater="true">
       <input clear="false">on5</input>
@@ -945,7 +818,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
     </rangefilter>
     <first>
       <input>trigger_t</input>
-      <output>off5</output>
+      <output clear="false">off5</output>
     </first>
     <!-- Collect results -->
     <subtract>
