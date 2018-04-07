@@ -241,41 +241,52 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
     <view label="Heights">
       <value label="Height 0" size="2" precision="2" unit="cm" factor="100">
         <input>h0</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Height 1" size="2" precision="2" unit="cm" factor="100">
         <input>h1</input>
+        <map max="0">-</map>
       </value>
       <value label="Time 1" precision="3" unit="s">
         <input>dt01</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Height 2" size="2" precision="2" unit="cm" factor="100">
         <input>h2</input>
+        <map max="0">-</map>
       </value>
       <value label="Time 2" precision="3" unit="s">
         <input>dt12</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Height 3" size="2" precision="2" unit="cm" factor="100">
         <input>h3</input>
+        <map max="0">-</map>
       </value>
       <value label="Time 3" precision="3" unit="s">
         <input>dt23</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Height 4" size="2" precision="2" unit="cm" factor="100">
         <input>h4</input>
+        <map max="0">-</map>
       </value>
       <value label="Time 4" precision="3" unit="s">
         <input>dt34</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Height 5" size="2" precision="2" unit="cm" factor="100">
         <input>h5</input>
+        <map max="0">-</map>
       </value>
       <value label="Time 5" precision="3" unit="s">
         <input>dt45</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <button label="Reset">
@@ -298,34 +309,43 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
     <view label="Energy">
       <value label="Energy 1" size="2" precision="1" unit="%" factor="100">
         <input>E1</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Energy 2" size="2" precision="1" unit="%" factor="100">
         <input>E2</input>
+        <map max="0">-</map>
       </value>
       <value label="Retained on collision 2" precision="1" unit="%" factor="100">
         <input>E12</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Energy 3" size="2" precision="1" unit="%" factor="100">
         <input>E3</input>
+        <map max="0">-</map>
       </value>
       <value label="Retained on collision 3" precision="1" unit="%" factor="100">
         <input>E23</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Energy 4" size="2" precision="1" unit="%" factor="100">
         <input>E4</input>
+        <map max="0">-</map>
       </value>
       <value label="Retained on collision 4" precision="1" unit="%" factor="100">
         <input>E34</input>
+        <map max="0">-</map>
       </value>
       <separator height="1"/>
       <value label="Energy 5" size="2" precision="1" unit="%" factor="100">
         <input>E5</input>
+        <map max="0">-</map>
       </value>
       <value label="Retained on collision 5" precision="1" unit="%" factor="100">
         <input>E45</input>
+        <map max="0">-</map>
       </value>
       <separator height="0.5"/>
       <separator color="a0a0a0"/>
@@ -494,6 +514,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input clear="false">t0</input>
       <output>t0</output>
     </if>
+
     <add>
       <input clear="false">index</input>
       <input>count</input>
@@ -571,6 +592,31 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input>t0effective</input>
       <output>dt01</output>
     </subtract>
+
+    <!-- dt23, dt34 and dt45 are optional. We want to hide them if we did not measure them confidently -->
+
+    <if greater="true">
+      <input clear="false">dt23</input>
+      <input clear="false">dt12</input>
+      <input type="value">0</input>
+      <input clear="false">dt23</input>
+      <output>dt23</output>
+    </if>
+    <if greater="true">
+      <input clear="false">dt34</input>
+      <input clear="false">dt23</input>
+      <input type="value">0</input>
+      <input clear="false">dt34</input>
+      <output>dt34</output>
+    </if>
+    <if greater="true">
+      <input clear="false">dt45</input>
+      <input clear="false">dt34</input>
+      <input type="value">0</input>
+      <input clear="false">dt45</input>
+      <output>dt45</output>
+    </if>
+
     <multiply>
       <input clear="false">dt01</input>
       <input clear="false">dt01</input>
