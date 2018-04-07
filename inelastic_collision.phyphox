@@ -207,6 +207,9 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
     <container>dt23</container>
     <container>dt34</container>
     <container>dt45</container>
+    <container>dt23show</container>
+    <container>dt34show</container>
+    <container>dt45show</container>
     <container>dt01_2</container>
     <container>dt12_2</container>
     <container>dt23_2</container>
@@ -267,7 +270,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
         <map max="0">-</map>
       </value>
       <value label="Time 3" precision="3" unit="s">
-        <input>dt23</input>
+        <input>dt23show</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
@@ -276,7 +279,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
         <map max="0">-</map>
       </value>
       <value label="Time 4" precision="3" unit="s">
-        <input>dt34</input>
+        <input>dt34show</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
@@ -285,7 +288,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
         <map max="0">-</map>
       </value>
       <value label="Time 5" precision="3" unit="s">
-        <input>dt45</input>
+        <input>dt45show</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
@@ -616,6 +619,19 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input clear="false">dt45</input>
       <output>dt45</output>
     </if>
+
+    <append>
+      <input clear="false">dt23</input>
+      <output>dt23show</output>
+    </append>
+    <append>
+      <input clear="false">dt34</input>
+      <output>dt34show</output>
+    </append>
+    <append>
+      <input clear="false">dt45</input>
+      <output>dt45show</output>
+    </append>
 
     <multiply>
       <input clear="false">dt01</input>
