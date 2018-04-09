@@ -87,6 +87,28 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
       <string original="Time">Tijd</string>
       <string original="Angular velocity">Hoeksnelheid</string>
     </translation>
+    <translation locale="ru">
+      <title>Центростремительное ускорение</title>
+      <category>Механика</category>
+      <description>
+        Визуализирует центростремительное ускорение как функцию угловой скорости.
+
+         Этот эксперимент вычисляет абсолютное значение угловой скорости ω гироскопа, а также абсолютное ускорение a акселерометра. При построении графика против ω показывается отношение a = r · ω², поэтому построение против ω² должно приводить к прямой линии. 
+
+         Чтобы убедиться в этом, вам нужно произвести измерения с разными угловыми скоростями, но с фиксированным радиусом. Центрифуга для сушки зелени или маленькая карусель могут помочь вам в этом.
+    </description>
+      <string original="Relation">Соотношение</string>
+      <string original="Acceleration">Ускорение</string>
+      <string original="Angular velocity ω (rad/s)">Угловая скорость ω (рад/с)</string>
+      <string original="Acceleration a (m/s²)">Ускорение a (м/с²)</string>
+      <string original="Square plot">График квадратичной зависимости</string>
+      <string original="ω² (rad/s)²">ω² (рад/с)²</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Time">Время</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Angular velocity">Угловая скорость</string>
+      <string original="ω (rad/s)">ω (рад/с)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

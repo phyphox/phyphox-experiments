@@ -36,6 +36,16 @@
       <string original="Pressure">Druk</string>
       <string original="Simple">Eenvoudig</string>
     </translation>
+    <translation locale="ru">
+      <title>Давление</title>
+      <category>Исходные датчики</category>
+      <description>Получите необработанные данные с барометра.</description>
+      <string original="Graph">График</string>
+      <string original="Pressure">Давление</string>
+      <string original="t (s)">t (c)</string>
+      <string original="p (hPa)">p (гПа)</string>
+      <string original="Simple">Упрощённое</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

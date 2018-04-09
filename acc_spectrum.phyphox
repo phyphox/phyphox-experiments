@@ -108,6 +108,33 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">Versnelling y</string>
       <string original="Acceleration z">Versnelling z</string>
     </translation>
+    <translation locale="ru">
+      <title>Спектр ускорения</title>
+      <category>Инструменты</category>
+      <description>
+            Отобразить частотный спектр данных с акселерометра.
+
+            Этот эксперимент записывает данные с акселерометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Settings">Установки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Необработанные данные</string>
+      <string original="Acceleration x">Ускорение x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Acceleration y">Ускорение y</string>
+      <string original="Acceleration z">Ускорение z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accInX</container>

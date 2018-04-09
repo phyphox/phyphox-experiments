@@ -65,6 +65,23 @@
       <string original="Frequency low">Lage frequentie</string>
       <string original="Frequency high">Hoge frequentie</string>
     </translation>
+    <translation locale="ru">
+      <title>Генератор тона</title>
+      <category>Акустика</category>
+      <description>
+        Генерирует тон определенной частоты.
+    </description>
+      <string original="Tone generator">Генератор тона</string>
+      <string original="Frequency">Частота</string>
+      <string original="Signal">Сигнал</string>
+      <string original="Time (s)">Время (с)</string>
+      <string original="A (a.u.)">А (пр. е.)</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Хотя phyphox позволяет устанавливать произвольные частоты, вы можете получить плохие результаты для частот ниже 100 Гц и выше 8000 Гц из-за ограничений оборудования.</string>
+      <string original="Status">Статус</string>
+      <string original="Frequency low">Низкая частота</string>
+      <string original="Frequency high">Высокая частота</string>
+      <string original="OK">ОК</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

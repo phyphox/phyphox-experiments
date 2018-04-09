@@ -54,6 +54,19 @@
             </string>
       <string original="Simple">Eenvoudig</string>
     </translation>
+    <translation locale="ru">
+      <title>Свет</title>
+      <category>Исходные датчики</category>
+      <description>Получите необработанные данные с датчика освещенности.</description>
+      <string original="Graph">График</string>
+      <string original="Illuminance">Освещённость</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Ev (lx)">Ev (лк)</string>
+      <string original="Info">
+                Примечание: на некоторых устройствах датчик освещенности реагирует только на сильное изменение светового потока.
+            </string>
+      <string original="Simple">Упрощённое</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

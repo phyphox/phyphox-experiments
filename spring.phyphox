@@ -112,6 +112,34 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
     </translation>
+    <translation locale="ru">
+      <title>Пружины</title>
+      <category>Механика</category>
+      <description>
+        Проанализируйте частоту и период пружинного осциллятора.
+
+       Этот эксперимент использует акселерометр для измерения движения осциллятора и вычисляет период колебаний T. Кроме того, в меню «Резонанс» он отображает амплитуду по обнаруженной частоте. Таким образом, вы можете получить вынужденные колебания и изменить их частоту для измерения резонансна.
+
+       Дальнейшие подробности:
+       Период колебаний получается через автокорреляцию суммы всех трех компонентов акселерометра. Затем автокорреляция анализируется по первому максимуму для первичной оценки, а последний максимум автокорреляции используется для получения более точного результата.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="Period">Период</string>
+      <string original="Frequency">Частота</string>
+      <string original="Resonance">Резонанс</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="Rel. amplitude (a.u.)">Относительная амплитуда (пр. е.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
+      <string original="Autocorrelation">Автокорреляция</string>
+      <string original="Δt (s)">Δt (с)</string>
+      <string original="correlation (a.u.)">корреляция (пр. е.)</string>
+      <string original="Raw Data">Необработанные данные</string>
+      <string original="Accelerometer x">Акселерометр x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Accelerometer y">Акселерометр y</string>
+      <string original="Accelerometer z">Акселерометр z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

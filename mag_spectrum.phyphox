@@ -108,6 +108,33 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field y">Magnetisch veld y</string>
       <string original="Magnetic field z">Magnetisch veld z</string>
     </translation>
+    <translation locale="ru">
+      <title>Магнитный спектр</title>
+      <category>Инструменты</category>
+      <description>
+            Отобразить частотный спектр магнитометра.
+
+            Этот эксперимент записывает данные с магнитометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Settings">Установки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Необработанные данные</string>
+      <string original="Magnetic field x">Магнитное поле x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="B (µT)">B (µТл)</string>
+      <string original="Magnetic field y">Магнитное поле y</string>
+      <string original="Magnetic field z">Магнитное поле z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">magInX</container>

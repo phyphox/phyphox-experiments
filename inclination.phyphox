@@ -67,6 +67,21 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="Angle (°)">Hoek (°)</string>
       <string original="Rotation">Rotatie</string>
     </translation>
+    <translation locale="ru">
+      <title>Наклон</title>
+      <category>Инструменты</category>
+      <description>
+        Измерьте угол наклона телефона.
+
+        Этот инструмент использует акселерометр для определения наклона телефона. Когда телефон покоится на столе, наклон равен нулю. При ненулевом наклоне направление наклона задается как вращение.
+
+        Обратите внимание, что выбор углов для измерения наклона (особенно для экспериментов на наклонной плоскости) не зависит от поворота (вокруг оси z) телефона.
+    </description>
+      <string original="Inclination">Наклон</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Angle (°)">Угол (°)</string>
+      <string original="Rotation">Вращение</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

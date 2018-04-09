@@ -134,6 +134,40 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="Why can't we get a better calibration?">Waarom kunnen we geen betere kalibratie verkrijgen?</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">We wilden een eenvoudige procedure om studenten in staat te stellen vergelijkbare gegevens op verschillende apparaten te krijgen. Met degelijke apparatuur zou je de frequentie-afhankelijkheid van je microfoon ook kunnen kalibreren en misschien zelfs compenseren voor niet-lineaire reacties. Als u dergelijke apparatuur heeft en het wilt proberen, laat het ons dan weten - we hebben al phyphox-experimenten die meer geavanceerde kalibratietechnieken mogelijk maken.</string>
     </translation>
+    <translation locale="ru">
+      <title>Амплитуда звука</title>
+      <category>Акустика</category>
+      <description>
+        Получите амплитуду звуков.  
+
+        Эти эксперименты записывают короткие интервалы с микрофона и вычисляют уровень звукового давления (SPL англ.: sound pressure level). Обратите внимание, что это вычисление является очень тривиальным подходом, и результаты могут быть довольно неточными. Кроме того, вам нужно будет дать ссылку на калибровку измерения.
+    </description>
+      <string original="Amplitude">Амплитуда</string>
+      <string original="Status">Статус</string>
+      <string original="NOT calibrated">НЕ откалиброван</string>
+      <string original="calibrated">калиброванный</string>
+      <string original="Sound pressure level">Уровень звукового давления</string>
+      <string original="History">История</string>
+      <string original="Time (s)">Время (с)</string>
+      <string original="SPL (dB)">SPL (дБ)</string>
+      <string original="Clear history">Очистить историю</string>
+      <string original="Please see the calibration tab to get proper results.">Для получения правильных результатов см. вкладку "калибровка".</string>
+      <string original="Calibration">Калибровка</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">В этом эксперименте используется довольно простой подход для определения уровня звукового давления (SPL). Вам понадобится стандартный звук с известной амплитудой в дБ. Например, вы можете настроить источник стационарного шума и измерить уровень его звукового давления с помощью внешнего устройства. Введите измеренный уровень в качестве стандартного звукового давления и нажмите «откалибровать» во время выполнения эксперимента.</string>
+      <string original="Reference SPL">Стандартный SPL</string>
+      <string original="Calibrate">Калибровать</string>
+      <string original="Calibration offset">Смещение калибровки</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Если вы уже делали это раньше на данном устроистве или с помощью идентичного устройства, то вы можете ввести смещение калибровки от предыдущей калибровки напрямую и нажать «установить смещение».</string>
+      <string original="Custom offset">Индивидуальное смещение</string>
+      <string original="Set offset">Установить смещение</string>
+      <string original="FAQ">Вопросы-Ответы</string>
+      <string original="How accurate are these results?">Насколько точны эти результаты?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Для обучения и изучения? Подходит. Для серьезных исследований? Вероятно нет, но другие приложения могут работать лучше (см. ниже). Для научных или связанных со здоровьем приложений? Разумеется нет, используйте для этого специальные устройства.</string>
+      <string original="Why isn't this already calibrated?">Почему это ещё не откалибровано?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox доступен на более чем 10000 устройствах. Большинство из них имеют разные микрофоны, различную электронику и различное программное обеспечение - все это влияет на их акустические характеристики. Мы не можем их всех откалибровать, но в некоторых случаях есть приложения, предназначенные только для ограниченного количества устройств (например, приложений, специфичных для iPhone), которые могут откалибровать эти несколько устройств. Если вас интересуют улучшенные результаты без калибровки, то вам необходимо найти конкретные приложения для своего устройства.</string>
+      <string original="Why can't we get a better calibration?">Почему мы не можем получить улучшенную калибровку?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Нам нужна простая процедура, позволяющая студентам получать сравнимые данные на разных устройствах. При надлежащем оборудовании вы также можете откалибровать частотную зависимость вашего микрофона и, возможно, даже компенсировать нелинейные ответы. Если у вас есть такое оборудование и вы хотите попробовать его, сообщите нам, у нас уже есть phyphox-эксперименты, которые позволяют использовать более совершенные методы калибровки.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

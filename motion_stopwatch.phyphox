@@ -143,6 +143,31 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Time 4">Tijdstip 4</string>
       <string original="Time 5">Tijdstip 5</string>
     </translation>
+    <translation locale="ru">
+      <title>Секундомер движения</title>
+      <category>Таймеры</category>
+      <description>
+        Получите время между двумя событиями движения.
+
+        Этот эксперимент позволяет измерять время между двумя ускорениями (например, небольшие толчки). Вы можете настроить порог, указав уровень, на котором запускается секундомер.
+
+        После запуска эксперимента секундомер стартует с первого (общего) ускорения, превышающего пороговое значение, и будет остановлен при втором ускорении. Убедитесь, что первое ускорение является коротким, поскольку длительная вибрация может быть принята как сигнал к остановке измерения.
+    </description>
+      <string original="Simple">Упрощённое</string>
+      <string original="Threshold">Порог</string>
+      <string original="Minimum Delay">Минимальная задержка</string>
+      <string original="Time">Время</string>
+      <string original="Reset">Сброс</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Измените пороговое значение выше уровня помех датчика, но ниже ускорения триггера (вы можете попробовать эксперимент «акселерометр без g», чтобы пределить их). Также установите минимальную задержку, чтобы избежать срабатывания триггеров для более коротких отрезков времени.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Точность этого эксперимента зависит от акселерометра в вашем телефоне. Быстрые акселерометры могут измерять быстрее сотой секунды, в то время как медленные достигают разрешения в одну секунду.</string>
+      <string original="Sequence">Последовательность</string>
+      <string original="Time 1">Время 1</string>
+      <string original="Time 2">Время 2</string>
+      <string original="Time 3">Время 3</string>
+      <string original="Time 4">Время 4</string>
+      <string original="Time 5">Время 5</string>
+      <string original="Parallel">Сравнить</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

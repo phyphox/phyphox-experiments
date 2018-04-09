@@ -89,6 +89,31 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
       <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
     </translation>
+    <translation locale="ru">
+      <title>Магнитная линейка</title>
+      <category>Инструменты</category>
+      <description>
+        Используйте ряд магнитов для измерения расстояния, скорости и ускорения телефона.
+
+       Для этого эксперимента вы должны разместить серию одинаковых магнитов вдоль линии, по которой телефон будет перемещаться. Расстояние между магнитами должно быть одинаковым и его необходимо задать в соответствующее поле. Затем телефон будет использовать свой магнитометр, чтобы определить, когда он прошел каждый магнит, что позволяет рассчитать общее пройденное расстояние.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="dx is the distance between two magnets">dx - расстояние между двумя магнитами</string>
+      <string original="Distance">Дистанция</string>
+      <string original="t (s)">t (c)</string>
+      <string original="x (m)">x (м)</string>
+      <string original="Velocity">Скорость</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="Raw Data">Необработанные данные</string>
+      <string original="Magnetic field x">Магнитное поле x</string>
+      <string original="Bx (µT)">Bx (µTл)</string>
+      <string original="Magnetic field y">Магнитное поле y</string>
+      <string original="By (µT)">By (µTл)</string>
+      <string original="Magnetic field z">Магнитное поле z</string>
+      <string original="Bz (µT)">Bz (µTл)</string>
+      <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
+      <string original="Filtered B² (µT²)">B² (μTл²) с поправкой</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

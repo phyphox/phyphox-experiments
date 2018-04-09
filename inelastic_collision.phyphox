@@ -178,6 +178,47 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Minimum Delay">Minimale vertraging</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Helaas werkt dit niet op langzame smartphones. Vergelijk eerst het akoestische chronometer-experiment met een gewone klok, om er zeker van te zijn dat het experiment werkt zoals verwacht. Als het werkt, zou dit experiment hier ook moeten werken.</string>
     </translation>
+    <translation locale="ru">
+      <title>(Не)упругое столкновение</title>
+      <category>Механика</category>
+      <description>
+        Определите потерю энергии во время (не)упругих столкновений прыгающего мячика.
+
+         В принципе, этот эксперимент работает как эксперимент с акустическим секундомером. Тем не менее, этот эксперимент предполагает, что звук исходит от мячика (или чего-то подобного), подпрыгивающего на поверхности, и вычисляет высоту прыжка и оставшуюся кинетическую энергию относительно первого скачка, анализируя интервал между звукоми от удара мячика о поверхность.
+
+         Кроме того, предполагая, что мяч сохраняет тот же процент кинетической энергии при его первом скачке, phyphox вычисляет начальную высоту 0, с которой роняется мяч.
+
+         Итак, начните эксперимент и позвольте мячу прыгать на поверхности таким образом, чтобы он создавал отчетливо слышимый звук. Вы можете изменить порог в настройках (от 0 до 1), чтобы эксперимент реагировал на уровень звука от мяча, а не на фоновый шум. Кроме того, если вам мешает эхо, вы можете также изменить минимальную задержку, чтобы установить минимальный интервал между звуковыми сигналами.
+    </description>
+      <string original="Heights">Высота</string>
+      <string original="Height 0">Высота 0</string>
+      <string original="Height 1">Высота 1</string>
+      <string original="Time 1">Время 1</string>
+      <string original="Height 2">Высота 2</string>
+      <string original="Time 2">Время 2</string>
+      <string original="Height 3">Высота 3</string>
+      <string original="Time 3">Время 3</string>
+      <string original="Height 4">Высота 4</string>
+      <string original="Time 4">Время 4</string>
+      <string original="Height 5">Высота 6</string>
+      <string original="Time 5">Время 5</string>
+      <string original="Reset">Сброс</string>
+      <string original="Energy">Энергия</string>
+      <string original="Energy 1">Энергия 1</string>
+      <string original="Energy 2">Энергия 2</string>
+      <string original="Retained on collision 2">Сохранено при столкновении 2</string>
+      <string original="Energy 3">Энергия 3</string>
+      <string original="Retained on collision 3">Сохранено при столкновении 3</string>
+      <string original="Energy 4">Энергия 4</string>
+      <string original="Retained on collision 4">Сохранено при столкновении 4</string>
+      <string original="Energy 5">Энергия 5</string>
+      <string original="Retained on collision 5">Сохранено при столкновении 5</string>
+      <string original="Average retained">Сохранённое среднее значение</string>
+      <string original="Settings">Установки</string>
+      <string original="Threshold">Порог</string>
+      <string original="Minimum Delay">Минимальная задержка</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>
@@ -517,7 +558,6 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input clear="false">t0</input>
       <output>t0</output>
     </if>
-
     <add>
       <input clear="false">index</input>
       <input>count</input>
@@ -595,9 +635,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input>t0effective</input>
       <output>dt01</output>
     </subtract>
-
     <!-- dt23, dt34 and dt45 are optional. We want to hide them if we did not measure them confidently -->
-
     <if greater="true">
       <input clear="false">dt23</input>
       <input clear="false">dt12</input>
@@ -619,7 +657,6 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input clear="false">dt45</input>
       <output>dt45</output>
     </if>
-
     <append>
       <input clear="false">dt23</input>
       <output>dt23show</output>
@@ -632,7 +669,6 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <input clear="false">dt45</input>
       <output>dt45show</output>
     </append>
-
     <multiply>
       <input clear="false">dt01</input>
       <input clear="false">dt01</input>

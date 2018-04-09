@@ -66,6 +66,23 @@
       <string original="Acceleration y">Versnelling y</string>
       <string original="Acceleration z">Versnelling z</string>
     </translation>
+    <translation locale="ru">
+      <title>Ускорение (без g)</title>
+      <category>Исходные датчики</category>
+      <description>Получите необработанные данные из так называемого линейного акселерометра, который дает фактическое ускорение не учитывая ускорения свободного падения. В отличие от «ускорение с g», этот датчик выдаёт 0, когда устройство покоится.</description>
+      <string original="Graph">График</string>
+      <string original="Linear Acceleration x">Линейное ускорение x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Linear Acceleration y">Линейное ускорение y</string>
+      <string original="Linear Acceleration z">Линейное ускорение z</string>
+      <string original="Absolute">Абсолютная величина</string>
+      <string original="Absolute acceleration">Абсолютное ускорение</string>
+      <string original="Simple">Упрощённое</string>
+      <string original="Acceleration x">Ускорение x</string>
+      <string original="Acceleration y">Ускорение y</string>
+      <string original="Acceleration z">Ускорение z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

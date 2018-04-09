@@ -100,6 +100,41 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Onbewerkte data</string>
       <string original="Recording">Opname</string>
     </translation>
+    <translation locale="ru">
+      <title>Звуковая автокорреляция</title>
+      <category>Акустика</category>
+      <description>
+        Измерьте частоту одного тона.
+
+          Этот эксперимент записывает звук на микрофон и анализирует его частоту. Это работает только в том случае, если издаётся только один тон с фиксированной частотой - если есть несколько частот (например, аккорд), то используйте эксперимент «спектр».
+
+          Анализ выполняется путем вычисления автокорреляции аудиосигнала. Затем эксперимент рассматривает все пики, которые превышают половину максимального сигнала в автокорреляции. Положение последнего из этих пиков в автокорреляции дает кратное периоду сигнала. Подсчитывая количество пиков, мы можем получить период базовой частоты.
+    </description>
+      <string original="Autocorr.">Автокорр.</string>
+      <string original="Period">Период</string>
+      <string original="Frequency">Частота</string>
+      <string original="Musical note">Музыкальная нота</string>
+      <string original="Low">Низкая</string>
+      <string original="A#2 / Bb2">A#2 / Hb2</string>
+      <string original="B2">H2</string>
+      <string original="A#3 / Bb3">A#3 / Hb3</string>
+      <string original="B3">H3</string>
+      <string original="A#4 / Bb4">A#4 / Hb4</string>
+      <string original="B4">H4</string>
+      <string original="A#5 / Bb5">A#5 / Hb5</string>
+      <string original="B5">H5</string>
+      <string original="A#6 / Bb6">A#6 / Hb6</string>
+      <string original="B6">H6</string>
+      <string original="High">Низкая</string>
+      <string original="Cents from note">Сотые части ноты</string>
+      <string original="Autocorrelation">Автокорреляция</string>
+      <string original="Δt (ms)">Δt (мс)</string>
+      <string original="correlation (a.u.)">корреляция (пр. е.)</string>
+      <string original="Raw data">Необработанные данные</string>
+      <string original="Recording">Запись</string>
+      <string original="t (ms)">t (мс)</string>
+      <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

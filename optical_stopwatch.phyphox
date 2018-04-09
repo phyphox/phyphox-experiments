@@ -226,6 +226,53 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger on 5">Trigger aan 5</string>
       <string original="Trigger off 5">Trigger uit 5</string>
     </translation>
+    <translation locale="ru">
+      <title>Оптический секундомер</title>
+      <category>Таймеры</category>
+      <description>
+        Измерьте временные интервалы с помощью светового датчика на телефоне.
+
+        В этом эксперименте вы можете использовать световой датчик своего телефона для измерения длительности между световыми вспышками. Например, вы можете измерить время между двумя событиями, блокирующими источник света.
+        
+        Обратите внимание, что точность сильно зависит от светового датчика вашего телефона. Для медленных датчиков это может быть намного больше секунды, в то время как быстрые датчики обычно не достигают точности менее десятых долей секунды. Более быстрые измерения могут быть достигнуты с использованием акустического секундомера.
+    </description>
+      <string original="Settings">Установки</string>
+      <string original="Trigger below">Нижний порог</string>
+      <string original="Trigger above">Верхний порог</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Таймер запускается как выше, так и ниже заданных пороговых значений. Если вы хотите активировать только яркое освещение, установите значение «Нижний порог» равным нулю. Если вы хотите активировать только темные события, установите значение «Верхний порог» очень высоким. Вы можете оценить подходящую границу для произвольного порога из графика ниже.</string>
+      <string original="Illuminance">Освещённость</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Ev (lx)">Ev (лк)</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Точность сильно зависит от светового датчика вашего телефона. Для медленных датчиков это может быть намного больше секунды, в то время как быстрые датчики обычно не достигают точности менее десятых долей секунды. Более быстрые измерения могут быть достигнуты с использованием акустического секундомера.</string>
+      <string original="Sequence">Последовательность</string>
+      <string original="Time 1">Время 1</string>
+      <string original="Time 2">Время 2</string>
+      <string original="Time 3">Время 3</string>
+      <string original="Time 4">Время 4</string>
+      <string original="Time 5">Время 5</string>
+      <string original="Reset">Сброс</string>
+      <string original="Parallel">Сравнить</string>
+      <string original="Duration">Продолжительность</string>
+      <string original="Trigger duration 0">Продолжительность порога 0</string>
+      <string original="Trigger duration 1">Продолжительность порога 1</string>
+      <string original="Trigger duration 2">Продолжительность порога 2</string>
+      <string original="Trigger duration 3">Продолжительность порога 3</string>
+      <string original="Trigger duration 4">Продолжительность порога 4</string>
+      <string original="Trigger duration 5">Продолжительность порога 6</string>
+      <string original="Triggers">Пороги</string>
+      <string original="Trigger on 0">Порог 0 вкл</string>
+      <string original="Trigger off 0">Порог 0 выкл</string>
+      <string original="Trigger on 1">Порог 1 вкл</string>
+      <string original="Trigger off 1">Порог 1 выкл</string>
+      <string original="Trigger on 2">Порог 2 вкл</string>
+      <string original="Trigger off 2">Порог 2 выкл</string>
+      <string original="Trigger on 3">Порог 3 вкл</string>
+      <string original="Trigger off 3">Порог 3 выкл</string>
+      <string original="Trigger on 4">Порог 4 вкл</string>
+      <string original="Trigger off 4">Порог 4 выкл</string>
+      <string original="Trigger on 5">Порог 5 вкл</string>
+      <string original="Trigger off 5">Порог 5 выкл</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">
@@ -371,52 +418,52 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
   </views>
   <analysis>
     <append>
-        <input type="value">0</input>
-        <output>on0</output>
+      <input type="value">0</input>
+      <output>on0</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>on1</output>
+      <input type="value">0</input>
+      <output>on1</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>on2</output>
+      <input type="value">0</input>
+      <output>on2</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>on3</output>
+      <input type="value">0</input>
+      <output>on3</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>on4</output>
+      <input type="value">0</input>
+      <output>on4</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>on5</output>
+      <input type="value">0</input>
+      <output>on5</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off0</output>
+      <input type="value">0</input>
+      <output>off0</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off1</output>
+      <input type="value">0</input>
+      <output>off1</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off2</output>
+      <input type="value">0</input>
+      <output>off2</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off3</output>
+      <input type="value">0</input>
+      <output>off3</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off4</output>
+      <input type="value">0</input>
+      <output>off4</output>
     </append>
     <append>
-        <input type="value">0</input>
-        <output>off5</output>
+      <input type="value">0</input>
+      <output>off5</output>
     </append>
     <if greater="true">
       <input clear="false">reset</input>

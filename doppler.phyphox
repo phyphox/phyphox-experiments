@@ -92,6 +92,28 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Speed">Snelheid</string>
       <string original="Speed (m/s)">Snelheid (m/s)</string>
     </translation>
+    <translation locale="ru">
+      <title>Эффект Допплера</title>
+      <category>Акустика</category>
+      <description>
+        Обнаружение малых частотных сдвигов эффекта Доплера.
+
+        Вам нужен генератор тона, который испускает постоянную частоту (например, 1000 Гц). Введите эту базовую частоту в настройки экспериментов и выберите диапазон обнаружения, в котором вы ожидаете сдвиг Доплеровской частоты (например, 10 Гц). Эксперимент определит записанную частоту и рассчитает относительную скорость источника звука.
+    </description>
+      <string original="Setup">Настройки</string>
+      <string original="Base frequency">Базовая частота</string>
+      <string original="Frequency range">Диапазон частот</string>
+      <string original="Time step">Временной интервал</string>
+      <string original="Speed of sound">Скорость звука</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Временной интервал определяет скорость и объем данных, которые используются для вычисления скорости. Алгоритм будет искать частоту вокруг базовой частоты в +/- диапазоне и использовать n-й период (нижний) для определения частоты. Экстремальные настройки для диапазона или временного интервала могут быть неточными или слишком сложными для расчета на вашем телефоне. Поэтому вы должны держать диапазон значительно меньше, чем 1/интервал.</string>
+      <string original="nth period">n-й период</string>
+      <string original="Results">Результаты</string>
+      <string original="Frequency">Частота</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="Speed">Скорость</string>
+      <string original="Speed (m/s)">Скорость (м/с)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

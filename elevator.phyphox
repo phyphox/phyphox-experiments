@@ -87,6 +87,30 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="Raw Data">Onbewerkte data</string>
       <string original="Pressure">Druk</string>
     </translation>
+    <translation locale="ru">
+      <title>Лифт</title>
+      <category>Повседневная жизнь</category>
+      <description>
+        Определите скорость лифта с помощью барометра.
+
+        Изменение высоты в течение короткого времени можно измерить очень точно с помощью барометра - даже там, где GPS не работает. Этот метод можно использовать для получения вертикальной скорости лифта. Кроме того, ускорение измеряется с помощью z-компоненты акселерометра, поэтому для точного измерения ускорения телефон должен лежать ровно на полу лифта.
+
+        Подробнее:
+        Чтобы частично устранить погрешности в этом эксперименте, данные барометра, считанные за 1 с, усредняются. Разница между последовательными средними значениями преобразуется в разность высот с использованием барометрической формулы. Разница в высоте с делением на разницу во времени дает вертикальную скорость.
+    </description>
+      <string original="Motion">Движение</string>
+      <string original="Height (from barometer)">Высота (барометр)</string>
+      <string original="t (s)">t (c)</string>
+      <string original="h (m)">h (м)</string>
+      <string original="Vertical velocity (from height)">Вертикальная скорость (от высоты)</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Raw Data">Необработанные данные</string>
+      <string original="Pressure">Давление</string>
+      <string original="p (hPa)">p (гПа)</string>
+      <string original="Accelerometer z">Акселерометр z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

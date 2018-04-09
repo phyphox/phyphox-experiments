@@ -63,6 +63,23 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">Onbewerkte data</string>
       <string original="Gyroscope y">Gyroscoop y</string>
     </translation>
+    <translation locale="ru">
+      <title>Рулон</title>
+      <category>Механика</category>
+      <description>
+        Поместите свой телефон в рулон и определите его скорость.
+
+      Поместите свой телефон в бумажный рулон так, чтобы он вращался вокруг самой длинной стороны. С помощью гироскопа в этом эксперименте измеряется скорость вращения, а также радиус рулона служит для вычисления скорости, с которой движется рулон.
+    </description>
+      <string original="Velocity">Скорость</string>
+      <string original="Roll radius">Радиус рулона</string>
+      <string original="t (s)">t (c)</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="v (km/h)">v (км/ч)</string>
+      <string original="Raw Data">Необработанные данные</string>
+      <string original="Gyroscope y">Гироскоп y</string>
+      <string original="ω (rad/s)">ω (рад/с)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

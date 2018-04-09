@@ -62,6 +62,20 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Duration">Duurtijd</string>
       <string original="Scope">Scoop</string>
     </translation>
+    <translation locale="ru">
+      <title>Акустический диапазон</title>
+      <category>Акустика</category>
+      <description>
+        Показать записанные аудиоданные.
+
+        Этот эксперимент записывает и отображает короткие периоды аудиоданных. Для достижения устойчивого изображения в качестве триггера используется пересечение с нулём и t = 0 сдвигается на первое (положительное) пересечение.
+    </description>
+      <string original="Scope">Диапазон</string>
+      <string original="Audio Data">Аудиоданные</string>
+      <string original="Time (ms)">Время (мс)</string>
+      <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
+      <string original="Duration">Продолжительность</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

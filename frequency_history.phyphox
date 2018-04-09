@@ -65,6 +65,21 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Period">Periode</string>
       <string original="Period (s)">Periode (s)</string>
     </translation>
+    <translation locale="ru">
+      <title>История частоты</title>
+      <category>Акустика</category>
+      <description>
+        Измерьте изменение частоты во времени для одного тона.
+
+        Этот эксперимент записывает звук через микрофон и анализирует его частоту в течение коротких периодов времени. Этот эксперимент работает только в том случае, если присутствует только один тон с фиксированной частотой, поскольку он использует автокорреляцию. Результат будет отображаться как частота во временной зависимости.
+    </description>
+      <string original="History">История</string>
+      <string original="Frequency">Частота</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="Period">Период</string>
+      <string original="Period (s)">Период (с)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

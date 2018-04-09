@@ -136,6 +136,47 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Houd er rekening mee dat sommige smartphones geen GPS-sensor hebben, maar locatiegegevens bieden via mobiele of WIFI-verbindingen. Deze gegevensbronnen produceren gegevens met onvoldoende nauwkeurigheid.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Zorg er ook voor dat de locatie-instelling van uw smartphone niet is ingesteld op "energiebesparing", omdat dit gewoonlijk de GPS uitschakelt terwijl navigatie-apps mogelijk nog steeds een vage locatie geven die wordt bepaald via het netwerk.</string>
     </translation>
+    <translation locale="ru">
+      <title>Местоположение (GPS)</title>
+      <category>Исходные датчики</category>
+      <description>
+        Получите примерное местоположение по данным спутниковой навигации.
+
+          Обратите внимание, что измерения могут зависеть от вашего смартфона. Устройства Android не предоставляют информацию о вертикальной точности, в то время как устройства iOS не предоставояют количество спутников. Кроме того, на iOS могут быть данные из других источников, смешанных с данными спутниковой навигации.
+
+          Скорость и направление обычно задаются устройством и основаны на двух или более последовательных положениях.
+    </description>
+      <string original="Graph">График</string>
+      <string original="Status">Статус</string>
+      <string original="GPS disabled">GPS отключен</string>
+      <string original="GPS active">GPS включен</string>
+      <string original="Latitude">Широта</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Longitude">Долгота</string>
+      <string original="Height">Высота</string>
+      <string original="z (m)">z (м)</string>
+      <string original="Speed">Скорость</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="Direction">Направление</string>
+      <string original="Direction (°)">Направление (°)</string>
+      <string original="Distance">Дистанция</string>
+      <string original="d (km)">d (км)</string>
+      <string original="Simple">Упрощённое</string>
+      <string original="Compass">Компас</string>
+      <string original="S">Ю</string>
+      <string original="SW">ЮЗ</string>
+      <string original="W">З</string>
+      <string original="NW">СЗ</string>
+      <string original="N">С</string>
+      <string original="NE">СВ</string>
+      <string original="E">В</string>
+      <string original="SE">ЮВ</string>
+      <string original="Horizontal Accuracy">Горизонтальная точность</string>
+      <string original="Vertical Accuracy">Вертикальная точность</string>
+      <string original="Satellites">Спутники</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Обратите внимание, что некоторые устройства не имеют GPS-датчика, но предоставляют данные о местоположении через мобильные или WIFI-соединения. Эти источники дают данные с низкой точностью.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Также убедитесь, что настройки местоположения вашей системы не установлены на «Экономный режим», потому что при этом отключается GPS, в то время как навигационные приложения могут по-прежнему показывать неопределенное местоположение, доступное через сеть интернета.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>
