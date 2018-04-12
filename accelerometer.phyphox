@@ -53,7 +53,7 @@
     </translation>
     <translation locale="ru">
       <title>Ускорение с g</title>
-      <category>Датчики</category>
+      <category>Исходные датчики</category>
       <description>Получите исходные данные с акселерометра. Этот датчик не будет вычитать гравитационную силу, поэтому он сообщяет об ускорении 9,81 м/с², даже когда телефон будет покоиться.</description>
       <string original="Graph">График</string>
       <string original="Accelerometer x">Акселерометр x</string>
