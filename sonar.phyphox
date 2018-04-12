@@ -143,6 +143,8 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay (s)">Задержка (с)</string>
       <string original="Chirp">Щебетание</string>
       <string original="Time (s)">Время (с)</string>
+      <string original="m/s">м/с</string>
+      <string original="m">м</string>
     </translation>
   </translations>
   <data-containers>

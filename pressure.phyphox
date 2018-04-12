@@ -39,12 +39,13 @@
     <translation locale="ru">
       <title>Давление</title>
       <category>Исходные датчики</category>
-      <description>Получите необработанные данные с барометра.</description>
+      <description>Получите исходные данные с барометра.</description>
       <string original="Graph">График</string>
       <string original="Pressure">Давление</string>
       <string original="t (s)">t (c)</string>
       <string original="p (hPa)">p (гПа)</string>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
+      <string original="hPa">гПа</string>
     </translation>
   </translations>
   <data-containers>

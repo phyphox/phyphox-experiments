@@ -214,10 +214,13 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Energy 5">Энергия 5</string>
       <string original="Retained on collision 5">Сохранено при столкновении 5</string>
       <string original="Average retained">Сохранённое среднее значение</string>
-      <string original="Settings">Установки</string>
+      <string original="Settings">Настройки</string>
       <string original="Threshold">Порог</string>
       <string original="Minimum Delay">Минимальная задержка</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
+      <string original="cm">см</string>
+      <string original="s">с</string>
+      <string original="a.u.">пр. е.</string>
     </translation>
   </translations>
   <data-containers>

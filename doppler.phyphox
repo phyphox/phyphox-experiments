@@ -93,7 +93,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Speed (m/s)">Snelheid (m/s)</string>
     </translation>
     <translation locale="ru">
-      <title>Эффект Допплера</title>
+      <title>Эффект Доплера</title>
       <category>Акустика</category>
       <description>
         Обнаружение малых частотных сдвигов эффекта Доплера.
@@ -113,6 +113,9 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Frequency (Hz)">Частота (Гц)</string>
       <string original="Speed">Скорость</string>
       <string original="Speed (m/s)">Скорость (м/с)</string>
+      <string original="Hz">Гц</string>
+      <string original="ms">мс</string>
+      <string original="m/s">м/с</string>
     </translation>
   </translations>
   <data-containers>

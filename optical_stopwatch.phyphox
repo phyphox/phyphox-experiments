@@ -236,7 +236,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
         
         Обратите внимание, что точность сильно зависит от светового датчика вашего телефона. Для медленных датчиков это может быть намного больше секунды, в то время как быстрые датчики обычно не достигают точности менее десятых долей секунды. Более быстрые измерения могут быть достигнуты с использованием акустического секундомера.
     </description>
-      <string original="Settings">Установки</string>
+      <string original="Settings">Настройки</string>
       <string original="Trigger below">Нижний порог</string>
       <string original="Trigger above">Верхний порог</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Таймер запускается как выше, так и ниже заданных пороговых значений. Если вы хотите активировать только яркое освещение, установите значение «Нижний порог» равным нулю. Если вы хотите активировать только темные события, установите значение «Верхний порог» очень высоким. Вы можете оценить подходящую границу для произвольного порога из графика ниже.</string>
@@ -272,6 +272,8 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Порог 4 выкл</string>
       <string original="Trigger on 5">Порог 5 вкл</string>
       <string original="Trigger off 5">Порог 5 выкл</string>
+      <string original="lx">лк</string>
+      <string original="s">с</string>
     </translation>
   </translations>
   <input>

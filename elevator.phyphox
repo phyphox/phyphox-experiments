@@ -106,7 +106,7 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="v (m/s)">v (м/с)</string>
       <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
       <string original="a (m/s²)">а (м/с²)</string>
-      <string original="Raw Data">Необработанные данные</string>
+      <string original="Raw Data">Исходные данные</string>
       <string original="Pressure">Давление</string>
       <string original="p (hPa)">p (гПа)</string>
       <string original="Accelerometer z">Акселерометр z</string>

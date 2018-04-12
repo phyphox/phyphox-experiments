@@ -81,6 +81,7 @@
       <string original="Frequency low">Низкая частота</string>
       <string original="Frequency high">Высокая частота</string>
       <string original="OK">ОК</string>
+      <string original="Hz">Гц</string>
     </translation>
   </translations>
   <data-containers>

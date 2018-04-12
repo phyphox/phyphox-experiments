@@ -108,7 +108,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <title>Магнитометр</title>
       <category>Исходные датчики</category>
       <description>
-        Получите необработанные данные с магнитометра.
+        Получите исходные данные с магнитометра.
 
         Магнитометр довольно чувствителен, поскольку он предназначен для измерения магнитного поля Земли и действует как компас. Тем не менее, он постоянно подвергается воздействию внутренних полей электроники вашего телефона, что приводит к неправильным результатам. Поэтому phyphox пытается получить калиброванное магнитное поле системы. В некоторых случаях вы не можете получить какие-либо данные, если телефон еще не откалиброван (например, после того, как он только что запустился). В этом случае вы должны повернуть свой телефон несколько раз во время проведения эксперимента. Это помогает системе откалибровать датчик. Кроме того, на многих устройствах (не на всех) вы можете переключиться на некалиброванные данные магнитометра через меню в правом верхнем углу.
 
@@ -117,19 +117,20 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Graph">График</string>
       <string original="Accuracy">Точность</string>
       <string original="Uncalibrated">Некалиброванные</string>
-      <string original="Raw data">Необработанные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Low">Низкая</string>
       <string original="Medium">Среда</string>
       <string original="High">Низкая</string>
       <string original="Magnetometer x">Магнитометр x</string>
       <string original="t (s)">t (c)</string>
-      <string original="B (µT)">B (µТл)</string>
+      <string original="B (µT)">B (мкТл)</string>
       <string original="Magnetometer y">Магнитометр y</string>
       <string original="Magnetometer z">Магнитометр z</string>
       <string original="Absolute">Абсолютная величина</string>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
       <string original="Help">Помощь</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Магнитометр в вашем телефоне постоянно подвергается воздействию внутренних полей электроники вашего телефона, что приводит к неправильным результатам. Поэтому phyphox пытается получить калиброванное магнитное поле системы. В некоторых случаях вы не можете получить какие-либо данные, если он еще не откалиброван (например, после того, как телефон только что запустился). В этом случае вы должны повернуть свой телефон несколько раз во время проведения эксперимента. Это помогает системе откалибровать датчик. Кроме того, на многих устройствах (не на всех) вы можете переключиться на некалиброванные данные магнитометра через меню в правом верхнем углу.</string>
+      <string original="µT">мкТл</string>
     </translation>
   </translations>
   <data-containers>

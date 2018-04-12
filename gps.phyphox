@@ -161,7 +161,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Direction (°)">Направление (°)</string>
       <string original="Distance">Дистанция</string>
       <string original="d (km)">d (км)</string>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
       <string original="Compass">Компас</string>
       <string original="S">Ю</string>
       <string original="SW">ЮЗ</string>
@@ -176,6 +176,10 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Satellites">Спутники</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Обратите внимание, что некоторые устройства не имеют GPS-датчика, но предоставляют данные о местоположении через мобильные или WIFI-соединения. Эти источники дают данные с низкой точностью.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Также убедитесь, что настройки местоположения вашей системы не установлены на «Экономный режим», потому что при этом отключается GPS, в то время как навигационные приложения могут по-прежнему показывать неопределенное местоположение, доступное через сеть интернета.</string>
+      <string original="m">м</string>
+      <string original="m/s">м/с</string>
+      <string original="km/h">км/ч</string>
+      <string original="km">км</string>
     </translation>
   </translations>
   <data-containers>

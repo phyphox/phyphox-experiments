@@ -110,7 +110,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </translation>
     <translation locale="ru">
       <title>Спектр ускорения</title>
-      <category>Инструменты</category>
+      <category>Измерительные инструменты</category>
       <description>
             Отобразить частотный спектр данных с акселерометра.
 
@@ -125,15 +125,17 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Period used">Используемый период</string>
       <string original="Acquisition rate">Cкорость сбора данных</string>
       <string original="Nyquist frequency">Частота Найквиста</string>
-      <string original="Settings">Установки</string>
+      <string original="Settings">Настройки</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
       <string original="Samples">Дискретизация</string>
-      <string original="Raw data">Необработанные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Acceleration x">Ускорение x</string>
       <string original="t (s)">t (c)</string>
       <string original="a (m/s²)">а (м/с²)</string>
       <string original="Acceleration y">Ускорение y</string>
       <string original="Acceleration z">Ускорение z</string>
+      <string original="Hz">Гц</string>
+      <string original="s">с</string>
     </translation>
   </translations>
   <data-containers>

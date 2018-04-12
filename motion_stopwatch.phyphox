@@ -153,7 +153,7 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
 
         После запуска эксперимента секундомер стартует с первого (общего) ускорения, превышающего пороговое значение, и будет остановлен при втором ускорении. Убедитесь, что первое ускорение является коротким, поскольку длительная вибрация может быть принята как сигнал к остановке измерения.
     </description>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
       <string original="Threshold">Порог</string>
       <string original="Minimum Delay">Минимальная задержка</string>
       <string original="Time">Время</string>
@@ -167,6 +167,8 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Time 4">Время 4</string>
       <string original="Time 5">Время 5</string>
       <string original="Parallel">Сравнить</string>
+      <string original="m/s²">м/с²</string>
+      <string original="s">с</string>
     </translation>
   </translations>
   <input>

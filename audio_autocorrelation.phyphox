@@ -130,10 +130,12 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Autocorrelation">Автокорреляция</string>
       <string original="Δt (ms)">Δt (мс)</string>
       <string original="correlation (a.u.)">корреляция (пр. е.)</string>
-      <string original="Raw data">Необработанные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Recording">Запись</string>
       <string original="t (ms)">t (мс)</string>
       <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
+      <string original="ms">мс</string>
+      <string original="Hz">Гц</string>
     </translation>
   </translations>
   <data-containers>

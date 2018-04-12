@@ -158,7 +158,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
 
        После запуска эксперимента часы запускаются по первому звуку, превышающему пороговое значение, и будут остановлены после второго звука. Чтобы повторить эксперимент, очистите данные и начните снова. Убедитесь, что первый звук достаточно короткий, так как длительный звук может быть идентифицирован как сигнал к остановке измерения.
     </description>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
       <string original="Threshold">Порог</string>
       <string original="Minimum Delay">Минимальная задержка</string>
       <string original="Time">Время</string>
@@ -172,6 +172,8 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time 4">Время 4</string>
       <string original="Time 5">Время 5</string>
       <string original="Parallel">Сравнить</string>
+      <string original="a.u.">пр. е.</string>
+      <string original="s">с</string>
     </translation>
   </translations>
   <input>

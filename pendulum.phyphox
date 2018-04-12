@@ -175,12 +175,16 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Autocorrelation">Автокорреляция</string>
       <string original="Δt (s)">Δt (с)</string>
       <string original="correlation (a.u.)">корреляция (пр. е.)</string>
-      <string original="Raw Data">Необработанные данные</string>
+      <string original="Raw Data">Исходные данные</string>
       <string original="Gyroscope x">Гироскоп x</string>
       <string original="t (s)">t (c)</string>
       <string original="ω (rad/s)">ω (рад/с)</string>
       <string original="Gyroscope y">Гироскоп y</string>
       <string original="Gyroscope z">Гироскоп z</string>
+      <string original="s">с</string>
+      <string original="Hz">Гц</string>
+      <string original="cm">см</string>
+      <string original="m/s²">м/с²</string>
     </translation>
   </translations>
   <data-containers>

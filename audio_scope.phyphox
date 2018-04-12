@@ -75,6 +75,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Time (ms)">Время (мс)</string>
       <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
       <string original="Duration">Продолжительность</string>
+      <string original="ms">мс</string>
     </translation>
   </translations>
   <data-containers>

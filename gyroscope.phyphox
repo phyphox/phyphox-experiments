@@ -53,7 +53,7 @@
     <translation locale="ru">
       <title>Гироскоп</title>
       <category>Исходные датчики</category>
-      <description>Получите необработанные данные с гироскопа.</description>
+      <description>Получите исходные данные с гироскопа.</description>
       <string original="Graph">График</string>
       <string original="Gyroscope x">Гироскоп x</string>
       <string original="t (s)">t (c)</string>
@@ -61,7 +61,8 @@
       <string original="Gyroscope y">Гироскоп y</string>
       <string original="Gyroscope z">Гироскоп z</string>
       <string original="Absolute">Абсолютная величина</string>
-      <string original="Simple">Упрощённое</string>
+      <string original="Simple">Значение</string>
+      <string original="rad/s">рад/с</string>
     </translation>
   </translations>
   <data-containers>

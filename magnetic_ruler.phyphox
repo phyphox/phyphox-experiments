@@ -91,7 +91,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
     </translation>
     <translation locale="ru">
       <title>Магнитная линейка</title>
-      <category>Инструменты</category>
+      <category>Измерительные инструменты</category>
       <description>
         Используйте ряд магнитов для измерения расстояния, скорости и ускорения телефона.
 
@@ -104,15 +104,16 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="x (m)">x (м)</string>
       <string original="Velocity">Скорость</string>
       <string original="v (m/s)">v (м/с)</string>
-      <string original="Raw Data">Необработанные данные</string>
+      <string original="Raw Data">Исходные данные</string>
       <string original="Magnetic field x">Магнитное поле x</string>
-      <string original="Bx (µT)">Bx (µTл)</string>
+      <string original="Bx (µT)">Bx (мкTл)</string>
       <string original="Magnetic field y">Магнитное поле y</string>
-      <string original="By (µT)">By (µTл)</string>
+      <string original="By (µT)">By (мкTл)</string>
       <string original="Magnetic field z">Магнитное поле z</string>
-      <string original="Bz (µT)">Bz (µTл)</string>
+      <string original="Bz (µT)">Bz (мкTл)</string>
       <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
-      <string original="Filtered B² (µT²)">B² (μTл²) с поправкой</string>
+      <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
+      <string original="mm">мм</string>
     </translation>
   </translations>
   <data-containers>

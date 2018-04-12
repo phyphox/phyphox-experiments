@@ -133,12 +133,14 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Autocorrelation">Автокорреляция</string>
       <string original="Δt (s)">Δt (с)</string>
       <string original="correlation (a.u.)">корреляция (пр. е.)</string>
-      <string original="Raw Data">Необработанные данные</string>
+      <string original="Raw Data">Исходные данные</string>
       <string original="Accelerometer x">Акселерометр x</string>
       <string original="t (s)">t (c)</string>
       <string original="a (m/s²)">а (м/с²)</string>
       <string original="Accelerometer y">Акселерометр y</string>
       <string original="Accelerometer z">Акселерометр z</string>
+      <string original="s">с</string>
+      <string original="Hz">Гц</string>
     </translation>
   </translations>
   <data-containers>
