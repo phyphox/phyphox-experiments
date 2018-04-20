@@ -1,0 +1,48 @@
+<phyphox version="1.6">
+    <title>Rangefinder</title>
+    <category>PocketLab Voyager</category>
+    <description>First rangefinder test</description>
+    <data-containers>
+        <container size="0">d</container>
+        <container size="0">dRaw</container>
+        <container size="0">dCal</container>
+        <container size="0">tRaw</container>
+        <container size="0">t</container>
+        <container size="0">t2Raw</container>
+        <container size="0">xRaw</container>
+        <container size="0">yRaw</container>
+        <container size="0">zRaw</container>
+        <container size="0">x</container>
+        <container size="0">y</container>
+        <container size="0">z</container>
+    </data-containers>
+    <input>
+        <bluetooth name="PL Voyager" mode="notification">
+            <config char="F000AA12-0452-4000-B000-000000000000" conversion="hexadecimal">0132</config>
+            <output char="F000AA13-0452-4000-B000-000000000000" conversion="int16BigEndian">dRaw</output>
+            <output char="F000AA13-0452-4000-B000-000000000000" extra="time">tRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Rangefinder">
+            <graph label="PocketLab Voyager Rangefinder" labelX="t (s)" labelY="distance (m)" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">d</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <multiply>
+            <input clear="false">dRaw</input>
+            <input type="value">0.001</input> <!-- 2.3 / 0x1ffe -->
+            <output clear="true">dCal</output>
+        </multiply>
+        <rangefilter>
+            <input clear="false">tRaw</input>
+            <input clear="false">dCal</input>
+            <input as="max" type="value">2.4</input>
+            <output>t</output>
+            <output>d</output>
+        </rangefilter>
+    </analysis>
+</phyphox>
