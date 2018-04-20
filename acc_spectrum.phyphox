@@ -102,7 +102,6 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Settings">Instellingen</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
       <string original="Samples">Monsters</string>
-      <string original="512">256</string>
       <string original="Raw data">Onbewerkte data</string>
       <string original="Acceleration x">Versnelling x</string>
       <string original="Acceleration y">Versnelling y</string>
