@@ -1,221 +1,324 @@
 <phyphox version="1.5" locale="en">
-    <title>Audio Amplitude</title>
-    <category>Acoustics</category>
-    <icon format="base64">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</icon>
-    <description>
+  <title>Audio Amplitude</title>
+  <category>Acoustics</category>
+  <icon format="base64">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</icon>
+  <description>
         Get the amplitude of sounds.
 
         This experiments simply records short intervals from the microphone and calculates the sound pressure level (SPL). Note that this calculation is a very naive approach and the results may be rather imprecise. Also, you will have to give a reference to calibrate the measurement.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Amplitude</link>
-    <translations>
-        <translation locale="de">
-            <title>Audio Amplitude</title>
-            <category>Akustik</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Amplitude</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Amplitude</title>
+      <category>Akustik</category>
+      <description>
         Ermittelt die Amplitude von Audio-Signalen.
 
                 Dieses Experiment nimmt kurze Intervalle über das Mikrofon auf und berechnet den Schalldruckpegel (SPL). Beachte, dass diese Berechnung sehr simpel ist und die Ergebnisse recht ungenau sind. Außerdem musst du ein Referenzgeräusch erzeugen, um eine Kalibration durchzuführen.
     </description>
-            <string original="NOT calibrated">NICHT kalibriert</string>
-            <string original="calibrated">kalibriert</string>
-            <string original="Sound pressure level">Schalldruckpegel</string>
-            <string original="History">Verlauf</string>
-            <string original="Clear history">Verlauf löschen</string>
-            <string original="Calibration">Kalibration</string>
-            <string original="Reference SPL">Referenz-Pegel</string>
-            <string original="Calibrate">Kalibrieren</string>
-            <string original="Calibration offset">Kalibrations-Offset</string>
-            <string original="Custom offset">Eigener Offset</string>
-            <string original="Set offset">Offset setzen</string>
-            <string original="Time (s)">Zeit (s)</string>
-
-            <string original="Please see the calibration tab to get proper results.">Sieh dir bitte die Seite 'Kalibration' an, um vernünftige Ergebnisse zu erhalten.</string>
-
-            <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Dieses Experiment nutzt eine recht simple Methode um den Schalldruckpegel zu bestimmen. Du musst ein Referenz-Geräusch mit bekannter Amplitude in dB erzeugen. Beispielsweise könntest du eine konstante Geräuschquelle benutzen und den Schalldruckpegel mit einem externen Gerät in gleichem Abstand messen. Den Pegel kannst du dann als Referenz eingeben und bei laufendem Experiment auf 'Kalibrieren' drücken.</string>
-            <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Wenn du dieses oder ein identisches Smartphone schon vorher kalibriert hast, kannst du auch einfach den Offset der vorherigen Kalibration unten eingeben und auf 'Offset setzen' drücken.</string>
-
-            <string original="How accurate are these results?">Wie genau sind die Ergebnisse?</string>
-            <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Für den Unterricht und einfaches Ausprobieren? Wahrscheinlich gut genug. Für ernstere Studien? Wahrscheinlich nicht so gut, aber andere Apps könnten besser sein (siehe unten). Für Wissenschaft oder Arbeitsschutz? Sicherlich nicht gut genug, dafür braucht man spezielle Geräte.</string>
-            <string original="Why isn't this already calibrated?">Warum ist das Experiment nicht schon kalibriert?</string>
-            <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox ist auf mehr als 10000 Geräten verfügbar. Die meisten haben verschiedene Mikrofone, verschiedene Elektronik und verschiedene Software - das alles beeinflusst die Messung. Wir können diese Geräte nicht alle kalibrieren, aber manche Apps bedienen eine kleinere Geräte-Auswahl (beispielsweise iPhone-Apps) und können diese Auswahl auch kalibrieren. Wenn du Interesse an genaueren Messungen hast, solltest du solche spezielleren Apps ausprobieren.</string>
-            <string original="Why can't we get a better calibration?">Warum ist keine genauere Kalibration möglich?</string>
-            <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Wir wollen eine einfache Kalibration für Schülerinnen und Schüler sowie Studierende anbieten, so dass vergleichbare Daten für verschiedene Geräte möglich sind. Mit guten Messgeräten könnte man auch den Frequenzgang des Mikrofons und vielleicht sogar nicht-lineares Verhalten kompensieren. Wenn du über solche Geräte verfügst und es ausprobieren möchtest, lass es uns wissen - wir haben bereits phyphox-Experimente, die komplexere Kalibrationstechniken ermöglichen.</string>
-        </translation>
-    <translation locale="cs"><title>Amplituda zvuku</title><category>Akustika</category><description>
+      <string original="NOT calibrated">NICHT kalibriert</string>
+      <string original="calibrated">kalibriert</string>
+      <string original="Sound pressure level">Schalldruckpegel</string>
+      <string original="History">Verlauf</string>
+      <string original="Clear history">Verlauf löschen</string>
+      <string original="Calibration">Kalibration</string>
+      <string original="Reference SPL">Referenz-Pegel</string>
+      <string original="Calibrate">Kalibrieren</string>
+      <string original="Calibration offset">Kalibrations-Offset</string>
+      <string original="Custom offset">Eigener Offset</string>
+      <string original="Set offset">Offset setzen</string>
+      <string original="Time (s)">Zeit (s)</string>
+      <string original="Please see the calibration tab to get proper results.">Sieh dir bitte die Seite 'Kalibration' an, um vernünftige Ergebnisse zu erhalten.</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Dieses Experiment nutzt eine recht simple Methode um den Schalldruckpegel zu bestimmen. Du musst ein Referenz-Geräusch mit bekannter Amplitude in dB erzeugen. Beispielsweise könntest du eine konstante Geräuschquelle benutzen und den Schalldruckpegel mit einem externen Gerät in gleichem Abstand messen. Den Pegel kannst du dann als Referenz eingeben und bei laufendem Experiment auf 'Kalibrieren' drücken.</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Wenn du dieses oder ein identisches Smartphone schon vorher kalibriert hast, kannst du auch einfach den Offset der vorherigen Kalibration unten eingeben und auf 'Offset setzen' drücken.</string>
+      <string original="How accurate are these results?">Wie genau sind die Ergebnisse?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Für den Unterricht und einfaches Ausprobieren? Wahrscheinlich gut genug. Für ernstere Studien? Wahrscheinlich nicht so gut, aber andere Apps könnten besser sein (siehe unten). Für Wissenschaft oder Arbeitsschutz? Sicherlich nicht gut genug, dafür braucht man spezielle Geräte.</string>
+      <string original="Why isn't this already calibrated?">Warum ist das Experiment nicht schon kalibriert?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox ist auf mehr als 10000 Geräten verfügbar. Die meisten haben verschiedene Mikrofone, verschiedene Elektronik und verschiedene Software - das alles beeinflusst die Messung. Wir können diese Geräte nicht alle kalibrieren, aber manche Apps bedienen eine kleinere Geräte-Auswahl (beispielsweise iPhone-Apps) und können diese Auswahl auch kalibrieren. Wenn du Interesse an genaueren Messungen hast, solltest du solche spezielleren Apps ausprobieren.</string>
+      <string original="Why can't we get a better calibration?">Warum ist keine genauere Kalibration möglich?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Wir wollen eine einfache Kalibration für Schülerinnen und Schüler sowie Studierende anbieten, so dass vergleichbare Daten für verschiedene Geräte möglich sind. Mit guten Messgeräten könnte man auch den Frequenzgang des Mikrofons und vielleicht sogar nicht-lineares Verhalten kompensieren. Wenn du über solche Geräte verfügst und es ausprobieren möchtest, lass es uns wissen - wir haben bereits phyphox-Experimente, die komplexere Kalibrationstechniken ermöglichen.</string>
+    </translation>
+    <translation locale="cs">
+      <title>Amplituda zvuku</title>
+      <category>Akustika</category>
+      <description>
         Zjistěte amplitudu zvuku.
 
 Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém intervalu a na základě toho určuje úroveň akustického tlaku (SPL). Musíme ovšem přiznat, že tento postup je velmi naivní a výsledky proto mohou být poměrně nepřesné. Také budete muset mít pro účely kalibrace referenční zvuk se známým SPL.
-    </description><string original="Amplitude">Amplituda</string><string original="NOT calibrated">NENÍ zkalibrováno</string><string original="calibrated">Zkalibrováno</string><string original="Sound pressure level">Úroveň akustického tlaku</string><string original="History">Historie</string><string original="Time (s)">Čas (s)</string><string original="Clear history">Vymazat historii</string><string original="Please see the calibration tab to get proper results.">Pro získání správných výsledků prosím navštivte záložku kalibrace.</string><string original="Calibration">Kalibrace</string><string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Tento experiment využívá poměrně jednoduchý přístup k určení úrovně akustického tlaku (UAT). Budete potřebovat referenční zvuk se známou amplitudou v dB. Například můžete použít konstantní zdroj zvuku a změřit jeho hlasitost pomocí externího přístroje. Zadejte naměřenou úroveň tlaku jako referenční tlak a v průběhu experimentu zmáčkněte 'kalibrovat'.</string><string original="Reference SPL">Referenční UAT</string><string original="Calibrate">Zkalibrovat</string><string original="Calibration offset">Kalibrační posun</string><string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Pokud jste toto již udělali nebo jste kalibrovali identické zařízení, můžete ručně zadat kalibrační posun z minulých měření a zmáčknout 'Nastavit posun'.</string><string original="Custom offset">Vlastní nastavení posunu</string><string original="Set offset">Nastavit vlastní kalibraci</string><string original="FAQ">Často kladené dotazy?</string><string original="How accurate are these results?">Jak moc jsou tyto výsledky přesné?</string><string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Pro účely výuky a poznávání světa kolem nás? Pravděpodobně dostatečné. Pro serióznější bádání? Pravděpodobně ne, ale jiné aplikace mohou požadované přesnosti dosáhnout (viz níže). Pro seriózní vědecké či zdravotnické aplikace je aplikace rozhodně nevhodná. Na to je zapotřebí kvalitnějších specializovaných přístrojů.</string><string original="Why isn't this already calibrated?">Proč není aplikace rovnou zkalibrována?</string><string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Aplikace phyphox je dostupná pro více než 10000 různých přístrojů. Většina z nich má různé mikrofony, elektroniku a software. To vše ovlivňuje jak reagují na zvuk. Bohužel nejsme schopni aplikaci pro tak široké spektrum zkalibrovat, v některých případech jsou ale dostupné aplikace cílené na pouze omezené množství přístrojů (například aplikace pouze pro iPhone) u nichž je provedení kalibrace možné. Chcete-li dosáhnout přesnějšího měření bez nutnosti kalibrace, pak doporučujeme stažení aplikace cílené na vaše mobilní zařízení.</string><string original="Why can't we get a better calibration?">Proč nemůžeme mít lepší kalibraci?</string><string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Chtěli jsme použít jednoduchý postup, který by umožnil studentům naměřit srovnatelná data napříč různými přístroji. S lepším vybavením byste mohli zkalibrovat závislost citlivosti vašeho mikrofonu na frekvenci nebo kompenzovat nelineární reakce (impedance). Pokud jste vybaveni k takovýmto měřením a chtěli byste je vyzkoušet tak nás prosím kontaktujte. Již máme připravené experimenty umožňující komplexnější kalibrační metody.</string><string original="SPL (dB)">UAT (dB)</string></translation><translation locale="pl"><title>Amplituda dźwięku</title><category>Akustyka</category><description>
+    </description>
+      <string original="Amplitude">Amplituda</string>
+      <string original="NOT calibrated">NENÍ zkalibrováno</string>
+      <string original="calibrated">Zkalibrováno</string>
+      <string original="Sound pressure level">Úroveň akustického tlaku</string>
+      <string original="History">Historie</string>
+      <string original="Time (s)">Čas (s)</string>
+      <string original="Clear history">Vymazat historii</string>
+      <string original="Please see the calibration tab to get proper results.">Pro získání správných výsledků prosím navštivte záložku kalibrace.</string>
+      <string original="Calibration">Kalibrace</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Tento experiment využívá poměrně jednoduchý přístup k určení úrovně akustického tlaku (UAT). Budete potřebovat referenční zvuk se známou amplitudou v dB. Například můžete použít konstantní zdroj zvuku a změřit jeho hlasitost pomocí externího přístroje. Zadejte naměřenou úroveň tlaku jako referenční tlak a v průběhu experimentu zmáčkněte 'kalibrovat'.</string>
+      <string original="Reference SPL">Referenční UAT</string>
+      <string original="Calibrate">Zkalibrovat</string>
+      <string original="Calibration offset">Kalibrační posun</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Pokud jste toto již udělali nebo jste kalibrovali identické zařízení, můžete ručně zadat kalibrační posun z minulých měření a zmáčknout 'Nastavit posun'.</string>
+      <string original="Custom offset">Vlastní nastavení posunu</string>
+      <string original="Set offset">Nastavit vlastní kalibraci</string>
+      <string original="FAQ">Často kladené dotazy?</string>
+      <string original="How accurate are these results?">Jak moc jsou tyto výsledky přesné?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Pro účely výuky a poznávání světa kolem nás? Pravděpodobně dostatečné. Pro serióznější bádání? Pravděpodobně ne, ale jiné aplikace mohou požadované přesnosti dosáhnout (viz níže). Pro seriózní vědecké či zdravotnické aplikace je aplikace rozhodně nevhodná. Na to je zapotřebí kvalitnějších specializovaných přístrojů.</string>
+      <string original="Why isn't this already calibrated?">Proč není aplikace rovnou zkalibrována?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Aplikace phyphox je dostupná pro více než 10000 různých přístrojů. Většina z nich má různé mikrofony, elektroniku a software. To vše ovlivňuje jak reagují na zvuk. Bohužel nejsme schopni aplikaci pro tak široké spektrum zkalibrovat, v některých případech jsou ale dostupné aplikace cílené na pouze omezené množství přístrojů (například aplikace pouze pro iPhone) u nichž je provedení kalibrace možné. Chcete-li dosáhnout přesnějšího měření bez nutnosti kalibrace, pak doporučujeme stažení aplikace cílené na vaše mobilní zařízení.</string>
+      <string original="Why can't we get a better calibration?">Proč nemůžeme mít lepší kalibraci?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Chtěli jsme použít jednoduchý postup, který by umožnil studentům naměřit srovnatelná data napříč různými přístroji. S lepším vybavením byste mohli zkalibrovat závislost citlivosti vašeho mikrofonu na frekvenci nebo kompenzovat nelineární reakce (impedance). Pokud jste vybaveni k takovýmto měřením a chtěli byste je vyzkoušet tak nás prosím kontaktujte. Již máme připravené experimenty umožňující komplexnější kalibrační metody.</string>
+      <string original="SPL (dB)">UAT (dB)</string>
+    </translation>
+    <translation locale="pl">
+      <title>Amplituda dźwięku</title>
+      <category>Akustyka</category>
+      <description>
         Zarejestruj amplitudę dźwięku.
 
         W tym eksperymencie zapisywane są krótkie sekwencje dźwięku rejestrowanego przez mikrofon i na ich podstawie wyznaczany jest poziom ciśnienia akustycznego (SPL). Należy zaznaczyć, że metoda ta jest bardzo uproszczona i dlatego wyniki mogą być obarczone dużą niepewnością. Ponadto, by skalibrować pomiar należy podać poziom odniesienia.
-    </description><string original="Amplitude">Amplituda</string><string original="NOT calibrated">NIEskalibrowane</string><string original="calibrated">Skalibrowane</string><string original="Sound pressure level">Poziom ciśnienia akustycznego</string><string original="History">Historia</string><string original="Time (s)">Czas (s)</string><string original="Clear history">Wyczyść historię</string><string original="Please see the calibration tab to get proper results.">Sprawdź kartę kalibracji, aby uzyskać prawidłowe wyniki.</string><string original="Calibration">Kalibracja</string><string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">W tym eksperymencie wykorzystywana jest bardzo uproszczona procedura wyznaczania poziomu ciśnienia akustycznego (SPL).   Niezbędne jest określenie poziomu odniesienia o znanej amplitudzie wyrażonej w dB. Dla przykładu, można dokonać pomiaru ciśnienia akustycznego wytwarzanego przez znane źródła szumu skalibrowanym zewnętrznym czujnikiem i otrzymany wynik wprowadzić jako poziom odniesienia SPL, a następnie nacisnąć przycisk 'Kalibracja'.</string><string original="Reference SPL">Referencyjne SPL</string><string original="Calibrate">Kalibracja</string><string original="Calibration offset">Korekta kalibracji</string><string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Jeśli wykonałeś tę czynność wcześniej lub wykorzystałeś identyczne urządzenie wprowadź jedynie wartość korekty kalibracji jak poprzednio i naciśnij 'ustaw korektę'.</string><string original="Custom offset">Standardowa korekta</string><string original="Set offset">Ustaw korektę</string><string original="How accurate are these results?">Jak precyzyjne są otrzymywane w tym eksperymencie wyniki?</string><string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Do celów edukacyjnych oraz badań własnych? Prawdopodobnie dostatecznie dobre. Do poważnych analiz? Prawdopodobnie nie, ale wyniki uzyskiwane za pomocą innych aplikacje (patrz poniżej) mogą być lepsze. Do badań naukowych lub związanych z ochroną zdrowia? Zdecydowanie nie i należy posłużyć się urządzeniem dedykowanym do tego rodzaju pomiarów.</string><string original="Why isn't this already calibrated?">Dlaczego układ pomiarowy nie jest skalibrowany?</string><string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox pracuje z więcej niż 10000 urządzeń. Większość z nich jest wyposażona w różne mikrofony, różni się współpracującymi z nimi układami elektronicznymi oraz działa z różnym oprogramowaniem - to wszystko sprawia, że różnie 'odbierają' dźwięk. Nie można dokonać uniwersalnej kalibracji tak różnorodnych urządzeń, ale istnieją aplikacje dedykowane dla wybranych modeli (np. przygotowane dla iPhones), które są już skalibrowane. Aby otrzymać lepsze rezultaty bez dodatkowej kalibracji należy wykorzystać aplikacje dedykowane do konkretnego modelu urządzenia.</string><string original="Why can't we get a better calibration?">Dlaczego nie można dokonać lepszej kalibracji?</string><string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Doświadczenie wymaga nieskomplikowanego sposobu kalibrowania, aby umożliwić uczniom porównywanie wyników otrzymywanych za pomocą różnych urządzeń. Korzystając z wysokiej jakości urządzeń pomiarowych można uwzględnić charakterystykę częstotliwościową mikrofonu, a nawet zrekompensować jej nieliniowość. Jeśli posiadacie takie urządzenie i chcecie je wykorzystać prosimy o kontakt - dysponujemy eksperymentami w środowisku phyphox, które umożliwiają przeprowadzenie procedury bardziej zaawansowanego kalibrowania.</string></translation></translations>
-    <data-containers>
-        <container size="4800">recording</container>
-        <container size="4800">recordingSquared</container>
-        <container>sum</container>
-        <container>mean</container>
-        <container>dbUncal</container>
-        <container>lnMean</container>
-        <container>userCalibration</container>
-        <container static="true">ln10</container>
-        <container size="0">time</container>
-        <container>now</container>
-        <container init="0">t0</container>
-        <container init="0">resetTime</container>
-        <container size="0">dB</container>
-        <container init="0">calibration</container>
-        <container init="60">target dB</container>
-        <container>newCal</container>
-    </data-containers>
-    <input>
-        <audio rate="48000">
-            <output>recording</output>
-        </audio>
-    </input>
-    <views>
-        <view label="Amplitude">
-            <value label="Status">
-                <input>calibration</input>
-                <map min="0" max="0">NOT calibrated</map>
-                <map>calibrated</map>
-            </value>
-            <value label="Sound pressure level" unit="dB" size="3" precision="1">
-                <input>dB</input>
-            </value>
-            <separator height="1"/>
-            <graph label="History" labelX="Time (s)" labelY="SPL (dB)">
-                <input axis="x">time</input>
-                <input axis="y">dB</input>
-            </graph>
+    </description>
+      <string original="Amplitude">Amplituda</string>
+      <string original="NOT calibrated">NIEskalibrowane</string>
+      <string original="calibrated">Skalibrowane</string>
+      <string original="Sound pressure level">Poziom ciśnienia akustycznego</string>
+      <string original="History">Historia</string>
+      <string original="Time (s)">Czas (s)</string>
+      <string original="Clear history">Wyczyść historię</string>
+      <string original="Please see the calibration tab to get proper results.">Sprawdź kartę kalibracji, aby uzyskać prawidłowe wyniki.</string>
+      <string original="Calibration">Kalibracja</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">W tym eksperymencie wykorzystywana jest bardzo uproszczona procedura wyznaczania poziomu ciśnienia akustycznego (SPL).   Niezbędne jest określenie poziomu odniesienia o znanej amplitudzie wyrażonej w dB. Dla przykładu, można dokonać pomiaru ciśnienia akustycznego wytwarzanego przez znane źródła szumu skalibrowanym zewnętrznym czujnikiem i otrzymany wynik wprowadzić jako poziom odniesienia SPL, a następnie nacisnąć przycisk 'Kalibracja'.</string>
+      <string original="Reference SPL">Referencyjne SPL</string>
+      <string original="Calibrate">Kalibracja</string>
+      <string original="Calibration offset">Korekta kalibracji</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Jeśli wykonałeś tę czynność wcześniej lub wykorzystałeś identyczne urządzenie wprowadź jedynie wartość korekty kalibracji jak poprzednio i naciśnij 'ustaw korektę'.</string>
+      <string original="Custom offset">Standardowa korekta</string>
+      <string original="Set offset">Ustaw korektę</string>
+      <string original="How accurate are these results?">Jak precyzyjne są otrzymywane w tym eksperymencie wyniki?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Do celów edukacyjnych oraz badań własnych? Prawdopodobnie dostatecznie dobre. Do poważnych analiz? Prawdopodobnie nie, ale wyniki uzyskiwane za pomocą innych aplikacje (patrz poniżej) mogą być lepsze. Do badań naukowych lub związanych z ochroną zdrowia? Zdecydowanie nie i należy posłużyć się urządzeniem dedykowanym do tego rodzaju pomiarów.</string>
+      <string original="Why isn't this already calibrated?">Dlaczego układ pomiarowy nie jest skalibrowany?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox pracuje z więcej niż 10000 urządzeń. Większość z nich jest wyposażona w różne mikrofony, różni się współpracującymi z nimi układami elektronicznymi oraz działa z różnym oprogramowaniem - to wszystko sprawia, że różnie 'odbierają' dźwięk. Nie można dokonać uniwersalnej kalibracji tak różnorodnych urządzeń, ale istnieją aplikacje dedykowane dla wybranych modeli (np. przygotowane dla iPhones), które są już skalibrowane. Aby otrzymać lepsze rezultaty bez dodatkowej kalibracji należy wykorzystać aplikacje dedykowane do konkretnego modelu urządzenia.</string>
+      <string original="Why can't we get a better calibration?">Dlaczego nie można dokonać lepszej kalibracji?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Doświadczenie wymaga nieskomplikowanego sposobu kalibrowania, aby umożliwić uczniom porównywanie wyników otrzymywanych za pomocą różnych urządzeń. Korzystając z wysokiej jakości urządzeń pomiarowych można uwzględnić charakterystykę częstotliwościową mikrofonu, a nawet zrekompensować jej nieliniowość. Jeśli posiadacie takie urządzenie i chcecie je wykorzystać prosimy o kontakt - dysponujemy eksperymentami w środowisku phyphox, które umożliwiają przeprowadzenie procedury bardziej zaawansowanego kalibrowania.</string>
+    </translation>
+    <translation locale="nl">
+      <title>Audio amplitude</title>
+      <category>Geluid</category>
+      <description>
+        Meet de sterkte van geluiden.
 
-            <button label="Clear history">
-                <input type="empty"/>
-                <output>dB</output>
-                <input type="empty"/>
-                <output>time</output>
-                <input type="value">1</input>
-                <output>resetTime</output>
-            </button>
-            <separator height="1"/>
-            <info label="Please see the calibration tab to get proper results."/>
-        </view>
-        <view label="Calibration">
-            <info label="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running."/>
-            <separator height="1"/>
-            <edit label="Reference SPL" unit="dB">
-                <output>target dB</output>
-            </edit>
-            <button label="Calibrate">
-                <input>newCal</input>
-                <output>calibration</output>
-            </button>
+         Deze experimenten registreren in korte intervallen de input via de microfoon en berekenen het geluidsdrukniveau (SPL). Merk op dat deze berekening een zeer naïeve benadering is en dat de resultaten nogal onnauwkeurig kunnen zijn. U moet ook een referentie gebruiken om de sensor (microfoon) te kalibreren.
+    </description>
+      <string original="Status">Stand van zaken</string>
+      <string original="NOT calibrated">NIET gekalibreerd</string>
+      <string original="calibrated">gekalibreerd</string>
+      <string original="Sound pressure level">Geluidsdrukniveau</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time (s)">Tijd (s)</string>
+      <string original="Clear history">Geschiedenis wissen</string>
+      <string original="Please see the calibration tab to get proper results.">Zie het tabblad Kalibratie voor de juiste resultaten.</string>
+      <string original="Calibration">Kalibratie</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Dit experiment bepaalt het geluidsdrukniveau (SPL) op een nogal naïeve manier. U hebt een referentiegeluid met gekend geluidsniveau in dB nodig. U kunt bijvoorbeeld het geluidsdrukniveau van een constante bron meten met een extern apparaat. Voer het gemeten geluidsniveau in als referentie-SPL en druk op 'kalibreren' terwijl het experiment loopt.</string>
+      <string original="Reference SPL">Referentie SPL</string>
+      <string original="Calibrate">Kalibreer</string>
+      <string original="Calibration offset">Kalibratie-afwijking</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Als u dit eerder of op een identiek apparaat hebt gedaan, hoeft u alleen maar de kalibratie-offset van uw vorige kalibratie rechtstreeks in te voeren en op 'afwijking instellen' te drukken.</string>
+      <string original="Custom offset">Aangepaste afwijking</string>
+      <string original="Set offset">Stel afwijking in</string>
+      <string original="How accurate are these results?">Hoe nauwkeurig zijn deze resultaten?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Voor lesgeven en exploreren? Waarschijnlijk goed genoeg. Voor ernstige studie? Waarschijnlijk niet, maar andere apps kunnen beter presteren (zie hieronder). Voor wetenschappelijke of gezondheidsgerelateerde toepassingen? Zeker niet, neem hiervoor een gespecialiseerd toestel.</string>
+      <string original="Why isn't this already calibrated?">Waarom is het nog niet gekalibreerd?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox is geïnstalleerd op meer dan 10000 apparaten. De meeste hebben verschillende microfoons, verschillende elektronica en verschillende software - allemaal van invloed op hun reactie op geluid. We kunnen ze niet allemaal op voorhand kalibreren, maar in sommige gevallen zijn er apps (die zich alleen naar een beperkt aantal apparaten richten, zoals apps specifiek voor iPhones) die deze enkele apparaten kunnen kalibreren. Als u geïnteresseerd bent in betere resultaten zonder kalibratie, moet u specifieke apps voor uw apparaat bekijken.</string>
+      <string original="Why can't we get a better calibration?">Waarom kunnen we geen betere kalibratie verkrijgen?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">We wilden een eenvoudige procedure om studenten in staat te stellen vergelijkbare gegevens op verschillende apparaten te krijgen. Met degelijke apparatuur zou je de frequentie-afhankelijkheid van je microfoon ook kunnen kalibreren en misschien zelfs compenseren voor niet-lineaire reacties. Als u dergelijke apparatuur heeft en het wilt proberen, laat het ons dan weten - we hebben al phyphox-experimenten die meer geavanceerde kalibratietechnieken mogelijk maken.</string>
+    </translation>
+    <translation locale="ru">
+      <title>Амплитуда звука</title>
+      <category>Акустика</category>
+      <description>
+        Получите амплитуду звуков.  
 
-            <value label="Calibration offset" unit="dB">
-                <input>calibration</input>
-            </value>
-            <separator height="1"/>
-            <info label="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'."/>
-            <separator height="1"/>
-            <edit label="Custom offset" unit="dB">
-                <output>userCalibration</output>
-            </edit>
-
-            <button label="Set offset">
-                <input>userCalibration</input>
-                <output>calibration</output>
-            </button>
-        </view>
-        <view label="FAQ">
-            <info label="How accurate are these results?"/>
-            <info label="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this."/>
-            <separator height="1"/>
-            <info label="Why isn't this already calibrated?"/>
-            <info label="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device."/>
-            <separator height="1"/>
-            <info label="Why can't we get a better calibration?"/>
-            <info label="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques."/>
-        </view>
-    </views>
-    <analysis sleep="0.1">
-
-        <timer>
-            <output clear="false">now</output>
-        </timer>
-
-        <if equal="true">
-            <input clear="false">resetTime</input>
-            <input type="value">1</input>
-            <input clear="false">now</input>
-            <output>t0</output>
-        </if>
-
-        <append>
-            <input type="value">0</input>
-            <output>resetTime</output>
-        </append>
-
-        <subtract>
-            <input clear="false">now</input>
-            <input clear="false">t0</input>
-            <output clear="false">time</output>
-        </subtract>
-
-        <power>
-            <input as="base" clear="false">recording</input>
-            <input as="exponent" type="value">2</input>
-            <output>recordingSquared</output>
-        </power>
-
-        <integrate>
-            <input>recordingSquared</input>
-            <output>sum</output>
-        </integrate>
-
-        <divide>
-            <input>sum</input>
-            <input type="value">2400</input>
-            <output>mean</output>
-        </divide>
-
-        <log>
-            <input clear="false">mean</input>
-            <output>lnMean</output>
-        </log>
-
-        <log>
-            <input type="value">10</input>
-            <output>ln10</output>
-        </log>
-
-        <divide>
-            <input clear="false">lnMean</input>
-            <input clear="false">ln10</input>
-            <input type="value">0.1</input>
-            <output>dbUncal</output>
-        </divide>
-
-        <add>
-            <input clear="false">dbUncal</input>
-            <input clear="false">calibration</input>
-            <output clear="false">dB</output>
-        </add>
-
-        <subtract>
-            <input clear="false">target dB</input>
-            <input clear="false">dbUncal</input>
-            <output>newCal</output>
-        </subtract>
-
-    </analysis>
-    <export>
-        <set name="Amplitudes">
-            <data name="Time (s)">time</data>
-            <data name="Sound pressure level (dB)">dB</data>
-        </set>
-        <set name="Calibration">
-            <data name="calibration offset (dB)">calibration</data>
-        </set>
-    </export>
+        Эти эксперименты записывают короткие интервалы с микрофона и вычисляют уровень звукового давления (SPL англ.: sound pressure level). Обратите внимание, что это вычисление является очень тривиальным подходом, и результаты могут быть довольно неточными. Кроме того, вам нужно будет дать ссылку на калибровку измерения.
+    </description>
+      <string original="Amplitude">Амплитуда</string>
+      <string original="Status">Статус</string>
+      <string original="NOT calibrated">НЕ откалиброван</string>
+      <string original="calibrated">калиброванный</string>
+      <string original="Sound pressure level">Уровень звукового давления</string>
+      <string original="History">История</string>
+      <string original="Time (s)">Время (с)</string>
+      <string original="SPL (dB)">SPL (дБ)</string>
+      <string original="Clear history">Очистить историю</string>
+      <string original="Please see the calibration tab to get proper results.">Для получения правильных результатов см. вкладку "калибровка".</string>
+      <string original="Calibration">Калибровка</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">В этом эксперименте используется довольно простой подход для определения уровня звукового давления (SPL). Вам понадобится стандартный звук с известной амплитудой в дБ. Например, вы можете настроить источник стационарного шума и измерить уровень его звукового давления с помощью внешнего устройства. Введите измеренный уровень в качестве стандартного звукового давления и нажмите «откалибровать» во время выполнения эксперимента.</string>
+      <string original="Reference SPL">Стандартный SPL</string>
+      <string original="Calibrate">Калибровать</string>
+      <string original="Calibration offset">Смещение калибровки</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Если вы уже делали это раньше на данном устроистве или с помощью идентичного устройства, то вы можете ввести смещение калибровки от предыдущей калибровки напрямую и нажать «установить смещение».</string>
+      <string original="Custom offset">Индивидуальное смещение</string>
+      <string original="Set offset">Установить смещение</string>
+      <string original="FAQ">Вопросы-Ответы</string>
+      <string original="How accurate are these results?">Насколько точны эти результаты?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Для обучения и изучения? Подходит. Для серьезных исследований? Вероятно нет, но другие приложения могут работать лучше (см. ниже). Для научных или связанных со здоровьем приложений? Разумеется нет, используйте для этого специальные устройства.</string>
+      <string original="Why isn't this already calibrated?">Почему это ещё не откалибровано?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox доступен на более чем 10000 устройствах. Большинство из них имеют разные микрофоны, различную электронику и различное программное обеспечение - все это влияет на их акустические характеристики. Мы не можем их всех откалибровать, но в некоторых случаях есть приложения, предназначенные только для ограниченного количества устройств (например, приложений, специфичных для iPhone), которые могут откалибровать эти несколько устройств. Если вас интересуют улучшенные результаты без калибровки, то вам необходимо найти конкретные приложения для своего устройства.</string>
+      <string original="Why can't we get a better calibration?">Почему мы не можем получить улучшенную калибровку?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Нам нужна простая процедура, позволяющая студентам получать сравнимые данные на разных устройствах. При надлежащем оборудовании вы также можете откалибровать частотную зависимость вашего микрофона и, возможно, даже компенсировать нелинейные ответы. Если у вас есть такое оборудование и вы хотите попробовать его, сообщите нам, у нас уже есть phyphox-эксперименты, которые позволяют использовать более совершенные методы калибровки.</string>
+      <string original="dB">дБ</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="4800">recording</container>
+    <container size="4800">recordingSquared</container>
+    <container>sum</container>
+    <container>mean</container>
+    <container>dbUncal</container>
+    <container>lnMean</container>
+    <container>userCalibration</container>
+    <container static="true">ln10</container>
+    <container size="0">time</container>
+    <container>now</container>
+    <container init="0">t0</container>
+    <container init="0">resetTime</container>
+    <container size="0">dB</container>
+    <container init="0">calibration</container>
+    <container init="60">target dB</container>
+    <container>newCal</container>
+  </data-containers>
+  <input>
+    <audio rate="48000">
+      <output>recording</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Amplitude">
+      <value label="Status">
+        <input>calibration</input>
+        <map min="0" max="0">NOT calibrated</map>
+        <map>calibrated</map>
+      </value>
+      <value label="Sound pressure level" unit="dB" size="3" precision="1">
+        <input>dB</input>
+      </value>
+      <separator height="1"/>
+      <graph label="History" labelX="Time (s)" labelY="SPL (dB)">
+        <input axis="x">time</input>
+        <input axis="y">dB</input>
+      </graph>
+      <button label="Clear history">
+        <input type="empty"/>
+        <output>dB</output>
+        <input type="empty"/>
+        <output>time</output>
+        <input type="value">1</input>
+        <output>resetTime</output>
+      </button>
+      <separator height="1"/>
+      <info label="Please see the calibration tab to get proper results."/>
+    </view>
+    <view label="Calibration">
+      <info label="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running."/>
+      <separator height="1"/>
+      <edit label="Reference SPL" unit="dB">
+        <output>target dB</output>
+      </edit>
+      <button label="Calibrate">
+        <input>newCal</input>
+        <output>calibration</output>
+      </button>
+      <value label="Calibration offset" unit="dB">
+        <input>calibration</input>
+      </value>
+      <separator height="1"/>
+      <info label="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'."/>
+      <separator height="1"/>
+      <edit label="Custom offset" unit="dB">
+        <output>userCalibration</output>
+      </edit>
+      <button label="Set offset">
+        <input>userCalibration</input>
+        <output>calibration</output>
+      </button>
+    </view>
+    <view label="FAQ">
+      <info label="How accurate are these results?"/>
+      <info label="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this."/>
+      <separator height="1"/>
+      <info label="Why isn't this already calibrated?"/>
+      <info label="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device."/>
+      <separator height="1"/>
+      <info label="Why can't we get a better calibration?"/>
+      <info label="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques."/>
+    </view>
+  </views>
+  <analysis sleep="0.1">
+    <timer>
+      <output clear="false">now</output>
+    </timer>
+    <if equal="true">
+      <input clear="false">resetTime</input>
+      <input type="value">1</input>
+      <input clear="false">now</input>
+      <output>t0</output>
+    </if>
+    <append>
+      <input type="value">0</input>
+      <output>resetTime</output>
+    </append>
+    <subtract>
+      <input clear="false">now</input>
+      <input clear="false">t0</input>
+      <output clear="false">time</output>
+    </subtract>
+    <power>
+      <input as="base" clear="false">recording</input>
+      <input as="exponent" type="value">2</input>
+      <output>recordingSquared</output>
+    </power>
+    <integrate>
+      <input>recordingSquared</input>
+      <output>sum</output>
+    </integrate>
+    <divide>
+      <input>sum</input>
+      <input type="value">2400</input>
+      <output>mean</output>
+    </divide>
+    <log>
+      <input clear="false">mean</input>
+      <output>lnMean</output>
+    </log>
+    <log>
+      <input type="value">10</input>
+      <output>ln10</output>
+    </log>
+    <divide>
+      <input clear="false">lnMean</input>
+      <input clear="false">ln10</input>
+      <input type="value">0.1</input>
+      <output>dbUncal</output>
+    </divide>
+    <add>
+      <input clear="false">dbUncal</input>
+      <input clear="false">calibration</input>
+      <output clear="false">dB</output>
+    </add>
+    <subtract>
+      <input clear="false">target dB</input>
+      <input clear="false">dbUncal</input>
+      <output>newCal</output>
+    </subtract>
+  </analysis>
+  <export>
+    <set name="Amplitudes">
+      <data name="Time (s)">time</data>
+      <data name="Sound pressure level (dB)">dB</data>
+    </set>
+    <set name="Calibration">
+      <data name="calibration offset (dB)">calibration</data>
+    </set>
+  </export>
 </phyphox>

@@ -1,8 +1,8 @@
 <phyphox version="1.4" locale="en">
-    <title>Spring</title>
-    <category>Mechanics</category>
-    <icon format="base64">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</icon>
-    <description>
+  <title>Spring</title>
+  <category>Mechanics</category>
+  <icon format="base64">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</icon>
+  <description>
         Analyze the frequency and period of a spring oscillator.
 
         This experiment uses the accelerometer to measure the oscillator movement and calculates the oscillation period T. Additionally, on the resonance tab, it plots the amplitude against the detected frequency. This way, you can construct a driven oscillator and change its frequency to measure a resonance curve.
@@ -10,14 +10,14 @@
         Further details:
         The oscillation period is obtained through the autocorrelation of the sum of all three accelerometer components. The autocorrelation is then analyzed for its first maximum for a first estimate and then the last maximum of the autocorrelation is used to get a more precise result.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Spring</link>
-    <link label="x / y / z">http://phyphox.org/sensors/</link>
-    <link label="Video" highlight="true">https://youtu.be/VbL4IInVAO4</link>
-    <translations>
-        <translation locale="de">
-            <title>Federpendel</title>
-            <category>Mechanik</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Spring</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <link label="Video" highlight="true">https://youtu.be/VbL4IInVAO4</link>
+  <translations>
+    <translation locale="de">
+      <title>Federpendel</title>
+      <category>Mechanik</category>
+      <description>
         Misst die Frequenz und Periode eines Federpendels.
 
                 Dieses Experiment nutzt den Beschleunigungssensor um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellen der Frequenz die Resonanz ausmessen.
@@ -25,309 +25,375 @@
                 Weitere Details:
                 Die Schwingungsperiode wird durch eine Autokorrelation der Summe der drei Komponenten des Beschleunigungs-Vektors ermittelt. Im Ergebnis der Autokorrelation wird dann nach dem ersten Maximum gesucht, die als erste Schätzung der Frequenz genutzt wird. Die genaue Frequenz folgt dann aus dem letzten Maximum der berechneten Autokorrelation.
     </description>
-            <string original="Results">Ergebnisse</string>
-            <string original="Period">Periode</string>
-            <string original="Frequency">Frequenz</string>
-            <string original="Resonance">Resonanz</string>
-            <string original="Rel. amplitude (a.u.)">Rel. Amplitude (a.u.)</string>
-            <string original="Frequency (Hz)">Frequenz (Hz)</string>
-            <string original="Autocorrelation">Autokorrelation</string>
-            <string original="correlation (a.u.)">Korrelation (a.u.)</string>
-            <string original="Raw Data">Rohdaten</string>
-            <string original="Accelerometer X">Beschleunigung X</string>
-            <string original="Accelerometer Y">Beschleunigung Y</string>
-            <string original="Accelerometer Z">Beschleunigung Z</string>
-            <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
-            <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-            <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
-        </translation>
-    <translation locale="cs"><title>Pružina</title><category>Mechanika</category><description>
+      <string original="Results">Ergebnisse</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="Resonance">Resonanz</string>
+      <string original="Rel. amplitude (a.u.)">Rel. Amplitude (a.u.)</string>
+      <string original="Frequency (Hz)">Frequenz (Hz)</string>
+      <string original="Autocorrelation">Autokorrelation</string>
+      <string original="correlation (a.u.)">Korrelation (a.u.)</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Accelerometer z">Beschleunigung z</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
+      <string original="Accelerometer x">Beschleunigung x</string>
+      <string original="Accelerometer y">Beschleunigung y</string>
+    </translation>
+    <translation locale="cs">
+      <title>Pružina</title>
+      <category>Mechanika</category>
+      <description>
         Analyzuje frekvenci a periodu pružinového oscilátoru.
 
 Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypočítává periodu kmitání T. Dále, v záložce rezonance modul vykresluje graf závislosti amplitudy na frekvenci. Takto můžete pomocí buzení oscilátoru a následné změny frekvence kmitání určit jeho rezonanční křivku.
 
 Další detaily:
 Perioda kmitání je získána autokorelací součtu všech složek zrychlení. První maximum autokorelace je použito k prvotnímu odhadu hodnoty a ten je pak zpřesněn pomocí posledního maxima autokorelace.
-    </description><string original="Results">Výsledky</string><string original="Period">Perioda</string><string original="Frequency">Frekvence</string><string original="Resonance">Rezonance</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Rel. amplitude (a.u.)">Reál. Amplituda</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string><string original="Autocorrelation">Autokorelace</string><string original="correlation (a.u.)">Korelace</string><string original="Raw Data">Neupravená data</string><string original="Accelerometer X">Akcelerometr X</string><string original="Accelerometer Y">Akcelerometr Y</string><string original="Accelerometer Z">Akcelerometr Z</string></translation><translation locale="pl"><title>Sprężyna</title><category>Mechanika</category><description>
+    </description>
+      <string original="Results">Výsledky</string>
+      <string original="Period">Perioda</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="Resonance">Rezonance</string>
+      <string original="Frequency (Hz)">Frekvence (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Reál. Amplituda</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
+      <string original="Autocorrelation">Autokorelace</string>
+      <string original="correlation (a.u.)">Korelace</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Accelerometer z">Akcelerometr z</string>
+      <string original="Accelerometer x">Akcelerometr x</string>
+      <string original="Accelerometer y">Akcelerometr y</string>
+    </translation>
+    <translation locale="pl">
+      <title>Sprężyna</title>
+      <category>Mechanika</category>
+      <description>
         Przeprowadź analizę częstotliwości drgań oraz okresu ruchu wahadła sprężynowego.
 
         W tym eksperymencie wykorzystywany jest akcelerometr do określania okresu T ruchu drgającego wahadła sprężynowego. Dodatkowo, w zakładce 'Rezonans', wizualizowany jest wykres zależności amplitudy jako funkcji częstotliwości. W ten sposób można zbudować oscylator z siłą wymuszającą i określić krzywą rezonansową układu drgającego.
 
         Dodatkowe informacje:
         Okres drgań jest wyznaczany w oparciu o autokorelacę sumy trzech sładowych przyspieszenia rejestrowanych przez urządzenie. Funkcja autokorelacji jest następnie analizowana i określane jest jej pierwsze maksimum, ostatnie maksimum jest wykorzystywane do poprawy dokładności oszacowania.
-    </description><string original="Results">Rezultaty</string><string original="Period">Okres</string><string original="Frequency">Częstotliwość</string><string original="Resonance">Rezonans</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string><string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string><string original="Autocorrelation">Autokorelacja</string><string original="correlation (a.u.)">Korelacja (j.u.)</string><string original="Raw Data">Surowe dane</string><string original="Accelerometer X">Akcelerometr - składowa x</string><string original="Accelerometer Y">Akcelerometr - składowa y</string><string original="Accelerometer Z">Akcelerometr - składowa z</string></translation></translations>
-    <data-containers>
-        <container size="500">accX</container>
-        <container size="500">accY</container>
-        <container size="500">accZ</container>
-        <container size="500">anyAcc</container>
-        <container size="500">acc_time</container>
+    </description>
+      <string original="Results">Rezultaty</string>
+      <string original="Period">Okres</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacja</string>
+      <string original="correlation (a.u.)">Korelacja (j.u.)</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Accelerometer z">Akcelerometr - składowa z</string>
+      <string original="Accelerometer x">Akcelerometr - składowa x</string>
+      <string original="Accelerometer y">Akcelerometr - składowa y</string>
+    </translation>
+    <translation locale="nl">
+      <title>Veer</title>
+      <category>Mechanica</category>
+      <description>
+        Bepaal de frequentie en de periode van een trillend massa-veer systeem.
 
-        <container size="1">count</container>
+         In dit experiment wordt de accelerometer gebruikt om de harmonische trilling van een massa-veer systeem te onderzoeken en de periode T te berekenen. Bovendien wordt op het tabblad 'Resonantie' de amplitude uitgezet tegenover de berekende frequentie. Op deze manier kun je een gedwongen oscillator construeren en de frequentie ervan wijzigen om een resonantiecurve op te stellen.
 
-        <container size="500">autocorrelation_t</container>
-        <container size="500">autocorrelation</container>
-        <container>dt</container>
-        <container>t0</container>
-        <container>t1</container>
-        <container>t2</container>
-        <container size="500">search_t</container>
-        <container size="500">search_y</container>
+         Verdere details:
+         De periode wordt verkregen door de autocorrelatie van de som van de drie de accelerometerwaarden (x,y,z). De autocorrelatie wordt vervolgens geanalyseerd op het eerste maximum voor een eerste schatting en vervolgens wordt het laatste maximum van de autocorrelatie gebruikt om een nauwkeuriger resultaat te verkrijgen.
+    </description>
+      <string original="Results">Resultaten</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="Resonance">Resonantie</string>
+      <string original="Frequency (Hz)">Frequentie (Hz)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Op dit tabblad wordt de amplitude uitgezet tegen de gemeten frequentie. Je kunt dit gebruiken om de resonantie van een gedwongen oscillator te bestuderen. De amplitude is genormaliseerd op een bereik van 0 tot 1.</string>
+      <string original="Autocorrelation">Autocorrelatie</string>
+      <string original="correlation (a.u.)">correlatie (a.u.)</string>
+      <string original="Raw Data">Onbewerkte data</string>
+    </translation>
+    <translation locale="ru">
+      <title>Пружины</title>
+      <category>Механика</category>
+      <description>
+        Проанализируйте частоту и период пружинного осциллятора.
 
-        <container>periodEstimate</container>
-        <container size="20" static="true">factors</container>
-        <container size="20">multiples</container>
-        <container>multipleFactor</container>
-        <container>multiplePeriod</container>
-        <container>periodHalf</container>
-        <container>fineSearchMin</container>
-        <container>fineSearchMax</container>
-        <container size="500">fineSearch</container>
-        <container size="500">fineSearch_t</container>
-        <container>fineSearchResult</container>
+       Этот эксперимент использует акселерометр для измерения движения осциллятора и вычисляет период колебаний T. Кроме того, в меню «Резонанс» он отображает амплитуду по обнаруженной частоте. Таким образом, вы можете получить вынужденные колебания и изменить их частоту для измерения резонансна.
 
-        <container size="1">period</container>
-        <container size="1">frequency</container>
-
-
-
-        <container size="1">amplitudeSkewed</container>
-        <container size="1">amplitude</container>
-        <container size="1">avg</container>
-        <container size="0">periodhist</container>
-        <container size="0">frequencyhist</container>
-        <container size="0">amplitudehist</container>
-        <container size="1">maxamplitude</container>
-        <container size="0">relamplitude</container>
-    </data-containers>
-    <input>
-        <sensor type="linear_acceleration" rate="50">
-            <output component="x">accX</output>
-            <output component="y">accY</output>
-            <output component="z">accZ</output>
-            <output component="t">acc_time</output>
-        </sensor>
-    </input>
-    <analysis>
-        <add>
-            <input clear="false">accX</input>
-            <input clear="false">accY</input>
-            <input clear="false">accZ</input>
-            <output>anyAcc</output>     <!-- Since we want to keep a sign, but also want to allow using any axis, we simply look at the sum of all axes. This gives bad results if the phone is mounted at an angle, but usually the user will perform the experiment along a single axis -->
-        </add>
-        <autocorrelation>
-            <input as="x" clear="false">acc_time</input>
-            <input as="y" clear="false">anyAcc</input>
-            <input as="minX" type="value">0</input>
-            <input as="maxX" type="value">5</input>
-            <output as="x">autocorrelation_t</output>
-            <output as="y">autocorrelation</output>
-        </autocorrelation>
-
-        <threshold falling="true">
-            <input as="x" clear="false">autocorrelation_t</input>
-            <input as="y" clear="false">autocorrelation</input>
-            <output>t0</output>
-        </threshold>
-        <multiply>
-            <input clear="false">t0</input>
-            <input type="value">2</input>
-            <output>dt</output>
-        </multiply>
-        <add>
-            <input clear="false">t0</input>
-            <input clear="false">dt</input>
-            <output>t1</output>
-        </add>
-        <add>
-            <input clear="false">t1</input>
-            <input>dt</input>
-            <output>t2</output>
-        </add>
-        <rangefilter>
-            <input clear="false">autocorrelation_t</input>
-            <input as="min">t1</input>
-            <input as="max">t2</input>
-            <input clear="false">autocorrelation</input>
-            <output>search_t</output>
-            <output>search_y</output>
-        </rangefilter>
-        <max>
-            <input as="y">search_y</input>
-            <input as="x">search_t</input>
-            <output as="position">periodEstimate</output>
-        </max>
-
-        <ramp>
-            <input as="start" type="value">1</input>
-            <input as="stop" type="value">20</input>
-            <output>factors</output>
-        </ramp>
-        <multiply>
-            <input clear="false">periodEstimate</input>
-            <input clear="false">factors</input>
-            <output>multiples</output>
-        </multiply>
-        <rangefilter>
-            <input as="in">multiples</input>
-            <input as="max" type="value">4.5</input>
-            <input as="in">factors</input>
-            <output>multiplePeriod</output>
-            <output>multipleFactor</output>
-        </rangefilter>
-        <divide>
-            <input clear="false">periodEstimate</input>
-            <input type="value">2</input>
-            <output>periodHalf</output>
-        </divide>
-        <subtract>
-            <input clear="false">multiplePeriod</input>
-            <input clear="false">periodHalf</input>
-            <output>fineSearchMin</output>
-        </subtract>
-        <add>
-            <input clear="false">multiplePeriod</input>
-            <input>periodHalf</input>
-            <output>fineSearchMax</output>
-        </add>
-        <rangefilter>
-            <input as="in" clear="false">autocorrelation_t</input>
-            <input as="min">fineSearchMin</input>
-            <input as="max">fineSearchMax</input>
-            <input as="in" clear="false">autocorrelation</input>
-            <output>fineSearch_t</output>
-            <output>fineSearch</output>
-        </rangefilter>
-
-        <max>
-            <input as="y">fineSearch</input>
-            <input as="x">fineSearch_t</input>
-            <output as="position">fineSearchResult</output>
-        </max>
-
-        <divide>
-            <input>fineSearchResult</input>
-            <input>multipleFactor</input>
-            <output>period</output>
-        </divide>
-
-        <divide>
-            <input type="value">1</input>
-            <input clear="false">period</input>
-            <output>frequency</output>
-        </divide>
-        
-        <average>
-            <input clear="false">anyAcc</input>
-            <output as="average" clear="false">avg</output>
-            <output as="stddev">amplitudeSkewed</output>
-        </average>
-
-        <divide>
-            <input clear="false">amplitudeSkewed</input>
-            <input clear="false">frequency</input>
-            <input clear="false">frequency</input>
-            <output>amplitude</output>
-        </divide>
-
-        <count>
-            <input clear="false">anyAcc</input>
-            <output>count</output>
-        </count>
-
-        <!-- only append to history if we already have enough data -->
-
-        <if less="true">
-            <input clear="false">count</input>
-            <input type="value">250</input>
-            <input as="false" clear="false">amplitude</input>
-            <output clear="false">amplitudehist</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">count</input>
-            <input type="value">250</input>
-            <input as="false" clear="false">frequency</input>
-            <output clear="false">frequencyhist</output>
-        </if>
-
-        <if less="true">
-            <input clear="false">count</input>
-            <input type="value">250</input>
-            <input as="false" clear="false">period</input>
-            <output clear="false">periodhist</output>
-        </if>
-
-        <max>
-            <input as="y" clear="false">amplitudehist</input>
-            <output as="max">maxamplitude</output>
-        </max>
-
-        <divide>
-            <input clear="false">amplitudehist</input>
-            <input>maxamplitude</input>
-            <output>relamplitude</output>
-        </divide>
-
-    </analysis>
-    <views>
-        <view label="Results">
-            <value label="Period" size="2" unit="s">
-                <input>period</input>
-            </value>
-            <value label="Frequency" size="2" unit="Hz">
-                <input>frequency</input>
-            </value>
-        </view>
-        <view label="Resonance">
-            <graph label="Resonance" labelX="Frequency (Hz)" labelY="Rel. amplitude (a.u.)" style="dots">
-                <input axis="x">frequencyhist</input>
-                <input axis="y">relamplitude</input>
-            </graph>
-            <separator height="1"/>
-            <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
-        </view>
-        <view label="Autocorrelation">
-            <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
-                <input axis="x">autocorrelation_t</input>
-                <input axis="y">autocorrelation</input>
-            </graph>
-            <value label="Period" unit="s">
-                <input>period</input>
-            </value>
-            <value label="Frequency" unit="Hz">
-                <input>frequency</input>
-            </value>
-        </view>
-        <view label="Raw Data">
-            <graph label="Accelerometer X" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
-                <input axis="x">acc_time</input>
-                <input axis="y">accX</input>
-            </graph>
-            <graph label="Accelerometer Y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
-                <input axis="x">acc_time</input>
-                <input axis="y">accY</input>
-            </graph>
-            <graph label="Accelerometer Z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
-                <input axis="x">acc_time</input>
-                <input axis="y">accZ</input>
-            </graph>
-        </view>
-    </views>
-    <export>
-        <set name="Raw Data">
-            <data name="Time (s)">acc_time</data>
-            <data name="Acceleration x (m/s^2)">accX</data>
-            <data name="Acceleration y (m/s^2)">accY</data>
-            <data name="Acceleration z (m/s^2)">accZ</data>
-        </set>
-        <set name="Autocorrelation">
-            <data name="Time shift (s)">autocorrelation_t</data>
-            <data name="Autocorrelation of sum">autocorrelation</data>
-        </set>
-        <set name="Resonance">
-            <data name="Frequency (Hz)">frequencyhist</data>
-            <data name="Rel. amplitude (a.u.)">relamplitude</data>
-        </set>
-    </export>
+       Дальнейшие подробности:
+       Период колебаний получается через автокорреляцию суммы всех трех компонентов акселерометра. Затем автокорреляция анализируется по первому максимуму для первичной оценки, а последний максимум автокорреляции используется для получения более точного результата.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="Period">Период</string>
+      <string original="Frequency">Частота</string>
+      <string original="Resonance">Резонанс</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="Rel. amplitude (a.u.)">Относительная амплитуда (пр. е.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
+      <string original="Autocorrelation">Автокорреляция</string>
+      <string original="Δt (s)">Δt (с)</string>
+      <string original="correlation (a.u.)">корреляция (пр. е.)</string>
+      <string original="Raw Data">Исходные данные</string>
+      <string original="Accelerometer x">Акселерометр x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Accelerometer y">Акселерометр y</string>
+      <string original="Accelerometer z">Акселерометр z</string>
+      <string original="s">с</string>
+      <string original="Hz">Гц</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="500">accX</container>
+    <container size="500">accY</container>
+    <container size="500">accZ</container>
+    <container size="500">anyAcc</container>
+    <container size="500">acc_time</container>
+    <container size="1">count</container>
+    <container size="500">autocorrelation_t</container>
+    <container size="500">autocorrelation</container>
+    <container>dt</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container>t2</container>
+    <container size="500">search_t</container>
+    <container size="500">search_y</container>
+    <container>periodEstimate</container>
+    <container size="20" static="true">factors</container>
+    <container size="20">multiples</container>
+    <container>multipleFactor</container>
+    <container>multiplePeriod</container>
+    <container>periodHalf</container>
+    <container>fineSearchMin</container>
+    <container>fineSearchMax</container>
+    <container size="500">fineSearch</container>
+    <container size="500">fineSearch_t</container>
+    <container>fineSearchResult</container>
+    <container size="1">period</container>
+    <container size="1">frequency</container>
+    <container size="1">amplitudeSkewed</container>
+    <container size="1">amplitude</container>
+    <container size="1">avg</container>
+    <container size="0">periodhist</container>
+    <container size="0">frequencyhist</container>
+    <container size="0">amplitudehist</container>
+    <container size="1">maxamplitude</container>
+    <container size="0">relamplitude</container>
+  </data-containers>
+  <input>
+    <sensor type="linear_acceleration" rate="50">
+      <output component="x">accX</output>
+      <output component="y">accY</output>
+      <output component="z">accZ</output>
+      <output component="t">acc_time</output>
+    </sensor>
+  </input>
+  <analysis>
+    <add>
+      <input clear="false">accX</input>
+      <input clear="false">accY</input>
+      <input clear="false">accZ</input>
+      <output>anyAcc</output>
+      <!-- Since we want to keep a sign, but also want to allow using any axis, we simply look at the sum of all axes. This gives bad results if the phone is mounted at an angle, but usually the user will perform the experiment along a single axis -->
+    </add>
+    <autocorrelation>
+      <input as="x" clear="false">acc_time</input>
+      <input as="y" clear="false">anyAcc</input>
+      <input as="minX" type="value">0</input>
+      <input as="maxX" type="value">5</input>
+      <output as="x">autocorrelation_t</output>
+      <output as="y">autocorrelation</output>
+    </autocorrelation>
+    <threshold falling="true">
+      <input as="x" clear="false">autocorrelation_t</input>
+      <input as="y" clear="false">autocorrelation</input>
+      <output>t0</output>
+    </threshold>
+    <multiply>
+      <input clear="false">t0</input>
+      <input type="value">2</input>
+      <output>dt</output>
+    </multiply>
+    <add>
+      <input clear="false">t0</input>
+      <input clear="false">dt</input>
+      <output>t1</output>
+    </add>
+    <add>
+      <input clear="false">t1</input>
+      <input>dt</input>
+      <output>t2</output>
+    </add>
+    <rangefilter>
+      <input clear="false">autocorrelation_t</input>
+      <input as="min">t1</input>
+      <input as="max">t2</input>
+      <input clear="false">autocorrelation</input>
+      <output>search_t</output>
+      <output>search_y</output>
+    </rangefilter>
+    <max>
+      <input as="y">search_y</input>
+      <input as="x">search_t</input>
+      <output as="position">periodEstimate</output>
+    </max>
+    <ramp>
+      <input as="start" type="value">1</input>
+      <input as="stop" type="value">20</input>
+      <output>factors</output>
+    </ramp>
+    <multiply>
+      <input clear="false">periodEstimate</input>
+      <input clear="false">factors</input>
+      <output>multiples</output>
+    </multiply>
+    <rangefilter>
+      <input as="in">multiples</input>
+      <input as="max" type="value">4.5</input>
+      <input as="in">factors</input>
+      <output>multiplePeriod</output>
+      <output>multipleFactor</output>
+    </rangefilter>
+    <divide>
+      <input clear="false">periodEstimate</input>
+      <input type="value">2</input>
+      <output>periodHalf</output>
+    </divide>
+    <subtract>
+      <input clear="false">multiplePeriod</input>
+      <input clear="false">periodHalf</input>
+      <output>fineSearchMin</output>
+    </subtract>
+    <add>
+      <input clear="false">multiplePeriod</input>
+      <input>periodHalf</input>
+      <output>fineSearchMax</output>
+    </add>
+    <rangefilter>
+      <input as="in" clear="false">autocorrelation_t</input>
+      <input as="min">fineSearchMin</input>
+      <input as="max">fineSearchMax</input>
+      <input as="in" clear="false">autocorrelation</input>
+      <output>fineSearch_t</output>
+      <output>fineSearch</output>
+    </rangefilter>
+    <max>
+      <input as="y">fineSearch</input>
+      <input as="x">fineSearch_t</input>
+      <output as="position">fineSearchResult</output>
+    </max>
+    <divide>
+      <input>fineSearchResult</input>
+      <input>multipleFactor</input>
+      <output>period</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>frequency</output>
+    </divide>
+    <average>
+      <input clear="false">anyAcc</input>
+      <output as="average" clear="false">avg</output>
+      <output as="stddev">amplitudeSkewed</output>
+    </average>
+    <divide>
+      <input clear="false">amplitudeSkewed</input>
+      <input clear="false">frequency</input>
+      <input clear="false">frequency</input>
+      <output>amplitude</output>
+    </divide>
+    <count>
+      <input clear="false">anyAcc</input>
+      <output>count</output>
+    </count>
+    <!-- only append to history if we already have enough data -->
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">amplitude</input>
+      <output clear="false">amplitudehist</output>
+    </if>
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">frequency</input>
+      <output clear="false">frequencyhist</output>
+    </if>
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">period</input>
+      <output clear="false">periodhist</output>
+    </if>
+    <max>
+      <input as="y" clear="false">amplitudehist</input>
+      <output as="max">maxamplitude</output>
+    </max>
+    <divide>
+      <input clear="false">amplitudehist</input>
+      <input>maxamplitude</input>
+      <output>relamplitude</output>
+    </divide>
+  </analysis>
+  <views>
+    <view label="Results">
+      <value label="Period" size="2" unit="s">
+        <input>period</input>
+      </value>
+      <value label="Frequency" size="2" unit="Hz">
+        <input>frequency</input>
+      </value>
+    </view>
+    <view label="Resonance">
+      <graph label="Resonance" labelX="Frequency (Hz)" labelY="Rel. amplitude (a.u.)" style="dots">
+        <input axis="x">frequencyhist</input>
+        <input axis="y">relamplitude</input>
+      </graph>
+      <separator height="1"/>
+      <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
+    </view>
+    <view label="Autocorrelation">
+      <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
+        <input axis="x">autocorrelation_t</input>
+        <input axis="y">autocorrelation</input>
+      </graph>
+      <value label="Period" unit="s">
+        <input>period</input>
+      </value>
+      <value label="Frequency" unit="Hz">
+        <input>frequency</input>
+      </value>
+    </view>
+    <view label="Raw Data">
+      <graph label="Accelerometer x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+        <input axis="x">acc_time</input>
+        <input axis="y">accX</input>
+      </graph>
+      <graph label="Accelerometer y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+        <input axis="x">acc_time</input>
+        <input axis="y">accY</input>
+      </graph>
+      <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+        <input axis="x">acc_time</input>
+        <input axis="y">accZ</input>
+      </graph>
+    </view>
+  </views>
+  <export>
+    <set name="Raw Data">
+      <data name="Time (s)">acc_time</data>
+      <data name="Acceleration x (m/s^2)">accX</data>
+      <data name="Acceleration y (m/s^2)">accY</data>
+      <data name="Acceleration z (m/s^2)">accZ</data>
+    </set>
+    <set name="Autocorrelation">
+      <data name="Time shift (s)">autocorrelation_t</data>
+      <data name="Autocorrelation of sum">autocorrelation</data>
+    </set>
+    <set name="Resonance">
+      <data name="Frequency (Hz)">frequencyhist</data>
+      <data name="Rel. amplitude (a.u.)">relamplitude</data>
+    </set>
+  </export>
 </phyphox>

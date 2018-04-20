@@ -1,363 +1,445 @@
 <phyphox version="1.6" locale="en">
-    <title>Audio Spectrum</title>
-    <category>Acoustics</category>
-    <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA2BSURBVHic7d1b7BxVAcfx35Reofxb2tJyKy13QlEhBUFA0chFNIiJAfESUIw8GYwRQjReMMQEH4zRB42XB0ETDfGBiyQSExQpLwRQLq0XEDRysxAgVSjBtl8fZtb//Gd3ZnZ2Z3Z2zv4+SbP//Xf+M2d297fnnJkzZyQzMzMzMzMzMzMzMzMzMzMzs8kDTgK2tl0Os6kE/IzYDuAGYFPbZTKbCsAc8BoL7QV+A1wBHNB2Gc1aA1xFsVeBW4DzgKjt8ppNFHBvSUDS/gHcBBzddrnNJiKpQe4D9lUIyl7gHuBKYGXb+2DWOGAjcD3wZIWgAOwGbgUuBvZrez/MGgdsBX4A7KoYlmeIm2DHt70PZo0DlgOXAncC/60YlgeBzwHr2t4Ps8YBhycf+EcqBuWNJGCXAkva3g+zxhE3wb4DvFgxLM8lf3dq2/tg1jhgGXHn/FbgzYph2U58UGB92/th1jhgDXA18FDFoOwhPmt/KbC07f0waxywhfho1gsVw/Iy8dGzc9reB7PGAfsRD1G5BXi9Ylg8cNJmB7CauAm2jepn7T1w0mYHcGJSOzxdsVZpZeAkHiFgbQAWAecQ9zv+UzEsExs4SXy9zDFNb8csF/F1KVckzamqTbBtxM23Axso1wbiUQTbgbm6129WGVM0cBK4LrX+24BFdazXrBa0PHASeCyz3m/UtW9mtaGFgZNJOLP2AR9raj/NxsaEBk4C381Zz27gjEnsq9lYaGjgJLAE2Fnw988DR0x6f81GQs0DJ4EPDfF3DwP7t7nfZpVRz8DJ24f8m1/i2V6sqxh94GQVX2l7P83GwngDJ8vsAz7S9j6a1QJYC3wWeKDGkLwOnNb2vpnVitEHTg7yLHBY2/tkVjvmB05WPbeSdT+wrO39MasdcT/lmTEDAnBz2/tiVjvgohrC0XNt2/tjVivg5zUGZA/wgbb3aVb5xFTNgNWSnpO0osbV7pL0jiiKdtS4ThuCr0mo32WqNxx7Je2UdFWN67QhLW67AAG6Yoy//bukHZIel7Q9efxTFEW7ayiXjcBNrBoBx0r6q8pf11cUB2F78viQpEeiKPp3syW0qlyD1OtKLQzHS5IeU6ZWiKLolRbKZiNwQOr1hqRrNB+EnS2Xx8zMbAT4Iqyx+TBv2Da2XYCuc0DC5mvdx+SAhO3wtgvQdQ5I2Da0XYCuc0DCdkjbBeg6ByRsDsiYHJCwuYk1JgckUMBySavbLkfXOSDh2l+S70MyJgckXCvkgIzNAQmXa5AaOCDh2l/SCnzj0LE4IOHqXfa7vNVSdJwDEq7eSF4HZAwOSLhWZB5LAXVONhEEByRco9QghzZRkC5zQMLVC0iVWsFDUzIckHCNUoM4IBkOSLhGOYrlJlaGAxKuSk0s4EBJBzRXnG5yQMJVtQbZIH8e+vgFCVfVTroDMoBfkHBVrUEOlj8PffyChKtqDXKwPFdzHwckXFUP866VPw99/IKEq+pQEwdkAL8g4erVIEuGXH6d3MTq44CEq1dzDHs9yNoKy84MByRcvRpk2Pd4jYavbWaGAxKuXkCGrRXm5PvF9HFAwlW1Blkp1yB9HJBwVe2DHCAHpI8DEq6qTayVchOrjwMSoGQmk6XJ09KAAIsU1zhLy5adNQ5ImNK3XhvmPZ5TfA7ENUiGAxKmdECGaWL1JphzHyTDAQlTenjJMAFZlTy6BslwQMK0MvWza5AxOCBhWpX6uUpA3EnPcEDClJ60epj3uBcoz8KY4YCEadQaZP/CpWaQAxKmdA1SJSCe1STDAQlTugYZ5j1emzx6bt4MByRMVWuQXkBcg2Q4IGFK37xzmIAclDy6D5LhgIRpXernYQLSW34F4MtuUxyQMK1N/TxMQNYkj5HcD1nAAQnTqAGR3MxawAEJU9WApJd3QFIckDCla4TCAYjAci1sVh3YSIk6ygEJDLBUCz/kZTXI2szzgwYuNaMckPBkP/BVA7Jm4FIzygEJz7rM87JrPLI1hmuQFAckPNnbqJXVINlAuQZJcUDCsyHzvKwGyQbCNUiKAxKe7J1qy2oQB6SAAxKeqjVINhBuYqV0NiCAR54O5hqkRp0NiPo7lxbL1iBll9FmA+IaJKXLATm47QJMqWwNUlbTugYp0OWArG+7AFMq+7qsHLjUvNWZ565BUjoZEGCJHJA+wGL1Nz2XJq9Xnr4z6cl6TB0NiOJmhOdw6rdeg9/TolokW2Mskvt3/9fVgBwqT5M5SLb/0TMwIEnNMuj/sh39mdXlgHiazH55zc68GiSvQ+6AJLoakCPlGmSQ7DisnrwjWdn+R48DkuhqQI6QAzJIXTWID4AkuhqQTXJABsnrg+QFIe+QrmuQRFcDslEOyCB5Ack7KuWAlOhqQI6QO+mD5H2w80YduJNeonMBSW5QeZg8TeYgR+T83jXIiDoXEMXhWCzPvjHI4Tm/z6tBHJASXQzIxuRxrnCpGQOsUf6cVlVrkIOTW0PPvC6+CA7IYIcV/F9eDZIdqNizWB60KKmbAdmUPLqJtVBe/0PKD09RCNzMUjcDsjl59DfcQnn9D0naACwb8Pui17BofTOjiwE5Knn0N9xCRTXIIs03TdOKXsOi9c2MLgfkoJxvxVlV9oHelH4CrNfCW7VlDQrUzOlUQJKbu6TfaNci84o66VImIJJOLVneNYg6FhDFQynSkxA4IPPKPtBHZZ6fVbK8axB1LyDZNzlv7NEsKutUn5R5/q6S5R0QdS8gmzPPs4GZScAK5V/b0bMltfwySWeULO8mlroXkGwgjmulFNNnmEOyx6QOapyu8nsRzgFloQte1wKyOfPcAYkNE5DFmq9FLhhyvceMVpxwdC0grkEGG7a/cGby+P4hlz96hLIEpWsB2Zx5vim55disG/as91nABpUf4u05dsTyBKMzAUmuAzky8+v9JJ3YQnGmTfZ1yXOepIs0/PvuGqTtAlSQdxVh2fH8WZA9CZhng6QvVliv+yBtF6CCt+b8/uyJlmI6DRsQSTq+oWWD1KWAnJbzewekWkCqOASY6Vn0QwjIUcDMntRKriRs8tqYkxtc99TrRECSDvrpBYu8d1JlmULDdtBHlde0nQmdCIikd6v4hjmfnEwxptLmhtfvGqQDLi/5/3OBLSXLhMo1SIOmPiDJ+KEPlywWSfr2BIozjZrqoPecCpTdpaoVk5h5ZeoDIukzGu6+eecDZTVNiJoOyBJJ72x4G6P6RNMbmOqAJN9cX67wJz+awaZW0wGRpPdMYBuVAHOSrmp6O1MdEElfULWrBldKugNoul0+FZKjeydMYFPnTWAbVV2qWb7TMbAVeIPRPAVMzTgioJF5hIEtI74+o3hLE/swKuAu4JmmtzOVNQiwStKtkkadteQoSQ8A59dXqtEAX5X0BJA3i+E4PtjAOvNcO8FtFSLunJ+lWbynO7AUuLOmb709wE3A8vItN7IvFwH7krLUepQN2A/4S02v0zD2AmeWl6x5wDGpcrXy3rYCWEZ94Uj7M3AJ8bRBk9qXo4GdqTK8CZRdB15l/Vc38DqV+RvQ+rc2cGGqTHn3ZQwLMAfc3fAb/ABw4QT25WTiflDW08QXLI27/uOAVxp+rfJso6E+VYX9T385ZGdrCQ/wduDJCb7J9wMfJ54NpM79WAN8i+KDC9sZIyTAkcQ1Ypv+CLR2rQhwXaos4Y7mJm5SfYm4+dGGV4HvA2cTHzIdZR8WAecm6xn2W/0JoGjwZd62LgSerf9lGMnLQNkIh0YAN6bKcXEbZWgUEAGXM7gZ0pYXgZ8S1ywDDxETd4yPBi4ArgduY2E/o4q9wM2UBIX5AN7OfId/mvwW2NrMJyX3Nbkptf1PN7mtiXVaJYn4iMPlkq7R8BMHtGWnpO2KD4WvUnxSar2auXnoPyVtk/SEpFcl7U22daLiC8K6MIPkvZJ+KOm2KIpeb3JDwNck3ZA8vSGKoq83ta3Gb6VMfORoq6TLJH1K+bcDmzbrk3+TsFHSRye0raacm/x7A7hH0v2S7pO0LYoiat7W7tTPjU6R2khAiE+KnS3pfZIuked5nSXLFc+71Zt76wngx5J+EkXRzpq2sSf1c6NXk44dEOKz3lsUX1hziqRzkudTeZbeJu44Sd+UdCPwa0m/kHRHFEWvjbHOdCuk0S/fgX0Q4lP5qxWfyk8/rlOc2CMVD+fYLE9ybNW9LulXku6SdHcURf8a9g+BJYr7hr1ZNXdFUVR0I6CxRMCDiidgm1Nco6yW7yBrk4OkP0i6W9KDkh6V9FQURfv6FoRNkr6n/qlTV0VRtKuJwkVA3R0os3G9JmmHpOckvam4X7NR0ts0uNVzchRF25soSONHscxGcICKZ7HJOkFxs6t27khbCE5pasUOiIWgsYC4D2IheEnSoVEU7SldsiLXIBaCdYrP4tfOAbFQfJ4G5u9yE8tCskvx+ZTfS/qdpO3jjgNzQCxkb0p6UtJDig8D75D0YBRFzw+7AgfEZtELkh5L/j2u+Oz9jiiKdmcXdEDMYnsVX4/zaPLvYUkPOCBmBXwUy6yAA2JWwAExK+CAmBVwQMwKOCBmBRwQswIOiFkBB8SsgANiVsABMSvggJgVcEDMCixWPG+qmZmZmZmZmZmZmZmZmZmZSdL/ADJDLz25M4vMAAAAAElFTkSuQmCC</icon>
-    <description>
+  <title>Audio Spectrum</title>
+  <category>Acoustics</category>
+  <icon format="base64">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</icon>
+  <description>
             Display the frequency spectrum of an audio signal.
 
             This experiment records audio from the microphone and calculates its frequency spectrum through a Fourier transformation (FFT). If you only have a single tone with a single frequency, you might get more precise results from the "autocorrelation" audio experiment.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
-    <translations>
-        <translation locale="de">
-            <title>Audio Spektrum</title>
-            <category>Akustik</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Spektrum</title>
+      <category>Akustik</category>
+      <description>
             Zeigt das Frequenz-Spektrum von Audiosignalen.
 
                 Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment "Autokorrelation".
     </description>
-            <string original="Spectrum">Spektrum</string>
-            <string original="Peak-Frequency">Frequenzspitze</string>
-            <string original="Fourier Transform">Fourier-Transformierte</string>
-            <string original="Settings">Einstellungen</string>
-            <string original="Raw data">Rohdaten</string>
-            <string original="Recording">Aufnahme</string>
-            <string original="Frequency (Hz)">Frequenz (Hz)</string>
-            <string original="Musical note">Note (Musik)</string>
-            <string original="Cents from note">Cent über Note</string>
-            <string original="Samples used">Genutzte Werte</string>
-            <string original="Period used">Genutzte Periode</string>
-            <string original="Samples">Messwerte</string>
-            <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
-        <string original="Low">Niedrig</string><string original="High">Hoch</string></translation>
-    <translation locale="cs"><title>Zvukové spektrum</title><category>Akustika</category><description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Recording">Aufnahme</string>
+      <string original="Frequency (Hz)">Frequenz (Hz)</string>
+      <string original="Musical note">Note (Musik)</string>
+      <string original="Cents from note">Cent über Note</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Low">Niedrig</string>
+      <string original="High">Hoch</string>
+    </translation>
+    <translation locale="cs">
+      <title>Zvukové spektrum</title>
+      <category>Akustika</category>
+      <description>
             Zobrazuje spektrum frekvencí zvukového signálu.
 
 Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem, pak můžete docílit lepších výsledků použitím experimentu "autokorelace".
-    </description><string original="Spectrum">Spektrum</string><string original="Peak-Frequency">Maximální frekvence</string><string original="Musical note">Tón</string><string original="Low">Nízká</string><string original="High">Vysoká</string><string original="Cents from note">Rozdíl od čistého tónu v centech</string><string original="Fourier Transform">Fourierova transformace</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="FFT Mag (a.u.)">FFT Mag</string><string original="Samples used">Počet vzorků</string><string original="Period used">Použitá perioda</string><string original="Settings">Nastavení</string><string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string><string original="Samples">Vzorků</string><string original="Raw data">Neupravená data</string><string original="Recording">Záznam</string><string original="Amplitude (a.u.)">Amplituda</string></translation><translation locale="pl"><title>Widmo audio</title><category>Akustyka</category><description>
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Musical note">Tón</string>
+      <string original="Low">Nízká</string>
+      <string original="High">Vysoká</string>
+      <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Frequency (Hz)">Frekvence (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT Mag</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Recording">Záznam</string>
+      <string original="Amplitude (a.u.)">Amplituda</string>
+    </translation>
+    <translation locale="pl">
+      <title>Widmo audio</title>
+      <category>Akustyka</category>
+      <description>
             Prezentuj widmo częstotliwościowe rejestrowanego sygnału dźwiękowego.
 
             Podczas eksperymentu, za pomocą mikrofonu urządzenia, rejestrowany jest dźwięk, a uzyskane widmo częstotliwościowe jest rezultatem poddania danych analizie Fourier'a (FFT). W przypadku analizy dźwięku o pojedynczej częstotliwości bardziej precyzyjne wyniki otrzymuje się w eksperymencie "Autokorelacja".
-    </description><string original="Spectrum">Widmo</string><string original="Peak-Frequency">Częstotliwość dominująca</string><string original="Musical note">Nuta</string><string original="Low">Niska</string><string original="High">Wysoka</string><string original="Cents from note">Odstępstwo od tonu</string><string original="Fourier Transform">Transformata Fourier'a</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string><string original="Samples used">Rejestrowana próba</string><string original="Period used">Rejestrowany czas</string><string original="Settings">Ustawienia</string><string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string><string original="Samples">Liczba próbek</string><string original="Raw data">Surowe dane</string><string original="Recording">Nagranie</string><string original="Amplitude (a.u.)">Amplituda (j.u.)</string></translation></translations>
-    <data-containers>
-        <container size="32768">recording</container>
-        <container>rate</container>
-        <container>rate/2</container>
-        <container size="32768">recording_subrange</container>
-        <container>recording_length</container>
-        <container init="8192">samples</container>
-        <container>actual_samples</container>
-        <container>actual_samples+1</container>
-        <container>subrange_start</container>
-        <container>period</container>
-        <container size="32768">time</container>
-        <container size="32769">frequency</container>
-        <container size="32768">fftX</container>
-        <container size="32768">fftY</container>
-        <container size="16384">halfFrequency</container>
-        <container size="16384">halfFFTtempX</container>
-        <container size="16384">halfFFTtempY</container>
-        <container size="16384">halfFFTtempX2</container>
-        <container size="16384">halfFFTtempY2</container>
-        <container size="16384">fft</container>
-        <container>f0</container>
-        <container>ratio</container>
-        <container static="true">log2</container>
-        <container>logRatio</container>
-        <container>log2Ratio</container>
-        <container>cents</container>
-        <container>semitones</container>
-        <container>semitonesRound</container>
-        <container>semitonesDiff</container>
-        <container>centsDiff</container>
-    </data-containers>
-    <input>
-        <audio>
-            <output>recording</output>
-            <output component="rate">rate</output>
-        </audio>
-    </input>
-    <views>
-        <view label="Spectrum">
-            <value label="Peak-Frequency" unit="Hz">
-                <input>f0</input>
-            </value>
-            <separator height="1"/>
-            <value label="Musical note">
-                <input>semitonesRound</input>
-                <map max="-25">Low</map>
+    </description>
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Musical note">Nuta</string>
+      <string original="Low">Niska</string>
+      <string original="High">Wysoka</string>
+      <string original="Cents from note">Odstępstwo od tonu</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Recording">Nagranie</string>
+      <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
+    </translation>
+    <translation locale="nl">
+      <title>Audio spectrum</title>
+      <category>Geluid</category>
+      <description>
+            Geef het frequentiespectrum van een audiosignaal weer.
 
-                <map max="-24">A2</map>
-                <map max="-23">A#2 / Bb2</map>
-                <map max="-22">B2</map>
-                <map max="-21">C3</map>
-                <map max="-20">C#3 / Db3</map>
-                <map max="-19">D3</map>
-                <map max="-18">D#3 / Eb3</map>
-                <map max="-17">E3</map>
-                <map max="-16">F3</map>
-                <map max="-15">F#3 / Gb3</map>
-                <map max="-14">G3</map>
-                <map max="-13">G#3 / Ab3</map>
+             Dit experiment neemt audio op via de microfoon en berekent het frequentiespectrum via een Fourier-transformatie (FFT). Als u slechts één toon hebt met een enkele frequentie, krijgt u mogelijk nauwkeuriger resultaten van het audio-experiment "autocorrelatie".
+    </description>
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Musical note">Muzieknoot</string>
+      <string original="Low">Laag</string>
+      <string original="High">Hoog</string>
+      <string original="Cents from note">Centen (van noot)</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Frequency (Hz)">Frequentie (Hz)</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Recording">Opname</string>
+    </translation>
+    <translation locale="ru">
+      <title>Звуковой спектр</title>
+      <category>Акустика</category>
+      <description>
+            Отображение частотного спектра аудиосигнала.
 
-                <map max="-12">A3</map>
-                <map max="-11">A#3 / Bb3</map>
-                <map max="-10">B3</map>
-                <map max="-9">C4</map>
-                <map max="-8">C#4 / Db4</map>
-                <map max="-7">D4</map>
-                <map max="-6">D#4 / Eb4</map>
-                <map max="-5">E4</map>
-                <map max="-4">F4</map>
-                <map max="-3">F#4 / Gb4</map>
-                <map max="-2">G4</map>
-                <map max="-1">G#4 / Ab4</map>
-
-                <map max="0">A4</map>
-                <map max="1">A#4 / Bb4</map>
-                <map max="2">B4</map>
-                <map max="3">C5</map>
-                <map max="4">C#5 / Db5</map>
-                <map max="5">D5</map>
-                <map max="6">D#5 / Eb5</map>
-                <map max="7">E5</map>
-                <map max="8">F5</map>
-                <map max="9">F#5 / Gb5</map>
-                <map max="10">G5</map>
-                <map max="11">G#5 / Ab5</map>
-
-                <map max="12">A5</map>
-                <map max="13">A#5 / Bb5</map>
-                <map max="14">B5</map>
-                <map max="15">C6</map>
-                <map max="16">C#6 / Db6</map>
-                <map max="17">D6</map>
-                <map max="18">D#6 / Eb6</map>
-                <map max="19">E6</map>
-                <map max="20">F6</map>
-                <map max="21">F#6 / Gb6</map>
-                <map max="22">G6</map>
-                <map max="23">G#6 / Ab6</map>
-
-                <map max="24">A6</map>
-                <map max="25">A#6 / Bb6</map>
-                <map max="26">B6</map>
-                <map max="27">C7</map>
-                <map max="28">C#7 / Db7</map>
-                <map max="29">D7</map>
-                <map max="30">D#7 / Eb7</map>
-                <map max="31">E7</map>
-                <map max="32">F7</map>
-                <map max="33">F#7 / Gb7</map>
-                <map max="34">G7</map>
-                <map max="35">G#7 / Ab7</map>
-
-                <map min="35">High</map>
-            </value>
-            <value label="Cents from note">
-                <input>centsDiff</input>
-            </value>
-            <separator height="1"/>
-            <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
-                <input axis="x">halfFrequency</input>
-                <input axis="y">fft</input>
-            </graph>
-            <separator height="1" precision="0"/>
-            <value label="Samples used">
-                <input>actual_samples</input>
-            </value>
-            <value label="Period used" unit="ms" precision="2" factor="1000">
-                <input>period</input>
-            </value>
-        </view>
-        <view label="Settings">
-            <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
-            <value label="Samples" precision="0">
-                <input>samples</input>
-            </value>
-            <separator height="0.5"/>
-            <button label="4096">
-                <input type="value">4096</input>
-                <output>samples</output>
-            </button>
-            <button label="8192">
-                <input type="value">8192</input>
-                <output>samples</output>
-            </button>
-            <button label="16384">
-                <input type="value">16384</input>
-                <output>samples</output>
-            </button>
-            <button label="32768">
-                <input type="value">32768</input>
-                <output>samples</output>
-            </button>
-        </view>
-        <view label="Raw data">
-            <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)">
-                <input axis="x">time</input>
-                <input axis="y">recording_subrange</input>
-            </graph>
-        </view>
-    </views>
-    <analysis sleep="0.1" dynamicSleep="period">
-
-        <divide>
-            <input clear="false">rate</input>
-            <input type="value">2</input>
-            <output>rate/2</output>
-        </divide>
-
-        <count>
-            <input clear="false">recording</input>
-            <output>recording_length</output>
-        </count>
-
-        <subtract>
-            <input>recording_length</input>
-            <input clear="false">samples</input>
-            <output>subrange_start</output>
-        </subtract>
-
-        <subrange>
-            <input clear="false" as="from">subrange_start</input>
-            <input as="in" clear="false">recording</input>
-            <output>recording_subrange</output>
-        </subrange>
-
-        <count>
-            <input clear="false">recording_subrange</input>
-            <output>actual_samples</output>
-        </count>
-
-        <add>
-            <input clear="false">actual_samples</input>
-            <input type="value">1</input>
-            <output>actual_samples+1</output>
-        </add>
-
-        <divide>
-            <input clear="false">actual_samples</input>
-            <input clear="false">rate</input>
-            <output>period</output>
-        </divide>
-
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" clear="false">period</input>
-            <input as="length" clear="false">actual_samples+1</input>
-            <output>time</output>
-        </ramp>
-
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" clear="false">rate</input>
-            <input as="length" clear="false">actual_samples+1</input>
-            <output>frequency</output>
-        </ramp>
-
-        <fft>
-            <input clear="false">recording_subrange</input>
-            <output as="re">fftX</output>
-            <output as="im">fftY</output>
-        </fft>
-        <rangefilter>
-            <input as="in">frequency</input>
-            <input as="min" type="value">0.001</input>
-            <input as="max" clear="false">rate/2</input>
-            <input as="in">fftX</input>
-            <input as="in">fftY</input>
-            <output>halfFrequency</output>
-            <output>halfFFTtempX</output>
-            <output>halfFFTtempY</output>
-        </rangefilter>
-        <multiply>
-            <input clear="false">halfFFTtempX</input>
-            <input>halfFFTtempX</input>
-            <output>halfFFTtempX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">halfFFTtempY</input>
-            <input>halfFFTtempY</input>
-            <output>halfFFTtempY2</output>
-        </multiply>
-        <add>
-            <input>halfFFTtempX2</input>
-            <input>halfFFTtempY2</input>
-            <output>halfFFTtempX</output>
-        </add>
-        <power>
-            <input as="base">halfFFTtempX</input>
-            <input as="exponent" type="value">0.5</input>
-            <output>fft</output>
-        </power>
-        <max>
-            <input as="y" clear="false">fft</input>
-            <input as="x" clear="false">halfFrequency</input>
-            <output as="position">f0</output>
-         </max>
-
-        <divide>
-            <input clear="false">f0</input>
-            <input type="value">440</input>
-            <output>ratio</output>
-        </divide>
-
-        <log>
-            <input type="value">2</input>
-            <output>log2</output>
-        </log>
-
-        <log>
-            <input>ratio</input>
-            <output>logRatio</output>
-        </log>
-
-        <divide>
-            <input>logRatio</input>
-            <input>log2</input>
-            <output>log2Ratio</output>
-        </divide>
-
-        <multiply>
-            <input>log2Ratio</input>
-            <input type="value">1200</input>
-            <output>cents</output>
-        </multiply>
-
-        <divide>
-            <input clear="false">cents</input>
-            <input type="value">100</input>
-            <output>semitones</output>
-        </divide>
-
-        <round>
-            <input clear="false">semitones</input>
-            <output>semitonesRound</output>
-        </round>
-
-        <subtract>
-            <input clear="false">semitones</input>
-            <input clear="false">semitonesRound</input>
-            <output>semitonesDiff</output>
-        </subtract>
-
-        <multiply>
-            <input clear="false">semitonesDiff</input>
-            <input type="value">100</input>
-            <output>centsDiff</output>
-        </multiply>
-
-    </analysis>
-    <export>
-        <set name="FFT Spectrum">
-            <data name="Frequency (Hz)">halfFrequency</data>
-            <data name="Absolute Amplitude (a.u.)">fft</data>
-        </set>
-        <set name="Raw data">
-            <data name="Time (s)">time</data>
-            <data name="Recording (a.u.)">recording_subrange</data>
-        </set>
-    </export>
+            Этот эксперимент записывает звук с микрофона и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Если у вас есть только один тон с одной частотой, вы можете получить более точные результаты из акустического эксперимента «автокорреляция».
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Musical note">Музыкальная нота</string>
+      <string original="Low">Низкая</string>
+      <string original="A#2 / Bb2">A#2 / Hb2</string>
+      <string original="B2">H2</string>
+      <string original="A#3 / Bb3">A#3 / Hb3</string>
+      <string original="B3">H3</string>
+      <string original="A#4 / Bb4">A#4 / Hb4</string>
+      <string original="B4">H4</string>
+      <string original="A#5 / Bb5">A#5 / Hb5</string>
+      <string original="B5">H5</string>
+      <string original="A#6 / Bb6">A#6 / Hb6</string>
+      <string original="B6">H6</string>
+      <string original="High">Низкая</string>
+      <string original="Cents from note">Сотые части ноты</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Recording">Запись</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
+      <string original="Hz">Гц</string>
+      <string original="ms">мс</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="32768">recording</container>
+    <container>rate</container>
+    <container>rate/2</container>
+    <container size="32768">recording_subrange</container>
+    <container>recording_length</container>
+    <container init="8192">samples</container>
+    <container>actual_samples</container>
+    <container>actual_samples+1</container>
+    <container>subrange_start</container>
+    <container>period</container>
+    <container size="32768">time</container>
+    <container size="32769">frequency</container>
+    <container size="32768">fftX</container>
+    <container size="32768">fftY</container>
+    <container size="16384">halfFrequency</container>
+    <container size="16384">halfFFTtempX</container>
+    <container size="16384">halfFFTtempY</container>
+    <container size="16384">halfFFTtempX2</container>
+    <container size="16384">halfFFTtempY2</container>
+    <container size="16384">fft</container>
+    <container>f0</container>
+    <container>ratio</container>
+    <container static="true">log2</container>
+    <container>logRatio</container>
+    <container>log2Ratio</container>
+    <container>cents</container>
+    <container>semitones</container>
+    <container>semitonesRound</container>
+    <container>semitonesDiff</container>
+    <container>centsDiff</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Spectrum">
+      <value label="Peak-Frequency" unit="Hz">
+        <input>f0</input>
+      </value>
+      <separator height="1"/>
+      <value label="Musical note">
+        <input>semitonesRound</input>
+        <map max="-25">Low</map>
+        <map max="-24">A2</map>
+        <map max="-23">A#2 / Bb2</map>
+        <map max="-22">B2</map>
+        <map max="-21">C3</map>
+        <map max="-20">C#3 / Db3</map>
+        <map max="-19">D3</map>
+        <map max="-18">D#3 / Eb3</map>
+        <map max="-17">E3</map>
+        <map max="-16">F3</map>
+        <map max="-15">F#3 / Gb3</map>
+        <map max="-14">G3</map>
+        <map max="-13">G#3 / Ab3</map>
+        <map max="-12">A3</map>
+        <map max="-11">A#3 / Bb3</map>
+        <map max="-10">B3</map>
+        <map max="-9">C4</map>
+        <map max="-8">C#4 / Db4</map>
+        <map max="-7">D4</map>
+        <map max="-6">D#4 / Eb4</map>
+        <map max="-5">E4</map>
+        <map max="-4">F4</map>
+        <map max="-3">F#4 / Gb4</map>
+        <map max="-2">G4</map>
+        <map max="-1">G#4 / Ab4</map>
+        <map max="0">A4</map>
+        <map max="1">A#4 / Bb4</map>
+        <map max="2">B4</map>
+        <map max="3">C5</map>
+        <map max="4">C#5 / Db5</map>
+        <map max="5">D5</map>
+        <map max="6">D#5 / Eb5</map>
+        <map max="7">E5</map>
+        <map max="8">F5</map>
+        <map max="9">F#5 / Gb5</map>
+        <map max="10">G5</map>
+        <map max="11">G#5 / Ab5</map>
+        <map max="12">A5</map>
+        <map max="13">A#5 / Bb5</map>
+        <map max="14">B5</map>
+        <map max="15">C6</map>
+        <map max="16">C#6 / Db6</map>
+        <map max="17">D6</map>
+        <map max="18">D#6 / Eb6</map>
+        <map max="19">E6</map>
+        <map max="20">F6</map>
+        <map max="21">F#6 / Gb6</map>
+        <map max="22">G6</map>
+        <map max="23">G#6 / Ab6</map>
+        <map max="24">A6</map>
+        <map max="25">A#6 / Bb6</map>
+        <map max="26">B6</map>
+        <map max="27">C7</map>
+        <map max="28">C#7 / Db7</map>
+        <map max="29">D7</map>
+        <map max="30">D#7 / Eb7</map>
+        <map max="31">E7</map>
+        <map max="32">F7</map>
+        <map max="33">F#7 / Gb7</map>
+        <map max="34">G7</map>
+        <map max="35">G#7 / Ab7</map>
+        <map min="35">High</map>
+      </value>
+      <value label="Cents from note">
+        <input>centsDiff</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
+        <input axis="x">halfFrequency</input>
+        <input axis="y">fft</input>
+      </graph>
+      <separator height="1" precision="0"/>
+      <value label="Samples used">
+        <input>actual_samples</input>
+      </value>
+      <value label="Period used" unit="ms" precision="2" factor="1000">
+        <input>period</input>
+      </value>
+    </view>
+    <view label="Settings">
+      <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
+      <value label="Samples" precision="0">
+        <input>samples</input>
+      </value>
+      <separator height="0.5"/>
+      <button label="4096">
+        <input type="value">4096</input>
+        <output>samples</output>
+      </button>
+      <button label="8192">
+        <input type="value">8192</input>
+        <output>samples</output>
+      </button>
+      <button label="16384">
+        <input type="value">16384</input>
+        <output>samples</output>
+      </button>
+      <button label="32768">
+        <input type="value">32768</input>
+        <output>samples</output>
+      </button>
+    </view>
+    <view label="Raw data">
+      <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)">
+        <input axis="x">time</input>
+        <input axis="y">recording_subrange</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.1" dynamicSleep="period">
+    <divide>
+      <input clear="false">rate</input>
+      <input type="value">2</input>
+      <output>rate/2</output>
+    </divide>
+    <count>
+      <input clear="false">recording</input>
+      <output>recording_length</output>
+    </count>
+    <subtract>
+      <input>recording_length</input>
+      <input clear="false">samples</input>
+      <output>subrange_start</output>
+    </subtract>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">recording</input>
+      <output>recording_subrange</output>
+    </subrange>
+    <count>
+      <input clear="false">recording_subrange</input>
+      <output>actual_samples</output>
+    </count>
+    <add>
+      <input clear="false">actual_samples</input>
+      <input type="value">1</input>
+      <output>actual_samples+1</output>
+    </add>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input clear="false">rate</input>
+      <output>period</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">period</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>time</output>
+    </ramp>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">rate</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>frequency</output>
+    </ramp>
+    <fft>
+      <input clear="false">recording_subrange</input>
+      <output as="re">fftX</output>
+      <output as="im">fftY</output>
+    </fft>
+    <rangefilter>
+      <input as="in">frequency</input>
+      <input as="min" type="value">0.001</input>
+      <input as="max" clear="false">rate/2</input>
+      <input as="in">fftX</input>
+      <input as="in">fftY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </rangefilter>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>halfFFTtempX</output>
+    </add>
+    <power>
+      <input as="base">halfFFTtempX</input>
+      <input as="exponent" type="value">0.5</input>
+      <output>fft</output>
+    </power>
+    <max>
+      <input as="y" clear="false">fft</input>
+      <input as="x" clear="false">halfFrequency</input>
+      <output as="position">f0</output>
+    </max>
+    <divide>
+      <input clear="false">f0</input>
+      <input type="value">440</input>
+      <output>ratio</output>
+    </divide>
+    <log>
+      <input type="value">2</input>
+      <output>log2</output>
+    </log>
+    <log>
+      <input>ratio</input>
+      <output>logRatio</output>
+    </log>
+    <divide>
+      <input>logRatio</input>
+      <input>log2</input>
+      <output>log2Ratio</output>
+    </divide>
+    <multiply>
+      <input>log2Ratio</input>
+      <input type="value">1200</input>
+      <output>cents</output>
+    </multiply>
+    <divide>
+      <input clear="false">cents</input>
+      <input type="value">100</input>
+      <output>semitones</output>
+    </divide>
+    <round>
+      <input clear="false">semitones</input>
+      <output>semitonesRound</output>
+    </round>
+    <subtract>
+      <input clear="false">semitones</input>
+      <input clear="false">semitonesRound</input>
+      <output>semitonesDiff</output>
+    </subtract>
+    <multiply>
+      <input clear="false">semitonesDiff</input>
+      <input type="value">100</input>
+      <output>centsDiff</output>
+    </multiply>
+  </analysis>
+  <export>
+    <set name="FFT Spectrum">
+      <data name="Frequency (Hz)">halfFrequency</data>
+      <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (s)">time</data>
+      <data name="Recording (a.u.)">recording_subrange</data>
+    </set>
+  </export>
 </phyphox>

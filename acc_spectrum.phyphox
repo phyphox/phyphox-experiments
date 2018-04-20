@@ -1,438 +1,494 @@
 <phyphox version="1.5" locale="en">
-    <title>Acceleration Spectrum</title>
-    <category>Tools</category>
-    <icon format="base64">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
+  <title>Acceleration Spectrum</title>
+  <category>Tools</category>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABB9SURBVHic7d17zCVnQcfx7/Pubrd77263t2VvvUEp0KKN1bZgtBLwRoxULYppEFRsNRY1EmP8g0RT0YIJxBAvJAoSSSGtJBo0UaRCpVVqgS69UBLs1i1detmlXfbW3X1//vHM6c4775k5M+ecmTkz5/dJTs7lnXfmOefM7zzPM5dnwMzMzMzMzMzMzMzMzMzMzMzMzMysLyR9WtLHJF3ZdlnMZoqkSyWd0mn3S7pJ0sq2y2bWOkkf0nDfkvReSee0XUazVkjaIOk7OQEZOCbpk5Kuabu8Zo2SdJ2kgyMCknaPpBslrWq77GaNkHRm0ud4sEJQnpL0Pknb2y6/WWMkvS5pTp0oGZTjyfTXtV12s8ZI2qbYQX+mQq1yv6RflbSm7fKbTUzS9yr2QXYqZ5OupNWKza+vVAjKtxWbXzuafk82P0LdC5B0G3BF8vQU8AywH3gidXs8hHAkmf4q4FbgrUCZTvop4J+BD4YQ/m26pbd510RA/g7YXGLS73I6MPuBI8D1wE1A2X0kXwb+Avj4IHBmk6g1IJLWAXdMOJujwFrgVcCukv/zHeBjwJ+FEPZOuPypSJqXq4EzU7fB870hhOdaLJ7lqDsglwHvn+IsNwE7ge3AQonpF4HPAB8EPhtC0LQKImk1MbirgTOS+9XAGmBd5rUzkmnzfDGE8PC0ymbTU3dAtgNvJq7QO4AtU5r16mSeu4m/wGU8BnwY+EgI4XCmnCspXrHXZl5bw3Q/uwdCCA9McX42JbX3QdKSJtcFwPnEmmBn8ngX5TrkWQvAecl8tpb8nxPEsNxL7O8cBg4BU6tdxvBwCOGLLS7fcjQakDzJL/hWloZmJ3Ax8dd7AViR3BaG3FYSf/3PAc6iXPNLxHA8CxwEngcOJLfngBeSxyen8BZH+WYI4d8bWI5V1FhAFI+rWsPSzung8Zohr52ZlG8dsWm2Kbkf3NblLGpl8vezKV8rHSeG4iBxs/FLxSbWLunwHCBuqj5Rct4Di8CxZFnHMrfnQgiPV5yfNaDuPsjlwGuJK3uZX/UqVrM0NOnHEN/bBmLNtL7kPBeJW8CeJa64RY4ATwNPAU8C+4BvJbfBij8Iw9EQQtVA2QxoIiDX1rmMIRaIzax0aH6c8iGBWHM8T1zZnyXWKqeIAVpkaS2TdZgYmvQ+nSeAfSGExSpvxNpXd0AuIu7sa9Ip4i/3i8SV9Sjw58T9KOM4DPwfcSWfpBY4SQzbE5nbvhDCqNrKWlL36a6TfvHplf04sVlzJPNa+vVjw36lJX13yLx/F3gT8CMU/1CsAy4DLiHWKI8T+yVVrSRufDgfuDr1+qKkj4YQ7hxjnlazJgOSXdnTK3b6tcEv/5EQQlFTZlL3hBDeL+kVwC3AO8nv+EP8rAZb2Q4Qg7KfyTcPLxA3DtgMqruJtUDcQnU8hNDE5tK8ctwHfH/m5WtCCPelptkEvJ14oOSFJWe9D/gP4FHixoDtlN9xmfZbIYRvjPF/VrOZ2A9StzIBSU27QOw33Qr8BOU+o2PAp4DbiVu00vtydhJ3hOYdsCng50IIR0ssxxrmgBT/36XEpte7iFvGyvhP4rFf/5CuNSWtZ2loBreFEMI7Ss7bbPok3TfkhKsfqPD/G5OzGB+qcELXk4pnSxYeAiOPC2ZtmzQgqfksSHqD4vnxJ0sG5Zg8mqTNsmkFJDPPSxRP+T1QoVYZjCbp4YxsdtQRkNS8Nyg2v/ZUCIpHk7TZUWdAMssZDGdUtvn1O9Mug1llTQUktbyLFJtfzxaE47CkaZ1AZja+pgOSWu5gNMmvDln+X9a9fLNS2gpIpgzZ0SSvGP1fZg2YhYCkyrJL0s1tLNtsqFkKiHXLtM/yM+sVB8SsgANiVsABMSvggPSYpI1tl6HrHJB+87VTJuSA9Juv7TghB6TftrVdgK5zQPrt/LYL0HUOSL+d13YBus4B6TfXIBNyQPrNAZmQA9JvDsiEHJB+O0dxIDwbkz+8fltPtcs+WIYD0lOSVhAvOLqp7bJ0mQPSX2sz9zYGB6S/BsEYZ7R5Szgg/bUmuXdAJuCA9NegBllTOFWK4gj0luKA9Nc4TawL6ihIlzkg/bUmc1+GdyxmOCD95RpkChyQ/qrcB8E1yDIOSH+NsxXLAclwQPqrUhNL8aI+Z9dXnG5yQPqrahPrXLw+LOMPpL+qNrHOAVbUVJbOckD6q2pAtjInlwWvwgHpr6pNLAdkCAekv6oGZAtuYi3jgPTXIBgrS06/Fa8Py/gD6a9BDVK2VnBAhvAH0l+DGqRsQLYQz0C0lLLVr3XPoAYp+yO4oa6CdJlrkP6q2sRaB6yqqSyd5YD0V9WArMctimUckP4a9EHKfseuQYZwQPprnBrEAclwQPqrakA24SbWMg5If5XezCspELdiuQbJ6OUvhqRNwCWpl9YNmewySSeSx4dCCI/VX7JmJCt8lf0ga4nrggMyDyRtkLRf5b2z7TJPk6R1qff2uRLTb0umfaSJ8nVJL5tYIYRDwO8Bp0ZMegp4CPib2gvVrPR4vGVqkMHlor0nPaOXAUl8FHgQOFkwzQJwSwhhsZkiNSZ9ffQyARkEqsoAD3OhtwEJIQi4hfwV5EXgUyGEzzdXqsaka5Ay3/EgUB7oOqO3AQEIIdwHfIIYhmHe02BxmjRuDeKAZPQ6IIn3ANkm1IvAbSGEvS2UpwlV+yCD0UxWJaObWKL3AQkhPAn8ETDYpCvgIHB7a4WqX9UaZEvqsWuRlN4HJPEB4GliOBaBW0MIR9otUq3SK3yZ7zg9HpYDkjIXAQkhHANuJQ5KcD/wyXZLVLv0Cu8aZAJzERCAEMKdwGeBm5MtXH2WXuEdkAn08lCTAm8JIbzQdiEasDX1uEonHRyQJeamBgGYk3CAm1hTM1cBmSPpgJRpJaSn35g71RxyQPqpag2yOfV4S+5Uc8gB6af0Cl9YgyQX7kwfpLg5b9p55ID0jKSNLB2welQNsjXz3AFJcUD6J3uVqFF9kGyTyk2sFAekf87LPB8VkGyN4RokxQHpn2wNUrWJ5RokxQHpn2wNMiogZ2WeuwZJ6WxAJHks2eGqNrHcBynQ2YAQr6lny2WbWEHS6oLps4FwDZLigPTPsGudry+YPhuQsyR1eb2Yqi5/EOe2XYAZNexzKQpItsZYgQ83eUmXA7K97QLMqAuGvDZs4LyBs4e85h+fRCcDkjQBtrVdjlmTjKhYtQYZ1inPdvTnVicDQtx27zGcltsMDOuQF9UgwzrlDkiiqwHZhseRHSavaVSlDwIOyEu6GpCdzN/ZkGUM639ATg0i6UyGnyDlgCS6GpAduAYZJq8GydupmrdT0AFJdDUgOyl/YZh5kleD5AVh2BYscEBe0tVmyg6KB6WeV3krdvaAxIG8veYOSKKrNch2PFT/MMP2okP1gHg/SKKrAdlF8ZaZeZW38zTvsJy8JlZe0OZO5wIiaQWxre2jeZerGpC8vsna5Fz1ude5gBB/3Vbh44WGeVnO61WbWOB+CNDNgOxI7h2QlOT8mLxaNa8GcUBG6GJAdif3bmItVXTw5oZktJOsopOjHBC6HZDNPm9hibzm1cCuIa8VBcRHS9PtgKwkfyvMPBq1Qg8LSNHWKgeEbgbkwtRjNwNOG7VC70w/kbQSuLRg+h0Ff5sbXQzI7tRjb68/bdT5Mdka5DKWjsCY5RqEjgUk6XOkv2jXIKeNWqEvzjx/3YjpXYPQsYAQdxCmTwhyDXLaqE765ZnnPzhi+m3eCNK9gFyYeZ79VZxnowJyiaT08WuvHzH9GbiG7lxAdmeeF3Uy50ay4o86wHAV8PJk+osp18e4aMKidV7XApKtQRyQaBvxCr6jvDa5f1PJ+c59Dd31gOxIThudd2U71Nck9z9WcnrXIG0XoKLdmecL+FcORvc/Bq5NhiH94ZLTz/1n2/WAALym6ULMoJ2jJwHgSuBGiocBSnNA2i5AWUlHdFhT4tqmyzKDhh1GMkwA3ldhvg5I2wWo4FUMP4d+1A6veVA2IJA/sMMw50qa69HeuxSQ78t5/QpJmxotyezZXeO8X13jvGdelwJyVc7rK4CrmyzIDCrbBxnHXPfxuhSQ6wr+VnazZe9I2kK9J485ILNO0iuJfZA8N424ilKfVel/jMMB6YC3jfj72cBbmyjIDKo9IMlIMnNp5gOSHFH6CyUmvW1Oh6qpOyAbOX2IykzJHHxZi5kPCDEc2UNMhtlGtW38fVF3QACub2AZ47i57QK0StIZkr6pan6x7XI3SdKdFT+fcXym7feZJWmVpK+3XY5WSXr3GF/mUUlzs1VL0mPTTEKOQ5qxg0IlvVnSi22XozWSXiPpyJhf6DFJP932exiQVMth+ZLOlrQ4jQSUcFMd72Fckv4qKdewCwD1m6T1kh6Z8AtdlPRetXzaqKTfl3RSUt6Ozknm/csTfkZV7FEcCWUmSHo4KVfZI5n7QbHf8ekpfrF3S7qkpfdyvaRTSTnuUbwK7bTmHST99xQ/pzLePa3yT0LS6tTnOj/7aSSdKekfa/hiD0v6Q0lnNfhedkt6KlOO35zi/H++hs9plGOS8o6Ja4ykV6bKNGrwiX6QtEXSv9b8BR+U9AeKAz3X+V6ukrR3yPKPT+MLlXShpOdq/qzyPC2p6KiG2kl6Y6o8P9VmWRoh6fWSnmjwS35G0u2SskPhTPo+XibpI4p9jjyHNEFIFMPx9do/oWLPq8WNIJJ+JlWWt7dVjtpJ2iDpj1W8QtXtXkk3SxprJEFJ6yTdKOkuxU3MZRyV9BuquAFB0g2Svl3DZzCORUkfUM21cc7n8Eupcvx208uvnaSVkn5N0v4WvtgiX1YM7E9KOidT5jMkbZf0Q4pbjz4k6UuSTkywvD2SfkXxiNy8z2qtpJ9V7OTPov2K32VjB4tq6da7P61zWVPbqlKG4orwDuIhAl0YMWMfsEg8HqnODv4isAd4FDgIHCNeFerlwBUUj6E7K54B/hb4+xDCV+pckKS3AR9Pnn4ihFDmWL2x1B4QxT2wbwBuIA4YsKbuZVrrngC+ANwL3BFCeHaaM5f0FuDO5OkXQgi1bcmaekAUt/VfRjxX/I3Aj+Ir0s6z48BdwF8Dd4cQNOkMFTcQ3JU8fTyEUOZg1rFMFBBJq4BXEE9mejWxOXAt+ReNtPn2OHAHsVn01XFnIulm4MPJ0xeBNSGExcmLt9ySgChuVdlMbG+flXo8uN9CHKTsQuJ50NsYPtKI2SiPAv8E/AtwTwjheJl/StbR+4HvSb18QQhh//SLCEHSAeJK7otiWlsOA58j9ln2AF8LIfxveoKk6X4V8CcsPz/l6hDCl+ooWJA0cZvQrAYvELciHiVeiuF88i9nfUMI4a6cv03EzSObVRtZftGfPJdzutM+VV045dZslCvrmrEDYn1Q26ASDoj1wcWSahld0gGxPgjEIzWmzgGxvvh1SVNvankzr/XNI8DdwOeBe0MIeyeZmQNiffcC8A3gYeB/gIeAB0MIT5f5ZwfE5tU+4GvEPfcPJvePhBCWjLXlgJiddoJ4jNge4AHgvxwQswLeimVWwAExK+CAmBVwQMwKOCBmBRwQswIOiFkBB8SsgANiVsABMSvggJgVcEDMCjggZgVWAu9quxBmZmZmZmZmZmZmZmZmZmYz4/8BSroWfXVTeW0AAAAASUVORK5CYII=
     </icon>
-    <description>
+  <description>
             Display the frequency spectrum of data from the accelerometer.
 
             This experiment records data from the accelerometer and calculates its frequency spectrum through a Fourier transformation (FFT). The maximum detectable frequency depends on the maximum acquisition rate of your sensor.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Acceleration_Spectrum</link>
-    <translations>
-        <translation locale="de">
-            <title>Beschleunigungs-Spektrum</title>
-            <category>Werkzeuge</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Acceleration_Spectrum</link>
+  <translations>
+    <translation locale="de">
+      <title>Beschleunigungs-Spektrum</title>
+      <category>Werkzeuge</category>
+      <description>
             Zeigt das Frequenz-Spektrum des Beschleunigungssensors.
 
                 Dieses Experiment nimmt Daten über den Beschleunigungssensor auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Die maximale Frequenz im Spektrum hängt von der maximalen Aufnahmerate des Sensors ab.
     </description>
-            <string original="Spectrum">Spektrum</string>
-            <string original="Peak-Frequency">Frequenzspitze</string>
-            <string original="Fourier Transform">Fourier-Transformierte</string>
-            <string original="Settings">Einstellungen</string>
-            <string original="Raw data">Rohdaten</string>
-            <string original="Frequency (Hz)">Frequenz (Hz)</string>
-            <string original="Samples used">Genutzte Werte</string>
-            <string original="Period used">Genutzte Periode</string>
-            <string original="Acquisition rate">Aufnahmerate</string>
-            <string original="Nyquist frequency">Nyquist-Frequenz</string>
-            <string original="Acceleration x">Beschleunigung x</string>
-            <string original="Acceleration y">Beschleunigung y</string>
-            <string original="Acceleration z">Beschleunigung z</string>
-            <string original="Samples">Messwerte</string>
-            <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
-        </translation>
-    <translation locale="cs"><title>Spektrum zrychlení</title><category>Nástroje</category><description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Frequency (Hz)">Frequenz (Hz)</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Acquisition rate">Aufnahmerate</string>
+      <string original="Nyquist frequency">Nyquist-Frequenz</string>
+      <string original="Acceleration x">Beschleunigung x</string>
+      <string original="Acceleration y">Beschleunigung y</string>
+      <string original="Acceleration z">Beschleunigung z</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+    </translation>
+    <translation locale="cs">
+      <title>Spektrum zrychlení</title>
+      <category>Nástroje</category>
+      <description>
             Zobrazí spektrum frekvence hodnot z akcelerometru.
 
 Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítává spektrum jejich frekvencí pomocí Fourierovy transformace(FFT). Maximální detekovatelná frekvence záleží na maximální vzorkovací frekvenci vašeho senzoru.
-    </description><string original="Spectrum">Spektrum</string><string original="Peak-Frequency">Maximální frekvence</string><string original="Fourier Transform">Fourierova transformace</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="FFT Mag (a.u.)">FFT Mag</string><string original="Samples used">Počet vzorků</string><string original="Period used">Použitá perioda</string><string original="Acquisition rate">Vzorkovací frekvence</string><string original="Nyquist frequency">Nyquistova frekvence</string><string original="Settings">Nastavení</string><string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string><string original="Samples">Vzorků</string><string original="Raw data">Neupravená data</string><string original="Acceleration x">Zrychlení x</string><string original="Acceleration y">Zrychlení y</string><string original="Acceleration z">Zrychlení z</string></translation><translation locale="pl"><title>Widmo przyspieszenia</title><category>Narzędzia</category><description>
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Frequency (Hz)">Frekvence (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT Mag</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Acquisition rate">Vzorkovací frekvence</string>
+      <string original="Nyquist frequency">Nyquistova frekvence</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Acceleration x">Zrychlení x</string>
+      <string original="Acceleration y">Zrychlení y</string>
+      <string original="Acceleration z">Zrychlení z</string>
+    </translation>
+    <translation locale="pl">
+      <title>Widmo przyspieszenia</title>
+      <category>Narzędzia</category>
+      <description>
             Wyświetl widmo częstotliwościowe danych z akcelerometru.
 
             W tym eksperymencie rejestrowane są dane pochodzące z czujnika przyspieszenia urządzenia (akcelerometru) i poddawane są one szybkiej transformacie Fourier (FFT). Maksymalna częstotliwość w widmie zdeterminowana jest szybkością pracy czujnika rejestrującego dane.
-    </description><string original="Spectrum">Widmo</string><string original="Peak-Frequency">Częstotliwość dominująca</string><string original="Fourier Transform">Transformata Fourier'a</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string><string original="Samples used">Rejestrowana próba</string><string original="Period used">Rejestrowany czas</string><string original="Acquisition rate">Częstotliwość próbkowania</string><string original="Nyquist frequency">Częstotliwość skł. widmowych</string><string original="Settings">Ustawienia</string><string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string><string original="Samples">Liczba próbek</string><string original="Raw data">Surowe dane</string><string original="Acceleration x">Przyspieszenie - składowa x</string><string original="Acceleration y">Przyspieszenie - składowa y</string><string original="Acceleration z">Przyspieszenie - składowa z</string></translation></translations>
-    <data-containers>
-        <container size="0">accInX</container>
-        <container size="0">accInY</container>
-        <container size="0">accInZ</container>
-        <container size="4096">accX</container>
-        <container size="4096">accY</container>
-        <container size="4096">accZ</container>
-        <container size="4096">time</container>
-        <container size="4096">accX_subrange</container>
-        <container size="4096">accY_subrange</container>
-        <container size="4096">accZ_subrange</container>
-        <container size="4096">time_subrange</container>
-        <container size="1">recording_length</container>
-        <container size="1">subrange_start</container>
-        <container init="256">samples</container>
-        <container size="1">actual_samples</container>
-        <container size="1">actual_samples+1</container>
-        <container size="1">period</container>
-        <container size="1">count-1</container>
-        <container size="1">count+1</container>
-        <container size="1">count/2</container>
-        <container size="1">count</container>
-        <container size="1">t0</container>
-        <container size="1">t1</container>
-        <container size="1">Dt</container>
-        <container size="1">dt</container>
-        <container size="1">maxf</container>
-        <container size="1">arate</container>
-        <container size="0">frequency</container>
-        <container size="0">fftXX</container>
-        <container size="0">fftYX</container>
-        <container size="0">fftZX</container>
-        <container size="0">fftXY</container>
-        <container size="0">fftYY</container>
-        <container size="0">fftZY</container>
-        <container size="0">halfFrequency</container>
-        <container size="0">halfFFTtempX</container>
-        <container size="0">halfFFTtempY</container>
-        <container size="0">halfFFTtempX2</container>
-        <container size="0">halfFFTtempY2</container>
-        <container size="0">fftX</container>
-        <container size="0">fftY</container>
-        <container size="0">fftZ</container>
-        <container size="0">fft2</container>
-        <container size="0">fft</container>
-        <container>f0</container>
-    </data-containers>
-    <input>
-        <sensor type="accelerometer" rate="0">
-            <output component="x">accInX</output>
-            <output component="y">accInY</output>
-            <output component="z">accInZ</output>
-            <output component="t">time</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Spectrum">
-            <value label="Peak-Frequency" unit="Hz">
-                <input>f0</input>
-            </value>
-            <separator height="1"/>
-            <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
-                <input axis="x">halfFrequency</input>
-                <input axis="y">fft</input>
-            </graph>
-            <separator height="1" precision="0"/>
-            <value label="Samples used">
-                <input>actual_samples</input>
-            </value>
-            <value label="Period used" unit="s" precision="2">
-                <input>period</input>
-            </value>
-            <value label="Acquisition rate" unit="Hz" precision="0">
-                <input>arate</input>
-            </value>
-            <value label="Nyquist frequency" unit="Hz" precision="0">
-                <input>maxf</input>
-            </value>
-        </view>
-        <view label="Settings">
-            <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
-            <value label="Samples" precision="0">
-                <input>samples</input>
-            </value>
-            <separator height="0.5"/>
-            <button label="128">
-                <input type="value">128</input>
-                <output>samples</output>
-            </button>
-            <button label="256">
-                <input type="value">256</input>
-                <output>samples</output>
-            </button>
-            <button label="512">
-                <input type="value">512</input>
-                <output>samples</output>
-            </button>
-            <button label="1024">
-                <input type="value">1024</input>
-                <output>samples</output>
-            </button>
-            <button label="2048">
-                <input type="value">2048</input>
-                <output>samples</output>
-            </button>
-            <button label="4096">
-                <input type="value">4096</input>
-                <output>samples</output>
-            </button>
-        </view>
-        <view label="Raw data">
-            <graph label="Acceleration x" labelX="t (s)" labelY="a (m/s²)">
-                <input axis="x">time_subrange</input>
-                <input axis="y">accX_subrange</input>
-            </graph>
-            <graph label="Acceleration y" labelX="t (s)" labelY="a (m/s²)">
-                <input axis="x">time_subrange</input>
-                <input axis="y">accY_subrange</input>
-            </graph>
-            <graph label="Acceleration z" labelX="t (s)" labelY="a (m/s²)">
-                <input axis="x">time_subrange</input>
-                <input axis="y">accZ_subrange</input>
-            </graph>
-        </view>
-    </views>
-    <analysis sleep="0.1">
+    </description>
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Acquisition rate">Częstotliwość próbkowania</string>
+      <string original="Nyquist frequency">Częstotliwość skł. widmowych</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Acceleration x">Przyspieszenie - składowa x</string>
+      <string original="Acceleration y">Przyspieszenie - składowa y</string>
+      <string original="Acceleration z">Przyspieszenie - składowa z</string>
+    </translation>
+    <translation locale="nl">
+      <title>Spectrum Versnelling</title>
+      <category>Gereedschap</category>
+      <description>
+            Geef het frequentiespectrum weer van data van de accelerometer (versnellingsmeter).
 
-        <append>
-            <input>accInX</input>
-            <output clear="false">accX</output>
-        </append>
+            Dit experiment registreert gegevens van de accelerometer en berekent het frequentiespectrum via een Fourier-transformatie (FFT). De maximaal waarneembare frequentie hangt af van de maximale snelheid van dataverwerving van uw sensor.
+    </description>
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Frequency (Hz)">Frequentie (Hz)</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Acquisition rate">Acquisitiesnelheid</string>
+      <string original="Nyquist frequency">Nyquist frequentie</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Acceleration x">Versnelling x</string>
+      <string original="Acceleration y">Versnelling y</string>
+      <string original="Acceleration z">Versnelling z</string>
+    </translation>
+    <translation locale="ru">
+      <title>Спектр ускорения</title>
+      <category>Измерительные инструменты</category>
+      <description>
+            Отобразить частотный спектр данных с акселерометра.
 
-        <append>
-            <input>accInY</input>
-            <output clear="false">accY</output>
-        </append>
-
-        <append>
-            <input>accInZ</input>
-            <output clear="false">accZ</output>
-        </append>
-
-        <count>
-            <input clear="false">accX</input>
-            <output>count</output>
-        </count>
-
-        <subtract>
-            <input clear="false">count</input>
-            <input type="value">1</input>
-            <output>count-1</output>
-        </subtract>
-
-        <first>
-            <input clear="false">time</input>
-            <output>t0</output>
-        </first>
-
-        <subrange>
-            <input as="from" clear="false">count-1</input>
-            <input as="length" type="value">1</input>
-            <input as="in" clear="false">time</input>
-            <output>t1</output>
-        </subrange>
-
-        <subtract>
-            <input clear="false">t1</input>
-            <input clear="false">t0</input>
-            <output>Dt</output>
-        </subtract>
-
-        <divide>
-            <input clear="false">Dt</input>
-            <input clear="false">count-1</input>
-            <output>dt</output>
-        </divide>
-
-
-
-        <count>
-            <input clear="false">accX</input>
-            <output>recording_length</output>
-        </count>
-
-        <subtract>
-            <input>recording_length</input>
-            <input clear="false">samples</input>
-            <output>subrange_start</output>
-        </subtract>
-
-        <subrange>
-            <input clear="false" as="from">subrange_start</input>
-            <input as="in" clear="false">accX</input>
-            <output>accX_subrange</output>
-        </subrange>
-
-        <subrange>
-            <input clear="false" as="from">subrange_start</input>
-            <input as="in" clear="false">accY</input>
-            <output>accY_subrange</output>
-        </subrange>
-
-        <subrange>
-            <input clear="false" as="from">subrange_start</input>
-            <input as="in" clear="false">accZ</input>
-            <output>accZ_subrange</output>
-        </subrange>
-
-        <subrange>
-            <input clear="false" as="from">subrange_start</input>
-            <input as="in" clear="false">time</input>
-            <output>time_subrange</output>
-        </subrange>
-
-        <count>
-            <input clear="false">accX_subrange</input>
-            <output>actual_samples</output>
-        </count>
-
-        <add>
-            <input clear="false">actual_samples</input>
-            <input type="value">1</input>
-            <output>actual_samples+1</output>
-        </add>
-
-        <multiply>
-            <input clear="false">actual_samples</input>
-            <input clear="false">dt</input>
-            <output>period</output>
-        </multiply>
-
-
-        <fft>
-            <input clear="false">accX_subrange</input>
-            <output as="re">fftXX</output>
-            <output as="im">fftXY</output>
-        </fft>
-
-        <fft>
-            <input clear="false">accY_subrange</input>
-            <output as="re">fftYX</output>
-            <output as="im">fftYY</output>
-        </fft>
-
-        <fft>
-            <input clear="false">accZ_subrange</input>
-            <output as="re">fftZX</output>
-            <output as="im">fftZY</output>
-        </fft>
-
-        <count>
-            <input clear="false">fftXX</input>
-            <output>count</output>
-        </count>
-
-        <divide>
-            <input clear="false">actual_samples</input>
-            <input type="value">2</input>
-            <output>count/2</output>
-        </divide>
-
-        <divide>
-            <input type="value">0.5</input>
-            <input clear="false">dt</input>
-            <output>maxf</output>
-        </divide>
-
-        <divide>
-            <input type="value">1</input>
-            <input clear="false">dt</input>
-            <output>arate</output>
-        </divide>
-
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" clear="false">arate</input>
-            <input as="length" clear="false">actual_samples+1</input>
-            <output>frequency</output>
-        </ramp>
-
-        <subrange>
-            <input as="from" type="value">1</input>
-            <input as="to" clear="false">count/2</input>
-            <input as="in" clear="false">frequency</input>
-            <input as="in">fftXX</input>
-            <input as="in">fftXY</input>
-            <output>halfFrequency</output>
-            <output>halfFFTtempX</output>
-            <output>halfFFTtempY</output>
-        </subrange>
-
-        <multiply>
-            <input clear="false">halfFFTtempX</input>
-            <input>halfFFTtempX</input>
-            <output>halfFFTtempX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">halfFFTtempY</input>
-            <input>halfFFTtempY</input>
-            <output>halfFFTtempY2</output>
-        </multiply>
-        <add>
-            <input>halfFFTtempX2</input>
-            <input>halfFFTtempY2</input>
-            <output>fftX</output>
-        </add>
-
-        <subrange>
-            <input as="from" type="value">1</input>
-            <input as="to" clear="false">count/2</input>
-            <input as="in" clear="false">frequency</input>
-            <input as="in">fftYX</input>
-            <input as="in">fftYY</input>
-            <output>halfFrequency</output>
-            <output>halfFFTtempX</output>
-            <output>halfFFTtempY</output>
-        </subrange>
-
-        <multiply>
-            <input clear="false">halfFFTtempX</input>
-            <input>halfFFTtempX</input>
-            <output>halfFFTtempX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">halfFFTtempY</input>
-            <input>halfFFTtempY</input>
-            <output>halfFFTtempY2</output>
-        </multiply>
-        <add>
-            <input>halfFFTtempX2</input>
-            <input>halfFFTtempY2</input>
-            <output>fftY</output>
-        </add>
-
-
-        <subrange>
-            <input as="from" type="value">1</input>
-            <input as="to" clear="false">count/2</input>
-            <input as="in" clear="false">frequency</input>
-            <input as="in">fftZX</input>
-            <input as="in">fftZY</input>
-            <output>halfFrequency</output>
-            <output>halfFFTtempX</output>
-            <output>halfFFTtempY</output>
-        </subrange>
-
-        <multiply>
-            <input clear="false">halfFFTtempX</input>
-            <input>halfFFTtempX</input>
-            <output>halfFFTtempX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">halfFFTtempY</input>
-            <input>halfFFTtempY</input>
-            <output>halfFFTtempY2</output>
-        </multiply>
-        <add>
-            <input>halfFFTtempX2</input>
-            <input>halfFFTtempY2</input>
-            <output>fftZ</output>
-        </add>
-
-        <add>
-            <input>fftX</input>
-            <input>fftY</input>
-            <input>fftZ</input>
-            <output>fft2</output>
-        </add>
-
-        <power>
-            <input as="base">fft2</input>
-            <input as="exponent" type="value">0.5</input>
-            <output>fft</output>
-        </power>
-        <max>
-            <input as="y" clear="false">fft</input>
-            <input as="x" clear="false">halfFrequency</input>
-            <output as="position">f0</output>
-         </max>
-    </analysis>
-    <export>
-        <set name="FFT Spectrum">
-            <data name="Frequency (Hz)">halfFrequency</data>
-            <data name="Absolute Amplitude (a.u.)">fft</data>
-        </set>
-        <set name="Raw data">
-            <data name="Time (s)">time_subrange</data>
-            <data name="Acceleration x (m/s²)">accX_subrange</data>
-            <data name="Acceleration y (m/s²)">accY_subrange</data>
-            <data name="Acceleration z (m/s²)">accZ_subrange</data>
-        </set>
-    </export>
+            Этот эксперимент записывает данные с акселерометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Acceleration x">Ускорение x</string>
+      <string original="t (s)">t (c)</string>
+      <string original="a (m/s²)">а (м/с²)</string>
+      <string original="Acceleration y">Ускорение y</string>
+      <string original="Acceleration z">Ускорение z</string>
+      <string original="Hz">Гц</string>
+      <string original="s">с</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">accInX</container>
+    <container size="0">accInY</container>
+    <container size="0">accInZ</container>
+    <container size="4096">accX</container>
+    <container size="4096">accY</container>
+    <container size="4096">accZ</container>
+    <container size="4096">time</container>
+    <container size="4096">accX_subrange</container>
+    <container size="4096">accY_subrange</container>
+    <container size="4096">accZ_subrange</container>
+    <container size="4096">time_subrange</container>
+    <container size="1">recording_length</container>
+    <container size="1">subrange_start</container>
+    <container init="256">samples</container>
+    <container size="1">actual_samples</container>
+    <container size="1">actual_samples+1</container>
+    <container size="1">period</container>
+    <container size="1">count-1</container>
+    <container size="1">count+1</container>
+    <container size="1">count/2</container>
+    <container size="1">count</container>
+    <container size="1">t0</container>
+    <container size="1">t1</container>
+    <container size="1">Dt</container>
+    <container size="1">dt</container>
+    <container size="1">maxf</container>
+    <container size="1">arate</container>
+    <container size="0">frequency</container>
+    <container size="0">fftXX</container>
+    <container size="0">fftYX</container>
+    <container size="0">fftZX</container>
+    <container size="0">fftXY</container>
+    <container size="0">fftYY</container>
+    <container size="0">fftZY</container>
+    <container size="0">halfFrequency</container>
+    <container size="0">halfFFTtempX</container>
+    <container size="0">halfFFTtempY</container>
+    <container size="0">halfFFTtempX2</container>
+    <container size="0">halfFFTtempY2</container>
+    <container size="0">fftX</container>
+    <container size="0">fftY</container>
+    <container size="0">fftZ</container>
+    <container size="0">fft2</container>
+    <container size="0">fft</container>
+    <container>f0</container>
+  </data-containers>
+  <input>
+    <sensor type="accelerometer" rate="0">
+      <output component="x">accInX</output>
+      <output component="y">accInY</output>
+      <output component="z">accInZ</output>
+      <output component="t">time</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Spectrum">
+      <value label="Peak-Frequency" unit="Hz">
+        <input>f0</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
+        <input axis="x">halfFrequency</input>
+        <input axis="y">fft</input>
+      </graph>
+      <separator height="1" precision="0"/>
+      <value label="Samples used">
+        <input>actual_samples</input>
+      </value>
+      <value label="Period used" unit="s" precision="2">
+        <input>period</input>
+      </value>
+      <value label="Acquisition rate" unit="Hz" precision="0">
+        <input>arate</input>
+      </value>
+      <value label="Nyquist frequency" unit="Hz" precision="0">
+        <input>maxf</input>
+      </value>
+    </view>
+    <view label="Settings">
+      <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
+      <value label="Samples" precision="0">
+        <input>samples</input>
+      </value>
+      <separator height="0.5"/>
+      <button label="128">
+        <input type="value">128</input>
+        <output>samples</output>
+      </button>
+      <button label="256">
+        <input type="value">256</input>
+        <output>samples</output>
+      </button>
+      <button label="512">
+        <input type="value">512</input>
+        <output>samples</output>
+      </button>
+      <button label="1024">
+        <input type="value">1024</input>
+        <output>samples</output>
+      </button>
+      <button label="2048">
+        <input type="value">2048</input>
+        <output>samples</output>
+      </button>
+      <button label="4096">
+        <input type="value">4096</input>
+        <output>samples</output>
+      </button>
+    </view>
+    <view label="Raw data">
+      <graph label="Acceleration x" labelX="t (s)" labelY="a (m/s²)">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accX_subrange</input>
+      </graph>
+      <graph label="Acceleration y" labelX="t (s)" labelY="a (m/s²)">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accY_subrange</input>
+      </graph>
+      <graph label="Acceleration z" labelX="t (s)" labelY="a (m/s²)">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accZ_subrange</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.1">
+    <append>
+      <input>accInX</input>
+      <output clear="false">accX</output>
+    </append>
+    <append>
+      <input>accInY</input>
+      <output clear="false">accY</output>
+    </append>
+    <append>
+      <input>accInZ</input>
+      <output clear="false">accZ</output>
+    </append>
+    <count>
+      <input clear="false">accX</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
+    </subtract>
+    <first>
+      <input clear="false">time</input>
+      <output>t0</output>
+    </first>
+    <subrange>
+      <input as="from" clear="false">count-1</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">time</input>
+      <output>t1</output>
+    </subrange>
+    <subtract>
+      <input clear="false">t1</input>
+      <input clear="false">t0</input>
+      <output>Dt</output>
+    </subtract>
+    <divide>
+      <input clear="false">Dt</input>
+      <input clear="false">count-1</input>
+      <output>dt</output>
+    </divide>
+    <count>
+      <input clear="false">accX</input>
+      <output>recording_length</output>
+    </count>
+    <subtract>
+      <input>recording_length</input>
+      <input clear="false">samples</input>
+      <output>subrange_start</output>
+    </subtract>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accX</input>
+      <output>accX_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accY</input>
+      <output>accY_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accZ</input>
+      <output>accZ_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">time</input>
+      <output>time_subrange</output>
+    </subrange>
+    <count>
+      <input clear="false">accX_subrange</input>
+      <output>actual_samples</output>
+    </count>
+    <add>
+      <input clear="false">actual_samples</input>
+      <input type="value">1</input>
+      <output>actual_samples+1</output>
+    </add>
+    <multiply>
+      <input clear="false">actual_samples</input>
+      <input clear="false">dt</input>
+      <output>period</output>
+    </multiply>
+    <fft>
+      <input clear="false">accX_subrange</input>
+      <output as="re">fftXX</output>
+      <output as="im">fftXY</output>
+    </fft>
+    <fft>
+      <input clear="false">accY_subrange</input>
+      <output as="re">fftYX</output>
+      <output as="im">fftYY</output>
+    </fft>
+    <fft>
+      <input clear="false">accZ_subrange</input>
+      <output as="re">fftZX</output>
+      <output as="im">fftZY</output>
+    </fft>
+    <count>
+      <input clear="false">fftXX</input>
+      <output>count</output>
+    </count>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">2</input>
+      <output>count/2</output>
+    </divide>
+    <divide>
+      <input type="value">0.5</input>
+      <input clear="false">dt</input>
+      <output>maxf</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">dt</input>
+      <output>arate</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">arate</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>frequency</output>
+    </ramp>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftXX</input>
+      <input as="in">fftXY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftX</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftYX</input>
+      <input as="in">fftYY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftY</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftZX</input>
+      <input as="in">fftZY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftZ</output>
+    </add>
+    <add>
+      <input>fftX</input>
+      <input>fftY</input>
+      <input>fftZ</input>
+      <output>fft2</output>
+    </add>
+    <power>
+      <input as="base">fft2</input>
+      <input as="exponent" type="value">0.5</input>
+      <output>fft</output>
+    </power>
+    <max>
+      <input as="y" clear="false">fft</input>
+      <input as="x" clear="false">halfFrequency</input>
+      <output as="position">f0</output>
+    </max>
+  </analysis>
+  <export>
+    <set name="FFT Spectrum">
+      <data name="Frequency (Hz)">halfFrequency</data>
+      <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (s)">time_subrange</data>
+      <data name="Acceleration x (m/s²)">accX_subrange</data>
+      <data name="Acceleration y (m/s²)">accY_subrange</data>
+      <data name="Acceleration z (m/s²)">accZ_subrange</data>
+    </set>
+  </export>
 </phyphox>

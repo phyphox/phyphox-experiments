@@ -1,232 +1,298 @@
 <phyphox version="1.4" locale="en">
-    <title>Magnetic ruler</title>
-    <category>Tools</category>
-    <icon format="base64">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</icon>
-    <description>
+  <title>Magnetic ruler</title>
+  <category>Tools</category>
+  <icon format="base64">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</icon>
+  <description>
         Use a series of magnets to measure distance, speed and acceleration of the phone.
 
         For this experiment you should place a series of identical magnets along the track the phone will travel. The distance between the magnets has to be the same for each magnet and should be entered in the experiment. The phone will then use its magnetometer to determine when it has passed a magnet, allowing to calculate the total distance covered.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Ruler</link>
-    <link label="Video" highlight="true">https://youtu.be/TS0zw1ecy6A</link>
-    <link label="x / y / z">http://phyphox.org/sensors/</link>
-    <translations>
-        <translation locale="de">
-            <title>Magnet-Lineal</title>
-            <category>Werkzeuge</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Ruler</link>
+  <link label="Video" highlight="true">https://youtu.be/TS0zw1ecy6A</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <translations>
+    <translation locale="de">
+      <title>Magnet-Lineal</title>
+      <category>Werkzeuge</category>
+      <description>
         Mit einer Reihe von Magneten die zurückgelegte Entfernung, Geschwindigkeit und Beschleunigung des Handys messen.
 
                 Für dieses Experiment muss eine Reihe identischer Magnete entlang der Strecke platziert werden, die das Smartphone zurücklegen wird. Der Abstand zwischen den Magneten muss gleich sein und sollte im Experiment eingegeben werden. Mit Hilfe des Magnetometers kann dann bestimmt werden, wann ein Magnet in der Nähe ist und so die insgesamt zurückgelegte Strecke berechnet werden.
     </description>
-            <link label="Video" highlight="true">https://youtu.be/kyxQukhq_io</link>
-            <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
-            <string original="Distance">Entfernung</string>
-            <string original="Velocity">Geschwindigkeit</string>
-            <string original="Results">Ergebnisse</string>
-            <string original="Raw Data">Rohdaten</string>
-            <string original="Magnetic field x">Magnetfeld x</string>
-            <string original="Magnetic field y">Magnetfeld y</string>
-            <string original="Magnetic field z">Magnetfeld z</string>
-            <string original="Total magnetic field squared and filtered">Gesamtfeld quadriert und gefiltert</string>
-            <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
-            <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
-        </translation>
-    <translation locale="cs"><title>Magnetické pravítko</title><category>Nástroje</category><description>
+      <link label="Video" highlight="true">https://youtu.be/kyxQukhq_io</link>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <string original="Distance">Entfernung</string>
+      <string original="Velocity">Geschwindigkeit</string>
+      <string original="Results">Ergebnisse</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Magnetic field x">Magnetfeld x</string>
+      <string original="Magnetic field y">Magnetfeld y</string>
+      <string original="Magnetic field z">Magnetfeld z</string>
+      <string original="Total magnetic field squared and filtered">Gesamtfeld quadriert und gefiltert</string>
+      <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
+      <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
+    </translation>
+    <translation locale="cs">
+      <title>Magnetické pravítko</title>
+      <category>Nástroje</category>
+      <description>
         Měří ujetou vzdálenost, rychlost a zrychlení mobilu pomocí série magnetů.
 
 Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdálenost mezi magnety musí být stejná a je potřeba ji zadat do experimentu. Telefon využije svůj magnetometr k tomu, aby zjistil, kdy projel kolem magnetu a pomocí toho může určit ujetou vzdálenost.
-    </description><string original="Results">Výsledky</string><string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string><string original="Distance">Vzdálenost</string><string original="Velocity">Rychlost</string><string original="Raw Data">Neupravená data</string><string original="Magnetic field x">Magnetické pole x</string><string original="Magnetic field y">Magnetické pole y</string><string original="Magnetic field z">Magnetické pole z</string><string original="Total magnetic field squared and filtered">Čtverec celkové magnetické indukce. Filtrovaný.</string><string original="Filtered B² (µT²)">Filtrované B² (µT²)</string></translation><translation locale="pl"><title>Linijka magnetyczna</title><category>Narzędzia</category><description>
+    </description>
+      <string original="Results">Výsledky</string>
+      <string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string>
+      <string original="Distance">Vzdálenost</string>
+      <string original="Velocity">Rychlost</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Magnetic field x">Magnetické pole x</string>
+      <string original="Magnetic field y">Magnetické pole y</string>
+      <string original="Magnetic field z">Magnetické pole z</string>
+      <string original="Total magnetic field squared and filtered">Čtverec celkové magnetické indukce. Filtrovaný.</string>
+      <string original="Filtered B² (µT²)">Filtrované B² (µT²)</string>
+    </translation>
+    <translation locale="pl">
+      <title>Linijka magnetyczna</title>
+      <category>Narzędzia</category>
+      <description>
         Wykorzystaj kilka magnesów do określenia odległości, wartości prędkości oraz wartości przyspieszenia poruszającego się smartfonu.
 
         W tym eksperymencie rozmieść kilka identycznych magnesów wzdłuż toru ruchu urządzenia. Odległość między poszczególnymi magnesami powinna być ściśle określona. Dzięki danym pomiarowym uzyskanym z magnetometru urządzenia określone zostaną przedziały czasu, w których mijane były magnesy i obliczone zostaną parametry ruchu.
-    </description><string original="Results">Rezultaty</string><string original="dx is the distance between two magnets">dx jest odległością pomiędzy kolejnymi magnesami</string><string original="Distance">Dystans</string><string original="Velocity">Prędkość</string><string original="Raw Data">Surowe dane</string><string original="Magnetic field x">Składowa x indukcji magnetycznej</string><string original="Magnetic field y">Składowa y indukcji magnetycznej</string><string original="Magnetic field z">Składowa z indukcji magnetycznej</string><string original="Total magnetic field squared and filtered">Kwadrat wypadkowej wartości indukcji magnetycznej</string><string original="Filtered B² (µT²)">Wygładzone B² (µT²)</string></translation></translations>
-    <data-containers>
-        <container>magnetDistance</container>
-        <container size="3000" static="true">magnetIndices</container>
-        <container size="3000">magnetPositions</container>
-        <container size="3000">magX</container>
-        <container size="3000">magX2</container>
-        <container size="3000">magY</container>
-        <container size="3000">magY2</container>
-        <container size="3000">magZ</container>
-        <container size="3000">magZ2</container>
-        <container size="3000">magSum</container>
-        <container size="3000">magSumSmooth</container>
-        <container size="3000">magSumFiltered</container>
-        <container>magMax</container>
-        <container>magThreshold</container>
-        <container size="3000">t</container>
-        <container size="3000">max</container>
-        <container size="3000">maxT</container>
-        <container size="3000">pos</container>
-        <container size="3000">posT</container>
-        <container size="3000">speed</container>
-        <container size="3000">speedT</container>
-        <container size="3000">speedClean</container>
-        <container size="3000">speedTClean</container>
-        <container size="3000">dpos</container>
-        <container size="3000">dt</container>
-        <container size="3000">dt2</container>
-    </data-containers>
-    <input>
-        <sensor type="magnetic_field">
-            <output component="x">magX</output>
-            <output component="y">magY</output>
-            <output component="z">magZ</output>
-            <output component="t">t</output>
-        </sensor>
-    </input>
-    <views>
-        <view label="Results">
-            <edit label="dx" unit="mm" factor="1000" signed="false" default="0.1" min="0.02" max="2">
-                <output>magnetDistance</output>
-            </edit>
-            <info label="dx is the distance between two magnets"/>
-            <separator height="1"/>
-            <graph label="Distance" labelX="t (s)" labelY="x (m)">
-                <input axis="x">posT</input>
-                <input axis="y">pos</input>
-            </graph>
-            <graph label="Velocity" labelX="t (s)" labelY="v (m/s)">
-                <input axis="x">speedTClean</input>
-                <input axis="y">speedClean</input>
-            </graph>
-        </view>
-        <view label="Raw Data">
-            <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true" color="ffffff">
-                <input axis="x">t</input>
-                <input axis="y">magX</input>
-            </graph>
-            <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true" color="ffffff">
-                <input axis="x">t</input>
-                <input axis="y">magY</input>
-            </graph>
-            <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true" color="ffffff">
-                <input axis="x">t</input>
-                <input axis="y">magZ</input>
-            </graph>
-            <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="Filtered B² (µT²)" lineWidth="2" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">magSumFiltered</input>
-            </graph>
-        </view>
-    </views>
-    <analysis>
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" type="value">599</input>
-            <input as="length" type="value">600</input>
-            <output>magnetIndices</output>
-        </ramp>
+    </description>
+      <string original="Results">Rezultaty</string>
+      <string original="dx is the distance between two magnets">dx jest odległością pomiędzy kolejnymi magnesami</string>
+      <string original="Distance">Dystans</string>
+      <string original="Velocity">Prędkość</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Magnetic field x">Składowa x indukcji magnetycznej</string>
+      <string original="Magnetic field y">Składowa y indukcji magnetycznej</string>
+      <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
+      <string original="Total magnetic field squared and filtered">Kwadrat wypadkowej wartości indukcji magnetycznej</string>
+      <string original="Filtered B² (µT²)">Wygładzone B² (µT²)</string>
+    </translation>
+    <translation locale="nl">
+      <title>Magnestische meetlat</title>
+      <category>Gereedschap</category>
+      <description>
+        Gebruik een reeks magneten om de afstand, snelheid en versnelling van een smartphone te meten.
 
-        <multiply>
-            <input>magnetIndices</input>
-            <input clear="false">magnetDistance</input>
-            <output>magnetPositions</output>
-        </multiply>
+        Voor dit experiment plaatst u een reeks identieke magneten langs het traject dat de smartphone zal afleggen. De afstand tussen de magneten moet gelijk zijn en moet in het experiment worden ingegeven. De smartphone gebruikt dan zijn magnetometer om te registreren wanneer hij een magneet heeft gepasseerd, waardoor de totale afgelegde afstand kan worden berekend.
+    </description>
+      <string original="Results">Resultaten</string>
+      <string original="dx is the distance between two magnets">dx is de afstand tussen twee magneten</string>
+      <string original="Distance">Afstand</string>
+      <string original="Velocity">Snelheid</string>
+      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Magnetic field x">Magnetisch veld x</string>
+      <string original="Magnetic field y">Magnetisch veld y</string>
+      <string original="Magnetic field z">Magnetisch veld z</string>
+      <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
+      <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
+    </translation>
+    <translation locale="ru">
+      <title>Магнитная линейка</title>
+      <category>Измерительные инструменты</category>
+      <description>
+        Используйте ряд магнитов для измерения расстояния, скорости и ускорения телефона.
 
-        <multiply>
-            <input clear="false">magX</input>
-            <input clear="false">magX</input>
-            <output>magX2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">magY</input>
-            <input clear="false">magY</input>
-            <output>magY2</output>
-        </multiply>
-        <multiply>
-            <input clear="false">magZ</input>
-            <input clear="false">magZ</input>
-            <output>magZ2</output>
-        </multiply>
-
-        <add>
-            <input>magX2</input>
-            <input>magY2</input>
-            <input>magZ2</input>
-            <output>magSum</output>
-        </add>
-
-        <gausssmooth sigma="30">
-            <input clear="false">magSum</input>
-            <output>magSumSmooth</output>
-        </gausssmooth>
-        <subtract>
-            <input>magSum</input>
-            <input>magSumSmooth</input>
-            <output>magSumFiltered</output>
-        </subtract>
-
-        <max>
-            <input as="y" clear="false">magSumFiltered</input>
-            <output as="max">magMax</output>
-        </max>
-        <multiply>
-            <input>magMax</input>
-            <input type="value">0.1</input>
-            <output>magThreshold</output>
-        </multiply>
-        <max multiple="true">
-            <input as="y" clear="false">magSumFiltered</input>
-            <input as="x" clear="false">t</input>
-            <input as="threshold">magThreshold</input>
-            <output as="max">max</output>
-            <output as="position">maxT</output>
-        </max>
-
-        <match>
-            <input>maxT</input>
-            <input>magnetPositions</input>
-            <output>posT</output>
-            <output>pos</output>
-        </match>
-
-        <differentiate>
-            <input clear="false">posT</input>
-            <output>dt</output>
-        </differentiate>
-        <divide>
-            <input clear="false">dt</input>
-            <input type="value">2</input>
-            <output>dt2</output>
-        </divide>
-        <add>
-            <input clear="false">posT</input>
-            <input>dt2</input>
-            <output>speedT</output>
-        </add>
-        <differentiate>
-            <input clear="false">pos</input>
-            <output>dpos</output>
-        </differentiate>
-        <divide>
-            <input>dpos</input>
-            <input>dt</input>
-            <output>speed</output>
-        </divide>
-
-        <match>
-            <input>speed</input>
-            <input>speedT</input>
-            <output>speedClean</output>
-            <output>speedTClean</output>
-        </match>
-
-    </analysis>
-    <export>
-        <set name="Results">
-            <data name="t (s)">posT</data>
-            <data name="x (m)">pos</data>
-            <data name="t_v (s)">speedTClean</data>
-            <data name="v (m/s)">speedClean</data>
-        </set>
-        <set name="Raw Data">
-            <data name="t (s)">t</data>
-            <data name="Magnetometer x (uT)">magX</data>
-            <data name="Magnetometer y (uT)">magY</data>
-            <data name="Magnetometer z (uT)">magZ</data>
-        </set>
-    </export>
+       Для этого эксперимента вы должны разместить серию одинаковых магнитов вдоль линии, по которой телефон будет перемещаться. Расстояние между магнитами должно быть одинаковым и его необходимо задать в соответствующее поле. Затем телефон будет использовать свой магнитометр, чтобы определить, когда он прошел каждый магнит, что позволяет рассчитать общее пройденное расстояние.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="dx is the distance between two magnets">dx - расстояние между двумя магнитами</string>
+      <string original="Distance">Дистанция</string>
+      <string original="t (s)">t (c)</string>
+      <string original="x (m)">x (м)</string>
+      <string original="Velocity">Скорость</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="Raw Data">Исходные данные</string>
+      <string original="Magnetic field x">Магнитное поле x</string>
+      <string original="Bx (µT)">Bx (мкTл)</string>
+      <string original="Magnetic field y">Магнитное поле y</string>
+      <string original="By (µT)">By (мкTл)</string>
+      <string original="Magnetic field z">Магнитное поле z</string>
+      <string original="Bz (µT)">Bz (мкTл)</string>
+      <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
+      <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
+      <string original="mm">мм</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container>magnetDistance</container>
+    <container size="3000" static="true">magnetIndices</container>
+    <container size="3000">magnetPositions</container>
+    <container size="3000">magX</container>
+    <container size="3000">magX2</container>
+    <container size="3000">magY</container>
+    <container size="3000">magY2</container>
+    <container size="3000">magZ</container>
+    <container size="3000">magZ2</container>
+    <container size="3000">magSum</container>
+    <container size="3000">magSumSmooth</container>
+    <container size="3000">magSumFiltered</container>
+    <container>magMax</container>
+    <container>magThreshold</container>
+    <container size="3000">t</container>
+    <container size="3000">max</container>
+    <container size="3000">maxT</container>
+    <container size="3000">pos</container>
+    <container size="3000">posT</container>
+    <container size="3000">speed</container>
+    <container size="3000">speedT</container>
+    <container size="3000">speedClean</container>
+    <container size="3000">speedTClean</container>
+    <container size="3000">dpos</container>
+    <container size="3000">dt</container>
+    <container size="3000">dt2</container>
+  </data-containers>
+  <input>
+    <sensor type="magnetic_field">
+      <output component="x">magX</output>
+      <output component="y">magY</output>
+      <output component="z">magZ</output>
+      <output component="t">t</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Results">
+      <edit label="dx" unit="mm" factor="1000" signed="false" default="0.1" min="0.02" max="2">
+        <output>magnetDistance</output>
+      </edit>
+      <info label="dx is the distance between two magnets"/>
+      <separator height="1"/>
+      <graph label="Distance" labelX="t (s)" labelY="x (m)">
+        <input axis="x">posT</input>
+        <input axis="y">pos</input>
+      </graph>
+      <graph label="Velocity" labelX="t (s)" labelY="v (m/s)">
+        <input axis="x">speedTClean</input>
+        <input axis="y">speedClean</input>
+      </graph>
+    </view>
+    <view label="Raw Data">
+      <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magX</input>
+      </graph>
+      <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magY</input>
+      </graph>
+      <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magZ</input>
+      </graph>
+      <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="Filtered B² (µT²)" lineWidth="2" partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">magSumFiltered</input>
+      </graph>
+    </view>
+  </views>
+  <analysis>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" type="value">599</input>
+      <input as="length" type="value">600</input>
+      <output>magnetIndices</output>
+    </ramp>
+    <multiply>
+      <input>magnetIndices</input>
+      <input clear="false">magnetDistance</input>
+      <output>magnetPositions</output>
+    </multiply>
+    <multiply>
+      <input clear="false">magX</input>
+      <input clear="false">magX</input>
+      <output>magX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">magY</input>
+      <input clear="false">magY</input>
+      <output>magY2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">magZ</input>
+      <input clear="false">magZ</input>
+      <output>magZ2</output>
+    </multiply>
+    <add>
+      <input>magX2</input>
+      <input>magY2</input>
+      <input>magZ2</input>
+      <output>magSum</output>
+    </add>
+    <gausssmooth sigma="30">
+      <input clear="false">magSum</input>
+      <output>magSumSmooth</output>
+    </gausssmooth>
+    <subtract>
+      <input>magSum</input>
+      <input>magSumSmooth</input>
+      <output>magSumFiltered</output>
+    </subtract>
+    <max>
+      <input as="y" clear="false">magSumFiltered</input>
+      <output as="max">magMax</output>
+    </max>
+    <multiply>
+      <input>magMax</input>
+      <input type="value">0.1</input>
+      <output>magThreshold</output>
+    </multiply>
+    <max multiple="true">
+      <input as="y" clear="false">magSumFiltered</input>
+      <input as="x" clear="false">t</input>
+      <input as="threshold">magThreshold</input>
+      <output as="max">max</output>
+      <output as="position">maxT</output>
+    </max>
+    <match>
+      <input>maxT</input>
+      <input>magnetPositions</input>
+      <output>posT</output>
+      <output>pos</output>
+    </match>
+    <differentiate>
+      <input clear="false">posT</input>
+      <output>dt</output>
+    </differentiate>
+    <divide>
+      <input clear="false">dt</input>
+      <input type="value">2</input>
+      <output>dt2</output>
+    </divide>
+    <add>
+      <input clear="false">posT</input>
+      <input>dt2</input>
+      <output>speedT</output>
+    </add>
+    <differentiate>
+      <input clear="false">pos</input>
+      <output>dpos</output>
+    </differentiate>
+    <divide>
+      <input>dpos</input>
+      <input>dt</input>
+      <output>speed</output>
+    </divide>
+    <match>
+      <input>speed</input>
+      <input>speedT</input>
+      <output>speedClean</output>
+      <output>speedTClean</output>
+    </match>
+  </analysis>
+  <export>
+    <set name="Results">
+      <data name="t (s)">posT</data>
+      <data name="x (m)">pos</data>
+      <data name="t_v (s)">speedTClean</data>
+      <data name="v (m/s)">speedClean</data>
+    </set>
+    <set name="Raw Data">
+      <data name="t (s)">t</data>
+      <data name="Magnetometer x (uT)">magX</data>
+      <data name="Magnetometer y (uT)">magY</data>
+      <data name="Magnetometer z (uT)">magZ</data>
+    </set>
+  </export>
 </phyphox>

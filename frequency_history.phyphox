@@ -1,159 +1,195 @@
 <phyphox version="1.6" locale="en">
-    <title>Frequency history</title>
-    <category>Acoustics</category>
-    <icon format="base64">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</icon>
-    <description>
+  <title>Frequency history</title>
+  <category>Acoustics</category>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAYASURBVHic7d3Pi1ZVHMfxz1fHMabyB5aVGfQDTDArzIx+EEGYbcJFkBVmLV0FLlr0V7SIQChiLEOEkKBNEBiRCVIS/cTEgszCTEoU02kcPy3mAevxuafzOHPvuc7zfi3Pvcfz2Xw493r0uRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoLBIXbS9UNJLktZLuqGRRJevkDRX0rCkWZLGJX0haWNEHCoZDJeusiC2b5G0W9LNjaWZmc5JWhcRu0sHQf96FsR2SNon6d5m48xYf0maHxHnSgdBf2ZVjD8iyjGdRiS9XDoE+ldVkPsaTTEYnikdAP2rKkjVOC7dMtuLS4dAf6qKsL/RFINhtqRnS4dAf6pe0mdL+lLSimbjzHhfR8SdpUMgX88dJCImJG2QdKzZODPeStt3lw6BfJXvGhHxraRVkl6X9HtjiWa+50sHQL7kSfq/2R7R5EkxentP0sMZ9x2TtDQixmvOA7SH7U3Ot750XqBRtq+0fTKzILtK5wUaZ/vNzIKM2b62dF78Pw4Ep9e2zPuGxck6Bo3tsH0ocxfhMPYywA4yjSLCkt7OvH2VbQ4NW46CTL9tks5n3rupziBAK9n+KPMx6zfbc0rnRTV2kHrkvqwvlvR4nUGA1vHkmcipzF3k3dJ5gcbZHs0syJjta0rnRW88YtWnnzORp+sMArSOJ89EfsjcRT4rnRe9sYPUpHMmsj3z9tW2V9aZB5eGgtRrVJIz732uxhxAO9n+OPMx66jtodJ58V/sIPXLfVm/TtJjdQYBWsf2Vc4/E9lZOi/QONtvZRZkzPai0nlxAY9YzejnTGRDnUGA1vHkmciPmbvIvtJ5cQE7SAM6ZyLvZN6+xvYddeZBPgrSnG3KPxPZWGcQoJVs78l8zPrFkz//isLYQZqV+7K+RNLaOoMArWN7nu3TmbvIjtJ5gcbZ3p5ZkDOe/IgqCuIRq3m5j1lXSHqqziBA69ieZftw5i6yt3TeQccO0rCIOK/838663/byOvMgjYKUMar8MxF+OwuDx/bezMesI+ZMpBh2kHJyX9ZvlPRonUGA1rE93/lnIrn/jguYOWzvyCzIGdsLSucdRNnfKMT0s71O0geZtx+UdKrGOIPklKQ9kl6LiKOpGylIQZ2X7580+Z6B5p2Q9GRE7K66gZf0gjrfo889E8H0WyBpl+2lVTdQkPJy/zYL9ZgvaUvVRQpSWEQckMR/sy2r8vv2FKQdRksHGHAjVRcoSDvslHS2dIgB9l3VBQrSAhHxp9hFSnqj6gJ/zdsSnYPAPZJWlM4yYF6NiBerLrKDtEREnJD0oKStkk4XjjMIfpa0OVUOiR2klWzPlXSrEi+PmJLjkg53fq8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgOyPeNqeJWm4a3giIsYz58+RNLtreDwiJjLnz1VX3og4mzl3qtmHJA11DTeSfaqmmn2Ka4ekuV3D5yPi77rX7qw/rIu/5DxWy8c7bT/hi73fx/zRHvNf6GP+yR7z52XOXdtj7od9rL21x/zNfcw/1mP+4tz5U2H7lR5rb2lo7dU91v68ibU763/fY/3b+/kz+E46kEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECCBggAJFARIoCBAAgUBEigIkEBBgAQKAiRQECAhcm+0vUjSyq7h4xHxTeb85ZKu7xo+EBFHM+c/JGmoa/iTiJjImLtQ0l1dw39ExFeZay+TtKRr+GBE/Jo5/wFJw13Dn0bEeM78qbB9m6SbuoYPRcSRBta+WtI9XcOnImJ/3Wt31l8jaaRreF9EnGlifQAAAAAAAAAAAACXqX8AabcXQ5drepsAAAAASUVORK5CYII=</icon>
+  <description>
         Measure the frequency change over time for a single tone.
 
         This experiment records audio from the microphone and analyses it for its frequency over short periods of time. This only works if there is a single tone with a fixed frequency as it uses autocorrelation. The result will be plotted as a frequency over time.
     </description>
-    <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Frequency_History</link>
-    <translations>
-        <translation locale="de">
-            <title>Frequenz-Verlauf</title>
-            <category>Akustik</category>
-            <description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Frequency_History</link>
+  <translations>
+    <translation locale="de">
+      <title>Frequenz-Verlauf</title>
+      <category>Akustik</category>
+      <description>
         Den Frequenzverlauf eines einzelnen Tons ermitteln.
 
                 Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz über kurze Zeitspannen. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt, da dieses Experiment eine Autokorrelation verwendet. Als Ergebnis wird der Verlauf dieser Frequenz über die Zeit angezeigt.
     </description>
-            <string original="History">Verlauf</string>
-            <string original="Period">Periode</string>
-            <string original="Frequency">Frequenz</string>
-            <string original="Period (s)">Periode (s)</string>
-            <string original="Frequency (Hz)">Frequenz (Hz)</string>
-        </translation>
-    <translation locale="cs"><title>Časosběrné meření frekvence</title><category>Akustika</category><description>
+      <string original="History">Verlauf</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="Period (s)">Periode (s)</string>
+      <string original="Frequency (Hz)">Frequenz (Hz)</string>
+    </translation>
+    <translation locale="cs">
+      <title>Časosběrné meření frekvence</title>
+      <category>Akustika</category>
+      <description>
         Měří změny frekvence jednoho tónu v průběhu času.
 
 Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci přes krátké časové úseky. Toto funguje pouze pokud je měřen jen jeden tón, neboť měření používá autokorelaci. Výsledek je zobrazen jako graf závislosti frekvence na čase.
-    </description><string original="History">Historie</string><string original="Frequency">Frekvence</string><string original="Frequency (Hz)">Frekvence (Hz)</string><string original="Period">Perioda</string><string original="Period (s)">Perioda (s)</string></translation><translation locale="pl"><title>Zmiany częstotliwości</title><category>Akustyka</category><description>
+    </description>
+      <string original="History">Historie</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="Frequency (Hz)">Frekvence (Hz)</string>
+      <string original="Period">Perioda</string>
+      <string original="Period (s)">Perioda (s)</string>
+    </translation>
+    <translation locale="pl">
+      <title>Zmiany częstotliwości</title>
+      <category>Akustyka</category>
+      <description>
         Zarejestruj zmiany częstotliwości w czasie dla tonu.
 
         W tym eksperymencie badany jest dźwięk rejestrowany przez mikrofon urządzenia w bardzo krótkich przedziałach czasu. Procedura wykorzystuje autokorelację i pozwala uzyskać satyfkacjonujące wyniki jedynie w przypadku analizy pojedyńczych tonów. Wyniki są wizualizowane na wykresie częstotliwości w funkcji czasu.
-    </description><string original="History">Historia</string><string original="Frequency">Częstotliwość</string><string original="Frequency (Hz)">Częstotliwość (Hz)</string><string original="Period">Okres</string><string original="Period (s)">Okres (s)</string></translation></translations>
-    <data-containers>
-        <container size="480">recording</container>
-        <container>rate</container>
-        <container>tmax</container>
-        <container size="480" static="true">time</container>
-        <container size="480">autocorrelation_t</container>
-        <container size="480">autocorrelation</container>
-        <container>dt</container>
-        <container>t0</container>
-        <container>t1</container>
-        <container>t2</container>
-        <container size="480">search_t</container>
-        <container size="480">search_y</container>
-        <container>period_single</container>
-        <container>time_single</container>
-        <container size="0">period</container>
-        <container size="0">frequency</container>
-        <container size="0">time_hist</container>
-    </data-containers>
-    <input>
-        <audio>
-            <output>recording</output>
-            <output component="rate">rate</output>
-        </audio>
-    </input>
-    <views>
-        <view label="History">
-            <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" style="dots" partialUpdate="true" logY="true">
-                <input axis="x">time_hist</input>
-                <input axis="y">frequency</input>
-            </graph>
-            <graph label="Period" labelX="t (s)" labelY="Period (s)" style="dots" partialUpdate="true" color="ffff00">
-                <input axis="x">time_hist</input>
-                <input axis="y">period</input>
-            </graph>
-        </view>
-    </views>
-    <analysis>
-        <divide>
-            <input type="value">480</input>
-            <input clear="false">rate</input>
-            <output>tmax</output>
-        </divide>
+    </description>
+      <string original="History">Historia</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
+      <string original="Period">Okres</string>
+      <string original="Period (s)">Okres (s)</string>
+    </translation>
+    <translation locale="nl">
+      <title>Frequentiegeschiedenis</title>
+      <category>Geluid</category>
+      <description>
+        Meet de frequentieverandering voor een bepaalde toonhoogte in de tijd.
 
-        <ramp>
-            <input as="start" type="value">0</input>
-            <input as="stop" clear="false">tmax</input>
-            <output>time</output>
-        </ramp>
+         Dit experiment neemt geluid op via de microfoon en analyseert de frequentie ervan gedurende korte tijdsintervallen. Dit werkt alleen bij één bepaalde toonhoogte (met vaste frequentie) omdat autocorrelatie gebruikt wordt. Het resultaat is een grafiek van de  frequentie in functie van de tijd.
+    </description>
+      <string original="History">Geschiedenis</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="Frequency (Hz)">Frequentie (Hz)</string>
+      <string original="Period">Periode</string>
+      <string original="Period (s)">Periode (s)</string>
+    </translation>
+    <translation locale="ru">
+      <title>История частоты</title>
+      <category>Акустика</category>
+      <description>
+        Измерьте изменение частоты во времени для одного тона.
 
-        <autocorrelation>
-            <input as="x">time</input>
-            <input as="y">recording</input>
-            <output as="x" clear="false">autocorrelation_t</output>
-            <output as="y" clear="false">autocorrelation</output>
-        </autocorrelation>
-
-        <threshold falling="true">
-            <input as="x" clear="false">autocorrelation_t</input>
-            <input as="y" clear="false">autocorrelation</input>
-            <output>t0</output>
-        </threshold>
-
-        <multiply>
-            <input clear="false">t0</input>
-            <input type="value">2</input>
-            <output>dt</output>
-        </multiply>
-
-        <add>
-            <input>t0</input>
-            <input clear="false">dt</input>
-            <output>t1</output>
-        </add>
-
-        <add>
-            <input clear="false">t1</input>
-            <input>dt</input>
-            <output>t2</output>
-        </add>
-
-        <rangefilter>
-            <input clear="false">autocorrelation_t</input>
-            <input as="min">t1</input>
-            <input as="max">t2</input>
-            <input clear="false">autocorrelation</input>
-            <output>search_t</output>
-            <output>search_y</output>
-        </rangefilter>
-
-        <max>
-            <input as="y">search_y</input>
-            <input as="x">search_t</input>
-            <output as="position" clear="false">period_single</output>
-        </max>
-
-        <timer>
-            <output>time_single</output>
-        </timer>
-
-        <rangefilter>
-            <input>period_single</input>
-            <input as="min" type="value">0.0001</input>
-            <input as="max" type="value">0.0075</input>
-            <input>time_single</input>
-            <output clear="false">period</output>
-            <output clear="false">time_hist</output>
-        </rangefilter>
-
-        <divide>
-            <input type="value">1</input>
-            <input clear="false">period</input>
-            <output>frequency</output>
-        </divide>
-
-    </analysis>
-
-    <export>
-        <set name="History">
-            <data name="Time (s)">time_hist</data>
-            <data name="Period (s)">period</data>
-            <data name="Frequency (Hz)">frequency</data>
-        </set>
-    </export>
+        Этот эксперимент записывает звук через микрофон и анализирует его частоту в течение коротких периодов времени. Этот эксперимент работает только в том случае, если присутствует только один тон с фиксированной частотой, поскольку он использует автокорреляцию. Результат будет отображаться как частота во временной зависимости.
+    </description>
+      <string original="History">История</string>
+      <string original="Frequency">Частота</string>
+      <string original="t (s)">t (c)</string>
+      <string original="Frequency (Hz)">Частота (Гц)</string>
+      <string original="Period">Период</string>
+      <string original="Period (s)">Период (с)</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="480">recording</container>
+    <container>rate</container>
+    <container>tmax</container>
+    <container size="480" static="true">time</container>
+    <container size="480">autocorrelation_t</container>
+    <container size="480">autocorrelation</container>
+    <container>dt</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container>t2</container>
+    <container size="480">search_t</container>
+    <container size="480">search_y</container>
+    <container>period_single</container>
+    <container>time_single</container>
+    <container size="0">period</container>
+    <container size="0">frequency</container>
+    <container size="0">time_hist</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="History">
+      <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" style="dots" partialUpdate="true" logY="true">
+        <input axis="x">time_hist</input>
+        <input axis="y">frequency</input>
+      </graph>
+      <graph label="Period" labelX="t (s)" labelY="Period (s)" style="dots" partialUpdate="true" color="ffff00">
+        <input axis="x">time_hist</input>
+        <input axis="y">period</input>
+      </graph>
+    </view>
+  </views>
+  <analysis>
+    <divide>
+      <input type="value">480</input>
+      <input clear="false">rate</input>
+      <output>tmax</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">tmax</input>
+      <output>time</output>
+    </ramp>
+    <autocorrelation>
+      <input as="x">time</input>
+      <input as="y">recording</input>
+      <output as="x" clear="false">autocorrelation_t</output>
+      <output as="y" clear="false">autocorrelation</output>
+    </autocorrelation>
+    <threshold falling="true">
+      <input as="x" clear="false">autocorrelation_t</input>
+      <input as="y" clear="false">autocorrelation</input>
+      <output>t0</output>
+    </threshold>
+    <multiply>
+      <input clear="false">t0</input>
+      <input type="value">2</input>
+      <output>dt</output>
+    </multiply>
+    <add>
+      <input>t0</input>
+      <input clear="false">dt</input>
+      <output>t1</output>
+    </add>
+    <add>
+      <input clear="false">t1</input>
+      <input>dt</input>
+      <output>t2</output>
+    </add>
+    <rangefilter>
+      <input clear="false">autocorrelation_t</input>
+      <input as="min">t1</input>
+      <input as="max">t2</input>
+      <input clear="false">autocorrelation</input>
+      <output>search_t</output>
+      <output>search_y</output>
+    </rangefilter>
+    <max>
+      <input as="y">search_y</input>
+      <input as="x">search_t</input>
+      <output as="position" clear="false">period_single</output>
+    </max>
+    <timer>
+      <output>time_single</output>
+    </timer>
+    <rangefilter>
+      <input>period_single</input>
+      <input as="min" type="value">0.0001</input>
+      <input as="max" type="value">0.0075</input>
+      <input>time_single</input>
+      <output clear="false">period</output>
+      <output clear="false">time_hist</output>
+    </rangefilter>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>frequency</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="History">
+      <data name="Time (s)">time_hist</data>
+      <data name="Period (s)">period</data>
+      <data name="Frequency (Hz)">frequency</data>
+    </set>
+  </export>
 </phyphox>
