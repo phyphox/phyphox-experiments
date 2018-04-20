@@ -54,7 +54,7 @@
     <translation locale="nl">
       <title>Versnelling (zonder g)</title>
       <category>Onbewerkte sensoren</category>
-      <description>Verkrijg ruwe gegevens van de zogenaamde lineaire accelerometer (versnellingsmeter), die de feitelijke versnelling geeft zonder de zwaarteversnelling. In tegenstelling tot "versnelling met g" geeft deze sensor 0 weer wanneer de smartphone in rust is.</description>
+      <description>Verkrijg onbewerkte gegevens van de lineaire versnellingsmeter (accelerometer), die de feitelijke versnelling geeft zonder zwaarteversnelling. In tegenstelling tot "versnelling met g" geeft deze virtuele sensor 0 weer wanneer de smartphone in rust is.</description>
       <string original="Graph">Grafiek</string>
       <string original="Linear Acceleration x">Lineaire versnelling x</string>
       <string original="Linear Acceleration y">Lineaire versnelling y</string>
