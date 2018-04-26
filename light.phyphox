@@ -81,7 +81,7 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Illuminance" labelX="t (s)" labelY="Ev (lx)" partialUpdate="true">
+      <graph label="Illuminance" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
         <input axis="x">illum_time</input>
         <input axis="y">illum</input>
       </graph>

@@ -48,18 +48,18 @@
             <edit label="Offset" unit="a.u.">
                 <output>offset</output>
             </edit>
-            <graph label="Illuminance" labelX="d (a.u.)" labelY="Ev (lx)">
+            <graph label="Illuminance" labelX="d" unitX="a.u." labelY="Ev" unitY="lx">
                 <input axis="y">illumHist</input>
                 <input axis="x">dHistOff</input>
             </graph>
 
-            <graph label="Inverse Square Plot" labelX="1/d² (a.u.)" labelY="Ev (lx)">
+            <graph label="Inverse Square Plot" labelX="1/d²" unitX="a.u." labelY="Ev" unitY="lx">
                 <input axis="y">illumHist</input>
                 <input axis="x">1/d2Hist</input>
             </graph>
         </view>
         <view label="Mouse">
-            <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
+            <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
                 <input axis="y">y</input>
                 <input axis="x">x</input>
             </graph>

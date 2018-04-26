@@ -261,7 +261,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
         <input>centsDiff</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
+      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency" unitX="Hz" labelY="FFT Mag" unitY="a.u.">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -297,7 +297,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       </button>
     </view>
     <view label="Raw data">
-      <graph label="Recording" labelX="t (s)" labelY="Amplitude (a.u.)">
+      <graph label="Recording" labelX="t" unitX="s" labelY="Amplitude" unitY="a.u.">
         <input axis="x">time</input>
         <input axis="y">recording_subrange</input>
       </graph>

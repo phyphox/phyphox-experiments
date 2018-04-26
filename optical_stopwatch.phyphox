@@ -293,7 +293,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <separator height="1"/>
       <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below."/>
       <separator height="1"/>
-      <graph label="Illuminance" labelX="t (s)" labelY="Ev (lx)" partialUpdate="true">
+      <graph label="Illuminance" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>

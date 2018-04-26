@@ -25,7 +25,7 @@
     </input>
     <views>
         <view label="Rangefinder">
-            <graph label="PocketLab Voyager Rangefinder" labelX="t (s)" labelY="distance (m)" partialUpdate="true">
+            <graph label="PocketLab Voyager Rangefinder" labelX="t" unitX="s" labelY="distance" unitY="m" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">d</input>
             </graph>

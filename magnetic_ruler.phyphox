@@ -159,29 +159,29 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       </edit>
       <info label="dx is the distance between two magnets"/>
       <separator height="1"/>
-      <graph label="Distance" labelX="t (s)" labelY="x (m)">
+      <graph label="Distance" labelX="t" unitX="s" labelY="x" unitY="m">
         <input axis="x">posT</input>
         <input axis="y">pos</input>
       </graph>
-      <graph label="Velocity" labelX="t (s)" labelY="v (m/s)">
+      <graph label="Velocity" labelX="t" unitX="s" labelY="v" unitY="m/s">
         <input axis="x">speedTClean</input>
         <input axis="y">speedClean</input>
       </graph>
     </view>
     <view label="Raw Data">
-      <graph label="Magnetic field x" labelX="t (s)" labelY="Bx (µT)" partialUpdate="true" color="ffffff">
+      <graph label="Magnetic field x" labelX="t" unitX="s" labelY="Bx" unitY="µT" partialUpdate="true" color="ffffff">
         <input axis="x">t</input>
         <input axis="y">magX</input>
       </graph>
-      <graph label="Magnetic field y" labelX="t (s)" labelY="By (µT)" partialUpdate="true" color="ffffff">
+      <graph label="Magnetic field y" labelX="t" unitX="s" labelY="By" unitY="µT" partialUpdate="true" color="ffffff">
         <input axis="x">t</input>
         <input axis="y">magY</input>
       </graph>
-      <graph label="Magnetic field z" labelX="t (s)" labelY="Bz (µT)" partialUpdate="true" color="ffffff">
+      <graph label="Magnetic field z" labelX="t" unitX="s" labelY="Bz" unitY="µT" partialUpdate="true" color="ffffff">
         <input axis="x">t</input>
         <input axis="y">magZ</input>
       </graph>
-      <graph label="Total magnetic field squared and filtered" labelX="t (s)" labelY="Filtered B² (µT²)" lineWidth="2" partialUpdate="true">
+      <graph label="Total magnetic field squared and filtered" labelX="t" unitX="s" labelY="Filtered B²" unitY="µT²" lineWidth="2" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">magSumFiltered</input>
       </graph>

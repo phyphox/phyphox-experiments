@@ -60,7 +60,7 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" yPrecision="6" partialUpdate="true">
+      <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" yPrecision="6" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">pressure</input>
       </graph>

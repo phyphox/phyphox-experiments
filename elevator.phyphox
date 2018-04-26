@@ -138,25 +138,25 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
   </input>
   <views>
     <view label="Motion">
-      <graph label="Height (from barometer)" labelX="t (s)" labelY="h (m)" partialUpdate="true">
+      <graph label="Height (from barometer)" labelX="t" unitX="s" labelY="h" unitY="m" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">h</input>
       </graph>
-      <graph label="Vertical velocity (from height)" labelX="t (s)" labelY="v (m/s)" partialUpdate="true" color="ffff00">
+      <graph label="Vertical velocity (from height)" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true" color="ffff00">
         <input axis="x">v_time</input>
         <input axis="y">v</input>
       </graph>
-      <graph label="z acceleration (from accelerometer)" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="e0ff00">
+      <graph label="z acceleration (from accelerometer)" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="e0ff00">
         <input axis="x">a_time</input>
         <input axis="y">a</input>
       </graph>
     </view>
     <view label="Raw Data">
-      <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" partialUpdate="true">
+      <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">pressure</input>
       </graph>
-      <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
         <input axis="x">a_time</input>
         <input axis="y">a</input>
       </graph>

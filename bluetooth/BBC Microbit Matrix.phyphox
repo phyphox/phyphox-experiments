@@ -34,7 +34,7 @@
     </output>
     <views>
         <view label="Raw Data">
-            <graph aspectRatio="1" minX="-5" scaleMinX="fixed" maxX="5" scaleMaxX="fixed" minY="-5" scaleMinY="fixed" maxY="5" scaleMaxY="fixed" labelX="x (m/s²)" labelY="y (m/s²)" style="dots" lineWidth="10">
+            <graph aspectRatio="1" minX="-5" scaleMinX="fixed" maxX="5" scaleMaxX="fixed" minY="-5" scaleMinY="fixed" maxY="5" scaleMaxY="fixed" labelX="x" unitX="m/s²" labelY="y" unitY="m/s²" style="dots" lineWidth="10">
                 <input axis="x">x</input>
                 <input axis="y">y</input>
             </graph>

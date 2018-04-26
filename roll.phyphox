@@ -100,17 +100,17 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <edit label="Roll radius" unit="cm" factor="100" default="0.05" signed="false" min="0.01" max="1">
         <output>r</output>
       </edit>
-      <graph label="Velocity" labelX="t (s)" labelY="v (m/s)" partialUpdate="true">
+      <graph label="Velocity" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">v</input>
       </graph>
-      <graph label="Velocity" labelX="t (s)" labelY="v (km/h)" partialUpdate="true">
+      <graph label="Velocity" labelX="t" unitX="s" labelY="v" unitY="km/h" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">vkmh</input>
       </graph>
     </view>
     <view label="Raw Data">
-      <graph label="Gyroscope y" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true" color="ffff00">
+      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ffff00">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>
       </graph>

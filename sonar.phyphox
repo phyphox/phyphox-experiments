@@ -191,11 +191,11 @@ Voer dit experiment best uit in een rustige omgeving.
       <edit label="Speed of Sound" unit="m/s" default="340">
         <output>speedofsound</output>
       </edit>
-      <graph label="Echo location" history="5" labelX="distance (cm)" labelY="A (a.u.)">
+      <graph label="Echo location" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u.">
         <input axis="x">distance</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="distance (cm)" labelY="A (a.u.)">
+      <graph label="Normalized to spherical surface" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u.">
         <input axis="x">distance</input>
         <input axis="y">weighted_cc</input>
       </graph>
@@ -204,28 +204,28 @@ Voer dit experiment best uit in een rustige omgeving.
       <edit label="Target distance" unit="m" default="1">
         <output>targetdistance</output>
       </edit>
-      <graph label="Echo strength" history="5" labelX="Speed of Sound (m/s)" labelY="A (a.u.)">
+      <graph label="Echo strength" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u.">
         <input axis="x">sos</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound (m/s)" labelY="A (a.u.)">
+      <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u.">
         <input axis="x">sos</input>
         <input axis="y">weighted_cc</input>
       </graph>
     </view>
     <view label="Timing">
       <info label="On this page you just get the measured delay."/>
-      <graph label="Echo strength" history="5" labelX="Delay (s)" labelY="A (a.u.)">
+      <graph label="Echo strength" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u.">
         <input axis="x">relative_t</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Delay (s)" labelY="A (a.u.)">
+      <graph label="Normalized to spherical surface" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u.">
         <input axis="x">relative_t</input>
         <input axis="y">weighted_cc</input>
       </graph>
     </view>
     <view label="Chirp">
-      <graph label="Chirp" labelX="Time (s)" labelY="A (a.u.)">
+      <graph label="Chirp" labelX="Time" unitX="s" labelY="A" unitY="a.u.">
         <input axis="x">chirp_t</input>
         <input axis="y">weighted_chirp</input>
       </graph>

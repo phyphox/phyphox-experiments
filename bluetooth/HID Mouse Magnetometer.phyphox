@@ -46,30 +46,30 @@
     </input>
     <views>
         <view label="B-field">
-            <graph label="Absolute magnetic field" labelX="d (a.u.)" labelY="B (mT)">
+            <graph label="Absolute magnetic field" labelX="d" unitX="a.u." labelY="B" unitY="mT">
                 <input axis="y">BHist</input>
                 <input axis="x">dHist</input>
             </graph>
 
         </view>
         <view label="x/y/z">
-            <graph label="Magnetic field x" labelX="d (a.u.)" labelY="Bx (mT)">
+            <graph label="Magnetic field x" labelX="d" unitX="a.u." labelY="Bx" unitY="mT">
                 <input axis="y">BxHist</input>
                 <input axis="x">dHist</input>
             </graph>
 
-            <graph label="Magnetic field y" labelX="d (a.u.)" labelY="By (mT)">
+            <graph label="Magnetic field y" labelX="d" unitX="a.u." labelY="By" unitY="mT">
                 <input axis="y">ByHist</input>
                 <input axis="x">dHist</input>
             </graph>
-            <graph label="Magnetic field z" labelX="d (a.u.)" labelY="Bz (mT)">
+            <graph label="Magnetic field z" labelX="d" unitX="a.u." labelY="Bz" unitY="mT">
                 <input axis="y">BzHist</input>
                 <input axis="x">dHist</input>
             </graph>
 
         </view>
         <view label="Mouse">
-            <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
+            <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
                 <input axis="y">y</input>
                 <input axis="x">x</input>
             </graph>

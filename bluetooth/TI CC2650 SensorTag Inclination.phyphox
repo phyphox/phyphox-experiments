@@ -64,7 +64,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
     </input>
     <views>
         <view label="Inclination">
-            <graph label="Inclination" labelX="t (s)" labelY="Angle (°)" partialUpdate="true" style="line">
+            <graph label="Inclination" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
                 <input axis="x">t</input>
                 <input axis="y">angle</input>
             </graph>
@@ -72,7 +72,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
                 <input>angle</input>
             </value>
             <separator height="1"/>
-            <graph label="Rotation" labelX="t (s)" labelY="Angle (°)" partialUpdate="true" style="line">
+            <graph label="Rotation" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
                 <input axis="x">t</input>
                 <input axis="y">anglePlane</input>
             </graph>

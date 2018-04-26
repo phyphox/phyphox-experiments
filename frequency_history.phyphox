@@ -108,11 +108,11 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
   </input>
   <views>
     <view label="History">
-      <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" style="dots" partialUpdate="true" logY="true">
+      <graph label="Frequency" labelX="t" unitX="s" labelY="Frequency" unitY="Hz" style="dots" partialUpdate="true" logY="true">
         <input axis="x">time_hist</input>
         <input axis="y">frequency</input>
       </graph>
-      <graph label="Period" labelX="t (s)" labelY="Period (s)" style="dots" partialUpdate="true" color="ffff00">
+      <graph label="Period" labelX="t" unitX="s" labelY="Period" unitY="s" style="dots" partialUpdate="true" color="ffff00">
         <input axis="x">time_hist</input>
         <input axis="y">period</input>
       </graph>

@@ -83,21 +83,21 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Gyroscope x" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true">
+      <graph label="Gyroscope x" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrX</input>
       </graph>
-      <graph label="Gyroscope y" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true" color="ffff00">
+      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ffff00">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>
       </graph>
-      <graph label="Gyroscope z" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true" color="ff6060">
+      <graph label="Gyroscope z" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ff6060">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrZ</input>
       </graph>
     </view>
     <view label="Absolute">
-      <graph label="Absolute" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true">
+      <graph label="Absolute" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">gyr</input>
       </graph>

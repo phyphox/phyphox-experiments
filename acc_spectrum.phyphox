@@ -198,7 +198,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
         <input>f0</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="Hz" labelY="FFT Mag" unitY="a.u.">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -248,15 +248,15 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       </button>
     </view>
     <view label="Raw data">
-      <graph label="Acceleration x" labelX="t (s)" labelY="a (m/s²)">
+      <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitX="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accX_subrange</input>
       </graph>
-      <graph label="Acceleration y" labelX="t (s)" labelY="a (m/s²)">
+      <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitX="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accY_subrange</input>
       </graph>
-      <graph label="Acceleration z" labelX="t (s)" labelY="a (m/s²)">
+      <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitX="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accZ_subrange</input>
       </graph>

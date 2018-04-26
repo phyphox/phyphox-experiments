@@ -102,7 +102,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
   </input>
   <views>
     <view label="Scope">
-      <graph label="Audio Data" labelX="Time (ms)" labelY="Amplitude (a.u.)" scaleMinY="extend" scaleMaxY="extend">
+      <graph label="Audio Data" labelX="Time" unitX="ms" labelY="Amplitude" unitY="a.u." scaleMinY="extend" scaleMaxY="extend">
         <input axis="x">subtime0</input>
         <input axis="y">subdata</input>
       </graph>

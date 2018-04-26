@@ -14,7 +14,7 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Jot Touch Pressure" labelX="t (s)" labelY="p (a.u.)" partialUpdate="true">
+            <graph label="Jot Touch Pressure" labelX="t" unitX="s" labelY="p" unitY="a.u." partialUpdate="true">
                 <input axis="y">p</input>
                 <input axis="x">t</input>
             </graph>

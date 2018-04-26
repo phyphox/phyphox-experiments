@@ -19,7 +19,7 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Heart Rate" labelX="t (s)" labelY="Heart Rate (bpm)">
+            <graph label="Heart Rate" labelX="t" unitX="s" labelY="Heart Rate" unitY="bpm">
                 <input axis="y">bpm</input>
                 <input axis="x">t</input>
             </graph>

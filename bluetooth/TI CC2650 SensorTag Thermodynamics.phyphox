@@ -30,31 +30,31 @@
     </input>
     <views>
         <view label="Humidity">
-            <graph label="Temperature" labelX="t (s)" labelY="T (°C)" partialUpdate="true">
+            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
                 <input axis="x">tHum</input>
                 <input axis="y">Temp</input>
             </graph>
-            <graph label="Relative Humidity" labelX="t (s)" labelY="RH (%)" partialUpdate="true">
+            <graph label="Relative Humidity" labelX="t" unitX="s" labelY="RH" unitY="%" partialUpdate="true">
                 <input axis="x">tHum</input>
                 <input axis="y">Hum</input>
             </graph>
         </view>
         <view label="Pressure">
-            <graph label="Temperature" labelX="t (s)" labelY="T (°C)" partialUpdate="true">
+            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
                 <input axis="x">tPres</input>
                 <input axis="y">Temp2</input>
             </graph>
-            <graph label="Pressure" labelX="t (s)" labelY="p (hPa)" partialUpdate="true">
+            <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
                 <input axis="x">tPres</input>
                 <input axis="y">Pres</input>
             </graph>
         </view>
         <view label="Relations">
-            <graph label="Pressure - Temperature" labelX="T (°C)" labelY="p (hPa)" partialUpdate="true">
+            <graph label="Pressure - Temperature" labelX="T" unitX="°C" labelY="p" unitY="hPa" partialUpdate="true">
                 <input axis="x">Temp2</input>
                 <input axis="y">Pres</input>
             </graph>
-            <graph label="Humidity - Temperature" labelX="T (°C)" labelY="RH (%)" partialUpdate="true">
+            <graph label="Humidity - Temperature" labelX="T" unitX="°C" labelY="RH" unitY="%" partialUpdate="true">
                 <input axis="x">Temp</input>
                 <input axis="y">Hum</input>
             </graph>

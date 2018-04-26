@@ -275,7 +275,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <info label="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s²."/>
     </view>
     <view label="Resonance">
-      <graph label="Resonance" labelX="Frequency (Hz)" labelY="Rel. amplitude (a.u.)" style="dots">
+      <graph label="Resonance" labelX="Frequency" unitX="Hz" labelY="Rel. amplitude" unitY="a.u." style="dots">
         <input axis="x">frequencyhist</input>
         <input axis="y">relamplitude</input>
       </graph>
@@ -283,7 +283,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
     </view>
     <view label="Autocorrelation">
-      <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
+      <graph label="Autocorrelation" labelX="Δt" unitX="s" labelY="correlation" unitY="a.u.">
         <input axis="x">autocorrelation_t</input>
         <input axis="y">autocorrelation</input>
       </graph>
@@ -295,15 +295,15 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       </value>
     </view>
     <view label="Raw Data">
-      <graph label="Gyroscope x" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true">
+      <graph label="Gyroscope x" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrX</input>
       </graph>
-      <graph label="Gyroscope y" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true" color="ffff00">
+      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ffff00">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>
       </graph>
-      <graph label="Gyroscope z" labelX="t (s)" labelY="ω (rad/s)" partialUpdate="true" color="ff6060">
+      <graph label="Gyroscope z" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ff6060">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrZ</input>
       </graph>

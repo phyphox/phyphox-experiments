@@ -22,7 +22,7 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Integrated Movement" labelX="x (a.u.)" labelY="y (a.u.)" aspectRatio="1">
+            <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
                 <input axis="y">y</input>
                 <input axis="x">x</input>
             </graph>

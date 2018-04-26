@@ -204,7 +204,7 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
         <input>dB</input>
       </value>
       <separator height="1"/>
-      <graph label="History" labelX="Time (s)" labelY="SPL (dB)">
+      <graph label="History" labelX="Time" unitX="s" labelY="SPL" unitY="dB">
         <input axis="x">time</input>
         <input axis="y">dB</input>
       </graph>

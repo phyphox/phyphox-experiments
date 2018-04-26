@@ -198,7 +198,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
         <input>f0</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency (Hz)" labelY="FFT Mag (a.u.)">
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="Hz" labelY="FFT Mag" unitY="a.u.">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -248,15 +248,15 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       </button>
     </view>
     <view label="Raw data">
-      <graph label="Magnetic field x" labelX="t (s)" labelY="B (µT)">
+      <graph label="Magnetic field x" labelX="t" unitX="s" labelY="B" unitY="µT">
         <input axis="x">time_subrange</input>
         <input axis="y">magX_subrange</input>
       </graph>
-      <graph label="Magnetic field y" labelX="t (s)" labelY="B (µT)">
+      <graph label="Magnetic field y" labelX="t" unitX="s" labelY="B" unitY="µT">
         <input axis="x">time_subrange</input>
         <input axis="y">magY_subrange</input>
       </graph>
-      <graph label="Magnetic field z" labelX="t (s)" labelY="B (µT)">
+      <graph label="Magnetic field z" labelX="t" unitX="s" labelY="B" unitY="µT">
         <input axis="x">time_subrange</input>
         <input axis="y">magZ_subrange</input>
       </graph>

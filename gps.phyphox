@@ -231,27 +231,27 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
         <map min="0">GPS active</map>
       </value>
       <separator height="1"/>
-      <graph label="Latitude" labelX="t (s)" labelY="φ (°)" partialUpdate="true">
+      <graph label="Latitude" labelX="t" unitX="s" labelY="φ" unitY="°" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">lat</input>
       </graph>
-      <graph label="Longitude" labelX="t (s)" labelY="λ (°)" partialUpdate="true">
+      <graph label="Longitude" labelX="t" unitX="s" labelY="λ" unitY="°" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">lon</input>
       </graph>
-      <graph label="Height" labelX="t (s)" labelY="z (m)" partialUpdate="true">
+      <graph label="Height" labelX="t" unitX="s" labelY="z" unitY="m" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">z</input>
       </graph>
-      <graph label="Speed" labelX="t (s)" labelY="v (m/s)" partialUpdate="true">
+      <graph label="Speed" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">v</input>
       </graph>
-      <graph label="Direction" labelX="t (s)" labelY="Direction (°)" partialUpdate="true" style="dots">
+      <graph label="Direction" labelX="t" unitX="s" labelY="Direction" unitY="°" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">dir</input>
       </graph>
-      <graph label="Distance" labelX="t (s)" labelY="d (km)" partialUpdate="true">
+      <graph label="Distance" labelX="t" unitX="s" labelY="d" unitY="km" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">dist</input>
       </graph>

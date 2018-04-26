@@ -102,7 +102,7 @@
       <edit label="Frequency" unit="Hz" default="440" signed="false" min="0" max="24000">
         <output>f</output>
       </edit>
-      <graph label="Signal" labelX="Time (s)" labelY="A (a.u.)">
+      <graph label="Signal" labelX="Time" unitX="s" labelY="A" unitY="a.u.">
         <input axis="x">t</input>
         <input axis="y">signal</input>
       </graph>

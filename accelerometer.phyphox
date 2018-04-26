@@ -85,21 +85,21 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Accelerometer x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+      <graph label="Accelerometer x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
         <input axis="x">acc_time</input>
         <input axis="y">accX</input>
       </graph>
-      <graph label="Accelerometer y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+      <graph label="Accelerometer y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ffff00">
         <input axis="x">acc_time</input>
         <input axis="y">accY</input>
       </graph>
-      <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ff6060">
         <input axis="x">acc_time</input>
         <input axis="y">accZ</input>
       </graph>
     </view>
     <view label="Absolute">
-      <graph label="Absolute acceleration" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+      <graph label="Absolute acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
         <input axis="x">acc_time</input>
         <input axis="y">acc</input>
       </graph>

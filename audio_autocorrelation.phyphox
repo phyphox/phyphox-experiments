@@ -248,13 +248,13 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
         <input>centsDiff</input>
       </value>
       <separator height="1"/>
-      <graph label="Autocorrelation" labelX="Δt (ms)" labelY="correlation (a.u.)">
+      <graph label="Autocorrelation" labelX="Δt" unitX="ms" labelY="correlation" unitY="a.u.">
         <input axis="x">autoco_t</input>
         <input axis="y">autocorrelation</input>
       </graph>
     </view>
     <view label="Raw data">
-      <graph label="Recording" labelX="t (ms)" labelY="Amplitude (a.u.)">
+      <graph label="Recording" labelX="t" unitX="ms" labelY="Amplitude" unitY="a.u.">
         <input axis="x">time</input>
         <input axis="y">recording</input>
       </graph>

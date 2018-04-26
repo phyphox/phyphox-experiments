@@ -346,7 +346,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       </value>
     </view>
     <view label="Resonance">
-      <graph label="Resonance" labelX="Frequency (Hz)" labelY="Rel. amplitude (a.u.)" style="dots">
+      <graph label="Resonance" labelX="Frequency" unitX="Hz" labelY="Rel. amplitude" unitY="a.u." style="dots">
         <input axis="x">frequencyhist</input>
         <input axis="y">relamplitude</input>
       </graph>
@@ -354,7 +354,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
     </view>
     <view label="Autocorrelation">
-      <graph label="Autocorrelation" labelX="Δt (s)" labelY="correlation (a.u.)">
+      <graph label="Autocorrelation" labelX="Δt" unitX="s" labelY="correlation" unitY="a.u.">
         <input axis="x">autocorrelation_t</input>
         <input axis="y">autocorrelation</input>
       </graph>
@@ -366,15 +366,15 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       </value>
     </view>
     <view label="Raw Data">
-      <graph label="Accelerometer x" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true">
+      <graph label="Accelerometer x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
         <input axis="x">acc_time</input>
         <input axis="y">accX</input>
       </graph>
-      <graph label="Accelerometer y" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ffff00">
+      <graph label="Accelerometer y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ffff00">
         <input axis="x">acc_time</input>
         <input axis="y">accY</input>
       </graph>
-      <graph label="Accelerometer z" labelX="t (s)" labelY="a (m/s²)" partialUpdate="true" color="ff6060">
+      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ff6060">
         <input axis="x">acc_time</input>
         <input axis="y">accZ</input>
       </graph>

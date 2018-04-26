@@ -177,11 +177,11 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       </value>
     </view>
     <view label="Results">
-      <graph label="Frequency" labelX="t (s)" labelY="Frequency (Hz)" partialUpdate="true">
+      <graph label="Frequency" labelX="t" unitX="s" labelY="Frequency" unitY="Hz" partialUpdate="true">
         <input axis="x">time_hist</input>
         <input axis="y">frequency_hist</input>
       </graph>
-      <graph label="Speed" labelX="t (s)" labelY="Speed (m/s)" partialUpdate="true" color="ffff00">
+      <graph label="Speed" labelX="t" unitX="s" labelY="Speed" unitY="m/s" partialUpdate="true" color="ffff00">
         <input axis="x">time_hist</input>
         <input axis="y">speed_hist</input>
       </graph>
