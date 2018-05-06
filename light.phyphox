@@ -68,6 +68,18 @@
       <string original="Simple">Значение</string>
       <string original="lx">лк</string>
     </translation>
+    <translation locale="it">
+      <title>Luce</title>
+      <category>Sensori</category>
+      <description>Ottiene i dati grezzi dal sensore di luminosità.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Illuminance">Luminanza</string>
+      <string original="Ev (lx)">Evento (livello)</string>
+      <string original="Info">
+                Nota: su alcuni dispositivi il sensore di luminosità si aggiorna soltanto quando si verifica una considerevole variazione di illuminazione.
+            </string>
+      <string original="Simple">Semplice</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

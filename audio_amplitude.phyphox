@@ -169,6 +169,38 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Нам нужна простая процедура, позволяющая студентам получать сравнимые данные на разных устройствах. При надлежащем оборудовании вы также можете откалибровать частотную зависимость вашего микрофона и, возможно, даже компенсировать нелинейные ответы. Если у вас есть такое оборудование и вы хотите попробовать его, сообщите нам, у нас уже есть phyphox-эксперименты, которые позволяют использовать более совершенные методы калибровки.</string>
       <string original="dB">дБ</string>
     </translation>
+    <translation locale="it">
+      <title>Ampiezza audio</title>
+      <category>Acustica</category>
+      <description>
+        Misura l’ampiezza di un segnale audio.
+
+        Questo esperimento si limita a registrare per brevi intervalli di tempo un segnale audio attraverso il microfono e calcola il valor medio della pressione sonora (SPL: Sound Pressure Level). Questa misura è piuttosto delicata e il sistema fornirà soltanto una stima poco precisa di questo valore. Inoltre, dovrai individuare un riferimento per calibrare la misurazione.
+    </description>
+      <string original="Amplitude">Ampiezza</string>
+      <string original="Status">Stato</string>
+      <string original="NOT calibrated">NON calibrato</string>
+      <string original="calibrated">calibrato</string>
+      <string original="Sound pressure level">Livello di pressione sonora</string>
+      <string original="History">Storia</string>
+      <string original="Time (s)">Tempo (s)</string>
+      <string original="Clear history">Cancella storia</string>
+      <string original="Please see the calibration tab to get proper results.">Consulta la scheda di calibrazione per interpretare correttamente i risultati.</string>
+      <string original="Calibration">Calibrazione</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Questo esperimento utilizza un approccio abbastanza semplice per determinare il livello di pressione sonora (SPL). Ti servirà un suono di riferimento con ampiezza nota in dB. Per esempio si può impostare una sorgente di rumore costante e misurare il suo livello di pressione sonora con un dispositivo esterno. Devi impostare il livello misurato come SPL di riferimento e premere "calibra" mentre è in atto l'esperimento.</string>
+      <string original="Reference SPL">SPL di riferimento</string>
+      <string original="Calibrate">Calibra</string>
+      <string original="Calibration offset">Offset di calibrazione</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Se hai già eseguito la calibrazione con questo dispositivo o con un dispositivo identico, puoi semplicemente inserire il valore dell'offset di calibrazione ottenuto dalla precedente calibrazione e selezionare "Imposta offset".</string>
+      <string original="Custom offset">Personalizza offset</string>
+      <string original="Set offset">Imposta l'offset</string>
+      <string original="How accurate are these results?">Quanto sono accurati i risultati?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Per l'insegnamento e per sperimentare? Probabilmente sono abbastanza buoni. Per studi importanti? Probabilmente no; altre app potrebbero funzionare meglio (vedi sotto). Per applicazioni scientifiche o sanitarie? Certamente no, per questo genere di cose meglio usare un dispositivo dedicato.</string>
+      <string original="Why isn't this already calibrated?">Perché non è già calibrato?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox è disponibile per più di 10000 dispositivi. Molti di questi hanno microfoni diversi, elettroniche diverse e software diversi - che influenzano la risposta al suono. Noi non possiamo calibrarli tutti, ma in alcuni casi ci sono app mirate esclusivamente a un numero limitato di dispositivi (come app specifiche per iPhone) che possono calibrarne alcuni. Se vuoi risultati migliori senza calibrazione devi controllare le applicazioni specifiche per il tuo dispositivo.</string>
+      <string original="Why can't we get a better calibration?">Perché non possiamo avere una migliore calibrazione?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Vogliamo una procedura semplice per permettere agli studenti di ottenere dati comparabili attraverso vari dispositivi. Con adeguati mezzi puoi calibrare la dipendenza di frequenza del microfono e forse anche compensare le risposte non lineari. Se possiedi qualche sistema per calibrare phyphox facci sapere - abbiamo già diversi esperimenti phyphox che permettono tecniche di calibrazione avanzate.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

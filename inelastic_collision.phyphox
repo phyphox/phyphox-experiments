@@ -222,6 +222,47 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="s">с</string>
       <string original="a.u.">пр. е.</string>
     </translation>
+    <translation locale="it">
+      <title>Collisione (an)elastica</title>
+      <category>Meccanica</category>
+      <description>
+        Misura l'energia persa negli urti (an)elastici di una pallina che rimbalza.
+
+In linea di principio, questo esperimento funziona come il cronometro acustico. In questo caso l'esperimento assume che il suono provenga da una pallina magica (o qualcosa di simile) che rimbalza su una superficie e calcola l'altezza raggiunta dopo il rimbalzo e l'energia cinetica rimanente rispetto al primo rimbalzo attraverso l'analisi del tempo necessario a misurare due rimbalzi consecutivi.
+
+Assumendo che la pallina perda sempre la stessa percentuale di energia a ogni urto, l'esperimento riesce a determinare anche l'altezza iniziale dalla quale la pallina è stata lasciata cadere.
+
+Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una superficie in modo tale che produca un suono chiaramente udibile. Puoi modificare la soglia di udibilità del suono nella configurazione su una scala compresa tra 0 e 1, in maniera che phyphox reagisca al suono del rimbalzo, ma non ad altri suoni ambientali. Se hai problemi con echi puoi cambiare il ritardo minimo tra due rivelazioni successive e il minimo intervallo di tempo entro il quale il sistema deve ignorare un suono.
+    </description>
+      <string original="Heights">Altezza</string>
+      <string original="Height 0">Altezza 0</string>
+      <string original="Height 1">Altezza 1</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Height 2">Altezza 2</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Height 3">Altezza 3</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Height 4">Altezza 4</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Height 5">Altezza 5</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Reset">Ricomincia</string>
+      <string original="Energy">Energia</string>
+      <string original="Energy 1">Energia 1</string>
+      <string original="Energy 2">Energia 2</string>
+      <string original="Retained on collision 2">Rimasta al 2° rimbalzo</string>
+      <string original="Energy 3">Energia 3</string>
+      <string original="Retained on collision 3">Rimasta al 3° rimbalzo</string>
+      <string original="Energy 4">Energia 4</string>
+      <string original="Retained on collision 4">Rimasta al 4° rimbalzo</string>
+      <string original="Energy 5">Energia 5</string>
+      <string original="Retained on collision 5">Rimasta al 5° rimbalzo</string>
+      <string original="Average retained">Energia media rimasta</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Threshold">Soglia</string>
+      <string original="Minimum Delay">Ritardo minimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Purtroppo questo esperimento non funziona su telefoni troppo lenti. Per assicurarti che l'esperimento stia funzionando correttamente, confronta l'esperimento del cronometro acustico con un qualsiasi cronometro. Se si comporta correttamente l'esperimento funziona.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

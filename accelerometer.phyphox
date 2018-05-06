@@ -66,6 +66,18 @@
       <string original="Simple">Значение</string>
       <string original="m/s²">м/с²</string>
     </translation>
+    <translation locale="it">
+      <title>Accelerazione (g inclusa)</title>
+      <category>Sensori</category>
+      <description>Legge i dati grezzi dell'accelerometro. Di default le componenti dell'accelerazione di gravità sono incluse nei valori forniti da questi sensori. Quindi, anche quando il telefono è fermo, si osserva un'accelerazione di 9.81 m/s².</description>
+      <string original="Graph">Grafico</string>
+      <string original="Accelerometer x">Accelerometro x</string>
+      <string original="Accelerometer y">Accelerometro y</string>
+      <string original="Accelerometer z">Accelerometro z</string>
+      <string original="Absolute">Assoluta</string>
+      <string original="Absolute acceleration">Accelerazione assoluta</string>
+      <string original="Simple">Semplice</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

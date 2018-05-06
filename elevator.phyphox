@@ -111,6 +111,25 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="p (hPa)">p (гПа)</string>
       <string original="Accelerometer z">Акселерометр z</string>
     </translation>
+    <translation locale="it">
+      <title>Ascensore</title>
+      <category>Vita quotidiana</category>
+      <description>
+        Misura la velocità di un ascensore usando il barometro.
+
+        Variazioni di altezza in tempi brevi si possono misurare usando il barometro - anche in assenza di GPS. Si può usare questo sistema per rilevare la velocità verticale di un ascensore. L'accelerazione è inoltre misurata usando la componente z dell'accelerometro, quindi per un'accurata misurazione il telefono dev'essere poggiato sul pavimento dell'ascensore.
+
+        Altri dettagli:
+        Per eliminare alcuni disturbi nell'esperimento, le letture del barometro sono intervallate di 1 s. Differenze su intervalli consecutivi sono convertite in differenze di altezza usando la formula dell'altezza barometrica. Le differenza di altezza divise gli intervalli di tempo danno la velocità verticale.
+    </description>
+      <string original="Motion">Movimento</string>
+      <string original="Height (from barometer)">Altezza (dal barometro)</string>
+      <string original="Vertical velocity (from height)">Velocità verticale (dall'altezza)</string>
+      <string original="z acceleration (from accelerometer)">accelerazione lungo z (dall'accelerometro)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Pressure">Pressione</string>
+      <string original="Accelerometer z">Accelerometro z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -80,6 +80,20 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Period">Период</string>
       <string original="Period (s)">Период (с)</string>
     </translation>
+    <translation locale="it">
+      <title>Misurazioni della frequenza</title>
+      <category>Acustica</category>
+      <description>
+        Misura il cambiamento della frequenza in funzione del tempo per un suono armonico.
+
+	Questo esperimento registra l'audio del microfono e lo analizza per determinarne la frequenza per brevi periodi di tempo. Funziona solamente se il suono è armonico con frequenza fissata in quanto ne considera l'autocorrelazione. Il risultato verrà rappresentato in un grafico della frequenza in funzione del tempo.
+    </description>
+      <string original="History">Storia</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Period">Periodo</string>
+      <string original="Period (s)">Periodo (s)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

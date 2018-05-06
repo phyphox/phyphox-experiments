@@ -142,6 +142,30 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="s">с</string>
       <string original="Hz">Гц</string>
     </translation>
+    <translation locale="it">
+      <title>Molla</title>
+      <category>Meccanica</category>
+      <description>
+        Analizza la frequenza e il periodo di oscillazione di una molla.
+
+	Questo esperimento utilizza l'accelerometro per misurare il movimento oscillatorio e calcolare il periodo dell'oscillazione T. Inoltre, l'ampiezza in funzione della frequenza misurata verrà rappresentata sulla scheda "risonanza". In questo modo potrai costruire un oscillatore forzato e cambiarne la frequenza per misurare una curva di risonanza.
+
+	Ulteriori dettagli:
+	Il periodo dell'oscillazione è ottenuto attraverso l'autocorrelazione della somma di tutte le tre componenti misurate dall'accelerometro. L'autocorrelazione viene analizzata per ottenere il primo massimo per una prima stima e poi l'ultimo massimo viene utilizzato per ottenere un risultato più preciso.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Resonance">Risonanza</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Ampiezza relativa (a.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="correlation (a.u.)">correlazione (a.u.)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Accelerometer x">Accelerometro x</string>
+      <string original="Accelerometer y">Accelerometro y</string>
+      <string original="Accelerometer z">Accelerometro z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

@@ -84,6 +84,21 @@
       <string original="Acceleration z">Ускорение z</string>
       <string original="m/s²">м/с²</string>
     </translation>
+    <translation locale="it">
+      <title>Accelerazione (senza g)</title>
+      <category>Dati grezzi</category>
+      <description>Ottiene dati grezzi dall'accelerometro lineare, che fornisce l'accelerazione istantanea senza l'accelerazione gravitazionale. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Linear Acceleration x">Accelerazione lineare x</string>
+      <string original="Linear Acceleration y">Accelerazione lineare y</string>
+      <string original="Linear Acceleration z">Accelerazione lineare z</string>
+      <string original="Absolute">Assoluta</string>
+      <string original="Absolute acceleration">Accelerazione assoluta</string>
+      <string original="Simple">Semplice</string>
+      <string original="Acceleration x">Accelerazione x</string>
+      <string original="Acceleration y">Accelerazione y</string>
+      <string original="Acceleration z">Accelerazione z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

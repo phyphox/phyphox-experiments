@@ -117,6 +117,26 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="ms">мс</string>
       <string original="m/s">м/с</string>
     </translation>
+    <translation locale="it">
+      <title>Effetto Doppler</title>
+      <category>Acustica</category>
+      <description>
+        Rivela piccoli spostamenti di frequenza dovuti all'effetto Doppler.
+
+Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Inserisci tale frequenza nel setup dell'esperimento e seleziona un intervallo nel quale ti aspetti che si trovi la frequenza Doppler (per esempio 10Hz). L'esperimento determinerà la frequenza registrata e calcolerà la velocità della sorgente relativa allo smartphone.
+    </description>
+      <string original="Setup">Configurazione</string>
+      <string original="Base frequency">Frequenza da fermo</string>
+      <string original="Frequency range">Intervallo di frequenze</string>
+      <string original="Time step">Intervallo temporale</string>
+      <string original="Speed of sound">Velocità del suono</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">L'intervallo temporale Δt determina la frequenza e la quantità di dati usata per calcolare ciascun punto. L'algoritmo cerca una frequenza attorno a quella di base da -F a +F dove F è il valore inserito quale intervallo di frequenze. Configurazioni troppo spinte per questo valore posso risultare in un valore poco accurato o rendere addirittura impossibile il calcolo. Suggeriamo di usare un intervallo di frequenze sensibilmente inferiore a 1/Δt.</string>
+      <string original="nth period">periodo n-esimo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Speed">Velocità</string>
+      <string original="Speed (m/s)">Velocità (m/s)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

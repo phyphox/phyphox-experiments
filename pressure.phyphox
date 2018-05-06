@@ -47,6 +47,14 @@
       <string original="Simple">Значение</string>
       <string original="hPa">гПа</string>
     </translation>
+    <translation locale="it">
+      <title>Pressione</title>
+      <category>Sensori</category>
+      <description>Riceve dati dal barometro.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Pressure">Pressione</string>
+      <string original="Simple">Semplice</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

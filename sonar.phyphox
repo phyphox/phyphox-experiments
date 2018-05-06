@@ -146,6 +146,31 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="m/s">м/с</string>
       <string original="m">м</string>
     </translation>
+    <translation locale="it">
+      <title>Sonar</title>
+      <category>Acustica</category>
+      <description>
+        Misura le distanze attraverso l'eco e la velocità del suono.
+
+        Un sonar emette brevi suoni, che vengono riflessi dall'oggetto che vuoi misurare. Essendo la velocità del suono pari a circa 340 m/s, il tempo con cui il suono riflesso raggiunge il microfono del tuo telefono serve a calcolare la distanza dell'oggetto.
+
+        Questo esperimento genera un suono, lo emette attraverso l'altoparlante e poi inizia la registrazione. Una correlazione fra il suono emesso e i dati rilevati fornisce informazioni sul tempo con cui si verifica l'eco. Il tempo impiegato viene moltiplicato per la velocità del suono (e dimezzato poichè il suono compie la distanza due volte). In questo modo si ottiene la distanza da cui è partita l'eco.
+
+        Tieni conto che il suono si diffonde praticamente in ogni direzione. Per un sonar ciò significa che il suono può essere riflesso dall'ostacolo, ma anche dal muro di fronte, dal pavimento, dal soffitto, da un palo o da qualunque altra superficie. Questo sonar può reagire a tutte le riflessioni e sta a te interpretare il risultato e capire se la misurazione coincide con la distanza che ti aspettavi. Il suono è riflesso più efficientemente dai materiali duri. Inizia quindi con un piccolo bersaglio molto rigido e cerca di schermare tutte le altre direzioni con del materiale spugnoso. Inoltre devi trovarti in un ambiente tranquillo.
+    </description>
+      <string original="Echo location">Posizione dell'eco</string>
+      <string original="Speed of Sound">Velocità del suono</string>
+      <string original="distance (cm)">distanza (cm)</string>
+      <string original="Normalized to spherical surface">Scalata sull'intero angolo solido</string>
+      <string original="Target distance">Distanza dall'ostacolo</string>
+      <string original="Echo strength">Intensità eco</string>
+      <string original="Speed of Sound (m/s)">Velocità del suono (m/s)</string>
+      <string original="Timing">tempo</string>
+      <string original="On this page you just get the measured delay.">Su questa pagina puoi vedere il ritardo misurato.</string>
+      <string original="Delay (s)">Ritardo (s)</string>
+      <string original="Chirp">Suono</string>
+      <string original="Time (s)">Tempo (s)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

@@ -83,6 +83,21 @@
       <string original="OK">ОК</string>
       <string original="Hz">Гц</string>
     </translation>
+    <translation locale="it">
+      <title>Generatore di suoni</title>
+      <category>Acustica</category>
+      <description>
+        Genera un suono di una frequenza specifica.
+    </description>
+      <string original="Tone generator">Generatore di suoni</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Signal">Segnale</string>
+      <string original="Time (s)">Tempo (s)</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox permette di selezionare frequenze arbitrarie, ma considera che sotto i 100Hz o sopra gli 8000 Hz i risultati possono non essere ottimali a causa delle limitazioni dell'hardware.</string>
+      <string original="Status">Stato</string>
+      <string original="Frequency low">Bassa frequenza</string>
+      <string original="Frequency high">Alta frequenza</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

@@ -170,6 +170,31 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="m/s²">м/с²</string>
       <string original="s">с</string>
     </translation>
+    <translation locale="it">
+      <title>Cronometro da movimento</title>
+      <category>Timer</category>
+      <description>
+        Misura il tempo tra due accelerazioni.
+
+Questo esperimento consente di misurare il tempo trascorso tra due accelerazioni (come per esempio piccoli urti). Potresti dover adattare la soglia, a seconda del trigger del cronometro.
+
+Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima accelerazione (totale) che supera la soglia impostata e si fermerà dopo la seconda accelerazione. Per ripetere l'esperimento cancella i dati e ricomincia.
+    </description>
+      <string original="Simple">Semplice</string>
+      <string original="Threshold">Soglia</string>
+      <string original="Minimum Delay">Ritardo minimo</string>
+      <string original="Time">Tempo</string>
+      <string original="Reset">Ricomincia</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Cambia la soglia in modo che sia al di sopra del livello del rumore, ma al di sotto del trigger dell'accelerazione (puoi provare l'esperimento con l'accelerometro senza g per testare queste impostazioni). Inoltre imposta il ritardo minimo in modo da non registrare eventi al di sotto di quell'intervallo di tempo.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La precisione di questo esperimento dipende dall'accelerometro nel tuo telefono. Accelerometri veloci possono avere una risoluzione inferiore al centesimo di secondo, mentre accelerometri lenti potrebbero avere una risoluzione non migliore di un secondo.</string>
+      <string original="Sequence">Sequenza</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Parallel">Parallelo</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

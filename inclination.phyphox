@@ -82,6 +82,20 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="Angle (°)">Угол (°)</string>
       <string original="Rotation">Вращение</string>
     </translation>
+    <translation locale="it">
+      <title>Inclinazione</title>
+      <category>Strumenti</category>
+      <description>
+        Misura l'angolo d'inclinazione del telefono.
+
+        Questo strumento usa l'accelerometro per determinare l'inclinazione del telefono. Quando un telefono poggia su un tavolo, l'inclinazione è zero. Per inclinazioni diverse da zero, la direzione dell'inclinazione viene indicata come rotazione.
+
+        La definizione degli angoli è stata scelta con lo scopo di misurare un'inclinazione (specialmente per esperimenti su piani inclinati) indipendente dalla rotazione (sull'asse z) del tuo telefono.
+    </description>
+      <string original="Inclination">Inclinazione</string>
+      <string original="Angle (°)">Angolo (°)</string>
+      <string original="Rotation">Rotazione</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

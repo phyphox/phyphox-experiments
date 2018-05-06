@@ -64,6 +64,17 @@
       <string original="Simple">Значение</string>
       <string original="rad/s">рад/с</string>
     </translation>
+    <translation locale="it">
+      <title>Giroscopio</title>
+      <category>Sensori</category>
+      <description>Misura le velocità angolari del giroscopio.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Gyroscope x">Giroscopio x</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+      <string original="Gyroscope z">Giroscopio z</string>
+      <string original="Absolute">Assoluta</string>
+      <string original="Simple">Semplice</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

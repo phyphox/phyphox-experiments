@@ -77,6 +77,20 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Duration">Продолжительность</string>
       <string original="ms">мс</string>
     </translation>
+    <translation locale="it">
+      <title>Audioscopio</title>
+      <category>Suono</category>
+      <description>
+        Mostra i dati audio salvati.
+
+        Questo esperimento registra solo brevi dati audio e li mostra. Per ottenere un'immagine stabile, il sistema inizia a registrare quando i dati passano per zero e il punto a t=0 è definito come quello in cui i dati passano nuovamente da valori negativi a positivi.
+    </description>
+      <string original="Scope">Audioscopio</string>
+      <string original="Audio Data">Dati Audio</string>
+      <string original="Time (ms)">Tempo (ms)</string>
+      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+      <string original="Duration">Durata</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

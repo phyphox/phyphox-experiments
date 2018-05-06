@@ -115,6 +115,24 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
       <string original="mm">мм</string>
     </translation>
+    <translation locale="it">
+      <title>Righello magnetico</title>
+      <category>Strumenti</category>
+      <description>
+        Utilizza una serie di magneti per misurare la distanza, la velocità e l'accelerazione del tuo telefono.
+
+        Per questo esperimento devi posizionare una serie di magneti tutti uguali lungo il tragitto del telefono. La distanza tra un magnete e l'altro deve essere la stessa per tutti e deve essere inserita prima dell'esperimento. Il telefono userà quindi il suo magnetometro per determinare il passaggio vicino ad ogni magnete, in modo da calcolare la distanza totale percorsa.
+    </description>
+      <string original="dx is the distance between two magnets">dx è la distanza fra due magneti</string>
+      <string original="Distance">Distanza</string>
+      <string original="Velocity">Velocità</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Magnetic field x">Campo magnetico x</string>
+      <string original="Magnetic field y">Campo magnetico y</string>
+      <string original="Magnetic field z">Campo magnetico z</string>
+      <string original="Total magnetic field squared and filtered">Modulo quadro del campo magnetico filtrato</string>
+      <string original="Filtered B² (µT²)">B² (µT²) filtrato</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

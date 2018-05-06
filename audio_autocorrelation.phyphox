@@ -137,6 +137,88 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="ms">мс</string>
       <string original="Hz">Гц</string>
     </translation>
+    <translation locale="it">
+      <title>Autocorrelazione audio</title>
+      <category>Acustica</category>
+      <description>
+        Misura la frequenza di un singolo tono
+
+Questo esperimento registra un segnale audio attraverso il microfono e ne analizza la frequenza. Funziona solo se vi è un singolo tono con una frequenza fissa - per analizzare un segnale con più frequenze (es. un accordo), usare l’esperimento “Spettro”.
+
+L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio. Il sistema considera tutti i picchi di altezza maggiore di metà del massimo segnale nello spettro di autocorrelazione. La posizione dell'ultimo di questo picchi fornisce un multiplo del periodo del segnale. Contando il numero di picchi si ottiene il periodo della frequenza di base.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Musical note">Nota musicale</string>
+      <string original="Low">Bassa</string>
+      <string original="A2">La 2</string>
+      <string original="A#2 / Bb2">La #/Si b 2</string>
+      <string original="B2">Si 2</string>
+      <string original="C3">Do 3</string>
+      <string original="C#3 / Db3">Do # / Re b3</string>
+      <string original="D3">Re 3</string>
+      <string original="D#3 / Eb3">Re # / Mi b 3</string>
+      <string original="E3">Mi 3</string>
+      <string original="F3">Fa 3</string>
+      <string original="F#3 / Gb3">Fa # / Sol b 3</string>
+      <string original="G3">Sol 3</string>
+      <string original="G#3 / Ab3">Sol # / La b 3</string>
+      <string original="A3">La 3</string>
+      <string original="A#3 / Bb3">La # / Si b 3</string>
+      <string original="B3">Si 3</string>
+      <string original="C4">Do 4</string>
+      <string original="C#4 / Db4">Do # / Re b 4</string>
+      <string original="D4">Re 4</string>
+      <string original="D#4 / Eb4">Re # / Mi b 4</string>
+      <string original="E4">Mi 4</string>
+      <string original="F4">Fa 4</string>
+      <string original="F#4 / Gb4">Fa # / Sol b 4</string>
+      <string original="G4">Sol 4</string>
+      <string original="G#4 / Ab4">Sol # / La b 4</string>
+      <string original="A4">La 4</string>
+      <string original="A#4 / Bb4">La # / Si b 4</string>
+      <string original="B4">Si 4</string>
+      <string original="C5">Do 5</string>
+      <string original="C#5 / Db5">Do # / Re b 5</string>
+      <string original="D5">Re 5</string>
+      <string original="D#5 / Eb5">Re # / Mi b 5</string>
+      <string original="E5">Mi 5</string>
+      <string original="F5">Fa 5</string>
+      <string original="F#5 / Gb5">Fa # / Sol b 5</string>
+      <string original="G5">Sol 5</string>
+      <string original="G#5 / Ab5">Sol # / La b 5</string>
+      <string original="A5">La 5</string>
+      <string original="A#5 / Bb5">La # / Si b 5</string>
+      <string original="B5">Si 5</string>
+      <string original="C6">Do 6</string>
+      <string original="C#6 / Db6">Do # / Re b 6</string>
+      <string original="D6">Re 6</string>
+      <string original="D#6 / Eb6">Re # / Mi b 6</string>
+      <string original="E6">Mi 6</string>
+      <string original="F6">Fa 6</string>
+      <string original="F#6 / Gb6">Fa # / Sol b 6</string>
+      <string original="G6">Sol 6</string>
+      <string original="G#6 / Ab6">Sol # / La b 6</string>
+      <string original="A6">La 6</string>
+      <string original="A#6 / Bb6">La # / Si b 6</string>
+      <string original="B6">Si 6</string>
+      <string original="C7">Do 7</string>
+      <string original="C#7 / Db7">Do # / Re b 7</string>
+      <string original="D7">Re 7</string>
+      <string original="D#7 / Eb7">Re # / Mi b 7</string>
+      <string original="E7">Mi 7</string>
+      <string original="F7">Fa 7</string>
+      <string original="F#7 / Gb7">Fa # / Sol b 7</string>
+      <string original="G7">Sol 7</string>
+      <string original="G#7 / Ab7">Sol # / La b 7</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Centesimi di nota</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="correlation (a.u.)">correlazione (a.u.)</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Recording">Registrazione</string>
+      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

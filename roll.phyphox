@@ -81,6 +81,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="ω (rad/s)">ω (рад/с)</string>
       <string original="cm">см</string>
     </translation>
+    <translation locale="it">
+      <title>Cilindro</title>
+      <category>Meccanica</category>
+      <description>
+        Metti il tuo telefono in un cilindro e determinane la velocità.
+
+	Metti il tuo telefono all'interno di un supporto cilindrico (per esempio in un tubo portaposter) in modo che il lato lungo sia orientato lungo l'asse del cilindro. Questo esperimento misura la velocità angolare usando il giroscopio e il raggio del cilindro per calcolare la velocità alla quale si muove quest'ultimo.
+    </description>
+      <string original="Velocity">Velocità</string>
+      <string original="Roll radius">Raggio del cilindro</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

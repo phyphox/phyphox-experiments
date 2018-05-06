@@ -136,6 +136,30 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Hz">Гц</string>
       <string original="s">с</string>
     </translation>
+    <translation locale="it">
+      <title>Spettro di accelerazione</title>
+      <category>Strumenti</category>
+      <description>
+            Grafico dello spettro in funzione dei dati dell'accelerometro.
+
+            Questo esperimento riceve i dati dall'accelerometro e ricava lo spettro di frequenza attraverso la trasformata di Fourier (FFT). La massima frequenza rilevabile dipende dalla massima acquisizione di frequenza del tuo sensore.
+    </description>
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Acquisition rate">Frequenza di acquisizione</string>
+      <string original="Nyquist frequency">Frequenza di Nyquist</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di rilevazioni per la trasformazione di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, ma con una risoluzione più alta dello spettrometro.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Acceleration x">Accelerazione x</string>
+      <string original="Acceleration y">Accelerazione y</string>
+      <string original="Acceleration z">Accelerazione z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accInX</container>

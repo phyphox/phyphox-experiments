@@ -186,6 +186,37 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="cm">см</string>
       <string original="m/s²">м/с²</string>
     </translation>
+    <translation locale="it">
+      <title>Pendolo</title>
+      <category>Meccanica</category>
+      <description>
+        Determina l'accelerazione di gravità (g=9.81m/s²) usando il tuo telefono come un pendolo.
+
+        Questo esperimento usa il giroscopio per misurare il movimento del pendolo e calcola il periodo di oscillazione T. Devi selezionare la lunghezza L della corda usata per il pendolo, così phyphox potrà calcolare g = 4π²/T² L.
+
+        In alternativa, invece di misurare g, puoi andare sulla sezione "lunghezza" e considerare g = 9.81 m/s² per determinare la lunghezza della corda dal movimento del pendolo. (E' la distanza dal punto di rotazione al centro di massa.)
+
+        Inoltre, nella sezione "risonanza", traccia l'ampiezza in funzione della frequenza rilevata. In questo modo puoi costruire un oscillatore forzato e modificarne la frequenza per misurare una curva di risonanza.
+
+        Ulteriori dettagli:
+        Il periodo di oscillazione è ottenuto attraverso il modulo quadro della somma delle tre componenti del giroscopio. La prima parte delle misure si usa per fare una prima stima; l'ultima parte per ottenere un risultato più preciso.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Length">Lunghezza</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Qui puoi selezionare la lunghezza del tuo pendolo (dal punto di rotazione al centro di massa) e determinare l'accelerazione g della Terra.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Qui puoi determinare la lunghezza del tuo pendolo (dal punto di rotazione al centro di massa) considerando che g = 9.81 m/s².</string>
+      <string original="Resonance">Risonanza</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Ampiezza relativa (a.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="correlation (a.u.)">correlazione (a.u.)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Gyroscope x">Giroscopio x</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+      <string original="Gyroscope z">Giroscopio z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>
