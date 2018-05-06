@@ -138,7 +138,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
     </translation>
     <translation locale="it">
       <title>Spettro magnetico</title>
-      <category>Esperimenti</category>
+      <category>Strumenti</category>
       <description>
             Visualizza lo spettro di frequenza dei dati dal magnetometro.
 

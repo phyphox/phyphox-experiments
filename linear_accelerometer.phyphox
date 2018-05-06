@@ -86,7 +86,7 @@
     </translation>
     <translation locale="it">
       <title>Accelerazione (senza g)</title>
-      <category>Dati grezzi</category>
+      <category>Sensori</category>
       <description>Ottiene dati grezzi dall'accelerometro lineare, che fornisce l'accelerazione istantanea senza l'accelerazione gravitazionale. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
       <string original="Graph">Grafico</string>
       <string original="Linear Acceleration x">Accelerazione lineare x</string>

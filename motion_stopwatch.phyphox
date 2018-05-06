@@ -172,7 +172,7 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
     </translation>
     <translation locale="it">
       <title>Cronometro da movimento</title>
-      <category>Timer</category>
+      <category>Misura di tempo</category>
       <description>
         Misura il tempo tra due accelerazioni.
 
