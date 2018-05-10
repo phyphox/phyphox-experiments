@@ -154,7 +154,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container>rate/2</container>
     <container size="32768">recording_subrange</container>
     <container>recording_length</container>
-    <container init="8192">samples</container>
+    <container init="2048">samples</container>
     <container>actual_samples</container>
     <container>actual_samples+1</container>
     <container>subrange_start</container>
@@ -179,6 +179,17 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container>semitonesRound</container>
     <container>semitonesDiff</container>
     <container>centsDiff</container>
+
+    <container size="1">t</container>
+    <container size="1">resolutionRatio</container>
+    <container size="256">timeline</container>
+    <container size="0">reducedf</container>
+    <container size="0">reducedfft</container>
+    <container size="256">subf</container>
+    <container size="256">subfft</container>
+    <container size="32768">tmap</container>
+    <container size="32768">fmap</container>
+    <container size="32768">fftmap</container>
   </data-containers>
   <input>
     <audio>
@@ -273,12 +284,23 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
         <input>period</input>
       </value>
     </view>
+    <view label="History">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="Hz" labelY="Time" unitY="s" labelZ="FFT Mag" unitZ="a.u." aspectRatio="1" style="map" mapWidth="256">
+        <input axis="x">fmap</input>
+        <input axis="y">tmap</input>
+        <input axis="z">fftmap</input>
+      </graph>
+    </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
       <value label="Samples" precision="0">
         <input>samples</input>
       </value>
       <separator height="0.5"/>
+      <button label="2048">
+        <input type="value">2048</input>
+        <output>samples</output>
+      </button>
       <button label="4096">
         <input type="value">4096</input>
         <output>samples</output>
@@ -303,7 +325,17 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       </graph>
     </view>
   </views>
-  <analysis sleep="0.1" dynamicSleep="period">
+  <analysis sleep="0.02" dynamicSleep="period">
+    <timer>
+        <output>t</output>
+    </timer>
+    <const>
+        <input as="value">t</input>
+        <input as="length" type="value">256</input>
+        <output>timeline</output>
+    </const>
+
+
     <divide>
       <input clear="false">rate</input>
       <input type="value">2</input>
@@ -431,6 +463,39 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <input type="value">100</input>
       <output>centsDiff</output>
     </multiply>
+
+    <divide>
+        <input clear="false">actual_samples</input>
+        <input type="value">2048</input>
+        <output>resolutionRatio</output>
+    </divide>
+    <reduce averageY="true" averageX="true">
+        <input clear="false" as="factor">resolutionRatio</input>
+        <input clear="false" as="x">halfFrequency</input>
+        <input clear="false" as="y">fft</input>
+        <output as="x" clear="true">reducedf</output>
+        <output as="y" clear="true">reducedfft</output>
+    </reduce>
+    <subrange>
+        <input as="from" type="value">0</input>
+        <input as="to" type="value">256</input>
+        <input>reducedf</input>
+        <input>reducedfft</input>
+        <output>subf</output>
+        <output>subfft</output>
+    </subrange>
+    <append>
+        <input clear="false">timeline</input>
+        <output clear="false">tmap</output>
+    </append>
+    <append>
+        <input clear="false">subf</input>
+        <output clear="false">fmap</output>
+    </append>
+    <append>
+        <input clear="false">subfft</input>
+        <output clear="false">fftmap</output>
+    </append>
   </analysis>
   <export>
     <set name="FFT Spectrum">
