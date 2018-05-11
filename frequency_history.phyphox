@@ -95,6 +95,7 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
     <container size="480">search_t</container>
     <container size="480">search_y</container>
     <container>period_single</container>
+    <container>new_period</container>
     <container>time_single</container>
     <container size="0">period</container>
     <container size="0">frequency</container>
@@ -118,7 +119,7 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       </graph>
     </view>
   </views>
-  <analysis>
+  <analysis sleep="0.01">
     <divide>
       <input type="value">480</input>
       <input clear="false">rate</input>
@@ -176,13 +177,17 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <input as="min" type="value">0.0001</input>
       <input as="max" type="value">0.0075</input>
       <input>time_single</input>
-      <output clear="false">period</output>
+      <output clear="true">new_period</output>
       <output clear="false">time_hist</output>
     </rangefilter>
+    <append>
+        <input clear="false">new_period</input>
+        <output clear="false">period</output>
+    </append>
     <divide>
       <input type="value">1</input>
-      <input clear="false">period</input>
-      <output>frequency</output>
+      <input clear="true">new_period</input>
+      <output clear="false">frequency</output>
     </divide>
   </analysis>
   <export>
