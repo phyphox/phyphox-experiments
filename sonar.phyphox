@@ -149,7 +149,7 @@ Voer dit experiment best uit in een rustige omgeving.
   </translations>
   <data-containers>
     <container size="48000">recording</container>
-    <container>rate</container>
+    <container init="48000">rate</container>
     <container size="9000">recording_range</container>
     <container>speedofsound</container>
     <container>targetdistance</container>
