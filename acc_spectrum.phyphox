@@ -153,12 +153,37 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acquisition rate">Frequenza di acquisizione</string>
       <string original="Nyquist frequency">Frequenza di Nyquist</string>
       <string original="Settings">Impostazioni</string>
-      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di rilevazioni per la trasformazione di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, ma con una risoluzione più alta dello spettrometro.</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
       <string original="Samples">Campioni di dati</string>
       <string original="Raw data">Dati grezzi</string>
       <string original="Acceleration x">Accelerazione x</string>
       <string original="Acceleration y">Accelerazione y</string>
       <string original="Acceleration z">Accelerazione z</string>
+    </translation>
+    <translation locale="el">
+      <title>Φάσμα επιτάχυνσης</title>
+      <category>Εργαλεία</category>
+      <description>
+            Παρουσίαση του φάσματος συχνότητας δεδομένων από το επιταχυνσιόμετρο.
+
+            Αυτό το πείραμα καταγράφει δεδομένα από το επιταχυνσιόμετρο και υπολογίζει το φάσμα της συχνότητάς του με μετασχηματισμός Fourier (FFT). Η μέγιστη αντιληπτή συχνότητα εξαρτάται από τον μέγιστο ρυθμό καταγραφής του αισθητήρα σας.
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT πλάτος (α.μ)</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Acquisition rate">Ρυθμός καταγραφής</string>
+      <string original="Nyquist frequency">Συχνότητα Nyquist</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Acceleration x">Επιτάχυνση x</string>
+      <string original="Acceleration y">Επιτάχυνση y</string>
+      <string original="Acceleration z">Επιτάχυνση z</string>
     </translation>
   </translations>
   <data-containers>

@@ -143,7 +143,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
         Non esporre a lungo il tuo telefono a campi magnetici.
     </description>
       <string original="Graph">Grafico</string>
-      <string original="Accuracy">Precisione</string>
+      <string original="Accuracy">Accuratezza</string>
       <string original="Uncalibrated">Non calibrato</string>
       <string original="Raw data">Dati grezzi</string>
       <string original="Low">Bassa</string>
@@ -152,10 +152,35 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer x">Magnetometro x</string>
       <string original="Magnetometer y">Magnetometro y</string>
       <string original="Magnetometer z">Magnetometro z</string>
-      <string original="Absolute">Assoluta</string>
-      <string original="Simple">Semplice</string>
+      <string original="Absolute">Modulo</string>
+      <string original="Simple">Valori</string>
       <string original="Help">Aiuto</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Il magnetometro nel tuo telefono è sempre esposto a campi interni provenienti dal tuo telefono, che possono determinare risultati sbagliati. Phyphox prova perciò a ottenere il campo magnetico calibrato dal sistema. In alcuni casi potresti non ricevere dati, se lo strumento non è ancora calibrato (per esempio appena è stato acceso il telefono). In questi casi dovresti ruotare il tuo telefono un po' di volte mentre è in corso l'esperimento. Ciò aiuta il sistema a calibrare il sensore. Inoltre, su molti dispositivi (non tutti) puoi decidere di ottenere i dati dal magnetometro non calibrati tramite il menù in alto a destra.</string>
+    </translation>
+    <translation locale="el">
+      <title>Μαγνητόμετρο</title>
+      <category>Αισθητήρες</category>
+      <description>
+        Πάρτε τις καταγραφές του μαγνητόμετρου.
+
+        Το μαγνητόμετρο είναι αρκετά ευαίσθητο καθώς έχει σχεδιαστεί να μετρά το μαγνητικό πεδίο της και να λειτουργεί σαν πυξίδα. Παρόλα αυτά, είναι συνεχώς εκτεθειμένο σε εσωτερικά πεδία από τα ηλεκτρονικά του τηλεφώνου, το οποίο οδηγεί σε εσφαλμένα αποτελέσματα. Έτσι το phyphox προσπαθεί να πάρει τιμές όταν το μαγνητόμετρο έχει βαθμονομηθεί από το σύστημα. Μερικές φορές, μπορεί να μην πάρετε καθόλου τιμές, αν δεν έχει ακόμα βαθμονομηθεί (για παράδειγμα αμέσως μετά την εκκίνηση του τηλεφώνου). Στην περίπτωση αυτή περιστρέψτε το τηλέφωνο μερικές φορές καθώς τρέχει το πείραμα. Αυτό βοηθά το σύστημα να βαθμονομήσει τον αισθητήρα. Επίσης σε αρκετές (αλλά όχι όλες) συσκευές μπορείτε να επιλέξετε μη βαθμονομημένα δεδομένα από το μαγνητόμετρο, από το πάνω δεξιά μενού. 
+
+        Μην εκθέτετε το τηλέφωνό σας σε ισχυρά μαγνητικά πεδία !
+    </description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Accuracy">Ακρίβεια</string>
+      <string original="Uncalibrated">Μη βαθμονομημένο</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Low">Χαμηλά</string>
+      <string original="Medium">Μέτρια</string>
+      <string original="High">Υψηλή</string>
+      <string original="Magnetometer x">Μαγνητόμετρο x</string>
+      <string original="Magnetometer y">Μαγνητόμετρο y</string>
+      <string original="Magnetometer z">Μαγνητόμετρο z</string>
+      <string original="Absolute">Μέτρο</string>
+      <string original="Simple">Απλή</string>
+      <string original="Help">Βοήθεια</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Το μαγνητόμετρο στο τηλέφωνό σας είναι συνεχώς εκτεθειμένο σε εσωτερικά πεδία από τα ηλεκτρονικά του τηλεφώνου, το οποίο οδηγεί σε εσφαλμένα αποτελέσματα. Έτσι το phyphox προσπαθεί να πάρει τιμές όταν το μαγνητόμετρο έχει βαθμονομηθεί από το σύστημα. Μερικές φορές, μπορεί να μην πάρετε καθόλου τιμές, αν δεν έχει ακόμα βαθμονομηθεί (για παράδειγμα αμέσως μετά την εκκίνηση του τηλεφώνου). Στην περίπτωση αυτή περιστρέψτε το τηλέφωνο μερικές φορές καθώς τρέχει το πείραμα. Αυτό βοηθά το σύστημα να βαθμονομήσει τον αισθητήρα. Επίσης σε αρκετές (αλλά όχι όλες) συσκευές μπορείτε να επιλέξετε μη βαθμονομημένα δεδομένα από το μαγνητόμετρο, από το πάνω δεξιά μενού.</string>
     </translation>
   </translations>
   <data-containers>

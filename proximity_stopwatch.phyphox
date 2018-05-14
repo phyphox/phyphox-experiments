@@ -288,26 +288,25 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
         La precisione dipende fortemente dal sensore di prossimità del tuo telefono. Per sensori lenti questa è spesso peggiore di un secondo, mentre sensori veloci di solito non fanno meglio di qualche decimo di secondo. Misure più rapide, ma basate sul suono, si possono eseguire usando l'esperimento del cronometro acustico.
     </description>
       <string original="Settings">Impostazioni</string>
-      <string original="Trigger below">Trigger inferiore</string>
-      <string original="Trigger above">Trigger superiore</string>
+      <string original="Trigger below">Soglia inferiore</string>
+      <string original="Trigger above">Soglia superiore</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Il timer restituisce l'istante di tempo in cui un oggetto si è avvicinato o allontanato dal sensore di prossimità. Il timer si attiva sia sopra che sotto le soglie impostate. Se vuoi che il timer si attivi solo quando l'oggetto è lontano, imposta il valore zero per "soglia inferiore". Se vuoi che si attivi solo quando è vicino, imposta una valore molto alto per "soglia superiore". La maggior parte dei sensori misura solamente due distanze: in genere 0 cm e 5 cm.</string>
       <string original="Distance">Distanza</string>
       <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">La precisione dipende fortemente dal sensore di prossimità del tuo telefono. Per sensori lenti questa è spesso peggiore di un secondo, mentre sensori veloci di solito non vanno oltre qualche decimo di secondo. Misure più rapide, ma basate sul suono, si possono eseguire usando l'esperimento del cronometro acustico. Sugli iPhone, il sensore lavora solo nella modalità ritratto (quando si tiene il telefono diritto) e si spegnerà lo schermo quando si attiva.</string>
-      <string original="Sequence">Sequenza</string>
+      <string original="Sequence">Serie</string>
       <string original="Time 1">Tempo 1</string>
       <string original="Time 2">Tempo 2</string>
       <string original="Time 3">Tempo 3</string>
       <string original="Time 4">Tempo 4</string>
       <string original="Time 5">Tempo 5</string>
-      <string original="Reset">Ricomincia</string>
       <string original="Parallel">Parallelo</string>
       <string original="Duration">Durata</string>
-      <string original="Trigger duration 0">Durata del trigger 0</string>
-      <string original="Trigger duration 1">Durata del trigger 1</string>
-      <string original="Trigger duration 2">Durata del trigger 2</string>
-      <string original="Trigger duration 3">Durata del trigger 3</string>
-      <string original="Trigger duration 4">Durata del trigger 4</string>
-      <string original="Trigger duration 5">Durata del trigger 5</string>
+      <string original="Trigger duration 0">Durata evento 0</string>
+      <string original="Trigger duration 1">Durata evento 1</string>
+      <string original="Trigger duration 2">Durata evento 2</string>
+      <string original="Trigger duration 3">Durata evento 3</string>
+      <string original="Trigger duration 4">Durata evento 4</string>
+      <string original="Trigger duration 5">Durata evento 5</string>
       <string original="Triggers">Trigger</string>
       <string original="Trigger on 0">Evento on 0</string>
       <string original="Trigger off 0">Evento off 0</string>
@@ -321,6 +320,51 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
       <string original="Trigger off 4">Evento off 4</string>
       <string original="Trigger on 5">Evento on 5</string>
       <string original="Trigger off 5">Evento off 5</string>
+    </translation>
+    <translation locale="el">
+      <title>Χρονόμετρο εγγύτητας</title>
+      <category>Χρονόμετρα</category>
+      <description>
+        Mέτρηση χρονικών διαστημάτων βασισμένα στον αισθητήρα εγγύτητας.
+
+        Στο πείραμα αυτό τοποθετείται ένα αντικείμενο κοντά στον αισθητήρα εγγύτητας (συνήθως βρίσκεται στο μπροστινό μέρος δίπλα στο ηχείο που χρησιμοποιείται στις τηλεφωνικές κλήσεις) και να μετρήσετε τις χρονικές στιγμές στις οποίες το αντικείμενο ήταν κοντά ή μακριά από το τηλέφωνο.
+
+        Σημειώστε ότι η ακρίβεια εξαρτάται ισχυρά από τον τύπο του αισθητήρα εγγύτητας του τηλεφώνου. Για αργούς αισθητήρες μπορεί εύκολα να είναι πάνω από το ένα δευτερόλεπτο ενώ οι γρήγοροι αισθητήρες συνήθως δεν είναι ταχύτεροι από κάποια δέκατα του δευτερολέπτου. Γρηγορότερες μετρήσεις, οι οποίες όμως βασίζονται στον ήχο, μπορούν να επιτευχθούν με το ακουστικό χρονόμετρο.
+    </description>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Trigger below">Ενεργοποίηση κάτω από</string>
+      <string original="Trigger above">Ενεργοποίηση πάνω από</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Ο μετρητής ενεργοποιείται τόσο πάνω όσο και κάτω από δοσμένο όριο. αν θέλετε να ενεργοποιηθεί μόνο σε μεγάλες αποστάσεις, θέστε την τιμή μηδέν στην "ενεργοποίηση κάτω από". Αν θέλετε να ενεργοποιείται μόνο στις κοντινές αποστάσεις θέστε μια τιμή πολύ μεγάλη στην "ενεργοποίηση πάνω από". Μπορείτε να εκτιμήσετε το όριο για άλλες ενεργοποιήσεις από από το παρακάτω γράφημα. Οι περισσότεροι αισθητήρες μετρούν μόνο δύο αποστάσεις, συνήθως μηδέν και περίπου 5 cm.</string>
+      <string original="Distance">Απόσταση</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Η ακρίβεια εξαρτάται ισχυρά από τον αισθητήρα εγγύτητας του τηλεφώνου σας. Για αργούς αισθητήρες μπορεί εύκολα να είναι χειρότερη από ένα δευτερόλεπτο ενώ για ταχείς αισθητήρες δεν ξεπερνά ορισμένα δέκατα του δευτερολέπτου. Ταχύτερες μετρήσεις, βασιζόμενες όμως στον ήχο, μπορούν να επιτευχθούν με τη χρήση του ακουστικού χρονομέτρου. Στα iphones, ο αισθητήρας λειτουργεί μόνο σε portrait mode (δηλαδή όταν κρατάμε όρθιο το τηλέφωνο) και θα σβήνει η οθόνη, όταν είναι ενεργοποιημένος.</string>
+      <string original="Sequence">Σειριακό</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Parallel">Παράλληλο</string>
+      <string original="Duration">Διάρκεια</string>
+      <string original="Trigger duration 0">Διάρκεια ενεργοποίησης 0</string>
+      <string original="Trigger duration 1">Διάρκεια ενεργοποίησης 1</string>
+      <string original="Trigger duration 2">Διάρκεια ενεργοποίησης 2</string>
+      <string original="Trigger duration 3">Διάρκεια ενεργοποίησης 3</string>
+      <string original="Trigger duration 4">Διάρκεια ενεργοποίησης 4</string>
+      <string original="Trigger duration 5">Διάρκεια ενεργοποίησης 5</string>
+      <string original="Triggers">Ενεργοποιήσεις</string>
+      <string original="Trigger on 0">Ενεργοποίηση 0</string>
+      <string original="Trigger off 0">Απενεργοποίηση 0</string>
+      <string original="Trigger on 1">Ενεργοποίηση 1</string>
+      <string original="Trigger off 1">Απενεργοποίηση 1</string>
+      <string original="Trigger on 2">Ενεργοποίηση 2</string>
+      <string original="Trigger off 2">Απενεργοποίηση 2</string>
+      <string original="Trigger on 3">Ενεργοποίηση 3</string>
+      <string original="Trigger off 3">Απενεργοποίηση 3</string>
+      <string original="Trigger on 4">Ενεργοποίηση 4</string>
+      <string original="Trigger off 4">Απενεργοποίηση 4</string>
+      <string original="Trigger on 5">Ενεργοποίηση  5</string>
+      <string original="Trigger off 5">Απενεργοποίηση 5</string>
     </translation>
   </translations>
   <input>

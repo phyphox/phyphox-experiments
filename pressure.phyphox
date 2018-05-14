@@ -50,10 +50,18 @@
     <translation locale="it">
       <title>Pressione</title>
       <category>Sensori</category>
-      <description>Riceve dati dal barometro.</description>
+      <description>Dati del barometro.</description>
       <string original="Graph">Grafico</string>
       <string original="Pressure">Pressione</string>
-      <string original="Simple">Semplice</string>
+      <string original="Simple">Valori</string>
+    </translation>
+    <translation locale="el">
+      <title>Πίεση</title>
+      <category>Αισθητήρες</category>
+      <description>Πάρτε τις καταγραφές του βαρομέτρου.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Pressure">Πίεση</string>
+      <string original="Simple">Απλή</string>
     </translation>
   </translations>
   <data-containers>

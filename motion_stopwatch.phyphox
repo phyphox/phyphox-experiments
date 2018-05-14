@@ -180,20 +180,44 @@ Questo esperimento consente di misurare il tempo trascorso tra due accelerazioni
 
 Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima accelerazione (totale) che supera la soglia impostata e si fermerà dopo la seconda accelerazione. Per ripetere l'esperimento cancella i dati e ricomincia.
     </description>
-      <string original="Simple">Semplice</string>
+      <string original="Simple">Valori</string>
       <string original="Threshold">Soglia</string>
       <string original="Minimum Delay">Ritardo minimo</string>
       <string original="Time">Tempo</string>
-      <string original="Reset">Ricomincia</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Cambia la soglia in modo che sia al di sopra del livello del rumore, ma al di sotto del trigger dell'accelerazione (puoi provare l'esperimento con l'accelerometro senza g per testare queste impostazioni). Inoltre imposta il ritardo minimo in modo da non registrare eventi al di sotto di quell'intervallo di tempo.</string>
       <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La precisione di questo esperimento dipende dall'accelerometro nel tuo telefono. Accelerometri veloci possono avere una risoluzione inferiore al centesimo di secondo, mentre accelerometri lenti potrebbero avere una risoluzione non migliore di un secondo.</string>
-      <string original="Sequence">Sequenza</string>
+      <string original="Sequence">Serie</string>
       <string original="Time 1">Tempo 1</string>
       <string original="Time 2">Tempo 2</string>
       <string original="Time 3">Tempo 3</string>
       <string original="Time 4">Tempo 4</string>
       <string original="Time 5">Tempo 5</string>
       <string original="Parallel">Parallelo</string>
+    </translation>
+    <translation locale="el">
+      <title>Χρονόμετρο κίνησης</title>
+      <category>Χρονόμετρα</category>
+      <description>
+        Βρείτε το χρονικό διάστημα ανάμεσα σε δύο γεγονότα κίνησης.
+
+        Αυτό το πείραμα μας επιτρέπει να μετρήσουμε το χρόνο ανάμεσα σε δύο επιταχύνσεις (για παράδειμα δύο μικρά χτυπήματα). Πιθανόν να χρειαστεί να ρυθμίσετε το κατώφλι ενεργοποίησης δίνοντας την τιμή στην οποία θα ενεργοποιείται το χρονόμετρο.
+
+        Όταν ξεκινήσει το πείραμα, το ρολόϊ θα αρχίσει την πρώτη φορά που η (ολική) επιτάχυνση ξεπεράσει το κατώφλι και θα σταματήσει στη δεύτερη επιτάχυνση. Βεβαιωθείτε ότι το σήμα της πρώτης επιτάχυνσης είναι βραχύ καθώς μια μακριά δόνηση μπορεί να θεωρηθεί σήμα για σταμάτημα του χρονομέτρου.
+    </description>
+      <string original="Simple">Απλή</string>
+      <string original="Threshold">Κατώφλι ενεργοπ.</string>
+      <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
+      <string original="Time">Χρόνος</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Αλλάξτε το κατώφλι ενεργοποίησης ώστε να είναι πάνω από το όριο θορύβου του αισθητήρα, αλλά κάτω από την επιτάχυνση ενεργοποίησης (μπορείτε να δοκιμάσετε το πείραμα της επιτάχυνσης χωρίς το g για να το δοκιμάσετε). Επίσης ορίστε την ελάχιστη καθυστέρηση για να αποφύγεται ενεργοποιήσεις σε λιγότερο από αυτόν τον χρόνο.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Η ακρίβεια του πειράματος εξαρτάται από το επιταχυνσιόμετρο του κινητού σας. Τα γρήγορα επιταχυνσιόμετρα μπορεί να είναι καλύτερα από ένα εκατοστό του δευτερολέπτου, ενώ τα αργά μπορούν να πετύχουν ανάλυση ενός δευτερολέπτου.</string>
+      <string original="Sequence">Σειριακό</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Parallel">Παράλληλο</string>
     </translation>
   </translations>
   <input>

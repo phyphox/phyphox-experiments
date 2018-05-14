@@ -127,6 +127,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">Tempo</string>
       <string original="Angular velocity">Velocità angolare</string>
     </translation>
+    <translation locale="el">
+      <title>Κεντρομόλος επιτάχυνση</title>
+      <category>Μηχανική</category>
+      <description>
+        Οπτικοποίηση της κεντρομόλου επιτάχυνσης σαν συνάρτηση της γωνιακής ταχύτητας. 
+
+        Αυτό το πείραμα υπολογίζει το μέτρο της γωνιακής ταχύτητας v από το γυροσκόπιο  και το μέτρο της  επιτάχυνσης από το επιταχυνσιόμετρο. Σχεδιάζοντας το a σε συνάρτηση με το ω μπορεί εύκολα να δειχτεί η σχέση a=r·ω²  ενώ, σε συνάρτηση με το ω² θα δώσει ευθεία γραμμή. 
+
+        Για να το δείτε πρέπει να μετρήσετε διαφορετικές γωνιακές ταχύτητας αλλά με σταθερή ακτίνα. Ένα σκεύος που γυρίζει τη σαλάτα ή ένα μικρό καρουζέλ λειτουργεί εξαιρετικά.
+    </description>
+      <string original="Relation">Σχέση</string>
+      <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Angular velocity ω (rad/s)">Γωνιακή ταχύτητα ω (rad/s)</string>
+      <string original="Acceleration a (m/s²)">Επιτάχυνση a (m/s²)</string>
+      <string original="Square plot">Γράφημα α - ω²</string>
+      <string original="Time">Χρόνος</string>
+      <string original="Angular velocity">Γωνιακή ταχύτητα</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

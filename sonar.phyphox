@@ -152,11 +152,11 @@ Voer dit experiment best uit in een rustige omgeving.
       <description>
         Misura le distanze attraverso l'eco e la velocità del suono.
 
-        Un sonar emette brevi suoni, che vengono riflessi dall'oggetto che vuoi misurare. Essendo la velocità del suono pari a circa 340 m/s, il tempo con cui il suono riflesso raggiunge il microfono del tuo telefono serve a calcolare la distanza dell'oggetto.
+        Un sonar emette brevi suoni, riflessi dall'oggetto di cui vuoi misurare la distanza. Essendo la velocità del suono pari a circa 340 m/s, il tempo con cui il suono riflesso raggiunge il microfono del tuo telefono serve a calcolare la distanza dell'oggetto.
 
-        Questo esperimento genera un suono, lo emette attraverso l'altoparlante e poi inizia la registrazione. Una correlazione fra il suono emesso e i dati rilevati fornisce informazioni sul tempo con cui si verifica l'eco. Il tempo impiegato viene moltiplicato per la velocità del suono (e dimezzato poichè il suono compie la distanza due volte). In questo modo si ottiene la distanza da cui è partita l'eco.
+        Questo esperimento genera un suono (chirp) attraverso l'altoparlante e poi inizia la registrazione, che termina quando si registra lo stesso suono. Il tempo impiegato a rivelare il suono riflesso è moltiplicato per la velocità del suono (e dimezzato poiché il suono percorre la distanza due volte: all'andata e al ritorno). In questo modo si ottiene la distanza da cui è partita l'eco.
 
-        Tieni conto che il suono si diffonde praticamente in ogni direzione. Per un sonar ciò significa che il suono può essere riflesso dall'ostacolo, ma anche dal muro di fronte, dal pavimento, dal soffitto, da un palo o da qualunque altra superficie. Questo sonar può reagire a tutte le riflessioni e sta a te interpretare il risultato e capire se la misurazione coincide con la distanza che ti aspettavi. Il suono è riflesso più efficientemente dai materiali duri. Inizia quindi con un piccolo bersaglio molto rigido e cerca di schermare tutte le altre direzioni con del materiale spugnoso. Inoltre devi trovarti in un ambiente tranquillo.
+        Tieni conto che il suono si diffonde praticamente in ogni direzione. Questo significa che il suono può essere riflesso dall'ostacolo, ma anche da un muro, dal pavimento, dal soffitto, da un palo o da qualunque altra superficie. Questo sonar può reagire a tutte le riflessioni e sta a te interpretare il risultato e capire se la misurazione coincide con la distanza che ti aspettavi. Il suono è riflesso più efficientemente dai materiali duri. Inizia quindi con un piccolo bersaglio molto rigido e cerca di schermare eventuali altri ostacoli con materiale spugnoso. Naturalmente l'esperimento va eseguito in un ambiente in cui i rumori esterni sono ridotti al minimo.
     </description>
       <string original="Echo location">Posizione dell'eco</string>
       <string original="Speed of Sound">Velocità del suono</string>
@@ -166,10 +166,35 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Echo strength">Intensità eco</string>
       <string original="Speed of Sound (m/s)">Velocità del suono (m/s)</string>
       <string original="Timing">tempo</string>
-      <string original="On this page you just get the measured delay.">Su questa pagina puoi vedere il ritardo misurato.</string>
+      <string original="On this page you just get the measured delay.">Su questa pagina puoi osservare il ritardo misurato.</string>
       <string original="Delay (s)">Ritardo (s)</string>
-      <string original="Chirp">Suono</string>
       <string original="Time (s)">Tempo (s)</string>
+    </translation>
+    <translation locale="el">
+      <title>Σόναρ</title>
+      <category>Ακουστική</category>
+      <description>
+        Μετρήσεις απόστασης μέσω της ηχούς και της ταχύτητας του ήχου.
+
+        Ένα σόναρ εκπέμπει ριπές σύντομων ήχων, οι οποίοι ανακλώνται από το αντικείμενο του οποίου την απόσταση θέλετε να μετρήσετε. Καθώς ο ήχος διαδίδεται με ταχύτητα περίπου 340 m/s, ο χρόνος που απαιτείται για την επιστροφή του ανακλώμενου ήχου στο κινητό τηλέφωνο, χρησιμοποιείται για να υπολογιστεί η απόσταση από το αντικείμενο.
+
+        Στο πείραμα παράγεται ήχος που στέλνεται στο ηχείο και αρχίζει η εγγραφή. Η συσχέτιση ανάμεσα στον παραγόμενο και στον καταγραφόμενο ήχο δίνει πληροφορίες για σχετικά για τον χρόνο της ηχούς. Ο χρόνος αυτός πολλαπλασιασμένος με την ταχύτητα του ήχου (και διαιρεμένος δια δύο καθώς ο ήχος πηγαίνει και επιστρέφει) δίνει την απόσταση στην οποία δημιουργήθηκε η ηχώ.
+
+        Σημειώστε ότι η ήχος διαδίδεται σε κάθε κατεύθυνση. Αυτό σημαίνει ότι όταν σημαδεύετε ένα τοίχο, δέχεστε ανακλάσεις από το πάτωμα, το ταβάνι από κάθε άλλο κοντινό τοίχο, από ένα εμπόδιο και γενικά κάθε κατάλληλη "σκληρή" επφάνεια τριγύρω. Συνεπώς το σόναρ σας δείχνει όλες τις ανακλάσεις και εναπόκειται σε εσάς να ερμηνεύσετε το αποτέλεσμα και να βρείτε ποια ανάκλαση αντιστοιχεί στο στόχο που επιθυμούσατε να μετρήσετε. Οπότε ξεκινήστε με ένα μικρό σκληρό στόχο και προσπαθήστε να ελαττώσετε τις υπόλοιπες ανακλάσεις με κάποιο αφρώδες υλικό. Απαιτείται επίσης ήσυχο περιβάλλον.
+    </description>
+      <string original="Echo location">Θέση της Ηχούς</string>
+      <string original="Speed of Sound">Ταχύτητα Ήχου</string>
+      <string original="distance (cm)">απόσταση (cm)</string>
+      <string original="A (a.u.)">Πλάτος Α</string>
+      <string original="Normalized to spherical surface">Κανονικοποίηση σε σφαιρική επιφάνεια</string>
+      <string original="Target distance">Απόσταση στόχου</string>
+      <string original="Echo strength">Πλάτος ηχούς</string>
+      <string original="Speed of Sound (m/s)">Ταχύτητα Ήχου (m/s)</string>
+      <string original="Timing">Χρονομέτρηση</string>
+      <string original="On this page you just get the measured delay.">Στη σελίδα αυτή μπορείτε να δείτε την χρονοκαθυστέρηση.</string>
+      <string original="Delay (s)">Χρονοκαθυστέρηση (s)</string>
+      <string original="Chirp">Σφύριγμα</string>
+      <string original="Time (s)">Χρόνος (s)</string>
     </translation>
   </translations>
   <data-containers>

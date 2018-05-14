@@ -151,9 +151,9 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <title>Spettro Audio</title>
       <category>Acustica</category>
       <description>
-            Mostra lo spettro di frequenza di un segnale audio.
+            Mostra lo spettro in frequenza di un segnale audio.
 
-            Questo esperimento registra audio dal microfono e calcola il suo spettro di frequenza attraverso una trasformazione di Fourier (FFT). Se hai solo un suono singolo con un'unica frequenza, puoi ottenere risultati più precisi dall'esperimento di "autocorrelazione" dell'audio.
+            Questo esperimento registra audio dal microfono e calcola il suo spettro in frequenza attraverso una trasformata di Fourier (FFT). Risultati più precisi si possono ottenere con l'esperimento "autocorrelazione" dell'audio per suoni semplici, composti di un'unica frequenza.
     </description>
       <string original="Spectrum">Spettro</string>
       <string original="Peak-Frequency">Frequenza di picco</string>
@@ -226,12 +226,38 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples used">Campioni usati</string>
       <string original="Period used">Periodo usato</string>
       <string original="Settings">Impostazioni</string>
-      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di rilevazioni per la trasformazione di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, ma con una risoluzione più alta dello spettrometro.</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
       <string original="Samples">Campioni di dati</string>
       <string original="32768">32786</string>
       <string original="Raw data">Dati grezzi</string>
       <string original="Recording">Registrazione</string>
       <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+    </translation>
+    <translation locale="el">
+      <title>Ηχητικό Φάσμα</title>
+      <category>Ακουστική</category>
+      <description>
+            Παρουσίαση του ηχητικού φάσματος ενός ηχητικού σήματος.
+
+            Σ' αυτό το πείραμα καταγράφεται ήχος από το μικρόφωνο και υπολογίζεται η συχνότητά του με χρήση μετασχηματιμού Fourier (FFT). Αν πρόκειται για ένα απλό τόνο με μια συχνότητα, είναι πιθανό να πάρετε ακριβέστερα αποτελέσματα με το πείραμα ηχητικής αυτοσυσχέτισης (autocorrelation audio experiment).
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Musical note">Μουσική νότα</string>
+      <string original="Low">Χαμηλά</string>
+      <string original="High">Υψηλή</string>
+      <string original="Cents from note">Εκατοστά από τη νότα</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT πλάτος (α.μ)</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Recording">Εγγραφή</string>
+      <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
     </translation>
   </translations>
   <data-containers>

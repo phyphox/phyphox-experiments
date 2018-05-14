@@ -88,13 +88,25 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <description>
         Misura l'angolo d'inclinazione del telefono.
 
-        Questo strumento usa l'accelerometro per determinare l'inclinazione del telefono. Quando un telefono poggia su un tavolo, l'inclinazione è zero. Per inclinazioni diverse da zero, la direzione dell'inclinazione viene indicata come rotazione.
-
-        La definizione degli angoli è stata scelta con lo scopo di misurare un'inclinazione (specialmente per esperimenti su piani inclinati) indipendente dalla rotazione (sull'asse z) del tuo telefono.
+        Questo strumento usa l'accelerometro per determinare l'inclinazione del telefono. L'inclinazione misura l'angolo compreso tra un piano orizzontale e lo schermo del telefono. La rotazione, invece, è la misura dell'angolo di rotazione del telefono attorno all'asse z quando è in posizione verticale.
     </description>
       <string original="Inclination">Inclinazione</string>
       <string original="Angle (°)">Angolo (°)</string>
       <string original="Rotation">Rotazione</string>
+    </translation>
+    <translation locale="el">
+      <title>Κλίση</title>
+      <category>Εργαλεία</category>
+      <description>
+        Μέτρηση της γωνίας κλίσης του τηλεφώνου.
+
+        Αυτό το εργαλείο χρησιμοποιεί το επιταχυνσιόμετρο για να προσδιορίσει την κλίση του τηλεφώνου. Όταν το τηλέφωνο είναι οριζόντιο σε ένα τραπέζι, η κλίση ειναι μηδέν. Στις μη μηδενικές κλίσεις ή κατεύθυνση της κλίσης δίνεται σαν περιστροφή.
+
+        Σημειώστε ότι ο ορισμός των γωνιών επιλέχθηκε με στόχο τη μέτρηση της κλίσης (ιδιαίτερα σε πειράματα με κεκλιμένο επίπεδο) ανεξάρτητα από την περιστροφή ως προς τον άξονα z του τηλεφώνου.
+    </description>
+      <string original="Inclination">Κλίση</string>
+      <string original="Angle (°)">Γωνία (°)</string>
+      <string original="Rotation">Περιστροφή</string>
     </translation>
   </translations>
   <data-containers>

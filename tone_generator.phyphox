@@ -87,7 +87,7 @@
       <title>Generatore di suoni</title>
       <category>Acustica</category>
       <description>
-        Genera un suono di una frequenza specifica.
+        Genera un suono di frequenza data.
     </description>
       <string original="Tone generator">Generatore di suoni</string>
       <string original="Frequency">Frequenza</string>
@@ -97,6 +97,23 @@
       <string original="Status">Stato</string>
       <string original="Frequency low">Bassa frequenza</string>
       <string original="Frequency high">Alta frequenza</string>
+    </translation>
+    <translation locale="el">
+      <title>Γεννήτρια συχνοτήτων</title>
+      <category>Ακουστική</category>
+      <description>
+        Δημιουργία τόνου συγκεκριμένης συχνότητας.
+    </description>
+      <string original="Tone generator">Γεννήτρα συχνοτήτων</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Signal">Σήμα</string>
+      <string original="Time (s)">Χρόνος (s)</string>
+      <string original="A (a.u.)">Πλάτος Α</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Αν και το phyphox επιτρέπει τη ρύθμιση οποιασδήποτε συχνότητας, είναι πιθανόν το αποτέλεσμα να μην είναι ικανοποιητικό σε τιμές κάτω από 100Hz καθώς και πάνω από 8000Hz λόγω περιορισμών του hardware.</string>
+      <string original="Status">Κατάσταση</string>
+      <string original="Frequency low">Χαμηλή συχνότητα</string>
+      <string original="Frequency high">Υψηλή συχνότητα</string>
+      <string original="OK">ΟΚ</string>
     </translation>
   </translations>
   <data-containers>

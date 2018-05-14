@@ -86,13 +86,27 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <description>
         Misura il cambiamento della frequenza in funzione del tempo per un suono armonico.
 
-	Questo esperimento registra l'audio del microfono e lo analizza per determinarne la frequenza per brevi periodi di tempo. Funziona solamente se il suono è armonico con frequenza fissata in quanto ne considera l'autocorrelazione. Il risultato verrà rappresentato in un grafico della frequenza in funzione del tempo.
+	Questo esperimento registra l'audio dal microfono e lo analizza per determinarne la frequenza per brevi periodi di tempo. Funziona solamente se il suono è armonico con frequenza fissata in quanto ne considera l'autocorrelazione. Il risultato verrà rappresentato in un grafico della frequenza in funzione del tempo.
     </description>
-      <string original="History">Storia</string>
+      <string original="History">Andamento</string>
       <string original="Frequency">Frequenza</string>
       <string original="Frequency (Hz)">Frequenza (Hz)</string>
       <string original="Period">Periodo</string>
       <string original="Period (s)">Periodo (s)</string>
+    </translation>
+    <translation locale="el">
+      <title>Ιστορικό συχνότητας</title>
+      <category>Ακουστική</category>
+      <description>
+        Μέτρηση της μεταβολής της συχνότητας με το χρόνο για ένα απλό τόνο.
+
+        Στο πείραμα αυτό καταγράφεται ήχος από το μικρόφωνο του οποίου αναλύεται η συχνότητα κατά τη διάρκεια μικρών περιόδων χρόνου. Αυτό λειτουργεί αν υπάρχει ένας μοναδικός τόνος με σταθερή συχνότητα καθώς χρησιμοποιεί αυτοσυσχέτιση (autocorrelation). To αποτέλεσμα εμφανίζεται σε γράφημα συχνότητας σε συνάρτηση με τον χρόνο.
+    </description>
+      <string original="History">Ιστορικό</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
+      <string original="Period">Περίοδος</string>
+      <string original="Period (s)">Περίοδος (s)</string>
     </translation>
   </translations>
   <data-containers>

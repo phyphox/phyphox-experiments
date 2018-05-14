@@ -94,6 +94,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">Dati grezzi</string>
       <string original="Gyroscope y">Giroscopio y</string>
     </translation>
+    <translation locale="el">
+      <title>Κύλινδρος</title>
+      <category>Μηχανική</category>
+      <description>
+        Τοποθετήστε το τηλέφωνο σε ένα κύλινδρο και υπολόγιστε την ταχύτητα.
+
+        Τοποθετείστε το κινητό σας μέσα σε ένα ρολό χαρτί έτσι ώστε να περιστρέφεται γύρω από την μεγαλύτερη πλευρά του. Στο πείραμα χρησιμοποιείται η γωνιακή ταχύτητα που μετρείται με το γυροσκόπιο και η ακτίνα του κυλίνδρου για να υπολογιστεί η ταχύτητα με την οποία κινείται ο κύλινδρος.
+    </description>
+      <string original="Velocity">Ταχύτητα</string>
+      <string original="Roll radius">Ακτίνα κυλίνδρου</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Gyroscope y">Γυροσκόπιο y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

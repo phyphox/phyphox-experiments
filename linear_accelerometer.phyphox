@@ -87,17 +87,32 @@
     <translation locale="it">
       <title>Accelerazione (senza g)</title>
       <category>Sensori</category>
-      <description>Ottiene dati grezzi dall'accelerometro lineare, che fornisce l'accelerazione istantanea senza l'accelerazione gravitazionale. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
+      <description>Ottiene i dati dall'accelerometro sottraendo l'accelerazione di gravità. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
       <string original="Graph">Grafico</string>
-      <string original="Linear Acceleration x">Accelerazione lineare x</string>
-      <string original="Linear Acceleration y">Accelerazione lineare y</string>
-      <string original="Linear Acceleration z">Accelerazione lineare z</string>
-      <string original="Absolute">Assoluta</string>
-      <string original="Absolute acceleration">Accelerazione assoluta</string>
-      <string original="Simple">Semplice</string>
+      <string original="Linear Acceleration x">Accelerazione x</string>
+      <string original="Linear Acceleration y">Accelerazione y</string>
+      <string original="Linear Acceleration z">Accelerazione z</string>
+      <string original="Absolute">Modulo</string>
+      <string original="Absolute acceleration">Modulo dell'accelerazione</string>
+      <string original="Simple">Valori</string>
       <string original="Acceleration x">Accelerazione x</string>
       <string original="Acceleration y">Accelerazione y</string>
       <string original="Acceleration z">Accelerazione z</string>
+    </translation>
+    <translation locale="el">
+      <title>Επιτάχυνση (χωρίς το g)</title>
+      <category>Αισθητήρες</category>
+      <description>Πάρτε τις καταγραφές από το γραμμικό επιταχυνσιόμετρο, ο οποίος δίνει την πραγματική επιτάχυνση χωρίς την βαρυτική επιτάχυνση. Σε αντίθεση με την "επιτάχυνση με το g", αυτός ο αισθητήρας δίνει 0 όταν η συσκευή βρίσκεται σε ακινησία.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Linear Acceleration x">Γραμμική Επιτάχυνση x</string>
+      <string original="Linear Acceleration y">Γραμμική Επιτάχυνση y</string>
+      <string original="Linear Acceleration z">Γραμμική Επιτάχυνση z</string>
+      <string original="Absolute">Μέτρο</string>
+      <string original="Absolute acceleration">Μέτρο της επιτάχυνσης</string>
+      <string original="Simple">Απλή</string>
+      <string original="Acceleration x">Επιτάχυνση x</string>
+      <string original="Acceleration y">Επιτάχυνση y</string>
+      <string original="Acceleration z">Επιτάχυνση z</string>
     </translation>
   </translations>
   <data-containers>
