@@ -61,7 +61,7 @@
       <description>Πάρτε τις καταγραφές του βαρομέτρου.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Pressure">Πίεση</string>
-      <string original="Simple">Απλή</string>
+      <string original="Simple">Απλό</string>
     </translation>
   </translations>
   <data-containers>

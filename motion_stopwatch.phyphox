@@ -204,7 +204,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
 
         Όταν ξεκινήσει το πείραμα, το ρολόϊ θα αρχίσει την πρώτη φορά που η (ολική) επιτάχυνση ξεπεράσει το κατώφλι και θα σταματήσει στη δεύτερη επιτάχυνση. Βεβαιωθείτε ότι το σήμα της πρώτης επιτάχυνσης είναι βραχύ καθώς μια μακριά δόνηση μπορεί να θεωρηθεί σήμα για σταμάτημα του χρονομέτρου.
     </description>
-      <string original="Simple">Απλή</string>
+      <string original="Simple">Απλό</string>
       <string original="Threshold">Κατώφλι ενεργοπ.</string>
       <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
       <string original="Time">Χρόνος</string>

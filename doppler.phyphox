@@ -145,7 +145,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
 
         Xρειάζεστε μια γεννήτρια συχνοτήτων η οποία εκπέμπει μια σταθερή συχνότητα (π.χ  1000 Hz). Εισάγετε αυτή τη βασική συχνότητα και διαλέξτε ένα εύρος μέσα στο οποίο περιμένετε τη μεταβολή της συχνότητας εξαιτίας του Doppler (π.χ 10Hz). To πείραμα θα μετρήσει την καταγραφόμενη συχνότητα και θα υπολογίσει τη σχετική της πηγής του ήχου.
     </description>
-      <string original="Setup">Εγκατάσταση</string>
+      <string original="Setup">Ρυθμίσεις</string>
       <string original="Base frequency">Βασική συχνότητα</string>
       <string original="Frequency range">Εύρος συχνότητας</string>
       <string original="Time step">Βήμα χρόνου</string>

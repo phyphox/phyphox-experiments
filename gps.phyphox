@@ -238,14 +238,14 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Direction">Κατεύθυνση</string>
       <string original="Direction (°)">Κατεύθυνση (°)</string>
       <string original="Distance">Απόσταση</string>
-      <string original="Simple">Απλή</string>
+      <string original="Simple">Απλό</string>
       <string original="Compass">Πυξίδα</string>
       <string original="N">Ν</string>
       <string original="Horizontal Accuracy">Οριζόντια ακρίβεια</string>
       <string original="Vertical Accuracy">Κατακόρυφη ακρίβεια</string>
       <string original="Satellites">Δορυφόροι</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
-      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS ενώ οι εφαρμογές πλοήγησης ίσως να δείχνουν κατά προσέγγιση την τοποθεσία όπως καθορίζεται από το δίκτυο τηλεφωνίας.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS. Οι εφαρμογές πλοήγησης τότε, ίσως να δείχνουν κατά προσέγγιση την τοποθεσία από το δίκτυο τηλεφωνίας.</string>
     </translation>
   </translations>
   <data-containers>

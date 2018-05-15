@@ -178,7 +178,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer y">Μαγνητόμετρο y</string>
       <string original="Magnetometer z">Μαγνητόμετρο z</string>
       <string original="Absolute">Μέτρο</string>
-      <string original="Simple">Απλή</string>
+      <string original="Simple">Απλό</string>
       <string original="Help">Βοήθεια</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Το μαγνητόμετρο στο τηλέφωνό σας είναι συνεχώς εκτεθειμένο σε εσωτερικά πεδία από τα ηλεκτρονικά του τηλεφώνου, το οποίο οδηγεί σε εσφαλμένα αποτελέσματα. Έτσι το phyphox προσπαθεί να πάρει τιμές όταν το μαγνητόμετρο έχει βαθμονομηθεί από το σύστημα. Μερικές φορές, μπορεί να μην πάρετε καθόλου τιμές, αν δεν έχει ακόμα βαθμονομηθεί (για παράδειγμα αμέσως μετά την εκκίνηση του τηλεφώνου). Στην περίπτωση αυτή περιστρέψτε το τηλέφωνο μερικές φορές καθώς τρέχει το πείραμα. Αυτό βοηθά το σύστημα να βαθμονομήσει τον αισθητήρα. Επίσης σε αρκετές (αλλά όχι όλες) συσκευές μπορείτε να επιλέξετε μη βαθμονομημένα δεδομένα από το μαγνητόμετρο, από το πάνω δεξιά μενού.</string>
     </translation>
