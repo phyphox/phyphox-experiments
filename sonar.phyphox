@@ -165,6 +165,7 @@ Voer dit experiment best uit in een rustige omgeving.
     <container size="1500" static="true">padded_chirp</container>
     <container size="7500" static="true">multi_chirp</container>
     <container size="1500">crosscorrelation</container>
+    <container size="1500">crosscorrelation_smooth</container>
     <container size="1500">ccTemp</container>
     <container>t0</container>
     <container>t1</container>
@@ -178,9 +179,9 @@ Voer dit experiment best uit in een rustige omgeving.
     <container size="1">size</container>
     <container size="1">time</container>
     <container size="1200">time_line</container>
-    <container size="48000">time_map</container>
-    <container size="48000">distance_map</container>
-    <container size="48000">weighted_map</container>
+    <container size="96000">time_map</container>
+    <container size="96000">distance_map</container>
+    <container size="96000">weighted_map</container>
   </data-containers>
   <input>
     <audio>
@@ -195,7 +196,7 @@ Voer dit experiment best uit in een rustige omgeving.
   </output>
   <views>
     <view label="Time series">
-      <graph label="Normalized history" labelX="distance" unitX="cm" labelY="time" unitY="s" labelZ="A" unitZ="a.u." aspectRatio="1" style="map" mapWidth="1200">
+      <graph label="Normalized history" labelX="distance" unitX="cm" labelY="time" unitY="s" labelZ="A" unitZ="a.u." aspectRatio="1" style="map" mapWidth="1200" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff">
         <input axis="x">distance_map</input>
         <input axis="y">time_map</input>
         <input axis="z">weighted_map</input>
@@ -340,17 +341,17 @@ Voer dit experiment best uit in een rustige omgeving.
     </crosscorrelation>
     <multiply>
       <input clear="false">crosscorrelation</input>
-      <input>crosscorrelation</input>
-      <input type="value">1e10</input>
+      <input clear="false">crosscorrelation</input>
+      <input type="value">1e5</input>
       <output>ccTemp</output>
     </multiply>
     <gausssmooth sigma="3">
       <input>ccTemp</input>
-      <output>crosscorrelation</output>
+      <output>crosscorrelation_smooth</output>
     </gausssmooth>
     <!-- Find start and range -->
     <max>
-      <input as="y" clear="false">crosscorrelation</input>
+      <input as="y" clear="false">crosscorrelation_smooth</input>
       <output as="position">t0</output>
     </max>
     <add>
@@ -363,7 +364,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <input as="from">t1</input>
       <input as="length" type="value">1200</input>
       <!-- 25ms -->
-      <input as="in" clear="false">crosscorrelation</input>
+      <input as="in" clear="false">crosscorrelation_smooth</input>
       <output>relative_cc</output>
     </subrange>
     <multiply>
@@ -394,24 +395,24 @@ Voer dit experiment best uit in een rustige omgeving.
         <output>time_line</output>
     </const>
     <count>
-        <input clear="false">weighted_cc</input>
+        <input clear="false">crosscorrelation</input>
         <output>size</output>
     </count>
     <if equal="true">
         <input clear="false">size</input>
-        <input type="value">1200</input>
+        <input type="value">1500</input>
         <input clear="false">time_line</input>
         <output clear="false">time_map</output>
     </if>
     <if equal="true">
         <input clear="false">size</input>
-        <input type="value">1200</input>
+        <input type="value">1500</input>
         <input clear="false">distance</input>
         <output clear="false">distance_map</output>
     </if>
     <if equal="true">
         <input clear="false">size</input>
-        <input type="value">1200</input>
+        <input type="value">1500</input>
         <input clear="false">weighted_cc</input>
         <output clear="false">weighted_map</output>
     </if>
