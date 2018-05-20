@@ -182,21 +182,10 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <input>dt2</input>
       <output>v_time</output>
     </add>
-    <divide>
+    <formula formula="([1_]/1013.25)^0.190294957*-44330.769230769">
       <input clear="false">pressure</input>
-      <input type="value">1013.25</input>
       <output>temp1</output>
-    </divide>
-    <power>
-      <input as="base">temp1</input>
-      <input as="exponent" type="value">0.190294957</input>
-      <output>temp2</output>
-    </power>
-    <multiply>
-      <input>temp2</input>
-      <input type="value">-44330.769230769</input>
-      <output>temp1</output>
-    </multiply>
+    </formula>
     <first>
       <input clear="false">temp1</input>
       <output>h0</output>

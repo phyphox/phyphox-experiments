@@ -166,8 +166,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container size="16384">halfFrequency</container>
     <container size="16384">halfFFTtempX</container>
     <container size="16384">halfFFTtempY</container>
-    <container size="16384">halfFFTtempX2</container>
-    <container size="16384">halfFFTtempY2</container>
     <container size="16384">fft</container>
     <container>f0</container>
     <container>ratio</container>
@@ -396,26 +394,11 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <output>halfFFTtempX</output>
       <output>halfFFTtempY</output>
     </rangefilter>
-    <multiply>
-      <input clear="false">halfFFTtempX</input>
+    <formula formula="sqrt([1_]*[1_]+[2_]*[2_])">
       <input>halfFFTtempX</input>
-      <output>halfFFTtempX2</output>
-    </multiply>
-    <multiply>
-      <input clear="false">halfFFTtempY</input>
       <input>halfFFTtempY</input>
-      <output>halfFFTtempY2</output>
-    </multiply>
-    <add>
-      <input>halfFFTtempX2</input>
-      <input>halfFFTtempY2</input>
-      <output>halfFFTtempX</output>
-    </add>
-    <power>
-      <input as="base">halfFFTtempX</input>
-      <input as="exponent" type="value">0.5</input>
       <output>fft</output>
-    </power>
+    </formula>
     <max>
       <input as="y" clear="false">fft</input>
       <input as="x" clear="false">halfFrequency</input>
