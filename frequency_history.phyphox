@@ -85,7 +85,7 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
     <container size="480">recording</container>
     <container>rate</container>
     <container>tmax</container>
-    <container size="480" static="true">time</container>
+    <container size="480">time</container>
     <container size="480">autocorrelation_t</container>
     <container size="480">autocorrelation</container>
     <container>dt</container>

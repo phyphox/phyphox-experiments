@@ -122,7 +122,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
     <container size="48000">recording</container>
     <container>rate</container>
     <container>tmax</container>
-    <container size="48000" static="true">time</container>
+    <container size="48000">time</container>
     <container>f</container>
     <container>df</container>
     <container>dt</container>

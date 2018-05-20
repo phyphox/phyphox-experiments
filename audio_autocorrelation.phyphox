@@ -142,7 +142,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
     <container size="4800">recording</container>
     <container>rate</container>
     <container>tmax</container>
-    <container size="4800" static="true">time</container>
+    <container size="4800">time</container>
     <container size="4800">autocorrelation</container>
     <container size="4800">autoco_t</container>
     <container>period</container>

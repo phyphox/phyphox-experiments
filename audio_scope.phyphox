@@ -82,7 +82,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     <container size="26400">recording</container>
     <container>rate</container>
     <container>tmax</container>
-    <container size="26400" static="true">time</container>
+    <container size="26400">time</container>
     <container size="26400">subtime0</container>
     <container size="2">triggerTMinList</container>
     <container>triggerT</container>
@@ -146,7 +146,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </append>
     <threshold falling="false">
       <input as="y" clear="false">recording</input>
-      <input as="x">time</input>
+      <input as="x" clear="false">time</input>
       <output clear="false">triggerTMinList</output>
     </threshold>
     <min>
@@ -159,7 +159,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <output>triggerTend</output>
     </add>
     <rangefilter>
-      <input>time</input>
+      <input clear="false">time</input>
       <input as="min">triggerT</input>
       <input as="max">triggerTend</input>
       <input>recording</input>
