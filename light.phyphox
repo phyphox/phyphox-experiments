@@ -71,7 +71,7 @@
     <translation locale="it">
       <title>Luce</title>
       <category>Sensori</category>
-      <description>Ottiene i dati dal sensore di luminosità.</description>
+      <description>Legge i dati dal sensore di luminosità.</description>
       <string original="Graph">Grafico</string>
       <string original="Illuminance">Luminanza</string>
       <string original="Ev (lx)">Intensità (lux)</string>

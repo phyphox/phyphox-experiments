@@ -136,7 +136,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <title>Magnetometro</title>
       <category>Sensori</category>
       <description>
-        Ottiene dati grezzi dal magnetometro.
+        Legge i dati dal magnetometro.
 
         Il magnetometro è molto sensibile essendo stato progettato per misurare il campo magnetico terrestre per agire come una bussola. È però sempre influenzato dal campo magnetico del tuo telefono, il che può determinare risultati sbagliati. Phyphox prova perciò a ottenere, grazie al suo sistema, un campo magnetico più calibrato possibile. In alcuni casi potresti non ricevere dati, sei il telefono non è ancora calibrato (per esempio poco dopo l'accensione del telefono). In questo caso fai ruotare il tuo telefono un po' di volte mentre è in corso l'esperimento. Quest'operazione aiuta il sistema a calibrare il sensore. Inoltre, su molti dispositivi (non tutti) puoi passare ai dati non calibrati  del magnetometro tramite il menù in alto a destra.
 

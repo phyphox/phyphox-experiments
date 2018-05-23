@@ -87,7 +87,7 @@
     <translation locale="it">
       <title>Accelerazione (senza g)</title>
       <category>Sensori</category>
-      <description>Ottiene i dati dall'accelerometro sottraendo l'accelerazione di gravità. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
+      <description>Legge i dati dall'accelerometro sottraendo l'accelerazione di gravità. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
       <string original="Graph">Grafico</string>
       <string original="Linear Acceleration x">Accelerazione x</string>
       <string original="Linear Acceleration y">Accelerazione y</string>
