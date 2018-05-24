@@ -155,8 +155,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container size="32768">recording_subrange</container>
     <container>recording_length</container>
     <container init="2048">samples</container>
-    <container>actual_samples</container>
+    <container>actual_samples/2</container>
+    <container>actual_samples/2+1</container>
     <container>actual_samples+1</container>
+    <container>actual_samples</container>
     <container>subrange_start</container>
     <container>period</container>
     <container size="32768">time</container>
@@ -323,7 +325,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       </graph>
     </view>
   </views>
-  <analysis sleep="0.02" dynamicSleep="period">
+  <analysis sleep="0.05" dynamicSleep="period">
     <timer>
         <output>t</output>
     </timer>
@@ -333,12 +335,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
         <output>timeline</output>
     </const>
 
-
-    <divide>
-      <input clear="false">rate</input>
-      <input type="value">2</input>
-      <output>rate/2</output>
-    </divide>
     <count>
       <input clear="false">recording</input>
       <output>recording_length</output>
@@ -364,9 +360,27 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     </add>
     <divide>
       <input clear="false">actual_samples</input>
+      <input type="value">2</input>
+      <output>actual_samples/2</output>
+    </divide>
+
+    <add>
+      <input clear="false">actual_samples/2</input>
+      <input type="value">1</input>
+      <output>actual_samples/2+1</output>
+    </add>
+
+    <divide>
+      <input clear="false">actual_samples</input>
       <input clear="false">rate</input>
       <output>period</output>
     </divide>
+    <divide>
+      <input clear="false">rate</input>
+      <input type="value">2</input>
+      <output>rate/2</output>
+    </divide>
+
     <ramp>
       <input as="start" type="value">0</input>
       <input as="stop" clear="false">period</input>
@@ -375,8 +389,8 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     </ramp>
     <ramp>
       <input as="start" type="value">0</input>
-      <input as="stop" clear="false">rate</input>
-      <input as="length" clear="false">actual_samples+1</input>
+      <input as="stop" clear="false">rate/2</input>
+      <input as="length" clear="false">actual_samples/2+1</input>
       <output>frequency</output>
     </ramp>
     <fft>
@@ -384,16 +398,16 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <output as="re">fftX</output>
       <output as="im">fftY</output>
     </fft>
-    <rangefilter>
+    <subrange>
+      <input type="value" as="from">1</input>
+      <input clear="false" as="to">actual_samples/2</input>
       <input as="in">frequency</input>
-      <input as="min" type="value">0.001</input>
-      <input as="max" clear="false">rate/2</input>
       <input as="in">fftX</input>
       <input as="in">fftY</input>
       <output>halfFrequency</output>
       <output>halfFFTtempX</output>
       <output>halfFFTtempY</output>
-    </rangefilter>
+    </subrange>
     <formula formula="sqrt([1_]*[1_]+[2_]*[2_])">
       <input>halfFFTtempX</input>
       <input>halfFFTtempY</input>
@@ -419,7 +433,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     </log>
     <divide>
       <input>logRatio</input>
-      <input>log2</input>
+      <input clear="false">log2</input>
       <output>log2Ratio</output>
     </divide>
     <multiply>
