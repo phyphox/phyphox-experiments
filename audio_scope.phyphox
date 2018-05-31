@@ -87,9 +87,9 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     <container size="2">triggerTMinList</container>
     <container>triggerT</container>
     <container>triggerTend</container>
-    <container size="24000">subtime</container>
     <container size="24000">subdata</container>
     <container init="10">length</container>
+    <container>lengthSamples</container>
     <container>sleep1000</container>
     <container init="0.1">sleep</container>
     <container init="0.1">effective_sleep</container>
@@ -141,31 +141,34 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <output>time</output>
     </ramp>
     <append>
-      <input type="value">50</input>
+      <input type="value">2400</input>
       <output>triggerTMinList</output>
     </append>
     <threshold falling="false">
       <input as="y" clear="false">recording</input>
-      <input as="x" clear="false">time</input>
       <output clear="false">triggerTMinList</output>
     </threshold>
     <min>
       <input as="y">triggerTMinList</input>
       <output as="min">triggerT</output>
     </min>
+    <multiply>
+        <input clear="false">length</input>
+        <input clear="false">rate</input>
+        <input type="value">0.001</input>
+        <output>lengthSamples</output>
+    </multiply>
     <add>
       <input clear="false">triggerT</input>
-      <input clear="false">length</input>
+      <input clear="false">lengthSamples</input>
       <output>triggerTend</output>
     </add>
-    <rangefilter>
-      <input clear="false">time</input>
-      <input as="min">triggerT</input>
-      <input as="max">triggerTend</input>
+    <subrange>
+      <input as="from">triggerT</input>
+      <input as="to">triggerTend</input>
       <input>recording</input>
-      <output>subtime</output>
       <output>subdata</output>
-    </rangefilter>
+    </subrange>
     <match>
       <input clear="false">time</input>
       <input clear="false">subdata</input>
