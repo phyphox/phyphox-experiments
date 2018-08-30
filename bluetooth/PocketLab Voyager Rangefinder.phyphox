@@ -1,48 +1,53 @@
-<phyphox version="1.6">
-    <title>Rangefinder</title>
-    <category>PocketLab Voyager</category>
-    <description>First rangefinder test</description>
+<phyphox version="1.7">
+    <title>PocketLab Voyager Rangefinder</title>
+    <category>Bluetooth</category>
+    <description>Simple readings from the rangefinder of a PocketLab Voyager.</description>
     <data-containers>
-        <container size="0">d</container>
         <container size="0">dRaw</container>
         <container size="0">dCal</container>
-        <container size="0">tRaw</container>
         <container size="0">t</container>
-        <container size="0">t2Raw</container>
-        <container size="0">xRaw</container>
-        <container size="0">yRaw</container>
-        <container size="0">zRaw</container>
-        <container size="0">x</container>
-        <container size="0">y</container>
-        <container size="0">z</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
     </data-containers>
     <input>
         <bluetooth name="PL Voyager" mode="notification">
             <config char="F000AA12-0452-4000-B000-000000000000" conversion="hexadecimal">0132</config>
             <output char="F000AA13-0452-4000-B000-000000000000" conversion="int16BigEndian">dRaw</output>
-            <output char="F000AA13-0452-4000-B000-000000000000" extra="time">tRaw</output>
         </bluetooth>
     </input>
     <views>
         <view label="Rangefinder">
-            <graph label="PocketLab Voyager Rangefinder" labelX="t" unitX="s" labelY="distance" unitY="m" partialUpdate="true">
+            <graph label="PocketLab Voyager Rangefinder" labelX="t" unitX="s" labelY="distance" unitY="m" minY="0" maxY="2.3" scaleMinY="fixed" scaleMaxY="fixed" partialUpdate="true">
                 <input axis="x">t</input>
-                <input axis="y">d</input>
+                <input axis="y">dCal</input>
             </graph>
         </view>
     </views>
-    <analysis>
+    <analysis optimization="true">
         <multiply>
             <input clear="false">dRaw</input>
             <input type="value">0.001</input> <!-- 2.3 / 0x1ffe -->
             <output clear="true">dCal</output>
         </multiply>
-        <rangefilter>
-            <input clear="false">tRaw</input>
-            <input clear="false">dCal</input>
-            <input as="max" type="value">2.4</input>
+        <count>
+            <input clear="false">dRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.02">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
             <output>t</output>
-            <output>d</output>
-        </rangefilter>
+        </ramp>
     </analysis>
+    <export>
+        <set name="Rangefinder">
+            <data name="Time (s)">t</data>
+            <data name="Distance (m)">dCal</data>
+        </set>
+    </export>
 </phyphox>

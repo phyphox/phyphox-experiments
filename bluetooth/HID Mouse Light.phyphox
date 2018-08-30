@@ -1,15 +1,17 @@
-<phyphox version="1.0">
+<phyphox version="1.7">
     <title>HID Mouse: Illuminance vs. distance</title>
     <category>Bluetooth</category>
-    <description>Measure illuminance as a function of the distance tracked by a mouse.</description>
+    <description>
+        Measure illuminance as a function of the distance tracked by a mouse.
+    </description>
     <data-containers>
         <container size="1">last</container>
         <container size="0">tempAll</container>
         <container size="0">-tempAll</container>
         <container size="0">new</container>
         <container size="1">count</container>
-        <container size="0">dx</container>
-        <container size="0">dy</container>
+        <container size="1000">dx</container>
+        <container size="1000">dy</container>
         <container size="0" init="0">x</container>
         <container size="0" init="0">y</container>
 
@@ -22,12 +24,6 @@
 
         <container size="0">dHist</container>
         <container size="0">illumHist</container>
-
-        <container size="1">offset</container>
-        <container size="0">dHistOff</container>
-        <container size="0">d2Hist</container>
-        <container size="0">1/d2Hist</container>
-
         
     </data-containers>
     <input>
@@ -42,21 +38,12 @@
     </input>
     <views>
         <view label="Illuminance">
-            <value label="Distance from start" unit="a.u.">
-                <input>d</input>
-            </value>
-            <edit label="Offset" unit="a.u.">
-                <output>offset</output>
-            </edit>
             <graph label="Illuminance" labelX="d" unitX="a.u." labelY="Ev" unitY="lx">
                 <input axis="y">illumHist</input>
-                <input axis="x">dHistOff</input>
+                <input axis="x">dHist</input>
             </graph>
-
-            <graph label="Inverse Square Plot" labelX="1/d²" unitX="a.u." labelY="Ev" unitY="lx">
-                <input axis="y">illumHist</input>
-                <input axis="x">1/d2Hist</input>
-            </graph>
+            <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
+            <info label="A new data point is only generated when the illuminance changes. On some devices, the light sensor is rather insensitive, which leads to rough curves and an unresponsive feel." />
         </view>
         <view label="Mouse">
             <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
@@ -65,7 +52,7 @@
             </graph>
         </view>
     </views>
-    <analysis>
+    <analysis optimization="true">
         <append>
             <input clear="false">x</input>
             <output>last</output>
@@ -157,23 +144,13 @@
             <output clear="false">dHist</output>
         </if>
 
-        <add>
-            <input clear="false">dHist</input>
-            <input clear="false">offset</input>
-            <output>dHistOff</output>
-        </add>
-
-        <multiply>
-            <input clear="false">dHistOff</input>
-            <input clear="false">dHistOff</input>
-            <output>d2Hist</output>
-        </multiply>
-
-        <divide>
-            <input type="value">1</input>
-            <input clear="false">d2Hist</input>
-            <output>1/d2Hist</output>
-        </divide>
-
     </analysis>
+
+    <export>
+        <set name="Illuminance-Distance">
+            <data name="d (a.u.)">dHist</data>
+            <data name="Ev (lx)">illumHist</data>
+        </set>
+    </export>
+
 </phyphox>

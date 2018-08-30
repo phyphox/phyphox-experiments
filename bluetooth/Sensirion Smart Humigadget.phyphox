@@ -1,0 +1,39 @@
+<phyphox version="1.7">
+    <title>Sensirion Smart Humigadget</title>
+    <category>Bluetooth</category>
+    <description>Read temperature and humidity from the Sensirion Smart Humigadget</description>
+    <data-containers>
+        <container size="0">t</container>
+        <container size="0">T</container>
+        <container size="0">Tt</container>
+        <container size="0">hum</container>
+    </data-containers>
+    <input>
+        <bluetooth name="Smart Humigadget" mode="notification">
+            <output char="00001235-B38D-4985-720E-0F993A68EE41" conversion="float32LittleEndian">hum</output>
+            <output char="00001235-B38D-4985-720E-0F993A68EE41" extra="time">t</output>
+            <output char="00002235-B38D-4985-720E-0F993A68EE41" conversion="float32LittleEndian">T</output>
+            <output char="00002235-B38D-4985-720E-0F993A68EE41" extra="time">Tt</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Temperature" labelX="t (s)" labelY="T (°C)" partialUpdate="true">
+                <input axis="y">T</input>
+                <input axis="x">Tt</input>
+            </graph>
+            <graph label="Humidity" labelX="t (s)" labelY="rel. humidity (%)" partialUpdate="true">
+                <input axis="y">hum</input>
+                <input axis="x">t</input>
+            </graph>
+        </view>
+    </views>
+    <export>
+        <set name="Sensirion Smart Humigadget">
+            <data name="Time (s)">Tt</data>
+            <data name="Temperature (°C)">T</data>
+            <data name="Time (s)">t</data>
+            <data name="Humidity (%)">hum</data>
+        </set>
+    </export>
+</phyphox>

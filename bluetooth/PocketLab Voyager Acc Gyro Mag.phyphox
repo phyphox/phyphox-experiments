@@ -1,0 +1,123 @@
+<phyphox version="1.7">
+    <title>PocketLab Voyager Accel/Gyro</title>
+    <category>Bluetooth</category>
+    <description>Simple readings from the accelerometer and gyroscope of a PocketLab Voyager.</description>
+    <data-containers>
+        <container size="0">accXRaw</container>
+        <container size="0">accXCal</container>
+        <container size="0">accYRaw</container>
+        <container size="0">accYCal</container>
+        <container size="0">accZRaw</container>
+        <container size="0">accZCal</container>
+        <container size="0">gyrXRaw</container>
+        <container size="0">gyrXCal</container>
+        <container size="0">gyrYRaw</container>
+        <container size="0">gyrYCal</container>
+        <container size="0">gyrZRaw</container>
+        <container size="0">gyrZCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="PL Voyager" mode="notification">
+            <config char="F000AA14-0452-4000-B000-000000000000" conversion="hexadecimal">0132</config>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="0">accYRaw</output>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="2">accXRaw</output>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="4">accZRaw</output>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="6">gyrYRaw</output>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="8">gyrXRaw</output>
+            <output char="F000AA15-0452-4000-B000-000000000000" conversion="int16BigEndian" offset="10">gyrZRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Accelerometer">
+            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accXCal</input>
+            </graph>
+            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accYCal</input>
+            </graph>
+            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accZCal</input>
+            </graph>
+        </view>
+        <view label="Gyroscope">
+            <graph label="Angular velocity x" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">gyrXCal</input>
+            </graph>
+            <graph label="Angular velocity y" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">gyrYCal</input>
+            </graph>
+            <graph label="Angular velocity z" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">gyrZCal</input>
+            </graph>
+        </view>
+
+    </views>
+    <analysis optimization="true">
+        <multiply>
+            <input clear="false">accXRaw</input>
+            <input type="value">0.004790039</input> <!-- 9.81/2048 -->
+            <output clear="true">accXCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accYRaw</input>
+            <input type="value">0.004790039</input> <!-- 9.81/2048 -->
+            <output clear="true">accYCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accZRaw</input>
+            <input type="value">0.004790039</input> <!-- 9.81/2048 -->
+            <output clear="true">accZCal</output>
+        </multiply>
+
+        <multiply>
+            <input clear="false">gyrXRaw</input>
+            <input type="value">0.001065264</input> <!-- 2000 * 2*pi / 360 / 32768 -->
+            <output clear="true">gyrXCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">gyrYRaw</input>
+            <input type="value">0.001065264</input> <!-- 2000 * 2*pi / 360 / 32768 -->
+            <output clear="true">gyrYCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">gyrZRaw</input>
+            <input type="value">0.001065264</input> <!-- 2000 * 2*pi / 360 / 32768 -->
+            <output clear="true">gyrZCal</output>
+        </multiply>
+
+        <count>
+            <input clear="false">accXRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.02">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Rangefinder">
+            <data name="Time (s)">t</data>
+            <data name="Acceleration x (m/s²)">accXCal</data>
+            <data name="Acceleration y (m/s²)">accYCal</data>
+            <data name="Acceleration z (m/s²)">accZCal</data>
+            <data name="Angular velocity x (rad/s)">gyrXCal</data>
+            <data name="Angular velocity y (rad/s)">gyrYCal</data>
+            <data name="Angular velocity z (rad/s)">gyrZCal</data>
+        </set>
+    </export>
+</phyphox>

@@ -1,15 +1,17 @@
-<phyphox version="1.0">
+<phyphox version="1.7">
     <title>HID Mouse</title>
     <category>Bluetooth</category>
-    <description>A generic mouse in boot protocol mode.</description>
+    <description>A generic HID mouse in boot protocol mode.</description>
     <data-containers>
         <container size="1">last</container>
-        <container size="0">tempAll</container>
-        <container size="0">-tempAll</container>
-        <container size="0">new</container>
+        <container size="1000">new</container>
+        <container size="1000">newInt</container>
+        <container size="1000">newInt+last</container>
         <container size="1">count</container>
         <container size="0">dx</container>
         <container size="0">dy</container>
+        <container size="1000">-dy</container>
+        <container size="0">t</container>
         <container size="0" init="0">x</container>
         <container size="0" init="0">y</container>
     </data-containers>
@@ -17,39 +19,85 @@
         <bluetooth uuid="00001812-0000-1000-8000-00805f9b34fb" mode="notification">
             <config char="00002A4e-0000-1000-8000-00805F9B34FB"  conversion="hexadecimal">00</config>
             <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="1" length="1" conversion="int8">dx</output>
-            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="int8">dy</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" offset="2" length="1" conversion="int8">-dy</output>
+            <output char="00002A33-0000-1000-8000-00805F9B34FB" extra="time">t</output>
         </bluetooth>
     </input>
     <views>
-        <view label="Raw Data">
-            <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
+        <view label="Distance">
+            <graph label="Integrated Distance x" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
+                <input axis="y">x</input>
+                <input axis="x">t</input>
+            </graph>
+            <graph label="Integrated Distance y" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
+                <input axis="y">y</input>
+                <input axis="x">t</input>
+            </graph>
+            <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
+        </view>
+        <view label="Position 2D">
+            <graph label="Integrated Position" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
                 <input axis="y">y</input>
                 <input axis="x">x</input>
             </graph>
+            <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
+        </view>
+        <view label="Raw Data">
+            <graph label="Reported Differences x" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
+                <input axis="y">dx</input>
+                <input axis="x">t</input>
+            </graph>
+            <graph label="Reported Differences y" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
+                <input axis="y">dy</input>
+                <input axis="x">t</input>
+            </graph>
+            <info label="Mice do not report absolute position, but differences. These do not necessarily represent velocity as they may be reported over different time intervals." />
+        </view>
+        <view label="Raw 2D">
+            <graph label="Reported Differences" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
+                <input axis="y">dy</input>
+                <input axis="x">dx</input>
+            </graph>
+            <info label="Mice do not report absolute position, but differences. These do not necessarily represent velocity as they may be reported over different time intervals." />
         </view>
     </views>
-    <analysis>
+    <analysis optimization="true">
+        <multiply>
+            <input>-dy</input>
+            <input type="value">-1</input>
+            <output clear="false">dy</output>
+        </multiply>
+
         <append>
             <input clear="false">x</input>
             <output>last</output>
         </append>
-        <integrate>
-            <input>dx</input>
-            <output>tempAll</output>
-        </integrate>
         <count>
-            <input clear="false">tempAll</input>
+            <input clear="false">x</input>
             <output>count</output>
         </count>
-        <add>
-            <input>tempAll</input>
-            <input>last</input>
+        <subrange>
+            <input as="from">count</input>
+            <input clear="false">dx</input>
             <output>new</output>
+        </subrange>
+        <count>
+            <input clear="false">new</input>
+            <output>count</output>
+        </count>
+        <integrate>
+            <input>new</input>
+            <output>newInt</output>
+        </integrate>
+        <add>
+            <input>newInt</input>
+            <input>last</input>
+            <output>newInt+last</output>
         </add>
         <if greater="true">
             <input>count</input>
             <input type="value">0</input>
-            <input>new</input>
+            <input>newInt+last</input>
             <output clear="false">x</output>
         </if>
 
@@ -57,30 +105,42 @@
             <input clear="false">y</input>
             <output>last</output>
         </append>
-        <integrate>
-            <input>dy</input>
-            <output>tempAll</output>
-        </integrate>
-        <multiply>
-            <input clear="false">tempAll</input>
-            <input type="value">-1</input>
-            <output>-tempAll</output>
-        </multiply>
         <count>
-            <input clear="false">tempAll</input>
+            <input clear="false">y</input>
             <output>count</output>
         </count>
-        <add>
-            <input>-tempAll</input>
-            <input>last</input>
+        <subrange>
+            <input as="from">count</input>
+            <input clear="false">dy</input>
             <output>new</output>
+        </subrange>
+        <count>
+            <input clear="false">new</input>
+            <output>count</output>
+        </count>
+        <integrate>
+            <input>new</input>
+            <output>newInt</output>
+        </integrate>
+        <add>
+            <input>newInt</input>
+            <input>last</input>
+            <output>newInt+last</output>
         </add>
         <if greater="true">
             <input>count</input>
             <input type="value">0</input>
-            <input>new</input>
+            <input>newInt+last</input>
             <output clear="false">y</output>
         </if>
-
     </analysis>
+    <export>
+        <set name="Mouse data">
+            <data name="Time (s)">t</data>
+            <data name="dx (a.u.)">dx</data>
+            <data name="dy (a.u.)">dy</data>
+            <data name="x (a.u.)">x</data>
+            <data name="y (a.u.)">y</data>
+        </set>
+    </export>
 </phyphox>

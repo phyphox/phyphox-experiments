@@ -1,15 +1,17 @@
-<phyphox version="1.0">
+<phyphox version="1.7">
     <title>HID Mouse: B-field vs. distance</title>
     <category>Bluetooth</category>
-    <description>Measure magnetic fields as a function of the distance tracked by a mouse.</description>
+    <description>
+        Measure magnetic fields as a function of the distance tracked by a mouse.
+    </description>
     <data-containers>
         <container size="1">last</container>
         <container size="0">tempAll</container>
         <container size="0">-tempAll</container>
         <container size="0">new</container>
         <container size="1">count</container>
-        <container size="0">dx</container>
-        <container size="0">dy</container>
+        <container size="1000">dx</container>
+        <container size="1000">dy</container>
         <container size="0" init="0">x</container>
         <container size="0" init="0">y</container>
 
@@ -50,7 +52,7 @@
                 <input axis="y">BHist</input>
                 <input axis="x">dHist</input>
             </graph>
-
+            <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
         </view>
         <view label="x/y/z">
             <graph label="Magnetic field x" labelX="d" unitX="a.u." labelY="Bx" unitY="mT">
@@ -66,7 +68,7 @@
                 <input axis="y">BzHist</input>
                 <input axis="x">dHist</input>
             </graph>
-
+            <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
         </view>
         <view label="Mouse">
             <graph label="Integrated Movement" labelX="x" unitX="a.u." labelY="y" unitY="a.u." aspectRatio="1">
@@ -75,7 +77,7 @@
             </graph>
         </view>
     </views>
-    <analysis>
+    <analysis optimization="true">
         <append>
             <input clear="false">x</input>
             <output>last</output>
@@ -187,4 +189,13 @@
 
 
     </analysis>
+
+    <export>
+        <set name="Illuminance-Distance">
+            <data name="d (a.u.)">dHist</data>
+            <data name="Bx (mT)">BxHist</data>
+            <data name="By (mT)">ByHist</data>
+            <data name="Bz (mT)">BzHist</data>
+        </set>
+    </export>
 </phyphox>
