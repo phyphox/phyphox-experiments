@@ -1,6 +1,6 @@
 <phyphox version="1.7">
-    <title>PocketLab Voyager Accel/Gyro</title>
-    <category>Bluetooth</category>
+    <title>Accelerometer and Gyroscope</title>
+    <category>PocketLab Voyager</category>
     <description>Simple readings from the accelerometer and gyroscope of a PocketLab Voyager.</description>
     <data-containers>
         <container size="0">accXRaw</container>
@@ -110,7 +110,7 @@
         </ramp>
     </analysis>
     <export>
-        <set name="Rangefinder">
+        <set name="IMU">
             <data name="Time (s)">t</data>
             <data name="Acceleration x (m/s²)">accXCal</data>
             <data name="Acceleration y (m/s²)">accYCal</data>

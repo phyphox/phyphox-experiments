@@ -1,0 +1,67 @@
+<phyphox version="1.7">
+    <title>IR Temperature (early models only)</title>
+    <category>Texas Instruments SensorTag CC2650</category>
+    <description>Read the ambient and object temperature from the IR temperature sensor found on early versions of the Texas Instruments CC2650 SensorTag</description>
+    <data-containers>
+        <container size="0">objRaw</container>
+        <container size="0">ambRaw</container>
+        <container size="0">objCal</container>
+        <container size="0">ambCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA03-0451-4000-B000-000000000000" conversion="hexadecimal">1E</config>
+            <config char="F000AA02-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
+            <output char="F000AA01-0451-4000-B000-000000000000" conversion="uInt16LittleEndian" offset="0" length="2">objRaw</output>
+            <output char="F000AA01-0451-4000-B000-000000000000" conversion="uInt16LittleEndian" offset="2" length="2">ambRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Ambient temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">ambCal</input>
+            </graph>
+            <graph label="Object Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">objCal</input>
+            </graph>
+        </view>
+    </views>
+    <analysis optimization="true">
+        <formula formula="floor([1_]/4)*0.03125">
+            <input clear="false">ambRaw</input>
+            <output clear="true">ambCal</output>
+        </formula>
+
+        <formula formula="floor([1_]/4)*0.03125">
+            <input clear="false">objRaw</input>
+            <output clear="true">objCal</output>
+        </formula>
+
+        <count>
+            <input clear="false">ambRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.3">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Humidity">
+            <data name="Time (s)">t</data>
+            <data name="Ambient temperature (°C)">ambCal</data>
+            <data name="Object temperature (°C)">objCal</data>
+        </set>
+    </export>
+</phyphox>

@@ -1,0 +1,68 @@
+<phyphox version="1.7">
+    <title>Pressure and Temperature</title>
+    <category>Texas Instruments SensorTag CC2650</category>
+    <description>Read the pressure and temperature of the Texas Instruments CC2650 SensorTag</description>
+    <data-containers>
+        <container size="0">tempRaw</container>
+        <container size="0">pRaw</container>
+        <container size="0">tempCal</container>
+        <container size="0">pCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA44-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
+            <config char="F000AA42-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
+            <output char="F000AA41-0451-4000-B000-000000000000" conversion="uInt24LittleEndian" offset="3" length="3">pRaw</output>
+            <output char="F000AA41-0451-4000-B000-000000000000" conversion="uInt24LittleEndian" offset="0" length="3">tempRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">pCal</input>
+            </graph>
+            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">tempCal</input>
+            </graph>
+        </view>
+    </views>
+    <analysis optimization="true">
+        <multiply>
+            <input clear="false">tempRaw</input>
+            <input type="value">0.01</input>
+            <output clear="true">tempCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">pRaw</input>
+            <input type="value">0.01</input>
+            <output clear="true">pCal</output>
+        </multiply>
+
+        <count>
+            <input clear="false">tempRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.1">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Humidity">
+            <data name="Time (s)">t</data>
+            <data name="Pressure (hPa)">pCal</data>
+            <data name="Temperature (°C)">tempCal</data>
+        </set>
+    </export>
+</phyphox>

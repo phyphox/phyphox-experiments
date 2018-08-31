@@ -1,0 +1,66 @@
+<phyphox version="1.7">
+    <title>Humidity and Temperature</title>
+    <category>Texas Instruments SensorTag CC2650</category>
+    <description>Read the humidity and temperature of the Texas Instruments CC2650 SensorTag</description>
+    <data-containers>
+        <container size="0">tempRaw</container>
+        <container size="0">humRaw</container>
+        <container size="0">tempCal</container>
+        <container size="0">humCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA23-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
+            <config char="F000AA22-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
+            <output char="F000AA21-0451-4000-B000-000000000000" conversion="uInt16LittleEndian" offset="2" length="2">humRaw</output>
+            <output char="F000AA21-0451-4000-B000-000000000000" conversion="uInt16LittleEndian" offset="0" length="2">tempRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Relative Humidity" labelX="t" unitX="s" labelY="Humidity" unitY="%" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">humCal</input>
+            </graph>
+            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">tempCal</input>
+            </graph>
+        </view>
+    </views>
+    <analysis optimization="true">
+        <formula formula="[1_]/65536*165-40">
+            <input clear="false">tempRaw</input>
+            <output clear="true">tempCal</output>
+        </formula>
+        <formula formula="floor([1_]/4)*4/65536*100"> <!-- floor([1_]/4)*4 removes the last two bits -->
+            <input clear="false">humRaw</input>
+            <output clear="true">humCal</output>
+        </formula>
+
+        <count>
+            <input clear="false">tempRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.1">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Humidity">
+            <data name="Time (s)">t</data>
+            <data name="Humidity (%)">humCal</data>
+            <data name="Temperature (°C)">tempCal</data>
+        </set>
+    </export>
+</phyphox>

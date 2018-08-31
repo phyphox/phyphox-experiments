@@ -1,6 +1,6 @@
 <phyphox version="1.7">
-    <title>PocketLab Voyager Rangefinder</title>
-    <category>Bluetooth</category>
+    <title>Rangefinder</title>
+    <category>PocketLab Voyager</category>
     <description>Simple readings from the rangefinder of a PocketLab Voyager.</description>
     <data-containers>
         <container size="0">dRaw</container>

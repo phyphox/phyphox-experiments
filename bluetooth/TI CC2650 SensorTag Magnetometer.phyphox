@@ -1,0 +1,81 @@
+<phyphox version="1.7">
+    <title>Magnetometer</title>
+    <category>Texas Instruments SensorTag CC2650</category>
+    <description>Read the magnetometer of the Texas Instruments CC2650 SensorTag</description>
+    <data-containers>
+        <container size="0">magXRaw</container>
+        <container size="0">magYRaw</container>
+        <container size="0">magZRaw</container>
+        <container size="0">magXCal</container>
+        <container size="0">magYCal</container>
+        <container size="0">magZCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="CC2650 SensorTag" mode="notification">
+            <config char="F000AA83-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
+            <config char="F000AA82-0451-4000-B000-000000000000" conversion="hexadecimal">4000</config>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="12" length="2">magXRaw</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="14" length="2">magYRaw</output>
+            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="16" length="2">magZRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Raw Data">
+            <graph label="Magnetic field X" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magXCal</input>
+            </graph>
+            <graph label="Magnetic field Y" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magYCal</input>
+            </graph>
+            <graph label="Magnetic field Z" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">magZCal</input>
+            </graph>
+        </view>
+    </views>
+    <analysis optimization="true">
+        <multiply>
+            <input clear="false">magXRaw</input>
+            <input type="value">0.001</input> <!-- µT -> mT -->
+            <output clear="true">magXCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magYRaw</input>
+            <input type="value">0.001</input>
+            <output clear="true">magYCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magZRaw</input>
+            <input type="value">0.001</input>
+            <output clear="true">magZCal</output>
+        </multiply>
+
+        <count>
+            <input clear="false">magXRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.1">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Magnetometer">
+            <data name="Time (s)">t</data>
+            <data name="Magnetic field x (mT)">magXCal</data>
+            <data name="Magnetic field y (mT)">magYCal</data>
+            <data name="Magnetic field z (mT)">magZCal</data>
+        </set>
+    </export>
+</phyphox>

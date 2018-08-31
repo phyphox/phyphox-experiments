@@ -1,57 +1,58 @@
 <phyphox version="1.7">
     <title>Accelerometer</title>
-    <category>Texas Instruments SensorTag CC2650</category>
-    <description>Read the accelerometer of the Texas Instruments CC2650 SensorTag</description>
+    <category>PocketLab One</category>
+    <description>Simple readings from the accelerometer of a PocketLab One.</description>
     <data-containers>
         <container size="0">accXRaw</container>
-        <container size="0">accYRaw</container>
-        <container size="0">accZRaw</container>
         <container size="0">accXCal</container>
+        <container size="0">accYRaw</container>
         <container size="0">accYCal</container>
+        <container size="0">accZRaw</container>
         <container size="0">accZCal</container>
         <container size="0">t</container>
         <container size="1">count</container>
         <container size="1">tmax</container>
     </data-containers>
     <input>
-        <bluetooth name="CC2650 SensorTag" mode="notification">
-            <config char="F000AA83-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
-            <config char="F000AA82-0451-4000-B000-000000000000" conversion="hexadecimal">3802</config>
-            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="6" length="2">accXRaw</output>
-            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="8" length="2">accYRaw</output>
-            <output char="F000AA81-0451-4000-B000-000000000000" conversion="int16LittleEndian" offset="10" length="2">accZRaw</output>
+        <bluetooth name="MS-PL" mode="notification">
+            <config char="F000AA12-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
+            <config char="F000AA13-0451-4000-B000-000000000000" conversion="hexadecimal">05</config>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="0">accYRaw</output>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="2">accXRaw</output>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="4">accZRaw</output>
         </bluetooth>
     </input>
     <views>
-        <view label="Raw Data">
-            <graph label="Acceleration X" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+        <view label="Accelerometer">
+            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accXCal</input>
             </graph>
-            <graph label="Acceleration Y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accYCal</input>
             </graph>
-            <graph label="Acceleration Z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accZCal</input>
             </graph>
         </view>
+
     </views>
     <analysis optimization="true">
         <multiply>
             <input clear="false">accXRaw</input>
-            <input type="value">0.00239502</input> <!-- 9.81 / 32768 * 8 -->
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
             <output clear="true">accXCal</output>
         </multiply>
         <multiply>
             <input clear="false">accYRaw</input>
-            <input type="value">0.00239502</input>
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
             <output clear="true">accYCal</output>
         </multiply>
         <multiply>
             <input clear="false">accZRaw</input>
-            <input type="value">0.00239502</input>
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
             <output clear="true">accZCal</output>
         </multiply>
 
@@ -59,7 +60,7 @@
             <input clear="false">accXRaw</input>
             <output>count</output>
         </count>
-        <formula formula="([1]-1)*0.1">
+        <formula formula="([1]-1)*0.05">
             <input clear="false">count</input>
             <output>tmax</output>
         </formula>
