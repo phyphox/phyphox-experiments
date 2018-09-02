@@ -147,8 +147,11 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
     <container size="100">speed</container>
     <container size="100">time_res</container>
     <container size="0">frequency_hist</container>
+    <container size="0">frequency_hist_filtered</container>
     <container size="0">speed_hist</container>
+    <container size="0">speed_hist_filtered</container>
     <container size="0">time_hist</container>
+    <container size="0">time_hist_filtered</container>
   </data-containers>
   <input>
     <audio>
@@ -178,12 +181,12 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
     </view>
     <view label="Results">
       <graph label="Frequency" labelX="t" unitX="s" labelY="Frequency" unitY="Hz" partialUpdate="true">
-        <input axis="x">time_hist</input>
-        <input axis="y">frequency_hist</input>
+        <input axis="x">time_hist_filtered</input>
+        <input axis="y">frequency_hist_filtered</input>
       </graph>
       <graph label="Speed" labelX="t" unitX="s" labelY="Speed" unitY="m/s" partialUpdate="true" color="ffff00">
-        <input axis="x">time_hist</input>
-        <input axis="y">speed_hist</input>
+        <input axis="x">time_hist_filtered</input>
+        <input axis="y">speed_hist_filtered</input>
       </graph>
     </view>
   </views>
@@ -246,12 +249,12 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
     </multiply>
     <divide>
       <input clear="false">temp1</input>
-      <input>minf</input>
+      <input clear="false">minf</input>
       <output>maxPeriod</output>
     </divide>
     <divide>
       <input>temp1</input>
-      <input>maxf</input>
+      <input clear="false">maxf</input>
       <output>minPeriod</output>
     </divide>
     <periodicity>
@@ -300,11 +303,22 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <input>startTime</input>
       <output clear="false">time_hist</output>
     </add>
+
+    <rangefilter>
+      <input as="min">minf</input>
+      <input as="max">maxf</input>
+      <input as="in" clear="false">frequency_hist</input>
+      <input as="in" clear="false">time_hist</input>
+      <input as="in" clear="false">speed_hist</input>
+      <output>frequency_hist_filtered</output>
+      <output>time_hist_filtered</output>
+      <output>speed_hist_filtered</output>
+    </rangefilter>
   </analysis>
   <export>
     <set name="Frequency and speed">
       <data name="Time (s)">time_hist</data>
-      <data name="Frequency (Hz)">frequency_hist</data>
+      <data name="Frequency (Hz)">frequency_hist_filtered</data>
       <data name="Speed (m/s)">speed_hist</data>
     </set>
   </export>
