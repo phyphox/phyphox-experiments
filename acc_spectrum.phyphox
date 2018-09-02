@@ -138,9 +138,9 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </translation>
   </translations>
   <data-containers>
-    <container size="0">accInX</container>
-    <container size="0">accInY</container>
-    <container size="0">accInZ</container>
+    <container size="4096">accInX</container>
+    <container size="4096">accInY</container>
+    <container size="4096">accInZ</container>
     <container size="4096">accX</container>
     <container size="4096">accY</container>
     <container size="4096">accZ</container>
@@ -165,23 +165,23 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     <container size="1">dt</container>
     <container size="1">maxf</container>
     <container size="1">arate</container>
-    <container size="0">frequency</container>
-    <container size="0">fftXX</container>
-    <container size="0">fftYX</container>
-    <container size="0">fftZX</container>
-    <container size="0">fftXY</container>
-    <container size="0">fftYY</container>
-    <container size="0">fftZY</container>
-    <container size="0">halfFrequency</container>
-    <container size="0">halfFFTtempX</container>
-    <container size="0">halfFFTtempY</container>
-    <container size="0">halfFFTtempX2</container>
-    <container size="0">halfFFTtempY2</container>
-    <container size="0">fftX</container>
-    <container size="0">fftY</container>
-    <container size="0">fftZ</container>
-    <container size="0">fft2</container>
-    <container size="0">fft</container>
+    <container size="4096">frequency</container>
+    <container size="4096">fftXX</container>
+    <container size="4096">fftYX</container>
+    <container size="4096">fftZX</container>
+    <container size="4096">fftXY</container>
+    <container size="4096">fftYY</container>
+    <container size="4096">fftZY</container>
+    <container size="2048">halfFrequency</container>
+    <container size="2048">halfFFTtempX</container>
+    <container size="2048">halfFFTtempY</container>
+    <container size="2048">halfFFTtempX2</container>
+    <container size="2048">halfFFTtempY2</container>
+    <container size="2048">fftX</container>
+    <container size="2048">fftY</container>
+    <container size="2048">fftZ</container>
+    <container size="2048">fft2</container>
+    <container size="2048">fft</container>
     <container>f0</container>
 
     <container size="1">t</container>

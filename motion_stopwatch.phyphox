@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.7" locale="en">
   <title>Motion Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -22,13 +22,21 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <container>t</container>
     <container>limit</container>
     <container>max</container>
-    <container init="0">t0</container>
-    <container init="0">t1</container>
-    <container init="0">t2</container>
-    <container init="0">t3</container>
-    <container init="0">t4</container>
-    <container init="0">t5</container>
-    <container init="0">last</container>
+    <container>last</container>
+    <container size="0">tlist</container>
+    <container size="0">dtlist</container>
+    <container size="0">tindex</container>
+    <container size="1">tcount</container>
+    <container size="1">tcount-1</container>
+    <container>avgInterval</container>
+    <container>avgRate</container>
+    <container>avgBPM</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container>t2</container>
+    <container>t3</container>
+    <container>t4</container>
+    <container>t5</container>
     <container>t0effective</container>
     <container>t1effective</container>
     <container>t2effective</container>
@@ -189,18 +197,8 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
         <input>dt01</input>
       </value>
       <button label="Reset">
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <output>t0</output>
-        <output>t1</output>
-        <output>t2</output>
-        <output>t3</output>
-        <output>t4</output>
-        <output>t5</output>
+        <input type="empty" />
+        <output>tlist</output>
       </button>
       <separator height="1"/>
       <info label="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time."/>
@@ -225,18 +223,8 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       </value>
       <separator height="1"/>
       <button label="Reset">
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <output>t0</output>
-        <output>t1</output>
-        <output>t2</output>
-        <output>t3</output>
-        <output>t4</output>
-        <output>t5</output>
+        <input type="empty" />
+        <output>tlist</output>
       </button>
     </view>
     <view label="Parallel">
@@ -257,19 +245,28 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       </value>
       <separator height="1"/>
       <button label="Reset">
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <output>t0</output>
-        <output>t1</output>
-        <output>t2</output>
-        <output>t3</output>
-        <output>t4</output>
-        <output>t5</output>
+        <input type="empty" />
+        <output>tlist</output>
       </button>
+    </view>
+    <view label="Many">
+        <graph label="Events" labelX="Event number" labelY="Time interval (s)">
+            <input axis="x">tindex</input>
+            <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
+        </graph>
+        <value label="Average interval" size="2" precision="3" unit="s">
+            <input>avgInterval</input>
+        </value>
+        <value label="Average rate" size="2" precision="2" unit="Hz">
+            <input>avgRate</input>
+        </value>
+        <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">
+            <input>avgBPM</input>
+        </value>
+        <button label="Reset">
+            <input type="empty" />
+            <output>tlist</output>
+        </button>
     </view>
   </views>
   <analysis>
@@ -314,60 +311,28 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <output as="position">t</output>
       <output as="max">max</output>
     </max>
-    <if less="true" equal="true">
+    <if greater="true">
       <input clear="false">max</input>
       <input clear="false">threshold</input>
-      <input type="value">0</input>
       <input clear="false">t</input>
+      <input type="value">0</input>
       <output>t</output>
     </if>
-    <if less="true" equal="true">
-      <input clear="false">t0</input>
-      <input type="value">0</input>
-      <input type="value">0</input>
-      <input clear="false">t0</input>
-      <output>last</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t1</input>
-      <input type="value">0</input>
-      <input clear="false">last</input>
-      <input clear="false">t1</input>
-      <output>last</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t2</input>
-      <input type="value">0</input>
-      <input clear="false">last</input>
-      <input clear="false">t2</input>
-      <output>last</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t3</input>
-      <input type="value">0</input>
-      <input clear="false">last</input>
-      <input clear="false">t3</input>
-      <output>last</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t4</input>
-      <input type="value">0</input>
-      <input clear="false">last</input>
-      <input clear="false">t4</input>
-      <output>last</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t5</input>
-      <input type="value">0</input>
-      <input clear="false">last</input>
-      <input clear="false">t5</input>
-      <output>last</output>
-    </if>
+
+    <const>
+        <output>last</output>
+    </const>
+    <append>
+        <input clear="false">tlist</input>
+        <output clear="false">last</output>
+    </append>
+
     <add>
       <input clear="false">last</input>
       <input clear="false">mindelay</input>
       <output>limit</output>
     </add>
+
     <if less="true" equal="true">
       <input clear="false">limit</input>
       <input clear="false">t</input>
@@ -375,55 +340,112 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <input type="value">0</input>
       <output>t</output>
     </if>
-    <if less="true" equal="true">
+
+    <if greater="true">
       <input clear="false">t</input>
-      <input clear="false">last</input>
       <input type="value">0</input>
       <input clear="false">t</input>
-      <output>t</output>
+      <output clear="false">tlist</output>
     </if>
-    <if less="true">
-      <input clear="false">t5</input>
-      <input clear="false">t4</input>
-      <input clear="false">t</input>
-      <input clear="false">t5</input>
-      <output>t5</output>
-    </if>
-    <if less="true">
-      <input clear="false">t4</input>
-      <input clear="false">t3</input>
-      <input clear="false">t</input>
-      <input clear="false">t4</input>
-      <output>t4</output>
-    </if>
-    <if less="true">
-      <input clear="false">t3</input>
-      <input clear="false">t2</input>
-      <input clear="false">t</input>
-      <input clear="false">t3</input>
-      <output>t3</output>
-    </if>
-    <if less="true">
-      <input clear="false">t2</input>
-      <input clear="false">t1</input>
-      <input clear="false">t</input>
-      <input clear="false">t2</input>
-      <output>t2</output>
-    </if>
-    <if less="true">
-      <input clear="false">t1</input>
-      <input clear="false">t0</input>
-      <input clear="false">t</input>
-      <input clear="false">t1</input>
-      <output>t1</output>
-    </if>
-    <if less="true" equal="true">
-      <input clear="false">t0</input>
-      <input type="value">0</input>
-      <input clear="false">t</input>
-      <input clear="false">t0</input>
-      <output>t0</output>
-    </if>
+    <differentiate>
+        <input clear="false">tlist</input>
+        <output>dtlist</output>
+    </differentiate>
+    <average>
+        <input clear="false">dtlist</input>
+        <output>avgInterval</output>
+    </average>
+    <divide>
+        <input type="value">1</input>
+        <input clear="false">avgInterval</input>
+        <output>avgRate</output>
+    </divide>
+    <multiply>
+        <input clear="false">avgRate</input>
+        <input type="value">60</input>
+        <output>avgBPM</output>
+    </multiply>
+    <append>
+        <input type="value">0</input>
+        <output clear="false">dtlist</output>
+    </append>
+    <count>
+        <input clear="false">tlist</input>
+        <output>tcount</output>
+    </count>
+    <subtract>
+        <input clear="false">tcount</input>
+        <input type="value">1</input>
+        <output>tcount-1</output>
+    </subtract>
+    <ramp>
+        <input as="start" type="value">0</input>
+        <input as="stop">tcount-1</input>
+        <input as="length">tcount</input>
+        <output>tindex</output>
+    </ramp>
+
+    <const>
+        <output>t0</output>
+    </const>
+    <const>
+        <output>t1</output>
+    </const>
+    <const>
+        <output>t2</output>
+    </const>
+    <const>
+        <output>t3</output>
+    </const>
+    <const>
+        <output>t4</output>
+    </const>
+    <const>
+        <output>t5</output>
+    </const>
+
+    <subrange>
+        <input as="from" type="value">0</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t0</output>
+    </subrange>
+
+    <subrange>
+        <input as="from" type="value">1</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t1</output>
+    </subrange>
+
+    <subrange>
+        <input as="from" type="value">2</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t2</output>
+    </subrange>
+
+    <subrange>
+        <input as="from" type="value">3</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t3</output>
+    </subrange>
+
+    <subrange>
+        <input as="from" type="value">4</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t4</output>
+    </subrange>
+
+    <subrange>
+        <input as="from" type="value">5</input>
+        <input as="length" type="value">1</input>
+        <input as="in" clear="false">tlist</input>
+        <output clear="false">t5</output>
+    </subrange>
+
     <if less="true" equal="true">
       <input clear="false">t5</input>
       <input type="value">0</input>
@@ -525,6 +547,10 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <data name="Stop 3 (s)">t3</data>
       <data name="Stop 4 (s)">t4</data>
       <data name="Stop 5 (s)">t5</data>
+    </set>
+    <set name="All">
+      <data name="Event time (s)">tlist</data>
+      <data name="Interval (s)">dtlist</data>
     </set>
   </export>
 </phyphox>

@@ -183,8 +183,8 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container size="1">t</container>
     <container size="1">resolutionRatio</container>
     <container size="256">timeline</container>
-    <container size="0">reducedf</container>
-    <container size="0">reducedfft</container>
+    <container size="4096">reducedf</container>
+    <container size="4096">reducedfft</container>
     <container size="256">subf</container>
     <container size="256">subfft</container>
     <container size="32768">tmap</container>
