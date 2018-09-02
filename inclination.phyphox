@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.7" locale="en">
   <title>Inclination</title>
   <category>Tools</category>
   <icon format="base64">
@@ -85,13 +85,15 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
   </translations>
   <data-containers>
     <container size="1">accX</container>
-    <container size="1">accX2</container>
     <container size="1">accY</container>
-    <container size="1">accY2</container>
     <container size="1">accZ</container>
-    <container size="1">accXY</container>
-    <container size="1">accXY2</container>
     <container size="1">accT</container>
+    <container size="0">tiltFlatUD</container>
+    <container size="0">tiltFlatLR</container>
+    <container size="0">tiltUprightUD</container>
+    <container size="0">tiltUprightLR</container>
+    <container size="0">tiltSideUD</container>
+    <container size="0">tiltSideLR</container>
     <container size="0">angle</container>
     <container size="0">anglePlane</container>
     <container size="0">t</container>
@@ -105,7 +107,61 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
     </sensor>
   </input>
   <views>
-    <view label="Inclination">
+    <view label="Flat">
+      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltFlatUD</input>
+      </graph>
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltFlatUD</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltFlatLR</input>
+      </graph>
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltFlatLR</input>
+      </value>
+      <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position. Note, that a combination of both angles depends on the order in which they are defined. Here the up/down angle takes precedence." />
+    </view>
+    <view label="Upright">
+      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltUprightUD</input>
+      </graph>
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltUprightUD</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltUprightLR</input>
+      </graph>
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltUprightLR</input>
+      </value>
+      <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position. Note, that a combination of both angles depends on the order in which they are defined. Here the up/down angle takes precedence." />
+    </view>
+    <view label="Side">
+      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltSideUD</input>
+      </graph>
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltSideUD</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+        <input axis="x">t</input>
+        <input axis="y">tiltSideLR</input>
+      </graph>
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+        <input>tiltSideLR</input>
+      </value>
+      <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position. Note, that a combination of both angles depends on the order in which they are defined. Here the up/down angle takes precedence." />
+    </view>
+    <view label="Plane">
       <graph label="Inclination" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">angle</input>
@@ -121,48 +177,79 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <value label="Rotation" size="2" precision="2" scientific="false" unit="°" factor="1">
         <input>anglePlane</input>
       </value>
+      <info label="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination." />
     </view>
   </views>
   <analysis sleep="0.5">
-    <multiply>
-      <input clear="false">accX</input>
-      <input clear="false">accX</input>
-      <output clear="true">accX2</output>
-    </multiply>
-    <multiply>
-      <input clear="false">accY</input>
-      <input clear="false">accY</input>
-      <output clear="true">accY2</output>
-    </multiply>
-    <atan2 deg="true">
-      <input clear="false">accX</input>
-      <input clear="false">accY</input>
-      <output clear="false">anglePlane</output>
-    </atan2>
-    <add>
-      <input clear="true">accX2</input>
-      <input clear="true">accY2</input>
-      <output clear="true">accXY2</output>
-    </add>
-    <power>
-      <input as="base" clear="true">accXY2</input>
-      <input as="exponent" type="value">0.5</input>
-      <output clear="true">accXY</output>
-    </power>
-    <atan2 deg="true">
-      <input clear="true">accXY</input>
-      <input clear="false">accZ</input>
-      <output clear="false">angle</output>
-    </atan2>
+
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accY</input>
+        <input clear="false">accZ</input>
+        <output clear="false">tiltFlatUD</output>
+    </formula>
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accX</input>
+        <input clear="false">accZ</input>
+        <output clear="false">tiltFlatLR</output>
+    </formula>
+
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accZ</input>
+        <input clear="false">accY</input>
+        <output clear="false">tiltUprightUD</output>
+    </formula>
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accX</input>
+        <input clear="false">accY</input>
+        <output clear="false">tiltUprightLR</output>
+    </formula>
+
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accY</input>
+        <input clear="false">accX</input>
+        <output clear="false">tiltSideUD</output>
+    </formula>
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accZ</input>
+        <input clear="false">accX</input>
+        <output clear="false">tiltSideLR</output>
+    </formula>
+
+    <formula formula="atan2(sqrt([1_]*[1_]+[2_]*[2_]),[3_])*57.29577951">
+        <input clear="false">accX</input>
+        <input clear="false">accY</input>
+        <input clear="false">accZ</input>
+        <output clear="false">angle</output>
+    </formula>
+    <formula formula="atan2([1_],[2_])*57.29577951">
+        <input clear="false">accX</input>
+        <input clear="false">accY</input>
+        <output clear="false">anglePlane</output>
+    </formula>
     <append>
       <input clear="false">accT</input>
       <output clear="false">t</output>
     </append>
   </analysis>
   <export>
-    <set name="Inclination">
+    <set name="Flat">
       <data name="t (s)">t</data>
-      <data name="Angle (deg)">angle</data>
+      <data name="Tilt up/down (deg)">tiltFlatUD</data>
+      <data name="Tilt left/right (deg)">tiltFlatLR</data>
+    </set>
+    <set name="Upright">
+      <data name="t (s)">t</data>
+      <data name="Tilt up/down (deg)">tiltUprightUD</data>
+      <data name="Tilt left/right (deg)">tiltUprightLR</data>
+    </set>
+    <set name="Side">
+      <data name="t (s)">t</data>
+      <data name="Tilt up/down (deg)">tiltSideUD</data>
+      <data name="Tilt left/right (deg)">tiltSideLR</data>
+    </set>
+    <set name="Plane">
+      <data name="t (s)">t</data>
+      <data name="Inclination (deg)">angle</data>
       <data name="Rotation (deg)">anglePlane</data>
     </set>
   </export>
