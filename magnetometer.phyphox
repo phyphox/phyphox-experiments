@@ -244,12 +244,20 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       </value>
     </view>
     <view label="Multi">
+      <value label="Accuracy">
+        <input>magAccuracy</input>
+        <map max="-1">Uncalibrated</map>
+        <map max="0">Raw data</map>
+        <map max="1">Low</map>
+        <map max="2">Medium</map>
+        <map max="3">High</map>
+      </value>
       <graph label="Magnetometer" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
         <input axis="x" color="green">mag_time</input>
         <input axis="y">magX</input>
         <input axis="x" color="blue">mag_time</input>
         <input axis="y">magY</input>
-        <input axis="x" color="red">mag_time</input>
+        <input axis="x" color="yellow">mag_time</input>
         <input axis="y">magZ</input>
         <input axis="x" color="white">mag_time</input>
         <input axis="y">mag</input>
