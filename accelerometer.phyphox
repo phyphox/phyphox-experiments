@@ -109,21 +109,21 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Accelerometer x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+      <graph label="Accelerometer x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="green">
         <input axis="x">acc_time</input>
         <input axis="y">accX</input>
       </graph>
-      <graph label="Accelerometer y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ffff00">
+      <graph label="Accelerometer y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="blue">
         <input axis="x">acc_time</input>
         <input axis="y">accY</input>
       </graph>
-      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="ff6060">
+      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="yellow">
         <input axis="x">acc_time</input>
         <input axis="y">accZ</input>
       </graph>
     </view>
     <view label="Absolute">
-      <graph label="Absolute acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+      <graph label="Absolute acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" color="white">
         <input axis="x">acc_time</input>
         <input axis="y">acc</input>
       </graph>
@@ -137,7 +137,7 @@
         <input axis="y">accX</input>
         <input axis="x" color="blue">acc_time</input>
         <input axis="y">accY</input>
-        <input axis="x" color="red">acc_time</input>
+        <input axis="x" color="yellow">acc_time</input>
         <input axis="y">accZ</input>
         <input axis="x" color="white">acc_time</input>
         <input axis="y">acc</input>
@@ -148,7 +148,7 @@
       <value label="Accelerometer y" size="2" precision="2" unit="m/s²" color="blue">
         <input>accY</input>
       </value>
-      <value label="Accelerometer z" size="2" precision="2" unit="m/s²" color="red">
+      <value label="Accelerometer z" size="2" precision="2" unit="m/s²" color="yellow">
         <input>accZ</input>
       </value>
       <value label="Absolute acceleration" size="2" precision="2" unit="m/s²" color="white">
@@ -156,16 +156,16 @@
       </value>
     </view>
     <view label="Simple">
-      <value label="Accelerometer x" size="2" precision="2" unit="m/s²">
+      <value label="Accelerometer x" size="2" precision="2" unit="m/s²" color="green">
         <input>accX</input>
       </value>
-      <value label="Accelerometer y" size="2" precision="2" unit="m/s²">
+      <value label="Accelerometer y" size="2" precision="2" unit="m/s²" color="blue">
         <input>accY</input>
       </value>
-      <value label="Accelerometer z" size="2" precision="2" unit="m/s²">
+      <value label="Accelerometer z" size="2" precision="2" unit="m/s²" color="yellow">
         <input>accZ</input>
       </value>
-      <value label="Absolute acceleration" size="2" precision="2" unit="m/s²">
+      <value label="Absolute acceleration" size="2" precision="2" unit="m/s²" color="white">
         <input>acc</input>
       </value>
     </view>

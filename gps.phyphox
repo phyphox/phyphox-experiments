@@ -309,6 +309,12 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       </graph>
     </view>
     <view label="Movement">
+      <value label="Status">
+        <input>status</input>
+        <map max="-1">GPS disabled</map>
+        <map min="0">GPS active</map>
+      </value>
+      <separator height="1"/>
       <graph label="Speed" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">v</input>

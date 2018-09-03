@@ -212,15 +212,15 @@ Nevystavujte svůj mobil silnému magnetickému poli!
         <map max="3">High</map>
       </value>
       <separator height="0.5"/>
-      <graph label="Magnetometer x" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
+      <graph label="Magnetometer x" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="green">
         <input axis="x">mag_time</input>
         <input axis="y">magX</input>
       </graph>
-      <graph label="Magnetometer y" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="ffff00">
+      <graph label="Magnetometer y" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="blue">
         <input axis="x">mag_time</input>
         <input axis="y">magY</input>
       </graph>
-      <graph label="Magnetometer z" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="ff6060">
+      <graph label="Magnetometer z" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="yellow">
         <input axis="x">mag_time</input>
         <input axis="y">magZ</input>
       </graph>
@@ -235,7 +235,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
         <map max="3">High</map>
       </value>
       <separator height="0.5"/>
-      <graph label="Absolute" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
+      <graph label="Absolute" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true" color="white">
         <input axis="x">mag_time</input>
         <input axis="y">mag</input>
       </graph>
@@ -260,7 +260,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <value label="Magnetometer y" size="2" precision="2" unit="µT" color="blue">
         <input>magY</input>
       </value>
-      <value label="Magnetometer z" size="2" precision="2" unit="µT" color="red">
+      <value label="Magnetometer z" size="2" precision="2" unit="µT" color="yellow">
         <input>magZ</input>
       </value>
       <value label="Absolute" size="2" precision="2" unit="µT" color="white">
@@ -277,16 +277,16 @@ Nevystavujte svůj mobil silnému magnetickému poli!
         <map max="3">High</map>
       </value>
       <separator height="0.5"/>
-      <value label="Magnetometer x" size="2" precision="2" unit="µT">
+      <value label="Magnetometer x" size="2" precision="2" unit="µT" color="green">
         <input>magX</input>
       </value>
-      <value label="Magnetometer y" size="2" precision="2" unit="µT">
+      <value label="Magnetometer y" size="2" precision="2" unit="µT" color="blue">
         <input>magY</input>
       </value>
-      <value label="Magnetometer z" size="2" precision="2" unit="µT">
+      <value label="Magnetometer z" size="2" precision="2" unit="µT" color="yellow">
         <input>magZ</input>
       </value>
-      <value label="Absolute" size="2" precision="2" unit="µT">
+      <value label="Absolute" size="2" precision="2" unit="µT" color="white">
         <input>mag</input>
       </value>
     </view>

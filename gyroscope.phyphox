@@ -105,21 +105,21 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Gyroscope x" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
+      <graph label="Gyroscope x" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="green">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrX</input>
       </graph>
-      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ffff00">
+      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="blue">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>
       </graph>
-      <graph label="Gyroscope z" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="ff6060">
+      <graph label="Gyroscope z" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="yellow">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrZ</input>
       </graph>
     </view>
     <view label="Absolute">
-      <graph label="Absolute" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
+      <graph label="Absolute" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true" color="white">
         <input axis="x">gyr_time</input>
         <input axis="y">gyr</input>
       </graph>
@@ -133,7 +133,7 @@
         <input axis="y">gyrX</input>
         <input axis="x" color="blue">gyr_time</input>
         <input axis="y">gyrY</input>
-        <input axis="x" color="red">gyr_time</input>
+        <input axis="x" color="yellow">gyr_time</input>
         <input axis="y">gyrZ</input>
         <input axis="x" color="white">gyr_time</input>
         <input axis="y">gyr</input>
@@ -144,7 +144,7 @@
       <value label="Gyroscope y" size="2" precision="3" unit="rad/s" color="blue">
         <input>gyrY</input>
       </value>
-      <value label="Gyroscope z" size="2" precision="3" unit="rad/s" color="red">
+      <value label="Gyroscope z" size="2" precision="3" unit="rad/s" color="yellow">
         <input>gyrZ</input>
       </value>
       <value label="Absolute" size="2" precision="3" unit="rad/s" color="white">
@@ -152,16 +152,16 @@
       </value>
     </view>
     <view label="Simple">
-      <value label="Gyroscope x" size="2" precision="3" unit="rad/s">
+      <value label="Gyroscope x" size="2" precision="3" unit="rad/s" color="green">
         <input>gyrX</input>
       </value>
-      <value label="Gyroscope y" size="2" precision="3" unit="rad/s">
+      <value label="Gyroscope y" size="2" precision="3" unit="rad/s" color="blue">
         <input>gyrY</input>
       </value>
-      <value label="Gyroscope z" size="2" precision="3" unit="rad/s">
+      <value label="Gyroscope z" size="2" precision="3" unit="rad/s" color="yellow">
         <input>gyrZ</input>
       </value>
-      <value label="Absolute" size="2" precision="3" unit="rad/s">
+      <value label="Absolute" size="2" precision="3" unit="rad/s" color="white">
         <input>gyr</input>
       </value>
     </view>
