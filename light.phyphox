@@ -68,6 +68,30 @@
       <string original="Simple">Значение</string>
       <string original="lx">лк</string>
     </translation>
+    <translation locale="it">
+      <title>Luce</title>
+      <category>Sensori</category>
+      <description>Legge i dati dal sensore di luminosità.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Illuminance">Luminanza</string>
+      <string original="Ev (lx)">Intensità (lux)</string>
+      <string original="Info">
+                Nota: su alcuni dispositivi il sensore di luminosità si aggiorna soltanto quando si verifica una considerevole variazione di illuminazione.
+            </string>
+      <string original="Simple">Valori</string>
+      <string original="lx">lux</string>
+    </translation>
+    <translation locale="el">
+      <title>Φως</title>
+      <category>Αισθητήρες</category>
+      <description>Πάρτε τις καταγραφές του αισθητήρα φωτός.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Illuminance">Φωτεινότητα</string>
+      <string original="Info">
+                Παρατήρηση:  Σε μερικές συσκευές ο αισθητήρας φωτός αντιλαμβάνεται μόνο έντονες διαφορές στη φωτεινότητα.
+            </string>
+      <string original="Simple">Απλό</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

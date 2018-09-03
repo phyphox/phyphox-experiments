@@ -109,6 +109,42 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
       <string original="Angular velocity">Угловая скорость</string>
       <string original="ω (rad/s)">ω (рад/с)</string>
     </translation>
+    <translation locale="it">
+      <title>Accelerazione centripeta</title>
+      <category>Meccanica</category>
+      <description>
+        Visualizza l'accelerazione centripeta in funzione della velocità angolare.
+
+L'esperimento calcola il valore assoluto della velocità angolare ω dai giroscopi e quello dell'accelerazione a dall'accelerometro. Dal grafico di a in funzione di ω si vede che a=r·ω², mentre il grafico di a in funzione di ω² si presenta come una retta.
+
+Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in maniera tale che la distanza r dal centro di rotazione sia costante. Puoi, per esempio, fissare lo smartphone sul bordo del cestello di un asciugatore d'insalata.
+    </description>
+      <string original="Relation">Relazione</string>
+      <string original="Acceleration">Accelerazione</string>
+      <string original="Angular velocity ω (rad/s)">Velocità angolare ω (rad/s)</string>
+      <string original="Acceleration a (m/s²)">Accelerazione a (m/s²)</string>
+      <string original="Square plot">Accelerazione vs ω²</string>
+      <string original="Time">Tempo</string>
+      <string original="Angular velocity">Velocità angolare</string>
+    </translation>
+    <translation locale="el">
+      <title>Κεντρομόλος επιτάχυνση</title>
+      <category>Μηχανική</category>
+      <description>
+        Οπτικοποίηση της κεντρομόλου επιτάχυνσης σαν συνάρτηση της γωνιακής ταχύτητας. 
+
+        Αυτό το πείραμα υπολογίζει το μέτρο της γωνιακής ταχύτητας v από το γυροσκόπιο  και το μέτρο της  επιτάχυνσης από το επιταχυνσιόμετρο. Σχεδιάζοντας το a σε συνάρτηση με το ω μπορεί εύκολα να δειχτεί η σχέση a=r·ω²  ενώ, σε συνάρτηση με το ω² θα δώσει ευθεία γραμμή. 
+
+        Για να το δείτε πρέπει να μετρήσετε διαφορετικές γωνιακές ταχύτητας αλλά με σταθερή ακτίνα. Ένα σκεύος που γυρίζει τη σαλάτα ή ένα μικρό καρουζέλ λειτουργεί εξαιρετικά.
+    </description>
+      <string original="Relation">Σχέση</string>
+      <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Angular velocity ω (rad/s)">Γωνιακή ταχύτητα ω (rad/s)</string>
+      <string original="Acceleration a (m/s²)">Επιτάχυνση a (m/s²)</string>
+      <string original="Square plot">Γράφημα α - ω²</string>
+      <string original="Time">Χρόνος</string>
+      <string original="Angular velocity">Γωνιακή ταχύτητα</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

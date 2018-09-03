@@ -147,6 +147,118 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Hz">Гц</string>
       <string original="ms">мс</string>
     </translation>
+    <translation locale="it">
+      <title>Spettro Audio</title>
+      <category>Acustica</category>
+      <description>
+            Mostra lo spettro in frequenza di un segnale audio.
+
+            Questo esperimento registra audio dal microfono e calcola il suo spettro in frequenza attraverso una trasformata di Fourier (FFT). Risultati più precisi si possono ottenere con l'esperimento "autocorrelazione" dell'audio per suoni semplici, composti di un'unica frequenza.
+    </description>
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Musical note">Nota musicale</string>
+      <string original="Low">Bassa</string>
+      <string original="A2">La 2</string>
+      <string original="A#2 / Bb2">La #/Si b 2</string>
+      <string original="B2">Si 2</string>
+      <string original="C3">Do 3</string>
+      <string original="C#3 / Db3">Do # / Re b3</string>
+      <string original="D3">Re 3</string>
+      <string original="D#3 / Eb3">Re # / Mi b 3</string>
+      <string original="E3">Mi 3</string>
+      <string original="F3">Fa 3</string>
+      <string original="F#3 / Gb3">Fa # / Sol b 3</string>
+      <string original="G3">Sol 3</string>
+      <string original="G#3 / Ab3">Sol # / La b 3</string>
+      <string original="A3">La 3</string>
+      <string original="A#3 / Bb3">La # / Si b 3</string>
+      <string original="B3">Si 3</string>
+      <string original="C4">Do 4</string>
+      <string original="C#4 / Db4">Do # / Re b 4</string>
+      <string original="D4">Re 4</string>
+      <string original="D#4 / Eb4">Re # / Mi b 4</string>
+      <string original="E4">Mi 4</string>
+      <string original="F4">Fa 4</string>
+      <string original="F#4 / Gb4">Fa # / Sol b 4</string>
+      <string original="G4">Sol 4</string>
+      <string original="G#4 / Ab4">Sol # / La b 4</string>
+      <string original="A4">La 4</string>
+      <string original="A#4 / Bb4">La # / Si b 4</string>
+      <string original="B4">Si 4</string>
+      <string original="C5">Do 5</string>
+      <string original="C#5 / Db5">Do # / Re b 5</string>
+      <string original="D5">Re 5</string>
+      <string original="D#5 / Eb5">Re # / Mi b 5</string>
+      <string original="E5">Mi 5</string>
+      <string original="F5">Fa 5</string>
+      <string original="F#5 / Gb5">Fa # / Sol b 5</string>
+      <string original="G5">Sol 5</string>
+      <string original="G#5 / Ab5">Sol # / La b 5</string>
+      <string original="A5">La 5</string>
+      <string original="A#5 / Bb5">La # / Si b 5</string>
+      <string original="B5">Si 5</string>
+      <string original="C6">Do 6</string>
+      <string original="C#6 / Db6">Do # / Re b 6</string>
+      <string original="D6">Re 6</string>
+      <string original="D#6 / Eb6">Re # / Mi b 6</string>
+      <string original="E6">Mi 6</string>
+      <string original="F6">Fa 6</string>
+      <string original="F#6 / Gb6">Fa # / Sol b 6</string>
+      <string original="G6">Sol 6</string>
+      <string original="G#6 / Ab6">Sol # / La b 6</string>
+      <string original="A6">La 6</string>
+      <string original="A#6 / Bb6">La # / Si b 6</string>
+      <string original="B6">Si 6</string>
+      <string original="C7">Do 7</string>
+      <string original="C#7 / Db7">Do # / Re b 7</string>
+      <string original="D7">Re 7</string>
+      <string original="D#7 / Eb7">Re # / Mi b 7</string>
+      <string original="E7">Mi 7</string>
+      <string original="F7">Fa 7</string>
+      <string original="F#7 / Gb7">Fa # / Sol b 7</string>
+      <string original="G7">Sol 7</string>
+      <string original="G#7 / Ab7">Sol # / La b 7</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Centesimi di nota</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="32768">32786</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Recording">Registrazione</string>
+      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+    </translation>
+    <translation locale="el">
+      <title>Ηχητικό Φάσμα</title>
+      <category>Ακουστική</category>
+      <description>
+            Παρουσίαση του ηχητικού φάσματος ενός ηχητικού σήματος.
+
+            Σ' αυτό το πείραμα καταγράφεται ήχος από το μικρόφωνο και υπολογίζεται η συχνότητά του με χρήση μετασχηματισμού Fourier (FFT). Αν πρόκειται για ένα απλό τόνο με μια συχνότητα, είναι πιθανό να πάρετε ακριβέστερα αποτελέσματα με το πείραμα της συχνότητας ήχου που χρησιμοποιεί αυτοσυσχέτιση.
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Musical note">Μουσική νότα</string>
+      <string original="Low">Χαμηλά</string>
+      <string original="High">Υψηλή</string>
+      <string original="Cents from note">Εκατοστά από τη νότα</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT πλάτος (α.μ)</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Recording">Εγγραφή</string>
+      <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

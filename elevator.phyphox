@@ -111,6 +111,44 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="p (hPa)">p (гПа)</string>
       <string original="Accelerometer z">Акселерометр z</string>
     </translation>
+    <translation locale="it">
+      <title>Ascensore</title>
+      <category>Vita quotidiana</category>
+      <description>
+        Misura la velocità di un ascensore usando il barometro.
+
+        Variazioni di altezza in tempi brevi si possono misurare usando il barometro - anche in assenza di GPS. Si può usare questo sistema per rilevare la velocità verticale di un ascensore. L'accelerazione è inoltre misurata usando la componente z dell'accelerometro, quindi per un'accurata misurazione il telefono dev'essere poggiato sul pavimento dell'ascensore.
+
+        Altri dettagli:
+        Per eliminare alcuni disturbi nell'esperimento, le letture del barometro sono intervallate di 1 s. Differenze su intervalli consecutivi sono convertite in differenze di altezza usando la formula dell'altezza barometrica. Le differenze di altezza divise gli intervalli di tempo danno la velocità verticale.
+    </description>
+      <string original="Motion">Movimento</string>
+      <string original="Height (from barometer)">Altezza (dal barometro)</string>
+      <string original="Vertical velocity (from height)">Velocità verticale (dall'altezza)</string>
+      <string original="z acceleration (from accelerometer)">accelerazione lungo z (dall'accelerometro)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Pressure">Pressione</string>
+      <string original="Accelerometer z">Accelerazione z</string>
+    </translation>
+    <translation locale="el">
+      <title>Ανελκυστήρας</title>
+      <category>Καθημερινότητα</category>
+      <description>
+        Καθορίστε την ταχύτητα ενός ανελκυστήρα χρησιμοποιώντας το βαρόμετρο.
+
+        Μεταβολές στο υψόμετρο μέσα σε μικρό χρονικό διάστημα μπορούν να μετρηθούν με μεγάλη ακρίβεια χρησιμοποιώντας το βαρόμετρο  - ακόμα κι αν δεν λειτουργεί το GPS. Το τελευταίο μπορεί να χρησιμοποιηθεί για να υπολογιστεί η κατακόρυφη ταχύτητα ενός ανελκυστήρα. Επιπλέον, η επιτάχυνση μετρείται χρησιμοποιώντας τη συνιστώσα z του επιταχυνσιόμετρου, έτσι για να είναι ακριβής η μέτρηση, το τηλέφωνο πρέπει να είναι οριζόντιο στο πάτωμα του ανελκυστήρα.
+
+        Περισσότερες λεπτομέρειες:
+        Για να απομονωθεί ένα μέρος του θορύβου στο πείραμα αυτό, υπολογίζεται ο μέσος όρος των ενδείξεων του βαρομέτρου σε διάστημα 1s. H διαφορά διαδοχικών μέγιστων μετατρέπεται σε ύψος από την βαρομετρική εξίσωση του ύψους. Η διαφορά ύψους διαιρεμένη με τους χρόνους δίνει την κατακόρυφη ταχύτητα.
+    </description>
+      <string original="Motion">Κίνηση</string>
+      <string original="Height (from barometer)">Ύψος (από το βαρόμετρο)</string>
+      <string original="Vertical velocity (from height)">Κατακόρυφη ταχύτητα (από  το ύψος)</string>
+      <string original="z acceleration (from accelerometer)">Επιτάχυνση στον z (από το επιταχυνσιόμετρο)</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Pressure">Πίεση</string>
+      <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

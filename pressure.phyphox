@@ -47,6 +47,22 @@
       <string original="Simple">Значение</string>
       <string original="hPa">гПа</string>
     </translation>
+    <translation locale="it">
+      <title>Pressione</title>
+      <category>Sensori</category>
+      <description>Dati del barometro.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Pressure">Pressione</string>
+      <string original="Simple">Valori</string>
+    </translation>
+    <translation locale="el">
+      <title>Πίεση</title>
+      <category>Αισθητήρες</category>
+      <description>Πάρτε τις καταγραφές του βαρομέτρου.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Pressure">Πίεση</string>
+      <string original="Simple">Απλό</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

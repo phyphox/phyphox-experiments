@@ -181,6 +181,72 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="km/h">км/ч</string>
       <string original="km">км</string>
     </translation>
+    <translation locale="it">
+      <title>Posizione (GPS)</title>
+      <category>Sensori</category>
+      <description>
+        Ottiene i dati sulla posizione dal sistema di navigazione satellitare.
+
+        L'accuratezza può dipendere dal sistema del tuo smartphone. Dispositivi Android non forniscono informazioni sulla precisione verticale mentre dispositivi iOS non forniscono il numero di satelliti. Inoltre, su iOS possono esserci dati provenienti da altre sorgenti mescolati con i dati del sistema di navigazione satellitare.
+
+        La velocità e la direzione sono generalmente calcolate dal dispositivo e si ottengono da due o più posizioni consecutive.
+    </description>
+      <string original="Graph">Grafico</string>
+      <string original="Status">Stato</string>
+      <string original="GPS disabled">GPS disattivato</string>
+      <string original="GPS active">GPS attivo</string>
+      <string original="Latitude">Latitudine</string>
+      <string original="Longitude">Longitudine</string>
+      <string original="Height">Altezza</string>
+      <string original="Speed">Velocità</string>
+      <string original="Direction">Direzione</string>
+      <string original="Direction (°)">Direzione (°)</string>
+      <string original="Distance">Distanza</string>
+      <string original="Simple">Valori</string>
+      <string original="Compass">Bussola</string>
+      <string original="S">S (sud)</string>
+      <string original="SW">SW (sud-ovest)</string>
+      <string original="W">W (ovest)</string>
+      <string original="NW">NW (nord-ovest)</string>
+      <string original="N">N (nord)</string>
+      <string original="NE">NE (nord-est)</string>
+      <string original="E">E (est)</string>
+      <string original="SE">SE (sud-est)</string>
+      <string original="Horizontal Accuracy">Accuratezza orizzontale</string>
+      <string original="Vertical Accuracy">Accuratezza verticale</string>
+      <string original="Satellites">Satelliti</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Attenzione: molti dispositivi non hanno il GPS, ma ottengono i dati tramite la connessione dati o WIFI. Questi dati sono meno precisi.</string>
+    </translation>
+    <translation locale="el">
+      <title>Τοποθεσία (GPS)</title>
+      <category>Αισθητήρες</category>
+      <description>
+        Δεδομένα τοποθεσίας από δορυφορική πλοήγηση.
+
+        Σημειώστε ότι η συμπεριφορά μπορεί να εξαρτάται από την κατασκευή του τηλεφώνου σας. Οι συσκευές Android δεν δίνουν πληροφορίες για την κατακόρυφη ακρίβεια ενώ συσκευές με iOS δεν πληροφορούν για τον αριθμό των δορυφόρων. Επίσης, στις συσκευές με iOS, ενδέχεται να υπάρχουν δεδομένα από άλλες πηγές ανακατεμένα μέσα στα δεδομένα από τη δορυφορική πλοήγηση. 
+
+        Ταχύτητα και κατεύθυνση δίνονται συνήθως από τη συσκευή και βασίζονται σε δύο οι περισσότερες διαδοχικές καταγραφές τοποθεσίας.
+    </description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Status">Κατάσταση</string>
+      <string original="GPS disabled">Ανενεργό GPS</string>
+      <string original="GPS active">Ενεργό GPS</string>
+      <string original="Latitude">Γεωγραφικό Πλάτος</string>
+      <string original="Longitude">Γεωγραφικό Μήκος</string>
+      <string original="Height">Ύψος</string>
+      <string original="Speed">Ταχύτητα</string>
+      <string original="Direction">Κατεύθυνση</string>
+      <string original="Direction (°)">Κατεύθυνση (°)</string>
+      <string original="Distance">Απόσταση</string>
+      <string original="Simple">Απλό</string>
+      <string original="Compass">Πυξίδα</string>
+      <string original="N">Ν</string>
+      <string original="Horizontal Accuracy">Οριζόντια ακρίβεια</string>
+      <string original="Vertical Accuracy">Κατακόρυφη ακρίβεια</string>
+      <string original="Satellites">Δορυφόροι</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS. Οι εφαρμογές πλοήγησης τότε, ίσως να δείχνουν κατά προσέγγιση την τοποθεσία από το δίκτυο τηλεφωνίας.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

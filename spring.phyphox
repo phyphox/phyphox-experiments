@@ -142,6 +142,55 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="s">с</string>
       <string original="Hz">Гц</string>
     </translation>
+    <translation locale="it">
+      <title>Molla</title>
+      <category>Meccanica</category>
+      <description>
+        Analizza la frequenza e il periodo di oscillazione di una molla.
+
+	Questo esperimento utilizza l'accelerometro per misurare il movimento oscillatorio e calcolare il periodo dell'oscillazione T. Inoltre, l'ampiezza in funzione della frequenza misurata verrà rappresentata sulla scheda "risonanza". In questo modo potrai costruire un oscillatore forzato e cambiarne la frequenza per misurare una curva di risonanza.
+
+	Ulteriori dettagli:
+	Il periodo dell'oscillazione è ottenuto attraverso l'autocorrelazione della somma di tutte le tre componenti misurate dall'accelerometro. L'autocorrelazione viene analizzata per ottenere il primo massimo per una prima stima e poi l'ultimo massimo viene utilizzato per ottenere un risultato più preciso.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Resonance">Risonanza</string>
+      <string original="Frequency (Hz)">Frequenza (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Ampiezza (a.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="correlation (a.u.)">correlazione (a.u.)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Accelerometer x">Accelerazione x</string>
+      <string original="Accelerometer y">Accelerazione y</string>
+      <string original="Accelerometer z">Accelerazione z</string>
+    </translation>
+    <translation locale="el">
+      <title>Ελατήριο</title>
+      <category>Μηχανική</category>
+      <description>
+        Ανάλυση συχνότητας και περιόδου ενός ταλαντωτή με ελατήριο.
+
+        Το πείραμα χρησιμοποιεί το επιταχυνσιόμετρο για να μελετήσει την κίνηση του ταλαντωτή και να υπολογίσει την περίοδο ταλάντωσης Τ. Επιπλέον στην καρτέλα "συντονισμός"  σχεδιάζει το πλάτος σαν συνάρτηση της μετρούμενης συχνότητας. Μ' αυτό τον τρόπο μπορείτε να κατασκευάσετε ένα σύστημα εξαναγκασμένης ταλάντωσης και αλλάζοντας τη συχνότητα να κατασκευάσετε μια καμπύλη συντονισμού.
+
+        Παραπάνω πληροφορίες:
+        Η περίοδος ταλάντωσης υπολογίζετε από την αυτοσυσχέτιση (autocorrelation) του αθροίσματος των τριών συνιστωσών του επιταχυνσιόμετρου. Η αυτοσυσχέτιση στη συνέχεια αναλύεται για το πρώτο της μέγιστο για μια πρώτη εκτίμηση και στη συνέχεια το τελευταίο μέγιστο χρησιμοποιείται για την εύρεση ακριβέστερου αποτελέσματος.
+    </description>
+      <string original="Results">Αποτελέσματα</string>
+      <string original="Period">Περίοδος</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Resonance">Συντονισμός</string>
+      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Σχετικό πλάτος (a.u)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Σε αυτή την καρτέλα, το πλάτος σχεδιάζεται σε συνάρτηση με την υπολογιζόμενη συχνότητα. Μπορείτε έτσι να βρείτε τη συχνότητα συντονισμού σε μια εξαναγκασμένη ταλάντωση. Το πλάτος κανονικοποιείται σε μια κλίμακα από 0 έως 1.</string>
+      <string original="Autocorrelation">Αυτοσυσχέτιση</string>
+      <string original="correlation (a.u.)">συσχέτιση (a.u.)</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Accelerometer x">Επιταχυνσιόμετρο x</string>
+      <string original="Accelerometer y">Επιταχυνσιόμετρο y</string>
+      <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

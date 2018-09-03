@@ -222,6 +222,87 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="s">с</string>
       <string original="a.u.">пр. е.</string>
     </translation>
+    <translation locale="it">
+      <title>Collisione (an)elastica</title>
+      <category>Meccanica</category>
+      <description>
+        Misura l'energia persa negli urti (an)elastici di una pallina che rimbalza.
+
+In linea di principio, questo esperimento funziona come il cronometro acustico. In questo caso l'esperimento assume che il suono provenga da una pallina magica (o qualcosa di simile) che rimbalza su una superficie e calcola l'altezza raggiunta dopo il rimbalzo e l'energia cinetica rimanente rispetto al primo rimbalzo attraverso l'analisi del tempo necessario a misurare due rimbalzi consecutivi.
+
+Assumendo che la pallina perda sempre la stessa percentuale di energia a ogni urto, l'esperimento riesce a determinare anche l'altezza iniziale dalla quale la pallina è stata lasciata cadere.
+
+Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una superficie in modo tale che produca un suono chiaramente udibile. Puoi modificare la soglia di udibilità del suono nella configurazione su una scala compresa tra 0 e 1, in maniera che phyphox reagisca al suono del rimbalzo, ma non ad altri suoni ambientali. Se hai problemi con echi puoi cambiare il ritardo minimo tra due rivelazioni successive e il minimo intervallo di tempo entro il quale il sistema deve ignorare un suono.
+    </description>
+      <string original="Heights">Altezza</string>
+      <string original="Height 0">Altezza 0</string>
+      <string original="Height 1">Altezza 1</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Height 2">Altezza 2</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Height 3">Altezza 3</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Height 4">Altezza 4</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Height 5">Altezza 5</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Energy">Energia</string>
+      <string original="Energy 1">Energia 1</string>
+      <string original="Energy 2">Energia 2</string>
+      <string original="Retained on collision 2">Rimasta al 2° rimbalzo</string>
+      <string original="Energy 3">Energia 3</string>
+      <string original="Retained on collision 3">Rimasta al 3° rimbalzo</string>
+      <string original="Energy 4">Energia 4</string>
+      <string original="Retained on collision 4">Rimasta al 4° rimbalzo</string>
+      <string original="Energy 5">Energia 5</string>
+      <string original="Retained on collision 5">Rimasta al 5° rimbalzo</string>
+      <string original="Average retained">Energia media rimasta</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Threshold">Soglia</string>
+      <string original="Minimum Delay">Ritardo minimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Purtroppo questo esperimento non funziona su telefoni troppo lenti. Per assicurarti che l'esperimento stia funzionando correttamente, confronta l'esperimento del cronometro acustico con un qualsiasi cronometro. Se si comporta correttamente l'esperimento funziona.</string>
+    </translation>
+    <translation locale="el">
+      <title>(Αν)ελαστική κρούση</title>
+      <category>Μηχανική</category>
+      <description>
+        Προσδιορίστε την ενεργειακή απώλεια κατά τη διάρκεια ανελαστικών συγκρούσεων μια μπάλας που αναπηδά.
+
+        Η αρχή της λειτουργία του πειράματος είναι όμοια με το πείραμα με το ακουστικό χρονόμετρο. Σ' αυτό όμως το πείραμα περιμένουμε τον ήχο να παραχθεί από μια μπάλα (ή κάτι παρόμοιο) που αναπηδά σε μια επιφάνεια και θα υπολογίσει το ύψος αναπήδησης και την εναπομένουσα κινητική ενέργεια σχετικά με το πρώτο χτύπημα αναλύοντας το χρονικό διάστημα ανάμεσα στον ήχο και στο χτύπημα.
+
+        Επίσης, θεωρώντας ότι η μπάλα διατηρεί το ίδιο ποσοστό κινητικής ενέργειας κατά το πρώτο χτύπημα, το phyphox θα υπολογίσει το αρχικό ύψος 0 από το οποίο αφέθηκε η μπάλα.
+
+        Άρα, ξεκινήστε το πείραμα αφήνοντας μια μπάλα να αναπηδά σε μια επιφάνεια με τέτοιο τρόπο ώστε να παράγει ένα αντιληπτό ήχο. Ίσως χρειαστεί να μεταβάλλεται το κατώφλι ενεργοποίησης στις ρυθμίσεις (στο διάστημα από 0-1) ώστε το χρονόμετρο να αντιδρά στη στάθμη ήχου της αναπήδησης αλλά όχι στους περιβαλλοντικούς θορύβους. Επίσης αν έχετε ηχώ, πιθανόν να χρειαστεί να αλλάξετε επίσης την ελάχιστη καθυστέρηση, ώστε να ορίσετε το ελάχιστο διάστημα στο οποίο το πείραμα θα παραμένει αδρανές  πριν αντιδράσει στον επόμενο ήχο.
+    </description>
+      <string original="Heights">Ύψη</string>
+      <string original="Height 0">Ύψος 0</string>
+      <string original="Height 1">Ύψος 1</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Height 2">Ύψος 2</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Height 3">Ύψος 3</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Height 4">Ύψος 4</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Height 5">Ύψος 5</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Energy">Ενέργεια</string>
+      <string original="Energy 1">Ενέργεια 1</string>
+      <string original="Energy 2">Ενέργεια 2</string>
+      <string original="Retained on collision 2">Διατηρούμενη στη σύγκρουση 2</string>
+      <string original="Energy 3">Ενέργεια 3</string>
+      <string original="Retained on collision 3">Διατηρούμενη στη σύγκρουση 3</string>
+      <string original="Energy 4">Ενέργεια 4</string>
+      <string original="Retained on collision 4">Διατηρούμενη στη σύγκρουση 4</string>
+      <string original="Energy 5">Ενέργεια 5</string>
+      <string original="Retained on collision 5">Διατηρούμενη στη σύγκρουση 5</string>
+      <string original="Average retained">Μέση διατηρούμενη</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Threshold">Κατώφλι ενεργοπ.</string>
+      <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

@@ -77,6 +77,34 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Duration">Продолжительность</string>
       <string original="ms">мс</string>
     </translation>
+    <translation locale="it">
+      <title>Audioscopio</title>
+      <category>Acustica</category>
+      <description>
+        Mostra la forma del segnale audio.
+
+        Questo esperimento registra i dati dal microfono e ne mostra una loro rappresentazione grafica. Per ottenere un'immagine stabile, il sistema inizia a registrare quando i dati passano per zero e il punto a t=0 è definito come quello in cui i dati passano nuovamente da valori negativi a positivi.
+    </description>
+      <string original="Scope">Audioscopio</string>
+      <string original="Audio Data">Dati Audio</string>
+      <string original="Time (ms)">Tempo (ms)</string>
+      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+      <string original="Duration">Durata</string>
+    </translation>
+    <translation locale="el">
+      <title>Ηχητικός παλμογράφος</title>
+      <category>Ακουστική</category>
+      <description>
+        Παρουσίαση ηχητικών δεδομένων.
+
+        Στο πείραμα αυτό καταγράφονται απλά, μικρής διάρκειας ηχητικά δεδομένα και παρουσιάζονται. Για να πετύχουμε σταθερή εικόνα η ενεργοποίηση γίνεται με τη διάσχιση μηδενός (zero crossing) και η χρονική στιγμή t=0 μετατοπίζεται στην πρώτη θετική διάσχιση.
+    </description>
+      <string original="Scope">Παλμογράφος</string>
+      <string original="Audio Data">Ηχητικά δεδομένα</string>
+      <string original="Time (ms)">Χρόνος (ms)</string>
+      <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
+      <string original="Duration">Διάρκεια</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

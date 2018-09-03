@@ -275,6 +275,97 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="lx">лк</string>
       <string original="s">с</string>
     </translation>
+    <translation locale="it">
+      <title>Cronometro ottico</title>
+      <category>Misura di tempo</category>
+      <description>
+        Misura il tempo usando il sensore di luce.
+
+        Esponendo il sensore di luce a una sorgente luminosa puoi ottenere la misura del tempo trascorso oppure la durata degli eventi di buio e di luce. Puoi usare questo strumento, ad esempio, come un traguardo ottico che misura il tempo tra due interruzioni successive di un fascio luminoso.
+
+        La precisione di questa misura dipende fortemente dal tipo di sensore a bordo del tuo telefono. In certi casi la precisione può essere di un secondo o anche peggio. Sensori più veloci comunque non arrivano a precisioni migliori del decimo di secondo. Il cronometro acustico è di solito più preciso.
+    </description>
+      <string original="Settings">Impostazioni</string>
+      <string original="Trigger below">Soglia inferiore</string>
+      <string original="Trigger above">Soglia superiore</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Il timer inizia quando il segnale luminoso è sopra o sotto soglia. Se vuoi far partire il timer solo quando l'illuminazione è alta assegna il valore 0 alla "soglia inferiore". Se invece vuoi che il timer parta solo sugli eventi di buio assegna un valore molto alto alla "soglia superiore". Puoi stimare i valori necessari usando il grafico che osservi sotto.</string>
+      <string original="Illuminance">Luminanza</string>
+      <string original="Ev (lx)">Intensità (lux)</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">La precisione dipende fortemente dal tipo di sensore di luce presente nel tuo telefono. In alcuni sensori la precisione è dell'ordine del secondo o anche peggio. Sensori più veloci possono raggiungere precisioni fino a qualche decimo di secondo. Misurazioni migliori, basate sul suono, si possono ottenere usando il cronometro acustico.</string>
+      <string original="Sequence">Serie</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Parallel">Parallelo</string>
+      <string original="Duration">Durata</string>
+      <string original="Trigger duration 0">Durata evento 0</string>
+      <string original="Trigger duration 1">Durata evento 1</string>
+      <string original="Trigger duration 2">Durata evento 2</string>
+      <string original="Trigger duration 3">Durata evento 3</string>
+      <string original="Trigger duration 4">Durata evento 4</string>
+      <string original="Trigger duration 5">Durata evento 5</string>
+      <string original="Triggers">Trigger</string>
+      <string original="Trigger on 0">Evento on 0</string>
+      <string original="Trigger off 0">Evento off 0</string>
+      <string original="Trigger on 1">Evento on 1</string>
+      <string original="Trigger off 1">Evento off 1</string>
+      <string original="Trigger on 2">Evento on 2</string>
+      <string original="Trigger off 2">Evento off 2</string>
+      <string original="Trigger on 3">Evento on 3</string>
+      <string original="Trigger off 3">Evento off 3</string>
+      <string original="Trigger on 4">Evento on 4</string>
+      <string original="Trigger off 4">Evento off 4</string>
+      <string original="Trigger on 5">Evento on 5</string>
+      <string original="Trigger off 5">Evento off 5</string>
+      <string original="lx">lux</string>
+    </translation>
+    <translation locale="el">
+      <title>Οπτικό χρονόμετρο</title>
+      <category>Χρονόμετρα</category>
+      <description>
+        Μέτρηση χρονικών διαστημάτων βασισμένη στο φως που πέφτει στο τηλέφωνό σας.
+
+        Στο πείραμα αυτό θα εκθέσετε τον αισθητήρα φωτός σε μια φωτεινή πηγή για να μετρήσετε το χρόνο που μεσολαβεί ή το χρόνο που διαρκούν καταστάσεις φωτός ή σκοταδιού. Για παράδειγμα, μπορείτε να μετρήσετε τη χρονική διάρκεια ανάμεσα σε δύο γεγονότα που μπλοκάρεται η φωτεινή πηγή.
+
+        Σημειώστε ότι η ακρίβεια εξαρτάται ισχυρά από τον αισθητήρα φωτός του κινητού σας. Για αργούς αισθητήρες μπορεί να ξεπερνά το ένα δευτερόλεπτο ενώ οι γρήγοροι αισθητήρες δεν ενεργοποιούνται συνήθως γρηγορότερα από δέκατα του δευτερολέπτου. Ταχύτερες μετρήσεις μπορούν να επιτευχθούν χρησιμοποιώντας το πείραμα του ακουστικού χρονομέτρου, το οποίο βασίζεται στον ήχο.
+    </description>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Trigger below">Ενεργοποίηση κάτω από</string>
+      <string original="Trigger above">Ενεργοποίηση πάνω από</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Ο μετρητής ενεργοποιείται τόσο πάνω όσο και κάτω από καθορισμένο όριο. Αν  θέλετε να ενεργοποιείται μόνο σε υψηλό φωτισμό θέσετε την τιμή "ενεργοποίηση κάτω από" στο μηδέν. Αν θέλετε να ενεργοποιείται μόνο στην απουσία φωτός θέσετε πολύ υψηλή τιμή στο πεδίο "ενεργοποίηση πάνω από". Μπορείτε να εκτιμήσετε τα επιθυμητά όρια από το επόμενο γράφημα.</string>
+      <string original="Illuminance">Φωτεινότητα</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Η ακρίβεια εξαρτάται ισχυρά από τον τύπο του αισθητήρα φωτός του τηλεφώνου σας. Για αργούς αισθητήρες μπορεί να είναι περισσότερο και από ένα δευτερόλεπτο ενώ οι γρηγορότεροι αισθητήρες δεν είναι συνήθως ταχύτεροι από δέκατα του δευτερολέπτου. Ταχύτερες μετρήσεις που βασίζονται στον ήχο, μπορούν να επιτευχθούν χρησιμοποιώντας το πείραμα του ακουστικού χρονομέτρου.</string>
+      <string original="Sequence">Σειριακό</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Parallel">Παράλληλο</string>
+      <string original="Duration">Διάρκεια</string>
+      <string original="Trigger duration 0">Διάρκεια ενεργοποίησης 0</string>
+      <string original="Trigger duration 1">Διάρκεια ενεργοποίησης 1</string>
+      <string original="Trigger duration 2">Διάρκεια ενεργοποίησης 2</string>
+      <string original="Trigger duration 3">Διάρκεια ενεργοποίησης 3</string>
+      <string original="Trigger duration 4">Διάρκεια ενεργοποίησης 4</string>
+      <string original="Trigger duration 5">Διάρκεια ενεργοποίησης 5</string>
+      <string original="Triggers">Ενεργοποιήσεις</string>
+      <string original="Trigger on 0">Ενεργοποίηση 0</string>
+      <string original="Trigger off 0">Απενεργοποίηση 0</string>
+      <string original="Trigger on 1">Ενεργοποίηση 1</string>
+      <string original="Trigger off 1">Απενεργοποίηση 1</string>
+      <string original="Trigger on 2">Ενεργοποίηση 2</string>
+      <string original="Trigger off 2">Απενεργοποίηση 2</string>
+      <string original="Trigger on 3">Ενεργοποίηση 3</string>
+      <string original="Trigger off 3">Απενεργοποίηση 3</string>
+      <string original="Trigger on 4">Ενεργοποίηση 4</string>
+      <string original="Trigger off 4">Απενεργοποίηση 4</string>
+      <string original="Trigger on 5">Ενεργοποίηση  5</string>
+      <string original="Trigger off 5">Απενεργοποίηση 5</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

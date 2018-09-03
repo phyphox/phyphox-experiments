@@ -64,6 +64,28 @@
       <string original="Simple">Значение</string>
       <string original="rad/s">рад/с</string>
     </translation>
+    <translation locale="it">
+      <title>Giroscopio</title>
+      <category>Sensori</category>
+      <description>Misura le velocità angolari dal giroscopio.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Gyroscope x">Giroscopio x</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+      <string original="Gyroscope z">Giroscopio z</string>
+      <string original="Absolute">Modulo</string>
+      <string original="Simple">Valori</string>
+    </translation>
+    <translation locale="el">
+      <title>Γυροσκόπιο</title>
+      <category>Αισθητήρες</category>
+      <description>Πάρτε τις καταγραφές του γυροσκοπίου.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Gyroscope x">Γυροσκόπιο x</string>
+      <string original="Gyroscope y">Γυροσκόπιο y</string>
+      <string original="Gyroscope z">Γυροσκόπιο z</string>
+      <string original="Absolute">Μέτρο</string>
+      <string original="Simple">Απλό</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>
