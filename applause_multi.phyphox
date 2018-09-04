@@ -61,7 +61,7 @@
                 <input axis="x">time</input>
                 <input axis="y">score</input>
             </graph>
-            <graph label="Scores" labelX="Option" labelY="Scores" style="vbars" color="yellow" lineWidth="0.6" minY="0" scaleMinY="fixed">
+            <graph label="Scores" labelX="Contestant" labelY="Scores" style="vbars" color="yellow" lineWidth="0.6" minY="0" scaleMinY="fixed">
                 <input axis="x">xaxis</input>
                 <input axis="y">scorePlot</input>
             </graph>

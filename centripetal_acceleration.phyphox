@@ -175,7 +175,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
         <input axis="x">gyr</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Square plot" labelX="ω²" unitX="rad/s)²" labelY="a (m/s²" partialUpdate="false" style="dots">
+      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="a" unitY="m/s²" partialUpdate="false" style="dots">
         <input axis="x">gyr_squared</input>
         <input axis="y">acc</input>
       </graph>
