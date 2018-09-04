@@ -51,6 +51,8 @@
       <string original="Gyroscope x">Gyroskop x</string>
       <string original="Gyroscope y">Gyroskop y</string>
       <string original="Gyroscope z">Gyroskop z</string>
+      <string original="Rel. amplitude">Rel. Amplitude</string>
+      <string original="correlation">Korrelation</string>
     </translation>
     <translation locale="cs">
       <title>Kyvadlo</title>

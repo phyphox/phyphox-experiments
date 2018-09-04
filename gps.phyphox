@@ -38,6 +38,11 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
       <string original="Distance">Entfernung</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Stelle auch sicher, dass die Systemeinstellung zum Standort nicht auf "Energie sparen" steht, denn dies schaltet GPS ab, während Navigations-Apps weiterhin einen vagen Standort über das Netzwerk ermitteln.</string>
+      <string original="Movement">Bewegung</string>
+      <string original="Distance travelled">Zurückgelegte Entfernung</string>
+      <string original="Distance from start">Entfernung vom Start</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Stelle außerdem sicher, dass die Standorteinstellungen deines Systems nicht auf "Energie sparen" stehen, da dies die genauen GPS-Daten abschaltet.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Die horizontale Genauigkeit ist die Unsicherheit deines Standorts, während die vertikale Genauigkeit die (normalerweise schlechtere) Unsicherheit auf deiner Höhe ist. Wenn die Genauigkeit Null beträgt, ist diese Information nicht verfügbar.</string>
     </translation>
     <translation locale="cs">
       <title>Pozice (GPS)</title>
@@ -428,13 +433,11 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <input clear="false">subLon</input>
       <output>dLon</output>
     </differentiate>
-
     <formula formula="0.01745329252*sqrt((cos(0.01745329252*[1_])*[2_])^2+[1_]*[1_])*6371">
-        <input>dLat</input>
-        <input>dLon</input>
-        <output>dnew</output>
+      <input>dLat</input>
+      <input>dLon</input>
+      <output>dnew</output>
     </formula>
-
     <if greater="true">
       <input clear="false">countT</input>
       <input clear="false">countUpdated+1</input>
@@ -445,21 +448,20 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <input clear="false">d</input>
       <output>dist</output>
     </integrate>
-
     <first>
-        <input clear="false">lon</input>
-        <output>startLon</output>
+      <input clear="false">lon</input>
+      <output>startLon</output>
     </first>
     <first>
-        <input clear="false">lat</input>
-        <output>startLat</output>
+      <input clear="false">lat</input>
+      <output>startLat</output>
     </first>
     <formula formula="6371*acos(sin(0.01745329252*[1])*sin(0.01745329252*[3])+cos(0.01745329252*[1])*cos(0.01745329252*[3])*cos(0.01745329252*([2]-[4])))">
-        <input>startLat</input>
-        <input>startLon</input>
-        <input clear="false">lat</input>
-        <input clear="false">lon</input>
-        <output>diststart</output>
+      <input>startLat</input>
+      <input>startLon</input>
+      <input clear="false">lat</input>
+      <input clear="false">lon</input>
+      <output>diststart</output>
     </formula>
   </analysis>
   <export>

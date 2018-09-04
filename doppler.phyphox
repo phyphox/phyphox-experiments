@@ -344,7 +344,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input>startTime</input>
       <output clear="false">time_hist</output>
     </add>
-
     <rangefilter>
       <input as="min">minf</input>
       <input as="max">maxf</input>

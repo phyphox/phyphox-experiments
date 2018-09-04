@@ -38,6 +38,12 @@
       <string original="Timing">Zeiten</string>
       <string original="Delay (s)">Laufzeit (s)</string>
       <string original="On this page you just get the measured delay.">Auf dieser Seite bekommst du nur die ermittelten Zeiten.</string>
+      <string original="Time series">Zeitreihe</string>
+      <string original="Normalized history">Normalisierter Verlauf</string>
+      <string original="distance">Entfernung</string>
+      <string original="time">Zeit</string>
+      <string original="Delay">Laufzeit</string>
+      <string original="Time">Zeit</string>
     </translation>
     <translation locale="cs">
       <title>Sonar</title>
@@ -64,6 +70,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Delay (s)">Zpoždění (s)</string>
       <string original="Chirp">Cvrkot</string>
       <string original="Time (s)">Čas (s)</string>
+      <string original="Time">Čas</string>
     </translation>
     <translation locale="pl">
       <title>Sonar</title>
@@ -90,6 +97,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Delay (s)">Opóźnienie (s)</string>
       <string original="Chirp">Ćwierknięcie</string>
       <string original="Time (s)">Czas (s)</string>
+      <string original="Time">Czas</string>
     </translation>
     <translation locale="nl">
       <title>Sonar</title>
@@ -117,6 +125,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay (s)">Tijd na weerkaatsing(s)</string>
       <string original="Chirp">Tsjirptoon</string>
       <string original="Time (s)">Tijd (s)</string>
+      <string original="Time">Tijd</string>
     </translation>
     <translation locale="ru">
       <title>Сонар</title>
@@ -145,6 +154,12 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time (s)">Время (с)</string>
       <string original="m/s">м/с</string>
       <string original="m">м</string>
+      <string original="Time series">Временные ряды</string>
+      <string original="Normalized history">Нормализованная история</string>
+      <string original="distance">расстояние</string>
+      <string original="time">время</string>
+      <string original="Delay">Задержка</string>
+      <string original="Time">Время</string>
     </translation>
     <translation locale="it">
       <title>Sonar</title>
@@ -169,6 +184,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="On this page you just get the measured delay.">Su questa pagina puoi osservare il ritardo misurato.</string>
       <string original="Delay (s)">Ritardo (s)</string>
       <string original="Time (s)">Tempo (s)</string>
+      <string original="Time">Tempo</string>
     </translation>
     <translation locale="el">
       <title>Σόναρ</title>
@@ -195,6 +211,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay (s)">Χρονοκαθυστέρηση (s)</string>
       <string original="Chirp">Σφύριγμα</string>
       <string original="Time (s)">Χρόνος (s)</string>
+      <string original="Time">Χρόνος</string>
     </translation>
   </translations>
   <data-containers>
@@ -225,7 +242,6 @@ Voer dit experiment best uit in een rustige omgeving.
     <container size="1200">distance</container>
     <container size="1200">sos</container>
     <container size="1200">weighted_cc</container>
-
     <container size="1">size</container>
     <container size="1">time</container>
     <container size="1200">time_line</container>
@@ -435,36 +451,35 @@ Voer dit experiment best uit in een rustige omgeving.
       <input clear="false">distance</input>
       <output>weighted_cc</output>
     </multiply>
-
     <timer>
-        <output>time</output>
+      <output>time</output>
     </timer>
     <const>
-        <input as="value">time</input>
-        <input as="length" type="value">1200</input>
-        <output>time_line</output>
+      <input as="value">time</input>
+      <input as="length" type="value">1200</input>
+      <output>time_line</output>
     </const>
     <count>
-        <input clear="false">crosscorrelation</input>
-        <output>size</output>
+      <input clear="false">crosscorrelation</input>
+      <output>size</output>
     </count>
     <if equal="true">
-        <input clear="false">size</input>
-        <input type="value">1500</input>
-        <input clear="false">time_line</input>
-        <output clear="false">time_map</output>
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">time_line</input>
+      <output clear="false">time_map</output>
     </if>
     <if equal="true">
-        <input clear="false">size</input>
-        <input type="value">1500</input>
-        <input clear="false">distance</input>
-        <output clear="false">distance_map</output>
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">distance</input>
+      <output clear="false">distance_map</output>
     </if>
     <if equal="true">
-        <input clear="false">size</input>
-        <input type="value">1500</input>
-        <input clear="false">weighted_cc</input>
-        <output clear="false">weighted_map</output>
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc</input>
+      <output clear="false">weighted_map</output>
     </if>
   </analysis>
   <export>

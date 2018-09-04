@@ -7,7 +7,7 @@
   <link label="x / y / z">http://phyphox.org/sensors/</link>
   <translations>
     <translation locale="de">
-      <title>Gyroskop</title>
+      <title>Gyroskop (Drehrate)</title>
       <category>Sensoren</category>
       <description>Rohdaten des Gyroskops auslesen.</description>
       <string original="Simple">Einfach</string>
@@ -16,6 +16,7 @@
       <string original="Gyroscope x">Gyroskop x</string>
       <string original="Gyroscope y">Gyroskop y</string>
       <string original="Gyroscope z">Gyroskop z</string>
+      <string original="Gyroscope">Gyroskop</string>
     </translation>
     <translation locale="cs">
       <title>Gyroskop</title>

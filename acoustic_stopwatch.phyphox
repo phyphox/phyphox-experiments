@@ -83,6 +83,13 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Time 5">Zeit 5</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Ändere die Schwelle auf einen Wert oberhalb der Umgebungsgeräusche, aber unterhalb des Auslösegeräusches (dies kannst du zum Beispiel im Experiment "Audio Oszilloskop" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden (beispielsweise durch Echos oder Hall).</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche es erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet.</string>
+      <string original="Many">Viele</string>
+      <string original="Events">Ereignisse</string>
+      <string original="Event number">Ereignis-Nummer</string>
+      <string original="Time interval">Zeitintervall</string>
+      <string original="Average interval">Mittleres Intervall</string>
+      <string original="Average rate">Mittlere Rate</string>
+      <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
     </translation>
     <translation locale="cs">
       <title>Akustické stopky</title>
@@ -182,6 +189,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Parallel">Сравнить</string>
       <string original="a.u.">пр. е.</string>
       <string original="s">с</string>
+      <string original="Hz">Гц</string>
     </translation>
     <translation locale="it">
       <title>Cronometro acustico</title>
@@ -248,7 +256,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
         <input>dt01</input>
       </value>
       <button label="Reset">
-        <input type="empty" />
+        <input type="empty"/>
         <output>tlist</output>
         <input type="value">0</input>
         <output>index</output>
@@ -276,7 +284,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       </value>
       <separator height="1"/>
       <button label="Reset">
-        <input type="empty" />
+        <input type="empty"/>
         <output>tlist</output>
         <input type="value">0</input>
         <output>index</output>
@@ -300,32 +308,32 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       </value>
       <separator height="1"/>
       <button label="Reset">
-        <input type="empty" />
+        <input type="empty"/>
         <output>tlist</output>
         <input type="value">0</input>
         <output>index</output>
       </button>
     </view>
     <view label="Many">
-        <graph label="Events" labelX="Event number" labelY="Time interval" unitY="s">
-            <input axis="x">tindex</input>
-            <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
-        </graph>
-        <value label="Average interval" size="2" precision="3" unit="s">
-            <input>avgInterval</input>
-        </value>
-        <value label="Average rate" size="2" precision="2" unit="Hz">
-            <input>avgRate</input>
-        </value>
-        <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">
-            <input>avgBPM</input>
-        </value>
-        <button label="Reset">
-            <input type="empty" />
-            <output>tlist</output>
-            <input type="value">0</input>
-            <output>index</output>
-        </button>
+      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="s">
+        <input axis="x">tindex</input>
+        <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
+      </graph>
+      <value label="Average interval" size="2" precision="3" unit="s">
+        <input>avgInterval</input>
+      </value>
+      <value label="Average rate" size="2" precision="2" unit="Hz">
+        <input>avgRate</input>
+      </value>
+      <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">
+        <input>avgBPM</input>
+      </value>
+      <button label="Reset">
+        <input type="empty"/>
+        <output>tlist</output>
+        <input type="value">0</input>
+        <output>index</output>
+      </button>
     </view>
   </views>
   <analysis>
@@ -355,21 +363,18 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <input type="value">0</input>
       <output>t</output>
     </if>
-
     <const>
-        <output>last</output>
+      <output>last</output>
     </const>
     <append>
-        <input clear="false">tlist</input>
-        <output clear="false">last</output>
+      <input clear="false">tlist</input>
+      <output clear="false">last</output>
     </append>
-
     <add>
       <input clear="false">last</input>
       <input clear="false">mindelay</input>
       <output>limit</output>
     </add>
-
     <if less="true" equal="true">
       <input clear="false">limit</input>
       <input clear="false">t</input>
@@ -377,7 +382,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <input type="value">0</input>
       <output>t</output>
     </if>
-
     <if greater="true">
       <input clear="false">t</input>
       <input type="value">0</input>
@@ -385,41 +389,41 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <output clear="false">tlist</output>
     </if>
     <differentiate>
-        <input clear="false">tlist</input>
-        <output>dtlist</output>
+      <input clear="false">tlist</input>
+      <output>dtlist</output>
     </differentiate>
     <average>
-        <input clear="false">dtlist</input>
-        <output>avgInterval</output>
+      <input clear="false">dtlist</input>
+      <output>avgInterval</output>
     </average>
     <divide>
-        <input type="value">1</input>
-        <input clear="false">avgInterval</input>
-        <output>avgRate</output>
+      <input type="value">1</input>
+      <input clear="false">avgInterval</input>
+      <output>avgRate</output>
     </divide>
     <multiply>
-        <input clear="false">avgRate</input>
-        <input type="value">60</input>
-        <output>avgBPM</output>
+      <input clear="false">avgRate</input>
+      <input type="value">60</input>
+      <output>avgBPM</output>
     </multiply>
     <append>
-        <input type="value">0</input>
-        <output clear="false">dtlist</output>
+      <input type="value">0</input>
+      <output clear="false">dtlist</output>
     </append>
     <count>
-        <input clear="false">tlist</input>
-        <output>tcount</output>
+      <input clear="false">tlist</input>
+      <output>tcount</output>
     </count>
     <subtract>
-        <input clear="false">tcount</input>
-        <input type="value">1</input>
-        <output>tcount-1</output>
+      <input clear="false">tcount</input>
+      <input type="value">1</input>
+      <output>tcount-1</output>
     </subtract>
     <ramp>
-        <input as="start" type="value">0</input>
-        <input as="stop">tcount-1</input>
-        <input as="length">tcount</input>
-        <output>tindex</output>
+      <input as="start" type="value">0</input>
+      <input as="stop">tcount-1</input>
+      <input as="length">tcount</input>
+      <output>tindex</output>
     </ramp>
     <add>
       <input clear="false">index</input>
@@ -431,68 +435,60 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <input clear="false">rate</input>
       <output>tmax</output>
     </divide>
-
     <const>
-        <output>t0</output>
+      <output>t0</output>
     </const>
     <const>
-        <output>t1</output>
+      <output>t1</output>
     </const>
     <const>
-        <output>t2</output>
+      <output>t2</output>
     </const>
     <const>
-        <output>t3</output>
+      <output>t3</output>
     </const>
     <const>
-        <output>t4</output>
+      <output>t4</output>
     </const>
     <const>
-        <output>t5</output>
+      <output>t5</output>
     </const>
-
     <subrange>
-        <input as="from" type="value">0</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t0</output>
+      <input as="from" type="value">0</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t0</output>
     </subrange>
-
     <subrange>
-        <input as="from" type="value">1</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t1</output>
+      <input as="from" type="value">1</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t1</output>
     </subrange>
-
     <subrange>
-        <input as="from" type="value">2</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t2</output>
+      <input as="from" type="value">2</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t2</output>
     </subrange>
-
     <subrange>
-        <input as="from" type="value">3</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t3</output>
+      <input as="from" type="value">3</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t3</output>
     </subrange>
-
     <subrange>
-        <input as="from" type="value">4</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t4</output>
+      <input as="from" type="value">4</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t4</output>
     </subrange>
-
     <subrange>
-        <input as="from" type="value">5</input>
-        <input as="length" type="value">1</input>
-        <input as="in" clear="false">tlist</input>
-        <output clear="false">t5</output>
+      <input as="from" type="value">5</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t5</output>
     </subrange>
-
     <if less="true" equal="true">
       <input clear="false">t5</input>
       <input type="value">0</input>
@@ -580,7 +576,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <input>t0effective</input>
       <output>dt01</output>
     </subtract>
-
   </analysis>
   <export>
     <set name="Simple">

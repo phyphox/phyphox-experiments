@@ -40,6 +40,8 @@
       <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
       <string original="Accelerometer x">Beschleunigung x</string>
       <string original="Accelerometer y">Beschleunigung y</string>
+      <string original="Rel. amplitude">Rel. Amplitude</string>
+      <string original="correlation">Korrelation</string>
     </translation>
     <translation locale="cs">
       <title>Pružina</title>

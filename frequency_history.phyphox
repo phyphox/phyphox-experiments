@@ -209,8 +209,8 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <output clear="false">time_hist</output>
     </rangefilter>
     <append>
-        <input clear="false">new_period</input>
-        <output clear="false">period</output>
+      <input clear="false">new_period</input>
+      <output clear="false">period</output>
     </append>
     <divide>
       <input type="value">1</input>

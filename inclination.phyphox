@@ -25,6 +25,17 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </description>
       <string original="Inclination">Neigung</string>
       <string original="Angle (°)">Winkel (°)</string>
+      <string original="Flat">Liegend</string>
+      <string original="Tilt up/down">Kippwinkel auf/ab</string>
+      <string original="Angle">Winkel</string>
+      <string original="Tilt left/right">Kippwinkel links/rechts</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Diese Seite misst den Neigungswinkel des Smartphones aus einer liegenden Position.</string>
+      <string original="Upright">Aufrecht</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Diese Seite misst den Neigungswinkel des Smartphones aus einer aufrechten Position.</string>
+      <string original="Side">Seite</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Diese Seite misst den Neigungswinkel des Smartphones aus einer seitlichen Position.</string>
+      <string original="Plane">Ebene</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Diese Seite misst die Neigung einer Ebene. Dazu muss das Smartphone auf dieser Ebene liegen, wobei die Neigung unabhängig von der Ausrichtung des Smartphones berechnet wird. Die Rotation gibt erst die Richtung der Neigung an.</string>
     </translation>
     <translation locale="cs">
       <title>Náklon</title>
@@ -81,6 +92,17 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="t (s)">t (c)</string>
       <string original="Angle (°)">Угол (°)</string>
       <string original="Rotation">Вращение</string>
+      <string original="Flat">Ровный</string>
+      <string original="Tilt up/down">Наклон вверх/вниз</string>
+      <string original="Angle">Угол</string>
+      <string original="Tilt left/right">Наклон влево/вправо</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Эта вкладка позволяет измерять угол наклона телефона, начиная с горизонтального положения.</string>
+      <string original="Upright">Вертикальный</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Эта вкладка позволяет измерять угол наклона телефона, начиная с вертикального положения.</string>
+      <string original="Side">Боковая сторона</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Эта вкладка позволяет измерять угол наклона телефона, начиная с бокового положения.</string>
+      <string original="Plane">Плоскость</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Эта вкладка позволяет измерять наклон плоскости. Наклон плоскости измеряется по мере того, как телефон остается в горизонтальном положении на поверхности, независимо от его ориентации. Вращение дает направление наклона.</string>
     </translation>
     <translation locale="it">
       <title>Inclinazione</title>
@@ -149,7 +171,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
         <input>tiltFlatLR</input>
       </value>
-      <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position." />
+      <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position."/>
     </view>
     <view label="Upright">
       <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
@@ -167,7 +189,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
         <input>tiltUprightLR</input>
       </value>
-      <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position." />
+      <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position."/>
     </view>
     <view label="Side">
       <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
@@ -185,7 +207,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
         <input>tiltSideLR</input>
       </value>
-      <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position." />
+      <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position."/>
     </view>
     <view label="Plane">
       <graph label="Inclination" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
@@ -203,54 +225,50 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <value label="Rotation" size="2" precision="2" scientific="false" unit="°" factor="1">
         <input>anglePlane</input>
       </value>
-      <info label="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination." />
+      <info label="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination."/>
     </view>
   </views>
   <analysis sleep="0.5">
-
     <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accY</input>
-        <input clear="false">accZ</input>
-        <output clear="false">tiltFlatUD</output>
+      <input clear="false">accY</input>
+      <input clear="false">accZ</input>
+      <output clear="false">tiltFlatUD</output>
     </formula>
     <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accX</input>
-        <input clear="false">accZ</input>
-        <output clear="false">tiltFlatLR</output>
-    </formula>
-
-    <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accZ</input>
-        <input clear="false">accY</input>
-        <output clear="false">tiltUprightUD</output>
+      <input clear="false">accX</input>
+      <input clear="false">accZ</input>
+      <output clear="false">tiltFlatLR</output>
     </formula>
     <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accX</input>
-        <input clear="false">accY</input>
-        <output clear="false">tiltUprightLR</output>
-    </formula>
-
-    <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accY</input>
-        <input clear="false">accX</input>
-        <output clear="false">tiltSideUD</output>
+      <input clear="false">accZ</input>
+      <input clear="false">accY</input>
+      <output clear="false">tiltUprightUD</output>
     </formula>
     <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accZ</input>
-        <input clear="false">accX</input>
-        <output clear="false">tiltSideLR</output>
+      <input clear="false">accX</input>
+      <input clear="false">accY</input>
+      <output clear="false">tiltUprightLR</output>
     </formula>
-
+    <formula formula="atan2([1_],[2_])*57.29577951">
+      <input clear="false">accY</input>
+      <input clear="false">accX</input>
+      <output clear="false">tiltSideUD</output>
+    </formula>
+    <formula formula="atan2([1_],[2_])*57.29577951">
+      <input clear="false">accZ</input>
+      <input clear="false">accX</input>
+      <output clear="false">tiltSideLR</output>
+    </formula>
     <formula formula="atan2(sqrt([1_]*[1_]+[2_]*[2_]),[3_])*57.29577951">
-        <input clear="false">accX</input>
-        <input clear="false">accY</input>
-        <input clear="false">accZ</input>
-        <output clear="false">angle</output>
+      <input clear="false">accX</input>
+      <input clear="false">accY</input>
+      <input clear="false">accZ</input>
+      <output clear="false">angle</output>
     </formula>
     <formula formula="atan2([1_],[2_])*57.29577951">
-        <input clear="false">accX</input>
-        <input clear="false">accY</input>
-        <output clear="false">anglePlane</output>
+      <input clear="false">accX</input>
+      <input clear="false">accY</input>
+      <output clear="false">anglePlane</output>
     </formula>
     <append>
       <input clear="false">accT</input>

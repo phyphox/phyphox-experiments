@@ -17,6 +17,7 @@
       <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
       <string original="Accelerometer x">Beschleunigung x</string>
       <string original="Accelerometer y">Beschleunigung y</string>
+      <string original="Acceleration">Beschleunigung</string>
     </translation>
     <translation locale="cs">
       <title>Akcelerace s g</title>
@@ -29,6 +30,7 @@
       <string original="Simple">Stručně</string>
       <string original="Accelerometer x">Akcelerometr x</string>
       <string original="Accelerometer y">Akcelerometr y</string>
+      <string original="Acceleration">Zrychlení</string>
     </translation>
     <translation locale="pl">
       <title>Przyspieszenie (zawiera g)</title>
@@ -41,6 +43,7 @@
       <string original="Simple">Próbka</string>
       <string original="Accelerometer x">Akcelerometr - składowa x</string>
       <string original="Accelerometer y">Akcelerometr - składowa y</string>
+      <string original="Acceleration">Przyspieszenie</string>
     </translation>
     <translation locale="nl">
       <title>Versnelling met g</title>
@@ -50,6 +53,7 @@
       <string original="Absolute">Absoluut</string>
       <string original="Absolute acceleration">Absolute versnelling</string>
       <string original="Simple">Eenvoudig</string>
+      <string original="Acceleration">Versnelling</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение с g</title>
@@ -65,6 +69,7 @@
       <string original="Absolute acceleration">Абсолютное ускорение</string>
       <string original="Simple">Значение</string>
       <string original="m/s²">м/с²</string>
+      <string original="Acceleration">Ускорение</string>
     </translation>
     <translation locale="it">
       <title>Accelerazione (g inclusa)</title>
@@ -77,6 +82,7 @@
       <string original="Absolute">Modulo</string>
       <string original="Absolute acceleration">Modulo dell'accelerazione</string>
       <string original="Simple">Valori</string>
+      <string original="Acceleration">Accelerazione</string>
     </translation>
     <translation locale="el">
       <title>Επιτάχυνση με g</title>
@@ -89,6 +95,7 @@
       <string original="Absolute">Μέτρο</string>
       <string original="Absolute acceleration">Μέτρο της επιτάχυνσης</string>
       <string original="Simple">Απλό</string>
+      <string original="Acceleration">Επιτάχυνση</string>
     </translation>
   </translations>
   <data-containers>

@@ -20,6 +20,7 @@
       <string original="Linear Acceleration x">Lineare Beschleunigung x</string>
       <string original="Linear Acceleration y">Lineare Beschleunigung y</string>
       <string original="Linear Acceleration z">Lineare Beschleunigung z</string>
+      <string original="Acceleration">Beschleunigung</string>
     </translation>
     <translation locale="cs">
       <title>Akcelerace (bez g)</title>
@@ -35,6 +36,7 @@
       <string original="Linear Acceleration x">Lineární zrychlení x</string>
       <string original="Linear Acceleration y">Lineární zrychlení y</string>
       <string original="Linear Acceleration z">Lineární zrychlení z</string>
+      <string original="Acceleration">Zrychlení</string>
     </translation>
     <translation locale="pl">
       <title>Przyspieszenie (bez g)</title>
@@ -50,6 +52,7 @@
       <string original="Linear Acceleration x">Przyspieszenie liniowe x</string>
       <string original="Linear Acceleration y">Przyspieszenie liniowe y</string>
       <string original="Linear Acceleration z">Przyspieszenie liniowe z</string>
+      <string original="Acceleration">Przyspieszenie</string>
     </translation>
     <translation locale="nl">
       <title>Versnelling (zonder g)</title>
@@ -65,6 +68,7 @@
       <string original="Acceleration x">Versnelling x</string>
       <string original="Acceleration y">Versnelling y</string>
       <string original="Acceleration z">Versnelling z</string>
+      <string original="Acceleration">Versnelling</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение (без g)</title>
@@ -83,6 +87,7 @@
       <string original="Acceleration y">Ускорение y</string>
       <string original="Acceleration z">Ускорение z</string>
       <string original="m/s²">м/с²</string>
+      <string original="Acceleration">Ускорение</string>
     </translation>
     <translation locale="it">
       <title>Accelerazione (senza g)</title>
@@ -98,6 +103,7 @@
       <string original="Acceleration x">Accelerazione x</string>
       <string original="Acceleration y">Accelerazione y</string>
       <string original="Acceleration z">Accelerazione z</string>
+      <string original="Acceleration">Accelerazione</string>
     </translation>
     <translation locale="el">
       <title>Επιτάχυνση (χωρίς το g)</title>
@@ -113,6 +119,7 @@
       <string original="Acceleration x">Επιτάχυνση x</string>
       <string original="Acceleration y">Επιτάχυνση y</string>
       <string original="Acceleration z">Επιτάχυνση z</string>
+      <string original="Acceleration">Επιτάχυνση</string>
     </translation>
   </translations>
   <data-containers>

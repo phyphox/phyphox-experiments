@@ -32,6 +32,7 @@
       <string original="Cents from note">Cent über Note</string>
       <string original="Low">Niedrig</string>
       <string original="High">Hoch</string>
+      <string original="correlation">Korrelation</string>
     </translation>
     <translation locale="cs">
       <title>Zvuková autokorelace</title>
@@ -55,6 +56,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Neupravená data</string>
       <string original="Recording">Záznam</string>
       <string original="Amplitude (a.u.)">Amplituda</string>
+      <string original="Amplitude">Amplituda</string>
     </translation>
     <translation locale="pl">
       <title>Częstotliwość dźwięku</title>
@@ -78,6 +80,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Surowe dane</string>
       <string original="Recording">Nagranie</string>
       <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
+      <string original="Amplitude">Amplituda</string>
     </translation>
     <translation locale="nl">
       <title>Geluid Autocorrelatie</title>
@@ -136,6 +139,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
       <string original="ms">мс</string>
       <string original="Hz">Гц</string>
+      <string original="Amplitude">Амплитуда</string>
     </translation>
     <translation locale="it">
       <title>Autocorrelazione audio</title>
@@ -218,6 +222,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Raw data">Dati grezzi</string>
       <string original="Recording">Registrazione</string>
       <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+      <string original="Amplitude">Ampiezza</string>
     </translation>
     <translation locale="el">
       <title>Συχνότητα ήχου</title>
@@ -241,6 +246,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Recording">Εγγραφή</string>
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
+      <string original="Amplitude">Πλάτος</string>
     </translation>
   </translations>
   <data-containers>

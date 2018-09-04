@@ -32,6 +32,9 @@
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
       <string original="Low">Niedrig</string>
       <string original="High">Hoch</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
     </translation>
     <translation locale="cs">
       <title>Zvukové spektrum</title>
@@ -58,6 +61,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Raw data">Neupravená data</string>
       <string original="Recording">Záznam</string>
       <string original="Amplitude (a.u.)">Amplituda</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="History">Historie</string>
+      <string original="Time">Čas</string>
+      <string original="Amplitude">Amplituda</string>
     </translation>
     <translation locale="pl">
       <title>Widmo audio</title>
@@ -84,6 +91,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Raw data">Surowe dane</string>
       <string original="Recording">Nagranie</string>
       <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+      <string original="Amplitude">Amplituda</string>
     </translation>
     <translation locale="nl">
       <title>Audio spectrum</title>
@@ -107,6 +118,9 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Monsters</string>
       <string original="Raw data">Onbewerkte data</string>
       <string original="Recording">Opname</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
     </translation>
     <translation locale="ru">
       <title>Звуковой спектр</title>
@@ -146,6 +160,11 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
       <string original="Hz">Гц</string>
       <string original="ms">мс</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <string original="Amplitude">Амплитуда</string>
     </translation>
     <translation locale="it">
       <title>Spettro Audio</title>
@@ -232,6 +251,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Raw data">Dati grezzi</string>
       <string original="Recording">Registrazione</string>
       <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+      <string original="Amplitude">Ampiezza</string>
     </translation>
     <translation locale="el">
       <title>Ηχητικό Φάσμα</title>
@@ -258,6 +281,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Recording">Εγγραφή</string>
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">Χρόνος</string>
+      <string original="Amplitude">Πλάτος</string>
     </translation>
   </translations>
   <data-containers>
@@ -291,7 +318,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
     <container>semitonesRound</container>
     <container>semitonesDiff</container>
     <container>centsDiff</container>
-
     <container size="1">t</container>
     <container size="1">resolutionRatio</container>
     <container size="256">timeline</container>
@@ -439,14 +465,13 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
   </views>
   <analysis sleep="0.05" dynamicSleep="period">
     <timer>
-        <output>t</output>
+      <output>t</output>
     </timer>
     <const>
-        <input as="value">t</input>
-        <input as="length" type="value">256</input>
-        <output>timeline</output>
+      <input as="value">t</input>
+      <input as="length" type="value">256</input>
+      <output>timeline</output>
     </const>
-
     <count>
       <input clear="false">recording</input>
       <output>recording_length</output>
@@ -475,13 +500,11 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <input type="value">2</input>
       <output>actual_samples/2</output>
     </divide>
-
     <add>
       <input clear="false">actual_samples/2</input>
       <input type="value">1</input>
       <output>actual_samples/2+1</output>
     </add>
-
     <divide>
       <input clear="false">actual_samples</input>
       <input clear="false">rate</input>
@@ -492,7 +515,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <input type="value">2</input>
       <output>rate/2</output>
     </divide>
-
     <ramp>
       <input as="start" type="value">0</input>
       <input as="stop" clear="false">period</input>
@@ -572,38 +594,37 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <input type="value">100</input>
       <output>centsDiff</output>
     </multiply>
-
     <divide>
-        <input clear="false">actual_samples</input>
-        <input type="value">2048</input>
-        <output>resolutionRatio</output>
+      <input clear="false">actual_samples</input>
+      <input type="value">2048</input>
+      <output>resolutionRatio</output>
     </divide>
     <reduce averageY="true" averageX="true">
-        <input clear="false" as="factor">resolutionRatio</input>
-        <input clear="false" as="x">halfFrequency</input>
-        <input clear="false" as="y">fft</input>
-        <output as="x" clear="true">reducedf</output>
-        <output as="y" clear="true">reducedfft</output>
+      <input clear="false" as="factor">resolutionRatio</input>
+      <input clear="false" as="x">halfFrequency</input>
+      <input clear="false" as="y">fft</input>
+      <output as="x" clear="true">reducedf</output>
+      <output as="y" clear="true">reducedfft</output>
     </reduce>
     <subrange>
-        <input as="from" type="value">0</input>
-        <input as="to" type="value">256</input>
-        <input>reducedf</input>
-        <input>reducedfft</input>
-        <output>subf</output>
-        <output>subfft</output>
+      <input as="from" type="value">0</input>
+      <input as="to" type="value">256</input>
+      <input>reducedf</input>
+      <input>reducedfft</input>
+      <output>subf</output>
+      <output>subfft</output>
     </subrange>
     <append>
-        <input clear="false">timeline</input>
-        <output clear="false">tmap</output>
+      <input clear="false">timeline</input>
+      <output clear="false">tmap</output>
     </append>
     <append>
-        <input clear="false">subf</input>
-        <output clear="false">fmap</output>
+      <input clear="false">subf</input>
+      <output clear="false">fmap</output>
     </append>
     <append>
-        <input clear="false">subfft</input>
-        <output clear="false">fftmap</output>
+      <input clear="false">subfft</input>
+      <output clear="false">fftmap</output>
     </append>
   </analysis>
   <export>

@@ -31,6 +31,7 @@
       <string original="Total magnetic field squared and filtered">Gesamtfeld quadriert und gefiltert</string>
       <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
       <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
+      <string original="Filtered B²">Gefiltertes B²</string>
     </translation>
     <translation locale="cs">
       <title>Magnetické pravítko</title>

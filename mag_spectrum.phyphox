@@ -33,6 +33,9 @@
       <string original="Magnetic field z">Magnetfeld z</string>
       <string original="Samples">Messwerte</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
     </translation>
     <translation locale="cs">
       <title>Magnetické spektrum</title>
@@ -58,6 +61,9 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field x">Magnetické pole x</string>
       <string original="Magnetic field y">Magnetické pole y</string>
       <string original="Magnetic field z">Magnetické pole z</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="History">Historie</string>
+      <string original="Time">Čas</string>
     </translation>
     <translation locale="pl">
       <title>Widmo magnetyczne</title>
@@ -83,6 +89,9 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field x">Składowa x indukcji magnetycznej</string>
       <string original="Magnetic field y">Składowa y indukcji magnetycznej</string>
       <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
     </translation>
     <translation locale="nl">
       <title>Magnetisch Spectrum</title>
@@ -106,6 +115,9 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field x">Magnetisch veld x</string>
       <string original="Magnetic field y">Magnetisch veld y</string>
       <string original="Magnetic field z">Magnetisch veld z</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
     </translation>
     <translation locale="ru">
       <title>Магнитный спектр</title>
@@ -135,6 +147,10 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field z">Магнитное поле z</string>
       <string original="Hz">Гц</string>
       <string original="s">с</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
     </translation>
     <translation locale="it">
       <title>Spettro magnetico</title>
@@ -159,6 +175,9 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field x">Campo magnetico x</string>
       <string original="Magnetic field y">Campo magnetico y</string>
       <string original="Magnetic field z">Campo magnetico z</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
     </translation>
     <translation locale="el">
       <title>Μαγνητικό Φάσμα</title>
@@ -184,6 +203,9 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field x">Μαγνητικό πεδίο x</string>
       <string original="Magnetic field y">Μαγνητικό πεδίο y</string>
       <string original="Magnetic field z">Μαγνητικό πεδίο z</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">Χρόνος</string>
     </translation>
   </translations>
   <data-containers>
@@ -232,7 +254,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
     <container size="2048">fft2</container>
     <container size="2048">fft</container>
     <container>f0</container>
-
     <container size="1">t</container>
     <container size="1">resolutionRatio</container>
     <container size="256">timeline</container>
@@ -332,14 +353,13 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
   </views>
   <analysis sleep="0.1">
     <timer>
-        <output>t</output>
+      <output>t</output>
     </timer>
     <const>
-        <input as="value">t</input>
-        <input as="length" type="value">256</input>
-        <output>timeline</output>
+      <input as="value">t</input>
+      <input as="length" type="value">256</input>
+      <output>timeline</output>
     </const>
-
     <append>
       <input>magInX</input>
       <output clear="false">magX</output>
@@ -551,49 +571,48 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <input as="x" clear="false">halfFrequency</input>
       <output as="position">f0</output>
     </max>
-
     <divide>
-        <input clear="false">actual_samples</input>
-        <input type="value">256</input>
-        <output>resolutionRatio</output>
+      <input clear="false">actual_samples</input>
+      <input type="value">256</input>
+      <output>resolutionRatio</output>
     </divide>
     <reduce averageY="true" averageX="true">
-        <input clear="false" as="factor">resolutionRatio</input>
-        <input clear="false" as="x">halfFrequency</input>
-        <input clear="false" as="y">fft</input>
-        <output as="x" clear="true">reducedf</output>
-        <output as="y" clear="true">reducedfft</output>
+      <input clear="false" as="factor">resolutionRatio</input>
+      <input clear="false" as="x">halfFrequency</input>
+      <input clear="false" as="y">fft</input>
+      <output as="x" clear="true">reducedf</output>
+      <output as="y" clear="true">reducedfft</output>
     </reduce>
     <const>
-        <output>subf</output>
+      <output>subf</output>
     </const>
     <first>
-        <input clear="false">reducedfft</input>
-        <output>firstfft</output>
+      <input clear="false">reducedfft</input>
+      <output>firstfft</output>
     </first>
     <const>
-        <input as="value">firstfft</input>
-        <output>subfft</output>
+      <input as="value">firstfft</input>
+      <output>subfft</output>
     </const>
     <subrange>
-        <input as="from" type="value">0</input>
-        <input as="to" type="value">256</input>
-        <input>reducedf</input>
-        <input>reducedfft</input>
-        <output clear="false">subf</output>
-        <output clear="false">subfft</output>
+      <input as="from" type="value">0</input>
+      <input as="to" type="value">256</input>
+      <input>reducedf</input>
+      <input>reducedfft</input>
+      <output clear="false">subf</output>
+      <output clear="false">subfft</output>
     </subrange>
     <append>
-        <input clear="false">timeline</input>
-        <output clear="false">tmap</output>
+      <input clear="false">timeline</input>
+      <output clear="false">tmap</output>
     </append>
     <append>
-        <input clear="false">subf</input>
-        <output clear="false">fmap</output>
+      <input clear="false">subf</input>
+      <output clear="false">fmap</output>
     </append>
     <append>
-        <input clear="false">subfft</input>
-        <output clear="false">fftmap</output>
+      <input clear="false">subfft</input>
+      <output clear="false">fftmap</output>
     </append>
   </analysis>
   <export>
