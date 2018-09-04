@@ -307,7 +307,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       </button>
     </view>
     <view label="Many">
-        <graph label="Events" labelX="Event number" labelY="Time interval (s)">
+        <graph label="Events" labelX="Event number" labelY="Time interval" unitY="s">
             <input axis="x">tindex</input>
             <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
         </graph>

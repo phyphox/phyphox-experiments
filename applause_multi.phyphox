@@ -57,7 +57,7 @@
     </input>
     <views>
         <view label="Score">
-            <graph label="History" labelX="Time (s)" labelY="Subscore">
+            <graph label="History" labelX="Time" unitX="s" labelY="Subscore">
                 <input axis="x">time</input>
                 <input axis="y">score</input>
             </graph>

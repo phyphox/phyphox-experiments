@@ -299,7 +299,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       </button>
     </view>
     <view label="Many">
-        <graph label="Events" labelX="Event number" labelY="Time interval (s)">
+        <graph label="Events" labelX="Event number" labelY="Time interval" labelX="s">
             <input axis="x">tindex</input>
             <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
         </graph>

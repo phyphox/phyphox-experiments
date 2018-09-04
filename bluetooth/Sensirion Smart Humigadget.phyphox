@@ -18,11 +18,11 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Temperature" labelX="t (s)" labelY="T (°C)" partialUpdate="true">
+            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
                 <input axis="y">T</input>
                 <input axis="x">Tt</input>
             </graph>
-            <graph label="Humidity" labelX="t (s)" labelY="rel. humidity (%)" partialUpdate="true">
+            <graph label="Humidity" labelX="t" unitX="s" labelY="rel. humidity" unitY="%" partialUpdate="true">
                 <input axis="y">hum</input>
                 <input axis="x">t</input>
             </graph>

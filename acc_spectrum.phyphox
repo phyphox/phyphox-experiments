@@ -316,15 +316,15 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       </button>
     </view>
     <view label="Raw data">
-      <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitX="m/s²">
+      <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accX_subrange</input>
       </graph>
-      <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitX="m/s²">
+      <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accY_subrange</input>
       </graph>
-      <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitX="m/s²">
+      <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²">
         <input axis="x">time_subrange</input>
         <input axis="y">accZ_subrange</input>
       </graph>
