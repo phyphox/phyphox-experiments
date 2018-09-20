@@ -114,6 +114,54 @@
       <string original="Acceleration y">Επιτάχυνση y</string>
       <string original="Acceleration z">Επιτάχυνση z</string>
     </translation>
+    <translation locale="ja">
+      <title>加速度 (gを無視した場合)</title>
+      <category>センサー出力</category>
+      <description>重力を除いた加速度が得られるリニア加速度計からの時系列データを取得する．重力gを考慮した加速度計測と異なり，本計測ではデバイスが静止しているときの加速度は0と出力される。</description>
+      <string original="Graph">グラフ</string>
+      <string original="Linear Acceleration x">加速度 x</string>
+      <string original="Linear Acceleration y">加速度 y</string>
+      <string original="Linear Acceleration z">加速度 z</string>
+      <string original="Absolute">絶対値</string>
+      <string original="Absolute acceleration">加速度の絶対値</string>
+      <string original="Simple">シンプル</string>
+      <string original="Acceleration x">加速度 x</string>
+      <string original="Acceleration y">加速度 y</string>
+      <string original="Acceleration z">加速度 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Aceleração (sem g)</title>
+      <category>Sensores</category>
+      <description>Obtenha valores do acelerômetro linear, que dá a aceleração atual sem contar a aceleração devido a gravidade. Diferente do "acelerômetro com g", este sensor retorna 0 quando o aparelho está em repouso.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Linear Acceleration x">Aceleração Linear x</string>
+      <string original="Linear Acceleration y">Aceleração Linear y</string>
+      <string original="Linear Acceleration z">Aceleração Linear z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleração absoluta</string>
+      <string original="Simple">Simples</string>
+      <string original="Acceleration x">Aceleração X</string>
+      <string original="Acceleration y">Aceleração Y</string>
+      <string original="Acceleration z">Aceleração Z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>不含重力之加速度</title>
+      <category>原始感測器</category>
+      <description>自線性加速儀獲得原始數據會使測得的真實加速度不包含重力加速度。與「含重力之加速度」對比，這個感應器會在裝置靜止時得到0的值。</description>
+      <string original="Graph">圖表</string>
+      <string original="Linear Acceleration x">x方向線性加速度</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="a (m/s²)">加速度 (m/s²)</string>
+      <string original="Linear Acceleration y">y方向線性加速度</string>
+      <string original="Linear Acceleration z">z方向線性加速度</string>
+      <string original="Absolute">絕對值</string>
+      <string original="Absolute acceleration">加速度絕對值</string>
+      <string original="m/s²">公尺/秒²</string>
+      <string original="Simple">簡易</string>
+      <string original="Acceleration x">x方向加速度</string>
+      <string original="Acceleration y">y方向加速度</string>
+      <string original="Acceleration z">z方向加速度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

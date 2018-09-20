@@ -185,6 +185,84 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">Επιτάχυνση y</string>
       <string original="Acceleration z">Επιτάχυνση z</string>
     </translation>
+    <translation locale="ja">
+      <title>加速度スペクトル</title>
+      <category>ツール</category>
+      <description>
+            加速度スペクトルの表示．
+
+本実験では，加速度計により測定された加速度の時系列データを記録し，フーリエ変換 (FFT) を用いて加速度スペクトルの計算を行う．測定可能な最大（ナイキスト周波数）周波数は所有するセンサーの最大サンプリングレートによる．
+    </description>
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency (Hz)">周波数 (Hz)</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="Acquisition rate">サンプリングレート</string>
+      <string original="Nyquist frequency">ナイキスト周波数</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下下記より，フーリエ変換に使用するデータのサンプル数が変更可能．サンプル数を大きくすることで周波数分解能を改善できる一方で，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">センサー出力</string>
+      <string original="Acceleration x">加速度 x</string>
+      <string original="Acceleration y">加速度 y</string>
+      <string original="Acceleration z">加速度 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Espectro da Aceleração</title>
+      <category>Ferramentas</category>
+      <description>
+            Mostra o espectro de frequências dos dados do acelerômetro.
+
+            Este experimento grava dados do acelerômetro e calcula seu espectro de frequências através da transformada de Fourier (FFT). A máxima frequência detectável depende da taxa máxima de aquisição do seu sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency (Hz)">Frequência (Hz)</string>
+      <string original="FFT Mag (a.u.)">Int. FFT (u.a.)</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="Acquisition rate">Taxa de aquisição</string>
+      <string original="Nyquist frequency">Frequência de Nyquist</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Acceleration x">Aceleração X</string>
+      <string original="Acceleration y">Aceleração Y</string>
+      <string original="Acceleration z">Aceleração Z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>加速譜</title>
+      <category>工具</category>
+      <description>
+            自加速儀獲取資料以顯示頻譜。
+
+	此實驗自加速儀取得資料並利用快速傅力葉轉換(FFT)計算其頻譜。最大可偵測頻率與你手機感測器的最大資料獲取速度有關。
+    </description>
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency (Hz)">頻率 (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT 強度 (a.u.)</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="s">秒</string>
+      <string original="Acquisition rate">資料獲取速率</string>
+      <string original="Nyquist frequency">奈奎斯頻率</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Acceleration x">x方向加速度</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="a (m/s²)">加速度 (m/s²)</string>
+      <string original="Acceleration y">y方向加速度</string>
+      <string original="Acceleration z">z方向加速度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accInX</container>

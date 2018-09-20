@@ -152,6 +152,70 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Ολικό μαγνητικό πεδίο τετραγωνισμένο και φιλτραρισμένο</string>
       <string original="Filtered B² (µT²)">Φιλτραρισμένο B² (µT²)</string>
     </translation>
+    <translation locale="ja">
+      <title>磁力定規</title>
+      <category>ツール</category>
+      <description>
+        連続的に配置された磁石を用いて，移動距離，速度，加速度を測定
+
+本実験ではスマートフォンが動く経路に沿って磁石を置いてください．磁石間の距離は各磁石ごとに同じであるようにし，その値を入力してください．
+スマートフォンの磁力計を使用し，いつ磁石を通ったかを特定し，移動距離を計算します．
+    </description>
+      <string original="Results">結果</string>
+      <string original="dx is the distance between two magnets">dx : 磁石間の距離</string>
+      <string original="Distance">距離</string>
+      <string original="Velocity">速度</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Magnetic field x">磁界 x</string>
+      <string original="Magnetic field y">磁界 y</string>
+      <string original="Magnetic field z">磁界 z</string>
+      <string original="Total magnetic field squared and filtered">フィルターされた磁界の二乗</string>
+      <string original="Filtered B² (µT²)">フィルター B² (µT)</string>
+    </translation>
+    <translation locale="pt">
+      <title>Régua Magnética</title>
+      <category>Ferramentas</category>
+      <description>
+        Use uma série de imãs para medir distância, velocidade e aceleração do aparelho.
+
+        Para este experimento, você deve colocar uma série de imãs idênticos ao longo do caminho que o aparelho irá se deslocar. A distância entre os imãs tem que ser a mesma para cada imã e deve ser informada no experimento. O aparelho irá então usar o magnetômetro para determinar quando ele passou por um imão, permitindo calcular a distância total percorrida.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="dx is the distance between two magnets">dx é a distância entre dois imãs</string>
+      <string original="Distance">Distância</string>
+      <string original="Velocity">Velocidade</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético Y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+      <string original="Total magnetic field squared and filtered">Campo magnético total ao quadrado e filtrado</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>磁性尺</title>
+      <category>工具</category>
+      <description>
+        利用一序列的磁鐵以測量距離、速度及手機的加速度。
+
+	在此實驗中，你可以沿著手機經過的路徑放置一連串的磁鐵，每個磁鐵間的間距必須相同。手機會利用磁力計以判斷其是否經過一個磁鐵，進而計算出總距離…等。
+    </description>
+      <string original="Results">結果</string>
+      <string original="mm">毫米</string>
+      <string original="dx is the distance between two magnets">dx 是兩個磁鐵中的間距</string>
+      <string original="Distance">距離</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="x (m)">位移 (m)</string>
+      <string original="Velocity">速度</string>
+      <string original="v (m/s)">速度 (m/s)</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Magnetic field x">x方向磁場</string>
+      <string original="Bx (µT)">x方向磁場 (µT)</string>
+      <string original="Magnetic field y">y方向磁場</string>
+      <string original="By (µT)">y方向磁場 (µT)</string>
+      <string original="Magnetic field z">z方向磁場</string>
+      <string original="Bz (µT)">z方向磁場 (µT)</string>
+      <string original="Total magnetic field squared and filtered">過濾及平方後的總磁場</string>
+      <string original="Filtered B² (µT²)">過濾後的 磁場² (µT²)</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

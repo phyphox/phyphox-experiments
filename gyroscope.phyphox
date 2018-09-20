@@ -86,6 +86,42 @@
       <string original="Absolute">Μέτρο</string>
       <string original="Simple">Απλό</string>
     </translation>
+    <translation locale="ja">
+      <title>ジャイロスコープ</title>
+      <category>センサー出力</category>
+      <description>ジャイロスコープからの時系列データの取得．</description>
+      <string original="Graph">グラフ</string>
+      <string original="Gyroscope x">ジャイロスコープ x</string>
+      <string original="Gyroscope y">ジャイロスコープ y</string>
+      <string original="Gyroscope z">ジャイロスコープ　z</string>
+      <string original="Absolute">絶対値</string>
+      <string original="Simple">シンプル</string>
+    </translation>
+    <translation locale="pt">
+      <title>Giroscópio (taxa de rotação)</title>
+      <category>Sensores</category>
+      <description>Obtenha os dados puros do giroscópio.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Gyroscope x">Giroscópio x</string>
+      <string original="Gyroscope y">Giroscópio y</string>
+      <string original="Gyroscope z">Giroscópio z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Simple">Simples</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>陀螺儀</title>
+      <category>原始感測器</category>
+      <description>由陀螺儀得原始數據。</description>
+      <string original="Graph">圖表</string>
+      <string original="Gyroscope x">x方向陀螺儀</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="ω (rad/s)">角速度 (rad/s)</string>
+      <string original="Gyroscope y">y方向陀螺儀</string>
+      <string original="Gyroscope z">z方向陀螺儀</string>
+      <string original="Absolute">絕對值</string>
+      <string original="rad/s">弧度/秒</string>
+      <string original="Simple">簡易</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

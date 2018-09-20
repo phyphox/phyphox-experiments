@@ -242,6 +242,77 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">Εγγραφή</string>
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
     </translation>
+    <translation locale="ja">
+      <title>音響自己相関</title>
+      <category>音響</category>
+      <description>
+        単一音の周波数測定．
+
+本実験はマイクから音を録音し，その周波数を解析します．一定周波数の単一音源の場合においてのみ，本実験は期待した動作をします．もし和音のように複数の周波数が含まれる場合，音響スペクトル の実験を使用してください．
+
+解析は音声信号の自己相関計算から行われます．本実験は，自己相関の最大ピーク値の半分を超えたピークを考慮し，周波数解析に用います．信号強度が十分な最後の自己相関ピークの位置は，信号周期の整数（n）倍を示します．最終自己相関ピークの番号(n)を数えることで，信号の正確な周期が得られます．
+    </description>
+      <string original="Autocorr.">自己相関</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">周波数</string>
+      <string original="Musical note">音名</string>
+      <string original="Low">低い</string>
+      <string original="Cents from note">音名に対するセント値</string>
+      <string original="Autocorrelation">自己相関</string>
+      <string original="correlation (a.u.)">相関係数 (a.u.)</string>
+      <string original="Raw data">センサー出力</string>
+      <string original="Recording">記録</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+    </translation>
+    <translation locale="pt">
+      <title>Autocorrelação do Som</title>
+      <category>Acústica</category>
+      <description>
+        Mede a frequência de um tom único.
+
+        Este experimento grava o som do microfone e analisa-o pela sua frequência. Ele só funciona se houver apenas um tom com uma frequência fixa - se houver múltiplas frequências (como um acorde), use o experimento "Espectro". 
+
+        A análise é feita pelo cálculo da autocorrelação do sinal de som. O experimento então considera todos os picos que ultrapassem a metade do sinal máximo na autocorrelação. A posição do último destes picos dentro da autocorrelação dá um múltiplo do período do sinal. Contando o número de picos, podemos obter o período da frequência de base.
+    </description>
+      <string original="Autocorr.">Autocor.</string>
+      <string original="Period">Período</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Baixa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Cents da nota</string>
+      <string original="Autocorrelation">Autocorrelação</string>
+      <string original="correlation (a.u.)">Correlação (u.a.)</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Recording">Gravando</string>
+      <string original="Amplitude (a.u.)">Amplitude (u.a.)</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲頻自相關</title>
+      <category>聲學</category>
+      <description>
+        測量單音調的頻率。
+
+	此實驗利用麥克風錄製並分析音調頻率。這只在只有單頻的清況下才能使用，如有多頻率（例如調和），請使用「頻譜」。
+
+	此分析計算音訊的自相關。實驗考慮所有超過1/2最大峰值的訊號的峰值的自相關。這些在自相關中峰值的位置給出了訊號週期的數倍，藉由計算峰值的個數，可以求得基準頻率的週期。
+    </description>
+      <string original="Autocorr.">自相關</string>
+      <string original="Period">週期</string>
+      <string original="ms">毫秒</string>
+      <string original="Frequency">頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Autocorrelation">自相關</string>
+      <string original="correlation (a.u.)">相關 (a.u.)</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Recording">錄製</string>
+      <string original="t (ms)">時間 (ms)</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

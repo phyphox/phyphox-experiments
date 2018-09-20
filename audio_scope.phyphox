@@ -105,6 +105,49 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
       <string original="Duration">Διάρκεια</string>
     </translation>
+    <translation locale="ja">
+      <title>聴音器</title>
+      <category>音響</category>
+      <description>
+        音声データの録音．
+
+本実験では，音声を短い期間記録し表示します．振幅が０となる時をt = 0 とし表示している．
+    </description>
+      <string original="Scope">波形表示器</string>
+      <string original="Audio Data">音響データ</string>
+      <string original="Time (ms)">時間 (ms)</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+      <string original="Duration">時間間隔</string>
+    </translation>
+    <translation locale="pt">
+      <title>Osciloscópio de Som</title>
+      <category>Acústica</category>
+      <description>
+        Mostrar dados do áudio gravado.
+
+        Este experimento apenas grava e visualiza pequenos períodos de áudio. Para ter uma imagem estável, a passagem pelo zero é usada como gatilho e t=0 é deslocado para a primeiro passagem (positiva).
+    </description>
+      <string original="Scope">Osciloscópio</string>
+      <string original="Audio Data">Dados do áudio</string>
+      <string original="Time (ms)">Tempo (ms)</string>
+      <string original="Amplitude (a.u.)">Amplitude (u.a.)</string>
+      <string original="Duration">Duração</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>時變相對音強</title>
+      <category>聲學</category>
+      <description>
+        顯示已錄製的聲音數據。
+
+	本實驗僅是錄下短時間週期的聲音數據並且顯示它。為了要讓畫面停止，我們將數值0當作觸發點，此時t=0會移至第一個（正的）交點。
+    </description>
+      <string original="Scope">時變關係圖</string>
+      <string original="Audio Data">聲音數據</string>
+      <string original="Time (ms)">時間 (ms)</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+      <string original="Duration">持續時間</string>
+      <string original="ms">毫秒</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

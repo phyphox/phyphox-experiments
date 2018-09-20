@@ -259,6 +259,85 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Recording">Εγγραφή</string>
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
     </translation>
+    <translation locale="ja">
+      <title>オーディオスペクトル</title>
+      <category>音響</category>
+      <description>
+            音響信号の周波数スペクトル表示．
+
+本実験は，マイクから音声を録音し，フーリエ変換により周波数スペクトルの計算を行う．単一周波数を有する単一音源を利用する場合は，"音響の自己相関"実験の方がより正確な測定結果が得られるかもしれません．
+    </description>
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Musical note">音名</string>
+      <string original="Low">低い</string>
+      <string original="Cents from note">音名に対するセント値</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency (Hz)">周波数 (Hz)</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下下記より，フーリエ変換に使用するデータのサンプル数が変更可能．サンプル数を大きくすることで周波数分解能を改善できる一方で，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">センサー出力</string>
+      <string original="Recording">記録</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+    </translation>
+    <translation locale="pt">
+      <title>Espectro do áudio</title>
+      <category>Acústica</category>
+      <description>
+            Mostra o espectro de frequência do sinal de áudio.
+
+            Este experimento grava o áudio do microfone e calcula o espectro de frequência através de uma transformada de Fourier (FFT). Caso você tenha um tom com apenas uma frequência, você pode ter resultados mais precisos através do experimento de "autocorrelação" do áudio .
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Baixa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Cents da nota</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency (Hz)">Frequência (Hz)</string>
+      <string original="FFT Mag (a.u.)">Int. FFT (u.a.)</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Recording">Gravando</string>
+      <string original="Amplitude (a.u.)">Amplitude (u.a.)</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲譜</title>
+      <category>聲學</category>
+      <description>
+            顯示聲音訊號的頻譜。
+
+	此實驗由麥克風錄製聲音，並利用快速傅立葉轉換 (FFT)計算得頻譜。如果你只有單頻的音調，你可能可以在「自相關」聲學實驗中得到更精確的結果。
+    </description>
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency (Hz)">頻率 (Hz)</string>
+      <string original="FFT Mag (a.u.)">FFT 強度 (a.u.)</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="ms">毫秒</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Recording">錄製</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

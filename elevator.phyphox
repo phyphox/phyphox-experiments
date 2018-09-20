@@ -149,6 +149,66 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="Pressure">Πίεση</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
     </translation>
+    <translation locale="ja">
+      <title>エレベーター</title>
+      <category>日常生活</category>
+      <description>
+        バロメーターを用いたエレベーターの速度の同定．
+
+GPSが動作しないような場所においても，バロメータにより，短時間の高度変化の測定が可能です．これはエレベータの垂直速度を導出するのに用いることができます．さらに加速度はz方向の加速度計を用いて測定されるので，正確な加速度計測のためにスマートフォンを水平にエレベーターのフロアに置いて使用してください．
+本実験において，ノイズを除去するため，バロメーターからの読み込みは1秒以上平均値化されます．連続計測された平均値の差は，国際的な圧力高度換算公式を用い高度に変換されます．高度を時間差で割ることでエレベータの速度が得られます．
+    </description>
+      <string original="Motion">運動</string>
+      <string original="Height (from barometer)">高度 (バロメーター)</string>
+      <string original="Vertical velocity (from height)">垂直速度 (高度より)</string>
+      <string original="z acceleration (from accelerometer)">z 加速度 (加速度計による)</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Pressure">圧力</string>
+      <string original="Accelerometer z">加速度計 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Elevador</title>
+      <category>Dia a dia</category>
+      <description>
+        Determina a velocidade de um elevador usando o barômetro.
+
+        Mudanças na altura dentro em um curto espaço de tempo podem ser medidas precisamente usando um barômetro - mesmo onde o GPS não funciona. Isto pode ser utilizado para calcular a velocidade vertical do elevador. O acelerômetro também é utilizado para medir a componente z da aceleração, logo para uma medida correta, o aparelho deve estar deitado no chão do elevador.
+
+        Mais detalhes:
+        Para diminuir o ruído do experimento, é utilizada a média das medidas do barômetro durante 1s. A diferença das médias consecutivas é convertida em altura usando a equação barométrica. A diferença de altura dividida pela diferenca de tempo dá a velocidade vertical.
+    </description>
+      <string original="Motion">Movimento</string>
+      <string original="Height (from barometer)">Altura (a partir do barômetro)</string>
+      <string original="Vertical velocity (from height)">Velocidade vertical (a partir da altura)</string>
+      <string original="z acceleration (from accelerometer)">Aceleração z (a partir do acelerômetro)</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Pressure">Pressão</string>
+      <string original="Accelerometer z">Acelerômetro z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>電梯</title>
+      <category>每日生活</category>
+      <description>
+        利用氣壓計測量電梯的速度。
+
+	透過氣壓計可以精確的測量短時間內高度的變化--即使是GPS不能使用的地方。這可以用來導出電梯的鉛直速度。除此之外，加速度透過z分量的加速儀測得，為了達到精確的測量，手機應平躺於電梯地板。
+
+	更多內容：
+	為消除一些實驗中的雜音，氣壓計所讀的數據為每1秒鐘的平均值。此持續平均值的差利用國際氣壓高公式轉換成高度。將高度差除以時間差得到鉛直速度。
+    </description>
+      <string original="Motion">運動</string>
+      <string original="Height (from barometer)">高度（由高度計）</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="h (m)">高度 (m)</string>
+      <string original="Vertical velocity (from height)">鉛直速度 (由高度）</string>
+      <string original="v (m/s)">速度 (m/s)</string>
+      <string original="z acceleration (from accelerometer)">z方向加速度 （由加速儀）</string>
+      <string original="a (m/s²)">加速度 (m/s²)</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Pressure">壓力</string>
+      <string original="p (hPa)">壓力 (hPa)</string>
+      <string original="Accelerometer z">z方向加速儀</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

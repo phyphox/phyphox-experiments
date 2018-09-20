@@ -247,6 +247,112 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS. Οι εφαρμογές πλοήγησης τότε, ίσως να δείχνουν κατά προσέγγιση την τοποθεσία από το δίκτυο τηλεφωνίας.</string>
     </translation>
+    <translation locale="ja">
+      <title>位置 (GPS)</title>
+      <category>センサー出力</category>
+      <description>
+        GPS衛星から計算されたの位置情報の取得．
+
+測定結果は機器へのGPSデバイスのの実装に依存することに注意してください．Androidデバイスがは垂直方向の情報に対する精度があまりよくありません．一方でiOSデバイスは位置計算に用いたGPS衛星の数を示しません．また，iOSデバイスにおいては，GPS衛星からのデータのみから得た位置情報を，他の位置情報データと混合し，複合的に判断している場合もあります．
+
+速さと方向は，各機器が２点以上の連続した位置情報から算出した場合が多い，
+    </description>
+      <string original="Graph">グラフ</string>
+      <string original="Status">ステータス</string>
+      <string original="GPS disabled">GPS 利用不可</string>
+      <string original="GPS active">GPS有効</string>
+      <string original="Latitude">緯度</string>
+      <string original="Longitude">経度</string>
+      <string original="Height">高度</string>
+      <string original="Speed">速度</string>
+      <string original="Direction">方位</string>
+      <string original="Direction (°)">方角 (°)</string>
+      <string original="Distance">距離</string>
+      <string original="Simple">シンプル</string>
+      <string original="Compass">方位磁針</string>
+      <string original="Horizontal Accuracy">水平方向精度</string>
+      <string original="Vertical Accuracy">垂直方向精度</string>
+      <string original="Satellites">衛星数</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
+    </translation>
+    <translation locale="pt">
+      <title>Localização (GPS)</title>
+      <category>Sensores</category>
+      <description>
+        Obtenha o dado puro da posição a partir do satélite de navegação.
+
+        Note que o comportamento pode depender da implementação do seu aparelho. Dispositivos Android não fornecem informação sobre a precisão vertical, enquanto dispositivos iOS não fornecem o número de satélites. Além disso, no iOS pode ter dados de outras fontes que são misturados com os dados dos satélites de navegação.
+
+        Velocidade e direção são tipicamente fornecidos pelo dispositivo e são baseadas em duas ou mais posições fixas consecutivas.
+    </description>
+      <string original="Graph">Gráfico</string>
+      <string original="Status">Estado</string>
+      <string original="GPS disabled">GPS desabilitado</string>
+      <string original="GPS active">GPS ativo</string>
+      <string original="Height">Altura</string>
+      <string original="Speed">Velocidade</string>
+      <string original="Direction">Direção</string>
+      <string original="Distance">Distância</string>
+      <string original="Simple">Simples</string>
+      <string original="Compass">Bússola</string>
+      <string original="SW">SE</string>
+      <string original="W">O</string>
+      <string original="NW">NO</string>
+      <string original="E">L</string>
+      <string original="Horizontal Accuracy">Precisão Horizontal</string>
+      <string original="Vertical Accuracy">Precisão Vertical</string>
+      <string original="Satellites">Satélites</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nota: alguns dispositivos não possuem um sensor GPS, mas fornecem dados de localização através das conexões móveis ou WIFI. Estas fontes de dados produzem dados com precisão ruim.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Também tenha certeza que a configuração do seu sistema de localização não esteja definida como "Economia de Energia" porque isto normalmente desliga o GPS.</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>位置 (GPS)</title>
+      <category>原始感測器</category>
+      <description>
+        由衛星的航行得原始位置數據。
+
+	注意這會由該處的基礎建設程度影響。Android 裝置不提供鉛直精準度資料，然而iOS不提供衛星的數量。並且，在iOS上來自於其他來源的資料會混入衛星的資料。
+
+	速度及方向主要由手機提供，並且透過兩個連續的位置給出。
+    </description>
+      <string original="Graph">圖表</string>
+      <string original="Status">狀態</string>
+      <string original="GPS disabled">GPS 未使用</string>
+      <string original="GPS active">GPS 使用中</string>
+      <string original="Latitude">緯度</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="φ (°)">緯度 (°)</string>
+      <string original="Longitude">經度</string>
+      <string original="λ (°)">經度 (°)</string>
+      <string original="Height">高度</string>
+      <string original="z (m)">高度 (m)</string>
+      <string original="Speed">速度</string>
+      <string original="v (m/s)">速度 (m/s)</string>
+      <string original="Direction">方向</string>
+      <string original="Direction (°)">方向 (º)</string>
+      <string original="Distance">距離</string>
+      <string original="d (km)">距離 (km)</string>
+      <string original="Simple">簡易</string>
+      <string original="°">度</string>
+      <string original="m">公尺</string>
+      <string original="m/s">公尺/秒</string>
+      <string original="km/h">公里/小時</string>
+      <string original="Compass">指北針</string>
+      <string original="S">南</string>
+      <string original="SW">西南</string>
+      <string original="W">西</string>
+      <string original="NW">西北</string>
+      <string original="N">北</string>
+      <string original="NE">東北</string>
+      <string original="E">東</string>
+      <string original="SE">東南</string>
+      <string original="km">公里</string>
+      <string original="Horizontal Accuracy">水平精準度</string>
+      <string original="Vertical Accuracy">鉛直精準度</string>
+      <string original="Satellites">衛星數量</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些裝置並沒有GPS感測器，但藉由電信業者或WIFI連結依然提供位置資訊。這些來源提供低精度的數據。</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">確保你的手機定位裝置不在「省電模式」因為這往往會關掉GPS，然而導航程式可能依然透過網路得到較模糊的位置資訊而得以使用。</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

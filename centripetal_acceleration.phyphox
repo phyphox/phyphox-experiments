@@ -145,6 +145,62 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">Χρόνος</string>
       <string original="Angular velocity">Γωνιακή ταχύτητα</string>
     </translation>
+    <translation locale="ja">
+      <title>向心加速度</title>
+      <category>力学・運動</category>
+      <description>
+        角速度の関数として，遠心加速度の可視化．
+
+本実験では，加速度計による絶対加速度と同様にジャイロスコープから角速度ωの絶対値を計算します．ωに対してプロットすることで，a = r·ω²の関係が簡単に表示され，特にω²に対してプロットしたときに線形関係が得られる．
+
+これを観測するためには，固定された半径で異なる角速度の測定が必要である．サラダスピナーや小さめのメリーゴーラウンドなどが良く動作します．
+    </description>
+      <string original="Relation">角速度と遠心加速度の関係</string>
+      <string original="Acceleration">加速</string>
+      <string original="Angular velocity ω (rad/s)">角速度 ω (rad/s)</string>
+      <string original="Acceleration a (m/s²)">加速度 a (m/s²)</string>
+      <string original="Square plot">二乗角速度に対する遠心加速度</string>
+      <string original="Time">時間</string>
+      <string original="Angular velocity">角速度</string>
+    </translation>
+    <translation locale="pt">
+      <title>Aceleração Centrípeda</title>
+      <category>Mecânica</category>
+      <description>
+        Visualize a aceleração centrípeda como uma função da velocidade angular.
+
+        Este experimento calcula o valor absoluto da velocidade angular ω fo giroscópio bem como a aceleração absoluta do acelerômetro. Fazendo o gráfico contra ω a relação a = r·ω² pode ser facilmente mostrada, portanto o gráfico contra ω² deve resultar em uma linha reta.
+
+        Para ver isto, você precisa medir em diferentes velocidades angulares mas com um raio fixo. Uma centrífuga de salada ou um carrosel funcionam muito bem.
+    </description>
+      <string original="Relation">Relação</string>
+      <string original="Acceleration">Aceleração</string>
+      <string original="Square plot">Gráfico do Quadrado</string>
+      <string original="Time">Tempo</string>
+      <string original="Angular velocity">Velocidade Angular</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>向心加速度</title>
+      <category>力學</category>
+      <description>
+        利用角速度的函數視覺化向心加速度。
+
+	此實驗透過陀螺儀及計算角速度ω的絕對值，及透過加速儀測得加速度的絕對值。藉由繪製a對ω的作圖，a = r·ω²可以被清楚的看到，因此對ω²繪製應可以看到一條直線。
+
+	您需要量測固定頻率下不同的角速度才能觀察到此現象。沙拉旋轉器及旋轉木馬皆能有效地運作。
+    </description>
+      <string original="Relation">關係</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Angular velocity ω (rad/s)">角速度 ω (rad/s)</string>
+      <string original="Acceleration a (m/s²)">加速度 a (m/s²)</string>
+      <string original="Square plot">平方作圖</string>
+      <string original="ω² (rad/s)²">角速度² (rad/s)²</string>
+      <string original="a (m/s²)">加速度 (m/s²)</string>
+      <string original="Time">時間</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="Angular velocity">角速度</string>
+      <string original="ω (rad/s)">角速度 (rad/s)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

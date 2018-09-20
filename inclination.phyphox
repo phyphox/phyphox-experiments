@@ -108,6 +108,50 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="Angle (°)">Γωνία (°)</string>
       <string original="Rotation">Περιστροφή</string>
     </translation>
+    <translation locale="ja">
+      <title>傾斜</title>
+      <category>ツール</category>
+      <description>
+        スマートフォンの傾斜の角度の測定．
+
+このツールはスマートフォンの傾斜を加速度計を用いて求める．スマートフォンをテーブルに置いているとき，傾斜はゼロである．ゼロでない傾斜の場合，傾斜は回転角として与えられる．
+
+ここで，角度の定義は傾斜を，スマートフォンの回転 (z軸) に関わらず計測することを目的として選択されている．
+    </description>
+      <string original="Inclination">傾き角度の大きさ</string>
+      <string original="Angle (°)">角度 (°)</string>
+      <string original="Rotation">方位角</string>
+    </translation>
+    <translation locale="pt">
+      <title>Inclinação</title>
+      <category>Ferramentas</category>
+      <description>
+        Medida do ângulo de inclinação do aparelho.
+
+        Esta ferramenta usa o acelerômetro para determinar a inclinação do aparelho. Quando em repouso sobre um mesa, a inclinação é zero. Para inclinações diferente de zero, a direcão da inclinação é dada como rotacão.
+
+        A definição do ângulos foi escolhida para determinar uma inclinacão (especialmente para experimentos em um plano inclinado) independente da rotacão (sobre o eixo z) do aparelho.
+    </description>
+      <string original="Inclination">Inclinação</string>
+      <string original="Angle (°)">Ângulo (°)</string>
+      <string original="Rotation">Rotação</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>傾斜度</title>
+      <category>工具</category>
+      <description>
+        測量手機的傾斜角度。
+
+	此工具利用加速儀測得手機的傾斜度。當手機放置於桌面上時，傾斜度為零。當傾斜度不為零時，傾斜的方向以角度顯示。
+
+	注意，此處角度的定義已為測量傾斜度而設計（尤其是傾斜面實驗等），與手機的旋轉（對z軸）無關。
+    </description>
+      <string original="Inclination">傾斜度</string>
+      <string original="t (s)">時間 (s)</string>
+      <string original="Angle (°)">角度 (º)</string>
+      <string original="°">度</string>
+      <string original="Rotation">旋轉角度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>
