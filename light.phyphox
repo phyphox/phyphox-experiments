@@ -132,6 +132,12 @@
       <string original="Graph">Grafik</string>
       <string original="Illuminance">Aydınlık</string>
       <string original="Simple">Basit</string>
+      <title>Işık</title>
+      <category>Ham sensörler</category>
+      <description>Işık sensöründen ham veri alın.</description>
+      <string original="Info">
+                Dikkat: Bazı cihazlarda, ışık sensörü yalnızca aşırı bir aydınlık değişimi olduğunda güncellenir.
+            </string>
     </translation>
   </translations>
   <data-containers>

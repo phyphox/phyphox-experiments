@@ -438,6 +438,38 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Time 5">Zaman 5</string>
       <string original="Reset">Sıfırla</string>
       <string original="Settings">Ayarlar</string>
+      <title>Elastik olmayan çarpışma</title>
+      <category>Mekanik</category>
+      <description>
+        Zıplayan topun esnek olmayan çarpışmalar sırasında kaybettiği enerjiyi belirleyin.
+
+      Bu deney prensip olarak, akustik kronometre deneyi gibi çalışır. Bununla birlikte, bu deney, sesin bir yüzey üzerinde sıçrayan bir toptan (veya benzer bir şeyden) gelmesini bekler ve çarpışmadan gelen sesler arasındaki zamanı analiz ederek, sıçrayan yüksekliğe ve ilk sıçramaya göre kalan kinetik enerjiyi hesaplar.
+
+        Ayrıca, topun ilk sıçrama sırasında aynı yüzdeyle kinetik enerjiyi koruduğu varsayılarak, phyphox topun bırakıldığı başlangıç yüksekliğini (0) hesaplayacaktır.
+
+        Böylece, deneyi başlatın ve topun net algılanabilir bir gürültü oluşturması için bir yüzeyden sıçramasına izin verin. Ayarlardaki eşiği (0 ila 1 aralığında) değiştirmek isteyebilirsiniz, böylece deney, topun gürültü seviyesine tepki verir ancak arka plan gürültüsüne tepki vermez. Ayrıca, ortamdaki eko ile mücadele ediyorsanız, bir sonraki gürültüye tepki vermeden önce deneyin görmezden geleceği minimum aralığı ayarlamak için minimum gecikmeyi de değiştirmek isteyebilirsiniz.
+    </description>
+      <string original="Heights">Yükseklik</string>
+      <string original="Height 0">Yükseklik 0</string>
+      <string original="Height 1">Yükseklik 1</string>
+      <string original="Height 2">Yükseklik 2</string>
+      <string original="Height 3">Yükseklik 3</string>
+      <string original="Height 4">Yükseklik 4</string>
+      <string original="Height 5">Yükseklik 5</string>
+      <string original="Energy">Enerji</string>
+      <string original="Energy 1">Enerji 1</string>
+      <string original="Energy 2">Enerji 2</string>
+      <string original="Retained on collision 2">Çarpışma 2'de saklanan</string>
+      <string original="Energy 3">Enerji 3</string>
+      <string original="Retained on collision 3">Çarpışma 3'de saklanan</string>
+      <string original="Energy 4">Enerji 4</string>
+      <string original="Retained on collision 4">Çarpışma 4'te saklanan</string>
+      <string original="Energy 5">Enerji 5</string>
+      <string original="Retained on collision 5">Çarpışma 5'de saklanan</string>
+      <string original="Average retained">Ortalama saklanan</string>
+      <string original="Threshold">Eşik</string>
+      <string original="Minimum Delay">Minimum Gecikme</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Ne yazık ki, bu yavaş telefonlarda çalışmaz. Lütfen deneyin beklendiği gibi çalıştığından emin olmak için akustik kronometre deneyi önce normal bir saate göre karşılaştırın. Eğer işe yarıyorsa, bu deney de burada çalışmalıdır.</string>
     </translation>
   </translations>
   <data-containers>

@@ -381,6 +381,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Jiroskop x</string>
       <string original="Gyroscope y">Jiroskop y</string>
       <string original="Gyroscope z">Jiroskop z</string>
+      <string original="Results">Sonuçlar</string>
     </translation>
   </translations>
   <data-containers>

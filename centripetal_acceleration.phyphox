@@ -201,7 +201,22 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Angular velocity">角速度</string>
       <string original="ω (rad/s)">角速度 (rad/s)</string>
     </translation>
-    <translation locale="tr"/>
+    <translation locale="tr">
+      <title>Merkezcil ivme</title>
+      <category>Mekanik</category>
+      <description>
+        Merkezcil ivmeyi açısal hızın bir fonksiyonu olarak görselleştirir.
+
+        Bu deney, jiroskoptan ω açısal hızın mutlak değerini ve ayrıca ivmeölçerden mutlak ivmeyi hesaplar. ω'ya karşı bir çizim yapılarak a = r · ω² arasındaki ilişki kolayca gösterilebilir, dolayısıyla ω²'ye karşı yapılan çizim düz bir çizgiyle sonuçlanmalıdır.
+
+        Bunu görmek için sabit bir yarıçapta ve farklı açısal hızlarda ölçüm yapmanız gerekir. Bir salata karıştırıcı veya küçük bir atlıkarınca harika çalışıyor.
+    </description>
+      <string original="Relation">İlişki</string>
+      <string original="Acceleration">İvmelenme</string>
+      <string original="Square plot">Kare plan</string>
+      <string original="Time">Zaman</string>
+      <string original="Angular velocity">Açısal hız</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

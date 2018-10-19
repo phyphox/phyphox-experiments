@@ -129,6 +129,9 @@
       <string original="Gyroscope z">Jiroskop z</string>
       <string original="Absolute">Mutlak</string>
       <string original="Simple">Basit</string>
+      <title>Jiroskop (dönme oranı)</title>
+      <category>Ham sensörler</category>
+      <description>Jiroskoptan ham veri alın.</description>
     </translation>
   </translations>
   <data-containers>

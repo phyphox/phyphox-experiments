@@ -358,6 +358,27 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Status">Durum</string>
       <string original="Distance">Mesafe</string>
       <string original="Simple">Basit</string>
+      <title>Konum (GPS)</title>
+      <category>Ham Sensörler</category>
+      <description>
+        Uydu navigasyonundan ham konum verilerini alın.
+
+        Geçerliliğin akıllı telefonunuzdaki uygulamaya bağlı olabileceğini unutmayın. İOS cihazlar, uydu sayısını sağlamazken, Android cihazlar dikey doğruluk bilgisi sunmaz. Ayrıca, iOS'ta uydu navigasyonundan alınan verilerle karıştırılmış diğer kaynaklardan da veri olabilir.
+
+        Hız ve yön, tipik olarak cihaz tarafından verilir ve iki veya daha fazla ardışık pozisyon düzeltmesine dayanır.
+    </description>
+      <string original="GPS disabled">GPS devre dışı</string>
+      <string original="GPS active">GPS etkin</string>
+      <string original="Latitude">Enlem</string>
+      <string original="Longitude">Boylam</string>
+      <string original="Height">Yükseklik</string>
+      <string original="Speed">Hız</string>
+      <string original="Direction">Yön</string>
+      <string original="Compass">Pusula</string>
+      <string original="Horizontal Accuracy">Yatay doğruluk</string>
+      <string original="Vertical Accuracy">Dikey doğruluk</string>
+      <string original="Satellites">Uydular</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Bazı cihazların GPS sensörü bulunmadığını, ancak mobil veya WIFI bağlantılarıyla konum verilerini sağladığını unutmayın. Bu veri kaynakları, hatalı doğrulukta veri üretir.</string>
     </translation>
   </translations>
   <data-containers>

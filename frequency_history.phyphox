@@ -156,6 +156,13 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">Frekans</string>
       <string original="Frequency (Hz)">Frekans (Hz)</string>
       <string original="Period">Periyot</string>
+      <title>Frekans geçmişi</title>
+      <category>Akustik</category>
+      <description>
+        Tek bir ton için zamanla frekans değişimini ölçün.
+
+        Bu deney mikrofondan sesi kaydeder ve kısa süreler boyunca frekans için analiz eder. Bu durum, otokorelasyon kullandığından yalnızca sabit frekansa sahip tek bir ton varsa çalışır. Sonuç zaman içinde bir frekans olarak çizilecek.
+    </description>
     </translation>
   </translations>
   <data-containers>

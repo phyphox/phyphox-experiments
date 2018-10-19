@@ -94,6 +94,9 @@
       <string original="Graph">Grafik</string>
       <string original="Pressure">Basınç</string>
       <string original="Simple">Basit</string>
+      <title>Basınç</title>
+      <category>Ham Sensörler</category>
+      <description>Barometreden ham veri alın.</description>
     </translation>
   </translations>
   <data-containers>

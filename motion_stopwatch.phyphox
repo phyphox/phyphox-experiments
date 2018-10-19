@@ -307,6 +307,20 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time 4">Zaman 4</string>
       <string original="Time 5">Zaman 5</string>
       <string original="Parallel">Paralel</string>
+      <title>Hareket kronometresi</title>
+      <category>Zamanlayıcılar</category>
+      <description>
+        İki hareket etkinliği arasındaki zamanı yakalayın.
+
+        Bu deney, iki hızlanma arasındaki süreyi (küçük şoklar gibi) ölçmeyi sağlar. Eşiği ayarlamak ve durma saatinin tetiklendiği seviyeyi vermek isteyebilirsiniz.
+
+        Deneyi başlattıktan sonra, saat, eşiği aşan ilk (toplam) hızlanma ile başlayacak ve ikinci hızlanmada durdurulacaktır. Uzun bir titreşimin derhal durma olarak algılanabileceğinden, ilk ivme sinyalinin kısa olduğundan emin olun.
+    </description>
+      <string original="Threshold">Eşik</string>
+      <string original="Minimum Delay">Minimum Gecikme</string>
+      <string original="Time">Zaman</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Eşiği, sensör gürültü seviyesinin üzerinde olacak şekilde değiştirin, ancak tetikleme ivmesinin altında kalmalıdır (kontrol etmek için g'siz ivmelenme deneyini kullanabilirsiniz). Ayrıca, tetikleyicilerin o zamandan daha kısa olmasını önlemek için minimum gecikmeyi ayarlayın.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Bu deneyin hassaslığı, telefonunuzdaki ivmeölçere bağlıdır. Hızlı ivmeölçerler saniyenin yüzde birinden daha iyi olabilirken, yavaş olanlar sadece bir saniyelik bir çözünürlük elde edebilirler.</string>
     </translation>
   </translations>
   <input>

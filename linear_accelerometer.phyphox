@@ -167,6 +167,15 @@
       <string original="Absolute">Mutlak</string>
       <string original="Absolute acceleration">Mutlak ivme</string>
       <string original="Simple">Basit</string>
+      <title>Hızlanma (g olmadan)</title>
+      <category>Ham Sensörler</category>
+      <description>Yerçekimi ivmesi olmadan gerçek ivmeyi veren, lineer ivmeölçerden ham veri elde edin. "g ile ivmelenme" nin tersine, bu sensör cihaz hareketsizken 0 bildirir.</description>
+      <string original="Linear Acceleration x">Doğrusal İvmelenme x</string>
+      <string original="Linear Acceleration y">Doğrusal İvmelenme y</string>
+      <string original="Linear Acceleration z">Doğrusal İvmelenme z</string>
+      <string original="Acceleration x">İvme x</string>
+      <string original="Acceleration y">İvme y</string>
+      <string original="Acceleration z">İvme z</string>
     </translation>
   </translations>
   <data-containers>

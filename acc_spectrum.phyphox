@@ -276,6 +276,16 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
       <string original="Samples">Örnekler</string>
       <string original="Raw data">Ham veri</string>
+      <title>İvme Spektrumu</title>
+      <category>Araçlar</category>
+      <description>
+            İvme ölçerdeki verim frekans spektrumunu göster.
+
+            Bu deney, verileri ivme ölçerden kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Algılanabilir maksimum frekans, sensörünüzün maksimum alım oranına bağlıdır.
+    </description>
+      <string original="Acceleration x">İvme x</string>
+      <string original="Acceleration y">İvme y</string>
+      <string original="Acceleration z">İvme z</string>
     </translation>
   </translations>
   <data-containers>

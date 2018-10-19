@@ -227,6 +227,22 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
     <translation locale="tr">
       <string original="Frequency">Frekans</string>
       <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <title>Doppler etkisi</title>
+      <category>Akustik</category>
+      <description>
+        Doppler etkisinin küçük frekans değişimlerini tespit edin.
+
+        Sabit bir frekans yayan bir ton üretecine (örneğin 1000Hz) ihtiyacınız vardır. Deneme kurulumunda bu temel frekansı girin ve Doppler kayma frekansı beklediğiniz bir algılama aralığı seçin (örneğin 10Hz). Deneme, kaydedilen frekansı belirleyecek ve ses kaynağının göreceli hızını hesaplayacaktır.
+    </description>
+      <string original="Setup">Kurulum</string>
+      <string original="Base frequency">Baz frekansı</string>
+      <string original="Frequency range">Frekans aralığı</string>
+      <string original="Time step">Zaman kademesi</string>
+      <string original="Speed of sound">Ses hızı</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Zaman kademesi, tek bir hız noktasını hesaplamak için kullanılan verinin sıklığını ve miktarını belirler. Algoritma, baz frekansı etrafındaki bir frekansı -noktadan +nokta aralığına kadar arar ve frekansı belirlemek için nth periyodunu (aşağıda) kullanır. Aralık veya zaman adımı için aşırı ayarlar seçmek, telefonunuz için hesaplamakta yanlış veya çok zor olabilir. Ayrıca, aralığı 1/adımdan önemli ölçüde küçük tutmalısınız.</string>
+      <string original="nth period">nth periyodu</string>
+      <string original="Results">Sonuçlar</string>
+      <string original="Speed">Hız</string>
     </translation>
   </translations>
   <data-containers>

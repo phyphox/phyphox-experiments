@@ -222,6 +222,17 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field x">Manyetik alan x</string>
       <string original="Magnetic field y">Manyetik alan y</string>
       <string original="Magnetic field z">Manyetik alan z</string>
+      <title>Manyetik cetvel</title>
+      <category>Araçlar</category>
+      <description>
+        Telefonun mesafesini, hızını ve ivmesini ölçmek için bir dizi mıknatıs kullanır.
+
+      Bu deney için, telefonun gideceği ray boyunca bir dizi özdeş mıknatıs yerleştirmelisiniz. Mıknatıslar arasındaki mesafe, her mıknatıs için aynı olmalı ve deney arayüzüne girilmelidir. Telefon daha sonra bir mıknatısı geçtiğini belirlemek için manyetometresini kullanacak ve toplam mesafeyi hesaplayacaktır.
+    </description>
+      <string original="Results">Sonuçlar</string>
+      <string original="dx is the distance between two magnets">dx iki mıknatıs arasındaki mesafedir</string>
+      <string original="Velocity">Hız</string>
+      <string original="Total magnetic field squared and filtered">Karesi alınmış ve filtrelenmiş toplam manyetik alan</string>
     </translation>
   </translations>
   <data-containers>

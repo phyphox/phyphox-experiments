@@ -153,6 +153,15 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     <translation locale="tr">
       <string original="Raw Data">Ham veri</string>
       <string original="Gyroscope y">Jiroskop y</string>
+      <title>Yuvarlanma</title>
+      <category>Mekanik</category>
+      <description>
+        Telefonunuzu bir ruloya yerleştirin ve hızını belirleyin.
+
+        Telefonunuzu en uzun kenarı boyunca dönecek şekilde bir kağıt rulosuna yerleştirmelisiniz. Bu deney, daha sonra, rulonun gittiği hızı hesaplamak için jiroskopun yanı sıra rulonun yarıçapı ile ölçülen açısal hızı alır.
+    </description>
+      <string original="Velocity">Hız</string>
+      <string original="Roll radius">Rulo yarıçapı</string>
     </translation>
   </translations>
   <data-containers>

@@ -325,6 +325,16 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Raw data">Ham veri</string>
       <string original="Recording">Kayıt</string>
       <string original="Amplitude (a.u.)">Genlik (a.u.)</string>
+      <title>Ses Otokorelasyonu</title>
+      <category>Akustik</category>
+      <description>
+        Tek bir ton frekansını ölçün.
+
+        Bu deney mikrofondan sesi kaydeder ve frekans için analiz eder. Sadece sabit frekansta tek bir ton varsa çalışır eğer birden fazla frekans varsa (bir akort gibi), bunun yerine "spektrum" deneyini kullanın.
+
+        Analiz ses sinyalinin otokorelasyonu hesaplanarak yapılır. Deney daha sonra otokorelasyonda maksimum sinyalin yarısını geçen tüm tepe noktalarını dikkate alır. Otokorelasyon içindeki son tepe noktalarının konumu, sinyalin periyodunun bir çoğunu verir. Tepelerin sayısını hesaplayarak baz frekansının periyodunu alabiliriz.
+    </description>
+      <string original="Autocorr.">Otokorel.</string>
     </translation>
   </translations>
   <data-containers>

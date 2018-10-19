@@ -282,6 +282,15 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer x">İvmeölçer X</string>
       <string original="Accelerometer y">İvmeölçer Y</string>
       <string original="Accelerometer z">İvmeölçer Z</string>
+      <description>
+        Bir yaylı sarkacın frekans ve periyodunu analiz edin.
+
+        Bu deney, sarkacın hareketini ölçmek için ivmeölçer kullanır ve salınım periyodu T'yi hesaplar. Ek olarak, rezonans sekmesinde, genliği tespit edilen frekansa göre çizer. Bu şekilde, yaylı bir sarkaç oluşturabilir ve bir rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+
+        Daha fazla ayrıntı:
+        Salınım periyodu, üç ivmeölçer bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin değeri için ilk maksimum değerini analiz eder ve ardından daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+    </description>
+      <string original="Results">Sonuçlar</string>
     </translation>
   </translations>
   <data-containers>

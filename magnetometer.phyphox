@@ -267,6 +267,23 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="High">Yüksek</string>
       <string original="Absolute">Mutlak</string>
       <string original="Simple">Basit</string>
+      <title>Manyetometre</title>
+      <category>Ham sensörler</category>
+      <description>
+        Manyetometreden ham veri alın.
+
+        Manyetometre, dünyanın manyetik alanını bir pusula görevi görecek şekilde ölçmek için tasarlandığından oldukça hassastır. Bunun yanında, telefonunuzda bulunan elektronik alanlara her zaman maruz kalır, bu da yanlış sonuçlara neden olur. Bu nedenle phyphox, kalibre edilmiş manyetik alanı sistemden almaya çalışır. Bazı durumlarda, telefon kalibre edilmediyse (örneğin, telefon yeni başladıktan sonra) herhangi bir veri alamayabilirsiniz. Bu durumda, deney çalışırken telefonunuzu birkaç kez döndürmeniz gerekir. Bu, sistemin sensörü kalibre etmesine yardımcı olur. Ayrıca, birçok cihazda (hepsi değil), sağ üstteki menü aracılığıyla kalibre edilmemiş manyetometre verilerine geçebilirsiniz.
+
+       Telefonunuzu güçlü manyetik alanlara maruz bırakmayın!
+    </description>
+      <string original="Accuracy">Kesinlik</string>
+      <string original="Uncalibrated">Kalibre değil</string>
+      <string original="Medium">Orta</string>
+      <string original="Magnetometer x">Manyetometre x</string>
+      <string original="Magnetometer y">Manyetometre y</string>
+      <string original="Magnetometer z">Manyetometre z</string>
+      <string original="Help">Yardım</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Telefonunuzda bulunan manyetometre, telefon içindeki elektronik alanlara her zaman maruz kalır, bu da yanlış sonuçlara neden olur. Bu nedenle phyphox, kalibre edilmiş manyetik alanı sistemden almaya çalışır. Bazı durumlarda, telefon kalibre edilmediyse (örneğin, telefon yeni başladıktan sonra) herhangi bir veri alamayabilirsiniz. Bu durumda, deney çalışırken telefonunuzu birkaç kez döndürmeniz gerekir. Bu, sistemin sensörü kalibre etmesine yardımcı olur. Ayrıca, birçok cihazda (hepsi değil), sağ üstteki menü aracılığıyla kalibre edilmemiş manyetometre verilerine geçebilirsiniz.</string>
     </translation>
   </translations>
   <data-containers>
