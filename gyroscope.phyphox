@@ -41,7 +41,7 @@
       <string original="Gyroscope z">Żyroskop - składowa z</string>
     </translation>
     <translation locale="nl">
-      <title>Gyroscoop</title>
+      <title>Gyroscoop (rotatiefrequentie)</title>
       <category>Onbewerkte sensoren</category>
       <description>Verkrijg de onbewerkte data van de gyroscoop.</description>
       <string original="Graph">Grafiek</string>
@@ -50,9 +50,11 @@
       <string original="Gyroscope z">Gyroscoop z</string>
       <string original="Absolute">Absoluut</string>
       <string original="Simple">Eenvoudig</string>
+      <string original="t">f</string>
+      <string original="Gyroscope">Gyroscoop</string>
     </translation>
     <translation locale="ru">
-      <title>Гироскоп</title>
+      <title>Гироскоп (частота вращения)</title>
       <category>Исходные датчики</category>
       <description>Получите исходные данные с гироскопа.</description>
       <string original="Graph">График</string>
@@ -64,9 +66,11 @@
       <string original="Absolute">Абсолютная величина</string>
       <string original="Simple">Значение</string>
       <string original="rad/s">рад/с</string>
+      <string original="Multi">Много</string>
+      <string original="Gyroscope">Гироскоп</string>
     </translation>
     <translation locale="it">
-      <title>Giroscopio</title>
+      <title>Giroscopio (freq. di rotazione)</title>
       <category>Sensori</category>
       <description>Misura le velocità angolari dal giroscopio.</description>
       <string original="Graph">Grafico</string>
@@ -75,9 +79,10 @@
       <string original="Gyroscope z">Giroscopio z</string>
       <string original="Absolute">Modulo</string>
       <string original="Simple">Valori</string>
+      <string original="Gyroscope">Giroscopio</string>
     </translation>
     <translation locale="el">
-      <title>Γυροσκόπιο</title>
+      <title>Γυροσκόπιο (ρυθμός περιστροφής)</title>
       <category>Αισθητήρες</category>
       <description>Πάρτε τις καταγραφές του γυροσκοπίου.</description>
       <string original="Graph">Γράφημα</string>
@@ -86,6 +91,58 @@
       <string original="Gyroscope z">Γυροσκόπιο z</string>
       <string original="Absolute">Μέτρο</string>
       <string original="Simple">Απλό</string>
+      <string original="Multi">Πολλαπλό</string>
+      <string original="Gyroscope">Γυροσκόπιο</string>
+    </translation>
+    <translation locale="ja">
+      <title>ジャイロスコープ (回転速度)</title>
+      <category>センサー出力</category>
+      <description>ジャイロスコープからの時系列データの取得．</description>
+      <string original="Graph">グラフ</string>
+      <string original="Gyroscope x">ジャイロスコープ x</string>
+      <string original="Gyroscope y">ジャイロスコープ y</string>
+      <string original="Gyroscope z">ジャイロスコープ　z</string>
+      <string original="Absolute">絶対値</string>
+      <string original="Multi">全方向</string>
+      <string original="Gyroscope">ジャイロスコープ</string>
+      <string original="Simple">シンプル</string>
+    </translation>
+    <translation locale="pt">
+      <title>Giroscópio (taxa de rotação)</title>
+      <category>Sensores</category>
+      <description>Obtenha os dados puros do giroscópio.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Gyroscope x">Giroscópio x</string>
+      <string original="Gyroscope y">Giroscópio y</string>
+      <string original="Gyroscope z">Giroscópio z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Gyroscope">Giroscópio</string>
+      <string original="Simple">Simples</string>
+    </translation>
+    <translation locale="tr">
+      <title>Jiroskop (dönme oranı)</title>
+      <category>Ham sensörler</category>
+      <description>Jiroskoptan ham veri alın.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Gyroscope x">Jiroskop x</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+      <string original="Gyroscope z">Jiroskop z</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Multi">Çoklu</string>
+      <string original="Gyroscope">Jiroskop</string>
+      <string original="Simple">Basit</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>陀螺儀</title>
+      <category>原始感測器</category>
+      <description>由陀螺儀得原始數據。</description>
+      <string original="Graph">圖表</string>
+      <string original="Gyroscope x">x方向陀螺儀</string>
+      <string original="Gyroscope y">y方向陀螺儀</string>
+      <string original="Gyroscope z">z方向陀螺儀</string>
+      <string original="Absolute">絕對值</string>
+      <string original="rad/s">弧度/秒</string>
+      <string original="Simple">簡易</string>
     </translation>
   </translations>
   <data-containers>

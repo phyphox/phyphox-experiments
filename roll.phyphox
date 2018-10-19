@@ -62,6 +62,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Roll radius">Straal van de rol</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="Gyroscope y">Gyroscoop y</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Рулон</title>
@@ -106,6 +107,60 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Roll radius">Ακτίνα κυλίνδρου</string>
       <string original="Raw Data">Καταγραφές Αισθητήρα</string>
       <string original="Gyroscope y">Γυροσκόπιο y</string>
+    </translation>
+    <translation locale="ja">
+      <title>回転</title>
+      <category>力学・運動</category>
+      <description>
+        ローラーにスマートフォンを設置し，ローラーの運動速度を求める
+
+ローラーにスマートフォンを設置し，ローラーを転がし軸方向の回転を与えます．スマートフォンのジャイロスコープから角速度を取得し，入力したローラー半径を用いて，ローラーの運動速度を計算します．
+    </description>
+      <string original="Velocity">速度</string>
+      <string original="Roll radius">ローラー半径</string>
+      <string original="v">ｖ</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Gyroscope y">ジャイロスコープ y</string>
+    </translation>
+    <translation locale="pt">
+      <title>Cilindro</title>
+      <category>Mecânica</category>
+      <description>
+        Coloque o seu aparelho dentro de um cilindro e determine sua velocidade.
+
+        Você deve colocar seu aparelho dentro de um cilindro de maneira que ele role no lado maior. Este experimento mede a velocidade angular através do giroscópio e usa o raio do cilindro dado para calcular a velocidade em que o cilindro se desloca.
+    </description>
+      <string original="Velocity">Velocidade</string>
+      <string original="Roll radius">Raio do tubo</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Gyroscope y">Giroscópio y</string>
+    </translation>
+    <translation locale="tr">
+      <title>Yuvarlanma</title>
+      <category>Mekanik</category>
+      <description>
+        Telefonunuzu bir ruloya yerleştirin ve hızını belirleyin.
+
+        Telefonunuzu en uzun kenarı boyunca dönecek şekilde bir kağıt rulosuna yerleştirmelisiniz. Bu deney, daha sonra, rulonun gittiği hızı hesaplamak için jiroskopun yanı sıra rulonun yarıçapı ile ölçülen açısal hızı alır.
+    </description>
+      <string original="Velocity">Hız</string>
+      <string original="Roll radius">Rulo yarıçapı</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>滾動</title>
+      <category>力學</category>
+      <description>
+        將手機放到一個滾動裝置內以測得其速度。
+
+	你可以將你的手機放置於紙捲，這樣一來他就會對最長的地方進行滾動。這個實驗透過陀螺儀測得角速度及滾動半徑進而推算滾動的速度。
+    </description>
+      <string original="Velocity">速度</string>
+      <string original="Roll radius">滾動半徑</string>
+      <string original="cm">公分</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Gyroscope y">y方向陀螺儀</string>
     </translation>
   </translations>
   <data-containers>

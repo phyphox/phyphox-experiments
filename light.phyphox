@@ -53,6 +53,7 @@
                 Opmerking: op sommige apparaten wordt de lichtsensor alleen gereset als de verlichtingssterkte sterk verandert.
             </string>
       <string original="Simple">Eenvoudig</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Свет</title>
@@ -91,6 +92,51 @@
                 Παρατήρηση:  Σε μερικές συσκευές ο αισθητήρας φωτός αντιλαμβάνεται μόνο έντονες διαφορές στη φωτεινότητα.
             </string>
       <string original="Simple">Απλό</string>
+    </translation>
+    <translation locale="ja">
+      <title>光</title>
+      <category>センサー出力</category>
+      <description>光センサ出力の時系列データの取得</description>
+      <string original="Graph">グラフ</string>
+      <string original="Illuminance">照度</string>
+      <string original="Info">
+                注意:いくつかのデバイスの光センサーは照度の粗い変化がある際にのみ更新されます．
+            </string>
+      <string original="Simple">シンプル</string>
+    </translation>
+    <translation locale="pt">
+      <title>Luz</title>
+      <category>Sensores</category>
+      <description>Obtenha o dado puro do sensor de luz.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Illuminance">Iluminância</string>
+      <string original="Info">
+                Nota: Em alguns aparelhos o sensor de luz é atualizado apenas quando há uma mudança significativa na luminosidade.
+            </string>
+      <string original="Simple">Simples</string>
+    </translation>
+    <translation locale="tr">
+      <title>Işık</title>
+      <category>Ham sensörler</category>
+      <description>Işık sensöründen ham veri alın.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Illuminance">Aydınlık</string>
+      <string original="Info">
+                Dikkat: Bazı cihazlarda, ışık sensörü yalnızca aşırı bir aydınlık değişimi olduğunda güncellenir.
+            </string>
+      <string original="Simple">Basit</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>光</title>
+      <category>原始感測器</category>
+      <description>由光感測器得原始數據。</description>
+      <string original="Graph">圖表</string>
+      <string original="Illuminance">照度</string>
+      <string original="Info">
+                注意：在一些裝置上，光感測器只在有大的明亮度變化時才會更新數據。
+            </string>
+      <string original="Simple">簡易</string>
+      <string original="lx">勒克斯</string>
     </translation>
   </translations>
   <data-containers>

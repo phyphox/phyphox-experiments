@@ -91,6 +91,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Speed">Snelheid</string>
       <string original="Speed (m/s)">Snelheid (m/s)</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Эффект Доплера</title>
@@ -157,6 +158,85 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
       <string original="Speed">Ταχύτητα</string>
       <string original="Speed (m/s)">ταχύτητα (m/s)</string>
+    </translation>
+    <translation locale="ja">
+      <title>ドップラー効果</title>
+      <category>音響</category>
+      <description>
+        ドップラー効果の微量周波数シフトの検知．
+
+本実験には，一定の特定周波数音(1000 Hzのような) が出せる音源が必要です．設定に基準周波数を入力し，ドップラー効果による周波数シフトの検知範囲 (10 Hzなど) を選択してください．本実験では，録音された音声の周波数を決定し，音源の相対速度を計算します．
+    </description>
+      <string original="Setup">設定</string>
+      <string original="Base frequency">基準音の周波数</string>
+      <string original="Frequency range">周波数範囲</string>
+      <string original="Time step">時間ステップ</string>
+      <string original="Speed of sound">音速</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">ドップラーシフト計測の時間ステップは，音源速度を一定とみなし計算する音響データの取得頻度と量を決定します．本実験のアルゴリズムは基準周波数の-(周波数範囲)から+(周波数範囲)までの周波数を探し周波数特定するため，基準音周期のn倍遅れた音響データとの自己相関を計算し，周波数シフトを検出します．範囲や時間ステップの極端な値の設定は不正確な値を算出するか，お持ちのデバイスでの計算が難しくなるかもしれません．周波数範囲は，時間ステップの逆数よりも十分に小さい範囲を設定するようにしてください．</string>
+      <string original="nth period">n番目周期</string>
+      <string original="Results">結果</string>
+      <string original="Frequency">周波数</string>
+      <string original="Speed">速度</string>
+    </translation>
+    <translation locale="pt">
+      <title>Efeito Doppler</title>
+      <category>Acústica</category>
+      <description>
+        Detecta pequenos deslocamentos na frequência devido ao efeito Doppler.
+
+        Você precisa de um gerador de Tom que emite uma frequência constante (por exemplo 1000Hz). Informe esta frequência base na configuração do experimento e selecione a faixa de detecção na qual você espera o deslocamento Doppler (por exemplo 10Hz). O experimento irá determinar a frequência gravada e calcular a velocidade relativa da fonte sonora.
+    </description>
+      <string original="Setup">Confirugração</string>
+      <string original="Base frequency">Frequência Base</string>
+      <string original="Frequency range">Faixa de Frequência</string>
+      <string original="Time step">Passo do Tempo</string>
+      <string original="Speed of sound">Velocidade do Som</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Passo do tempo determina a taxa e a quantia de dados que é utilizada para calcular a velocidade de um único ponto. O algoritmo irá procurar por uma frequência ao redor da frequência base, de -faixa até +faixa e usar o n-ésimo período (abaixo) para determinar a frequência. Configurações extremas para a faixa ou o passo do tempo podem ser imprecisos ou muito difíceis de calculcular pelo aparelho. Além disso, você deve manter a faixa significantemente menor que 1/passo.</string>
+      <string original="nth period">n-ésimo período</string>
+      <string original="Results">Resultados</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Speed">Velocidade</string>
+    </translation>
+    <translation locale="tr">
+      <title>Doppler etkisi</title>
+      <category>Akustik</category>
+      <description>
+        Doppler etkisinin küçük frekans değişimlerini tespit edin.
+
+        Sabit bir frekans yayan bir ton üretecine (örneğin 1000Hz) ihtiyacınız vardır. Deneme kurulumunda bu temel frekansı girin ve Doppler kayma frekansı beklediğiniz bir algılama aralığı seçin (örneğin 10Hz). Deneme, kaydedilen frekansı belirleyecek ve ses kaynağının göreceli hızını hesaplayacaktır.
+    </description>
+      <string original="Setup">Kurulum</string>
+      <string original="Base frequency">Baz frekansı</string>
+      <string original="Frequency range">Frekans aralığı</string>
+      <string original="Time step">Zaman kademesi</string>
+      <string original="Speed of sound">Ses hızı</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Zaman kademesi, tek bir hız noktasını hesaplamak için kullanılan verinin sıklığını ve miktarını belirler. Algoritma, baz frekansı etrafındaki bir frekansı -noktadan +nokta aralığına kadar arar ve frekansı belirlemek için nth periyodunu (aşağıda) kullanır. Aralık veya zaman adımı için aşırı ayarlar seçmek, telefonunuz için hesaplamakta yanlış veya çok zor olabilir. Ayrıca, aralığı 1/adımdan önemli ölçüde küçük tutmalısınız.</string>
+      <string original="nth period">nth periyodu</string>
+      <string original="Results">Sonuçlar</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Speed">Hız</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>都卜勒效應</title>
+      <category>聲學</category>
+      <description>
+        偵測因都卜勒效應所造成的小頻率偏移。
+
+	你需要一個可以產生固定頻率（例如1000Hz）的器具。在「設置」處輸入這基準頻率，並選擇你預期的都卜勒偏移頻率範圍（例如10Hz）。這實驗會透過量測到的頻率以計算聲源的相對速度。
+    </description>
+      <string original="Setup">設置</string>
+      <string original="Base frequency">基準頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Frequency range">頻率範圍</string>
+      <string original="Time step">時間節距</string>
+      <string original="ms">毫秒</string>
+      <string original="Speed of sound">聲速</string>
+      <string original="m/s">公尺/秒</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">時間節距決定計算一個速度的數據點的速度及數據量。演算法會查看在基準頻率上下範圍內的第n個週期（下面所示）的頻率以決定頻率。對於範圍及時間節距太超過的設定都會造成不精準及手機計算速度的問題，並且你應該讓範圍顯著地比1/時間節距來得小。</string>
+      <string original="nth period">第n週期</string>
+      <string original="Results">結果</string>
+      <string original="Frequency">頻率</string>
+      <string original="Speed">速度</string>
     </translation>
   </translations>
   <data-containers>

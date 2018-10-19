@@ -121,6 +121,70 @@
       <string original="Frequency high">Υψηλή συχνότητα</string>
       <string original="OK">ΟΚ</string>
       <string original="Time">Χρόνος</string>
+      <string original="A">Α</string>
+    </translation>
+    <translation locale="ja">
+      <title>音源</title>
+      <category>音響</category>
+      <description>
+        特定の周波数音の発生
+    </description>
+      <string original="Tone generator">特定周波数音発生器</string>
+      <string original="Frequency">周波数</string>
+      <string original="Signal">信号</string>
+      <string original="Time">時間</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphoxでは任意の周波数を設定することが可能ですが，100Hz以下や8000Hz以上ではハードウェアの限界により良い結果が得られないかもしれません．</string>
+      <string original="Status">ステータス</string>
+      <string original="Frequency low">低周波数</string>
+      <string original="Frequency high">高周波数</string>
+    </translation>
+    <translation locale="pt">
+      <title>Gerador de tom</title>
+      <category>Acústica</category>
+      <description>
+        Gera um tom em uma frequência específica.
+    </description>
+      <string original="Tone generator">Gerador de tom</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Signal">Sinal</string>
+      <string original="Time">Tempo</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Apesar do phyphox permitir o uso de qualquer frequência, você pode não ter bom resultados abaixo de 100Hz ou acima de 8000Hz devido as limitações do aparelho.</string>
+      <string original="Status">Estado</string>
+      <string original="Frequency low">Frequência baixa</string>
+      <string original="Frequency high">Frequência muito alta</string>
+    </translation>
+    <translation locale="tr">
+      <title>Ton üreteci</title>
+      <category>Akustik</category>
+      <description>
+        Belirli bir frekansın tonunu üretir.
+    </description>
+      <string original="Tone generator">Ton üreteci</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Signal">Sinyal</string>
+      <string original="Time">Zaman</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox, isteğe bağlı frekanslar ayarlamaya izin vermesine rağmen, donanım kısıtlamaları nedeniyle 100Hz'in altında veya 8000Hz'nin üzerinde kötü sonuçlar deneyimleyebilirsiniz.</string>
+      <string original="Status">Durum</string>
+      <string original="Frequency low">Frekans düşük</string>
+      <string original="Frequency high">Frekans yüksek</string>
+      <string original="OK">İYİ</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲調產生器</title>
+      <category>聲學</category>
+      <description>
+        產生一個特定頻率的聲調。
+    </description>
+      <string original="Tone generator">聲調產生器</string>
+      <string original="Frequency">頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Signal">訊號</string>
+      <string original="Time">時間</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">雖然phyphox允許任意的頻率，然而在低於100Hz或高於8000Hz的情況下由於硬體的限制，您可能會得到較差的效果。</string>
+      <string original="Status">狀態</string>
+      <string original="Frequency low">低頻</string>
+      <string original="Frequency high">高頻</string>
+      <string original="OK">良好</string>
     </translation>
   </translations>
   <data-containers>

@@ -140,6 +140,13 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Satellites">Satellieten</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Houd er rekening mee dat sommige smartphones geen GPS-sensor hebben, maar locatiegegevens bieden via mobiele of WIFI-verbindingen. Deze gegevensbronnen produceren gegevens met onvoldoende nauwkeurigheid.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Zorg er ook voor dat de locatie-instelling van uw smartphone niet is ingesteld op "energiebesparing", omdat dit gewoonlijk de GPS uitschakelt terwijl navigatie-apps mogelijk nog steeds een vage locatie geven die wordt bepaald via het netwerk.</string>
+      <string original="Position">Positie</string>
+      <string original="t">f</string>
+      <string original="Movement">Beweging</string>
+      <string original="Distance travelled">Afgelegde weg</string>
+      <string original="Distance from start">Afstand vanaf start</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Zorg er ook voor dat de locatie-instelling van uw systeem niet is ingesteld op "Energiebesparing", omdat dit meestal de nauwkeurige GPS-bron uitschakelt.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">De horizontale nauwkeurigheid is de onzekerheid op je locatie, terwijl de verticale nauwkeurigheid de (meestal slechtere) onzekerheid is op uw hoogte. Als de nauwkeurigheid nul is, is deze informatie niet beschikbaar.</string>
     </translation>
     <translation locale="ru">
       <title>Местоположение (GPS)</title>
@@ -185,6 +192,12 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="m/s">м/с</string>
       <string original="km/h">км/ч</string>
       <string original="km">км</string>
+      <string original="Position">Положение</string>
+      <string original="Movement">Движение</string>
+      <string original="Distance travelled">Пройденное расстояние</string>
+      <string original="Distance from start">Расстояние от начала</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Также убедитесь, что настройка местоположения вашей системы не установлена на «Энергосбережение», потому что это обычно отключает точный источник GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
     </translation>
     <translation locale="it">
       <title>Posizione (GPS)</title>
@@ -221,6 +234,12 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Vertical Accuracy">Accuratezza verticale</string>
       <string original="Satellites">Satelliti</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Attenzione: molti dispositivi non hanno il GPS, ma ottengono i dati tramite la connessione dati o WIFI. Questi dati sono meno precisi.</string>
+      <string original="Position">Posizione</string>
+      <string original="Movement">Movimento</string>
+      <string original="Distance travelled">Distanza percorsa</string>
+      <string original="Distance from start">Distanza dalla partenza</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assicurati anche che il sistema di geolocalizzazione non sia configurato come "Power saving" poiché questo ridurrebbe la precisione del GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">L'accuratezza orizzontale rappresenta l'indeterminazione associata alla tua posizione, mentre quella verticale è l'indeterminazione (di solito peggiore) con la quale si conosce la tua quota rispetto al livello del mare (altezza). Se l'accuratezza è nulla, significa che quest'informazione non è disponibile.</string>
     </translation>
     <translation locale="el">
       <title>Τοποθεσία (GPS)</title>
@@ -251,6 +270,149 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Satellites">Δορυφόροι</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS. Οι εφαρμογές πλοήγησης τότε, ίσως να δείχνουν κατά προσέγγιση την τοποθεσία από το δίκτυο τηλεφωνίας.</string>
+      <string original="Position">Θέση</string>
+      <string original="Movement">Κίνηση</string>
+      <string original="Distance travelled">Διανυθείσα απόσταση</string>
+      <string original="Distance from start">Απόσταση από την αρχή</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Επίσης βεβαιωθείτε ότι η ρύθμιση για την τοποθεσία στο σύστημα σας δεν είναι ρυθμισμένη στο "Εξοικονόμηση ενέργειας" γιατί τότε συνήθως απενεργοποιείται η ακριβής λειτουργία του GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
+    </translation>
+    <translation locale="ja">
+      <title>位置 (GPS)</title>
+      <category>センサー出力</category>
+      <description>
+        GPS衛星から計算されたの位置情報の取得．
+
+測定結果は機器へのGPSデバイスのの実装に依存することに注意してください．Androidデバイスがは垂直方向の情報に対する精度があまりよくありません．一方でiOSデバイスは位置計算に用いたGPS衛星の数を示しません．また，iOSデバイスにおいては，GPS衛星からのデータのみから得た位置情報を，他の位置情報データと混合し，複合的に判断している場合もあります．
+
+速さと方向は，各機器が２点以上の連続した位置情報から算出した場合が多い，
+    </description>
+      <string original="Position">位置</string>
+      <string original="Status">ステータス</string>
+      <string original="GPS disabled">GPS 利用不可</string>
+      <string original="GPS active">GPS有効</string>
+      <string original="Latitude">緯度</string>
+      <string original="Longitude">経度</string>
+      <string original="Height">高度</string>
+      <string original="z">ｚ</string>
+      <string original="Movement">経路</string>
+      <string original="Speed">速度</string>
+      <string original="v">ｖ</string>
+      <string original="Direction">方位</string>
+      <string original="Distance travelled">移動距離</string>
+      <string original="d">ｄ</string>
+      <string original="Simple">シンプル</string>
+      <string original="Compass">方位磁針</string>
+      <string original="Distance from start">スタート地点からの距離</string>
+      <string original="Horizontal Accuracy">水平方向精度</string>
+      <string original="Vertical Accuracy">垂直方向精度</string>
+      <string original="Satellites">衛星数</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">位置情報サービスが省電力モードでないことを確認してください。省電力モードになると多くの場合正確なGPS情報源を切断してしまいます。</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">水平方向精度は位置の不確かさで垂直方向精度は高度の不確かさです。もしゼロになっていたら、この情報は現在利用できないことを示しています。</string>
+    </translation>
+    <translation locale="pt">
+      <title>Localização (GPS)</title>
+      <category>Sensores</category>
+      <description>
+        Obtenha o dado puro da posição a partir do satélite de navegação.
+
+        Note que o comportamento pode depender da implementação do seu aparelho. Dispositivos Android não fornecem informação sobre a precisão vertical, enquanto dispositivos iOS não fornecem o número de satélites. Além disso, no iOS pode ter dados de outras fontes que são misturados com os dados dos satélites de navegação.
+
+        Velocidade e direção são tipicamente fornecidos pelo dispositivo e são baseadas em duas ou mais posições fixas consecutivas.
+    </description>
+      <string original="Position">Posição</string>
+      <string original="Status">Estado</string>
+      <string original="GPS disabled">GPS desabilitado</string>
+      <string original="GPS active">GPS ativo</string>
+      <string original="Height">Altura</string>
+      <string original="z">Z</string>
+      <string original="Movement">Movimento</string>
+      <string original="Speed">Velocidade</string>
+      <string original="Direction">Direção</string>
+      <string original="Distance travelled">Distância percorrida</string>
+      <string original="Simple">Simples</string>
+      <string original="Compass">Bússola</string>
+      <string original="SW">SE</string>
+      <string original="W">O</string>
+      <string original="NW">NO</string>
+      <string original="E">L</string>
+      <string original="Distance from start">Distância do início</string>
+      <string original="Horizontal Accuracy">Precisão Horizontal</string>
+      <string original="Vertical Accuracy">Precisão Vertical</string>
+      <string original="Satellites">Satélites</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nota: alguns dispositivos não possuem um sensor GPS, mas fornecem dados de localização através das conexões móveis ou WIFI. Estas fontes de dados produzem dados com precisão ruim.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Também tenha certeza que a configuração do seu sistema de localização não esteja definida como "Economia de Energia" porque isto normalmente desliga o GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">A precisão horizontal é a incerteza da sua localização, enquanto a precisão vertical é a (normalmente pior) a incerteza da sua elevação (altura). Se a precisão é zero, esta informação não está disponível.</string>
+    </translation>
+    <translation locale="tr">
+      <title>Konum (GPS)</title>
+      <category>Ham Sensörler</category>
+      <description>
+        Uydu navigasyonundan ham konum verilerini alın.
+
+        Geçerliliğin akıllı telefonunuzdaki uygulamaya bağlı olabileceğini unutmayın. İOS cihazlar, uydu sayısını sağlamazken, Android cihazlar dikey doğruluk bilgisi sunmaz. Ayrıca, iOS'ta uydu navigasyonundan alınan verilerle karıştırılmış diğer kaynaklardan da veri olabilir.
+
+        Hız ve yön, tipik olarak cihaz tarafından verilir ve iki veya daha fazla ardışık pozisyon düzeltmesine dayanır.
+    </description>
+      <string original="Position">Pozisyon</string>
+      <string original="Status">Durum</string>
+      <string original="GPS disabled">GPS devre dışı</string>
+      <string original="GPS active">GPS etkin</string>
+      <string original="Latitude">Enlem</string>
+      <string original="Longitude">Boylam</string>
+      <string original="Height">Yükseklik</string>
+      <string original="Movement">Hareket</string>
+      <string original="Speed">Hız</string>
+      <string original="Direction">Yön</string>
+      <string original="Distance travelled">Katedilen mesafe</string>
+      <string original="Simple">Basit</string>
+      <string original="Compass">Pusula</string>
+      <string original="Distance from start">Başlangıçtan katedilen mesafe</string>
+      <string original="Horizontal Accuracy">Yatay doğruluk</string>
+      <string original="Vertical Accuracy">Dikey doğruluk</string>
+      <string original="Satellites">Uydular</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Bazı cihazların GPS sensörü bulunmadığını, ancak mobil veya WIFI bağlantılarıyla konum verilerini sağladığını unutmayın. Bu veri kaynakları, hatalı doğrulukta veri üretir.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ayrıca, sisteminizin konum ayarının "Güç tasarrufu" olarak ayarlanmadığından emin olun, çünkü bu genellikle hassas GPS kaynağını kapatır.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Yatay doğruluk konumunuzun belirsizliğidir, dikey doğruluk ise (genellikle daha kötü) yüksekliğinizin belirsizliğidir (yükseklik). Doğruluk sıfır yazıyor ise, bu bilgi mevcut değildir.</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>位置 (GPS)</title>
+      <category>原始感測器</category>
+      <description>
+        由衛星的航行得原始位置數據。
+
+	注意這會由該處的基礎建設程度影響。Android 裝置不提供鉛直精準度資料，然而iOS不提供衛星的數量。並且，在iOS上來自於其他來源的資料會混入衛星的資料。
+
+	速度及方向主要由手機提供，並且透過兩個連續的位置給出。
+    </description>
+      <string original="Status">狀態</string>
+      <string original="GPS disabled">GPS 未使用</string>
+      <string original="GPS active">GPS 使用中</string>
+      <string original="Latitude">緯度</string>
+      <string original="Longitude">經度</string>
+      <string original="Height">高度</string>
+      <string original="Speed">速度</string>
+      <string original="Direction">方向</string>
+      <string original="Simple">簡易</string>
+      <string original="°">度</string>
+      <string original="m">公尺</string>
+      <string original="m/s">公尺/秒</string>
+      <string original="km/h">公里/小時</string>
+      <string original="Compass">指北針</string>
+      <string original="S">南</string>
+      <string original="SW">西南</string>
+      <string original="W">西</string>
+      <string original="NW">西北</string>
+      <string original="N">北</string>
+      <string original="NE">東北</string>
+      <string original="E">東</string>
+      <string original="SE">東南</string>
+      <string original="km">公里</string>
+      <string original="Horizontal Accuracy">水平精準度</string>
+      <string original="Vertical Accuracy">鉛直精準度</string>
+      <string original="Satellites">衛星數量</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些裝置並沒有GPS感測器，但藉由電信業者或WIFI連結依然提供位置資訊。這些來源提供低精度的數據。</string>
     </translation>
   </translations>
   <data-containers>

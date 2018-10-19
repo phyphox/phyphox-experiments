@@ -35,6 +35,7 @@
       <string original="Graph">Grafiek</string>
       <string original="Pressure">Druk</string>
       <string original="Simple">Eenvoudig</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Давление</title>
@@ -62,6 +63,40 @@
       <string original="Graph">Γράφημα</string>
       <string original="Pressure">Πίεση</string>
       <string original="Simple">Απλό</string>
+    </translation>
+    <translation locale="ja">
+      <title>圧力</title>
+      <category>センサー出力</category>
+      <description>バロメーターの時系列データの取得．</description>
+      <string original="Graph">グラフ</string>
+      <string original="Pressure">圧力</string>
+      <string original="p">ｐ</string>
+      <string original="Simple">シンプル</string>
+    </translation>
+    <translation locale="pt">
+      <title>Pressão</title>
+      <category>Sensores</category>
+      <description>Obtenha o dado puro do barômetro.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Pressure">Pressão</string>
+      <string original="Simple">Simples</string>
+    </translation>
+    <translation locale="tr">
+      <title>Basınç</title>
+      <category>Ham Sensörler</category>
+      <description>Barometreden ham veri alın.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Pressure">Basınç</string>
+      <string original="Simple">Basit</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>壓力</title>
+      <category>原始感測器</category>
+      <description>自氣壓計獲得原始數據。</description>
+      <string original="Graph">圖表</string>
+      <string original="Pressure">壓力</string>
+      <string original="Simple">簡易</string>
+      <string original="hPa">百帕</string>
     </translation>
   </translations>
   <data-containers>

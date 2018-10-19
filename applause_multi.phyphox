@@ -41,14 +41,65 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     <translation locale="el">
       <string original="History">Ιστορικό</string>
       <string original="Time">Χρόνος</string>
+      <title>Χειροκροτημα-τόμετρο</title>
+      <category>Καθημερινή ζωή</category>
+      <description>
+        Βαθμολόγησε ένα χειροκρότημα με βάση τη διάρκεια και την ένταση.
+
+        Στο πείραμα αυτό ολοκληρώνεται το πλάτος του ήχου στον χρόνο και του αποδίδεται ένας βαθμός. Έτσι ένα δυνατό και παρατεταμένο χειροκρότημα παίρνει μεγαλύτερο βαθμό. Μπορείτε να βαθμολογήσετε πολλούς διαγωνιζόμενους και να συγκρίνετε τις επιδόσεις τους στο ραβδοδιάγραμμα.
+
+        Χρήση: Το ιστορικό δείχνει το επίπεδο θορύβου που καταγράφτηκε από το phyphox. Μπορείτε να ξεκινήσετε τη βαθμολόγηση πατώντας "εκκίνηση" και να σταματήσετε πατώντας "τερματισμός". Κατά τη διάρκεια αυτής της περιόδου θα δείτε το σκορ να αυξάνεται το οποίο επίσης καταδεικνύεται από την κίτρινη ράβδο. Μετά τον τερματισμό μπορείτε να πατήσετε "επόμενος διαγωνιζόμενος" ώστε να είστε έτοιμοι για τη μέτρηση του επόμενου. Όταν πατήσετε "εκκίνηση" ξανά, μια δεύτερη ράβδος θα αρχίζει να αυξάνεται μέχρι να πατήσετε "τερματισμός". Μπορείτε να επαναλάβετε τα παραπάνω όσο χρειάζεστε για να συγκρίνετε πολλαπλά σκορ.
+    </description>
+      <string original="Score">Βαθμός</string>
+      <string original="Subscore">Επι μέρους βαθμός</string>
+      <string original="Scores">Βαθμοί</string>
+      <string original="Contestant">Διαγωνιζόμενος</string>
+      <string original="Start">Εκκίνηση</string>
+      <string original="Stop">Τερματισμός</string>
+      <string original="Next contestant">Επόμενος διαγωνιζόμενος</string>
+      <string original="Controls">Κουμπιά ελέγχου</string>
+      <string original="Reset last score">Επαναφορά τελευταίου βαθμού</string>
+      <string original="Clear all scores">Καθαρισμός όλων των βαθμών</string>
     </translation>
     <translation locale="it">
       <string original="History">Andamento</string>
       <string original="Time">Tempo</string>
+      <title>Applausometro</title>
+      <category>Vita quotidiana</category>
+      <description>
+        Assegna un valore proporzionale alla lunghezza e all'intensità di un applauso.
+
+        Questo esperimento integra l'ampiezza di un suono nel tempo. In tal modo più un applauso è lungo e intenso, più il valore è elevato. Si può eseguire la misura su più contendenti e verificare il punteggio relativo attraverso un istogramma.
+        
+        Uso: la cronologia mostra il livello di rumore misurato da phyphox. Inizia la misura premendo "start" e termina premendo "stop". In questo intervallo il valore misurato aumenta. La misura è riprodotta anche graficamente come una banda gialla. Al termine premi "prossimo contendente" per eseguire un'altra misura. Premendo "start" si vedrà un'ulteriore banda crescere durante la misura. Ripeti le operazioni per il numero di volte necessario.
+    </description>
+      <string original="Score">Punteggio</string>
+      <string original="Subscore">Punt. parziale</string>
+      <string original="Scores">Punteggio</string>
+      <string original="Contestant">Contendente</string>
+      <string original="Next contestant">Prossimo contendente</string>
+      <string original="Controls">Controlli</string>
+      <string original="Reset last score">Cancella ultimo punteggio</string>
+      <string original="Clear all scores">Cancella tutti i punteggi</string>
     </translation>
     <translation locale="nl">
       <string original="History">Geschiedenis</string>
       <string original="Time">Tijd</string>
+      <title>Applausmeter</title>
+      <category>Alledaags</category>
+      <description>
+        Wijs scores toe aan lengte en amplitude van een applaus.
+
+         Dit experiment integreert de amplitude van geluid in de tijd en wijst scores toe. Op deze manier krijgt een luid en lang applaus de hogere score. U kunt meerdere deelnemers evalueren en hun prestaties vergelijken in het staafdiagram.
+
+         Gebruik: de geschiedenis toont het geluidsniveau gedetecteerd door phyphox. U kunt beginnen met het scoren door op "start" te drukken en het scoren te stoppen door op "stop" te drukken. Tijdens deze periode ziet u de score stijgen die ook wordt aangegeven door de gele balk. Na het stoppen kun je op "volgende deelnemer" drukken om je voor te bereiden op het meten van de volgende score. Wanneer u opnieuw op "start" drukt, zal een tweede balk groeien totdat u opnieuw op "stop" drukt. Je kunt dit zo vaak herhalen als je wilt om meerdere scores te vergelijken.
+    </description>
+      <string original="Subscore">Deelscore</string>
+      <string original="Contestant">Mededinger</string>
+      <string original="Next contestant">Volgende mededinger</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Laatste score resetten</string>
+      <string original="Clear all scores">Wis alle scores</string>
     </translation>
     <translation locale="pl">
       <string original="History">Historia</string>
@@ -57,6 +108,98 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     <translation locale="ru">
       <string original="History">История</string>
       <string original="Time">Время</string>
+      <title>Измеритель аплодисментов</title>
+      <category>Повседневная жизнь</category>
+      <description>
+        Установите баллы на длину и амплитуду аплодисментов.
+
+         Эти эксперименты объединяют амплитуду звука с временем и присваивают им баллы. Таким образом, громкие и длинные аплодисменты получают более высокий балл. Вы можете оценить несколько участников и сравнить их производительность на гистограмме.
+
+         Использование: История показывает уровень шума, измеренного в phyphox. Вы можете начать подсчет баллов, нажав «старт» и остановить счет, нажав «стоп». В течение этого периода вы увидите увеличение счета, которое также обозначается желтой полосой. После остановки вы можете нажать «следующий участник», чтобы подготовиться к оценке следующего балла. Когда вы снова нажмете «старт», вторая полоса будет расти, пока вы снова не нажмете «стоп». Вы можете повторять это с любым количеством участников.
+    </description>
+      <string original="Score">Балл</string>
+      <string original="Subscore">Дополнительный балл</string>
+      <string original="Scores">Баллы</string>
+      <string original="Contestant">Участник</string>
+      <string original="Start">Старт</string>
+      <string original="Stop">Стоп</string>
+      <string original="Next contestant">Следующий участник</string>
+      <string original="Controls">Управление</string>
+      <string original="Reset last score">Сбросить последний результат</string>
+      <string original="Clear all scores">Удалить все результаты</string>
+    </translation>
+    <translation locale="ja">
+      <title>Applause meter（拍手喝采音量計）</title>
+      <category>日常</category>
+      <description>
+        拍手喝采音の強度と長さを記録
+
+        この実験は、拍手喝采音の強度を積算します。このため音の強度と長さがないほど高い値が出ます。複数の出場者のスコアを棒グラフで比較できます。
+
+        利用方法：強度履歴はphyphoxで検出された音響レベルの履歴を示します。開始ボタンでスコアの積算が開始され、停止ボタンで終了します。計測中スコアが上昇していくのが見え、黄色のバーで表示されます。停止後、次の出場者ボタンで次のスコア計測準備ができます。再度開始ボタンを押すと、二つ目のバーが伸びていくのが見えます。これを繰り返し行います。
+    </description>
+      <string original="Score">スコア</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Subscore">音響レベルスコア</string>
+      <string original="Scores">スコア</string>
+      <string original="Contestant">出場者</string>
+      <string original="Start">開始</string>
+      <string original="Stop">停止</string>
+      <string original="Next contestant">次の出場者</string>
+      <string original="Controls">スコア計測</string>
+      <string original="Reset last score">直前のスコアのリセット</string>
+      <string original="Clear all scores">全てのスコアをクリア</string>
+    </translation>
+    <translation locale="pt">
+      <title>Medidor de Aplausos</title>
+      <category>Dia a Dia</category>
+      <description>
+        Atribui pontuação à duração e altura dos aplausos.
+
+        Este experimento integra a amplitude do som sobre o tempo e atribui uma pontuação. Desta forma, aplausos barulhentos e longos têm pontuação maior.  Você pode avaliar vários concorrentes e comparar o resultado no gráfico de barra.
+
+        Utilização: O histórico mostra o nível de barulho detectado pelo phyphox. Você pode iniciar a pontuação clicando em "iniciar" e parar a pontuação clicando em "parar". Durante este período você verá a pontuação aumentando, no que é indicado por uma barra amarela. Após parar, você pode clicar em "próximo concorrente" para preparar a medida para a próxima pontuação. Quando você clicar em "iniciar" novamente, uma segunda barra irá crescer até você apertar "parar" novamente. Você pode repetir este procedimento o quanto você quiser para comparar múltiplas pontuações.
+    </description>
+      <string original="Score">Ponto</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Subscore">Ponto Inicial</string>
+      <string original="Scores">Pontuação</string>
+      <string original="Contestant">Concorrente</string>
+      <string original="Start">Iniciar</string>
+      <string original="Stop">Parar</string>
+      <string original="Next contestant">Próximo Concorrente</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Limpar última pontuação</string>
+      <string original="Clear all scores">Limpar todas pontuações</string>
+    </translation>
+    <translation locale="tr">
+      <title>Alkış ölçer</title>
+      <category>Gündelik Yaşam</category>
+      <description>
+        Bir alkışın uzunluğa ve genliğine puan verme.
+
+        Bu deneyler sesin zaman içindeki genliğini bütünleştirir ve puan verir. Bu şekilde yüksek ve uzun bir alkış daha yüksek puan alır. Birden çok yarışmacıyı değerlendirebilir ve performanslarını çubuk grafikte karşılaştırabilirsiniz..
+
+        Kullanım: Geçmiş phyphox tarafından tespit edilen gürültü seviyesini gösterir. "Başlat" a basarak puanlamaya başlayabilir ve "durdur" a basarak puanlamayı durdurabilirsiniz. Bu süre zarfında sarı çubuğunda gösterdiği gibi puan artışını göreceksiniz. Durduktan sonra, bir sonraki skoru ölçmek için "sonraki yarışmacı" tuşuna basabilirsiniz. "Başlat" a yeniden bastığınızda, tekrar "dur" a basana kadar ikinci bir çubuk büyüyecek. Birden çok puanı karşılaştırmak için istediğiniz sıklıkta tekrarlayabilirsiniz.
+    </description>
+      <string original="Score">Skor</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Subscore">Altskor</string>
+      <string original="Scores">Skorlar</string>
+      <string original="Contestant">Yarışmacı</string>
+      <string original="Start">Başlat</string>
+      <string original="Stop">Durdur</string>
+      <string original="Next contestant">Sonraki yarışmacı</string>
+      <string original="Controls">Kontroller</string>
+      <string original="Reset last score">Son skoru sıfırla</string>
+      <string original="Clear all scores">Tüm skorları temizle</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
     </translation>
   </translations>
   <data-containers>

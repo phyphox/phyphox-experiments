@@ -113,6 +113,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Autocorrelation">Autocorrelatie</string>
       <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
+      <string original="correlation">correlatie</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Пружины</title>
@@ -143,6 +145,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer z">Акселерометр z</string>
       <string original="s">с</string>
       <string original="Hz">Гц</string>
+      <string original="Rel. amplitude">Отн. амплитуда</string>
+      <string original="correlation">корреляция</string>
     </translation>
     <translation locale="it">
       <title>Molla</title>
@@ -167,6 +171,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer x">Accelerazione x</string>
       <string original="Accelerometer y">Accelerazione y</string>
       <string original="Accelerometer z">Accelerazione z</string>
+      <string original="Rel. amplitude">Amp. relativa</string>
+      <string original="correlation">correlazione</string>
     </translation>
     <translation locale="el">
       <title>Ελατήριο</title>
@@ -192,6 +198,100 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer x">Επιταχυνσιόμετρο x</string>
       <string original="Accelerometer y">Επιταχυνσιόμετρο y</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+      <string original="Rel. amplitude">Σχετ. πλάτος</string>
+      <string original="correlation">συσχέτιση</string>
+    </translation>
+    <translation locale="ja">
+      <title>ばね</title>
+      <category>力学・運動</category>
+      <description>
+        ばね発振器の周波数と周期の解析．
+
+本実験は発振器の動作を測定するために加速度計を使用し，発振器の周期Ｔを計算する．さらに，共振タブには検知された周波数に対する振幅がプロットされる．このように駆動されている発振器を解析的に再構成し，周波数を変更しながら共振曲線を測定することが可能である．
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">周波数</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相対振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされる．駆動する発振器の共振周波数を測定するために使用可能である．振幅は0から1の範囲において規格化される．</string>
+      <string original="Autocorrelation">自己相関</string>
+      <string original="correlation">相関係数</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Accelerometer x">加速度計 x</string>
+      <string original="Accelerometer y">加速度計 y</string>
+      <string original="Accelerometer z">加速度計 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Mola</title>
+      <category>Mecânica</category>
+      <description>
+        Analisa a frequência e o período de um oscilador massa-mola.
+
+        Este experimento usa o acelerômetro para medir o movimento de oscilação e calcula o período T do sistema. Na aba de ressonância, é plotado a amplitude contra a frequência. Desta maneira, você pode construir um oscilador forçado e mudar a frequência para medir a curva de ressonância.
+
+        Outros detalhes:
+        O período de oscilação é obtido através da autocorrelação da soma dos três componentes da aceleração medida. A autocorrelação é então utilizada com o primeiro máximo para uma estimativa inicial e o último máximo para aprimorar o resultado.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Período</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Resonance">Ressonância</string>
+      <string original="Rel. amplitude">Amplitude Relat</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Nesta aba, a amplitude é plotada contra a frequência. Você pode utilizar isto para medir a ressonância de um oscilador forçado. A amplitude é normalizada entre 0 e 1.</string>
+      <string original="Autocorrelation">Autocorrelação</string>
+      <string original="correlation">correlação</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Accelerometer x">Acelerômetro x</string>
+      <string original="Accelerometer y">Acelerômetro y</string>
+      <string original="Accelerometer z">Acelerômetro z</string>
+    </translation>
+    <translation locale="tr">
+      <title>Yay</title>
+      <category>Mekanik</category>
+      <description>
+        Bir yaylı sarkacın frekans ve periyodunu analiz edin.
+
+        Bu deney, sarkacın hareketini ölçmek için ivmeölçer kullanır ve salınım periyodu T'yi hesaplar. Ek olarak, rezonans sekmesinde, genliği tespit edilen frekansa göre çizer. Bu şekilde, yaylı bir sarkaç oluşturabilir ve bir rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+
+        Daha fazla ayrıntı:
+        Salınım periyodu, üç ivmeölçer bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin değeri için ilk maksimum değerini analiz eder ve ardından daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+    </description>
+      <string original="Results">Sonuçlar</string>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation">bağıntı</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Accelerometer x">İvmeölçer X</string>
+      <string original="Accelerometer y">İvmeölçer Y</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>彈簧</title>
+      <category>力學</category>
+      <description>
+        分析彈簧振盪器的頻率及週期。
+
+	此實驗利用加速儀量測振動模式並計算振動週期T。除此之外，在共振的標籤頁中，會顯示振幅對偵測頻率做圖。這樣一來，你可以建造一個振盪器並且改變他的頻率以量測共振曲線。
+
+	更多細節：
+	振動週期透過陀螺儀的三個分量的總和的自相關性得知。分析第一個峰值與第一個估計值得自相關的程度，並透過最後一個峰值的自相關得更精確的結果。
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">週期</string>
+      <string original="s">秒</string>
+      <string original="Frequency">頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Resonance">共振</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">這個分頁中顯示振幅對測得的頻率的作圖。你可以用此量測一個振盪器的共振頻率。振幅已歸一化成0至1。</string>
+      <string original="Autocorrelation">自相關</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Accelerometer x">x方向加速儀</string>
+      <string original="Accelerometer y">y方向加速儀</string>
+      <string original="Accelerometer z">z方向加速儀</string>
     </translation>
   </translations>
   <data-containers>

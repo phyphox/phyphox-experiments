@@ -225,6 +225,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Trigger uit 4</string>
       <string original="Trigger on 5">Trigger aan 5</string>
       <string original="Trigger off 5">Trigger uit 5</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Оптический секундомер</title>
@@ -365,6 +366,188 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Απενεργοποίηση 4</string>
       <string original="Trigger on 5">Ενεργοποίηση  5</string>
       <string original="Trigger off 5">Απενεργοποίηση 5</string>
+    </translation>
+    <translation locale="ja">
+      <title>光学ストップウォッチ</title>
+      <category>タイマー</category>
+      <description>
+        スマートフォンへの光照射イベントの時間間隔の測定．
+
+本実験では，光センサーにあたる照度変化から時間間隔を測定します．例えば，光源からスマートフォンへの光を遮ることで，ストップウォッチは作動または停止し，その時間間隔を測定することができます．
+
+時間分解能は使用しているスマートフォンの加速度計の性能に依存します．遅いスマートフォンだと時間分解能は1秒の程度かもしれません．一方で，高速なセンサであっても時間分解能は10分の1秒程度です．音響ストップウォッチでは，より高速な動作が気体できます．
+    </description>
+      <string original="Settings">設定</string>
+      <string original="Trigger below">閾値（下）</string>
+      <string original="Trigger above">閾値（上）</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">タイマーの開始と停止は，照度が閾値より高くなった時と低くなった時のどちらでも可能です．もしも明るくなった時にのみタイマーイベントとして認識させたいのであれば， "閾値下 "をゼロに設定してください．もし暗くなった時をトリガーイベントとしたい場合は，"閾値上 "をかなり高い値に設定してください．下記の照度グラフから，トリガーとなる適切な閾値を見積もることができます．</string>
+      <string original="Illuminance">照度</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">時間分解能は使用しているスマートフォンの加速度計の性能に依存します．遅いスマートフォンだと時間分解能は1秒の程度かもしれません．一方で，高速なセンサであっても時間分解能は10分の1秒程度です．音響ストップウォッチでは，より高速な動作が期待できます．</string>
+      <string original="Sequence">連続</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Reset">リセット</string>
+      <string original="Parallel">パラレル</string>
+      <string original="Duration">時間間隔</string>
+      <string original="Trigger duration 0">トリガー持続時間 0</string>
+      <string original="Trigger duration 1">トリガー持続時間 1</string>
+      <string original="Trigger duration 2">トリガー持続時間 2</string>
+      <string original="Trigger duration 3">トリガー持続時間 3</string>
+      <string original="Trigger duration 4">トリガー持続時間 4</string>
+      <string original="Trigger duration 5">トリガー持続時間 5</string>
+      <string original="Triggers">トリガー</string>
+      <string original="Trigger on 0">トリガーオン 0</string>
+      <string original="Trigger off 0">タイマーオフ 0</string>
+      <string original="Trigger on 1">トリガーオン 1</string>
+      <string original="Trigger off 1">トリガーオフ 1</string>
+      <string original="Trigger on 2">トリガーオン 2</string>
+      <string original="Trigger off 2">タイマーオフ 2</string>
+      <string original="Trigger on 3">トリガーオン 3</string>
+      <string original="Trigger off 3">タイマーオフ 3</string>
+      <string original="Trigger on 4">トリガーオン 4</string>
+      <string original="Trigger off 4">タイマーオフ 4</string>
+      <string original="Trigger on 5">トリガーオン 5</string>
+      <string original="Trigger off 5">タイマーオフ 5</string>
+    </translation>
+    <translation locale="pt">
+      <title>Cronômetro Óptico</title>
+      <category>Temporizadores</category>
+      <description>
+        Medidas de tempo usando a luz incidente no seu aparelho.
+
+        Neste experimento você pode expor o seu sensor de luz em uma fonte de luz para medir a duração ou o tempo entre claro e escuro. Por exemplo, você pode medir o tempo entre dois eventos bloqueando uma fonte de luz.
+
+        A precisão depende fortemente do sensor de luz no seu aparelho. Para sensores lentos, o tempo entre medidas pode ser maior que um segundo, enquanto que sensores rápidos normalmente não passam de décimos de segundo. Medidas rápidas podem ser feitas usando o cronômetro acústico, que funciona através de sons.
+    </description>
+      <string original="Settings">Configurações</string>
+      <string original="Trigger below">Gatilho inferior</string>
+      <string original="Trigger above">Gatilho superior</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">O temporizador é disparado quando a intensidade está acima ou abaixo dos valores limites. Caso você queira que o disparo seja apenas com uma intensidade de luz alta, deixe o "disparo inferior" como zero. Caso você queira utilizar apenas uma intensidade baixa, ajuste o "disparo superior" para um valor muito alto. Você pode ter uma estimativa do limite necessário para você olhando o gráfico abaixo (pressione iniciar para construir o gráfico).</string>
+      <string original="Illuminance">Iluminância</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">A precisão depende fortemente do sensor de luz no seu aparelho. Para sensores lentos, o tempo entre medidas pode ser maior que um segundo, enquanto que sensores rápidos normalmente não passam de décimos de segundo. Medidas rápidas podem ser feitas usando o cronômetro acústico, que funciona através de sons.</string>
+      <string original="Sequence">Sequência</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Duration">Duração</string>
+      <string original="Trigger duration 0">Duração do gatilho 0</string>
+      <string original="Trigger duration 1">Duração do gatilho 1</string>
+      <string original="Trigger duration 2">Duração do gatilho 2</string>
+      <string original="Trigger duration 3">Duração do gatilho 3</string>
+      <string original="Trigger duration 4">Duração do gatilho 4</string>
+      <string original="Trigger duration 5">Duração do gatilho 5</string>
+      <string original="Triggers">Gatilhos</string>
+      <string original="Trigger on 0">Gatilho ligado 0</string>
+      <string original="Trigger off 0">Gatilho desligado 0</string>
+      <string original="Trigger on 1">Gatilho ligado 1</string>
+      <string original="Trigger off 1">Gatilho desligado 1</string>
+      <string original="Trigger on 2">Gatilho ligado 2</string>
+      <string original="Trigger off 2">Gatilho desligado 2</string>
+      <string original="Trigger on 3">Gatilho ligado 3</string>
+      <string original="Trigger off 3">Gatilho desligado 3</string>
+      <string original="Trigger on 4">Gatilho ligado 4</string>
+      <string original="Trigger off 4">Gatilho desligado 4</string>
+      <string original="Trigger on 5">Gatilho ligado 5</string>
+      <string original="Trigger off 5">Gatilho desligado 5</string>
+    </translation>
+    <translation locale="tr">
+      <title>Optik kronometre</title>
+      <category>Zamanlayıcılar</category>
+      <description>
+        Telefonunuza gelen ışığa göre zamanı ölçün. 
+
+Bu deneyde karanlık ve aydınlık iki durum arasındaki zamanı ölçmek için telefonunuzun ışık sensörünü ışık kaynağına maruz bırakabilirsiniz. Örneğin, bir ışık kaynağını engelleyen iki olay arasındaki süreyi ölçebilirsiniz.
+
+Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı olduğunu unutmayın. Yavaş sensörler için bu bir saniyeden daha fazla olabilirken hızlı sensörler genelde saniyenin onda birinden daha hızlı olamazlar. Seslere dayanan akustik kronometre deneyi kullanılarak daha hızlı ölçümler yapılabilir.
+    </description>
+      <string original="Settings">Ayarlar</string>
+      <string original="Trigger below">Aşağıdan başlat</string>
+      <string original="Trigger above">Yukarıdan başlat</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Zamanlayıcı, belirtilen eşiklerin üstünde ve altında başlatılır. Sadece parlak aydınlatmada başlatmak istiyorsanız, "aşağıdan başlat" değerini sıfır olarak ayarlayın. Sadece karanlık olaylarda başlatmak istiyorsanız, "yukarıdan başlat" değerini çok yüksek bir değere ayarlayın. Diğer başlatıcılar için uygun eşiği aşağıdaki grafikten tahmin edebilirsiniz.</string>
+      <string original="Illuminance">Aydınlık</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı olduğunu unutmayın. Yavaş sensörler için bu bir saniyeden daha fazla olabilirken hızlı sensörler genelde saniyenin onda birinden daha hızlı olamazlar. Seslere dayanan akustik kronometre deneyi kullanılarak daha hızlı ölçümler yapılabilir.</string>
+      <string original="Sequence">Sıralama</string>
+      <string original="Time 1">Zaman 1</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Parallel">Paralel</string>
+      <string original="Duration">Süre</string>
+      <string original="Trigger duration 0">Başlatma süresi 0</string>
+      <string original="Trigger duration 1">Başlatma süresi 1</string>
+      <string original="Trigger duration 2">Başlatma süresi 2</string>
+      <string original="Trigger duration 3">Başlatma süresi 3</string>
+      <string original="Trigger duration 4">Başlatma süresi 4</string>
+      <string original="Trigger duration 5">Başlatma süresi 5</string>
+      <string original="Triggers">Başlatmalar</string>
+      <string original="Trigger on 0">Başlatma açık 0</string>
+      <string original="Trigger off 0">Başlatma kapalı 0</string>
+      <string original="Trigger on 1">Başlatma açık 1</string>
+      <string original="Trigger off 1">Başlatma kapalı 1</string>
+      <string original="Trigger on 2">Başlatma açık 2</string>
+      <string original="Trigger off 2">Başlatma kapalı 2</string>
+      <string original="Trigger on 3">Başlatma açık 3</string>
+      <string original="Trigger off 3">Başlatma kapalı 3</string>
+      <string original="Trigger on 4">Başlatma açık 4</string>
+      <string original="Trigger off 4">Başlatma kapalı 4</string>
+      <string original="Trigger on 5">Başlatma açık 5</string>
+      <string original="Trigger off 5">Başlatma kapalı 5</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>光學碼表</title>
+      <category>計時器</category>
+      <description>
+        根據手機接受到的光以測量時間。
+
+	在本次實驗中，你可以將感光器移至光源處以量取亮與暗之間的時間。舉例來說，你可以量測會擋住光的兩個事件間的時間。
+
+	注意，本實驗的精確度與手機裡的感光器密切相關。對於較慢的感測器誤差可能到一秒鐘，然而對於較快的感測器可能也有十分之一秒以上的誤差，因此若要進行較快的實驗，可以透過聲學碼表來量測。
+    </description>
+      <string original="Settings">設定</string>
+      <string original="Trigger below">觸發下界</string>
+      <string original="lx">勒克斯</string>
+      <string original="Trigger above">觸發上界</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">此計時器在低於或高於觸發門檻時啟動。如果你只想要利用亮光觸發，將「觸發下界」調至零。如果你想要利用黑暗來觸發，將「觸發上界」調得到非常高。你可以透過下圖來估計合適的觸發門檻。</string>
+      <string original="Illuminance">照度</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">本實驗的精確度與手機裡的感光器密切相關。對於較慢的感測器誤差可能到一秒鐘，然而對於較快的感測器可能也有十分之一秒以上的誤差，因此若要進行較快的實驗，可以透過聲學碼表來量測。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">時間 1</string>
+      <string original="s">秒</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Reset">重置</string>
+      <string original="Parallel">平行序列</string>
+      <string original="Duration">持續時間</string>
+      <string original="Trigger duration 0">觸發持續時間 0</string>
+      <string original="Trigger duration 1">觸發持續時間 1</string>
+      <string original="Trigger duration 2">觸發持續時間 2</string>
+      <string original="Trigger duration 3">觸發持續時間 3</string>
+      <string original="Trigger duration 4">觸發持續時間 4</string>
+      <string original="Trigger duration 5">觸發持續時間 5</string>
+      <string original="Triggers">觸發器</string>
+      <string original="Trigger on 0">開始觸發 0</string>
+      <string original="Trigger off 0">結束觸發 0</string>
+      <string original="Trigger on 1">開始觸發 1</string>
+      <string original="Trigger off 1">結束觸發 1</string>
+      <string original="Trigger on 2">開始觸發 2</string>
+      <string original="Trigger off 2">結束觸發 2</string>
+      <string original="Trigger on 3">開始觸發 3</string>
+      <string original="Trigger off 3">結束觸發 3</string>
+      <string original="Trigger on 4">開始觸發 4</string>
+      <string original="Trigger off 4">結束觸發 4</string>
+      <string original="Trigger on 5">開始觸發 5</string>
+      <string original="Trigger off 5">結束觸發 5</string>
     </translation>
   </translations>
   <input>

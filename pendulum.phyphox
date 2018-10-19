@@ -148,6 +148,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Gyroscoop x</string>
       <string original="Gyroscope y">Gyroscoop y</string>
       <string original="Gyroscope z">Gyroscoop z</string>
+      <string original="correlation">correlatie</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Маятник</title>
@@ -187,6 +189,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Hz">Гц</string>
       <string original="cm">см</string>
       <string original="m/s²">м/с²</string>
+      <string original="Rel. amplitude">Отн. амплитуда</string>
+      <string original="correlation">корреляция</string>
     </translation>
     <translation locale="it">
       <title>Pendolo</title>
@@ -218,6 +222,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Giroscopio x</string>
       <string original="Gyroscope y">Giroscopio y</string>
       <string original="Gyroscope z">Giroscopio z</string>
+      <string original="Rel. amplitude">Amp. relativa</string>
+      <string original="correlation">correlazione</string>
     </translation>
     <translation locale="el">
       <title>Εκκρεμές</title>
@@ -250,6 +256,133 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Γυροσκόπιο x</string>
       <string original="Gyroscope y">Γυροσκόπιο y</string>
       <string original="Gyroscope z">Γυροσκόπιο z</string>
+      <string original="Rel. amplitude">Σχετ. πλάτος</string>
+      <string original="correlation">συσχέτιση</string>
+    </translation>
+    <translation locale="ja">
+      <title>振り子</title>
+      <category>力学・運動</category>
+      <description>
+        スマートフォンを振り子として使うことによる重力加速度 (g=9.81m/s²) の特定．
+
+本実験では，振り子の動きを測定するためにジャイロスコープを用いその振動周期 Tを計算します．振り子に利用する糸の長さLを入力する必要があります． phyphoxはg = 4π²/T² Lを計算します．
+
+タブメニューの「長さ」では，加速度gを計算する代わりに，g = 9.81 m/s²と仮定し，振り子の動きから糸の長さを特定することができます．(実際はピボット点から物体の中心までの距離です．)
+
+「共振」タブメニューでは，振幅を周波数に対しプロットします。これにより，外部加振された物体の共振特性曲線を周波数に対して得ることができ，共振特性曲線を示すことができます。
+
+共振周波数の決定方法
+ジャイロスコープの総和波形の自己相関を計算し振動周期を計算することで振動周波数を決定します。自己相関の第一極大から周期を概算し，その整数倍付近の極大のうち，観測できた最終極大値を用いて振動周期を決定します。
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">周波数</string>
+      <string original="Length">長さ</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">ここで，お持ちの振り子の長さ(物体の中心からピボット点まで)を入力し重力加速度gを特定することができます．</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">ここでg = 9.81 m/s²を仮定することで(物体の中心からピボット点まで)振り子の長さを特定することができます．</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相対振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされる．駆動する発振器の共振周波数を測定するために使用可能である．振幅は0から1の範囲において規格化される．</string>
+      <string original="Autocorrelation">自己相関</string>
+      <string original="correlation">相関係数</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Gyroscope x">ジャイロスコープ x</string>
+      <string original="Gyroscope y">ジャイロスコープ y</string>
+      <string original="Gyroscope z">ジャイロスコープ　z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Pêndulo</title>
+      <category>Mecânica</category>
+      <description>
+        Determina a aceleração da gravidade (g=9.81m/s²) usando o seu aparelho como um pêndulo.
+
+        Este experimento usa o giroscópio para medir o movimento pendular e calcula o período de oscilação T. É necessário que seja dado o comprimento L do pêndulo para que o phyphox possa calcular g = 4π²/T² L.
+
+        Uma outra opção é usar a aba comprimento e assumir g= 9.81 m/s² para determinar o comprimento do fio do pêndulo através do mesmo processo. Na prática, o resultado é o comprimento do ponto pivô ao centro de massa.
+
+        Na aba de ressonância é dado o gráfico da amplitude contra a frequência detectada. Desta maneira, você pode construir um oscilador forçado e mudar a frequência para medir uma curva de ressonância.
+
+        Outros detalhes:
+        O período de oscilação é obtido usando a autocorrelação da soma dos 3 componentes do giroscópio. A autocorrelação é analisada usando o primeiro máximo para a primeira estimativa e o último máximo para um resultado mais preciso.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Período</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Length">Comprimento</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Aqui você deve colocar o comprimento do pêndulo (ponto pivô ao cetro de massa) para determinar a aceleração da gravidade g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Use este experimento para determinar o comprimento do seu pêndulo (ponto pivô ao centro de massa) supondo g = 9.81 m/s².</string>
+      <string original="Resonance">Ressonância</string>
+      <string original="Rel. amplitude">Amplitude Relat</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Nesta aba, a amplitude é plotada contra a frequência. Você pode utilizar isto para medir a ressonância de um oscilador forçado. A amplitude é normalizada entre 0 e 1.</string>
+      <string original="Autocorrelation">Autocorrelação</string>
+      <string original="correlation">correlação</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Gyroscope x">Giroscópio x</string>
+      <string original="Gyroscope y">Giroscópio y</string>
+      <string original="Gyroscope z">Giroscópio z</string>
+    </translation>
+    <translation locale="tr">
+      <title>Sarkaç</title>
+      <category>Mekanik</category>
+      <description>
+        …………Telefonunuzu sarkaç olarak kullanarak yerçekimi sabitini (g = 9.81m / s²) belirleyin.
+
+…………Bu deney, sarkaç hareketini ve salınım periyodunu (T) hesaplamak için jiroskopu kullanır. Kullanıcı sarkaç için kullanılan ipin L uzunluğunu girmelidir, böylece phyphox g = 4π² / T² L'yi hesaplayabilir.
+
+…………Alternatif olarak, g'yi ölçmek yerine, sekme uzunluğunu kullanabilir ve sarkaç hareketinden ipin uzunluğunu belirlemek için g = 9.81 m / s² olduğunu varsayabilirsiniz. (Aslında pivot noktasından kütle merkezine olan uzaklığı.)
+
+…………Ek olarak, rezonans sekmesi, tespit edilen frekansa göre genliği gösterir. Bu şekilde, etkin bir osilatör oluşturabilir ve rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+
+…………Daha fazla ayrıntı:
+…………Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin için ilk maksimum değeri analiz eder ve sonra daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+    </description>
+      <string original="Results">Sonuçlar</string>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Length">Uzunluk</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Burada, sarkacınızın uzunluğunu (pivot noktasından kütle merkezine) girebilir ve Dünya'nın ivmesini g olarak belirleyebilirsiniz.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Burada, sarkacınızın uzunluğunu yerçekimi ivmesini g = 9.81 m / s² olarak kabul ederek (pivot noktasından kütle merkezine) hesaplayabilirsiniz.</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation">bağıntı</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Gyroscope x">Jiroskop x</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+      <string original="Gyroscope z">Jiroskop z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>擺</title>
+      <category>力學</category>
+      <description>
+        透過將你的手機當成複擺以決定重力常數 (g=9.81m/s²)。
+
+	本實驗利用陀螺儀測量擺的移動狀態並計算擺動週期 T 。使用者必須輸入擺長L，由此一來phyphox可以測量 g = 4π²/T² L。
+
+	或者你如果不想測量g的話，你可以利用吊衣鉤並假設 g = 9.81 m/s² 並利用複擺的週期測得繩子的長度（實際上此距離是垂釣點至質心的距離）。
+
+	除此之外，在共振分頁，它會繪製振幅對頻率的作圖。如此一來，你可以製造一個振動器並調整其頻率以測得共振曲線。
+
+	更多細節：
+	振動週期透過陀螺儀的三個分量的總和的自相關性得知。分析第一個峰值與第一個估計值得自相關的程度，並透過最後一個峰值的自相關得更精確的結果。
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">週期</string>
+      <string original="s">秒</string>
+      <string original="Frequency">頻率</string>
+      <string original="Hz">赫茲</string>
+      <string original="Length">擺長</string>
+      <string original="cm">公分</string>
+      <string original="m/s²">公尺/秒²</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">在此輸入擺長（懸點至質心）以測得地球的重力加速度 g。</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">在此假設 g = 9.81 m/s² ，即可求得擺長（懸點至質心）。</string>
+      <string original="Resonance">共振</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">這個分頁中顯示振幅對測得的頻率的作圖。你可以用此量測一個振盪器的共振頻率。振幅已歸一化成0至1。</string>
+      <string original="Autocorrelation">自相關</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Gyroscope x">x方向陀螺儀</string>
+      <string original="Gyroscope y">y方向陀螺儀</string>
+      <string original="Gyroscope z">z方向陀螺儀</string>
     </translation>
   </translations>
   <data-containers>

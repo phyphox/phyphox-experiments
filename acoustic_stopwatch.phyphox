@@ -162,6 +162,13 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time 3">Tijdstip 3</string>
       <string original="Time 4">Tijdstip 4</string>
       <string original="Time 5">Tijdstip 5</string>
+      <string original="Many">Vele</string>
+      <string original="Events">Gebeurtenissen</string>
+      <string original="Event number">Nummer gebeurtenis</string>
+      <string original="Time interval">Tijdsinterval</string>
+      <string original="Average interval">Gemiddeld interval</string>
+      <string original="Average rate">Gemiddelde snelheid</string>
+      <string original="Average rate (bpm)">Gemiddelde frequentie (bpm: per minuut)</string>
     </translation>
     <translation locale="ru">
       <title>Акустический секундомер</title>
@@ -190,6 +197,14 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="a.u.">пр. е.</string>
       <string original="s">с</string>
       <string original="Hz">Гц</string>
+      <string original="Many">Многие</string>
+      <string original="Events">События</string>
+      <string original="Event number">Номер события</string>
+      <string original="Time interval">Временной интервал</string>
+      <string original="Average interval">Средний интервал</string>
+      <string original="Average rate">Средняя частота</string>
+      <string original="Average rate (bpm)">Средняя частота (bpm)</string>
+      <string original="1/min">1/мин</string>
     </translation>
     <translation locale="it">
       <title>Cronometro acustico</title>
@@ -212,6 +227,13 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Time 4">Tempo 4</string>
       <string original="Time 5">Tempo 5</string>
       <string original="Parallel">Parallelo</string>
+      <string original="Many">Molti</string>
+      <string original="Events">Eventi</string>
+      <string original="Event number">Numero evento</string>
+      <string original="Time interval">Intervallo di tempo</string>
+      <string original="Average interval">Intervallo medio</string>
+      <string original="Average rate">Frequenza media</string>
+      <string original="Average rate (bpm)">Frequenza media (ev/m)</string>
     </translation>
     <translation locale="el">
       <title>Ακουστικό χρονόμετρο</title>
@@ -236,6 +258,135 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Time 4">Χρόνος 4</string>
       <string original="Time 5">Χρόνος 5</string>
       <string original="Parallel">Παράλληλο</string>
+      <string original="Many">Πολλά</string>
+      <string original="Events">Γεγονότα</string>
+      <string original="Event number">Αριθμός γεγονότος</string>
+      <string original="Time interval">Χρονικό διάστημα</string>
+      <string original="Average interval">Μέσο διάστημα</string>
+      <string original="Average rate">Μέσος ρυθμός</string>
+      <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+    </translation>
+    <translation locale="ja">
+      <title>音響ストップウォッチ</title>
+      <category>タイマー</category>
+      <description>
+        二つの音響イベントの時間差計測.
+
+二つの大きな音響イベントの時間間隔の測定が可能なストップウォッチ．音響イベントはクリック，ビープ音，クラップなどを用いることが可能であるが、環境音より十分に大きい音響イベントであることが必要．ストップウォッチが動作する音響レベルを設定可能である．(0から1までの範囲において)
+    </description>
+      <string original="Simple">シンプル</string>
+      <string original="Threshold">閾値</string>
+      <string original="Minimum Delay">最小タイマー停止時間</string>
+      <string original="Time">時間</string>
+      <string original="Reset">リセット</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">環境ノイズレベル以上となるように閾値を変更 (オーディオスコープにより確認可能).また最小遅延時間は，設定値よりも短い信号を無視する設定 (ex.反響音や残響音による期待しないタイマー動作を防止する)．</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">残念ながら，このアプリケーションは動作速度が遅いスマートフォンでは動作をしません．予測通り実験が動作するかを確認するために，はじめに通常のストップウォッチの計測結果と比較してください．</string>
+      <string original="Sequence">連続</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Parallel">パラレル</string>
+      <string original="Many">履歴</string>
+      <string original="Events">イベント</string>
+      <string original="Event number">イベント番号</string>
+      <string original="Time interval">時間間隔</string>
+      <string original="Average interval">平均時間間隔</string>
+      <string original="Average rate">平均周波数</string>
+      <string original="Average rate (bpm)">平均ビートレート (bpm)</string>
+    </translation>
+    <translation locale="pt">
+      <title>Cronômetro Acústico</title>
+      <category>Temporizadores</category>
+      <description>
+        Tomada de tempo entre dois eventos acústicos.
+
+        Estes experimento permite a medida de tempo entre dois sinais sonoros altos. O sinal pode ser batidas, palmas, bips, etc., desde que eles sejam mais altos que o som ambiente. É possível ajustar o limiar, selecionando o nível sonoro em que o cronômetro é disparado (entre 0 a 1).
+
+        Depois de começar o experimento, o cronômetro dispara no primeiro barulho que exceder o limite e irá parar no segundo ruído. Para repetir o experimento, limpe os dados e comece novamente. O primeiro sinal deve ser curto pois um som longo poderá ser interpretado como o sinal para parar.
+    </description>
+      <string original="Simple">Simples</string>
+      <string original="Threshold">Limiar</string>
+      <string original="a.u.">u.a.</string>
+      <string original="Minimum Delay">Intervalo Mínimo</string>
+      <string original="Time">Tempo</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Mude o limiar para que fique acima do nível de ruído mas abaixo do barulho de disparo (você pode usar o experimento do osciloscópio de som para ver os valores). Também defina o atraso mínimo para evitar que o barulho do disparo seja menor que esse tempo (por exemplo devido a eco ou reverberação).</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Infelizmente, isto não irá funcionar em aparelhos lentos. Por favor, compara com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado.</string>
+      <string original="Sequence">Sequência</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Many">Muitos</string>
+      <string original="Events">Eventos</string>
+      <string original="Event number">Número do Evento</string>
+      <string original="Time interval">Intervalo de tempo</string>
+      <string original="Average interval">Intervalo médio</string>
+      <string original="Average rate">Taxa média</string>
+      <string original="Average rate (bpm)">Taxa média (bpm)</string>
+    </translation>
+    <translation locale="tr">
+      <title>Akustik Kronometre</title>
+      <category>Zamanlayıcılar</category>
+      <description>
+        İki akustik olay arasındaki zamanı ölçün.
+
+        Bu deney, iki yüksek sesli akustik sinyal arasındaki süreyi ölçmeyi sağlar. Bunlar, çevreden daha yüksek sesli olduğu sürece tıklamalar, bip sesleri, alkışlar vb. olabilir. Eşiği ayarlamak ve kronometrenin tetiklendiği seviyeyi (0'dan 1'e kadar) vermek isteyebilirsiniz.
+       Deneyi başlattıktan sonra, saat, eşiği aşan ilk gürültüden başlayacak ve ikinci gürültüde durdurulacaktır. Deneyi tekrarlamak için verileri temizleyin ve tekrar başlayın. İlk sesin kısa süreli olduğundan emin olun, çünkü uzun ses hemen bir durdurma olarak algılanabilir.
+    </description>
+      <string original="Simple">Basit</string>
+      <string original="Threshold">Eşik</string>
+      <string original="Minimum Delay">Minimum Gecikme</string>
+      <string original="Time">Zaman</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Eşiği çevre gürültü seviyesinin üzerinde, ancak tetikleme gürültüsünün altında olacak şekilde değiştirin (bunları kontrol etmek için ses kapsam deneyini yapabilirsiniz). Ayrıca, tetikleyicilerin o andan daha kısa sürmesini önlemek için (örneğin yankı veya yankılanma nedeniyle) minimum gecikmeyi ayarlayın.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Ne yazık ki, bu deney yavaş telefonlarda çalışmaz. Deneyin beklendiği gibi çalıştığından emin olmak için lütfen önce bir saatle karşılaştırın.</string>
+      <string original="Sequence">Sıralama</string>
+      <string original="Time 1">Zaman 1</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Parallel">Paralel</string>
+      <string original="Many">Birçok</string>
+      <string original="Events">Olaylar</string>
+      <string original="Event number">Olay numarası</string>
+      <string original="Time interval">Zaman aralığı</string>
+      <string original="Average interval">Ortalama aralığı</string>
+      <string original="Average rate">Ortalama oran</string>
+      <string original="Average rate (bpm)">Ortalama oranı (bpm)</string>
+      <string original="1/min">1/dakika</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲學碼表</title>
+      <category>計時器</category>
+      <description>
+        求得兩個聲學事件間的時間。
+
+	本實驗可以量測在兩個大的聲音訊號間的時間，這訊號可以是敲擊聲、嘟嘟聲或是拍手聲…等，只要他們比環境的聲音還要大。你可能會想要調整觸發門檻，以決定裝置觸發的時機。
+
+	在實驗開始後，時鐘會在第一個超過門檻的聲音出現後開始，並於第二個超過門檻的聲音結束。若您要再做一次實驗，可直接清除數據並重來。確保一開始的聲音必須夠短以免系統將過長的聲音訊號判斷成兩個聲音事件使計時器立即停止。
+    </description>
+      <string original="Simple">簡易</string>
+      <string original="Threshold">門檻</string>
+      <string original="Minimum Delay">最小延遲</string>
+      <string original="s">秒</string>
+      <string original="Time">時間</string>
+      <string original="Reset">重置</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">你可以調整門檻使之高於環境音量，但其必須小於處發聲音的音量（你可以利用聲學觀測器查看），並且調整最小延遲以防止重複觸發（如回音或反射的實驗）。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">不幸地是，這在較慢的手機上並不能使用。請先將之與標準時鐘比較，以確保該實驗能如期地運行。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Parallel">平行序列</string>
+      <string original="Hz">赫茲</string>
     </translation>
   </translations>
   <input>

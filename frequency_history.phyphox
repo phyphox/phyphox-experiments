@@ -64,6 +64,7 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Period">Periode</string>
       <string original="Period (s)">Periode (s)</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>История частоты</title>
@@ -107,6 +108,54 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
       <string original="Period">Περίοδος</string>
       <string original="Period (s)">Περίοδος (s)</string>
+    </translation>
+    <translation locale="ja">
+      <title>周波数履歴</title>
+      <category>音響</category>
+      <description>
+        単一音の周波数変化の測定．
+
+本実験はマイクから音響信号を録音し，短時間でその周波数を解析をします．本実験は，自己相関を用いる計測同様に，特定周波数音源を用いる場合のみ期待通りの動作します．短時間の周波数解析により，時間に対して周波数をプロットすることが可能になります．
+    </description>
+      <string original="History">履歴</string>
+      <string original="Frequency">周波数</string>
+      <string original="Period">周期</string>
+    </translation>
+    <translation locale="pt">
+      <title>Histórico de frequência</title>
+      <category>Acústica</category>
+      <description>
+        Medir a mudança de frequência no tempo para um tom.
+
+        Este experimento grava o audio do microfone e analisa sua frequência em vários períodos de tempo curtos. Isto funciona apenas para um tom com uma frequência fixa, pois utiliza a autocorrelação. O resultado é um gráfico da curva de frequência contra tempo.
+    </description>
+      <string original="History">História</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Period">Período</string>
+    </translation>
+    <translation locale="tr">
+      <title>Frekans geçmişi</title>
+      <category>Akustik</category>
+      <description>
+        Tek bir ton için zamanla frekans değişimini ölçün.
+
+        Bu deney mikrofondan sesi kaydeder ve kısa süreler boyunca frekans için analiz eder. Bu durum, otokorelasyon kullandığından yalnızca sabit frekansa sahip tek bir ton varsa çalışır. Sonuç zaman içinde bir frekans olarak çizilecek.
+    </description>
+      <string original="History">Geçmiş</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Period">Periyot</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>歷史頻率</title>
+      <category>聲學</category>
+      <description>
+        量測一個單音調隨時間得頻率變化。
+
+	本實驗透過麥克風錄製聲音，並分析之而求得短時間內的週期。由於這需要自相關的運作，這只有在單頻的單音調下才能使用。結果會繪製成頻率對時間的作圖。
+    </description>
+      <string original="History">歷史紀錄</string>
+      <string original="Frequency">頻率</string>
+      <string original="Period">週期</string>
     </translation>
   </translations>
   <data-containers>

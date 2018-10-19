@@ -54,6 +54,7 @@
       <string original="Absolute acceleration">Absolute versnelling</string>
       <string original="Simple">Eenvoudig</string>
       <string original="Acceleration">Versnelling</string>
+      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение с g</title>
@@ -70,6 +71,7 @@
       <string original="Simple">Значение</string>
       <string original="m/s²">м/с²</string>
       <string original="Acceleration">Ускорение</string>
+      <string original="Multi">Много</string>
     </translation>
     <translation locale="it">
       <title>Accelerazione (g inclusa)</title>
@@ -96,6 +98,62 @@
       <string original="Absolute acceleration">Μέτρο της επιτάχυνσης</string>
       <string original="Simple">Απλό</string>
       <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Multi">Πολλαπλό</string>
+    </translation>
+    <translation locale="ja">
+      <title>重力加速度gを考慮した加速度</title>
+      <category>センサー出力</category>
+      <description>加速度センサーによる時系列データの取得．このセンサーで得られる値は重力を差し引いていないため，スマートフォンが静止状態でも9.81 m/s²の加速度が得られる。</description>
+      <string original="Graph">グラフ</string>
+      <string original="Accelerometer x">加速度計 x</string>
+      <string original="Accelerometer y">加速度計 y</string>
+      <string original="Accelerometer z">加速度計 z</string>
+      <string original="Absolute">絶対値</string>
+      <string original="Absolute acceleration">加速度の絶対値</string>
+      <string original="Multi">全方向</string>
+      <string original="Acceleration">加速</string>
+      <string original="Simple">シンプル</string>
+    </translation>
+    <translation locale="pt">
+      <title>Aceleração com g</title>
+      <category>Sensores</category>
+      <description>Usa os dados diretos do acelerômetro. Este sensor não irá remover a força gravitacional, logo ele irá mostrar uma aceleração de 9.8 m/s² mesmo quando o aparelho estiver em repouso.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Accelerometer x">Acelerômetro x</string>
+      <string original="Accelerometer y">Acelerômetro y</string>
+      <string original="Accelerometer z">Acelerômetro z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleração absoluta</string>
+      <string original="Acceleration">Aceleração</string>
+      <string original="Simple">Simples</string>
+    </translation>
+    <translation locale="tr">
+      <title>Yer çekimi (g) ile hızlanma</title>
+      <category>Ham sensörler</category>
+      <description>İvme ölçerden ham veri alın. Bu sensör yerçekimi kuvvetini çıkarmadan hesap yapar, bu yüzden telefon masada dururken bile 9.81 m / s²'lik bir ivme rapor edecektir.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Accelerometer x">İvmeölçer X</string>
+      <string original="Accelerometer y">İvmeölçer Y</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Absolute acceleration">Mutlak ivme</string>
+      <string original="Multi">Çoklu</string>
+      <string original="Acceleration">İvmelenme</string>
+      <string original="Simple">Basit</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>含重力之加速度</title>
+      <category>原始感測器</category>
+      <description>原始數據由加速儀獲得。這個感測器不會扣除重力，因此就算將手機靜置，它依舊會顯示加速度為 9.81 m/s²。</description>
+      <string original="Graph">圖表</string>
+      <string original="Accelerometer x">x方向加速儀</string>
+      <string original="Accelerometer y">y方向加速儀</string>
+      <string original="Accelerometer z">z方向加速儀</string>
+      <string original="Absolute">絕對值</string>
+      <string original="Absolute acceleration">加速度絕對值</string>
+      <string original="m/s²">公尺/秒²</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Simple">簡易</string>
     </translation>
   </translations>
   <data-containers>
