@@ -267,6 +267,22 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">y方向加速儀</string>
       <string original="Accelerometer z">z方向加速儀</string>
     </translation>
+    <translation locale="tr">
+      <title>Yay</title>
+      <category>Mekanik</category>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Bağıl genlik (a.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation (a.u.)">kolerasyon (a.u.)</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Accelerometer x">İvmeölçer X</string>
+      <string original="Accelerometer y">İvmeölçer Y</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

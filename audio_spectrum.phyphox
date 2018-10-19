@@ -338,6 +338,31 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="t (s)">時間 (s)</string>
       <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
     </translation>
+    <translation locale="tr">
+      <title>Ses Spektrumu</title>
+      <category>Akustik</category>
+      <description>
+            Bir ses sinyalinin frekans spektrumunu görüntüler.
+
+Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Tek frekanslı tek bir tonunuz varsa, "otokorelasyon" ses denemesinden daha kesin sonuçlar alabilirsiniz.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Musical note">Müzik notası</string>
+      <string original="Low">Düşük</string>
+      <string original="High">Yüksek</string>
+      <string original="Cents from note">Notadan sent</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Recording">Kayıt</string>
+      <string original="Amplitude (a.u.)">Genlik (a.u.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

@@ -129,6 +129,18 @@
       <string original="m/s²">公尺/秒²</string>
       <string original="Simple">簡易</string>
     </translation>
+    <translation locale="tr">
+      <title>Yer çekimi (g) ile hızlanma</title>
+      <category>Ham sensörler</category>
+      <description>İvme ölçerden ham veri alın. Bu sensör yerçekimi kuvvetini çıkarmadan hesap yapar, bu yüzden telefon masada dururken bile 9.81 m / s²'lik bir ivme rapor edecektir.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Accelerometer x">İvmeölçer X</string>
+      <string original="Accelerometer y">İvmeölçer Y</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Absolute acceleration">Mutlak ivme</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

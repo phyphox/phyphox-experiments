@@ -201,6 +201,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Angular velocity">角速度</string>
       <string original="ω (rad/s)">角速度 (rad/s)</string>
     </translation>
+    <translation locale="tr"/>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

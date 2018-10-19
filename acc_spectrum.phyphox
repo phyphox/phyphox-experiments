@@ -263,6 +263,20 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">y方向加速度</string>
       <string original="Acceleration z">z方向加速度</string>
     </translation>
+    <translation locale="tr">
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="Acquisition rate">Edinme oranı</string>
+      <string original="Nyquist frequency">Nist frekansı</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accInX</container>

@@ -150,6 +150,10 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Gyroscope y">y方向陀螺儀</string>
       <string original="ω (rad/s)">角速度 (rad/s)</string>
     </translation>
+    <translation locale="tr">
+      <string original="Raw Data">Ham veri</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

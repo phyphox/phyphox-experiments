@@ -216,6 +216,13 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">過濾及平方後的總磁場</string>
       <string original="Filtered B² (µT²)">過濾後的 磁場² (µT²)</string>
     </translation>
+    <translation locale="tr">
+      <string original="Distance">Mesafe</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Magnetic field x">Manyetik alan x</string>
+      <string original="Magnetic field y">Manyetik alan y</string>
+      <string original="Magnetic field z">Manyetik alan z</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

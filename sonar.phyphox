@@ -182,7 +182,7 @@ Voer dit experiment best uit in een rustige omgeving.
 
         Σημειώστε ότι η ήχος διαδίδεται σε κάθε κατεύθυνση. Αυτό σημαίνει ότι όταν σημαδεύετε ένα τοίχο, δέχεστε ανακλάσεις από το πάτωμα, το ταβάνι από κάθε άλλο κοντινό τοίχο, από ένα εμπόδιο και γενικά κάθε κατάλληλη "σκληρή" επφάνεια τριγύρω. Συνεπώς το σόναρ σας δείχνει όλες τις ανακλάσεις και εναπόκειται σε εσάς να ερμηνεύσετε το αποτέλεσμα και να βρείτε ποια ανάκλαση αντιστοιχεί στο στόχο που επιθυμούσατε να μετρήσετε. Οπότε ξεκινήστε με ένα μικρό σκληρό στόχο και προσπαθήστε να ελαττώσετε τις υπόλοιπες ανακλάσεις με κάποιο αφρώδες υλικό. Απαιτείται επίσης ήσυχο περιβάλλον.
     </description>
-      <string original="Echo location">Θέση της Ηχούς</string>
+      <string original="Echo location">Θέση της ηχούς</string>
       <string original="Speed of Sound">Ταχύτητα Ήχου</string>
       <string original="distance (cm)">απόσταση (cm)</string>
       <string original="A (a.u.)">Πλάτος Α</string>
@@ -275,6 +275,33 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay (s)">延遲 (s)</string>
       <string original="Chirp">波包</string>
       <string original="Time (s)">時間 (s)</string>
+    </translation>
+    <translation locale="tr">
+      <title>Sonar</title>
+      <category>Akustik</category>
+      <description>
+        …
+…………Ekoları ve ses hızını kullanarak mesafeleri ölçer.
+
+…………Sonar, ölçmek istediğiniz nesneden yansıyan kısa ses patlamaları gönderir. Sesin yaklaşık 340 m/s hızda ilerlediği bilindiğine göre, yansımanın telefonun mikrofonuna ulaşması için geçen süre bu nesnenin uzaklığını hesaplamak için kullanılabilir.
+
+…………Bu deney hoparlörden bir "bip" sesi gönderir ve kayda başlar. Bip sesi ve kaydedilen veriler arasındaki çapraz korelasyon, yankının meydana geldiği zamanlama hakkında bilgi verir. Bu zamanlama daha sonra sesin hızı ile çarpılabilir (ses ileri ve geri gitmek zorunda olduğu için zamanlama 2'ye bölünür) ve yankının kaynaklandığı mesafe hesaplanmış olur.
+
+…………Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı hedeflerken, yerden, tavandan, yakındaki başka bir duvardan, bir direkten veya etrafta bulunan uygun her "sert" yüzeyden yansımaları aldığınız anlamına gelir. Bu nedenle bu sonar size tüm yansımaları verir. Sonucu yorumlamak ve sonuca ulaşmak için hangi yansımanın ölçmek istediğiniz hedefe karşılık geldiğini çözmek size bağlıdır. Bu yüzden küçük sert bir hedefle başlayın ve diğer bazı köpük malzemelerle farklı yönleri taramaya çalışın. Ayrıca, deney sessiz bir ortama ihtiyaç duyuyor.
+………
+    </description>
+      <string original="Echo location">Eko konumu</string>
+      <string original="Speed of Sound">Ses hızı</string>
+      <string original="distance (cm)">mesafe (cm)</string>
+      <string original="Normalized to spherical surface">Küresel yüzeye göre normalize</string>
+      <string original="Target distance">Hedef uzaklık</string>
+      <string original="Echo strength">Eko gücü</string>
+      <string original="Speed of Sound (m/s)">Ses hızı (m/s)</string>
+      <string original="Timing">Zamanlama</string>
+      <string original="On this page you just get the measured delay.">Bu sayfada sadece gecikme ölçümünü görüntüleyebilirsiniz.</string>
+      <string original="Delay (s)">Gecikme (s)</string>
+      <string original="Chirp">Bip</string>
+      <string original="Time (s)">Zaman (s)</string>
     </translation>
   </translations>
   <data-containers>

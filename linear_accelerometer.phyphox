@@ -162,6 +162,12 @@
       <string original="Acceleration y">y方向加速度</string>
       <string original="Acceleration z">z方向加速度</string>
     </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Absolute acceleration">Mutlak ivme</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

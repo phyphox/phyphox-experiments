@@ -128,6 +128,11 @@
       <string original="Simple">簡易</string>
       <string original="lx">勒克斯</string>
     </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Illuminance">Aydınlık</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

@@ -152,6 +152,20 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="°">度</string>
       <string original="Rotation">旋轉角度</string>
     </translation>
+    <translation locale="tr">
+      <title>Eğim</title>
+      <category>Araçlar</category>
+      <description>
+        Telefonun eğim açısını ölçün.
+
+Bu araç, telefonun eğimini belirlemek için ivmeölçer kullanır. Telefon bir masada dururken, eğim sıfırdır. Sıfır olmayan eğim için, eğim yönü dönüş olarak verilir.
+
+Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z ekseni ile ilgili) eğimin ölçülmesi (özellikle eğik düzlem deneyleri) görevi için seçildiğini unutmayın.
+    </description>
+      <string original="Inclination">Eğim</string>
+      <string original="Angle (°)">Açı (°)</string>
+      <string original="Rotation">Dönme</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

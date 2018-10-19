@@ -224,6 +224,10 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Speed">速度</string>
       <string original="Speed (m/s)">速度 (m/s)</string>
     </translation>
+    <translation locale="tr">
+      <string original="Frequency">Frekans</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

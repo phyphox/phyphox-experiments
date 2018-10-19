@@ -164,6 +164,22 @@
       <string original="Frequency high">高頻</string>
       <string original="OK">良好</string>
     </translation>
+    <translation locale="tr">
+      <title>Ton üreteci</title>
+      <category>Akustik</category>
+      <description>
+        Belirli bir frekansın tonunu üretir.
+    </description>
+      <string original="Tone generator">Ton üreteci</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Signal">Sinyal</string>
+      <string original="Time (s)">Zaman (s)</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox, isteğe bağlı frekanslar ayarlamaya izin vermesine rağmen, donanım kısıtlamaları nedeniyle 100Hz'in altında veya 8000Hz'nin üzerinde kötü sonuçlar deneyimleyebilirsiniz.</string>
+      <string original="Status">Durum</string>
+      <string original="Frequency low">Frekans düşük</string>
+      <string original="Frequency high">Frekans yüksek</string>
+      <string original="OK">İYİ</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

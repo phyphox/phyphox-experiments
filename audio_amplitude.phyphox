@@ -331,6 +331,40 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="Why can't we get a better calibration?">為什麼我們不能有更好的校正？</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">我們希望的是有一個簡單的程序可以讓學生在各個裝置下得到資料。對於完美的裝置，你可以校正頻率對於麥克風的依賴程度甚至是補償非線性的結果。如果你有這類的裝置，請讓我們知道，我們已經努力使用進階的校正方法來校正phyphox的實驗數據了。</string>
     </translation>
+    <translation locale="tr">
+      <title>Sesin Genliği</title>
+      <category>Akustik</category>
+      <description>
+        Sesin genliğini alın.
+
+Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SBS) hesaplar. Bu hesaplamanın çok toy bir yaklaşım olduğunu ve net sonuçlar elde edilemeyebileceğini unutmayın. Ayrıca, ölçümü kalibre etmek için bir referans noktası vermeniz gerekecek.
+    </description>
+      <string original="Amplitude">Genlik</string>
+      <string original="Status">Durum</string>
+      <string original="NOT calibrated">Kalibre edilmemiş</string>
+      <string original="calibrated">Kalibre edilmiş</string>
+      <string original="Sound pressure level">Ses basınç seviyesi</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time (s)">Zaman (s)</string>
+      <string original="SPL (dB)">SBS (dB)</string>
+      <string original="Clear history">Geçmişi temizle</string>
+      <string original="Please see the calibration tab to get proper results.">Daha net sonuçlar almak için kalibrasyon sekmesine bakınız.</string>
+      <string original="Calibration">Kalibrasyon</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Bu deney, ses basınç seviyesini (SBS) belirlemek için oldukça saf bir yaklaşım kullanır. dB cinsinden bilinen genliğe sahip bir referans sese ihtiyacınız olacak. Örneğin, sabit bir ses kaynağı kurabilir ve harici bir cihazla ses basınç seviyesini ölçebilirsiniz. Ölçülen seviyeyi referans SBS olarak girin ve deney çalışırken 'kalibre' düğmesine basın.</string>
+      <string original="Reference SPL">SBS referansı</string>
+      <string original="Calibrate">Kalibre et</string>
+      <string original="Calibration offset">Kalibrasyon dengesi</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Bunu daha önce farklı bir cihazda veya aynı cihazı kullanarak yaptıysanız, kalibrasyon dengesini doğrudan önceki kalibrasyonunuzdan girebilir ve 'DENGE' tuşuna basabilirsiniz.</string>
+      <string original="Custom offset">Özel denge</string>
+      <string original="Set offset">Dengeyi ayarla</string>
+      <string original="FAQ">SSS</string>
+      <string original="How accurate are these results?">Bu sonuçlar ne kadar doğru?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Öğretmek veya keşfetmek için mi? Muhtemelen yeteri kadar doğru. Ciddi çalışmalar için mi? Muhtemelen hayır, ancak diğer uygulamalar daha iyi performans gösterebilir (aşağıya bakınız). Bilimsel veya sağlıkla ilgili uygulamalar için? Kesinlikle değil, bunun için özel bir cihaz edinin.</string>
+      <string original="Why isn't this already calibrated?">Neden halihazırda kalibre edilmiş değil?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Phyphox 10000'den fazla cihazda kullanılabilir durumda. Bunların çoğu farklı mikrofonlara, farklı elektroniklere ve farklı yazılımlara sahip - bu durum cihazların seslere olan tepkisini etkilemekte. Hepsini kalibre edemeyiz, ancak bazı durumlarda, yalnızca birkaç cihazı kalibre etmeyi (iPhone'lara özgü uygulamalar gibi) hedefleyen uygulamalar vardır. Kalibrasyon olmaksızın daha iyi sonuçlar almak istiyorsanız, cihazınız için belirli uygulamaları incelemelisiniz.</string>
+      <string original="Why can't we get a better calibration?">Neden daha iyi bir kalibrasyon yapamıyoruz?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Öğrencilerin farklı cihazlarda da karşılaştırılabilir veriler almasını sağlamak için basit bir yöntem istedik. Uygun ekipman kullanarak mikrofonunuzun frekans bağımlılığını ayarlayabilirsiniz ve hatta doğrusal olmayan yanıtları dahi telafi edebilirsiniz. Eğer böyle bir ekipmanınız varsa ve denemek istiyorsanız, lütfen bize bildirin daha gelişmiş kalibrasyon tekniklerine izin veren phyphox deneylerimizde mevcut durumda.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

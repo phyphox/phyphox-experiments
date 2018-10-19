@@ -260,6 +260,14 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Help">幫助</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">磁力計因為手機裡的電子，它永遠接觸到手機內部所產生的磁場，這會造成不正確的數據。因此phyphox試著透過系統得到校正後的磁場。在某些情況下，如果手機沒有校正好（例如手機剛開機），你可能無法得到任何數據，這時候你可以在進行實驗時旋轉你的手機多次，這會幫助系統校正感測器。當然，在很多裝置中（不是全部）你可以在主選單中切換至未校正的磁力計。</string>
     </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Low">Düşük</string>
+      <string original="High">Yüksek</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">mag_time</container>

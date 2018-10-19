@@ -384,6 +384,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">Limiar</string>
       <string original="Minimum Delay">Intervalo Mínimo</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Infelizmente, isto não funcionará em aparelhos lentos. Por favor, compare o experimento do cronômetro acústico com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado. Se funcionar, este experimento aqui deverá funcionar também.</string>
+      <string original="a.u.">u.a.</string>
     </translation>
     <translation locale="zh_Hant">
       <title>（非）彈性碰撞</title>
@@ -428,6 +429,15 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">門檻</string>
       <string original="Minimum Delay">最小延遲</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地，這在慢的手機中不能使用。請將聲學碼表與正常的時鐘比較已確保此實驗能如期地運作。如果在聲學碼表中可以使用，則此實驗亦能使用。</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Time 1">Zaman 1</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
   </translations>
   <data-containers>

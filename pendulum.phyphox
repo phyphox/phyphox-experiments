@@ -351,6 +351,37 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope y">y方向陀螺儀</string>
       <string original="Gyroscope z">z方向陀螺儀</string>
     </translation>
+    <translation locale="tr">
+      <title>Sarkaç</title>
+      <category>Mekanik</category>
+      <description>
+        …………Telefonunuzu sarkaç olarak kullanarak yerçekimi sabitini (g = 9.81m / s²) belirleyin.
+
+…………Bu deney, sarkaç hareketini ve salınım periyodunu (T) hesaplamak için jiroskopu kullanır. Kullanıcı sarkaç için kullanılan ipin L uzunluğunu girmelidir, böylece phyphox g = 4π² / T² L'yi hesaplayabilir.
+
+…………Alternatif olarak, g'yi ölçmek yerine, sekme uzunluğunu kullanabilir ve sarkaç hareketinden ipin uzunluğunu belirlemek için g = 9.81 m / s² olduğunu varsayabilirsiniz. (Aslında pivot noktasından kütle merkezine olan uzaklığı.)
+
+…………Ek olarak, rezonans sekmesi, tespit edilen frekansa göre genliği gösterir. Bu şekilde, etkin bir osilatör oluşturabilir ve rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+
+…………Daha fazla ayrıntı:
+…………Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin için ilk maksimum değeri analiz eder ve sonra daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+    </description>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Length">Uzunluk</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Burada, sarkacınızın uzunluğunu (pivot noktasından kütle merkezine) girebilir ve Dünya'nın ivmesini g olarak belirleyebilirsiniz.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Burada, sarkacınızın uzunluğunu yerçekimi ivmesini g = 9.81 m / s² olarak kabul ederek (pivot noktasından kütle merkezine) hesaplayabilirsiniz.</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <string original="Rel. amplitude (a.u.)">Bağıl genlik (a.u.)</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation (a.u.)">kolerasyon (a.u.)</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Gyroscope x">Jiroskop x</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+      <string original="Gyroscope z">Jiroskop z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

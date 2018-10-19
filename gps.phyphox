@@ -353,6 +353,12 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些裝置並沒有GPS感測器，但藉由電信業者或WIFI連結依然提供位置資訊。這些來源提供低精度的數據。</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">確保你的手機定位裝置不在「省電模式」因為這往往會關掉GPS，然而導航程式可能依然透過網路得到較模糊的位置資訊而得以使用。</string>
     </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Status">Durum</string>
+      <string original="Distance">Mesafe</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

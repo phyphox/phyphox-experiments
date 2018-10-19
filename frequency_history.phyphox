@@ -151,6 +151,12 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Period">週期</string>
       <string original="Period (s)">週期 (s)</string>
     </translation>
+    <translation locale="tr">
+      <string original="History">Geçmiş</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Frequency (Hz)">Frekans (Hz)</string>
+      <string original="Period">Periyot</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

@@ -90,6 +90,11 @@
       <string original="Simple">簡易</string>
       <string original="hPa">百帕</string>
     </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Pressure">Basınç</string>
+      <string original="Simple">Basit</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

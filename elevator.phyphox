@@ -209,6 +209,26 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="p (hPa)">壓力 (hPa)</string>
       <string original="Accelerometer z">z方向加速儀</string>
     </translation>
+    <translation locale="tr">
+      <title>Asansör</title>
+      <category>Gündelik yaşam</category>
+      <description>
+        …………Barometreyi kullanarak asansörün hızını belirleyin.
+
+…………Kısa bir süre içindeki yükseklik değişiklikleri GPS'in çalışmadığı durumlarda bile barometre kullanılarak çok hassas bir şekilde ölçülebilir. Bu, bir asansörün dikey hızını türetmek için kullanılabilir. İvmelenme şimdiye kadar doğru ölçümler yapan z-bileşenli ivmeölçer kullanılarak ölçülür, telefonun asansörün zemininde düz durması gerekir.
+
+…………Daha fazla detay:
+…………Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan okumaların ortalaması 1 saniyeden fazladır. Ardışık ortalamaların farkı, uluslararası barometrik yükseklik formülü kullanılarak bir yükseklik farkına dönüştürülür. Zaman farkı ile bölünen yükseklik farkı, dikey hızı verir.
+………
+    </description>
+      <string original="Motion">Hareket</string>
+      <string original="Height (from barometer)">Yükseklik (barometreden)</string>
+      <string original="Vertical velocity (from height)">Düşey hız (yükseklikten)</string>
+      <string original="z acceleration (from accelerometer)">z ivmesi (ivmeölçerden)</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Pressure">Basınç</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -297,6 +297,17 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time 5">時間 5</string>
       <string original="Parallel">平行序列</string>
     </translation>
+    <translation locale="tr">
+      <string original="Simple">Basit</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Sequence">Sıralama</string>
+      <string original="Time 1">Zaman 1</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Parallel">Paralel</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

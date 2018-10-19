@@ -148,6 +148,19 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Duration">持續時間</string>
       <string original="ms">毫秒</string>
     </translation>
+    <translation locale="tr">
+      <title>Ses kapsamı</title>
+      <category>Akustik</category>
+      <description>
+        Kaydedilen ses verilerini göster.
+Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir görüntü elde etmek için, bir başlangıç olarak sıfır geçişi kullanılır ve t = 0, ilk (pozitif) geçişe kaydırılır.
+    </description>
+      <string original="Scope">Kapsam</string>
+      <string original="Audio Data">Ses Verileri</string>
+      <string original="Time (ms)">Zaman (ms)</string>
+      <string original="Amplitude (a.u.)">Genlik (a.u.)</string>
+      <string original="Duration">Süre</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

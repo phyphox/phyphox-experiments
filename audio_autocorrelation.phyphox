@@ -313,6 +313,19 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="t (ms)">時間 (ms)</string>
       <string original="Amplitude (a.u.)">振幅 (a.u.)</string>
     </translation>
+    <translation locale="tr">
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Musical note">Müzik notası</string>
+      <string original="Low">Düşük</string>
+      <string original="High">Yüksek</string>
+      <string original="Cents from note">Notadan sent</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation (a.u.)">kolerasyon (a.u.)</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Recording">Kayıt</string>
+      <string original="Amplitude (a.u.)">Genlik (a.u.)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

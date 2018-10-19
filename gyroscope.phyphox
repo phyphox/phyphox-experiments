@@ -98,7 +98,7 @@
       <string original="Simple">シンプル</string>
     </translation>
     <translation locale="pt">
-      <title>Giroscópio (taxa de rotação)</title>
+      <title>Giroscópio</title>
       <category>Sensores</category>
       <description>Obtenha os dados puros do giroscópio.</description>
       <string original="Graph">Gráfico</string>
@@ -121,6 +121,14 @@
       <string original="Absolute">絕對值</string>
       <string original="rad/s">弧度/秒</string>
       <string original="Simple">簡易</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Gyroscope x">Jiroskop x</string>
+      <string original="Gyroscope y">Jiroskop y</string>
+      <string original="Gyroscope z">Jiroskop z</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Simple">Basit</string>
     </translation>
   </translations>
   <data-containers>
