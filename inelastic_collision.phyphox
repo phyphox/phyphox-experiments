@@ -475,7 +475,8 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
   <data-containers>
     <container>threshold</container>
     <container>mindelay</container>
-    <container size="16384">recording</container>
+    <container size="16384" init="0">recording</container>
+    <container>rate</container>
     <container>i</container>
     <container>i2</container>
     <container>t</container>
@@ -531,6 +532,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
   <input>
     <audio rate="48000">
       <output>recording</output>
+      <output component="rate">rate</output>
     </audio>
   </input>
   <views>
@@ -697,7 +699,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </add>
     <divide>
       <input>i2</input>
-      <input type="value">48000</input>
+      <input clear="false">rate</input>
       <output>t</output>
     </divide>
     <if less="true" equal="true">
@@ -817,7 +819,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </add>
     <divide>
       <input clear="false">index</input>
-      <input type="value">48000</input>
+      <input creal="false">rate</input>
       <output>tmax</output>
     </divide>
     <if less="true" equal="true">
