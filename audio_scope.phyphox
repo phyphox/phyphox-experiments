@@ -206,7 +206,7 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       </edit>
     </view>
   </views>
-  <analysis sleep="0.1" dynamicSleep="sleep">
+  <analysis sleep="0.1" dynamicSleep="effective_sleep">
     <add>
       <input clear="false">length</input>
       <input type="value">50</input>
