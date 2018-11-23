@@ -12,7 +12,7 @@
         <container size="1">tmax</container>
     </data-containers>
     <input>
-        <bluetooth name="CC2650 SensorTag" mode="notification">
+        <bluetooth name="SensorTag" mode="notification">
             <config char="F000AA44-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
             <config char="F000AA42-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
             <output char="F000AA41-0451-4000-B000-000000000000" conversion="uInt24LittleEndian" offset="3" length="3">pRaw</output>
@@ -21,7 +21,7 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
+            <graph label="Pressure" labelX="t" unitX="s" labelY="p" unitY="hPa" yPrecision="6" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">pCal</input>
             </graph>

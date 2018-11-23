@@ -12,7 +12,7 @@
         <container size="1">tmax</container>
     </data-containers>
     <input>
-        <bluetooth name="CC2650 SensorTag" mode="notification">
+        <bluetooth name="SensorTag" mode="notification">
             <config char="F000AA23-0451-4000-B000-000000000000" conversion="hexadecimal">0A</config>
             <config char="F000AA22-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
             <output char="F000AA21-0451-4000-B000-000000000000" conversion="uInt16LittleEndian" offset="2" length="2">humRaw</output>
