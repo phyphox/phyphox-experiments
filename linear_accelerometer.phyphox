@@ -53,6 +53,7 @@
       <string original="Linear Acceleration y">Przyspieszenie liniowe y</string>
       <string original="Linear Acceleration z">Przyspieszenie liniowe z</string>
       <string original="Acceleration">Przyspieszenie</string>
+      <string original="Multi">Wiele</string>
     </translation>
     <translation locale="nl">
       <title>Versnelling (zonder g)</title>
@@ -125,9 +126,9 @@
       <string original="Multi">Πολλαπλό</string>
     </translation>
     <translation locale="ja">
-      <title>加速度 (gを無視した場合)</title>
+      <title>gを含まない加速度</title>
       <category>センサー出力</category>
-      <description>重力を除いた加速度が得られるリニア加速度計からの時系列データを取得する．重力gを考慮した加速度計測と異なり，本計測ではデバイスが静止しているときの加速度は0と出力される。</description>
+      <description>重力を除いた加速度が得られるリニア加速度計からの時系列データを取得します．重力gを含んだ加速度計測と異なり，本計測ではデバイスが静止しているときの加速度は0と出力されます．</description>
       <string original="Graph">グラフ</string>
       <string original="Linear Acceleration x">加速度 x</string>
       <string original="Linear Acceleration y">加速度 y</string>

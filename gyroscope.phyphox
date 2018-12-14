@@ -30,7 +30,7 @@
       <string original="Gyroscope z">Gyroskop z</string>
     </translation>
     <translation locale="pl">
-      <title>Żyroskop</title>
+      <title>Żyroskop (szybkość obrotów)</title>
       <category>Surowe dane</category>
       <description>Uzyskaj surowe dane z czujnika żyroskopowego.</description>
       <string original="Graph">Wykres</string>
@@ -39,6 +39,8 @@
       <string original="Gyroscope x">Żyroskop - składowa x</string>
       <string original="Gyroscope y">Żyroskop - składowa y</string>
       <string original="Gyroscope z">Żyroskop - składowa z</string>
+      <string original="Multi">Wiele</string>
+      <string original="Gyroscope">Żyroskop</string>
     </translation>
     <translation locale="nl">
       <title>Gyroscoop (rotatiefrequentie)</title>

@@ -139,6 +139,13 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time 4">Czas 4</string>
       <string original="Time 5">Czas 5</string>
       <string original="Parallel">Śródczasy</string>
+      <string original="Many">Wiele</string>
+      <string original="Events">Zdarzenia</string>
+      <string original="Event number">Numer zdarzenia</string>
+      <string original="Time interval">Przedział czasu</string>
+      <string original="Average interval">Średni przedział</string>
+      <string original="Average rate">Średnia szybkość</string>
+      <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
     </translation>
     <translation locale="nl">
       <title>Akoestische Chronometer</title>
@@ -272,22 +279,24 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <description>
         二つの音響イベントの時間差計測.
 
-二つの大きな音響イベントの時間間隔の測定が可能なストップウォッチ．音響イベントはクリック，ビープ音，クラップなどを用いることが可能であるが、環境音より十分に大きい音響イベントであることが必要．ストップウォッチが動作する音響レベルを設定可能である．(0から1までの範囲において)
+二つの大きな音響イベントの時間間隔の測定が可能なストップウォッチ．音響イベントはクリック，ビープ音，クラップなどを用いることが可能であるが，環境音より十分に大きい音響イベントであることが必要です．ストップウォッチが動作する音響レベルを設定することが可能です．(0から1までの範囲において)
+    
+実験開始後，ストップウォッチは音響イベントで開始し，次の音響イベントで停止する．繰り返し実験するためにはデータを消去し，再開してください．長い音はすぐにストップとして認識されてしまうため，最初の音響イベントは短いものとしてください．
     </description>
       <string original="Simple">シンプル</string>
       <string original="Threshold">閾値</string>
-      <string original="Minimum Delay">最小タイマー停止時間</string>
+      <string original="Minimum Delay">ホールドオフ時間</string>
       <string original="Time">時間</string>
       <string original="Reset">リセット</string>
-      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">環境ノイズレベル以上となるように閾値を変更 (オーディオスコープにより確認可能).また最小遅延時間は，設定値よりも短い信号を無視する設定 (ex.反響音や残響音による期待しないタイマー動作を防止する)．</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">環境ノイズレベル以上となるように閾値を変更 (聴音器により確認可能).また最小遅延時間は，設定値よりも短い信号を無視する設定 (ex.反響音や残響音等の意図しないタイマー動作を防止する)．</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">残念ながら，このアプリケーションは動作速度が遅いスマートフォンでは動作をしません．予測通り実験が動作するかを確認するために，はじめに通常のストップウォッチの計測結果と比較してください．</string>
-      <string original="Sequence">連続</string>
+      <string original="Sequence">ラップ</string>
       <string original="Time 1">時間 1</string>
       <string original="Time 2">時間 2</string>
       <string original="Time 3">時間 3</string>
-      <string original="Time 4">時間</string>
+      <string original="Time 4">時間 4</string>
       <string original="Time 5">時間 5</string>
-      <string original="Parallel">パラレル</string>
+      <string original="Parallel">スプリット</string>
       <string original="Many">履歴</string>
       <string original="Events">イベント</string>
       <string original="Event number">イベント番号</string>

@@ -96,11 +96,11 @@
     <translation locale="ja">
       <title>光</title>
       <category>センサー出力</category>
-      <description>光センサ出力の時系列データの取得</description>
+      <description>光センサ出力の時系列データの取得．</description>
       <string original="Graph">グラフ</string>
       <string original="Illuminance">照度</string>
       <string original="Info">
-                注意:いくつかのデバイスの光センサーは照度の粗い変化がある際にのみ更新されます．
+                注意:いくつかのデバイスの光センサーは照度の大きな変化がある際にのみ更新されます．
             </string>
       <string original="Simple">シンプル</string>
     </translation>

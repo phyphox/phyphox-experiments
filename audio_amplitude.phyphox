@@ -248,7 +248,7 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <description>
         音の振幅の取得．
 
-本実験ではマイクから短い時間基準音の振幅を計測し，音圧レベル (SPL) を計算します．ここで，この計算は原始的な計算方法であるため，計算結果が大きな不確かさを含む可能性があります．また，補正するための基準音も準備する必要があります．
+本実験ではマイクから短い時間音の振幅を計測し，音圧レベル (SPL) を計算します．ここで，この計算は原始的な計算方法であるため，計算結果が大きな不確かさを含む可能性があります．また，補正するためには音圧レベルが確かな参照音源も準備する必要があります．
     </description>
       <string original="Amplitude">振幅</string>
       <string original="Status">ステータス</string>
@@ -258,21 +258,21 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="History">履歴</string>
       <string original="Time">時間</string>
       <string original="Clear history">履歴削除</string>
-      <string original="Please see the calibration tab to get proper results.">適切な音響値を得るために補正タブを確認してください．</string>
+      <string original="Please see the calibration tab to get proper results.">正確な音圧レベルを得るためには補正タブから補正を行ってください．</string>
       <string original="Calibration">補正</string>
-      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">本実験は音圧レベル (SPL) を原理的手法を用いて特定する．本実験には既知の振幅を持つ基準音（dB単位）が必要である．例えば，一定音圧のノイズ源を外部機器により音圧を測定し，測定した値を基準SPLとして入力し，実験中に'補正'を押すことで測定が行うことが可能である．</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">音圧レベル (SPL) を原始的手法を用いて特定します．補正には既知の振幅を持つ基準音（dB単位）が必要です．例えば，ノイズ音源の音圧レベルを外部機器により測定し，測定した値を基準SPLとして入力し，実験中に'補正'を押すことで補正を行うことが可能である．</string>
       <string original="Reference SPL">基準SPL</string>
       <string original="Calibrate">補正</string>
-      <string original="Calibration offset">補正オフセット</string>
-      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">本補正を以前行った，あるいはまったく同一の機器を用いる場合は，以前の補正履歴から直接補正オフセットを入力し，オフセットの設定を押すことで補正ができるかもしれません．</string>
-      <string original="Custom offset">カスタムオフセット</string>
+      <string original="Calibration offset">SPL補正値</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">同一の機器において以前補正を行った場合は，以前のSPL補正値を手動補正値設定に入力し，オフセットの設定を押すことで補正ができます．</string>
+      <string original="Custom offset">手動補正値設定</string>
       <string original="Set offset">オフセットの設定</string>
       <string original="How accurate are these results?">どのくらい結果は正確ですか？</string>
-      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">講義目的または調査目的ですか？その場合であればおそらく本アプリケーションは十分な性能でしょう．重要な研究目的ですか？その場合であればおそらく不十分かもしれません．より良く動作する他のアプリケーションを探すと良いでしょう． (下記参照) 科学的あるいは健康関連の目的ですか？そうであれば本アプリケーションではなく専用のアプリケーションを利用してください．</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">講義目的または調査目的であれば，本アプリケーションは十分な性能と思われます．重要な研究目的には不十分かもしれません．他のアプリケーションを探してください． (下記参照) 科学，医療関連目的には，本アプリケーションではなく専用のアプリケーションを利用してください．</string>
       <string original="Why isn't this already calibrated?">なぜ補正済みではないのですか？</string>
-      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphoxは10000以上の機器において利用可能だが，異なるマイク，電子装置，ソフトウェアを持ち，音に対する反応がさまざまである．それらのすべての影響を補正により正しく較正することはできないが，特定の機器を対象としたアプリケーション (例えばiphoneに特化したアプリケーション)の中には，それら影響の補正が可能なものがある．本実験での補正を用いずに良好な結果を得たい場合には，上述の特定機器を対象にしたアプリケーションを探し，それらでの校正を試みても良いでしょう．</string>
-      <string original="Why can't we get a better calibration?">より良い補正はできませんか？</string>
-      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">異なるデバイスを用いた場合でも，比較可能な測定結果が得られるよう、シンプルな手順を提供したいと考えました．適切なデバイスを用いれば，マイクの周波数依存性は補正できます．さらには非線形応答を補償できるかもしれません．もしそのようなデバイスを持っており試してみたい場合は，より高精度の補正が可能なphyphoxがありますので，我々にご連絡ください．</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphoxは10000以上の機器において利用可能ですが，異なるマイク，電子装置，ソフトウェアを持ち，音に対する反応が様々です．それらのすべての影響を補正により正しく較正することはできませんが，特定の機器を対象としたアプリケーション (例えばiphoneに特化したアプリケーション)の中には，それら影響の補正が可能なものがあります．本アプリケーションでの補正を用いずに，上述の特定機器を対象にしたアプリケーションを利用してください．</string>
+      <string original="Why can't we get a better calibration?">より精度の高い補正はできませんか？</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">異なるデバイスを用いた場合でも，比較可能な測定結果が得られるよう、シンプルな手順を提供したいと考えました．適切なデバイスを用いれば，マイクの周波数依存性は補正できます．さらには非線形応答も補正できるかもしれません．もしそのような補正を試してみたい場合は，より高精度の補正が可能なphyphoxがありますので，我々にご連絡ください．</string>
     </translation>
     <translation locale="pt">
       <title>Amplitude do Audio</title>

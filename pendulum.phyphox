@@ -117,6 +117,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Żyroskop - składowa x</string>
       <string original="Gyroscope y">Żyroskop - składowa y</string>
       <string original="Gyroscope z">Żyroskop - składowa z</string>
+      <string original="Rel. amplitude">Amplituda odniesienia</string>
+      <string original="correlation">Korelacja</string>
     </translation>
     <translation locale="nl">
       <title>Slinger</title>
@@ -269,10 +271,10 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
 
 タブメニューの「長さ」では，加速度gを計算する代わりに，g = 9.81 m/s²と仮定し，振り子の動きから糸の長さを特定することができます．(実際はピボット点から物体の中心までの距離です．)
 
-「共振」タブメニューでは，振幅を周波数に対しプロットします。これにより，外部加振された物体の共振特性曲線を周波数に対して得ることができ，共振特性曲線を示すことができます。
+「共振」タブメニューでは，振幅を周波数に対しプロットします．これにより，外部加振された物体の共振特性曲線を周波数に対して得ることができ，共振特性曲線を示すことができます．
 
-共振周波数の決定方法
-ジャイロスコープの総和波形の自己相関を計算し振動周期を計算することで振動周波数を決定します。自己相関の第一極大から周期を概算し，その整数倍付近の極大のうち，観測できた最終極大値を用いて振動周期を決定します。
+周波数の決定方法
+ジャイロスコープ成分の総和の自己相関を計算し振動周期を計算することで振動周波数を決定します．自己相関の第一極大から周期を概算し，その整数倍付近の極大のうち，観測できた最終極大値を用いて振動周期を決定します．
     </description>
       <string original="Results">結果</string>
       <string original="Period">周期</string>
@@ -282,7 +284,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">ここでg = 9.81 m/s²を仮定することで(物体の中心からピボット点まで)振り子の長さを特定することができます．</string>
       <string original="Resonance">共振</string>
       <string original="Rel. amplitude">相対振幅</string>
-      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされる．駆動する発振器の共振周波数を測定するために使用可能である．振幅は0から1の範囲において規格化される．</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
       <string original="Raw Data">センサー出力</string>

@@ -44,6 +44,7 @@
       <string original="Accelerometer x">Akcelerometr - składowa x</string>
       <string original="Accelerometer y">Akcelerometr - składowa y</string>
       <string original="Acceleration">Przyspieszenie</string>
+      <string original="Multi">Wiele</string>
     </translation>
     <translation locale="nl">
       <title>Versnelling met g</title>
@@ -101,9 +102,9 @@
       <string original="Multi">Πολλαπλό</string>
     </translation>
     <translation locale="ja">
-      <title>重力加速度gを考慮した加速度</title>
+      <title>重力加速度gを含む加速度</title>
       <category>センサー出力</category>
-      <description>加速度センサーによる時系列データの取得．このセンサーで得られる値は重力を差し引いていないため，スマートフォンが静止状態でも9.81 m/s²の加速度が得られる。</description>
+      <description>加速度センサーによる時系列データの取得．このセンサーで得られる値は重力を差し引いていないため，スマートフォンが静止状態でも9.81 m/s²の加速度が得られます．</description>
       <string original="Graph">グラフ</string>
       <string original="Accelerometer x">加速度計 x</string>
       <string original="Accelerometer y">加速度計 y</string>
@@ -129,7 +130,7 @@
     </translation>
     <translation locale="tr">
       <title>Yer çekimi (g) ile hızlanma</title>
-      <category>Ham sensörler</category>
+      <category>Ham Sensörler</category>
       <description>İvme ölçerden ham veri alın. Bu sensör yerçekimi kuvvetini çıkarmadan hesap yapar, bu yüzden telefon masada dururken bile 9.81 m / s²'lik bir ivme rapor edecektir.</description>
       <string original="Graph">Grafik</string>
       <string original="Accelerometer x">İvmeölçer X</string>

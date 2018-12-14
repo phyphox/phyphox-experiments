@@ -106,6 +106,12 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Satellites">Liczba satelitów</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Należy pamiętać, że część urządzeń nie jest wyposażona w czujniki systemu GPS, ale określają położenie na podstawie połączenia telefonicznego oraz Wi-Fi. Tego rodzaju źródła informacji nie są dostatecznie precyzyjne.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Upewnij się, że system lokalizacji urządzenia nie pracuje w trybie 'Oszczędzania energii' ponieważ zazwyczaj w trybie tym GPS jest wyłączony a dane o położeniu uzyskiwane są za pośrednictwem sieci operatora oraz sieci Internet.</string>
+      <string original="Position">Położenie</string>
+      <string original="Movement">Ruch</string>
+      <string original="Distance travelled">Pokonany dystans</string>
+      <string original="Distance from start">Dystans od startu</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Upewnij się również, że urządzenie nie pracuje w trybie "Oszczędzanie energii", ponieważ zwykle w trybie tym wyłączana jest dokładna lokalizacja GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Dokładność w poziomie określa niepewnością twojej lokalizacji na płaszczyźnie, podczas gdy dokładność w pionie (zwykle gorsza) określa niepewnością twojej wysokości (w kierunku prostopadłym do płaszczyzny). Jeśli dokładność wynosi zero, ta oznacza to, że informacja ta nie jest dostępna.</string>
     </translation>
     <translation locale="nl">
       <title>Locatie (GPS)</title>
@@ -283,9 +289,9 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <description>
         GPS衛星から計算されたの位置情報の取得．
 
-測定結果は機器へのGPSデバイスのの実装に依存することに注意してください．Androidデバイスがは垂直方向の情報に対する精度があまりよくありません．一方でiOSデバイスは位置計算に用いたGPS衛星の数を示しません．また，iOSデバイスにおいては，GPS衛星からのデータのみから得た位置情報を，他の位置情報データと混合し，複合的に判断している場合もあります．
+測定結果は機器へのGPSデバイスの実装に依存することに注意してください．Androidデバイスは垂直方向の情報に対する精度があまりよくありません．一方でiOSデバイスは位置計算に用いたGPS衛星の数を示しません．また，iOSデバイスにおいては，GPS衛星データのみから得た位置情報を，他の位置情報データと混合し，複合的に判断している場合もあります．
 
-速さと方向は，各機器が２点以上の連続した位置情報から算出した場合が多い，
+速さと方向は，各機器が２点以上の連続した位置情報から算出した場合が多い．
     </description>
       <string original="Position">位置</string>
       <string original="Status">ステータス</string>
@@ -308,7 +314,7 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Vertical Accuracy">垂直方向精度</string>
       <string original="Satellites">衛星数</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
-      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">位置情報サービスが省電力モードでないことを確認してください。省電力モードになると多くの場合正確なGPS情報源を切断してしまいます。</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">位置情報サービスが省電力モードでないことを確認してください．省電力モードになると多くの場合正確なGPS情報源を切断してしまいます．</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">水平方向精度は位置の不確かさで垂直方向精度は高度の不確かさです。もしゼロになっていたら、この情報は現在利用できないことを示しています。</string>
     </translation>
     <translation locale="pt">

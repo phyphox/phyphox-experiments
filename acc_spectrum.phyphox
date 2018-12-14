@@ -214,7 +214,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <description>
             加速度スペクトルの表示．
 
-本実験では，加速度計により測定された加速度の時系列データを記録し，フーリエ変換 (FFT) を用いて加速度スペクトルの計算を行う．測定可能な最大（ナイキスト周波数）周波数は所有するセンサーの最大サンプリングレートによる．
+本実験では，加速度計により測定された加速度の時系列データを記録し，フーリエ変換 (FFT) を用いて加速度スペクトルの計算を行います．測定可能な最大（ナイキスト周波数）周波数は所有するセンサーの最大サンプリングレートによります．
     </description>
       <string original="Spectrum">スペクトル</string>
       <string original="Peak-Frequency">ピーク周波数</string>
@@ -228,9 +228,9 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="History">履歴</string>
       <string original="Time">時間</string>
       <string original="Settings">設定</string>
-      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下下記より，フーリエ変換に使用するデータのサンプル数が変更可能．サンプル数を大きくすることで周波数分解能を改善できる一方で，データの取得と更新に時間を要します．</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下記より，フーリエ変換に使用するデータのサンプル数の変更が可能です．サンプル数を大きくすることで周波数分解能を改善できますが，データの取得と更新に時間を要します．</string>
       <string original="Samples">サンプル数</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Acceleration x">加速度 x</string>
       <string original="Acceleration y">加速度 y</string>
       <string original="Acceleration z">加速度 z</string>

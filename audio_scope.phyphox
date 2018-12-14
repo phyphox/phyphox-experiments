@@ -123,13 +123,13 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <description>
         音声データの録音．
 
-本実験では，音声を短い期間記録し表示します．振幅が０となる時をt = 0 とし表示している．
+本実験では，音声を短時間記録し表示します．振幅が０となる時をt = 0 とし表示しています．
     </description>
       <string original="Scope">波形表示器</string>
       <string original="Audio Data">音響データ</string>
       <string original="Time">時間</string>
       <string original="Amplitude">振幅</string>
-      <string original="Duration">時間間隔</string>
+      <string original="Duration">トリガーイベント持続時間</string>
     </translation>
     <translation locale="pt">
       <title>Osciloscópio de Som</title>

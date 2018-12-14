@@ -309,11 +309,11 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <description>
         跳ね返るボールが非弾性衝突をしている間のエネルギー損失の特定．
 
-理論的には本実験は音響ストップウォッチのように動作する．本実験はボールが表面で弾む時の音，あるいはそれに似た現象による音を想定しており，ボールの衝突による音の間隔を解析することで，弾むボールの高さと運動エネルギ―を初めの衝突からの相対値として計算します．
+理論的には本実験は音響ストップウォッチのように動作します．本実験はボールが表面で弾む時の音，あるいはそれに似た現象による音を想定しており，ボールの衝突による音の間隔を解析することで，弾むボールの高さと運動エネルギ―を初めの衝突からの相対値として計算します．
 
 また，最初の衝突の運動エネルギーの損失割合は同じと仮定して，phyphoxはボールが落ちた初期高さを計算します．
 
-それでは，ボールから弾む音が聞こえるようにボールを弾ませて，実験を始めてください．本実験がボール以外からの音で反応しないように閾値の設定を0から1の範囲で変更できます．もし壁などからの反射音に反応して誤作動してしまう場合は，次の衝突音未満で，音を無視する時間を設定する最小遅延時間を変更することも可能です．
+それでは，ボールから弾む音が聞こえるようにボールを弾ませて，実験を始めてください．本実験がボール以外からの音で反応しないように閾値の設定を0から1の範囲で変更できます．もし壁などからの反射音に反応して誤作動してしまう場合は，次の衝突音が発生するまでの間ストップウォッチをトリガーさせない期間（ホールドオフ）を設定することが可能です．
     </description>
       <string original="Heights">高さ</string>
       <string original="Height 0">高さ 0</string>
@@ -324,25 +324,25 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Height 3">高さ 3</string>
       <string original="Time 3">時間 3</string>
       <string original="Height 4">高さ 4</string>
-      <string original="Time 4">時間</string>
+      <string original="Time 4">時間 4</string>
       <string original="Height 5">高さ 5</string>
       <string original="Time 5">時間 5</string>
       <string original="Reset">リセット</string>
       <string original="Energy">エネルギー</string>
       <string original="Energy 1">エネルギー 1</string>
       <string original="Energy 2">エネルギー 2</string>
-      <string original="Retained on collision 2">衝突で回収したエネルギー割合 2</string>
+      <string original="Retained on collision 2">衝突後に残ったエネルギー割合 2</string>
       <string original="Energy 3">エネルギー 3</string>
-      <string original="Retained on collision 3">衝突で回収したエネルギー割合 3</string>
+      <string original="Retained on collision 3">衝突後に残ったエネルギー割合 3</string>
       <string original="Energy 4">エネルギー　4</string>
-      <string original="Retained on collision 4">衝突で回収したエネルギー割合 4</string>
+      <string original="Retained on collision 4">衝突後に残ったエネルギー割合 4</string>
       <string original="Energy 5">エネルギー 5</string>
-      <string original="Retained on collision 5">衝突で回収したエネルギー割合 5</string>
-      <string original="Average retained">衝突で回収したエネルギー割合の平均</string>
+      <string original="Retained on collision 5">衝突後に残ったエネルギー割合 5</string>
+      <string original="Average retained">衝突後に残るエネルギー割合の平均</string>
       <string original="Settings">設定</string>
       <string original="Threshold">閾値</string>
-      <string original="Minimum Delay">最小タイマー停止時間</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">残念ながら，本実験は動作速度の遅いスマートフォンにおいては機能しません．本実験が予測通り動作するかどうか確かめるために，音響ストップウォッチの実験結果結果と通常のタイマーを比較して下さい．問題なく動作していることが確認できれば，本実験も問題なく動作します．</string>
+      <string original="Minimum Delay">ホールドオフ時間</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">残念ながら，本実験は動作速度の遅いスマートフォンにおいては機能しません．本実験が予測通り動作するかどうか確かめるために，音響ストップウォッチの実験結果と通常のタイマーを比較して下さい．問題なく動作していることが確認できれば，本実験も問題なく動作します．</string>
     </translation>
     <translation locale="pt">
       <title>Colisão (IN)elástica</title>

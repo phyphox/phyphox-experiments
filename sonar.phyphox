@@ -98,6 +98,11 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Chirp">Ćwierknięcie</string>
       <string original="Time (s)">Czas (s)</string>
       <string original="Time">Czas</string>
+      <string original="Time series">Szeregi czasowe</string>
+      <string original="Normalized history">Skala barwna</string>
+      <string original="distance">odległość</string>
+      <string original="time">czas</string>
+      <string original="Delay">Opóźnienie</string>
     </translation>
     <translation locale="nl">
       <title>Sonar</title>
@@ -230,30 +235,30 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay">Καθυστέρηση</string>
     </translation>
     <translation locale="ja">
-      <title>音波探知機</title>
+      <title>ソナー</title>
       <category>音響</category>
       <description>
-        エコーと音速からの距離の測定．
+        反射音と音速からの距離の測定．
 
-測定したい物質により反射された短い音をソナーは送ります．音はほぼ340 m/sの速度で進むので，反射音がマイクまで届く時間は物体の距離を計算するのに使われます．本実験は "chirp"を発生し，スピーカーを通じて送り，記録を開始します． "chirp"の交差自己相関と記録されたデータはエコーが発生したタイミングに関する情報を提供します．時間と速度を掛けて(音は前と後ろに進まなければならないので2で割ります．)そしてエコーが発生した場所の距離がわかります．
+ソナーは短い音を発して，物体により反射された音を計測します．音はほぼ340 m/sの速度で進むので，反射音がマイクまで届く時間を使って物体までの距離を計算します．本実験は "チャープ音"をスピーカーから発生させると同時に，音声を記録します． 発生させた"チャープ音"と記録された音声データの相互相関を計算し，反射音がマイクに到達するまでの時間を算出します．時間と速度を掛けて求まる距離は音波が往復した距離です．そこから反射した物体との距離がわかります．
 
-しかし，音は大抵全方向に進みます．sonarにとって壁をターゲットとしたとき，地面や天井，近い他の壁，かpost and simplyなどのすべての適切な硬い表面 からの反射も得てしまいます．
+しかし，音は大抵全方向に進みます．ソナーにとって壁をターゲットとしたとき，地面や天井，近い他の壁等のすべての適切な硬い表面 からの反射も得てしまいます．
 
-それ故にSonarは全ての反射音によるデータを提供し，どの反射がターゲットにしていたもののデータかを見つけどう結果を解釈するのは利用する方次第です．
-小さく硬いターゲットから始め，foam材料において全方向にスクリーニングしてみてください．また静かな環境が必要です．
+したがって，ソナーは得られたすべての物体までの距離を含んでいるため，どの距離がどのターゲットに対応しているかは判断する必要があります．
+最初は簡単のため，小さく硬いターゲットと音を吸収しやすい材料を全方向に配置すると良いでしょう．また静かな環境が必要です．
     </description>
-      <string original="Time series">時系列</string>
-      <string original="Normalized history">規格化された強度履歴</string>
+      <string original="Time series">時系列計測</string>
+      <string original="Normalized history">規格化された強度</string>
       <string original="distance">距離</string>
       <string original="time">時間</string>
-      <string original="Echo location">エコーの位置</string>
+      <string original="Echo location">距離計測</string>
       <string original="Speed of Sound">音速</string>
-      <string original="Normalized to spherical surface">sphericalな表面への規格化</string>
+      <string original="Normalized to spherical surface">球状表面への規格化</string>
       <string original="Target distance">ターゲットへの距離</string>
-      <string original="Echo strength">エコー長</string>
-      <string original="Timing">タイミング</string>
-      <string original="On this page you just get the measured delay.">このページでは測定された遅延が得られます．</string>
-      <string original="Delay">遅延</string>
+      <string original="Echo strength">エコー強度</string>
+      <string original="Timing">遅延計測</string>
+      <string original="On this page you just get the measured delay.">このページでは測定遅延時間が得られます．</string>
+      <string original="Delay">遅延時間</string>
       <string original="Chirp">チャープ</string>
       <string original="Time">時間</string>
     </translation>

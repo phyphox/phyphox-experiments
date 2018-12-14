@@ -118,7 +118,7 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
 
         W tym eksperymencie rejestrowany jest czas pomiędzy dwoma zdarzeniami związanymi ze zmianą stanu ruchu (np. niewielkimi wstrząsami). Niezbędne może okazać się dopasowanie warunków wyzwalania pomiaru do warunków zdarzenia uruchamiającego stoper.
 
-        Po uruchomieniu eksperymentu stoper rozpocznie rejestrowanie czasu po pierwszym zdarzeniu, w którym przekroczona zostanie zadana wartość całkowitego przyspieszenia i zakończy rejestrację po drugim zdarzeniu tego rodzaju. Kolejny pomiar można przeprowadzić po usunięciu zarejestrowanych wyników. Należy zadbać, by wyzwalający pomiar sygnał był dostatecznie krótki i nie został, po krótkim czasie, zinterpretowany jako sygnał kończący pomiar.
+        Po uruchomieniu eksperymentu stoper rozpocznie rejestrowanie czasu po pierwszym zdarzeniu, w którym przekroczona zostanie zadana wartość całkowitego przyspieszenia i zakończy rejestrację po drugim zdarzeniu tego rodzaju. Należy zadbać, by wyzwalający pomiar sygnał był dostatecznie krótki i nie został, po krótkim czasie, zinterpretowany jako sygnał kończący pomiar.
     </description>
       <string original="Simple">Próbka</string>
       <string original="Threshold">Poziom wyzwalania</string>
@@ -134,6 +134,13 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Time 4">Czas 4</string>
       <string original="Time 5">Czas 5</string>
       <string original="Parallel">Śródczasy</string>
+      <string original="Many">Wiele</string>
+      <string original="Events">Zdarzenia</string>
+      <string original="Event number">Numer zdarzenia</string>
+      <string original="Time interval">Przedział czasu</string>
+      <string original="Average interval">Średni przedział</string>
+      <string original="Average rate">Średnia szybkość</string>
+      <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
     </translation>
     <translation locale="nl">
       <title>Bewegingschronometer</title>
@@ -272,23 +279,23 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
 
 本実験では，二つの加速イベント(小さな衝撃など)間の時間が測定できます．ストップウォッチが動作する加速度の閾値レベルを調節できます．
 
-実験開始後，初期加速度 (合計) が閾値を超えた時点（加速イベント）でタイマーは開始します．そして，2回目の加速イベントでタイマーは停止します．実験を繰り返すためにデータを消してまた開始する必要があります．タイマー開始時の加速イベントは瞬間的な加速イベントとなるよう気を付けてください．振動のような長期間の加速イベントは，タイマー開始後に直ちに停止イベントとして認識される可能性があります。
+実験開始後，初期加速度 (合計) が閾値を超えた時点（加速イベント）でタイマーは開始します．そして，2回目の加速イベントでタイマーは停止します．実験を繰り返すためにデータを消してまた開始する必要があります．タイマー開始時の加速イベントは瞬間的な加速イベントとなるよう気を付けてください．振動のような長期間の加速イベントは，タイマー開始後に直ちに停止イベントとして認識される可能性があります．
     </description>
       <string original="Simple">シンプル</string>
       <string original="Threshold">閾値</string>
-      <string original="Minimum Delay">最小タイマー停止時間</string>
+      <string original="Minimum Delay">ホールドオフ時間</string>
       <string original="Time">時間</string>
       <string original="Reset">リセット</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">センサーのノイズレベルを超えるように閾値の設定の変更してください．ただし，タイマー開始時の加速度より下になるようにしてください．
-(閾値となる加速度は，重力加速度を除外した加速度計実験を試してみてください)．また期待しない加速度イベントによるタイマーの停止を阻止するために，タイマー停止加速度イベントが起こるまでの最小の時間を設定してください．</string>
-      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">時間分解能は使用しているスマートフォンの加速度計の性能に依存します．高速な加速度計は時間分解能が100分の1秒以上になることもありますが，一方で遅いスマートフォンだと時間分解能は1秒の程度かもしれません．</string>
-      <string original="Sequence">連続</string>
+(閾値となる加速度は，重力加速度を除外した加速度計実験から求めてください)．また意図しない加速度イベントによるタイマーの停止を阻止するために，タイマー停止加速度イベントが起こるまでのホールドオフ時間を設定してください．</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">時間分解能は使用しているスマートフォンの加速度計の性能に依存します．高速な加速度計は時間分解能が100分の1秒以上になることもありますが，一方で遅いスマートフォンだと時間分解能は1秒の程度となることもあります．</string>
+      <string original="Sequence">ラップ</string>
       <string original="Time 1">時間 1</string>
       <string original="Time 2">時間 2</string>
       <string original="Time 3">時間 3</string>
-      <string original="Time 4">時間</string>
+      <string original="Time 4">時間 4</string>
       <string original="Time 5">時間 5</string>
-      <string original="Parallel">パラレル</string>
+      <string original="Parallel">スプリット</string>
       <string original="Many">履歴</string>
       <string original="Events">イベント</string>
       <string original="Event number">イベント番号</string>

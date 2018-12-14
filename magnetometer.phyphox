@@ -83,6 +83,8 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer x">Magnetometr - składowa x</string>
       <string original="Magnetometer y">Magnetometr - składowa y</string>
       <string original="Magnetometer z">Magnetometr - składowa z</string>
+      <string original="Multi">Wiele</string>
+      <string original="Magnetometer">Magnetometr</string>
     </translation>
     <translation locale="nl">
       <title>Magnetometer</title>
@@ -194,16 +196,15 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <description>
         磁力計の時系列データの取得．
 
-スマートフォンは，地上の磁界を測定しコンパスとして使えるように設計されているため，スマートフォンの磁力計は大変高感度です．しかし，スマートフォンに内蔵されている磁力計は常にスマートフォンの電子機器からの内部場に晒されており正しい測定結果を得られない場合があります ．そのためにphyphox ではシステムから補正された磁界を得ることができます．補正されていない場合はデータが得られないことがあります．(スマートフォンが起動したばかりの場合など)．これらの場合，実験実行中に何回かスマートフォンを回転してみてください．これはセンサーを補正するためのシステムに役立ちます．また，多くのデバイスにおいて (全てではない) 最上部右側のメニューにて補正なしの磁石計に切り替えることもできます．
+スマートフォンは，地上の磁界を測定しコンパスとして使えるように設計されているため，スマートフォンの磁力計は大変高感度です．しかし，スマートフォンに内蔵されている磁力計は常にスマートフォンの電子機器からの内部磁場に晒されており正しい測定結果を得られない場合があります ．そのためにphyphox ではシステムから補正された磁界を得ることができます．補正されていない場合は正確なデータが得られないことがあります．(スマートフォンが起動したばかりの場合など)これらの場合，実験実行中に何回かスマートフォンを回転してみてください．これはセンサーを補正するためのシステムに役立ちます．また，多くのデバイスにおいて最上部右側のメニューにて補正なしの磁力計に切り替えることもできます．
 
 決してスマートフォンを強い磁界に晒さないでください．
     </description>
       <string original="Graph">グラフ</string>
       <string original="Accuracy">精度</string>
       <string original="Uncalibrated">補正なし</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Low">低い</string>
-      <string original="Medium">ミディアム</string>
       <string original="Magnetometer x">磁力計 x</string>
       <string original="Magnetometer y">磁力計 y</string>
       <string original="Magnetometer z">磁力計 z</string>
@@ -213,7 +214,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Simple">シンプル</string>
       <string original="Help">ヘルプ</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">スマートフォンに内蔵されている磁力計は常にスマートフォン自身による内部磁場に晒されており正しい測定結果を得られない場合があります ．
-そのためにphyphox ではシステムから補正された磁界を得ることができます．補正されていない場合はデータが得られないことがあります．(スマートフォンが起動したばかりの場合など)．これらの場合，実験実行中に何回かスマートフォンを回転してみてください．これはセンサーを補正するためのシステムに役立ちます．また，多くのデバイスにおいて (全てではない) 最上部右側のメニューにて補正なしの磁石計に切り替えることもできます．</string>
+そのためにphyphox ではシステムから補正された磁界を得ることができます．補正されていない場合はデータが得られないことがあります．(スマートフォンが起動したばかりの場合など)．これらの場合，実験実行中に何回かスマートフォンを回転してみてください．これはセンサーを補正するためのシステムに役立ちます．また，多くのデバイスにおいて最上部右側のメニューにて補正なしの磁力計に切り替えることもできます．</string>
     </translation>
     <translation locale="pt">
       <title>Magnetômetro</title>

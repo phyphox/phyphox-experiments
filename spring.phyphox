@@ -92,6 +92,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer z">Akcelerometr - składowa z</string>
       <string original="Accelerometer x">Akcelerometr - składowa x</string>
       <string original="Accelerometer y">Akcelerometr - składowa y</string>
+      <string original="Rel. amplitude">Amplituda odniesienia</string>
+      <string original="correlation">Korelacja</string>
     </translation>
     <translation locale="nl">
       <title>Veer</title>
@@ -208,13 +210,16 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
         ばね発振器の周波数と周期の解析．
 
 本実験は発振器の動作を測定するために加速度計を使用し，発振器の周期Ｔを計算する．さらに，共振タブには検知された周波数に対する振幅がプロットされる．このように駆動されている発振器を解析的に再構成し，周波数を変更しながら共振曲線を測定することが可能である．
+    
+周波数の決定方法
+加速度成分の総和の自己相関を計算し振動周期を計算することで振動周波数を決定します．自己相関の第一極大から周期を概算し，その整数倍付近の極大のうち，観測できた最終極大値を用いて振動周期を決定します．
     </description>
       <string original="Results">結果</string>
       <string original="Period">周期</string>
       <string original="Frequency">周波数</string>
       <string original="Resonance">共振</string>
       <string original="Rel. amplitude">相対振幅</string>
-      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされる．駆動する発振器の共振周波数を測定するために使用可能である．振幅は0から1の範囲において規格化される．</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
       <string original="Raw Data">センサー出力</string>

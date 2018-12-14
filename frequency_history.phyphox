@@ -110,12 +110,12 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Period (s)">Περίοδος (s)</string>
     </translation>
     <translation locale="ja">
-      <title>周波数履歴</title>
+      <title>周波数経時変化</title>
       <category>音響</category>
       <description>
         単一音の周波数変化の測定．
 
-本実験はマイクから音響信号を録音し，短時間でその周波数を解析をします．本実験は，自己相関を用いる計測同様に，特定周波数音源を用いる場合のみ期待通りの動作します．短時間の周波数解析により，時間に対して周波数をプロットすることが可能になります．
+本実験はマイクから音響信号を録音し，短時間でその周波数を解析します．本実験は，自己相関を用いる計測同様に，特定周波数音源を用いる場合のみ期待通りの動作をします．短時間の周波数解析により，時間に対して周波数をプロットすることが可能になります．
     </description>
       <string original="History">履歴</string>
       <string original="Frequency">周波数</string>

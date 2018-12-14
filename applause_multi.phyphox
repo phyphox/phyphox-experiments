@@ -104,6 +104,23 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     <translation locale="pl">
       <string original="History">Historia</string>
       <string original="Time">Czas</string>
+      <title>Licznik oklasków</title>
+      <category>Życie codzienne</category>
+      <description>
+        Przypisywanie parametrów czasu trwania i amplitudy oklasków.
+
+        Eksperyment łączy pomiar amplitudy dźwięku z pomiarem czasu jego trwania i przypisuje im łączny wynik. W ten sposób głośne i długie oklaski uzyskuje odpowiednio wyższy wynik. Dzięki temu można w powtarzalny sposób ocenić oklaski wielu uczestników i porównać je na wykresie słupkowym.
+
+        Zastosowanie: Historia pokazuje poziom hałasu rejestrowany przez aplikację. Można rozpocząć rejestrację naciskając "start" i zatrzymać ją naciskając "stop". Podczas pomiaru wynik wizualizowany jest w postaci żółtego paska. Po zatrzymaniu można wybrać opcję  "następny uczestnik", by przygotować się do kolejnego pomiaru. Ponowne naciśnięci "start" uruchamia kolejną wizualizację wyniku, która trwa do momentu powtórnego naciśnięcia "stop". Procedurę można powtarzać dla kolejnych oklasków.
+    </description>
+      <string original="Score">Wynik</string>
+      <string original="Subscore">Wynik cząstkowy</string>
+      <string original="Scores">Wyniki</string>
+      <string original="Contestant">Uczestnik</string>
+      <string original="Next contestant">Następny uczestnik</string>
+      <string original="Controls">Sterowanie</string>
+      <string original="Reset last score">Usuń poprzedni wynik</string>
+      <string original="Clear all scores">Usuń wszystkie wyniki</string>
     </translation>
     <translation locale="ru">
       <string original="History">История</string>
@@ -130,13 +147,13 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     </translation>
     <translation locale="ja">
       <title>Applause meter（拍手喝采音量計）</title>
-      <category>日常</category>
+      <category>日常生活</category>
       <description>
         拍手喝采音の強度と長さを記録
 
-        この実験は、拍手喝采音の強度を積算します。このため音の強度と長さがないほど高い値が出ます。複数の出場者のスコアを棒グラフで比較できます。
+        この実験は，拍手喝采音の強度を積算します．このため音の強度と長さがないほど高い値が出ます．複数の出場者のスコアを棒グラフで比較できます．
 
-        利用方法：強度履歴はphyphoxで検出された音響レベルの履歴を示します。開始ボタンでスコアの積算が開始され、停止ボタンで終了します。計測中スコアが上昇していくのが見え、黄色のバーで表示されます。停止後、次の出場者ボタンで次のスコア計測準備ができます。再度開始ボタンを押すと、二つ目のバーが伸びていくのが見えます。これを繰り返し行います。
+        利用方法：強度履歴はphyphoxで検出された音響レベルの履歴を示します．開始ボタンでスコアの積算が開始され，停止ボタンで終了します．計測中スコアが上昇していくのが見え，黄色のバーで表示されます．停止後，次の出場者ボタンで次のスコア計測準備ができます．再度開始ボタンを押すと，二つ目のバーが伸びていくのが見えます．これを繰り返し行います．
     </description>
       <string original="Score">スコア</string>
       <string original="History">履歴</string>

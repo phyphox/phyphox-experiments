@@ -70,6 +70,8 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
       <string original="Square plot">Zależność kwadratowa</string>
       <string original="Time">Czas</string>
       <string original="Angular velocity">Prędkość kątowa</string>
+      <string original="Angular velocity ω">Prędkość kątowa ω</string>
+      <string original="Acceleration a">Przyspieszenia a</string>
     </translation>
     <translation locale="nl">
       <title>Centripetale versnelling</title>
@@ -162,9 +164,9 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <description>
         角速度の関数として，遠心加速度の可視化．
 
-本実験では，加速度計による絶対加速度と同様にジャイロスコープから角速度ωの絶対値を計算します．ωに対してプロットすることで，a = r·ω²の関係が簡単に表示され，特にω²に対してプロットしたときに線形関係が得られる．
+本実験では，加速度計による絶対加速度と同様にジャイロスコープから角速度ωの絶対値を計算します．ωに対してプロットすることで，a = r·ω²の関係が簡単に表示され，特にω²に対してプロットしたときに線形関係が得られます．
 
-これを観測するためには，固定された半径で異なる角速度の測定が必要である．サラダスピナーや小さめのメリーゴーラウンドなどが良く動作します．
+これを観測するためには，固定された半径で異なる角速度の測定が必要です．サラダスピナーや小さめのメリーゴーラウンドなどが良く動作します．
     </description>
       <string original="Relation">角速度と遠心加速度の関係</string>
       <string original="Acceleration">加速</string>

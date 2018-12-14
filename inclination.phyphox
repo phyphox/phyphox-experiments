@@ -63,6 +63,17 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="Inclination">Nachylenie</string>
       <string original="Angle (°)">Kąt (°)</string>
       <string original="Rotation">Obrót</string>
+      <string original="Flat">Płaski</string>
+      <string original="Tilt up/down">Pochyl w górę / w dół</string>
+      <string original="Angle">Kąt</string>
+      <string original="Tilt left/right">Pochyl w lewo / w prawo</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Ta zakładka pomaga zmierzyć kąt nachylenia telefonu, począwszy od poziomego położenia.</string>
+      <string original="Upright">Pionowo</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Ta zakładka pomaga zmierzyć kąt nachylenia telefonu, począwszy od pozycji pionowej.</string>
+      <string original="Side">Bok</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Ta zakładka pomaga zmierzyć kąt nachylenia telefonu, począwszy od pozycji na boku.</string>
+      <string original="Plane">Płaszczyzna</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Ta zakładka pomaga zmierzyć nachylenie płaszczyzny. Pochylenie płaszczyzny jest mierzone, gdy telefon spoczywa płasko na płaszczyźnie, niezależnie od jego na niej orientacji. Rotacja wskazuje kierunek nachylenia.</string>
     </translation>
     <translation locale="nl">
       <title>Helling</title>
@@ -168,25 +179,25 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <title>傾斜</title>
       <category>ツール</category>
       <description>
-        スマートフォンの傾斜の角度の測定．
+        スマートフォンの傾斜角度の測定．
 
-このツールはスマートフォンの傾斜を加速度計を用いて求める．スマートフォンをテーブルに置いているとき，傾斜はゼロである．ゼロでない傾斜の場合，傾斜は回転角として与えられる．
+このツールではスマートフォンの傾斜を加速度計を用いて求めることができます．スマートフォンをテーブルに置いているとき，傾斜はゼロと計測されます．傾斜の向きが，スマートフォンの回転角として得られます．
 
-ここで，角度の定義は傾斜を，スマートフォンの回転 (z軸) に関わらず計測することを目的として選択されている．
+ここで，測定される回転角は，スマートフォンの向きによりません．
     </description>
       <string original="Flat">水平置き</string>
       <string original="Tilt up/down">前後の傾き</string>
       <string original="Angle">角度</string>
       <string original="Tilt left/right">左右の傾き</string>
-      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">”水平置き”タブは水平に置かれたスマートフォンからの傾斜角度の計測に役立ちます。</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">”水平置き”タブは水平に置かれたスマートフォンからの傾斜角度の計測に役立ちます．</string>
       <string original="Upright">垂直置き</string>
-      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">”垂直置き”タブは垂直に置かれたスマートフォンからの傾斜角度の計測に役立ちます。</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">”垂直置き”タブは垂直に置かれたスマートフォンからの傾斜角度の計測に役立ちます．</string>
       <string original="Side">横置き</string>
-      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">”横置き”タブは長手方向に立てたスマートフォンからの傾斜角度の計測に役立ちます。</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">”横置き”タブは長手方向に立てたスマートフォンからの傾斜角度の計測に役立ちます．</string>
       <string original="Plane">水平度</string>
-      <string original="Inclination">傾き角度の大きさ</string>
-      <string original="Rotation">方位角</string>
-      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">この水平度タブは平面の傾きを測ります。スマートフォンが置かれた面の傾き角度の大きさが計測されます。方位角が傾きの方向を示します。</string>
+      <string original="Inclination">傾斜</string>
+      <string original="Rotation">左右の傾き</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">この水平度タブではスマートフォンが置かれた面の傾き角度の大きさが計測されます．</string>
     </translation>
     <translation locale="pt">
       <title>Inclinação</title>

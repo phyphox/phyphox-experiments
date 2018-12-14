@@ -112,12 +112,12 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <title>回転</title>
       <category>力学・運動</category>
       <description>
-        ローラーにスマートフォンを設置し，ローラーの運動速度を求める
+        回転体にスマートフォンを設置し，回転体の運動速度を求める
 
-ローラーにスマートフォンを設置し，ローラーを転がし軸方向の回転を与えます．スマートフォンのジャイロスコープから角速度を取得し，入力したローラー半径を用いて，ローラーの運動速度を計算します．
+回転体にスマートフォンを設置し，回転体を転がし軸方向の回転を与えます．スマートフォンのジャイロスコープから角速度を取得し，入力した回転体半径を用いて，回転体の速度を計算します．
     </description>
       <string original="Velocity">速度</string>
-      <string original="Roll radius">ローラー半径</string>
+      <string original="Roll radius">回転体半径</string>
       <string original="v">ｖ</string>
       <string original="Raw Data">センサー出力</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>

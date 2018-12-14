@@ -70,6 +70,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
       <string original="Total magnetic field squared and filtered">Kwadrat wypadkowej wartości indukcji magnetycznej</string>
       <string original="Filtered B² (µT²)">Wygładzone B² (µT²)</string>
+      <string original="Filtered B²">Wygładzone B²</string>
     </translation>
     <translation locale="nl">
       <title>Magnestische meetlat</title>
@@ -243,14 +244,12 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
     <container size="0">count</container>
     <container size="0">count-1</container>
     <container size="0">magnetIndices</container>
-
     <container size="0">magX</container>
     <container size="0">magY</container>
     <container size="0">magZ</container>
     <container size="0">magSum</container>
     <container size="0">magSumSmooth</container>
     <container size="0">magSumFiltered</container>
-
     <container>magMax</container>
     <container>magThreshold</container>
     <container size="0">t</container>
@@ -310,10 +309,10 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
   </views>
   <analysis>
     <formula formula="[1_]*[1_]+[2_]*[2_]+[3_]*[3_]">
-        <input clear="false">magX</input>
-        <input clear="false">magY</input>
-        <input clear="false">magZ</input>
-        <output>magSum</output>
+      <input clear="false">magX</input>
+      <input clear="false">magY</input>
+      <input clear="false">magZ</input>
+      <output>magSum</output>
     </formula>
     <gausssmooth sigma="15">
       <input clear="false">magSum</input>
@@ -324,7 +323,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <input>magSumSmooth</input>
       <output>magSumFiltered</output>
     </subtract>
-
     <max>
       <input as="y" clear="false">magSumFiltered</input>
       <output as="max">magMax</output>
@@ -341,15 +339,14 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <output as="max">max</output>
       <output as="position">posT</output>
     </max>
-
     <count>
-        <input clear="false">max</input>
-        <output>count</output>
+      <input clear="false">max</input>
+      <output>count</output>
     </count>
     <subtract>
-        <input clear="false">count</input>
-        <input type="value">1</input>
-        <output>count-1</output>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
     </subtract>
     <ramp>
       <input as="start" type="value">0</input>
@@ -362,7 +359,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <input clear="false">magnetDistance</input>
       <output>pos</output>
     </multiply>
-
     <differentiate>
       <input clear="false">posT</input>
       <output>dt</output>

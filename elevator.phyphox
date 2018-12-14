@@ -154,17 +154,17 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <title>エレベーター</title>
       <category>日常生活</category>
       <description>
-        バロメーターを用いたエレベーターの速度の同定．
+        バロメーター（圧力センサー）を用いたエレベーターの速度の同定．
 
 GPSが動作しないような場所においても，バロメータにより，短時間の高度変化の測定が可能です．これはエレベータの垂直速度を導出するのに用いることができます．さらに加速度はz方向の加速度計を用いて測定されるので，正確な加速度計測のためにスマートフォンを水平にエレベーターのフロアに置いて使用してください．
-本実験において，ノイズを除去するため，バロメーターからの読み込みは1秒以上平均値化されます．連続計測された平均値の差は，国際的な圧力高度換算公式を用い高度に変換されます．高度を時間差で割ることでエレベータの速度が得られます．
+本実験において，ノイズを除去するため，バロメーターからの出力は1秒以上の平均値です．連続計測された平均値の差は，国際的な圧力高度換算公式を用い高度に変換されます．高度を時間差で割ることでエレベータの速度が得られます．
     </description>
-      <string original="Motion">運動</string>
-      <string original="Height (from barometer)">高度 (バロメーター)</string>
+      <string original="Motion">位置・速度・加速度</string>
+      <string original="Height (from barometer)">バロメーターから換算された高度</string>
       <string original="h">ｈ</string>
-      <string original="Vertical velocity (from height)">垂直速度 (高度より)</string>
+      <string original="Vertical velocity (from height)">高度から計算される垂直速度</string>
       <string original="v">ｖ</string>
-      <string original="z acceleration (from accelerometer)">z 加速度 (加速度計による)</string>
+      <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
       <string original="Raw Data">センサー出力</string>
       <string original="Pressure">圧力</string>
       <string original="p">ｐ</string>

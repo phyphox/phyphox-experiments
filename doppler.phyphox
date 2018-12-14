@@ -163,7 +163,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <title>ドップラー効果</title>
       <category>音響</category>
       <description>
-        ドップラー効果の微量周波数シフトの検知．
+        ドップラー効果の微小周波数シフトの検知．
 
 本実験には，一定の特定周波数音(1000 Hzのような) が出せる音源が必要です．設定に基準周波数を入力し，ドップラー効果による周波数シフトの検知範囲 (10 Hzなど) を選択してください．本実験では，録音された音声の周波数を決定し，音源の相対速度を計算します．
     </description>
@@ -172,7 +172,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency range">周波数範囲</string>
       <string original="Time step">時間ステップ</string>
       <string original="Speed of sound">音速</string>
-      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">ドップラーシフト計測の時間ステップは，音源速度を一定とみなし計算する音響データの取得頻度と量を決定します．本実験のアルゴリズムは基準周波数の-(周波数範囲)から+(周波数範囲)までの周波数を探し周波数特定するため，基準音周期のn倍遅れた音響データとの自己相関を計算し，周波数シフトを検出します．範囲や時間ステップの極端な値の設定は不正確な値を算出するか，お持ちのデバイスでの計算が難しくなるかもしれません．周波数範囲は，時間ステップの逆数よりも十分に小さい範囲を設定するようにしてください．</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">ドップラーシフト計測の時間ステップは，音源速度を一定とみなし計算する音響データの取得頻度と数を決定します．本実験のアルゴリズムは基準周波数の-(周波数範囲)から+(周波数範囲)までの周波数を探し周波数特定するため，基準音周期のn倍遅れた音響データとの自己相関を計算し，周波数シフトを検出します．範囲や時間ステップの極端な値の設定は不正確な値を算出するか，お持ちのデバイスでの計算が難しくなるかもしれません．周波数範囲は，時間ステップの逆数よりも十分に小さい範囲を設定するようにしてください．</string>
       <string original="nth period">n番目周期</string>
       <string original="Results">結果</string>
       <string original="Frequency">周波数</string>

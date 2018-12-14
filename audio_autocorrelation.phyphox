@@ -81,6 +81,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Recording">Nagranie</string>
       <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
       <string original="Amplitude">Amplituda</string>
+      <string original="correlation">Korelacja</string>
     </translation>
     <translation locale="nl">
       <title>Geluid Autocorrelatie</title>
@@ -271,7 +272,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Cents from note">音名に対するセント値</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Recording">記録</string>
       <string original="Amplitude">振幅</string>
     </translation>

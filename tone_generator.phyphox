@@ -133,7 +133,7 @@
       <string original="Frequency">周波数</string>
       <string original="Signal">信号</string>
       <string original="Time">時間</string>
-      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphoxでは任意の周波数を設定することが可能ですが，100Hz以下や8000Hz以上ではハードウェアの限界により良い結果が得られないかもしれません．</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphoxでは任意の周波数を設定することが可能ですが，100Hz以下や8000Hz以上ではハードウェアの限界により良い結果が得られないこともあります．</string>
       <string original="Status">ステータス</string>
       <string original="Frequency low">低周波数</string>
       <string original="Frequency high">高周波数</string>
