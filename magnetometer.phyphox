@@ -184,7 +184,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
     </translation>
     <translation locale="ja">
       <title>磁力計</title>
-      <category>時系列センサー</category>
+      <category>センサー出力</category>
       <description>
         磁力計の時系列データの取得．
 
