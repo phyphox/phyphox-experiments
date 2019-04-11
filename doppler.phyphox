@@ -238,6 +238,66 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">頻率</string>
       <string original="Speed">速度</string>
     </translation>
+    <translation locale="fr">
+      <title>Effet Doppler</title>
+      <category>Acoustique</category>
+      <description>
+        Détecte les petits décalages de fréquence dus à l’effet Doppler.
+
+         Il vous faut un générateur qui émet un son à une fréquence constante (par exemple 1000 Hz). Entrez cette fréquence de référence ainsi que la plage autour de cette référence dans laquelle l'expérience devra travailler (par exemple 10 Hz). L'expérience déterminera la fréquence du son reçu et calculera la vitesse relative de la source sonore.
+    </description>
+      <string original="Setup">Configuration</string>
+      <string original="Base frequency">Fréquence de référence</string>
+      <string original="Frequency range">Plage de fréquences</string>
+      <string original="Time step">Pas en temps</string>
+      <string original="Speed of sound">vitesse du son</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Le pas en temps détermine la quantité de données utilisées pour mesurer une fréquence (et calculer une vitesse). L'algorithme cherchera une fréquence dans la plage de fréquence  (en + et en -) autour de la fréquence de référence, et utilisera la Nième période (définie ci-dessous) pour déterminer la fréquence. Les paramètres extrêmes pour la plage ou le pas en temps peuvent être inexacts ou trop difficiles à calculer pour votre téléphone. En outre, vous devez conserver la plage de fréquence nettement inférieure à l'inverse du pas en temps.</string>
+      <string original="nth period">Nième période</string>
+      <string original="Results">Résultats</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Speed">Vitesse</string>
+    </translation>
+    <translation locale="vi">
+      <title>Hiệu ứng Doppler</title>
+      <category>Âm học</category>
+      <description>
+        Phát hiện sự dịch chuyển nhỏ của tần số trong hiệu ứng Doppler.
+
+        Bạn cần một bộ tạo âm phát ra tần số không đổi (ví dụ 1000Hz). Nhập tần số cơ sở này trong thiết lập thí nghiệm và chọn phạm vi phát hiện mà bạn mong đợi tần số thay đổi Doppler (ví dụ 10Hz). Thí nghiệm sẽ xác định tần số được ghi và tính tốc độ tương đối của nguồn âm thanh.
+    </description>
+      <string original="Setup">Thiết lập</string>
+      <string original="Base frequency">Tần số cơ sở</string>
+      <string original="Frequency range">Dải tần số</string>
+      <string original="Time step">Bước thời gian</string>
+      <string original="Speed of sound">Tốc độ âm</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Bước thời gian xác định tốc độ và lượng dữ liệu được sử dụng để tính toán vận tốc một điểm duy nhất. Thuật toán sẽ tìm tần số xung quanh tần số cơ bản từ phạm vi đến -dải tần số đến +dải tần số và sử dụng khoảng thời gian thứ n (bên dưới) để xác định tần số. Cài đặt quá lớn cho độ dải tần số hoặc bước thời gian có thể làm cho điện thoại của bạn tính toán không chính xác hoặc quá khó. Ngoài ra, bạn nên giữ dải tần số nhỏ hơn nhiều 1/bước thời gian.</string>
+      <string original="nth period">Khoảng thứ n</string>
+      <string original="Results">Kết quả</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Speed">Tốc độ</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>多普勒效应</title>
+      <category>声学</category>
+      <description>
+        测试多普勒效应的小范围频率偏移。
+
+        你需要一个能产生固定频率（比如1000Hz）的音频发生器。在实验设置中输入这个基频，并选择你期待测量的多普勒偏移频率范围（比如10Hz）。本实验能确定所记录的频率并计算声源的相对速度。
+    </description>
+      <string original="Setup">设置</string>
+      <string original="Base frequency">基准频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Frequency range">频率范围</string>
+      <string original="Time step">时间步长</string>
+      <string original="Speed of sound">声音速度</string>
+      <string original="m/s">米/秒</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">时间步长能确定待数据的采集速率与数量，用来计算单个速度点。对应算法会查看基准频率上下范围内的第n个周期（如下所示）来确定频率。对范围或时间步长设置过度可能会不准确或使你的手机难以计算。同时，你应该设置远小于步长倒数的频率范围。</string>
+      <string original="nth period">第n个周期</string>
+      <string original="Results">结果</string>
+      <string original="Frequency">频率</string>
+      <string original="t">时间</string>
+      <string original="Speed">速度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

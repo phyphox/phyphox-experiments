@@ -345,6 +345,136 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">錄製</string>
       <string original="Amplitude">振幅</string>
     </translation>
+    <translation locale="fr">
+      <title>Autocorrélation Audio</title>
+      <category>Acoustique</category>
+      <description>
+        Mesurer la fréquence d'une note unique.
+
+         Cette expérience enregistre un son et détermine sa fréquence. Cela ne fonctionne que si le son ne contient qu'une seule note - s'il y a plusieurs fréquences dans le son (comme dans un accord), utilisez plutôt l'expérience "spectre audio".
+
+         L'analyse est effectuée en calculant l'autocorrélation du signal audio. L'analyse tient compte des pics dépassant la moitié du signal maximum dans l'autocorrélation. La position du dernier de ces pics donne un multiple de la période du signal. En comptant le nombre de pics on peut obtenir la période de la fréquence de base.
+    </description>
+      <string original="Period">Période</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Musical note">Note Musicale</string>
+      <string original="Low">Basse</string>
+      <string original="A2">La 1</string>
+      <string original="A#2 / Bb2">La# 1 / Sib 1</string>
+      <string original="B2">Si 1</string>
+      <string original="C3">Do 2</string>
+      <string original="C#3 / Db3">Do# 2 / Réb 2</string>
+      <string original="D3">Ré 2</string>
+      <string original="D#3 / Eb3">Ré# 2 / Mib 2</string>
+      <string original="E3">Mi 2</string>
+      <string original="F3">Fa 2</string>
+      <string original="F#3 / Gb3">Fa# 2 / Solb 2</string>
+      <string original="G3">Sol 2</string>
+      <string original="G#3 / Ab3">Sol# 2 / Lab 2</string>
+      <string original="A3">La 2</string>
+      <string original="A#3 / Bb3">La# 2 / Sib 2</string>
+      <string original="B3">Si 2</string>
+      <string original="C4">Do 3</string>
+      <string original="C#4 / Db4">Do# 3 / Réb 3</string>
+      <string original="D4">Ré 3</string>
+      <string original="D#4 / Eb4">Ré# 3 / Mib 3</string>
+      <string original="E4">Mi 3</string>
+      <string original="F4">Fa 3</string>
+      <string original="F#4 / Gb4">Fa# 3 / Solb 3</string>
+      <string original="G4">Sol 3</string>
+      <string original="G#4 / Ab4">Sol# 3 / Lab 3</string>
+      <string original="A4">La 3</string>
+      <string original="A#4 / Bb4">La# 3 / Sib 3</string>
+      <string original="B4">Si 3</string>
+      <string original="C5">Do 4</string>
+      <string original="C#5 / Db5">Do# 4 / Réb 4</string>
+      <string original="D5">Ré 4</string>
+      <string original="D#5 / Eb5">Ré# 4 / Mib 4</string>
+      <string original="E5">Mi 4</string>
+      <string original="F5">Fa 4</string>
+      <string original="F#5 / Gb5">Fa# 4 / Solb 4</string>
+      <string original="G5">Sol 4</string>
+      <string original="G#5 / Ab5">Sol# 4 / Lab 4</string>
+      <string original="A5">La 4</string>
+      <string original="A#5 / Bb5">La# 4 / Sib 4</string>
+      <string original="B5">Si 4</string>
+      <string original="C6">Do 5</string>
+      <string original="C#6 / Db6">Do# 5 / Réb 5</string>
+      <string original="D6">Ré 5</string>
+      <string original="D#6 / Eb6">Ré# 5 / Mib 5</string>
+      <string original="E6">Mi 5</string>
+      <string original="F6">Fa 5</string>
+      <string original="F#6 / Gb6">Fa# 5 / Solb 5</string>
+      <string original="G6">Sol 5</string>
+      <string original="G#6 / Ab6">Sol# 5 / Lab 5</string>
+      <string original="A6">La 5</string>
+      <string original="A#6 / Bb6">La# 5 / Sib 5</string>
+      <string original="B6">Si 5</string>
+      <string original="C7">Do 6</string>
+      <string original="C#7 / Db7">Do# 6 / Réb 6</string>
+      <string original="D7">Ré 6</string>
+      <string original="D#7 / Eb7">Ré# 6 / Mib 6</string>
+      <string original="E7">Mi 6</string>
+      <string original="F7">Fa 6</string>
+      <string original="F#7 / Gb7">Fa# 6 / Solb 6</string>
+      <string original="G7">Sol 6</string>
+      <string original="G#7 / Ab7">Sol# 6 / Lab 6</string>
+      <string original="High">Haute</string>
+      <string original="Cents from note">différence avec la note idéale (en cents)</string>
+      <string original="Autocorrelation">Autocorrélation</string>
+      <string original="correlation">corrélation</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Recording">Enregistrement</string>
+      <string original="Amplitude">Intensité</string>
+    </translation>
+    <translation locale="vi">
+      <title>Tự tương quan âm</title>
+      <category>Âm học</category>
+      <description>
+        Đo tần số của một âm đơn.
+
+        Thí nghiệm này ghi lại âm thanh từ micrô và phân tích tần số của nó. Thí nghiệm này chỉ hoạt động tốt nếu có một âm đơn với tần số cố định - nếu có nhiều tần số, hãy sử dụng thí nghiệm "phổ âm thanh".
+
+        Việc phân tích được thực hiện bằng cách tính toán tương quan tín hiệu âm thanh. Thí nghiệm sau đó xem xét tất cả các đỉnh vượt quá một nửa tín hiệu tối đa trong tự tương quan. Vị trí của các đỉnh cuối cùng trong phạm vi tự tương quan sẽ cho nhiều chu kỳ của tín hiệu. Bằng cách đếm số lượng đỉnh chúng ta có thể có được chu kỳ của tần số cơ sở.
+    </description>
+      <string original="Autocorr.">Tự t.quan</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Musical note">Nốt nhạc</string>
+      <string original="Low">Thấp</string>
+      <string original="High">Cao</string>
+      <string original="Cents from note">Phầm trăm lệch nốt</string>
+      <string original="Autocorrelation">Tự tương quan</string>
+      <string original="correlation">tương quan</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Recording">Đang ghi âm</string>
+      <string original="Amplitude">Biên độ</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>音频自相关</title>
+      <category>声学</category>
+      <description>
+        测量单个音调的频率。
+
+        本实验记录手机麦克风的音频并分析其频率。这只有在固定频率的单音调下才能工作——如有多种频率（比如和声），则需使用“频谱”实验。
+
+        分析是通过计算音频信号的自相关实现的。本实验考虑自相关中所有超过1/2最大峰值的信号的峰值。这些自相关中的峰值位置给出了信号周期的倍数。通过计算峰值的数量，我们可以得到基频的周期。
+    </description>
+      <string original="Autocorr.">自相关</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Autocorrelation">自相关</string>
+      <string original="correlation">相关系数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Recording">录制</string>
+      <string original="t">时间</string>
+      <string original="Amplitude">振幅</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

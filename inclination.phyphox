@@ -261,6 +261,78 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Inclination">傾斜度</string>
       <string original="Rotation">旋轉角度</string>
     </translation>
+    <translation locale="fr">
+      <title>Inclinaison</title>
+      <category>Outils</category>
+      <description>
+        Mesure de l'inclinaison du téléphone.
+
+        Cet outil utilise l'accéléromètre pour déterminer l'angle d’inclinaison du téléphone. Lorsque le téléphone est horizontal, l'inclinaison est nulle. Pour une inclinaison non nulle, le sens de l'inclinaison est donné par la mesure de la rotation.
+
+        Ces définitions été choisies pour facilité la mesure d'une inclinaison (en particulier pour les expériences de plan incliné) indépendamment de la valeur de la rotation (autour de l'axe z) du téléphone.
+    </description>
+      <string original="Flat">Horizontal</string>
+      <string original="Tilt up/down">Rotation haut/bas</string>
+      <string original="Tilt left/right">Rotation gauche/droite</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Cet onglet mesure les angles d'inclinaison du téléphone, à partir d'une position horizontale.</string>
+      <string original="Upright">Vertical</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Cet onglet mesure les angles d'inclinaison du téléphone, à partir d'une position verticale.</string>
+      <string original="Side">Coté</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Cet onglet mesure les angles d'inclinaison du téléphone, à partir d'une position où le téléphone est posé sur le coté.</string>
+      <string original="Plane">Plan</string>
+      <string original="Inclination">Inclinaison</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Cet onglet mesure l'inclinaison d'un plan. Cette inclinaison est mesurée en mettant le téléphone à plat sur la surface, indépendamment de son orientation. La rotation donne la direction de l'inclinaison.</string>
+    </translation>
+    <translation locale="vi">
+      <title>Độ nghiêng</title>
+      <category>Công cụ</category>
+      <description>
+        Đo góc nghiêng của điện thoại.
+
+        Công cụ này dùng gia tốc kế để xác định góc nghiêng của điện thoại. Khi điện thoại được đặt trên mặt bàn, độ nghiêng bằng 0. Đối với độ nghiêng khác không, hướng của độ nghiêng được đo theo độ quay.
+
+        Chú ý, định nghĩa của góc nghiêng đã được chọn cho việc xác định góc nghiêng (đặc biệt cho thí nghiệm mặt phẳng nghiêng) độc lập với độ quay (quanh trục z) của điện thoại.
+    </description>
+      <string original="Flat">Mặt ngang</string>
+      <string original="Tilt up/down">Nghiêng lên/xuống</string>
+      <string original="Angle">Góc</string>
+      <string original="Tilt left/right">Độ xoay trái/phải</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Mục này giúp đo độ nghiêng của điện thoại, bắt đầu từ vị trí nằm ngang.</string>
+      <string original="Upright">Thẳng đứng</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Mục này giúp đo đo nghiêng của điện thoại, bắt đầu từ vị ví thẳng đứng.</string>
+      <string original="Side">Cạnh</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Mục này giúp đo góc nghiêng của điện thoại, bắt đầu từ vị trí cạnh bên.</string>
+      <string original="Plane">Mặt phẳng</string>
+      <string original="Inclination">Độ nghiêng</string>
+      <string original="Rotation">Góc quay</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Mục này để đo độ nghiêng của mặt phẳng. Độ nghiêng của mặt phẳng được đo khi điện thoại được gắn  nằm cố định trên mặt phẳng, bất kể hướng nào. Độ quay cho biết hướng của mặt phẳng.</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>斜面</title>
+      <category>工具</category>
+      <description>
+        测量手机的倾斜角度。
+
+        该工具使用加速度计来确定手机倾斜角。当手机放置在桌上时，倾斜角为0。当倾斜角非零时，倾斜方向为转动方向。
+
+       注意，这里角度的定义是用来测试倾斜角的（尤其是斜面实验），和手机（关于z轴）的旋转无关。
+    </description>
+      <string original="Flat">水平</string>
+      <string original="Tilt up/down">向上/向下倾斜</string>
+      <string original="t">时间</string>
+      <string original="Angle">角度</string>
+      <string original="°">度</string>
+      <string original="Tilt left/right">向左/向右倾斜</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">此表协助测量从水平位置开始计算的手机倾斜角。</string>
+      <string original="Upright">垂直</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">此表协助测量从垂直位置开始计算的手机倾斜角。</string>
+      <string original="Side">侧边</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">此表协助测量从侧边位置开始计算的手机倾斜角。</string>
+      <string original="Plane">平面</string>
+      <string original="Inclination">倾角</string>
+      <string original="Rotation">旋转角度</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">此表协助测量某平面的倾角。手机平放在表面时，无论方向如何，能测得该平面的倾角。旋转角度给出了倾角的方向。</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

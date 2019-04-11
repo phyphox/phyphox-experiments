@@ -162,6 +162,47 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">原始數據</string>
       <string original="Gyroscope y">y方向陀螺儀</string>
     </translation>
+    <translation locale="fr">
+      <title>Roulement</title>
+      <category>Mécanique</category>
+      <description>
+        Déterminer la vitesse d'un tube dans lequel le smartphone est fixé.
+
+        Le téléphone doit être placé dans un tube (en carton par exemple) de façon à ce que son axe vertical, l'axe z, soit parallèle à la direction du tube. Cette expérience utilise le gyroscope du téléphone pour mesurer la vitesse de rotation du tube, et détermine la vitesse de déplacement à partir de cette mesure et du rayon du tube.
+    </description>
+      <string original="Velocity">Vitesse</string>
+      <string original="Roll radius">Rayon du tube</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Gyroscope y">Gyroscope axe y</string>
+    </translation>
+    <translation locale="vi">
+      <title>Lăn tròn</title>
+      <category>Cơ học</category>
+      <description>
+        Đặt điện thoại của bạn trong một cuộn giấy và xác định vận tốc của nó.
+
+        Bạn nên đặt điện thoại của bạn trong một cuộn giấy rồi để nó lăn theo trục của nó. Thí nghiệm này lấy vận tốc góc được đo bằng con quay hồi chuyển và bán kính của cuộn để tính tốc độ di chuyển của cuộn.
+    </description>
+      <string original="Velocity">Vận tốc</string>
+      <string original="Roll radius">Bán kính cuộn</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Gyroscope y">Con quay hồi chuyển y</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>滚筒</title>
+      <category>力学</category>
+      <description>
+        将你的手机放到一个滚筒内并确定其速度。
+
+        你可以将你的手机放入一个纸筒内以让其沿着最长的边滚动。然后本实验会利用陀螺仪测得的角速率和纸筒半径来计算纸筒运动时的速度。
+    </description>
+      <string original="Velocity">速度</string>
+      <string original="Roll radius">滚筒半径</string>
+      <string original="cm">厘米</string>
+      <string original="t">时间</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Gyroscope y">y方向陀螺仪</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

@@ -186,6 +186,51 @@
       <string original="Frequency high">高頻</string>
       <string original="OK">良好</string>
     </translation>
+    <translation locale="fr">
+      <title>Générateur de son</title>
+      <category>Acoustique</category>
+      <description>
+        Crée un son à une fréquence précise
+    </description>
+      <string original="Tone generator">Générateur de son</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Time">Durée</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphox offre une grande gamme de fréquences, néanmoins il se peut que vous obteniez de mauvais résultats en dessous de 100 Hz ou au-dessus de 8000 Hz en raison des limites matérielles.</string>
+      <string original="Status">État</string>
+      <string original="Frequency low">Fréquence basse</string>
+      <string original="Frequency high">Fréquence élevée</string>
+    </translation>
+    <translation locale="vi">
+      <title>Bộ tạo âm</title>
+      <category>Âm học</category>
+      <description>
+        Tạo âm thanh với tần số xác định.
+    </description>
+      <string original="Tone generator">Bộ tạo âm</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Signal">Tín hiệu</string>
+      <string original="Time">Thời gian</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Mặc dù phyphox cho phép đặt tần số tùy ý, bạn có thể gặp kết quả không tốt dưới 100Hz hoặc trên 8000Hz do giới hạn của phần cứng.</string>
+      <string original="Status">Trạng thái</string>
+      <string original="Frequency low">Tần số thấp</string>
+      <string original="Frequency high">Tần số cao</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>音频发生器</title>
+      <category>声学</category>
+      <description>
+        产生一个特定频率的音调。
+    </description>
+      <string original="Tone generator">音频发生器</string>
+      <string original="Frequency">频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Signal">信号</string>
+      <string original="Time">时间</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">虽然phyphox允许设置任意频率，但由于硬件设置，在低于100Hz或高于8000Hz时你可能得到较差的结果。</string>
+      <string original="Status">状态</string>
+      <string original="Frequency low">低频</string>
+      <string original="Frequency high">高频</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

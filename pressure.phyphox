@@ -98,6 +98,31 @@
       <string original="Simple">簡易</string>
       <string original="hPa">百帕</string>
     </translation>
+    <translation locale="fr">
+      <title>Pression</title>
+      <category>Capteurs</category>
+      <description>Données brutes du baromètre.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Pressure">Pression</string>
+      <string original="Simple">Composantes</string>
+    </translation>
+    <translation locale="vi">
+      <title>Áp suất</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ áp kế.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Pressure">Áp suất</string>
+      <string original="Simple">Đơn giản</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>压力</title>
+      <category>原始传感器</category>
+      <description>从气压计获得原始数据。</description>
+      <string original="Graph">图表</string>
+      <string original="Pressure">压力</string>
+      <string original="t">时间</string>
+      <string original="Simple">简明值</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

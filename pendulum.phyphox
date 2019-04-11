@@ -386,6 +386,103 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope y">y方向陀螺儀</string>
       <string original="Gyroscope z">z方向陀螺儀</string>
     </translation>
+    <translation locale="fr">
+      <title>Pendule</title>
+      <category>Mécanique</category>
+      <description>
+        Détermine la constante de gravité (g = 9,81m/s²) en utilisant votre téléphone comme pendule.
+
+        Cette expérience utilise le gyroscope pour mesurer le mouvement du pendule et déterminer la période d'oscillation T. L'utilisateur doit entrer la longueur L de la corde utilisée, et g est calculé à partir de la formule g = 4π²/T² L.
+
+        Dans l’onglet « longueur », on pose g = 9,81 m/s² pour calculer la longueur de la corde à partir des mesures et de cette même formule. (Il s'agit en fait de la distance entre le pivot et le centre de masse.)
+
+        Dans l'onglet « résonance », l'amplitude des oscillations est tracée en fonction de la fréquence. Cela permet de tracer une courbe de résonance dans le cas d'un système à oscillations forcées. 
+
+        Plus précisément :
+        La période d'oscillation est obtenue à partir de l'autocorrélation de la somme des trois composantes du gyroscope. L’autocorrélation de cette quantité est analysée en cherchant son premier maximum pour obtenir une première estimation, puis son dernier maximum pour obtenir un résultat plus précis.
+    </description>
+      <string original="Results">Résultats</string>
+      <string original="Period">Période</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Length">Longueur</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Entrez la longueur du pendule (distance entre le point de pivot et le centre de masse) pour déterminer l'accélération de la pesanteur terrestre g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Cette expérience détermine la longueur du pendule (distance entre le pivot et le centre de masse) à partir de la valeur de g = 9,81 m/s².</string>
+      <string original="Resonance">Résonance</string>
+      <string original="Rel. amplitude">Amplitude rel.</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Dans cet onglet, l'amplitude est tracée en fonction de la fréquence mesurée. Cela permet de tracer la courbe de résonnance d’un pendule en oscillations forcées. L'amplitude est normalisée de 0 à 1.</string>
+      <string original="Autocorrelation">Autocorrélation</string>
+      <string original="correlation">corrélation</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Gyroscope x">Gyroscope axe x</string>
+      <string original="Gyroscope y">Gyroscope axe y</string>
+      <string original="Gyroscope z">Gyroscope axe z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Con lắc đơn</title>
+      <category>Cơ học</category>
+      <description>
+        Xác định gia tốc rơi tự do (g = 9.81m/s²) bằng cách dùng điện thoại và con lắc đơn. 
+
+        Thí nghiệm này dùng con quay hồi chuyển để đo chuyển động của con lắc và tính toán chu kỳ dao động T. Người dùng phải nhập vào chiều dài L của sợi dây làm con lắc đơn, từ đó phyphox có thể tính g = 4π²/T²L.
+
+        Tương tự, thay vì đo gia tốc g, bạn có thể sử dụng mục chiều dài và giả sử g = 9.81 m/s² để xác định chiều dài sợi dây của con lắc đơn. (đúng hơn là khoảng cách từ điểm treo đến tâm khối.)
+
+        Thêm vào đó, trong mục cộng hưởng, phần mềm vẽ đồ thị biên độ và tần số đã chọn. Theo cách này, bạn có thể tạo một dao động cưỡng bức và thay đổi tần số để đo đường cộng hưởng.
+
+        Thông tin chi tiết thêm:
+        Chu kỳ dao động được lấy qua dữ liệu của ba con quay hồi chuyển thành phần. Sự tương quan giữa chúng sau đó được phân tích để có biên độ cực đại đầu tiên dùng cho ước tính đầu tiên và biên độ cực đại cuối cùng của sự tương quan chéo được sử dụng để có kết quả chính xác hơn.
+    </description>
+      <string original="Results">Kết quả</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Length">Chiều dài</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Tại đây, bạn có thể nhập chiều dài của con lắc của bạn (điểm xoay đến tâm khối) và xác định gia tốc của Trái Đất g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Tại đây, bạn có thể xác định chiều dài của con lắc của bạn (điểm xoay đến tâm khối) giả sử g = 9,81 m/s².</string>
+      <string original="Resonance">Cộng hưởng</string>
+      <string original="Rel. amplitude">Biên độ</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Trên mục này, biên độ được vẽ theo tần số được phát hiện. Bạn có thể sử dụng điều này để đo cộng hưởng của bộ dao động cưỡng bức. Biên độ được chuẩn hóa thành phạm vi từ 0 đến 1.</string>
+      <string original="Autocorrelation">Tự tương quan</string>
+      <string original="correlation">tương quan</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Gyroscope x">Con quay hồi chuyển x</string>
+      <string original="Gyroscope y">Con quay hồi chuyển y</string>
+      <string original="Gyroscope z">Con quay hồi chuyển z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>摆</title>
+      <category>力学</category>
+      <description>
+        通过将你的手机当作摆来确定重力常数（g=9.81m/s²）。
+
+        本实验使用陀螺仪来测量摆的运动并计算振荡周期T。使用者必须输入摆使用的绳长，这样Phyphox能够测得g = 4π²/T² L。
+
+        或者，不想测量g时，你可以利用长度页面并假设 g = 9.81 m/s² ，通过摆的运动来确定绳长（实际上为支点到质心的距离）。
+
+        此外，在“共振”页面上，以振幅与测得频率之比作图。这样你就能构造一个振子并改变其频率来测量共振曲线。
+
+        更多细节:
+        振荡周期是通过三个陀螺仪分量总和的自相关获得。分析自相关系数的第一个峰值，进行第一次估计。然后自相关系数的最后一个峰值可以用来获得更精确的结果。
+    </description>
+      <string original="Results">结果</string>
+      <string original="Period">周期</string>
+      <string original="s">秒</string>
+      <string original="Frequency">频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Length">摆长</string>
+      <string original="cm">厘米</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">此处你可以输入你的摆长（支点到质心）来确定地球加速度g。</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">此处你可以假设 g = 9.81 m/s²来确定你的摆长（支点到质心）。</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相对振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">此页面中，以振幅与测得频率之比作图。你可以借此来测量一个振子的共振。振幅已归一化到0至1范围。</string>
+      <string original="Autocorrelation">自相关</string>
+      <string original="correlation">相关系数</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Gyroscope x">x方向陀螺仪</string>
+      <string original="t">时间</string>
+      <string original="Gyroscope y">y方向陀螺仪</string>
+      <string original="Gyroscope z">z方向陀螺仪</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

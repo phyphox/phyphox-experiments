@@ -397,6 +397,107 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Parallel">平行序列</string>
       <string original="Hz">赫茲</string>
     </translation>
+    <translation locale="fr">
+      <title>Chronomètre sonore</title>
+      <category>Chronomètres</category>
+      <description>
+        Chronomètre le temps entre deux sons.
+
+        Cette expérience mesure le temps entre deux forts signaux acoustiques. Il peut s'agir de clics, de bips, de cris, etc. tant qu'ils sont plus forts que le bruit ambiant. Vous pouvez ajuster le seuil au-delà duquel le chronomètre est déclenché.
+
+        Quand l’expérience est lancée, le chronomètre démarre avec le premier son qui dépasse le seuil, et s'arrête avec le second. Pour répéter l'expérience, effacez les données et recommencez. Assurez-vous que le premier bruit est suffisamment bref, car un son trop long peut déclencher à la fois le départ et l’arrêt du chronomètre.
+    </description>
+      <string original="Simple">Composantes</string>
+      <string original="Threshold">Seuil</string>
+      <string original="a.u.">u.a.</string>
+      <string original="Minimum Delay">Délai minimum</string>
+      <string original="Time">Durée</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Choisissez un seuil plus élevé que le bruit ambiant, mais plus bas que le son de déclenchement (vous pouvez utiliser l'expérience « Mesure du son » pour cela). La valeur du délai minimum doit être plus grande que la durée du son qui déclenche le lancement du chronomètre, afin que ce son ne déclenche pas également l'arrêt du chronomètre.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Malheureusement certains téléphones sont trop lents pour cette expérience. Comparez une fois vos résultats à ceux d'un autre chronomètre pour vérifier que cette expérience fonctionne correctement.</string>
+      <string original="Sequence">Répété</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Parallel">En parallèle</string>
+      <string original="Many">Statistiques</string>
+      <string original="Events">Évènements</string>
+      <string original="Event number">Numéro de l'évènement</string>
+      <string original="Time interval">Temps mesuré</string>
+      <string original="Average interval">Moyenne de l'intervalle de temps</string>
+      <string original="Average rate">Fréquence moyenne</string>
+      <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+    </translation>
+    <translation locale="vi">
+      <title>Bấm giờ âm</title>
+      <category>Đồng hồ</category>
+      <description>
+        Đo thời gian giữa hai tín hiệu âm thanh.
+
+        Thí nghiệm này cho phép đo thời gian giữa hai tín hiệu âm thanh lớn. Nó có thể là tiếng bíp, tiếng vỗ tay, miễn là chúng to hơn môi trường. Bạn có thể muốn điều chỉnh ngưỡng, đưa ra mức độ đồng hồ bấm giờ được kích hoạt (dao động từ 0 đến 1).
+
+        Sau khi bắt đầu thí nghiệm, đồng hồ sẽ bắt đầu chạy khi tiếng ồn đầu tiên vượt quá ngưỡng và sẽ dừng khi có tiếng ồn thứ hai. Để lặp lại thí nghiệm, xóa dữ liệu và bắt đầu lại. Đảm bảo rằng tiếng ồn đầu tiên phải ngắn vì âm thanh dài có thể được phát hiện ngay lập tức như một kích hoạt dừng.
+    </description>
+      <string original="Simple">Đơn giản</string>
+      <string original="Threshold">Ngưỡng</string>
+      <string original="Minimum Delay">Độ trễ tối thiểu</string>
+      <string original="Time">Thời gian</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Thay đổi ngưỡng ở trên mức tiếng ồn môi trường, nhưng dưới mức nhiễu kích hoạt (bạn có thể thử thí nghiệm độ to âm thanh để kiểm tra các mức này). Đồng thời đặt độ trễ tối thiểu để tránh các kích hoạt ngắn hơn thời gian đó (ví dụ do phản xạ âm).</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Thật không may, cái này sẽ không hoạt động trên điện thoại chậm. Vui lòng so sánh với đồng hồ thông thường trước, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi.</string>
+      <string original="Sequence">Chuỗi</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Parallel">Song Song</string>
+      <string original="Many">Nhiều</string>
+      <string original="Events">Các sự kiện</string>
+      <string original="Event number">Số chẵn</string>
+      <string original="Time interval">Khoảng thời gian</string>
+      <string original="Average interval">Khoảng trung bình</string>
+      <string original="Average rate">Tần số trung bình</string>
+      <string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string>
+      <string original="1/min">1/phút</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>声学秒表</title>
+      <category>计时器</category>
+      <description>
+        获得两个声音事件间的时间。
+
+        本实验能够测量两个响亮声音信号间的时间间隔。这些信号可以是敲击声、嘟嘟声或拍手声...等，只要他们比环境声音大。你可能需要调整阈值，给出触发的级别（从0到1）。
+
+        开始实验后，时钟会在第一个超过阈值的噪声出现时启动并在第二个超过阈值的噪声出现时暂停。想要重复实验，清楚数据并再次启动。确保第一个噪声足够短促以免过长的声音被检测成停止信号。
+    </description>
+      <string original="Simple">简明值</string>
+      <string original="Threshold">阈值</string>
+      <string original="a.u.">相对值</string>
+      <string original="Minimum Delay">最小时延</string>
+      <string original="s">秒</string>
+      <string original="Time">时间</string>
+      <string original="Reset">复位</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">调整阈值使其高于环境噪音，但低于触发值（可以尝试利用“音频范围”检测这些值）。并设置最小时延来避免重复触发（例如回声或混响）。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">不幸地是，这在慢速手机上并不能实现。请先将其与常规的闹钟相比较，以确保该实验能按预期运行。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">时间 1</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Parallel">并行</string>
+      <string original="Many">多任务</string>
+      <string original="Events">任务</string>
+      <string original="Event number">任务数</string>
+      <string original="Time interval">事件间隔</string>
+      <string original="Average interval">平均间隔</string>
+      <string original="Average rate">平均频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+    </translation>
   </translations>
   <input>
     <audio>

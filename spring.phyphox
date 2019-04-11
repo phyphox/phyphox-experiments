@@ -298,6 +298,81 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">y方向加速儀</string>
       <string original="Accelerometer z">z方向加速儀</string>
     </translation>
+    <translation locale="fr">
+      <title>Ressort</title>
+      <category>Mécanique</category>
+      <description>
+        Analyse la fréquence et la période des oscillations d’un ressort.
+
+        Cette expérience utilise l'accéléromètre pour mesurer le mouvement de l'oscillateur et déterminer la période d'oscillation T. Dans l'onglet « résonance », l'amplitude des oscillations est tracée en fonction de la fréquence : cela permet de tracer une courbe de résonance dans le cas d'un système à oscillations forcées.
+
+        Plus précisément :
+        La période d'oscillation est obtenue à partir de l'autocorrélation de la somme des trois composantes de l’accéléromètre. L’autocorrélation de cette quantité est analysée en cherchant son premier maximum pour obtenir une première estimation, puis son dernier maximum pour obtenir un résultat plus précis.
+    </description>
+      <string original="Results">Résultats</string>
+      <string original="Period">Période</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Resonance">Résonance</string>
+      <string original="Rel. amplitude">Amplitude rel.</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Dans cet onglet, l'amplitude est tracée en fonction de la fréquence mesurée. Cela permet de tracer la courbe de résonnance d’un pendule en oscillations forcées. L'amplitude est normalisée de 0 à 1.</string>
+      <string original="Autocorrelation">Autocorrélation</string>
+      <string original="correlation">corrélation</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Accelerometer x">Accélération selon x</string>
+      <string original="Accelerometer y">Accélération selon y</string>
+      <string original="Accelerometer z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Lò xo</title>
+      <category>Cơ học</category>
+      <description>
+        Phân tích tần số và chu kỳ của dao động lò xo.
+
+        Thí nghiệm này sử dụng gia tốc kế để đo chuyển động của dao động và tính toán chu kỳ dao động T. Ngoài ra, trên mục cộng hưởng, nó sẽ vẽ đồ thị biên độ theo tần số phát hiện. Bằng cách này, bạn có thể xây dựng một bộ dao động cưỡng bức và thay đổi tần số của nó để đo đường cong cộng hưởng.
+
+        Thông tin thêm:
+        Chu kỳ dao động thu được thông qua sự kết hợp cả ba thành phần gia tốc kế. Sự tương quan giữa ba gia tốc kế được phân tích để có biên độ cực đại đầu tiên cho kết quả gần đúng và sau đó tính biên độ cực đại sau cùng để có kết quả tốt hơn.
+    </description>
+      <string original="Results">Kết quả</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Resonance">Cộng hưởng</string>
+      <string original="Rel. amplitude">Biên độ</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Trên mục này, biên độ được vẽ theo tần số được phát hiện. Bạn có thể sử dụng điều này để đo cộng hưởng của bộ dao động cưỡng bức. Biên độ được chuẩn hóa thành phạm vi từ 0 đến 1.</string>
+      <string original="Autocorrelation">Tự tương quan</string>
+      <string original="correlation">tương quan</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Accelerometer x">Gia tốc kế x</string>
+      <string original="Accelerometer y">Gia tốc kế y</string>
+      <string original="Accelerometer z">Gia tốc kế z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>弹簧</title>
+      <category>力学</category>
+      <description>
+        分析一个弹簧振子的频率和周期。
+
+        本实验利用加速度计来测量振子运动并计算振动周期T。此外，在“共振”页面，以振幅与测得频率之比绘图。这样的话，你可以构造一个驱动振子并改变其频率来测得共振曲线。
+
+       更多细节:
+       振荡周期是通过三个陀螺仪分量总和的自相关获得。分析自相关系数的第一个峰值，进行第一次估计。然后自相关系数的最后一个峰值可以用来获得更精确的结果。
+    </description>
+      <string original="Results">结果</string>
+      <string original="Period">周期</string>
+      <string original="s">秒</string>
+      <string original="Frequency">频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相对振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">此页面中，以振幅与测得频率之比作图。你可以借此来测量一个振子的共振。振幅已归一化到0至1范围。</string>
+      <string original="Autocorrelation">自相关</string>
+      <string original="correlation">相关系数</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Accelerometer x">x方向加速度计</string>
+      <string original="t">时间</string>
+      <string original="Accelerometer y">y方向加速度计</string>
+      <string original="Accelerometer z">z轴加速度计</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

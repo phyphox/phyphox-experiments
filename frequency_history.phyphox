@@ -157,6 +157,43 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">頻率</string>
       <string original="Period">週期</string>
     </translation>
+    <translation locale="fr">
+      <title>Historique des fréquences</title>
+      <category>Acoustique</category>
+      <description>
+        Mesure la variation de la fréquence en fonction du temps pour un son constitué d'une seule note.
+
+        Cette expérience enregistre le son du micro, et détermine la fréquence du son sur de petits intervalles de temps. Cette expérience ne fonctionne que si le son est constitué d'une seule note (une seule fréquence), car elle utilise l'autocorrélation pour déterminer la fréquence. Le résultat est tracé en fonction du temps.
+    </description>
+      <string original="History">Historique</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Period">Période</string>
+    </translation>
+    <translation locale="vi">
+      <title>Lịch sử tần số</title>
+      <category>Âm học</category>
+      <description>
+        Đo sự thay đổi tần số theo thời gian cho một đơn âm.
+
+        Thí nghiệm này ghi lại âm thanh từ micrô và phân tích tần số của nó trong khoảng thời gian ngắn. Thí nghiệm chỉ hoạt động nếu có một âm đơn với tần số cố định vì nó sử dụng sự tương quan lẫn nhau. Kết quả sẽ được vẽ trên đồ thị tần số theo thời gian.
+    </description>
+      <string original="History">Lịch sử</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Period">Chu kỳ</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>历史频率</title>
+      <category>声学</category>
+      <description>
+        测量单个音调随时间的频率变化。
+
+        本实验记录来自麦克风的音频并分析短时间内的频率。因为使用自相关运算，只有测量固定频率的单一音调时才能使用。结果会绘制成频率对时间的曲线图。
+    </description>
+      <string original="History">历史记录</string>
+      <string original="Frequency">频率</string>
+      <string original="t">时间</string>
+      <string original="Period">周期</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

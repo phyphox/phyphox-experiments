@@ -218,6 +218,72 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="History">歷史紀錄</string>
       <string original="Time">時間</string>
     </translation>
+    <translation locale="fr">
+      <title>Applaudimètre</title>
+      <category>Vie quotidienne</category>
+      <description>
+        Mesurer des applaudissements.
+
+         Cette expérience intègre l’amplitude du son dans le temps pour donner une note à des applaudissements. De cette façon, un applaudissement fort et long obtient le score le plus élevé. Vous pouvez comparer les performances de plusieurs concurrents en utilisant l'histogramme.
+
+         Utilisation: l'historique indique le niveau de bruit détecté par phyphox. Vous pouvez démarrer l'applaudimètre en appuyant sur "démarrer" et l'arrêter en appuyant sur "stop". Pendant cette période, le score augmente, ce qui est également indiqué par la barre jaune de l'histogramme. Une fois l'applaudimètre arrêté, vous pouvez appuyer sur "candidat suivant" afin d'être prêt pour les prochains applaudissements. Lorsque vous appuyez à nouveau sur "démarrer", une seconde mesure commence jusqu'à ce que vous appuyiez à nouveau sur "stop". Vous pouvez répéter cette opération aussi souvent que vous le souhaitez pour comparer plusieurs scores.
+    </description>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Subscore">Applaudissements</string>
+      <string original="Contestant">Candidat</string>
+      <string original="Start">Démarrer</string>
+      <string original="Next contestant">Candidat suivant</string>
+      <string original="Controls">Contrôles</string>
+      <string original="Reset last score">Annule le dernier candidat</string>
+      <string original="Clear all scores">Efface tous les candidats</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thước đo vỗ tay</title>
+      <category>Cuộc sống hằng ngày</category>
+      <description>
+        Gán điểm số cho khoảng thời gian và biên độ của một tràng pháo tay.
+
+        Thí nghiệm này tích hợp biên độ của âm thanh và khoảng thời gian để gán điểm số. Bằng cách này, một tràng pháo tay lớn và dài được điểm cao hơn. Bạn có thể đánh giá nhiều thí sinh và so sánh màn trình diễn của họ trong biểu đồ thanh.
+
+        Cách sử dụng: Lịch sử cho thấy mức độ tiếng ồn được phát hiện bởi phyphox. Bạn có thể bắt đầu đo điểm số bằng cách nhấn "bắt đầu" và dừng đo điểm số bằng cách nhấn "dừng". Trong giai đoạn này, bạn sẽ thấy điểm số tăng lên cũng được biểu thị bằng thanh màu vàng. Sau khi dừng, bạn có thể nhấn "thí sinh tiếp theo" để sẵn sàng đo điểm số tiếp theo. Khi bạn nhấn "bắt đầu" lại, một thanh thứ hai sẽ dần xuất hiện cho đến khi bạn nhấn "dừng" lại. Bạn có thể lặp lại điều này nhiều lần như bạn muốn để so sánh nhiều điểm số.
+    </description>
+      <string original="Score">Điểm số</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Subscore">Điểm số phụ</string>
+      <string original="Scores">Điểm số</string>
+      <string original="Contestant">Thí sinh</string>
+      <string original="Start">Bắt đầu</string>
+      <string original="Stop">Dừng</string>
+      <string original="Next contestant">Thí sinh tiếp theo</string>
+      <string original="Controls">Điều khiển</string>
+      <string original="Reset last score">Đặt lại điểm số</string>
+      <string original="Clear all scores">Xoá điểm số</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>掌声计</title>
+      <category>日常生活</category>
+      <description>
+        给一段掌声的时长与幅度计分。
+
+        这个实验整合了声音的振幅随时间的推移并分配分数。这种方式下长时间大声鼓掌可以得到更高的分数。你可以评估多个选手，并在条形图中比较他们的表现。
+
+       用法：历史记录显示了phyphox检测到的噪声水平。你可以按“开始”键开始计分，按“停止”键停止计分。在此期间，您将看到黄色状态栏代表的分数增加。停止后，您可以按下“下一位选手”，来测量下一个分数。当你再次按下“开始”键时，第二个栏会一直增长，直到你再次按下“停止”键为止。当你想要比较多个分数时可以重复该步骤。
+    </description>
+      <string original="Score">分数</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Subscore">分项分数</string>
+      <string original="Scores">分数</string>
+      <string original="Contestant">选手</string>
+      <string original="Start">开始</string>
+      <string original="Stop">停止</string>
+      <string original="Next contestant">下一个选手</string>
+      <string original="Controls">控件</string>
+      <string original="Reset last score">重置最后得分</string>
+      <string original="Clear all scores">清空所有分数</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

@@ -238,6 +238,63 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">z方向磁場</string>
       <string original="Total magnetic field squared and filtered">過濾及平方後的總磁場</string>
     </translation>
+    <translation locale="fr">
+      <title>Règle magnétique</title>
+      <category>Outils</category>
+      <description>
+        Mesure de la distance, vitesse et accélération du smartphone à l'aide d'une rangée d'aimants.
+
+       Pour que cette expérience fonctionne, il faut placer une série d'aimants le long de la trajectoire que suivra le téléphone. La distance entre les aimants doit être constante, et sa valeur doit être connue. L'expérience utilisera le magnétomètre pour détecter le passage devant un aimant, permettant ainsi le calcul de la distance parcourue.
+    </description>
+      <string original="Results">Résultats</string>
+      <string original="dx is the distance between two magnets">dx est la distance entre deux aimants</string>
+      <string original="Velocity">Vitesse</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Magnetic field x">Champs magnétique selon x</string>
+      <string original="Magnetic field y">Champs magnétique selon y</string>
+      <string original="Magnetic field z">Champs magnétique selon z</string>
+      <string original="Total magnetic field squared and filtered">Champ magnétique total - élevé au carré et filtré</string>
+      <string original="Filtered B²">B² filtré</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thước đo từ</title>
+      <category>Công cụ</category>
+      <description>
+        Sử dụng nhiều nam châm để đo khoảng cách, tốc độ và gia tốc của điện thoại.
+
+        Đối với thí nghiệm này, bạn nên đặt nhiều nam châm giống hệt nhau dọc theo đường điện thoại sẽ di chuyển. Khoảng cách giữa các nam châm phải bằng nhau cho mỗi nam châm và nên được nhập vào trong thí nghiệm. Sau đó, điện thoại sẽ sử dụng từ kế của nó để xác định khi nào nó đã vượt qua một nam châm, cho phép tính tổng khoảng cách đã đi qua.
+    </description>
+      <string original="Results">Kết quả</string>
+      <string original="dx is the distance between two magnets">dx là khoảng cách giữa hai nam châm.</string>
+      <string original="Distance">Khoảng cách</string>
+      <string original="Velocity">Vận tốc</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Magnetic field x">Từ trường x</string>
+      <string original="Magnetic field y">Từ trường y</string>
+      <string original="Magnetic field z">Từ trường z</string>
+      <string original="Total magnetic field squared and filtered">Tổng bình phương từ trường đã lọc</string>
+      <string original="Filtered B²">B² đã lọc</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>磁性标尺</title>
+      <category>工具</category>
+      <description>
+        利用一系列的磁铁来测量距离、速度和手机的加速度。
+
+       在此实验中，你可以沿着手机经过的路径放置一系列磁铁。每个磁铁间的距离应该相同且需在实验中输入。手机会利用磁力计来确定是否经过每个磁铁，进而计算出总距离。
+    </description>
+      <string original="Results">结果</string>
+      <string original="dx is the distance between two magnets">dx是两个磁铁间的间距</string>
+      <string original="Distance">距离</string>
+      <string original="t">时间</string>
+      <string original="Velocity">速度</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Magnetic field x">X方向磁场</string>
+      <string original="Magnetic field y">Y方向磁场</string>
+      <string original="Magnetic field z">Z方向磁场</string>
+      <string original="Total magnetic field squared and filtered">平方和滤波后的总磁场</string>
+      <string original="Filtered B²">滤波后的B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

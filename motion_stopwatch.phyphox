@@ -397,6 +397,105 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Parallel">平行序列</string>
       <string original="Hz">赫茲</string>
     </translation>
+    <translation locale="fr">
+      <title>Chronomètre de mouvement</title>
+      <category>Chronomètres</category>
+      <description>
+        Chronomètre dont le déclenchement et l’arrêt sont pilotés par une détection de mouvement de votre téléphone.
+
+        Cette expérience mesure le temps entre deux évènements créant une accélération (comme des petits chocs). Vous voudrez ajuster le seuil déclenchant le chronomètre.
+
+         Une fois l'expérience lancée, le chronomètre démarrera à la première accélération (absolue) dépassant le seuil et s'arrêtera à la deuxième accélération. L'accélération qui déclenche le chronomètre doit être un signal court, car une vibration longue peut être détectée comme étant à la fois le déclenchement et le signal d'arrêt.
+    </description>
+      <string original="Simple">Composantes</string>
+      <string original="Threshold">Seuil</string>
+      <string original="Minimum Delay">Délai minimum</string>
+      <string original="Time">Durée</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Modifiez le seuil pour qu'il soit supérieur au niveau de bruit du capteur, mais inférieur à l'accélération de déclenchement (vous pouvez essayer l'expérience "accélération sans g" pour déterminer ces valeurs). Le délai minimum correspond au temps pendant lequel le chronomètre reste inactif avant de commencer à rechercher son signal d'arrêt ; réglez cette valeur pour éviter que le choc qui déclenche le chronomètre ne l'arrête également.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La précision de cette expérience dépend de l'accéléromètre installé dans votre téléphone. Les accéléromètres rapides peuvent fournir des mesures à des intervalles inférieurs à un centième de seconde, alors que les plus lents peuvent être limités à des vitesses de l'ordre d'une mesure par seconde.</string>
+      <string original="Sequence">Répété</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Parallel">En parallèle</string>
+      <string original="Many">Statistiques</string>
+      <string original="Events">Évènements</string>
+      <string original="Event number">Numéro de l'évènement</string>
+      <string original="Time interval">Temps mesuré</string>
+      <string original="Average interval">Moyenne de l'intervalle de temps</string>
+      <string original="Average rate">Fréquence moyenne</string>
+      <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+    </translation>
+    <translation locale="vi">
+      <title>Đồng hồ chuyển động</title>
+      <category>Đồng hồ</category>
+      <description>
+        Đo thời gian giữa hai sự kiện chuyển động.
+
+        Thí nghiệm này cho phép đo thời gian giữa hai lần tăng tốc (như những cú sốc nhỏ). Bạn có thể muốn điều chỉnh ngưỡng, đưa ra mức độ đồng hồ bấm giờ được kích hoạt.
+
+        Sau khi nhấn bắt đầu thí nghiệm, đồng hồ sẽ chạy khi tổng gia tốc đầu tiên vượt quá ngưỡng và sẽ dừng ở lần tăng tốc thứ hai. Đảm bảo rằng tín hiệu tăng tốc đầu tiên ngắn vì rung động dài có thể được phát hiện như là một kích thích dừng.
+    </description>
+      <string original="Simple">Đơn giản</string>
+      <string original="Threshold">Ngưỡng</string>
+      <string original="Minimum Delay">Độ trễ tối thiểu</string>
+      <string original="Time">Thời gian</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Thay đổi ngưỡng ở trên mức độ nhiễu của cảm biến, nhưng dưới mức gia tốc kích hoạt (bạn có thể thử thí nghiệm gia tốc mà không cần g để kiểm tra các mức này). Đồng thời đặt độ trễ tối thiểu để tránh bị kích hoạt dừng bởi kích thích đầu tiên.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Độ chính xác của thí nghiệm này phụ thuộc vào gia tốc kế trong điện thoại của bạn. Gia tốc kế nhanh có thể tốt hơn một phần trăm giây, trong khi những gia tốc kế chậm chỉ có thể đạt được độ phân giải một giây.</string>
+      <string original="Sequence">Chuỗi</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Parallel">Song Song</string>
+      <string original="Many">Nhiều</string>
+      <string original="Events">Các sự kiện</string>
+      <string original="Event number">Số chẵn</string>
+      <string original="Time interval">Khoảng thời gian</string>
+      <string original="Average interval">Khoảng trung bình</string>
+      <string original="Average rate">Tần số trung bình</string>
+      <string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string>
+      <string original="1/min">1/phút</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>运动秒表</title>
+      <category>计时器</category>
+      <description>
+        获得两个运动事件间的间隔时间。
+
+        本实验可以用来测量两个加速事件（比如小晃动）间的时间。你可以调整触发秒表的阈值。
+
+        实验启动后，时钟会在第一个超过阈值的加速事件发生时启动，并在第二个加速事件发生时停止。确保第一个加速信号足够短，以免过长的振动被误判为事件停止。
+    </description>
+      <string original="Simple">简明值</string>
+      <string original="Threshold">阈值</string>
+      <string original="Minimum Delay">最小时延</string>
+      <string original="s">秒</string>
+      <string original="Time">时间</string>
+      <string original="Reset">复位</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">调整阈值使其高于传感器噪声级，但低于触发的加速度（你可以利用不含g的重力加速度试验检测该值）。同时，设置最小时延，来避免比时延更短时产生触发。</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">本实验的精确度与手机的加速度计有关。快速加速度计的精确度高于0.01s，而慢速加速度计可能只能达到1秒的分辨率。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">时间 1</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Parallel">并行</string>
+      <string original="Many">多任务</string>
+      <string original="Events">任务</string>
+      <string original="Event number">任务数</string>
+      <string original="Time interval">事件间隔</string>
+      <string original="Average interval">平均间隔</string>
+      <string original="Average rate">平均频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

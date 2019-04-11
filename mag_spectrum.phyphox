@@ -316,6 +316,89 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field y">y方向磁場</string>
       <string original="Magnetic field z">z方向磁場</string>
     </translation>
+    <translation locale="fr">
+      <title>Spectre magnétique</title>
+      <category>Outils</category>
+      <description>
+            Trace spectre fréquentiel des mesures effectuées par le magnétomètre.
+
+             Cette expérience enregistre les mesures du magnétomètre et calcule son spectre de fréquence par transformée de Fourier rapide (FFT). La fréquence maximale détectable dépend de la vitesse d'acquisition de votre capteur.
+    </description>
+      <string original="Spectrum">Spectre</string>
+      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Fourier Transform">Transformée de Fourier</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="FFT Mag">FFT Amplitude</string>
+      <string original="Samples used">Nombre d'échantillons</string>
+      <string original="Period used">Durée de l’échantillonnage</string>
+      <string original="Acquisition rate">Fréquence d'acquisition</string>
+      <string original="Nyquist frequency">Fréquence de Nyquist</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Choisissez le nombre d'échantillons utilisés pour calculer la transformée de Fourier. Plus ce nombre est grand, plus la résolution en fréquence sera bonne, mais cela prendra plus de temps.</string>
+      <string original="Samples">Nombre d'échantillons</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Magnetic field x">Champs magnétique selon x</string>
+      <string original="Magnetic field y">Champs magnétique selon y</string>
+      <string original="Magnetic field z">Champs magnétique selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Từ phổ</title>
+      <category>Công cụ</category>
+      <description>
+            Hiển thị dữ liệu phổ tần số từ từ kế.
+
+             Thí nghiệm này ghi lại dữ liệu từ từ kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số có thể phát hiện tối đa phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
+    </description>
+      <string original="Spectrum">Phổ</string>
+      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Fourier Transform">Biến đổi Fourier</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Samples used">Mẫu được dùng</string>
+      <string original="Period used">Khoảng được dùng</string>
+      <string original="Acquisition rate">Tốc độ thu được</string>
+      <string original="Nyquist frequency">Tần số Nyquist</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Bạn có thể đặt số lượng mẫu được sử dụng cho biến đổi Fourier bên dưới. Nhiều mẫu hơn có nghĩa là cập nhật chậm hơn, nhưng độ phân giải phổ cao hơn.</string>
+      <string original="Samples">Mẫu</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Magnetic field x">Từ trường x</string>
+      <string original="Magnetic field y">Từ trường y</string>
+      <string original="Magnetic field z">Từ trường z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>磁场谱</title>
+      <category>工具</category>
+      <description>
+            显示磁力计数据的频谱。
+
+            本实验记录来自磁力计的数据并利用快速傅里叶变换（FFT）计算其频谱。可测最大频率取决于你的传感器的最高采样率。
+    </description>
+      <string original="Spectrum">加速度频谱</string>
+      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Hz">赫兹</string>
+      <string original="Fourier Transform">傅里叶变换</string>
+      <string original="Frequency">频率</string>
+      <string original="FFT Mag">FFT幅值</string>
+      <string original="Samples used">采用样本数</string>
+      <string original="Period used">使用周期</string>
+      <string original="s">秒</string>
+      <string original="Acquisition rate">采样率</string>
+      <string original="Nyquist frequency">奈奎斯特频率</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Settings">设置</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">以下你可以设立傅里叶变换采用的样本数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
+      <string original="Samples">样本数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Magnetic field x">X方向磁场</string>
+      <string original="t">时间</string>
+      <string original="Magnetic field y">Y方向磁场</string>
+      <string original="Magnetic field z">Z方向磁场</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">magInX</container>

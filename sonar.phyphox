@@ -342,6 +342,87 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Chirp">波包</string>
       <string original="Time">時間</string>
     </translation>
+    <translation locale="fr">
+      <title>Sonar</title>
+      <category>Acoustique</category>
+      <description>
+        Mesure une distance en utilisant l’écho.
+
+        Un sonar envoie des pulses sonores qui sont réfléchis par l'objet dont vous voulez mesurer la distance. Le son se déplace à une vitesse d'environ 340 m/s ; le temps qui sépare l’émission du pulse et le retour de son écho (mesuré par le microphone de votre téléphone) peut être utilisé pour calculer la distance de cet objet.
+
+        Cette expérience génère un « pulse » dans le haut-parleur de votre smartphone, et démarre un enregistrement sonore. Une corrélation croisée entre le pulse émis et le son mesuré permet de déterminer le moment quand l’écho revient sur le micro. Ce temps peut ensuite être multiplié par la vitesse du son (et divisé par 2 car le son fait un aller-retour) pour obtenir la distance à laquelle se trouve l’objet responsable de la réflexion du pulse sonore.
+
+        Cependant le son voyage dans toutes les directions. En ciblant un mur, vous obtenez également des réflexions en provenance du sol, du plafond, des autres murs, et de toute surface « dure » située à proximité. Le sonar mesure tous les échos, et c'est à vous d'interpréter le résultat et de déterminer quelle réflexion correspond à la cible que vous voulez mesurer. Commencez par une petite cible en matière dure et essayez de protéger les autres directions avec de la mousse. Un environnement bruyant va perturber cette expérience.
+    </description>
+      <string original="Time series">Évolution dans le temps</string>
+      <string original="Normalized history">Historique normalisé</string>
+      <string original="time">temps</string>
+      <string original="Echo location">Distance</string>
+      <string original="Speed of Sound">Vitesse du son</string>
+      <string original="Normalized to spherical surface">Normalisé par une surface sphérique</string>
+      <string original="Target distance">Distance de la cible</string>
+      <string original="Echo strength">Intensité de l'écho</string>
+      <string original="Timing">Temps</string>
+      <string original="On this page you just get the measured delay.">Enregistrement sonore en fonction du temps.</string>
+      <string original="Delay">Temps écoulé</string>
+      <string original="Chirp">Pulse</string>
+      <string original="Time">Durée</string>
+    </translation>
+    <translation locale="vi">
+      <title>Sonar</title>
+      <category>Âm thanh</category>
+      <description>
+        Đo khoảng cách thông qua tiếng vang và tốc độ của âm thanh.
+
+        Một sonar gửi các âm thanh ngắn, được phản xạ bởi vật bạn muốn đo. Khi âm thanh truyền đi với tốc độ xấp xỉ 340 m/s, thời gian tính đến khi âm phản xạ tới micrô của điện thoại của bạn có thể được sử dụng để tính khoảng cách của vật thể này.
+
+        Thí nghiệm này tạo ra một "tiếng kêu", nó phát qua loa và bắt đầu ghi âm. Một sự xen kẽ của tiếng kêu và dữ liệu được ghi lại cung cấp thông tin về thời gian xảy ra tiếng vang. Thời gian này sau đó có thể được nhân với tốc độ âm thanh (và chia cho 2 khi âm thanh phải truyền đi và trở lại) và bạn có được khoảng cách tới nơi mà tiếng vang phát ra.
+
+        Tuy nhiên, âm thanh thường đi theo mọi hướng. Đối với sonar, điều này có nghĩa là, khi nhắm mục tiêu vào một bức tường, bạn cũng nhận được phản xạ từ sàn nhà, trần nhà, một bức tường khác gần đó, một cái cột hoặc đơn giản là từ mọi bề mặt "cứng" gần đó. Do đó, sonar này cung cấp cho bạn tất cả các phản xạ và nó tuỳ thuộc vào bạn để giải thích kết quả và tìm ra sự phản xạ nào tương ứng với mục tiêu bạn dự định đo. Vì vậy, bắt đầu với một mục tiêu cứng nhỏ và cố gắng sàng lọc tất cả các hướng khác với một số vật liệu xốp. Ngoài ra, điều này cần một môi trường yên tĩnh.
+    </description>
+      <string original="Time series">Chuỗi t. gian</string>
+      <string original="Normalized history">Lịch sử đã chuẩn hoá</string>
+      <string original="distance">khoảng cách</string>
+      <string original="time">thời gian</string>
+      <string original="Echo location">Vị trí tiếng vang</string>
+      <string original="Speed of Sound">Tốc độ âm thanh</string>
+      <string original="Normalized to spherical surface">Chuẩn hoá mặt cầu</string>
+      <string original="Target distance">Khoảng cách mục tiêu</string>
+      <string original="Echo strength">Độ mạnh tiếng vang</string>
+      <string original="Timing">Thời gian</string>
+      <string original="On this page you just get the measured delay.">Trong trang này, bạn chỉ đo độ trễ.</string>
+      <string original="Delay">Độ trễ</string>
+      <string original="Chirp">Tiếng kêu</string>
+      <string original="Time">Thời gian</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>声呐</title>
+      <category>声学</category>
+      <description>
+        通过回声与声速测量距离。
+
+        声呐会发射一组可被待测物发射的短波.当声波以约340m/s的速度传输时，反射到达手机麦克风的时长可用来测试距待测物的距离。
+
+        该实验会产生一个“尖声”从扬声器传出并开始录音。该声音与记录数据互相关后可得出回声产生的时间。这个时间可以乘以声速（并除以2，因为声音需要来回传递），这样你能得到产生回声处的距离。
+
+        然而，声音在各个方向上传播。对于声呐而言，当对着一堵墙的时候，你同样会收到来自地板、天花板、附近墙壁、柱子，甚至每块合适的“硬”表面的反射。因此该声呐会给出所有的反射数据，由你来解读结果并算出，哪个反射和你的待测目标一致。所以应用硬质小物体开始你的实验，并尝试用一些泡沫材料来屏蔽所有其他方向的反射。
+    </description>
+      <string original="Time series">时间序列</string>
+      <string original="Normalized history">归一化历史记录</string>
+      <string original="distance">距离</string>
+      <string original="time">时间</string>
+      <string original="Echo location">回声位置</string>
+      <string original="Speed of Sound">声速</string>
+      <string original="m/s">米/秒</string>
+      <string original="Normalized to spherical surface">归一化至球面</string>
+      <string original="Target distance">目标距离</string>
+      <string original="Echo strength">回声强度</string>
+      <string original="Timing">时刻</string>
+      <string original="On this page you just get the measured delay.">此页面显示测量到的时延。</string>
+      <string original="Delay">时延</string>
+      <string original="Chirp">波包</string>
+      <string original="Time">时间</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

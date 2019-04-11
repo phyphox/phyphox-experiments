@@ -138,6 +138,42 @@
       <string original="Simple">簡易</string>
       <string original="lx">勒克斯</string>
     </translation>
+    <translation locale="fr">
+      <title>Luminosité</title>
+      <category>Capteurs</category>
+      <description>Données brutes du capteur de lumière.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Illuminance">Éclairement lumineux</string>
+      <string original="Info">
+                Note : sur certains smartphone, le capteur de lumière ne met à jour sa mesure qu'en cas de grande variation d'intensité lumineuse.
+            </string>
+      <string original="Simple">Composantes</string>
+    </translation>
+    <translation locale="vi">
+      <title>Ánh sáng</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ cảm biến ánh sáng.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Illuminance">Độ sáng</string>
+      <string original="Info">
+                Lưu ý: Trên một số thiết bị, cảm biến ánh sáng chỉ được cập nhật khi có sự thay đổi độ sáng.
+            </string>
+      <string original="Simple">Đơn giản</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>光</title>
+      <category>原始传感器</category>
+      <description>从光传感器获取原始数据。</description>
+      <string original="Graph">图表</string>
+      <string original="Illuminance">照度</string>
+      <string original="t">时间</string>
+      <string original="Ev">曝光值</string>
+      <string original="Info">
+                注意：在一些装置上，光传感器只有出现大的亮度变化时才会更新数据。
+            </string>
+      <string original="Simple">简明值</string>
+      <string original="lx">勒克斯</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

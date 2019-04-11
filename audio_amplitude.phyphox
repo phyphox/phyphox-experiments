@@ -372,6 +372,103 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Why can't we get a better calibration?">為什麼我們不能有更好的校正？</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">我們希望的是有一個簡單的程序可以讓學生在各個裝置下得到資料。對於完美的裝置，你可以校正頻率對於麥克風的依賴程度甚至是補償非線性的結果。如果你有這類的裝置，請讓我們知道，我們已經努力使用進階的校正方法來校正phyphox的實驗數據了。</string>
     </translation>
+    <translation locale="fr">
+      <title>Intensité sonore</title>
+      <category>Acoustique</category>
+      <description>
+        Mesure l'intensité d'un son.
+
+        Cette expérience utilise le micro pour à enregistrer le bruit sur de courts intervalles, puis calcule la pression acoustique correspondante (SPL en anglais). Notez que ce calcul est une approche très naïve et que les résultats sont plutôt imprécis. De plus, vous devrez donner une référence pour étalonner la mesure.
+    </description>
+      <string original="Amplitude">Intensité</string>
+      <string original="Status">État</string>
+      <string original="NOT calibrated">NON étalonné</string>
+      <string original="calibrated">étalonné</string>
+      <string original="Sound pressure level">Pression acoustique (SPL)</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Clear history">Vider l'historique</string>
+      <string original="Please see the calibration tab to get proper results.">Allez sur l'onglet calibration pour avoir des résultats plus corrects.</string>
+      <string original="Calibration">Étalonnage</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Cette expérience utilise une approche plutôt naïve pour déterminer la pression acoustique. Pour étalonner la mesure, vous aurez besoin d'un son de référence, avec son intensité connue en dB. Par exemple, vous pouvez configurer une source de bruit constante et mesurer sa pression acoustique à l'aide d'un sonomètre externe. Entrez l'intensité mesurée comme référence, et appuyer sur 'étalonner' pendant que l'expérience est en cours.</string>
+      <string original="Reference SPL">Intensité de référence</string>
+      <string original="Calibrate">Étalonner</string>
+      <string original="Calibration offset">Offset de l'étalonnage</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Si vous avez déjà effectué cette opération auparavant sur cet appareil ou un appareil identique, vous pouvez saisir directement le décalage de votre étalonnage précédent et appuyer sur 'enregistrer le décalage'.</string>
+      <string original="Custom offset">Décalage adéquat</string>
+      <string original="Set offset">enregistrer le décalage</string>
+      <string original="How accurate are these results?">Quelle est la précision de ces mesures ?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Dans le but d’enseigner ou d’explorer ? Sans doute suffisamment bonne. Dans le but de faire des études sérieuses ? Probablement insuffisante, mais d'autres applications pourraient être plus performantes (voir ci-dessous). Pour des applications scientifiques ou liées à la santé ? Sans aucun doute insuffisante, utilisez plutôt un appareil adapté.</string>
+      <string original="Why isn't this already calibrated?">Pourquoi l'étalonnage n'est-il pas déjà effectué ?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox est disponible sur plus de 10000 appareils. Ces appareils ont des micros différents, des composants électroniques différents, et des logiciels différents, tout ceci affectant la mesure du son. Nous ne pouvons pas tous les étalonner ; mais certaines applications ne ciblent qu'un nombre limité d'appareils (comme les applications spécifiques aux iPhones) et peuvent connaître l’étalonnage de ces appareils. Si vous voulez de bons résultats sans étalonnage, vous devriez regarder s’il existe des applications spécifiques à votre appareil.</string>
+      <string original="Why can't we get a better calibration?">Pourquoi n'est-il pas possible de faire un meilleur étalonnage ?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Nous voulions une procédure simple pour permettre aux étudiants d'obtenir des résultats comparables sur différents appareils. Avec un équipement adéquat, vous pourriez également étalonner la dépendance en fréquence de votre microphone et peut-être même compenser les réponses non linéaires. Si vous avez un tel équipement et que vous voulez faire l’essai, veuillez nous le faire savoir : nous avons en réserve des expériences qui permettent des techniques d'étalonnage plus avancées.</string>
+    </translation>
+    <translation locale="vi">
+      <title>Biên độ âm thanh</title>
+      <category>Âm học</category>
+      <description>
+        Lấy biên độ của âm thanh.
+
+        Thí nghiệm này chỉ đơn giản là ghi lại các khoảng thời gian ngắn từ micrô và tính toán mức áp suất âm thanh (SPL). Lưu ý rằng tính toán này là một cách tiếp cận rất đơn giản và kết quả có thể không chính xác. Ngoài ra, bạn sẽ phải đưa ra một tham chiếu để hiệu chỉnh phép đo.
+    </description>
+      <string original="Amplitude">Biên độ</string>
+      <string original="Status">Trạng thái</string>
+      <string original="NOT calibrated">CHƯA hiệu chỉnh</string>
+      <string original="calibrated">đã hiệu chỉnh</string>
+      <string original="Sound pressure level">Mức áp suất âm</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Clear history">Xoá lịch sử</string>
+      <string original="Please see the calibration tab to get proper results.">Vui lòng xem mục hiệu chỉnh để có kết quả đúng hơn.</string>
+      <string original="Calibration">Hiệu chỉnh</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Thí nghiệm này sử dụng một cách tiếp cận khá đơn giản để xác định mức áp suất âm thanh (SPL). Bạn sẽ cần một âm thanh tham chiếu với biên độ đã biết tính bằng dB. Ví dụ, bạn có thể thiết lập nguồn tiếng ồn không đổi và đo mức áp suất âm thanh của nó với một thiết bị bên ngoài. Nhập mức đo để SPL tham chiếu và ấn 'hiệu chỉnh' trong khi thí nghiệm đang chạy.</string>
+      <string original="Reference SPL">Tham chiếu SPL</string>
+      <string original="Calibrate">Hiệu chỉnh</string>
+      <string original="Calibration offset">Hiệu chỉnh bù</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Nếu bạn đã thực hiện việc này trước đây hoặc trên một thiết bị giống hệt, bạn có thể chỉ cần nhập trực tiếp vào hiệu chỉnh bù từ hiệu chỉnh trước đó và nhấn 'đặt bù lại'.</string>
+      <string original="Custom offset">Tuỳ chỉnh bù</string>
+      <string original="Set offset">Đặt mức bù</string>
+      <string original="How accurate are these results?">Độ chính xác của kết quả là bao nhiêu?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Để giảng dạy và khám phá? Có lẽ là đủ tốt. Đối với nghiên cứu nghiêm túc? Có thể là không, nhưng các ứng dụng khác có thể hoạt động tốt hơn (xem bên dưới). Đối với các ứng dụng liên quan đến khoa học hoặc sức khỏe? Chắc chắn là không, sử dụng một thiết bị chuyên dụng cho việc này.</string>
+      <string original="Why isn't this already calibrated?">Tại sao cái này chưa được hiệu chỉnh?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox đã được dùng trên hơn 10000 thiết bị. Hầu hết trong số đó có micrô khác nhau, mạch điện tử khác nhau và phần mềm khác nhau - tất cả đều ảnh hưởng đến phản ứng của chúng đối với âm thanh. Chúng tôi không thể hiệu chuẩn tất cả chúng, nhưng trong một số trường hợp, có những ứng dụng dành cho một số thiết bị giới hạn (như ứng dụng dành riêng cho iPhone) có thể được hiệu chuẩn. Nếu bạn quan tâm đến kết quả tốt hơn mà không cần hiệu chuẩn, bạn nên kiểm tra các ứng dụng cụ thể cho thiết bị của mình.</string>
+      <string original="Why can't we get a better calibration?">Tại sao chúng ta không thể có một hiệu chuẩn tốt hơn?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Chúng tôi muốn một quy trình đơn giản để cho phép sinh viên có được dữ liệu có thể so sánh trên các thiết bị khác nhau. Với thiết bị phù hợp, bạn cũng có thể hiệu chỉnh sự phụ thuộc tần số của micrô và thậm chí có thể bù cho các phản hồi phi tuyến tính. Nếu bạn có thiết bị như vậy và muốn dùng thử, vui lòng cho chúng tôi biết - chúng tôi đã có các thí nghiệm phyphox cho phép các kỹ thuật hiệu chuẩn nâng cao hơn.</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>声音振幅</title>
+      <category>声学</category>
+      <description>
+        得出声音的振幅大小。
+
+       本实验仅记录麦克风的短间隔并计算声压级(SPL)。注意该计算为十分简易的计算方式，因此结果可能不准确。你还需要一个参考值来校准该测量。
+    </description>
+      <string original="Amplitude">振幅</string>
+      <string original="Status">状态</string>
+      <string original="NOT calibrated">未校准</string>
+      <string original="calibrated">已校准</string>
+      <string original="Sound pressure level">声压级</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Clear history">清除历史记录</string>
+      <string original="Please see the calibration tab to get proper results.">请查看「校准」标签来获得合适结果。</string>
+      <string original="Calibration">校准</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">本实验利用较建议的方法来确定声压级(SPL)。你需要一个已知dB振幅的参考声音。例如，你可以设置一个持续的噪声源并用外部设备测量其声压级。实验进行时，输入测得的参考声压级并按下「校准」。</string>
+      <string original="Reference SPL">参考SPL</string>
+      <string original="Calibrate">校准</string>
+      <string original="Calibration offset">校准补偿值</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">如果你曾做过本实验，或在同个设备上实验，你可以直接输入之前的校准补偿并按下「设置补偿值」。</string>
+      <string original="Custom offset">自定义补偿</string>
+      <string original="Set offset">设置补偿值</string>
+      <string original="FAQ">常见问答</string>
+      <string original="How accurate are these results?">这些实验结果有多精确？</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">针对教学和探索？可能足够了。针对严谨的研究？可能还不行，但其他应用可能做得更好（见下文）。针对科学或健康相关的应用？当然不行——你需要使用专用的设备。</string>
+      <string original="Why isn't this already calibrated?">为什么这不是校准好的呢？</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Phyphox在超过10000台设备上能够运行。大多设备都有不同的麦克风、电子器件和软件——这些都会影响其对声音的反应。我们不能校准所有设备，但在某些情况下，有些只针对有限设备（比如iPhone专用APP）的APP可以自行校准这些设备。如果你想不通过校准得到更好的结果，你可以查找适合你的设备的特定APP。</string>
+      <string original="Why can't we get a better calibration?">为什么我们不能得到更好的校准值？</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">我们想通过简单的流程让学生能通过不同的设备得到可比数据。使用适合的设备，你也可以校准你的麦克风的频率相关性，甚至可以补偿非线性响应。如果你有这样的设备并想要尝试它，请告诉我们——我们准备了能实现更先进校准技术的phyphox实验。</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

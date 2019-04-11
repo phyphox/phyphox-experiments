@@ -228,6 +228,59 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">時間</string>
       <string original="Angular velocity">角速度</string>
     </translation>
+    <translation locale="fr">
+      <title>Accélération centripète</title>
+      <category>Mécanique</category>
+      <description>
+        Représente l'accélération centripète en fonction de la vitesse angulaire.
+
+         Cette expérience mesure la valeur absolue de la vitesse angulaire ω à partir du gyroscope ainsi que de l'accélération absolue a à partir de l'accéléromètre. En traçant a en fonction de ω, la relation a = r · ω² peut être facilement étudiée, en comparant à une droite la représentation de a en fonction de ω².
+
+         Pour cela, il faut faire des mesures à différentes vitesses angulaires mais avec un rayon constant. Une essoreuse à salade ou les tourniquets des aires de jeux pour enfants conviennent parfaitement.
+    </description>
+      <string original="Acceleration">Accélération</string>
+      <string original="Angular velocity ω">Vitesse angulaire ω</string>
+      <string original="Acceleration a">Accélération a</string>
+      <string original="Square plot">Passage au carré</string>
+      <string original="Time">Durée</string>
+      <string original="Angular velocity">Vitesse angulaire</string>
+    </translation>
+    <translation locale="vi">
+      <title>Gia tốc hướng tâm</title>
+      <category>Cơ học</category>
+      <description>
+        Hình dung gia tốc hướng tâm là một hàm của vận tốc góc.
+
+        Thí nghiệm này tính toán giá trị tuyệt đối của vận tốc góc từ con quay hồi chuyển cũng như gia tốc tuyệt đối a từ gia tốc kế. Bằng cách vẽ đồ thị theo ω, mối liên hệ a = r·ω² có thể được hiển thị dễ dàng, và nếu vẽ theo ω² thì ta sẽ có một đường thẳng.
+
+        Để thấy điều này, bạn cần đo ở các vận tốc góc khác nhau nhưng ở bán kính cố định. Một máy qua làm khô rau hoặc một băng chuyền nhỏ sẽ cho kết quả tuyệt vời.
+    </description>
+      <string original="Relation">Đồ thị</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Angular velocity ω">Vận tốc góc ω</string>
+      <string original="Acceleration a">Gia tốc a</string>
+      <string original="Square plot">Đồ thị bình phương</string>
+      <string original="Time">Thời gian</string>
+      <string original="Angular velocity">Vận tốc góc</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>向心加速度</title>
+      <category>力学</category>
+      <description>
+        利用角速度函数可将向心加速度可视化。
+
+        本实验通过陀螺仪计算角速度ω 的绝对值，并通过加速度计得到绝对加速度。通过绘制a对ω的图形，a=r·ω²能够直观得出，因此，绘制ω² 图形应该是一条直线。
+        想观察这种情况，你需要测量固定半径下的不同角速度。沙拉搅拌器和小型旋转木马就能实现。
+    </description>
+      <string original="Relation">关系</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Angular velocity ω">角速度 ω</string>
+      <string original="Acceleration a">加速度 a</string>
+      <string original="Square plot">平方作图</string>
+      <string original="Time">时间</string>
+      <string original="t">时间</string>
+      <string original="Angular velocity">角速度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

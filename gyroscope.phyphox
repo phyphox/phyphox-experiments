@@ -146,6 +146,44 @@
       <string original="rad/s">弧度/秒</string>
       <string original="Simple">簡易</string>
     </translation>
+    <translation locale="fr">
+      <title>Gyroscope (vitesse angulaire)</title>
+      <category>Capteurs</category>
+      <description>Données brutes du gyroscope.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Gyroscope x">Gyroscope axe x</string>
+      <string original="Gyroscope y">Gyroscope axe y</string>
+      <string original="Gyroscope z">Gyroscope axe z</string>
+      <string original="Absolute">Norme</string>
+      <string original="Simple">Composantes</string>
+    </translation>
+    <translation locale="vi">
+      <title>Con quay hồi chuyển (tốc độ quay)</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ con quay hồi chuyển.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Gyroscope x">Con quay hồi chuyển x</string>
+      <string original="Gyroscope y">Con quay hồi chuyển y</string>
+      <string original="Gyroscope z">Con quay hồi chuyển z</string>
+      <string original="Absolute">Tổng hợp</string>
+      <string original="Multi">Nhiều</string>
+      <string original="Gyroscope">Con quay hồi chuyển</string>
+      <string original="Simple">Đơn giản</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>陀螺仪（转动速率）</title>
+      <category>原始传感器</category>
+      <description>从陀螺仪获得原始数据。</description>
+      <string original="Graph">图表</string>
+      <string original="Gyroscope x">x方向陀螺仪</string>
+      <string original="t">时间</string>
+      <string original="Gyroscope y">y方向陀螺仪</string>
+      <string original="Gyroscope z">z方向陀螺仪</string>
+      <string original="Absolute">绝对值</string>
+      <string original="Multi">多方向</string>
+      <string original="Gyroscope">陀螺仪</string>
+      <string original="Simple">简明值</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

@@ -172,6 +172,48 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Duration">持續時間</string>
       <string original="ms">毫秒</string>
     </translation>
+    <translation locale="fr">
+      <title>Mesure du son</title>
+      <category>Acoustique</category>
+      <description>
+        Affiche les données audio enregistrées.
+
+        Cette expérience enregistre de courtes périodes de données audio et les affiche sur un graphe. Pour obtenir un graphe stable, la mesure utilise un passage à zéro front montant comme trigger pour t=0.
+    </description>
+      <string original="Scope">Affichage</string>
+      <string original="Audio Data">Données audio</string>
+      <string original="Time">Durée</string>
+      <string original="Amplitude">Intensité</string>
+      <string original="Duration">Durée</string>
+    </translation>
+    <translation locale="vi">
+      <title>Đồ thị dao động âm</title>
+      <category>Âm học</category>
+      <description>
+        Hiển thị dữ liệu âm thanh được ghi.
+
+        Thí nghiệm này chỉ ghi lại các khoảng thời gian ngắn của dữ liệu âm thanh và hiển thị chúng. Để đạt được kết quả ổn định, thí nghiệm được kích khi biên độ bằng 0 và t = 0 được dịch chuyển sang vị trí biên độ bằng 0 (đang tăng) đầu tiên.
+    </description>
+      <string original="Scope">Phổ</string>
+      <string original="Audio Data">Dữ liệu âm</string>
+      <string original="Time">Thời gian</string>
+      <string original="Amplitude">Biên độ</string>
+      <string original="Duration">Khoảng t. gian</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>音频范围</title>
+      <category>声学</category>
+      <description>
+        显示已录制声音数据。
+
+        本实验仅录制并显示短时间内的音频数据。要实现画面静止，可以使用过零点来触发，此时t=0会移到第一（正）交叉点。
+    </description>
+      <string original="Scope">范围</string>
+      <string original="Audio Data">声音数据</string>
+      <string original="Time">时间</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Duration">持续时长</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

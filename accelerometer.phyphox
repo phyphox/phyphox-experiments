@@ -156,6 +156,48 @@
       <string original="Acceleration">加速度</string>
       <string original="Simple">簡易</string>
     </translation>
+    <translation locale="fr">
+      <title>accélération avec g</title>
+      <category>Capteurs</category>
+      <description>Données brutes de l'accéléromètre. Ce capteur mesure l’accélération du téléphone plus l’accélération gravitationnelle, de sorte qu'il indique une accélération de 9,81 m/s² lorsque le téléphone est au repos.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Accelerometer x">Accélération selon x</string>
+      <string original="Accelerometer y">Accélération selon y</string>
+      <string original="Accelerometer z">Accélération selon z</string>
+      <string original="Absolute">Norme</string>
+      <string original="Absolute acceleration">Norme du vecteur accélération</string>
+      <string original="Acceleration">Accélération</string>
+      <string original="Simple">Composantes</string>
+    </translation>
+    <translation locale="vi">
+      <title>Gia tốc có g</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ gia tốc kế. Cảm biến này sẽ không trừ đi lực hấp dẫn, do đó, nó sẽ báo cáo gia tốc 9,81 m/s² ngay cả khi điện thoại đang đứng yên.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Accelerometer x">Gia tốc kế x</string>
+      <string original="Accelerometer y">Gia tốc kế y</string>
+      <string original="Accelerometer z">Gia tốc kế z</string>
+      <string original="Absolute">Tổng hợp</string>
+      <string original="Absolute acceleration">Gia tốc tổng hợp</string>
+      <string original="Multi">Nhiều</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Simple">Đơn giản</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>含（g）的加速度</title>
+      <category>原始传感器</category>
+      <description>获得加速度计的原始数据。这个传感器不会扣除重力，因此即使手机静止时，它会报告 9.81 m/s²的加速度值。</description>
+      <string original="Graph">图表</string>
+      <string original="Accelerometer x">x方向加速度计</string>
+      <string original="t">时间</string>
+      <string original="Accelerometer y">y方向加速度计</string>
+      <string original="Accelerometer z">z轴加速度计</string>
+      <string original="Absolute">绝对值</string>
+      <string original="Absolute acceleration">加速度绝对值</string>
+      <string original="Multi">多方向</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Simple">简明值</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

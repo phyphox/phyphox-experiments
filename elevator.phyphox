@@ -228,6 +228,63 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Pressure">壓力</string>
       <string original="Accelerometer z">z方向加速儀</string>
     </translation>
+    <translation locale="fr">
+      <title>Ascenseur</title>
+      <category>Vie quotidienne</category>
+      <description>
+        Mesure la vitesse d'un ascenseur à l'aide du baromètre.
+
+        Les variations rapides de hauteur  peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
+
+        Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation de hauteur à l'aide de la relation pression / hauteur. La variation de hauteur divisée par l’intervalle de temps donne la vitesse verticale.
+    </description>
+      <string original="Motion">Mouvement</string>
+      <string original="Height (from barometer)">Hauteur (selon le baromètre)</string>
+      <string original="Vertical velocity (from height)">vitesse verticale (à partir de la hauteur)</string>
+      <string original="z acceleration (from accelerometer)">accélération selon z (selon l'accéléromètre)</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Pressure">Pression</string>
+      <string original="Accelerometer z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thang máy</title>
+      <category>Cuộc sống hằng ngày</category>
+      <description>
+        Xác định tốc độ của thang máy bằng cách dùng áp kế.
+
+        Thay đổi độ cao trong một thời gian ngắn có thể được xác định rất chính xác bằng áp kế - kể cả khi GPS không hoạt động. Điều này có thể dùng để suy ra tốc độ thẳng đứng của thang máy. Thêm vào đó, gia tốc được đo bằng gia tốc kế thành phần theo trục z, để có phép đo chính xác của gia tốc, điện thoại được đặt nằm trên sàn.
+
+        Cụ thể hơn:
+        Để giảm nhiễu trong thí nghiệm này, dữ liệu từ áp kế được tính trung bình cho từng giây. Hiệu trung bình áp suất liên tiếp được đổi thành độ cao theo công thức quốc tế tính độ cao theo áp suất. Hiệu độ cao được chia cho thời di chuyển để có tốc độ theo phương thẳng đứng.
+    </description>
+      <string original="Motion">Chuyển động</string>
+      <string original="Height (from barometer)">Độ cao (từ áp kế)</string>
+      <string original="Vertical velocity (from height)">Tốc độ thẳng đứng (từ độ cao)</string>
+      <string original="z acceleration (from accelerometer)">gia tốc z (từ gia tốc kế)</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Pressure">Áp suất</string>
+      <string original="Accelerometer z">Gia tốc kế z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>电梯</title>
+      <category>日常生活</category>
+      <description>
+        利用气压计确定电梯的速度。
+
+        利用气压计能十分精确地测量短时间内的高度变化 -即使是GPS不能使用的地方。借此可以得出电梯的垂直速度。此外，使用Z分量加速度计能测得加速度，为实现加速度的准确测量，手机应该平放在电梯地板上。
+
+        更多细节：
+        为了消除本实验中的一些噪声，气压表读数取每秒钟的平均值。使用国际气压高度公式，能将连续平均值的差异转化为高度差。高度差除以时间差得到电梯的垂直速度。
+    </description>
+      <string original="Motion">运动</string>
+      <string original="Height (from barometer)">高度（来自气压计）</string>
+      <string original="t">时间</string>
+      <string original="Vertical velocity (from height)">垂直速度（来自高度）</string>
+      <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Pressure">压力</string>
+      <string original="Accelerometer z">z轴加速度计</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

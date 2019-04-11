@@ -549,6 +549,145 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">開始觸發 5</string>
       <string original="Trigger off 5">結束觸發 5</string>
     </translation>
+    <translation locale="fr">
+      <title>Chronomètre optique</title>
+      <category>Chronomètres</category>
+      <description>
+        Chronomètre dont le déclenchement et l'arrêt sont pilotés par l'intensité lumineuse mesurée par le capteur de votre téléphone.
+
+        Cette expérience permet de mesurer le temps entre des alternances d'éclairement et d'ombre sur votre téléphone (ou leur durée). Vous pouvez ainsi, par exemple, mesurer le temps entre deux évènements qui bloquent la lumière.
+
+        Attention : la précision des mesures dépend fortement du capteur de lumière installé sur letéléphone. Pour les capteurs les plus lents, l'incertitude peut dépasser la seconde. Pour les capteurs les plus rapides, l'incertitude ne descend en général pas en dessous de quelques dixièmes de seconde. Pour des mesures plus précises, il faut utiliser le chronomètre sonore (qui est contrôlé par le son).
+    </description>
+      <string original="Settings">Paramètres</string>
+      <string original="Trigger below">Seuil de déclenchement bas</string>
+      <string original="Trigger above">Seuil de déclenchement haut</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Le chronomètre est déclenché par les intensités lumineuses inférieures au seuil bas et par celles supérieures au seuil haut. Si vous ne voulez le déclencher qu'en cas de forte luminosité, réglez la valeur du seuil bas à zéro. Au contraire, si vous voulez le déclencher uniquement en cas de faible luminosité, réglez la valeur du seuil haut sur une valeur très élevée. Vous pouvez déterminer les valeurs de seuil appropriées en utilisant le graphique ci-dessous.</string>
+      <string original="Illuminance">Éclairement lumineux</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">La précision des mesures dépend fortement du capteur de lumière installé sur votre téléphone. Pour les capteurs les plus lents, l'incertitude peut dépasser la seconde. Pour les capteurs les plus rapides, l'incertitude ne descend en général pas en dessous de quelques dixièmes de seconde. Pour des mesures plus précises, il est préférable d'utiliser le chronomètre sonore (qui est contrôlé par le son).</string>
+      <string original="Sequence">Répété</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Parallel">En parallèle</string>
+      <string original="Duration">Durée</string>
+      <string original="Trigger duration 0">Durée 0</string>
+      <string original="Trigger duration 1">Durée 1</string>
+      <string original="Trigger duration 2">Durée 2</string>
+      <string original="Trigger duration 3">Durée 3</string>
+      <string original="Trigger duration 4">Durée 4</string>
+      <string original="Trigger duration 5">Durée 5</string>
+      <string original="Triggers">Déclenchements</string>
+      <string original="Trigger on 0">Déclenchement début 0</string>
+      <string original="Trigger off 0">Déclenchement fin 0</string>
+      <string original="Trigger on 1">Déclenchement début 1</string>
+      <string original="Trigger off 1">Déclenchement fin 1</string>
+      <string original="Trigger on 2">Déclenchement début 2</string>
+      <string original="Trigger off 2">Déclenchement fin 2</string>
+      <string original="Trigger on 3">Déclenchement début 3</string>
+      <string original="Trigger off 3">Déclenchement fin 3</string>
+      <string original="Trigger on 4">Déclenchement début 4</string>
+      <string original="Trigger off 4">Déclenchement fin 4</string>
+      <string original="Trigger on 5">Déclenchement début 5</string>
+      <string original="Trigger off 5">Déclenchement fin 5</string>
+    </translation>
+    <translation locale="vi">
+      <title>Đồng hồ bấm giờ quang</title>
+      <category>Đồng hồ</category>
+      <description>
+        Đo thời gian dựa trên ánh sáng chiếu vào điện thoại của bạn.
+
+         Trong thí nghiệm này, bạn có thể phơi cảm biến ánh sáng của mình ra nguồn sáng để đo khoảng thời gian giữa các trạng thái sáng hoặc tối. Ví dụ: bạn có thể đo thời gian giữa hai sự kiện chặn nguồn sáng.
+
+         Lưu ý, độ chính xác phụ thuộc rất nhiều vào cảm biến ánh sáng trong điện thoại của bạn. Đối với các cảm biến chậm, cảm biến có thể phản hồi sau hơn một giây trong khi các cảm biến nhanh thường phản hồi không nhanh hơn một phần mười giây. Các phép đo nhanh hơn có thể đo được bằng cách sử dụng thí nghiệm đồng hồ bấm giờ âm thanh, nó dựa trên âm thanh.
+    </description>
+      <string original="Settings">Cài đặt</string>
+      <string original="Trigger below">Kích hoạt dưới</string>
+      <string original="Trigger above">Kích hoạt trên</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Các kích hoạt đồng hồ thời gian có cả trên và dưới ngưỡng nhất định. Nếu bạn chỉ muốn kích hoạt khi chiếu sáng, hãy đặt giá trị cho "kích hoạt dưới" bằng 0. Nếu bạn chỉ muốn kích hoạt các sự kiện tối, hãy đặt giá trị "kích hoạt trên" rất cao. Bạn có thể ước tính ngưỡng phù hợp cho trình kích hoạt khác của mình từ biểu đồ bên dưới.</string>
+      <string original="Illuminance">Độ sáng</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Độ chính xác phụ thuộc nhiều vào cảm biến ánh sáng trong điện thoại của bạn. Đối với các cảm biến chậm, cảm biến có thể phản hồi hơn sau một giây trong khi các cảm biến nhanh thường phản hồi không nhanh hơn một phần mười giây. Các phép đo nhanh hơn, nhưng dựa trên âm thanh, có thể có được bằng cách sử dụng thí nghiệm đồng hồ bấm giờ âm thanh.</string>
+      <string original="Sequence">Chuỗi</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Parallel">Song Song</string>
+      <string original="Duration">Khoảng t. gian</string>
+      <string original="Trigger duration 0">Khoảng kích hoạt 0</string>
+      <string original="Trigger duration 1">Khoảng kích hoạt 1</string>
+      <string original="Trigger duration 2">Khoảng kích hoạt 2</string>
+      <string original="Trigger duration 3">Khoảng kích hoạt 3</string>
+      <string original="Trigger duration 4">Khoảng kích hoạt 4</string>
+      <string original="Trigger duration 5">Khoảng kích hoạt 5</string>
+      <string original="Triggers">Kích hoạt</string>
+      <string original="Trigger on 0">Kích hoạt mở 0</string>
+      <string original="Trigger off 0">Kích hoạt tắt 0</string>
+      <string original="Trigger on 1">Kích hoạt mở 1</string>
+      <string original="Trigger off 1">Kích hoạt tắt 1</string>
+      <string original="Trigger on 2">Kích hoạt mở 2</string>
+      <string original="Trigger off 2">Kích hoạt tắt 2</string>
+      <string original="Trigger on 3">Kích hoạt mở 3</string>
+      <string original="Trigger off 3">Kích hoạt tắt 3</string>
+      <string original="Trigger on 4">Kích hoạt mở 4</string>
+      <string original="Trigger off 4">Kích hoạt tắt 4</string>
+      <string original="Trigger on 5">Kích hoạt mở 5</string>
+      <string original="Trigger off 5">Kích hoạt tắt 5</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>光学秒表</title>
+      <category>计时器</category>
+      <description>
+        根据手机接受的光照测量时间
+
+        在此实验中，你能将光传感器暴露于光源下来测试明亮或黑暗状态的间隔或持续时间。比如，你能测量挡光的两个事件间的时长。
+
+        注意，本实验精度很大程度取决于手机的光传感器。对于较慢的传感器误差很容易超过一秒，对于较快的传感器误差通常不会快于0.1秒。使用基于声音的声学秒表实验，可以实现更快的测量。
+    </description>
+      <string original="Settings">设置</string>
+      <string original="Trigger below">触发下限</string>
+      <string original="lx">勒克斯</string>
+      <string original="Trigger above">触发上限</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">计时器在同时满足设定阈值时触发。如果你只想在明亮光照下触发，将“触发下限”值设为0。如果你只想触发黑暗事件，需将“触发上限”设值很高。你可以通过下图为你的实验估计一个适合的阈值。</string>
+      <string original="Illuminance">照度</string>
+      <string original="t">时间</string>
+      <string original="Ev">曝光值</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">本实验精度很大程度取决于手机的光传感器。对于较慢的传感器误差很容易超过一秒，对于较快的传感器误差通常不会快于0.1秒。但是使用基于声音的声学秒表实验时，可以实现更快的测量。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">时间 1</string>
+      <string original="s">秒</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Reset">复位</string>
+      <string original="Parallel">并行</string>
+      <string original="Duration">持续时长</string>
+      <string original="Trigger duration 0">触发持续 0</string>
+      <string original="Trigger duration 1">触发持续 1</string>
+      <string original="Trigger duration 2">触发持续 2</string>
+      <string original="Trigger duration 3">触发持续 3</string>
+      <string original="Trigger duration 4">触发持续 4</string>
+      <string original="Trigger duration 5">触发持续 5</string>
+      <string original="Triggers">触发器</string>
+      <string original="Trigger on 0">触发起始 0</string>
+      <string original="Trigger off 0">触发结束 0</string>
+      <string original="Trigger on 1">触发起始 1</string>
+      <string original="Trigger off 1">触发结束 1</string>
+      <string original="Trigger on 2">触发起始 2</string>
+      <string original="Trigger off 2">触发结束 2</string>
+      <string original="Trigger on 3">触发起始 3</string>
+      <string original="Trigger off 3">触发结束 3</string>
+      <string original="Trigger on 4">触发起始 4</string>
+      <string original="Trigger off 4">触发结束 4</string>
+      <string original="Trigger on 5">触发起始 5</string>
+      <string original="Trigger off 5">触发结束 5</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

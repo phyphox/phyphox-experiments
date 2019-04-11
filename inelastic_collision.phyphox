@@ -471,6 +471,133 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">最小延遲</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地，這在慢的手機中不能使用。請將聲學碼表與正常的時鐘比較已確保此實驗能如期地運作。如果在聲學碼表中可以使用，則此實驗亦能使用。</string>
     </translation>
+    <translation locale="fr">
+      <title>Collision (in)élastique</title>
+      <category>Mécanique</category>
+      <description>
+        Détermine l'énergie perdue lors des collisions (in)élastiques d'une balle qui rebondit.
+
+        En principe, cette expérience fonctionne comme l'expérience du chronomètre sonore. Cependant, on s'attend ici à ce que le son provienne d'une balle (ou autre) qui rebondit sur une surface : la hauteur de rebondissement et l'énergie cinétique restante par rapport au premier rebond seront calculées en analysant les intervalles de temps entre les impacts (sonores).
+
+        En outre, en supposant que la balle conserve le même pourcentage d'énergie cinétique à chaque rebond, phyphox calculera la hauteur initiale à partir de laquelle la balle a été lâchée.
+
+        Pour faire l'expérience, lâchez une balle sur une surface et laissez la rebondir. Il faut que les rebonds fassent un bruit clairement audible. Vous pouvez modifier le seuil dans les paramètres (dans la plage 0 à 1), de façon à être sensible au bruit de la balle mais pas au bruit de fond. De plus, si vous avez des problèmes avec les échos, vous pouvez également modifier le délai minimum afin de définir l'intervalle de temps que l'expérience ignorera avant de réagir au prochain bruit.
+    </description>
+      <string original="Heights">Hauteurs</string>
+      <string original="Height 0">Hauteur 0</string>
+      <string original="Height 1">Hauteur 1</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Height 2">Hauteur 2</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Height 3">Hauteur 3</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Height 4">Hauteur 4</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Height 5">Hauteur 5</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Energy">Énergie</string>
+      <string original="Energy 1">Énergie 2</string>
+      <string original="Energy 2">Énergie 3</string>
+      <string original="Retained on collision 2">énergie conservée lors de la collision 2</string>
+      <string original="Energy 3">Énergie 3</string>
+      <string original="Retained on collision 3">énergie conservée lors de la collision 3</string>
+      <string original="Energy 4">Énergie 4</string>
+      <string original="Retained on collision 4">énergie conservée lors de la collision 4</string>
+      <string original="Energy 5">Énergie 5</string>
+      <string original="Retained on collision 5">énergie conservée lors de la collision 5</string>
+      <string original="Average retained">Conservation moyenne de l'énergie</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Threshold">Seuil</string>
+      <string original="a.u.">u.a.</string>
+      <string original="Minimum Delay">Délai minimum</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Malheureusement, cette expérience ne fonctionnera pas sur les téléphones les plus lents. Vérifiez d'abord que l'expérience chronomètre sonore fonctionne comme prévu en comparant ses résultats à ceux d'un chronomètre classique. Si cela fonctionne, cette expérience devrait également fonctionner.</string>
+    </translation>
+    <translation locale="vi">
+      <title>Va chạm (không) đàn hồi</title>
+      <category>Cơ học</category>
+      <description>
+        Xác định năng lượng bị mất trong các va chạm (không) đàn hồi của một quả bóng nảy.
+
+        Về nguyên tắc, thí nghiệm này hoạt động giống như thí nghiệm đồng hồ bấm giờ âm thanh. Tuy nhiên, thí nghiệm này sử dụng âm thanh phát ra từ một quả bóng (hoặc một cái gì đó tương tự) nảy trên bề mặt và sẽ tính toán độ cao nảy và động năng còn lại theo độ cao lần nảy đầu tiên bằng cách phân tích khoảng cách giữa các âm thanh từ va chạm.
+
+        Ngoài ra, bằng cách giả sử rằng quả bóng giữ nguyên tỷ lệ phần trăm động năng trong lần nảy đầu tiên, phyphox sẽ tính chiều cao ban đầu mà từ đó quả bóng được thả.
+
+        Vì vậy, hãy bắt đầu thí nghiệm và để một quả bóng nảy lên trên bề mặt sao cho nó tạo ra âm thanh to. Bạn có thể muốn thay đổi ngưỡng trong cài đặt (trong phạm vi 0 thành 1), để thí nghiệm phản ứng với mức độ ồn của bóng nhưng không phải là tiếng ồn nền. Ngoài ra, nếu bạn gặp khó với tiếng vang, bạn cũng có thể muốn thay đổi độ trễ tối thiểu để đặt khoảng thời gian tối thiểu mà thí nghiệm sẽ bỏ qua trước khi phản ứng với tiếng ồn tiếp theo.
+    </description>
+      <string original="Heights">Độ cao</string>
+      <string original="Height 0">Độ cao 0</string>
+      <string original="Height 1">Độ cao 1</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Height 2">Độ cao 2</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Height 3">Độ cao 3</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Height 4">Độ cao 4</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Height 5">Độ cao 5</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Energy">Năng lượng</string>
+      <string original="Energy 1">Năng lượng 1</string>
+      <string original="Energy 2">Năng lượng 2</string>
+      <string original="Retained on collision 2">C.lại sau v.chạm 2</string>
+      <string original="Energy 3">Năng lượng 3</string>
+      <string original="Retained on collision 3">C.lại sau v.chạm 3</string>
+      <string original="Energy 4">Năng lượng 4</string>
+      <string original="Retained on collision 4">C.lại sau v.chạm 4</string>
+      <string original="Energy 5">Năng lượng 5</string>
+      <string original="Retained on collision 5">C.lại sau v.chạm 5</string>
+      <string original="Average retained">Trung bình còn lại</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Threshold">Ngưỡng</string>
+      <string original="Minimum Delay">Độ trễ tối thiểu</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>（非）弹性碰撞</title>
+      <category>力学</category>
+      <description>
+        确定弹跳中的球在（非）弹性碰撞中的能量损耗。
+
+	原则上，本实验工作原理与声学秒表相似。然而，本实验期望声音来源于在任一平面上弹跳的球（或类似物），而且通过分析声音时间间隔，能计算出弹起高度和相对于第一次弹跳的剩余动能。
+
+        同时，通过假设球在第一次弹跳时保持相同的动能百分比，phyphox会将球下落的初始高度计算为0。
+
+        于是，启动实验并让小球在表面弹起时产生一个能清晰听见的声音。你可以改变设置中的阈值（范围从0至1），这样实验仅受球的声音而不是环境噪声影响。同时，如果你受回声的困扰，你可以改变最小时延，即设置实验在多少时间间隔内忽略下一个声音。
+    </description>
+      <string original="Heights">高度</string>
+      <string original="Height 0">高度 0</string>
+      <string original="cm">厘米</string>
+      <string original="Height 1">高度 1</string>
+      <string original="Time 1">时间 1</string>
+      <string original="s">秒</string>
+      <string original="Height 2">高度 2</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Height 3">高度 3</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Height 4">高度 4</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Height 5">高度 5</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Reset">复位</string>
+      <string original="Energy">能量</string>
+      <string original="Energy 1">能量 1</string>
+      <string original="Energy 2">能量 2</string>
+      <string original="Retained on collision 2">在碰撞2中剩余</string>
+      <string original="Energy 3">能量3</string>
+      <string original="Retained on collision 3">在碰撞3中剩余</string>
+      <string original="Energy 4">能量4</string>
+      <string original="Retained on collision 4">在碰撞4中剩余</string>
+      <string original="Energy 5">能量5</string>
+      <string original="Retained on collision 5">在碰撞5中剩余</string>
+      <string original="Average retained">平均剩余</string>
+      <string original="Settings">设置</string>
+      <string original="Threshold">阈值</string>
+      <string original="a.u.">相对值</string>
+      <string original="Minimum Delay">最小时延</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地是，本功能在慢速手机上不能使用。请将声学秒表实验和平常的时钟相比较，以确保实验能够按预期运行。如果声学秒表能使用，则本实验也能使用。</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

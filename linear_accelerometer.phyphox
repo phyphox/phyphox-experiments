@@ -192,6 +192,57 @@
       <string original="Acceleration y">y方向加速度</string>
       <string original="Acceleration z">z方向加速度</string>
     </translation>
+    <translation locale="fr">
+      <title>Accélération (sans g)</title>
+      <category>Capteurs</category>
+      <description>Mesures de l'accélération du téléphone uniquement, sans l'accélération gravitationnelle. À la différence du capteur « accélération avec g », ce capteur indique une accélération nulle lorsque le téléphone est au repos.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Linear Acceleration x">Accélération linéaire selon l'axe x</string>
+      <string original="Linear Acceleration y">Accélération linéaire selon l'axe y</string>
+      <string original="Linear Acceleration z">Accélération linéaire selon l'axe z</string>
+      <string original="Absolute">Norme</string>
+      <string original="Absolute acceleration">Norme du vecteur accélération</string>
+      <string original="Acceleration">Accélération</string>
+      <string original="Simple">Composantes</string>
+      <string original="Acceleration x">Accélération selon x</string>
+      <string original="Acceleration y">Accélération selon y</string>
+      <string original="Acceleration z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Gia tốc (không g)</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ gia tốc kế tuyến tính, nó cho gia tốc thực tế mà không có gia tốc trọng trường. Ngược lại với "gia tốc có g", cảm biến này cho giá trị 0 khi thiết bị đứng yên.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Linear Acceleration x">Gia tốc tuyến tính x</string>
+      <string original="Linear Acceleration y">Gia tốc tuyến tính y</string>
+      <string original="Linear Acceleration z">Gia tốc tuyến tính z</string>
+      <string original="Absolute">Tổng hợp</string>
+      <string original="Absolute acceleration">Gia tốc tổng hợp</string>
+      <string original="Multi">Nhiều</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Simple">Đơn giản</string>
+      <string original="Acceleration x">Gia tốc x</string>
+      <string original="Acceleration y">Gia tốc y</string>
+      <string original="Acceleration z">Gia tốc z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>加速度（不含g）</title>
+      <category>原始传感器</category>
+      <description>从所谓的线性加速度计获得原始数据，能得到不含重力加速度的真实加速度。和“含g加速度”不同，本传感器在装置静止时显示为0。</description>
+      <string original="Graph">图表</string>
+      <string original="Linear Acceleration x">x轴线性加速度</string>
+      <string original="t">时间</string>
+      <string original="Linear Acceleration y">y轴线性加速度</string>
+      <string original="Linear Acceleration z">z轴线性加速度</string>
+      <string original="Absolute">绝对值</string>
+      <string original="Absolute acceleration">加速度绝对值</string>
+      <string original="Multi">多方向</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Simple">简明值</string>
+      <string original="Acceleration x">x轴加速度</string>
+      <string original="Acceleration y">y轴加速度</string>
+      <string original="Acceleration z">z轴加速度</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>
