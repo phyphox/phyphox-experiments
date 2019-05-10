@@ -123,6 +123,14 @@
       <string original="t">时间</string>
       <string original="Simple">简明值</string>
     </translation>
+    <translation locale="sr">
+      <title>Pritisak</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz barometra.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Pressure">Pritisak</string>
+      <string original="Simple">Jednostavno</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -596,14 +596,14 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
       <string original="Trigger off 5">Déclenchement fin 5</string>
     </translation>
     <translation locale="vi">
-      <title>Bấm giờ tiệm cận</title>
+      <title>Đồng hồ bấm giờ tiệm cận</title>
       <category>Đồng hồ</category>
       <description>
         Đo thời gian dựa trên cảm biến tiệm cận.
 
-         Trong thí nghiệm này, bạn đưa một vật thể gần với cảm biến tiệm cận (thường nằm ở phía trước cạnh loa được sử dụng cho các cuộc gọi điện thoại) và đo thời gian khi vật ở gần hoặc cách xa điện thoại của bạn.
+         Trong thí nghiệm này, bạn đưa một vật thể lại gần cảm biến tiệm cận (thường nằm ở phía trước cạnh loa được sử dụng cho các cuộc gọi điện thoại) và đo thời gian khi vật ở gần hoặc cách xa điện thoại của bạn.
 
-         Lưu ý rằng độ chính xác phụ thuộc rất nhiều vào cảm biến tiệm cận trong điện thoại của bạn. Đối với các cảm biến chậm, điều này có thể dễ dàng gây sai số một giây trong khi các cảm biến nhanh thường không nhanh hơn một phần mười giây. Các phép đo nhanh hơn, nhưng dựa trên âm thanh, có thể đạt được bằng cách sử dụng thử nghiệm đồng hồ bấm giờ âm thanh.
+         Lưu ý rằng độ chính xác phụ thuộc rất nhiều vào cảm biến tiệm cận trong điện thoại của bạn. Đối với các cảm biến chậm, điều này có thể dễ dàng gây sai số một giây trong khi các cảm biến nhanh thường không nhanh hơn một phần mười giây. Các phép đo nhanh hơn, nhưng dựa trên âm thanh, có thể đạt được bằng cách sử dụng thí nghiệm đồng hồ bấm giờ âm thanh.
     </description>
       <string original="Settings">Cài đặt</string>
       <string original="Trigger below">Kích hoạt dưới</string>
@@ -611,7 +611,7 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Chức năng kích hoạt đồng hồ có cả trên và dưới ngưỡng giới hạn. Nếu bạn chỉ muốn kích hoạt với khoảng cách xa, đặt giá trị cho "kích hoạt dưới" bằng 0. Nếu bạn chỉ muốn kích hoạt ở khoảng cách gần, hãy đặt giá trị "kích hoạt trên" rất cao. Bạn có thể ước tính ngưỡng kích hoạt khác phù hợp cho mình từ biểu đồ bên dưới. Hầu hết các cảm biến chỉ đo hai khoảng cách, thường là 0 cm và khoảng 5 cm.</string>
       <string original="Distance">Khoảng cách</string>
       <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Độ chính xác phụ thuộc mạnh vào cảm biến tiệm cận trong điện thoại của bạn. Đối với các cảm biến chậm, phản hồi có thể dễ dàng chậm hơn một giây trong khi các cảm biến nhanh thường không nhanh hơn một phần mười giây. Các phép đo nhanh hơn, nhưng dựa trên âm thanh, có thể đạt được bằng cách sử dụng thí nghiệm đồng hồ bấm giờ âm thanh. Trên iPhone, cảm biến chỉ hoạt động ở chế độ dọc (nghĩa là khi giữ điện thoại thẳng đứng) và sẽ tắt màn hình trong khi được kích hoạt.</string>
-      <string original="Sequence">Chuỗi</string>
+      <string original="Sequence">Nối tiếp</string>
       <string original="Time 1">Thời gian 1</string>
       <string original="Time 2">Thời gian 2</string>
       <string original="Time 3">Thời gian 3</string>
@@ -687,6 +687,50 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
       <string original="Trigger off 4">触发结束 4</string>
       <string original="Trigger on 5">触发起始 5</string>
       <string original="Trigger off 5">触发结束 5</string>
+    </translation>
+    <translation locale="sr">
+      <title>Precizna štoperica</title>
+      <category>Tajmeri</category>
+      <description>
+        Izmerite vremena na osnovu preciznosti senzora.
+
+        U ovom eksperimentu prinesite objekat blizu Vašeg preciznog senzora. (On se obično nalazi napred, pored zvučnika, koji se koristi za telefoniranje) i izmerite vremena kada je objekat blizu ili daleko od Vašeg telefona.
+
+        Napomena, preciznost sztrogo zavisi od osetljivosti senzora Vašeg telefona. Za spore senzore ovo može biti nešto sporije od sekunde, dok brzi senzori obično ne budu brži od desetinke sekunde. Brža merenja, ali zasnovana na zvuku, mogu se postići korišćenjem akustičkog eksperimenta sa štopericom.
+    </description>
+      <string original="Settings">Podešavanja</string>
+      <string original="Trigger below">Pokretanje ispod</string>
+      <string original="Trigger above">Pokretanje iznad</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Tajmer se okida bilo da je iznad ili ispod zadatih graničnih vrednosti. Ukoliko samo želite okidanje na velike razdaljine, postavite vrednost za "okini ispod" na nulu. Ukoliko samo želite okidanje na male razdaljine, postavite vrednost za "okini iznad" na veoma visoke vrednosti. Možete proceniti prihvatljive granične vrednosti za Vaša ostala okidanja iz donjeg grafika. Većina senzora meri samo dve razdaljine, obično 0 cm i oko 5 cm.</string>
+      <string original="Distance">Razdaljina</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">Preciznost sztrogo zavisi od osetljivosti senzora Vašeg telefona. Za spore senzore ovo može biti nešto sporije od sekunde, dok brzi senzori obično ne budu brži od desetinke sekunde. Brža merenja, ali zasnovana na zvuku, mogu se postići korišćenjem akustičkog eksperimenta sa štopericom. Na iPhone telefonima, senzor radi isključivo kada je telefon uspravljen i isključiće se ekran tokom okidanja.</string>
+      <string original="Sequence">Niz</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Parallel">Paralelno</string>
+      <string original="Duration">Trajanje</string>
+      <string original="Trigger duration 0">Trajanje okidača 0</string>
+      <string original="Trigger duration 1">Trajanje okidača 1</string>
+      <string original="Trigger duration 2">Trajanje okidača 2</string>
+      <string original="Trigger duration 3">Trajanje okidača 3</string>
+      <string original="Trigger duration 4">Trajanje okidača 4</string>
+      <string original="Trigger duration 5">Trajanje okidača 5</string>
+      <string original="Triggers">Okidači</string>
+      <string original="Trigger on 0">Okidač uključen 0</string>
+      <string original="Trigger off 0">Okidač isključen 0</string>
+      <string original="Trigger on 1">Okidač uljučen 1</string>
+      <string original="Trigger off 1">Okidač isključen 1</string>
+      <string original="Trigger on 2">Okidač uključen 2</string>
+      <string original="Trigger off 2">Okidač isključen 2</string>
+      <string original="Trigger on 3">Okidač uključen 3</string>
+      <string original="Trigger off 3">Okidač isključen 3</string>
+      <string original="Trigger on 4">Okidač uključen 4</string>
+      <string original="Trigger off 4">Okidač isključen 4</string>
+      <string original="Trigger on 5">Okidač uključen 5</string>
+      <string original="Trigger off 5">Okidač isključen 5</string>
     </translation>
   </translations>
   <input>

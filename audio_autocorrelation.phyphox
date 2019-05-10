@@ -437,7 +437,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
 
         Việc phân tích được thực hiện bằng cách tính toán tương quan tín hiệu âm thanh. Thí nghiệm sau đó xem xét tất cả các đỉnh vượt quá một nửa tín hiệu tối đa trong tự tương quan. Vị trí của các đỉnh cuối cùng trong phạm vi tự tương quan sẽ cho nhiều chu kỳ của tín hiệu. Bằng cách đếm số lượng đỉnh chúng ta có thể có được chu kỳ của tần số cơ sở.
     </description>
-      <string original="Autocorr.">Tự t.quan</string>
+      <string original="Autocorr.">Tự tương quan</string>
       <string original="Period">Chu kỳ</string>
       <string original="Frequency">Tần số</string>
       <string original="Musical note">Nốt nhạc</string>
@@ -474,6 +474,28 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">录制</string>
       <string original="t">时间</string>
       <string original="Amplitude">振幅</string>
+    </translation>
+    <translation locale="sr">
+      <title>Zvučna autokorelacija</title>
+      <category>Akustika</category>
+      <description>
+        Izmerite frekvenciju jednog tona.
+
+        Ovaj eksperiment snima zvuk iz mikrofona i analizira njegovu frekvenciju. Ovo radi samo ako postoji jedan ton sa fiksnom frekvencijom - ako postoji više frekvencija (kao što je akord), koristite eksperiment "spektar".
+
+        Analiza se vrši izračunavanjem autokorelacije zvučnih signala. Eksperiment zatim razmatra sve vrhove koji premašuju polovinu maksimalnog signala u autokorelaciji. Položaj poslednjeg od ovih vrhova unutar autokorelacije daje višestruki period signala. Brojeći broj vrhova možemo dobiti period osnovne frekvencije.
+    </description>
+      <string original="Autocorr.">Autokorelacija.</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
     </translation>
   </translations>
   <data-containers>

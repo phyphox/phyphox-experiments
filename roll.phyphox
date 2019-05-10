@@ -203,6 +203,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">原始数据</string>
       <string original="Gyroscope y">y方向陀螺仪</string>
     </translation>
+    <translation locale="sr">
+      <title>Kotrljanje</title>
+      <category>Mehanika</category>
+      <description>
+        Postavite Vaš telefon u tubu i odredite njegovu brzinu.
+
+        Možete postaviti Vaš telefon u papirnu tubu koja se okreće oko svoje najduže stranice. Ovaj eksperiment onda koristi ugaonu brzinu izmerenu žiroskopom, kao i prečnik kotrljanja da izračuna brzinu kojom se odvija kotrljanje.
+    </description>
+      <string original="Velocity">Brzina</string>
+      <string original="Roll radius">Prečnik tube</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Gyroscope y">Žiroskop y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

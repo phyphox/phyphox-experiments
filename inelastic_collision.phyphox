@@ -553,6 +553,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">Ngưỡng</string>
       <string original="Minimum Delay">Độ trễ tối thiểu</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
+      <string original="a.u.">đ.v.t.y</string>
     </translation>
     <translation locale="zh_Hans">
       <title>（非）弹性碰撞</title>
@@ -597,6 +598,46 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="a.u.">相对值</string>
       <string original="Minimum Delay">最小时延</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地是，本功能在慢速手机上不能使用。请将声学秒表实验和平常的时钟相比较，以确保实验能够按预期运行。如果声学秒表能使用，则本实验也能使用。</string>
+    </translation>
+    <translation locale="sr">
+      <title>(Ne)elastični sudar</title>
+      <category>Mehanika</category>
+      <description>
+        Odredite energiju izgubljenu tokom (ne)elastičnih sudara lopte.
+
+        U principu, ovaj eksperiment funkcioniše kao akustični eksperiment štoperice. Međutim, ovaj eksperiment očekuje da zvuk dolazi od lopte (ili nečeg sličnog) koja se odbija od površine i izračunava visinu poskakivanja i preostalu kinetičku energiju u odnosu na prvi skok analizirajući interval između zvuka udara.
+
+        Takođe, pretpostavljajući da lopta zadržava isti procenat kinetičke energije na svom prvom odskoku, phyphox će izračunati početnu visinu 0 od koje je lopta ispuštena.
+
+        Dakle, pokrenite eksperiment i pustite da se lopta odbije od površine na način da proizvede jasno čujni šum. Možda želite da promenite prag u podešavanjima (u opsegu od 0 do 1), tako da eksperiment reaguje na nivo buke lopte, ali ne i na pozadinsku buku. Takođe, ako imate problema sa ehoom, možda ćete želeti da promenite i minimalno kašnjenje tako da postavite minimalni interval koji će eksperiment ignorisati pre reagovanja na sledeći šum.
+    </description>
+      <string original="Heights">Visine</string>
+      <string original="Height 0">Visina 0</string>
+      <string original="Height 1">Visina 1</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Height 2">Visina 2</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Height 3">Visina 3</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Height 4">Visina 4</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Height 5">Visina 5</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Energy">Energija</string>
+      <string original="Energy 1">Energija 1</string>
+      <string original="Energy 2">Energija 2</string>
+      <string original="Retained on collision 2">Zadržano u sudaru 2</string>
+      <string original="Energy 3">Energija 3</string>
+      <string original="Retained on collision 3">Zadržano u sudaru 3</string>
+      <string original="Energy 4">Energija 4</string>
+      <string original="Retained on collision 4">Zadržano u sudaru 4</string>
+      <string original="Energy 5">Energija 5</string>
+      <string original="Retained on collision 5">Zadržano u sudaru 5</string>
+      <string original="Average retained">U proseku zadržano</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
     </translation>
   </translations>
   <data-containers>

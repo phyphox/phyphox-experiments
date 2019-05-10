@@ -190,9 +190,9 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <title>Đồ thị dao động âm</title>
       <category>Âm học</category>
       <description>
-        Hiển thị dữ liệu âm thanh được ghi.
+        Hiển thị dữ liệu âm thanh ghi được.
 
-        Thí nghiệm này chỉ ghi lại các khoảng thời gian ngắn của dữ liệu âm thanh và hiển thị chúng. Để đạt được kết quả ổn định, thí nghiệm được kích khi biên độ bằng 0 và t = 0 được dịch chuyển sang vị trí biên độ bằng 0 (đang tăng) đầu tiên.
+        Thí nghiệm này chỉ ghi lại các khoảng thời gian ngắn của dữ liệu âm thanh và hiển thị chúng. Để đạt được kết quả ổn định, thí nghiệm bắt đầu hiển thị dữ liệu khi biên độ bằng 0 và t = 0 được dịch chuyển sang vị trí biên độ bằng 0 (đang tăng) đầu tiên.
     </description>
       <string original="Scope">Phổ</string>
       <string original="Audio Data">Dữ liệu âm</string>
@@ -213,6 +213,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Time">时间</string>
       <string original="Amplitude">振幅</string>
       <string original="Duration">持续时长</string>
+    </translation>
+    <translation locale="sr">
+      <title>Zvučno polje</title>
+      <category>Akustika</category>
+      <description>
+        Prikaži snimljeni zvuk.
+
+        Ovaj eksperiment snima samo kratke intervale zvuka i prikazuje ih. Da biste postigli stabilnu sliku, nulti presek ose se koristi kao polazna tačka i  t=0 je pomereno u prvi (pozitivni) presek.
+    </description>
+      <string original="Scope">Polje</string>
+      <string original="Audio Data">Zvučni materijal</string>
+      <string original="Time">Vreme</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Duration">Trajanje</string>
     </translation>
   </translations>
   <data-containers>

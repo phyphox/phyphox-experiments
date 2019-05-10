@@ -430,7 +430,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
     </translation>
     <translation locale="vi">
-      <title>Đồng hồ chuyển động</title>
+      <title>Đồng hồ b.giờ chuyển động</title>
       <category>Đồng hồ</category>
       <description>
         Đo thời gian giữa hai sự kiện chuyển động.
@@ -446,7 +446,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Reset">Đặt lại</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Thay đổi ngưỡng ở trên mức độ nhiễu của cảm biến, nhưng dưới mức gia tốc kích hoạt (bạn có thể thử thí nghiệm gia tốc mà không cần g để kiểm tra các mức này). Đồng thời đặt độ trễ tối thiểu để tránh bị kích hoạt dừng bởi kích thích đầu tiên.</string>
       <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Độ chính xác của thí nghiệm này phụ thuộc vào gia tốc kế trong điện thoại của bạn. Gia tốc kế nhanh có thể tốt hơn một phần trăm giây, trong khi những gia tốc kế chậm chỉ có thể đạt được độ phân giải một giây.</string>
-      <string original="Sequence">Chuỗi</string>
+      <string original="Sequence">Nối tiếp</string>
       <string original="Time 1">Thời gian 1</string>
       <string original="Time 2">Thời gian 2</string>
       <string original="Time 3">Thời gian 3</string>
@@ -495,6 +495,37 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate">平均频率</string>
       <string original="Hz">赫兹</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+    </translation>
+    <translation locale="sr">
+      <title>Štoperica pokreta</title>
+      <category>Tajmeri</category>
+      <description>
+        Izmerite vreme između dva pokreta.
+
+        Ovaj eksperiment omogućava merenje vremena između dva ubrzanja (kao što su mali šokovi). Možda ćete želeti da podesite prag, dajući nivo na kojem se aktivira štoperica.
+
+        Nakon pokretanja eksperimenta, sat će početi na prvom (ukupnom) ubrzanju koje prelazi prag i biće zaustavljeno na drugom ubrzanju. Uverite se da je prvi signal ubrzanja kratak, jer se dugotrajne vibracije mogu odmah otkriti kao zaustavljanje.
+    </description>
+      <string original="Simple">Jednostavno</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Time">Vreme</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Promenite prag da bude iznad nivoa šuma senzora, ali ispod ubrzanja okidača (možete pokušati eksperiment Brzinometar bez g da biste proverili). Takođe postavite minimalno kašnjenje da biste izbegli kraće okidače od tog vremena.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Preciznost ovog eksperimenta zavisi od brzinometra u telefonu. Brzi brzinometri mogu biti bolji od stotinke sekunde, dok spori mogu postići samo rezoluciju od jedne sekunde.</string>
+      <string original="Sequence">Niz</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Parallel">Paralelno</string>
+      <string original="Many">Više</string>
+      <string original="Events">Dogadjaji</string>
+      <string original="Event number">Broj dogadjaja</string>
+      <string original="Time interval">Vremenski interval</string>
+      <string original="Average interval">Prosečni interval</string>
+      <string original="Average rate">Prosečna stopa</string>
+      <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
     </translation>
   </translations>
   <input>

@@ -483,6 +483,34 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope y">y方向陀螺仪</string>
       <string original="Gyroscope z">z方向陀螺仪</string>
     </translation>
+    <translation locale="sr">
+      <title>Klatno</title>
+      <category>Mehanika</category>
+      <description>
+        Odredite gravitacionu konstantu (g=9.81m/s²) koristeći telefon kao klatno.
+        Ovaj eksperiment koristi žiroskop da izmeri kretanje klatna i izračuna oscilatorni period T. Korisnik mora uneti dužinu kanapa koji se koristi za klatno L, da bi phyphox mogao izračunati g = 4π²/T² L.
+
+        Druga opcija vam je da umesto merenja g, koristite karticu dužina i pretpostavite g = 9.81 m/s² da odredite dužinu kanapa iz kretanja klatna. (To je ustvari razdaljina od težišta do centra mase.)
+        Dodatno, u kartici rezonancija, ucrtava se amplituda po detektovanoj frekvenciji. Na ovaj način, možete konstruisati automatski oscilator i menjati njegovu frekvenciju da meri rezonancionu krivu.
+
+        Više detalja:
+        Period oscilacije se dobija kroz autokorelaciju zbira sve tri komponente žiroskopa. Autokorelacija se onda analizira za njen prvi maksimum za prvu procenu, a onda se poslednji maksimum autokorelacije koristi za precizniji rezultat.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Length">Dužina</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Ovde, možete uneti dužinu vašeg klatna (od težišta do centra mase) i određuje Zemljino ubrzanje g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Ovde, možete odrediti dužinu Vašeg klatna (od težišta do centra mase) pretpostavljate g = 9.81 m/s².</string>
+      <string original="Resonance">Rezonancija</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Gyroscope x">Žiroskop x</string>
+      <string original="Gyroscope y">Žiroskop y</string>
+      <string original="Gyroscope z">Žiroskop z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

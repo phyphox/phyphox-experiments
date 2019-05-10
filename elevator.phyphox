@@ -285,6 +285,25 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Pressure">压力</string>
       <string original="Accelerometer z">z轴加速度计</string>
     </translation>
+    <translation locale="sr">
+      <title>Lift</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Odredite brzinu lifta koristeći barometar.
+
+         Promene u visini za kratko vreme mogu se vrlo precizno meriti pomoću barometra - čak i tamo gde GPS ne radi. Ovo se može koristiti za izvođenje vertikalne brzine lifta. Pored toga, ubrzanje se meri pomoću z-komponentnog merača akceleratora, pa bi za precizno merenje ubrzanja telefon trebalo da se nalazi ravno na podu lifta.
+
+         Detaljnije:
+         Da bi se eliminisale smetnje u ovom eksperimentu, očitavanja iz barometra prosečno su veća od 1 s. Razlika uzastopnih proseka pretvara se u visinsku razliku koristeći međunarodnu barometrijsku visinu. Visinska razlika podeljena sa vremenskom razlikom daje vertikalnu brzinu.
+    </description>
+      <string original="Motion">Kretanje</string>
+      <string original="Height (from barometer)">Visina (sa barometra)</string>
+      <string original="Vertical velocity (from height)">Vertikalna brzina (iz visine)</string>
+      <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Pressure">Pritisak</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

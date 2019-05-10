@@ -231,6 +231,19 @@
       <string original="Frequency low">低频</string>
       <string original="Frequency high">高频</string>
     </translation>
+    <translation locale="sr">
+      <title>Generator tona</title>
+      <category>Akustika</category>
+      <description>
+        Generiše zvuk specifične frekvencije.
+    </description>
+      <string original="Tone generator">Generator tona</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Time">Vreme</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox dozvoljava postavljanje proizvoljnih frekvencija, može se dogoditi da rezultati ispod 100Hz ili iznad 8000Hz budu loši zbog ograničenja hardvera.</string>
+      <string original="Frequency low">Donja frekvencija</string>
+      <string original="Frequency high">Gornja frekvencija</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

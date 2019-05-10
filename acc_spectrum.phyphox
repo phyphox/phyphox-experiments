@@ -399,6 +399,32 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">y轴加速度</string>
       <string original="Acceleration z">z轴加速度</string>
     </translation>
+    <translation locale="sr">
+      <title>Spektar ubrzanja</title>
+      <category>Alatke</category>
+      <description>
+            Prikaz frekvencijskog spektra podataka sa brzinometra.
+
+            Ovaj eksperiment snima podatke iz brzinometra i izračunava njegov frekvencijski spektar kroz Furijeovu transformaciju (FFT). Maksimalna frekvencija koja se može detektovati zavisi od maksimalne brzine moći prikupljanja Vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">accInX</container>

@@ -423,6 +423,33 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Chirp">波包</string>
       <string original="Time">时间</string>
     </translation>
+    <translation locale="sr">
+      <title>Sonar</title>
+      <category>Akustika</category>
+      <description>
+        Merenje udaljenosti kroz eho i brzinu zvuka.
+
+        Sonar šalje burne kratke zvuke, koji se odbijaju od objekta čiju udaljenost želite meriti. Kako zvuk putuje brzinom od oko 340 m / s, vreme potrebno da refleksija stigne do mikrofona vašeg telefona može se koristiti za izračunavanje udaljenosti ovog objekta.
+
+        Ovi eksperimenti generišu "zvižduk", šalju ga kroz zvučnik i započinju snimanje. Unakrsna korelacija zvižduka i detektovanih podataka senzora, daju nam informacije o vremenu potrebnom da se pojavi eho. Ovaj vremenski raspon se zatim može pomnožiti brzinom zvuka (i podeliti sa 2, jer zvuk mora putovati napred i nazad) i dobiti udaljenost na kojoj je nastao eho.
+
+        Međutim, zvuk obično putuje u svakom pravcu. Za sonara to znači, da kada ciljate na zid, dobijate i refleksije sa poda, plafona, drugog zida u blizini, jednostavno sa svake pogodne "tvrde" površine u blizini. Dakle, ovaj sonar vam daje sve refleksije i na vama je da protumačite rezultat i shvatite koji odraz odgovara meti koju ste nameravali da izmerite. Dakle, počnite sa malom čvrstom metom a pokušajte da zaustavite sve smerove pomoću materijala od pene ili sunđera. Takođe, za to je potrebno tiho okruženje.
+    </description>
+      <string original="Time series">Vremenski intervali</string>
+      <string original="Normalized history">Standardna Legenda</string>
+      <string original="distance">rastojanje</string>
+      <string original="time">vreme</string>
+      <string original="Echo location">Eho lokacija</string>
+      <string original="Speed of Sound">Brzina zvuka</string>
+      <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
+      <string original="Target distance">Udaljenost mete</string>
+      <string original="Echo strength">Jačina eha</string>
+      <string original="Timing">Tajming</string>
+      <string original="On this page you just get the measured delay.">Na ovoj strani dobijate kašnjenje merenja.</string>
+      <string original="Delay">Kašnjenje</string>
+      <string original="Chirp">Zvižduk</string>
+      <string original="Time">Vreme</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

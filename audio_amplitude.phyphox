@@ -426,7 +426,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Reference SPL">Tham chiếu SPL</string>
       <string original="Calibrate">Hiệu chỉnh</string>
       <string original="Calibration offset">Hiệu chỉnh bù</string>
-      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Nếu bạn đã thực hiện việc này trước đây hoặc trên một thiết bị giống hệt, bạn có thể chỉ cần nhập trực tiếp vào hiệu chỉnh bù từ hiệu chỉnh trước đó và nhấn 'đặt bù lại'.</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Nếu bạn đã thực hiện việc này trước đây hoặc trên một thiết bị giống hệt, bạn có thể chỉ cần nhập trực tiếp vào hiệu chỉnh bù từ hiệu chỉnh trước đó và nhấn 'đặt mức bù'.</string>
       <string original="Custom offset">Tuỳ chỉnh bù</string>
       <string original="Set offset">Đặt mức bù</string>
       <string original="How accurate are these results?">Độ chính xác của kết quả là bao nhiêu?</string>
@@ -468,6 +468,38 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Phyphox在超过10000台设备上能够运行。大多设备都有不同的麦克风、电子器件和软件——这些都会影响其对声音的反应。我们不能校准所有设备，但在某些情况下，有些只针对有限设备（比如iPhone专用APP）的APP可以自行校准这些设备。如果你想不通过校准得到更好的结果，你可以查找适合你的设备的特定APP。</string>
       <string original="Why can't we get a better calibration?">为什么我们不能得到更好的校准值？</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">我们想通过简单的流程让学生能通过不同的设备得到可比数据。使用适合的设备，你也可以校准你的麦克风的频率相关性，甚至可以补偿非线性响应。如果你有这样的设备并想要尝试它，请告诉我们——我们准备了能实现更先进校准技术的phyphox实验。</string>
+    </translation>
+    <translation locale="sr">
+      <title>Amplituda zvuka</title>
+      <category>Akustika</category>
+      <description>
+        Odredite amplitudu zvuka.
+
+         Ovi eksperimenti jednostavno snimaju kratke intervale sa mikrofona i izračunavaju nivo zvučnog pritiska (SPL). Imajte na umu da je ova obrada veoma naivni pristup, a rezultati mogu biti prilično neprecizni. Takođe ćete morati da navedete referencu kako biste kalibrisali merenje.
+    </description>
+      <string original="Amplitude">Amplituda</string>
+      <string original="NOT calibrated">NIJE kalibrisano</string>
+      <string original="calibrated">kalibrisano</string>
+      <string original="Sound pressure level">Nivo zvučnog pritiska</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Clear history">Obriši istoriju</string>
+      <string original="Please see the calibration tab to get proper results.">Moliimo pogledajte karticu kalibracija za tačne rezultate.</string>
+      <string original="Calibration">Kalibracija</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">U ovom eksperimentu se koristi prilično jednostavan pristup za određivanje nivoa zvučnog pritiska (SPL). Potreban Vam je standardni zvuk sa poznatom amplitudom u dB. Na primer, možete podesiti izvor stacionarnog šuma i izmeriti nivo zvučnog pritiska pomoću spoljnog uređaja. Unesite izmereni nivo kao standardni zvučni pritisak i pritisnite „kalibracija“ tokom eksperimenta.</string>
+      <string original="Reference SPL">Standardni SPL</string>
+      <string original="Calibrate">Kalibriraj</string>
+      <string original="Calibration offset">Greška kalibracije</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Ukoliko ste već ovo radili ranije ili na identičnom uređaju možete samo uneti grešku kalibracije prethodne kalibracije direktno i pritisnuti 'podesi grešku'.</string>
+      <string original="Custom offset">Ručno podešena greška</string>
+      <string original="Set offset">Podesi grešku</string>
+      <string original="FAQ">Često postavljena pitanja</string>
+      <string original="How accurate are these results?">Koliko su precizni ovi rezultati?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Za podučavanje i istraživanje? Verovatno dovoljno dobro. Za ozbiljne studije? Verovatno ne, ali druge aplikacije mogu bolje funkcionisati (vidi dole). Za naučne ili zdravstvene aplikacije? Svakako ne, nabavite namenski uređaj za ovo.</string>
+      <string original="Why isn't this already calibrated?">Zašto nije već kalibrisano?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">Phyphox je dostupan na više od 10000 uređaja. Većina njih ima različite mikrofone, različitu elektroniku i različiti softver - što utiče na njihov odgovor na zvuk. Ne možemo ih sve kalibrisati, ali u nekim slučajevima postoje aplikacije koje targetiraju samo ograničeni broj uređaja (kao što su aplikacije specifične za iPhone uređaje) koje mogu kalibrisati ovih nekoliko uređaja. Ako ste zainteresovani za bolje rezultate bez kalibracije, trebalo bi da probate određene aplikacije za svoj uređaj.</string>
+      <string original="Why can't we get a better calibration?">Zašto ne možemo postići bolju kalibraciju?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Želeli smo jednostavnu proceduru koja bi omogućila učenicima da dobiju uporedive podatke na različitim uređajima. Sa pristojnom opremom možete kalibrisati i frekvencijsku zavisnost vašeg mikrofona i možda čak i kompenzovati nelinearne odgovore. Ako imate takvu opremu i želite da je isprobate, molimo Vas da nam javite - već imamo eksperimente koji omogućavaju naprednije tehnike kalibracije.</string>
     </translation>
   </translations>
   <data-containers>

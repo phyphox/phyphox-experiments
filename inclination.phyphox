@@ -299,7 +299,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Tilt left/right">Độ xoay trái/phải</string>
       <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Mục này giúp đo độ nghiêng của điện thoại, bắt đầu từ vị trí nằm ngang.</string>
       <string original="Upright">Thẳng đứng</string>
-      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Mục này giúp đo đo nghiêng của điện thoại, bắt đầu từ vị ví thẳng đứng.</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Mục này giúp đo độ nghiêng của điện thoại, bắt đầu từ vị ví thẳng đứng.</string>
       <string original="Side">Cạnh</string>
       <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Mục này giúp đo góc nghiêng của điện thoại, bắt đầu từ vị trí cạnh bên.</string>
       <string original="Plane">Mặt phẳng</string>
@@ -332,6 +332,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Inclination">倾角</string>
       <string original="Rotation">旋转角度</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">此表协助测量某平面的倾角。手机平放在表面时，无论方向如何，能测得该平面的倾角。旋转角度给出了倾角的方向。</string>
+    </translation>
+    <translation locale="sr">
+      <title>Nagib</title>
+      <category>Alati</category>
+      <description>
+        Izmerite ugao nagiba telefona.
+
+         Ovaj alat koristi akcelerometar da odredi nagib telefona. Kada se telefon nalazi na stolu, nagib je nula. Za nagib koji nije nula, pravac nagiba se daje kao rotacija.
+
+         Imajte na umu da je definicija uglova odabrana za zadatak merenja nagiba (naročito za eksperimente sa nagibom), nezavisno od rotacije (oko z ose) telefona.
+    </description>
+      <string original="Flat">Polegnut</string>
+      <string original="Tilt up/down">Nagnuti ka gore/dole</string>
+      <string original="Angle">Ugao</string>
+      <string original="Tilt left/right">Nagnuti ulevo/udesno</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Ova kartica Vam pomaže da izmerite ugao naginjanja telefona, počevši od horizontalnog položaja.</string>
+      <string original="Upright">Uspravno</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Ova kartica Vam omogućava da izmerite ugao naginjanja telefona, počevši od uspravnog položaja.</string>
+      <string original="Side">Strana</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Ova kartica vam omogućava da izmerite ugao naginjanja telefona, počevši od bočne pozicije.</string>
+      <string original="Plane">Ravno</string>
+      <string original="Inclination">Nagib</string>
+      <string original="Rotation">Rotacija</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Ova kartica Vam pomaže da izmerite ugao naginjanja ravni uređaja. Ugao naginjanja ravni uređaja se meri dok telefon miruje na ravnoj površini, bez obzira na njegovu orijentaciju. Rotacija daje pravac naginjanja ravni.</string>
     </translation>
   </translations>
   <data-containers>
