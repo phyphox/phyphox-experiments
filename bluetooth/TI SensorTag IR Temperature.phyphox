@@ -1,6 +1,6 @@
 <phyphox version="1.7">
     <title>IR Temperature (early models only)</title>
-    <category>Texas Instruments SensorTag CC2650</category>
+    <category>Texas Instruments SensorTag</category>
     <description>Read the ambient and object temperature from the IR temperature sensor found on early versions of the Texas Instruments CC2650 SensorTag</description>
     <data-containers>
         <container size="0">objRaw</container>

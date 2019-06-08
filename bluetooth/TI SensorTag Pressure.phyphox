@@ -1,6 +1,6 @@
 <phyphox version="1.7">
     <title>Pressure and Temperature</title>
-    <category>Texas Instruments SensorTag CC2650</category>
+    <category>Texas Instruments SensorTag</category>
     <description>Read the pressure and temperature of an Texas Instruments SensorTag like the CC2650 or the CC1350.</description>
     <data-containers>
         <container size="0">tempRaw</container>
