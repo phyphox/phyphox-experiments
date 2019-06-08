@@ -1,7 +1,7 @@
 <phyphox version="1.7">
     <title>Magnetometer</title>
     <category>Texas Instruments SensorTag CC2650</category>
-    <description>Read the magnetometer of the Texas Instruments CC2650 SensorTag</description>
+    <description>Read the magnetometer of an Texas Instruments SensorTag like the CC2650 or the CC1350.</description>
     <data-containers>
         <container size="0">magXRaw</container>
         <container size="0">magYRaw</container>
