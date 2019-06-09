@@ -300,7 +300,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
     </translation>
     <translation locale="sr">
       <title>Doplerov efekat</title>
-      <category>Aakustika</category>
+      <category>Akustika</category>
       <description>
         Detektujte male promene u frekvenciji Doplerovog efekta.
 

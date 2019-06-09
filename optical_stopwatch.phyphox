@@ -690,7 +690,7 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
     </translation>
     <translation locale="sr">
       <title>Optička štoperica</title>
-      <category>Merači vremena</category>
+      <category>Tajmeri</category>
       <description>
         Merenje vremena zasnovano na svetlosti koja sija na vaš telefon.
         U ovom eksperimentu možete eksponirati vaš senzor osvetljenja pomoću svetlosti, kako bi izmerili vreme između dva osvetljenja. Na primer, možete izmeriti vreme između dva događaja, blokirajući izvor svetlosti.

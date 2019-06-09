@@ -401,7 +401,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </translation>
     <translation locale="sr">
       <title>Spektar ubrzanja</title>
-      <category>Alatke</category>
+      <category>Alati</category>
       <description>
             Prikaz frekvencijskog spektra podataka sa brzinometra.
 
