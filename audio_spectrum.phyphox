@@ -892,8 +892,8 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     <subrange>
       <input as="from" type="value">0</input>
       <input as="to" type="value">256</input>
-      <input>reducedf</input>
-      <input>reducedfft</input>
+      <input as="in">reducedf</input>
+      <input as="in">reducedfft</input>
       <output>subf</output>
       <output>subfft</output>
     </subrange>
