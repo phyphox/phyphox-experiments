@@ -151,7 +151,6 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope y">Gyroscoop y</string>
       <string original="Gyroscope z">Gyroscoop z</string>
       <string original="correlation">correlatie</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Маятник</title>

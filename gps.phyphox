@@ -147,7 +147,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Houd er rekening mee dat sommige smartphones geen GPS-sensor hebben, maar locatiegegevens bieden via mobiele of WIFI-verbindingen. Deze gegevensbronnen produceren gegevens met onvoldoende nauwkeurigheid.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Zorg er ook voor dat de locatie-instelling van uw smartphone niet is ingesteld op "energiebesparing", omdat dit gewoonlijk de GPS uitschakelt terwijl navigatie-apps mogelijk nog steeds een vage locatie geven die wordt bepaald via het netwerk.</string>
       <string original="Position">Positie</string>
-      <string original="t">f</string>
       <string original="Movement">Beweging</string>
       <string original="Distance travelled">Afgelegde weg</string>
       <string original="Distance from start">Afstand vanaf start</string>

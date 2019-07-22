@@ -90,7 +90,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Magnetisch veld z</string>
       <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
       <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
-      <string original="t">f</string>
       <string original="Filtered B²">Gefilterde B²</string>
     </translation>
     <translation locale="ru">

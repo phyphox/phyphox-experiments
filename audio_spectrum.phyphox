@@ -121,7 +121,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Frequency">Frequentie</string>
       <string original="History">Geschiedenis</string>
       <string original="Time">Tijd</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Звуковой спектр</title>

@@ -35,7 +35,6 @@
       <string original="Graph">Grafiek</string>
       <string original="Pressure">Druk</string>
       <string original="Simple">Eenvoudig</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Давление</title>

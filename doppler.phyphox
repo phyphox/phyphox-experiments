@@ -91,7 +91,6 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Speed">Snelheid</string>
       <string original="Speed (m/s)">Snelheid (m/s)</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Эффект Доплера</title>

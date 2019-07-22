@@ -55,7 +55,6 @@
       <string original="Absolute acceleration">Absolute versnelling</string>
       <string original="Simple">Eenvoudig</string>
       <string original="Acceleration">Versnelling</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение с g</title>

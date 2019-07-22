@@ -116,7 +116,6 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="correlation">correlatie</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Пружины</title>
