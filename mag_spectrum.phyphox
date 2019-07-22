@@ -151,6 +151,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="FFT Mag">Величина FFT</string>
       <string original="History">История</string>
       <string original="Time">Время</string>
+      <string original="1/min">1/мин</string>
     </translation>
     <translation locale="it">
       <title>Spettro magnetico</title>
@@ -286,6 +287,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">Manyetik alan x</string>
       <string original="Magnetic field y">Manyetik alan y</string>
       <string original="Magnetic field z">Manyetik alan z</string>
+      <string original="1/min">1/dakika</string>
     </translation>
     <translation locale="zh_Hant">
       <title>磁場譜</title>
@@ -367,6 +369,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">Từ trường x</string>
       <string original="Magnetic field y">Từ trường y</string>
       <string original="Magnetic field z">Từ trường z</string>
+      <string original="1/min">1/phút</string>
     </translation>
     <translation locale="zh_Hans">
       <title>磁场谱</title>
@@ -520,6 +523,9 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
   <views>
     <view label="Spectrum">
       <value label="Peak-Frequency" unit="Hz">
+        <input>f0</input>
+      </value>
+      <value label="Peak-Frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>
