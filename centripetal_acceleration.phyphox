@@ -298,6 +298,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">Vreme</string>
       <string original="Angular velocity">Ugaona brzina</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Centripetalno ubrzanje</title>
+      <category>Mehanika</category>
+      <description>
+        Vizualizuje centripetalno ubrzanje kao funkciju ugaone brzine.
+
+        Ovaj eksperiment izračunava apsolutnu vrednost ugaone brzine ω iz žiroskopa, kao i apsolutno ubrzanje a iz brzinometra. Iscrtavanjem a po ω, odnos a = r·ω² se može lako prikazati, tako da crtanje po ω² treba da rezultira pravom linijom.
+
+        Da biste to videli, morate da merite na različitim ugaonim brzinama, ali na fiksnom prečniku. Centrifugalni sušač za salatu ili mali vrtuljak mogu poslužiti.
+    </description>
+      <string original="Relation">Relacija</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Angular velocity ω">Ugaona brzina ω</string>
+      <string original="Acceleration a">Ubrzanje a</string>
+      <string original="Square plot">Grafik kvadratne zavisnosti</string>
+      <string original="Time">Vreme</string>
+      <string original="Angular velocity">Ugaona brzina</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

@@ -196,6 +196,19 @@
       <string original="Gyroscope">Žiroskop</string>
       <string original="Simple">Jednostavno</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Žiroskop (stopa rotacije)</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz žiroskopa.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Gyroscope x">Žiroskop x</string>
+      <string original="Gyroscope y">Žiroskop y</string>
+      <string original="Gyroscope z">Žiroskop z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Gyroscope">Žiroskop</string>
+      <string original="Simple">Jednostavno</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

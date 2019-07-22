@@ -402,6 +402,33 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Help">Pomoć</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Magnetometar u Vašem telefonu je uvek izložen internim poljima iz elektronike telefona, što dovodi do pogrešnih rezultata. Stoga phyphox pokušava da dobije kalibrisano magnetno polje iz sistema. U nekim slučajevima možda nećete dobiti nikakve podatke, ako još nije kalibrisan (na primer, nakon što je telefon tek počeo). U tom slučaju treba da rotirate telefon nekoliko puta dok se eksperiment izvodi. Ovo pomaže sistemu da kalibriše senzor. Takođe, na mnogim uređajima (ne svim) možete se prebaciti na nekalibrisane podatke magnetometra preko menija u gornjem desnom uglu.</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Magnetometar</title>
+      <category>Senzori</category>
+      <description>
+        Preuzmite neobrađene podatke sa magnetometra.
+
+        Magnetometar je prilično osjetljiv, jer je dizajniran za merenje magnetnog polja Zemlje kao kompasa. Međutim, ona je uvek izložena unutrašnjim poljima iz elektronike telefona, što dovodi do pogrešnih rezultata. Stoga phyphox pokušava da dobije kalibrisano magnetno polje iz sistema. U nekim slučajevima možda nećete dobiti nikakve podatke, ako još nije kalibrisan (na primjer, nakon što je telefon tek počeo). U tom slučaju treba da rotirate telefon nekoliko puta dok se eksperiment izvodi. Ovo pomaže sistemu da kalibriše senzor. Takođe, na mnogim uređajima (ne svim) možete se prebaciti na nekalibrisane podatke magnetometra preko menija u gornjem desnom uglu.
+
+        Ne izlažite telefon jakim magnetnim poljima!
+    </description>
+      <string original="Graph">Grafik</string>
+      <string original="Accuracy">Tačnost</string>
+      <string original="Uncalibrated">Nekalibrisano</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Low">Niska</string>
+      <string original="Medium">Srednje</string>
+      <string original="High">Visoka</string>
+      <string original="Magnetometer x">Magnetometar x</string>
+      <string original="Magnetometer y">Magnetometar y</string>
+      <string original="Magnetometer z">Magnetometar z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Magnetometer">Magnetometar</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Help">Pomoć</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Magnetometar u Vašem telefonu je uvek izložen internim poljima iz elektronike telefona, što dovodi do pogrešnih rezultata. Stoga phyphox pokušava da dobije kalibrisano magnetno polje iz sistema. U nekim slučajevima možda nećete dobiti nikakve podatke, ako još nije kalibrisan (na primer, nakon što je telefon tek počeo). U tom slučaju treba da rotirate telefon nekoliko puta dok se eksperiment izvodi. Ovo pomaže sistemu da kalibriše senzor. Takođe, na mnogim uređajima (ne svim) možete se prebaciti na nekalibrisane podatke magnetometra preko menija u gornjem desnom uglu.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">mag_time</container>

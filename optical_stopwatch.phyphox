@@ -729,6 +729,48 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">Okidač uključen 5</string>
       <string original="Trigger off 5">Okidač isključen 5</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Optička štoperica</title>
+      <category>Tajmeri</category>
+      <description>
+        Merenje vremena zasnovano na svetlosti koja sija na vaš telefon.
+        U ovom eksperimentu možete eksponirati vaš senzor osvetljenja pomoću svetlosti, kako bi izmerili vreme između dva osvetljenja. Na primer, možete izmeriti vreme između dva događaja, blokirajući izvor svetlosti.
+        Obratite pažnju da preciznost merenja izuzetno zavisi od svetlosnog senzora koji se nalazi u vašem telefonu. Za spore senzore, moguće je da greška bude veća od 1 sekunde, dok za brze senzore ona iznoasi manje od desetog dela sekunde (0,1s). Brža merenja mogu se postići koristeći akustičke štoperice, koja je zasnovana na zvuku.
+    </description>
+      <string original="Settings">Podešavanja</string>
+      <string original="Trigger below">Pokretanje ispod</string>
+      <string original="Trigger above">Pokretanje iznad</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Štoperica se aktivira iznad i ispod navedenih vrednosti.  Ako želite da se aktivira na bilo koju vrednost osvetljenja, podesite vrednost za "pokreni ispod" na nula. Ako želite da se pokrene na tamne događaje, podesite vrednost za "pokreni iznad" jako veliku. Možete da procenite odgovarajući prag za vaš drugi okidač sa grafika ispod.</string>
+      <string original="Illuminance">Osvetljenost</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Preciznost zavisi najviše od svetlosnog senzora tvog telefona. Za sporije senzore, merenje će imati grešku veću od jedne sekunde, dok za brže senzore minimalna greška je deseti deo sekunde. Brža i tačnika merenja, mogu se izvršiti upotrebom senzora za zvuk.</string>
+      <string original="Sequence">Niz</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Parallel">Paralelno</string>
+      <string original="Duration">Trajanje</string>
+      <string original="Trigger duration 0">Trajanje okidača 0</string>
+      <string original="Trigger duration 1">Trajanje okidača 1</string>
+      <string original="Trigger duration 2">Trajanje okidača 2</string>
+      <string original="Trigger duration 3">Trajanje okidača 3</string>
+      <string original="Trigger duration 4">Trajanje okidača 4</string>
+      <string original="Trigger duration 5">Trajanje okidača 5</string>
+      <string original="Triggers">Okidači</string>
+      <string original="Trigger on 0">Okidač uključen 0</string>
+      <string original="Trigger off 0">Okidač isključen 0</string>
+      <string original="Trigger on 1">Okidač uljučen 1</string>
+      <string original="Trigger off 1">Okidač isključen 1</string>
+      <string original="Trigger on 2">Okidač uključen 2</string>
+      <string original="Trigger off 2">Okidač isključen 2</string>
+      <string original="Trigger on 3">Okidač uključen 3</string>
+      <string original="Trigger off 3">Okidač isključen 3</string>
+      <string original="Trigger on 4">Okidač uključen 4</string>
+      <string original="Trigger off 4">Okidač isključen 4</string>
+      <string original="Trigger on 5">Okidač uključen 5</string>
+      <string original="Trigger off 5">Okidač isključen 5</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

@@ -259,6 +259,23 @@
       <string original="Acceleration y">Ubrzanje y</string>
       <string original="Acceleration z">Ubrzanje z</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Ubrzanje (bez g)</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz takozvanog linearnog brzinometra, koji daje stvarno ubrzanje bez gravitacionog ubrzanja. Za razliku od "ubrzanje sa g", ovaj senzor javlja 0 kada se uređaj odmara.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Linear Acceleration x">Linearno ubrzanje x</string>
+      <string original="Linear Acceleration y">Linearno ubrzanje y</string>
+      <string original="Linear Acceleration z">Linearno ubrzanje z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Absolute acceleration">Apsolutno ubrzanje</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

@@ -561,6 +561,36 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Lokacija (GPS)</title>
+      <category>Senzori</category>
+      <description>
+        Preuzmite neobrađene rezultate sa satelitske navigacije.
+
+        Imajte na umu da ishod može zavisiti od postavke na vašem pametnom telefonu.Android uređaji ne pružaju vertikalnu tačnost informacija, dok iOS uređaji ne pružaju informaciju o broju satelita. Takođe, na iOS uređajima se mogiu pojaviti podaci sa drugih izvora pomešani sa podacima iz satelitske navigacije.
+
+        Brzina i pravac su obično sati od strane uređaja i zasnovani na dva ili više doslednih ispravki pozicije.
+    </description>
+      <string original="Position">Pozicija</string>
+      <string original="GPS disabled">GPS onemogućen</string>
+      <string original="GPS active">GPS uključen</string>
+      <string original="Latitude">Širina</string>
+      <string original="Longitude">Dužina</string>
+      <string original="Height">Visina</string>
+      <string original="Movement">Pokret</string>
+      <string original="Speed">Brzina</string>
+      <string original="Direction">Pravac</string>
+      <string original="Distance travelled">Prebrisana razdaljina</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Compass">Kompas</string>
+      <string original="Distance from start">Razdaljina od starta</string>
+      <string original="Horizontal Accuracy">Horizontalna tačnost</string>
+      <string original="Vertical Accuracy">Vertikalna tačnost</string>
+      <string original="Satellites">Sateliti</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

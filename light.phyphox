@@ -184,6 +184,17 @@
             </string>
       <string original="Simple">Jednostavno</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Svetlost</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz svetlosn0og senzora.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Illuminance">Osvetljenost</string>
+      <string original="Info">
+                Napomena: Na nekim uređajima svetlosni senzor se ažurira isključivo kada postoji gruba promena osvetljenosti.
+            </string>
+      <string original="Simple">Jednostavno</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

@@ -307,6 +307,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">Poništiti poslednji rezultat</string>
       <string original="Clear all scores">Obrisati sve rezultate</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Merač aplauza</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Dodeljivanje rezultata dužini i amplitudi aplauza.
+
+        Ovaj eksperiment objedinjuje amplitudu zvuka u toku vremena i dodeljuje rezultate. Na ovaj način glasni i dugi aplauz postiže viši rezultat. Možete proveriti više aplauza i uporediti njihove rezultate u grafikonu sa linijama.
+
+        Upotreba: Istorija pokazuje nivo buke detektovan od strane phyphox-a. Možete započeti merenje pritiskom ''start'' i zaustaviti pristiskom ''stop''. Tokom ovog perioda videće te kakao se rezultat povećava što se takođe naznačava žutom linijom. Nakon stopiranja, možete pritisnuti ''next contstant'' da bi ste se pripremili za merenje sledećeg rezultata. Kada pritisnite ''start'' ponovo, druga linija će rasti dok ne pritisnete ponovo ''stop''. Ovo možete ponavljati onoliko često koliko želite da poredite više rezultata.
+    </description>
+      <string original="Score">Rezultat</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Subscore">Podrezultat</string>
+      <string original="Scores">Rezultati</string>
+      <string original="Contestant">Takmičar</string>
+      <string original="Start">Početak</string>
+      <string original="Stop">Kraj</string>
+      <string original="Next contestant">Sledeći takmičar</string>
+      <string original="Controls">Kontrole</string>
+      <string original="Reset last score">Poništiti poslednji rezultat</string>
+      <string original="Clear all scores">Obrisati sve rezultate</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>
