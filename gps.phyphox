@@ -772,7 +772,8 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <input clear="false">subLon</input>
       <output>dLon</output>
     </differentiate>
-    <formula formula="0.01745329252*sqrt((cos(0.01745329252*[1_])*[2_])^2+[1_]*[1_])*6371">
+    <formula formula="0.01745329252*sqrt((cos(0.01745329252*[1_])*[3_])^2+[2_]*[2_])*6371">
+      <input clear="false">subLat</input>
       <input>dLat</input>
       <input>dLon</input>
       <output>dnew</output>
