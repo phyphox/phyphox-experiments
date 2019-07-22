@@ -92,7 +92,6 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
       <string original="Angular velocity">Hoeksnelheid</string>
       <string original="Angular velocity ω">Hoeksnelheid ω</string>
       <string original="Acceleration a">Versnelling a</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Центростремительное ускорение</title>

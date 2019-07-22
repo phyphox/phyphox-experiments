@@ -118,7 +118,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Frequency">Frequentie</string>
       <string original="History">Geschiedenis</string>
       <string original="Time">Tijd</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Магнитный спектр</title>

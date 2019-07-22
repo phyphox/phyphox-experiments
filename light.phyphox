@@ -53,7 +53,6 @@
                 Opmerking: op sommige apparaten wordt de lichtsensor alleen gereset als de verlichtingssterkte sterk verandert.
             </string>
       <string original="Simple">Eenvoudig</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Свет</title>

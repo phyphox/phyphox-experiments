@@ -104,7 +104,6 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Onbewerkte data</string>
       <string original="Recording">Opname</string>
       <string original="correlation">correlatie</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Звуковая автокорреляция</title>

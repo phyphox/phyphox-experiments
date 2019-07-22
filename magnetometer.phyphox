@@ -105,7 +105,6 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Absolute">Absoluut</string>
       <string original="Simple">Eenvoudig</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">De magnetometer in uw smartphone wordt altijd blootgesteld aan inwendige elektromagnetische velden vanwege de elektronica in uw telefoon, wat tot onjuiste resultaten leidt. Daarom probeert phyphox het gekalibreerde magnetische veld uit de data van de sensor te halen. In sommige gevallen ontvangt u mogelijk geen data als het magnetische veld nog niet gekalibreerd is (bijvoorbeeld nadat de telefoon net is gestart). In dit geval moet u uw telefoon een paar keer ronddraaien tijdens het experiment. Dit helpt  om de sensor te kalibreren. Ook kunt u op veel smartphones (niet alle) overschakelen naar niet-gekalibreerde magnetometerdata via het menu in de rechterbovenhoek.</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Магнитометр</title>

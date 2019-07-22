@@ -70,7 +70,6 @@
       <string original="Acceleration y">Versnelling y</string>
       <string original="Acceleration z">Versnelling z</string>
       <string original="Acceleration">Versnelling</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение (без g)</title>

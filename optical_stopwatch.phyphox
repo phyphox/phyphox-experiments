@@ -225,7 +225,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Trigger uit 4</string>
       <string original="Trigger on 5">Trigger aan 5</string>
       <string original="Trigger off 5">Trigger uit 5</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Оптический секундомер</title>

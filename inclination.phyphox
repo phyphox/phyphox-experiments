@@ -90,7 +90,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <string original="Rotation">Rotatie</string>
       <string original="Flat">Liggend</string>
       <string original="Tilt up/down">Op/neer kanteling</string>
-      <string original="t">f</string>
       <string original="Angle">Hoek</string>
       <string original="Tilt left/right">Links/rechts kanteling</string>
       <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Op dit scherm kun je de kantelingshoek van de smartphone meten, vertrekkend van een horizontale stand.</string>

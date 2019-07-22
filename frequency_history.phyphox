@@ -64,7 +64,6 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Period">Periode</string>
       <string original="Period (s)">Periode (s)</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>История частоты</title>
