@@ -55,7 +55,6 @@
       <string original="Absolute acceleration">Absolute versnelling</string>
       <string original="Simple">Eenvoudig</string>
       <string original="Acceleration">Versnelling</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Ускорение с g</title>
@@ -199,6 +198,20 @@
       <string original="Simple">简明值</string>
     </translation>
     <translation locale="sr">
+      <title>Ubrzanje sa g</title>
+      <category>Senzori</category>
+      <description>Očitajte neobrađene podatke iz brzinometra. Ovaj senzor neće oduzeti gravitacionu silu, pa će prijaviti ubrzanje od 9.81 m/s² iako je telefon u stanju mirovanja.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Accelerometer x">Brzinometar x</string>
+      <string original="Accelerometer y">Brzinometar y</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Absolute acceleration">Apsolutno ubrzanje</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Simple">Jednostavno</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Ubrzanje sa g</title>
       <category>Senzori</category>
       <description>Očitajte neobrađene podatke iz brzinometra. Ovaj senzor neće oduzeti gravitacionu silu, pa će prijaviti ubrzanje od 9.81 m/s² iako je telefon u stanju mirovanja.</description>

@@ -118,7 +118,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Frequency">Frequentie</string>
       <string original="History">Geschiedenis</string>
       <string original="Time">Tijd</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Магнитный спектр</title>
@@ -152,6 +151,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="FFT Mag">Величина FFT</string>
       <string original="History">История</string>
       <string original="Time">Время</string>
+      <string original="1/min">1/мин</string>
     </translation>
     <translation locale="it">
       <title>Spettro magnetico</title>
@@ -287,6 +287,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">Manyetik alan x</string>
       <string original="Magnetic field y">Manyetik alan y</string>
       <string original="Magnetic field z">Manyetik alan z</string>
+      <string original="1/min">1/dakika</string>
     </translation>
     <translation locale="zh_Hant">
       <title>磁場譜</title>
@@ -368,6 +369,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">Từ trường x</string>
       <string original="Magnetic field y">Từ trường y</string>
       <string original="Magnetic field z">Từ trường z</string>
+      <string original="1/min">1/phút</string>
     </translation>
     <translation locale="zh_Hans">
       <title>磁场谱</title>
@@ -400,6 +402,32 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field z">Z方向磁场</string>
     </translation>
     <translation locale="sr">
+      <title>Magnetni spektar</title>
+      <category>Alati</category>
+      <description>
+            Prikaži frekvenciju spektra podataka iz magnetometra.
+
+           Ovaj eksperiment snima podatke iz magnetometra i račina njegovi spektralnu frekvenciju kroz Furijeove transformacije (FFT). Maksimalna detektovana frekvencija zavisi od maksimalne sposobnosti vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Magnetni spektar</title>
       <category>Alati</category>
       <description>
@@ -495,6 +523,9 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
   <views>
     <view label="Spectrum">
       <value label="Peak-Frequency" unit="Hz">
+        <input>f0</input>
+      </value>
+      <value label="Peak-Frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>

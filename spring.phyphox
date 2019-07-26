@@ -116,7 +116,6 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="correlation">correlatie</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Пружины</title>
@@ -374,6 +373,29 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer z">z轴加速度计</string>
     </translation>
     <translation locale="sr">
+      <title>Opruga</title>
+      <category>Mehanika</category>
+      <description>
+        Analizirajte frekvenciju i period oscilovanja opruge.
+
+        Ovaj eksperiment koristi brzinometar za merenje kretanja oscilatora i izračunava period oscilovanja T. Pored toga, na kartici rezonancija, iscrtava amplitudu po detektovanoj frekvenciji. Na ovaj način možete konstruisati pogonjeni oscilator i promeniti njegovu frekvenciju da biste izmerili rezonantnu krivu.
+
+        Više detalja:
+        Period oscilovanja se dobija autokorelacijom suma svih triju komponenti brzinometra. Autokorelacija se zatim analizira za svoj prvi maksimum za prvu procenu, a zatim se koristi poslednji maksimum autokorelacije da bi se dobio precizniji rezultat.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Resonance">Rezonancija</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Accelerometer x">Brzinometar x</string>
+      <string original="Accelerometer y">Brzinometar y</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Opruga</title>
       <category>Mehanika</category>
       <description>

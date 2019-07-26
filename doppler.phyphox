@@ -91,7 +91,6 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Speed">Snelheid</string>
       <string original="Speed (m/s)">Snelheid (m/s)</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Эффект Доплера</title>
@@ -299,6 +298,25 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Speed">速度</string>
     </translation>
     <translation locale="sr">
+      <title>Doplerov efekat</title>
+      <category>Akustika</category>
+      <description>
+        Detektujte male promene u frekvenciji Doplerovog efekta.
+
+        Potreban Vam je generator tona koji emituje konstantnu frekvenciju (na primer 1000Hz). Unesite ovu osnovnu frekvenciju u podešavanja eksperimenta i izaberite opseg detektovanja u kom očekujete frekvenciju promenjenu Doplerovim efektom (na primer 10Hz). Eksperiment će odrediti snimljenu frekvenciju i izračunati relativnu brzinu i zvuk izvora.
+    </description>
+      <string original="Setup">Podešavanja</string>
+      <string original="Base frequency">Osnovna frekvencija</string>
+      <string original="Frequency range">Opseg frekvencije</string>
+      <string original="Time step">Vremenski interval</string>
+      <string original="Speed of sound">Brzina zvuka</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Vremenski interval određuje stopu i količinu podataka koja se koristi pri izračunavanju brzine. Algoritam će potražiti frekvenciju  približnu osnovnoj frekvenciji od -opsega do +opsega i koristiti n-ti period (ispod) da odredi frekvenciju. Ekstremna podešavanja za opseg ili vremenski interval mogu biti netačna ili previše komplikovana za izračunavanje za Vaš telefon. Takođe, trebalo bi da držite opseg znatno manji od 1/interval.</string>
+      <string original="nth period">n-ti period</string>
+      <string original="Results">Rezultati</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Speed">Brzina</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Doplerov efekat</title>
       <category>Akustika</category>
       <description>

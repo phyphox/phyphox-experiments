@@ -64,7 +64,6 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Period">Periode</string>
       <string original="Period (s)">Periode (s)</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>История частоты</title>
@@ -195,6 +194,17 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Period">周期</string>
     </translation>
     <translation locale="sr">
+      <title>Istorija frekvencija</title>
+      <category>Akustika</category>
+      <description>
+        Merenje frekvencije se menja tokom vremena za svaki pojedinačni ton.
+
+        Ovaj eksperiment snima zvuk sa mikrofona i analizira ga prema frekvenciji u kratkim jedinicama vremena. Ovo funkcioniše isključivo ukoliko postoji jedinstven ton sa nepromenjivom frekvencijom, pošto se koristi autokorelacija. Rezultat će biti ucrtan kao frekvencija u vremenu.
+    </description>
+      <string original="History">Istorija</string>
+      <string original="Frequency">Frekvencija</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Istorija frekvencija</title>
       <category>Akustika</category>
       <description>

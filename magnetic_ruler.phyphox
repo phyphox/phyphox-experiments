@@ -90,7 +90,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Magnetisch veld z</string>
       <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
       <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
-      <string original="t">f</string>
       <string original="Filtered B²">Gefilterde B²</string>
     </translation>
     <translation locale="ru">
@@ -296,6 +295,25 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Filtered B²">滤波后的B²</string>
     </translation>
     <translation locale="sr">
+      <title>Magnetni lenjir</title>
+      <category>Alati</category>
+      <description>
+        Koristite set magneta kako biste izmerili razdaljinu, brzinu i ubrzanje telefona.
+
+       Za ovaj eksperiment potrebno je postaviti set identičnih magneta duž putanje kojom će se telefon kretati. Razdaljina između magneta mora biti ista za svaki magnet i treba biti uneta u ekpseriment. Telefon će tada koristiti svoj magnetometar da odredi kada je prošao kraj magneta, dozvoljavajući da izračuna ukupnu prebvrisanu razdaljinu.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="dx is the distance between two magnets">dx je razdaljina između dva magneta</string>
+      <string original="Distance">Razdaljina</string>
+      <string original="Velocity">Brzina</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+      <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
+      <string original="Filtered B²">Obrađen B²</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Magnetni lenjir</title>
       <category>Alati</category>
       <description>

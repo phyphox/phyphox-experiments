@@ -228,6 +228,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Amplitude">Amplituda</string>
       <string original="Duration">Trajanje</string>
     </translation>
+    <translation locale="sr_Latn">
+      <title>Zvučno polje</title>
+      <category>Akustika</category>
+      <description>
+        Prikaži snimljeni zvuk.
+
+        Ovaj eksperiment snima samo kratke intervale zvuka i prikazuje ih. Da biste postigli stabilnu sliku, nulti presek ose se koristi kao polazna tačka i  t=0 je pomereno u prvi (pozitivni) presek.
+    </description>
+      <string original="Scope">Polje</string>
+      <string original="Audio Data">Zvučni materijal</string>
+      <string original="Time">Vreme</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Duration">Trajanje</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

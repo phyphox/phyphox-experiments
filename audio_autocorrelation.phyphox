@@ -104,7 +104,6 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Onbewerkte data</string>
       <string original="Recording">Opname</string>
       <string original="correlation">correlatie</string>
-      <string original="t">f</string>
     </translation>
     <translation locale="ru">
       <title>Звуковая автокорреляция</title>
@@ -476,6 +475,28 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Amplitude">振幅</string>
     </translation>
     <translation locale="sr">
+      <title>Zvučna autokorelacija</title>
+      <category>Akustika</category>
+      <description>
+        Izmerite frekvenciju jednog tona.
+
+        Ovaj eksperiment snima zvuk iz mikrofona i analizira njegovu frekvenciju. Ovo radi samo ako postoji jedan ton sa fiksnom frekvencijom - ako postoji više frekvencija (kao što je akord), koristite eksperiment "spektar".
+
+        Analiza se vrši izračunavanjem autokorelacije zvučnih signala. Eksperiment zatim razmatra sve vrhove koji premašuju polovinu maksimalnog signala u autokorelaciji. Položaj poslednjeg od ovih vrhova unutar autokorelacije daje višestruki period signala. Brojeći broj vrhova možemo dobiti period osnovne frekvencije.
+    </description>
+      <string original="Autocorr.">Autokorelacija.</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="sr_Latn">
       <title>Zvučna autokorelacija</title>
       <category>Akustika</category>
       <description>
