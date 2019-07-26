@@ -6,7 +6,9 @@
   <description>
         Get raw position data from satellite navigation.
 
-        Note that the behaviour may depend on the implementation on your smartphone. Android devices do not provide vertical accuracy information while iOS devices do not provide the number of satellites. Also, on iOS there may be data from other sources mixed into the data from satellite navigation.
+        Note that the available data may depend on the implementation on your smartphone. Some devices may not provide vertical accuracy or the number of satellites.
+
+        Also, by default there is location information from other typically less accurate sources (like wifi or mobile data networks) mixed into the data from satellite navigation. Again, depending on your device, you may be able to disable these sources from the experiment menu by enabling the setting to only collect data from satellite navigation.
 
         Speed and direction are typically given by the device and are based on two or more consecutive position fixes.
     </description>
@@ -18,7 +20,9 @@
       <description>
         Positionsdaten der satellitengestützten Navigation auslesen.
 
-        Beachte, dass das Verhalten vom jeweiligen Gerät abhängen kann. Android bietet keine Angabe über die vertikale Genauigkeit während iOS nicht die Anzahl der genutzten Satelliten ausgibt. Ebenso können unter iOS Positionsdaten aus anderen Quellen zwischen den Satellitendaten auftauchen.
+        Beachte, dass die verfügbaren Informationen vom jeweiligen Gerät abhängen können. Manche Geräte bieten keine vertikale Genauigkeit oder nicht die Anzahl der genutzten Satelliten.
+
+        Ebenso werden normalerweise auch Positionsdaten aus weniger genauen Quellen (wie WLAN oder Mobilfunk) zwischen den Satellitendaten auftauchen. Dies kann, ebenfalls Abhängig vom verwendeten Gerät, im Experiment-Menü abgeschaltet werden, indem du die Einstellung aktivierst, nur Daten von Satelliten aufzuzeichnen.
 
         Geschwindigkeit und Richtung der Bewegung werden typischerweise vom System bereit gestellt und ergeben sich aus zwei oder mehr aufeinander folgenden Positionsmessungen.
     </description>
@@ -49,10 +53,6 @@
       <category>Senzory</category>
       <description>
         Získejte neupravená data o vaší pozici ze satelitní navigace.
-
-Chování tohoto modulu závisí na konkrétní implementaci vašeho mobilního zařízení. Systém Android neposkytuje informace o vertikální přesnosti. Naproti tomu systém iOS neposkytuje informace o počtu satelitů a satelitní data mohou být v iOS smíchána s pozičními údaji z jiných zdrojů.
-
-Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a je zpravidla založen na několika po sobě jdoucích údajích o pozici.
     </description>
       <string original="Graph">Graf</string>
       <string original="GPS disabled">GPS neaktivní</string>
@@ -84,10 +84,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Surowe dane</category>
       <description>
         Uzyskaj surowe dane o położeniu z satelitarnego systemy nawigacji (GPS).
-
-        Należy pamiętać, że wyniki tego eksperymentu silnie zależą od sposobu pracy urządzenia w systemie GPS. Urządzenia pracujące ze środowiskiem Android nie dostarczają danych o położeniu w pionie. Natomiast urządzenia wyposażone w system iOS nie dostarczają informacji o liczbie satelitów oraz mogą przekazywać nieuporządkowane informacje pochodzące także z innych niż GPS źródeł.
-
-        Przemieszczenie oraz wartość prędkość są zwykle podawane przez urządzenie i są oparte na dwóch lub większej liczbie kolejnych ustalonych pozycji.
     </description>
       <string original="Graph">Wykres</string>
       <string original="GPS disabled">GPS NIEaktywny</string>
@@ -118,10 +114,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Onbewerkte sensoren</category>
       <description>
         Verkrijg ruwe positiegegevens vanwege satellietnavigatie.
-
-        Merk op dat het gedrag kan afhangen van de implementatie op uw smartphone. Android-apparaten leveren geen nauwkeurige bepaling van verticale positie, terwijl iOS-apparaten niet het aantal satellieten geven. Ook kunnen er op iOS gegevens uit andere bronnen worden gecombineerd met de gegevens uit satellietnavigatie.
-
-        De snelheid wordt gegeven door het apparaat en is gebaseerd op twee of meer opeenvolgende positiebepalingen.
     </description>
       <string original="Graph">Grafiek</string>
       <string original="Status">Stand van zaken</string>
@@ -158,10 +150,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Исходные датчики</category>
       <description>
         Получите примерное местоположение по данным спутниковой навигации.
-
-          Обратите внимание, что измерения могут зависеть от вашего смартфона. Устройства Android не предоставляют информацию о вертикальной точности, в то время как устройства iOS не предоставояют количество спутников. Кроме того, на iOS могут быть данные из других источников, смешанных с данными спутниковой навигации.
-
-          Скорость и направление обычно задаются устройством и основаны на двух или более последовательных положениях.
     </description>
       <string original="Graph">График</string>
       <string original="Status">Статус</string>
@@ -209,10 +197,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Sensori</category>
       <description>
         Ottiene i dati sulla posizione dal sistema di navigazione satellitare.
-
-        L'accuratezza può dipendere dal sistema del tuo smartphone. Dispositivi Android non forniscono informazioni sulla precisione verticale mentre dispositivi iOS non forniscono il numero di satelliti. Inoltre, su iOS possono esserci dati provenienti da altre sorgenti mescolati con i dati del sistema di navigazione satellitare.
-
-        La velocità e la direzione sono generalmente calcolate dal dispositivo e si ottengono da due o più posizioni consecutive.
     </description>
       <string original="Graph">Grafico</string>
       <string original="Status">Stato</string>
@@ -251,10 +235,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Αισθητήρες</category>
       <description>
         Δεδομένα τοποθεσίας από δορυφορική πλοήγηση.
-
-        Σημειώστε ότι η συμπεριφορά μπορεί να εξαρτάται από την κατασκευή του τηλεφώνου σας. Οι συσκευές Android δεν δίνουν πληροφορίες για την κατακόρυφη ακρίβεια ενώ συσκευές με iOS δεν πληροφορούν για τον αριθμό των δορυφόρων. Επίσης, στις συσκευές με iOS, ενδέχεται να υπάρχουν δεδομένα από άλλες πηγές ανακατεμένα μέσα στα δεδομένα από τη δορυφορική πλοήγηση. 
-
-        Ταχύτητα και κατεύθυνση δίνονται συνήθως από τη συσκευή και βασίζονται σε δύο οι περισσότερες διαδοχικές καταγραφές τοποθεσίας.
     </description>
       <string original="Graph">Γράφημα</string>
       <string original="Status">Κατάσταση</string>
@@ -287,10 +267,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>センサー出力</category>
       <description>
         GPS衛星から計算されたの位置情報の取得．
-
-測定結果は機器へのGPSデバイスの実装に依存することに注意してください．Androidデバイスは垂直方向の情報に対する精度があまりよくありません．一方でiOSデバイスは位置計算に用いたGPS衛星の数を示しません．また，iOSデバイスにおいては，GPS衛星データのみから得た位置情報を，他の位置情報データと混合し，複合的に判断している場合もあります．
-
-速さと方向は，各機器が２点以上の連続した位置情報から算出した場合が多い．
     </description>
       <string original="Position">位置</string>
       <string original="Status">ステータス</string>
@@ -321,10 +297,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Sensores</category>
       <description>
         Obtenha o dado puro da posição a partir do satélite de navegação.
-
-        Note que o comportamento pode depender da implementação do seu aparelho. Dispositivos Android não fornecem informação sobre a precisão vertical, enquanto dispositivos iOS não fornecem o número de satélites. Além disso, no iOS pode ter dados de outras fontes que são misturados com os dados dos satélites de navegação.
-
-        Velocidade e direção são tipicamente fornecidos pelo dispositivo e são baseadas em duas ou mais posições fixas consecutivas.
     </description>
       <string original="Position">Posição</string>
       <string original="Status">Estado</string>
@@ -355,10 +327,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Ham Sensörler</category>
       <description>
         Uydu navigasyonundan ham konum verilerini alın.
-
-        Geçerliliğin akıllı telefonunuzdaki uygulamaya bağlı olabileceğini unutmayın. İOS cihazlar, uydu sayısını sağlamazken, Android cihazlar dikey doğruluk bilgisi sunmaz. Ayrıca, iOS'ta uydu navigasyonundan alınan verilerle karıştırılmış diğer kaynaklardan da veri olabilir.
-
-        Hız ve yön, tipik olarak cihaz tarafından verilir ve iki veya daha fazla ardışık pozisyon düzeltmesine dayanır.
     </description>
       <string original="Position">Pozisyon</string>
       <string original="Status">Durum</string>
@@ -386,10 +354,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>原始感測器</category>
       <description>
         由衛星的航行得原始位置數據。
-
-	注意這會由該處的基礎建設程度影響。Android 裝置不提供鉛直精準度資料，然而iOS不提供衛星的數量。並且，在iOS上來自於其他來源的資料會混入衛星的資料。
-
-	速度及方向主要由手機提供，並且透過兩個連續的位置給出。
     </description>
       <string original="Status">狀態</string>
       <string original="GPS disabled">GPS 未使用</string>
@@ -424,10 +388,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Capteurs</category>
       <description>
         Données GPS (localisation par satellite).
-
-        Les données accessibles par cette expérience dépendent de votre smartphone : les appareils Android ne fournissent pas la précision de la mesure de l’altitude, tandis que les appareils iOS ne fournissent pas le nombre de satellites détectés. En outre, sur iOS, il se peut que des données provenant d'autres capteurs que le GPS soient également utilisées pour déterminer la localisation.
-
-        La vitesse et la direction font souvent partie des données accessibles ; elles sont calculées à partir de la mesure de deux (ou plus) positions consécutives.
     </description>
       <string original="Position">Localisation</string>
       <string original="Status">État</string>
@@ -454,10 +414,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Cảm biến thô</category>
       <description>
         Nhận dữ liệu vị trí thô từ định vị vệ tinh.
-
-        Lưu ý rằng hoạt động có thể phụ thuộc vào loại điện thoại thông minh của bạn. Thiết bị Android không cung cấp thông tin chính xác theo độ cao trong khi thiết bị iOS không cung cấp số lượng vệ tinh. Ngoài ra, trên iOS có thể có dữ liệu từ các nguồn khác được trộn vào dữ liệu từ định vị vệ tinh.
-
-        Tốc độ và hướng thường được đưa ra bởi thiết bị và dựa trên hai hoặc nhiều lần thay đổi vị trí liên tiếp.
     </description>
       <string original="Position">Vị trí</string>
       <string original="Status">Trạng thái</string>
@@ -493,10 +449,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>原始传感器</category>
       <description>
         从卫星导航获得原始位置数据。
-
-       请注意相应性能可能取决于你手机上的执行情况。安卓设备部提供垂直精度信息，而iOS不提供卫星数量。并且，在iOS 上可能有其他来源的数据混入卫星导航的数据。
-       
-	速度和方向通常由设备给出，并基于两个或多个连续的位置定位。
     </description>
       <string original="Position">位置</string>
       <string original="Status">状态</string>
@@ -536,10 +488,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Senzori</category>
       <description>
         Preuzmite neobrađene rezultate sa satelitske navigacije.
-
-        Imajte na umu da ishod može zavisiti od postavke na vašem pametnom telefonu.Android uređaji ne pružaju vertikalnu tačnost informacija, dok iOS uređaji ne pružaju informaciju o broju satelita. Takođe, na iOS uređajima se mogiu pojaviti podaci sa drugih izvora pomešani sa podacima iz satelitske navigacije.
-
-        Brzina i pravac su obično sati od strane uređaja i zasnovani na dva ili više doslednih ispravki pozicije.
     </description>
       <string original="Position">Pozicija</string>
       <string original="GPS disabled">GPS onemogućen</string>
@@ -566,10 +514,6 @@ Rychlost a směr pohybu je typicky určován v samotném mobilním zařízení a
       <category>Senzori</category>
       <description>
         Preuzmite neobrađene rezultate sa satelitske navigacije.
-
-        Imajte na umu da ishod može zavisiti od postavke na vašem pametnom telefonu.Android uređaji ne pružaju vertikalnu tačnost informacija, dok iOS uređaji ne pružaju informaciju o broju satelita. Takođe, na iOS uređajima se mogiu pojaviti podaci sa drugih izvora pomešani sa podacima iz satelitske navigacije.
-
-        Brzina i pravac su obično sati od strane uređaja i zasnovani na dva ili više doslednih ispravki pozicije.
     </description>
       <string original="Position">Pozicija</string>
       <string original="GPS disabled">GPS onemogućen</string>
