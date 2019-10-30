@@ -826,10 +826,10 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </max>
     <divide>
       <input clear="false">actual_samples</input>
-      <input type="value">256</input>
+      <input type="value">512</input>
       <output>resolutionRatio</output>
     </divide>
-    <reduce averageY="true" averageX="true">
+    <reduce averageY="true" averageX="false">
       <input clear="false" as="factor">resolutionRatio</input>
       <input clear="false" as="x">halfFrequency</input>
       <input clear="false" as="y">fft</input>

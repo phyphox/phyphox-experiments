@@ -329,9 +329,9 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <output>triggerTend</output>
     </add>
     <subrange>
+      <input>recording</input>
       <input as="from">triggerT</input>
       <input as="to">triggerTend</input>
-      <input>recording</input>
       <output>subdata</output>
     </subrange>
     <match>
