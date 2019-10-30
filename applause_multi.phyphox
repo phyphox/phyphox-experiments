@@ -415,7 +415,7 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       </button>
     </view>
   </views>
-  <analysis sleep="0.1">
+  <analysis sleep="0.2">
     <if equal="true">
       <input clear="false">next</input>
       <input type="value">1</input>
@@ -456,7 +456,7 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     </power>
     <divide>
       <input>rms</input>
-      <input type="value">1</input>
+      <input type="value">0.5</input>
       <output>subscore</output>
     </divide>
     <append>
