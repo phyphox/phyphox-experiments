@@ -850,8 +850,8 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     <subrange>
       <input as="from" type="value">0</input>
       <input as="to" type="value">256</input>
-      <input>reducedf</input>
-      <input>reducedfft</input>
+      <input as="in">reducedf</input>
+      <input as="in">reducedfft</input>
       <output clear="false">subf</output>
       <output clear="false">subfft</output>
     </subrange>
