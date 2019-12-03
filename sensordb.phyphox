@@ -6,204 +6,297 @@
   <description>Submit information about the sensors in your phone to phyphox.org.
 
 This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.</description>
+  <translations>
+    <translation locale="cs">
+      <string original="Results">Výsledky</string>
+    </translation>
+    <translation locale="de">
+      <string original="Results">Ergebnisse</string>
+      <string original="Gyroscope">Gyroskop</string>
+      <title>An Sensor-Datenbank senden</title>
+      <category>phyphox.org</category>
+      <description>Übermittle Informationen zu den Sensoren deines Handys an phyphox.org.
+
+Dieses Experiment sammelt technische Informationen über dein Handy und seine Sensore. Dies kannst du an unsere Datenbank übermitteln, wo wir die Daten zusammenfassen und anderen Nutzern zur Verfügung stellen. Dies hilft uns und anderen, mehr über die Verfügbarkeit und die Fähigkeiten der Sensoren auf verschiedenen Geräten zu lernen.</description>
+      <string original="Submit">Abschicken</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Dieses Experiment sammelt technische Informationen über dein Handy und die darin verbauten Sensoren, was du an unsere Sensor-Datenbank senden kannst. Die Daten werden zusammengefasst und anderen Nutzern zur Verfügung gestellt, so dass wir und andere herausfinden können, welche Sensoren mit welchen Eigenschaften auf verschiedenen Geräten zur Verfügung stehen.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Bitte lege dein Handy auf eine stabile Unterlage und drücke Start. Vermeide bitte, dieses Experiment in Bewegung (Auto, Zug usw.) oder auf vibrierenden Flächen (laute Musik, Vibration von Fahrzeugen usw.) durchzuführen, da dies die Ergebnisse verfälscht.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox wird eine Weile Daten sammeln und dir schließlich mitteilen, dass du die Daten übermitteln kannst.</string>
+      <string original="Step">Schritt</string>
+      <string original="Waiting for start">Warte auf Start</string>
+      <string original="Collecting data">Sammle Daten</string>
+      <string original="You may now press submit">Du kannst nun "Abschicken" drücken</string>
+      <string original="Success. Thank you!">Übermittelt. Danke!</string>
+      <string original="Confidence">Zuverlässigkeit</string>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Average">Mittelwert</string>
+      <string original="Standard deviation">Standardabweichung</string>
+      <string original="Acceleration (without g)">Beschleunigung (ohne g)</string>
+      <string original="Temperature">Temperatur</string>
+      <string original="Humidity">Luftfeuchtigkeit</string>
+      <string original="Light">Licht</string>
+      <string original="Proximity">Annäherung</string>
+    </translation>
+    <translation locale="el">
+      <string original="Results">Αποτελέσματα</string>
+      <string original="Gyroscope">Γυροσκόπιο</string>
+      <string original="Magnetometer">Μαγνητόμετρο</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Results">Résultats</string>
+      <string original="Magnetometer">Magnétomètre</string>
+    </translation>
+    <translation locale="it">
+      <string original="Gyroscope">Giroscopio</string>
+      <string original="Magnetometer">Magnetometro</string>
+      <string original="lx">lux</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Results">結果</string>
+      <string original="Gyroscope">ジャイロスコープ</string>
+      <string original="Magnetometer">磁力計</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Results">Resultaten</string>
+      <string original="Gyroscope">Gyroscoop</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Results">Rezultaty</string>
+      <string original="Gyroscope">Żyroskop</string>
+      <string original="Magnetometer">Magnetometr</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Results">Resultados</string>
+      <string original="Gyroscope">Giroscópio</string>
+      <string original="Magnetometer">Magnetômetro</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Results">Результаты</string>
+      <string original="Hz">Гц</string>
+      <string original="m/s²">м/с²</string>
+      <string original="Gyroscope">Гироскоп</string>
+      <string original="rad/s">рад/с</string>
+      <string original="Magnetometer">Магнитометр</string>
+      <string original="µT">мкТл</string>
+      <string original="hPa">гПа</string>
+      <string original="lx">лк</string>
+      <string original="cm">см</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Results">Rezultati</string>
+      <string original="Gyroscope">Žiroskop</string>
+      <string original="Magnetometer">Magnetometar</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Results">Rezultati</string>
+      <string original="Gyroscope">Žiroskop</string>
+      <string original="Magnetometer">Magnetometar</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Results">Sonuçlar</string>
+      <string original="Gyroscope">Jiroskop</string>
+      <string original="Magnetometer">Manyetometre</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Results">Kết quả</string>
+      <string original="Gyroscope">Con quay hồi chuyển</string>
+      <string original="Magnetometer">Từ kế</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <string original="Results">结果</string>
+      <string original="Hz">赫兹</string>
+      <string original="Gyroscope">陀螺仪</string>
+      <string original="Magnetometer">磁力计</string>
+      <string original="lx">勒克斯</string>
+      <string original="cm">厘米</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="Results">結果</string>
+      <string original="Hz">赫茲</string>
+      <string original="m/s²">公尺/秒²</string>
+      <string original="rad/s">弧度/秒</string>
+      <string original="µT">微特斯拉</string>
+      <string original="hPa">百帕</string>
+      <string original="%">百分比</string>
+      <string original="lx">勒克斯</string>
+      <string original="cm">公分</string>
+    </translation>
+  </translations>
   <data-containers>
     <container size="1" init="0">state</container>
     <container size="1" init="0">startState</container>
     <container size="1" init="0">endState</container>
-
     <container size="1" init="0">validCount</container>
     <container size="1">validCount+1</container>
     <container size="1" init="0">isResult</container>
     <container size="1" init="0">activeSensor</container>
     <container size="1" init="0">stdLimit</container>
-
     <container size="1" init="0">newRate</container>
     <container size="1" init="0">newAvg</container>
     <container size="1" init="0">newStd</container>
     <container size="1" init="0">count</container>
     <container size="1" init="0">tmax</container>
     <container size="1" init="0">tmin</container>
-
     <container size="100">acc</container>
     <container size="100">acct</container>
     <container size="1">accelerometerRate</container>
     <container size="1">accelerometerAvg</container>
     <container size="1">accelerometerStd</container>
-
     <container size="100">lin</container>
     <container size="100">lint</container>
     <container size="1">linear_accelerationRate</container>
     <container size="1">linear_accelerationAvg</container>
     <container size="1">linear_accelerationStd</container>
-
     <container size="100">gyr</container>
     <container size="100">gyrt</container>
     <container size="1">gyroscopeRate</container>
     <container size="1">gyroscopeAvg</container>
     <container size="1">gyroscopeStd</container>
-
     <container size="100">mag</container>
     <container size="100">magt</container>
     <container size="1">magnetic_fieldRate</container>
     <container size="1">magnetic_fieldAvg</container>
     <container size="1">magnetic_fieldStd</container>
-
     <container size="100">pre</container>
     <container size="100">pret</container>
     <container size="1">pressureRate</container>
     <container size="1">pressureAvg</container>
     <container size="1">pressureStd</container>
-
     <container size="100">tem</container>
     <container size="100">temt</container>
     <container size="1">temperatureRate</container>
     <container size="1">temperatureAvg</container>
     <container size="1">temperatureStd</container>
-
     <container size="100">hum</container>
     <container size="100">humt</container>
     <container size="1">humidityRate</container>
     <container size="1">humidityAvg</container>
     <container size="1">humidityStd</container>
-
     <container size="100">lig</container>
     <container size="100">ligt</container>
     <container size="1">lightRate</container>
     <container size="1">lightAvg</container>
     <container size="1">lightStd</container>
-
     <container size="100">pro</container>
     <container size="100">prot</container>
     <container size="1">proximityRate</container>
     <container size="1">proximityAvg</container>
     <container size="1">proximityStd</container>
-
   </data-containers>
   <network>
     <connection address="https://phyphox.org/sensordb/submit.php" autoConnect="true" service="http/post" mode="trigger" id="submit" privacy="https://phyphox.org/disclaimer/" conversion="json">
-        <send id="surveyState" type="buffer">state</send>
-
-        <send id="id" type="meta">uniqueID</send>
-        <send id="version" type="meta">version</send>
-        <send id="build" type="meta">build</send>
-        <send id="fileFormat" type="meta">fileFormat</send>
-        <send id="deviceModel" type="meta">deviceModel</send>
-        <send id="deviceBrand" type="meta">deviceBrand</send>
-        <send id="deviceBoard" type="meta">deviceBoard</send>
-        <send id="deviceManufacturer" type="meta">deviceManufacturer</send>
-        <send id="deviceBaseOS" type="meta">deviceBaseOS</send>
-        <send id="deviceCodename" type="meta">deviceCodename</send>
-        <send id="deviceRelease" type="meta">deviceRelease</send>
-
-        <send id="accelerometerName" type="meta">accelerometerName</send>
-        <send id="accelerometerVendor" type="meta">accelerometerVendor</send>
-        <send id="accelerometerRange" type="meta">accelerometerRange</send>
-        <send id="accelerometerResolution" type="meta">accelerometerResolution</send>
-        <send id="accelerometerMinDelay" type="meta">accelerometerMinDelay</send>
-        <send id="accelerometerMaxDelay" type="meta">accelerometerMaxDelay</send>
-        <send id="accelerometerPower" type="meta">accelerometerPower</send>
-        <send id="accelerometerVersion" type="meta">accelerometerVersion</send>
-        <send id="accelerometerRate" type="buffer">accelerometerRate</send>
-        <send id="accelerometerAvg" type="buffer">accelerometerAvg</send>
-        <send id="accelerometerStd" type="buffer" init="1000000">accelerometerStd</send>
-
-        <send id="linear_accelerationName" type="meta">linear_accelerationName</send>
-        <send id="linear_accelerationVendor" type="meta">linear_accelerationVendor</send>
-        <send id="linear_accelerationRange" type="meta">linear_accelerationRange</send>
-        <send id="linear_accelerationResolution" type="meta">linear_accelerationResolution</send>
-        <send id="linear_accelerationMinDelay" type="meta">linear_accelerationMinDelay</send>
-        <send id="linear_accelerationMaxDelay" type="meta">linear_accelerationMaxDelay</send>
-        <send id="linear_accelerationPower" type="meta">linear_accelerationPower</send>
-        <send id="linear_accelerationVersion" type="meta">linear_accelerationVersion</send>
-        <send id="linear_accelerationRate" type="buffer">linear_accelerationRate</send>
-        <send id="linear_accelerationAvg" type="buffer">linear_accelerationAvg</send>
-        <send id="linear_accelerationStd" type="buffer">linear_accelerationStd</send>
-
-        <send id="gyroscopeName" type="meta">gyroscopeName</send>
-        <send id="gyroscopeVendor" type="meta">gyroscopeVendor</send>
-        <send id="gyroscopeRange" type="meta">gyroscopeRange</send>
-        <send id="gyroscopeResolution" type="meta">gyroscopeResolution</send>
-        <send id="gyroscopeMinDelay" type="meta">gyroscopeMinDelay</send>
-        <send id="gyroscopeMaxDelay" type="meta">gyroscopeMaxDelay</send>
-        <send id="gyroscopePower" type="meta">gyroscopePower</send>
-        <send id="gyroscopeVersion" type="meta">gyroscopeVersion</send>
-        <send id="gyroscopeRate" type="buffer">gyroscopeRate</send>
-        <send id="gyroscopeAvg" type="buffer">gyroscopeAvg</send>
-        <send id="gyroscopeStd" type="buffer">gyroscopeStd</send>
-
-        <send id="magnetic_fieldName" type="meta">magnetic_fieldName</send>
-        <send id="magnetic_fieldVendor" type="meta">magnetic_fieldVendor</send>
-        <send id="magnetic_fieldRange" type="meta">magnetic_fieldRange</send>
-        <send id="magnetic_fieldResolution" type="meta">magnetic_fieldResolution</send>
-        <send id="magnetic_fieldMinDelay" type="meta">magnetic_fieldMinDelay</send>
-        <send id="magnetic_fieldMaxDelay" type="meta">magnetic_fieldMaxDelay</send>
-        <send id="magnetic_fieldPower" type="meta">magnetic_fieldPower</send>
-        <send id="magnetic_fieldVersion" type="meta">magnetic_fieldVersion</send>
-        <send id="magnetic_fieldRate" type="buffer">magnetic_fieldRate</send>
-        <send id="magnetic_fieldAvg" type="buffer">magnetic_fieldAvg</send>
-        <send id="magnetic_fieldStd" type="buffer">magnetic_fieldStd</send>
-
-        <send id="pressureName" type="meta">pressureName</send>
-        <send id="pressureVendor" type="meta">pressureVendor</send>
-        <send id="pressureRange" type="meta">pressureRange</send>
-        <send id="pressureResolution" type="meta">pressureResolution</send>
-        <send id="pressureMinDelay" type="meta">pressureMinDelay</send>
-        <send id="pressureMaxDelay" type="meta">pressureMaxDelay</send>
-        <send id="pressurePower" type="meta">pressurePower</send>
-        <send id="pressureVersion" type="meta">pressureVersion</send>
-        <send id="pressureRate" type="buffer">pressureRate</send>
-        <send id="pressureAvg" type="buffer">pressureAvg</send>
-        <send id="pressureStd" type="buffer">pressureStd</send>
-
-        <send id="temperatureName" type="meta">temperatureName</send>
-        <send id="temperatureVendor" type="meta">temperatureVendor</send>
-        <send id="temperatureRange" type="meta">temperatureRange</send>
-        <send id="temperatureResolution" type="meta">temperatureResolution</send>
-        <send id="temperatureMinDelay" type="meta">temperatureMinDelay</send>
-        <send id="temperatureMaxDelay" type="meta">temperatureMaxDelay</send>
-        <send id="temperaturePower" type="meta">temperaturePower</send>
-        <send id="temperatureVersion" type="meta">temperatureVersion</send>
-        <send id="temperatureRate" type="buffer">temperatureRate</send>
-        <send id="temperatureAvg" type="buffer">temperatureAvg</send>
-        <send id="temperatureStd" type="buffer">temperatureStd</send>
-
-        <send id="humidityName" type="meta">humidityName</send>
-        <send id="humidityVendor" type="meta">humidityVendor</send>
-        <send id="humidityRange" type="meta">humidityRange</send>
-        <send id="humidityResolution" type="meta">humidityResolution</send>
-        <send id="humidityMinDelay" type="meta">humidityMinDelay</send>
-        <send id="humidityMaxDelay" type="meta">humidityMaxDelay</send>
-        <send id="humidityPower" type="meta">humidityPower</send>
-        <send id="humidityVersion" type="meta">humidityVersion</send>
-        <send id="humidityRate" type="buffer">humidityRate</send>
-        <send id="humidityAvg" type="buffer">humidityAvg</send>
-        <send id="humidityStd" type="buffer">humidityStd</send>
-
-        <send id="lightName" type="meta">lightName</send>
-        <send id="lightVendor" type="meta">lightVendor</send>
-        <send id="lightRange" type="meta">lightRange</send>
-        <send id="lightResolution" type="meta">lightResolution</send>
-        <send id="lightMinDelay" type="meta">lightMinDelay</send>
-        <send id="lightMaxDelay" type="meta">lightMaxDelay</send>
-        <send id="lightPower" type="meta">lightPower</send>
-        <send id="lightVersion" type="meta">lightVersion</send>
-        <send id="lightRate" type="buffer">lightRate</send>
-        <send id="lightAvg" type="buffer">lightAvg</send>
-        <send id="lightStd" type="buffer">lightStd</send>
-
-        <send id="proximityName" type="meta">proximityName</send>
-        <send id="proximityVendor" type="meta">proximityVendor</send>
-        <send id="proximityRange" type="meta">proximityRange</send>
-        <send id="proximityResolution" type="meta">proximityResolution</send>
-        <send id="proximityMinDelay" type="meta">proximityMinDelay</send>
-        <send id="proximityMaxDelay" type="meta">proximityMaxDelay</send>
-        <send id="proximityPower" type="meta">proximityPower</send>
-        <send id="proximityVersion" type="meta">proximityVersion</send>
-        <send id="proximityRate" type="buffer">proximityRate</send>
-        <send id="proximityAvg" type="buffer">proximityAvg</send>
-        <send id="proximityStd" type="buffer">proximityStd</send>
-
-        <receive id="result">state</receive>
+      <send id="surveyState" type="buffer">state</send>
+      <send id="id" type="meta">uniqueID</send>
+      <send id="version" type="meta">version</send>
+      <send id="build" type="meta">build</send>
+      <send id="fileFormat" type="meta">fileFormat</send>
+      <send id="deviceModel" type="meta">deviceModel</send>
+      <send id="deviceBrand" type="meta">deviceBrand</send>
+      <send id="deviceBoard" type="meta">deviceBoard</send>
+      <send id="deviceManufacturer" type="meta">deviceManufacturer</send>
+      <send id="deviceBaseOS" type="meta">deviceBaseOS</send>
+      <send id="deviceCodename" type="meta">deviceCodename</send>
+      <send id="deviceRelease" type="meta">deviceRelease</send>
+      <send id="accelerometerName" type="meta">accelerometerName</send>
+      <send id="accelerometerVendor" type="meta">accelerometerVendor</send>
+      <send id="accelerometerRange" type="meta">accelerometerRange</send>
+      <send id="accelerometerResolution" type="meta">accelerometerResolution</send>
+      <send id="accelerometerMinDelay" type="meta">accelerometerMinDelay</send>
+      <send id="accelerometerMaxDelay" type="meta">accelerometerMaxDelay</send>
+      <send id="accelerometerPower" type="meta">accelerometerPower</send>
+      <send id="accelerometerVersion" type="meta">accelerometerVersion</send>
+      <send id="accelerometerRate" type="buffer">accelerometerRate</send>
+      <send id="accelerometerAvg" type="buffer">accelerometerAvg</send>
+      <send id="accelerometerStd" type="buffer" init="1000000">accelerometerStd</send>
+      <send id="linear_accelerationName" type="meta">linear_accelerationName</send>
+      <send id="linear_accelerationVendor" type="meta">linear_accelerationVendor</send>
+      <send id="linear_accelerationRange" type="meta">linear_accelerationRange</send>
+      <send id="linear_accelerationResolution" type="meta">linear_accelerationResolution</send>
+      <send id="linear_accelerationMinDelay" type="meta">linear_accelerationMinDelay</send>
+      <send id="linear_accelerationMaxDelay" type="meta">linear_accelerationMaxDelay</send>
+      <send id="linear_accelerationPower" type="meta">linear_accelerationPower</send>
+      <send id="linear_accelerationVersion" type="meta">linear_accelerationVersion</send>
+      <send id="linear_accelerationRate" type="buffer">linear_accelerationRate</send>
+      <send id="linear_accelerationAvg" type="buffer">linear_accelerationAvg</send>
+      <send id="linear_accelerationStd" type="buffer">linear_accelerationStd</send>
+      <send id="gyroscopeName" type="meta">gyroscopeName</send>
+      <send id="gyroscopeVendor" type="meta">gyroscopeVendor</send>
+      <send id="gyroscopeRange" type="meta">gyroscopeRange</send>
+      <send id="gyroscopeResolution" type="meta">gyroscopeResolution</send>
+      <send id="gyroscopeMinDelay" type="meta">gyroscopeMinDelay</send>
+      <send id="gyroscopeMaxDelay" type="meta">gyroscopeMaxDelay</send>
+      <send id="gyroscopePower" type="meta">gyroscopePower</send>
+      <send id="gyroscopeVersion" type="meta">gyroscopeVersion</send>
+      <send id="gyroscopeRate" type="buffer">gyroscopeRate</send>
+      <send id="gyroscopeAvg" type="buffer">gyroscopeAvg</send>
+      <send id="gyroscopeStd" type="buffer">gyroscopeStd</send>
+      <send id="magnetic_fieldName" type="meta">magnetic_fieldName</send>
+      <send id="magnetic_fieldVendor" type="meta">magnetic_fieldVendor</send>
+      <send id="magnetic_fieldRange" type="meta">magnetic_fieldRange</send>
+      <send id="magnetic_fieldResolution" type="meta">magnetic_fieldResolution</send>
+      <send id="magnetic_fieldMinDelay" type="meta">magnetic_fieldMinDelay</send>
+      <send id="magnetic_fieldMaxDelay" type="meta">magnetic_fieldMaxDelay</send>
+      <send id="magnetic_fieldPower" type="meta">magnetic_fieldPower</send>
+      <send id="magnetic_fieldVersion" type="meta">magnetic_fieldVersion</send>
+      <send id="magnetic_fieldRate" type="buffer">magnetic_fieldRate</send>
+      <send id="magnetic_fieldAvg" type="buffer">magnetic_fieldAvg</send>
+      <send id="magnetic_fieldStd" type="buffer">magnetic_fieldStd</send>
+      <send id="pressureName" type="meta">pressureName</send>
+      <send id="pressureVendor" type="meta">pressureVendor</send>
+      <send id="pressureRange" type="meta">pressureRange</send>
+      <send id="pressureResolution" type="meta">pressureResolution</send>
+      <send id="pressureMinDelay" type="meta">pressureMinDelay</send>
+      <send id="pressureMaxDelay" type="meta">pressureMaxDelay</send>
+      <send id="pressurePower" type="meta">pressurePower</send>
+      <send id="pressureVersion" type="meta">pressureVersion</send>
+      <send id="pressureRate" type="buffer">pressureRate</send>
+      <send id="pressureAvg" type="buffer">pressureAvg</send>
+      <send id="pressureStd" type="buffer">pressureStd</send>
+      <send id="temperatureName" type="meta">temperatureName</send>
+      <send id="temperatureVendor" type="meta">temperatureVendor</send>
+      <send id="temperatureRange" type="meta">temperatureRange</send>
+      <send id="temperatureResolution" type="meta">temperatureResolution</send>
+      <send id="temperatureMinDelay" type="meta">temperatureMinDelay</send>
+      <send id="temperatureMaxDelay" type="meta">temperatureMaxDelay</send>
+      <send id="temperaturePower" type="meta">temperaturePower</send>
+      <send id="temperatureVersion" type="meta">temperatureVersion</send>
+      <send id="temperatureRate" type="buffer">temperatureRate</send>
+      <send id="temperatureAvg" type="buffer">temperatureAvg</send>
+      <send id="temperatureStd" type="buffer">temperatureStd</send>
+      <send id="humidityName" type="meta">humidityName</send>
+      <send id="humidityVendor" type="meta">humidityVendor</send>
+      <send id="humidityRange" type="meta">humidityRange</send>
+      <send id="humidityResolution" type="meta">humidityResolution</send>
+      <send id="humidityMinDelay" type="meta">humidityMinDelay</send>
+      <send id="humidityMaxDelay" type="meta">humidityMaxDelay</send>
+      <send id="humidityPower" type="meta">humidityPower</send>
+      <send id="humidityVersion" type="meta">humidityVersion</send>
+      <send id="humidityRate" type="buffer">humidityRate</send>
+      <send id="humidityAvg" type="buffer">humidityAvg</send>
+      <send id="humidityStd" type="buffer">humidityStd</send>
+      <send id="lightName" type="meta">lightName</send>
+      <send id="lightVendor" type="meta">lightVendor</send>
+      <send id="lightRange" type="meta">lightRange</send>
+      <send id="lightResolution" type="meta">lightResolution</send>
+      <send id="lightMinDelay" type="meta">lightMinDelay</send>
+      <send id="lightMaxDelay" type="meta">lightMaxDelay</send>
+      <send id="lightPower" type="meta">lightPower</send>
+      <send id="lightVersion" type="meta">lightVersion</send>
+      <send id="lightRate" type="buffer">lightRate</send>
+      <send id="lightAvg" type="buffer">lightAvg</send>
+      <send id="lightStd" type="buffer">lightStd</send>
+      <send id="proximityName" type="meta">proximityName</send>
+      <send id="proximityVendor" type="meta">proximityVendor</send>
+      <send id="proximityRange" type="meta">proximityRange</send>
+      <send id="proximityResolution" type="meta">proximityResolution</send>
+      <send id="proximityMinDelay" type="meta">proximityMinDelay</send>
+      <send id="proximityMaxDelay" type="meta">proximityMaxDelay</send>
+      <send id="proximityPower" type="meta">proximityPower</send>
+      <send id="proximityVersion" type="meta">proximityVersion</send>
+      <send id="proximityRate" type="buffer">proximityRate</send>
+      <send id="proximityAvg" type="buffer">proximityAvg</send>
+      <send id="proximityStd" type="buffer">proximityStd</send>
+      <receive id="result">state</receive>
     </connection>
   </network>
   <input>
@@ -245,661 +338,550 @@ This experiment will collect technical data about your phone and your sensors, w
     </sensor>
   </input>
   <analysis sleep="2">
-
     <!-- Check if the experiment has started -->
-
     <count>
-        <input clear="false">acc</input>
-        <output>count</output>
+      <input clear="false">acc</input>
+      <output>count</output>
     </count>
-
     <if equal="true" greater="true">
-        <input clear="false">count</input>
-        <input type="value">100</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output>startState</output>
+      <input clear="false">count</input>
+      <input type="value">100</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>startState</output>
     </if>
-
     <if greater="true">
-        <input clear="false">state</input>
-        <input type="value">0</input>
-        <input type="value">0</input>
-        <output clear="false">startState</output>
+      <input clear="false">state</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output clear="false">startState</output>
     </if>
-
     <if equal="true">
-        <input clear="false">startState</input>
-        <input type="value">1</input>
-        <input type="value">1</input>
-        <output clear="false">state</output>
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input type="value">1</input>
+      <output clear="false">state</output>
     </if>
-
     <!-- Accelerometer (calculate first as it is used to estimate whether the phone is resting -->
-
     <average>
-        <input clear="false">acc</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">acc</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">acct</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">acct</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">acct</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">acct</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">acc</input>
-        <output>count</output>
+      <input clear="false">acc</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <!-- Check stddev to decide whether these are good values -->
-
     <if equal="true">
-        <input clear="false">startState</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">accelerometerStd</output>
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">accelerometerStd</output>
     </if>
-
     <multiply>
-        <input clear="false">accelerometerStd</input>
-        <input type="value">2</input>
-        <output>stdLimit</output>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">2</input>
+      <output>stdLimit</output>
     </multiply>
-
     <if equal="true">
-        <input clear="false">startState</input>
-        <input type="value">1</input>
-        <input clear="false">stdLimit</input>
-        <output clear="false">accelerometerStd</output>
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input clear="false">stdLimit</input>
+      <output clear="false">accelerometerStd</output>
     </if>
-
     <add>
-        <input clear="false">validCount</input>
-        <input type="value">1</input>
-        <output>validCount+1</output>
+      <input clear="false">validCount</input>
+      <input type="value">1</input>
+      <output>validCount+1</output>
     </add>
-
     <if less="true">
-        <input clear="false">newStd</input>
-        <input clear="false">stdLimit</input>
-        <input clear="false">validCount+1</input>
-        <output clear="false">validCount</output>
+      <input clear="false">newStd</input>
+      <input clear="false">stdLimit</input>
+      <input clear="false">validCount+1</input>
+      <output clear="false">validCount</output>
     </if>
-
     <if less="true">
-        <input clear="false">newStd</input>
-        <input clear="false">accelerometerStd</input>
-        <input type="value">0</input>
-        <output clear="false">validCount</output>
+      <input clear="false">newStd</input>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">0</input>
+      <output clear="false">validCount</output>
     </if>
-
     <if less="true">
-        <input clear="false">newStd</input>
-        <input clear="false">accelerometerStd</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output clear="false">isResult</output>
+      <input clear="false">newStd</input>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">isResult</output>
     </if>
-
-    <if less="true" greater="true"> <!-- If we have not yet started, if we already are ready to submit or if we have already submitted, we never use a new result. -->
-        <input clear="false">state</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output clear="false">isResult</output>
+    <if less="true" greater="true">
+      <!-- If we have not yet started, if we already are ready to submit or if we have already submitted, we never use a new result. -->
+      <input clear="false">state</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">isResult</output>
     </if>
-
     <!-- Accelerometer -->
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">accelerometerRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">accelerometerRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">accelerometerAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">accelerometerAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">accelerometerStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">accelerometerStd</output>
     </if>
-
     <!-- Linear acceleration -->
-
     <average>
-        <input clear="false">lin</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">lin</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">lint</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">lint</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">lint</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">lint</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">lin</input>
-        <output>count</output>
+      <input clear="false">lin</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">linear_accelerationRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">linear_accelerationRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">linear_accelerationAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">linear_accelerationAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">linear_accelerationStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">linear_accelerationStd</output>
     </if>
-
     <!-- Gyroscope -->
-
     <average>
-        <input clear="false">gyr</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">gyr</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">gyrt</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">gyrt</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">gyrt</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">gyrt</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">gyr</input>
-        <output>count</output>
+      <input clear="false">gyr</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">gyroscopeRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">gyroscopeRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">gyroscopeAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">gyroscopeAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">gyroscopeStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">gyroscopeStd</output>
     </if>
-
     <!-- Magnetic field -->
-
     <average>
-        <input clear="false">mag</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">mag</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">magt</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">magt</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">magt</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">magt</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">mag</input>
-        <output>count</output>
+      <input clear="false">mag</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">magnetic_fieldRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">magnetic_fieldRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">magnetic_fieldAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">magnetic_fieldAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">magnetic_fieldStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">magnetic_fieldStd</output>
     </if>
-
     <!-- Pressure -->
-
     <average>
-        <input clear="false">pre</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">pre</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">pret</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">pret</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">pret</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">pret</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">pre</input>
-        <output>count</output>
+      <input clear="false">pre</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">pressureRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">pressureRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">pressureAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">pressureAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">pressureStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">pressureStd</output>
     </if>
-
     <!-- Temperature -->
-
     <average>
-        <input clear="false">tem</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">tem</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">temt</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">temt</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">temt</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">temt</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">tem</input>
-        <output>count</output>
+      <input clear="false">tem</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">temperatureRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">temperatureRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">temperatureAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">temperatureAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">temperatureStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">temperatureStd</output>
     </if>
-
     <!-- Humidity -->
-
     <average>
-        <input clear="false">hum</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">hum</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">humt</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">humt</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">humt</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">humt</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">hum</input>
-        <output>count</output>
+      <input clear="false">hum</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">humidityRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">humidityRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">humidityAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">humidityAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">humidityStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">humidityStd</output>
     </if>
-
     <!-- Light -->
-
     <average>
-        <input clear="false">lig</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">lig</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">ligt</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">ligt</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">ligt</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">ligt</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">lig</input>
-        <output>count</output>
+      <input clear="false">lig</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">lightRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">lightRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">lightAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">lightAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">lightStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">lightStd</output>
     </if>
-
     <!-- Proximity -->
-
     <average>
-        <input clear="false">pro</input>
-        <output as="average">newAvg</output>
-        <output as="stddev">newStd</output>
+      <input clear="false">pro</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
     </average>
-
     <max>
-        <input as="y" clear="false">prot</input>
-        <output as="max">tmax</output>
+      <input as="y" clear="false">prot</input>
+      <output as="max">tmax</output>
     </max>
-
     <min>
-        <input as="y" clear="false">prot</input>
-        <output as="min">tmin</output>
+      <input as="y" clear="false">prot</input>
+      <output as="min">tmin</output>
     </min>
-
     <count>
-        <input clear="false">pro</input>
-        <output>count</output>
+      <input clear="false">pro</input>
+      <output>count</output>
     </count>
-
     <formula formula="([1]-1)/([3]-[2])">
-        <input clear="false">count</input>
-        <input clear="false">tmin</input>
-        <input clear="false">tmax</input>
-        <output>newRate</output>
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
     </formula>
-
     <if greater="true">
-        <input clear="false">count</input>
-        <input type="value">0</input>
-        <input clear="false">isResult</input>
-        <input type="value">0</input>
-        <output clear="false">activeSensor</output>
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newRate</input>
-        <output clear="false">proximityRate</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">proximityRate</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newAvg</input>
-        <output clear="false">proximityAvg</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">proximityAvg</output>
     </if>
-
     <if equal="true">
-        <input clear="false">activeSensor</input>
-        <input type="value">1</input>
-        <input clear="false">newStd</input>
-        <output clear="false">proximityStd</output>
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">proximityStd</output>
     </if>
-
     <!-- If we had five results for the standard deviation since the last minimum stddev that are no more than 20% above the best one, the best one is our result as it is supposedly one with a resting phone. -->
-
     <if equal="true" greater="true">
-        <input clear="false">validCount</input>
-        <input type="value">5</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output clear="false">endState</output>
+      <input clear="false">validCount</input>
+      <input type="value">5</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">endState</output>
     </if>
-
     <if greater="true">
-        <input clear="false">state</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output clear="false">endState</output>
+      <input clear="false">state</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">endState</output>
     </if>
-
     <if equal="true">
-        <input clear="false">endState</input>
-        <input type="value">1</input>
-        <input type="value">2</input>
-        <output clear="false">state</output>
+      <input clear="false">endState</input>
+      <input type="value">1</input>
+      <input type="value">2</input>
+      <output clear="false">state</output>
     </if>
-
   </analysis>
   <views>
     <view label="Submit">
-      <info label="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices." />
-      <separator height="1" />
-      <info label="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results." />
-      <separator height="1" />
-      <info label="Phyphox will collect data for a moment and eventually tell you to submit the data." />
-
-      <separator height="1" />
-
+      <info label="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices."/>
+      <separator height="1"/>
+      <info label="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results."/>
+      <separator height="1"/>
+      <info label="Phyphox will collect data for a moment and eventually tell you to submit the data."/>
+      <separator height="1"/>
       <value label="Step">
         <input>state</input>
         <map max="0">Waiting for start</map>
@@ -921,7 +903,7 @@ This experiment will collect technical data about your phone and your sensors, w
       </button>
     </view>
     <view label="Results">
-      <info label="Accelerometer" align="center" bold="true" size="1.5" />
+      <info label="Accelerometer" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>accelerometerRate</input>
       </value>
@@ -931,10 +913,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="m/s²" precision="3">
         <input>accelerometerStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Acceleration (without g)" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Acceleration (without g)" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>linear_accelerationRate</input>
       </value>
@@ -944,10 +924,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="m/s²" precision="3">
         <input>linear_accelerationStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Gyroscope" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Gyroscope" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>gyroscopeRate</input>
       </value>
@@ -957,10 +935,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="rad/s" precision="4">
         <input>gyroscopeStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Magnetometer" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Magnetometer" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>magnetic_fieldRate</input>
       </value>
@@ -970,10 +946,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="µT" precision="2">
         <input>magnetic_fieldStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Barometer" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Barometer" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>pressureRate</input>
       </value>
@@ -983,10 +957,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="hPa" precision="2">
         <input>pressureStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Temperature" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Temperature" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>temperatureRate</input>
       </value>
@@ -996,10 +968,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="°C" precision="2">
         <input>temperatureStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Humidity" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Humidity" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>humidityRate</input>
       </value>
@@ -1009,10 +979,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="%" precision="2">
         <input>humidityStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Light" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Light" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>lightRate</input>
       </value>
@@ -1022,10 +990,8 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="lx" precision="1">
         <input>lightStd</input>
       </value>
-
-      <separator height="1" />
-
-      <info label="Proximity" align="center" bold="true" size="1.5" />
+      <separator height="1"/>
+      <info label="Proximity" align="center" bold="true" size="1.5"/>
       <value label="Rate" unit="Hz" precision="1">
         <input>proximityRate</input>
       </value>
@@ -1035,7 +1001,6 @@ This experiment will collect technical data about your phone and your sensors, w
       <value label="Standard deviation" unit="cm" precision="0">
         <input>proximityStd</input>
       </value>
-
     </view>
   </views>
 </phyphox>

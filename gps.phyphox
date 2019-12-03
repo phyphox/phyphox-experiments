@@ -197,6 +197,12 @@
       <category>Sensori</category>
       <description>
         Ottiene i dati sulla posizione dal sistema di navigazione satellitare.
+
+	Il tipo e l'accuratezza dei dati ricevuti possono dipendere dal particolare smartphone. Alcuni dispositivi, per esempio, non forniscono indicazioni sul numero di satelliti in vista o sull'accuratezza della posizione rilevata.
+
+	Di norma la posizione del dispositivo si calcola basandosi anche su altri sistemi (wifi o reti cellulari) che, benché meno accurati, consentono di migliorare la precisione se usati insieme ai dati GPS. Puoi impostare l'eventuale utilizzo di questi dati usando il menu delle impostazioni del tuo smartphone.
+
+	Velocità e direzione sono calcolati dallo smartphone sulla base di due o più misure consecutive di posizione.
     </description>
       <string original="Graph">Grafico</string>
       <string original="Status">Stato</string>
