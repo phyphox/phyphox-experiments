@@ -499,8 +499,8 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
     <container size="2048">fftZ</container>
     <container size="2048">fft2</container>
     <container size="2048">fft</container>
-    <container>f0</container>
-    <container size="1">t</container>
+    <container size="0">f0</container>
+    <container size="0">t</container>
     <container size="1">resolutionRatio</container>
     <container size="256">timeline</container>
     <container size="256">reducedf</container>
@@ -553,6 +553,10 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
+      <graph label="History" labelX="Time" unitX="s" labelY="Peak-Frequency" unitY="Hz" partialUpdate="true" style="dots">
+        <input axis="x">t</input>
+        <input axis="y">f0</input>
+      </graph>
     </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
@@ -602,10 +606,10 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
   </views>
   <analysis sleep="0.1">
     <timer>
-      <output>t</output>
+      <output clear="false">t</output>
     </timer>
     <const>
-      <input as="value">t</input>
+      <input as="value" clear="false">t</input>
       <input as="length" type="value">256</input>
       <output>timeline</output>
     </const>
@@ -818,7 +822,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
     <max>
       <input as="y" clear="false">fft</input>
       <input as="x" clear="false">halfFrequency</input>
-      <output as="position">f0</output>
+      <output as="position" clear="false">f0</output>
     </max>
     <divide>
       <input clear="false">actual_samples</input>
@@ -868,6 +872,10 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
     <set name="FFT Spectrum">
       <data name="Frequency (Hz)">halfFrequency</data>
       <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Peak History">
+      <data name="Time (s)">t</data>
+      <data name="Peak-Frequency">f0</data>
     </set>
     <set name="Raw data">
       <data name="Time (s)">time_subrange</data>
