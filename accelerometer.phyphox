@@ -225,6 +225,18 @@
       <string original="Acceleration">Ubrzanje</string>
       <string original="Simple">Jednostavno</string>
     </translation>
+    <translation locale="es">
+      <title>Aceleración con g</title>
+      <category>Datos del sensor sin procesar</category>
+      <description>Obtenga datos sin procesar del acelerómetro. Este sensor no restará la fuerza gravitacional, por lo que mostrará una aceleración de 9.81 m / s² incluso cuando el teléfono esté en reposo.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Accelerometer x">Acelerómetro x</string>
+      <string original="Accelerometer y">Acelerómetro y</string>
+      <string original="Accelerometer z">Acelerómetro z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleración absoluta</string>
+      <string original="Acceleration">Aceleración</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

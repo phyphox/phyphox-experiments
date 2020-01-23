@@ -257,6 +257,21 @@
       <string original="Frequency low">Donja frekvencija</string>
       <string original="Frequency high">Gornja frekvencija</string>
     </translation>
+    <translation locale="es">
+      <title>Generador de tonos</title>
+      <category>Acustica</category>
+      <description>
+        Genera un tono de una frecuencia específica.
+    </description>
+      <string original="Tone generator">Generador de tonos</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Signal">Señal</string>
+      <string original="Time">tiempo</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Si bien phyphox permite establecer frecuencias arbitrarias, puede experimentar malos resultados por debajo de 100 Hz o por encima de 8000 Hz debido a limitaciones de hardware.</string>
+      <string original="Status">Estado</string>
+      <string original="Frequency low">Frecuencia baja</string>
+      <string original="Frequency high">Frecuencia alta</string>
+    </translation>
   </translations>
   <data-containers>
     <container>f</container>

@@ -518,6 +518,41 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">Snimanje</string>
       <string original="Amplitude">Amplituda</string>
     </translation>
+    <translation locale="es">
+      <title>Autocorrelación de audio</title>
+      <category>Acústica</category>
+      <description>
+        Mide la frecuencia de un solo tono.
+
+         Este experimento graba audio del micrófono y lo analiza para determinar su frecuencia. Esto solo funciona si hay un solo tono con una frecuencia fija; si hay múltiples frecuencias (como un acuerdo), utilice el experimento de "espectro".
+
+         El análisis se realiza calculando la autocorrelación de la señal de audio. Luego, el experimento considera todos los picos que exceden la mitad de la señal máxima en la autocorrelación. La posición del último de estos picos dentro de la autocorrelación da un múltiplo del período de la señal. Al contar el número de picos podemos obtener el período de la frecuencia base.
+    </description>
+      <string original="Autocorr.">Autocorrelación</string>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Bajo</string>
+      <string original="A#2 / Bb2">A#2/ Bb2</string>
+      <string original="C#3 / Db3">C#3/Db3</string>
+      <string original="D#3 / Eb3">D#3/Eb3</string>
+      <string original="F#3 / Gb3">F#3/Gb3</string>
+      <string original="G#3 / Ab3">G#3/Ab3</string>
+      <string original="A#3 / Bb3">A#3/Bb3</string>
+      <string original="C#4 / Db4">C#4/Db4</string>
+      <string original="D#4 / Eb4">D#4/Eb4</string>
+      <string original="F#4 / Gb4">F#4/Gb4</string>
+      <string original="G#4 / Ab4">G#4/Ab4</string>
+      <string original="A#4 / Bb4">A#4/Bb4</string>
+      <string original="C#6 / Db6">C#6 /Db6</string>
+      <string original="High">Alto</string>
+      <string original="Cents from note">Cents de nota</string>
+      <string original="Autocorrelation">Autocorrelación</string>
+      <string original="correlation">Correlación</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Recording">Grabación</string>
+      <string original="Amplitude">Amplitud</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

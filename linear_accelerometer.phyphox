@@ -276,6 +276,21 @@
       <string original="Acceleration y">Ubrzanje y</string>
       <string original="Acceleration z">Ubrzanje z</string>
     </translation>
+    <translation locale="es">
+      <title>Aceleración (sin g)</title>
+      <category>Datos del sensor sin procesar</category>
+      <description>Obtenga datos sin procesar del llamado acelerómetro lineal, que proporciona la aceleración real sin la aceleración gravitacional. A diferencia de la "aceleración con g", este sensor informa 0 cuando el dispositivo está en reposo.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Linear Acceleration x">Aceleración lineal x</string>
+      <string original="Linear Acceleration y">Aceleración lineal y</string>
+      <string original="Linear Acceleration z">Aceleración lineal z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleración absoluta</string>
+      <string original="Acceleration">Aceleración</string>
+      <string original="Acceleration x">Aceleración x</string>
+      <string original="Acceleration y">Aceleración y</string>
+      <string original="Acceleration z">Aceleración z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

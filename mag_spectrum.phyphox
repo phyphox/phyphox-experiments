@@ -453,6 +453,32 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field y">Magnetno polje y</string>
       <string original="Magnetic field z">Magnetno polje z</string>
     </translation>
+    <translation locale="es">
+      <title>Espectro Magnético</title>
+      <category>Herramientas</category>
+      <description>
+            Mostrar el espectro de frecuencia de datos del magnetómetro.
+
+Este experimento registra datos del magnetómetro y calcula su frecuencia a través de una tranformación de Fourier (FFT). La frecuencia detectable máxima depende de la tasa de adquisición máxima de tu sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="Acquisition rate">Tasa de adquisición</string>
+      <string original="Nyquist frequency">Frecuencia de Nyquist</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">magInX</container>

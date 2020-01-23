@@ -150,6 +150,12 @@
       <category>Исходные датчики</category>
       <description>
         Получите примерное местоположение по данным спутниковой навигации.
+
+        Обратите внимание, что доступные данные могут зависеть от реализации на смартфоне. Некоторые устройства могут не обеспечивать точность по вертикали или количество спутников.
+
+        Кроме того, по умолчанию информация о местоположении поступает из других, как правило, менее точных источников (таких как Wi-Fi или мобильные сети), смешанных с данными спутниковой навигации. Опять же, в зависимости от используемого устройства, вы можете отключить эти источники в меню эксперимента, включив функцию сбора данных только со спутниковой навигации.
+
+        Скорость и направление обычно задаются устройством и основаны на двух или более последовательно зафиксированных положениях.
     </description>
       <string original="Graph">График</string>
       <string original="Status">Статус</string>
@@ -540,6 +546,39 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
+    </translation>
+    <translation locale="es">
+      <title>Ubicación (GPS)</title>
+      <category>Datos del sensor sin procesar</category>
+      <description>
+        Obtenga datos de posición sin procesar de la navegación por satélite.
+
+         Tenga en cuenta que los datos disponibles pueden depender de la implementación en su teléfono inteligente. Algunos dispositivos pueden no proporcionar precisión vertical o la cantidad de satélites.
+
+         Además, de forma predeterminada hay información de ubicación de otras fuentes típicamente menos precisas (como wifi o redes de datos móviles) mezcladas con los datos de la navegación por satélite. De nuevo, dependiendo de su dispositivo, es posible que pueda desactivar estas fuentes desde el menú del experimento al habilitar la configuración para recopilar solo datos de la navegación por satélite.
+
+         La velocidad y la dirección generalmente las proporciona el dispositivo y se basan en dos o más correcciones de posición consecutivas.
+    </description>
+      <string original="Position">Posición</string>
+      <string original="Status">Estado</string>
+      <string original="GPS disabled">GPS deshabilitado</string>
+      <string original="GPS active">GPS habilitado</string>
+      <string original="Latitude">Latitud</string>
+      <string original="Longitude">Longitud</string>
+      <string original="Height">Altura</string>
+      <string original="Movement">Movimiento</string>
+      <string original="Speed">Velocidad</string>
+      <string original="Direction">Dirección</string>
+      <string original="Distance travelled">Distancia recorrida</string>
+      <string original="m (WGS84)">m (WGS :Sistema Geodésico Mundial  WGS84)</string>
+      <string original="Compass">Brújula</string>
+      <string original="Distance from start">Distancia desde el inicio</string>
+      <string original="Horizontal Accuracy">Precisión horizontal</string>
+      <string original="Vertical Accuracy">Precisión vertical</string>
+      <string original="Satellites">Satélites</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Tenga en cuenta que algunos dispositivos no tienen un sensor GPS, pero proporcionan datos de ubicación a través de conexiones móviles o WIFI. Estas fuentes de datos producen datos con mala precisión.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">También asegúrese de que la configuración de ubicación de su sistema no esté configurada en "Ahorro de energía" porque esto generalmente apaga la fuente precisa de GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">La precisión horizontal es la incertidumbre de su ubicación, mientras que la precisión vertical es la incertidumbre (generalmente peor) de su elevación (altura). Si la precisión es cero, esta información no está disponible.</string>
     </translation>
   </translations>
   <data-containers>

@@ -5,7 +5,7 @@
   <description>
         Determine the gravity constant (g=9.81m/s²) by using your phone as a pendulum.
 
-        This experiment uses the gyroscope to measure the pendulum movement and calculates the oscillation period T. The user has to enter the length L of the string used for the pendulum, so phyphox can calculate g = 4π²/T² L.
+        This experiment uses the gyroscope to measure the pendulum movement and calculates the oscillation period T. The user has to enter the length L of the string used for the pendulum, so phyphox can calculate g = 4π²L/T².
 
         Alternatively, instead of measuring g, you can use the tab length and assume g = 9.81 m/s² to determine the length of the string from the pendulum motion. (Actually its the distance from the pivot point to the center of mass.)
 
@@ -24,7 +24,7 @@
       <description>
         Misst die Erdbeschleunigung (g=9.81m/s²) indem das Smartphone als Pendel benutzt wird.
 
-                Dieses Experiment nutzt das Gyroskop um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Der Nutzer muss die Länge des Pendels eingeben, so dass phyphox g = 4π²/T² L berechnen kann.
+                Dieses Experiment nutzt das Gyroskop um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Der Nutzer muss die Länge des Pendels eingeben, so dass phyphox g = 4π²L/T² berechnen kann.
 
                 Alternativ kann man auf der Seite "Länge" statt g zu messen annehmen, dass g = 9.81 m/s² und somit aus der Pendelbewegung die Länge des Pendels bestimmen. (Genau genommen ist dies die Entfernung des Drehpunkts zum Schwerpunkt des Pendels.)
 
@@ -537,6 +537,37 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Žiroskop x</string>
       <string original="Gyroscope y">Žiroskop y</string>
       <string original="Gyroscope z">Žiroskop z</string>
+    </translation>
+    <translation locale="es">
+      <title>Péndulo</title>
+      <category>Mecánica</category>
+      <description>
+        Determine la constante de gravedad (g = 9.81m / s²) usando su teléfono como péndulo.
+
+        Este experimento utiliza el giroscopio para medir el movimiento del péndulo y calcula el período de oscilación T. El usuario debe ingresar la longitud L de la cuerda utilizada para el péndulo, de modo que phyphox pueda calcular g = 4π²L / T².
+
+        Alternativamente, en lugar de medir g, puede usar la longitud de la pestaña y suponer g = 9.81 m / s² para determinar la longitud de la cuerda a partir del movimiento del péndulo. (En realidad, es la distancia desde el punto de pivote al centro de masa).
+
+        Además, en la pestaña de resonancia, traza la amplitud contra la frecuencia detectada. De esta manera, puede construir un oscilador controlado y cambiar su frecuencia para medir una curva de resonancia.
+
+        Más detalles:
+        El período de oscilación se obtiene mediante la autocorrelación de la suma de los tres componentes del giroscopio. La autocorrelación se analiza luego para su primer máximo para una primera estimación y luego se utiliza el último máximo de la autocorrelación para obtener un resultado más preciso.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Length">Longitud</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Aquí, puede ingresar la longitud de su péndulo (punto de pivote al centro de masa) y determinar la aceleración de la tierra g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Aquí puedes determinar la longitud de su péndulo (punto de pivote al centro de masa) suponiendo que g = 9.81 m / s².</string>
+      <string original="Resonance">Resonancia</string>
+      <string original="Rel. amplitude">Amplitud Relativa</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">En esta pestaña, la amplitud se representa contra la frecuencia detectada. Puede usar esto para medir la resonancia de un oscilador controlado. La amplitud se normaliza a un rango de 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelación</string>
+      <string original="correlation">Correlación</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Gyroscope x">Giroscopio x</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+      <string original="Gyroscope z">Giroscopio z</string>
     </translation>
   </translations>
   <data-containers>

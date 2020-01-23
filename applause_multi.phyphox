@@ -330,6 +330,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">Poništiti poslednji rezultat</string>
       <string original="Clear all scores">Obrisati sve rezultate</string>
     </translation>
+    <translation locale="es">
+      <title>Medidor de aplausos</title>
+      <category>La vida cotidiana</category>
+      <description>
+        Asignar puntajes a la longitud y amplitud de un aplauso.
+
+         Este experimento integra la amplitud del sonido a lo largo del tiempo y asigna puntuaciones. De esta manera, un fuerte y largo aplauso obtiene la puntuación más alta. Puede evaluar múltiples concursantes y comparar su desempeño en el gráfico de barras.
+
+         Uso: El historial muestra el nivel de ruido detectado por phyphox. Puede comenzar la puntuación presionando "inicio" y detener la puntuación presionando "detener". Durante este período, verá aumentar la puntuación, que también se indica mediante la barra amarilla. Después de detenerse, puede presionar "siguiente concursante" para prepararse para medir el próximo puntaje. Cuando presiona "iniciar" nuevamente, una segunda barra crecerá hasta que presione "detener" nuevamente. Puede repetir esto con la frecuencia que desee para comparar múltiples puntajes.
+    </description>
+      <string original="Score">Puntuación</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Subscore">Sub puntuación</string>
+      <string original="Scores">Puntuaciones</string>
+      <string original="Contestant">Concursantes</string>
+      <string original="Start">Iniciar</string>
+      <string original="Stop">Detener</string>
+      <string original="Next contestant">Próximo concursante</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Reiniciar último puntaje</string>
+      <string original="Clear all scores">Borrar todos los puntajes</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

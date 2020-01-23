@@ -322,6 +322,25 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Pressure">Pritisak</string>
       <string original="Accelerometer z">Brzinometar z</string>
     </translation>
+    <translation locale="es">
+      <title>Ascensor</title>
+      <category>Vida cotidiana</category>
+      <description>
+        Determina la velocidad de un ascensor usando un barómetro.
+
+Cambios en altura dentro de un corto plazo de tiempo pueden ser medidos con mucha exactitud usando el barómetro, hasta cuando el GPS no funciona. Esto se puede utilizar para obtener la velocidad vertical de un ascensor. Adicionalmente, la aceleración se mide usando el acelerómetro componente-z, por lo que para conseguir una medida exacta de la aceleración, el teléfono móvil debería estar tumbado sobre el suelo del ascensor.
+
+Más detalles:
+Para eliminar alguna parte del rudio en este experimento, las mediciones están promediadas sobre 1 s. La diferencia entre medias consecutivas es convertida en una diferencia de altura usando la fórmula de altura barométrica universal. La diferencia de altura dividida entre la difgerencia de tiempo resulta en la velocidad vertical.
+    </description>
+      <string original="Motion">Movimiento</string>
+      <string original="Height (from barometer)">Altura (tomada del barómetro)</string>
+      <string original="Vertical velocity (from height)">Velocidad vertical (tomada de la altura)</string>
+      <string original="z acceleration (from accelerometer)">aceleración z (tomada del acelerómetro)</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Pressure">Presión</string>
+      <string original="Accelerometer z">Acelerómetro z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

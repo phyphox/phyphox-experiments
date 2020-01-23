@@ -209,6 +209,17 @@
       <string original="Gyroscope">Žiroskop</string>
       <string original="Simple">Jednostavno</string>
     </translation>
+    <translation locale="es">
+      <title>Giroscopio (velocidad de rotación)</title>
+      <category>Datos del sensor sin procesar</category>
+      <description>Obtenga datos sin procesar del giroscopio.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Gyroscope x">Giroscopio x</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+      <string original="Gyroscope z">Giroscopio z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Gyroscope">Giroscopio</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

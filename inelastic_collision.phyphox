@@ -679,6 +679,47 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">Minimalno zakašnjenje</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
     </translation>
+    <translation locale="es">
+      <title>Colisión Inelástica</title>
+      <category>Mecánica</category>
+      <description>
+        Determine la energía perdida durante colisiones inelásticas de una pelota que rebota.
+
+        En principio, este experimento funciona como el experimento del cronómetro acústico. Sin embargo, este experimento espera que el sonido provenga de una pelota (o algo similar) que rebota en una superficie y calculará la altura de rebote y la energía cinética restante en relación con el primer rebote analizando el intervalo entre el sonido del impacto.
+
+        Además, al suponer que la pelota retiene el mismo porcentaje de energía cinética en su primer rebote, phyphox calculará la altura inicial 0 desde la cual se deja caer la pelota.
+
+        Entonces, comience el experimento y deje que una pelota rebote en una superficie de manera que genere un ruido claramente audible. Es posible que desee cambiar el umbral en la configuración (en el rango de 0 a 1), para que el experimento reaccione al nivel de ruido de la pelota pero no al ruido de fondo. Además, si tiene problemas con los ecos, es posible que también desee cambiar el retraso mínimo para establecer el intervalo mínimo que el experimento ignorará antes de reaccionar al siguiente ruido.
+    </description>
+      <string original="Heights">Alturas</string>
+      <string original="Height 0">Altura 0</string>
+      <string original="Height 1">Altura 1</string>
+      <string original="Time 1">Tiempo 1</string>
+      <string original="Height 2">Altura 2</string>
+      <string original="Time 2">Tiempo 2</string>
+      <string original="Height 3">Altura 3</string>
+      <string original="Time 3">Tiempo 3</string>
+      <string original="Height 4">Altura 4</string>
+      <string original="Time 4">Tiempo 4</string>
+      <string original="Height 5">Altura 5</string>
+      <string original="Time 5">Tiempo 5</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Energy">Energía</string>
+      <string original="Energy 1">Energía 1</string>
+      <string original="Energy 2">Energía 2</string>
+      <string original="Retained on collision 2">Retenido en colisión 2</string>
+      <string original="Energy 3">Energía 3</string>
+      <string original="Retained on collision 3">Retenido en colisión 3</string>
+      <string original="Energy 4">Energía 4</string>
+      <string original="Retained on collision 4">Retenido en colisión 4</string>
+      <string original="Energy 5">Energía 5</string>
+      <string original="Retained on collision 5">Retenido en colisión 5</string>
+      <string original="Average retained">Promedio retenido</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Threshold">Límite</string>
+      <string original="Minimum Delay">Retraso mínimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

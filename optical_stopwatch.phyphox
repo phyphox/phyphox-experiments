@@ -771,6 +771,51 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">Okidač uključen 5</string>
       <string original="Trigger off 5">Okidač isključen 5</string>
     </translation>
+    <translation locale="es">
+      <title>Cronómetro óptico</title>
+      <category>Temporizador</category>
+      <description>
+        Medición del tiempo basada en la luz incidente en su teléfono móvil
+
+         En este experimento, se puede someter su sensor de luz a una fuente de luz para medir el tiempo entre, bien la duración de estados brillantes, o bien de oscuros. Por ejemplo, se puede medir el tiempo entre dos eventos que bloquean una fuente de luz.
+
+         Ten en cuenta que la precisión depende en gran medida del sensor de luz de su teléfono. Para sensores lentos esto puede superar un segundo, mientras que los sensores rápidos generalmente no alcanzan las décimas de segundo. Se puede lograr mediciones más rápidas usando el experimento de cronómetro acústico, que se basa en sonidos.
+    </description>
+      <string original="Settings">Ajustes</string>
+      <string original="Trigger below">Disparar por debajo de</string>
+      <string original="Trigger above">Disparar por encima de</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">El temporizador dispara por encima y por debajo de los límites. Si solo deseas disparar con iluminación brillante, ajusta el valor de "disparo inferior a" a cero. Si solo deseas disparar en eventos oscuros, establece el valor "disparo superior a" muy alto. Puedes estimar un límite adecuado para su otro disparo en el siguiente gráfico.</string>
+      <string original="Illuminance">Iluminancia</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">La precisión depende en gran medida del sensor de luz de tu teléfono. Para los sensores lentos esto puede ser peor que un segundo, mientras que los sensores rápidos generalmente no superan las décimas de segundo. Mediciones más rápidas, aunque basadas en el sonido, se pueden lograr  utilizando el experimento del cronómetro acústico.</string>
+      <string original="Sequence">Secuencia</string>
+      <string original="Time 1">Tiempo 1</string>
+      <string original="Time 2">Tiempo 2</string>
+      <string original="Time 3">Tiempo 3</string>
+      <string original="Time 4">Tiempo 4</string>
+      <string original="Time 5">Tiempo 5</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Duration">Duración</string>
+      <string original="Trigger duration 0">Duración de disparo 0</string>
+      <string original="Trigger duration 1">Duración de disparo 1</string>
+      <string original="Trigger duration 2">Duración de disparo 2</string>
+      <string original="Trigger duration 3">Duración de disparo 3</string>
+      <string original="Trigger duration 4">Duración de disparo 4</string>
+      <string original="Trigger duration 5">Duración de disparo 5</string>
+      <string original="Triggers">Disparos</string>
+      <string original="Trigger on 0">Disparo encendido 0</string>
+      <string original="Trigger off 0">Disparo apagado 0</string>
+      <string original="Trigger on 1">Disparo encendido 1</string>
+      <string original="Trigger off 1">Disparo apagado 1</string>
+      <string original="Trigger on 2">Disparo encendido 2</string>
+      <string original="Trigger off 2">Disparo apagado 2</string>
+      <string original="Trigger on 3">Disparo encendido 3</string>
+      <string original="Trigger off 3">Disparo apagado 3</string>
+      <string original="Trigger on 4">Disparo encendido 4</string>
+      <string original="Trigger off 4">Disparo apagado 4</string>
+      <string original="Trigger on 5">Disparo encendido 5</string>
+      <string original="Trigger off 5">Disparo apagado 5</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

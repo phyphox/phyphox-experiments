@@ -316,6 +316,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">Vreme</string>
       <string original="Angular velocity">Ugaona brzina</string>
     </translation>
+    <translation locale="es">
+      <title>Aceleración centrípeta</title>
+      <category>Mecánica</category>
+      <description>
+        Visualiza la aceleración centrípeta en función de la velocidad angular.
+
+         Este experimento calcula el valor absoluto de la velocidad angular ω del giroscopio, así como la aceleración absoluta a del acelerómetro. Al trazar a contra ω, la relación a = r · ω² se puede mostrar fácilmente, por lo tanto, al trazar contra ω² se debe obtener una línea recta.
+
+         Para ver esto, debe medir a diferentes velocidades angulares pero a un radio fijo. Una hiladora de ensalada o un pequeño carrusel funcionan muy bien.
+    </description>
+      <string original="Relation">Relación</string>
+      <string original="Acceleration">Aceleración</string>
+      <string original="Angular velocity ω">Velocidad angular ω</string>
+      <string original="Acceleration a">Aceleración a</string>
+      <string original="Square plot">Gráfica cuadrada</string>
+      <string original="Time">tiempo</string>
+      <string original="Angular velocity">Velocidad Angular</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

@@ -595,6 +595,45 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">Snimanje</string>
       <string original="Amplitude">Amplituda</string>
     </translation>
+    <translation locale="es">
+      <title>Espectro de audio</title>
+      <category>Acustico</category>
+      <description>
+            Muestra el espectro de frecuencia de una señal de audio.
+
+             Este experimento graba audio del micrófono y calcula su espectro de frecuencia a través de una transformación de Fourier (FFT). Si solo tiene un solo tono con una sola frecuencia, puede obtener resultados más precisos del experimento de audio de "autocorrelación".
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Bajo</string>
+      <string original="A#2 / Bb2">A#2/ Bb2</string>
+      <string original="C#3 / Db3">C#3/Db3</string>
+      <string original="D#3 / Eb3">D#3/Eb3</string>
+      <string original="F#3 / Gb3">F#3/Gb3</string>
+      <string original="G#3 / Ab3">G#3/Ab3</string>
+      <string original="A#3 / Bb3">A#3/Bb3</string>
+      <string original="C#4 / Db4">C#4/Db4</string>
+      <string original="D#4 / Eb4">D#4/Eb4</string>
+      <string original="F#4 / Gb4">F#4/Gb4</string>
+      <string original="G#4 / Ab4">G#4/Ab4</string>
+      <string original="A#4 / Bb4">A#4/Bb4</string>
+      <string original="C#6 / Db6">C#6 /Db6</string>
+      <string original="High">Alto</string>
+      <string original="Cents from note">Cents de nota</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Recording">Grabación</string>
+      <string original="Amplitude">Amplitud</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

@@ -477,6 +477,33 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Chirp">Zvižduk</string>
       <string original="Time">Vreme</string>
     </translation>
+    <translation locale="es">
+      <title>Sónar</title>
+      <category>Acústica</category>
+      <description>
+        Mide distancias a través de ecos y la velocidad del sonido.
+
+        Un sonar envía ráfagas de sonidos cortos, que se reflejan en el objeto que desea medir. A medida que el sonido viaja a una velocidad de 340 m/s aproximadamente,  hasta que el el tiempo por reflejo llega al micrófono de su teléfono puede usarse para calcular la distancia de este objeto.
+
+        Este experimento genera un "chirp", lo envía a través del altavoz y comienza una grabación. Una correlación cruzada del chirp y los datos grabados proporciona información sobre el momento en que se producen los ecos. Este tiempo puede multiplicarse con la velocidad del sonido (y dividirse por 2 ya que el sonido tiene que viajar hacia adelante y hacia atrás) y obtienes la distancia a la que se originó el eco.
+
+        Sin embargo, el sonido generalmente viaja en todas las direcciones. Para un sonar, esto significa que al apuntar a una pared, también obtienes reflejos del piso, el techo, otra pared cercana, un poste o simplemente de cualquier superficie "dura" adecuada. Por lo tanto, este sonar le brinda todos los reflejos y depende de usted interpretar el resultado y descubrir qué reflejo corresponde al objetivo que pretendía medir. Así que comience con un objetivo pequeño y de superficie dura e intente filtrar todas las demás direcciones con un poco de material de espuma. Entonces, esto necesita un ambiente tranquilo.
+    </description>
+      <string original="Time series">Series de tiempo</string>
+      <string original="Normalized history">Historia normalizada</string>
+      <string original="distance">distancia</string>
+      <string original="time">tiempo</string>
+      <string original="Echo location">Ecolocalización</string>
+      <string original="Speed of Sound">Velocidad del sonido</string>
+      <string original="Normalized to spherical surface">Normalizado a superficie esférica</string>
+      <string original="Target distance">Distancia al objeto</string>
+      <string original="Echo strength">Fuerza del eco</string>
+      <string original="Timing">Cronometraje</string>
+      <string original="On this page you just get the measured delay.">En esta página solo recibes el retraso medido.</string>
+      <string original="Delay">Retardo</string>
+      <string original="Chirp">Chirrido</string>
+      <string original="Time">tiempo</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

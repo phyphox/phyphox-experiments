@@ -453,6 +453,32 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">Ubrzanje y</string>
       <string original="Acceleration z">Ubrzanje z</string>
     </translation>
+    <translation locale="es">
+      <title>Espectro de aceleración</title>
+      <category>Herramientas</category>
+      <description>
+            Muestra el espectro de frecuencia de los datos del acelerómetro.
+
+             Este experimento registra datos del acelerómetro y calcula su espectro de frecuencia a través de una transformación de Fourier (FFT). La frecuencia máxima detectable depende de la velocidad máxima de adquisición de su sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="Acquisition rate">Tasa de adquisición</string>
+      <string original="Nyquist frequency">Frecuencia de Nyquist</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Acceleration x">Aceleración x</string>
+      <string original="Acceleration y">Aceleración y</string>
+      <string original="Acceleration z">Aceleración z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">accInX</container>

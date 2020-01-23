@@ -138,6 +138,13 @@
       <string original="Pressure">Pritisak</string>
       <string original="Simple">Jednostavno</string>
     </translation>
+    <translation locale="es">
+      <title>Presión</title>
+      <category>Datos del sensor sin procesar</category>
+      <description>Obtenga datos sin procesar del barómetro.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Pressure">Presión</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

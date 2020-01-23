@@ -335,6 +335,25 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">Frekvencija</string>
       <string original="Speed">Brzina</string>
     </translation>
+    <translation locale="es">
+      <title>Efecto Doppler</title>
+      <category>Acústica</category>
+      <description>
+        Detecta pequeños cambios de frecuencia del efecto Doppler.
+
+         Necesita un generador de tonos que emita una frecuencia constante (por ejemplo, 1000Hz). Ingrese esta frecuencia base en la configuración de los experimentos y seleccione un rango de detección en el que espera la frecuencia desplazada Doppler (por ejemplo, 10Hz). El experimento determinará la frecuencia registrada y calculará la velocidad relativa de la fuente de sonido.
+    </description>
+      <string original="Setup">Configuración</string>
+      <string original="Base frequency">Frecuencia base</string>
+      <string original="Frequency range">Rango de frecuencia</string>
+      <string original="Time step">Tiempo de paso</string>
+      <string original="Speed of sound">Velocidad de Sonido</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">El  tiempo de paso( time step) determina la velocidad y la cantidad de datos que se utilizan para calcular un único punto de velocidad. El algoritmo buscará una frecuencia alrededor de la frecuencia base desde el rango hasta el rango + y usará el enésimo período (a continuación) para determinar la frecuencia. Las configuraciones extremas para el intervalo o el intervalo de tiempo pueden ser inexactas o demasiado difíciles de calcular para su teléfono. Además, debe mantener el rango significativamente más pequeño que 1 / paso.</string>
+      <string original="nth period">período nth</string>
+      <string original="Results">Resultados</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Speed">Velocidad</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

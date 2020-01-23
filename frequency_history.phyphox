@@ -215,6 +215,18 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="History">Istorija</string>
       <string original="Frequency">Frekvencija</string>
     </translation>
+    <translation locale="es">
+      <title>Historial de frecuencia</title>
+      <category>Acústica</category>
+      <description>
+        Mida el cambio de frecuencia a lo largo del tiempo para un solo tono.
+
+         Este experimento graba audio del micrófono y lo analiza para determinar su frecuencia durante cortos períodos de tiempo. Esto solo funciona si hay un solo tono con una frecuencia fija, ya que utiliza la autocorrelación. El resultado se trazará como una frecuencia a lo largo del tiempo.
+    </description>
+      <string original="History">Historia</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Period">Periodo</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

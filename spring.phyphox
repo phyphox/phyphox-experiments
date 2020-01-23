@@ -418,6 +418,30 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">Brzinometar y</string>
       <string original="Accelerometer z">Brzinometar z</string>
     </translation>
+    <translation locale="es">
+      <title>Resorte</title>
+      <category>Mecánica</category>
+      <description>
+        Analice de frecuencia y  período de un sistema  mecánico de resorte.
+
+         Este experimento usa el acelerómetro para medir el movimiento del oscilador y calcula el período(T) de oscilación. Además, en la pestaña de resonancia, traza la amplitud contra la frecuencia detectada. De esta manera, puede construir un oscilador controlado y cambiar su frecuencia para medir una curva de resonancia.
+
+         Más detalles:
+         El período de oscilación se obtiene mediante la autocorrelación de la suma de los tres componentes del acelerómetro. La autocorrelación se analiza luego para su primer máximo para una primera estimación y luego se utiliza el último máximo de la autocorrelación para obtener un resultado más preciso.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Resonance">Resonancia</string>
+      <string original="Rel. amplitude">Amplitud Relativa</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">En esta pestaña, la amplitud se representa contra la frecuencia detectada. Puede usar esto para medir la resonancia de un oscilador controlado. La amplitud se normaliza a un rango de 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelación</string>
+      <string original="correlation">Correlación</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Accelerometer x">Acelerómetro x</string>
+      <string original="Accelerometer y">Acelerómetro y</string>
+      <string original="Accelerometer z">Acelerómetro z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

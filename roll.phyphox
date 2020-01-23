@@ -228,6 +228,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">Sirovi podaci</string>
       <string original="Gyroscope y">Žiroskop y</string>
     </translation>
+    <translation locale="es">
+      <title>Rodar</title>
+      <category>Mecánica</category>
+      <description>
+        Coloque su teléfono en un tubo y determine su velocidad.
+
+         Debe colocar su teléfono en un tubo de papel para que gire sobre su lado más largo. Este experimento luego toma la velocidad angular medida por el giroscopio, así como el radio del tubo para calcular la velocidad a la que viaja el tubo
+    </description>
+      <string original="Velocity">Velocidad</string>
+      <string original="Roll radius">Radio del Tubo</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Gyroscope y">Giroscopio y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

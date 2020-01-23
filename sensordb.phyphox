@@ -81,6 +81,31 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
       <string original="hPa">гПа</string>
       <string original="lx">лк</string>
       <string original="cm">см</string>
+      <title>Отправить в базу данных датчиков</title>
+      <category>phyphox.org</category>
+      <description>Отправьте информацию о датчиках в телефоне на phyphox.org.
+
+В ходе этого эксперимента будут собраны технические данные о вашем телефоне и датчиках, которые вы можете отправить в нашу базу данных датчиков. Данные будут агрегированы и доступны другим пользователям, чтобы помочь нам и другим узнать о доступности и возможностях датчиков на различных устройствах.</description>
+      <string original="Submit">Отправить</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">В ходе этого эксперимента будут собраны технические данные о вашем телефоне и датчиках, которые вы можете отправить в нашу базу данных датчиков. Данные будут агрегированы и доступны другим пользователям, чтобы помочь нам и другим узнать о доступности и возможностях датчиков на различных устройствах.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Пожалуйста, поместите телефон на устойчивую поверхность и нажмите Пуск. Не делайте этого во время движения (автомобиль, поезд и т.д.) или на вибрирующей поверхности (громкая музыка, вибрации от автомобилей и т.д.), так как это может исказить результаты.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox соберет данные в течение некоторого времени и в конечном итоге скажет вам, чтобы вы отправили эти данные.</string>
+      <string original="Step">Шаг</string>
+      <string original="Waiting for start">Ожидание старта</string>
+      <string original="Collecting data">Сбор данных</string>
+      <string original="You may now press submit">Теперь вы можете нажать кнопку Отправить</string>
+      <string original="Success. Thank you!">Отправлено. Спасибо!</string>
+      <string original="Confidence">Надёжность</string>
+      <string original="Accelerometer">Акселерометр</string>
+      <string original="Rate">Скорость</string>
+      <string original="Average">Среднее значение</string>
+      <string original="Standard deviation">Стандартное отклонение</string>
+      <string original="Acceleration (without g)">Ускорение (без g)</string>
+      <string original="Barometer">Барометр</string>
+      <string original="Temperature">Температура</string>
+      <string original="Humidity">Влажность</string>
+      <string original="Light">Свет</string>
+      <string original="Proximity">Сближение</string>
     </translation>
     <translation locale="sr">
       <string original="Results">Rezultati</string>
@@ -120,6 +145,36 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
       <string original="%">百分比</string>
       <string original="lx">勒克斯</string>
       <string original="cm">公分</string>
+    </translation>
+    <translation locale="es">
+      <title>Enviar a la base de datos del sensor</title>
+      <category>phyphox.org</category>
+      <description>Envíe información sobre los sensores en su teléfono a phyphox.org.
+
+Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, que puede enviar a nuestra base de datos de sensores. Los datos se agregarán y se pondrán a disposición de otros usuarios para ayudarnos a nosotros y a otros a conocer la disponibilidad y la capacidad de los sensores en diferentes dispositivos.</description>
+      <string original="Submit">Enviar</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, que puede enviar a nuestra base de datos de sensores. Los datos se agregarán y se pondrán a disposición de otros usuarios para ayudarnos a nosotros y a otros a conocer la disponibilidad y la capacidad de los sensores en diferentes dispositivos.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Coloque su teléfono en una superficie estable y presione iniciar. Evite hacer esto mientras se mueve (automóvil, tren, etc.) o en una superficie vibratoria (música alta, vibraciones de vehículos, etc.) ya que esto distorsionará los resultados.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox recopilará datos por un momento y eventualmente le pedirá que envíe los datos.</string>
+      <string original="Step">Paso</string>
+      <string original="Waiting for start">Esperando el inicio</string>
+      <string original="Collecting data">Recolectando datos</string>
+      <string original="You may now press submit">Ahora puede presionar enviar</string>
+      <string original="Success. Thank you!">Éxito. ¡Gracias!</string>
+      <string original="Confidence">Confidencial</string>
+      <string original="Results">Resultados</string>
+      <string original="Accelerometer">Acelerómetro</string>
+      <string original="Rate">tasa</string>
+      <string original="Average">Promedio</string>
+      <string original="Standard deviation">Desviación Estándar</string>
+      <string original="Acceleration (without g)">Aceleración (sin g)</string>
+      <string original="Gyroscope">Giroscopio</string>
+      <string original="Magnetometer">Magnetómetro</string>
+      <string original="Barometer">Barómetro</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Humedad</string>
+      <string original="Light">Luz</string>
+      <string original="Proximity">Proximidad</string>
     </translation>
   </translations>
   <data-containers>

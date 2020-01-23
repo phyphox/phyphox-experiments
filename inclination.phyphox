@@ -380,6 +380,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Rotation">Rotacija</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Ova kartica Vam pomaže da izmerite ugao naginjanja ravni uređaja. Ugao naginjanja ravni uređaja se meri dok telefon miruje na ravnoj površini, bez obzira na njegovu orijentaciju. Rotacija daje pravac naginjanja ravni.</string>
     </translation>
+    <translation locale="es">
+      <title>Inclinación</title>
+      <category>Herramientas</category>
+      <description>
+        Mida el ángulo de inclinación del teléfono.
+
+         Esta herramienta usa el acelerómetro del teléfono para determinar la inclinación . Cuando el teléfono descansa sobre una mesa, la inclinación es cero. Para una inclinación distinta de cero, la dirección de la inclinación se da como rotación.
+
+         Tenga en cuenta que la definición de los ángulos se ha elegido para la tarea de medir una inclinación (especialmente para experimentos de plano inclinado) independiente de la rotación (alrededor del eje z) del teléfono
+    </description>
+      <string original="Flat">Horizontal</string>
+      <string original="Tilt up/down">Inclinación arriba/abajo</string>
+      <string original="Angle">Ángulo</string>
+      <string original="Tilt left/right">Inclinación izquierda/derecha</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Esta pestaña ayuda a medir el ángulo de inclinación del teléfono, comenzando desde una posición plana.</string>
+      <string original="Upright">Vertical</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Esta pestaña ayuda a medir el ángulo de inclinación del teléfono, comenzando desde una posición vertical.</string>
+      <string original="Side">Lado</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Esta pestaña ayuda a medir el ángulo de inclinación del teléfono, comenzando desde una posición lateral.</string>
+      <string original="Plane">Plano inclinado</string>
+      <string original="Inclination">Inclinación</string>
+      <string original="Rotation">Rotación</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Esta pestaña ayuda a medir la inclinación de un plano. La inclinación del plano se mide mientras que el teléfono descansa sobre la superficie, independientemente de su orientación. La rotación da la dirección de la inclinación.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

@@ -332,6 +332,25 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
       <string original="Filtered B²">Obrađen B²</string>
     </translation>
+    <translation locale="es">
+      <title>Regla magnética</title>
+      <category>Herramientas</category>
+      <description>
+        Use una serie de imanes para medir la distancia, la velocidad y la aceleración del teléfono.
+
+         Para este experimento, debe colocar una serie de imanes idénticos a lo largo de la pista que recorrerá el teléfono. La distancia entre los imanes tiene que ser la misma para cada imán y debe ingresarse en el experimento. Luego, el teléfono usará su magnetómetro para determinar cuándo ha pasado un imán, lo que permite calcular la distancia total cubierta.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="dx is the distance between two magnets">dx es la distancia entre dos imanes</string>
+      <string original="Distance">Distancia</string>
+      <string original="Velocity">Velocidad</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+      <string original="Total magnetic field squared and filtered">Campo magnético total al cuadrado y filtrado</string>
+      <string original="Filtered B²">Filtrado  B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

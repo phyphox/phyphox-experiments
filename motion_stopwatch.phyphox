@@ -558,6 +558,37 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate">Prosečna stopa</string>
       <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
     </translation>
+    <translation locale="es">
+      <title>Cronómetro de movimiento</title>
+      <category>Temporizadores</category>
+      <description>
+        Obtenga el tiempo entre dos eventos de movimiento.
+
+         Este experimento permite medir el tiempo entre dos aceleraciones (como pequeños choques). Es posible que desee ajustar el umbral, dando el nivel al que se activa el cronómetro.
+
+         Después de comenzar el experimento, el reloj comenzará con la primera aceleración (total) que exceda el umbral y se detendrá en la segunda aceleración. Asegúrese de que la primera señal de aceleración sea corta ya que una vibración larga puede detectarse inmediatamente como una parada
+    </description>
+      <string original="Threshold">Límite</string>
+      <string original="Minimum Delay">Retraso mínimo</string>
+      <string original="Time">tiempo</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Cambie el umbral para que esté por encima del nivel de ruido del sensor, pero por debajo de la aceleración del disparador (puede probar el experimento del acelerómetro sin g para verificar esto). También establezca el retraso mínimo para evitar disparadores más cortos que ese tiempo.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La precisión de este experimento depende del acelerómetro en su teléfono. Los acelerómetros rápidos pueden ser mejores que una centésima de segundo, mientras que los lentos solo pueden alcanzar una resolución de un segundo.</string>
+      <string original="Sequence">Secuencia</string>
+      <string original="Time 1">Tiempo 1</string>
+      <string original="Time 2">Tiempo 2</string>
+      <string original="Time 3">Tiempo 3</string>
+      <string original="Time 4">Tiempo 4</string>
+      <string original="Time 5">Tiempo 5</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Many">Mucho</string>
+      <string original="Events">Eventos</string>
+      <string original="Event number">Numero de evento</string>
+      <string original="Time interval">Intervalo de tiempo</string>
+      <string original="Average interval">Intervalo medio</string>
+      <string original="Average rate">Tasa promedio</string>
+      <string original="Average rate (bpm)">Tasa promedio(bpm)</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">
