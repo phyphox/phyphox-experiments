@@ -5,10 +5,10 @@
   <description>
         Determine the speed of an elevator using the barometer.
 
-        Changes in height within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator. Additionally, the acceleration is measured using the z-component accelerometer, so for an accurate measurement of the acceleration, the phone should lie flat on the floor of the elevator.
+        Changes in altitude within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator. Additionally, the acceleration is measured using the z-component accelerometer, so for an accurate measurement of the acceleration, the phone should lie flat on the floor of the elevator.
 
         More details:
-        To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a height difference using the international barometric height formula. The height difference with divided by their time difference gives the vertical speed.
+        To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a altitude difference using the international barometric height formula. The altitude difference divided by the time difference gives the vertical speed.
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Elevator</link>
   <link label="Video" highlight="true">https://youtu.be/y-goBtfuXAM</link>
@@ -24,14 +24,14 @@
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
     </description>
-      <string original="Vertical velocity (from height)">Vertikale Geschwindigkeit (aus Höhe)</string>
       <string original="Raw Data">Rohdaten</string>
       <string original="Pressure">Druck</string>
-      <string original="Height (from barometer)">Höhe (über Barometer)</string>
+      <string original="Altitude (from barometer)">Höhe (über Barometer)</string>
       <string original="Motion">Bewegung</string>
       <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>
       <string original="Accelerometer z">Beschleunigung z</string>
       <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
+      <string original="Vertical velocity (from altitude)">Vertikale Geschwindigkeit (aus Höhe)</string>
     </translation>
     <translation locale="cs">
       <title>Výtah</title>
@@ -42,12 +42,12 @@
 Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Zároveň můžeme z tohoto měření zjistit i rychlost svislého pohybu výtahu. Zároveň je měřeno zrychlení Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
     </description>
       <string original="Motion">Pohyb</string>
-      <string original="Height (from barometer)">Výška (z barometru)</string>
-      <string original="Vertical velocity (from height)">Svislá rychlost (z výšky)</string>
+      <string original="Altitude (from barometer)">Výška (z barometru)</string>
       <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
       <string original="Raw Data">Neupravená data</string>
       <string original="Pressure">Tlak</string>
       <string original="Accelerometer z">Akcelerometr z</string>
+      <string original="Vertical velocity (from altitude)">Svislá rychlost (z výšky)</string>
     </translation>
     <translation locale="pl">
       <title>Winda</title>
@@ -62,12 +62,12 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
         Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
     </description>
       <string original="Motion">Ruch</string>
-      <string original="Height (from barometer)">Wysokość (z barometru)</string>
-      <string original="Vertical velocity (from height)">Prędkość w pionie (z wysokości)</string>
+      <string original="Altitude (from barometer)">Wysokość (z barometru)</string>
       <string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string>
       <string original="Raw Data">Surowe dane</string>
       <string original="Pressure">Ciśnienie</string>
       <string original="Accelerometer z">Akcelerometr - składowa z</string>
+      <string original="Vertical velocity (from altitude)">Prędkość w pionie (z wysokości)</string>
     </translation>
     <translation locale="nl">
       <title>Lift</title>
@@ -81,11 +81,11 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
          Om een deel van de ruis in dit experiment te elimineren, worden de waarden van de drukmeter uitgemiddeld over 1 s. Het verschil van opeenvolgende gemiddelden wordt omgezet in een hoogteverschil met behulp van de internationale barometrische hoogteformule. Het hoogteverschil gedeeld door het tijdsverschil geeft de verticale snelheid.
     </description>
       <string original="Motion">Beweging</string>
-      <string original="Height (from barometer)">Hoogte (van drukmeter)</string>
-      <string original="Vertical velocity (from height)">Verticale snelheid (uit hoogte)</string>
+      <string original="Altitude (from barometer)">Hoogte (van drukmeter)</string>
       <string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="Pressure">Druk</string>
+      <string original="Vertical velocity (from altitude)">Verticale snelheid (uit hoogte)</string>
     </translation>
     <translation locale="ru">
       <title>Лифт</title>
@@ -99,10 +99,9 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
         Чтобы частично устранить погрешности в этом эксперименте, данные барометра, считанные за 1 с, усредняются. Разница между последовательными средними значениями преобразуется в разность высот с использованием барометрической формулы. Разница в высоте с делением на разницу во времени дает вертикальную скорость.
     </description>
       <string original="Motion">Движение</string>
-      <string original="Height (from barometer)">Высота (барометр)</string>
+      <string original="Altitude (from barometer)">Высота (барометр)</string>
       <string original="t (s)">t (c)</string>
       <string original="h (m)">h (м)</string>
-      <string original="Vertical velocity (from height)">Вертикальная скорость (от высоты)</string>
       <string original="v (m/s)">v (м/с)</string>
       <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
       <string original="a (m/s²)">а (м/с²)</string>
@@ -110,6 +109,7 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="Pressure">Давление</string>
       <string original="p (hPa)">p (гПа)</string>
       <string original="Accelerometer z">Акселерометр z</string>
+      <string original="Vertical velocity (from altitude)">Вертикальная скорость (от высоты)</string>
     </translation>
     <translation locale="it">
       <title>Ascensore</title>
@@ -123,12 +123,12 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
         Per eliminare alcuni disturbi nell'esperimento, le letture del barometro sono intervallate di 1 s. Differenze su intervalli consecutivi sono convertite in differenze di altezza usando la formula dell'altezza barometrica. Le differenze di altezza divise gli intervalli di tempo danno la velocità verticale.
     </description>
       <string original="Motion">Movimento</string>
-      <string original="Height (from barometer)">Altezza (dal barometro)</string>
-      <string original="Vertical velocity (from height)">Velocità verticale (dall'altezza)</string>
+      <string original="Altitude (from barometer)">Altezza (dal barometro)</string>
       <string original="z acceleration (from accelerometer)">accelerazione lungo z (dall'accelerometro)</string>
       <string original="Raw Data">Dati grezzi</string>
       <string original="Pressure">Pressione</string>
       <string original="Accelerometer z">Accelerazione z</string>
+      <string original="Vertical velocity (from altitude)">Velocità verticale (dall'altezza)</string>
     </translation>
     <translation locale="el">
       <title>Ανελκυστήρας</title>
@@ -142,12 +142,12 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
         Για να απομονωθεί ένα μέρος του θορύβου στο πείραμα αυτό, υπολογίζεται ο μέσος όρος των ενδείξεων του βαρομέτρου σε διάστημα 1s. H διαφορά διαδοχικών μέγιστων μετατρέπεται σε ύψος από την βαρομετρική εξίσωση του ύψους. Η διαφορά ύψους διαιρεμένη με τους χρόνους δίνει την κατακόρυφη ταχύτητα.
     </description>
       <string original="Motion">Κίνηση</string>
-      <string original="Height (from barometer)">Ύψος (από το βαρόμετρο)</string>
-      <string original="Vertical velocity (from height)">Κατακόρυφη ταχύτητα (από  το ύψος)</string>
+      <string original="Altitude (from barometer)">Ύψος (από το βαρόμετρο)</string>
       <string original="z acceleration (from accelerometer)">Επιτάχυνση στον z (από το επιταχυνσιόμετρο)</string>
       <string original="Raw Data">Καταγραφές Αισθητήρα</string>
       <string original="Pressure">Πίεση</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+      <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από  το ύψος)</string>
     </translation>
     <translation locale="ja">
       <title>エレベーター</title>
@@ -159,15 +159,15 @@ GPSが動作しないような場所においても，バロメータにより�
 本実験において，ノイズを除去するため，バロメーターからの出力は1秒以上の平均値です．連続計測された平均値の差は，国際的な圧力高度換算公式を用い高度に変換されます．高度を時間差で割ることでエレベータの速度が得られます．
     </description>
       <string original="Motion">位置・速度・加速度</string>
-      <string original="Height (from barometer)">バロメーターから換算された高度</string>
+      <string original="Altitude (from barometer)">バロメーターから換算された高度</string>
       <string original="h">ｈ</string>
-      <string original="Vertical velocity (from height)">高度から計算される垂直速度</string>
       <string original="v">ｖ</string>
       <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
       <string original="Raw Data">センサー出力</string>
       <string original="Pressure">圧力</string>
       <string original="p">ｐ</string>
       <string original="Accelerometer z">加速度計 z</string>
+      <string original="Vertical velocity (from altitude)">高度から計算される垂直速度</string>
     </translation>
     <translation locale="pt">
       <title>Elevador</title>
@@ -181,12 +181,12 @@ GPSが動作しないような場所においても，バロメータにより�
         Para diminuir o ruído do experimento, é utilizada a média das medidas do barômetro durante 1s. A diferença das médias consecutivas é convertida em altura usando a equação barométrica. A diferença de altura dividida pela diferenca de tempo dá a velocidade vertical.
     </description>
       <string original="Motion">Movimento</string>
-      <string original="Height (from barometer)">Altura (a partir do barômetro)</string>
-      <string original="Vertical velocity (from height)">Velocidade vertical (a partir da altura)</string>
+      <string original="Altitude (from barometer)">Altura (a partir do barômetro)</string>
       <string original="z acceleration (from accelerometer)">Aceleração z (a partir do acelerômetro)</string>
       <string original="Raw Data">Sensores</string>
       <string original="Pressure">Pressão</string>
       <string original="Accelerometer z">Acelerômetro z</string>
+      <string original="Vertical velocity (from altitude)">Velocidade vertical (a partir da altura)</string>
     </translation>
     <translation locale="tr">
       <title>Asansör</title>
@@ -201,12 +201,12 @@ GPSが動作しないような場所においても，バロメータにより�
 ………
     </description>
       <string original="Motion">Hareket</string>
-      <string original="Height (from barometer)">Yükseklik (barometreden)</string>
-      <string original="Vertical velocity (from height)">Düşey hız (yükseklikten)</string>
+      <string original="Altitude (from barometer)">Yükseklik (barometreden)</string>
       <string original="z acceleration (from accelerometer)">z ivmesi (ivmeölçerden)</string>
       <string original="Raw Data">Ham veri</string>
       <string original="Pressure">Basınç</string>
       <string original="Accelerometer z">İvmeölçer Z</string>
+      <string original="Vertical velocity (from altitude)">Düşey hız (yükseklikten)</string>
     </translation>
     <translation locale="zh_Hant">
       <title>電梯</title>
@@ -220,12 +220,12 @@ GPSが動作しないような場所においても，バロメータにより�
 	為消除一些實驗中的雜音，氣壓計所讀的數據為每1秒鐘的平均值。此持續平均值的差利用國際氣壓高公式轉換成高度。將高度差除以時間差得到鉛直速度。
     </description>
       <string original="Motion">運動</string>
-      <string original="Height (from barometer)">高度（由高度計）</string>
-      <string original="Vertical velocity (from height)">鉛直速度 (由高度）</string>
+      <string original="Altitude (from barometer)">高度（由高度計）</string>
       <string original="z acceleration (from accelerometer)">z方向加速度 （由加速儀）</string>
       <string original="Raw Data">原始數據</string>
       <string original="Pressure">壓力</string>
       <string original="Accelerometer z">z方向加速儀</string>
+      <string original="Vertical velocity (from altitude)">鉛直速度 (由高度）</string>
     </translation>
     <translation locale="fr">
       <title>Ascenseur</title>
@@ -238,12 +238,12 @@ GPSが動作しないような場所においても，バロメータにより�
         Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation de hauteur à l'aide de la relation pression / hauteur. La variation de hauteur divisée par l’intervalle de temps donne la vitesse verticale.
     </description>
       <string original="Motion">Mouvement</string>
-      <string original="Height (from barometer)">Hauteur (selon le baromètre)</string>
-      <string original="Vertical velocity (from height)">vitesse verticale (à partir de la hauteur)</string>
+      <string original="Altitude (from barometer)">Hauteur (selon le baromètre)</string>
       <string original="z acceleration (from accelerometer)">accélération selon z (selon l'accéléromètre)</string>
       <string original="Raw Data">Données brutes</string>
       <string original="Pressure">Pression</string>
       <string original="Accelerometer z">Accélération selon z</string>
+      <string original="Vertical velocity (from altitude)">vitesse verticale (à partir de la hauteur)</string>
     </translation>
     <translation locale="vi">
       <title>Thang máy</title>
@@ -257,12 +257,12 @@ GPSが動作しないような場所においても，バロメータにより�
         Để giảm nhiễu trong thí nghiệm này, dữ liệu từ áp kế được tính trung bình cho từng giây. Hiệu trung bình áp suất liên tiếp được đổi thành độ cao theo công thức quốc tế tính độ cao theo áp suất. Hiệu độ cao được chia cho thời di chuyển để có tốc độ theo phương thẳng đứng.
     </description>
       <string original="Motion">Chuyển động</string>
-      <string original="Height (from barometer)">Độ cao (từ áp kế)</string>
-      <string original="Vertical velocity (from height)">Tốc độ thẳng đứng (từ độ cao)</string>
+      <string original="Altitude (from barometer)">Độ cao (từ áp kế)</string>
       <string original="z acceleration (from accelerometer)">gia tốc z (từ gia tốc kế)</string>
       <string original="Raw Data">Dữ liệu thô</string>
       <string original="Pressure">Áp suất</string>
       <string original="Accelerometer z">Gia tốc kế z</string>
+      <string original="Vertical velocity (from altitude)">Tốc độ thẳng đứng (từ độ cao)</string>
     </translation>
     <translation locale="zh_Hans">
       <title>电梯</title>
@@ -276,13 +276,13 @@ GPSが動作しないような場所においても，バロメータにより�
         为了消除本实验中的一些噪声，气压表读数取每秒钟的平均值。使用国际气压高度公式，能将连续平均值的差异转化为高度差。高度差除以时间差得到电梯的垂直速度。
     </description>
       <string original="Motion">运动</string>
-      <string original="Height (from barometer)">高度（来自气压计）</string>
+      <string original="Altitude (from barometer)">高度（来自气压计）</string>
       <string original="t">时间</string>
-      <string original="Vertical velocity (from height)">垂直速度（来自高度）</string>
       <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
       <string original="Raw Data">原始数据</string>
       <string original="Pressure">压力</string>
       <string original="Accelerometer z">z轴加速度计</string>
+      <string original="Vertical velocity (from altitude)">垂直速度（来自高度）</string>
     </translation>
     <translation locale="sr">
       <title>Lift</title>
@@ -296,12 +296,12 @@ GPSが動作しないような場所においても，バロメータにより�
          Da bi se eliminisale smetnje u ovom eksperimentu, očitavanja iz barometra prosečno su veća od 1 s. Razlika uzastopnih proseka pretvara se u visinsku razliku koristeći međunarodnu barometrijsku visinu. Visinska razlika podeljena sa vremenskom razlikom daje vertikalnu brzinu.
     </description>
       <string original="Motion">Kretanje</string>
-      <string original="Height (from barometer)">Visina (sa barometra)</string>
-      <string original="Vertical velocity (from height)">Vertikalna brzina (iz visine)</string>
+      <string original="Altitude (from barometer)">Visina (sa barometra)</string>
       <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
       <string original="Raw Data">Sirovi podaci</string>
       <string original="Pressure">Pritisak</string>
       <string original="Accelerometer z">Brzinometar z</string>
+      <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Lift</title>
@@ -315,12 +315,12 @@ GPSが動作しないような場所においても，バロメータにより�
          Da bi se eliminisale smetnje u ovom eksperimentu, očitavanja iz barometra prosečno su veća od 1 s. Razlika uzastopnih proseka pretvara se u visinsku razliku koristeći međunarodnu barometrijsku visinu. Visinska razlika podeljena sa vremenskom razlikom daje vertikalnu brzinu.
     </description>
       <string original="Motion">Kretanje</string>
-      <string original="Height (from barometer)">Visina (sa barometra)</string>
-      <string original="Vertical velocity (from height)">Vertikalna brzina (iz visine)</string>
+      <string original="Altitude (from barometer)">Visina (sa barometra)</string>
       <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
       <string original="Raw Data">Sirovi podaci</string>
       <string original="Pressure">Pritisak</string>
       <string original="Accelerometer z">Brzinometar z</string>
+      <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
     </translation>
     <translation locale="es">
       <title>Ascensor</title>
@@ -334,12 +334,12 @@ Más detalles:
 Para eliminar alguna parte del rudio en este experimento, las mediciones están promediadas sobre 1 s. La diferencia entre medias consecutivas es convertida en una diferencia de altura usando la fórmula de altura barométrica universal. La diferencia de altura dividida entre la difgerencia de tiempo resulta en la velocidad vertical.
     </description>
       <string original="Motion">Movimiento</string>
-      <string original="Height (from barometer)">Altura (tomada del barómetro)</string>
-      <string original="Vertical velocity (from height)">Velocidad vertical (tomada de la altura)</string>
+      <string original="Altitude (from barometer)">Altura (tomada del barómetro)</string>
       <string original="z acceleration (from accelerometer)">aceleración z (tomada del acelerómetro)</string>
       <string original="Raw Data">Datos sin procesar</string>
       <string original="Pressure">Presión</string>
       <string original="Accelerometer z">Acelerómetro z</string>
+      <string original="Vertical velocity (from altitude)">Velocidad vertical (tomada de la altura)</string>
     </translation>
   </translations>
   <data-containers>
@@ -368,11 +368,11 @@ Para eliminar alguna parte del rudio en este experimento, las mediciones están 
   </input>
   <views>
     <view label="Motion">
-      <graph label="Height (from barometer)" labelX="t" unitX="s" labelY="h" unitY="m" partialUpdate="true">
+      <graph label="Altitude (from barometer)" labelX="t" unitX="s" labelY="h" unitY="m" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">h</input>
       </graph>
-      <graph label="Vertical velocity (from height)" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true" color="ffff00">
+      <graph label="Vertical velocity (from altitude)" labelX="t" unitX="s" labelY="v" unitY="m/s" partialUpdate="true" color="ffff00">
         <input axis="x">v_time</input>
         <input axis="y">v</input>
       </graph>
@@ -439,7 +439,7 @@ Para eliminar alguna parte del rudio en este experimento, las mediciones están 
     <set name="Pressure and velocity">
       <data name="Time (s)">p_time</data>
       <data name="Pressure (hPa)">pressure</data>
-      <data name="Height (m)">h</data>
+      <data name="Altitude (m)">h</data>
       <data name="Time (velocity) (s)">v_time</data>
       <data name="Velocity (m/s)">v</data>
     </set>

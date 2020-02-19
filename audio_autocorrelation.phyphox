@@ -543,7 +543,6 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="D#4 / Eb4">D#4/Eb4</string>
       <string original="F#4 / Gb4">F#4/Gb4</string>
       <string original="G#4 / Ab4">G#4/Ab4</string>
-      <string original="A#4 / Bb4">A#4/Bb4</string>
       <string original="C#6 / Db6">C#6 /Db6</string>
       <string original="High">Alto</string>
       <string original="Cents from note">Cents de nota</string>

@@ -111,6 +111,31 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
       <string original="Results">Rezultati</string>
       <string original="Gyroscope">Žiroskop</string>
       <string original="Magnetometer">Magnetometar</string>
+      <title>Pošaljite u bazu podataka senzora</title>
+      <category>phyphox.org</category>
+      <description>Informacije o senzorima u vašem telefonu pošaljite na phiphok.org.
+
+Ovaj eksperiment će prikupiti tehničke podatke o vašem telefonu i vašim senzorima koje možete poslati u našu bazu podataka senzora. Podaci će biti sakupljeni i dostupni drugim korisnicima kako bi se nama i drugima moglo pomoći da saznamo o dostupnosti i sposobnosti senzora na različitim uređajima.</description>
+      <string original="Submit">Prihvati</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Ovaj eksperiment će prikupiti tehničke podatke o vašem telefonu i vašim senzorima koje možete poslati u našu bazu podataka senzora. Podaci će biti sakupljeni i dostupni drugim korisnicima kako bi se nama i drugima moglo pomoći da saznamo o dostupnosti i sposobnosti senzora na različitim uređajima.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Postavite telefon na stabilnu površinu i pritisnite start. Izbegavajte to da činite dok se krećete (automobil, voz, itd.) ili dok se nalazite na vibrirajućoj površini (glasna muzika, vibracije iz vozila itd.), jer će to pokvariti rezultate.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox će na trenutak prikupljati podatke i na kraju vam reći da prihvatite podatke.</string>
+      <string original="Step">Korak</string>
+      <string original="Waiting for start">Čekanje na početak</string>
+      <string original="Collecting data">Prikupljanje podataka</string>
+      <string original="You may now press submit">Možete pritisnuti dugme prihvati</string>
+      <string original="Success. Thank you!">Uspešno obavljeno. Hvala vam!</string>
+      <string original="Confidence">Samopouzdanje</string>
+      <string original="Accelerometer">Merač ubrzanja</string>
+      <string original="Rate">Stopa</string>
+      <string original="Average">Prosek</string>
+      <string original="Standard deviation">Standardna devijacija</string>
+      <string original="Acceleration (without g)">Ubrzanje (bez g)</string>
+      <string original="Barometer">Barometar</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Vlašnost</string>
+      <string original="Light">Svetlost</string>
+      <string original="Proximity">Blizina</string>
     </translation>
     <translation locale="sr_Latn">
       <string original="Results">Rezultati</string>

@@ -211,7 +211,7 @@
     </translation>
     <translation locale="es">
       <title>Giroscopio (velocidad de rotación)</title>
-      <category>Datos del sensor sin procesar</category>
+      <category>Sensores</category>
       <description>Obtenga datos sin procesar del giroscopio.</description>
       <string original="Graph">Gráfico</string>
       <string original="Gyroscope x">Giroscopio x</string>

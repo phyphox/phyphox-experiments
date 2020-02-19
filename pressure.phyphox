@@ -140,7 +140,7 @@
     </translation>
     <translation locale="es">
       <title>Presión</title>
-      <category>Datos del sensor sin procesar</category>
+      <category>Sensores</category>
       <description>Obtenga datos sin procesar del barómetro.</description>
       <string original="Graph">Gráfico</string>
       <string original="Pressure">Presión</string>

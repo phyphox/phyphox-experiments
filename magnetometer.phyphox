@@ -431,7 +431,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
     </translation>
     <translation locale="es">
       <title>Magnetómetro</title>
-      <category>Datos de sensores sin procesar</category>
+      <category>Sensores</category>
       <description>
         Obtenga datos sin procesar del magnetómetro.
 

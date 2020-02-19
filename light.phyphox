@@ -197,7 +197,7 @@
     </translation>
     <translation locale="es">
       <title>Luz</title>
-      <category>Datos del sensor sin procesar</category>
+      <category>Sensores</category>
       <description>Obtenga datos sin procesar del sensor de luz.</description>
       <string original="Graph">Gráfico</string>
       <string original="Illuminance">Iluminancia</string>

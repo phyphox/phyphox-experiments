@@ -259,7 +259,7 @@
     </translation>
     <translation locale="es">
       <title>Generador de tonos</title>
-      <category>Acustica</category>
+      <category>Acústica</category>
       <description>
         Genera un tono de una frecuencia específica.
     </description>

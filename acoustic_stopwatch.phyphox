@@ -571,11 +571,11 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
 
          Después de comenzar el experimento, el reloj comenzará con el primer ruido que exceda el umbral y se detendrá con el segundo ruido. Para repetir el experimento, borre los datos y comience nuevamente. Asegúrese de que el primer ruido sea corto ya que un sonido largo puede detectarse inmediatamente como una parada.
     </description>
-      <string original="Threshold">Límite</string>
+      <string original="Threshold">Umbral</string>
       <string original="Minimum Delay">Retraso mínimo</string>
       <string original="Time">tiempo</string>
       <string original="Reset">Reiniciar</string>
-      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Cambie el umbral para que esté por encima del nivel de ruido ambiental, pero por debajo del ruido de activación (puede probar el experimento de alcance de audio para verificar esto). Establezca también el retraso mínimo para evitar disparadores más cortos que ese tiempo (por ejemplo, debido al eco o la reverberación).</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Cambie el umbral para que esté por encima del nivel de ruido ambiental, pero por debajo del ruido de activación (puede probar el experimento de visualización de audio para verificar ésto). Establezca también el retraso mínimo para evitar disparadores más cortos que ese tiempo (por ejemplo, debido al eco o la reverberación).</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Desafortunadamente, esto no funcionará en teléfonos lentos. Primero, compara con un reloj normal para asegurarte de que el experimento funciona como se esperaba.</string>
       <string original="Sequence">Secuencia</string>
       <string original="Time 1">Tiempo 1</string>
@@ -584,7 +584,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Time 4">Tiempo 4</string>
       <string original="Time 5">Tiempo 5</string>
       <string original="Parallel">Paralelo</string>
-      <string original="Many">Mucho</string>
+      <string original="Many">Rítmico</string>
       <string original="Events">Eventos</string>
       <string original="Event number">Numero de evento</string>
       <string original="Time interval">Intervalo de tiempo</string>

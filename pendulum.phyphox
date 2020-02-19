@@ -487,9 +487,9 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <category>Mehanika</category>
       <description>
         Odredite gravitacionu konstantu (g=9.81m/s²) koristeći telefon kao klatno.
-        Ovaj eksperiment koristi žiroskop da izmeri kretanje klatna i izračuna oscilatorni period T. Korisnik mora uneti dužinu kanapa koji se koristi za klatno L, da bi phyphox mogao izračunati g = 4π²/T² L.
+        Ovaj eksperiment koristi žiroskop da izmeri kretanje klatna i izračuna period oscilacije T. Korisnik mora uneti dužinu kanapa koji se koristi za klatno L, da bi Phyphox mogao izračunati g = 4π²/T² L.
 
-        Druga opcija vam je da umesto merenja g, koristite karticu dužina i pretpostavite g = 9.81 m/s² da odredite dužinu kanapa iz kretanja klatna. (To je ustvari razdaljina od težišta do centra mase.)
+        Druga opcija vam je da umesto merenja g, koristite opciju dužina i pretpostavite da je g = 9.81 m/s² te da odredite dužinu kanapa iz kretanja klatna. (To je ustvari razdaljina od tačke vešanja do centra mase.)
         Dodatno, u kartici rezonancija, ucrtava se amplituda po detektovanoj frekvenciji. Na ovaj način, možete konstruisati automatski oscilator i menjati njegovu frekvenciju da meri rezonancionu krivu.
 
         Više detalja:

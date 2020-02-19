@@ -28,7 +28,7 @@
     </description>
       <string original="Latitude">Breitengrad</string>
       <string original="Longitude">Längengrad</string>
-      <string original="Height">Höhe</string>
+      <string original="Altitude">Höhe</string>
       <string original="Speed">Geschwindigkeit</string>
       <string original="Direction">Richtung</string>
       <string original="Horizontal Accuracy">Horizontale Genauigkeit</string>
@@ -46,7 +46,7 @@
       <string original="Distance travelled">Zurückgelegte Entfernung</string>
       <string original="Distance from start">Entfernung vom Start</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Stelle außerdem sicher, dass die Standorteinstellungen deines Systems nicht auf "Energie sparen" stehen, da dies die genauen GPS-Daten abschaltet.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Die horizontale Genauigkeit ist die Unsicherheit deines Standorts, während die vertikale Genauigkeit die (normalerweise schlechtere) Unsicherheit auf deiner Höhe ist. Wenn die Genauigkeit Null beträgt, ist diese Information nicht verfügbar.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Die horizontale Genauigkeit ist die Unsicherheit deines Standorts, während die vertikale Genauigkeit die (normalerweise schlechtere) Unsicherheit auf deiner Höhe ist. Wenn die Genauigkeit Null beträgt, ist diese Information nicht verfügbar.</string>
     </translation>
     <translation locale="cs">
       <title>Pozice (GPS)</title>
@@ -58,7 +58,7 @@
       <string original="GPS disabled">GPS neaktivní</string>
       <string original="Latitude">Zeměpisná šířka</string>
       <string original="Longitude">Zeměpisná délka</string>
-      <string original="Height">Výška</string>
+      <string original="Altitude">Výška</string>
       <string original="Speed">Rychlost</string>
       <string original="Direction">Směr</string>
       <string original="Distance">Vzdálenost</string>
@@ -90,7 +90,7 @@
       <string original="GPS active">GPS aktywny</string>
       <string original="Latitude">Szerokość geograficzna</string>
       <string original="Longitude">Długość geograficzna</string>
-      <string original="Height">Wysokość</string>
+      <string original="Altitude">Wysokość</string>
       <string original="Speed">Szybkość</string>
       <string original="Direction">Kierunek</string>
       <string original="Direction (°)">Kierunek (°)</string>
@@ -107,7 +107,7 @@
       <string original="Distance travelled">Pokonany dystans</string>
       <string original="Distance from start">Dystans od startu</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Upewnij się również, że urządzenie nie pracuje w trybie "Oszczędzanie energii", ponieważ zwykle w trybie tym wyłączana jest dokładna lokalizacja GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Dokładność w poziomie określa niepewnością twojej lokalizacji na płaszczyźnie, podczas gdy dokładność w pionie (zwykle gorsza) określa niepewnością twojej wysokości (w kierunku prostopadłym do płaszczyzny). Jeśli dokładność wynosi zero, ta oznacza to, że informacja ta nie jest dostępna.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Dokładność w poziomie określa niepewnością twojej lokalizacji na płaszczyźnie, podczas gdy dokładność w pionie (zwykle gorsza) określa niepewnością twojej wysokości (w kierunku prostopadłym do płaszczyzny). Jeśli dokładność wynosi zero, ta oznacza to, że informacja ta nie jest dostępna.</string>
     </translation>
     <translation locale="nl">
       <title>Locatie (GPS)</title>
@@ -121,7 +121,7 @@
       <string original="GPS active">GPS ingeschakeld</string>
       <string original="Latitude">Breedtegraad</string>
       <string original="Longitude">Lengtegraad</string>
-      <string original="Height">Hoogte</string>
+      <string original="Altitude">Hoogte</string>
       <string original="Speed">Snelheid</string>
       <string original="Direction">Richting</string>
       <string original="Direction (°)">Richting (°)</string>
@@ -143,7 +143,7 @@
       <string original="Distance travelled">Afgelegde weg</string>
       <string original="Distance from start">Afstand vanaf start</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Zorg er ook voor dat de locatie-instelling van uw systeem niet is ingesteld op "Energiebesparing", omdat dit meestal de nauwkeurige GPS-bron uitschakelt.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">De horizontale nauwkeurigheid is de onzekerheid op je locatie, terwijl de verticale nauwkeurigheid de (meestal slechtere) onzekerheid is op uw hoogte. Als de nauwkeurigheid nul is, is deze informatie niet beschikbaar.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">De horizontale nauwkeurigheid is de onzekerheid op je locatie, terwijl de verticale nauwkeurigheid de (meestal slechtere) onzekerheid is op uw hoogte. Als de nauwkeurigheid nul is, is deze informatie niet beschikbaar.</string>
     </translation>
     <translation locale="ru">
       <title>Местоположение (GPS)</title>
@@ -164,7 +164,7 @@
       <string original="Latitude">Широта</string>
       <string original="t (s)">t (c)</string>
       <string original="Longitude">Долгота</string>
-      <string original="Height">Высота</string>
+      <string original="Altitude">Высота</string>
       <string original="z (m)">z (м)</string>
       <string original="Speed">Скорость</string>
       <string original="v (m/s)">v (м/с)</string>
@@ -196,7 +196,7 @@
       <string original="Distance travelled">Пройденное расстояние</string>
       <string original="Distance from start">Расстояние от начала</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Также убедитесь, что настройка местоположения вашей системы не установлена на «Энергосбережение», потому что это обычно отключает точный источник GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
     </translation>
     <translation locale="it">
       <title>Posizione (GPS)</title>
@@ -216,7 +216,7 @@
       <string original="GPS active">GPS attivo</string>
       <string original="Latitude">Latitudine</string>
       <string original="Longitude">Longitudine</string>
-      <string original="Height">Altezza</string>
+      <string original="Altitude">Altezza</string>
       <string original="Speed">Velocità</string>
       <string original="Direction">Direzione</string>
       <string original="Direction (°)">Direzione (°)</string>
@@ -240,7 +240,7 @@
       <string original="Distance travelled">Distanza percorsa</string>
       <string original="Distance from start">Distanza dalla partenza</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assicurati anche che il sistema di geolocalizzazione non sia configurato come "Power saving" poiché questo ridurrebbe la precisione del GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">L'accuratezza orizzontale rappresenta l'indeterminazione associata alla tua posizione, mentre quella verticale è l'indeterminazione (di solito peggiore) con la quale si conosce la tua quota rispetto al livello del mare (altezza). Se l'accuratezza è nulla, significa che quest'informazione non è disponibile.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">L'accuratezza orizzontale rappresenta l'indeterminazione associata alla tua posizione, mentre quella verticale è l'indeterminazione (di solito peggiore) con la quale si conosce la tua quota rispetto al livello del mare (altezza). Se l'accuratezza è nulla, significa che quest'informazione non è disponibile.</string>
     </translation>
     <translation locale="el">
       <title>Τοποθεσία (GPS)</title>
@@ -254,7 +254,7 @@
       <string original="GPS active">Ενεργό GPS</string>
       <string original="Latitude">Γεωγραφικό Πλάτος</string>
       <string original="Longitude">Γεωγραφικό Μήκος</string>
-      <string original="Height">Ύψος</string>
+      <string original="Altitude">Ύψος</string>
       <string original="Speed">Ταχύτητα</string>
       <string original="Direction">Κατεύθυνση</string>
       <string original="Direction (°)">Κατεύθυνση (°)</string>
@@ -272,7 +272,7 @@
       <string original="Distance travelled">Διανυθείσα απόσταση</string>
       <string original="Distance from start">Απόσταση από την αρχή</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Επίσης βεβαιωθείτε ότι η ρύθμιση για την τοποθεσία στο σύστημα σας δεν είναι ρυθμισμένη στο "Εξοικονόμηση ενέργειας" γιατί τότε συνήθως απενεργοποιείται η ακριβής λειτουργία του GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
     </translation>
     <translation locale="ja">
       <title>位置 (GPS)</title>
@@ -286,7 +286,7 @@
       <string original="GPS active">GPS有効</string>
       <string original="Latitude">緯度</string>
       <string original="Longitude">経度</string>
-      <string original="Height">高度</string>
+      <string original="Altitude">高度</string>
       <string original="z">ｚ</string>
       <string original="Movement">経路</string>
       <string original="Speed">速度</string>
@@ -302,7 +302,7 @@
       <string original="Satellites">衛星数</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">位置情報サービスが省電力モードでないことを確認してください．省電力モードになると多くの場合正確なGPS情報源を切断してしまいます．</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">水平方向精度は位置の不確かさで垂直方向精度は高度の不確かさです。もしゼロになっていたら、この情報は現在利用できないことを示しています。</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">水平方向精度は位置の不確かさで垂直方向精度は高度の不確かさです。もしゼロになっていたら、この情報は現在利用できないことを示しています。</string>
     </translation>
     <translation locale="pt">
       <title>Localização (GPS)</title>
@@ -314,7 +314,7 @@
       <string original="Status">Estado</string>
       <string original="GPS disabled">GPS desabilitado</string>
       <string original="GPS active">GPS ativo</string>
-      <string original="Height">Altura</string>
+      <string original="Altitude">Altura</string>
       <string original="z">Z</string>
       <string original="Movement">Movimento</string>
       <string original="Speed">Velocidade</string>
@@ -332,7 +332,7 @@
       <string original="Satellites">Satélites</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nota: alguns dispositivos não possuem um sensor GPS, mas fornecem dados de localização através das conexões móveis ou WIFI. Estas fontes de dados produzem dados com precisão ruim.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Também tenha certeza que a configuração do seu sistema de localização não esteja definida como "Economia de Energia" porque isto normalmente desliga o GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">A precisão horizontal é a incerteza da sua localização, enquanto a precisão vertical é a (normalmente pior) a incerteza da sua elevação (altura). Se a precisão é zero, esta informação não está disponível.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">A precisão horizontal é a incerteza da sua localização, enquanto a precisão vertical é a (normalmente pior) a incerteza da sua elevação (altura). Se a precisão é zero, esta informação não está disponível.</string>
     </translation>
     <translation locale="tr">
       <title>Konum (GPS)</title>
@@ -346,7 +346,7 @@
       <string original="GPS active">GPS etkin</string>
       <string original="Latitude">Enlem</string>
       <string original="Longitude">Boylam</string>
-      <string original="Height">Yükseklik</string>
+      <string original="Altitude">Yükseklik</string>
       <string original="Movement">Hareket</string>
       <string original="Speed">Hız</string>
       <string original="Direction">Yön</string>
@@ -359,7 +359,7 @@
       <string original="Satellites">Uydular</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Bazı cihazların GPS sensörü bulunmadığını, ancak mobil veya WIFI bağlantılarıyla konum verilerini sağladığını unutmayın. Bu veri kaynakları, hatalı doğrulukta veri üretir.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ayrıca, sisteminizin konum ayarının "Güç tasarrufu" olarak ayarlanmadığından emin olun, çünkü bu genellikle hassas GPS kaynağını kapatır.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Yatay doğruluk konumunuzun belirsizliğidir, dikey doğruluk ise (genellikle daha kötü) yüksekliğinizin belirsizliğidir (yükseklik). Doğruluk sıfır yazıyor ise, bu bilgi mevcut değildir.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Yatay doğruluk konumunuzun belirsizliğidir, dikey doğruluk ise (genellikle daha kötü) yüksekliğinizin belirsizliğidir (yükseklik). Doğruluk sıfır yazıyor ise, bu bilgi mevcut değildir.</string>
     </translation>
     <translation locale="zh_Hant">
       <title>位置 (GPS)</title>
@@ -372,7 +372,7 @@
       <string original="GPS active">GPS 使用中</string>
       <string original="Latitude">緯度</string>
       <string original="Longitude">經度</string>
-      <string original="Height">高度</string>
+      <string original="Altitude">高度</string>
       <string original="Speed">速度</string>
       <string original="Direction">方向</string>
       <string original="Simple">簡易</string>
@@ -405,7 +405,6 @@
       <string original="Status">État</string>
       <string original="GPS disabled">GPS désactivé</string>
       <string original="GPS active">GPS actif</string>
-      <string original="Height">Altitude</string>
       <string original="Movement">Déplacement</string>
       <string original="Speed">Vitesse</string>
       <string original="Distance travelled">Distance parcourue</string>
@@ -419,7 +418,7 @@
       <string original="Vertical Accuracy">Précision verticale</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Notez que certains appareils ne possèdent pas de capteur GPS, mais fournissent des données de localisation via des connexions mobiles ou WIFI. Ces sources produisent des données avec une mauvaise précision.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assurez-vous également que votre système ne soit pas en mode "Économie d'énergie", car cela désactive généralement le GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">La précision horizontale correspond à l'incertitude de votre position, tandis que la précision verticale correspond à l'incertitude (mauvaise en général) de votre altitude (hauteur). Si la précision indiquée est égale à zéro c'est que cette information n'est pas disponible.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La précision horizontale correspond à l'incertitude de votre position, tandis que la précision verticale correspond à l'incertitude (mauvaise en général) de votre altitude (hauteur). Si la précision indiquée est égale à zéro c'est que cette information n'est pas disponible.</string>
     </translation>
     <translation locale="vi">
       <title>Vị trí (GPS)</title>
@@ -433,7 +432,7 @@
       <string original="GPS active">Bật GPS</string>
       <string original="Latitude">Vĩ độ</string>
       <string original="Longitude">Kinh độ</string>
-      <string original="Height">Độ cao</string>
+      <string original="Altitude">Độ cao</string>
       <string original="Movement">Di chuyển</string>
       <string original="Speed">Tốc độ</string>
       <string original="Direction">Hướng</string>
@@ -454,7 +453,7 @@
       <string original="Satellites">Số vệ tinh</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Lưu ý, một số thiết bị không có cảm biến GPS, nhưng dữ liệu vị trí được lấy thông qua kết nối di động hoặc WIFI. Những nguồn dữ liệu này tạo ra dữ liệu với độ chính xác kém.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ngoài ra, hãy đảm bảo rằng hệ thống cài đặt vị trí của bạn không được đặt thành "Tiết kiệm năng lượng" vì điều này thường giảm độ chính xác của GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Sai số ngang là độ sai số của vị trí của bạn, trong khi sai số cao là độ sai số (thường tệ hơn) về độ cao của bạn. Nếu độ chính xác bằng không thì nó có nghĩa là thông tin này không hỗ trợ.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Sai số ngang là độ sai số của vị trí của bạn, trong khi sai số cao là độ sai số (thường tệ hơn) về độ cao của bạn. Nếu độ chính xác bằng không thì nó có nghĩa là thông tin này không hỗ trợ.</string>
     </translation>
     <translation locale="zh_Hans">
       <title>定位（GPS）</title>
@@ -469,7 +468,7 @@
       <string original="Latitude">纬度</string>
       <string original="t">时间</string>
       <string original="Longitude">经度</string>
-      <string original="Height">高度</string>
+      <string original="Altitude">高度</string>
       <string original="Movement">运动状态</string>
       <string original="Speed">速度</string>
       <string original="Direction">方向</string>
@@ -493,20 +492,26 @@
       <string original="Satellites">卫星数量</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些装置并没有GPS传感器，但能通过移动或WIFI连接提供定位数据。这些来源的数据精度较差。</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">还要确保你的系统定位设置没有设为“省电模式”，因为这通常会关闭精确的GPS数据源。</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">平面精度是指你的定位误差，垂直精度（通常更差）是指你的海拔误差。如果精度为零，则该信息不可用。</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">平面精度是指你的定位误差，垂直精度（通常更差）是指你的海拔误差。如果精度为零，则该信息不可用。</string>
     </translation>
     <translation locale="sr">
       <title>Lokacija (GPS)</title>
       <category>Senzori</category>
       <description>
         Preuzmite neobrađene rezultate sa satelitske navigacije.
+
+Imajte na umu da dostupni podaci mogu zavisiti od implementacije na vašem pametnom telefonu. Neki uređaji možda ne pružaju vertikalnu tačnost ili broj satelita.
+
+Takođe, podrazumevana podešavanja sadrže informacije o lokaciji iz drugih, obično manje tačnih izvora (kao što su wifi ili mobilne mreže podataka) pomešane sa podacima sa satelitske navigacije. Opet, u zavisnosti od vašeg uređaja, ove izvore možete onemogućiti iz opcije eksperimenta omogućavajući u podešavanju samo da prikuplja podatke iz satelitske navigacije.
+
+Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih ispravki položaja.
     </description>
       <string original="Position">Pozicija</string>
       <string original="GPS disabled">GPS onemogućen</string>
       <string original="GPS active">GPS uključen</string>
       <string original="Latitude">Širina</string>
       <string original="Longitude">Dužina</string>
-      <string original="Height">Visina</string>
+      <string original="Altitude">Visina</string>
       <string original="Movement">Pokret</string>
       <string original="Speed">Brzina</string>
       <string original="Direction">Pravac</string>
@@ -519,7 +524,7 @@
       <string original="Satellites">Sateliti</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Lokacija (GPS)</title>
@@ -532,7 +537,7 @@
       <string original="GPS active">GPS uključen</string>
       <string original="Latitude">Širina</string>
       <string original="Longitude">Dužina</string>
-      <string original="Height">Visina</string>
+      <string original="Altitude">Visina</string>
       <string original="Movement">Pokret</string>
       <string original="Speed">Brzina</string>
       <string original="Direction">Pravac</string>
@@ -545,11 +550,11 @@
       <string original="Satellites">Sateliti</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
     </translation>
     <translation locale="es">
       <title>Ubicación (GPS)</title>
-      <category>Datos del sensor sin procesar</category>
+      <category>Sensores</category>
       <description>
         Obtenga datos de posición sin procesar de la navegación por satélite.
 
@@ -565,7 +570,7 @@
       <string original="GPS active">GPS habilitado</string>
       <string original="Latitude">Latitud</string>
       <string original="Longitude">Longitud</string>
-      <string original="Height">Altura</string>
+      <string original="Altitude">Altura</string>
       <string original="Movement">Movimiento</string>
       <string original="Speed">Velocidad</string>
       <string original="Direction">Dirección</string>
@@ -578,7 +583,7 @@
       <string original="Satellites">Satélites</string>
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Tenga en cuenta que algunos dispositivos no tienen un sensor GPS, pero proporcionan datos de ubicación a través de conexiones móviles o WIFI. Estas fuentes de datos producen datos con mala precisión.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">También asegúrese de que la configuración de ubicación de su sistema no esté configurada en "Ahorro de energía" porque esto generalmente apaga la fuente precisa de GPS.</string>
-      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available.">La precisión horizontal es la incertidumbre de su ubicación, mientras que la precisión vertical es la incertidumbre (generalmente peor) de su elevación (altura). Si la precisión es cero, esta información no está disponible.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La precisión horizontal es la incertidumbre de su ubicación, mientras que la precisión vertical es la incertidumbre (generalmente peor) de su elevación (altura). Si la precisión es cero, esta información no está disponible.</string>
     </translation>
   </translations>
   <data-containers>
@@ -638,7 +643,7 @@
         <input axis="x">t</input>
         <input axis="y">lon</input>
       </graph>
-      <graph label="Height" labelX="t" unitX="s" labelY="z" unitY="m" partialUpdate="true">
+      <graph label="Altitude" labelX="t" unitX="s" labelY="z" unitY="m" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">z</input>
       </graph>
@@ -676,10 +681,10 @@
       <value label="Longitude" size="1" precision="6" unit="°">
         <input>lon</input>
       </value>
-      <value label="Height" size="1" precision="1" unit="m">
+      <value label="Altitude" size="1" precision="1" unit="m">
         <input>z</input>
       </value>
-      <value label="Height" size="1" precision="1" unit="m (WGS84)">
+      <value label="Altitude" size="1" precision="1" unit="m (WGS84)">
         <input>zwgs84</input>
       </value>
       <separator height="1"/>
@@ -731,7 +736,7 @@
       <separator height="1"/>
       <info label="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source."/>
       <separator height="1"/>
-      <info label="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your elevation (height). If the accuracy is zero, this information is not available."/>
+      <info label="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available."/>
     </view>
   </views>
   <analysis sleep="0.1">
@@ -803,8 +808,8 @@
       <data name="Time (s)">t</data>
       <data name="Latitude (°)">lat</data>
       <data name="Longitude (°)">lon</data>
-      <data name="Height (m)">z</data>
-      <data name="Height WGS84 (m)">zwgs84</data>
+      <data name="Altitude (m)">z</data>
+      <data name="Altitude WGS84 (m)">zwgs84</data>
       <data name="Speed (m/s)">v</data>
       <data name="Direction (°)">dir</data>
       <data name="Distance (km)">dist</data>

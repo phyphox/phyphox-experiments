@@ -568,7 +568,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
 
          Después de comenzar el experimento, el reloj comenzará con la primera aceleración (total) que exceda el umbral y se detendrá en la segunda aceleración. Asegúrese de que la primera señal de aceleración sea corta ya que una vibración larga puede detectarse inmediatamente como una parada
     </description>
-      <string original="Threshold">Límite</string>
+      <string original="Threshold">Umbral</string>
       <string original="Minimum Delay">Retraso mínimo</string>
       <string original="Time">tiempo</string>
       <string original="Reset">Reiniciar</string>
@@ -581,7 +581,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time 4">Tiempo 4</string>
       <string original="Time 5">Tiempo 5</string>
       <string original="Parallel">Paralelo</string>
-      <string original="Many">Mucho</string>
+      <string original="Many">Rítmico</string>
       <string original="Events">Eventos</string>
       <string original="Event number">Numero de evento</string>
       <string original="Time interval">Intervalo de tiempo</string>

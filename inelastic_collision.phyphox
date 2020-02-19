@@ -716,7 +716,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Retained on collision 5">Retenido en colisión 5</string>
       <string original="Average retained">Promedio retenido</string>
       <string original="Settings">Ajustes</string>
-      <string original="Threshold">Límite</string>
+      <string original="Threshold">Umbral</string>
       <string original="Minimum Delay">Retraso mínimo</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
     </translation>

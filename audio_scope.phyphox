@@ -243,12 +243,12 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Duration">Trajanje</string>
     </translation>
     <translation locale="es">
-      <title>Alcance de audio</title>
+      <title>Visualizador de audio</title>
       <category>Acústica</category>
       <description>
-        Mostrar datos de audio grabados.
+        Muestra datos de audio grabados.
 
-         Este experimento solo registra períodos cortos de datos de audio y los muestra. Para lograr una imagen estable, se utiliza un cruce por cero como disparador y t = 0 se desplaza al primer cruce (positivo).
+         Este experimento sólo registra períodos cortos de datos de audio y los muestra. Para lograr una imagen estable, se utiliza un cruce por cero como disparador, y t=0 se desplaza al primer cruce (positivo).
     </description>
       <string original="Scope">Alcance</string>
       <string original="Audio Data">Datos de Audio</string>

@@ -278,7 +278,7 @@
     </translation>
     <translation locale="es">
       <title>Aceleración (sin g)</title>
-      <category>Datos del sensor sin procesar</category>
+      <category>Sensores</category>
       <description>Obtenga datos sin procesar del llamado acelerómetro lineal, que proporciona la aceleración real sin la aceleración gravitacional. A diferencia de la "aceleración con g", este sensor informa 0 cuando el dispositivo está en reposo.</description>
       <string original="Graph">Gráfico</string>
       <string original="Linear Acceleration x">Aceleración lineal x</string>
