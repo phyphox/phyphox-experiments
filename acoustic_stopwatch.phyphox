@@ -563,7 +563,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
     </translation>
     <translation locale="es">
       <title>Cronómetro acústico</title>
-      <category>Temporizador</category>
+      <category>Temporizadores</category>
       <description>
         Obtenga el tiempo entre dos eventos acústicos.
 
