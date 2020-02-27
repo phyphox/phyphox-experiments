@@ -391,7 +391,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <description>
         Détermine la constante de gravité (g = 9,81m/s²) en utilisant votre téléphone comme pendule.
 
-        Cette expérience utilise le gyroscope pour mesurer le mouvement du pendule et déterminer la période d'oscillation T. L'utilisateur doit entrer la longueur L de la corde utilisée, et g est calculé à partir de la formule g = 4π²/T² L.
+        Cette expérience utilise le gyroscope pour mesurer le mouvement du pendule et déterminer la période d'oscillation T. L'utilisateur doit entrer la longueur L de la corde utilisée, et g est calculé à partir de la formule g = 4π²L/T² .
 
         Dans l’onglet « longueur », on pose g = 9,81 m/s² pour calculer la longueur de la corde à partir des mesures et de cette même formule. (Il s'agit en fait de la distance entre le pivot et le centre de masse.)
 

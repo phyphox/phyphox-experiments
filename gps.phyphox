@@ -399,7 +399,13 @@
       <title>Localisation (GPS)</title>
       <category>Capteurs</category>
       <description>
-        Données GPS (localisation par satellite).
+        Obtention des données brutes de position issues de la navigation satellite.
+
+       A noter que les données disponibles peuvent dépendre de l'implémentation sur votre smartphone. Certains appareils peuvent ne pas fournir une précision verticale ou le nombre de satellites.
+
+        De plus, par défaut, des informations de localisation provenant d'autres sources généralement moins précises (comme le wifi ou les réseaux de données mobiles) sont mélangées aux données de la navigation par satellite. Selon votre appareil, vous pourrez peut-être désactiver ces sources à partir du menu d'expériences en activant le paramètre pour collecter uniquement les données de la navigation par satellite.
+
+        La vitesse et la direction sont généralement données par l'appareil et sont basées sur deux ou plusieurs positions consécutives.
     </description>
       <string original="Position">Localisation</string>
       <string original="Status">État</string>

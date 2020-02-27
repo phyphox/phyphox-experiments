@@ -233,12 +233,12 @@ GPSが動作しないような場所においても，バロメータにより�
       <description>
         Mesure la vitesse d'un ascenseur à l'aide du baromètre.
 
-        Les variations rapides de hauteur  peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
+        Les variations rapides d'altitude  peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
 
-        Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation de hauteur à l'aide de la relation pression / hauteur. La variation de hauteur divisée par l’intervalle de temps donne la vitesse verticale.
+        Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation d'altitude à l'aide de la relation pression / hauteur. La différence d'altitude divisée par l’intervalle de temps donne la vitesse verticale.
     </description>
       <string original="Motion">Mouvement</string>
-      <string original="Altitude (from barometer)">Hauteur (selon le baromètre)</string>
+      <string original="Altitude (from barometer)">Altitude (selon le baromètre)</string>
       <string original="z acceleration (from accelerometer)">accélération selon z (selon l'accéléromètre)</string>
       <string original="Raw Data">Données brutes</string>
       <string original="Pressure">Pression</string>

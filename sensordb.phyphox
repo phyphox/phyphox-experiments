@@ -45,6 +45,30 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
     <translation locale="fr">
       <string original="Results">Résultats</string>
       <string original="Magnetometer">Magnétomètre</string>
+      <title>Envoyez à la base de données sur les capteurs</title>
+      <category>phyphox.org</category>
+      <description>Envoyez des informations sur les capteurs de votre téléphone à phyphox.org.
+
+Cette expérience collectera des données techniques de votre téléphone et vos capteurs, que vous pourrez soumettre à notre base de données de capteurs. Les données seront regroupées et mises à la disposition d'autres utilisateurs pour nous aider, ainsi que d'autres, à connaître la disponibilité et la capacité des capteurs sur les différents appareils.</description>
+      <string original="Submit">Envoyez</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Cette expérience collectera des données techniques de votre téléphone et de vos capteurs, que vous pourrez soumettre à notre base de données de capteurs. Les données seront regroupées et mises à la disposition d'autres utilisateurs pour nous aider, ainsi que d'autres, à connaître la disponibilité et la capacité des capteurs sur les différents appareils.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Veuillez placer votre téléphone sur une surface stable et appuyez sur Démarrer. Évitez de le faire en vous déplaçant (voiture, train, etc.) ou sur une surface vibrante (musique forte, vibrations des véhicules, etc.) car cela fausserait les résultats.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox collectera les données pendant une certaine durée et vous demandera éventuellement d'envoyer les données.</string>
+      <string original="Step">Etape</string>
+      <string original="Waiting for start">En attente du début</string>
+      <string original="Collecting data">Collecte de données</string>
+      <string original="You may now press submit">Vous pouvez maintenant appuyer sur envoyer</string>
+      <string original="Success. Thank you!">Données envoyées. Merci !</string>
+      <string original="Accelerometer">Accéléromètre</string>
+      <string original="Rate">Taux</string>
+      <string original="Average">Moyenne</string>
+      <string original="Standard deviation">Déviation standard</string>
+      <string original="Acceleration (without g)">Accélération (sans la gravité g)</string>
+      <string original="Barometer">Baromètre</string>
+      <string original="Temperature">Température</string>
+      <string original="Humidity">Humidité</string>
+      <string original="Light">Lumière</string>
+      <string original="Proximity">Proximité</string>
     </translation>
     <translation locale="it">
       <string original="Gyroscope">Giroscopio</string>
