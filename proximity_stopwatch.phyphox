@@ -461,12 +461,11 @@ Op iPhones werkt de sensor alleen in portretmodus (d.w.z. wanneer de telefoon re
       <title>Yakınlık Kronometresi</title>
       <category>Zamanlayıcılar</category>
       <description>
-        …………Yakınlık sensörüne bağlı olarak süre ölçün.
+        Yakınlık sensörüne bağlı olarak süre ölçün.
 
-…………Bu deneyde nesneyi telefonunuzun yakınlık sensörüne yaklaştırın (genelde ön yüzeyde telefon konuşmaları için kullanılan ahizenin yanında yer alır) ve nesnenin telefonunuza yakın ya da uzak olduğu durumlarda zaman ölçün.
+Bu deneyde nesneyi telefonunuzun yakınlık sensörüne yaklaştırın (genelde ön yüzeyde telefon konuşmaları için kullanılan ahizenin yanında yer alır) ve nesnenin telefonunuza yakın ya da uzak olduğu durumlarda zaman ölçün.
 
-…………Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağlı olduğunu unutmayın. Yavaş sensörler için bu bir saniyeden daha yavaş olabilir, hızlı sensörler ise genellikle saniyenin onda birinden yavaş olmazlar. Ses temelinde daha hızlı ölçümler akustik kronometre deneyi kullanılarak elde edilebilir.
-………
+Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağlı olduğunu unutmayın. Yavaş sensörler için bu bir saniyeden daha yavaş olabilir, hızlı sensörler ise genellikle saniyenin onda birinden yavaş olmazlar. Ses temelinde daha hızlı ölçümler akustik kronometre deneyi kullanılarak elde edilebilir.
     </description>
       <string original="Settings">Ayarlar</string>
       <string original="Trigger below">Aşağıdan başlat</string>

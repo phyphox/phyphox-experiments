@@ -293,15 +293,13 @@ Voer dit experiment best uit in een rustige omgeving.
       <title>Sonar</title>
       <category>Akustik</category>
       <description>
-        …
-…………Ekoları ve ses hızını kullanarak mesafeleri ölçer.
+        Ekoları ve ses hızını kullanarak mesafeleri ölçer.
 
-…………Sonar, ölçmek istediğiniz nesneden yansıyan kısa ses patlamaları gönderir. Sesin yaklaşık 340 m/s hızda ilerlediği bilindiğine göre, yansımanın telefonun mikrofonuna ulaşması için geçen süre bu nesnenin uzaklığını hesaplamak için kullanılabilir.
+Sonar, ölçmek istediğiniz nesneden yansıyan kısa ses patlamaları gönderir. Sesin yaklaşık 340 m/s hızda ilerlediği bilindiğine göre, yansımanın telefonun mikrofonuna ulaşması için geçen süre bu nesnenin uzaklığını hesaplamak için kullanılabilir.
 
-…………Bu deney hoparlörden bir "bip" sesi gönderir ve kayda başlar. Bip sesi ve kaydedilen veriler arasındaki çapraz korelasyon, yankının meydana geldiği zamanlama hakkında bilgi verir. Bu zamanlama daha sonra sesin hızı ile çarpılabilir (ses ileri ve geri gitmek zorunda olduğu için zamanlama 2'ye bölünür) ve yankının kaynaklandığı mesafe hesaplanmış olur.
+Bu deney hoparlörden bir "bip" sesi gönderir ve kayda başlar. Bip sesi ve kaydedilen veriler arasındaki çapraz korelasyon, yankının meydana geldiği zamanlama hakkında bilgi verir. Bu zamanlama daha sonra sesin hızı ile çarpılabilir (ses ileri ve geri gitmek zorunda olduğu için zamanlama 2'ye bölünür) ve yankının kaynaklandığı mesafe hesaplanmış olur.
 
-…………Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı hedeflerken, yerden, tavandan, yakındaki başka bir duvardan, bir direkten veya etrafta bulunan uygun her "sert" yüzeyden yansımaları aldığınız anlamına gelir. Bu nedenle bu sonar size tüm yansımaları verir. Sonucu yorumlamak ve sonuca ulaşmak için hangi yansımanın ölçmek istediğiniz hedefe karşılık geldiğini çözmek size bağlıdır. Bu yüzden küçük sert bir hedefle başlayın ve diğer bazı köpük malzemelerle farklı yönleri taramaya çalışın. Ayrıca, deney sessiz bir ortama ihtiyaç duyuyor.
-………
+Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı hedeflerken, yerden, tavandan, yakındaki başka bir duvardan, bir direkten veya etrafta bulunan uygun her "sert" yüzeyden yansımaları aldığınız anlamına gelir. Bu nedenle bu sonar size tüm yansımaları verir. Sonucu yorumlamak ve sonuca ulaşmak için hangi yansımanın ölçmek istediğiniz hedefe karşılık geldiğini çözmek size bağlıdır. Bu yüzden küçük sert bir hedefle başlayın ve diğer bazı köpük malzemelerle farklı yönleri taramaya çalışın. Ayrıca, deney sessiz bir ortama ihtiyaç duyuyor.
     </description>
       <string original="Time series">Zaman serileri</string>
       <string original="Normalized history">Normalleştirilmiş tarih</string>

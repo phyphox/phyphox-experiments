@@ -122,7 +122,7 @@
     </translation>
     <translation locale="tr">
       <title>Jiroskop (dönme oranı)</title>
-      <category>Ham sensörler</category>
+      <category>Ham Sensörler</category>
       <description>Jiroskoptan ham veri alın.</description>
       <string original="Graph">Grafik</string>
       <string original="Gyroscope x">Jiroskop x</string>

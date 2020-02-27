@@ -116,7 +116,7 @@
     </translation>
     <translation locale="tr">
       <title>Işık</title>
-      <category>Ham sensörler</category>
+      <category>Ham Sensörler</category>
       <description>Işık sensöründen ham veri alın.</description>
       <string original="Graph">Grafik</string>
       <string original="Illuminance">Aydınlık</string>

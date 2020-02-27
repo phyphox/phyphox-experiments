@@ -326,16 +326,16 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <title>Sarkaç</title>
       <category>Mekanik</category>
       <description>
-        …………Telefonunuzu sarkaç olarak kullanarak yerçekimi sabitini (g = 9.81m / s²) belirleyin.
+        Telefonunuzu sarkaç olarak kullanarak yerçekimi sabitini (g = 9.81m / s²) belirleyin.
 
-…………Bu deney, sarkaç hareketini ve salınım periyodunu (T) hesaplamak için jiroskopu kullanır. Kullanıcı sarkaç için kullanılan ipin L uzunluğunu girmelidir, böylece phyphox g = 4π² / T² L'yi hesaplayabilir.
+Bu deney, sarkaç hareketini ve salınım periyodunu (T) hesaplamak için jiroskopu kullanır. Kullanıcı sarkaç için kullanılan ipin L uzunluğunu girmelidir, böylece phyphox g = 4π² / T² L'yi hesaplayabilir.
 
-…………Alternatif olarak, g'yi ölçmek yerine, sekme uzunluğunu kullanabilir ve sarkaç hareketinden ipin uzunluğunu belirlemek için g = 9.81 m / s² olduğunu varsayabilirsiniz. (Aslında pivot noktasından kütle merkezine olan uzaklığı.)
+Alternatif olarak, g'yi ölçmek yerine, sekme uzunluğunu kullanabilir ve sarkaç hareketinden ipin uzunluğunu belirlemek için g = 9.81 m / s² olduğunu varsayabilirsiniz. (Aslında pivot noktasından kütle merkezine olan uzaklığı.)
 
-…………Ek olarak, rezonans sekmesi, tespit edilen frekansa göre genliği gösterir. Bu şekilde, etkin bir osilatör oluşturabilir ve rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+Ek olarak, rezonans sekmesi, tespit edilen frekansa göre genliği gösterir. Bu şekilde, etkin bir osilatör oluşturabilir ve rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
 
-…………Daha fazla ayrıntı:
-…………Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin için ilk maksimum değeri analiz eder ve sonra daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+Daha fazla ayrıntı:
+Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin için ilk maksimum değeri analiz eder ve sonra daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
     </description>
       <string original="Results">Sonuçlar</string>
       <string original="Period">Periyot</string>
