@@ -338,7 +338,12 @@
       <title>Konum (GPS)</title>
       <category>Ham Sensörler</category>
       <description>
-        Uydu navigasyonundan ham konum verilerini alın.
+        Uydu navigasyonundan işlenmemiş konum verileri alın.
+        Mevcut verilerin akıllı telefonunuzdaki uygulamaya bağlı olabileceğini unutmayın. Bazı cihazlar dikey hassasiyet veya uydu sayısı verilerini sağlayamayabilir.
+
+        Ayrıca, varsayılan olarak, uydu navigasyonundan elde edilen verilere karıştırılmış tipik olarak daha az doğru kaynaklardan (wifi veya mobil veri ağları gibi) konum bilgileri de vardır. Yine, cihazınıza bağlı olmakla birlikte, ayarın yalnızca uydu navigasyonundan veri toplamasını sağlayarak deneme menüsünden bu kaynakları devre dışı bırakabilirsiniz.
+
+        Hız ve yön tipik olarak cihaz tarafından verilir ve iki veya daha fazla ardışık konum düzeltmesine dayanır.
     </description>
       <string original="Position">Pozisyon</string>
       <string original="Status">Durum</string>

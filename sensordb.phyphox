@@ -170,6 +170,31 @@ Ovaj eksperiment će prikupiti tehničke podatke o vašem telefonu i vašim sen
       <string original="Results">Sonuçlar</string>
       <string original="Gyroscope">Jiroskop</string>
       <string original="Magnetometer">Manyetometre</string>
+      <title>Sensör veritabanına gönder</title>
+      <category>phyphox.org</category>
+      <description>Telefonunuzdaki sensörler hakkında bilgileri phyphox.org adresine gönderin.
+
+Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gönderebileceğiniz teknik veriler toplar. Veriler toplanıp, farklı cihazlardaki sensörlerin kullanılabilirliği ve kapasitesi hakkında bilgi edinmemize yardımcı olmak için diğer kullanıcılara sunulacaktır.</description>
+      <string original="Submit">Gönder</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gönderebileceğiniz teknik veriler toplar. Veriler toplanıp, farklı cihazlardaki sensörlerin kullanılabilirliği ve kapasitesi hakkında bilgi edinmemize yardımcı olmak için diğer kullanıcılara sunulacaktır.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Lütfen telefonunuzu sabit bir yüzeye yerleştirin ve başlat düğmesine basın. Sonuçları değiştirebileceği için hareket halindeyken (araba, tren vb.) veya titreşimli bir yüzeyde (yüksek sesli müzik, araçlardan kaynaklanan titreşimler vb.) deney yapmaktan kaçının.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox bir an için veri toplayacak ve sonunda size veri göndermenizi söyleyecektir.</string>
+      <string original="Step">Adım</string>
+      <string original="Waiting for start">Başlatma bekleniyor</string>
+      <string original="Collecting data">Veri toplanıyor</string>
+      <string original="You may now press submit">Şimdi gönder'e basabilirsiniz</string>
+      <string original="Success. Thank you!">Başarılı. Teşekkür ederim!</string>
+      <string original="Confidence">Güven</string>
+      <string original="Accelerometer">İvme ölçer</string>
+      <string original="Rate">Oran</string>
+      <string original="Average">Ortalama</string>
+      <string original="Standard deviation">Standart sapma</string>
+      <string original="Acceleration (without g)">İvmelenme (g olmadan)</string>
+      <string original="Barometer">Barometre</string>
+      <string original="Temperature">Sıcaklık</string>
+      <string original="Humidity">Nem</string>
+      <string original="Light">Işık</string>
+      <string original="Proximity">Yakınlık</string>
     </translation>
     <translation locale="vi">
       <string original="Results">Kết quả</string>
