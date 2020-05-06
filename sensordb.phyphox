@@ -313,7 +313,7 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
     <container size="1">proximityStd</container>
   </data-containers>
   <network>
-    <connection address="https://phyphox.org/sensordb/submit.php" autoConnect="true" service="http/post" mode="trigger" id="submit" privacy="https://phyphox.org/disclaimer/" conversion="json">
+    <connection address="https://phyphox.org/sensordb/submit.php" autoConnect="true" service="http/post" id="submit" privacy="https://phyphox.org/disclaimer/" conversion="json">
       <send id="surveyState" type="buffer">state</send>
       <send id="id" type="meta">uniqueID</send>
       <send id="version" type="meta">version</send>
