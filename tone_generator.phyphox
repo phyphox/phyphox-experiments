@@ -20,6 +20,10 @@
       <string original="Frequency low">Frequenz niedrig</string>
       <string original="Frequency high">Frequenz hoch</string>
       <string original="Time">Zeit</string>
+      <string original="Simple">Einfach</string>
+      <string original="Frequency 1">Frequenz 1</string>
+      <string original="Frequency 2">Frequenz 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Beachte, dass die maximale Gesamtamplitude 1 ist. Wenn die Summe beider Amplituden 1 übersteigt, kommt es zu Verzerrungen.</string>
     </translation>
     <translation locale="cs">
       <title>Tónový generátor</title>
@@ -36,6 +40,7 @@
       <string original="Frequency low">Nízká frekvence</string>
       <string original="Frequency high">Vysoká frekvence</string>
       <string original="Time">Čas</string>
+      <string original="Simple">Stručně</string>
     </translation>
     <translation locale="pl">
       <title>Generator dźwięku</title>
@@ -52,6 +57,8 @@
       <string original="Frequency low">Częstotliwość niska</string>
       <string original="Frequency high">Częstotliwość wysoka</string>
       <string original="Time">Czas</string>
+      <string original="Simple">Próbka</string>
+      <string original="Multi">Wiele</string>
     </translation>
     <translation locale="nl">
       <title>Toongenerator</title>
@@ -68,6 +75,7 @@
       <string original="Frequency low">Lage frequentie</string>
       <string original="Frequency high">Hoge frequentie</string>
       <string original="Time">Tijd</string>
+      <string original="Simple">Eenvoudig</string>
     </translation>
     <translation locale="ru">
       <title>Генератор тона</title>
@@ -87,6 +95,8 @@
       <string original="OK">ОК</string>
       <string original="Hz">Гц</string>
       <string original="Time">Время</string>
+      <string original="Simple">Значение</string>
+      <string original="Multi">Много</string>
     </translation>
     <translation locale="it">
       <title>Generatore di suoni</title>
@@ -103,6 +113,7 @@
       <string original="Frequency low">Bassa frequenza</string>
       <string original="Frequency high">Alta frequenza</string>
       <string original="Time">Tempo</string>
+      <string original="Simple">Valori</string>
     </translation>
     <translation locale="el">
       <title>Γεννήτρια συχνοτήτων</title>
@@ -122,6 +133,8 @@
       <string original="OK">ΟΚ</string>
       <string original="Time">Χρόνος</string>
       <string original="A">Α</string>
+      <string original="Simple">Απλό</string>
+      <string original="Multi">Πολλαπλό</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
@@ -137,6 +150,8 @@
       <string original="Status">ステータス</string>
       <string original="Frequency low">低周波数</string>
       <string original="Frequency high">高周波数</string>
+      <string original="Simple">シンプル</string>
+      <string original="Multi">全方向</string>
     </translation>
     <translation locale="pt">
       <title>Gerador de tom</title>
@@ -152,6 +167,7 @@
       <string original="Status">Estado</string>
       <string original="Frequency low">Frequência baixa</string>
       <string original="Frequency high">Frequência muito alta</string>
+      <string original="Simple">Simples</string>
     </translation>
     <translation locale="tr">
       <title>Ton üreteci</title>
@@ -168,6 +184,8 @@
       <string original="Frequency low">Frekans düşük</string>
       <string original="Frequency high">Frekans yüksek</string>
       <string original="OK">İYİ</string>
+      <string original="Simple">Basit</string>
+      <string original="Multi">Çoklu</string>
     </translation>
     <translation locale="zh_Hant">
       <title>聲調產生器</title>
@@ -185,6 +203,7 @@
       <string original="Frequency low">低頻</string>
       <string original="Frequency high">高頻</string>
       <string original="OK">良好</string>
+      <string original="Simple">簡易</string>
     </translation>
     <translation locale="fr">
       <title>Générateur de son</title>
@@ -199,6 +218,7 @@
       <string original="Status">État</string>
       <string original="Frequency low">Fréquence basse</string>
       <string original="Frequency high">Fréquence élevée</string>
+      <string original="Simple">Composantes</string>
     </translation>
     <translation locale="vi">
       <title>Bộ tạo âm</title>
@@ -214,6 +234,8 @@
       <string original="Status">Trạng thái</string>
       <string original="Frequency low">Tần số thấp</string>
       <string original="Frequency high">Tần số cao</string>
+      <string original="Simple">Đơn giản</string>
+      <string original="Multi">Nhiều</string>
     </translation>
     <translation locale="zh_Hans">
       <title>音频发生器</title>
@@ -230,6 +252,8 @@
       <string original="Status">状态</string>
       <string original="Frequency low">低频</string>
       <string original="Frequency high">高频</string>
+      <string original="Simple">简明值</string>
+      <string original="Multi">多方向</string>
     </translation>
     <translation locale="sr">
       <title>Generator tona</title>
@@ -243,6 +267,8 @@
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox dozvoljava postavljanje proizvoljnih frekvencija, može se dogoditi da rezultati ispod 100Hz ili iznad 8000Hz budu loši zbog ograničenja hardvera.</string>
       <string original="Frequency low">Donja frekvencija</string>
       <string original="Frequency high">Gornja frekvencija</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Multi">Višestruko</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Generator tona</title>
@@ -256,6 +282,8 @@
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox dozvoljava postavljanje proizvoljnih frekvencija, može se dogoditi da rezultati ispod 100Hz ili iznad 8000Hz budu loši zbog ograničenja hardvera.</string>
       <string original="Frequency low">Donja frekvencija</string>
       <string original="Frequency high">Gornja frekvencija</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Multi">Višestruko</string>
     </translation>
     <translation locale="es">
       <title>Generador de tonos</title>
@@ -329,7 +357,7 @@
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-      <info label="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion." />
+      <info label="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion."/>
     </view>
   </views>
   <analysis onUserInput="true">

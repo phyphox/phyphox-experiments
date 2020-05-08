@@ -197,6 +197,7 @@
       <string original="Distance from start">Расстояние от начала</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Также убедитесь, что настройка местоположения вашей системы не установлена на «Энергосбережение», потому что это обычно отключает точный источник GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
+      <string original="m (WGS84)">m (WGS84 - всемирная система геодезических параметров Земли 1984 года)</string>
     </translation>
     <translation locale="it">
       <title>Posizione (GPS)</title>
