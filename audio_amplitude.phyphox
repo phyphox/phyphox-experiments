@@ -617,7 +617,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <info label="Please see the calibration tab to get proper results."/>
     </view>
     <view label="Calibration">
-      <info label="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could setup a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running."/>
+      <info label="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could set up a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running."/>
       <separator height="1"/>
       <edit label="Reference SPL" unit="dB">
         <output>target dB</output>
