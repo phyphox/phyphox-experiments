@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.10">
     <title>Accelerometer and Gyroscope</title>
     <category>PocketLab Voyager</category>
     <description>Simple readings from the accelerometer and gyroscope of a PocketLab Voyager.</description>
@@ -32,29 +32,29 @@
     </input>
     <views>
         <view label="Accelerometer">
-            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accXCal</input>
             </graph>
-            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accYCal</input>
             </graph>
-            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accZCal</input>
             </graph>
         </view>
         <view label="Gyroscope">
-            <graph label="Angular velocity x" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+            <graph label="Angular velocity x" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">gyrXCal</input>
             </graph>
-            <graph label="Angular velocity y" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+            <graph label="Angular velocity y" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">gyrYCal</input>
             </graph>
-            <graph label="Angular velocity z" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" partialUpdate="true">
+            <graph label="Angular velocity z" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">gyrZCal</input>
             </graph>

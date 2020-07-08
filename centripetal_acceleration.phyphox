@@ -1,4 +1,4 @@
-<phyphox version="1.2" locale="en">
+<phyphox version="1.10" locale="en">
   <title>Centripetal acceleration</title>
   <category>Mechanics</category>
   <description>
@@ -360,21 +360,21 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
   </input>
   <views>
     <view label="Relation">
-      <graph label="Acceleration" labelX="Angular velocity ω" unitX="rad/s" labelY="Acceleration a" unitY="m/s²" partialUpdate="false" style="dots">
+      <graph label="Acceleration" labelX="Angular velocity ω" unitX="rad/s" labelY="Acceleration a" unitY="m/s²" unitYperX="m/s" partialUpdate="false" style="dots">
         <input axis="x">gyr</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="a" unitY="m/s²" partialUpdate="false" style="dots">
+      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="a" unitY="m/s²" unitYperX="m" partialUpdate="false" style="dots">
         <input axis="x">gyr_squared</input>
         <input axis="y">acc</input>
       </graph>
     </view>
     <view label="Time">
-      <graph label="Acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+      <graph label="Acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Angular velocity" labelX="t" unitX="s" labelY="ω" unitY="rad/s" partialUpdate="true">
+      <graph label="Angular velocity" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">gyr</input>
       </graph>

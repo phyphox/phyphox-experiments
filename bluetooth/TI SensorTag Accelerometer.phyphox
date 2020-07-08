@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.10">
     <title>Accelerometer</title>
     <category>Texas Instruments SensorTag</category>
     <description>Read the accelerometer of an Texas Instruments SensorTag like the CC2650 or the CC1350.</description>
@@ -24,15 +24,15 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Acceleration X" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration X" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accXCal</input>
             </graph>
-            <graph label="Acceleration Y" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration Y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accYCal</input>
             </graph>
-            <graph label="Acceleration Z" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+            <graph label="Acceleration Z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
                 <input axis="x">t</input>
                 <input axis="y">accZCal</input>
             </graph>
