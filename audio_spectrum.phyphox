@@ -829,6 +829,11 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
         <input type="value">1</input>
         <output>wnamplitude</output>
       </button>
+      <value label="Status">
+        <input>wnamplitude</input>
+        <map max="0">Off</map>
+        <map min="1">On</map>
+      </value>
     </view>
     <view label="Raw data">
       <graph label="Recording" labelX="t" unitX="s" labelY="Amplitude" unitY="a.u.">
