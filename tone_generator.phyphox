@@ -302,15 +302,24 @@
     </translation>
   </translations>
   <data-containers>
-    <container init="0.5">a1</container>
+    <container init="0.5">a1in</container>
+    <container init="0.5">a2in</container>
+    <container init="0">a1</container>
     <container init="0">a2</container>
+    <container init="1">a</container>
+    <container init="0">multi</container>
+    <container init="440">f</container>
     <container init="440">f1</container>
     <container init="450">f2</container>
-    <container size="500" static="true">t</container>
-    <container size="500">signal</container>
+    <container size="1000" static="true">t</container>
+    <container size="1000">signal</container>
   </data-containers>
   <output>
     <audio loop="true">
+      <tone>
+        <input parameter="frequency">f</input>
+        <input parameter="amplitude">a</input>
+      </tone>
       <tone>
         <input parameter="frequency">f1</input>
         <input parameter="amplitude">a1</input>
@@ -324,23 +333,31 @@
   <views>
     <view label="Simple">
       <edit label="Frequency" unit="Hz" default="440" signed="false" min="0" max="24000">
-        <output>f1</output>
+        <output>f</output>
       </edit>
       <graph label="Signal" labelX="Time" unitX="s" labelY="A" unitY="a.u.">
         <input axis="x">t</input>
         <input axis="y">signal</input>
       </graph>
+      <separator height="1" />
       <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations."/>
+      <separator height="1" />
       <value label="Status">
-        <input>f1</input>
+        <input>f</input>
         <map max="100">Frequency low</map>
         <map min="8000">Frequency high</map>
         <map>OK</map>
       </value>
     </view>
     <view label="Multi">
+      <button label="Use multi tone generator">
+        <input type="value">1</input>
+        <output>multi</output>
+        <input type="value">0</input>
+        <output>f</output>
+      </button>
       <edit label="Amplitude 1" unit="" default="0.5" signed="false" min="0" max="1">
-        <output>a1</output>
+        <output>a1in</output>
       </edit>
       <edit label="Frequency 1" unit="Hz" default="440" signed="false" min="0" max="24000">
         <output>f1</output>
@@ -349,7 +366,7 @@
       <separator color="white"/>
       <separator height="1"/>
       <edit label="Amplitude 2" unit="" default="0" signed="false" min="0" max="1">
-        <output>a2</output>
+        <output>a2in</output>
       </edit>
       <edit label="Frequency 2" unit="Hz" default="450" signed="false" min="0" max="24000">
         <output>f2</output>
@@ -363,16 +380,47 @@
   <analysis onUserInput="true">
     <ramp>
       <input as="start" type="value">0</input>
-      <input as="stop" type="value">0.01</input>
-      <input as="length" type="value">500</input>
+      <input as="stop" type="value">0.05</input>
+      <input as="length" type="value">1000</input>
       <output>t</output>
     </ramp>
-    <formula formula="[2]*sin(6.283185307*[3]*[1_])+[4]*sin(6.283185307*[5]*[1_])">
+
+    <formula formula="min(max([3]-(1-[2])*[1],0),1)"> <!-- Turn off multi mode if amplitude is zero, but frequency > 0 (i.e. user has set a frequency) -->
+      <input clear="false">f</input>
+      <input clear="false">a</input>
+      <input clear="false">multi</input>
+      <output clear="false">multi</output>
+    </formula>
+    <if equal="true">
+      <input clear="false">multi</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <input type="value">1</input>
+      <output clear="false">a</output>
+    </if>
+    <if equal="true">
+      <input clear="false">multi</input>
+      <input type="value">1</input>
+      <input clear="false">a1in</input>
+      <input type="value">0</input>
+      <output clear="false">a1</output>
+    </if>
+    <if equal="true">
+      <input clear="false">multi</input>
+      <input type="value">1</input>
+      <input clear="false">a2in</input>
+      <input type="value">0</input>
+      <output clear="false">a2</output>
+    </if>
+
+    <formula formula="[2]*sin(6.283185307*[3]*[1_])+[4]*sin(6.283185307*[5]*[1_])+[6]*sin(6.283185307*[7]*[1_])">
       <input clear="false">t</input>
       <input clear="false">a1</input>
       <input clear="false">f1</input>
       <input clear="false">a2</input>
       <input clear="false">f2</input>
+      <input clear="false">a</input>
+      <input clear="false">f</input>
       <output clear="true">signal</output>
     </formula>
   </analysis>
