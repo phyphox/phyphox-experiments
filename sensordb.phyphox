@@ -41,6 +41,31 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
       <string original="Results">Αποτελέσματα</string>
       <string original="Gyroscope">Γυροσκόπιο</string>
       <string original="Magnetometer">Μαγνητόμετρο</string>
+      <title>Υποβολή στη βάση δεδομένων αισθητήρων</title>
+      <category>phyphox.org</category>
+      <description>Υποβάλλεται πληροφορίες για τους αισθητήρες του κινητού σας στο phyphox.org.
+
+Αυτό το πείραμα θα συλλέξει τεχνικά στοιχεία σχετικά με το τηλέφωνο και τους αισθητήρες σας, τα οποία μπορείτε να υποβάλετε στην βάση δεδομένων αισθητήρων. Τα δεδομένα συγκεντρώνονται και θα είναι διαθέσιμα σε άλλους χρήστες για να βοηθήσουν εμάς και άλλους να μάθουμε τη διαθεσιμότητα και δυνατότητες των αισθητήρων διάφορων συσκευών.</description>
+      <string original="Submit">Υποβολή</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Αυτό το πείραμα θα συλλέξει τεχνικά στοιχεία σχετικά με το τηλέφωνο και τους αισθητήρες σας, τα οποία μπορείτε να υποβάλετε στην βάση δεδομένων αισθητήρων. Τα δεδομένα συγκεντρώνονται και θα είναι διαθέσιμα σε άλλους χρήστες για να βοηθήσουν εμάς και άλλους να μάθουμε τη διαθεσιμότητα και δυνατότητες των αισθητήρων διάφορων συσκευών.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Παρακαλώ τοποθετήστε το τηλέφωνό σας πάνω σε μια σταθερή επιφάνεια και πιέστε εκκίνηση. Αποφύγετε να το κάνετε κατά τη διάρκεια κίνησης (αυτοκίνητο, τρένο κ.λ.π) ή πάνω σε μια επιφάνεια που δονείται (δυνατή μουσική, δονήσεις οχημάτων) καθώς κάτι τέτοιο θα παραμορφώσει τα αποτελέσματα.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Το phyphox θα συλλέξει δεδομένα για ένα λεπτό και μετά θα σας ζητήσει την υποβολή τους.</string>
+      <string original="Step">Βήμα</string>
+      <string original="Waiting for start">Αναμονή για έναρξη</string>
+      <string original="Collecting data">Συλλογή δεδομένων</string>
+      <string original="You may now press submit">Μπορείτε τώρα να πατήσετε υποβολή</string>
+      <string original="Success. Thank you!">Επιτυχής Υποβολή. Ευχαριστούμε !</string>
+      <string original="Confidence">Εμπιστοσύνη</string>
+      <string original="Accelerometer">Επιταχυνσιόμετρο</string>
+      <string original="Rate">Ρυθμός</string>
+      <string original="Average">Μέσος</string>
+      <string original="Standard deviation">Τυπική απόκλιση</string>
+      <string original="Acceleration (without g)">Επιτάχυνση (χωρίς g)</string>
+      <string original="Barometer">Βαρόμετρο</string>
+      <string original="Temperature">Θερμοκρασία</string>
+      <string original="Humidity">Υγρασία</string>
+      <string original="Light">Φως</string>
+      <string original="Proximity">Εγγύτητα</string>
     </translation>
     <translation locale="fr">
       <string original="Results">Résultats</string>

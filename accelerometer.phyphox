@@ -88,7 +88,7 @@
     </translation>
     <translation locale="el">
       <title>Επιτάχυνση με g</title>
-      <category>Αισθητήρες</category>
+      <category>Δεδομένα Αισθητήρων</category>
       <description>Αποκτήστε δεδομένα από το επιταχυνσιόμετρο. Ο αισθητήρας αυτός δεν αφαιρεί τη βαρυτική δύναμη, οπότε δίνει τιμή 9.81 m/s² όταν το τηλέφωνο είναι ακίνητο.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Accelerometer x">Επιταχυνσιόμετρο x</string>

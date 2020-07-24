@@ -83,7 +83,7 @@
     </translation>
     <translation locale="el">
       <title>Φως</title>
-      <category>Αισθητήρες</category>
+      <category>Δεδομένα Αισθητήρων</category>
       <description>Πάρτε τις καταγραφές του αισθητήρα φωτός.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Illuminance">Φωτεινότητα</string>

@@ -124,6 +124,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Frequency">Frequentie</string>
       <string original="History">Geschiedenis</string>
       <string original="Time">Tijd</string>
+      <string original="Status">Stand van zaken</string>
     </translation>
     <translation locale="ru">
       <title>Звуковой спектр</title>
@@ -168,6 +169,10 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="History">История</string>
       <string original="Time">Время</string>
       <string original="Amplitude">Амплитуда</string>
+      <string original="Status">Статус</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Генератор белого шума. (Может быть громким. Пожалуйста, сначала убавьте громкость воспроизведения.)</string>
+      <string original="Off">Выкл.</string>
+      <string original="On">Вкл.</string>
     </translation>
     <translation locale="it">
       <title>Spettro Audio</title>
@@ -258,6 +263,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="History">Andamento</string>
       <string original="Time">Tempo</string>
       <string original="Amplitude">Ampiezza</string>
+      <string original="Status">Stato</string>
     </translation>
     <translation locale="el">
       <title>Ηχητικό Φάσμα</title>
@@ -288,6 +294,8 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="History">Ιστορικό</string>
       <string original="Time">Χρόνος</string>
       <string original="Amplitude">Πλάτος</string>
+      <string original="Status">Κατάσταση</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Δημιουργία λευκού θορύβου. (Μπορεί να είναι δυνατά. Παρακαλώ μειώστε την ένταση πρώτα.)</string>
     </translation>
     <translation locale="ja">
       <title>オーディオスペクトル</title>
@@ -315,6 +323,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Raw data">時系列データ</string>
       <string original="Recording">記録</string>
       <string original="Amplitude">振幅</string>
+      <string original="Status">ステータス</string>
     </translation>
     <translation locale="pt">
       <title>Espectro do áudio</title>
@@ -342,6 +351,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Amostragem</string>
       <string original="Raw data">Sensores</string>
       <string original="Recording">Gravando</string>
+      <string original="Status">Estado</string>
     </translation>
     <translation locale="tr">
       <title>Ses Spektrumu</title>
@@ -369,6 +379,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">Ham veri</string>
       <string original="Recording">Kayıt</string>
       <string original="Amplitude">Genlik</string>
+      <string original="Status">Durum</string>
     </translation>
     <translation locale="zh_Hant">
       <title>聲譜</title>
@@ -398,6 +409,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">原始數據</string>
       <string original="Recording">錄製</string>
       <string original="Amplitude">振幅</string>
+      <string original="Status">狀態</string>
     </translation>
     <translation locale="fr">
       <title>Spectre Audio</title>
@@ -486,6 +498,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">Données brutes</string>
       <string original="Recording">Enregistrement</string>
       <string original="Amplitude">Intensité</string>
+      <string original="Status">État</string>
     </translation>
     <translation locale="vi">
       <title>Phổ âm thanh</title>
@@ -513,6 +526,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">Dữ liệu thô</string>
       <string original="Recording">Đang ghi âm</string>
       <string original="Amplitude">Biên độ</string>
+      <string original="Status">Trạng thái</string>
     </translation>
     <translation locale="zh_Hans">
       <title>声音频谱</title>
@@ -543,6 +557,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">录制</string>
       <string original="t">时间</string>
       <string original="Amplitude">振幅</string>
+      <string original="Status">状态</string>
     </translation>
     <translation locale="sr">
       <title>Spektar zvuka</title>
@@ -635,6 +650,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">Datos sin procesar</string>
       <string original="Recording">Grabación</string>
       <string original="Amplitude">Amplitud</string>
+      <string original="Status">Estado</string>
     </translation>
   </translations>
   <data-containers>

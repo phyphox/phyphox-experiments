@@ -97,6 +97,11 @@
       <string original="Time">Время</string>
       <string original="Simple">Значение</string>
       <string original="Multi">Много</string>
+      <string original="Amplitude 1">Амплитуда 1</string>
+      <string original="Frequency 1">Частота 1</string>
+      <string original="Amplitude 2">Амплитуда 2</string>
+      <string original="Frequency 2">Частота 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Обратите внимание, что общая максимальная амплитуда равна 1. Если сумма обеих амплитуд превышает 1, происходят искажения.</string>
     </translation>
     <translation locale="it">
       <title>Generatore di suoni</title>
@@ -135,6 +140,11 @@
       <string original="A">Α</string>
       <string original="Simple">Απλό</string>
       <string original="Multi">Πολλαπλό</string>
+      <string original="Amplitude 1">Πλάτος 1</string>
+      <string original="Frequency 1">Συχνότητα 1</string>
+      <string original="Amplitude 2">Πλάτος 2</string>
+      <string original="Frequency 2">Συχνότητα 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Σημειώστε ότι το μέγιστο συνολικό πλάτος είναι 1. Αν το άθροισμα των πλατών ξεπεράσει το 1, θα προκύψει παραμόρφωση.</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
@@ -339,9 +349,9 @@
         <input axis="x">t</input>
         <input axis="y">signal</input>
       </graph>
-      <separator height="1" />
+      <separator height="1"/>
       <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations."/>
-      <separator height="1" />
+      <separator height="1"/>
       <value label="Status">
         <input>f</input>
         <map max="100">Frequency low</map>
@@ -384,8 +394,8 @@
       <input as="length" type="value">1000</input>
       <output>t</output>
     </ramp>
-
-    <formula formula="min(max([3]-(1-[2])*[1],0),1)"> <!-- Turn off multi mode if amplitude is zero, but frequency > 0 (i.e. user has set a frequency) -->
+    <formula formula="min(max([3]-(1-[2])*[1],0),1)">
+      <!-- Turn off multi mode if amplitude is zero, but frequency > 0 (i.e. user has set a frequency) -->
       <input clear="false">f</input>
       <input clear="false">a</input>
       <input clear="false">multi</input>
@@ -412,7 +422,6 @@
       <input type="value">0</input>
       <output clear="false">a2</output>
     </if>
-
     <formula formula="[2]*sin(6.283185307*[3]*[1_])+[4]*sin(6.283185307*[5]*[1_])+[6]*sin(6.283185307*[7]*[1_])">
       <input clear="false">t</input>
       <input clear="false">a1</input>

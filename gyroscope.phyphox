@@ -84,7 +84,7 @@
     </translation>
     <translation locale="el">
       <title>Γυροσκόπιο (ρυθμός περιστροφής)</title>
-      <category>Αισθητήρες</category>
+      <category>Δεδομένα Αισθητήρων</category>
       <description>Πάρτε τις καταγραφές του γυροσκοπίου.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Gyroscope x">Γυροσκόπιο x</string>

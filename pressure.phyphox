@@ -57,7 +57,7 @@
     </translation>
     <translation locale="el">
       <title>Πίεση</title>
-      <category>Αισθητήρες</category>
+      <category>Δεδομένα Αισθητήρων</category>
       <description>Πάρτε τις καταγραφές του βαρομέτρου.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Pressure">Πίεση</string>

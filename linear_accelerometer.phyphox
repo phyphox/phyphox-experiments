@@ -109,7 +109,7 @@
     </translation>
     <translation locale="el">
       <title>Επιτάχυνση (χωρίς το g)</title>
-      <category>Αισθητήρες</category>
+      <category>Δεδομένα Αισθητήρων</category>
       <description>Πάρτε τις καταγραφές από το γραμμικό επιταχυνσιόμετρο, ο οποίος δίνει την πραγματική επιτάχυνση χωρίς την βαρυτική επιτάχυνση. Σε αντίθεση με την "επιτάχυνση με το g", αυτός ο αισθητήρας δίνει 0 όταν η συσκευή βρίσκεται σε ακινησία.</description>
       <string original="Graph">Γράφημα</string>
       <string original="Linear Acceleration x">Γραμμική Επιτάχυνση x</string>
