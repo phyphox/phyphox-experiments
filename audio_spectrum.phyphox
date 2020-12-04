@@ -651,6 +651,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">Grabación</string>
       <string original="Amplitude">Amplitud</string>
       <string original="Status">Estado</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generador de ruido blanco. (Puede sonar fuerte. Por favor, reducir el volumen de reproducción primero.)</string>
+      <string original="Off">Apagado</string>
+      <string original="On">Encendido</string>
     </translation>
   </translations>
   <data-containers>

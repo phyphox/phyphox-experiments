@@ -588,7 +588,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="GPS active">GPS habilitado</string>
       <string original="Latitude">Latitud</string>
       <string original="Longitude">Longitud</string>
-      <string original="Altitude">Altura</string>
+      <string original="Altitude">Altitud</string>
       <string original="Movement">Movimiento</string>
       <string original="Speed">Velocidad</string>
       <string original="Direction">Dirección</string>

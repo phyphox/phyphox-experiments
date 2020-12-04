@@ -310,6 +310,12 @@
       <string original="Status">Estado</string>
       <string original="Frequency low">Frecuencia baja</string>
       <string original="Frequency high">Frecuencia alta</string>
+      <string original="Use multi tone generator">Usar generador de tonos múltiples</string>
+      <string original="Amplitude 1">Amplitud 1</string>
+      <string original="Frequency 1">Frecuencia 1</string>
+      <string original="Amplitude 2">Amplitud 2</string>
+      <string original="Frequency 2">Frecuencia 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Notar que la amplitud máxima total es 1. En caso de que la suma de ambas amplitudes exceda la unidad, experimentará distorsiones.</string>
     </translation>
   </translations>
   <data-containers>
