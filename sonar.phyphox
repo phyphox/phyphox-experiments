@@ -553,7 +553,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
   </output>
   <views>
     <view label="Time series">
-      <graph label="Normalized history" labelX="distance" unitX="cm" labelY="time" unitY="s" labelZ="A" unitZ="a.u." aspectRatio="1" style="map" mapWidth="1200" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true">
+      <graph label="Normalized history" labelX="distance" unitX="cm" labelY="time" unitY="s" labelZ="A" unitZ="a.u." aspectRatio="1" style="map" mapWidth="1200" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_map</input>
         <input axis="y">time_map</input>
         <input axis="z">weighted_map</input>
@@ -563,11 +563,11 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <edit label="Speed of Sound" unit="m/s" default="340">
         <output>speedofsound</output>
       </edit>
-      <graph label="Echo location" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u.">
+      <graph label="Echo location" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u.">
+      <graph label="Normalized to spherical surface" history="5" labelX="distance" unitX="cm" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance</input>
         <input axis="y">weighted_cc</input>
       </graph>
@@ -576,22 +576,22 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <edit label="Target distance" unit="m" default="1">
         <output>targetdistance</output>
       </edit>
-      <graph label="Echo strength" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u.">
+      <graph label="Echo strength" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
         <input axis="x">sos</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u.">
+      <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound" unitX="m/s" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
         <input axis="x">sos</input>
         <input axis="y">weighted_cc</input>
       </graph>
     </view>
     <view label="Timing">
       <info label="On this page you just get the measured delay."/>
-      <graph label="Echo strength" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u.">
+      <graph label="Echo strength" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
         <input axis="x">relative_t</input>
         <input axis="y">relative_cc</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u.">
+      <graph label="Normalized to spherical surface" history="5" labelX="Delay" unitX="s" labelY="A" unitY="a.u." scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
         <input axis="x">relative_t</input>
         <input axis="y">weighted_cc</input>
       </graph>
