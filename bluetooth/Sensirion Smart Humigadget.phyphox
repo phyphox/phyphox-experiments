@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.12">
     <title>Sensirion Smart Humigadget</title>
     <category>Bluetooth</category>
     <description>Read temperature and humidity from the Sensirion Smart Humigadget</description>
@@ -18,11 +18,11 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+            <graph label="Temperature" timeOnX="true" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
                 <input axis="y">T</input>
                 <input axis="x">Tt</input>
             </graph>
-            <graph label="Humidity" labelX="t" unitX="s" labelY="rel. humidity" unitY="%" partialUpdate="true">
+            <graph label="Humidity" timeOnX="true" labelX="t" unitX="s" labelY="rel. humidity" unitY="%" partialUpdate="true">
                 <input axis="y">hum</input>
                 <input axis="x">t</input>
             </graph>

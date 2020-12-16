@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.12" locale="en">
   <title>Optical Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -834,7 +834,7 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <separator height="1"/>
       <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below."/>
       <separator height="1"/>
-      <graph label="Illuminance" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+      <graph label="Illuminance" timeOnX="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>

@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.12">
     <title>Heart Rate</title>
     <category>Bluetooth</category>
     <description>Read generic heart rate services.</description>
@@ -19,7 +19,7 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Heart Rate" labelX="t" unitX="s" labelY="Heart Rate" unitY="bpm" partialUpdate="true">
+            <graph label="Heart Rate" timeOnX="true" labelX="t" unitX="s" labelY="Heart Rate" unitY="bpm" partialUpdate="true">
                 <input axis="y">bpm</input>
                 <input axis="x">t</input>
             </graph>

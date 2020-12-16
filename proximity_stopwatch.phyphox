@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.12" locale="en">
   <title>Proximity Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -837,7 +837,7 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <separator height="1"/>
       <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm."/>
       <separator height="1"/>
-      <graph label="Distance" labelX="t" unitX="s" labelY="d" unitY="cm" partialUpdate="true">
+      <graph label="Distance" timeOnX="true" labelX="t" unitX="s" labelY="d" unitY="cm" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>

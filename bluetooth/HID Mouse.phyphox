@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.12">
     <title>HID Mouse</title>
     <category>Bluetooth</category>
     <description>A generic HID mouse in boot protocol mode.</description>
@@ -25,11 +25,11 @@
     </input>
     <views>
         <view label="Distance">
-            <graph label="Integrated Distance x" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
+            <graph label="Integrated Distance x" timeOnX="true" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
                 <input axis="y">x</input>
                 <input axis="x">t</input>
             </graph>
-            <graph label="Integrated Distance y" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
+            <graph label="Integrated Distance y" timeOnX="true" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
                 <input axis="y">y</input>
                 <input axis="x">t</input>
             </graph>
@@ -43,11 +43,11 @@
             <info label="Avoid rotating the mouse! Rotations cannot be recognized and it is impossible to calculate the total distance when axes change due to the rotation." />
         </view>
         <view label="Raw Data">
-            <graph label="Reported Differences x" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
+            <graph label="Reported Differences x" timeOnX="true" labelX="t" unitX="s" labelY="x" unitY="a.u." partialUpdate="true">
                 <input axis="y">dx</input>
                 <input axis="x">t</input>
             </graph>
-            <graph label="Reported Differences y" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
+            <graph label="Reported Differences y" timeOnX="true" labelX="t" unitX="s" labelY="y" unitY="a.u." partialUpdate="true">
                 <input axis="y">dy</input>
                 <input axis="x">t</input>
             </graph>

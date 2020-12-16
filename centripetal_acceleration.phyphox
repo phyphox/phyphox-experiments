@@ -1,4 +1,4 @@
-<phyphox version="1.10" locale="en">
+<phyphox version="1.12" locale="en">
   <title>Centripetal acceleration</title>
   <category>Mechanics</category>
   <description>
@@ -370,11 +370,11 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       </graph>
     </view>
     <view label="Time">
-      <graph label="Acceleration" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+      <graph label="Acceleration" timeOnX="true" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Angular velocity" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+      <graph label="Angular velocity" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">gyr</input>
       </graph>

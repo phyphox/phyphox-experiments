@@ -1,4 +1,4 @@
-<phyphox version="1.7" locale="en">
+<phyphox version="1.12" locale="en">
   <title>Inclination</title>
   <category>Tools</category>
   <icon format="base64">
@@ -430,7 +430,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
   </input>
   <views>
     <view label="Flat">
-      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltFlatUD</input>
       </graph>
@@ -438,7 +438,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltFlatUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltFlatLR</input>
       </graph>
@@ -448,7 +448,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position."/>
     </view>
     <view label="Upright">
-      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltUprightUD</input>
       </graph>
@@ -456,7 +456,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltUprightUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltUprightLR</input>
       </graph>
@@ -466,7 +466,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position."/>
     </view>
     <view label="Side">
-      <graph label="Tilt up/down" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltSideUD</input>
       </graph>
@@ -474,7 +474,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltSideUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltSideLR</input>
       </graph>
@@ -484,7 +484,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position."/>
     </view>
     <view label="Plane">
-      <graph label="Inclination" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Inclination" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">angle</input>
       </graph>
@@ -492,7 +492,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>angle</input>
       </value>
       <separator height="1"/>
-      <graph label="Rotation" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Rotation" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">anglePlane</input>
       </graph>
