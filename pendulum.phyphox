@@ -821,7 +821,6 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
     <divide>
       <input clear="false">amplitudeSkewed</input>
       <input clear="false">frequency</input>
-      <input clear="false">frequency</input>
       <output>amplitude</output>
     </divide>
     <count>
