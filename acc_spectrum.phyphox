@@ -574,7 +574,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       </value>
     </view>
     <view label="History">
-      <graph label="Fourier Transform" timeOnY="true" logZ="true" labelX="Frequency" unitX="Hz" labelY="Time" unitY="s" labelZ="FFT Mag" unitZ="a.u." aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="Hz" labelY="Time" unitY="s" labelZ="FFT Mag" unitZ="a.u." aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
         <input axis="x">fmap</input>
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
