@@ -660,6 +660,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     <container size="32768">recording</container>
     <container>rate</container>
     <container>rate/2</container>
+    <container size="32768">appended_recording</container>
     <container size="32768">recording_subrange</container>
     <container>recording_length</container>
     <container init="2048">samples</container>
@@ -870,8 +871,13 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <input as="length" type="value">256</input>
       <output>timeline</output>
     </const>
+    <append>
+        <input clear="false">recording_subrange</input>
+        <input clear="false">recording</input>
+        <output>appended_recording</output>
+    </append>
     <count>
-      <input clear="false">recording</input>
+      <input clear="false">appended_recording</input>
       <output>recording_length</output>
     </count>
     <subtract>
@@ -881,7 +887,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </subtract>
     <subrange>
       <input clear="false" as="from">subrange_start</input>
-      <input as="in" clear="false">recording</input>
+      <input as="in" clear="false">appended_recording</input>
       <output>recording_subrange</output>
     </subrange>
     <count>
