@@ -302,6 +302,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">Κατώφλι ενεργοπ.</string>
       <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
+      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>(非) 弾性衝突</title>

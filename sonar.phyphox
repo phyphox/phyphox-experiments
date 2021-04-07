@@ -214,7 +214,7 @@ Voer dit experiment best uit in een rustige omgeving.
         Σημειώστε ότι η ήχος διαδίδεται σε κάθε κατεύθυνση. Αυτό σημαίνει ότι όταν σημαδεύετε ένα τοίχο, δέχεστε ανακλάσεις από το πάτωμα, το ταβάνι από κάθε άλλο κοντινό τοίχο, από ένα εμπόδιο και γενικά κάθε κατάλληλη "σκληρή" επφάνεια τριγύρω. Συνεπώς το σόναρ σας δείχνει όλες τις ανακλάσεις και εναπόκειται σε εσάς να ερμηνεύσετε το αποτέλεσμα και να βρείτε ποια ανάκλαση αντιστοιχεί στο στόχο που επιθυμούσατε να μετρήσετε. Οπότε ξεκινήστε με ένα μικρό σκληρό στόχο και προσπαθήστε να ελαττώσετε τις υπόλοιπες ανακλάσεις με κάποιο αφρώδες υλικό. Απαιτείται επίσης ήσυχο περιβάλλον.
     </description>
       <string original="Echo location">Θέση της ηχούς</string>
-      <string original="Speed of Sound">Ταχύτητα Ήχου</string>
+      <string original="Speed of Sound">Ταχύτητα ήχου</string>
       <string original="distance (cm)">απόσταση (cm)</string>
       <string original="A (a.u.)">Πλάτος Α</string>
       <string original="Normalized to spherical surface">Κανονικοποίηση σε σφαιρική επιφάνεια</string>
@@ -226,12 +226,12 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay (s)">Χρονοκαθυστέρηση (s)</string>
       <string original="Chirp">Σφύριγμα</string>
       <string original="Time (s)">Χρόνος (s)</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <string original="Time series">Χρονοσειρές</string>
       <string original="Normalized history">Ιστορικό</string>
-      <string original="distance">απόσταση</string>
+      <string original="distance">Απόσταση</string>
       <string original="time">χρόνος</string>
-      <string original="A">Α</string>
+      <string original="A">α</string>
       <string original="Delay">Καθυστέρηση</string>
     </translation>
     <translation locale="ja">

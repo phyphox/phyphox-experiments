@@ -36,6 +36,7 @@
       <string original="Frequency">Frequenz</string>
       <string original="History">Verlauf</string>
       <string original="Time">Zeit</string>
+      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Spektrum zrychlení</title>
@@ -206,7 +207,9 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration z">Επιτάχυνση z</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
+      <string original="s">Ν</string>
+      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>加速度スペクトル</title>

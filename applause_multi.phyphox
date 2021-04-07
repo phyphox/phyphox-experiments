@@ -30,7 +30,6 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Next contestant">Nächster Kandidat</string>
       <string original="Time">Zeit</string>
       <string original="Contestant">Kandidat</string>
-      <string original="Stop">Stopp</string>
       <string original="Reset last score">Letzte Punkte löschen</string>
       <string original="Clear all scores">Alle Punkte löschen</string>
     </translation>
@@ -40,7 +39,7 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     </translation>
     <translation locale="el">
       <string original="History">Ιστορικό</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <title>Χειροκροτημα-τόμετρο</title>
       <category>Καθημερινή ζωή</category>
       <description>

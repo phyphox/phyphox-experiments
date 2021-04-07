@@ -334,7 +334,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Settings">Ρυθμίσεις</string>
       <string original="Trigger below">Ενεργοποίηση κάτω από</string>
       <string original="Trigger above">Ενεργοποίηση πάνω από</string>
-      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Ο μετρητής ενεργοποιείται τόσο πάνω όσο και κάτω από καθορισμένο όριο. Αν  θέλετε να ενεργοποιείται μόνο σε υψηλό φωτισμό θέσετε την τιμή "ενεργοποίηση κάτω από" στο μηδέν. Αν θέλετε να ενεργοποιείται μόνο στην απουσία φωτός θέσετε πολύ υψηλή τιμή στο πεδίο "ενεργοποίηση πάνω από". Μπορείτε να εκτιμήσετε τα επιθυμητά όρια από το επόμενο γράφημα.</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Ο μετρητής ενεργοποιείται τόσο πάνω όσο και κάτω από καθορισμένο όριο. Αν θέλετε να ενεργοποιείται μόνο σε υψηλό φωτισμό θέσετε την τιμή "ενεργοποίηση κάτω από" στο μηδέν. Αν θέλετε να ενεργοποιείται μόνο στην απουσία φωτός θέσετε πολύ υψηλή τιμή στο πεδίο "ενεργοποίηση πάνω από". Μπορείτε να εκτιμήσετε τα επιθυμητά όρια από το επόμενο γράφημα.</string>
       <string original="Illuminance">Φωτεινότητα</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Η ακρίβεια εξαρτάται ισχυρά από τον τύπο του αισθητήρα φωτός του τηλεφώνου σας. Για αργούς αισθητήρες μπορεί να είναι περισσότερο και από ένα δευτερόλεπτο ενώ οι γρηγορότεροι αισθητήρες δεν είναι συνήθως ταχύτεροι από δέκατα του δευτερολέπτου. Ταχύτερες μετρήσεις που βασίζονται στον ήχο, μπορούν να επιτευχθούν χρησιμοποιώντας το πείραμα του ακουστικού χρονομέτρου.</string>
       <string original="Sequence">Σειριακό</string>
@@ -363,8 +363,9 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 3">Απενεργοποίηση 3</string>
       <string original="Trigger on 4">Ενεργοποίηση 4</string>
       <string original="Trigger off 4">Απενεργοποίηση 4</string>
-      <string original="Trigger on 5">Ενεργοποίηση  5</string>
+      <string original="Trigger on 5">Ενεργοποίηση 5</string>
       <string original="Trigger off 5">Απενεργοποίηση 5</string>
+      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>光学ストップウォッチ</title>

@@ -21,7 +21,7 @@
       <string original="Base frequency">Grundfrequenz</string>
       <string original="Frequency range">Frequenzspanne</string>
       <string original="Time step">Zeitintervall</string>
-      <string original="Speed of sound">Schallgeschwindigkeit</string>
+      <string original="Speed of sound">Schallgeschw.</string>
       <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Zeitintervall gibt an, mit welcher Rate und mit wie vielen Daten eine Geschwindigkeit bestimmt wird. Der Algorithmus wird die Frequenz um die Grundfrequenz innerhalb von -Frequenzspanne und +Frequenzspanne suchen. Dabei verwendet er die n-te Periode der Grundfrequenz (siehe unten). Zu extreme Einstellungen für das Zeitintervall oder die Spanne führen zu ungenauen Ergebnissen oder könnten für das Handy zu aufwändig werden. Außerdem sollte die Spanne deutlich kleiner sein als 1/Zeitintervall.</string>
       <string original="nth period">n-te Periode</string>
       <string original="Results">Ergebnisse</string>

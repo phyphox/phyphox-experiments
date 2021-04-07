@@ -114,7 +114,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Time (ms)">Χρόνος (ms)</string>
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
       <string original="Duration">Διάρκεια</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <string original="Amplitude">Πλάτος</string>
     </translation>
     <translation locale="ja">

@@ -136,9 +136,8 @@
       <string original="Status">Κατάσταση</string>
       <string original="Frequency low">Χαμηλή συχνότητα</string>
       <string original="Frequency high">Υψηλή συχνότητα</string>
-      <string original="OK">ΟΚ</string>
-      <string original="Time">Χρόνος</string>
-      <string original="A">Α</string>
+      <string original="Time">χρόνος</string>
+      <string original="A">α</string>
       <string original="Simple">Απλό</string>
       <string original="Multi">Πολλαπλό</string>
       <string original="Amplitude 1">Πλάτος 1</string>
@@ -146,6 +145,7 @@
       <string original="Amplitude 2">Πλάτος 2</string>
       <string original="Frequency 2">Συχνότητα 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Σημειώστε ότι το μέγιστο συνολικό πλάτος είναι 1. Αν το άθροισμα των πλατών ξεπεράσει το 1, θα προκύψει παραμόρφωση.</string>
+      <string original="Use multi tone generator">Χρήση γεννήτριας πολλαπλών τόνων</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>

@@ -206,7 +206,8 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Magnetic field z">Μαγνητικό πεδίο z</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
+      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>磁力スペクトル</title>

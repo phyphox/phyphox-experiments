@@ -245,8 +245,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Περίοδος</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="Length">Μήκος</string>
-      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Εδώ μπορείτε να εισάγετε το μήκος του εκκρεμούς (από το σημείο στήριξης  έως το κέντρο μάζας) και να υπολογίσετε την επιτάχυνση της βαρύτητας g.</string>
-      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Εδώ μπορείτε να υπολογίσετε το μήκος του εκκρεμούς (από το σημείο στήριξης  έως το κέντρο μάζας) θεωρώντας g = 9.81 m/s²  .</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Εδώ μπορείτε να εισάγετε το μήκος του εκκρεμούς (από το σημείο στήριξης έως το κέντρο μάζας) και να υπολογίσετε την επιτάχυνση της βαρύτητας g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Εδώ μπορείτε να υπολογίσετε το μήκος του εκκρεμούς (από το σημείο στήριξης έως το κέντρο μάζας) θεωρώντας g = 9.81 m/s² .</string>
       <string original="Resonance">Συντονισμός</string>
       <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
       <string original="Rel. amplitude (a.u.)">Σχετικό πλάτος (a.u)</string>
@@ -259,6 +259,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Γυροσκόπιο z</string>
       <string original="Rel. amplitude">Σχετ. πλάτος</string>
       <string original="correlation">συσχέτιση</string>
+      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>振り子</title>

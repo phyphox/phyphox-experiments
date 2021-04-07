@@ -42,6 +42,7 @@
       <string original="Accelerometer y">Beschleunigung y</string>
       <string original="Rel. amplitude">Rel. Amplitude</string>
       <string original="correlation">Korrelation</string>
+      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Pružina</title>
@@ -201,6 +202,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
       <string original="Rel. amplitude">Σχετ. πλάτος</string>
       <string original="correlation">συσχέτιση</string>
+      <string original="s">Ν</string>
+      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>ばね</title>

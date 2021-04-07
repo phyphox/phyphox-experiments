@@ -252,7 +252,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Simple">Απλό</string>
       <string original="Threshold">Κατώφλι ενεργοπ.</string>
       <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <string original="Reset">Επαναφορά</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Αλλάξτε το κατώφλι ενεργοποίησης ώστε να είναι πάνω από το όριο θορύβου του αισθητήρα, αλλά κάτω από την επιτάχυνση ενεργοποίησης (μπορείτε να δοκιμάσετε το πείραμα της επιτάχυνσης χωρίς το g για να το δοκιμάσετε). Επίσης ορίστε την ελάχιστη καθυστέρηση για να αποφύγεται ενεργοποιήσεις σε λιγότερο από αυτόν τον χρόνο.</string>
       <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Η ακρίβεια του πειράματος εξαρτάται από το επιταχυνσιόμετρο του κινητού σας. Τα γρήγορα επιταχυνσιόμετρα μπορεί να είναι καλύτερα από ένα εκατοστό του δευτερολέπτου, ενώ τα αργά μπορούν να πετύχουν ανάλυση ενός δευτερολέπτου.</string>
@@ -270,6 +270,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate">Μέσος ρυθμός</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>動作ストップウォッチ</title>

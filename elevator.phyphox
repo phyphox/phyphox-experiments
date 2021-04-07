@@ -32,6 +32,7 @@
       <string original="Accelerometer z">Beschleunigung z</string>
       <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
       <string original="Vertical velocity (from altitude)">Vertikale Geschwindigkeit (aus Höhe)</string>
+      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Výtah</title>
@@ -147,7 +148,8 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="Raw Data">Καταγραφές Αισθητήρα</string>
       <string original="Pressure">Πίεση</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
-      <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από  το ύψος)</string>
+      <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από το ύψος)</string>
+      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>エレベーター</title>

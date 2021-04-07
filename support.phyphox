@@ -9,5 +9,21 @@
       <category>phyphox.org</category>
       <link>https://phyphox.org/spenden</link>
     </translation>
+    <translation locale="cs"/>
+    <translation locale="el"/>
+    <translation locale="es"/>
+    <translation locale="fr"/>
+    <translation locale="it"/>
+    <translation locale="ja"/>
+    <translation locale="nl"/>
+    <translation locale="pl"/>
+    <translation locale="pt"/>
+    <translation locale="ru"/>
+    <translation locale="sr"/>
+    <translation locale="sr_Latn"/>
+    <translation locale="tr"/>
+    <translation locale="vi"/>
+    <translation locale="zh_Hans"/>
+    <translation locale="zh_Hant"/>
   </translations>
 </phyphox>

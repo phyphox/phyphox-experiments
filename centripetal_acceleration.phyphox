@@ -34,6 +34,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Square plot">Quadratische Auftragung</string>
       <string original="Angular velocity ω">Winkelgeschwindigkeit ω</string>
       <string original="Acceleration a">Beschleunigung a</string>
+      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Odstředivé zrychlení</title>
@@ -152,10 +153,11 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Angular velocity ω (rad/s)">Γωνιακή ταχύτητα ω (rad/s)</string>
       <string original="Acceleration a (m/s²)">Επιτάχυνση a (m/s²)</string>
       <string original="Square plot">Γράφημα α - ω²</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <string original="Angular velocity">Γωνιακή ταχύτητα</string>
       <string original="Angular velocity ω">Γωνιακή ταχύτητα ω</string>
       <string original="Acceleration a">Επιτάχυνση a</string>
+      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>向心加速度</title>

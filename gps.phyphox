@@ -47,6 +47,7 @@
       <string original="Distance from start">Entfernung vom Start</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Stelle außerdem sicher, dass die Standorteinstellungen deines Systems nicht auf "Energie sparen" stehen, da dies die genauen GPS-Daten abschaltet.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Die horizontale Genauigkeit ist die Unsicherheit deines Standorts, während die vertikale Genauigkeit die (normalerweise schlechtere) Unsicherheit auf deiner Höhe ist. Wenn die Genauigkeit Null beträgt, ist diese Information nicht verfügbar.</string>
+      <string original="S">s</string>
     </translation>
     <translation locale="cs">
       <title>Pozice (GPS)</title>
@@ -268,7 +269,7 @@
       <string original="Distance">Απόσταση</string>
       <string original="Simple">Απλό</string>
       <string original="Compass">Πυξίδα</string>
-      <string original="N">Ν</string>
+      <string original="N">Β</string>
       <string original="Horizontal Accuracy">Οριζόντια ακρίβεια</string>
       <string original="Vertical Accuracy">Κατακόρυφη ακρίβεια</string>
       <string original="Satellites">Δορυφόροι</string>
@@ -280,6 +281,13 @@
       <string original="Distance from start">Απόσταση από την αρχή</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Επίσης βεβαιωθείτε ότι η ρύθμιση για την τοποθεσία στο σύστημα σας δεν είναι ρυθμισμένη στο "Εξοικονόμηση ενέργειας" γιατί τότε συνήθως απενεργοποιείται η ακριβής λειτουργία του GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
+      <string original="S">Ν</string>
+      <string original="SW">ΝΔ</string>
+      <string original="W">Δ</string>
+      <string original="NW">ΒΔ</string>
+      <string original="NE">ΒΑ</string>
+      <string original="E">Α</string>
+      <string original="SE">ΝΑ</string>
     </translation>
     <translation locale="ja">
       <title>位置 (GPS)</title>

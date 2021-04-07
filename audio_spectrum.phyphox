@@ -292,7 +292,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
-      <string original="Time">Χρόνος</string>
+      <string original="Time">χρόνος</string>
       <string original="Amplitude">Πλάτος</string>
       <string original="Status">Κατάσταση</string>
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Δημιουργία λευκού θορύβου. (Μπορεί να είναι δυνατά. Παρακαλώ μειώστε την ένταση πρώτα.)</string>
@@ -872,9 +872,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <output>timeline</output>
     </const>
     <append>
-        <input clear="false">recording_subrange</input>
-        <input clear="false">recording</input>
-        <output>appended_recording</output>
+      <input clear="false">recording_subrange</input>
+      <input clear="false">recording</input>
+      <output>appended_recording</output>
     </append>
     <count>
       <input clear="false">appended_recording</input>
