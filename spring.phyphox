@@ -42,7 +42,6 @@
       <string original="Accelerometer y">Beschleunigung y</string>
       <string original="Rel. amplitude">Rel. Amplitude</string>
       <string original="correlation">Korrelation</string>
-      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Pružina</title>

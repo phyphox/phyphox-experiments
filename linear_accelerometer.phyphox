@@ -21,7 +21,6 @@
       <string original="Linear Acceleration y">Lineare Beschleunigung y</string>
       <string original="Linear Acceleration z">Lineare Beschleunigung z</string>
       <string original="Acceleration">Beschleunigung</string>
-      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Akcelerace (bez g)</title>

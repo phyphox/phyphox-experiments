@@ -18,7 +18,6 @@
       <string original="Accelerometer x">Beschleunigung x</string>
       <string original="Accelerometer y">Beschleunigung y</string>
       <string original="Acceleration">Beschleunigung</string>
-      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Akcelerace s g</title>

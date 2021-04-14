@@ -1,11 +1,11 @@
 <phyphox version="1.13" locale="en" isLink="true">
-  <title>More support options...</title>
+  <title>Other ways to contribute…</title>
   <category>phyphox.org</category>
   <color>white</color>
   <link>https://phyphox.org/donate</link>
   <translations>
     <translation locale="de">
-      <title>Weitere Unterstützungsmöglichkeiten...</title>
+      <title>Weitere Unterstützungsmöglichkeiten…</title>
       <category>phyphox.org</category>
       <link>https://phyphox.org/spenden</link>
     </translation>

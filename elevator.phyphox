@@ -32,7 +32,6 @@
       <string original="Accelerometer z">Beschleunigung z</string>
       <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
       <string original="Vertical velocity (from altitude)">Vertikale Geschwindigkeit (aus Höhe)</string>
-      <string original="a">A</string>
     </translation>
     <translation locale="cs">
       <title>Výtah</title>
