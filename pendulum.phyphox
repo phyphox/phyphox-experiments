@@ -593,7 +593,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
         <input>frequency</input>
       </value>
     </view>
-    <view label="g">
+    <view label="[[quantity_short_earth_acceleration]]">
       <value label="Period" size="2" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
@@ -603,7 +603,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <edit label="Length" unit="[[unit_short_centi_meter]]" factor="100" default="0.5" signed="false" min="0.05" max="10">
         <output>length</output>
       </edit>
-      <value label="g" size="2" unit="m/s²">
+      <value label="[[quantity_short_earth_acceleration]]" size="2" unit="[[unit_short_meter_per_square_second]]">
         <input>g</input>
       </value>
       <separator height="1"/>

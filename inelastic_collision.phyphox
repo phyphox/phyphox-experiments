@@ -379,7 +379,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">Média retida</string>
       <string original="Settings">Configurações</string>
       <string original="Threshold">Limiar</string>
-      <string original="a.u.">u.a.</string>
       <string original="Minimum Delay">Intervalo Mínimo</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Infelizmente, isto não funcionará em aparelhos lentos. Por favor, compare o experimento do cronômetro acústico com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado. Se funcionar, este experimento aqui deverá funcionar também.</string>
     </translation>
@@ -503,7 +502,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">Conservation moyenne de l'énergie</string>
       <string original="Settings">Paramètres</string>
       <string original="Threshold">Seuil</string>
-      <string original="a.u.">u.a.</string>
       <string original="Minimum Delay">Délai minimum</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Malheureusement, cette expérience ne fonctionnera pas sur les téléphones les plus lents. Vérifiez d'abord que l'expérience chronomètre sonore fonctionne comme prévu en comparant ses résultats à ceux d'un chronomètre classique. Si cela fonctionne, cette expérience devrait également fonctionner.</string>
     </translation>
@@ -547,7 +545,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">Ngưỡng</string>
       <string original="Minimum Delay">Độ trễ tối thiểu</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
-      <string original="a.u.">đ.v.t.y</string>
     </translation>
     <translation locale="zh_Hans">
       <title>（非）弹性碰撞</title>
@@ -587,7 +584,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">平均剩余</string>
       <string original="Settings">设置</string>
       <string original="Threshold">阈值</string>
-      <string original="a.u.">相对值</string>
       <string original="Minimum Delay">最小时延</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地是，本功能在慢速手机上不能使用。请将声学秒表实验和平常的时钟相比较，以确保实验能够按预期运行。如果声学秒表能使用，则本实验也能使用。</string>
     </translation>
@@ -913,7 +909,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       </button>
     </view>
     <view label="Settings">
-      <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
+      <edit label="Threshold" unit="[[unit_short_arbitrary_unit]]" default="0.1" signed="false" min="0" max="1">
         <output>threshold</output>
       </edit>
       <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.1" signed="false">

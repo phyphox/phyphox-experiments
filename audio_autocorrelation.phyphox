@@ -314,7 +314,6 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Autocorr.">自相关</string>
       <string original="Period">周期</string>
       <string original="Frequency">频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
       <string original="High">高</string>
@@ -430,7 +429,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <value label="Period" unit="[[unit_short_milli_second]]" factor="1000">
         <input>period</input>
       </value>
-      <value label="Frequency" unit="Hz">
+      <value label="Frequency" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
       <separator height="1"/>

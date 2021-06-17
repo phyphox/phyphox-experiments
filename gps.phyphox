@@ -637,19 +637,19 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       </value>
       <value label="Compass" size="1">
         <input>dir</input>
-        <map max="-157.5">S</map>
-        <map max="-112.5">SW</map>
-        <map max="-67.5">W</map>
-        <map max="-22.5">NW</map>
-        <map max="22.5">N</map>
-        <map max="67.5">NE</map>
-        <map max="112.5">E</map>
-        <map max="157.5">SE</map>
-        <map max="202.5">S</map>
-        <map max="247.5">SW</map>
-        <map max="292.5">W</map>
-        <map max="337.5">NW</map>
-        <map>N</map>
+        <map max="-157.5">[[direction_short_south]]</map>
+        <map max="-112.5">[[direction_south_west]]</map>
+        <map max="-67.5">[[direction_west]]</map>
+        <map max="-22.5">[[direction_north_west]]</map>
+        <map max="22.5">[[direction_short_north]]</map>
+        <map max="67.5">[[direction_short_north_east]]</map>
+        <map max="112.5">[[direction_short_east]]</map>
+        <map max="157.5">[[direction_short_south_east]]</map>
+        <map max="202.5">[[direction_short_south]]</map>
+        <map max="247.5">[[direction_short_south_west]]</map>
+        <map max="292.5">[[direction_short_west]]</map>
+        <map max="337.5">[[direction_short_north_west]]</map>
+        <map>[[direction_short_north]]</map>
       </value>
       <separator height="1"/>
       <value label="Distance travelled" size="1" precision="3" unit="[[unit_short_kilo_meter]]">

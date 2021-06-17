@@ -116,7 +116,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Bz (µT)">Bz (мкTл)</string>
       <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
       <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
-      <string original="mm">мм</string>
       <string original="Filtered B²">B² после поправки</string>
     </translation>
     <translation locale="it">
@@ -226,7 +225,6 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
 	在此實驗中，你可以沿著手機經過的路徑放置一連串的磁鐵，每個磁鐵間的間距必須相同。手機會利用磁力計以判斷其是否經過一個磁鐵，進而計算出總距離…等。
     </description>
       <string original="Results">結果</string>
-      <string original="mm">毫米</string>
       <string original="dx is the distance between two magnets">dx 是兩個磁鐵中的間距</string>
       <string original="Distance">距離</string>
       <string original="Velocity">速度</string>
@@ -385,7 +383,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
   </input>
   <views>
     <view label="Results">
-      <edit label="dx" unit="mm" factor="1000" signed="false" default="0.1" min="0.02" max="2">
+      <edit label="dx" unit="[[unit_short_milli_meter]]" factor="1000" signed="false" default="0.1" min="0.02" max="2">
         <output>magnetDistance</output>
       </edit>
       <info label="dx is the distance between two magnets"/>
