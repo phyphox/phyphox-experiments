@@ -11,7 +11,10 @@
       <link>https://phyphox.org/beitragen</link>
     </translation>
     <translation locale="cs"/>
-    <translation locale="el"/>
+    <translation locale="el">
+      <title>Άλλοι τρόποι συνεισφοράς…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="es"/>
     <translation locale="fr"/>
     <translation locale="it"/>
