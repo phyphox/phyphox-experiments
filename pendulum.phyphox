@@ -1,4 +1,4 @@
-<phyphox version="1.10" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Pendulum</title>
   <category>Mechanics</category>
   <icon format="base64">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</icon>
@@ -36,11 +36,8 @@
       <string original="Period">Periode</string>
       <string original="Frequency">Frequenz</string>
       <string original="Resonance">Resonanz</string>
-      <string original="Rel. amplitude (a.u.)">Rel. Amplitude (a.u.)</string>
       <string original="Length">Länge</string>
-      <string original="Frequency (Hz)">Frequenz (Hz)</string>
       <string original="Autocorrelation">Autokorrelation</string>
-      <string original="correlation (a.u.)">Korrelation (a.u.)</string>
       <string original="Raw Data">Rohdaten</string>
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Hier kannst du die Länge deines Pendels (vom Drehpunkt zum Schwerpunkt) eingeben und darüber die Erdbeschleunigung g bestimmen.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Hier kannst du die Länge deines Pendels (vom Drehpunkt zum Schwerpunkt) bestimmen unter der Annahme g = 9.81 m/s².</string>
@@ -76,11 +73,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Zde můžete zadat délku svého kyvadla (od bodu závěsu k těžišti) a zjistit tak tíhové zrychlení g.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Zde můžete určit délku vašeho kyvadla (od závěsu k těžišti) za předpokladu, že g = 9.81 m/s².</string>
       <string original="Resonance">Rezonance</string>
-      <string original="Frequency (Hz)">Frekvence (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Reál. Amplituda</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
       <string original="Autocorrelation">Autokorelace</string>
-      <string original="correlation (a.u.)">Korelace</string>
       <string original="Raw Data">Neupravená data</string>
       <string original="Gyroscope x">Gyroskop x</string>
       <string original="Gyroscope y">Gyroskop y</string>
@@ -108,11 +102,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">W tym miejscu należy wprowadzić długość wahadła (od punktu zaczepienia do środka masy), by z jego pomocą wyznaczyć wartość ziemskiego przyspieszenia grawitacyjnego g.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">W tym miejscu, można wyznaczyć nieznaną długość wahadła (odległość od punktu zaczepienia do środka masy) zakładając, że g = 9.81 m/s².</string>
       <string original="Resonance">Rezonans</string>
-      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string>
       <string original="Autocorrelation">Autokorelacja</string>
-      <string original="correlation (a.u.)">Korelacja (j.u.)</string>
       <string original="Raw Data">Surowe dane</string>
       <string original="Gyroscope x">Żyroskop - składowa x</string>
       <string original="Gyroscope y">Żyroskop - składowa y</string>
@@ -142,10 +133,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Hier kunt u de lengte van de slinger invoeren (draaipunt tot middelpunt van massa) en de zwaarteveldsterkte of valversnelling g van de aarde bepalen.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Hier kunt u, uit g = 9.81 m/s², de lengte van de slinger bepalen (draaipunt tot middelpunt van massa).</string>
       <string original="Resonance">Resonantie</string>
-      <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Op dit tabblad wordt de amplitude uitgezet tegen de gemeten frequentie. Je kunt dit gebruiken om de resonantie van een gedwongen oscillator te bestuderen. De amplitude is genormaliseerd op een bereik van 0 tot 1.</string>
       <string original="Autocorrelation">Autocorrelatie</string>
-      <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="Gyroscope x">Gyroscoop x</string>
       <string original="Gyroscope y">Gyroscoop y</string>
@@ -174,22 +163,12 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Здесь вы можете ввести длину маятника (от точки поворота до центра масс) и определить ускорение свободного падения на земле g.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Здесь вы можете определить длину маятника (точка поворота до центра масс), предполагая g = 9,81 м/с².</string>
       <string original="Resonance">Резонанс</string>
-      <string original="Frequency (Hz)">Частота (Гц)</string>
-      <string original="Rel. amplitude (a.u.)">Относительная амплитуда (пр. е.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
       <string original="Autocorrelation">Автокорреляция</string>
-      <string original="Δt (s)">Δt (с)</string>
-      <string original="correlation (a.u.)">корреляция (пр. е.)</string>
       <string original="Raw Data">Исходные данные</string>
       <string original="Gyroscope x">Гироскоп x</string>
-      <string original="t (s)">t (c)</string>
-      <string original="ω (rad/s)">ω (рад/с)</string>
       <string original="Gyroscope y">Гироскоп y</string>
       <string original="Gyroscope z">Гироскоп z</string>
-      <string original="s">с</string>
-      <string original="Hz">Гц</string>
-      <string original="cm">см</string>
-      <string original="m/s²">м/с²</string>
       <string original="Rel. amplitude">Отн. амплитуда</string>
       <string original="correlation">корреляция</string>
     </translation>
@@ -214,11 +193,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Qui puoi selezionare la lunghezza del tuo pendolo (dal punto di rotazione al centro di massa) per determinare l'accelerazione g della Terra.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Qui puoi determinare la lunghezza del tuo pendolo (dal punto di rotazione al centro di massa) considerando che g = 9.81 m/s².</string>
       <string original="Resonance">Risonanza</string>
-      <string original="Frequency (Hz)">Frequenza (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Ampiezza (a.u.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
       <string original="Autocorrelation">Autocorrelazione</string>
-      <string original="correlation (a.u.)">correlazione (a.u.)</string>
       <string original="Raw Data">Dati grezzi</string>
       <string original="Gyroscope x">Giroscopio x</string>
       <string original="Gyroscope y">Giroscopio y</string>
@@ -248,18 +224,14 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Εδώ μπορείτε να εισάγετε το μήκος του εκκρεμούς (από το σημείο στήριξης έως το κέντρο μάζας) και να υπολογίσετε την επιτάχυνση της βαρύτητας g.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Εδώ μπορείτε να υπολογίσετε το μήκος του εκκρεμούς (από το σημείο στήριξης έως το κέντρο μάζας) θεωρώντας g = 9.81 m/s² .</string>
       <string original="Resonance">Συντονισμός</string>
-      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Σχετικό πλάτος (a.u)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Σε αυτή την καρτέλα, το πλάτος σχεδιάζεται σε συνάρτηση με την υπολογιζόμενη συχνότητα. Μπορείτε έτσι να βρείτε τη συχνότητα συντονισμού σε μια εξαναγκασμένη ταλάντωση. Το πλάτος κανονικοποιείται σε μια κλίμακα από 0 έως 1.</string>
       <string original="Autocorrelation">Αυτοσυσχέτιση</string>
-      <string original="correlation (a.u.)">συσχέτιση (a.u.)</string>
       <string original="Raw Data">Καταγραφές Αισθητήρα</string>
       <string original="Gyroscope x">Γυροσκόπιο x</string>
       <string original="Gyroscope y">Γυροσκόπιο y</string>
       <string original="Gyroscope z">Γυροσκόπιο z</string>
       <string original="Rel. amplitude">Σχετ. πλάτος</string>
       <string original="correlation">συσχέτιση</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>振り子</title>
@@ -370,12 +342,8 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
     </description>
       <string original="Results">結果</string>
       <string original="Period">週期</string>
-      <string original="s">秒</string>
       <string original="Frequency">頻率</string>
-      <string original="Hz">赫茲</string>
       <string original="Length">擺長</string>
-      <string original="cm">公分</string>
-      <string original="m/s²">公尺/秒²</string>
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">在此輸入擺長（懸點至質心）以測得地球的重力加速度 g。</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">在此假設 g = 9.81 m/s² ，即可求得擺長（懸點至質心）。</string>
       <string original="Resonance">共振</string>
@@ -465,11 +433,8 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
     </description>
       <string original="Results">结果</string>
       <string original="Period">周期</string>
-      <string original="s">秒</string>
       <string original="Frequency">频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Length">摆长</string>
-      <string original="cm">厘米</string>
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">此处你可以输入你的摆长（支点到质心）来确定地球加速度g。</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">此处你可以假设 g = 9.81 m/s²来确定你的摆长（支点到质心）。</string>
       <string original="Resonance">共振</string>
@@ -479,7 +444,6 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="correlation">相关系数</string>
       <string original="Raw Data">原始数据</string>
       <string original="Gyroscope x">x方向陀螺仪</string>
-      <string original="t">时间</string>
       <string original="Gyroscope y">y方向陀螺仪</string>
       <string original="Gyroscope z">z方向陀螺仪</string>
     </translation>
@@ -622,21 +586,21 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
   </input>
   <views>
     <view label="Results">
-      <value label="Period" size="2" unit="s">
+      <value label="Period" size="2" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" size="2" unit="Hz">
+      <value label="Frequency" size="2" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
     </view>
     <view label="g">
-      <value label="Period" size="2" unit="s">
+      <value label="Period" size="2" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" size="2" unit="Hz">
+      <value label="Frequency" size="2" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
-      <edit label="Length" unit="cm" factor="100" default="0.5" signed="false" min="0.05" max="10">
+      <edit label="Length" unit="[[unit_short_centi_meter]]" factor="100" default="0.5" signed="false" min="0.05" max="10">
         <output>length</output>
       </edit>
       <value label="g" size="2" unit="m/s²">
@@ -646,20 +610,20 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <info label="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g."/>
     </view>
     <view label="Length">
-      <value label="Period" size="2" unit="s">
+      <value label="Period" size="2" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" size="2" unit="Hz">
+      <value label="Frequency" size="2" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
-      <value label="Length" size="2" unit="cm" factor="100">
+      <value label="Length" size="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>lengthcalc</input>
       </value>
       <separator height="1"/>
       <info label="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s²."/>
     </view>
     <view label="Resonance">
-      <graph label="Resonance" labelX="Frequency" unitX="Hz" labelY="Rel. amplitude" unitY="a.u." style="dots">
+      <graph label="Resonance" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Rel. amplitude" unitY="[[unit_short_arbitrary_unit]]" style="dots">
         <input axis="x">frequencyhist</input>
         <input axis="y">relamplitude</input>
       </graph>
@@ -667,27 +631,27 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
     </view>
     <view label="Autocorrelation">
-      <graph label="Autocorrelation" labelX="Δt" unitX="s" labelY="correlation" unitY="a.u.">
+      <graph label="Autocorrelation" labelX="Δt" unitX="[[unit_short_second]]" labelY="correlation" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">autocorrelation_t</input>
         <input axis="y">autocorrelation</input>
       </graph>
-      <value label="Period" unit="s">
+      <value label="Period" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" unit="Hz">
+      <value label="Frequency" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
     </view>
     <view label="Raw Data">
-      <graph label="Gyroscope x" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+      <graph label="Gyroscope x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrX</input>
       </graph>
-      <graph label="Gyroscope y" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true" color="ffff00">
+      <graph label="Gyroscope y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="ffff00">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>
       </graph>
-      <graph label="Gyroscope z" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true" color="ff6060">
+      <graph label="Gyroscope z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="ff6060">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrZ</input>
       </graph>

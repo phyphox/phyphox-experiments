@@ -1,4 +1,4 @@
-<phyphox version="1.10" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Spring</title>
   <category>Mechanics</category>
   <icon format="base64">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</icon>
@@ -29,10 +29,7 @@
       <string original="Period">Periode</string>
       <string original="Frequency">Frequenz</string>
       <string original="Resonance">Resonanz</string>
-      <string original="Rel. amplitude (a.u.)">Rel. Amplitude (a.u.)</string>
-      <string original="Frequency (Hz)">Frequenz (Hz)</string>
       <string original="Autocorrelation">Autokorrelation</string>
-      <string original="correlation (a.u.)">Korrelation (a.u.)</string>
       <string original="Raw Data">Rohdaten</string>
       <string original="Accelerometer z">Beschleunigung z</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
@@ -58,11 +55,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Perioda</string>
       <string original="Frequency">Frekvence</string>
       <string original="Resonance">Rezonance</string>
-      <string original="Frequency (Hz)">Frekvence (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Reál. Amplituda</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
       <string original="Autocorrelation">Autokorelace</string>
-      <string original="correlation (a.u.)">Korelace</string>
       <string original="Raw Data">Neupravená data</string>
       <string original="Accelerometer z">Akcelerometr z</string>
       <string original="Accelerometer x">Akcelerometr x</string>
@@ -83,11 +77,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Okres</string>
       <string original="Frequency">Częstotliwość</string>
       <string original="Resonance">Rezonans</string>
-      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Amplituda wzgl. (j.u.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string>
       <string original="Autocorrelation">Autokorelacja</string>
-      <string original="correlation (a.u.)">Korelacja (j.u.)</string>
       <string original="Raw Data">Surowe dane</string>
       <string original="Accelerometer z">Akcelerometr - składowa z</string>
       <string original="Accelerometer x">Akcelerometr - składowa x</string>
@@ -110,10 +101,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Periode</string>
       <string original="Frequency">Frequentie</string>
       <string original="Resonance">Resonantie</string>
-      <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Op dit tabblad wordt de amplitude uitgezet tegen de gemeten frequentie. Je kunt dit gebruiken om de resonantie van een gedwongen oscillator te bestuderen. De amplitude is genormaliseerd op een bereik van 0 tot 1.</string>
       <string original="Autocorrelation">Autocorrelatie</string>
-      <string original="correlation (a.u.)">correlatie (a.u.)</string>
       <string original="Raw Data">Onbewerkte data</string>
       <string original="correlation">correlatie</string>
     </translation>
@@ -132,20 +121,12 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Период</string>
       <string original="Frequency">Частота</string>
       <string original="Resonance">Резонанс</string>
-      <string original="Frequency (Hz)">Частота (Гц)</string>
-      <string original="Rel. amplitude (a.u.)">Относительная амплитуда (пр. е.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
       <string original="Autocorrelation">Автокорреляция</string>
-      <string original="Δt (s)">Δt (с)</string>
-      <string original="correlation (a.u.)">корреляция (пр. е.)</string>
       <string original="Raw Data">Исходные данные</string>
       <string original="Accelerometer x">Акселерометр x</string>
-      <string original="t (s)">t (c)</string>
-      <string original="a (m/s²)">а (м/с²)</string>
       <string original="Accelerometer y">Акселерометр y</string>
       <string original="Accelerometer z">Акселерометр z</string>
-      <string original="s">с</string>
-      <string original="Hz">Гц</string>
       <string original="Rel. amplitude">Отн. амплитуда</string>
       <string original="correlation">корреляция</string>
     </translation>
@@ -163,11 +144,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Periodo</string>
       <string original="Frequency">Frequenza</string>
       <string original="Resonance">Risonanza</string>
-      <string original="Frequency (Hz)">Frequenza (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Ampiezza (a.u.)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
       <string original="Autocorrelation">Autocorrelazione</string>
-      <string original="correlation (a.u.)">correlazione (a.u.)</string>
       <string original="Raw Data">Dati grezzi</string>
       <string original="Accelerometer x">Accelerazione x</string>
       <string original="Accelerometer y">Accelerazione y</string>
@@ -190,19 +168,14 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Περίοδος</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="Resonance">Συντονισμός</string>
-      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
-      <string original="Rel. amplitude (a.u.)">Σχετικό πλάτος (a.u)</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Σε αυτή την καρτέλα, το πλάτος σχεδιάζεται σε συνάρτηση με την υπολογιζόμενη συχνότητα. Μπορείτε έτσι να βρείτε τη συχνότητα συντονισμού σε μια εξαναγκασμένη ταλάντωση. Το πλάτος κανονικοποιείται σε μια κλίμακα από 0 έως 1.</string>
       <string original="Autocorrelation">Αυτοσυσχέτιση</string>
-      <string original="correlation (a.u.)">συσχέτιση (a.u.)</string>
       <string original="Raw Data">Καταγραφές Αισθητήρα</string>
       <string original="Accelerometer x">Επιταχυνσιόμετρο x</string>
       <string original="Accelerometer y">Επιταχυνσιόμετρο y</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
       <string original="Rel. amplitude">Σχετ. πλάτος</string>
       <string original="correlation">συσχέτιση</string>
-      <string original="s">Ν</string>
-      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>ばね</title>
@@ -288,9 +261,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
     </description>
       <string original="Results">結果</string>
       <string original="Period">週期</string>
-      <string original="s">秒</string>
       <string original="Frequency">頻率</string>
-      <string original="Hz">赫茲</string>
       <string original="Resonance">共振</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">這個分頁中顯示振幅對測得的頻率的作圖。你可以用此量測一個振盪器的共振頻率。振幅已歸一化成0至1。</string>
       <string original="Autocorrelation">自相關</string>
@@ -360,9 +331,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
     </description>
       <string original="Results">结果</string>
       <string original="Period">周期</string>
-      <string original="s">秒</string>
       <string original="Frequency">频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Resonance">共振</string>
       <string original="Rel. amplitude">相对振幅</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">此页面中，以振幅与测得频率之比作图。你可以借此来测量一个振子的共振。振幅已归一化到0至1范围。</string>
@@ -370,7 +339,6 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="correlation">相关系数</string>
       <string original="Raw Data">原始数据</string>
       <string original="Accelerometer x">x方向加速度计</string>
-      <string original="t">时间</string>
       <string original="Accelerometer y">y方向加速度计</string>
       <string original="Accelerometer z">z轴加速度计</string>
     </translation>
@@ -640,15 +608,15 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
   </analysis>
   <views>
     <view label="Results">
-      <value label="Period" size="2" unit="s">
+      <value label="Period" size="2" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" size="2" unit="Hz">
+      <value label="Frequency" size="2" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
     </view>
     <view label="Resonance">
-      <graph label="Resonance" labelX="Frequency" unitX="Hz" labelY="Rel. amplitude" unitY="a.u." style="dots">
+      <graph label="Resonance" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Rel. amplitude" unitY="[[unit_short_arbitrary_unit]]" style="dots">
         <input axis="x">frequencyhist</input>
         <input axis="y">relamplitude</input>
       </graph>
@@ -656,27 +624,27 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
     </view>
     <view label="Autocorrelation">
-      <graph label="Autocorrelation" labelX="Δt" unitX="s" labelY="correlation" unitY="a.u.">
+      <graph label="Autocorrelation" labelX="Δt" unitX="[[unit_short_second]]" labelY="correlation" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">autocorrelation_t</input>
         <input axis="y">autocorrelation</input>
       </graph>
-      <value label="Period" unit="s">
+      <value label="Period" unit="[[unit_short_second]]">
         <input>period</input>
       </value>
-      <value label="Frequency" unit="Hz">
+      <value label="Frequency" unit="[[unit_short_hertz]]">
         <input>frequency</input>
       </value>
     </view>
     <view label="Raw Data">
-      <graph label="Accelerometer x" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+      <graph label="Accelerometer x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
         <input axis="x">acc_time</input>
         <input axis="y">accX</input>
       </graph>
-      <graph label="Accelerometer y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true" color="ffff00">
+      <graph label="Accelerometer y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="ffff00">
         <input axis="x">acc_time</input>
         <input axis="y">accY</input>
       </graph>
-      <graph label="Accelerometer z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true" color="ff6060">
+      <graph label="Accelerometer z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="ff6060">
         <input axis="x">acc_time</input>
         <input axis="y">accZ</input>
       </graph>

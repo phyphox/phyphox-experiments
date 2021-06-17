@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Elevator</title>
   <category>Everyday life</category>
   <icon format="base64">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</icon>
@@ -100,14 +100,9 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
     </description>
       <string original="Motion">Движение</string>
       <string original="Altitude (from barometer)">Высота (барометр)</string>
-      <string original="t (s)">t (c)</string>
-      <string original="h (m)">h (м)</string>
-      <string original="v (m/s)">v (м/с)</string>
       <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
-      <string original="a (m/s²)">а (м/с²)</string>
       <string original="Raw Data">Исходные данные</string>
       <string original="Pressure">Давление</string>
-      <string original="p (hPa)">p (гПа)</string>
       <string original="Accelerometer z">Акселерометр z</string>
       <string original="Vertical velocity (from altitude)">Вертикальная скорость (от высоты)</string>
     </translation>
@@ -148,7 +143,6 @@ Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową skła
       <string original="Pressure">Πίεση</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
       <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από το ύψος)</string>
-      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>エレベーター</title>
@@ -161,12 +155,9 @@ GPSが動作しないような場所においても，バロメータにより�
     </description>
       <string original="Motion">位置・速度・加速度</string>
       <string original="Altitude (from barometer)">バロメーターから換算された高度</string>
-      <string original="h">ｈ</string>
-      <string original="v">ｖ</string>
       <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
       <string original="Raw Data">センサー出力</string>
       <string original="Pressure">圧力</string>
-      <string original="p">ｐ</string>
       <string original="Accelerometer z">加速度計 z</string>
       <string original="Vertical velocity (from altitude)">高度から計算される垂直速度</string>
     </translation>
@@ -277,7 +268,6 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
     </description>
       <string original="Motion">运动</string>
       <string original="Altitude (from barometer)">高度（来自气压计）</string>
-      <string original="t">时间</string>
       <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
       <string original="Raw Data">原始数据</string>
       <string original="Pressure">压力</string>
@@ -368,25 +358,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
   </input>
   <views>
     <view label="Motion">
-      <graph label="Altitude (from barometer)" timeOnX="true" labelX="t" unitX="s" labelY="h" unitY="m" unitYperX="m/s" partialUpdate="true">
+      <graph label="Altitude (from barometer)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_height]]" unitY="[[unit_short_meter]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">h</input>
       </graph>
-      <graph label="Vertical velocity (from altitude)" timeOnX="true" labelX="t" unitX="s" labelY="v" unitY="m/s" unitYperX="m/s²" partialUpdate="true" color="ffff00">
+      <graph label="Vertical velocity (from altitude)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_velocity]]" unitY="[[unit_short_meter_per_second]]" unitYperX="[[unit_short_meter_per_square_second]]" partialUpdate="true" color="ffff00">
         <input axis="x">v_time</input>
         <input axis="y">v</input>
       </graph>
-      <graph label="z acceleration (from accelerometer)" timeOnX="true" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true" color="e0ff00">
+      <graph label="z acceleration (from accelerometer)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="e0ff00">
         <input axis="x">a_time</input>
         <input axis="y">a</input>
       </graph>
     </view>
     <view label="Raw Data">
-      <graph label="Pressure" timeOnX="true" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
+      <graph label="Pressure" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_pressure]]" unitY="[[unit_short_hecto_pascal]]" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">pressure</input>
       </graph>
-      <graph label="Accelerometer z" timeOnX="true" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+      <graph label="Accelerometer z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
         <input axis="x">a_time</input>
         <input axis="y">a</input>
       </graph>

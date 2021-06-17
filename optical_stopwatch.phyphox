@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Optical Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -198,7 +198,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger above">Start boven</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">De timer begint zowel onder als boven de gegeven limieten. Als u wil dat de meting enkel bij een fel licht begint, zet dan de waarde voor "start onder" op nul. Als u daarentegen enkel wil starten bij een donker evenement, zet de "start boven"-waarde zeer hoog. Je kan een idee vormen voor een geschikte limietwaarde uit onderstaande grafiek.</string>
       <string original="Illuminance">Verlichting</string>
-      <string original="Ev (lx)">E (lx)</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">De nauwkeurigheid hangt sterk af van de gevoeligheid van uw lichtsensor. Voor trage sensoren kan dit gemakkelijk meer dan een seconde worden, terwijl snelle sensoren nooit sneller dan een aantal tienden van een seconde zijn. Snellere metingen, gebaseerd op geluid, kunnen verwezenlijkt worden m.b.v. het akoestische stopwatch experiment.</string>
       <string original="Sequence">Opeenvolgend</string>
       <string original="Time 1">Tijdstip 1</string>
@@ -241,8 +240,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger above">Верхний порог</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Таймер запускается как выше, так и ниже заданных пороговых значений. Если вы хотите активировать только яркое освещение, установите значение «Нижний порог» равным нулю. Если вы хотите активировать только темные события, установите значение «Верхний порог» очень высоким. Вы можете оценить подходящую границу для произвольного порога из графика ниже.</string>
       <string original="Illuminance">Освещённость</string>
-      <string original="t (s)">t (c)</string>
-      <string original="Ev (lx)">Ev (лк)</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">Точность сильно зависит от светового датчика вашего телефона. Для медленных датчиков это может быть намного больше секунды, в то время как быстрые датчики обычно не достигают точности менее десятых долей секунды. Более быстрые измерения могут быть достигнуты с использованием акустического секундомера.</string>
       <string original="Sequence">Последовательность</string>
       <string original="Time 1">Время 1</string>
@@ -272,8 +269,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Порог 4 выкл</string>
       <string original="Trigger on 5">Порог 5 вкл</string>
       <string original="Trigger off 5">Порог 5 выкл</string>
-      <string original="lx">лк</string>
-      <string original="s">с</string>
     </translation>
     <translation locale="it">
       <title>Cronometro ottico</title>
@@ -290,7 +285,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger above">Soglia superiore</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">Il timer inizia quando il segnale luminoso è sopra o sotto soglia. Se vuoi far partire il timer solo quando l'illuminazione è alta assegna il valore 0 alla "soglia inferiore". Se invece vuoi che il timer parta solo sugli eventi di buio assegna un valore molto alto alla "soglia superiore". Puoi stimare i valori necessari usando il grafico che osservi sotto.</string>
       <string original="Illuminance">Luminanza</string>
-      <string original="Ev (lx)">Intensità (lux)</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">La precisione dipende fortemente dal tipo di sensore di luce presente nel tuo telefono. In alcuni sensori la precisione è dell'ordine del secondo o anche peggio. Sensori più veloci possono raggiungere precisioni fino a qualche decimo di secondo. Misurazioni migliori, basate sul suono, si possono ottenere usando il cronometro acustico.</string>
       <string original="Sequence">Serie</string>
       <string original="Time 1">Tempo 1</string>
@@ -319,7 +313,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Evento off 4</string>
       <string original="Trigger on 5">Evento on 5</string>
       <string original="Trigger off 5">Evento off 5</string>
-      <string original="lx">lux</string>
     </translation>
     <translation locale="el">
       <title>Οπτικό χρονόμετρο</title>
@@ -365,7 +358,6 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 4">Απενεργοποίηση 4</string>
       <string original="Trigger on 5">Ενεργοποίηση 5</string>
       <string original="Trigger off 5">Απενεργοποίηση 5</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>光学ストップウォッチ</title>
@@ -514,14 +506,12 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
     </description>
       <string original="Settings">設定</string>
       <string original="Trigger below">觸發下界</string>
-      <string original="lx">勒克斯</string>
       <string original="Trigger above">觸發上界</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">此計時器在低於或高於觸發門檻時啟動。如果你只想要利用亮光觸發，將「觸發下界」調至零。如果你想要利用黑暗來觸發，將「觸發上界」調得到非常高。你可以透過下圖來估計合適的觸發門檻。</string>
       <string original="Illuminance">照度</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">本實驗的精確度與手機裡的感光器密切相關。對於較慢的感測器誤差可能到一秒鐘，然而對於較快的感測器可能也有十分之一秒以上的誤差，因此若要進行較快的實驗，可以透過聲學碼表來量測。</string>
       <string original="Sequence">序列</string>
       <string original="Time 1">時間 1</string>
-      <string original="s">秒</string>
       <string original="Time 2">時間 2</string>
       <string original="Time 3">時間 3</string>
       <string original="Time 4">時間 4</string>
@@ -651,16 +641,12 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
     </description>
       <string original="Settings">设置</string>
       <string original="Trigger below">触发下限</string>
-      <string original="lx">勒克斯</string>
       <string original="Trigger above">触发上限</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">计时器在同时满足设定阈值时触发。如果你只想在明亮光照下触发，将“触发下限”值设为0。如果你只想触发黑暗事件，需将“触发上限”设值很高。你可以通过下图为你的实验估计一个适合的阈值。</string>
       <string original="Illuminance">照度</string>
-      <string original="t">时间</string>
-      <string original="Ev">曝光值</string>
       <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">本实验精度很大程度取决于手机的光传感器。对于较慢的传感器误差很容易超过一秒，对于较快的传感器误差通常不会快于0.1秒。但是使用基于声音的声学秒表实验时，可以实现更快的测量。</string>
       <string original="Sequence">序列</string>
       <string original="Time 1">时间 1</string>
-      <string original="s">秒</string>
       <string original="Time 2">时间 2</string>
       <string original="Time 3">时间 3</string>
       <string original="Time 4">时间 4</string>
@@ -826,16 +812,16 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
   </input>
   <views>
     <view label="Settings">
-      <edit label="Trigger below" unit="lx" default="100" signed="false" min="0">
+      <edit label="Trigger below" unit="[[unit_short_lux]]" default="100" signed="false" min="0">
         <output>threshold_low</output>
       </edit>
-      <edit label="Trigger above" unit="lx" default="1000000" signed="false" min="0">
+      <edit label="Trigger above" unit="[[unit_short_lux]]" default="1000000" signed="false" min="0">
         <output>threshold_high</output>
       </edit>
       <separator height="1"/>
       <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below."/>
       <separator height="1"/>
-      <graph label="Illuminance" timeOnX="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+      <graph label="Illuminance" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_illuminance]]" unitY="[[unit_short_lux]]" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
@@ -843,19 +829,19 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <info label="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment."/>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="2" unit="s">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="s">
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="s">
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="s">
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="s">
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -865,19 +851,19 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="2" unit="s">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="s">
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="s">
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="s">
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="s">
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -887,22 +873,22 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       </button>
     </view>
     <view label="Duration">
-      <value label="Trigger duration 0" size="3" precision="2" unit="s">
+      <value label="Trigger duration 0" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don0</input>
       </value>
-      <value label="Trigger duration 1" size="3" precision="2" unit="s">
+      <value label="Trigger duration 1" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don1</input>
       </value>
-      <value label="Trigger duration 2" size="3" precision="2" unit="s">
+      <value label="Trigger duration 2" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don2</input>
       </value>
-      <value label="Trigger duration 3" size="3" precision="2" unit="s">
+      <value label="Trigger duration 3" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don3</input>
       </value>
-      <value label="Trigger duration 4" size="3" precision="2" unit="s">
+      <value label="Trigger duration 4" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don4</input>
       </value>
-      <value label="Trigger duration 5" size="3" precision="2" unit="s">
+      <value label="Trigger duration 5" size="3" precision="2" unit="[[unit_short_second]]">
         <input>don5</input>
       </value>
       <separator height="1"/>
@@ -912,45 +898,45 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       </button>
     </view>
     <view label="Triggers">
-      <value label="Trigger on 0" size="1" precision="2" unit="s">
+      <value label="Trigger on 0" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on0</input>
       </value>
-      <value label="Trigger off 0" size="1" precision="2" unit="s">
+      <value label="Trigger off 0" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off0</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 1" size="1" precision="2" unit="s">
+      <value label="Trigger on 1" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on1</input>
       </value>
-      <value label="Trigger off 1" size="1" precision="2" unit="s">
+      <value label="Trigger off 1" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off1</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 2" size="1" precision="2" unit="s">
+      <value label="Trigger on 2" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on2</input>
       </value>
-      <value label="Trigger off 2" size="1" precision="2" unit="s">
+      <value label="Trigger off 2" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off2</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 3" size="1" precision="2" unit="s">
+      <value label="Trigger on 3" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on3</input>
       </value>
-      <value label="Trigger off 3" size="1" precision="2" unit="s">
+      <value label="Trigger off 3" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off3</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 4" size="1" precision="2" unit="s">
+      <value label="Trigger on 4" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on4</input>
       </value>
-      <value label="Trigger off 4" size="1" precision="2" unit="s">
+      <value label="Trigger off 4" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off4</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 5" size="1" precision="2" unit="s">
+      <value label="Trigger on 5" size="1" precision="2" unit="[[unit_short_second]]">
         <input>on5</input>
       </value>
-      <value label="Trigger off 5" size="1" precision="2" unit="s">
+      <value label="Trigger off 5" size="1" precision="2" unit="[[unit_short_second]]">
         <input>off5</input>
       </value>
       <separator height="1"/>

@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Centripetal acceleration</title>
   <category>Mechanics</category>
   <description>
@@ -29,8 +29,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Time">Zeit</string>
       <string original="Acceleration">Beschleunigung</string>
       <string original="Angular velocity">Winkelgeschwindigkeit</string>
-      <string original="Acceleration a (m/s²)">Beschleunigung a (m/s²)</string>
-      <string original="Angular velocity ω (rad/s)">Winkelgeschwindigkeit ω (rad/s)</string>
       <string original="Square plot">Quadratische Auftragung</string>
       <string original="Angular velocity ω">Winkelgeschwindigkeit ω</string>
       <string original="Acceleration a">Beschleunigung a</string>
@@ -46,8 +44,6 @@ Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti
 Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.
     </description>
       <string original="Acceleration">Zrychlení</string>
-      <string original="Angular velocity ω (rad/s)">Úhlová rychlost ω (rad/s)</string>
-      <string original="Acceleration a (m/s²)">Zrychlení a (m/s²)</string>
       <string original="Square plot">Graf druhé mocniny</string>
       <string original="Time">Čas</string>
       <string original="Angular velocity">Úhlová rychlost</string>
@@ -65,8 +61,6 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
     </description>
       <string original="Relation">Zależności</string>
       <string original="Acceleration">Przyspieszenie</string>
-      <string original="Angular velocity ω (rad/s)">Prędkość kątowa ω (rad/s)</string>
-      <string original="Acceleration a (m/s²)">Przyspieszenie a (m/s²)</string>
       <string original="Square plot">Zależność kwadratowa</string>
       <string original="Time">Czas</string>
       <string original="Angular velocity">Prędkość kątowa</string>
@@ -85,8 +79,6 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
     </description>
       <string original="Relation">Verband</string>
       <string original="Acceleration">Versnelling</string>
-      <string original="Angular velocity ω (rad/s)">Hoeksnelheid ω (rad/s)</string>
-      <string original="Acceleration a (m/s²)">Versnelling a (m/s²)</string>
       <string original="Square plot">Plot tegenover ω²</string>
       <string original="Time">Tijd</string>
       <string original="Angular velocity">Hoeksnelheid</string>
@@ -105,15 +97,10 @@ Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými
     </description>
       <string original="Relation">Соотношение</string>
       <string original="Acceleration">Ускорение</string>
-      <string original="Angular velocity ω (rad/s)">Угловая скорость ω (рад/с)</string>
-      <string original="Acceleration a (m/s²)">Ускорение a (м/с²)</string>
       <string original="Square plot">График квадратичной зависимости</string>
       <string original="ω² (rad/s)²">ω² (рад/с)²</string>
-      <string original="a (m/s²)">а (м/с²)</string>
       <string original="Time">Время</string>
-      <string original="t (s)">t (c)</string>
       <string original="Angular velocity">Угловая скорость</string>
-      <string original="ω (rad/s)">ω (рад/с)</string>
       <string original="Angular velocity ω">Угловая скорость ω</string>
       <string original="Acceleration a">Ускорение a</string>
     </translation>
@@ -129,8 +116,6 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
     </description>
       <string original="Relation">Relazione</string>
       <string original="Acceleration">Accelerazione</string>
-      <string original="Angular velocity ω (rad/s)">Velocità angolare ω (rad/s)</string>
-      <string original="Acceleration a (m/s²)">Accelerazione a (m/s²)</string>
       <string original="Square plot">Accelerazione vs ω²</string>
       <string original="Time">Tempo</string>
       <string original="Angular velocity">Velocità angolare</string>
@@ -149,14 +134,11 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
     </description>
       <string original="Relation">Σχέση</string>
       <string original="Acceleration">Επιτάχυνση</string>
-      <string original="Angular velocity ω (rad/s)">Γωνιακή ταχύτητα ω (rad/s)</string>
-      <string original="Acceleration a (m/s²)">Επιτάχυνση a (m/s²)</string>
       <string original="Square plot">Γράφημα α - ω²</string>
       <string original="Time">χρόνος</string>
       <string original="Angular velocity">Γωνιακή ταχύτητα</string>
       <string original="Angular velocity ω">Γωνιακή ταχύτητα ω</string>
       <string original="Acceleration a">Επιτάχυνση a</string>
-      <string original="a">α</string>
     </translation>
     <translation locale="ja">
       <title>向心加速度</title>
@@ -278,7 +260,6 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Acceleration a">加速度 a</string>
       <string original="Square plot">平方作图</string>
       <string original="Time">时间</string>
-      <string original="t">时间</string>
       <string original="Angular velocity">角速度</string>
     </translation>
     <translation locale="sr">
@@ -361,21 +342,21 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
   </input>
   <views>
     <view label="Relation">
-      <graph label="Acceleration" labelX="Angular velocity ω" unitX="rad/s" labelY="Acceleration a" unitY="m/s²" unitYperX="m/s" partialUpdate="false" style="dots">
+      <graph label="Acceleration" labelX="Angular velocity ω" unitX="[[unit_short_radian_per_second]]" labelY="Acceleration a" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="false" style="dots">
         <input axis="x">gyr</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="a" unitY="m/s²" unitYperX="m" partialUpdate="false" style="dots">
+      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
         <input axis="x">gyr_squared</input>
         <input axis="y">acc</input>
       </graph>
     </view>
     <view label="Time">
-      <graph label="Acceleration" timeOnX="true" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+      <graph label="Acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Angular velocity" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">gyr</input>
       </graph>

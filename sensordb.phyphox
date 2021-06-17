@@ -1,4 +1,4 @@
-<phyphox version="1.8" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Submit to sensor database</title>
   <category>phyphox.org</category>
   <color>white</color>
@@ -98,7 +98,6 @@ Cette expérience collectera des données techniques de votre téléphone et vos
     <translation locale="it">
       <string original="Gyroscope">Giroscopio</string>
       <string original="Magnetometer">Magnetometro</string>
-      <string original="lx">lux</string>
     </translation>
     <translation locale="ja">
       <string original="Results">結果</string>
@@ -121,15 +120,8 @@ Cette expérience collectera des données techniques de votre téléphone et vos
     </translation>
     <translation locale="ru">
       <string original="Results">Результаты</string>
-      <string original="Hz">Гц</string>
-      <string original="m/s²">м/с²</string>
       <string original="Gyroscope">Гироскоп</string>
-      <string original="rad/s">рад/с</string>
       <string original="Magnetometer">Магнитометр</string>
-      <string original="µT">мкТл</string>
-      <string original="hPa">гПа</string>
-      <string original="lx">лк</string>
-      <string original="cm">см</string>
       <title>Отправить в базу данных датчиков</title>
       <category>phyphox.org</category>
       <description>Отправьте информацию о датчиках в телефоне на phyphox.org.
@@ -228,22 +220,11 @@ Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gö
     </translation>
     <translation locale="zh_Hans">
       <string original="Results">结果</string>
-      <string original="Hz">赫兹</string>
       <string original="Gyroscope">陀螺仪</string>
       <string original="Magnetometer">磁力计</string>
-      <string original="lx">勒克斯</string>
-      <string original="cm">厘米</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Results">結果</string>
-      <string original="Hz">赫茲</string>
-      <string original="m/s²">公尺/秒²</string>
-      <string original="rad/s">弧度/秒</string>
-      <string original="µT">微特斯拉</string>
-      <string original="hPa">百帕</string>
-      <string original="%">百分比</string>
-      <string original="lx">勒克斯</string>
-      <string original="cm">公分</string>
     </translation>
     <translation locale="es">
       <title>Enviar a la base de datos del sensor</title>
@@ -1058,101 +1039,101 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
     </view>
     <view label="Results">
       <info label="Accelerometer" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>accelerometerRate</input>
       </value>
-      <value label="Average" unit="m/s²" precision="3">
+      <value label="Average" unit="[[unit_short_meter_per_square_second]]" precision="3">
         <input>accelerometerAvg</input>
       </value>
-      <value label="Standard deviation" unit="m/s²" precision="3">
+      <value label="Standard deviation" unit="[[unit_short_meter_per_square_second]]" precision="3">
         <input>accelerometerStd</input>
       </value>
       <separator height="1"/>
       <info label="Acceleration (without g)" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>linear_accelerationRate</input>
       </value>
-      <value label="Average" unit="m/s²" precision="3">
+      <value label="Average" unit="[[unit_short_meter_per_square_second]]" precision="3">
         <input>linear_accelerationAvg</input>
       </value>
-      <value label="Standard deviation" unit="m/s²" precision="3">
+      <value label="Standard deviation" unit="[[unit_short_meter_per_square_second]]" precision="3">
         <input>linear_accelerationStd</input>
       </value>
       <separator height="1"/>
       <info label="Gyroscope" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>gyroscopeRate</input>
       </value>
-      <value label="Average" unit="rad/s" precision="4">
+      <value label="Average" unit="[[unit_short_radian_per_second]]" precision="4">
         <input>gyroscopeAvg</input>
       </value>
-      <value label="Standard deviation" unit="rad/s" precision="4">
+      <value label="Standard deviation" unit="[[unit_short_radian_per_second]]" precision="4">
         <input>gyroscopeStd</input>
       </value>
       <separator height="1"/>
       <info label="Magnetometer" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>magnetic_fieldRate</input>
       </value>
-      <value label="Average" unit="µT" precision="2">
+      <value label="Average" unit="[[unit_short_micro_tesla]]" precision="2">
         <input>magnetic_fieldAvg</input>
       </value>
-      <value label="Standard deviation" unit="µT" precision="2">
+      <value label="Standard deviation" unit="[[unit_short_micro_tesla]]" precision="2">
         <input>magnetic_fieldStd</input>
       </value>
       <separator height="1"/>
       <info label="Barometer" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>pressureRate</input>
       </value>
-      <value label="Average" unit="hPa" precision="2">
+      <value label="Average" unit="[[unit_short_hecto_pascal]]" precision="2">
         <input>pressureAvg</input>
       </value>
-      <value label="Standard deviation" unit="hPa" precision="2">
+      <value label="Standard deviation" unit="[[unit_short_hecto_pascal]]" precision="2">
         <input>pressureStd</input>
       </value>
       <separator height="1"/>
       <info label="Temperature" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>temperatureRate</input>
       </value>
-      <value label="Average" unit="°C" precision="2">
+      <value label="Average" unit="[[unit_short_degree_celsius]]" precision="2">
         <input>temperatureAvg</input>
       </value>
-      <value label="Standard deviation" unit="°C" precision="2">
+      <value label="Standard deviation" unit="[[unit_short_degree_celsius]]" precision="2">
         <input>temperatureStd</input>
       </value>
       <separator height="1"/>
       <info label="Humidity" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>humidityRate</input>
       </value>
-      <value label="Average" unit="%" precision="2">
+      <value label="Average" unit="[[unit_short_percent]]" precision="2">
         <input>humidityAvg</input>
       </value>
-      <value label="Standard deviation" unit="%" precision="2">
+      <value label="Standard deviation" unit="[[unit_short_percent]]" precision="2">
         <input>humidityStd</input>
       </value>
       <separator height="1"/>
       <info label="Light" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>lightRate</input>
       </value>
-      <value label="Average" unit="lx" precision="1">
+      <value label="Average" unit="[[unit_short_lux]]" precision="1">
         <input>lightAvg</input>
       </value>
-      <value label="Standard deviation" unit="lx" precision="1">
+      <value label="Standard deviation" unit="[[unit_short_lux]]" precision="1">
         <input>lightStd</input>
       </value>
       <separator height="1"/>
       <info label="Proximity" align="center" bold="true" size="1.5"/>
-      <value label="Rate" unit="Hz" precision="1">
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
         <input>proximityRate</input>
       </value>
-      <value label="Average" unit="cm" precision="0">
+      <value label="Average" unit="[[unit_short_centi_meter]]" precision="0">
         <input>proximityAvg</input>
       </value>
-      <value label="Standard deviation" unit="cm" precision="0">
+      <value label="Standard deviation" unit="[[unit_short_centi_meter]]" precision="0">
         <input>proximityStd</input>
       </value>
     </view>

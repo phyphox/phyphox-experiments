@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Audio Spectrum</title>
   <category>Acoustics</category>
   <icon format="base64">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</icon>
@@ -23,7 +23,6 @@
       <string original="Settings">Einstellungen</string>
       <string original="Raw data">Rohdaten</string>
       <string original="Recording">Aufnahme</string>
-      <string original="Frequency (Hz)">Frequenz (Hz)</string>
       <string original="Musical note">Note (Musik)</string>
       <string original="Cents from note">Cent über Note</string>
       <string original="Samples used">Genutzte Werte</string>
@@ -54,8 +53,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="High">Vysoká</string>
       <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
       <string original="Fourier Transform">Fourierova transformace</string>
-      <string original="Frequency (Hz)">Frekvence (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT Mag</string>
       <string original="Samples used">Počet vzorků</string>
       <string original="Period used">Použitá perioda</string>
       <string original="Settings">Nastavení</string>
@@ -63,7 +60,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Vzorků</string>
       <string original="Raw data">Neupravená data</string>
       <string original="Recording">Záznam</string>
-      <string original="Amplitude (a.u.)">Amplituda</string>
       <string original="Frequency">Frekvence</string>
       <string original="History">Historie</string>
       <string original="Time">Čas</string>
@@ -84,8 +80,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="High">Wysoka</string>
       <string original="Cents from note">Odstępstwo od tonu</string>
       <string original="Fourier Transform">Transformata Fourier'a</string>
-      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string>
       <string original="Samples used">Rejestrowana próba</string>
       <string original="Period used">Rejestrowany czas</string>
       <string original="Settings">Ustawienia</string>
@@ -93,7 +87,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Liczba próbek</string>
       <string original="Raw data">Surowe dane</string>
       <string original="Recording">Nagranie</string>
-      <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
       <string original="Frequency">Częstotliwość</string>
       <string original="History">Historia</string>
       <string original="Time">Czas</string>
@@ -113,7 +106,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="High">Hoog</string>
       <string original="Cents from note">Centen (van noot)</string>
       <string original="Fourier Transform">Fourier Transformatie</string>
-      <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Samples used">Gebruikte monsters</string>
       <string original="Period used">Tijdsduur</string>
       <string original="Settings">Instellingen</string>
@@ -138,21 +130,9 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Peak-Frequency">Частота пиков</string>
       <string original="Musical note">Музыкальная нота</string>
       <string original="Low">Низкая</string>
-      <string original="A#2 / Bb2">A#2 / Hb2</string>
-      <string original="B2">H2</string>
-      <string original="A#3 / Bb3">A#3 / Hb3</string>
-      <string original="B3">H3</string>
-      <string original="A#4 / Bb4">A#4 / Hb4</string>
-      <string original="B4">H4</string>
-      <string original="A#5 / Bb5">A#5 / Hb5</string>
-      <string original="B5">H5</string>
-      <string original="A#6 / Bb6">A#6 / Hb6</string>
-      <string original="B6">H6</string>
       <string original="High">Низкая</string>
       <string original="Cents from note">Сотые части ноты</string>
       <string original="Fourier Transform">Преобразование Фурье</string>
-      <string original="Frequency (Hz)">Частота (Гц)</string>
-      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
       <string original="Samples used">Используемые образцы</string>
       <string original="Period used">Используемый период</string>
       <string original="Settings">Настройки</string>
@@ -160,10 +140,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Дискретизация</string>
       <string original="Raw data">Исходные данные</string>
       <string original="Recording">Запись</string>
-      <string original="t (s)">t (c)</string>
-      <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
-      <string original="Hz">Гц</string>
-      <string original="ms">мс</string>
       <string original="Frequency">Частота</string>
       <string original="FFT Mag">Величина FFT</string>
       <string original="History">История</string>
@@ -186,79 +162,16 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Peak-Frequency">Frequenza di picco</string>
       <string original="Musical note">Nota musicale</string>
       <string original="Low">Bassa</string>
-      <string original="A2">La 2</string>
-      <string original="A#2 / Bb2">La #/Si b 2</string>
-      <string original="B2">Si 2</string>
-      <string original="C3">Do 3</string>
-      <string original="C#3 / Db3">Do # / Re b3</string>
-      <string original="D3">Re 3</string>
-      <string original="D#3 / Eb3">Re # / Mi b 3</string>
-      <string original="E3">Mi 3</string>
-      <string original="F3">Fa 3</string>
-      <string original="F#3 / Gb3">Fa # / Sol b 3</string>
-      <string original="G3">Sol 3</string>
-      <string original="G#3 / Ab3">Sol # / La b 3</string>
-      <string original="A3">La 3</string>
-      <string original="A#3 / Bb3">La # / Si b 3</string>
-      <string original="B3">Si 3</string>
-      <string original="C4">Do 4</string>
-      <string original="C#4 / Db4">Do # / Re b 4</string>
-      <string original="D4">Re 4</string>
-      <string original="D#4 / Eb4">Re # / Mi b 4</string>
-      <string original="E4">Mi 4</string>
-      <string original="F4">Fa 4</string>
-      <string original="F#4 / Gb4">Fa # / Sol b 4</string>
-      <string original="G4">Sol 4</string>
-      <string original="G#4 / Ab4">Sol # / La b 4</string>
-      <string original="A4">La 4</string>
-      <string original="A#4 / Bb4">La # / Si b 4</string>
-      <string original="B4">Si 4</string>
-      <string original="C5">Do 5</string>
-      <string original="C#5 / Db5">Do # / Re b 5</string>
-      <string original="D5">Re 5</string>
-      <string original="D#5 / Eb5">Re # / Mi b 5</string>
-      <string original="E5">Mi 5</string>
-      <string original="F5">Fa 5</string>
-      <string original="F#5 / Gb5">Fa # / Sol b 5</string>
-      <string original="G5">Sol 5</string>
-      <string original="G#5 / Ab5">Sol # / La b 5</string>
-      <string original="A5">La 5</string>
-      <string original="A#5 / Bb5">La # / Si b 5</string>
-      <string original="B5">Si 5</string>
-      <string original="C6">Do 6</string>
-      <string original="C#6 / Db6">Do # / Re b 6</string>
-      <string original="D6">Re 6</string>
-      <string original="D#6 / Eb6">Re # / Mi b 6</string>
-      <string original="E6">Mi 6</string>
-      <string original="F6">Fa 6</string>
-      <string original="F#6 / Gb6">Fa # / Sol b 6</string>
-      <string original="G6">Sol 6</string>
-      <string original="G#6 / Ab6">Sol # / La b 6</string>
-      <string original="A6">La 6</string>
-      <string original="A#6 / Bb6">La # / Si b 6</string>
-      <string original="B6">Si 6</string>
-      <string original="C7">Do 7</string>
-      <string original="C#7 / Db7">Do # / Re b 7</string>
-      <string original="D7">Re 7</string>
-      <string original="D#7 / Eb7">Re # / Mi b 7</string>
-      <string original="E7">Mi 7</string>
-      <string original="F7">Fa 7</string>
-      <string original="F#7 / Gb7">Fa # / Sol b 7</string>
-      <string original="G7">Sol 7</string>
-      <string original="G#7 / Ab7">Sol # / La b 7</string>
       <string original="High">Alta</string>
       <string original="Cents from note">Centesimi di nota</string>
       <string original="Fourier Transform">Trasformata di Fourier</string>
-      <string original="Frequency (Hz)">Frequenza (Hz)</string>
       <string original="Samples used">Campioni usati</string>
       <string original="Period used">Periodo usato</string>
       <string original="Settings">Impostazioni</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
       <string original="Samples">Campioni di dati</string>
-      <string original="32768">32786</string>
       <string original="Raw data">Dati grezzi</string>
       <string original="Recording">Registrazione</string>
-      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
       <string original="Frequency">Frequenza</string>
       <string original="History">Andamento</string>
       <string original="Time">Tempo</string>
@@ -280,8 +193,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="High">Υψηλή</string>
       <string original="Cents from note">Εκατοστά από τη νότα</string>
       <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
-      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT πλάτος (α.μ)</string>
       <string original="Samples used">Πλήθος δειγμάτων</string>
       <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
       <string original="Settings">Ρυθμίσεις</string>
@@ -289,7 +200,6 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Samples">Δείγματα</string>
       <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Recording">Εγγραφή</string>
-      <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
       <string original="Time">χρόνος</string>
@@ -391,7 +301,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </description>
       <string original="Spectrum">加速頻譜</string>
       <string original="Peak-Frequency">峰值頻率</string>
-      <string original="Hz">赫茲</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
       <string original="High">高</string>
@@ -400,7 +309,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Frequency">頻率</string>
       <string original="Samples used">使用樣本數</string>
       <string original="Period used">使用週期數</string>
-      <string original="ms">毫秒</string>
       <string original="History">歷史紀錄</string>
       <string original="Time">時間</string>
       <string original="Settings">設定</string>
@@ -423,66 +331,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Peak-Frequency">Fréquence du pic</string>
       <string original="Musical note">Note Musicale</string>
       <string original="Low">Basse</string>
-      <string original="A2">La 1</string>
-      <string original="A#2 / Bb2">La# 1 / Sib 1</string>
-      <string original="B2">Si 1</string>
-      <string original="C3">Do 2</string>
-      <string original="C#3 / Db3">Do# 2 / Réb 2</string>
-      <string original="D3">Ré 2</string>
-      <string original="D#3 / Eb3">Ré# 2 / Mib 2</string>
-      <string original="E3">Mi 2</string>
-      <string original="F3">Fa 2</string>
-      <string original="F#3 / Gb3">Fa# 2 / Solb 2</string>
-      <string original="G3">Sol 2</string>
-      <string original="G#3 / Ab3">Sol# 2 / Lab 2</string>
-      <string original="A3">La 2</string>
-      <string original="A#3 / Bb3">La# 2 / Sib 2</string>
-      <string original="B3">Si 2</string>
-      <string original="C4">Do 3</string>
-      <string original="C#4 / Db4">Do# 3 / Réb 3</string>
-      <string original="D4">Ré 3</string>
-      <string original="D#4 / Eb4">Ré# 3 / Mib 3</string>
-      <string original="E4">Mi 3</string>
-      <string original="F4">Fa 3</string>
-      <string original="F#4 / Gb4">Fa# 3 / Solb 3</string>
-      <string original="G4">Sol 3</string>
-      <string original="G#4 / Ab4">Sol# 3 / Lab 3</string>
-      <string original="A4">La 3</string>
-      <string original="A#4 / Bb4">La# 3 / Sib 3</string>
-      <string original="B4">Si 3</string>
-      <string original="C5">Do 4</string>
-      <string original="C#5 / Db5">Do# 4 / Réb 4</string>
-      <string original="D5">Ré 4</string>
-      <string original="D#5 / Eb5">Ré# 4 / Mib 4</string>
-      <string original="E5">Mi 4</string>
-      <string original="F5">Fa 4</string>
-      <string original="F#5 / Gb5">Fa# 4 / Solb 4</string>
-      <string original="G5">Sol 4</string>
-      <string original="G#5 / Ab5">Sol# 4 / Lab 4</string>
-      <string original="A5">La 4</string>
-      <string original="A#5 / Bb5">La# 4 / Sib 4</string>
-      <string original="B5">Si 4</string>
-      <string original="C6">Do 5</string>
-      <string original="C#6 / Db6">Do# 5 / Réb 5</string>
-      <string original="D6">Ré 5</string>
-      <string original="D#6 / Eb6">Ré# 5 / Mib 5</string>
-      <string original="E6">Mi 5</string>
-      <string original="F6">Fa 5</string>
-      <string original="F#6 / Gb6">Fa# 5 / Solb 5</string>
-      <string original="G6">Sol 5</string>
-      <string original="G#6 / Ab6">Sol# 5 / Lab 5</string>
-      <string original="A6">La 5</string>
-      <string original="A#6 / Bb6">La# 5 / Sib 5</string>
-      <string original="B6">Si 5</string>
-      <string original="C7">Do 6</string>
-      <string original="C#7 / Db7">Do# 6 / Réb 6</string>
-      <string original="D7">Ré 6</string>
-      <string original="D#7 / Eb7">Ré# 6 / Mib 6</string>
-      <string original="E7">Mi 6</string>
-      <string original="F7">Fa 6</string>
-      <string original="F#7 / Gb7">Fa# 6 / Solb 6</string>
-      <string original="G7">Sol 6</string>
-      <string original="G#7 / Ab7">Sol# 6 / Lab 6</string>
       <string original="High">Haute</string>
       <string original="Cents from note">différence avec la note idéale (en cents)</string>
       <string original="Fourier Transform">Transformée de Fourier</string>
@@ -538,7 +386,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </description>
       <string original="Spectrum">加速度频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
       <string original="High">高</string>
@@ -555,7 +402,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Samples">样本数</string>
       <string original="Raw data">原始数据</string>
       <string original="Recording">录制</string>
-      <string original="t">时间</string>
       <string original="Amplitude">振幅</string>
       <string original="Status">状态</string>
     </translation>
@@ -625,17 +471,6 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Peak-Frequency">Pico de frecuencia</string>
       <string original="Musical note">Nota musical</string>
       <string original="Low">Bajo</string>
-      <string original="A#2 / Bb2">A#2/ Bb2</string>
-      <string original="C#3 / Db3">C#3/Db3</string>
-      <string original="D#3 / Eb3">D#3/Eb3</string>
-      <string original="F#3 / Gb3">F#3/Gb3</string>
-      <string original="G#3 / Ab3">G#3/Ab3</string>
-      <string original="A#3 / Bb3">A#3/Bb3</string>
-      <string original="C#4 / Db4">C#4/Db4</string>
-      <string original="D#4 / Eb4">D#4/Eb4</string>
-      <string original="F#4 / Gb4">F#4/Gb4</string>
-      <string original="G#4 / Ab4">G#4/Ab4</string>
-      <string original="C#6 / Db6">C#6 /Db6</string>
       <string original="High">Alto</string>
       <string original="Cents from note">Cents de nota</string>
       <string original="Fourier Transform">Transformada de Fourier</string>
@@ -715,80 +550,80 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
   </output>
   <views>
     <view label="Spectrum">
-      <value label="Peak-Frequency" unit="Hz">
+      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
         <input>f0</input>
       </value>
       <separator height="1"/>
       <value label="Musical note">
         <input>semitonesRound</input>
         <map max="-25">Low</map>
-        <map max="-24">A2</map>
-        <map max="-23">A#2 / Bb2</map>
-        <map max="-22">B2</map>
-        <map max="-21">C3</map>
-        <map max="-20">C#3 / Db3</map>
-        <map max="-19">D3</map>
-        <map max="-18">D#3 / Eb3</map>
-        <map max="-17">E3</map>
-        <map max="-16">F3</map>
-        <map max="-15">F#3 / Gb3</map>
-        <map max="-14">G3</map>
-        <map max="-13">G#3 / Ab3</map>
-        <map max="-12">A3</map>
-        <map max="-11">A#3 / Bb3</map>
-        <map max="-10">B3</map>
-        <map max="-9">C4</map>
-        <map max="-8">C#4 / Db4</map>
-        <map max="-7">D4</map>
-        <map max="-6">D#4 / Eb4</map>
-        <map max="-5">E4</map>
-        <map max="-4">F4</map>
-        <map max="-3">F#4 / Gb4</map>
-        <map max="-2">G4</map>
-        <map max="-1">G#4 / Ab4</map>
-        <map max="0">A4</map>
-        <map max="1">A#4 / Bb4</map>
-        <map max="2">B4</map>
-        <map max="3">C5</map>
-        <map max="4">C#5 / Db5</map>
-        <map max="5">D5</map>
-        <map max="6">D#5 / Eb5</map>
-        <map max="7">E5</map>
-        <map max="8">F5</map>
-        <map max="9">F#5 / Gb5</map>
-        <map max="10">G5</map>
-        <map max="11">G#5 / Ab5</map>
-        <map max="12">A5</map>
-        <map max="13">A#5 / Bb5</map>
-        <map max="14">B5</map>
-        <map max="15">C6</map>
-        <map max="16">C#6 / Db6</map>
-        <map max="17">D6</map>
-        <map max="18">D#6 / Eb6</map>
-        <map max="19">E6</map>
-        <map max="20">F6</map>
-        <map max="21">F#6 / Gb6</map>
-        <map max="22">G6</map>
-        <map max="23">G#6 / Ab6</map>
-        <map max="24">A6</map>
-        <map max="25">A#6 / Bb6</map>
-        <map max="26">B6</map>
-        <map max="27">C7</map>
-        <map max="28">C#7 / Db7</map>
-        <map max="29">D7</map>
-        <map max="30">D#7 / Eb7</map>
-        <map max="31">E7</map>
-        <map max="32">F7</map>
-        <map max="33">F#7 / Gb7</map>
-        <map max="34">G7</map>
-        <map max="35">G#7 / Ab7</map>
+        <map max="-24">[[musical_note_a2]]</map>
+        <map max="-23">[[musical_note_bb2]]</map>
+        <map max="-22">[[musical_note_b2]]</map>
+        <map max="-21">[[musical_note_c3]]</map>
+        <map max="-20">[[musical_note_db3]]</map>
+        <map max="-19">[[musical_note_d3]]</map>
+        <map max="-18">[[musical_note_eb3]]</map>
+        <map max="-17">[[musical_note_e3]]</map>
+        <map max="-16">[[musical_note_f3]]</map>
+        <map max="-15">[[musical_note_gb3]]</map>
+        <map max="-14">[[musical_note_g3]]</map>
+        <map max="-13">[[musical_note_ab3]]</map>
+        <map max="-12">[[musical_note_a3]]</map>
+        <map max="-11">[[musical_note_bb3]]</map>
+        <map max="-10">[[musical_note_b3]]</map>
+        <map max="-9">[[musical_note_c4]]</map>
+        <map max="-8">[[musical_note_db4]]</map>
+        <map max="-7">[[musical_note_d4]]</map>
+        <map max="-6">[[musical_note_eb4]]</map>
+        <map max="-5">[[musical_note_e4]]</map>
+        <map max="-4">[[musical_note_f4]]</map>
+        <map max="-3">[[musical_note_gb4]]</map>
+        <map max="-2">[[musical_note_g4]]</map>
+        <map max="-1">[[musical_note_ab4]]</map>
+        <map max="0">[[musical_note_a4]]</map>
+        <map max="1">[[musical_note_bb4]]</map>
+        <map max="2">[[musical_note_b4]]</map>
+        <map max="3">[[musical_note_c5]]</map>
+        <map max="4">[[musical_note_db5]]</map>
+        <map max="5">[[musical_note_d5]]</map>
+        <map max="6">[[musical_note_eb5]]</map>
+        <map max="7">[[musical_note_e5]]</map>
+        <map max="8">[[musical_note_f5]]</map>
+        <map max="9">[[musical_note_gb5]]</map>
+        <map max="10">[[musical_note_g5]]</map>
+        <map max="11">[[musical_note_ab5]]</map>
+        <map max="12">[[musical_note_a5]]</map>
+        <map max="13">[[musical_note_bb5]]</map>
+        <map max="14">[[musical_note_b5]]</map>
+        <map max="15">[[musical_note_c6]]</map>
+        <map max="16">[[musical_note_db6]]</map>
+        <map max="17">[[musical_note_d6]]</map>
+        <map max="18">[[musical_note_eb6]]</map>
+        <map max="19">[[musical_note_e6]]</map>
+        <map max="20">[[musical_note_f6]]</map>
+        <map max="21">[[musical_note_gb6]]</map>
+        <map max="22">[[musical_note_g6]]</map>
+        <map max="23">[[musical_note_ab6]]</map>
+        <map max="24">[[musical_note_a6]]</map>
+        <map max="25">[[musical_note_bb6]]</map>
+        <map max="26">[[musical_note_b6]]</map>
+        <map max="27">[[musical_note_c7]]</map>
+        <map max="28">[[musical_note_db7]]</map>
+        <map max="29">[[musical_note_d7]]</map>
+        <map max="30">[[musical_note_eb7]]</map>
+        <map max="31">[[musical_note_e7]]</map>
+        <map max="32">[[musical_note_f7]]</map>
+        <map max="33">[[musical_note_gb7]]</map>
+        <map max="34">[[musical_note_g7]]</map>
+        <map max="35">[[musical_note_ab7]]</map>
         <map min="35">High</map>
       </value>
       <value label="Cents from note">
         <input>centsDiff</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency" unitX="Hz" labelY="FFT Mag" unitY="a.u.">
+      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -796,17 +631,17 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <value label="Samples used">
         <input>actual_samples</input>
       </value>
-      <value label="Period used" unit="ms" precision="2" factor="1000">
+      <value label="Period used" unit="[[unit_short_milli_second]]" precision="2" factor="1000">
         <input>period</input>
       </value>
     </view>
     <view label="History">
-      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="Hz" labelY="Time" unitY="s" labelZ="FFT Mag" unitZ="a.u." aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
         <input axis="x">fmap</input>
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
-      <graph label="History" timeOnX="true" labelX="Time" unitX="s" labelY="Peak-Frequency" unitY="Hz" partialUpdate="true" style="dots">
+      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">f0</input>
       </graph>
@@ -856,7 +691,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       </value>
     </view>
     <view label="Raw data">
-      <graph label="Recording" labelX="t" unitX="s" labelY="Amplitude" unitY="a.u.">
+      <graph label="Recording" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">time</input>
         <input axis="y">recording_subrange</input>
       </graph>

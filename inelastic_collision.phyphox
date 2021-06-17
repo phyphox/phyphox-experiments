@@ -1,4 +1,4 @@
-<phyphox version="1.4" locale="en">
+<phyphox version="1.14" locale="en">
   <title>(In)elastic collision</title>
   <category>Mechanics</category>
   <icon format="base64">
@@ -218,9 +218,6 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Threshold">Порог</string>
       <string original="Minimum Delay">Минимальная задержка</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
-      <string original="cm">см</string>
-      <string original="s">с</string>
-      <string original="a.u.">пр. е.</string>
     </translation>
     <translation locale="it">
       <title>Collisione (an)elastica</title>
@@ -302,7 +299,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Threshold">Κατώφλι ενεργοπ.</string>
       <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>(非) 弾性衝突</title>
@@ -442,10 +438,8 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </description>
       <string original="Heights">高度</string>
       <string original="Height 0">高度 0</string>
-      <string original="cm">公分</string>
       <string original="Height 1">高度 1</string>
       <string original="Time 1">時間 1</string>
-      <string original="s">秒</string>
       <string original="Height 2">高度 2</string>
       <string original="Time 2">時間 2</string>
       <string original="Height 3">高度 3</string>
@@ -457,7 +451,6 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Reset">重置</string>
       <string original="Energy">能量</string>
       <string original="Energy 1">能量 1</string>
-      <string original="%">百分比</string>
       <string original="Energy 2">能量 2</string>
       <string original="Retained on collision 2">於碰撞2中保持</string>
       <string original="Energy 3">能量 3</string>
@@ -570,10 +563,8 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </description>
       <string original="Heights">高度</string>
       <string original="Height 0">高度 0</string>
-      <string original="cm">厘米</string>
       <string original="Height 1">高度 1</string>
       <string original="Time 1">时间 1</string>
-      <string original="s">秒</string>
       <string original="Height 2">高度 2</string>
       <string original="Time 2">时间 2</string>
       <string original="Height 3">高度 3</string>
@@ -787,52 +778,52 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
   </input>
   <views>
     <view label="Heights">
-      <value label="Height 0" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 0" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h0</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Height 1" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 1" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h1</input>
         <map max="0">-</map>
       </value>
-      <value label="Time 1" precision="3" unit="s">
+      <value label="Time 1" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Height 2" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 2" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h2</input>
         <map max="0">-</map>
       </value>
-      <value label="Time 2" precision="3" unit="s">
+      <value label="Time 2" precision="3" unit="[[unit_short_second]]">
         <input>dt12</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Height 3" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 3" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h3</input>
         <map max="0">-</map>
       </value>
-      <value label="Time 3" precision="3" unit="s">
+      <value label="Time 3" precision="3" unit="[[unit_short_second]]">
         <input>dt23show</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Height 4" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 4" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h4</input>
         <map max="0">-</map>
       </value>
-      <value label="Time 4" precision="3" unit="s">
+      <value label="Time 4" precision="3" unit="[[unit_short_second]]">
         <input>dt34show</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Height 5" size="2" precision="2" unit="cm" factor="100">
+      <value label="Height 5" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
         <input>h5</input>
         <map max="0">-</map>
       </value>
-      <value label="Time 5" precision="3" unit="s">
+      <value label="Time 5" precision="3" unit="[[unit_short_second]]">
         <input>dt45show</input>
         <map max="0">-</map>
       </value>
@@ -855,50 +846,50 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       </button>
     </view>
     <view label="Energy">
-      <value label="Energy 1" size="2" precision="1" unit="%" factor="100">
+      <value label="Energy 1" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E1</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Energy 2" size="2" precision="1" unit="%" factor="100">
+      <value label="Energy 2" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E2</input>
         <map max="0">-</map>
       </value>
-      <value label="Retained on collision 2" precision="1" unit="%" factor="100">
+      <value label="Retained on collision 2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E12</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Energy 3" size="2" precision="1" unit="%" factor="100">
+      <value label="Energy 3" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E3</input>
         <map max="0">-</map>
       </value>
-      <value label="Retained on collision 3" precision="1" unit="%" factor="100">
+      <value label="Retained on collision 3" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E23</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Energy 4" size="2" precision="1" unit="%" factor="100">
+      <value label="Energy 4" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E4</input>
         <map max="0">-</map>
       </value>
-      <value label="Retained on collision 4" precision="1" unit="%" factor="100">
+      <value label="Retained on collision 4" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E34</input>
         <map max="0">-</map>
       </value>
       <separator height="1"/>
-      <value label="Energy 5" size="2" precision="1" unit="%" factor="100">
+      <value label="Energy 5" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E5</input>
         <map max="0">-</map>
       </value>
-      <value label="Retained on collision 5" precision="1" unit="%" factor="100">
+      <value label="Retained on collision 5" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>E45</input>
         <map max="0">-</map>
       </value>
       <separator height="0.5"/>
       <separator color="a0a0a0"/>
       <separator height="0.5"/>
-      <value label="Average retained" size="2" precision="1" unit="%" factor="100">
+      <value label="Average retained" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
         <input>dEavg</input>
       </value>
       <separator height="0.5"/>
@@ -925,7 +916,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
         <output>threshold</output>
       </edit>
-      <edit label="Minimum Delay" unit="s" default="0.1" signed="false">
+      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.1" signed="false">
         <output>mindelay</output>
       </edit>
       <separator height="1"/>

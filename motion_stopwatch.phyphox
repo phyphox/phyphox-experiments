@@ -1,4 +1,4 @@
-<phyphox version="1.7" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Motion Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -196,9 +196,6 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Time 4">Время 4</string>
       <string original="Time 5">Время 5</string>
       <string original="Parallel">Сравнить</string>
-      <string original="m/s²">м/с²</string>
-      <string original="s">с</string>
-      <string original="Hz">Гц</string>
       <string original="Many">Многие</string>
       <string original="Events">События</string>
       <string original="Event number">Номер события</string>
@@ -270,7 +267,6 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate">Μέσος ρυθμός</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>動作ストップウォッチ</title>
@@ -382,9 +378,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
     </description>
       <string original="Simple">簡易</string>
       <string original="Threshold">門檻</string>
-      <string original="m/s²">公尺/秒²</string>
       <string original="Minimum Delay">最小延遲</string>
-      <string original="s">秒</string>
       <string original="Time">時間</string>
       <string original="Reset">重置</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">調整門檻比噪音值高，但比觸發之加速度（你可以利用不含重力之加速儀查看此值）還小。另外，你也可以調整最小延遲以避免小於該時間的觸發。</string>
@@ -396,7 +390,6 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time 4">時間 4</string>
       <string original="Time 5">時間 5</string>
       <string original="Parallel">平行序列</string>
-      <string original="Hz">赫茲</string>
     </translation>
     <translation locale="fr">
       <title>Chronomètre de mouvement</title>
@@ -476,7 +469,6 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Simple">简明值</string>
       <string original="Threshold">阈值</string>
       <string original="Minimum Delay">最小时延</string>
-      <string original="s">秒</string>
       <string original="Time">时间</string>
       <string original="Reset">复位</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">调整阈值使其高于传感器噪声级，但低于触发的加速度（你可以利用不含g的重力加速度试验检测该值）。同时，设置最小时延，来避免比时延更短时产生触发。</string>
@@ -494,7 +486,6 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time interval">事件间隔</string>
       <string original="Average interval">平均间隔</string>
       <string original="Average rate">平均频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
     </translation>
     <translation locale="sr">
@@ -599,13 +590,13 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
   </input>
   <views>
     <view label="Simple">
-      <edit label="Threshold" unit="m/s²" default="1" signed="false" min="0">
+      <edit label="Threshold" unit="[[unit_short_meter_per_square_second]]" default="1" signed="false" min="0">
         <output>threshold</output>
       </edit>
-      <edit label="Minimum Delay" unit="s" default="0.2" signed="false" min="0">
+      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.2" signed="false" min="0">
         <output>mindelay</output>
       </edit>
-      <value label="Time" size="3" precision="3" unit="s">
+      <value label="Time" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
       <button label="Reset">
@@ -618,19 +609,19 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <info label="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second."/>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="3" unit="s">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="s">
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="s">
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="s">
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="s">
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -640,19 +631,19 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="3" unit="s">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="s">
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="s">
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="s">
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="s">
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -662,14 +653,14 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       </button>
     </view>
     <view label="Many">
-      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="s">
+      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
-      <value label="Average interval" size="2" precision="3" unit="s">
+      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
         <input>avgInterval</input>
       </value>
-      <value label="Average rate" size="2" precision="2" unit="Hz">
+      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
         <input>avgRate</input>
       </value>
       <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">

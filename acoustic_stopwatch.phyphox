@@ -1,4 +1,4 @@
-<phyphox version="1.7" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Acoustic Stopwatch</title>
   <category>Timers</category>
   <description>
@@ -201,9 +201,6 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time 4">Время 4</string>
       <string original="Time 5">Время 5</string>
       <string original="Parallel">Сравнить</string>
-      <string original="a.u.">пр. е.</string>
-      <string original="s">с</string>
-      <string original="Hz">Гц</string>
       <string original="Many">Многие</string>
       <string original="Events">События</string>
       <string original="Event number">Номер события</string>
@@ -273,7 +270,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate">Μέσος ρυθμός</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>音響ストップウォッチ</title>
@@ -319,7 +315,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
     </description>
       <string original="Simple">Simples</string>
       <string original="Threshold">Limiar</string>
-      <string original="a.u.">u.a.</string>
       <string original="Minimum Delay">Intervalo Mínimo</string>
       <string original="Time">Tempo</string>
       <string original="Reset">Reiniciar</string>
@@ -385,7 +380,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Simple">簡易</string>
       <string original="Threshold">門檻</string>
       <string original="Minimum Delay">最小延遲</string>
-      <string original="s">秒</string>
       <string original="Time">時間</string>
       <string original="Reset">重置</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">你可以調整門檻使之高於環境音量，但其必須小於處發聲音的音量（你可以利用聲學觀測器查看），並且調整最小延遲以防止重複觸發（如回音或反射的實驗）。</string>
@@ -397,7 +391,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Time 4">時間 4</string>
       <string original="Time 5">時間 5</string>
       <string original="Parallel">平行序列</string>
-      <string original="Hz">赫茲</string>
     </translation>
     <translation locale="fr">
       <title>Chronomètre sonore</title>
@@ -411,7 +404,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
     </description>
       <string original="Simple">Composantes</string>
       <string original="Threshold">Seuil</string>
-      <string original="a.u.">u.a.</string>
       <string original="Minimum Delay">Délai minimum</string>
       <string original="Time">Durée</string>
       <string original="Reset">Remise à zéro</string>
@@ -464,7 +456,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Average rate">Tần số trung bình</string>
       <string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string>
       <string original="1/min">1/phút</string>
-      <string original="a.u.">đ.v.t.y</string>
     </translation>
     <translation locale="zh_Hans">
       <title>声学秒表</title>
@@ -478,9 +469,7 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
     </description>
       <string original="Simple">简明值</string>
       <string original="Threshold">阈值</string>
-      <string original="a.u.">相对值</string>
       <string original="Minimum Delay">最小时延</string>
-      <string original="s">秒</string>
       <string original="Time">时间</string>
       <string original="Reset">复位</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">调整阈值使其高于环境噪音，但低于触发值（可以尝试利用“音频范围”检测这些值）。并设置最小时延来避免重复触发（例如回声或混响）。</string>
@@ -498,7 +487,6 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <string original="Time interval">事件间隔</string>
       <string original="Average interval">平均间隔</string>
       <string original="Average rate">平均频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
     </translation>
     <translation locale="sr">
@@ -603,13 +591,13 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
   </input>
   <views>
     <view label="Simple">
-      <edit label="Threshold" unit="a.u." default="0.1" signed="false" min="0" max="1">
+      <edit label="Threshold" unit="[[unit_short_arbitrary_unit]]" default="0.1" signed="false" min="0" max="1">
         <output>threshold</output>
       </edit>
-      <edit label="Minimum Delay" unit="s" default="0.1" signed="false">
+      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.1" signed="false">
         <output>mindelay</output>
       </edit>
-      <value label="Time" size="3" precision="3" unit="s">
+      <value label="Time" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
       <button label="Reset">
@@ -624,19 +612,19 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected."/>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="3" unit="s">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="s">
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="s">
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="s">
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="s">
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -648,19 +636,19 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="3" unit="s">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="s">
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="s">
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="s">
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="s">
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -672,14 +660,14 @@ Questo esperimento permette di misurare il tempo fra due segnali acustici. Quest
       </button>
     </view>
     <view label="Many">
-      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="s">
+      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
-      <value label="Average interval" size="2" precision="3" unit="s">
+      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
         <input>avgInterval</input>
       </value>
-      <value label="Average rate" size="2" precision="2" unit="Hz">
+      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
         <input>avgRate</input>
       </value>
       <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">

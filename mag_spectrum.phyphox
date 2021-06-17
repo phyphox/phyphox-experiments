@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Magnetic Spectrum</title>
   <category>Tools</category>
   <icon format="base64">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
@@ -23,7 +23,6 @@
       <string original="Fourier Transform">Fourier-Transformierte</string>
       <string original="Settings">Einstellungen</string>
       <string original="Raw data">Rohdaten</string>
-      <string original="Frequency (Hz)">Frequenz (Hz)</string>
       <string original="Samples used">Genutzte Werte</string>
       <string original="Period used">Genutzte Periode</string>
       <string original="Acquisition rate">Aufnahmerate</string>
@@ -48,8 +47,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Spectrum">Spektrum</string>
       <string original="Peak-Frequency">Maximální frekvence</string>
       <string original="Fourier Transform">Fourierova transformace</string>
-      <string original="Frequency (Hz)">Frekvence (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT Mag</string>
       <string original="Samples used">Počet vzorků</string>
       <string original="Period used">Použitá perioda</string>
       <string original="Acquisition rate">Vzorkovací frekvence</string>
@@ -76,8 +73,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Spectrum">Widmo</string>
       <string original="Peak-Frequency">Częstotliwość dominująca</string>
       <string original="Fourier Transform">Transformata Fourier'a</string>
-      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT Ampl. (j.u.)</string>
       <string original="Samples used">Rejestrowana próba</string>
       <string original="Period used">Rejestrowany czas</string>
       <string original="Acquisition rate">Częstotliwość próbkowania</string>
@@ -103,7 +98,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
     </description>
       <string original="Peak-Frequency">Piekfrequentie</string>
       <string original="Fourier Transform">Fourier Transformatie</string>
-      <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Samples used">Gebruikte monsters</string>
       <string original="Period used">Tijdsduur</string>
       <string original="Acquisition rate">Acquisitiesnelheid</string>
@@ -130,8 +124,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Spectrum">Спектр</string>
       <string original="Peak-Frequency">Частота пиков</string>
       <string original="Fourier Transform">Преобразование Фурье</string>
-      <string original="Frequency (Hz)">Частота (Гц)</string>
-      <string original="FFT Mag (a.u.)">БПФ Амплитуда (пр. е.)</string>
       <string original="Samples used">Используемые образцы</string>
       <string original="Period used">Используемый период</string>
       <string original="Acquisition rate">Cкорость сбора данных</string>
@@ -141,12 +133,8 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Samples">Дискретизация</string>
       <string original="Raw data">Исходные данные</string>
       <string original="Magnetic field x">Магнитное поле x</string>
-      <string original="t (s)">t (c)</string>
-      <string original="B (µT)">B (мкТл)</string>
       <string original="Magnetic field y">Магнитное поле y</string>
       <string original="Magnetic field z">Магнитное поле z</string>
-      <string original="Hz">Гц</string>
-      <string original="s">с</string>
       <string original="Frequency">Частота</string>
       <string original="FFT Mag">Величина FFT</string>
       <string original="History">История</string>
@@ -164,7 +152,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Spectrum">Spettro</string>
       <string original="Peak-Frequency">Frequenza di picco</string>
       <string original="Fourier Transform">Trasformata di Fourier</string>
-      <string original="Frequency (Hz)">Frequenza (Hz)</string>
       <string original="Samples used">Campioni usati</string>
       <string original="Period used">Periodo usato</string>
       <string original="Acquisition rate">Frequenza di acquisizione</string>
@@ -191,8 +178,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Spectrum">Φάσμα</string>
       <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
       <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
-      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
-      <string original="FFT Mag (a.u.)">FFT πλάτος (α.μ)</string>
       <string original="Samples used">Πλήθος δειγμάτων</string>
       <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
       <string original="Acquisition rate">Ρυθμός καταγραφής</string>
@@ -207,7 +192,6 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
       <string original="Time">χρόνος</string>
-      <string original="s">Ν</string>
     </translation>
     <translation locale="ja">
       <title>磁力スペクトル</title>
@@ -300,12 +284,10 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
     </description>
       <string original="Spectrum">加速頻譜</string>
       <string original="Peak-Frequency">峰值頻率</string>
-      <string original="Hz">赫茲</string>
       <string original="Fourier Transform">傅立葉轉換</string>
       <string original="Frequency">頻率</string>
       <string original="Samples used">使用樣本數</string>
       <string original="Period used">使用週期數</string>
-      <string original="s">秒</string>
       <string original="Acquisition rate">資料獲取速率</string>
       <string original="Nyquist frequency">奈奎斯頻率</string>
       <string original="History">歷史紀錄</string>
@@ -382,13 +364,11 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
     </description>
       <string original="Spectrum">加速度频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
       <string original="FFT Mag">FFT幅值</string>
       <string original="Samples used">采用样本数</string>
       <string original="Period used">使用周期</string>
-      <string original="s">秒</string>
       <string original="Acquisition rate">采样率</string>
       <string original="Nyquist frequency">奈奎斯特频率</string>
       <string original="History">历史记录</string>
@@ -398,7 +378,6 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Samples">样本数</string>
       <string original="Raw data">原始数据</string>
       <string original="Magnetic field x">X方向磁场</string>
-      <string original="t">时间</string>
       <string original="Magnetic field y">Y方向磁场</string>
       <string original="Magnetic field z">Z方向磁场</string>
     </translation>
@@ -549,14 +528,14 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
   </input>
   <views>
     <view label="Spectrum">
-      <value label="Peak-Frequency" unit="Hz">
+      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
         <input>f0</input>
       </value>
       <value label="Peak-Frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="Hz" labelY="FFT Mag" unitY="a.u.">
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -564,23 +543,23 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <value label="Samples used">
         <input>actual_samples</input>
       </value>
-      <value label="Period used" unit="s" precision="2">
+      <value label="Period used" unit="[[unit_short_second]]" precision="2">
         <input>period</input>
       </value>
-      <value label="Acquisition rate" unit="Hz" precision="0">
+      <value label="Acquisition rate" unit="[[unit_short_hertz]]" precision="0">
         <input>arate</input>
       </value>
-      <value label="Nyquist frequency" unit="Hz" precision="0">
+      <value label="Nyquist frequency" unit="[[unit_short_hertz]]" precision="0">
         <input>maxf</input>
       </value>
     </view>
     <view label="History">
-      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="Hz" labelY="Time" unitY="s" labelZ="FFT Mag" unitZ="a.u." aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
         <input axis="x">fmap</input>
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
-      <graph label="History" timeOnX="true" labelX="Time" unitX="s" labelY="Peak-Frequency" unitY="Hz" partialUpdate="true" style="dots">
+      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">f0</input>
       </graph>
@@ -617,15 +596,15 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       </button>
     </view>
     <view label="Raw data">
-      <graph label="Magnetic field x" labelX="t" unitX="s" labelY="B" unitY="µT">
+      <graph label="Magnetic field x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
         <input axis="x">time_subrange</input>
         <input axis="y">magX_subrange</input>
       </graph>
-      <graph label="Magnetic field y" labelX="t" unitX="s" labelY="B" unitY="µT">
+      <graph label="Magnetic field y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
         <input axis="x">time_subrange</input>
         <input axis="y">magY_subrange</input>
       </graph>
-      <graph label="Magnetic field z" labelX="t" unitX="s" labelY="B" unitY="µT">
+      <graph label="Magnetic field z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
         <input axis="x">time_subrange</input>
         <input axis="y">magZ_subrange</input>
       </graph>

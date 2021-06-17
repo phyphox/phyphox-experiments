@@ -1,4 +1,4 @@
-<phyphox version="1.6" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Audio Scope</title>
   <category>Acoustics</category>
   <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
@@ -19,7 +19,6 @@
     </description>
       <string original="Scope">Oszilloskop</string>
       <string original="Audio Data">Audiodaten</string>
-      <string original="Time (ms)">Zeit (ms)</string>
       <string original="Duration">Dauer</string>
       <string original="Time">Zeit</string>
     </translation>
@@ -33,8 +32,6 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </description>
       <string original="Scope">Záznam</string>
       <string original="Audio Data">Zvuková data</string>
-      <string original="Time (ms)">Čas (ms)</string>
-      <string original="Amplitude (a.u.)">Amplituda</string>
       <string original="Duration">Trvání</string>
       <string original="Time">Čas</string>
       <string original="Amplitude">Amplituda</string>
@@ -49,8 +46,6 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </description>
       <string original="Scope">Oscylogram</string>
       <string original="Audio Data">Dane audio</string>
-      <string original="Time (ms)">Czas (ms)</string>
-      <string original="Amplitude (a.u.)">Amplituda (j.u.)</string>
       <string original="Duration">Przedziały</string>
       <string original="Time">Czas</string>
       <string original="Amplitude">Amplituda</string>
@@ -63,7 +58,6 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
 
          Dit experiment registreert slechts korte periodes van audio data en geeft deze weer. Voor een stabiel beeld wordt een nuldoorgang als trigger gebruikt en wordt t = 0 naar het eerste (positieve) snijpunt verplaatst.
     </description>
-      <string original="Time (ms)">Tijd (ms)</string>
       <string original="Duration">Duurtijd</string>
       <string original="Scope">Scoop</string>
       <string original="Time">Tijd</string>
@@ -78,10 +72,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </description>
       <string original="Scope">Диапазон</string>
       <string original="Audio Data">Аудиоданные</string>
-      <string original="Time (ms)">Время (мс)</string>
-      <string original="Amplitude (a.u.)">Амплитуда (пр. е.)</string>
       <string original="Duration">Продолжительность</string>
-      <string original="ms">мс</string>
       <string original="Time">Время</string>
       <string original="Amplitude">Амплитуда</string>
     </translation>
@@ -95,8 +86,6 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </description>
       <string original="Scope">Audioscopio</string>
       <string original="Audio Data">Dati Audio</string>
-      <string original="Time (ms)">Tempo (ms)</string>
-      <string original="Amplitude (a.u.)">Ampiezza (u.a.)</string>
       <string original="Duration">Durata</string>
       <string original="Time">Tempo</string>
       <string original="Amplitude">Ampiezza</string>
@@ -111,8 +100,6 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
     </description>
       <string original="Scope">Παλμογράφος</string>
       <string original="Audio Data">Ηχητικά δεδομένα</string>
-      <string original="Time (ms)">Χρόνος (ms)</string>
-      <string original="Amplitude (a.u.)">Πλάτος (α.μ)</string>
       <string original="Duration">Διάρκεια</string>
       <string original="Time">χρόνος</string>
       <string original="Amplitude">Πλάτος</string>
@@ -170,7 +157,6 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Time">時間</string>
       <string original="Amplitude">振幅</string>
       <string original="Duration">持續時間</string>
-      <string original="ms">毫秒</string>
     </translation>
     <translation locale="fr">
       <title>Mesure du son</title>
@@ -281,11 +267,11 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
   </input>
   <views>
     <view label="Scope">
-      <graph label="Audio Data" labelX="Time" unitX="ms" labelY="Amplitude" unitY="a.u." scaleMinY="extend" scaleMaxY="extend">
+      <graph label="Audio Data" labelX="Time" unitX="[[unit_short_milli_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]" scaleMinY="extend" scaleMaxY="extend">
         <input axis="x">subtime0</input>
         <input axis="y">subdata</input>
       </graph>
-      <edit label="Duration" unit="ms" min="1" max="500">
+      <edit label="Duration" unit="[[unit_short_milli_second]]" min="1" max="500">
         <output>length</output>
       </edit>
     </view>

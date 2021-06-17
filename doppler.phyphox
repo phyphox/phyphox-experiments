@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Doppler effect</title>
   <category>Acoustics</category>
   <icon format="base64">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</icon>
@@ -26,9 +26,7 @@
       <string original="nth period">n-te Periode</string>
       <string original="Results">Ergebnisse</string>
       <string original="Frequency">Frequenz</string>
-      <string original="Frequency (Hz)">Frequenz (Hz)</string>
       <string original="Speed">Geschwindigkeit</string>
-      <string original="Speed (m/s)">Geschwindigkeit (m/s)</string>
     </translation>
     <translation locale="cs">
       <title>Dopplerův jev</title>
@@ -47,9 +45,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="nth period">N-tá perioda</string>
       <string original="Results">Výsledky</string>
       <string original="Frequency">Frekvence</string>
-      <string original="Frequency (Hz)">Frekvence (Hz)</string>
       <string original="Speed">Rychlost</string>
-      <string original="Speed (m/s)">Rychlost (m/s)</string>
     </translation>
     <translation locale="pl">
       <title>Efekt Dopplera</title>
@@ -68,9 +64,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="nth period">n okresów</string>
       <string original="Results">Rezultaty</string>
       <string original="Frequency">Częstotliwość</string>
-      <string original="Frequency (Hz)">Częstotliwość (Hz)</string>
       <string original="Speed">Szybkość</string>
-      <string original="Speed (m/s)">Szybkość (m/s)</string>
     </translation>
     <translation locale="nl">
       <title>Doppler effect</title>
@@ -88,9 +82,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="nth period">n-de periode</string>
       <string original="Results">Resultaten</string>
       <string original="Frequency">Frequentie</string>
-      <string original="Frequency (Hz)">Frequentie (Hz)</string>
       <string original="Speed">Snelheid</string>
-      <string original="Speed (m/s)">Snelheid (m/s)</string>
     </translation>
     <translation locale="ru">
       <title>Эффект Доплера</title>
@@ -109,13 +101,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="nth period">n-й период</string>
       <string original="Results">Результаты</string>
       <string original="Frequency">Частота</string>
-      <string original="t (s)">t (c)</string>
-      <string original="Frequency (Hz)">Частота (Гц)</string>
       <string original="Speed">Скорость</string>
-      <string original="Speed (m/s)">Скорость (м/с)</string>
-      <string original="Hz">Гц</string>
-      <string original="ms">мс</string>
-      <string original="m/s">м/с</string>
     </translation>
     <translation locale="it">
       <title>Effetto Doppler</title>
@@ -133,9 +119,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">L'intervallo temporale Δt determina la frequenza e la quantità di dati usata per calcolare ciascun punto. L'algoritmo cerca una frequenza attorno a quella di base da -F a +F dove F è il valore inserito quale intervallo di frequenze. Configurazioni troppo spinte per questo valore posso risultare in un valore poco accurato o rendere addirittura impossibile il calcolo. Suggeriamo di usare un intervallo di frequenze sensibilmente inferiore a 1/Δt.</string>
       <string original="nth period">periodo n-esimo</string>
       <string original="Frequency">Frequenza</string>
-      <string original="Frequency (Hz)">Frequenza (Hz)</string>
       <string original="Speed">Velocità</string>
-      <string original="Speed (m/s)">Velocità (m/s)</string>
     </translation>
     <translation locale="el">
       <title>Φαινόμενο Doppler</title>
@@ -154,9 +138,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="nth period">νιοστή περίοδος</string>
       <string original="Results">Αποτελέσματα</string>
       <string original="Frequency">Συχνότητα</string>
-      <string original="Frequency (Hz)">Συχνότητα (Hz)</string>
       <string original="Speed">Ταχύτητα</string>
-      <string original="Speed (m/s)">ταχύτητα (m/s)</string>
     </translation>
     <translation locale="ja">
       <title>ドップラー効果</title>
@@ -225,12 +207,9 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
     </description>
       <string original="Setup">設置</string>
       <string original="Base frequency">基準頻率</string>
-      <string original="Hz">赫茲</string>
       <string original="Frequency range">頻率範圍</string>
       <string original="Time step">時間節距</string>
-      <string original="ms">毫秒</string>
       <string original="Speed of sound">聲速</string>
-      <string original="m/s">公尺/秒</string>
       <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">時間節距決定計算一個速度的數據點的速度及數據量。演算法會查看在基準頻率上下範圍內的第n個週期（下面所示）的頻率以決定頻率。對於範圍及時間節距太超過的設定都會造成不精準及手機計算速度的問題，並且你應該讓範圍顯著地比1/時間節距來得小。</string>
       <string original="nth period">第n週期</string>
       <string original="Results">結果</string>
@@ -285,16 +264,13 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
     </description>
       <string original="Setup">设置</string>
       <string original="Base frequency">基准频率</string>
-      <string original="Hz">赫兹</string>
       <string original="Frequency range">频率范围</string>
       <string original="Time step">时间步长</string>
       <string original="Speed of sound">声音速度</string>
-      <string original="m/s">米/秒</string>
       <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">时间步长能确定待数据的采集速率与数量，用来计算单个速度点。对应算法会查看基准频率上下范围内的第n个周期（如下所示）来确定频率。对范围或时间步长设置过度可能会不准确或使你的手机难以计算。同时，你应该设置远小于步长倒数的频率范围。</string>
       <string original="nth period">第n个周期</string>
       <string original="Results">结果</string>
       <string original="Frequency">频率</string>
-      <string original="t">时间</string>
       <string original="Speed">速度</string>
     </translation>
     <translation locale="sr">
@@ -398,16 +374,16 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
   </input>
   <views>
     <view label="Setup">
-      <edit label="Base frequency" unit="Hz" default="1000" signed="false">
+      <edit label="Base frequency" unit="[[unit_short_hertz]]" default="1000" signed="false">
         <output>f</output>
       </edit>
-      <edit label="Frequency range" unit="Hz" default="10" signed="false">
+      <edit label="Frequency range" unit="[[unit_short_hertz]]" default="10" signed="false">
         <output>df</output>
       </edit>
-      <edit label="Time step" unit="ms" default="50" signed="false">
+      <edit label="Time step" unit="[[unit_short_milli_second]]" default="50" signed="false">
         <output>dt</output>
       </edit>
-      <edit label="Speed of sound" unit="m/s" default="340" signed="false">
+      <edit label="Speed of sound" unit="[[unit_short_meter_per_second]]" default="340" signed="false">
         <output>c</output>
       </edit>
       <separator height="1"/>
@@ -417,11 +393,11 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       </value>
     </view>
     <view label="Results">
-      <graph label="Frequency" timeOnX="true" labelX="t" unitX="s" labelY="Frequency" unitY="Hz" partialUpdate="true">
+      <graph label="Frequency" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true">
         <input axis="x">time_hist_filtered</input>
         <input axis="y">frequency_hist_filtered</input>
       </graph>
-      <graph label="Speed" timeOnX="true" labelX="t" unitX="s" labelY="Speed" unitY="m/s" unitYperX="m/s²" partialUpdate="true" color="ffff00">
+      <graph label="Speed" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Speed" unitY="[[unit_short_meter_per_second]]" unitYperX="[[unit_short_meter_per_square_second]]" partialUpdate="true" color="ffff00">
         <input axis="x">time_hist_filtered</input>
         <input axis="y">speed_hist_filtered</input>
       </graph>

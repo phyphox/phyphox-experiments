@@ -1,4 +1,4 @@
-<phyphox version="1.12" locale="en">
+<phyphox version="1.14" locale="en">
   <title>Inclination</title>
   <category>Tools</category>
   <icon format="base64">
@@ -24,7 +24,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
                 Die Winkel wurden hier so festgelegt, dass Neigungen (insbesondere für Experimente an der schiefen Ebene) unabhängig von der Rotation (um die z-Achse) des Handys ermittelt werden können.
     </description>
       <string original="Inclination">Neigung</string>
-      <string original="Angle (°)">Winkel (°)</string>
       <string original="Flat">Liegend</string>
       <string original="Tilt up/down">Kippwinkel auf/ab</string>
       <string original="Angle">Winkel</string>
@@ -61,7 +60,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         Należy zaznaczyć, że kąta nachylenia został zdefiniowany (szczególnie dla eksperymentu z nachyloną powierzchnią) niezależnie od kąta obrotu (wokół osi z) urządzenia.
     </description>
       <string original="Inclination">Nachylenie</string>
-      <string original="Angle (°)">Kąt (°)</string>
       <string original="Rotation">Obrót</string>
       <string original="Flat">Płaski</string>
       <string original="Tilt up/down">Pochyl w górę / w dół</string>
@@ -86,7 +84,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
  Merk op dat de definitie van de hoeken is gekozen voor het meten van een helling (in het bijzonder voor experimenten met schuine vlakken), onafhankelijk van de rotatie (rond de z-as) van de smartphone.
     </description>
       <string original="Inclination">Helling</string>
-      <string original="Angle (°)">Hoek (°)</string>
       <string original="Rotation">Rotatie</string>
       <string original="Flat">Liggend</string>
       <string original="Tilt up/down">Op/neer kanteling</string>
@@ -111,8 +108,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         Обратите внимание, что выбор углов для измерения наклона (особенно для экспериментов на наклонной плоскости) не зависит от поворота (вокруг оси z) телефона.
     </description>
       <string original="Inclination">Наклон</string>
-      <string original="t (s)">t (c)</string>
-      <string original="Angle (°)">Угол (°)</string>
       <string original="Rotation">Вращение</string>
       <string original="Flat">Ровный</string>
       <string original="Tilt up/down">Наклон вверх/вниз</string>
@@ -135,7 +130,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         Questo strumento usa l'accelerometro per determinare l'inclinazione del telefono. L'inclinazione misura l'angolo compreso tra un piano orizzontale e lo schermo del telefono. La rotazione, invece, è la misura dell'angolo di rotazione del telefono attorno all'asse z quando è in posizione verticale.
     </description>
       <string original="Inclination">Inclinazione</string>
-      <string original="Angle (°)">Angolo (°)</string>
       <string original="Rotation">Rotazione</string>
       <string original="Flat">In piano</string>
       <string original="Tilt up/down">Inclinazione su/giù</string>
@@ -160,7 +154,6 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
         Σημειώστε ότι ο ορισμός των γωνιών επιλέχθηκε με στόχο τη μέτρηση της κλίσης (ιδιαίτερα σε πειράματα με κεκλιμένο επίπεδο) ανεξάρτητα από την περιστροφή ως προς τον άξονα z του τηλεφώνου.
     </description>
       <string original="Inclination">Κλίση</string>
-      <string original="Angle (°)">Γωνία (°)</string>
       <string original="Rotation">Περιστροφή</string>
       <string original="Flat">Επίπεδο</string>
       <string original="Tilt up/down">Απόκλιση πάνω/κάτω</string>
@@ -256,7 +249,6 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
 
 	注意，此處角度的定義已為測量傾斜度而設計（尤其是傾斜面實驗等），與手機的旋轉（對z軸）無關。
     </description>
-      <string original="°">度</string>
       <string original="Inclination">傾斜度</string>
       <string original="Rotation">旋轉角度</string>
     </translation>
@@ -318,9 +310,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
     </description>
       <string original="Flat">水平</string>
       <string original="Tilt up/down">向上/向下倾斜</string>
-      <string original="t">时间</string>
       <string original="Angle">角度</string>
-      <string original="°">度</string>
       <string original="Tilt left/right">向左/向右倾斜</string>
       <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">此表协助测量从水平位置开始计算的手机倾斜角。</string>
       <string original="Upright">垂直</string>
@@ -430,73 +420,73 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
   </input>
   <views>
     <view label="Flat">
-      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltFlatUD</input>
       </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltFlatUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltFlatLR</input>
       </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltFlatLR</input>
       </value>
       <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position."/>
     </view>
     <view label="Upright">
-      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltUprightUD</input>
       </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltUprightUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltUprightLR</input>
       </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltUprightLR</input>
       </value>
       <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position."/>
     </view>
     <view label="Side">
-      <graph label="Tilt up/down" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltSideUD</input>
       </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltSideUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">tiltSideLR</input>
       </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>tiltSideLR</input>
       </value>
       <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position."/>
     </view>
     <view label="Plane">
-      <graph label="Inclination" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Inclination" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">angle</input>
       </graph>
-      <value label="Inclination" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Inclination" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>angle</input>
       </value>
       <separator height="1"/>
-      <graph label="Rotation" timeOnX="true" labelX="t" unitX="s" labelY="Angle" unitY="°" partialUpdate="true" style="line">
+      <graph label="Rotation" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
         <input axis="x">t</input>
         <input axis="y">anglePlane</input>
       </graph>
-      <value label="Rotation" size="2" precision="2" scientific="false" unit="°" factor="1">
+      <value label="Rotation" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
         <input>anglePlane</input>
       </value>
       <info label="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination."/>
