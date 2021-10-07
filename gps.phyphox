@@ -667,6 +667,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       </value>
       <value label="Satellites" size="1" precision="0">
         <input>satellites</input>
+        <map max="-1">unknown</map>
       </value>
       <separator height="1"/>
       <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
