@@ -46,6 +46,7 @@
       <string original="Distance from start">Entfernung vom Start</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Stelle außerdem sicher, dass die Standorteinstellungen deines Systems nicht auf "Energie sparen" stehen, da dies die genauen GPS-Daten abschaltet.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Die horizontale Genauigkeit ist die Unsicherheit deines Standorts, während die vertikale Genauigkeit die (normalerweise schlechtere) Unsicherheit auf deiner Höhe ist. Wenn die Genauigkeit Null beträgt, ist diese Information nicht verfügbar.</string>
+      <string original="unknown">unbekannt</string>
     </translation>
     <translation locale="cs">
       <title>Pozice (GPS)</title>
