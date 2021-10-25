@@ -1056,7 +1056,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </add>
     <divide>
       <input clear="false">index</input>
-      <input creal="false">rate</input>
+      <input clear="false">rate</input>
       <output>tmax</output>
     </divide>
     <if less="true" equal="true">
