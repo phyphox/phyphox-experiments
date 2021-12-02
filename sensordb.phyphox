@@ -431,6 +431,12 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <send id="proximityRate" type="buffer">proximityRate</send>
       <send id="proximityAvg" type="buffer">proximityAvg</send>
       <send id="proximityStd" type="buffer">proximityStd</send>
+      <send id="depthFrontSensor" type="meta">depthFrontSensor</send>
+      <send id="depthFrontResolution" type="meta">depthFrontResolution</send>
+      <send id="depthFrontRate" type="meta">depthFrontRate</send>
+      <send id="depthBackSensor" type="meta">depthBackSensor</send>
+      <send id="depthBackResolution" type="meta">depthBackResolution</send>
+      <send id="depthBackRate" type="meta">depthBackRate</send>
       <receive id="result">state</receive>
     </connection>
   </network>
