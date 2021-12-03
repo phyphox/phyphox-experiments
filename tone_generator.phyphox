@@ -110,6 +110,12 @@
       <string original="Frequency high">Alta frequenza</string>
       <string original="Time">Tempo</string>
       <string original="Simple">Valori</string>
+      <string original="Use multi tone generator">Usa il generatore multitono</string>
+      <string original="Amplitude 1">Ampiezza 1</string>
+      <string original="Frequency 1">Frequenza 1</string>
+      <string original="Amplitude 2">Ampiezza 2</string>
+      <string original="Frequency 2">Frequenza 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">La massima ampiezza consentita è pari a 1. Se la somma delle due ampiezze eccede questo valore, si possono avere distorsioni.</string>
     </translation>
     <translation locale="el">
       <title>Γεννήτρια συχνοτήτων</title>

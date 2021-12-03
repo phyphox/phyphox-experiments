@@ -177,6 +177,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Time">Tempo</string>
       <string original="Amplitude">Ampiezza</string>
       <string original="Status">Stato</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generatore di rumore bianco (può essere forte: riduci il volume del tuo dispositivo)</string>
     </translation>
     <translation locale="el">
       <title>Ηχητικό Φάσμα</title>

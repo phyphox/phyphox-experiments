@@ -144,7 +144,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Period">Periodo</string>
       <string original="Frequency">Frequenza</string>
       <string original="Resonance">Risonanza</string>
-      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla  per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
       <string original="Autocorrelation">Autocorrelazione</string>
       <string original="Raw Data">Dati grezzi</string>
       <string original="Accelerometer x">Accelerazione x</string>

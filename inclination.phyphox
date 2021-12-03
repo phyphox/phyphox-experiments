@@ -127,7 +127,7 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
       <description>
         Misura l'angolo d'inclinazione del telefono.
 
-        Questo strumento usa l'accelerometro per determinare l'inclinazione del telefono. L'inclinazione misura l'angolo compreso tra un piano orizzontale e lo schermo del telefono. La rotazione, invece, è la misura dell'angolo di rotazione del telefono attorno all'asse z quando è in posizione verticale.
+        Questo strumento usa l'accelerometro per misurare l'inclinazione del telefono. L'inclinazione restituisce l'angolo compreso tra un piano orizzontale e lo schermo del telefono. La rotazione, invece, è la misura dell'angolo di rotazione del telefono attorno all'asse z quando è in posizione verticale.
     </description>
       <string original="Inclination">Inclinazione</string>
       <string original="Rotation">Rotazione</string>

@@ -98,6 +98,30 @@ Cette expérience collectera des données techniques de votre téléphone et vos
     <translation locale="it">
       <string original="Gyroscope">Giroscopio</string>
       <string original="Magnetometer">Magnetometro</string>
+      <title>Invia al sensor database</title>
+      <category>phyphox.org</category>
+      <description>Invia informazioni sui sensori del tuo telefono a phyphox.org.
+
+Quest'esperimento raccoglierà alcuni dati usando i sensori a bordo del tuo telefono e li invierà alla nostra banca dati. Qui, i dati saranno analizzati e se ne ricaveranno le prestazioni in termini di precisione e accuratezza, per consentire la comparazione tra diversi modelli.</description>
+      <string original="Submit">Invia</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Quest'esperimento raccoglierà alcuni dati con i sensori del tuo telefono, che invierà nostra banca dati dei sensori. I dati saranno aggregati e messi a disposizione di altri utenti per conoscere la disponibilità e la capacità dei sensori su diversi dispositivi.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Posiziona il telefono su una superficie stabile e premi start. Non farlo se sei in un veicolo in moto (auto, treno, ecc.), in luoghi con musica ad alto volume, su superfici che possono vibrare in conseguenza al passaggio di veicoli, ecc.) perché questo distorcerà i risultati.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox acquisirà alcuni dati. Al termine ti chiederà di inviarli al nostro database.</string>
+      <string original="Waiting for start">In attesa della partenza</string>
+      <string original="Collecting data">Acquisizione in corso</string>
+      <string original="You may now press submit">Ora puoi inviare i dati</string>
+      <string original="Success. Thank you!">Fatto. Grazie!</string>
+      <string original="Confidence">Confidenza</string>
+      <string original="Accelerometer">Accelerometro</string>
+      <string original="Rate">Tasso</string>
+      <string original="Average">Media</string>
+      <string original="Standard deviation">Deviazione standard</string>
+      <string original="Acceleration (without g)">Accelerazione (senza g)</string>
+      <string original="Barometer">Barometro</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Umidità</string>
+      <string original="Light">Luce</string>
+      <string original="Proximity">Prossimità</string>
     </translation>
     <translation locale="ja">
       <string original="Results">結果</string>

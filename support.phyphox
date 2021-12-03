@@ -17,7 +17,10 @@
     </translation>
     <translation locale="es"/>
     <translation locale="fr"/>
-    <translation locale="it"/>
+    <translation locale="it">
+      <title>Altri modi per contribuire…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="ja"/>
     <translation locale="nl"/>
     <translation locale="pl"/>

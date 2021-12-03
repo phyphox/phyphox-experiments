@@ -201,6 +201,7 @@
       <string original="Distance from start">Distanza dalla partenza</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assicurati anche che il sistema di geolocalizzazione non sia configurato come "Power saving" poiché questo ridurrebbe la precisione del GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">L'accuratezza orizzontale rappresenta l'indeterminazione associata alla tua posizione, mentre quella verticale è l'indeterminazione (di solito peggiore) con la quale si conosce la tua quota rispetto al livello del mare (altezza). Se l'accuratezza è nulla, significa che quest'informazione non è disponibile.</string>
+      <string original="unknown">sconosciuto</string>
     </translation>
     <translation locale="el">
       <title>Τοποθεσία (GPS)</title>
@@ -237,6 +238,7 @@
       <string original="Distance from start">Απόσταση από την αρχή</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Επίσης βεβαιωθείτε ότι η ρύθμιση για την τοποθεσία στο σύστημα σας δεν είναι ρυθμισμένη στο "Εξοικονόμηση ενέργειας" γιατί τότε συνήθως απενεργοποιείται η ακριβής λειτουργία του GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
+      <string original="unknown">άγνωστο</string>
     </translation>
     <translation locale="ja">
       <title>位置 (GPS)</title>

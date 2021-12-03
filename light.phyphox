@@ -69,7 +69,7 @@
       <category>Sensori</category>
       <description>Legge i dati dal sensore di luminosità.</description>
       <string original="Graph">Grafico</string>
-      <string original="Illuminance">Luminanza</string>
+      <string original="Illuminance">Illuminamento</string>
       <string original="Info">
                 Nota: su alcuni dispositivi il sensore di luminosità si aggiorna soltanto quando si verifica una considerevole variazione di illuminazione.
             </string>

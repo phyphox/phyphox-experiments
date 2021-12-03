@@ -216,7 +216,9 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <description>
         Misura il tempo fra due eventi acustici.
 
-Questo esperimento permette di misurare il tempo fra due segnali acustici. Questi possono essere click, beeps, applausi etc, fintanto che son suoni più forti del rumore ambientale. Puoi regolare la soglia minima per far partire il cronometro acustico (su una scala da 0 a 1).
+Quest'esperimento permette di misurare il tempo fra due segnali acustici (click, beep, applausi, etc.) di intensità sufficientemente alta da superare il rumore medio ambientale. Puoi regolare la soglia minima per far partire il cronometro acustico (su una scala da 0 a 1)
+    
+Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di un suono e si arresta quando se ne rileva un altro sufficientemente intenso.
     </description>
       <string original="Simple">Valori</string>
       <string original="Threshold">Soglia</string>
