@@ -14,6 +14,7 @@
         Generiert einen Ton einer bestimmten Frequenz.
     </description>
       <string original="Frequency">Frequenz</string>
+      <string original="Amplitude">Amplitude</string>
       <string original="Tone generator">Tongenerator</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Obwohl phyphox beliebige Frequenzen erlaubt, können die Ergebnisse aufgrund von Hardware-Einschränkungen unter 100Hz oder über 8000Hz deutlich schlechter werden.</string>
       <string original="Frequency low">Frequenz niedrig</string>
@@ -80,6 +81,7 @@
     </description>
       <string original="Tone generator">Генератор тона</string>
       <string original="Frequency">Частота</string>
+      <string original="Amplitude">Амплитуда</string>
       <string original="Signal">Сигнал</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Хотя phyphox позволяет устанавливать произвольные частоты, вы можете получить плохие результаты для частот ниже 100 Гц и выше 8000 Гц из-за ограничений оборудования.</string>
       <string original="Status">Статус</string>
@@ -103,6 +105,7 @@
     </description>
       <string original="Tone generator">Generatore di suoni</string>
       <string original="Frequency">Frequenza</string>
+      <string original="Amplitude">Ampiezza</string>
       <string original="Signal">Segnale</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox permette di selezionare frequenze arbitrarie, ma considera che sotto i 100Hz o sopra gli 8000 Hz i risultati possono non essere ottimali a causa delle limitazioni dell'hardware.</string>
       <string original="Status">Stato</string>
@@ -125,6 +128,7 @@
     </description>
       <string original="Tone generator">Γεννήτρα συχνοτήτων</string>
       <string original="Frequency">Συχνότητα</string>
+      <string original="Amplitude">Πλάτος</string>
       <string original="Signal">Σήμα</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Αν και το phyphox επιτρέπει τη ρύθμιση οποιασδήποτε συχνότητας, είναι πιθανόν το αποτέλεσμα να μην είναι ικανοποιητικό σε τιμές κάτω από 100Hz καθώς και πάνω από 8000Hz λόγω περιορισμών του hardware.</string>
       <string original="Status">Κατάσταση</string>
@@ -295,6 +299,7 @@
     </description>
       <string original="Tone generator">Generador de tonos</string>
       <string original="Frequency">Frecuencia</string>
+      <string original="Amplitude">Amplitud</string>
       <string original="Signal">Señal</string>
       <string original="Time">tiempo</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Si bien phyphox permite establecer frecuencias arbitrarias, puede experimentar malos resultados por debajo de 100 Hz o por encima de 8000 Hz debido a limitaciones de hardware.</string>
@@ -342,6 +347,9 @@
     <view label="Simple">
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000">
         <output>f</output>
+      </edit>
+      <edit label="Amplitude" unit="" default="1" signed="false" min="0" max="1">
+        <output>a</output>
       </edit>
       <graph label="Signal" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">t</input>
@@ -399,13 +407,6 @@
       <input clear="false">multi</input>
       <output clear="false">multi</output>
     </formula>
-    <if equal="true">
-      <input clear="false">multi</input>
-      <input type="value">1</input>
-      <input type="value">0</input>
-      <input type="value">1</input>
-      <output clear="false">a</output>
-    </if>
     <if equal="true">
       <input clear="false">multi</input>
       <input type="value">1</input>
