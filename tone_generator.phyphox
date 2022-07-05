@@ -364,6 +364,14 @@
         <input type="value">0</input>
         <output>f</output>
       </button>
+      <value label="Mode">
+        <input>multi</input>
+        <map max="0">Simple</map>
+        <map>Multi</map>
+      </value>
+      <separator height="1"/>
+      <separator color="white"/>
+      <separator height="1"/>
       <edit label="Amplitude 1" unit="" default="0.5" signed="false" min="0" max="1">
         <output>a1in</output>
       </edit>
