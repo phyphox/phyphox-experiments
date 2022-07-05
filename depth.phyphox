@@ -1,13 +1,12 @@
 <phyphox version="1.14" locale="en">
   <title>Depth sensor (LiDAR / ToF)</title>
   <category>Tools</category>
-  <description>
-    Measure distances using the depth sensor.
+  <description>Measure distances using the depth sensor.
 
     This is only available if your phone has a depth sensor as part of your camera system. You can tap the preview image and select the area of your camera's view that contributes to the measurement and also select whether the result is the closest distance, the average distance or an average that takes into account the sensor's estimate of the accuracy of each measured point.
 
     The motion tab also calculates the velocity and acceleration from the measured distance using the LOESS algorithm.
-  </description>
+</description>
   <icon format="base64">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</icon>
   <translations>
     <translation locale="cs">
@@ -26,6 +25,16 @@
       <string original="Preview">Vorschau</string>
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Unten kannst du die lokale Glättung der Graphen im Kinematik-Tab ändern. Die Einstellung "Breite" beeinflusst die Schätzungen für die Geschwindigkeit und Beschleunigung. Größere Werte führen zu weicheren Kurven mit weniger Details.</string>
       <string original="Width of LOESS fit">Breite des LOESS-Fit</string>
+      <title>Tiefensensor (LiDAR / ToF)</title>
+      <category>Werkzeuge</category>
+      <description>Miss Entfernungen mit dem Tiefensensor.
+
+Dieses Experiment ist nur verfügbar, wenn dein Gerät einen Tiefensensor als Teil des Kamerasystems hat. Du kannst das Vorschaubild antippen und dort den Messbereich wählen, der zur Abstandsmessung beiträgt und dabei auch entscheiden, wie die Entfernung aus allen Messpunkten gebildet wird: Dies kann entweder der Punkt mit der kürzesten Entfernung, ein Mittelwert aller Messpunkte oder ein gewichtetes Mittel auf Grundlage der einzelnen Messunsicherheiten sein.
+
+Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entfernungsmessung mithilfe des LOESS-Algorithmus.
+</description>
+      <string original="Distance / Depth">Entfernung / Tiefe</string>
+      <string original="Kinematics">Kinematik</string>
     </translation>
     <translation locale="el">
       <string original="Graph">Γράφημα</string>
