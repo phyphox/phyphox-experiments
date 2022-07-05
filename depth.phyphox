@@ -1,0 +1,241 @@
+<phyphox xmlns="http://phyphox.org/xml" version="1.14" locale="en">
+  <title>Depth sensor (LiDAR / ToF)</title>
+  <category>Tools</category>
+  <description>
+    Measure distances using the depth sensor.
+
+    This is only available if your phone has a depth sensor as part of your camera system. You can tap the preview image and select the area of your camera's view that contributes to the measurement and also select whether the result is the closest distance, the average distance or an average that takes into account the sensor's estimate of the accuracy of each measured point.
+
+    The motion tab also calculates the velocity and acceleration from the measured distance using the LOESS algorithm.
+  </description>
+  <icon format="base64">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</icon>
+    <translations>
+    </translations>
+    <data-containers>
+        <container size="0">xmm</container>
+        <container size="0">x</container>
+        <container size="0">t</container>
+
+        <container size="1" init="0.02">dt</container>  <!-- Schrittweite für Glättung (kann normalerweise so bleiben) -->
+        <container size="1" init="0.2">d</container>    <!-- Breite der Glättung in Sekunden -->
+
+        <container size="0">tout</container>
+        <container size="0">xout</container>
+        <container size="0">vout</container>
+        <container size="0">aout</container>
+
+        <container size="0">toutpreview</container>
+        <container size="0">xoutpreview</container>
+        <container size="0">voutpreview</container>
+        <container size="0">aoutpreview</container>
+
+        <container size="1">newsmoothstart</container>
+        <container size="1">newsmoothstop</container>
+        <container size="1">tmaxsmooth</container>
+
+        <container size="101">newsmoothti100</container>
+        <container size="101">newsmoothti</container>
+        <container size="101">newsmoothxi</container>
+        <container size="101">newsmoothvi</container>
+        <container size="101">newsmoothai</container>
+
+        <container size="101">incompletesmoothti</container>
+        <container size="101">incompletesmoothxi</container>
+        <container size="101">incompletesmoothvi</container>
+        <container size="101">incompletesmoothai</container>
+
+        <container size="1">temp</container>
+
+    </data-containers>
+   <input>
+    <depth x1="0.4" x2="0.6" y1="0.4" y2="0.6" mode="average">
+      <output component="z">xmm</output>
+      <output component="t">t</output>
+    </depth>
+  </input>
+    <analysis>
+
+        <divide>
+            <input>xmm</input>
+            <input type="value">1</input>
+            <output clear="false">x</output>
+        </divide>
+
+        <!-- Neue Stützstellen für Glättung suchen -->
+
+        <append>
+            <input type="value">0</input>
+            <input clear="false">tout</input>
+            <output>temp</output>               <!-- Letzter schon berechneter Glättungswert -->
+        </append>
+
+        <add>
+            <input>temp</input>
+            <input clear="false">dt</input>
+            <output>newsmoothstart</output>     <!-- Erster zu berechnender Glättungswert -->
+        </add>
+
+        <append>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>temp</output>               <!-- Letzter Rohdatenwert, der schon aufgenommen wurde -->
+        </append>
+
+        <subtract>
+            <input>temp</input>
+            <input clear="false">d</input>
+            <output>tmaxsmooth</output>         <!-- Maximale Zeit, bis zu der eine Glättung schon sinnvoll wäre -->
+        </subtract>
+
+        <formula formula="[1]+100*[2]">
+            <input clear="false">newsmoothstart</input>
+            <input clear="false">dt</input>
+            <output>newsmoothstop</output>      <!-- Höchster der möglichen neuen Glättungswerte, der aber weit hinter den sinnvollen liegen kann -->
+        </formula>
+
+        <ramp>
+            <input as="start">newsmoothstart</input>
+            <input as="stop">newsmoothstop</input>
+            <output>newsmoothti100</output>     <!-- Mögliche neue Glättungswerte -->
+        </ramp>
+
+        <rangefilter>
+            <input clear="false">newsmoothti100</input>
+            <input as="max" clear="false">tmaxsmooth</input>
+            <output>newsmoothti</output>        <!-- Die Zeiten, zu denen wir nun wirklich glätten -->
+        </rangefilter>
+
+        <append>
+            <input type="value">0</input>
+            <input clear="false">t</input>
+            <output>temp</output>               <!-- Erneut letzter Rohdatenwert, der schon aufgenommen wurde -->
+        </append>
+
+        <rangefilter>
+            <input>newsmoothti100</input>
+            <input as="min" clear="false">tmaxsmooth</input>
+            <input as="max">temp</input>
+            <output>incompletesmoothti</output>        <!-- Die Zeiten für neuere Datenpunkt, die wir nur als Vorschau glätten -->
+        </rangefilter>
+
+        <!-- Glätten -->
+
+        <loess>
+            <input as="x" clear="false">t</input>
+            <input as="y" clear="false">x</input>
+            <input as="xi" clear="false">newsmoothti</input>
+            <input as="d" clear="false">d</input>
+            <output as="yi0">newsmoothxi</output>
+            <output as="yi1">newsmoothvi</output>
+            <output as="yi2">newsmoothai</output>
+        </loess>
+
+        <loess>
+            <input as="x" clear="false">t</input>
+            <input as="y" clear="false">x</input>
+            <input as="xi" clear="false">incompletesmoothti</input>
+            <input as="d" clear="false">d</input>
+            <output as="yi0">incompletesmoothxi</output>
+            <output as="yi1">incompletesmoothvi</output>
+            <output as="yi2">incompletesmoothai</output>
+        </loess>
+
+        <!-- Ergebnisse anhängen -->
+
+        <append>
+            <input>newsmoothti</input>
+            <output clear="false">tout</output>
+        </append>
+
+        <append>
+            <input>newsmoothxi</input>
+            <output clear="false">xout</output>
+        </append>
+
+        <append>
+            <input>newsmoothvi</input>
+            <output clear="false">vout</output>
+        </append>
+
+        <append>
+            <input>newsmoothai</input>
+            <output clear="false">aout</output>
+        </append>
+
+        <!-- Puffer mit finalen Ergebnissen und Vorschau-Ergebnissen -->
+
+        <append>
+            <input clear="false">tout</input>
+            <input clear="true">incompletesmoothti</input>
+            <output clear="true">toutpreview</output>
+        </append>
+
+        <append>
+            <input clear="false">xout</input>
+            <input clear="true">incompletesmoothxi</input>
+            <output clear="true">xoutpreview</output>
+        </append>
+
+        <append>
+            <input clear="false">vout</input>
+            <input clear="true">incompletesmoothvi</input>
+            <output clear="true">voutpreview</output>
+        </append>
+
+        <append>
+            <input clear="false">aout</input>
+            <input clear="true">incompletesmoothai</input>
+            <output clear="true">aoutpreview</output>
+        </append>
+
+    </analysis>
+    <views>
+        <view label="Graph">
+            <graph label="Distance / Depth" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
+                <input axis="x">t</input>
+                <input axis="y">x</input>
+            </graph>
+        </view>
+        <view label="Simple">
+            <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+                <input>x</input>
+            </value>
+        </view>
+        <view label="Kinematics">
+            <graph label="Distance / Depth" partialUpdate="false" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
+                <input axis="x" lineWidth="2">toutpreview</input>
+                <input axis="y">xoutpreview</input>
+                <input axis="x" style="dots" color="white">t</input>
+                <input axis="y">x</input>
+            </graph>
+            <graph label="Velocity" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_velocity]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_second]]">
+                <input axis="x" lineWidth="2">toutpreview</input>
+                <input axis="y">voutpreview</input>
+            </graph>
+            <graph label="Acceleration" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_acceleration]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_square_second]]">
+                <input axis="x" lineWidth="2">toutpreview</input>
+                <input axis="y">aoutpreview</input>
+            </graph>
+        </view>
+        <view label="Settings">
+          <info label="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area." />
+          <separator height="1" />
+          <depth-gui label="Preview" />
+          <separator height="1" />
+          <separator color="white" />
+          <separator height="1" />
+          <info label="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail." />
+          <edit label="Width of LOESS fit" unit="s" default="0.2">
+            <output>d</output>
+          </edit>
+        </view>
+    </views>
+    <export>
+        <set name="Data">
+            <data name="t">tout</data>
+            <data name="z">xout</data>
+            <data name="v">vout</data>
+            <data name="a">aout</data>
+        </set>
+    </export>
+</phyphox>
