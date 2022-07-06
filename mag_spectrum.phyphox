@@ -487,6 +487,7 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
     <container size="1">Dt</container>
     <container size="1">dt</container>
     <container size="1">maxf</container>
+    <container size="1">df</container>
     <container size="1">arate</container>
     <container size="4096">frequency</container>
     <container size="4096">fftXX</container>
@@ -545,6 +546,9 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       </value>
       <value label="Period used" unit="[[unit_short_second]]" precision="2">
         <input>period</input>
+      </value>
+      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+        <input>df</input>
       </value>
       <value label="Acquisition rate" unit="[[unit_short_hertz]]" precision="0">
         <input>arate</input>
@@ -703,6 +707,11 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <input clear="false">dt</input>
       <output>period</output>
     </multiply>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>df</output>
+    </divide>
     <fft>
       <input clear="false">magX_subrange</input>
       <output as="re">fftXX</output>

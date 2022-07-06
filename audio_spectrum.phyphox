@@ -506,6 +506,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     <container>actual_samples</container>
     <container>subrange_start</container>
     <container>period</container>
+    <container size="1">df</container>
     <container size="32768">time</container>
     <container size="32769">frequency</container>
     <container size="32768">fftX</container>
@@ -635,6 +636,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <value label="Period used" unit="[[unit_short_milli_second]]" precision="2" factor="1000">
         <input>period</input>
       </value>
+      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+        <input>df</input>
+      </value>
     </view>
     <view label="History">
       <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
@@ -749,6 +753,11 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <input clear="false">actual_samples</input>
       <input clear="false">rate</input>
       <output>period</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>df</output>
     </divide>
     <divide>
       <input clear="false">rate</input>
