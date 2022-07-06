@@ -37,6 +37,7 @@
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Weißes Rauschen erzeugen. (Kann laut sein. Bitte zuerst die Wiedergabelautstärke reduzieren.)</string>
       <string original="Off">Aus</string>
       <string original="On">An</string>
+      <string original="Resolution">Auflösung</string>
     </translation>
     <translation locale="cs">
       <title>Zvukové spektrum</title>

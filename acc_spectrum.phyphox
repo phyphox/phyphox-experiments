@@ -35,6 +35,7 @@
       <string original="Frequency">Frequenz</string>
       <string original="History">Verlauf</string>
       <string original="Time">Zeit</string>
+      <string original="Resolution">Auflösung</string>
     </translation>
     <translation locale="cs">
       <title>Spektrum zrychlení</title>
