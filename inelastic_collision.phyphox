@@ -929,6 +929,12 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <output as="position">i</output>
       <output as="max">max</output>
     </max>
+    <if equal="true">
+        <input clear="false">count</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>i</output>
+    </if>
     <add>
       <input>i</input>
       <input clear="false">index</input>
