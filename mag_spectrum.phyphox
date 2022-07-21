@@ -193,6 +193,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
       <string original="Time">χρόνος</string>
+      <string original="Resolution">Διακριτικότητα</string>
     </translation>
     <translation locale="ja">
       <title>磁力スペクトル</title>

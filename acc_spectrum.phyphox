@@ -193,6 +193,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Frequency">Συχνότητα</string>
       <string original="History">Ιστορικό</string>
       <string original="Time">χρόνος</string>
+      <string original="Resolution">Διακριτικότητα</string>
     </translation>
     <translation locale="ja">
       <title>加速度スペクトル</title>

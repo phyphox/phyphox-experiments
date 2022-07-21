@@ -42,6 +42,20 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">Ταχύτητα</string>
       <string original="Acceleration">Επιτάχυνση</string>
       <string original="Settings">Ρυθμίσεις</string>
+      <title>Αισθητήρας Βάθους (LiDAR / ToF)</title>
+      <category>Εργαλεία</category>
+      <description>Μέτρηση αποστάσεων με χρήση του αισθητήρα βάθους.
+
+    Η μέτρηση είναι δυνατή μόνο αν το κινητό σας διαθέτει αισθητήρα βάθους σαν μέρος του συστήματος της φωτογραφικής μηχανής. Πατήστε στην εικόνα προεπισκόπησης και επιλέξτε την περιοχή της εικόνας που συμμετέχει στη μέτρηση. Επιπλέον επιλέξτε αν το αποτέλεσμα θα είναι η κοντινότερη απόσταση, η μέση απόσταση ή μια μέση τιμή που λαμβάνει υπόψην της την εκτίμηση του αισθητήρα για την ακρίβεια μέτρησης κάθε σημείου.
+
+     Το πλήκτρο της κίνησης υπολογίζει επίσης την ταχύτητα και επιτάχυνση από την μετρούμενη απόσταση χρησιμοποιώντας τον αλγόριθμο LOESS.
+</description>
+      <string original="Distance / Depth">Απόσταση/Βάθος</string>
+      <string original="Kinematics">Κινηματική</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Πατήστε στην προεπισκόπιση και σύρτε για να αλλάξετε την επιφάνεια της εικόνας που συνυπολογίζεται για τον υπόλογισμό της απόστασης. Μπορείτε να επιλέξετε διαφορετικές μεθόδους για τη συγκέντρωση των αποστάσεων σ' αυτή την περιοχή.</string>
+      <string original="Preview">Προεπισκόπηση</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Παρακάτω μπορείτε να αλλάξετε την τοπική εξομάλυνση των καμπυλών στην καρτέλα της κινηματικής. Η ρύθμιση του πλάτους επηρεάζει τις εκτιμήσεις ταχύτητας και επιτάχυνσης. Μεγάλες τιμές οδηγούν σε πιο λείες καμπύλες με λιγότερες λεπτομέρειες.</string>
+      <string original="Width of LOESS fit">Πλάτος της προσαρμογής LOESS</string>
     </translation>
     <translation locale="es">
       <string original="Graph">Gráfico</string>

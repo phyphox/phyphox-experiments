@@ -208,6 +208,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Amplitude">Πλάτος</string>
       <string original="Status">Κατάσταση</string>
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Δημιουργία λευκού θορύβου. (Μπορεί να είναι δυνατά. Παρακαλώ μειώστε την ένταση πρώτα.)</string>
+      <string original="Resolution">Διακριτικότητα</string>
     </translation>
     <translation locale="ja">
       <title>オーディオスペクトル</title>

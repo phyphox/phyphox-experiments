@@ -140,6 +140,7 @@
       <string original="Frequency 2">Συχνότητα 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Σημειώστε ότι το μέγιστο συνολικό πλάτος είναι 1. Αν το άθροισμα των πλατών ξεπεράσει το 1, θα προκύψει παραμόρφωση.</string>
       <string original="Use multi tone generator">Χρήση γεννήτριας πολλαπλών τόνων</string>
+      <string original="Mode">Λειτουργία</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
