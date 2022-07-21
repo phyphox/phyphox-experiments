@@ -152,7 +152,7 @@
   </input>
   <views>
     <view label="Graph">
-      <graph label="Pressure" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_pressure]]" unitY="[[unit_short_hecto_pascal]]" yPrecision="6" partialUpdate="true">
+      <graph label="Pressure" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_pressure]]" unitY="[[unit_short_hecto_pascal]]" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">pressure</input>
       </graph>
