@@ -354,6 +354,10 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
   </views>
   <export>
     <set name="Data">
+      <data name="t">t</data>
+      <data name="z">x</data>
+    </set>
+    <set name="LOESS">
       <data name="t">tout</data>
       <data name="z">xout</data>
       <data name="v">vout</data>
