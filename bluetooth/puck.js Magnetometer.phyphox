@@ -1,0 +1,100 @@
+<phyphox version="1.15">
+    <title>Magnetometer</title>
+    <category>puck.js</category>
+    <description>Read the magnetometer of a puck.js.</description>
+    <data-containers>
+        <container size="0">magXRaw</container>
+        <container size="0">magYRaw</container>
+        <container size="0">magZRaw</container>
+        <container size="0">magXCal</container>
+        <container size="0">magYCal</container>
+        <container size="0">magZCal</container>
+        <container size="0">t</container>
+        <container size="1">t0</container>
+        <container size="0">tout</container>
+    </data-containers>
+    <input>
+        <bluetooth uuid="6e400001-b5a3-f393-e0a9-e50e24dcca9e" mode="notification" id="puck.js" mtu="53">
+
+            <!-- SCRIPT FOR PUCK.JS -->
+            <!-- Warning: This has to be split into little chunks to stay within the puck's max MTU of 53 byte. -->
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">reset();                                                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="hexadecimal">0d</config> <!-- Carriage return -->
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">echo(false);                                                </config>
+
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">function directOut(s) {                                     </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    NRF.updateServices({                                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">        "6e400001-b5a3-f393-e0a9-e50e24dcca9e" : {          </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">            "6e400003-b5a3-f393-e0a9-e50e24dcca9e" : {      </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">                value : s,                                  </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">                notify : true,                              </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    }}});                                                   </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">}                                                           </config>
+
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">let t0 = Date.now();                                        </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">Puck.on("mag", function(data) {                             </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    let t = Math.round(Date.now() - t0);                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    directOut(t+","+data.x+","+data.y+","+data.z);          </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">});                                                         </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">Puck.magOn(80);                                               </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="hexadecimal">0d</config> <!-- Carriage return -->
+            <!-- END SCRIPT FOR PUCK.JS -->
+
+
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="0">t</output>
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="1">magXRaw</output>
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="2">magYRaw</output>
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="3">magZRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Magnetometer">
+            <graph label="Magnetometer x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="green">
+                <input axis="x">tout</input>
+                <input axis="y">magXCal</input>
+            </graph>
+            <graph label="Magnetometer y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="blue">
+                <input axis="x">tout</input>
+                <input axis="y">magYCal</input>
+            </graph>
+            <graph label="Magnetometer z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="yellow">
+                <input axis="x">tout</input>
+                <input axis="y">magZCal</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <first>
+            <input clear="false">t</input>
+            <output>t0</output>
+        </first>
+        <formula formula="([1_]-[2])/1000">
+            <input clear="false">t</input>
+            <input clear="false">t0</input>
+            <output clear="true">tout</output>
+        </formula>
+        <multiply>
+            <input clear="false">magXRaw</input>
+            <input type="value">0.1</input>
+            <output clear="true">magXCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magYRaw</input>
+            <input type="value">0.1</input>
+            <output clear="true">magYCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">magZRaw</input>
+            <input type="value">0.1</input>
+            <output clear="true">magZCal</output>
+        </multiply>
+    </analysis>
+    <export>
+        <set name="Magnetometer">
+            <data name="Time (s)">tout</data>
+            <data name="Magnetometer x (µT)">magXCal</data>
+            <data name="Magnetometer y (µT)">magYCal</data>
+            <data name="Magnetometer z (µT)">magZCal</data>
+        </set>
+    </export>
+</phyphox>

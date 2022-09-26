@@ -1,0 +1,68 @@
+<phyphox version="1.15">
+    <title>Voltage (D31)</title>
+    <category>puck.js</category>
+    <description>Read the voltage at pin D31 of a puck.js.</description>
+    <data-containers>
+        <container size="0">V</container>
+        <container size="0">t</container>
+        <container size="1">t0</container>
+        <container size="0">tout</container>
+    </data-containers>
+    <input>
+        <bluetooth uuid="6e400001-b5a3-f393-e0a9-e50e24dcca9e" mode="notification" id="puck.js" mtu="53">
+
+            <!-- SCRIPT FOR PUCK.JS -->
+            <!-- Warning: This has to be split into little chunks to stay within the puck's max MTU of 53 byte. -->
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">reset();                                                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="hexadecimal">0d</config> <!-- Carriage return -->
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">echo(false);                                                </config>
+
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">function directOut(s) {                                     </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    NRF.updateServices({                                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">        "6e400001-b5a3-f393-e0a9-e50e24dcca9e" : {          </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">            "6e400003-b5a3-f393-e0a9-e50e24dcca9e" : {      </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">                value : s,                                  </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">                notify : true,                              </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    }}});                                                   </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">}                                                           </config>
+
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">let t0 = Date.now();                                        </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">setInterval(function() {                                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    let t = Math.round(Date.now() - t0);                    </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    let v = analogRead(31)*E.getAnalogVRef();               </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">    directOut(t+","+v);                                     </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="string">}, 20);                                                     </config>
+            <config char="6e400002-b5a3-f393-e0a9-e50e24dcca9e" conversion="hexadecimal">0d</config> <!-- Carriage return -->
+            <!-- END SCRIPT FOR PUCK.JS -->
+
+
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="0">t</output>
+            <output char="6e400003-b5a3-f393-e0a9-e50e24dcca9e" conversion="formattedString" separator="," index="1">V</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Voltage">
+            <graph label="Voltage" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="V" unitY="V" partialUpdate="true">
+                <input axis="x">tout</input>
+                <input axis="y">V</input>
+            </graph>
+        </view>
+    </views>
+    <analysis>
+        <first>
+            <input clear="false">t</input>
+            <output>t0</output>
+        </first>
+        <formula formula="([1_]-[2])/1000">
+            <input clear="false">t</input>
+            <input clear="false">t0</input>
+            <output clear="true">tout</output>
+        </formula>
+    </analysis>
+    <export>
+        <set name="Voltage">
+            <data name="Time (s)">tout</data>
+            <data name="Voltage (V)">V</data>
+        </set>
+    </export>
+</phyphox>
