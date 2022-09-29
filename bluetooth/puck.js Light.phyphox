@@ -41,8 +41,8 @@
         </bluetooth>
     </input>
     <views>
-        <view label="Thermometer">
-            <graph label="Temperature" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Light" unitY="[[unit_short_arbitrary_unit]]" partialUpdate="true">
+        <view label="Light">
+            <graph label="Light" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Light" unitY="[[unit_short_arbitrary_unit]]" partialUpdate="true">
                 <input axis="x">tout</input>
                 <input axis="y">light</input>
             </graph>
