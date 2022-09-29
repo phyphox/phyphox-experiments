@@ -343,6 +343,9 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area."/>
       <separator height="1"/>
       <depth-gui label="Preview"/>
+      <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+        <input>x</input>
+      </value>
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
