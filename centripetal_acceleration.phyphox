@@ -356,7 +356,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
         <input axis="x">t</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
+      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad²/s²" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">gyr</input>
       </graph>
