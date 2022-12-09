@@ -286,6 +286,23 @@
       <string original="Acceleration y">Aceleración y</string>
       <string original="Acceleration z">Aceleración z</string>
     </translation>
+    <translation locale="ka">
+      <title>აჩქარება (g-ს გარეშე)</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე დაუმუშავებელი მონაცემები წრფივი აქსელომეტრისგან, რომელიც იძლევა რეალურ აჩქარებას გრავიტაციული აჩქარების გარეშე. შესადარებლად "g-თი აჩქარება"-ისგან განსხვავებით ეს იძლევა ნულს როცა უმოძრაოდ დევს.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Linear Acceleration x">წრფივი აჩქარება x</string>
+      <string original="Linear Acceleration y">წრფივი აჩქარება y</string>
+      <string original="Linear Acceleration z">წრფივი აჩქარება z</string>
+      <string original="Absolute">აბსოლუტი</string>
+      <string original="Absolute acceleration">აჩქარების მოდული</string>
+      <string original="Multi">მულტი</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Simple">მარტივი</string>
+      <string original="Acceleration x">აჩქარება x</string>
+      <string original="Acceleration y">აჩქარება y</string>
+      <string original="Acceleration z">აჩქარება z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

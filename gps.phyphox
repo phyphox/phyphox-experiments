@@ -166,6 +166,7 @@
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Также убедитесь, что настройка местоположения вашей системы не установлена на «Энергосбережение», потому что это обычно отключает точный источник GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
       <string original="m (WGS84)">m (WGS84 - всемирная система геодезических параметров Земли 1984 года)</string>
+      <string original="unknown">неизвестный</string>
     </translation>
     <translation locale="it">
       <title>Posizione (GPS)</title>
@@ -384,7 +385,14 @@
       <title>Vị trí (GPS)</title>
       <category>Cảm biến thô</category>
       <description>
-        Nhận dữ liệu vị trí thô từ định vị vệ tinh.
+        .......Nhận dữ liệu vị trí thô từ vệ tinh định vị.
+
+........Lưu ý rằng dữ liệu khả dụng có thể phụ thuộc vào việc cảm biến trên điện thoại thông minh của bạn. Một số thiết bị có thể không cung cấp độ cao chính xác hoặc số lượng vệ tinh.
+
+........Ngoài ra, theo mặc định, có thông tin vị trí từ các nguồn thường kém chính xác khác (như wifi hoặc mạng dữ liệu di động) được trộn vào dữ liệu từ vệ tinh định vị. Một lần nữa, tùy thuộc vào thiết bị của bạn, bạn có thể tắt các nguồn này khỏi menu thí nghiệm bằng cách bật cài đặt để chỉ thu thập dữ liệu từ vệ tinh định vị.
+
+......Tốc độ và hướng thường do thiết bị cung cấp và dựa trên hai hoặc nhiều lần sửa vị trí liên tiếp.
+....
     </description>
       <string original="Position">Vị trí</string>
       <string original="Status">Trạng thái</string>
@@ -406,6 +414,7 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Lưu ý, một số thiết bị không có cảm biến GPS, nhưng dữ liệu vị trí được lấy thông qua kết nối di động hoặc WIFI. Những nguồn dữ liệu này tạo ra dữ liệu với độ chính xác kém.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ngoài ra, hãy đảm bảo rằng hệ thống cài đặt vị trí của bạn không được đặt thành "Tiết kiệm năng lượng" vì điều này thường giảm độ chính xác của GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Sai số ngang là độ sai số của vị trí của bạn, trong khi sai số cao là độ sai số (thường tệ hơn) về độ cao của bạn. Nếu độ chính xác bằng không thì nó có nghĩa là thông tin này không hỗ trợ.</string>
+      <string original="unknown">chưa biết</string>
     </translation>
     <translation locale="zh_Hans">
       <title>定位（GPS）</title>
@@ -524,6 +533,41 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Tenga en cuenta que algunos dispositivos no tienen un sensor GPS, pero proporcionan datos de ubicación a través de conexiones móviles o WIFI. Estas fuentes de datos producen datos con mala precisión.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">También asegúrese de que la configuración de ubicación de su sistema no esté configurada en "Ahorro de energía" porque esto generalmente apaga la fuente precisa de GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La precisión horizontal es la incertidumbre de su ubicación, mientras que la precisión vertical es la incertidumbre (generalmente peor) de su elevación (altura). Si la precisión es cero, esta información no está disponible.</string>
+    </translation>
+    <translation locale="ka">
+      <title>მდებარეობა (GPS)</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>
+        მიიღე პოზიციის მონაცემები სატელიტ ნავიგაციიდან.
+
+        ყურადღება მიაქციე რომ თქვენ ექსპერიმენტზე ზეგავლენას იქონიებს ტელეფონი. ზოგი მოწყობილობა ვერმოგცემთ ვერტიკალურ მონაცემს ან სატელიტების რაოდენობას.
+
+        ასევე ხანდახან მდებარეობის ინფორმაცია, ნაკლები სიზუტით, მიითება ინტერეტიდანაც, რაც ირევა სატელიტების მონაცემებთან ერთად. თქვენი ტელეფონის მიხედვით შეგიძლიათ აირჩიოთ ექსპერიმენტის მენიუდან, რომ მონაცემები გინდათ მხოდლოდ სატელიტიდან.
+
+        სიჩქარეს და მიმართულებას იძლევა მოწყობილობა და დამოკიდებულია ორ ან რამდენიმე პოზიცის წერტილიზე.
+    </description>
+      <string original="Position">მდებარეობა</string>
+      <string original="Status">სტატუსი</string>
+      <string original="GPS disabled">GPS გამორთულია</string>
+      <string original="GPS active">GPS ჩართულია</string>
+      <string original="Latitude">გრძედი</string>
+      <string original="Longitude">განედი</string>
+      <string original="Altitude">სიმაღლე</string>
+      <string original="Movement">მოძრაობა</string>
+      <string original="Speed">სიჩქარე</string>
+      <string original="Direction">მიმართულება</string>
+      <string original="Distance travelled">განვლილი მანძილი</string>
+      <string original="Simple">მარტივი</string>
+      <string original="m (WGS84)">მ (WGS84)</string>
+      <string original="Compass">კომპასი</string>
+      <string original="Distance from start">საწყისიდან დაშორება</string>
+      <string original="Horizontal Accuracy">ჰორიზონტალური სიზუსტე</string>
+      <string original="Vertical Accuracy">ვერტიკალური სიზუსტე</string>
+      <string original="Satellites">სატელიტები</string>
+      <string original="unknown">უცნობი</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ყურადღება მიაქციე, რომ ზოგიერთ მოწყობილობას არ აქვს GPS სენსორი, მაგრამ მონაცემებს მაინც იძლევა ინტერნეტის დახმარებით. ესეთი მონაცემები იქნება ცუდი სიზუსტით.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">ასევე ყურადღება მიაქციე, რომ არ გაქვს "Power saving" ჩართული, რადგან ის ხშირად გამორთავს GPS წვდომას.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">ჰორიზონტალური სიზუსტე არის ცდომილება თქვენს მდებარეობაში, ხოლო ვერტიკალური სიზუსტე (ხშირად უარესი) არის სიმაღლის ცდომილება. თუ სიზუსტე არის ნული ეს მონაცემი არ არის ხელმისაწვდომი.</string>
     </translation>
   </translations>
   <data-containers>

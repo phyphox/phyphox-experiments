@@ -351,6 +351,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">Reiniciar último puntaje</string>
       <string original="Clear all scores">Borrar todos los puntajes</string>
     </translation>
+    <translation locale="ka">
+      <title>ტაშის მთვლელი</title>
+      <category>ყოველდღიური ცხოვრება</category>
+      <description>
+        მიანიჭე ქულები ტაშების ამპლიტუდას და სიგრძეს.
+
+        ეს ექსპერიმენტი ინიშნავს ხმის ამპლიტუდას დროში და ანიჭებს ქულებს. ასრომ ხმამაღალი და გრძელი ტაში მიიღებს მეტ ქულას.თქვენ შეგიძლიათ გყავდეთ რამდენიმე კონკურსანტი და შეადაროთ მათი ასპარეზობა ერთმანეთს, სვეტოვანი დიაგრამით.
+
+        გამოყენება: ისორია გიჩვენებთ ხმის დონეს რაც ფაიფოქსმა დააფიქსირა. შეფასება შეიძლებაა დაიწყოს "დაწყების" დაჭერით და შეწყდება როდესაც "გაჩერება"-ს დააწვებით. მსვლელობის პერიოდში შეამჩნევთ ქულების ზრდას რომელიც ასევე შეგიძლიათ შეამჩნიოთ ყვითელი სვეტით. შეჩერების შემდეგ შეგიძლიათ დააწვეთ "შემდეგი კონკურსანტი" და მოემზადოთ შემდეგი გაზომვისთვის. როდესაც კიდევ ერთხელ დააწვებით "დაწყება"-ს მეორე სვეტი დაიწყებს გარდას სამამ ისევ არ დააწვებით "შეწყვეტა"-ს. შემდეგ შეგიძლიათ ეს პროცესი კიდევ გაიმეორეოთ.
+    </description>
+      <string original="Score">ქულა</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Subscore">ქვე ქულა</string>
+      <string original="Scores">ქულები</string>
+      <string original="Contestant">კონკურსანტი</string>
+      <string original="Start">დაწყება</string>
+      <string original="Stop">შეწყვეტა</string>
+      <string original="Next contestant">შემდეგი კონკურსანტი</string>
+      <string original="Controls">კონტრლები</string>
+      <string original="Reset last score">გაასუფთავე ბოლო ქულა</string>
+      <string original="Clear all scores">გაასუფთავე ყველა ქულა</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

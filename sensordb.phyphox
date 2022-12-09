@@ -241,6 +241,31 @@ Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gö
       <string original="Results">Kết quả</string>
       <string original="Gyroscope">Con quay hồi chuyển</string>
       <string original="Magnetometer">Từ kế</string>
+      <title>Gửi đến dữ liệu cảm biến</title>
+      <category>phyphox.org</category>
+      <description>Gửi thông tin về các cảm biến trong điện thoại của bạn tới phyphox.org.
+
+Thí nghiệm này sẽ thu thập dữ liệu kỹ thuật về điện thoại và cảm biến của bạn. Bạn có thể gửi dữ liệu này tới cơ sở dữ liệu cảm biến của chúng tôi. Dữ liệu sẽ được tổng hợp và cung cấp cho những người dùng khác để giúp chúng tôi và những người khác tìm hiểu về tính khả dụng và khả năng của các cảm biến trên các thiết bị khác nhau.</description>
+      <string original="Submit">Gửi</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Thí nghiệm này sẽ thu thập dữ liệu kỹ thuật về điện thoại và cảm biến của bạn. Bạn có thể gửi dữ liệu này tới cơ sở dữ liệu cảm biến của chúng tôi. Dữ liệu sẽ được tổng hợp và cung cấp cho những người dùng khác để giúp chúng tôi và những người khác tìm hiểu về tính khả dụng và khả năng của các cảm biến trên các thiết bị khác nhau.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Vui lòng đặt điện thoại của bạn trên một bề mặt ổn định và nhấn bắt đầu. Tránh làm điều này khi đang di chuyển (ô tô, tàu hỏa, v.v.) hoặc trên bề mặt rung động (âm nhạc lớn, rung động từ xe cộ, v.v.) vì điều này sẽ làm sai lệch kết quả.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox sẽ thu thập dữ liệu trong giây lát và sau đó yêu cầu bạn gửi dữ liệu.</string>
+      <string original="Step">Bước</string>
+      <string original="Waiting for start">Đang chờ bắt đầu</string>
+      <string original="Collecting data">Đang thu thập dữ liệu</string>
+      <string original="You may now press submit">Bây giờ bạn có thể nhấn gửi</string>
+      <string original="Success. Thank you!">Thành công. Cảm ơn!</string>
+      <string original="Confidence">Sự tự tin</string>
+      <string original="Accelerometer">Gia tốc kế</string>
+      <string original="Rate">Tốc độ</string>
+      <string original="Average">Trung bình</string>
+      <string original="Standard deviation">Độ lệch chuẩn</string>
+      <string original="Acceleration (without g)">Gia tốc (không có g)</string>
+      <string original="Barometer">Áp kế</string>
+      <string original="Temperature">Nhiệt độ</string>
+      <string original="Humidity">Độ ẩm</string>
+      <string original="Light">Ánh sáng</string>
+      <string original="Proximity">Tiệm cận</string>
     </translation>
     <translation locale="zh_Hans">
       <string original="Results">结果</string>
@@ -279,6 +304,36 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Humidity">Humedad</string>
       <string original="Light">Luz</string>
       <string original="Proximity">Proximidad</string>
+    </translation>
+    <translation locale="ka">
+      <title>შეავსე სენსორის მონაცემების ბაზა</title>
+      <category>phyphox.org</category>
+      <description>შეავსე ინფორმაცია თქვენი ტელეფონის სენსორებზე აქ phyphox.org.
+
+ეს ექსპერიმენტი შეაგროვებს თქვენი ტელეფონის სენსორების ტექნიკურ მონაცემებს რომლებიც შეგიძლია შეიყვანოთ ჩვენს მონაცემების ბაზაში. ეს მონაცემები იქნება დამუსავებული და გაზიარებული სხვა მომხმარებლებისთვისაც რადგან გვქონდეს ცოდნა სხვადასხვა მოწყობილობების შესაძლებლობების შესახებ.</description>
+      <string original="Submit">შეავსეთ</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">ეს ექსპერიმენტი შეაგროვებს თქვენი ტელეფონის სენსორების ტექნიკურ მონაცემებს, რომლებიც შეგიძლია შეიყვანოთ ჩვენს მონაცემების ბაზაში. ეს მონაცემები იქნება დამუსავებული და გაზიარებული სხვა მომხმარებლებისთვისაც რადგან გვქონდეს ცოდნა სხვადასხვა მოწყობილობების შესაძლებლობების შესახებ.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">გთხოვთ მოათავსოთ თქვენი ტელეფონი სტაბილურ ზედაპირსე და დააჭიროთ დაწყებას. მოერიდეთ ამის გაკეთებას მოძრაობისას ან ვიბრაციულ ზედაბირზე (მხმის ვიბრაციებიც შეუშლის ხელს) რადგან ესენი შედეგების აღებას შეუშლის ხელს.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">ფაიფოქსი შეაგროვებს მონაცემებს და საბოლოოდ გთხოვთ რომ გადააგზავნოთ მონაცემები.</string>
+      <string original="Step">ბიჯი</string>
+      <string original="Waiting for start">ველოდებით დაწყებას</string>
+      <string original="Collecting data">ვაგროვებთ მონაცემებს</string>
+      <string original="You may now press submit">ახლა შეგიძლიათ დაკლიკოთ მონაცემების გადაცემა</string>
+      <string original="Success. Thank you!">წარმატებულია. მადლობა!</string>
+      <string original="Confidence">დარწმუნებულობა</string>
+      <string original="Results">შედეგები</string>
+      <string original="Accelerometer">აქსელომეტრი</string>
+      <string original="Rate">სიხშირე</string>
+      <string original="Average">საშუალო</string>
+      <string original="Standard deviation">სტანდარტული გადახრა</string>
+      <string original="Acceleration (without g)">აჩქარება (g-ს გარეშე)</string>
+      <string original="Gyroscope">გიროსკოპი</string>
+      <string original="Magnetometer">მაგნიტომეტრი</string>
+      <string original="Barometer">ბარომეტრი</string>
+      <string original="Temperature">ტემპერატურა</string>
+      <string original="Humidity">სინესტე</string>
+      <string original="Light">სინათლე</string>
+      <string original="Proximity">სიახლოვე</string>
     </translation>
   </translations>
   <data-containers>

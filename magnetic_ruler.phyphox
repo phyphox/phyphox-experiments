@@ -261,7 +261,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
         Đối với thí nghiệm này, bạn nên đặt nhiều nam châm giống hệt nhau dọc theo đường điện thoại sẽ di chuyển. Khoảng cách giữa các nam châm phải bằng nhau cho mỗi nam châm và nên được nhập vào trong thí nghiệm. Sau đó, điện thoại sẽ sử dụng từ kế của nó để xác định khi nào nó đã vượt qua một nam châm, cho phép tính tổng khoảng cách đã đi qua.
     </description>
       <string original="Results">Kết quả</string>
-      <string original="dx is the distance between two magnets">dx là khoảng cách giữa hai nam châm.</string>
+      <string original="dx is the distance between two magnets">dx là khoảng cách giữa hai nam châm</string>
       <string original="Distance">Khoảng cách</string>
       <string original="Velocity">Vận tốc</string>
       <string original="Raw Data">Dữ liệu thô</string>
@@ -346,6 +346,25 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Campo magnético z</string>
       <string original="Total magnetic field squared and filtered">Campo magnético total al cuadrado y filtrado</string>
       <string original="Filtered B²">Filtrado  B²</string>
+    </translation>
+    <translation locale="ka">
+      <title>მაგნიტური სახაზავი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+        იყენებს რამდენიმე მაგნიტს ტელეფონის მანძილის, სიჩქარის და აჩქარების გასაზომად.
+
+        ამ ექსპერიმენტისთვის თქვენ უნდა დაალაგოთ იდენტური მაგნიტები იმ ბილიკზე რომელზეც იმოძრავებს ტელეფონი. მაგნიტებს შორის დაშორება უნდა იყოს ერთი და იგივე. ეს მანძილი წინასწარ შეყვანილი უნდა იყოს ექპერიმენტში. ტელეფონი შემდეგ გამოიყენებს მაგნიტომეტრს და გამოთვლის რა მაინძილი იქნა დაფარული.
+    </description>
+      <string original="Results">შედეგები</string>
+      <string original="dx is the distance between two magnets">dx არის მანძილი ორ მაგნიტს შორის</string>
+      <string original="Distance">მანძილი</string>
+      <string original="Velocity">სიჩქარე</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Magnetic field x">მაგნიტური ველი x</string>
+      <string original="Magnetic field y">მაგნიტური ველი y</string>
+      <string original="Magnetic field z">მაგნიტური ველი z</string>
+      <string original="Total magnetic field squared and filtered">მთლიანი მაგნიტური ველი გაფილტრული</string>
+      <string original="Filtered B²">გაფილტრული B²</string>
     </translation>
   </translations>
   <data-containers>

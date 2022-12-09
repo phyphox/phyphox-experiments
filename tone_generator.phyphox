@@ -95,6 +95,8 @@
       <string original="Amplitude 2">Амплитуда 2</string>
       <string original="Frequency 2">Частота 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Обратите внимание, что общая максимальная амплитуда равна 1. Если сумма обеих амплитуд превышает 1, происходят искажения.</string>
+      <string original="Use multi tone generator">Используйте многотональный генератор</string>
+      <string original="Mode">Режим</string>
     </translation>
     <translation locale="it">
       <title>Generatore di suoni</title>
@@ -241,6 +243,13 @@
       <string original="Frequency high">Tần số cao</string>
       <string original="Simple">Đơn giản</string>
       <string original="Multi">Nhiều</string>
+      <string original="Use multi tone generator">Sử dụng bộ tạo đa âm</string>
+      <string original="Mode">Cách thức</string>
+      <string original="Amplitude 1">Biên độ 1</string>
+      <string original="Frequency 1">Tần số 1</string>
+      <string original="Amplitude 2">Tần số 1</string>
+      <string original="Frequency 2">Tần số 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Lưu ý rằng tổng biên độ tối đa là 1. Nếu tổng của cả hai biên độ vượt quá 1, bạn sẽ có sự biến dạng.</string>
     </translation>
     <translation locale="zh_Hans">
       <title>音频发生器</title>
@@ -309,6 +318,30 @@
       <string original="Amplitude 2">Amplitud 2</string>
       <string original="Frequency 2">Frecuencia 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Notar que la amplitud máxima total es 1. En caso de que la suma de ambas amplitudes exceda la unidad, experimentará distorsiones.</string>
+    </translation>
+    <translation locale="ka">
+      <title>ტონის გენერატორი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        აგენერირებს სფეციფიური ტონის სიხშირეს.
+    </description>
+      <string original="Simple">მარტივი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Signal">სიგნალი</string>
+      <string original="Time">დრო</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">მიუხედავად იმისა რომ ფაიფოქსი ნებას გრთავს აირჩიო სიხსირე, უნდა გაითვალისწინო რომ 100ჰც-ს ქვემოთ და 8000ჰც-ს ზემოთ ვერმიიღებ კარგ შედეგებს მოწყობილობის ლიმიტებიდან გამომდინარე.</string>
+      <string original="Status">სტატუსი</string>
+      <string original="Frequency low">დაბალი სიხშირე</string>
+      <string original="Frequency high">მაღალი სიხშირე</string>
+      <string original="OK">დიახ</string>
+      <string original="Multi">მულტი</string>
+      <string original="Use multi tone generator">გამოიყენე მრავალი ტონის გენერატორი</string>
+      <string original="Mode">რეჟიმი</string>
+      <string original="Amplitude 1">ამპლიტუდა 1</string>
+      <string original="Frequency 1">სიხშირე 1</string>
+      <string original="Amplitude 2">ამპლიტუდა 2</string>
+      <string original="Frequency 2">სიხშირე 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">გაითვალისწინე რომ მაქსიმალური ამპლიტუდა არის 1. თუ ჯამი ორივე ამპლიტუდის აღემატება 1-ს, გვექნება დამახინჯება.</string>
     </translation>
   </translations>
   <data-containers>

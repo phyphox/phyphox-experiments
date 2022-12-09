@@ -215,6 +215,19 @@
       <string original="Absolute">Absoluto</string>
       <string original="Gyroscope">Giroscopio</string>
     </translation>
+    <translation locale="ka">
+      <title>გიროსკოპი (ბრუნვის სიხშირე)</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე დაუმუშავებელი მონაცემები გიროსკოპიდან.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Gyroscope x">გიროსკოპი x</string>
+      <string original="Gyroscope y">გიროსკოპი y</string>
+      <string original="Gyroscope z">გიროსკოპი z</string>
+      <string original="Absolute">აბსოლუტი</string>
+      <string original="Multi">მულტი</string>
+      <string original="Gyroscope">გიროსკოპი</string>
+      <string original="Simple">მარტივი</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

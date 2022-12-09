@@ -412,6 +412,30 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">Acelerómetro y</string>
       <string original="Accelerometer z">Acelerómetro z</string>
     </translation>
+    <translation locale="ka">
+      <title>ზამბარა</title>
+      <category>მექანიკა</category>
+      <description>
+        ზამბარიანი ქანქარის, სიხშირის და პერიოდის ანალიზი.
+
+        ეს ექპერიმეტნი იყენებს აქსელომეტრს რხევების მოძრაობის დაპერიოდის T გამოსათვლელად. ამასთან ერთად რეზონსის გერდზე გვაქვს გრაფიკი აპლიტუდის რხევაზე დამოკიდებულების. მისი გამოყენებით შეგიძლია ბიძგიანი რხევების ისე შერჩვეა რომ რეზონსასი მოხდეს, რიტაც შეგიძლია რეზონანსული სიხშირეების შესწავლა.
+
+        დამატებითი დეტალები:
+        რხევის პერიოდი მიიღება აქსელომეტრის სამი მდგენლის ავტოკორელაციით. ავტოკორელაცია შემდეგ ანალიზდება მისი პირველი მაქსიმუმით და ბოლო მაქსიმუმით რაც უფრო ზუსტ შედეგებს იძლევა.
+    </description>
+      <string original="Results">შედეგები</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Resonance">რეზონანსი</string>
+      <string original="Rel. amplitude">მიმდინარე ამპლიტუდა</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">ამ გვერდზე, ამპლიტუდის სიხსირეზე დამოკიდებულებაა წარმოდგენილი. თქვენ შეგიძლიათ ეს გამოიყენოთ ბიძგიანი ქანქარისთვის. ამპლიტუდა დანორმირებულია 0-დან 1-მდე.</string>
+      <string original="Autocorrelation">ავტო კორელაცია</string>
+      <string original="correlation">კორელაცია</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Accelerometer x">აქსელომეტრი x</string>
+      <string original="Accelerometer y">აქსელომეტრი y</string>
+      <string original="Accelerometer z">აქსელომეტრი z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

@@ -141,6 +141,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="History">История</string>
       <string original="Time">Время</string>
       <string original="1/min">1/мин</string>
+      <string original="Resolution">Разрешение</string>
     </translation>
     <translation locale="it">
       <title>Spettro magnetico</title>
@@ -333,9 +334,10 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <title>Từ phổ</title>
       <category>Công cụ</category>
       <description>
-            Hiển thị dữ liệu phổ tần số từ từ kế.
+            ........Hiển thị dữ liệu phổ tần số từ từ kế.
 
-             Thí nghiệm này ghi lại dữ liệu từ từ kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số tối đa có thể phát hiện phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
+........Thí nghiệm này ghi lại dữ liệu từ từ kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số tối đa có thể phát hiện phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
+....
     </description>
       <string original="Spectrum">Phổ</string>
       <string original="Peak-Frequency">Tần số đỉnh</string>
@@ -355,6 +357,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field y">Từ trường y</string>
       <string original="Magnetic field z">Từ trường z</string>
       <string original="1/min">1/phút</string>
+      <string original="Resolution">Độ phân giải</string>
     </translation>
     <translation locale="zh_Hans">
       <title>磁场谱</title>
@@ -460,6 +463,34 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <string original="Magnetic field x">Campo magnético x</string>
       <string original="Magnetic field y">Campo magnético y</string>
       <string original="Magnetic field z">Campo magnético z</string>
+    </translation>
+    <translation locale="ka">
+      <title>მაგნიტური სპექტრი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+            გამოაჩინე სიხშირის სპექტრის მონაცემები მაგნიტომეტრიდან.
+
+            ეს ექსპერიმენტი იწერს მონაცემებს მაგნიტომეტრიდან და ითვლის სიხშირეების სპექტრის ფურიეს გარდაქმებიდან (FFT).მაქსიმალური სიხშირე რისი დაფიქსირებაც შესაძლებელია დამოკიდებულია სენსორის აღქმაზე.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="1/min">1/წთ</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="Acquisition rate">მიღების სიხშირე</string>
+      <string original="Nyquist frequency">ჩამკეტი სიხშირე</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Magnetic field x">მაგნიტური ველი x</string>
+      <string original="Magnetic field y">მაგნიტური ველი y</string>
+      <string original="Magnetic field z">მაგნიტური ველი z</string>
     </translation>
   </translations>
   <data-containers>

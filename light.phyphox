@@ -195,6 +195,17 @@
                 Nota: En algunos dispositivos, el sensor de luz solo se actualiza cuando hay un cambio brusco de iluminancia.
             </string>
     </translation>
+    <translation locale="ka">
+      <title>სინათლე</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე დაუმუშავებელი მონაცემები სინათლის სენსორისგან.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Illuminance">ლუმინესცენცია</string>
+      <string original="Info">
+                ყურადღება მიაქციე, რომ ზოგ ტელეფონში სინათლის სენსორის განახლება მხოლოდ უხეშ ცვლილებაზე ხდება.
+            </string>
+      <string original="Simple">მარტივი</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

@@ -320,11 +320,12 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <title>Từ kế</title>
       <category>Cảm biến thô</category>
       <description>
-        Lấy dữ liệu thô từ từ kế.
+        ........Lấy dữ liệu thô từ từ kế.
 
-        Từ kế khá nhạy vì nó được thiết kế để đo từ trường của Trái Đất và hoạt động như một la bàn. Tuy nhiên, nó luôn được tiếp xúc với các trường của các thiết bị điện tử trong điện thoại của bạn, dẫn đến kết quả không chính xác. Do đó, phyphox cố gắng lấy từ trường được hiệu chuẩn từ hệ thống. Trong một số trường hợp, bạn có thể không nhận được bất kỳ dữ liệu nào, nếu nó chưa được hiệu chuẩn (ví dụ: sau khi điện thoại vừa bắt đầu). Trong trường hợp này, bạn nên xoay điện thoại một vài lần trong khi thí nghiệm đang chạy. Điều này giúp hệ thống hiệu chỉnh cảm biến. Ngoài ra, trên nhiều thiết bị (không phải tất cả), bạn có thể chuyển sang lấy dữ liệu từ kế chưa hiệu chỉnh thông qua menu ở trên cùng bên phải.
+.......Từ kế khá nhạy vì nó được thiết kế để đo từ trường của Trái Đất và hoạt động như một la bàn. Tuy nhiên, nó luôn được tiếp xúc với các trường của các thiết bị điện tử trong điện thoại của bạn, dẫn đến kết quả không chính xác. Do đó, phyphox cố gắng lấy từ trường được hiệu chuẩn từ hệ thống. Trong một số trường hợp, bạn có thể không nhận được bất kỳ dữ liệu nào, nếu nó chưa được hiệu chuẩn (ví dụ: sau khi điện thoại vừa bắt đầu). Trong trường hợp này, bạn nên xoay điện thoại một vài lần trong khi thí nghiệm đang chạy. Điều này giúp hệ thống hiệu chỉnh cảm biến. Ngoài ra, trên nhiều thiết bị (không phải tất cả), bạn có thể chuyển sang lấy dữ liệu từ kế chưa hiệu chỉnh thông qua menu ở trên cùng bên phải.
 
-        Không để điện thoại của bạn tiếp xúc với từ trường mạnh!
+........Không để điện thoại của bạn tiếp xúc với từ trường mạnh!
+...
     </description>
       <string original="Graph">Đồ thị</string>
       <string original="Accuracy">Độ chính xác</string>
@@ -448,6 +449,33 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer">Magnetómetro</string>
       <string original="Help">Ayuda</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">El magnetómetro en su teléfono siempre está expuesto a los campos internos de la electrónica en su teléfono, lo que conduce a resultados incorrectos. Por lo tanto, phyphox intenta obtener el campo magnético calibrado del sistema. En algunos casos, es posible que no obtenga ningún dato, si aún no está calibrado (por ejemplo, después de que el teléfono acaba de comenzar). En este caso, debe girar su teléfono varias veces mientras se ejecuta el experimento. Esto ayuda al sistema a calibrar el sensor. Además, en muchos dispositivos (no todos) puede cambiar a datos de magnetómetro no calibrados a través del menú en la parte superior derecha.</string>
+    </translation>
+    <translation locale="ka">
+      <title>მაგნიტომეტრი</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>
+        მიიღე დაუმუშავებელი მონაცემები მაგნიტომეტრისგან.
+
+        მაგნიტომეტრს ტელეფონი იყენებს კომპასად, ანუ დედამიწის მაგნიტური ველის აღმოსაჩენად, ამიტომ ის საკმაოდ ზუსტია. თუმცა ის ყოველთვის არის ტელეფონიშ შიდა ელექტრონიკის ველების ზეგავლენის ქვეშ, რაც გვაძლევს არასწორ შედეგებს. შესაბამისად ფაიფოქსი ცდილობს დააკალიბროს სისტემის მაგნიტური ველი. ზოგ შემთხვევაში, თქვენ შეიძლება ვერ მიიღოთ ვერანაირი მონაცმემი, თუ ის ჯერ დაკალიბრებული არ არის (მაგალითად ტლეფონის ჩართვისას). ამშემთხვევაში თქვენ უნდა დაატრიალოთ ტელეფონი რამდენჯერმე სანამ ექსპერიმენტი მიდინარეობს. ეს ეხმარება სისტემას დაკალიბრებაში. ასევე ზოგ მოწყობილობაში თქვენ შეგიძლია დაუკალიბრებელი მანიტომეტრიც გამოიყენოთ, მენიუში ზედა მარჯვენა კუთხეში.
+
+        არ მოაქციოთ თქვენი ტელეფონი მაღალი მაგნიტური ველის ზეგავლენის ქვეშ!
+    </description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Accuracy">სიზუსტე</string>
+      <string original="Uncalibrated">დაუკალიბრებელი</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Low">დაბალი</string>
+      <string original="Medium">საშუალო</string>
+      <string original="High">მაღალი</string>
+      <string original="Magnetometer x">მაგნიტომეტრი x</string>
+      <string original="Magnetometer y">მაგნიტომეტრი y</string>
+      <string original="Magnetometer z">მაგნიტომეტრი z</string>
+      <string original="Absolute">აბსოლუტი</string>
+      <string original="Multi">მულტი</string>
+      <string original="Magnetometer">მაგნიტომეტრი</string>
+      <string original="Simple">მარტივი</string>
+      <string original="Help">დახმარება</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">მაგნიტომეტრი თქვენს ტელეფონში ყოველთივს არის შიდა ელექტრონული სისტემის ველის ზეგავლენის ქვეშ, რაც იწვევს უზუსტობებს. ამისათვის ფაიფოქსი ცდილობს დააკალიბროს სენსორი შიდა სისტემაზე. ზოგჯერ თქვენ შეიძლება მონაცემები ვერ მიიღოდ, რადგან ჯერ არ იყო სენსორი დაკალიბრებული (მაგალითად როცა ტელეფონი ახალი ჩართულია). ასეთ შემთხვევაში თქვენ უნდა დაატრიალოთ ტელეფონი რამდენჯერმე, სანამ ექსპერიმენტი მიმდინარეობს, რაც დაეხმარება სენსორს კალიბრაციაში. ასევე ბევრ ტელეფონს აქვს ფუნქცია დაუკალიბრებელი სენსორის ჩვენების, რომელიც შეგიძლიათ მოძებნოთ მენიუში ზედა მარჯვენა კუთხეში.</string>
     </translation>
   </translations>
   <data-containers>

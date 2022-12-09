@@ -331,6 +331,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Accelerometer z">Acelerómetro z</string>
       <string original="Vertical velocity (from altitude)">Velocidad vertical (tomada de la altura)</string>
     </translation>
+    <translation locale="ka">
+      <title>ლიფტი</title>
+      <category>ყოველდღირი ცხოვრება</category>
+      <description>
+        გამოთვალე ლიფტის სიჩქარე ბარომეტის გამოყენებით.
+
+        სიმაღლის ცვლილება ძალიან ზუსტად შეიძლება გაიზომოს ბარომეტრის საშუალებით, თუნდაც GPS-ის უმექმედობისას.ეს შეიძლება გამოყენებული იქნას ლიფტის ვერტიკალური სიჩქარის დასათვლელად. ამასთან ერთად, აჩქარება ითვლება z-მდგენელი აქსელომეტრით, ამისათვის ტელეფონი უნდა იწვებს ბრტყელი ზედაპირით ლიფტის იატაკზე.
+
+        დამატებითი დეტალები:
+        იმისათვის რომ გამოვრიცხოთ ექსპერიმენტში ხმაური, ბარომეტრი ანათვლებს იღებს ყოველ 1 წამში. საშუალოებს შორის განსხვავება გადაგვყავს სიმაღლის განსხვავებებში საერთაშორისო ბარომეტრის სიმაღლის ფორმულით. სიმაღლეებს შორის სხვაობა იყოფა დროზე რაც გვაძლევს ვერტიკალურ სიჩქარეს.
+    </description>
+      <string original="Motion">მოძრაობა</string>
+      <string original="Altitude (from barometer)">სიმაღლე (ბარომეტრიდან)</string>
+      <string original="Vertical velocity (from altitude)">ვერტიკალური სიჩქარე (სიმაღლიდან)</string>
+      <string original="z acceleration (from accelerometer)">z აჩქარება (აქსელომეტრიდან)</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Pressure">წნევა</string>
+      <string original="Accelerometer z">აქსელომეტრი z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

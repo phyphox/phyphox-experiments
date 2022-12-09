@@ -464,6 +464,33 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Chirp">Chirrido</string>
       <string original="Time">tiempo</string>
     </translation>
+    <translation locale="ka">
+      <title>სონარი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        ზომავს მანძილს ექოს და ხმის სიჩქარის გამოყენებით.
+
+        სონარი აგზავნის მოკლზე ხმების ნაკადს, რომელებიც აირეკლება ნივთის მიერ რისი გაზომვაც გსურს. რადგან ხმა მოძრაობს დაახლოებით 340 მ/წმ სიჩქარით, დრო რა რომელშიც ხმა დაუბრუნდება სენსორს შეიძლება გამოყენებული იქნას მისი დისტანციის დასათვლელად.
+
+        ეს ქსპერიმენტი წარმოქმნის "ჭიკჭიკს", რომელიც დინამიკების საშუალებით იგზავნება და მიკროფონი იწყებს ჩაწერას. გადაკვეთის კორელაცია ჭიკჭიკების და ჩანიშნული მონაცემები გვაძლევს ინფორმაციას ექოების დროებზე. ეს დროები შეიძლება გადამრავლდეს ხმის სიჩქარეზე და გაიყოს 2-ზე რადგან ტალრამ ორჯერ უნდა გაიაროს ეს მანძილი. ამით მივიღებთ მანძილის რასიშორეზეც მოხდა არეკვლა.
+
+        თუმცა ხმა, ზოგადად ვრცელდება ყველა მიმართულებით. სონარასთვის ეს იმას ნიშნავს რომ როდესაც კედლიდან არეკვლილ ხმას ველოდებით, ამოავდროულად იატაკიდან არეკვლილ ხმასაც მივიღებთ, ასევე ჭეიდან, და ახლო მახლო "მყარი" ზედაპირებიდან. შესაბამისად მონაცემები გექნება ყველა მხრიდან და შენზეა გამოარკვიო სიგნალების წარმომავლობა და იპოვნო მონაცემი რომლის მიღებაც იყო შენი საწყისი მიზანი. ასე რომ დაიწყე რაიმე მომცრო ზომის მყარი სხეულით რომელიც გამოჩნდება სონარაში და შემდეგ ცადე იპოვნო ის სხვადასხვა მიმართულებებით, ასევე არდაგავიწყდეს რომ ჩუმ გარემოში უნდა იმუშაო.
+    </description>
+      <string original="Time series">დროების სია</string>
+      <string original="Normalized history">ნორმირებული ისტორია</string>
+      <string original="distance">მანძილი</string>
+      <string original="time">დრო</string>
+      <string original="Echo location">ექოს ლოკაცია</string>
+      <string original="Speed of Sound">ხსმის სიჩქარე</string>
+      <string original="Normalized to spherical surface">ნორმირებულია სფერული ზედაპირისთვის</string>
+      <string original="Target distance">სასურველი მანძილი</string>
+      <string original="Echo strength">ექოს სიძლიერე</string>
+      <string original="Timing">დროის დათვლა</string>
+      <string original="On this page you just get the measured delay.">ამ გვერდზე მიიღებ დაგვიანებულ გაზომვებს.</string>
+      <string original="Delay">დაგვიანება</string>
+      <string original="Chirp">ჭრიჭინი</string>
+      <string original="Time">დრო</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

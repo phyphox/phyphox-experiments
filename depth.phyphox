@@ -111,6 +111,20 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">Скорость</string>
       <string original="Acceleration">Ускорение</string>
       <string original="Settings">Настройки</string>
+      <title>Датчик глубины (LiDAR/ToF)</title>
+      <category>Инструменты</category>
+      <description>Измеряйте расстояния с помощью датчика глубины.
+
+     Это доступно только в том случае, если ваш телефон имеет датчик глубины как часть вашей камеры.  Вы можете коснуться изображения предварительного просмотра и выбрать область обзора вашей камеры, которая способствует измерению, а также выбрать, будет ли результат ближайшим расстоянием, средним расстоянием или средним значением, которое учитывает оценку датчика точности каждой измеренной точки.  .
+
+     На вкладке движения также вычисляются скорость и ускорение по измеренному расстоянию с использованием алгоритма LOESS.
+</description>
+      <string original="Distance / Depth">Расстояние / глубина</string>
+      <string original="Kinematics">Кинематика</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Нажмите на предварительный просмотр и переместите, чтобы изменить область изображения, которая учитывается при расчете расстояния. Вы также можете выбрать различные методы для агрегирования измерений глубины в этой области.</string>
+      <string original="Preview">Предварительный просмотр</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Ниже вы можете изменить локальное сглаживание для графиков на вкладке кинематики. Настройка ширины влияет на оценки скорости и ускорения. Большие значения приводят к более плавным кривым с меньшей детализацией.</string>
+      <string original="Width of LOESS fit">Ширина подгонки LOESS</string>
     </translation>
     <translation locale="sr">
       <string original="Graph">Grafik</string>
@@ -139,6 +153,20 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">Vận tốc</string>
       <string original="Acceleration">Gia tốc</string>
       <string original="Settings">Cài đặt</string>
+      <title>Cảm biến chiều sâu (LiDar / ToF)</title>
+      <category>Công cụ</category>
+      <description>Đo khoảng cách bằng cảm biến chiều sâu.
+
+....Điều này chỉ khả dụng nếu điện thoại của bạn có cảm biến chiều sâu như một phần của hệ thống máy ảnh. Bạn có thể nhấn vào hình ảnh xem trước và chọn khu vực chế độ xem của máy ảnh góp phần vào phép đo và cũng có thể chọn xem kết quả là khoảng cách gần nhất, khoảng cách trung bình hay mức trung bình có tính đến ước tính của cảm biến về độ chính xác của từng điểm được đo .
+
+....Tab chuyển động cũng tính toán vận tốc và gia tốc từ khoảng cách đo được bằng thuật toán LOESS.
+</description>
+      <string original="Distance / Depth">Khoảng cách / Độ sâu</string>
+      <string original="Kinematics">Động học</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Chạm vào phần xem trước và kéo để thay đổi vùng ảnh được tính đến để tính khoảng cách. Bạn cũng có thể chọn các phương pháp khác nhau để tổng hợp các phép đo chiều sâu trong khu vực này.</string>
+      <string original="Preview">Xem trước</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Bên dưới, bạn có thể thay đổi cách làm mịn cục bộ cho các biểu đồ trên tab động học. Cài đặt chiều rộng ảnh hưởng đến ước tính vận tốc và gia tốc. Các giá trị lớn dẫn đến các đường cong mượt mà hơn với ít chi tiết hơn.</string>
+      <string original="Width of LOESS fit">Chiều rộng của LOESS phù hợp</string>
     </translation>
     <translation locale="zh_Hans">
       <string original="Graph">图表</string>
@@ -153,6 +181,27 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">速度</string>
       <string original="Acceleration">加速度</string>
       <string original="Settings">設定</string>
+    </translation>
+    <translation locale="ka">
+      <title>სიღრმის სენსორი (LiDAR / ToF)</title>
+      <category>ხელსაწყოები</category>
+      <description>გაზომე დისტანცია სიღრმის სენსორის გამოყენებით.
+
+    ხელმისაწვდომია მხოლოდ მაშინ როცა თქვენი კამერის ნაწილია სიღრმის სენსორი. თქვენ შეგიძლიათ დაკლიკოთ სურათის ნახვა და მონიშნოთ სივრცე რისი გაზომვაც მიმდინარეობს, ასევე მონიშნოთ არის თუარა შედეგი უახლოესი დისტანცია, საშუალო დისტანცია ან საშუალო, რაც სენსორის შეფასების სიზუსტეს ეხმარება.
+
+    მოძრაობის გვერდი ასევე ითვლის სიჩქარეს და აჩქარებას მანძილის გამოთვლით LOESS-ს ალგორითმის გამოყენებით.
+</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Distance / Depth">დისტანცია / სიღრმე</string>
+      <string original="Simple">მარტივი</string>
+      <string original="Kinematics">კინემატიკა</string>
+      <string original="Velocity">სიჩქარე</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">დააჭირეთ ნახვას და გადააცურეთ იმისთივს რომ შეცვალოთ სურათის არეა, რომელზეც ხდება მანძილის გამოთვლა. თქვენა ასევე შეგიძლიათ შეცვალოთ განსხვავებული მეთოდები სიღმის გამოთვლისთვის ამ არეაში.</string>
+      <string original="Preview">ნახვა</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">ქვემოთ თქვენ შეგიძლიათ შეცვალოთ ლოკალური გრაფიკის დაგლუვება კინემატიკის გვერდზე. სიფართოვის პარამეტრები მოქმედებს სიჩქარის და აჩქარების შეფასებაზე. დიდი მნიშვნელობები მოგვცემს უფრო გლუვ შედეგებს ნაკლები დეტალებით.</string>
+      <string original="Width of LOESS fit">LOESS ფიტირების სიფართოვე</string>
     </translation>
   </translations>
   <data-containers>

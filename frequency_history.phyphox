@@ -211,6 +211,18 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">Frecuencia</string>
       <string original="Period">Periodo</string>
     </translation>
+    <translation locale="ka">
+      <title>სიხშირის ისტორია</title>
+      <category>აკუსტიკა</category>
+      <description>
+        დათვალე სიხშირის ჩვლილება დროში ერთი ტონისთვის.
+
+        ეს ექსპერიმენტი იწერს ხმას მიკროფონის საშუალებით და აანალიზებს მის სიხშირეს მოკლედ დროის პერიოდებში. ექსპერიმენტი მუსაობს მხოლოდ ამშინ როცა გვაქვს ერთი ტონი ფიქსირებული სიხშირით რადგან ის იყენებს ავტოკორელაციას. შედეგები იქნება სიცშირის დროზე დამოკიდებულების სახით.
+    </description>
+      <string original="History">ისტორია</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Period">პერიოდი</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

@@ -288,7 +288,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
 
         Việc phân tích được thực hiện bằng cách tính toán tương quan tín hiệu âm thanh. Thí nghiệm sau đó xem xét tất cả các đỉnh vượt quá một nửa tín hiệu tối đa trong tự tương quan. Vị trí của các đỉnh cuối cùng trong phạm vi tự tương quan sẽ cho nhiều chu kỳ của tín hiệu. Bằng cách đếm số lượng đỉnh chúng ta có thể có được chu kỳ của tần số cơ sở.
     </description>
-      <string original="Autocorr.">Tự tương quan</string>
+      <string original="Autocorr.">Tự tương quan.</string>
       <string original="Period">Chu kỳ</string>
       <string original="Frequency">Tần số</string>
       <string original="Musical note">Nốt nhạc</string>
@@ -390,6 +390,29 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Raw data">Datos sin procesar</string>
       <string original="Recording">Grabación</string>
       <string original="Amplitude">Amplitud</string>
+    </translation>
+    <translation locale="ka">
+      <title>აუდიო ავტოკორელაცია</title>
+      <category>აკუსტიკა</category>
+      <description>
+        გაზომე ერთი ტონის სიხშირე.
+
+        Tეს ექსპერიმენტი იწერს ხმას და აანალიზებს მის სიხშირეს. ეს მუსაობს მხოლოდ მაშინ როცა გვაქვს ერთი ტონი ფიქსირებული სიხშირით - თუ გვაქვს რამდენიმე სიხშირე (მაგალითად აკორდი), გამოიყენე "სპექტრი"-ის ექსპერიმენტი.
+
+        ანალიზი ჩატარდა აუდიო სიგნალის აუტოკორელაციით. შემდეგ გათვალისწინებული ხდება მაქსიმალური სიგნალის ნახევარზე მეტი სიგნალები. ბოლო პიკების პოზიციები ავტოკორელაციაში იძლევა სიგნალის ჯერად პიკებს. პიკების რაოდენობის დათვლით ჩვენ შეგვიძლია მივიღოთ საწყისი სიხშირის პერიოდი.
+    </description>
+      <string original="Autocorr.">აუტოკორ.</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Musical note">მუსიკალური ნოტი</string>
+      <string original="Low">დაბალი</string>
+      <string original="High">მაღალი</string>
+      <string original="Cents from note">ნოტის ცენტები</string>
+      <string original="Autocorrelation">ავტო კორელაცია</string>
+      <string original="correlation">კორელაცია</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Recording">ჩაწერა</string>
+      <string original="Amplitude">ამპლიტუდა</string>
     </translation>
   </translations>
   <data-containers>

@@ -242,6 +242,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Amplitude">Amplitud</string>
       <string original="Duration">Duración</string>
     </translation>
+    <translation locale="ka">
+      <title>აუდიოსკოპი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        მანახე ჩაწერილი აუდიო მონაცემი.
+
+        ეს ექსპერიმენტი იწერს მოკლე პერიოდის ხმოვან მონაცემებს და გიჩვენებს მათ. იმისათვის რომ მიიღო მდგრადი სურათი, ნულის კვეთაა მიღებული საწყისად ხოლო t=0 არის მიღებული პირველი პოზიტიური კვეთა.
+    </description>
+      <string original="Scope">სკოპი</string>
+      <string original="Audio Data">ხმოვანი მონაცემები</string>
+      <string original="Time">დრო</string>
+      <string original="Amplitude">ამპლიტუდა</string>
+      <string original="Duration">ხანგრძლივობა</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

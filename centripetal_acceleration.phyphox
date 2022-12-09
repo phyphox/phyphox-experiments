@@ -316,6 +316,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">tiempo</string>
       <string original="Angular velocity">Velocidad Angular</string>
     </translation>
+    <translation locale="ka">
+      <title>ცენტრისკენული აჩქარება</title>
+      <category>მექანიკა</category>
+      <description>
+        ვიზუალურად წარმოადგენს ცენტრისკენული აჩქარების როგორც კუთხური სიჩქარის ფუნქციას.
+
+        ეს ექსპერიმენტი ითვლის კუთხური სიჩქარის მოდულს ω გიროსკოპით, ასევე აჩქარების მოდულს a ასკელომემტრით. გრაფიკით წარმოდგება ω დამოკიდებულება a = r·ω² სახით, ასე რომ თუ დავხაზავთ ω² წრფე უნდა მივიღოთ.
+
+        Tამის მისაღებას საჭიროა სხვადასხვა კუთხური სიჩქარეების გაზომვა მუდმივ რადიუსზე. სალათის მომრევი აპარატი ან პატარა კარუსელი იმუსავებს იდეალურად.
+    </description>
+      <string original="Relation">დამოკიდებულება</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Angular velocity ω">კუთხური სიჩქარე ω</string>
+      <string original="Acceleration a">აჩქარება a</string>
+      <string original="Square plot">კვადრატული გრაფიკი</string>
+      <string original="Time">დრო</string>
+      <string original="Angular velocity">კუთხური სიჩქარე</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

@@ -139,6 +139,14 @@
       <string original="Graph">Gráfico</string>
       <string original="Pressure">Presión</string>
     </translation>
+    <translation locale="ka">
+      <title>წნევა</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე დაუმუშავებელი მონაცემები ბარომეტრიდან.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Pressure">წნევა</string>
+      <string original="Simple">მარტივი</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

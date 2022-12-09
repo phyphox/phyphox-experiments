@@ -232,6 +232,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">Datos sin procesar</string>
       <string original="Gyroscope y">Giroscopio y</string>
     </translation>
+    <translation locale="ka">
+      <title>გაგორება</title>
+      <category>მექანიკა</category>
+      <description>
+        მოათავსე ტელეფონი მბრუნავ სხეულში და გაიგე მისი სიჩქარე.
+
+        ტელეფონი უნდა მოთავსდეს ქღალდის გორგალში ისე რომ ის ბრუნავდეს მისი ყველაზე გრძელი ღერძის გარშემო. შემდეგ გიროსკოპის ჩვენებით და მბრუნავი სხეულის რადიუსით გამოითვლება გორვის სიჩქარე.
+    </description>
+      <string original="Velocity">სიჩქარე</string>
+      <string original="Roll radius">ბრუნავი სხეულის რადიუსი</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Gyroscope y">გიროსკოპი y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

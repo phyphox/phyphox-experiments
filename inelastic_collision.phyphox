@@ -708,6 +708,47 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">Retraso mínimo</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
     </translation>
+    <translation locale="ka">
+      <title>(არა)ინერტული დაჯახება</title>
+      <category>მექანიკა</category>
+      <description>
+        გამოთვალე ენერგიის დანაკარგი (არა)ინერტულ ბურთის ხტუნაობისას.
+
+        საერთო ჯამში ეს ექსპერიმენტი მუშაობს როგორც აკუსტიკური წამზომი. იმ განსხვავებით რომ აქ ბურთის დაცემის ხმას ინიშნავს (ან რაიმე მსგავისი), მიღებული მონაცემებით დამუშავდება ინტერვალების დროები და გამოითვლება საწყისი სიმაღლე და დარჩენილი კინეტიკური ენერგიები.
+
+        იმის გათვალისწინებით რომ ბურთი კარგავს ერთი და იმავე პროცენტულ კინეტიკურ ენერგიას, ფაიფოქსი გამოთვლის საწყის სიმაღლეს საიდანაც ბურთი ჩამოვარდა.
+
+        დაიწყეთ ექსპერიმენტი და აცადეთ ბურთს რამდენიმე დაცემა ახტომა ისე რომ დაჯახების ხმები აღქმადი იყოს. თუ ღმა ცოტაა საზღვრების შეცვლა შეიძლება გახდეს საჭირო პარამეტრებში (საზღვრებში 0-დან 1-მდე), ასე რომ ექსპერიმენტმა აღიქვას ბურთის ხმა და არა უკანა ხმაური. ასევე თუ თქვენთვის ექსო პრობლემაა, პარამეტრებში ასევე შეგიძლიათ შეცვალოთ მინიმალური დაშორება იმპულსებს შორის რათაგანმეორებითი ექოს ხმები არგახდეს ახალი მონაცემად აღქმული.
+    </description>
+      <string original="Heights">სიმაღლეები</string>
+      <string original="Height 0">სიმაღლე 0</string>
+      <string original="Height 1">სიმაღლე 1</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Height 2">სიმაღლე 2</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Height 3">სიმაღლე 3</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Height 4">სიმაღლე 4</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Height 5">სიმაღლე 5</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Energy">ენერგია</string>
+      <string original="Energy 1">ენერგია 1</string>
+      <string original="Energy 2">ენერგია 2</string>
+      <string original="Retained on collision 2">შენარჩუნებული დაღახებაის შემდეგ 2</string>
+      <string original="Energy 3">ენერგია 3</string>
+      <string original="Retained on collision 3">შენარჩუნებული დაჯახების შემდეგ 3</string>
+      <string original="Energy 4">ენერგია 4</string>
+      <string original="Retained on collision 4">შენარჩუნებული დაჯახების შემდეგ 4</string>
+      <string original="Energy 5">ენერგია 5</string>
+      <string original="Retained on collision 5">შენარჩუნებული დაჯახების შემდეგ 5</string>
+      <string original="Average retained">საშუალო შენარჩუნებული</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Threshold">გაშვების ზღვარი</string>
+      <string original="Minimum Delay">საშუალო დაგვიანება</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">სამწუხაროდ, ეს არიმუშავებს ნელ ტელეფონებზე. გთხოვთ შეადაროთ აკუსტიკური საათის ექსპერიმენტი რეალურს საათს, რომ დარწმუნდეთ მის სისწორეში. თუ მუშაობს ამ ექსპერიმენტსაც არ უნდა ქონდეს პრობლემა.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

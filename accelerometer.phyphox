@@ -232,6 +232,20 @@
       <string original="Absolute acceleration">Aceleración absoluta</string>
       <string original="Acceleration">Aceleración</string>
     </translation>
+    <translation locale="ka">
+      <title>აჩქარება g-თი</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე ახალი მონაცემები აქსელომეტრით. ეს სენოსრი არ გამოაკლებს გრავიტაციულ ძალას, შესაბამისად ის გვეტყვის 9.81 m/s² აჩქარებას მაშინაც კი როცა ის არმოძრაობს.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Accelerometer x">აქსელომეტრი x</string>
+      <string original="Accelerometer y">აქსელომეტრი y</string>
+      <string original="Accelerometer z">აქსელომეტრი z</string>
+      <string original="Absolute">აბსოლუტი</string>
+      <string original="Absolute acceleration">აჩქარების მოდული</string>
+      <string original="Multi">მულტი</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Simple">მარტივი</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

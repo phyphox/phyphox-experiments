@@ -150,6 +150,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Генератор белого шума. (Может быть громким. Пожалуйста, сначала убавьте громкость воспроизведения.)</string>
       <string original="Off">Выкл.</string>
       <string original="On">Вкл.</string>
+      <string original="Resolution">Разрешение</string>
     </translation>
     <translation locale="it">
       <title>Spettro Audio</title>
@@ -378,6 +379,10 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">Đang ghi âm</string>
       <string original="Amplitude">Biên độ</string>
       <string original="Status">Trạng thái</string>
+      <string original="Resolution">Độ phân giải</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Máy tạo tiếng ồn trắng. (Có thể to. Vui lòng giảm âm lượng phát trước.)</string>
+      <string original="Off">Tắt</string>
+      <string original="On">Mở</string>
     </translation>
     <translation locale="zh_Hans">
       <title>声音频谱</title>
@@ -492,6 +497,38 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generador de ruido blanco. (Puede sonar fuerte. Por favor, reducir el volumen de reproducción primero.)</string>
       <string original="Off">Apagado</string>
       <string original="On">Encendido</string>
+    </translation>
+    <translation locale="ka">
+      <title>აუდიო სპექტრი</title>
+      <category>აკუსტიკა</category>
+      <description>
+            მანახე აუდიო სიგნალის სიხშირის სპექტრი.
+
+            ეს ექსპერიმენტი იწერს ხმას მიკროფონის საშუალებით და ითვლის მის სიხშირის სპექტრს ფურიეს გარდაქმნებით. თუ თქვენ გაქვთ მონო სიგნალი ერთი სიხშირით, ალბათ უკეთეს შედეგს მიიღებთ "აუტოკორელაციის" აუდიო ექსპერიმენტით.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="Musical note">მუსიკალური ნოტი</string>
+      <string original="Low">დაბალი</string>
+      <string original="High">მაღალი</string>
+      <string original="Cents from note">ნოტის ცენტები</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">თერთი ხმაურის გენერატორი. (შეიძლება იყოს ხმამაღალი. გთხოვთ დაუწიოთ დინამიკის სიმძლავრეს)</string>
+      <string original="Off">გამორთვა</string>
+      <string original="On">ჩართვა</string>
+      <string original="Status">სტატუსი</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Recording">ჩაწერა</string>
+      <string original="Amplitude">ამპლიტუდა</string>
     </translation>
   </translations>
   <data-containers>

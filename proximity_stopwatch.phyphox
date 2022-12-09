@@ -609,7 +609,7 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <string original="Time 4">Thời gian 4</string>
       <string original="Time 5">Thời gian 5</string>
       <string original="Reset">Đặt lại</string>
-      <string original="Parallel">Song Song</string>
+      <string original="Parallel">Song song</string>
       <string original="Duration">Khoảng t. gian</string>
       <string original="Trigger duration 0">Khoảng kích hoạt 0</string>
       <string original="Trigger duration 1">Khoảng kích hoạt 1</string>
@@ -808,6 +808,51 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <string original="Trigger off 4">Disparo apagado 4</string>
       <string original="Trigger on 5">Disparo encendido 5</string>
       <string original="Trigger off 5">Disparo apagado 5</string>
+    </translation>
+    <translation locale="ka">
+      <title>სიახლოვის წამზომი</title>
+      <category>წამზომები</category>
+      <description>
+        ზომავს დროს სიახლოვის სენსორის გამოყენებით.
+
+        ამ ექსპერიმენტში მიიტანთ სხეულს სიახლოვის სენსორთან (ეს სენსორი ძირითადად განთავსებული დინამიკთან რომელსაც იყენებთ ტელეპონზე საუბრისას) და გაზომოთ დროები სხეულის მდებარეობის მიხედვით.
+
+        გაითვალისწინე, რომ სიზუსტე ძალიან დამოკიდებულია თქვენი ტელეფონის სენსორზე.ნელი სენსორებისთვის აცდენა წამიც შეიძლება იყოს, ხოლო ჩქარი სენსორებისთვის წამის მეათედი. უფრო მეტი სიზუსტის საჭიროების შემთხვევაში გამოიყენე აკუსტიკური წამზომები.
+    </description>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Trigger below">გააქტიურების ქვედა ზღვარი</string>
+      <string original="Trigger above">გააქტიურების ზედა ზღვარი</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">წამზომი იწყებს თვლას ზედა და ქვეზა ზღვრის გადაცილებისას. თუ გსურს რომ მხოლოდ შორ მანძილებზე მოხდეს ჩართვა, დააყენე "ქვედა ზღვარი" ნულზე. თუ გსურს რომ ჩართვა მოხდეს მხოლოდ ახლო მანძილზე, დააყენე "ქვედა ზღვარი" ძალიან დიდ მნიშვნელობაზე. თქვენ შეგიძლით წინასწარ შეაფასოთ სასურველი ჩართვის ზღვარი ქვედა გრაფიკის გამოყენებით. ძირითადად სენსორები ზომავენ 0სმ-ს და 5სმ-ს.</string>
+      <string original="Distance">მანძილი</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">სიზუსტე ძალიან დამოკიდებულია სიშორის სენსორზე თქვენს ტელეფონში. ნელი სენსორებისთვის აცდენა შეიძლება იყოს წამი, ხოლო ჩაქრებისთვის წამის მეათედი. მეტი სიზუსტისატვის გამოიყენეთ აკუსტიკური წამზომების ექპერიმენტები. აიფონებში ეს სენსორი მუშაობს მხოლოდ მაშინ როცა ტელეფონი არის ვერტიკალურ მგომარეობაში, და ეკრანს ჩააქრობს როგორც კი ჩაირთვება.</string>
+      <string original="Sequence">თანმიმდევრობა</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Parallel">პარალელური</string>
+      <string original="Duration">ხანგრძლივობა</string>
+      <string original="Trigger duration 0">გამომწვევი მიზეზის ხანგრძლივობა 0</string>
+      <string original="Trigger duration 1">გამომწვევი მიზეზის ხანგრძლივობა 1</string>
+      <string original="Trigger duration 2">გამომწვევი მიზეზის ხანგრძლივობა 2</string>
+      <string original="Trigger duration 3">გამომწვევი მიზეზის ხანგრძლივობა 3</string>
+      <string original="Trigger duration 4">გამომწვევი მიზეზის ხანგრძლივობა 4</string>
+      <string original="Trigger duration 5">გამომწვევი მიზეზის ხანგრძლივობა 5</string>
+      <string original="Triggers">გამომწვევი მიზეზები</string>
+      <string original="Trigger on 0">გამომწვევი მიზეზი 0 -ზე</string>
+      <string original="Trigger off 0">გამომრთველი 0-ზე</string>
+      <string original="Trigger on 1">გამომწვევი მიზეზი 1-ზე</string>
+      <string original="Trigger off 1">გამომრთველი 1-ზე</string>
+      <string original="Trigger on 2">გამომწვევი მიზეზი 2-ზე</string>
+      <string original="Trigger off 2">გამომრთველი2-ზე</string>
+      <string original="Trigger on 3">გამომწვევი მიზეზი 3-ზე</string>
+      <string original="Trigger off 3">გამომრთველი 3-ზე</string>
+      <string original="Trigger on 4">გამომწვევი მიზეზი 4-ზე</string>
+      <string original="Trigger off 4">გამომრთველი 4-ზე</string>
+      <string original="Trigger on 5">გამომწვევი მიზეზი 5-ზე</string>
+      <string original="Trigger off 5">გამომრთველი 5-ზე</string>
     </translation>
   </translations>
   <input>

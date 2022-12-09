@@ -141,6 +141,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="History">История</string>
       <string original="Time">Время</string>
       <string original="1/min">1/мин</string>
+      <string original="Resolution">Разрешение</string>
     </translation>
     <translation locale="it">
       <title>Spettro di accelerazione</title>
@@ -355,6 +356,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">Gia tốc y</string>
       <string original="Acceleration z">Gia tốc z</string>
       <string original="1/min">1/phút</string>
+      <string original="Resolution">Độ phân giải</string>
     </translation>
     <translation locale="zh_Hans">
       <title>加速度频谱</title>
@@ -460,6 +462,34 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration x">Aceleración x</string>
       <string original="Acceleration y">Aceleración y</string>
       <string original="Acceleration z">Aceleración z</string>
+    </translation>
+    <translation locale="ka">
+      <title>აჩქარების სპექტრი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+            გაჩვენებს სიხშირეების სპექტრს აქსელომეტრის მონაცემებიდან.
+
+            ეს ექსპერიმენტი იღებს მონაცემებს აქსელომეტრიდან და ითვლის სიხშირეების სპექტრს ფურიეს გარდაქმნებით (FFT). მაქსიმალური სიხშირე რისი აღმოჩენაც შესაძლებელია დამოკიდებულია თქვენს ტელეფონზე.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="1/min">1/წთ</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="Acquisition rate">მიღების სიხშირე</string>
+      <string original="Nyquist frequency">ჩამკეტი სიხშირე</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Acceleration x">აჩქარება x</string>
+      <string original="Acceleration y">აჩქარება y</string>
+      <string original="Acceleration z">აჩქარება z</string>
     </translation>
   </translations>
   <data-containers>

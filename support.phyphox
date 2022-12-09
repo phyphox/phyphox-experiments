@@ -25,12 +25,22 @@
     <translation locale="nl"/>
     <translation locale="pl"/>
     <translation locale="pt"/>
-    <translation locale="ru"/>
+    <translation locale="ru">
+      <title>Другие способы внести свой вклад…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="sr"/>
     <translation locale="sr_Latn"/>
     <translation locale="tr"/>
-    <translation locale="vi"/>
+    <translation locale="vi">
+      <title>Các cách khác để đóng góp…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="zh_Hans"/>
     <translation locale="zh_Hant"/>
+    <translation locale="ka">
+      <title>წვლისის შეტანის სხვა გზები…</title>
+      <category>phyphox.org</category>
+    </translation>
   </translations>
 </phyphox>

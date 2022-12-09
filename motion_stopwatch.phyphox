@@ -446,7 +446,7 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Time 3">Thời gian 3</string>
       <string original="Time 4">Thời gian 4</string>
       <string original="Time 5">Thời gian 5</string>
-      <string original="Parallel">Song Song</string>
+      <string original="Parallel">Song song</string>
       <string original="Many">Nhiều</string>
       <string original="Events">Các sự kiện</string>
       <string original="Event number">Số chẵn</string>
@@ -580,6 +580,39 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average interval">Intervalo medio</string>
       <string original="Average rate">Tasa promedio</string>
       <string original="Average rate (bpm)">Tasa promedio(bpm)</string>
+    </translation>
+    <translation locale="ka">
+      <title>მოძრაობის წამზომი</title>
+      <category>წამზომები</category>
+      <description>
+        მიიღე დრო ორ მოძრავ მომენტს შორის.
+
+        ეს ექსპერიმენტი გაძლევს საშუალებას გაზომო დრო ორ მცირედ აჩქარებულ მომენტებს შორის. სასურველია დაყენდეს ჩართვის საზღვრები თქვენი ექსპერიმენტის მიხედვით.
+
+        ექსპერიმენტის დაწყების შემდეგ, წამზომი ჩაირთვება პირველივე აჩქარებაზე რომელის ჩართვის საზღვარს გასცდება და გამოირთვება მეორე ასეთ აჩქარებაზე. ყურადრება მიაქციე რომ პირველი აჩქარება იყოს მოკლე ხნიანი რადგან ვიბრაციებმა შეიძლება ჩართვასთან ერთად გამორთვაც გამოიწვიოს.
+    </description>
+      <string original="Simple">მარტივი</string>
+      <string original="Threshold">გაშვების ზღვარი</string>
+      <string original="Minimum Delay">საშუალო დაგვიანება</string>
+      <string original="Time">დრო</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">შეცვალე ჩართვის საზღვრები ისე რომ იყოს გარემოს ხმაურზე მაღალი, მაგრამ იმაზე დაბლა რიზეც გვინდა რომ გაეშვას ექსპერიმენტი (შეგიძლია მანამდე ცადო ექსპერიმენტი g-ს გარეშე შესაფასებლად). ასევე დააყენე მინიმალური დაგვიანების დრო რადგან თავიდან აიცილოთ არასასურველი გამორთვა.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">ექსპერიმენტის სიზუსტე დამოკიდებულია თქვენი ტელეფონის აქსელომეტრზე. ჩქარე აქსელომეტრების სიზუსტე შეიძლება იყოს წამის მეასედები, ხოლო ნელების შეიძლება იყოს წამიც.</string>
+      <string original="Sequence">თანმიმდევრობა</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Parallel">პარალელური</string>
+      <string original="Many">ბევრი</string>
+      <string original="Events">ხდომილობები</string>
+      <string original="Event number">ხდომილობის ნომერი</string>
+      <string original="Time interval">დროის ინტერვალი</string>
+      <string original="Average interval">საშუალო ინტერვალი</string>
+      <string original="Average rate">საშუალო სიხშირე</string>
+      <string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string>
+      <string original="1/min">1/წთ</string>
     </translation>
   </translations>
   <input>

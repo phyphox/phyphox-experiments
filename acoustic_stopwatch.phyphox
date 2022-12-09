@@ -193,7 +193,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time">Время</string>
       <string original="Reset">Сброс</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Измените предельное значение выше уровня шума окружающей среды, но ниже порога (вы можете попробовать эксперимент «Акустический диапазон», чтобы проверить их). Также установите минимальную задержку, чтобы избежать триггеров короче, чем это время (например, из-за эха или реверберации).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">К сожалению, это не будет работать на телефонах данного типа. Сравните с обычными часами, чтобы убедиться, что эксперимент работает должным образом.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">К сожалению, это не будет работать на медленных телефонах. Сравните с обычными часами, чтобы убедиться, что эксперимент работает должным образом.</string>
       <string original="Sequence">Последовательность</string>
       <string original="Time 1">Время 1</string>
       <string original="Time 2">Время 2</string>
@@ -449,7 +449,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time 3">Thời gian 3</string>
       <string original="Time 4">Thời gian 4</string>
       <string original="Time 5">Thời gian 5</string>
-      <string original="Parallel">Song Song</string>
+      <string original="Parallel">Song song</string>
       <string original="Many">Nhiều</string>
       <string original="Events">Các sự kiện</string>
       <string original="Event number">Số chẵn</string>
@@ -583,6 +583,39 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Intervalo medio</string>
       <string original="Average rate">Tasa promedio</string>
       <string original="Average rate (bpm)">Tasa promedio(bpm)</string>
+    </translation>
+    <translation locale="ka">
+      <title>აკუსტიკური წამზომი</title>
+      <category>წამზომები</category>
+      <description>
+        მიიღე დრო ორ აკუსტიკურ მოვლენას შორის.
+
+        ეს ექსპერიმენტი საშუალებას იძლევა გამოთვალოს დრო ორ ხმამაღალ აკუსტიკურ სიგნალს შორის. ეს შეიძლება იყოს წკაპუნი, ტაში, პიპინი დ.ა.შ. თუ ისინი არიან უფრო ხმამაღალი ვიდრე გარემო. თქვენთვის შეიძლება მოსახერხებელი იყოს დაწყების ხმამაღლობის მითითება რომელიც უნდა დაყენდეს 0 დან 1 ზონაში.
+
+        ექპერიმენტის დაწყების შემდეგ საათი დაიწყებს ათვლას პირველი ხმამაღალი სიგნალის გაგონების შემდეგ და შეყვეტს დროის დათვლას მეორე ხმამაღალი სიგნალის გაგონებისას.ექსპერიმენტის გასამეორებლად, უნდა წაშალოთ მონაცემები და თავიდან დაიწყოთ. გაითვალისწინეთ რომ დაწყების სიგნალი იყოს მოკლე რადგან გრძელმა სიგნალმა შეიძლება ჩართოს და ასევე მაშინვე გამორთოს წამზომი.
+    </description>
+      <string original="Simple">მარტივი</string>
+      <string original="Threshold">გაშვების ზღვარი</string>
+      <string original="Minimum Delay">საშუალო დაგვიანება</string>
+      <string original="Time">დრო</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">შეცვალე სიგნალის ზღვარის დონე გარემოს ხმაურზე მაღლა, თუმცა გაშვების სიგნალზე დაბლა ( თქვენ შეგიძლიათ აუდიოსკოპის ექპერიმენტის გამოყენება ამისთვის). ასევე დააყენეთ მინიმუმი დაგვიანების დრო რადგან მაშინათვე არ მოხდეს წამზომის გათიშვა, მაგალითად ექოთი.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">სამწუხაროდ, ეს არ იმუშავებს ნელ ტელეფონებზე. გთხოვთ პირველ რიგში შეადაროთ ჩვეულებრივ საათს, რომ დაწმუნდეთ სისწორეში.</string>
+      <string original="Sequence">თანმიმდევრობა</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Parallel">პარალელური</string>
+      <string original="Many">ბევრი</string>
+      <string original="Events">ხდომილობები</string>
+      <string original="Event number">ხდომილობის ნომერი</string>
+      <string original="Time interval">დროის ინტერვალი</string>
+      <string original="Average interval">საშუალო ინტერვალი</string>
+      <string original="Average rate">საშუალო სიხშირე</string>
+      <string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string>
+      <string original="1/min">1/წთ</string>
     </translation>
   </translations>
   <input>

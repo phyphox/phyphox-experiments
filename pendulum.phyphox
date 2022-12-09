@@ -534,6 +534,37 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope y">Giroscopio y</string>
       <string original="Gyroscope z">Giroscopio z</string>
     </translation>
+    <translation locale="ka">
+      <title>ქანქარა</title>
+      <category>მექანიკა</category>
+      <description>
+        გამოთვალე გრავიტაციული კონსტანტა (g=9.81m/s²) შენი ტელეფონის ქანქარად გამოყენებით.
+
+        ეს ექსპერიმენტი იყენებს გიროსკოპს რომ გამოთვალოს რხევის პერიოდი T. მომხმარებელმა უნდა შეიყვანოს ქანქარის თოკის სიგრძე L, ფაიფოქსი გამოიყენებს ფორმულას g = 4π²L/T².
+
+        ასევე პირიქით, შეგვიძლია ჩავთვალოთ რომ g = 9.81 m/s² და გამოვთვალოთ ქანქარის თოკის სიგრძე. (უფრო ზუსტად მანძილი ბრუნვის წერტილიდან მასატა ცენტრამდე.)
+
+        ამასთან ერთად, რეზონანსის გვერდზე, იხაზება აპლიტუდის დამოკიდებულება სიხშირეზე. ამის გამოყენებით შეგიძლია ბიძგიანი ოსცილატორი ააწყო და შეცვალო ბიძგების სიხშირე რეზენანსულ სიხშირემდე.
+
+        დამატებითი დეტალები:
+        რხევის პერიოდი მიიღება სამი გიროსკოპის მდგენელის დაჯამებით. ავტომატური კორელაცია გამოიყენება იმისთვის რომ მივიღოთ უფრო ზუსტი შედეგი, რაც გულისხმობს პირველი მაქსიმუმის და ბოლო მაქსიმუმის აღებას.
+    </description>
+      <string original="Results">შედეგები</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Length">სიგრძე</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">აქ, თქვენ შეგიძლიათ ჩაწეროთ ქანქარის თოკის სიგრძე (ბრუნვის წერტილიდან მასათაცენტრამდე მანძილი) და გამოთვალოთ დედამიწის თავისუფალი ვარდნის აჩქარება g.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">აქ, თქვენ შეგიძლიათ გამოთვალოთ ქანქარის თოკის სიგრძე (მანძილი ბრუნვის წერტილიდან მასათა ცენტრამდე) g = 9.81 m/s²-ს გამოყენებით.</string>
+      <string original="Resonance">რეზონანსი</string>
+      <string original="Rel. amplitude">მიმდინარე ამპლიტუდა</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">ამ გვერდზე, ამპლიტუდის სიხსირეზე დამოკიდებულებაა წარმოდგენილი. თქვენ შეგიძლიათ ეს გამოიყენოთ ბიძგიანი ქანქარისთვის. ამპლიტუდა დანორმირებულია 0-დან 1-მდე.</string>
+      <string original="Autocorrelation">ავტო კორელაცია</string>
+      <string original="correlation">კორელაცია</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Gyroscope x">გიროსკოპი x</string>
+      <string original="Gyroscope y">გიროსკოპი y</string>
+      <string original="Gyroscope z">გიროსკოპი z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

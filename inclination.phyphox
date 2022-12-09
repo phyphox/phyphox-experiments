@@ -296,7 +296,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Plane">Mặt phẳng</string>
       <string original="Inclination">Độ nghiêng</string>
       <string original="Rotation">Góc quay</string>
-      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Mục này để đo độ nghiêng của mặt phẳng. Độ nghiêng của mặt phẳng được đo khi điện thoại được gắn  nằm cố định trên mặt phẳng, bất kể hướng nào. Độ quay cho biết hướng của mặt phẳng.</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Mục này để đo độ nghiêng của mặt phẳng. Độ nghiêng của mặt phẳng được đo khi điện thoại được gắn nằm cố định trên mặt phẳng, bất kể hướng nào. Độ quay cho biết hướng của mặt phẳng.</string>
     </translation>
     <translation locale="zh_Hans">
       <title>斜面</title>
@@ -393,6 +393,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Inclination">Inclinación</string>
       <string original="Rotation">Rotación</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Esta pestaña ayuda a medir la inclinación de un plano. La inclinación del plano se mide mientras que el teléfono descansa sobre la superficie, independientemente de su orientación. La rotación da la dirección de la inclinación.</string>
+    </translation>
+    <translation locale="ka">
+      <title>გადახრა</title>
+      <category>ხელსაწყოები</category>
+      <description>
+        გაზომე ტელეფონის დახრის კუთხე.
+
+        ეს ხელსაწყო იყენებს აქსელომეტრს ტელეფონის დახრის გამოსათვლელად. როდესაც ტელეფონი დევს მაგიდაზე, დახრა არის ნული. არანულოვანი დახრისთვის, დახრის მიმართულება მოცემულია როგორც მობრუნება.
+
+        ყურადღება მიაქციე, რომ კუთხეები განიმარტება ექსპერიმენტით და არა ტელეფონის დახრილობით.
+    </description>
+      <string original="Flat">სიბრტყე</string>
+      <string original="Tilt up/down">დახრა ზემოთ/ქვემოთ</string>
+      <string original="Angle">კუთხე</string>
+      <string original="Tilt left/right">დახრა მარცხნივ/მარჯვნივ</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">ეს გვერდი გეხმარება გაზომო ტელეფონის დახრის კუთხე, როდესაც იწყებთ ბრტყელი პოზიციიდან.</string>
+      <string original="Upright">მაღლა</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">ეს გვერდი გეხმარება გაზომო ტელეფონის დახრის კუთხე, ტელეფონის ვერტიკალური მდგომარეობიდან.</string>
+      <string original="Side">გვერდი</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">ეს გვერდი გეხმარება გაზომო ტელეფონის დახრის კუთხე, ლანდშაფტის მდგომარეობაში დაყენებულ იტელეფონის მდგომარეობიდან.</string>
+      <string original="Plane">სიბრტყე</string>
+      <string original="Inclination">დახრა</string>
+      <string original="Rotation">მობრუნება</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">ეს ვერდი გეხმარება სიბრტყის დახრის გამოთვლაში. სიბრტყის დახრის გამოსათვლელად ტელეფონი მოათავსე ამ სიბრტყეზე (დაწვენილ მდგომარეობაში). მობრუნებსი კუთხე გვაძლევს დახრის მიმართულებას.</string>
     </translation>
   </translations>
   <data-containers>

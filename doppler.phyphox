@@ -330,6 +330,25 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">Frecuencia</string>
       <string original="Speed">Velocidad</string>
     </translation>
+    <translation locale="ka">
+      <title>დოპლერის ეფექტი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        აღმოაჩნიე მცდირედი სიხშირის ცვლილებები დოპლერის ეფექტით.
+
+        თქვენ გჭირდებათ ტონის გენერატორი რომელიც იძლევა მუდმივ სიხშირეს (მაგალითად 1000ჰც). შეიყვანე ეს მონაცემი ექსპერიმენტის მონაცემებში, ასევე უნდა შეიყვანო დოლპრეის ეფექტის ცვლილების მოსალოდნელი სიხშირე (მაგალითად 10ჰც). ექსპერიმენტი ჩაიწერს ხმას და გამოთვლის ხმის წყაროს ფარდობით სიჩქარეს.
+    </description>
+      <string original="Setup">დაყენება</string>
+      <string original="Base frequency">საბაზისო სიხშირე</string>
+      <string original="Frequency range">სიხშირის დიაპაზონი</string>
+      <string original="Time step">დროის ბიჯი</string>
+      <string original="Speed of sound">ხსმის სიჩქარე</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">დროის ბიჯი განსაზღვრავს სიხშირეს და მონაცემების რაოდენობას, რაც გამოყენებული იქნება სიჩქარის გამოთვლაში. ალგორითმი ეძენს საბაზისო სიხშირის მახლობელ სიხშირეებს თქვენ მიერ მითითებულ საზღვრებში და გამოიყენებს მე-n-ე პერიოდს (ქვემოთ) რათა გამოთვალოს სიხშირე. ექსტრემალური პარამეტრები საზღვრებისთვის ან დროის ბიჯისთვის შეიძლება არაზუსტი იყოს თქვენი ტელეფონისთვის. ასევე საზღვრები გაცილებით პატარა უნდა იყოს ვიდე 1/ბიჯი.</string>
+      <string original="nth period">მე-n-ე პერიოდი</string>
+      <string original="Results">შედეგები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Speed">სიჩქარე</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>
