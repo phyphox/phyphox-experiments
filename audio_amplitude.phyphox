@@ -637,7 +637,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
         <input>dB</input>
       </value>
       <separator height="1"/>
-      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_sound_pressure_level]]" unitY="[[unit_short_decibel]]">
+      <graph label="History" timeOnX="false" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_sound_pressure_level]]" unitY="[[unit_short_decibel]]">
         <input axis="x">time</input>
         <input axis="y">dB</input>
       </graph>
