@@ -352,47 +352,85 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
     <container size="1" init="0">tmax</container>
     <container size="1" init="0">tmin</container>
     <container size="100">acc</container>
+    <container size="100">accx</container>
+    <container size="100">accy</container>
+    <container size="100">accz</container>
     <container size="100">acct</container>
+    <container size="100">res_accx</container>
+    <container size="100">res_accy</container>
+    <container size="100">res_accz</container>
+    <container size="100">res_acct</container>
     <container size="1">accelerometerRate</container>
     <container size="1">accelerometerAvg</container>
     <container size="1">accelerometerStd</container>
     <container size="100">lin</container>
+    <container size="100">linx</container>
+    <container size="100">liny</container>
+    <container size="100">linz</container>
     <container size="100">lint</container>
+    <container size="100">res_linx</container>
+    <container size="100">res_liny</container>
+    <container size="100">res_linz</container>
+    <container size="100">res_lint</container>
     <container size="1">linear_accelerationRate</container>
     <container size="1">linear_accelerationAvg</container>
     <container size="1">linear_accelerationStd</container>
     <container size="100">gyr</container>
+    <container size="100">gyrx</container>
+    <container size="100">gyry</container>
+    <container size="100">gyrz</container>
     <container size="100">gyrt</container>
+    <container size="100">res_gyrx</container>
+    <container size="100">res_gyry</container>
+    <container size="100">res_gyrz</container>
+    <container size="100">res_gyrt</container>
     <container size="1">gyroscopeRate</container>
     <container size="1">gyroscopeAvg</container>
     <container size="1">gyroscopeStd</container>
     <container size="100">mag</container>
+    <container size="100">magx</container>
+    <container size="100">magy</container>
+    <container size="100">magz</container>
     <container size="100">magt</container>
+    <container size="100">res_magx</container>
+    <container size="100">res_magy</container>
+    <container size="100">res_magz</container>
+    <container size="100">res_magt</container>
     <container size="1">magnetic_fieldRate</container>
     <container size="1">magnetic_fieldAvg</container>
     <container size="1">magnetic_fieldStd</container>
     <container size="100">pre</container>
     <container size="100">pret</container>
+    <container size="100">res_pre</container>
+    <container size="100">res_pret</container>
     <container size="1">pressureRate</container>
     <container size="1">pressureAvg</container>
     <container size="1">pressureStd</container>
     <container size="100">tem</container>
     <container size="100">temt</container>
+    <container size="100">res_tem</container>
+    <container size="100">res_temt</container>
     <container size="1">temperatureRate</container>
     <container size="1">temperatureAvg</container>
     <container size="1">temperatureStd</container>
     <container size="100">hum</container>
     <container size="100">humt</container>
+    <container size="100">res_hum</container>
+    <container size="100">res_humt</container>
     <container size="1">humidityRate</container>
     <container size="1">humidityAvg</container>
     <container size="1">humidityStd</container>
     <container size="100">lig</container>
     <container size="100">ligt</container>
+    <container size="100">res_lig</container>
+    <container size="100">res_ligt</container>
     <container size="1">lightRate</container>
     <container size="1">lightAvg</container>
     <container size="1">lightStd</container>
     <container size="100">pro</container>
     <container size="100">prot</container>
+    <container size="100">res_pro</container>
+    <container size="100">res_prot</container>
     <container size="1">proximityRate</container>
     <container size="1">proximityAvg</container>
     <container size="1">proximityStd</container>
@@ -421,7 +459,7 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <send id="accelerometerVersion" type="meta">accelerometerVersion</send>
       <send id="accelerometerRate" type="buffer">accelerometerRate</send>
       <send id="accelerometerAvg" type="buffer">accelerometerAvg</send>
-      <send id="accelerometerStd" type="buffer" init="1000000">accelerometerStd</send>
+      <send id="accelerometerStd" type="buffer">accelerometerStd</send>
       <send id="linear_accelerationName" type="meta">linear_accelerationName</send>
       <send id="linear_accelerationVendor" type="meta">linear_accelerationVendor</send>
       <send id="linear_accelerationRange" type="meta">linear_accelerationRange</send>
@@ -516,23 +554,61 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <send id="depthBackSensor" type="meta">depthBackSensor</send>
       <send id="depthBackResolution" type="meta">depthBackResolution</send>
       <send id="depthBackRate" type="meta">depthBackRate</send>
+      <send id="raw_accx" type="buffer">res_accx</send>
+      <send id="raw_accy" type="buffer">res_accy</send>
+      <send id="raw_accz" type="buffer">res_accz</send>
+      <send id="raw_acct" type="buffer">res_acct</send>
+      <send id="raw_linx" type="buffer">res_linx</send>
+      <send id="raw_liny" type="buffer">res_liny</send>
+      <send id="raw_linz" type="buffer">res_linz</send>
+      <send id="raw_lint" type="buffer">res_lint</send>
+      <send id="raw_gyrx" type="buffer">res_gyrx</send>
+      <send id="raw_gyry" type="buffer">res_gyry</send>
+      <send id="raw_gyrz" type="buffer">res_gyrz</send>
+      <send id="raw_gyrt" type="buffer">res_gyrt</send>
+      <send id="raw_magx" type="buffer">res_magx</send>
+      <send id="raw_magy" type="buffer">res_magy</send>
+      <send id="raw_magz" type="buffer">res_magz</send>
+      <send id="raw_magt" type="buffer">res_magt</send>
+      <send id="raw_pre" type="buffer">res_pre</send>
+      <send id="raw_pret" type="buffer">res_pret</send>
+      <send id="raw_tem" type="buffer">res_tem</send>
+      <send id="raw_temt" type="buffer">res_temt</send>
+      <send id="raw_hum" type="buffer">res_hum</send>
+      <send id="raw_humt" type="buffer">res_humt</send>
+      <send id="raw_lig" type="buffer">res_lig</send>
+      <send id="raw_ligt" type="buffer">res_ligt</send>
+      <send id="raw_pro" type="buffer">res_pro</send>
+      <send id="raw_prot" type="buffer">res_prot</send>
       <receive id="result">state</receive>
     </connection>
   </network>
   <input>
     <sensor type="accelerometer" ignoreUnavailable="true">
+      <output component="x">accx</output>
+      <output component="y">accy</output>
+      <output component="z">accz</output>
       <output component="abs">acc</output>
       <output component="t">acct</output>
     </sensor>
     <sensor type="linear_acceleration" ignoreUnavailable="true">
+      <output component="x">linx</output>
+      <output component="y">liny</output>
+      <output component="z">linz</output>
       <output component="abs">lin</output>
       <output component="t">lint</output>
     </sensor>
     <sensor type="gyroscope" ignoreUnavailable="true">
+      <output component="x">gyrx</output>
+      <output component="y">gyry</output>
+      <output component="z">gyrz</output>
       <output component="abs">gyr</output>
       <output component="t">gyrt</output>
     </sensor>
     <sensor type="magnetic_field" ignoreUnavailable="true">
+      <output component="x">magx</output>
+      <output component="y">magy</output>
+      <output component="z">magz</output>
       <output component="abs">mag</output>
       <output component="t">magt</output>
     </sensor>
@@ -681,6 +757,30 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">newStd</input>
       <output clear="false">accelerometerStd</output>
     </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accx</input>
+      <output clear="true">res_accx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accy</input>
+      <output clear="true">res_accy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accz</input>
+      <output clear="true">res_accz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">acct</input>
+      <output clear="true">res_acct</output>
+    </if>
     <!-- Linear acceleration -->
     <average>
       <input clear="false">lin</input>
@@ -730,12 +830,36 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">newStd</input>
       <output clear="false">linear_accelerationStd</output>
     </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">linx</input>
+      <output clear="true">res_linx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">liny</input>
+      <output clear="true">res_liny</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">linz</input>
+      <output clear="true">res_linz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">lint</input>
+      <output clear="true">res_lint</output>
+    </if>
     <!-- Gyroscope -->
     <average>
       <input clear="false">gyr</input>
       <output as="average">newAvg</output>
       <output as="stddev">newStd</output>
-    </average>
+    </average>isResult
     <max>
       <input as="y" clear="false">gyrt</input>
       <output as="max">tmax</output>
@@ -778,6 +902,30 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input type="value">1</input>
       <input clear="false">newStd</input>
       <output clear="false">gyroscopeStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrx</input>
+      <output clear="true">res_gyrx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyry</input>
+      <output clear="true">res_gyry</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrz</input>
+      <output clear="true">res_gyrz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrt</input>
+      <output clear="true">res_gyrt</output>
     </if>
     <!-- Magnetic field -->
     <average>
@@ -828,6 +976,30 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">newStd</input>
       <output clear="false">magnetic_fieldStd</output>
     </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magx</input>
+      <output clear="true">res_magx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magy</input>
+      <output clear="true">res_magy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magz</input>
+      <output clear="true">res_magz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magt</input>
+      <output clear="true">res_magt</output>
+    </if>
     <!-- Pressure -->
     <average>
       <input clear="false">pre</input>
@@ -876,6 +1048,18 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input type="value">1</input>
       <input clear="false">newStd</input>
       <output clear="false">pressureStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pre</input>
+      <output clear="true">res_pre</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pret</input>
+      <output clear="true">res_pret</output>
     </if>
     <!-- Temperature -->
     <average>
@@ -926,6 +1110,18 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">newStd</input>
       <output clear="false">temperatureStd</output>
     </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">tem</input>
+      <output clear="true">res_tem</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">temt</input>
+      <output clear="true">res_temt</output>
+    </if>
     <!-- Humidity -->
     <average>
       <input clear="false">hum</input>
@@ -974,6 +1170,18 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input type="value">1</input>
       <input clear="false">newStd</input>
       <output clear="false">humidityStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">hum</input>
+      <output clear="true">res_hum</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">humt</input>
+      <output clear="true">res_humt</output>
     </if>
     <!-- Light -->
     <average>
@@ -1024,6 +1232,18 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">newStd</input>
       <output clear="false">lightStd</output>
     </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">lig</input>
+      <output clear="true">res_lig</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">ligt</input>
+      <output clear="true">res_ligt</output>
+    </if>
     <!-- Proximity -->
     <average>
       <input clear="false">pro</input>
@@ -1072,6 +1292,18 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input type="value">1</input>
       <input clear="false">newStd</input>
       <output clear="false">proximityStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pro</input>
+      <output clear="true">res_pro</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">prot</input>
+      <output clear="true">res_prot</output>
     </if>
     <!-- If we had five results for the standard deviation since the last minimum stddev that are no more than 20% above the best one, the best one is our result as it is supposedly one with a resting phone. -->
     <if equal="true" greater="true">
