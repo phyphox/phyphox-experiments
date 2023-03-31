@@ -374,6 +374,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">გაასუფთავე ბოლო ქულა</string>
       <string original="Clear all scores">გაასუფთავე ყველა ქულა</string>
     </translation>
+    <translation locale="hi">
+      <title>ताली मापक</title>
+      <category>दैनिक जीवन</category>
+      <description>
+        तालियों की अवधि और आयाम के लिए स्कोर निर्धारित करें।
+
+        यह प्रयोग समय के साथ ध्वनि के आयाम को एकीकृत करता है और अंक देता है। इस तरह जोरदार और लंबी तालियां उच्च अंक प्राप्त करती हैं। इससे आप कई प्रतियोगियों का मूल्यांकन कर सकते हैं और "बार" चार्ट में उनके प्रदर्शन की तुलना कर सकते हैं।
+
+        उदाहरण: यह हिस्ट्री फायफॉक्स द्वारा पहचाने गए शोर के स्तर को दर्शाती है। आप "स्टार्ट" दबाकर स्कोरिंग शुरू कर सकते हैं और "स्टॉप" दबाकर स्कोरिंग को रोक सकते हैं। इस अवधि के दौरान आप स्कोर को बढ़ते हुए देखेंगे जो कि पीली पट्टी द्वारा भी इंगित किया जाता है। रुकने के बाद, आप अगले स्कोर को मापने के लिए तैयार होने के लिए "अगला प्रतियोगी" दबा सकते हैं। जब आप फिर से "स्टार्ट" दबाते हैं, तो दूसरी पट्टी तब तक बढ़ेगी जब तक आप फिर से "स्टॉप" नहीं दबाते। आप इसे जितनी बार चाहें उतनी बार दोहरा सकते हैं जिससे कि आप एक से अधिक स्कोरों की तुलना करना चाहते हैं।
+    </description>
+      <string original="Score">स्कोर</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Subscore">सब-स्कोर</string>
+      <string original="Scores">स्कोर</string>
+      <string original="Contestant">प्रतियोगी</string>
+      <string original="Start">स्टार्ट</string>
+      <string original="Stop">स्टॉप</string>
+      <string original="Next contestant">अगला प्रतियोगी</string>
+      <string original="Controls">कंट्रोल्स</string>
+      <string original="Reset last score">अंतिम स्कोर को रिसेट करें</string>
+      <string original="Clear all scores">सभी स्कोर मिटायें</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

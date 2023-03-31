@@ -349,6 +349,25 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">სიხშირე</string>
       <string original="Speed">სიჩქარე</string>
     </translation>
+    <translation locale="hi">
+      <title>डॉप्लर प्रभाव</title>
+      <category>ध्वनिक</category>
+      <description>
+        डॉप्लर प्रभाव के कारण आवृत्ति में हुए सूक्ष्म परिवर्तन को मापता है।
+
+        आपको एक टोन जेनेरेटर की आवश्यकता होगी जो एक स्थिर आवृत्ति (उदाहरण के लिए 1000Hz की) जेनेरेट करता है। प्रयोग सेटअप में इस मूल आवृत्ति को एंटर करें और डॉप्लर प्रभाव की अनुमानित आवृत्ति विस्थापन (फ्रीक्वेंसी शिफ्ट) आवृत्ति रेंज (range) में डालें। प्रयोग आवृत्ति को रिकॉर्ड करेगा और उससे ध्वनि स्त्रोत की सापेक्ष चाल की गणना करेगा।
+    </description>
+      <string original="Setup">सेटअप</string>
+      <string original="Base frequency">मूल आवृत्ति</string>
+      <string original="Frequency range">आवृत्ति रेंज</string>
+      <string original="Time step">समय अंतराल</string>
+      <string original="Speed of sound">ध्वनि की गति</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">समयांतराल, उस दर और डेटा की मात्रा निर्धारित करता है जिसका उपयोग एक वेग डाटा बिंदु की गणना के लिए किया जाता है। गणना विधि मूल आवृत्ति के आसपास -रेंज से +रेंज तक आवृत्ति की तलाश करेगा और आवृत्ति निर्धारित करने के लिए nवां पीरियड (नीचे देखिये) का उपयोग करेगा। हो सकता है कि रेंज या समयांतराल के लिए यदि आप अधिकतम संख्या की सेटिंग्स डालें तो वो गलत हों अथवा आपके फ़ोन के लिए उनके अनुसार गणना करना बहुत ही कठिन हो। साथ ही, आपको रेंज को 1/समयांतराल से काफी छोटा रखना चाहिए।</string>
+      <string original="nth period">nवां पीरियड</string>
+      <string original="Results">परिणाम</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Speed">चाल</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

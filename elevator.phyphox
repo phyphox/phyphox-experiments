@@ -350,6 +350,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Pressure">წნევა</string>
       <string original="Accelerometer z">აქსელომეტრი z</string>
     </translation>
+    <translation locale="hi">
+      <title>एलीवेटर (लिफ्ट)</title>
+      <category>दैनिक जीवन</category>
+      <description>
+        बैरोमीटर का उपयोग करके लिफ्ट की गति निर्धारित करें.
+
+        कम समय के भीतर ऊंचाई में होने वाले परिवर्तन को बैरोमीटर का उपयोग करके बहुत सटीक रूप से मापा जा सकता है - यहां तक कि जहां जीपीएस भी काम नहीं करता है। इसका उपयोग लिफ्ट की ऊर्ध्वाधर गति प्राप्त करने के लिए किया जा सकता है। इसके अतिरिक्त, त्वरण को z-घटक एक्सेलेरोमीटर का उपयोग करके मापा जाता है, इसलिए त्वरण के सटीक माप के लिए, फोन को लिफ्ट के फर्श पर सपाट होना चाहिए.
+
+         अधिक विवरण :
+        इस प्रयोग में कुछ शोर को कम करने के लिए, बैरोमीटर से रीडिंग का 1 s पर औसत लिया गया है | अंतरराष्ट्रीय बैरोमेट्रिक ऊंचाई सूत्र का उपयोग करके क्रमानुगत औसत के अंतर को ऊंचाई के अंतर में बदल दिया जाता है। ऊंचाई के अंतर को समय के अंतर से विभाजित करने पर ऊर्ध्वाधर गति प्राप्त होती है।
+    </description>
+      <string original="Motion">गति</string>
+      <string original="Altitude (from barometer)">ऊँचाई</string>
+      <string original="Vertical velocity (from altitude)">उर्ध्वाधर वेग (ऊँचाई से )</string>
+      <string original="z acceleration (from accelerometer)">z त्वरण (अक्सेलेरोमीटर- त्वरणमापी से )</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Pressure">दबाव</string>
+      <string original="Accelerometer z">त्वरण मापी z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

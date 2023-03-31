@@ -147,6 +147,14 @@
       <string original="Pressure">წნევა</string>
       <string original="Simple">მარტივი</string>
     </translation>
+    <translation locale="hi">
+      <title>दाब</title>
+      <category>Raw सेंसर</category>
+      <description>बैरोमीटर से raw डेटा प्राप्त करता है।</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Pressure">दबाव</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

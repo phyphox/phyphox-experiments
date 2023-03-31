@@ -223,6 +223,18 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">სიხშირე</string>
       <string original="Period">პერიოდი</string>
     </translation>
+    <translation locale="hi">
+      <title>आवृत्ति की हिस्ट्री</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+        सिंगल टोन के लिए समय के साथ होने वाले आवृत्ति परिवर्तन को मापें।
+
+        यह प्रयोग माइक्रोफ़ोन से ऑडियो रिकॉर्ड करता है और कम समय में इसकी आवृत्ति के लिए इसका विश्लेषण करता है। चूँकि यह स्वत: सहसंबंध का उपयोग करता है, यह केवल तभी काम करता है जब एक निश्चित आवृत्ति की एक सिंगल टोन होती है । परिणाम समय के साथ आवृत्ति के रूप में प्लॉट किया जाएगा।
+    </description>
+      <string original="History">हिस्ट्री</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Period">काल</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

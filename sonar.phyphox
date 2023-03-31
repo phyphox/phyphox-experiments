@@ -491,6 +491,33 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Chirp">ჭრიჭინი</string>
       <string original="Time">დრო</string>
     </translation>
+    <translation locale="hi">
+      <title>सोनार</title>
+      <category>ध्वनिक</category>
+      <description>
+        प्रतिध्वनि और ध्वनि की गति के माध्यम से दूरियों को मापता है।
+
+        एक सोनार ध्वनि के छोटे-छोटे पैकेट भेजता है, जो उस वस्तु से परावर्तित हो जाती हैं जिसे आप मापना चाहते हैं। चूंकि ध्वनि लगभग 340 मीटर/सेकेंड की गति से यात्रा करती है, परावर्तित ध्वनि के आपके फोन के माइक्रोफ़ोन तक पहुंचने के समय का, इस वस्तु की दूरी की गणना करने के लिए, उपयोग किया जा सकता है।
+
+        यह प्रयोग एक "चिर्प" ध्वनि उत्पन्न करता है, इसे स्पीकर के माध्यम से भेजता है और एक रिकॉर्डिंग शुरू करता है। चिर्प और रिकॉर्ड किए गए डेटा का एक अंतर्सहसंबंध उस समय के बारे में जानकारी देता है जिस पर प्रतिध्वनि होती है। इस समय को ध्वनि की गति से गुणा किया जा सकता है (और 2 से विभाजित किया जाता है क्योंकि ध्वनि को एक बार आगे और एक बार पीछे जाना होता है) और आपको वह दूरी मिलती है जिस पर प्रतिध्वनि उत्पन्न की गयी थी।
+
+        हालाँकि, ध्वनि साधारणतया प्रत्येक दिशा में चलती है। सोनार के लिए इसका अर्थ यह है कि जब एक दीवार की ओर ध्वनि छोड़ी जाती है, तो आपको फर्श, छत, पास की दीवार, खम्बा और पास की हर उपयुक्त "कठोर" सतह से ध्वनि के परावर्तन मिलते हैं। इसलिए यह सोनार आपको सभी संभव परावर्तन देता है और यह पता लगाना आप पर निर्भर है कि कौन सा परावर्तन उस लक्ष्य से मेल खाता है जिसे आप मापना चाहते हैं। तो एक छोटे से कठोर लक्ष्य से शुरू करें और फोम जैसे मुलायम पदार्थ के साथ अन्य सभी दिशाओं को जांचने का प्रयास करें। इस प्रयोग के लिए एक शांत वातावरण की भी आवश्यकता होती है।
+    </description>
+      <string original="Time series">समय क्रम</string>
+      <string original="Normalized history">मानकीकृत हिस्ट्री</string>
+      <string original="distance">दूरी</string>
+      <string original="time">समय</string>
+      <string original="Echo location">प्रतिध्वनि की स्थिति</string>
+      <string original="Speed of Sound">ध्वनि की गति</string>
+      <string original="Normalized to spherical surface">गोलाकार सतह के लिए मानकीकरण</string>
+      <string original="Target distance">गंतव्य दूरी</string>
+      <string original="Echo strength">प्रतिध्वनि तीव्रता</string>
+      <string original="Timing">समय</string>
+      <string original="On this page you just get the measured delay.">इस पेज पर आपको केवल मापा गया डिले (delay ) मिलता है।</string>
+      <string original="Delay">डिले</string>
+      <string original="Chirp">चिर्प</string>
+      <string original="Time">समय</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

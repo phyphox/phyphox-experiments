@@ -749,6 +749,47 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">საშუალო დაგვიანება</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">სამწუხაროდ, ეს არიმუშავებს ნელ ტელეფონებზე. გთხოვთ შეადაროთ აკუსტიკური საათის ექსპერიმენტი რეალურს საათს, რომ დარწმუნდეთ მის სისწორეში. თუ მუშაობს ამ ექსპერიმენტსაც არ უნდა ქონდეს პრობლემა.</string>
     </translation>
+    <translation locale="hi">
+      <title>(अ)प्रत्यास्थ संघट्ट</title>
+      <category>यांत्रिकी</category>
+      <description>
+        उछलती हुई गेंद के अप्रत्यास्थ संघट्ट के दौरान ऊर्जा हानि का निर्धारण करें।
+
+सैद्धांतिक रूप में, यह प्रयोग ध्वनिकी विराम घडी प्रयोग की तरह काम करता है। हालांकि, यह प्रयोग सतह पर उछलती हुई गेंद (या कुछ इसी तरह) से आने वाली ध्वनि की संभावनाओं पर आधारित है और यह प्रयोग प्रभावी रूप से ध्वनि के बीच के अंतराल का विश्लेषण करके पहली उछाल के सापेक्ष उछलती ऊंचाई और शेष गतिज ऊर्जा की गणना करेगा।
+
+इसके अलावा, यह मानते हुए कि गेंद अपनी पहली उछाल पर गतिज ऊर्जा का समान प्रतिशत यथावत (उतना ही) रखती है, फायफॉक्स प्रारंभिक ऊंचाई शून्य (0) की गणना करेगा जिससे गेंद गिराई जाती है।
+
+अतः, प्रयोग शुरू करें और एक गेंद को सतह पर इस तरह उछाल दें, कि यह स्पष्ट रूप से सुनने योग्य शोर उत्पन्न करे। आप सेटिंग में देहली (थेरसोल्ड) को वदल सकते हैं (0 से 1 की सीमा में), ताकि प्रयोग गेंद के शोर स्तर पर प्रतिक्रिया (रेस्पॉन्स) करे, लेकिन पृष्ठभूमि (बैकग्राउंड) के शोर पर नहीं। इसके अलावा, यदि आप गूँज (इको) के साथ स्ट्रगल करते हैं, तो आप न्यूनतम विलंब (डिले) को बदल सकते हैं और साथ ही न्यूनतम अंतराल सेट (नियत) कर सकते हैं जिसे प्रयोग अगले शोर पर प्रतिक्रिया करने से पहले अनदेखा कर देगा।
+    </description>
+      <string original="Heights">ऊंचाइयां</string>
+      <string original="Height 0">शून्य ऊंचाई</string>
+      <string original="Height 1">ऊंचाई 1</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Height 2">ऊंचाई 2</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Height 3">ऊंचाई 3</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Height 4">ऊंचाई 4</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Height 5">ऊंचाई 5</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Energy">ऊर्जा</string>
+      <string original="Energy 1">ऊर्जा 1</string>
+      <string original="Energy 2">ऊर्जा 2</string>
+      <string original="Retained on collision 2">संघट्ट 2 पर बरकरार</string>
+      <string original="Energy 3">ऊर्जा 3</string>
+      <string original="Retained on collision 3">संघट्ट 3 पर बरकरार</string>
+      <string original="Energy 4">ऊर्जा 4</string>
+      <string original="Retained on collision 4">संघट्ट 4 पर बरकरार</string>
+      <string original="Energy 5">ऊर्जा 5</string>
+      <string original="Retained on collision 5">संघट्ट 5 पर बरकरार</string>
+      <string original="Average retained">सुरक्षित औसत</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Threshold">थ्रेशोल्ड</string>
+      <string original="Minimum Delay">न्यूनतम डिले</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले ध्वनिक विरामघड़ी (स्टॉपवॉच) प्रयोग की तुलना नियमित घड़ी से करें। अगर वह काम करता है, तो यहां यह प्रयोग भी काम करना चाहिए।</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

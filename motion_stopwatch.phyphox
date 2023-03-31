@@ -614,6 +614,38 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string>
       <string original="1/min">1/წთ</string>
     </translation>
+    <translation locale="hi">
+      <title>मोशन विरामघड़ी</title>
+      <category>टाइमर</category>
+      <description>
+        दो गतिमान घटनाओं के बीच का समय प्राप्त करना।
+
+यह प्रयोग, दो त्वरणों (जैसे छोटे झटके) के बीच के समय को नापने के लिए है। आप देहली (थ्रेशोल्ड) को उस स्तर पर समायोजित कर सकते है जिस स्तर पर घड़ी (स्टॉप वॉच) चालू हो।
+प्रयोग शुरू करने के बाद, घड़ी देहली  से अधिक मान के पहले कुल त्वरण पर शुरू होगी और दूसरे त्वरण पर रुक जाएगी। सुनिश्चित करें कि पहला त्वरण सिगनल पर्याप्त छोटा है ताकि एक लंबे कंपन को तुरंत एक स्टॉप के रूप में पहचाना जा सके।
+    </description>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Threshold">थ्रेशोल्ड</string>
+      <string original="Minimum Delay">न्यूनतम डिले</string>
+      <string original="Time">समय</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">थ्रेशोल्ड को सेंसर नॉइज़ स्तर से ऊपर लेकिन ट्रिगर त्वरण के नीचे बदलें। (आप इन्हें जांचने के लिए 'g ' के बिना एक्सेलेरोमीटर प्रयोग का उपयोग कर सकते हैं)। डिले को भी न्यूनतम सेट करे ताकि उस से भी कम समय का ट्रिगर न हो पाए।</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">इस प्रयोग की सटीकता आपके फोन के एक्सेलेरोमीटर पर निर्भर करती है। तेज़ एक्सेलेरोमीटर एक सेकंड के सौवें हिस्से से भी बेहतर हो सकता है, जबकि धीमे वाला केवल एक ही सेकंड का भेदन रिज़ॉल्यूशन प्राप्त कर सकता हैं।</string>
+      <string original="Sequence">क्रम</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Parallel">समानांतर</string>
+      <string original="Many">कई</string>
+      <string original="Events">घटनाएँ</string>
+      <string original="Event number">घटना संख्या</string>
+      <string original="Time interval">समय अन्तराल</string>
+      <string original="Average interval">औसत अन्तराल</string>
+      <string original="Average rate">औसत दर</string>
+      <string original="Average rate (bpm)">औसत दर (बी पी एम )</string>
+      <string original="1/min">1/मिनट</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

@@ -414,6 +414,29 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">ჩაწერა</string>
       <string original="Amplitude">ამპლიტუდა</string>
     </translation>
+    <translation locale="hi">
+      <title>ध्वनिक स्व-सहसंबंध (ऑटो-कोरिलेशन)</title>
+      <category>ध्वनिक</category>
+      <description>
+        सिंगल टोन की की आवृत्ति का मापन ।
+
+यह प्रयोग आपके माइक्रोफ़ोन से ऑडियो रिकॉर्ड करता है और इसकी आवृत्ति के लिए इसका विश्लेषण करता है। यह केवल तभी काम करेगा जब एक नियत आवृत्ति वाला एक स्वर होता है - यदि कई आवृतियां हैं, तो इसके बजाय "स्पेक्ट्रम" प्रयोग का उपयोग करें।
+
+ऑडियो सिगनल के स्वत: सहसंबंध (ऑटो को-रिलेशन) की गणना करके इसका विश्लेषण किया जाता है। फिर प्रयोग में उन सभी शिखरों पर विचार किया जाता है जो स्वत: सहसंबंध में अधिकतम मान के आधे से अधिक हैं। स्वत: सहसंबंध के भीतर, इन शिखरों में से अंतिम की स्थिति सिगनल के आवर्तकाल का एक गुणज देती है। शिखरों की संख्या की गिनती करके हम मूल आवृत्ति के लिए आवर्तकाल प्राप्त कर सकते हैं|
+    </description>
+      <string original="Autocorr.">स्वत: सहसंबंध.</string>
+      <string original="Period">काल</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Musical note">संगीत नोट</string>
+      <string original="Low">निम्न</string>
+      <string original="High">उच्च</string>
+      <string original="Cents from note">नोट से सेंट में</string>
+      <string original="Autocorrelation">स्वतः सहसंबंध</string>
+      <string original="correlation">सहसंबंध</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Recording">रिकॉर्डिंग</string>
+      <string original="Amplitude">आयाम</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

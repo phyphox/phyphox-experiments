@@ -335,6 +335,36 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Light">სინათლე</string>
       <string original="Proximity">სიახლოვე</string>
     </translation>
+    <translation locale="hi">
+      <title>सेंसर डेटाबेस में जमा करें</title>
+      <category>फिफ़ोक्स.ऑर्ग</category>
+      <description>अपने फ़ोन में सेंसर के बारे में जानकारी phyphox.org पर सबमिट करें।
+
+यह प्रयोग आपके फ़ोन और आपके सेंसर के बारे में तकनीकी डेटा एकत्र करेगा, जिसे आप हमारे सेंसर डेटा बेस में सबमिट कर सकते हैं। विभिन्न उपकरणों में सेंसर की उपलब्धता और क्षमता के बारे में जानने के लिए हमें और अन्य लोगों की मदद करने के लिए डेटा एकत्र किया जाएगा और अन्य उपयोगकर्ताओं को उपलब्ध कराया जाएगा।</description>
+      <string original="Submit">सबमिट करें</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">यह प्रयोग आपके फ़ोन और आपके सेंसर के बारे में तकनीकी डेटा एकत्र करेगा, जिसे आप हमारे सेंसर डेटा बेस में सबमिट कर सकते हैं। विभिन्न उपकरणों में सेंसर की उपलब्धता और क्षमता के बारे में जानने के लिए हमें और अन्य लोगों की मदद करने के लिए डेटा एकत्र किया जाएगा और अन्य उपयोगकर्ताओं को उपलब्ध कराया जाएगा।</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">कृपया अपने फोन को एक स्थिर सतह पर रखें और स्टार्ट दबाएं। चलते समय (कार, ट्रेन, आदि) या हिलती हुई सतह (जोरदार संगीत, वाहनों से कंपन, आदि) पर ऐसा करने से बचें क्योंकि इससे परिणाम विकृत हो जाएंगे।</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox एक क्षण के लिए डेटा एकत्र करेगा और अंततः आपको डेटा सबमिट करने के लिए कहेगा।</string>
+      <string original="Step">स्टेप</string>
+      <string original="Waiting for start">आरम्भ होने की प्रतीक्षा</string>
+      <string original="Collecting data">डाटा संग्रह कर रहा है</string>
+      <string original="You may now press submit">अब आप सबमिट दबा सकते हैं</string>
+      <string original="Success. Thank you!">सफलता. धन्यवाद!</string>
+      <string original="Confidence">आत्मविश्वास</string>
+      <string original="Results">परिणाम</string>
+      <string original="Accelerometer">एक्सेलोरोमीटर</string>
+      <string original="Rate">दर</string>
+      <string original="Average">औसत</string>
+      <string original="Standard deviation">मानक विचलन</string>
+      <string original="Acceleration (without g)">त्वरण (g के बिना)</string>
+      <string original="Gyroscope">जाइरोस्कोप</string>
+      <string original="Magnetometer">मैग्नेटोमीटर</string>
+      <string original="Barometer">दाबमापी</string>
+      <string original="Temperature">तापमान</string>
+      <string original="Humidity">आर्द्रता</string>
+      <string original="Light">प्रकाश</string>
+      <string original="Proximity">समीपता</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1" init="0">state</container>

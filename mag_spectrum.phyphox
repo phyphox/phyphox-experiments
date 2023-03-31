@@ -492,6 +492,35 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <string original="Magnetic field y">მაგნიტური ველი y</string>
       <string original="Magnetic field z">მაგნიტური ველი z</string>
     </translation>
+    <translation locale="hi">
+      <title>चुंबकीय वर्णक्रम</title>
+      <category>टूल्स</category>
+      <description>
+            यह मैग्नेटोमीटर डेटा से आवृत्ति वर्णक्रम प्रदर्शित करता है।
+
+            यह प्रयोग मैग्नेटोमीटर से डेटा रिकॉर्ड करता है और फूरियर ट्रांसफॉर्मेशन (FFT) के माध्यम से इसकी आवृत्ति स्पेक्ट्रम की गणना करता है। अधिकतम आवृत्ति जो आप इससे पता लगा सकते हैं वह आपके सेंसर की अधिकतम अर्जन दर (acquisition rate) पर निर्भर करती है।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="1/min">1/मिनट</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="Acquisition rate">अर्जन दर</string>
+      <string original="Nyquist frequency">नाइक्विस्ट आवृत्ति</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Magnetic field x">चुंबकीय क्षेत्र x</string>
+      <string original="Magnetic field y">चुंबकीय क्षेत्र y</string>
+      <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">magInX</container>

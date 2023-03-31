@@ -565,6 +565,37 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope y">გიროსკოპი y</string>
       <string original="Gyroscope z">გიროსკოპი z</string>
     </translation>
+    <translation locale="hi">
+      <title>लोलक</title>
+      <category>यांत्रिकी</category>
+      <description>
+        अपने फोन को पेंडुलम के रूप में उपयोग करके गुरुत्वाकर्षण स्थिरांक (g=9.81m/s²) निर्धारित करें।
+
+        यह प्रयोग पेंडुलम की गति को मापने के लिए जाइरोस्कोप का उपयोग करता है और दोलन अवधि T की गणना करता है। उपयोगकर्ता को पेंडुलम के लिए उपयोग की जाने वाली डोरी की लंबाई L दर्ज करनी होती है, जिससे कि फायफॉक्स g = 4π²L/T² की गणना कर सके।
+
+        वैकल्पिक रूप से, g को मापने के बजाय, आप "लंबाई टैब" का उपयोग कर सकते हैं और पेंडुलम की गति से डोरी की लंबाई निर्धारित करने के लिए g = 9.81 m/s² मान सकते हैं। (वास्तव में यह धुरी बिंदु से द्रव्यमान के केंद्र तक की दूरी है।)
+
+        इसके अतिरिक्त, "अनुनाद टैब" पर, यह ज्ञात आवृत्ति के साथ आयाम को प्लॉट करता है। इस तरह, आप एक चालित दोलक का निर्माण कर सकते हैं और अनुनाद वक्र को मापने के लिए इसकी आवृत्ति को बदल सकते हैं।
+
+        आगे की जानकारी:
+        दोलन अवधि सभी तीन जाइरोस्कोप घटकों के योग के स्वत: सहसंबंध के माध्यम से प्राप्त की जाती है। इसके बाद पहले अनुमान के लिए इसके पहले अधिकतम के लिए स्वत: सहसंबंध का विश्लेषण किया जाता है और फिर अधिक सटीक परिणाम प्राप्त करने के लिए अंतिम अधिकतम स्वत: सहसंबंध का उपयोग किया जाता है।
+    </description>
+      <string original="Results">परिणाम</string>
+      <string original="Period">काल</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Length">लम्बाई</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">यहां, आप अपने लोलक की लंबाई (धुरी बिंदु से द्रव्यमान केंद्र तक) दर्ज कर सकते हैं और पृथ्वी का त्वरण g निर्धारित कर सकते हैं।</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">यहाँ, आप g = 9.81 m/s² मानकर अपने लोलक की लंबाई (धुरी बिंदु से द्रव्यमान केंद्र की दूरी ) निर्धारित कर सकते हैं।</string>
+      <string original="Resonance">अनुनाद</string>
+      <string original="Rel. amplitude">सापेक्षिक आयाम</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">इस टैब पर, आयाम को ज्ञात आवृत्ति के विरुद्ध प्लॉट किया जाता है। आप इसका उपयोग किसी चालित दोलक के अनुनाद को मापने के लिए कर सकते हैं। आयाम को 0 से 1 की सीमा तक सामान्यीकृत किया गया है।</string>
+      <string original="Autocorrelation">स्वतः सहसंबंध</string>
+      <string original="correlation">सहसंबंध</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Gyroscope x">जायरोस्कोप x</string>
+      <string original="Gyroscope y">जायरोस्कोप y</string>
+      <string original="Gyroscope z">जायरोस्कोप z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

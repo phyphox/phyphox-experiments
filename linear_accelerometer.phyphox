@@ -303,6 +303,23 @@
       <string original="Acceleration y">აჩქარება y</string>
       <string original="Acceleration z">აჩქარება z</string>
     </translation>
+    <translation locale="hi">
+      <title>त्वरण (बिना g के )</title>
+      <category>रॉ सेंसर</category>
+      <description>तथाकथित रैखिक एक्सेलेरोमीटर से रॉ डेटा प्राप्त करें, यह गुरुत्वीय त्वरण के बिना वास्तविक त्वरण देता है। "g के साथ त्वरण" के विपरीत, यह सेंसर डिवाइस की विश्राम अवस्था में 0 दिखाता है।</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Linear Acceleration x">रेखीय त्वरण X</string>
+      <string original="Linear Acceleration y">रेखीय त्वरण y</string>
+      <string original="Linear Acceleration z">रेखीय त्वरण z</string>
+      <string original="Absolute">निरपेक्ष</string>
+      <string original="Absolute acceleration">निरपेक्ष त्वरण</string>
+      <string original="Multi">बहु</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Acceleration x">त्वरण x</string>
+      <string original="Acceleration y">त्वरण y</string>
+      <string original="Acceleration z">त्वरण z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

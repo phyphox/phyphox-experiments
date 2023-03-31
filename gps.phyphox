@@ -569,6 +569,40 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">ასევე ყურადღება მიაქციე, რომ არ გაქვს "Power saving" ჩართული, რადგან ის ხშირად გამორთავს GPS წვდომას.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">ჰორიზონტალური სიზუსტე არის ცდომილება თქვენს მდებარეობაში, ხოლო ვერტიკალური სიზუსტე (ხშირად უარესი) არის სიმაღლის ცდომილება. თუ სიზუსტე არის ნული ეს მონაცემი არ არის ხელმისაწვდომი.</string>
     </translation>
+    <translation locale="hi">
+      <title>लोकेशन (जी पी एस )</title>
+      <category>रॉ सेंसर (संवेदक)</category>
+      <description>
+        उपग्रह नेविगेशन से रॉ लोकेशन डेटा प्राप्त करें।
+
+        ध्यान दें कि उपलब्ध डेटा आपके स्मार्टफ़ोन के कार्यान्वयन पर निर्भर हो सकता है। कुछ उपकरण ऊर्ध्वाधर सटीकता या उपग्रहों की संख्या प्रदान नहीं कर सकते हैं।
+
+        साथ ही, डिफ़ॉल्ट रूप से उपग्रह नेविगेशन से प्राप्त डाटा में, अन्य सामान्य रूप से कम सटीक स्रोतों (जैसे वाईफाई या मोबाइल डेटा नेटवर्क) से स्थान की जानकारी मिश्रित होती है। पुनः, आपके उपकरण के आधार पर, आप सेटिंग को "केवल उपग्रह नेविगेशन से डेटा" एकत्र करने के लिए चालू करके "प्रयोग मेनू" से इन स्रोतों को बंद कर सकते हैं।
+
+        गति और दिशा आमतौर पर डिवाइस द्वारा दी जाती है और दो या अधिक लगातार स्थिति सुधार पर आधारित होती है।
+    </description>
+      <string original="Position">स्थिति</string>
+      <string original="Status">अवस्था</string>
+      <string original="GPS disabled">GPS बंद</string>
+      <string original="GPS active">GPS चालू</string>
+      <string original="Latitude">ऊँचाई</string>
+      <string original="Longitude">देशांतर</string>
+      <string original="Altitude">ऊँचाई</string>
+      <string original="Movement">गति</string>
+      <string original="Speed">चाल</string>
+      <string original="Direction">दिशा</string>
+      <string original="Distance travelled">चली गयी दूरी</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Compass">दिशासूचक</string>
+      <string original="Distance from start">आरंभ से दूरी</string>
+      <string original="Horizontal Accuracy">क्षैतिज यथार्थता</string>
+      <string original="Vertical Accuracy">उर्ध्वाधर यथार्थता</string>
+      <string original="Satellites">उपग्रह</string>
+      <string original="unknown">अज्ञात</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ध्यान दें, कि कुछ उपकरणों में GPS सेंसर नहीं होता है, लेकिन वे मोबाइल या वाईफ़ाई कनेक्शन के माध्यम से स्थान डेटा प्रदान करते हैं। ये डेटा-स्रोत खराब सटीकता के साथ जेनरेट करते हैं।</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">यह भी सुनिश्चित करें कि आपके सिस्टम की लोकेशन सेटिंग "पावर सेविंग" पर सेट न हो, क्योंकि यह आमतौर पर सटीक GPS स्रोत को बंद कर देता है।</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">क्षैतिज मान में सटीकता आपकी अवस्थिति में अनिश्चितता है और ऊर्ध्वाधर मान में सटीकता आपकी समुद्र तल से ऊँचाई में अनिश्चितता है जो कि अक्सर बदतर होती है। सटीकता शून्य होने की स्थिति में यह जानकारी उपलब्ध नहीं होगी।</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

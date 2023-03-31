@@ -228,6 +228,19 @@
       <string original="Gyroscope">გიროსკოპი</string>
       <string original="Simple">მარტივი</string>
     </translation>
+    <translation locale="hi">
+      <title>जाइरोस्कोप (रोटेशन दर)</title>
+      <category>रॉ सेंसर (संवेदक)</category>
+      <description>जाइरोस्कोप से कच्चा डेटा प्राप्त करें।</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Gyroscope x">जायरोस्कोप x</string>
+      <string original="Gyroscope y">जायरोस्कोप y</string>
+      <string original="Gyroscope z">जायरोस्कोप z</string>
+      <string original="Absolute">निरपेक्ष</string>
+      <string original="Multi">बहु</string>
+      <string original="Gyroscope">जाइरोस्कोप</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

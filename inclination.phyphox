@@ -418,6 +418,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Rotation">მობრუნება</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">ეს ვერდი გეხმარება სიბრტყის დახრის გამოთვლაში. სიბრტყის დახრის გამოსათვლელად ტელეფონი მოათავსე ამ სიბრტყეზე (დაწვენილ მდგომარეობაში). მობრუნებსი კუთხე გვაძლევს დახრის მიმართულებას.</string>
     </translation>
+    <translation locale="hi">
+      <title>अवनत कोण</title>
+      <category>टूल्स</category>
+      <description>
+        फ़ोन का अवनत कोण मापता है।
+
+        यह टूल  फोन के झुकाव को निर्धारित करने के लिए एक्सेलेरोमीटर का उपयोग करता है। जब फोन एक टेबल पर टिका होता है, तो झुकाव शून्य होता है। गैर-शून्य झुकाव के लिए, झुकाव की दिशा रोटेशन के रूप में दी जाती है।
+
+        ध्यान दें, कि कोणों की परिभाषा को फोन के रोटेशन (Z- अक्ष के परितः)  से स्वतंत्र झुकाव (विशेष रूप से, झुके हुए तलों वाले प्रयोगों के लिए) को मापने  के लिए चुना गया है।
+    </description>
+      <string original="Flat">समतल</string>
+      <string original="Tilt up/down">झुकाव ऊपर / नीचे</string>
+      <string original="Angle">कोण</string>
+      <string original="Tilt left/right">झुकाव बाएं /दायें</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">यह टैब समतल स्थिति से आरंभ होकर, फ़ोन के झुकाव कोण को मापने में सहायता करता है।</string>
+      <string original="Upright">उर्ध्व स्थिति</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">यह टैब एक उर्ध्व स्थिति से आरंभ होकर, फोन के झुकाव कोण को मापने में सहायता करता है।</string>
+      <string original="Side">पार्श्व</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">यह टैब फोन की एक पार्श्व स्थिति से आरंभ होने वाले कोण के मापन में सहायता करता है।</string>
+      <string original="Plane">समतल</string>
+      <string original="Inclination">अवनति</string>
+      <string original="Rotation">घूर्णन</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">यह टैब किसी समतल के झुकाव को मापने में सहायता करता है। यहाँ समतल के झुकाव को मापा जाता है क्योंकि फोन समतल पर स्थित रहता है, चाहे समतल का अभिविन्यास कुछ भी हो। घूर्णन झुकाव की दिशा देता है।</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

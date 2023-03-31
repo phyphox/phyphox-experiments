@@ -203,6 +203,27 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">ქვემოთ თქვენ შეგიძლიათ შეცვალოთ ლოკალური გრაფიკის დაგლუვება კინემატიკის გვერდზე. სიფართოვის პარამეტრები მოქმედებს სიჩქარის და აჩქარების შეფასებაზე. დიდი მნიშვნელობები მოგვცემს უფრო გლუვ შედეგებს ნაკლები დეტალებით.</string>
       <string original="Width of LOESS fit">LOESS ფიტირების სიფართოვე</string>
     </translation>
+    <translation locale="hi">
+      <title>गहराई सेंसर (LiDAR / ToF)</title>
+      <category>टूल्स</category>
+      <description>गहराई सेंसर का उपयोग करके दूरियों को मापें।
+
+    यह केवल तभी उपलब्ध होता है जब आपके फ़ोन के कैमरा सिस्टम में गहराई सेंसर हो। आप प्रीव्यू इमेज को टैप कर सकते हैं और अपने कैमरे के दृश्य के उस क्षेत्र का चयन कर सकते हैं जो माप में योगदान देता है और यह भी चुन सकता है कि परिणाम निकटतम दूरी, औसत दूरी या वह औसत है जो प्रत्येक मापित बिंदु की सटीकता के सेंसर द्वारा लगाये अनुमान को ध्यान में रखता है। .
+
+    मोशन टैब LOESS एल्गोरिथम का उपयोग करके मापी गई दूरी से वेग और त्वरण की गणना भी करता है।
+</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Distance / Depth">दूरी / गहराई</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Kinematics">गतिकी</string>
+      <string original="Velocity">वेग</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">प्रीव्यू पर टैप करें और दूरी की गणना करने के लिए ध्यान में रखी गई इमेज के क्षेत्र को बदलने के लिए ड्रैग करें। आप इस क्षेत्र के भीतर गहराई की माप को एकत्रित करने के लिए विभिन्न विधियों को भी चुन सकते हैं।</string>
+      <string original="Preview">पूर्वावलोकन</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">नीचे कैनेमेटिक्स टैब पर ग्राफ़ की स्थानीय प्रवाह बदल सकते हैं। चौड़ाई सेटिंग वेग और त्वरण अनुमानों को प्रभावित करती है। बड़े मान कम विस्तार के साथ चिकने वक्र परिणाम में देते हैं।</string>
+      <string original="Width of LOESS fit">LOESS फ़िट की चौड़ाई</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">xmm</container>

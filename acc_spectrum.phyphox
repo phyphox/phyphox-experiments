@@ -491,6 +491,35 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">აჩქარება y</string>
       <string original="Acceleration z">აჩქარება z</string>
     </translation>
+    <translation locale="hi">
+      <title>त्वरण स्पेक्ट्रम</title>
+      <category>टूल्स</category>
+      <description>
+            त्वरणमापी (एक्सेलेरोमीटर) के डेटा का आवृत्ति स्पेक्ट्रम प्रदर्शित करता है।
+
+            यह प्रयोग त्वरणमापी से डेटा रिकॉर्ड करता है और फूरियर रूपांतरण (FFT) के माध्यम से इसकी आवृत्ति स्पेक्ट्रम की गणना करता है। अधिकतम पता लगाने योग्य आवृत्ति आपके फ़ोन के सेंसर की अधिकतम अर्जन दर पर निर्भर करती है।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="1/min">1/मिनट</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="Acquisition rate">अर्जन दर</string>
+      <string original="Nyquist frequency">नाइक्विस्ट आवृत्ति</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Acceleration x">त्वरण x</string>
+      <string original="Acceleration y">त्वरण y</string>
+      <string original="Acceleration z">त्वरण z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">accInX</container>

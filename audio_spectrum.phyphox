@@ -530,6 +530,39 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">ჩაწერა</string>
       <string original="Amplitude">ამპლიტუდა</string>
     </translation>
+    <translation locale="hi">
+      <title>श्रव्य वर्णक्रम</title>
+      <category>ध्वनिकी</category>
+      <description>
+            एक ऑडियो सिग्नल का आवृत्ति  वर्णक्रम (स्पेक्ट्रम) प्रदर्शित करें।
+
+यह प्रयोग माइक्रोफ़ोन से ऑडियो रिकॉर्ड (श्रव्य दर्ज़) करता है, और फूरियर रूपांतरण (FFT) के माध्यम से इसके आवृत्ति वर्णक्रम (स्पेक्ट्रम) की गणना करता है। यदि आपके पास एकल आवृत्ति वाला केवल एक स्वर है, तो आपको "स्वतःसहसंबंध" श्रव्य प्रयोग से अधिक सटीक परिणाम मिल सकते हैं।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="Musical note">संगीत नोट</string>
+      <string original="Low">निम्न</string>
+      <string original="High">उच्च</string>
+      <string original="Cents from note">नोट से सेंट में</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">श्वेत शोर जनरेटर। (तीव्र हो सकता है। कृपया पहले अपना प्लेबैक वॉल्यूम कम करें।)</string>
+      <string original="Off">बंद</string>
+      <string original="On">चालू</string>
+      <string original="Status">अवस्था</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Recording">रिकॉर्डिंग</string>
+      <string original="Amplitude">आयाम</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

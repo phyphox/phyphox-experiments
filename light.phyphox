@@ -206,6 +206,17 @@
             </string>
       <string original="Simple">მარტივი</string>
     </translation>
+    <translation locale="hi">
+      <title>प्रकाश</title>
+      <category>रॉ सेंसर</category>
+      <description>प्रकाश सेंसर से कच्चा डाटा प्राप्त करें |</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Illuminance">प्रकाश तीव्रता</string>
+      <string original="Info">
+                नोट: कुछ उपकरणों पर प्रकाश संवेदक (सेंसर) केवल तभी अपडेट किया जाता है जब रोशनी में बड़ा परिवर्तन होता है।
+            </string>
+      <string original="Simple">साधारण (सामान्य)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

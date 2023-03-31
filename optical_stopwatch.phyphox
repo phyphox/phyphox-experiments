@@ -848,6 +848,51 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">გამომწვევი მიზეზი 5-ზე</string>
       <string original="Trigger off 5">გამომრთველი 5-ზე</string>
     </translation>
+    <translation locale="hi">
+      <title>प्रकाशिक विराम घड़ी</title>
+      <category>टाइमर</category>
+      <description>
+        यह आपके फोन पर आने वाली रोशनी के आधार पर समय मापता है।
+
+        इस प्रयोग में आप अपने प्रकाश सेंसर को प्रकाश स्रोत के समक्ष रख कर दीप्त अथवा अदीप्त अवस्थाओं के बीच के समय को माप सकते हैं। उदाहरण के लिए, आप प्रकाश स्रोत को दो अलग-अलग समय पर अवरुद्ध करते वाले समय को माप सकते हैं।
+
+        ध्यान दें कि मापन की सटीकता आपके फोन के प्रकाश सेंसर पर बहुत अधिक निर्भर करती है। एक धीमे सेंसर में मापन में एक सेकंड से अधिक समय लग सकता है जबकि तीव्र सेंसर सेकंड के दसवें हिस्से से ज्यादा तीव्र नहीं हो सकते हैं। तीव्र मापन के लिए ध्वनिक विराम घडी (acoustic स्टॉप वाच) का उपयोग किया जा सकता है जो कि ध्वनि पर आधारित होती है।
+    </description>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Trigger below">निम्न ट्रिगर सीमा</string>
+      <string original="Trigger above">उच्च ट्रिगर सीमा</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">टाइमर उच्च और निम्न दोनों सीमाओं पर ट्रिगर अर्थात मापन चालू करता है। यदि आप केवल तीव्र रोशनी पर मापन करना चाहते हैं, तो "निम्न ट्रिगर सीमा" के मान को शून्य पर सेट करें। यदि आप केवल अँधेरे पर मापन करना चाहते हैं, तो "उच्च ट्रिगर सीमा" के मान को बहुत अधिक सेट करें। आप नीचे दिए गए ग्राफ़ से अपने अन्य ट्रिगर के लिए उपयुक्त सीमा का अनुमान लगा सकते हैं।</string>
+      <string original="Illuminance">प्रकाश तीव्रता</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">ध्यान दें कि मापन की सटीकता आपके फोन के प्रकाश सेंसर पर बहुत अधिक निर्भर करती है। एक धीमे सेंसर में मापन में एक सेकंड से भी अधिक समय लग सकता है जबकि तीव्र सेंसर सेकंड के दसवें हिस्से से ज्यादा तीव्र नहीं हो सकते हैं। तीव्र मापन के लिए ध्वनिक विराम घडी (acoustic स्टॉप वाच) का उपयोग किया जा सकता है जो कि ध्वनि पर आधारित होती है।</string>
+      <string original="Sequence">क्रम</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Parallel">समानांतर</string>
+      <string original="Duration">अवधि</string>
+      <string original="Trigger duration 0">ट्रिगर अंतराल 0</string>
+      <string original="Trigger duration 1">ट्रिगर अंतराल 1</string>
+      <string original="Trigger duration 2">ट्रिगर अंतराल 2</string>
+      <string original="Trigger duration 3">ट्रिगर अंतराल 3</string>
+      <string original="Trigger duration 4">ट्रिगर अंतराल 4</string>
+      <string original="Trigger duration 5">ट्रिगर अंतराल 5</string>
+      <string original="Triggers">ट्रिगर्स</string>
+      <string original="Trigger on 0">ट्रिगर 0 प्रारम्भ</string>
+      <string original="Trigger off 0">ट्रिगर 0 अंत</string>
+      <string original="Trigger on 1">ट्रिगर 1 आरम्भ</string>
+      <string original="Trigger off 1">ट्रिगर 1 अंत</string>
+      <string original="Trigger on 2">ट्रिगर 2 आरम्भ</string>
+      <string original="Trigger off 2">ट्रिगर 2 अंत</string>
+      <string original="Trigger on 3">ट्रिगर 3 आरम्भ</string>
+      <string original="Trigger off 3">ट्रिगर 3 अंत</string>
+      <string original="Trigger on 4">ट्रिगर 4 आरम्भ</string>
+      <string original="Trigger off 4">ट्रिगर 4 अंत</string>
+      <string original="Trigger on 5">ट्रिगर 5 आरम्भ</string>
+      <string original="Trigger off 5">ट्रिगर 5 अंत</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

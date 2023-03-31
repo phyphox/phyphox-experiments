@@ -334,6 +334,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">დრო</string>
       <string original="Angular velocity">კუთხური სიჩქარე</string>
     </translation>
+    <translation locale="hi">
+      <title>अभिकेंद्रीय त्वरण</title>
+      <category>यांत्रिकी</category>
+      <description>
+        अभिकेन्द्रीय त्वरण का कोणीय वेग के फलन के रूप में अवलोकन करता है।
+
+        यह प्रयोग जाइरोस्कोप से कोणीय वेग ω के निरपेक्ष मान के साथ-साथ त्वरणमापी से निरपेक्ष त्वरण a की गणना करता है। a को ω के सापेक्ष प्लॉट करके इनके मध्य संबंध a = r·ω² आसानी से दिखाया जा सकता है, अतः a का ω² के साथ प्लॉट एक सीधी रेखा होनी चाहिए।
+
+        इसे देखने के लिए आपको अलग-अलग कोणीय वेगों पर लेकिन एक निश्चित त्रिज्या पर मापन करना होगा। इसके लिए एक सलाद स्पिनर या एक छोटा मेरी-गो-राउंड अच्छा काम करेगा।
+    </description>
+      <string original="Relation">संबंध</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Angular velocity ω">कोणीय वेग ω</string>
+      <string original="Acceleration a">त्वरण a</string>
+      <string original="Square plot">ω² के साथ प्लॉट</string>
+      <string original="Time">समय</string>
+      <string original="Angular velocity">कोणीय वेग</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

@@ -343,6 +343,30 @@
       <string original="Frequency 2">სიხშირე 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">გაითვალისწინე რომ მაქსიმალური ამპლიტუდა არის 1. თუ ჯამი ორივე ამპლიტუდის აღემატება 1-ს, გვექნება დამახინჯება.</string>
     </translation>
+    <translation locale="hi">
+      <title>स्वर जनित्र</title>
+      <category>ध्वनिकी</category>
+      <description>
+        एक विशिष्ट आवृत्ति का स्वर उत्पन्न करता है।
+    </description>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Signal">संकेत (सिग्नल)</string>
+      <string original="Time">समय</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">जबकि फ़ाइफ़ॉक्स स्वैक्षिक आवृत्तियों को नियत (सेट) करने की अनुमति देता है, आप हार्डवेयर सीमाओं के कारण 100 हर्ट्ज से नीचे या 8000 हर्ट्ज से ऊपर के खराब परिणाम का अनुभव कर सकते हैं।</string>
+      <string original="Status">अवस्था</string>
+      <string original="Frequency low">आवृत्ति निम्न (कम)</string>
+      <string original="Frequency high">आवृत्ति उच्च (अधिक)</string>
+      <string original="OK">ठीक है</string>
+      <string original="Multi">बहु</string>
+      <string original="Use multi tone generator">मल्टी टोन जनरेटर का प्रयोग करें</string>
+      <string original="Mode">तरीका</string>
+      <string original="Amplitude 1">आयाम 1</string>
+      <string original="Frequency 1">आवृत्ति 1</string>
+      <string original="Amplitude 2">आयाम 2</string>
+      <string original="Frequency 2">आवृत्ति 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">ध्यान दें कि कुल अधिकतम आयाम 1 है। यदि दोनों आयामों का योग 1 से अधिक है, तो आप विकृति का अनुभव करेंगे।</string>
+    </translation>
   </translations>
   <data-containers>
     <container init="0.5">a1in</container>

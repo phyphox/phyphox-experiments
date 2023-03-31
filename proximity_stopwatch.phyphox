@@ -854,6 +854,51 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <string original="Trigger on 5">გამომწვევი მიზეზი 5-ზე</string>
       <string original="Trigger off 5">გამომრთველი 5-ზე</string>
     </translation>
+    <translation locale="hi">
+      <title>निकटता स्टॉपवॉच</title>
+      <category>टाइमर</category>
+      <description>
+        निकटता सेंसर के आधार पर समय मापें।
+
+        इस प्रयोग में आप किसी वस्तु को अपने निकटता सेंसर के करीब लाते हैं (आमतौर पर फोन कॉल के लिए उपयोग किए जाने वाले स्पीकर के बगल में स्थित होता है) और उस समय को मापें जब वस्तु आपके फोन के निकट या दूर हो।
+
+        ध्यान दें, सटीकता आपके फ़ोन में निकटता सेंसर पर ही निर्भर करती है। धीमे सेंसर के लिए यह से एक सेकंड से भी खराब हो सकता है जबकि तेज़ सेंसर आमतौर पर एक सेकंड के दसवें हिस्से से अधिक तेज़ नहीं होते हैं। ध्वनिक स्टॉपवॉच प्रयोग की सहायता से तेज़ माप की जा सकती है , जोकि ध्वनि पर आधारित है |
+    </description>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Trigger below">निम्न ट्रिगर सीमा</string>
+      <string original="Trigger above">उच्च ट्रिगर सीमा</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">टाइमर ऊपर और नीचे दी गई थ्रेशोल्ड (देहली) को ट्रिगर करता है। यदि आप केवल अधिक दूरी पर ट्रिगर करना चाहते हैं, तो "नीचे ट्रिगर" के लिए मान को शून्य पर सेट करें। यदि आप केवल निकट दूरी पर ट्रिगर करना चाहते हैं, तो "ऊपर ट्रिगर" मान बहुत उच्च सेट करें। आप नीचे दिए गए ग्राफ़ से अपने अन्य ट्रिगर के लिए उपयुक्त सीमा का अनुमान लगा सकते हैं। अधिकांश सेंसर केवल दो दूरी मापते हैं, आमतौर पर 0 सेमी और लगभग 5 सेमी।</string>
+      <string original="Distance">दूरी</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">सटीकता आपके फ़ोन में निकटता सेंसर पर ही मुख्यतः निर्भर करती है। धीमे सेंसर के लिए यह एक सेकंड से भी खराब हो सकती है जबकि तेज़ (संवेदी) सेंसर आमतौर पर एक सेकंड के दसवें हिस्से से अधिक तेज़ नहीं होते हैं। ध्वनिक स्टॉपवॉच प्रयोग द्वारा, ध्वनि के आधार पर, तेज़ माप की जा सकती है| IPhones पर, सेंसर केवल पोर्ट्रेट मोड में काम करता है (यानी जब फोन को सीधा रखा जाता है) और ट्रिगर होने पर स्क्रीन को बंद कर देता है।</string>
+      <string original="Sequence">क्रम</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Parallel">समानांतर</string>
+      <string original="Duration">अवधि</string>
+      <string original="Trigger duration 0">ट्रिगर अंतराल 0</string>
+      <string original="Trigger duration 1">ट्रिगर अंतराल 1</string>
+      <string original="Trigger duration 2">ट्रिगर अंतराल 2</string>
+      <string original="Trigger duration 3">ट्रिगर अंतराल 3</string>
+      <string original="Trigger duration 4">ट्रिगर अंतराल 4</string>
+      <string original="Trigger duration 5">ट्रिगर अंतराल 5</string>
+      <string original="Triggers">ट्रिगर्स</string>
+      <string original="Trigger on 0">ट्रिगर 0 प्रारम्भ</string>
+      <string original="Trigger off 0">ट्रिगर 0 अंत</string>
+      <string original="Trigger on 1">ट्रिगर 1 आरम्भ</string>
+      <string original="Trigger off 1">ट्रिगर 1 अंत</string>
+      <string original="Trigger on 2">ट्रिगर 2 आरम्भ</string>
+      <string original="Trigger off 2">ट्रिगर 2 अंत</string>
+      <string original="Trigger on 3">ट्रिगर 3 आरम्भ</string>
+      <string original="Trigger off 3">ट्रिगर 3 अंत</string>
+      <string original="Trigger on 4">ट्रिगर 4 आरम्भ</string>
+      <string original="Trigger off 4">ट्रिगर 4 अंत</string>
+      <string original="Trigger on 5">ट्रिगर 5 आरम्भ</string>
+      <string original="Trigger off 5">ट्रिगर 5 अंत</string>
+    </translation>
   </translations>
   <input>
     <sensor type="proximity">

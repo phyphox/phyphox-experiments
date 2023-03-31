@@ -436,6 +436,30 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">აქსელომეტრი y</string>
       <string original="Accelerometer z">აქსელომეტრი z</string>
     </translation>
+    <translation locale="hi">
+      <title>स्प्रिंग</title>
+      <category>यांत्रिकी</category>
+      <description>
+        स्प्रिंग दोलक की आवृत्ति और इसके आवर्तकाल का विश्लेषण करें।
+
+        यह प्रयोग दोलक की गति को मापने के लिए एक्सेलेरोमीटर का उपयोग करता है और दोलन अवधि T की गणना करता है। इसके अतिरिक्त, अनुनाद टैब पर, यह ज्ञात आवृत्ति के सापेक्ष आयाम को प्लॉट करता है। इस तरह, आप एक चालित दोलक का निर्माण कर सकते हैं और अनुनाद वक्र को मापने के लिए इसकी आवृत्ति को बदल सकते हैं।
+
+        आगे की जानकारी:
+        सभी तीन एक्सेलेरोमीटर घटकों के योग के स्वत: सहसंबंध के माध्यम से दोलन अवधि प्राप्त की जाती है। इसके बाद, प्रथम अनुमान के लिए इसके प्रथम अधिकतम मान के लिए स्वत: सहसंबंध का विश्लेषण किया जाता है और फिर अधिक सटीक परिणाम प्राप्त करने के लिए स्वत: सहसंबंध के अंतिम अधिकतम मान का उपयोग किया जाता है।
+    </description>
+      <string original="Results">परिणाम</string>
+      <string original="Period">काल</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Resonance">अनुनाद</string>
+      <string original="Rel. amplitude">सापेक्षिक आयाम</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">इस टैब पर, आयाम को ज्ञात आवृत्ति के विरुद्ध प्लॉट किया जाता है। आप इसका उपयोग किसी चालित दोलक के अनुनाद को मापने के लिए कर सकते हैं। आयाम को 0 से 1 की सीमा तक सामान्यीकृत किया गया है।</string>
+      <string original="Autocorrelation">स्वतः सहसंबंध</string>
+      <string original="correlation">सहसंबंध</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Accelerometer x">त्वरण मापी x</string>
+      <string original="Accelerometer y">त्वरक मापी y</string>
+      <string original="Accelerometer z">त्वरण मापी z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

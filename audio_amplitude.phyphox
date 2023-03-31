@@ -602,6 +602,39 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Why can't we get a better calibration?">რატომ არშეგვიძლია გვქონდეს უკეთესი კალიბრაცია?</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">ჩვენ გვინდოდა მარტივი პროცედურა რომელიც სტუდენტებს მისცემდა საშუალებას დაეკალიბრებინათ მონაცემები სხვასახვა მოწყობილობებზე. რიგიან ხელსაწყოებით შეგიძლია დააკალიბრო თქვენი მიკროფონის სიხშირეზე დამოკიდებულება, რაც შეიძლება არაწრფივი შედეგების გაუნჯობესებაში დაეხმაროს მოწყობილობას. თუ გაქვს ასეთი მოწყობილობა და გაქვს სურვილი ცადო, გთხოვთ შეგვატყობინოთ - ჩვენ უკვე გვაქვს ფაიფოქს-ექსპერიმენტები რომელიც გაძლევს საშუალებას უფრო ზუსტი კალიბრაციისთვის.</string>
     </translation>
+    <translation locale="hi">
+      <title>ध्वनि आयाम</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+        ध्वनियों का आयाम पता करें |
+
+        यह प्रयोग माइक्रोफ़ोन से केवाल छोटे अंतराल को रिकॉर्ड करता है और ध्वनि दबाव स्तर (एसपीएल) की गणना करता है। ध्यान दें कि यह गणना एक बहुत ही सरल दृष्टिकोण पर आधारित है और परिणाम काफी अनिश्चित हो सकते हैं। इसके साथ ही, आपको माप को कैलिब्रेट करने के लिए एक संदर्भ देना होगा।
+    </description>
+      <string original="Amplitude">आयाम</string>
+      <string original="Status">अवस्था</string>
+      <string original="NOT calibrated">बिना कैलिब्रेट किया हुआ</string>
+      <string original="calibrated">कैलिब्रेट किया हुआ</string>
+      <string original="Sound pressure level">ध्वनि के दबाव का स्तर</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Clear history">हिस्ट्री साफ़ करें</string>
+      <string original="Please see the calibration tab to get proper results.">उचित परिणाम पाने के लिए कैलिब्रेशन टैब को देखें.</string>
+      <string original="Calibration">कैलिब्रेशन</string>
+      <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could set up a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">यह प्रयोग ध्वनि दबाव स्तर (एसपीएल) निर्धारित करने के लिए अपेक्षाकृत सरल दृष्टिकोण का उपयोग करता है। आपको डेसिबल (dB ) में एक ज्ञात आयाम वाली एक रिफरेन्स ध्वनि की आवश्यकता होगी। उदाहरण के लिए, आप एक निरंतर ध्वनि स्रोत निर्धारित कर सकते हैं और किसी बाहरी उपकरण की सहायता से इसके ध्वनि दबाव स्तर को माप सकते हैं। मापे गए स्तर को रिफरेन्स एसपीएल के रूप में दर्ज करें और प्रयोग चलने के दौरान 'कैलिब्रेट' को दबाएँ।</string>
+      <string original="Reference SPL">रिफरेन्स एस पी एल</string>
+      <string original="Calibrate">कैलिब्रेट</string>
+      <string original="Calibration offset">कैलिब्रेशन ऑफसेट</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">यदि आपने इसे पहले या किसी समान डिवाइस पर किया है तो आप सीधे अपने पिछले कैलिब्रेशन से कैलिब्रेशन ऑफ़सेट दर्ज कर सकते हैं और 'सेट ऑफ़सेट' दबा सकते हैं।</string>
+      <string original="Custom offset">कस्टम ऑफसेट</string>
+      <string original="Set offset">सेट ऑफसेट</string>
+      <string original="FAQ">सामान्य प्रश्न</string>
+      <string original="How accurate are these results?">ये परिणाम कितने सटीक हैं?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">यह एप्प सम्भवतः शिक्षण और खोज के लिए काफी अच्छा है? शायद गंभीर अध्ययन के लिए नहीं?, लेकिन अन्य ऐप्स बेहतर प्रदर्शन कर सकते हैं (नीचे देखें)। यह एप्प वैज्ञानिक या स्वास्थ्य संबंधी अनुप्रयोगों के लिए बिल्कुल उपयोगी नहीं है, इसके लिए एक उचित और उपयुक्त डिवाइस लें।</string>
+      <string original="Why isn't this already calibrated?">यह पहले से ही कैलिब्रेटेड (समंजित) क्यों नहीं है?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">फ़ाइफ़ॉक्स 10000 से अधिक उपकरणों पर उपलब्ध है। उनमें से अधिकांश में अलग-अलग माइक्रोफ़ोन, अलग-अलग इलेक्ट्रॉनिक्स और अलग-अलग सॉफ़्टवेयर हैं - ये सभी ध्वनि के प्रति उनकी प्रतिक्रिया को प्रभावित करते हैं। हम उन सभी को समंजित नहीं कर सकते हैं, लेकिन कुछ मामलों अथवा प्रयोजनो के लिए ऐसे ऐप्स हैं जो केवल सीमित संख्या में डिवाइस (युक्ति) को लक्षित करते हैं (जैसे आईफोन के लिए विशिष्ट ऐप्स) जो इन कुछ डिवाइसों को समंजित कर सकते हैं। यदि आप समंजन के बिना बेहतर परिणामों में रुचि रखते हैं, तो आपको अपने डिवाइस के लिए विशिष्ट ऐप्स की जांच करनी चाहिए।</string>
+      <string original="Why can't we get a better calibration?">हम बेहतर अंशांकन (कैलिब्रेशन ) क्यों प्राप्त नहीं कर सकते हैं?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">हम छात्रों को विभिन्न उपकरणों में तुलनात्मक आकड़े प्राप्त करने की अनुमति देने के लिए एक सरल प्रक्रिया चाहते थे। अच्छे उपकरणों के साथ आप अपने माइक्रोफ़ोन की आवृत्ति निर्भरता भी अंशांकन (कैलिब्रेट) कर सकते हैं और शायद अरैखिक प्रतिक्रियाओं की भरपाई भी कर सकते हैं। यदि आपके पास ऐसे उपकरण हैं और आप इसे आज़माना चाहते हैं, तो कृपया हमें बताएं - हमारे पास पहले से ही फ़ाइफ़ॉक्स-प्रयोग हैं जो अधिक उन्नत अंशांकन तकनीकों की अनुमति देते हैं।</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

@@ -477,6 +477,33 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Help">დახმარება</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">მაგნიტომეტრი თქვენს ტელეფონში ყოველთივს არის შიდა ელექტრონული სისტემის ველის ზეგავლენის ქვეშ, რაც იწვევს უზუსტობებს. ამისათვის ფაიფოქსი ცდილობს დააკალიბროს სენსორი შიდა სისტემაზე. ზოგჯერ თქვენ შეიძლება მონაცემები ვერ მიიღოდ, რადგან ჯერ არ იყო სენსორი დაკალიბრებული (მაგალითად როცა ტელეფონი ახალი ჩართულია). ასეთ შემთხვევაში თქვენ უნდა დაატრიალოთ ტელეფონი რამდენჯერმე, სანამ ექსპერიმენტი მიმდინარეობს, რაც დაეხმარება სენსორს კალიბრაციაში. ასევე ბევრ ტელეფონს აქვს ფუნქცია დაუკალიბრებელი სენსორის ჩვენების, რომელიც შეგიძლიათ მოძებნოთ მენიუში ზედა მარჯვენა კუთხეში.</string>
     </translation>
+    <translation locale="hi">
+      <title>चुम्बकत्वमापी</title>
+      <category>रॉ सेंसर</category>
+      <description>
+        मैग्नेटोमीटर से रॉ डेटा प्राप्त करें।
+
+        मैग्नेटोमीटर काफी संवेदनशील है क्योंकि इसे कम्पास के रूप में कार्य करने और पृथ्वी के चुंबकीय क्षेत्र को मापने के लिए डिज़ाइन किया गया है। हालांकि, यह हमेशा आपके फोन में इलेक्ट्रॉनिक्स से निकलने वाले आंतरिक क्षेत्रों के संपर्क में आता है, जिससे गलत परिणाम मिलते हैं। इसलिए फाईफॉक्स सिस्टम से कैलिब्रेटेड चुंबकीय क्षेत्र प्राप्त करने का प्रयास करता है। अगर यह अभी तक कैलिब्रेट नहीं किया गया है (उदाहरण के लिए फोन के अभी शुरू होने के बाद) तो कुछ मामलों में, हो सकता है कि आपको कोई डेटा न मिले | इस स्थिति में प्रयोग के दौरान आपको अपने फ़ोन को कुछ बार घुमाना चाहिए। यह सिस्टम को सेंसर को कैलिब्रेट करने में मदद करता है। साथ ही, कई उपकरणों पर (सभी नहीं) आप ऊपर दाईं ओर मेनू के माध्यम से बिना कैलिब्रेटेड मैग्नेटोमीटर डेटा पर स्विच कर सकते हैं।
+
+        अपने फोन को तीव्र चुंबकीय क्षेत्रों में न रखें !
+    </description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Accuracy">सटीकता</string>
+      <string original="Uncalibrated">अनकैलीब्रेटेड</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Low">निम्न</string>
+      <string original="Medium">माध्यम</string>
+      <string original="High">उच्च</string>
+      <string original="Magnetometer x">मैग्नेटोमीटर x</string>
+      <string original="Magnetometer y">मैग्नेटोमीटर y</string>
+      <string original="Magnetometer z">मैग्नेटोमीटर z</string>
+      <string original="Absolute">निरपेक्ष</string>
+      <string original="Multi">बहु</string>
+      <string original="Magnetometer">मैग्नेटोमीटर</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Help">सहायता</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">आपके फ़ोन का मैग्नेटोमीटर हमेशा आपके फ़ोन के इलेक्ट्रॉनिक्स से निकलने वाले आंतरिक क्षेत्रों के संपर्क में रहता है, जिससे गलत परिणाम मिलते हैं। इसलिए फाईफॉक्स सिस्टम से कैलिब्रेटेड चुंबकीय क्षेत्र प्राप्त करने का प्रयास करता है। अगर यह अभी तक कैलिब्रेट नहीं किया गया है (उदाहरण के लिए फोन के अभी शुरू होने के बाद) तो कुछ मामलों में, हो सकता है कि आपको कोई डेटा न मिले। इस स्थिति में प्रयोग के दौरान आपको अपने फ़ोन को कुछ बार घुमाना चाहिए। यह सिस्टम को सेंसर को कैलिब्रेट करने में मदद करता है। साथ ही, कई उपकरणों पर (सभी नहीं) आप ऊपर दाईं ओर मेनू के माध्यम से बिना कैलिब्रेटेड मैग्नेटोमीटर डेटा पर स्विच कर सकते हैं।</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">mag_time</container>

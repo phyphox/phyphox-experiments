@@ -366,6 +366,25 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">მთლიანი მაგნიტური ველი გაფილტრული</string>
       <string original="Filtered B²">გაფილტრული B²</string>
     </translation>
+    <translation locale="hi">
+      <title>चुम्बकीय रूलर</title>
+      <category>टूल्स</category>
+      <description>
+        फोन की दूरी, गति और त्वरण को मापने के लिए चुम्बकों की एक श्रृंखला का उपयोग करें।
+
+        इस प्रयोग के लिए आपको फोन द्वारा चले जाने वाले ट्रैक के साथ समान चुम्बकों की एक श्रृंखला रखनी चाहिए। प्रत्येक चुम्बक के लिए चुम्बकों के बीच की दूरी समान होनी चाहिए और प्रयोग में दर्ज की जानी चाहिए। फोन तब अपने मैग्नेटोमीटर का उपयोग यह निर्धारित करने के लिए करेगा कि उसने चुंबक को कब पार किया है, जिससे कुल दूरी की गणना की जाती है।
+    </description>
+      <string original="Results">परिणाम</string>
+      <string original="dx is the distance between two magnets">dx दो चुम्बकों के बीच की दूरी है</string>
+      <string original="Distance">दूरी</string>
+      <string original="Velocity">वेग</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Magnetic field x">चुंबकीय क्षेत्र x</string>
+      <string original="Magnetic field y">चुंबकीय क्षेत्र y</string>
+      <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
+      <string original="Total magnetic field squared and filtered">कुल चुंबकीय क्षेत्र स्क्वेर्ड और फ़िल्टर्ड</string>
+      <string original="Filtered B²">फिल्टर्ड B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>
