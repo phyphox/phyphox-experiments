@@ -859,7 +859,7 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <input clear="false">gyr</input>
       <output as="average">newAvg</output>
       <output as="stddev">newStd</output>
-    </average>isResult
+    </average>
     <max>
       <input as="y" clear="false">gyrt</input>
       <output as="max">tmax</output>
