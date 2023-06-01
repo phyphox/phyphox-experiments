@@ -546,13 +546,23 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     <container size="1200" static="true">count_t</container>
     <container size="1200" static="true">relative_t</container>
     <container size="1200">relative_cc</container>
-    <container size="1200">relative_cc_out</container>
+    <container size="1200" init="0">relative_cc_out</container>
+    <container size="1200" init="0">relative_cc_h1</container>
+    <container size="1200" init="0">relative_cc_h2</container>
+    <container size="1200" init="0">relative_cc_h3</container>
+    <container size="1200" init="0">relative_cc_h4</container>
+    <container size="1200" init="0">relative_cc_h5</container>
     <container size="1200">distance</container>
     <container size="1200">distance_out</container>
     <container size="1200">sos</container>
     <container size="1200">sos_out</container>
     <container size="1200">weighted_cc</container>
-    <container size="1200">weighted_cc_out</container>
+    <container size="1200" init="0">weighted_cc_out</container>
+    <container size="1200" init="0">weighted_cc_h1</container>
+    <container size="1200" init="0">weighted_cc_h2</container>
+    <container size="1200" init="0">weighted_cc_h3</container>
+    <container size="1200" init="0">weighted_cc_h4</container>
+    <container size="1200" init="0">weighted_cc_h5</container>
     <container size="1">size</container>
     <container size="1">time</container>
     <container size="1200">time_line</container>
@@ -583,37 +593,97 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <edit label="Speed of Sound" unit="[[unit_short_meter_per_second]]" default="340">
         <output>speedofsound</output>
       </edit>
-      <graph label="Echo location" history="5" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Echo location" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_out</input>
         <input axis="y">relative_cc_out</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Normalized to spherical surface" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_out</input>
         <input axis="y">weighted_cc_out</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
       </graph>
     </view>
     <view label="Speed of Sound">
       <edit label="Target distance" unit="[[unit_short_meter]]" default="1">
         <output>targetdistance</output>
       </edit>
-      <graph label="Echo strength" history="5" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
+      <graph label="Echo strength" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
         <input axis="x">sos_out</input>
         <input axis="y">relative_cc_out</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
+      <graph label="Normalized to spherical surface" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
         <input axis="x">sos_out</input>
         <input axis="y">weighted_cc_out</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
       </graph>
     </view>
     <view label="Timing">
       <info label="On this page you just get the measured delay."/>
-      <graph label="Echo strength" history="5" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
+      <graph label="Echo strength" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
         <input axis="x">relative_t</input>
         <input axis="y">relative_cc_out</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
       </graph>
-      <graph label="Normalized to spherical surface" history="5" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
+      <graph label="Normalized to spherical surface" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
         <input axis="x">relative_t</input>
         <input axis="y">weighted_cc_out</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
       </graph>
     </view>
     <view label="Chirp">
@@ -804,12 +874,6 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     <if equal="true">
       <input clear="false">size</input>
       <input type="value">1500</input>
-      <input clear="false">relative_cc</input>
-      <output clear="false">relative_cc_out</output>
-    </if>
-    <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
       <input clear="false">distance</input>
       <output clear="false">distance_out</output>
     </if>
@@ -822,8 +886,74 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     <if equal="true">
       <input clear="false">size</input>
       <input type="value">1500</input>
+      <input clear="false">relative_cc_h4</input>
+      <output clear="true">relative_cc_h5</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h3</input>
+      <output clear="true">relative_cc_h4</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h2</input>
+      <output clear="true">relative_cc_h3</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h1</input>
+      <output clear="true">relative_cc_h2</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_out</input>
+      <output clear="true">relative_cc_h1</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc</input>
+      <output clear="true">relative_cc_out</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h4</input>
+      <output clear="true">weighted_cc_h5</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h3</input>
+      <output clear="true">weighted_cc_h4</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h2</input>
+      <output clear="true">weighted_cc_h3</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h1</input>
+      <output clear="true">weighted_cc_h2</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_out</input>
+      <output clear="true">weighted_cc_h1</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
       <input clear="false">weighted_cc</input>
-      <output clear="false">weighted_cc_out</output>
+      <output clear="true">weighted_cc_out</output>
     </if>
   </analysis>
   <export>
@@ -831,16 +961,46 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <data name="Distance (cm)">distance</data>
       <data name="Crosscorrelation (a.u.)">relative_cc</data>
       <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
     </set>
     <set name="Speed of sound">
       <data name="Speed of sound (m/s)">sos</data>
       <data name="Crosscorrelation (a.u.)">relative_cc</data>
       <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
     </set>
     <set name="Time">
       <data name="Delay (s)">relative_t</data>
       <data name="Crosscorrelation (a.u.)">relative_cc</data>
       <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
     </set>
     <set name="Chirp">
       <data name="Time (s)">chirp_t</data>
