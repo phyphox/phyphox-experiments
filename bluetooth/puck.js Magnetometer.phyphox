@@ -49,15 +49,15 @@
     </input>
     <views>
         <view label="Magnetometer">
-            <graph label="Magnetometer x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="green">
+            <graph label="Magnetometer x" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="green">
                 <input axis="x">tout</input>
                 <input axis="y">magXCal</input>
             </graph>
-            <graph label="Magnetometer y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="blue">
+            <graph label="Magnetometer y" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="blue">
                 <input axis="x">tout</input>
                 <input axis="y">magYCal</input>
             </graph>
-            <graph label="Magnetometer z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="yellow">
+            <graph label="Magnetometer z" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="yellow">
                 <input axis="x">tout</input>
                 <input axis="y">magZCal</input>
             </graph>

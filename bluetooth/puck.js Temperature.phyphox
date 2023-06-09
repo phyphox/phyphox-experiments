@@ -42,7 +42,7 @@
     </input>
     <views>
         <view label="Thermometer">
-            <graph label="Temperature" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="T" unitY="[[unit_short_degree_celsius]]" partialUpdate="true">
+            <graph label="Temperature" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="T" unitY="[[unit_short_degree_celsius]]" partialUpdate="true">
                 <input axis="x">tout</input>
                 <input axis="y">T</input>
             </graph>

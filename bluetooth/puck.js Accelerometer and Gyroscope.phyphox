@@ -60,29 +60,29 @@
     </input>
     <views>
         <view label="Accelerometer">
-            <graph label="Acceleration x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="green">
+            <graph label="Acceleration x" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="green">
                 <input axis="x">tout</input>
                 <input axis="y">accXCal</input>
             </graph>
-            <graph label="Acceleration y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="blue">
+            <graph label="Acceleration y" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="blue">
                 <input axis="x">tout</input>
                 <input axis="y">accYCal</input>
             </graph>
-            <graph label="Acceleration z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="yellow">
+            <graph label="Acceleration z" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="yellow">
                 <input axis="x">tout</input>
                 <input axis="y">accZCal</input>
             </graph>
         </view>
         <view label="Gyroscope">
-            <graph label="Angular velocity x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="green">
+            <graph label="Angular velocity x" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="green">
                 <input axis="x">tout</input>
                 <input axis="y">gyrXCal</input>
             </graph>
-            <graph label="Angular velocity y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="blue">
+            <graph label="Angular velocity y" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="blue">
                 <input axis="x">tout</input>
                 <input axis="y">gyrYCal</input>
             </graph>
-            <graph label="Angular velocity z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="yellow">
+            <graph label="Angular velocity z" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="yellow">
                 <input axis="x">tout</input>
                 <input axis="y">gyrZCal</input>
             </graph>
