@@ -1001,7 +1001,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <info label="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well."/>
     </view>
   </views>
-  <analysis>
+  <analysis requireFill="recording">
     <count>
       <input clear="false">recording</input>
       <output>count</output>
