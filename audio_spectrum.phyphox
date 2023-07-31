@@ -775,17 +775,17 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
   </views>
   <analysis requireFill="recording" requireFillDynamic="samples">
     <formula formula="[1]+[2]/[3]">
-        <input clear="false">t</input>
-        <input clear="false">samples</input>
-        <input clear="false">rate</input>
-        <output clear="true">tnext</output>
+      <input clear="false">t</input>
+      <input clear="false">samples</input>
+      <input clear="false">rate</input>
+      <output clear="true">tnext</output>
     </formula>
     <timer>
       <output clear="false">tnext</output>
     </timer>
     <max>
-        <input as="y">tnext</input>
-        <output as="max" clear="false">t</output>
+      <input as="y">tnext</input>
+      <output as="max" clear="false">t</output>
     </max>
     <const>
       <input as="value" clear="false">t</input>
