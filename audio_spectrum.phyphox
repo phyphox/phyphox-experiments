@@ -532,7 +532,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </translation>
     <translation locale="hi">
       <title>श्रव्य वर्णक्रम</title>
-      <category>ध्वनिकी</category>
+      <category>ध्वनि विज्ञान</category>
       <description>
             एक ऑडियो सिग्नल का आवृत्ति  वर्णक्रम (स्पेक्ट्रम) प्रदर्शित करें।
 

@@ -230,7 +230,7 @@
     </translation>
     <translation locale="hi">
       <title>जाइरोस्कोप (रोटेशन दर)</title>
-      <category>रॉ सेंसर (संवेदक)</category>
+      <category>रॉ सेंसर</category>
       <description>जाइरोस्कोप से कच्चा डेटा प्राप्त करें।</description>
       <string original="Graph">ग्राफ</string>
       <string original="Gyroscope x">जायरोस्कोप x</string>

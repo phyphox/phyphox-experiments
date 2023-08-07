@@ -571,7 +571,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
     </translation>
     <translation locale="hi">
       <title>लोकेशन (जी पी एस )</title>
-      <category>रॉ सेंसर (संवेदक)</category>
+      <category>रॉ सेंसर</category>
       <description>
         उपग्रह नेविगेशन से रॉ लोकेशन डेटा प्राप्त करें।
 

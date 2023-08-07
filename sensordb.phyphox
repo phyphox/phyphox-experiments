@@ -337,7 +337,7 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
     </translation>
     <translation locale="hi">
       <title>सेंसर डेटाबेस में जमा करें</title>
-      <category>फिफ़ोक्स.ऑर्ग</category>
+      <category>phyphox.org</category>
       <description>अपने फ़ोन में सेंसर के बारे में जानकारी phyphox.org पर सबमिट करें।
 
 यह प्रयोग आपके फ़ोन और आपके सेंसर के बारे में तकनीकी डेटा एकत्र करेगा, जिसे आप हमारे सेंसर डेटा बेस में सबमिट कर सकते हैं। विभिन्न उपकरणों में सेंसर की उपलब्धता और क्षमता के बारे में जानने के लिए हमें और अन्य लोगों की मदद करने के लिए डेटा एकत्र किया जाएगा और अन्य उपयोगकर्ताओं को उपलब्ध कराया जाएगा।</description>

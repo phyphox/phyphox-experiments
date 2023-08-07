@@ -248,7 +248,7 @@
     </translation>
     <translation locale="hi">
       <title>त्वरण गुरुत्वीय त्वरण, g के साथ</title>
-      <category>कच्चे संवेदक (सेंसर)</category>
+      <category>रॉ सेंसर</category>
       <description>रॉ संवेदक (रॉ सेंसर) त्वरक मापी से कच्चा (रॉ) डेटा प्राप्त करें। यह संवेदक (सेंसर) गुरुत्वाकर्षण बल को नहीं घटाएगा, इसलिए यह फोन के आराम (रेस्ट) करने पर भी 9.81 m/s² के त्वरण को प्रदर्शित करेगा |</description>
       <string original="Graph">ग्राफ</string>
       <string original="Accelerometer x">त्वरण मापी x</string>

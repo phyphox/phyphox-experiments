@@ -149,7 +149,7 @@
     </translation>
     <translation locale="hi">
       <title>दाब</title>
-      <category>Raw सेंसर</category>
+      <category>रॉ सेंसर</category>
       <description>बैरोमीटर से raw डेटा प्राप्त करता है।</description>
       <string original="Graph">ग्राफ</string>
       <string original="Pressure">दबाव</string>
