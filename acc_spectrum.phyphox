@@ -601,7 +601,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
-      <separator height="1" precision="0"/>
+      <separator height="1"/>
       <value label="Samples used">
         <input>actual_samples</input>
       </value>
