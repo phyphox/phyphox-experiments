@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><phyphox locale="en" version="1.14">
+    <title>Luma or Luminance</title>
+    <category>Camera</category>
+    <description>Compare luma and luminance</description>
+    <icon>Y</icon>
+    <data-containers>
+        <container size="0">luma</container>
+        <container size="0">luminance</container>
+        <container size="0">t</container>
+        <container size="0">shutterSpeed</container>
+        <container size="0">iso</container>
+        <container size="0">aperture</container>
+        <container size="0">exposure</container>
+        <container size="0">sensor_pixel_height</container>
+        <container size="0">sensor_pixel_width</container>
+        <container size="1">count</container>
+        <container size="1">rate</container>
+    </data-containers>
+    <input>
+        <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+            <output component="luma">luma</output>
+            <output component="luminance">luminance</output>
+            <output component="t">t</output>
+            <output component="shutterSpeed">shutterSpeed</output>
+            <output component="iso">iso</output>
+            <output component="aperture">aperture</output>
+            <output component="exposure">exposure</output>
+            <output component="sensor_pixel_height">sensor_pixel_height</output>
+            <output component="sensor_pixel_width">sensor_pixel_width</output>
+        </camera>
+    </input>
+    <views>
+        <view label="Settings">
+            <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area."/>
+            <separator height="1"/>
+            <camera-gui label="Preview"/>
+            <separator height="1"/>
+            <separator color="white"/>
+        </view>
+
+        <view label="Simple">
+            <value label="Average Luma" size="2" color="red">
+                <input>luma</input>
+            </value>
+
+            <value label="Average Luminance" size="2" color="green">
+                <input>luminance</input>
+            </value>
+
+            <graph label="Luma / Luminance" labelX="[[quantity_short_time]]" labelY="Luma / Luminance" partialUpdate="true" unitX="[[unit_short_second]]">
+                <input axis="x" lineWidth="2" color="red">t</input>
+                <input axis="y">luma</input>
+                <input axis="x" lineWidth="2" color="green">t</input>
+                <input axis="y">luminance</input>
+            </graph>
+
+            <value label="Average rate" unit="Hz" precision="1">
+                <input>rate</input>
+            </value>
+
+        </view>
+
+
+    </views>
+    <analysis>
+        <count>
+            <input clear="false">luma</input>
+            <output>count</output>
+        </count>
+        <divide>
+            <input clear="false">count</input>
+            <input clear="false">t</input>
+            <output>rate</output>
+        </divide>
+    </analysis>
+    <export>
+        <set name="Data">
+            <data name="t">t</data>
+            <data name="luma">luma</data>
+        </set>
+    </export>
+</phyphox>

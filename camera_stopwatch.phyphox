@@ -1,0 +1,840 @@
+<phyphox version="1.14" locale="en">
+  <title>Luma Stopwatch</title>
+    <category>Camera</category>
+    <description>Luma-based stopwatch</description>
+    <icon>Y't</icon>
+  <description>
+        Measure times based on luma thresholds on the camera.
+  </description>
+  <data-containers>
+    <container>threshold_low</container>
+    <container>threshold_high</container>
+    <container size="0">amplitude</container>
+    <container size="0">t</container>
+    <container size="0">search_a</container>
+    <container size="0">search_t</container>
+    <container size="0">trigger_t</container>
+    <container>trigger_last</container>
+    <container init="0">on0</container>
+    <container init="0">on1</container>
+    <container init="0">on2</container>
+    <container init="0">on3</container>
+    <container init="0">on4</container>
+    <container init="0">on5</container>
+    <container init="0">off0</container>
+    <container init="0">off1</container>
+    <container init="0">off2</container>
+    <container init="0">off3</container>
+    <container init="0">off4</container>
+    <container init="0">off5</container>
+    <container>don0</container>
+    <container>don1</container>
+    <container>don2</container>
+    <container>don3</container>
+    <container>don4</container>
+    <container>don5</container>
+    <container>dt01</container>
+    <container>dt02</container>
+    <container>dt03</container>
+    <container>dt04</container>
+    <container>dt05</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container init="0">reset</container>
+    <container size="1">count</container>
+    <container size="1">rate</container>
+  </data-containers>
+<input>
+    <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+        <output component="luma">amplitude</output>
+        <output component="t">t</output>
+    </camera>
+</input>
+  <views>
+    <view label="Settings">
+        <camera-gui label="Preview"/>
+      <edit label="Trigger below" unit="a.u." default="0.5" signed="false" min="0" max="1">
+        <output>threshold_low</output>
+      </edit>
+      <edit label="Trigger above" unit="a.u." default="1" signed="false" min="0" max="1">
+        <output>threshold_high</output>
+      </edit>
+      <separator height="1"/>
+      <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below."/>
+      <separator height="1"/>
+      <graph label="Luminance" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">amplitude</input>
+      </graph>
+            <value label="Average rate" unit="Hz" precision="1">
+                <input>rate</input>
+            </value>
+    </view>
+    <view label="Sequence">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt12</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt23</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt34</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt45</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Parallel">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt02</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt03</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt04</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt05</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Duration">
+      <value label="Trigger duration 0" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don0</input>
+      </value>
+      <value label="Trigger duration 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don1</input>
+      </value>
+      <value label="Trigger duration 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don2</input>
+      </value>
+      <value label="Trigger duration 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don3</input>
+      </value>
+      <value label="Trigger duration 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don4</input>
+      </value>
+      <value label="Trigger duration 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Triggers">
+      <value label="Trigger on 0" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on0</input>
+      </value>
+      <value label="Trigger off 0" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off0</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 1" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on1</input>
+      </value>
+      <value label="Trigger off 1" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off1</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 2" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on2</input>
+      </value>
+      <value label="Trigger off 2" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off2</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 3" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on3</input>
+      </value>
+      <value label="Trigger off 3" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off3</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 4" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on4</input>
+      </value>
+      <value label="Trigger off 4" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off4</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 5" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on5</input>
+      </value>
+      <value label="Trigger off 5" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+  </views>
+  <analysis>
+    <append>
+      <input type="value">0</input>
+      <output>on0</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>on1</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>on2</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>on3</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>on4</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>on5</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off0</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off1</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off2</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off3</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off4</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>off5</output>
+    </append>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>amplitude</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>t</output>
+    </if>
+    <append>
+      <input type="value">0</input>
+      <output>reset</output>
+    </append>
+    <append>
+      <input type="value">0</input>
+      <output>trigger_last</output>
+    </append>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min" type="value">0.001</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on0</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on0</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on0</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off0</output>
+    </first>
+    <if greater="true">
+      <input clear="false">off0</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off0</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on1</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on1</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on1</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off1</output>
+    </first>
+    <!-- 2 -->
+    <if greater="true">
+      <input clear="false">off1</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off1</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on2</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on2</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on2</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off2</output>
+    </first>
+    <!-- 3 -->
+    <if greater="true">
+      <input clear="false">off2</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off2</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on3</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on3</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on3</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off3</output>
+    </first>
+    <!-- 4 -->
+    <if greater="true">
+      <input clear="false">off3</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off3</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on4</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on4</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on4</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off4</output>
+    </first>
+    <!-- 5 -->
+    <if greater="true">
+      <input clear="false">off4</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">off4</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input clear="false">search_t</input>
+      <input clear="false">search_a</input>
+      <input as="max" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="min" clear="false">threshold_high</input>
+      <output clear="false">trigger_t</output>
+    </rangefilter>
+    <min>
+      <input as="y">trigger_t</input>
+      <output as="min" clear="false">on5</output>
+    </min>
+    <if greater="true">
+      <input clear="false">on5</input>
+      <input clear="false">trigger_last</input>
+      <input clear="false">on5</input>
+      <input clear="false">t</input>
+      <output>trigger_last</output>
+    </if>
+    <add>
+      <input clear="false">trigger_last</input>
+      <input type="value">0.001</input>
+      <output>trigger_t</output>
+    </add>
+    <rangefilter>
+      <input clear="false">t</input>
+      <input as="min">trigger_t</input>
+      <input clear="false">amplitude</input>
+      <output>search_t</output>
+      <output>search_a</output>
+    </rangefilter>
+    <rangefilter>
+      <input>search_t</input>
+      <input>search_a</input>
+      <input as="max" clear="false">threshold_high</input>
+      <input as="min" clear="false">threshold_low</input>
+      <output>trigger_t</output>
+    </rangefilter>
+    <first>
+      <input>trigger_t</input>
+      <output clear="false">off5</output>
+    </first>
+    <!-- Collect results -->
+    <subtract>
+      <input clear="false">on1</input>
+      <input clear="false">on0</input>
+      <output>dt01</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on0</input>
+      <output>dt02</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on0</input>
+      <output>dt03</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on0</input>
+      <output>dt04</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on0</input>
+      <output>dt05</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on1</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on2</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on3</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on4</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off0</input>
+      <input clear="false">on0</input>
+      <output>don0</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off1</input>
+      <input clear="false">on1</input>
+      <output>don1</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off2</input>
+      <input clear="false">on2</input>
+      <output>don2</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off3</input>
+      <input clear="false">on3</input>
+      <output>don3</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off4</input>
+      <input clear="false">on4</input>
+      <output>don4</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off5</input>
+      <input clear="false">on5</input>
+      <output>don5</output>
+    </subtract>
+    <if less="true" equal="true">
+      <input clear="false">dt01</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt01</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt02</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt02</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt03</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt03</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt04</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt04</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt05</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt05</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt12</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt12</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt23</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt23</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt34</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt34</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt45</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt45</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don0</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don0</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don1</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don1</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don2</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don2</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don3</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don3</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don4</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don4</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don5</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don5</output>
+    </if>
+    <count>
+        <input clear="false">amplitude</input>
+        <output>count</output>
+    </count>
+    <divide>
+        <input clear="false">count</input>
+        <input clear="false">t</input>
+        <output>rate</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="Raw">
+      <data name="t (s)">t</data>
+      <data name="Illuminance (lx)">amplitude</data>
+    </set>
+    <set name="Timing">
+      <data name="On 0 (s)">on0</data>
+      <data name="Off 0 (s)">off0</data>
+      <data name="On 1 (s)">on1</data>
+      <data name="Off 1 (s)">off1</data>
+      <data name="On 2 (s)">on2</data>
+      <data name="Off 2 (s)">off2</data>
+      <data name="On 3 (s)">on3</data>
+      <data name="Off 3 (s)">off3</data>
+      <data name="On 4 (s)">on4</data>
+      <data name="Off 4 (s)">off4</data>
+      <data name="On 5 (s)">on5</data>
+      <data name="Off 5 (s)">off5</data>
+    </set>
+  </export>
+</phyphox>
