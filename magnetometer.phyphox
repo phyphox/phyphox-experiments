@@ -58,6 +58,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer x">Magnetometr x</string>
       <string original="Magnetometer y">Magnetometr y</string>
       <string original="Magnetometer z">Magnetometr z</string>
+      <string original="Magnetometer">Magnetometr</string>
     </translation>
     <translation locale="pl">
       <title>Magnetometr</title>

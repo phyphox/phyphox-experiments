@@ -63,7 +63,7 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Pokud jste toto již udělali nebo jste kalibrovali identické zařízení, můžete ručně zadat kalibrační posun z minulých měření a zmáčknout 'Nastavit posun'.</string>
       <string original="Custom offset">Vlastní nastavení posunu</string>
       <string original="Set offset">Nastavit vlastní kalibraci</string>
-      <string original="FAQ">Často kladené dotazy?</string>
+      <string original="FAQ">Často kladené dotazy</string>
       <string original="How accurate are these results?">Jak moc jsou tyto výsledky přesné?</string>
       <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Pro účely výuky a poznávání světa kolem nás? Pravděpodobně dostatečné. Pro serióznější bádání? Pravděpodobně ne, ale jiné aplikace mohou požadované přesnosti dosáhnout (viz níže). Pro seriózní vědecké či zdravotnické aplikace je aplikace rozhodně nevhodná. Na to je zapotřebí kvalitnějších specializovaných přístrojů.</string>
       <string original="Why isn't this already calibrated?">Proč není aplikace rovnou zkalibrována?</string>
@@ -71,7 +71,7 @@ Tento experiment pomocí mikrofonu zaznamenává zvuky v krátkém časovém int
       <string original="Why can't we get a better calibration?">Proč nemůžeme mít lepší kalibraci?</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Chtěli jsme použít jednoduchý postup, který by umožnil studentům naměřit srovnatelná data napříč různými přístroji. S lepším vybavením byste mohli zkalibrovat závislost citlivosti vašeho mikrofonu na frekvenci nebo kompenzovat nelineární reakce (impedance). Pokud jste vybaveni k takovýmto měřením a chtěli byste je vyzkoušet tak nás prosím kontaktujte. Již máme připravené experimenty umožňující komplexnější kalibrační metody.</string>
       <string original="SPL (dB)">UAT (dB)</string>
-      <string original="Time">Čas</string>
+      <string original="Time">čas</string>
       <string original="This experiment uses a rather naive approach to determine the sound pressure level (SPL). You will need a reference sound with a known amplitude in dB. For example, you could set up a constant noise source and measure its sound pressure level with an external device. Enter the measured level as the reference SPL and push 'calibrate' while the experiment is running.">Tento experiment využívá poměrně jednoduchý přístup k určení úrovně akustického tlaku (UAT). Budete potřebovat referenční zvuk se známou amplitudou v dB. Například můžete použít konstantní zdroj zvuku a změřit jeho hlasitost pomocí externího přístroje. Zadejte naměřenou úroveň tlaku jako referenční tlak a v průběhu experimentu zmáčkněte 'kalibrovat'.</string>
     </translation>
     <translation locale="pl">

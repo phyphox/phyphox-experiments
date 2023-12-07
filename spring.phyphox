@@ -61,6 +61,8 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer z">Akcelerometr z</string>
       <string original="Accelerometer x">Akcelerometr x</string>
       <string original="Accelerometer y">Akcelerometr y</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="correlation">korelace</string>
     </translation>
     <translation locale="pl">
       <title>Sprężyna</title>

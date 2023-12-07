@@ -53,6 +53,12 @@
       <category>Senzory</category>
       <description>
         Získejte neupravená data o vaší pozici ze satelitní navigace.
+
+    Upozorňujeme, že dostupná data mohou záviset na implementaci ve vašem smartphonu. Některá zařízení nemusí poskytovat vertikální přesnost nebo počet satelitů.
+
+         Ve výchozím nastavení jsou také informace o poloze z jiných typicky méně přesných zdrojů (jako jsou wifi nebo mobilní datové sítě) přimíchány do dat ze satelitní navigace. Opět platí, že v závislosti na vašem zařízení můžete být schopni deaktivovat tyto zdroje z nabídky experimentu tím, že povolíte nastavení pouze shromažďovat data ze satelitní navigace.
+
+         Rychlost a směr jsou obvykle dány zařízením a jsou založeny na dvou nebo více po sobě jdoucích fixacích polohy.
     </description>
       <string original="Graph">Graf</string>
       <string original="GPS disabled">GPS neaktivní</string>
@@ -70,6 +76,13 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Prosím vemte v potaz, že některá zařízení nejsou vybavena senzorem GPS a vaši pozici určují pomocí telefonního signálu či WIFI připojení. Tyto zdroje dat jsou bohužel nepřesné.</string>
       <string original="GPS active">GPS aktivní</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Ujistěte se, že služba určování polohy není v „úsporném režimu“. Ten většinou vypne GPS. Navigační aplikace mohou i přesto stále určovat přibližnou polohu z údajů o síti.</string>
+      <string original="Position">Pozice</string>
+      <string original="Movement">Pohyb</string>
+      <string original="Distance travelled">Uražená vzdálenost</string>
+      <string original="Distance from start">Vzdálenost od startu</string>
+      <string original="unknown">Neznámé</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Také se ujistěte, že nastavení polohy vašeho systému není nastaveno na „Úspora energie“, protože to obvykle vypne přesný zdroj GPS.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Horizontální přesnost je nejistota vaší polohy, zatímco vertikální přesnost je (obvykle horší) nejistota vaší nadmořské výšky. Pokud je přesnost nulová, pak tato informace není k dispozici.</string>
     </translation>
     <translation locale="pl">
       <title>Położenie (GPS)</title>
