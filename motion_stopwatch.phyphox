@@ -729,6 +729,9 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
+      <value label="Event number" size="1" precision="0">
+        <input>tindex</input>
+      </value>
       <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
         <input>avgInterval</input>
       </value>

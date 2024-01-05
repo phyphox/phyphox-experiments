@@ -739,6 +739,9 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
+      <value label="Event number" size="1" precision="0">
+        <input>tindex</input>
+      </value>
       <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
         <input>avgInterval</input>
       </value>
