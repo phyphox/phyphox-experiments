@@ -438,19 +438,19 @@
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-      <edit label="Amplitude 1" unit="" default="0.5" signed="false" min="0" max="1">
+      <edit label="Amplitude 1" default="0.5" unit="[[unit_short_arbitrary_unit]]" signed="false" min="0" max="1">
         <output>a1in</output>
       </edit>
-      <edit label="Frequency 1" unit="[[unit_short_arbitrary_unit]]" default="440" signed="false" min="0" max="24000">
+      <edit label="Frequency 1" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000">
         <output>f1</output>
       </edit>
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-      <edit label="Amplitude 2" unit="" default="0" signed="false" min="0" max="1">
+      <edit label="Amplitude 2" default="0" unit="[[unit_short_arbitrary_unit]]" signed="false" min="0" max="1">
         <output>a2in</output>
       </edit>
-      <edit label="Frequency 2" unit="[[unit_short_arbitrary_unit]]" default="450" signed="false" min="0" max="24000">
+      <edit label="Frequency 2" unit="[[unit_short_hertz]]" default="450" signed="false" min="0" max="24000">
         <output>f2</output>
       </edit>
       <separator height="1"/>
