@@ -24,7 +24,6 @@
             <output component="shutterSpeed">shutterSpeed</output>
             <output component="iso">iso</output>
             <output component="aperture">aperture</output>
-            <output component="exposure">exposure</output>
             <output component="sensor_pixel_height">sensor_pixel_height</output>
             <output component="sensor_pixel_width">sensor_pixel_width</output>
         </camera>
