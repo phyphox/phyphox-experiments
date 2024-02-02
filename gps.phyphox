@@ -732,9 +732,9 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <value label="Compass" size="1">
         <input>dir</input>
         <map max="-157.5">[[direction_short_south]]</map>
-        <map max="-112.5">[[direction_south_west]]</map>
-        <map max="-67.5">[[direction_west]]</map>
-        <map max="-22.5">[[direction_north_west]]</map>
+        <map max="-112.5">[[direction_short_south_west]]</map>
+        <map max="-67.5">[[direction_short_west]]</map>
+        <map max="-22.5">[[direction_short_north_west]]</map>
         <map max="22.5">[[direction_short_north]]</map>
         <map max="67.5">[[direction_short_north_east]]</map>
         <map max="112.5">[[direction_short_east]]</map>
