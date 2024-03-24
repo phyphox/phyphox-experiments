@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.16" locale="en">
   <title>Audio Scope</title>
   <category>Acoustics</category>
   <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
@@ -33,7 +33,7 @@ Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého čas
       <string original="Scope">Záznam</string>
       <string original="Audio Data">Zvuková data</string>
       <string original="Duration">Trvání</string>
-      <string original="Time">Čas</string>
+      <string original="Time">čas</string>
       <string original="Amplitude">Amplituda</string>
     </translation>
     <translation locale="pl">
@@ -283,9 +283,7 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
     <container size="24000">subdata</container>
     <container init="10">length</container>
     <container>lengthSamples</container>
-    <container>sleep1000</container>
-    <container init="0.1">sleep</container>
-    <container init="0.1">effective_sleep</container>
+    <container>lengthSamplesLimit</container>
   </data-containers>
   <input>
     <audio>
@@ -304,24 +302,7 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       </edit>
     </view>
   </views>
-  <analysis sleep="0.1" dynamicSleep="effective_sleep">
-    <add>
-      <input clear="false">length</input>
-      <input type="value">50</input>
-      <output>sleep1000</output>
-    </add>
-    <divide>
-      <input clear="false">sleep1000</input>
-      <input type="value">1000</input>
-      <output>sleep</output>
-    </divide>
-    <if less="true">
-      <input clear="false">sleep</input>
-      <input type="value">0.1</input>
-      <input type="value">0.1</input>
-      <input clear="false">sleep</input>
-      <output>effective_sleep</output>
-    </if>
+  <analysis requireFill="recording" requireFillDynamic="lengthSamplesLimit">
     <divide>
       <input type="value">26400000</input>
       <!-- 26400 / rate * 1000 -->
@@ -351,6 +332,11 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <input type="value">0.001</input>
       <output>lengthSamples</output>
     </multiply>
+    <add>
+      <input clear="false">lengthSamples</input>
+      <input type="value">2400</input>
+      <output>lengthSamplesLimit</output>
+    </add>
     <add>
       <input clear="false">triggerT</input>
       <input clear="false">lengthSamples</input>

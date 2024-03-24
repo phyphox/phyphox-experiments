@@ -10,7 +10,10 @@
       <category>phyphox.org</category>
       <link>https://phyphox.org/beitragen</link>
     </translation>
-    <translation locale="cs"/>
+    <translation locale="cs">
+      <title>Další způsoby, jak přispět…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="el">
       <title>Άλλοι τρόποι συνεισφοράς…</title>
       <category>phyphox.org</category>

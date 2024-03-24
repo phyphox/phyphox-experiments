@@ -110,7 +110,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě se
       <string original="Trigger below">Spustit pod</string>
       <string original="Trigger above">Spustit nad</string>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">Stopky se spouštějí při hodnotách pod i nad stanovenou mezí. Chcete-li, aby se spouštěly jen při velkých vzdálenostech, pak nastavte hodnotu "Spustit pod" na nulu. Chcete-li, aby se spouštěly jen při malých vzdálenostech, pak nastavte hodnotu "Spustit nad" hodně vysoko. Správné hodnoty prahů můžete odhadnout pomocí následujícího grafu. Většina senzorů měří jen dvě různé vzdálenosti. Většinou to je 0 cm a 5 cm.</string>
-      <string original="Distance">Vzdálenost</string>
+      <string original="Distance">vzdálenost</string>
       <string original="Sequence">Sekvence</string>
       <string original="Time 1">Čas 1</string>
       <string original="Time 2">Čas 2</string>

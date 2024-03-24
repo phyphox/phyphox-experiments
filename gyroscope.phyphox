@@ -28,6 +28,7 @@
       <string original="Gyroscope x">Gyroskop x</string>
       <string original="Gyroscope y">Gyroskop y</string>
       <string original="Gyroscope z">Gyroskop z</string>
+      <string original="Gyroscope">Gyroskop</string>
     </translation>
     <translation locale="pl">
       <title>Żyroskop (szybkość obrotów)</title>

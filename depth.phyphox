@@ -15,6 +15,20 @@
       <string original="Velocity">Rychlost</string>
       <string original="Acceleration">Zrychlení</string>
       <string original="Settings">Nastavení</string>
+      <title>Senzor hloubky (LiDAR / ToF)</title>
+      <category>Nástroje</category>
+      <description>Změřte vzdálenosti pomocí hloubkového senzoru.
+
+     Toto je k dispozici pouze v případě, že váš telefon má jako součást kamerového systému snímač hloubky. Můžete klepnout na náhled obrázku a vybrat oblast pohledu kamery, která přispívá k měření, a také vybrat, zda je výsledkem nejbližší vzdálenost, průměrná vzdálenost nebo průměr, který zohledňuje odhad snímače ohledně přesnosti každého měřeného bodu. .
+
+     Záložka pohybu také vypočítává rychlost a zrychlení z naměřené vzdálenosti pomocí algoritmu LOESS.
+</description>
+      <string original="Distance / Depth">Vzdálenost / Hloubka</string>
+      <string original="Kinematics">Kinematika</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Klepněte na náhled a přetažením změňte oblast obrázku, která se bere v úvahu při výpočtu vzdálenosti. Můžete také zvolit různé metody agregace měření hloubky v této oblasti.</string>
+      <string original="Preview">Náhled</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Níže můžete změnit lokální vyhlazení pro grafy v kartě kinematika. Nastavení šířky ovlivňuje odhady rychlosti a zrychlení. Velké hodnoty vedou k hladším křivkám s menším množstvím detailů.</string>
+      <string original="Width of LOESS fit">Šířka LOESS fitu</string>
     </translation>
     <translation locale="de">
       <string original="Simple">Einfach</string>

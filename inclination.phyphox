@@ -48,6 +48,17 @@ Povšimněte si, že úhly byly zadefinovány tak, aby se snadno měřil náklon
     </description>
       <string original="Inclination">Náklon</string>
       <string original="Rotation">Rotace</string>
+      <string original="Flat">Vodorovně</string>
+      <string original="Tilt up/down">Náklon nahoru/dolů</string>
+      <string original="Angle">Úhel</string>
+      <string original="Tilt left/right">Náklon doleva/doprava</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">Tato záložka pomáhá měřit úhel náklonu telefonu, počínaje vodorovnou polohou.</string>
+      <string original="Upright">Vzpřímeně</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">Tato záložka pomáhá měřit úhel náklonu telefonu, počínaje vzpřímenou polohou.</string>
+      <string original="Side">Na boku</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">Tato záložka pomáhá měřit úhel naklonění telefonu, počínaje polohou na boku.</string>
+      <string original="Plane">Rovina</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Tato záložka pomáhá měřit sklon roviny. Sklon roviny se měří, když telefon leží rovně na povrchu, bez ohledu na jeho orientaci. Rotace udává směr sklonu.</string>
     </translation>
     <translation locale="pl">
       <title>Nachylenie</title>

@@ -61,7 +61,9 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration z">Zrychlení z</string>
       <string original="Frequency">Frekvence</string>
       <string original="History">Historie</string>
-      <string original="Time">Čas</string>
+      <string original="Time">čas</string>
+      <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
+      <string original="Resolution">Rozlišení</string>
     </translation>
     <translation locale="pl">
       <title>Widmo przyspieszenia</title>
@@ -601,7 +603,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
-      <separator height="1" precision="0"/>
+      <separator height="1"/>
       <value label="Samples used">
         <input>actual_samples</input>
       </value>

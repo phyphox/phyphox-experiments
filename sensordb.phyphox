@@ -9,6 +9,33 @@ This experiment will collect technical data about your phone and your sensors, w
   <translations>
     <translation locale="cs">
       <string original="Results">Výsledky</string>
+      <title>Odeslat do databáze senzorů</title>
+      <category>phyphox.org</category>
+      <description>Odešlete informace o senzorech v telefonu na phyphox.org.
+
+Tento experiment shromáždí technická data o vašem telefonu a senzorech, která můžete odeslat do naší databáze senzorů. Data budou agregována a dána k dispozici dalším uživatelům, aby nám a ostatním pomohla dozvědět se o dostupnosti a schopnostech senzorů napříč různými zařízeními.</description>
+      <string original="Submit">Odeslat</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Tento experiment shromáždí technická data o vašem telefonu a senzorech, která můžete odeslat do naší databáze senzorů. Data budou agregována a dána k dispozici dalším uživatelům, aby nám a ostatním pomohla dozvědět se o dostupnosti a schopnostech senzorů napříč různými zařízeními.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Položte telefon na stabilní povrch a stiskněte start. Vyvarujte se přitom pohybu (jízda v autě, ve vlaku atd.) a vibrujícím povrchům (hlasitá hudba, vibrace z vozidel atd.), protože by to zkreslilo výsledky.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox bude chvíli shromažďovat data a nakonec vám řekne, abyste data odeslali.</string>
+      <string original="Step">Krok</string>
+      <string original="Waiting for start">Čekání na start</string>
+      <string original="Collecting data">Sběr dat</string>
+      <string original="You may now press submit">Nyní můžete stisknout odeslat</string>
+      <string original="Success. Thank you!">Dokončeno. Děkujeme!</string>
+      <string original="Confidence">Spolehlivost</string>
+      <string original="Accelerometer">Měřič zrychlení</string>
+      <string original="Rate">Tempo</string>
+      <string original="Average">Průměr</string>
+      <string original="Standard deviation">Standardní odchylka</string>
+      <string original="Acceleration (without g)">Zrychlení (bez g)</string>
+      <string original="Gyroscope">Gyroskop</string>
+      <string original="Magnetometer">Magnetometr</string>
+      <string original="Barometer">Barometr</string>
+      <string original="Temperature">Teplota</string>
+      <string original="Humidity">Vlhkost</string>
+      <string original="Light">Světlo</string>
+      <string original="Proximity">Přiblížení</string>
     </translation>
     <translation locale="de">
       <string original="Results">Ergebnisse</string>

@@ -40,6 +40,9 @@
         Zjistí rychlost výtahu pomocí barometru.
 
 Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Zároveň můžeme z tohoto měření zjistit i rychlost svislého pohybu výtahu. Zároveň je měřeno zrychlení Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
+   
+Více podrobností:
+Aby se v tomto experimentu eliminoval určitý šum, jsou hodnoty z barometru zprůměrovány za 1 s. Rozdíl po sobě jdoucích průměrů je převeden na výškový rozdíl pomocí mezinárodního vzorce pro barometrické výšky. Výškový rozdíl dělený časovým rozdílem udává vertikální rychlost.
     </description>
       <string original="Motion">Pohyb</string>
       <string original="Altitude (from barometer)">Výška (z barometru)</string>

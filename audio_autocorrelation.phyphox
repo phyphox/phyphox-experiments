@@ -54,6 +54,7 @@ Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experi
       <string original="Raw data">Neupravená data</string>
       <string original="Recording">Záznam</string>
       <string original="Amplitude">Amplituda</string>
+      <string original="correlation">korelace</string>
     </translation>
     <translation locale="pl">
       <title>Częstotliwość dźwięku</title>

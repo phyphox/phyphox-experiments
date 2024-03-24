@@ -99,7 +99,7 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Simple">Stručně</string>
       <string original="Threshold">Práh měření</string>
       <string original="Minimum Delay">Minimální zpoždění</string>
-      <string original="Time">Čas</string>
+      <string original="Time">čas</string>
       <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Nastavte práh tak, aby byl vyšší než míra šumu ze senzoru, avšak spouštěcí vibrace jej přesahovala (tyto hodnoty můžete zjistit pomocí experimentu Akcelerace bez g). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem.</string>
       <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Přesnost měření závisí na kvalitě akcelerometru ve vašem mobilním zařízení. Rychlé akcelerometry umí měřit hodnoty rychleji než za setinu sekundy, avšak pomalé mohou mít rozlišení i jedné sekundy.</string>
       <string original="Sequence">Sekvence</string>
@@ -109,6 +109,13 @@ Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zry
       <string original="Time 4">Čas 4</string>
       <string original="Time 5">Čas 5</string>
       <string original="Parallel">Paralelně</string>
+      <string original="Many">Více</string>
+      <string original="Events">Události</string>
+      <string original="Event number">Číslo události</string>
+      <string original="Time interval">Časový interval</string>
+      <string original="Average interval">Průměrný interval</string>
+      <string original="Average rate">Průměrné tempo</string>
+      <string original="Average rate (bpm)">Průměrné tempo (bpm)</string>
     </translation>
     <translation locale="pl">
       <title>Stoper wyzwalany ruchem</title>
@@ -722,6 +729,9 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
+      <value label="Event number" size="1" precision="0">
+        <input>tindex</input>
+      </value>
       <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
         <input>avgInterval</input>
       </value>
