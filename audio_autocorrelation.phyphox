@@ -441,6 +441,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
   </translations>
   <data-containers>
     <container size="4800">recording</container>
+    <container size="4800">recording_raw</container>
     <container>rate</container>
     <container>tmax</container>
     <container size="4800">time</container>
@@ -557,11 +558,15 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
     <view label="Raw data">
       <graph label="Recording" labelX="[[quantity_short_time]]" unitX="[[unit_short_milli_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">time</input>
-        <input axis="y">recording</input>
+        <input axis="y">recording_raw</input>
       </graph>
     </view>
   </views>
   <analysis sleep="0.1">
+    <append>
+        <input keep="true">recording</input>
+        <output>recording_raw</output>
+    </append>
     <divide>
       <input type="value">4800000</input>
       <!-- 4800 / rate * 1000 -->
@@ -675,7 +680,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
     </set>
     <set name="Raw data">
       <data name="Time (ms)">time</data>
-      <data name="Recording (a.u.)">recording</data>
+      <data name="Recording (a.u.)">recording_raw</data>
     </set>
   </export>
 </phyphox>
