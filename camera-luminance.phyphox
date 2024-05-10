@@ -11,8 +11,6 @@
         <container size="0">iso</container>
         <container size="0">aperture</container>
         <container size="0">exposure</container>
-        <container size="0">sensor_pixel_height</container>
-        <container size="0">sensor_pixel_width</container>
         <container size="1">count</container>
         <container size="1">rate</container>
     </data-containers>
@@ -24,8 +22,6 @@
             <output component="shutterSpeed">shutterSpeed</output>
             <output component="iso">iso</output>
             <output component="aperture">aperture</output>
-            <output component="sensor_pixel_height">sensor_pixel_height</output>
-            <output component="sensor_pixel_width">sensor_pixel_width</output>
         </camera>
     </input>
     <views>

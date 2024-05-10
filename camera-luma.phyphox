@@ -10,27 +10,23 @@
         <container size="0">iso</container>
         <container size="0">aperture</container>
         <container size="0">exposure</container>
-        <container size="0">sensor_pixel_height</container>
-        <container size="0">sensor_pixel_width</container>
         <container size="1">count</container>
         <container size="1">rate</container>
     </data-containers>
     <input>
-        <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+        <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
             <output component="luma">luma</output>
             <output component="t">t</output>
             <output component="shutterSpeed">shutterSpeed</output>
             <output component="iso">iso</output>
             <output component="aperture">aperture</output>
-            <output component="sensor_pixel_height">sensor_pixel_height</output>
-            <output component="sensor_pixel_width">sensor_pixel_width</output>
         </camera>
     </input>
     <views>
         <view label="Settings">
             <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area."/>
             <separator height="1"/>
-            <camera-gui label="Preview"/>
+            <camera-gui label="Preview" exposure_adjustment_level="3" show_controls="full_view_only" locked=""/>
             <separator height="1"/>
             <separator color="white"/>
         </view>
