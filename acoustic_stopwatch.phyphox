@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.18" locale="en">
   <title>Acoustic Stopwatch</title>
   <category>Timers</category>
   <description>
@@ -17,14 +17,13 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
   <data-containers>
     <container>threshold</container>
     <container>mindelay</container>
+    <container>distance</container>
     <container size="16384">recording</container>
     <container>rate</container>
     <container>i</container>
-    <container>i2</container>
-    <container>t</container>
-    <container>limit</container>
-    <container>max</container>
+    <container>skip</container>
     <container>last</container>
+    <container size="0">events</container>
     <container size="0">tlist</container>
     <container size="0">dtlist</container>
     <container size="0">tindex</container>
@@ -56,7 +55,6 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     <container>dt34</container>
     <container>dt45</container>
     <container>count</container>
-    <container init="0">index</container>
   </data-containers>
   <translations>
     <translation locale="de">
@@ -677,9 +675,9 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       </value>
       <button label="Reset">
         <input type="empty"/>
-        <output>tlist</output>
+        <output>events</output>
         <input type="value">0</input>
-        <output>index</output>
+        <output>i</output>
       </button>
       <separator height="1"/>
       <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation)."/>
@@ -705,9 +703,9 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <separator height="1"/>
       <button label="Reset">
         <input type="empty"/>
-        <output>tlist</output>
+        <output>events</output>
         <input type="value">0</input>
-        <output>index</output>
+        <output>i</output>
       </button>
     </view>
     <view label="Parallel">
@@ -729,9 +727,9 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <separator height="1"/>
       <button label="Reset">
         <input type="empty"/>
-        <output>tlist</output>
+        <output>events</output>
         <input type="value">0</input>
-        <output>index</output>
+        <output>i</output>
       </button>
     </view>
     <view label="Many">
@@ -753,64 +751,43 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       </value>
       <button label="Reset">
         <input type="empty"/>
-        <output>tlist</output>
+        <output>events</output>
         <input type="value">0</input>
-        <output>index</output>
+        <output>i</output>
       </button>
     </view>
   </views>
-  <analysis>
-    <count>
-      <input clear="false">recording</input>
-      <output>count</output>
-    </count>
-    <max>
-      <input as="y">recording</input>
-      <output as="position">i</output>
-      <output as="max">max</output>
-    </max>
-    <add>
-      <input>i</input>
-      <input clear="false">index</input>
-      <output>i2</output>
-    </add>
-    <divide>
-      <input>i2</input>
-      <input clear="false">rate</input>
-      <output>t</output>
-    </divide>
-    <if greater="true">
-      <input clear="false">max</input>
-      <input clear="false">threshold</input>
-      <input clear="false">t</input>
-      <input type="value">0</input>
-      <output>t</output>
-    </if>
-    <const>
-      <output>last</output>
-    </const>
+  <analysis sleep="0.05">
+    <multiply>
+      <input keep="true">mindelay</input>
+      <input keep="true">rate</input>
+      <output>distance</output>
+    </multiply>
+    <eventstream mode="aboveAbsolute">
+      <input as="data">recording</input>
+      <input as="threshold" keep="true">threshold</input>
+      <input as="distance" keep="true">distance</input>
+      <input as="index">i</input>
+      <input as="skip">skip</input>
+      <input as="last">last</input>
+      <output as="events" append="true">events</output>
+      <output as="index">i</output>
+      <output as="skip">skip</output>
+      <output as="last">last</output>
+    </eventstream>
     <append>
-      <input clear="false">tlist</input>
-      <output clear="false">last</output>
+      <input keep="true">events</input>
+      <input keep="true">i</input>
+      <output>tlist</output>
     </append>
-    <add>
-      <input clear="false">last</input>
-      <input clear="false">mindelay</input>
-      <output>limit</output>
-    </add>
-    <if less="true" equal="true">
-      <input clear="false">limit</input>
-      <input clear="false">t</input>
-      <input clear="false">t</input>
-      <input type="value">0</input>
-      <output>t</output>
-    </if>
-    <if greater="true">
-      <input clear="false">t</input>
-      <input type="value">0</input>
-      <input clear="false">t</input>
-      <output clear="false">tlist</output>
-    </if>
+    <divide>
+      <input>tlist</input>
+      <input keep="true">rate</input>
+      <output>tlist</output>
+    </divide>
+
+
+
     <differentiate>
       <input clear="false">tlist</input>
       <output>dtlist</output>
@@ -848,13 +825,8 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <input as="length">tcount</input>
       <output>tindex</output>
     </ramp>
-    <add>
-      <input clear="false">index</input>
-      <input>count</input>
-      <output>index</output>
-    </add>
     <divide>
-      <input clear="false">index</input>
+      <input clear="false">i</input>
       <input clear="false">rate</input>
       <output>tmax</output>
     </divide>
