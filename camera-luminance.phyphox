@@ -25,20 +25,12 @@
         </camera>
     </input>
     <views>
-        <view label="Settings">
-            <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area."/>
-            <separator height="1"/>
-            <camera-gui label="Preview"/>
-            <separator height="1"/>
-            <separator color="white"/>
-        </view>
+        <view label="Luminance">
 
-        <view label="Simple">
-            <value label="Average Luma" size="2" color="red">
+            <value label="Luma" size="2" color="red">
                 <input>luma</input>
             </value>
-
-            <value label="Average Luminance" size="2" color="green">
+            <value label="Luminance" size="2" color="green">
                 <input>luminance</input>
             </value>
 
@@ -49,9 +41,17 @@
                 <input axis="y">luminance</input>
             </graph>
 
+            <separator height="1"/>
+            <separator color="white"/>
+            <separator height="1"/>
+            <camera-gui label="Preview" exposure_adjustment_level="3" show_controls="full_view_only" locked="" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
+            <separator height="1"/>
             <value label="Average rate" unit="Hz" precision="1">
                 <input>rate</input>
             </value>
+
+
+            <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
 
         </view>
 
@@ -71,7 +71,11 @@
     <export>
         <set name="Data">
             <data name="t">t</data>
-            <data name="luma">luma</data>
+            <data name="Luma">luma</data>
+            <data name="Luminance">luminance</data>
+            <data name="Shutter Speed (s)">shutterSpeed</data>
+            <data name="Aperture (f/N)">aperture</data>
+            <data name="ISO">iso</data>
         </set>
     </export>
 </phyphox>
