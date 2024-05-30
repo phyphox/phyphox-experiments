@@ -1,0 +1,73 @@
+<?xml version="1.18" encoding="UTF-8"?><phyphox locale="en" version="1.14">
+    <title>Threshold</title>
+    <category>Camera</category>
+    <description>Number of pixels above threshold.</description>
+    <icon>T</icon>
+    <data-containers>
+        <container size="0">N</container>
+        <container size="0">t</container>
+        <container size="0">shutterSpeed</container>
+        <container size="0">iso</container>
+        <container size="0">aperture</container>
+        <container size="0">exposure</container>
+        <container size="1">count</container>
+        <container size="1">rate</container>
+    </data-containers>
+    <input>
+        <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" threshold="0.5">
+            <output component="threshold">N</output>
+            <output component="t">t</output>
+            <output component="shutterSpeed">shutterSpeed</output>
+            <output component="iso">iso</output>
+            <output component="aperture">aperture</output>
+        </camera>
+    </input>
+    <views>
+        <view label="Threshold">
+
+            <value label="Count" size="2">
+                <input>N</input>
+            </value>
+
+            <graph label="Count" labelX="[[quantity_short_time]]" labelY="Count" partialUpdate="true" unitX="[[unit_short_second]]">
+                <input axis="x" lineWidth="2">t</input>
+                <input axis="y">N</input>
+            </graph>
+
+            <separator height="1"/>
+            <separator color="white"/>
+            <separator height="1"/>
+            <camera-gui label="Preview" exposure_adjustment_level="3" show_controls="full_view_only" locked="" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
+            <separator height="1"/>
+            <value label="Average rate" unit="Hz" precision="1">
+                <input>rate</input>
+            </value>
+
+
+            <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
+
+        </view>
+
+
+    </views>
+    <analysis>
+        <count>
+            <input clear="false">N</input>
+            <output>count</output>
+        </count>
+        <divide>
+            <input clear="false">count</input>
+            <input clear="false">t</input>
+            <output>rate</output>
+        </divide>
+    </analysis>
+    <export>
+        <set name="Data">
+            <data name="t">t</data>
+            <data name="Count">N</data>
+            <data name="Shutter Speed (s)">shutterSpeed</data>
+            <data name="Aperture (f/N)">aperture</data>
+            <data name="ISO">iso</data>
+        </set>
+    </export>
+</phyphox>

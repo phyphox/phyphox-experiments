@@ -1,0 +1,92 @@
+<?xml version="1.18" encoding="UTF-8"?><phyphox locale="en" version="1.14">
+    <title>Hue Saturation Value (HSV)</title>
+    <category>Camera</category>
+    <description>Average HSV color model</description>
+    <icon>HSV</icon>
+    <data-containers>
+        <container size="0">h</container>
+        <container size="0">s</container>
+        <container size="0">v</container>
+        <container size="0">t</container>
+        <container size="0">shutterSpeed</container>
+        <container size="0">iso</container>
+        <container size="0">aperture</container>
+        <container size="0">exposure</container>
+        <container size="1">count</container>
+        <container size="1">rate</container>
+    </data-containers>
+    <input>
+        <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+            <output component="hue">h</output>
+            <output component="saturation">s</output>
+            <output component="value">v</output>
+            <output component="t">t</output>
+            <output component="shutterSpeed">shutterSpeed</output>
+            <output component="iso">iso</output>
+            <output component="aperture">aperture</output>
+        </camera>
+    </input>
+    <views>
+        <view label="HSV">
+
+            <value label="Hue" size="1" unit="[[unit_short_degree]]" color="orange">
+                <input>h</input>
+            </value>
+            <value label="Saturation" size="1" color="green">
+                <input>s</input>
+            </value>
+            <value label="Value" size="1" color="white">
+                <input>v</input>
+            </value>
+
+            <graph label="Hue" labelX="[[quantity_short_time]]" labelY="Hue" partialUpdate="true" unitX="[[unit_short_second]]" unitY="[[unit_short_degree]]">
+                <input axis="x" lineWidth="2" color="orange">t</input>
+                <input axis="y">h</input>
+            </graph>
+
+            <graph label="Saturation and Value" labelX="[[quantity_short_time]]" labelY="sat., val." partialUpdate="true" unitX="[[unit_short_second]]">
+                <input axis="x" lineWidth="2" color="green">t</input>
+                <input axis="y">s</input>
+                <input axis="x" lineWidth="2" color="white">t</input>
+                <input axis="y">v</input>
+            </graph>
+
+            <separator height="1"/>
+            <separator color="white"/>
+            <separator height="1"/>
+            <camera-gui label="Preview" exposure_adjustment_level="3" show_controls="full_view_only" locked="" />
+            <separator height="1"/>
+            <value label="Average rate" unit="Hz" precision="1">
+                <input>rate</input>
+            </value>
+
+
+            <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
+
+        </view>
+
+
+    </views>
+    <analysis>
+        <count>
+            <input clear="false">h</input>
+            <output>count</output>
+        </count>
+        <divide>
+            <input clear="false">count</input>
+            <input clear="false">t</input>
+            <output>rate</output>
+        </divide>
+    </analysis>
+    <export>
+        <set name="Data">
+            <data name="t">t</data>
+            <data name="hue (°)">h</data>
+            <data name="saturation">s</data>
+            <data name="value">v</data>
+            <data name="Shutter Speed (s)">shutterSpeed</data>
+            <data name="Aperture (f/N)">aperture</data>
+            <data name="ISO">iso</data>
+        </set>
+    </export>
+</phyphox>
