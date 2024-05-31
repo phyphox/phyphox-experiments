@@ -15,7 +15,7 @@
         <container size="1">rate</container>
     </data-containers>
     <input>
-        <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+        <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
             <output component="luma">luma</output>
             <output component="luminance">luminance</output>
             <output component="t">t</output>
