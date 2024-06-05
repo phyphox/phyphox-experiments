@@ -75,7 +75,7 @@
 </input>
   <views>
     <view label="Settings">
-      <camera-gui label="Preview" />
+      <camera-gui label="Preview" exposure_adjustment_level="3" />
       <edit label="Trigger below" unit="a.u." default="0.5" signed="false" min="0" max="1">
         <output>threshold_low</output>
       </edit>
