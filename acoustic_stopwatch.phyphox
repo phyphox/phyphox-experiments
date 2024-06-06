@@ -785,9 +785,6 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <input keep="true">rate</input>
       <output>tlist</output>
     </divide>
-
-
-
     <differentiate>
       <input clear="false">tlist</input>
       <output>dtlist</output>

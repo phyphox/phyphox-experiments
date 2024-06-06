@@ -1,50 +1,44 @@
 <phyphox version="1.19" locale="en">
   <title>Camera stopwatch: Color</title>
   <category>Timers</category>
-  <description>
-    Measure times between changes in color, for example caused by passing objects.
+  <description>Measure times between changes in color, for example caused by passing objects.
 
-    This configuration allows you to set a lower threshold and an upper threshold for the average hue in the measurement rectangle. If the hue falls within the range, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
+This configuration allows you to set a lower threshold and an upper threshold for the average hue in the measurement rectangle. If the hue falls within the range, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
 
-    Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
+Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
 
-    The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
+The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
 
-    Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
-  </description>
+Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
+</description>
   <icon format="base64">
     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
   </icon>
+  <translations>
+  <translation locale="cs"><string original="Settings">Nastavení</string><string original="Preview">Náhled</string><string original="Average rate">Průměrné tempo</string><string original="Sequence">Sekvence</string><string original="Time 1">Čas 1</string><string original="Time 2">Čas 2</string><string original="Time 3">Čas 3</string><string original="Time 4">Čas 4</string><string original="Time 5">Čas 5</string><string original="Parallel">Paralelně</string><string original="Duration">Trvání</string><string original="Trigger duration 0">Trvání spouště 0</string><string original="Trigger duration 1">Trvání spouště 1</string><string original="Trigger duration 2">Trvání spouště 2</string><string original="Trigger duration 3">Trvání spouště 3</string><string original="Trigger duration 4">Trvání spouště 4</string><string original="Trigger duration 5">Trvání spouště 5</string><string original="Triggers">Spouště</string><string original="Trigger on 0">Zapnutí spouště 0</string><string original="Trigger off 0">Vypnutí spouště 0</string><string original="Trigger on 1">Zapnutí spouště 1</string><string original="Trigger off 1">Vypnutí spouště 1</string><string original="Trigger on 2">Zapnutí spouště 2</string><string original="Trigger off 2">Vypnutí spouště 2</string><string original="Trigger on 3">Zapnutí spouště 3</string><string original="Trigger off 3">Vypnutí spouště 3</string><string original="Trigger on 4">Zapnutí spouště 4</string><string original="Trigger off 4">Vypnutí spouště 4</string><string original="Trigger on 5">Zapnutí spouště 5</string><string original="Trigger off 5">Vypnutí spouště 5</string><string original="Many">Více</string><string original="Event number">Číslo události</string><string original="Time interval">Časový interval</string><string original="Average interval">Průměrný interval</string><string original="Average rate (bpm)">Průměrné tempo (bpm)</string></translation><translation locale="de"><string original="Settings">Einstellungen</string><string original="Preview">Vorschau</string><string original="Average rate">Mittlere Rate</string><string original="Sequence">Sequenz</string><string original="Time 1">Zeit 1</string><string original="Time 2">Zeit 2</string><string original="Time 3">Zeit 3</string><string original="Time 4">Zeit 4</string><string original="Time 5">Zeit 5</string><string original="Duration">Dauer</string><string original="Trigger duration 0">Auslösedauer 0</string><string original="Trigger duration 1">Auslösedauer 1</string><string original="Trigger duration 2">Auslösedauer 2</string><string original="Trigger duration 3">Auslösedauer 3</string><string original="Trigger duration 4">Auslösedauer 4</string><string original="Trigger duration 5">Auslösedauer 5</string><string original="Triggers">Auslöser</string><string original="Trigger on 0">Auslöser an 0</string><string original="Trigger off 0">Auslöser aus 0</string><string original="Trigger on 1">Auslöser an 1</string><string original="Trigger off 1">Auslöser aus 1</string><string original="Trigger on 2">Auslöser an 2</string><string original="Trigger off 2">Auslöser aus 2</string><string original="Trigger on 3">Auslöser an 3</string><string original="Trigger off 3">Auslöser aus 3</string><string original="Trigger on 4">Auslöser an 4</string><string original="Trigger off 4">Auslöser aus 4</string><string original="Trigger on 5">Auslöser an 5</string><string original="Trigger off 5">Auslöser aus 5</string><string original="Many">Viele</string><string original="Event number">Ereignis-Nummer</string><string original="Time interval">Zeitintervall</string><string original="Average interval">Mittleres Intervall</string><string original="Average rate (bpm)">Mittlere Rate (bpm)</string></translation><translation locale="el"><string original="Settings">Ρυθμίσεις</string><string original="Preview">Προεπισκόπηση</string><string original="Average rate">Μέσος ρυθμός</string><string original="Sequence">Σειριακό</string><string original="Time 1">Χρόνος 1</string><string original="Time 2">Χρόνος 2</string><string original="Time 3">Χρόνος 3</string><string original="Time 4">Χρόνος 4</string><string original="Time 5">Χρόνος 5</string><string original="Reset">Επαναφορά</string><string original="Parallel">Παράλληλο</string><string original="Duration">Διάρκεια</string><string original="Trigger duration 0">Διάρκεια ενεργοποίησης 0</string><string original="Trigger duration 1">Διάρκεια ενεργοποίησης 1</string><string original="Trigger duration 2">Διάρκεια ενεργοποίησης 2</string><string original="Trigger duration 3">Διάρκεια ενεργοποίησης 3</string><string original="Trigger duration 4">Διάρκεια ενεργοποίησης 4</string><string original="Trigger duration 5">Διάρκεια ενεργοποίησης 5</string><string original="Triggers">Ενεργοποιήσεις</string><string original="Trigger on 0">Ενεργοποίηση 0</string><string original="Trigger off 0">Απενεργοποίηση 0</string><string original="Trigger on 1">Ενεργοποίηση 1</string><string original="Trigger off 1">Απενεργοποίηση 1</string><string original="Trigger on 2">Ενεργοποίηση 2</string><string original="Trigger off 2">Απενεργοποίηση 2</string><string original="Trigger on 3">Ενεργοποίηση 3</string><string original="Trigger off 3">Απενεργοποίηση 3</string><string original="Trigger on 4">Ενεργοποίηση 4</string><string original="Trigger off 4">Απενεργοποίηση 4</string><string original="Trigger on 5">Ενεργοποίηση 5</string><string original="Trigger off 5">Απενεργοποίηση 5</string><string original="Many">Πολλά</string><string original="Event number">Αριθμός γεγονότος</string><string original="Time interval">Χρονικό διάστημα</string><string original="Average interval">Μέσο διάστημα</string><string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string></translation><translation locale="es"><string original="Settings">Ajustes</string><string original="Average rate">Tasa promedio</string><string original="Sequence">Secuencia</string><string original="Time 1">Tiempo 1</string><string original="Time 2">Tiempo 2</string><string original="Time 3">Tiempo 3</string><string original="Time 4">Tiempo 4</string><string original="Time 5">Tiempo 5</string><string original="Reset">Reiniciar</string><string original="Parallel">Paralelo</string><string original="Duration">Duración</string><string original="Trigger duration 0">Duración de disparo 0</string><string original="Trigger duration 1">Duración de disparo 1</string><string original="Trigger duration 2">Duración de disparo 2</string><string original="Trigger duration 3">Duración de disparo 3</string><string original="Trigger duration 4">Duración de disparo 4</string><string original="Trigger duration 5">Duración de disparo 5</string><string original="Triggers">Disparos</string><string original="Trigger on 0">Disparo encendido 0</string><string original="Trigger off 0">Disparo apagado 0</string><string original="Trigger on 1">Disparo encendido 1</string><string original="Trigger off 1">Disparo apagado 1</string><string original="Trigger on 2">Disparo encendido 2</string><string original="Trigger off 2">Disparo apagado 2</string><string original="Trigger on 3">Disparo encendido 3</string><string original="Trigger off 3">Disparo apagado 3</string><string original="Trigger on 4">Disparo encendido 4</string><string original="Trigger off 4">Disparo apagado 4</string><string original="Trigger on 5">Disparo encendido 5</string><string original="Trigger off 5">Disparo apagado 5</string><string original="Many">Rítmico</string><string original="Event number">Numero de evento</string><string original="Time interval">Intervalo de tiempo</string><string original="Average interval">Intervalo medio</string><string original="Average rate (bpm)">Tasa promedio(bpm)</string></translation><translation locale="fr"><string original="Settings">Paramètres</string><string original="Average rate">Fréquence moyenne</string><string original="Sequence">Répété</string><string original="Time 1">Temps 1</string><string original="Time 2">Temps 2</string><string original="Time 3">Temps 3</string><string original="Time 4">Temps 4</string><string original="Time 5">Temps 5</string><string original="Reset">Remise à zéro</string><string original="Parallel">En parallèle</string><string original="Duration">Durée</string><string original="Trigger duration 0">Durée 0</string><string original="Trigger duration 1">Durée 1</string><string original="Trigger duration 2">Durée 2</string><string original="Trigger duration 3">Durée 3</string><string original="Trigger duration 4">Durée 4</string><string original="Trigger duration 5">Durée 5</string><string original="Triggers">Déclenchements</string><string original="Trigger on 0">Déclenchement début 0</string><string original="Trigger off 0">Déclenchement fin 0</string><string original="Trigger on 1">Déclenchement début 1</string><string original="Trigger off 1">Déclenchement fin 1</string><string original="Trigger on 2">Déclenchement début 2</string><string original="Trigger off 2">Déclenchement fin 2</string><string original="Trigger on 3">Déclenchement début 3</string><string original="Trigger off 3">Déclenchement fin 3</string><string original="Trigger on 4">Déclenchement début 4</string><string original="Trigger off 4">Déclenchement fin 4</string><string original="Trigger on 5">Déclenchement début 5</string><string original="Trigger off 5">Déclenchement fin 5</string><string original="Many">Statistiques</string><string original="Event number">Numéro de l'évènement</string><string original="Time interval">Temps mesuré</string><string original="Average interval">Moyenne de l'intervalle de temps</string><string original="Average rate (bpm)">Fréquence moyenne (bpm)</string></translation><translation locale="hi"><string original="Settings">सेटिंग्स</string><string original="Preview">पूर्वावलोकन</string><string original="Average rate">औसत दर</string><string original="Sequence">क्रम</string><string original="Time 1">समय 1</string><string original="Time 2">समय 2</string><string original="Time 3">समय 3</string><string original="Time 4">समय 4</string><string original="Time 5">समय 5</string><string original="Reset">रीसेट</string><string original="Parallel">समानांतर</string><string original="Duration">अवधि</string><string original="Trigger duration 0">ट्रिगर अंतराल 0</string><string original="Trigger duration 1">ट्रिगर अंतराल 1</string><string original="Trigger duration 2">ट्रिगर अंतराल 2</string><string original="Trigger duration 3">ट्रिगर अंतराल 3</string><string original="Trigger duration 4">ट्रिगर अंतराल 4</string><string original="Trigger duration 5">ट्रिगर अंतराल 5</string><string original="Triggers">ट्रिगर्स</string><string original="Trigger on 0">ट्रिगर 0 प्रारम्भ</string><string original="Trigger off 0">ट्रिगर 0 अंत</string><string original="Trigger on 1">ट्रिगर 1 आरम्भ</string><string original="Trigger off 1">ट्रिगर 1 अंत</string><string original="Trigger on 2">ट्रिगर 2 आरम्भ</string><string original="Trigger off 2">ट्रिगर 2 अंत</string><string original="Trigger on 3">ट्रिगर 3 आरम्भ</string><string original="Trigger off 3">ट्रिगर 3 अंत</string><string original="Trigger on 4">ट्रिगर 4 आरम्भ</string><string original="Trigger off 4">ट्रिगर 4 अंत</string><string original="Trigger on 5">ट्रिगर 5 आरम्भ</string><string original="Trigger off 5">ट्रिगर 5 अंत</string><string original="Many">कई</string><string original="Event number">घटना संख्या</string><string original="Time interval">समय अन्तराल</string><string original="Average interval">औसत अन्तराल</string><string original="Average rate (bpm)">औसत दर (बी पी एम )</string><string original="1/min">1/मिनट</string></translation><translation locale="it"><string original="Settings">Impostazioni</string><string original="Average rate">Frequenza media</string><string original="Sequence">Serie</string><string original="Time 1">Tempo 1</string><string original="Time 2">Tempo 2</string><string original="Time 3">Tempo 3</string><string original="Time 4">Tempo 4</string><string original="Time 5">Tempo 5</string><string original="Parallel">Parallelo</string><string original="Duration">Durata</string><string original="Trigger duration 0">Durata evento 0</string><string original="Trigger duration 1">Durata evento 1</string><string original="Trigger duration 2">Durata evento 2</string><string original="Trigger duration 3">Durata evento 3</string><string original="Trigger duration 4">Durata evento 4</string><string original="Trigger duration 5">Durata evento 5</string><string original="Triggers">Trigger</string><string original="Trigger on 0">Evento on 0</string><string original="Trigger off 0">Evento off 0</string><string original="Trigger on 1">Evento on 1</string><string original="Trigger off 1">Evento off 1</string><string original="Trigger on 2">Evento on 2</string><string original="Trigger off 2">Evento off 2</string><string original="Trigger on 3">Evento on 3</string><string original="Trigger off 3">Evento off 3</string><string original="Trigger on 4">Evento on 4</string><string original="Trigger off 4">Evento off 4</string><string original="Trigger on 5">Evento on 5</string><string original="Trigger off 5">Evento off 5</string><string original="Many">Molti</string><string original="Event number">Numero evento</string><string original="Time interval">Intervallo di tempo</string><string original="Average interval">Intervallo medio</string><string original="Average rate (bpm)">Frequenza media (ev/m)</string></translation><translation locale="ja"><string original="Settings">設定</string><string original="Average rate">平均周波数</string><string original="Sequence">ラップ</string><string original="Time 1">時間 1</string><string original="Time 2">時間 2</string><string original="Time 3">時間 3</string><string original="Time 4">時間 4</string><string original="Time 5">時間 5</string><string original="Reset">リセット</string><string original="Parallel">スプリット</string><string original="Duration">トリガーイベント持続時間</string><string original="Trigger duration 0">トリガー持続時間 0</string><string original="Trigger duration 1">トリガー持続時間 1</string><string original="Trigger duration 2">トリガー持続時間 2</string><string original="Trigger duration 3">トリガー持続時間 3</string><string original="Trigger duration 4">トリガー持続時間 4</string><string original="Trigger duration 5">トリガー持続時間 5</string><string original="Triggers">トリガー</string><string original="Trigger on 0">トリガーオン 0</string><string original="Trigger off 0">トリガーオフ 0</string><string original="Trigger on 1">トリガーオン 1</string><string original="Trigger off 1">トリガーオフ 1</string><string original="Trigger on 2">トリガーオン 2</string><string original="Trigger off 2">トリガーオフ 2</string><string original="Trigger on 3">トリガーオン 3</string><string original="Trigger off 3">トリガーオフ 3</string><string original="Trigger on 4">トリガーオン 4</string><string original="Trigger off 4">トリガーオフ 4</string><string original="Trigger on 5">トリガーオン 5</string><string original="Trigger off 5">トリガーオフ 5</string><string original="Many">履歴</string><string original="Event number">イベント番号</string><string original="Time interval">時間間隔</string><string original="Average interval">平均時間間隔</string><string original="Average rate (bpm)">平均ビートレート (bpm)</string></translation><translation locale="ka"><string original="Settings">პარამეტრები</string><string original="Preview">ნახვა</string><string original="Average rate">საშუალო სიხშირე</string><string original="Sequence">თანმიმდევრობა</string><string original="Time 1">დრო 1</string><string original="Time 2">დრო 2</string><string original="Time 3">დრო 3</string><string original="Time 4">დრო 4</string><string original="Time 5">დრო 5</string><string original="Reset">გადატვირთვა</string><string original="Parallel">პარალელური</string><string original="Duration">ხანგრძლივობა</string><string original="Trigger duration 0">გამომწვევი მიზეზის ხანგრძლივობა 0</string><string original="Trigger duration 1">გამომწვევი მიზეზის ხანგრძლივობა 1</string><string original="Trigger duration 2">გამომწვევი მიზეზის ხანგრძლივობა 2</string><string original="Trigger duration 3">გამომწვევი მიზეზის ხანგრძლივობა 3</string><string original="Trigger duration 4">გამომწვევი მიზეზის ხანგრძლივობა 4</string><string original="Trigger duration 5">გამომწვევი მიზეზის ხანგრძლივობა 5</string><string original="Triggers">გამომწვევი მიზეზები</string><string original="Trigger on 0">გამომწვევი მიზეზი 0 -ზე</string><string original="Trigger off 0">გამომრთველი 0-ზე</string><string original="Trigger on 1">გამომწვევი მიზეზი 1-ზე</string><string original="Trigger off 1">გამომრთველი 1-ზე</string><string original="Trigger on 2">გამომწვევი მიზეზი 2-ზე</string><string original="Trigger off 2">გამომრთველი2-ზე</string><string original="Trigger on 3">გამომწვევი მიზეზი 3-ზე</string><string original="Trigger off 3">გამომრთველი 3-ზე</string><string original="Trigger on 4">გამომწვევი მიზეზი 4-ზე</string><string original="Trigger off 4">გამომრთველი 4-ზე</string><string original="Trigger on 5">გამომწვევი მიზეზი 5-ზე</string><string original="Trigger off 5">გამომრთველი 5-ზე</string><string original="Many">ბევრი</string><string original="Event number">ხდომილობის ნომერი</string><string original="Time interval">დროის ინტერვალი</string><string original="Average interval">საშუალო ინტერვალი</string><string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string><string original="1/min">1/წთ</string></translation><translation locale="nl"><string original="Settings">Instellingen</string><string original="Average rate">Gemiddelde snelheid</string><string original="Sequence">Opeenvolgend</string><string original="Time 1">Tijdstip 1</string><string original="Time 2">Tijdstip 2</string><string original="Time 3">Tijdstip 3</string><string original="Time 4">Tijdstip 4</string><string original="Time 5">Tijdstip 5</string><string original="Duration">Duurtijd</string><string original="Trigger duration 0">Duurtijd trigger 0</string><string original="Trigger duration 1">Duurtijd trigger 1</string><string original="Trigger duration 2">Duurtijd trigger 2</string><string original="Trigger duration 3">Duurtijd trigger 3</string><string original="Trigger duration 4">Duurtijd trigger 4</string><string original="Trigger duration 5">Duurtijd trigger 5</string><string original="Trigger on 0">Trigger aan 0</string><string original="Trigger off 0">Trigger uit 0</string><string original="Trigger on 1">Trigger aan 1</string><string original="Trigger off 1">Trigger uit 1</string><string original="Trigger on 2">Trigger aan 2</string><string original="Trigger off 2">Trigger uit 2</string><string original="Trigger on 3">Trigger aan 3</string><string original="Trigger off 3">Trigger uit 3</string><string original="Trigger on 4">Trigger aan 4</string><string original="Trigger off 4">Trigger uit 4</string><string original="Trigger on 5">Trigger aan 5</string><string original="Trigger off 5">Trigger uit 5</string><string original="Many">Vele</string><string original="Event number">Nummer gebeurtenis</string><string original="Time interval">Tijdsinterval</string><string original="Average interval">Gemiddeld interval</string><string original="Average rate (bpm)">Gemiddelde frequentie (bpm: per minuut)</string></translation><translation locale="pl"><string original="Settings">Ustawienia</string><string original="Average rate">Średnia szybkość</string><string original="Sequence">Międzyczasy</string><string original="Time 1">Czas 1</string><string original="Time 2">Czas 2</string><string original="Time 3">Czas 3</string><string original="Time 4">Czas 4</string><string original="Time 5">Czas 5</string><string original="Reset">Wyczyść</string><string original="Parallel">Śródczasy</string><string original="Duration">Przedziały</string><string original="Trigger duration 0">Czas wyzwalania 0</string><string original="Trigger duration 1">Czas przedziału 1</string><string original="Trigger duration 2">Czas przedziału 2</string><string original="Trigger duration 3">Czas przedziału 3</string><string original="Trigger duration 4">Czas przedziału 4</string><string original="Trigger duration 5">Czas przedziału 5</string><string original="Triggers">Wyzwalania</string><string original="Trigger on 0">Wyzwolenie wł. 0</string><string original="Trigger off 0">Wyzwolenie wył. 0</string><string original="Trigger on 1">Wyzwolenie wł. 1</string><string original="Trigger off 1">Wyzwolenie wył. 1</string><string original="Trigger on 2">Wyzwolenie wł. 2</string><string original="Trigger off 2">Wyzwolenie wył. 2</string><string original="Trigger on 3">Wyzwolenie wł. 3</string><string original="Trigger off 3">Wyzwolenie wył. 3</string><string original="Trigger on 4">Wyzwolenie wł. 4</string><string original="Trigger off 4">Wyzwolenie wył. 4</string><string original="Trigger on 5">Wyzwolenie wł. 5</string><string original="Trigger off 5">Wyzwolenie wył. 5</string><string original="Many">Wiele</string><string original="Event number">Numer zdarzenia</string><string original="Time interval">Przedział czasu</string><string original="Average interval">Średni przedział</string><string original="Average rate (bpm)">Średnia szybkość (bpm)</string></translation><translation locale="pt"><string original="Settings">Configurações</string><string original="Average rate">Taxa média</string><string original="Sequence">Sequência</string><string original="Time 1">Tempo 1</string><string original="Time 2">Tempo 2</string><string original="Time 3">Tempo 3</string><string original="Time 4">Tempo 4</string><string original="Time 5">Tempo 5</string><string original="Reset">Reiniciar</string><string original="Parallel">Paralelo</string><string original="Duration">Duração</string><string original="Trigger duration 0">Duração do gatilho 0</string><string original="Trigger duration 1">Duração do gatilho 1</string><string original="Trigger duration 2">Duração do gatilho 2</string><string original="Trigger duration 3">Duração do gatilho 3</string><string original="Trigger duration 4">Duração do gatilho 4</string><string original="Trigger duration 5">Duração do gatilho 5</string><string original="Triggers">Gatilhos</string><string original="Trigger on 0">Gatilho ligado 0</string><string original="Trigger off 0">Gatilho desligado 0</string><string original="Trigger on 1">Gatilho ligado 1</string><string original="Trigger off 1">Gatilho desligado 1</string><string original="Trigger on 2">Gatilho ligado 2</string><string original="Trigger off 2">Gatilho desligado 2</string><string original="Trigger on 3">Gatilho ligado 3</string><string original="Trigger off 3">Gatilho desligado 3</string><string original="Trigger on 4">Gatilho ligado 4</string><string original="Trigger off 4">Gatilho desligado 4</string><string original="Trigger on 5">Gatilho ligado 5</string><string original="Trigger off 5">Gatilho desligado 5</string><string original="Many">Muitos</string><string original="Event number">Número do Evento</string><string original="Time interval">Intervalo de tempo</string><string original="Average interval">Intervalo médio</string><string original="Average rate (bpm)">Taxa média (bpm)</string></translation><translation locale="ru"><string original="Settings">Настройки</string><string original="Preview">Предварительный просмотр</string><string original="Average rate">Средняя частота</string><string original="Sequence">Последовательность</string><string original="Time 1">Время 1</string><string original="Time 2">Время 2</string><string original="Time 3">Время 3</string><string original="Time 4">Время 4</string><string original="Time 5">Время 5</string><string original="Reset">Сброс</string><string original="Parallel">Сравнить</string><string original="Duration">Продолжительность</string><string original="Trigger duration 0">Продолжительность порога 0</string><string original="Trigger duration 1">Продолжительность порога 1</string><string original="Trigger duration 2">Продолжительность порога 2</string><string original="Trigger duration 3">Продолжительность порога 3</string><string original="Trigger duration 4">Продолжительность порога 4</string><string original="Trigger duration 5">Продолжительность порога 6</string><string original="Triggers">Пороги</string><string original="Trigger on 0">Порог 0 вкл</string><string original="Trigger off 0">Порог 0 выкл</string><string original="Trigger on 1">Порог 1 вкл</string><string original="Trigger off 1">Порог 1 выкл</string><string original="Trigger on 2">Порог 2 вкл</string><string original="Trigger off 2">Порог 2 выкл</string><string original="Trigger on 3">Порог 3 вкл</string><string original="Trigger off 3">Порог 3 выкл</string><string original="Trigger on 4">Порог 4 вкл</string><string original="Trigger off 4">Порог 4 выкл</string><string original="Trigger on 5">Порог 5 вкл</string><string original="Trigger off 5">Порог 5 выкл</string><string original="Many">Многие</string><string original="Event number">Номер события</string><string original="Time interval">Временной интервал</string><string original="Average interval">Средний интервал</string><string original="Average rate (bpm)">Средняя частота (bpm)</string><string original="1/min">1/мин</string></translation><translation locale="sr"><string original="Settings">Podešavanja</string><string original="Average rate">Prosečna stopa</string><string original="Sequence">Niz</string><string original="Time 1">Vreme 1</string><string original="Time 2">Vreme 2</string><string original="Time 3">Vreme 3</string><string original="Time 4">Vreme 4</string><string original="Time 5">Vreme 5</string><string original="Parallel">Paralelno</string><string original="Duration">Trajanje</string><string original="Trigger duration 0">Trajanje okidača 0</string><string original="Trigger duration 1">Trajanje okidača 1</string><string original="Trigger duration 2">Trajanje okidača 2</string><string original="Trigger duration 3">Trajanje okidača 3</string><string original="Trigger duration 4">Trajanje okidača 4</string><string original="Trigger duration 5">Trajanje okidača 5</string><string original="Triggers">Okidači</string><string original="Trigger on 0">Okidač uključen 0</string><string original="Trigger off 0">Okidač isključen 0</string><string original="Trigger on 1">Okidač uljučen 1</string><string original="Trigger off 1">Okidač isključen 1</string><string original="Trigger on 2">Okidač uključen 2</string><string original="Trigger off 2">Okidač isključen 2</string><string original="Trigger on 3">Okidač uključen 3</string><string original="Trigger off 3">Okidač isključen 3</string><string original="Trigger on 4">Okidač uključen 4</string><string original="Trigger off 4">Okidač isključen 4</string><string original="Trigger on 5">Okidač uključen 5</string><string original="Trigger off 5">Okidač isključen 5</string><string original="Many">Više</string><string original="Event number">Broj dogadjaja</string><string original="Time interval">Vremenski interval</string><string original="Average interval">Prosečni interval</string><string original="Average rate (bpm)">Prosečna stopa (bpm)</string></translation><translation locale="sr_Latn"><string original="Settings">Podešavanja</string><string original="Average rate">Prosečna stopa</string><string original="Sequence">Niz</string><string original="Time 1">Vreme 1</string><string original="Time 2">Vreme 2</string><string original="Time 3">Vreme 3</string><string original="Time 4">Vreme 4</string><string original="Time 5">Vreme 5</string><string original="Parallel">Paralelno</string><string original="Duration">Trajanje</string><string original="Trigger duration 0">Trajanje okidača 0</string><string original="Trigger duration 1">Trajanje okidača 1</string><string original="Trigger duration 2">Trajanje okidača 2</string><string original="Trigger duration 3">Trajanje okidača 3</string><string original="Trigger duration 4">Trajanje okidača 4</string><string original="Trigger duration 5">Trajanje okidača 5</string><string original="Triggers">Okidači</string><string original="Trigger on 0">Okidač uključen 0</string><string original="Trigger off 0">Okidač isključen 0</string><string original="Trigger on 1">Okidač uljučen 1</string><string original="Trigger off 1">Okidač isključen 1</string><string original="Trigger on 2">Okidač uključen 2</string><string original="Trigger off 2">Okidač isključen 2</string><string original="Trigger on 3">Okidač uključen 3</string><string original="Trigger off 3">Okidač isključen 3</string><string original="Trigger on 4">Okidač uključen 4</string><string original="Trigger off 4">Okidač isključen 4</string><string original="Trigger on 5">Okidač uključen 5</string><string original="Trigger off 5">Okidač isključen 5</string><string original="Many">Više</string><string original="Event number">Broj dogadjaja</string><string original="Time interval">Vremenski interval</string><string original="Average interval">Prosečni interval</string><string original="Average rate (bpm)">Prosečna stopa (bpm)</string></translation><translation locale="tr"><string original="Settings">Ayarlar</string><string original="Average rate">Ortalama oran</string><string original="Sequence">Sıralama</string><string original="Time 1">Zaman 1</string><string original="Time 2">Zaman 2</string><string original="Time 3">Zaman 3</string><string original="Time 4">Zaman 4</string><string original="Time 5">Zaman 5</string><string original="Reset">Sıfırla</string><string original="Parallel">Paralel</string><string original="Duration">Süre</string><string original="Trigger duration 0">Başlatma süresi 0</string><string original="Trigger duration 1">Başlatma süresi 1</string><string original="Trigger duration 2">Başlatma süresi 2</string><string original="Trigger duration 3">Başlatma süresi 3</string><string original="Trigger duration 4">Başlatma süresi 4</string><string original="Trigger duration 5">Başlatma süresi 5</string><string original="Triggers">Başlatmalar</string><string original="Trigger on 0">Başlatma açık 0</string><string original="Trigger off 0">Başlatma kapalı 0</string><string original="Trigger on 1">Başlatma açık 1</string><string original="Trigger off 1">Başlatma kapalı 1</string><string original="Trigger on 2">Başlatma açık 2</string><string original="Trigger off 2">Başlatma kapalı 2</string><string original="Trigger on 3">Başlatma açık 3</string><string original="Trigger off 3">Başlatma kapalı 3</string><string original="Trigger on 4">Başlatma açık 4</string><string original="Trigger off 4">Başlatma kapalı 4</string><string original="Trigger on 5">Başlatma açık 5</string><string original="Trigger off 5">Başlatma kapalı 5</string><string original="Many">Birçok</string><string original="Event number">Olay numarası</string><string original="Time interval">Zaman aralığı</string><string original="Average interval">Ortalama aralığı</string><string original="Average rate (bpm)">Ortalama oranı (bpm)</string><string original="1/min">1/dakika</string></translation><translation locale="vi"><string original="Settings">Cài đặt</string><string original="Preview">Xem trước</string><string original="Average rate">Tần số trung bình</string><string original="Sequence">Nối tiếp</string><string original="Time 1">Thời gian 1</string><string original="Time 2">Thời gian 2</string><string original="Time 3">Thời gian 3</string><string original="Time 4">Thời gian 4</string><string original="Time 5">Thời gian 5</string><string original="Reset">Đặt lại</string><string original="Parallel">Song song</string><string original="Duration">Khoảng t. gian</string><string original="Trigger duration 0">Khoảng kích hoạt 0</string><string original="Trigger duration 1">Khoảng kích hoạt 1</string><string original="Trigger duration 2">Khoảng kích hoạt 2</string><string original="Trigger duration 3">Khoảng kích hoạt 3</string><string original="Trigger duration 4">Khoảng kích hoạt 4</string><string original="Trigger duration 5">Khoảng kích hoạt 5</string><string original="Triggers">Kích hoạt</string><string original="Trigger on 0">Kích hoạt mở 0</string><string original="Trigger off 0">Kích hoạt tắt 0</string><string original="Trigger on 1">Kích hoạt mở 1</string><string original="Trigger off 1">Kích hoạt tắt 1</string><string original="Trigger on 2">Kích hoạt mở 2</string><string original="Trigger off 2">Kích hoạt tắt 2</string><string original="Trigger on 3">Kích hoạt mở 3</string><string original="Trigger off 3">Kích hoạt tắt 3</string><string original="Trigger on 4">Kích hoạt mở 4</string><string original="Trigger off 4">Kích hoạt tắt 4</string><string original="Trigger on 5">Kích hoạt mở 5</string><string original="Trigger off 5">Kích hoạt tắt 5</string><string original="Many">Nhiều</string><string original="Event number">Số chẵn</string><string original="Time interval">Khoảng thời gian</string><string original="Average interval">Khoảng trung bình</string><string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string><string original="1/min">1/phút</string></translation><translation locale="zh_Hans"><string original="Settings">设置</string><string original="Average rate">平均频率</string><string original="Sequence">序列</string><string original="Time 1">时间 1</string><string original="Time 2">时间 2</string><string original="Time 3">时间 3</string><string original="Time 4">时间 4</string><string original="Time 5">时间 5</string><string original="Reset">复位</string><string original="Parallel">并行</string><string original="Duration">持续时长</string><string original="Trigger duration 0">触发持续 0</string><string original="Trigger duration 1">触发持续 1</string><string original="Trigger duration 2">触发持续 2</string><string original="Trigger duration 3">触发持续 3</string><string original="Trigger duration 4">触发持续 4</string><string original="Trigger duration 5">触发持续 5</string><string original="Triggers">触发器</string><string original="Trigger on 0">触发起始 0</string><string original="Trigger off 0">触发结束 0</string><string original="Trigger on 1">触发起始 1</string><string original="Trigger off 1">触发结束 1</string><string original="Trigger on 2">触发起始 2</string><string original="Trigger off 2">触发结束 2</string><string original="Trigger on 3">触发起始 3</string><string original="Trigger off 3">触发结束 3</string><string original="Trigger on 4">触发起始 4</string><string original="Trigger off 4">触发结束 4</string><string original="Trigger on 5">触发起始 5</string><string original="Trigger off 5">触发结束 5</string><string original="Many">多任务</string><string original="Event number">任务数</string><string original="Time interval">事件间隔</string><string original="Average interval">平均间隔</string><string original="Average rate (bpm)">平均频率（次/分钟）</string></translation><translation locale="zh_Hant"><string original="Settings">設定</string><string original="Sequence">序列</string><string original="Time 1">時間 1</string><string original="Time 2">時間 2</string><string original="Time 3">時間 3</string><string original="Time 4">時間 4</string><string original="Time 5">時間 5</string><string original="Reset">重置</string><string original="Parallel">平行序列</string><string original="Duration">持續時間</string><string original="Trigger duration 0">觸發持續時間 0</string><string original="Trigger duration 1">觸發持續時間 1</string><string original="Trigger duration 2">觸發持續時間 2</string><string original="Trigger duration 3">觸發持續時間 3</string><string original="Trigger duration 4">觸發持續時間 4</string><string original="Trigger duration 5">觸發持續時間 5</string><string original="Triggers">觸發器</string><string original="Trigger on 0">開始觸發 0</string><string original="Trigger off 0">結束觸發 0</string><string original="Trigger on 1">開始觸發 1</string><string original="Trigger off 1">結束觸發 1</string><string original="Trigger on 2">開始觸發 2</string><string original="Trigger off 2">結束觸發 2</string><string original="Trigger on 3">開始觸發 3</string><string original="Trigger off 3">結束觸發 3</string><string original="Trigger on 4">開始觸發 4</string><string original="Trigger off 4">結束觸發 4</string><string original="Trigger on 5">開始觸發 5</string><string original="Trigger off 5">結束觸發 5</string></translation></translations>
   <data-containers>
     <container size="0">inHue</container>
     <container size="0">inT</container>
-
     <container size="1">thisHue</container>
     <container size="1">thisT</container>
     <container size="1">willTrigger</container>
     <container size="1">isOnEvent</container>
     <container size="1">isOffEvent</container>
-
     <container>threshold_low</container>
     <container>threshold_high</container>
-
     <container size="0">amplitude</container>
     <container size="0">t</container>
-
     <container size="1" init="0">triggering</container>
     <container size="0">onEvents</container>
     <container size="0">offEvents</container>
-
     <container size="0">dtlist</container>
     <container size="0">ddlist</container>
     <container size="0">tindex</container>
     <container size="1">tcount</container>
     <container size="1">tcount-1</container>
-
     <container>avgInterval</container>
     <container>avgRate</container>
     <container>avgBPM</container>
-
     <container init="0">on0</container>
     <container init="0">on1</container>
     <container init="0">on2</container>
@@ -76,22 +70,22 @@
     <container size="1">count</container>
     <container size="1">rate</container>
   </data-containers>
-<input>
+  <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
-        <output component="hue">inHue</output>
-        <output component="t">inT</output>
+      <output component="hue">inHue</output>
+      <output component="t">inT</output>
     </camera>
-</input>
+  </input>
   <views>
     <view label="Settings">
-      <camera-gui label="Preview" exposure_adjustment_level="3" />
+      <camera-gui label="Preview" exposure_adjustment_level="3"/>
       <edit label="Trigger from" unit="[[unit_short_degree]]" default="10" signed="false" min="0" max="360">
         <output>threshold_low</output>
       </edit>
       <edit label="to" unit="[[unit_short_degree]]" default="40" signed="false" min="0" max="360">
         <output>threshold_high</output>
       </edit>
-      <image src="hue.png" />
+      <image src="hue.png"/>
       <separator height="1"/>
       <info label="The timer triggers if the measure hue falls within the given range. Note that hue is cyclic, so you can for example set a range from 350° to 10° to cover red at 355° as well as 0°. You can estimate a suitable threshold for your other trigger from the graph below."/>
       <separator height="1"/>
@@ -99,9 +93,9 @@
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
-            <value label="Average rate" unit="Hz" precision="1">
-                <input>rate</input>
-            </value>
+      <value label="Average rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>rate</input>
+      </value>
     </view>
     <view label="Sequence">
       <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
@@ -249,73 +243,65 @@
   </views>
   <analysis>
     <split>
-        <input as="data">inHue</input>
-        <input as="index" type="value">1</input>
-        <output>thisHue</output>
-        <output>inHue</output>
+      <input as="data">inHue</input>
+      <input as="index" type="value">1</input>
+      <output>thisHue</output>
+      <output>inHue</output>
     </split>
     <split>
-        <input as="data">inT</input>
-        <input as="index" type="value">1</input>
-        <output>thisT</output>
-        <output>inT</output>
+      <input as="data">inT</input>
+      <input as="index" type="value">1</input>
+      <output>thisT</output>
+      <output>inT</output>
     </split>
     <append>
-        <input keep="true">thisHue</input>
-        <output append="true">amplitude</output>
+      <input keep="true">thisHue</input>
+      <output append="true">amplitude</output>
     </append>
     <append>
-        <input keep="true">thisT</input>
-        <output append="true">t</output>
+      <input keep="true">thisT</input>
+      <output append="true">t</output>
     </append>
-
     <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1]) * heaviside([1]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1]-[2]) + heaviside([3]-[1])),1)">
-        <input keep="true">thisHue</input>
-        <input keep="true">threshold_low</input>
-        <input keep="true">threshold_high</input>
-        <output>willTrigger</output>
+      <input keep="true">thisHue</input>
+      <input keep="true">threshold_low</input>
+      <input keep="true">threshold_high</input>
+      <output>willTrigger</output>
     </formula>
-
     <count>
-        <input clear="false">thisT</input>
-        <output>count</output>
+      <input clear="false">thisT</input>
+      <output>count</output>
     </count>
-
     <formula formula="(1-[1])*[2]*[3]">
-        <input keep="true">triggering</input>
-        <input keep="true">willTrigger</input>
-        <input keep="true">count</input>
-        <output>isOnEvent</output>
+      <input keep="true">triggering</input>
+      <input keep="true">willTrigger</input>
+      <input keep="true">count</input>
+      <output>isOnEvent</output>
     </formula>
-
     <formula formula="(1-[2])*[1]*[3]">
-        <input keep="true">triggering</input>
-        <input keep="true">willTrigger</input>
-        <input keep="true">count</input>
-        <output>isOffEvent</output>
+      <input keep="true">triggering</input>
+      <input keep="true">willTrigger</input>
+      <input keep="true">count</input>
+      <output>isOffEvent</output>
     </formula>
-
     <if equal="true">
-        <input>isOnEvent</input>
-        <input type="value">1</input>
-        <input keep="true">thisT</input>
-        <output append="true">onEvents</output>
+      <input>isOnEvent</input>
+      <input type="value">1</input>
+      <input keep="true">thisT</input>
+      <output append="true">onEvents</output>
     </if>
-
     <if equal="true">
-        <input>isOffEvent</input>
-        <input type="value">1</input>
-        <input keep="true">thisT</input>
-        <output append="true">offEvents</output>
+      <input>isOffEvent</input>
+      <input type="value">1</input>
+      <input keep="true">thisT</input>
+      <output append="true">offEvents</output>
     </if>
-
     <if equal="true">
-        <input>count</input>
-        <input type="value">1</input>
-        <input>willTrigger</input>
-        <output append="true">triggering</output>
+      <input>count</input>
+      <input type="value">1</input>
+      <input>willTrigger</input>
+      <output append="true">triggering</output>
     </if>
-
     <append>
       <input keep="true">t</input>
       <output>on0</output>
@@ -410,84 +396,79 @@
       <input type="value">0</input>
       <output>reset</output>
     </append>
-
-    
     <!-- Collect results -->
-
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">0</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on0</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">0</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on0</output>
     </subrange>
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">1</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on1</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">1</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on1</output>
     </subrange>
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">2</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on2</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">2</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on2</output>
     </subrange>
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">3</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on3</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">3</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on3</output>
     </subrange>
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">4</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on4</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">4</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on4</output>
     </subrange>
     <subrange>
-        <input keep="true">onEvents</input>
-        <input type="value" as="from">5</input>
-        <input type="value" as="length">1</input>
-        <output append="true">on5</output>
-    </subrange>
-
-    <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">0</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off0</output>
+      <input keep="true">onEvents</input>
+      <input type="value" as="from">5</input>
+      <input type="value" as="length">1</input>
+      <output append="true">on5</output>
     </subrange>
     <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">1</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off1</output>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">0</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off0</output>
     </subrange>
     <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">2</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off2</output>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">1</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off1</output>
     </subrange>
     <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">3</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off3</output>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">2</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off2</output>
     </subrange>
     <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">4</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off4</output>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">3</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off3</output>
     </subrange>
     <subrange>
-        <input keep="true">offEvents</input>
-        <input type="value" as="from">5</input>
-        <input type="value" as="length">1</input>
-        <output append="true">off5</output>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">4</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off4</output>
     </subrange>
-
+    <subrange>
+      <input keep="true">offEvents</input>
+      <input type="value" as="from">5</input>
+      <input type="value" as="length">1</input>
+      <output append="true">off5</output>
+    </subrange>
     <subtract>
       <input clear="false">on1</input>
       <input clear="false">on0</input>
@@ -654,17 +635,15 @@
       <output>don5</output>
     </if>
     <count>
-        <input clear="false">amplitude</input>
-        <output>count</output>
+      <input clear="false">amplitude</input>
+      <output>count</output>
     </count>
     <divide>
-        <input clear="false">count</input>
-        <input clear="false">t</input>
-        <output>rate</output>
+      <input clear="false">count</input>
+      <input clear="false">t</input>
+      <output>rate</output>
     </divide>
-
     <!-- BPM and many plot -->
-
     <differentiate>
       <input clear="false">onEvents</input>
       <output>dtlist</output>
@@ -689,17 +668,15 @@
       <input type="value">0</input>
       <output>dtlist</output>
     </append>
-
     <subtract>
-        <input keep="true">offEvents</input>
-        <input keep="true">onEvents</input>
-        <output>ddlist</output>
+      <input keep="true">offEvents</input>
+      <input keep="true">onEvents</input>
+      <output>ddlist</output>
     </subtract>
     <append>
       <input type="value">0</input>
       <output clear="false">ddlist</output>
     </append>
-
     <count>
       <input clear="false">ddlist</input>
       <output>tcount</output>
@@ -715,9 +692,6 @@
       <input as="length">tcount</input>
       <output>tindex</output>
     </ramp>
-
-
-
   </analysis>
   <export>
     <set name="Raw">

@@ -564,8 +564,8 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
   </views>
   <analysis sleep="0.1">
     <append>
-        <input keep="true">recording</input>
-        <output>recording_raw</output>
+      <input keep="true">recording</input>
+      <output>recording_raw</output>
     </append>
     <divide>
       <input type="value">4800000</input>
