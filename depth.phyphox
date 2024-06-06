@@ -1,6 +1,6 @@
 <phyphox version="1.14" locale="en">
   <title>Depth sensor (LiDAR / ToF)</title>
-  <category>Tools</category>
+  <category>Camera</category>
   <description>Measure distances using the depth sensor.
 
     This is only available if your phone has a depth sensor as part of your camera system. You can tap the preview image and select the area of your camera's view that contributes to the measurement and also select whether the result is the closest distance, the average distance or an average that takes into account the sensor's estimate of the accuracy of each measured point.

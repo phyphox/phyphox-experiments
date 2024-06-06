@@ -1,16 +1,25 @@
-<phyphox version="1.14" locale="en">
-  <title>Luma Stopwatch</title>
-    <category>Camera</category>
-    <description>Luma-based stopwatch</description>
-    <icon>Y't</icon>
+<phyphox version="1.19" locale="en">
+  <title>Camera stopwatch: Color</title>
+  <category>Timers</category>
   <description>
-        Measure times based on luma thresholds on the camera.
+    Measure times between changes in color, for example caused by passing objects.
+
+    This configuration allows you to set a lower threshold and an upper threshold for the average hue in the measurement rectangle. If the hue falls within the range, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
+
+    Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
+
+    The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
+
+    Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
   </description>
+  <icon format="base64">
+    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
+  </icon>
   <data-containers>
-    <container size="0">inLum</container>
+    <container size="0">inHue</container>
     <container size="0">inT</container>
 
-    <container size="1">thisLum</container>
+    <container size="1">thisHue</container>
     <container size="1">thisT</container>
     <container size="1">willTrigger</container>
     <container size="1">isOnEvent</container>
@@ -69,23 +78,24 @@
   </data-containers>
 <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
-        <output component="luma">inLum</output>
+        <output component="hue">inHue</output>
         <output component="t">inT</output>
     </camera>
 </input>
   <views>
     <view label="Settings">
       <camera-gui label="Preview" exposure_adjustment_level="3" />
-      <edit label="Trigger below" unit="a.u." default="0.5" signed="false" min="0" max="1">
+      <edit label="Trigger from" unit="[[unit_short_degree]]" default="10" signed="false" min="0" max="360">
         <output>threshold_low</output>
       </edit>
-      <edit label="Trigger above" unit="a.u." default="1" signed="false" min="0" max="1">
+      <edit label="to" unit="[[unit_short_degree]]" default="40" signed="false" min="0" max="360">
         <output>threshold_high</output>
       </edit>
+      <image src="hue.png" />
       <separator height="1"/>
-      <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below."/>
+      <info label="The timer triggers if the measure hue falls within the given range. Note that hue is cyclic, so you can for example set a range from 350° to 10° to cover red at 355° as well as 0°. You can estimate a suitable threshold for your other trigger from the graph below."/>
       <separator height="1"/>
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
+      <graph label="Hue" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Hue" unitY="[[unit_short_degree]]" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
@@ -239,10 +249,10 @@
   </views>
   <analysis>
     <split>
-        <input as="data">inLum</input>
+        <input as="data">inHue</input>
         <input as="index" type="value">1</input>
-        <output>thisLum</output>
-        <output>inLum</output>
+        <output>thisHue</output>
+        <output>inHue</output>
     </split>
     <split>
         <input as="data">inT</input>
@@ -251,7 +261,7 @@
         <output>inT</output>
     </split>
     <append>
-        <input keep="true">thisLum</input>
+        <input keep="true">thisHue</input>
         <output append="true">amplitude</output>
     </append>
     <append>
@@ -259,20 +269,12 @@
         <output append="true">t</output>
     </append>
 
-    <if greater="true">
-        <input keep="true">thisLum</input>
-        <input keep="true">threshold_high</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output>willTrigger</output>
-    </if>
-
-    <if less="true">
-        <input keep="true">thisLum</input>
+    <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1]) * heaviside([1]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1]-[2]) + heaviside([3]-[1])),1)">
+        <input keep="true">thisHue</input>
         <input keep="true">threshold_low</input>
-        <input type="value">1</input>
+        <input keep="true">threshold_high</input>
         <output>willTrigger</output>
-    </if>
+    </formula>
 
     <count>
         <input clear="false">thisT</input>
@@ -396,7 +398,7 @@
       <input clear="false">reset</input>
       <input type="value">0</input>
       <input type="empty"/>
-      <output>inLum</output>
+      <output>inHue</output>
     </if>
     <if greater="true">
       <input clear="false">reset</input>
@@ -720,7 +722,7 @@
   <export>
     <set name="Raw">
       <data name="t (s)">t</data>
-      <data name="Luma">amplitude</data>
+      <data name="Hue">amplitude</data>
     </set>
     <set name="Events">
       <data name="On (s)">onEvents</data>

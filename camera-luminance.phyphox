@@ -1,8 +1,18 @@
-<?xml version="1.18" encoding="UTF-8"?><phyphox locale="en" version="1.14">
-    <title>Luma or Luminance</title>
+<phyphox locale="en" version="1.19">
+    <title>Brightness (Luminance)</title>
     <category>Camera</category>
-    <description>Compare luma and luminance</description>
-    <icon>Y</icon>
+    <description>
+        Measure the luminance, i.e. the brightness observed through your camera's lens.
+
+        The resulting values use arbitraty units that are normalized to a fully white image with an ISO sensitivity of 100, aperture of f/1 and an exposure time of 1/60s. Phyphox will automatically scale the luminance calculated from the camera's image according to the current exposure settings. However, keep in mind that most phones take a moment to actually apply changing exposure settings, so if you use auto exposure or if you change the settings, it will take a moment for the readings to settle.
+
+        Also, the reading will be wrong and show saturation effects if any part of the image (or actually any color channel) is overexposed or (to a lesser extend) underexposed. Phyphox will highlight overexposed areas red and underexposed areas blue. You should avoid that read areas occur withint the measurement rectangle. Blue parts should be fine as long as they do not make up most of the measured area. The auto exposure mode in this configuration will try to avoid overexposure more aggressively than other parts of phyphox.
+
+        Further technical details: Phyphox uses the camera's preview stream and linearizes each pixel, assuming an sRGB color model with corresponding gamma curve. The resulting luminance is then averaged through a mix of shader-based averaging and texture filtering in the phone's GPU. However, non-linear behavior of cameras, especially if dynamic range compression is applied even in the preview, is beyond our control and might impact measurements on some phone models.
+    </description>
+    <icon format="base64">
+        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
+    </icon>
     <data-containers>
         <container size="0">luma</container>
         <container size="0">luminance</container>
@@ -15,7 +25,7 @@
         <container size="1">rate</container>
     </data-containers>
     <input>
-        <camera auto_exposure="true" exposure_adjustment_level="3" locked="" show_controls="full_view_only" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
+        <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
             <output component="luma">luma</output>
             <output component="luminance">luminance</output>
             <output component="t">t</output>
@@ -27,24 +37,19 @@
     <views>
         <view label="Luminance">
 
-            <value label="Luma" size="2" color="red">
-                <input>luma</input>
-            </value>
-            <value label="Luminance" size="2" color="green">
+            <value label="Luminance" size="2">
                 <input>luminance</input>
             </value>
 
-            <graph label="Luma / Luminance" labelX="[[quantity_short_time]]" labelY="Luma / Luminance" partialUpdate="true" unitX="[[unit_short_second]]">
-                <input axis="x" lineWidth="2" color="red">t</input>
-                <input axis="y">luma</input>
-                <input axis="x" lineWidth="2" color="green">t</input>
+            <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="Luminance" partialUpdate="true" unitX="[[unit_short_second]]">
+                <input axis="x" lineWidth="2">t</input>
                 <input axis="y">luminance</input>
             </graph>
 
             <separator height="1"/>
             <separator color="white"/>
             <separator height="1"/>
-            <camera-gui label="Preview" exposure_adjustment_level="3" show_controls="full_view_only" locked="" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
+            <camera-gui label="Preview" exposure_adjustment_level="3" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
             <separator height="1"/>
             <value label="Average rate" unit="Hz" precision="1">
                 <input>rate</input>

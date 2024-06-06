@@ -1,0 +1,737 @@
+<phyphox version="1.19" locale="en">
+  <title>Camera stopwatch: Brightness</title>
+  <category>Timers</category>
+  <description>
+    Measure times between changes in brightness, for example caused by passing objects.
+
+    This configuration allows you to set a lower threshold and an upper threshold for the average brightness (more specific: luminance) in the measurement rectangle. If the brightness exceeds the upper threshold or drops below the lower one, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
+
+    The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
+
+    If you are using auto exposure, be aware that the average brightness will drift towards 0.5 within a short time. This may allow reliable triggering in changing light conditions, but it may also impact the precision of the triggers and especially measured durations. Also note, that this stopwatch uses luma instead of luminance, i.e. a non-linear representation of brightness, which can be calculated faster. This means that the value will not be comparable to the luminance measurements and that it is influenced by changing exposure settings.
+  </description>
+  <icon format="base64">
+    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
+  </icon>
+  <data-containers>
+    <container size="0">inLum</container>
+    <container size="0">inT</container>
+
+    <container size="1">thisLum</container>
+    <container size="1">thisT</container>
+    <container size="1">willTrigger</container>
+    <container size="1">isOnEvent</container>
+    <container size="1">isOffEvent</container>
+
+    <container>threshold_low</container>
+    <container>threshold_high</container>
+
+    <container size="0">amplitude</container>
+    <container size="0">t</container>
+
+    <container size="1" init="0">triggering</container>
+    <container size="0">onEvents</container>
+    <container size="0">offEvents</container>
+
+    <container size="0">dtlist</container>
+    <container size="0">ddlist</container>
+    <container size="0">tindex</container>
+    <container size="1">tcount</container>
+    <container size="1">tcount-1</container>
+
+    <container>avgInterval</container>
+    <container>avgRate</container>
+    <container>avgBPM</container>
+
+    <container init="0">on0</container>
+    <container init="0">on1</container>
+    <container init="0">on2</container>
+    <container init="0">on3</container>
+    <container init="0">on4</container>
+    <container init="0">on5</container>
+    <container init="0">off0</container>
+    <container init="0">off1</container>
+    <container init="0">off2</container>
+    <container init="0">off3</container>
+    <container init="0">off4</container>
+    <container init="0">off5</container>
+    <container>don0</container>
+    <container>don1</container>
+    <container>don2</container>
+    <container>don3</container>
+    <container>don4</container>
+    <container>don5</container>
+    <container>dt01</container>
+    <container>dt02</container>
+    <container>dt03</container>
+    <container>dt04</container>
+    <container>dt05</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container init="0">reset</container>
+    <container size="1">count</container>
+    <container size="1">rate</container>
+  </data-containers>
+<input>
+    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+        <output component="luma">inLum</output>
+        <output component="t">inT</output>
+    </camera>
+</input>
+  <views>
+    <view label="Settings">
+      <camera-gui label="Preview" exposure_adjustment_level="2" />
+      <edit label="Trigger below" default="0.4" signed="false" min="0" max="1">
+        <output>threshold_low</output>
+      </edit>
+      <edit label="Trigger above" default="0.6" signed="false" min="0" max="1">
+        <output>threshold_high</output>
+      </edit>
+      <separator height="1"/>
+      <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below."/>
+      <separator height="1"/>
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">amplitude</input>
+      </graph>
+            <value label="Average rate" unit="Hz" precision="1">
+                <input>rate</input>
+            </value>
+    </view>
+    <view label="Sequence">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt12</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt23</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt34</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt45</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Parallel">
+      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt02</input>
+      </value>
+      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt03</input>
+      </value>
+      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt04</input>
+      </value>
+      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>dt05</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Duration">
+      <value label="Trigger duration 0" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don0</input>
+      </value>
+      <value label="Trigger duration 1" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don1</input>
+      </value>
+      <value label="Trigger duration 2" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don2</input>
+      </value>
+      <value label="Trigger duration 3" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don3</input>
+      </value>
+      <value label="Trigger duration 4" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don4</input>
+      </value>
+      <value label="Trigger duration 5" size="3" precision="2" unit="[[unit_short_second]]">
+        <input>don5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Triggers">
+      <value label="Trigger on 0" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on0</input>
+      </value>
+      <value label="Trigger off 0" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off0</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 1" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on1</input>
+      </value>
+      <value label="Trigger off 1" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off1</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 2" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on2</input>
+      </value>
+      <value label="Trigger off 2" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off2</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 3" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on3</input>
+      </value>
+      <value label="Trigger off 3" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off3</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 4" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on4</input>
+      </value>
+      <value label="Trigger off 4" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off4</input>
+      </value>
+      <separator height="1"/>
+      <value label="Trigger on 5" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>on5</input>
+      </value>
+      <value label="Trigger off 5" size="1" precision="2" unit="[[unit_short_second]]">
+        <input>off5</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+    <view label="Many">
+      <graph label="Trigger on events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
+        <input axis="x">tindex</input>
+        <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
+      </graph>
+      <graph label="Trigger durations" labelX="Event number" labelY="Duration" unitY="[[unit_short_second]]" scaleMinY="fixed" minY="0">
+        <input axis="x">tindex</input>
+        <input axis="y" style="vbars" lineWidth="0.9">ddlist</input>
+      </graph>
+      <value label="Event number" size="1" precision="0">
+        <input>tindex</input>
+      </value>
+      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
+        <input>avgInterval</input>
+      </value>
+      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
+        <input>avgRate</input>
+      </value>
+      <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">
+        <input>avgBPM</input>
+      </value>
+      <button label="Reset">
+        <input type="value">1</input>
+        <output>reset</output>
+      </button>
+    </view>
+  </views>
+  <analysis>
+    <split>
+        <input as="data">inLum</input>
+        <input as="index" type="value">1</input>
+        <output>thisLum</output>
+        <output>inLum</output>
+    </split>
+    <split>
+        <input as="data">inT</input>
+        <input as="index" type="value">1</input>
+        <output>thisT</output>
+        <output>inT</output>
+    </split>
+    <append>
+        <input keep="true">thisLum</input>
+        <output append="true">amplitude</output>
+    </append>
+    <append>
+        <input keep="true">thisT</input>
+        <output append="true">t</output>
+    </append>
+
+    <if greater="true">
+        <input keep="true">thisLum</input>
+        <input keep="true">threshold_high</input>
+        <input type="value">1</input>
+        <input type="value">0</input>
+        <output>willTrigger</output>
+    </if>
+
+    <if less="true">
+        <input keep="true">thisLum</input>
+        <input keep="true">threshold_low</input>
+        <input type="value">1</input>
+        <output>willTrigger</output>
+    </if>
+
+    <count>
+        <input clear="false">thisT</input>
+        <output>count</output>
+    </count>
+
+    <formula formula="(1-[1])*[2]*[3]">
+        <input keep="true">triggering</input>
+        <input keep="true">willTrigger</input>
+        <input keep="true">count</input>
+        <output>isOnEvent</output>
+    </formula>
+
+    <formula formula="(1-[2])*[1]*[3]">
+        <input keep="true">triggering</input>
+        <input keep="true">willTrigger</input>
+        <input keep="true">count</input>
+        <output>isOffEvent</output>
+    </formula>
+
+    <if equal="true">
+        <input>isOnEvent</input>
+        <input type="value">1</input>
+        <input keep="true">thisT</input>
+        <output append="true">onEvents</output>
+    </if>
+
+    <if equal="true">
+        <input>isOffEvent</input>
+        <input type="value">1</input>
+        <input keep="true">thisT</input>
+        <output append="true">offEvents</output>
+    </if>
+
+    <if equal="true">
+        <input>count</input>
+        <input type="value">1</input>
+        <input>willTrigger</input>
+        <output append="true">triggering</output>
+    </if>
+
+    <append>
+      <input keep="true">t</input>
+      <output>on0</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>on1</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>on2</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>on3</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>on4</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>on5</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off0</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off1</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off2</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off3</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off4</output>
+    </append>
+    <append>
+      <input keep="true">t</input>
+      <output>off5</output>
+    </append>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>amplitude</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>t</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>onEvents</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>offEvents</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>inT</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>inLum</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>triggering</output>
+    </if>
+    <append>
+      <input type="value">0</input>
+      <output>reset</output>
+    </append>
+
+    
+    <!-- Collect results -->
+
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">0</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on0</output>
+    </subrange>
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">1</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on1</output>
+    </subrange>
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">2</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on2</output>
+    </subrange>
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">3</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on3</output>
+    </subrange>
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">4</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on4</output>
+    </subrange>
+    <subrange>
+        <input keep="true">onEvents</input>
+        <input type="value" as="from">5</input>
+        <input type="value" as="length">1</input>
+        <output append="true">on5</output>
+    </subrange>
+
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">0</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off0</output>
+    </subrange>
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">1</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off1</output>
+    </subrange>
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">2</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off2</output>
+    </subrange>
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">3</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off3</output>
+    </subrange>
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">4</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off4</output>
+    </subrange>
+    <subrange>
+        <input keep="true">offEvents</input>
+        <input type="value" as="from">5</input>
+        <input type="value" as="length">1</input>
+        <output append="true">off5</output>
+    </subrange>
+
+    <subtract>
+      <input clear="false">on1</input>
+      <input clear="false">on0</input>
+      <output>dt01</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on0</input>
+      <output>dt02</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on0</input>
+      <output>dt03</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on0</input>
+      <output>dt04</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on0</input>
+      <output>dt05</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on2</input>
+      <input clear="false">on1</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on3</input>
+      <input clear="false">on2</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on4</input>
+      <input clear="false">on3</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">on5</input>
+      <input clear="false">on4</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off0</input>
+      <input clear="false">on0</input>
+      <output>don0</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off1</input>
+      <input clear="false">on1</input>
+      <output>don1</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off2</input>
+      <input clear="false">on2</input>
+      <output>don2</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off3</input>
+      <input clear="false">on3</input>
+      <output>don3</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off4</input>
+      <input clear="false">on4</input>
+      <output>don4</output>
+    </subtract>
+    <subtract>
+      <input clear="false">off5</input>
+      <input clear="false">on5</input>
+      <output>don5</output>
+    </subtract>
+    <if less="true" equal="true">
+      <input clear="false">dt01</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt01</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt02</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt02</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt03</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt03</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt04</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt04</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt05</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt05</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt12</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt12</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt23</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt23</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt34</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt34</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">dt45</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>dt45</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don0</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don0</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don1</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don1</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don2</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don2</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don3</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don3</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don4</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don4</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">don5</input>
+      <input type="value">0</input>
+      <input type="empty"/>
+      <output>don5</output>
+    </if>
+    <count>
+        <input clear="false">amplitude</input>
+        <output>count</output>
+    </count>
+    <divide>
+        <input clear="false">count</input>
+        <input clear="false">t</input>
+        <output>rate</output>
+    </divide>
+
+    <!-- BPM and many plot -->
+
+    <differentiate>
+      <input clear="false">onEvents</input>
+      <output>dtlist</output>
+    </differentiate>
+    <average>
+      <input clear="false">dtlist</input>
+      <output>avgInterval</output>
+    </average>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">avgInterval</input>
+      <output>avgRate</output>
+    </divide>
+    <multiply>
+      <input clear="false">avgRate</input>
+      <input type="value">60</input>
+      <output>avgBPM</output>
+    </multiply>
+    <append>
+      <input type="value">0</input>
+      <input>dtlist</input>
+      <input type="value">0</input>
+      <output>dtlist</output>
+    </append>
+
+    <subtract>
+        <input keep="true">offEvents</input>
+        <input keep="true">onEvents</input>
+        <output>ddlist</output>
+    </subtract>
+    <append>
+      <input type="value">0</input>
+      <output clear="false">ddlist</output>
+    </append>
+
+    <count>
+      <input clear="false">ddlist</input>
+      <output>tcount</output>
+    </count>
+    <subtract>
+      <input clear="false">tcount</input>
+      <input type="value">1</input>
+      <output>tcount-1</output>
+    </subtract>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop">tcount-1</input>
+      <input as="length">tcount</input>
+      <output>tindex</output>
+    </ramp>
+
+
+
+  </analysis>
+  <export>
+    <set name="Raw">
+      <data name="t (s)">t</data>
+      <data name="Luma">amplitude</data>
+    </set>
+    <set name="Events">
+      <data name="On (s)">onEvents</data>
+      <data name="Off (s)">offEvents</data>
+    </set>
+  </export>
+</phyphox>
