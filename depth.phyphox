@@ -40,7 +40,7 @@
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Unten kannst du die lokale Glättung der Graphen im Kinematik-Tab ändern. Die Einstellung "Breite" beeinflusst die Schätzungen für die Geschwindigkeit und Beschleunigung. Größere Werte führen zu weicheren Kurven mit weniger Details.</string>
       <string original="Width of LOESS fit">Breite des LOESS-Fit</string>
       <title>Tiefensensor (LiDAR / ToF)</title>
-      <category>Werkzeuge</category>
+      <category>Kamera</category>
       <description>Miss Entfernungen mit dem Tiefensensor.
 
 Dieses Experiment ist nur verfügbar, wenn dein Gerät einen Tiefensensor als Teil des Kamerasystems hat. Du kannst das Vorschaubild antippen und dort den Messbereich wählen, der zur Abstandsmessung beiträgt und dabei auch entscheiden, wie die Entfernung aus allen Messpunkten gebildet wird: Dies kann entweder der Punkt mit der kürzesten Entfernung, ein Mittelwert aller Messpunkte oder ein gewichtetes Mittel auf Grundlage der einzelnen Messunsicherheiten sein.

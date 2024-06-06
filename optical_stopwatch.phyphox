@@ -52,7 +52,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
   </data-containers>
   <translations>
     <translation locale="de">
-      <title>Optische Stoppuhr</title>
+      <title>Optische Stoppuhr (Lichtsensor)</title>
       <category>Zeitmessung</category>
       <description>
         Miss Zeiten mittels des Lichts, das auf den Lichtsensor fällt.

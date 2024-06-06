@@ -11,7 +11,83 @@ Note, that white balance will impact the result. While your phone's automatic wh
         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
     </icon>
   <translations>
-    <translation locale="cs"><string original="Preview">Náhled</string><string original="Average rate">Průměrné tempo</string></translation><translation locale="de"><string original="Preview">Vorschau</string><string original="Average rate">Mittlere Rate</string></translation><translation locale="el"><string original="Preview">Προεπισκόπηση</string><string original="Average rate">Μέσος ρυθμός</string></translation><translation locale="es"><string original="Average rate">Tasa promedio</string></translation><translation locale="fr"><string original="Average rate">Fréquence moyenne</string></translation><translation locale="hi"><string original="Preview">पूर्वावलोकन</string><string original="Average rate">औसत दर</string></translation><translation locale="it"><string original="Average rate">Frequenza media</string></translation><translation locale="ja"><string original="Average rate">平均周波数</string></translation><translation locale="ka"><string original="Preview">ნახვა</string><string original="Average rate">საშუალო სიხშირე</string></translation><translation locale="nl"><string original="Average rate">Gemiddelde snelheid</string></translation><translation locale="pl"><string original="Average rate">Średnia szybkość</string></translation><translation locale="pt"><string original="Average rate">Taxa média</string></translation><translation locale="ru"><string original="Preview">Предварительный просмотр</string><string original="Average rate">Средняя частота</string></translation><translation locale="sr"><string original="Average rate">Prosečna stopa</string></translation><translation locale="sr_Latn"><string original="Average rate">Prosečna stopa</string></translation><translation locale="tr"><string original="Average rate">Ortalama oran</string></translation><translation locale="vi"><string original="Preview">Xem trước</string><string original="Average rate">Tần số trung bình</string></translation><translation locale="zh_Hans"><string original="Average rate">平均频率</string></translation><translation locale="zh_Hant"/></translations>
+    <translation locale="cs">
+      <string original="Preview">Náhled</string>
+      <string original="Average rate">Průměrné tempo</string>
+    </translation>
+    <translation locale="de">
+      <string original="Preview">Vorschau</string>
+      <string original="Average rate">Mittlere Rate</string>
+      <title>Farbe (Farbwert Sättigung Hellwert / HSV)</title>
+      <category>Kamera</category>
+      <description>Bestimme die Farbe im HSV-Farbmodell (Farbwert, Sättigung und Hellwert).
+
+Die Pixel innerhalb des gewählten Bereichs werden einzeln in HSV-Werte umgerechnet und dann gemittelt. Im Falle des Farbwerts wird ein zyklischer Mittelwert gebildet.
+
+Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automatische Weißabgleich in den meisten Situationen gute Ergebnisse liefern sollte, solltest du zum Messen sehr kleiner Unterschiede einen festen Weißabgleich setzen.
+</description>
+      <string original="Hue">Farbwert</string>
+      <string original="Saturation">Sättigung</string>
+      <string original="Value">Hellwert</string>
+      <string original="Saturation and Value">Sättigung und Hellwert</string>
+      <string original="sat., val.">S, V</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Tippe auf die Vorschau und ziehe die Kreise um den Bereich des Bilds zu wählen, der bei der Messung berücksichtigt wird. Du kannst auch verschiedene Einstellungen für die Kamera vornehmen. Unterbelichtete Bereiche werden blau markiert, überbelichtete werden rot markiert.</string>
+    </translation>
+    <translation locale="el">
+      <string original="Preview">Προεπισκόπηση</string>
+      <string original="Average rate">Μέσος ρυθμός</string>
+    </translation>
+    <translation locale="es">
+      <string original="Average rate">Tasa promedio</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Average rate">Fréquence moyenne</string>
+    </translation>
+    <translation locale="hi">
+      <string original="Preview">पूर्वावलोकन</string>
+      <string original="Average rate">औसत दर</string>
+    </translation>
+    <translation locale="it">
+      <string original="Average rate">Frequenza media</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Average rate">平均周波数</string>
+    </translation>
+    <translation locale="ka">
+      <string original="Preview">ნახვა</string>
+      <string original="Average rate">საშუალო სიხშირე</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Average rate">Gemiddelde snelheid</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Average rate">Średnia szybkość</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Average rate">Taxa média</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Preview">Предварительный просмотр</string>
+      <string original="Average rate">Средняя частота</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Average rate">Prosečna stopa</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Average rate">Prosečna stopa</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Average rate">Ortalama oran</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Preview">Xem trước</string>
+      <string original="Average rate">Tần số trung bình</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <string original="Average rate">平均频率</string>
+    </translation>
+    <translation locale="zh_Hant"/>
+  </translations>
   <data-containers>
     <container size="0">h</container>
     <container size="0">s</container>
