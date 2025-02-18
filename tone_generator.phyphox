@@ -385,8 +385,8 @@
     <container init="440">f</container>
     <container init="440">f1</container>
     <container init="450">f2</container>
-    <container size="1000" static="true">t</container>
-    <container size="1000">signal</container>
+    <container size="4801" static="true">t</container>
+    <container size="4801">signal</container>
   </data-containers>
   <output>
     <audio loop="true">
@@ -463,7 +463,7 @@
     <ramp>
       <input as="start" type="value">0</input>
       <input as="stop" type="value">0.05</input>
-      <input as="length" type="value">1000</input>
+      <input as="length" type="value">4801</input>
       <output>t</output>
     </ramp>
     <formula formula="min(max([3]-(1-[2])*[1],0),1)">
