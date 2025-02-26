@@ -384,7 +384,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
         <input axis="x">gyr</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Square plot" labelX="ω²" unitX="rad/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
+      <graph label="Square plot" labelX="ω²" unitX="rad²/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
         <input axis="x">gyr_squared</input>
         <input axis="y">acc</input>
       </graph>
@@ -394,7 +394,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
         <input axis="x">t</input>
         <input axis="y">acc</input>
       </graph>
-      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad²/s²" partialUpdate="true">
+      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">gyr</input>
       </graph>
