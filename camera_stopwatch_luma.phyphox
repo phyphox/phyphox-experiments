@@ -767,18 +767,16 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     </translation>
   </translations>
   <data-containers>
-    <container size="0">inLum</container>
+    <container size="0">inLuma</container>
+    <container size="0">thisLuma</container>
+    <container size="1">luma_last</container>
     <container size="0">inT</container>
-    <container size="1">thisLum</container>
-    <container size="1">thisT</container>
-    <container size="1">willTrigger</container>
-    <container size="1">isOnEvent</container>
-    <container size="1">isOffEvent</container>
+    <container size="0">triggering</container>
+    <container size="0">triggering_change</container>
     <container>threshold_low</container>
     <container>threshold_high</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
-    <container size="1" init="0">triggering</container>
     <container size="0">onEvents</container>
     <container size="0">offEvents</container>
     <container size="0">dtlist</container>
@@ -822,7 +820,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
-      <output component="luma">inLum</output>
+      <output component="luma">inLuma</output>
       <output component="t">inT</output>
     </camera>
   </input>
@@ -991,73 +989,59 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     </view>
   </views>
   <analysis>
-    <split>
-      <input as="data">inLum</input>
-      <input as="index" type="value">1</input>
-      <output>thisLum</output>
-      <output>inLum</output>
-    </split>
-    <split>
-      <input as="data">inT</input>
-      <input as="index" type="value">1</input>
-      <output>thisT</output>
-      <output>inT</output>
-    </split>
-    <append>
-      <input keep="true">thisLum</input>
+
+   <!-- Keep input data to show in preview graph -->
+   <append>
+      <input keep="true">inLuma</input>
       <output append="true">amplitude</output>
     </append>
     <append>
-      <input keep="true">thisT</input>
+      <input keep="true">inT</input>
       <output append="true">t</output>
     </append>
-    <if greater="true">
-      <input keep="true">thisLum</input>
+
+    <append>
+        <input keep="true">inLuma</input>
+        <input>luma_last</input>
+        <output>luma_last</output>
+    </append>
+    <append>
+        <input>luma_last</input>
+        <input>inLuma</input>
+        <output>thisLuma</output>
+    </append>
+    <append>
+        <input keep="true">thisLuma</input>
+        <output>luma_last</output>
+    </append>
+
+
+    <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
+     <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
+      <input>thisLuma</input>
       <input keep="true">threshold_high</input>
-      <input type="value">1</input>
-      <input type="value">0</input>
-      <output>willTrigger</output>
-    </if>
-    <if less="true">
-      <input keep="true">thisLum</input>
       <input keep="true">threshold_low</input>
-      <input type="value">1</input>
-      <output>willTrigger</output>
-    </if>
-    <count>
-      <input clear="false">thisT</input>
-      <output>count</output>
-    </count>
-    <formula formula="(1-[1])*[2]*[3]">
-      <input keep="true">triggering</input>
-      <input keep="true">willTrigger</input>
-      <input keep="true">count</input>
-      <output>isOnEvent</output>
+      <output>triggering</output>
     </formula>
-    <formula formula="(1-[2])*[1]*[3]">
-      <input keep="true">triggering</input>
-      <input keep="true">willTrigger</input>
-      <input keep="true">count</input>
-      <output>isOffEvent</output>
-    </formula>
-    <if equal="true">
-      <input>isOnEvent</input>
-      <input type="value">1</input>
-      <input keep="true">thisT</input>
-      <output append="true">onEvents</output>
-    </if>
-    <if equal="true">
-      <input>isOffEvent</input>
-      <input type="value">1</input>
-      <input keep="true">thisT</input>
-      <output append="true">offEvents</output>
-    </if>
-    <if equal="true">
-      <input>count</input>
-      <input type="value">1</input>
-      <input>willTrigger</input>
-      <output append="true">triggering</output>
-    </if>
+
+    <!-- Dermine times when triggering turns on or off -->
+    <differentiate>
+        <input>triggering</input>
+        <output>triggering_change</output>
+    </differentiate>
+    <rangefilter>
+        <input keep="true">inT</input>
+        <input keep="true">triggering_change</input>
+        <input as="min" type="value">0.5</input>
+        <output append="true">onEvents</output>
+    </rangefilter>
+    <rangefilter>
+        <input>inT</input>
+        <input>triggering_change</input>
+        <input as="max" type="value">-0.5</input>
+        <output append="true">offEvents</output>
+    </rangefilter>
+
     <append>
       <input keep="true">t</input>
       <output>on0</output>
@@ -1122,6 +1106,12 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <input clear="false">reset</input>
       <input type="value">0</input>
       <input type="empty"/>
+      <output>luma_last</output>
+    </if>
+    <if greater="true">
+      <input clear="false">reset</input>
+      <input type="value">0</input>
+      <input type="empty"/>
       <output>onEvents</output>
     </if>
     <if greater="true">
@@ -1140,13 +1130,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <input clear="false">reset</input>
       <input type="value">0</input>
       <input type="empty"/>
-      <output>inLum</output>
-    </if>
-    <if greater="true">
-      <input clear="false">reset</input>
-      <input type="value">0</input>
-      <input type="empty"/>
-      <output>triggering</output>
+      <output>inLuma</output>
     </if>
     <append>
       <input type="value">0</input>
