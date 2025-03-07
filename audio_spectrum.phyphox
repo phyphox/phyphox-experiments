@@ -356,6 +356,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">Enregistrement</string>
       <string original="Amplitude">Intensité</string>
       <string original="Status">État</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Générateur de bruit blanc. (Il est préférable de baisser le volume d'abord : le son peut être désagréable.)</string>
     </translation>
     <translation locale="vi">
       <title>Phổ âm thanh</title>

@@ -57,7 +57,7 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Acceleration">Επιτάχυνση</string>
       <string original="Settings">Ρυθμίσεις</string>
       <title>Αισθητήρας Βάθους (LiDAR / ToF)</title>
-      <category>Εργαλεία</category>
+      <category>Κάμερα</category>
       <description>Μέτρηση αποστάσεων με χρήση του αισθητήρα βάθους.
 
     Η μέτρηση είναι δυνατή μόνο αν το κινητό σας διαθέτει αισθητήρα βάθους σαν μέρος του συστήματος της φωτογραφικής μηχανής. Πατήστε στην εικόνα προεπισκόπησης και επιλέξτε την περιοχή της εικόνας που συμμετέχει στη μέτρηση. Επιπλέον επιλέξτε αν το αποτέλεσμα θα είναι η κοντινότερη απόσταση, η μέση απόσταση ή μια μέση τιμή που λαμβάνει υπόψην της την εκτίμηση του αισθητήρα για την ακρίβεια μέτρησης κάθε σημείου.
@@ -83,6 +83,10 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">Vitesse</string>
       <string original="Acceleration">Accélération</string>
       <string original="Settings">Paramètres</string>
+      <title>Capteur de profondeur (LiDAR / ToF)</title>
+      <category>Caméra</category>
+      <string original="Distance / Depth">Distance / Profondeur</string>
+      <string original="Kinematics">Cinématique</string>
     </translation>
     <translation locale="it">
       <string original="Graph">Grafico</string>

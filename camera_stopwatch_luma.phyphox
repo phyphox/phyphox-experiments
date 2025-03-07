@@ -101,7 +101,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
 </description>
       <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below.">Die Zeitmessung wird oberhalb und unterhalb der oben angegebenen Schwellen ausgelöst. Wenn du nur auf helle Beleuchtung reagieren möchtest, setzte den Wert "Auslösen unter" auf Null. Wenn du nur auf dunkle Ereignisse reagieren möchtest, setze "Auslösen über" auf einen sehr hohen Wert. Du kannst sinnvolle Schwellen für den jeweils anderen Auslöser über den Graphen unten abschätzen.</string>
       <string original="Luminance">Leuchtdichte</string>
-      <string original="Trigger on events">"An" Ereignisse</string>
+      <string original="Trigger on events">Ereignisse</string>
       <string original="Trigger durations">Auslösedauer</string>
     </translation>
     <translation locale="el">
@@ -143,6 +143,20 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <string original="Time interval">Χρονικό διάστημα</string>
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+      <title>Χρονόμετρο κάμερας: φωτεινότητα</title>
+      <category>Χρονόμετρα</category>
+      <description>Μετρήστε τους χρόνους μεταξύ των αλλαγών στη λαμπρότητα που προκαλούνται για παράδειγμα από διερχόμενα αντικείμενα.
+
+Αυτή η ρύθμιση επιτρέπει να ορίσετε ένα κατώτερο και ένα ανώτερο όριο για τη μέση φωτεινότητα στο ορθογώνιο μέτρησης. Εάν η λαμπρότητα υπερβεί το ανώτερο όριο ή πέσει κάτω από το κατώτερο, η τρέχουσα χρονική στιγμή σημειώνεται ως συμβάν ενεργοποίησης. Καταγράφονται οι χρόνοι μεταξύ διαφορετικών συμβάντων καθώς και η διάρκεια τους.
+
+Η χρονική ανάλυση καθορίζεται από τον ρυθμό καρέ προεπισκόπησης της κάμερας, ο οποίος συνήθως είναι ρυθμισμένος στα 30fps, με αποτέλεσμα ρυθμό δειγματοληψίας 33 ms. Προσέξτε ότι το phyphox χρησιμοποιεί τη ροή προεπισκόπησης της κάμερας για ανάλυση σε πραγματικό χρόνο, η οποία περιορίζεται σε αυτόν τον ρυθμό. Εάν το τηλέφωνό σας προσφέρει εγγραφές υψηλής ταχύτητας ή αργής κίνησης, οι υψηλότεροι ρυθμοί καρέ είναι διαθέσιμοι μόνο στην εγγραφή (όχι σε πραγματικό χρόνο), η οποία προς το παρόν δεν χρησιμοποιείται από το phyphox.
+
+Εάν χρησιμοποιείτε την αυτόματη έκθεση, λάβετε υπόψη ότι η μέση φωτεινότητα θα διολισθήσει προς το 0,5 μέσα σε σύντομο χρονικό διάστημα. Αυτό μπορεί να επιτρέψει την αξιόπιστη ενεργοποίηση σε μεταβαλλόμενες συνθήκες φωτισμού, αλλά μπορεί επίσης να επηρεάσει την ακρίβεια των ενεργοποιήσεων και ιδιαίτερα τις μετρούμενες διάρκειες. Σημειώστε επίσης ότι αυτό το χρονόμετρο χρησιμοποιεί το μέγεθος luma αντί του μεγέθους της λαμπρότητας, δηλαδή μια μη γραμμική αναπαράσταση της φωτεινότητας, η οποία μπορεί να υπολογιστεί ταχύτερα. Αυτό σημαίνει ότι η τιμή δεν θα είναι συγκρίσιμη με τις μετρήσεις λαμπρότητας και ότι επηρεάζεται από την αλλαγή των ρυθμίσεων έκθεσης.
+</description>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below.">Ο μετρητής ενεργοποιείται τόσο πάνω όσο και κάτω από καθορισμένο όριο. Αν θέλετε να ενεργοποιείται μόνο σε υψηλή λαμπρότητα θέστε την τιμή "ενεργοποίηση κάτω από" στο μηδέν. Αν θέλετε να ενεργοποιείται μόνο σε σκοτεινά γεγονότα θέσετε στο πεδίο "ενεργοποίηση πάνω από" την τιμή ένα. Μπορείτε να εκτιμήσετε τα επιθυμητά όρια από το επόμενο γράφημα.</string>
+      <string original="Luminance">Λαμπρότητα</string>
+      <string original="Trigger on events">Γεγονότα ενεργοποίησης</string>
+      <string original="Trigger durations">Διάρκεια ενεργοποιήσεων</string>
     </translation>
     <translation locale="es">
       <string original="Settings">Ajustes</string>
@@ -989,9 +1003,8 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     </view>
   </views>
   <analysis>
-
-   <!-- Keep input data to show in preview graph -->
-   <append>
+    <!-- Keep input data to show in preview graph -->
+    <append>
       <input keep="true">inLuma</input>
       <output append="true">amplitude</output>
     </append>
@@ -999,49 +1012,44 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <input keep="true">inT</input>
       <output append="true">t</output>
     </append>
-
     <append>
-        <input keep="true">inLuma</input>
-        <input>luma_last</input>
-        <output>luma_last</output>
+      <input keep="true">inLuma</input>
+      <input>luma_last</input>
+      <output>luma_last</output>
     </append>
     <append>
-        <input>luma_last</input>
-        <input>inLuma</input>
-        <output>thisLuma</output>
+      <input>luma_last</input>
+      <input>inLuma</input>
+      <output>thisLuma</output>
     </append>
     <append>
-        <input keep="true">thisLuma</input>
-        <output>luma_last</output>
+      <input keep="true">thisLuma</input>
+      <output>luma_last</output>
     </append>
-
-
     <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
-     <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
+    <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
       <input>thisLuma</input>
       <input keep="true">threshold_high</input>
       <input keep="true">threshold_low</input>
       <output>triggering</output>
     </formula>
-
     <!-- Dermine times when triggering turns on or off -->
     <differentiate>
-        <input>triggering</input>
-        <output>triggering_change</output>
+      <input>triggering</input>
+      <output>triggering_change</output>
     </differentiate>
     <rangefilter>
-        <input keep="true">inT</input>
-        <input keep="true">triggering_change</input>
-        <input as="min" type="value">0.5</input>
-        <output append="true">onEvents</output>
+      <input keep="true">inT</input>
+      <input keep="true">triggering_change</input>
+      <input as="min" type="value">0.5</input>
+      <output append="true">onEvents</output>
     </rangefilter>
     <rangefilter>
-        <input>inT</input>
-        <input>triggering_change</input>
-        <input as="max" type="value">-0.5</input>
-        <output append="true">offEvents</output>
+      <input>inT</input>
+      <input>triggering_change</input>
+      <input as="max" type="value">-0.5</input>
+      <output append="true">offEvents</output>
     </rangefilter>
-
     <append>
       <input keep="true">t</input>
       <output>on0</output>

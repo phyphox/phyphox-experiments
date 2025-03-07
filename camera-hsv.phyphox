@@ -36,6 +36,20 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     <translation locale="el">
       <string original="Preview">Προεπισκόπηση</string>
       <string original="Average rate">Μέσος ρυθμός</string>
+      <title>Χρώμα (Απόχρωση, Kορεσμός, Τιμή)</title>
+      <category>Κάμερα</category>
+      <description>Προσδιορίστε το χρώμα χρησιμοποιώντας το χρωματικό μοντέλο απόχρωσης κορεσμού (HSV).
+
+Σε κάθε εικονοστοιχείο της επιλεγμένης περιοχής υπολογίζεται η απόχρωση, ο κορεσμός και η τιμή και στη συνέχεια υπολογίζεται ο μέσος όρος. Στην περίπτωση της απόχρωσης, χρησιμοποιείται κυκλικός μέσος όρος.
+
+Σημειώστε ότι η ισορροπία λευκού επηρεάζει το αποτέλεσμα. Ενώ η αυτόματη ισορροπία λευκού του τηλεφώνου σας λειτουργεί ικανοποιητικά στις περισσότερες περιπτώσεις, ίσως χρειαστεί να την ρυθμίσετε σε μια σταθερή τιμή αναφοράς για να προσδιορίσετε λεπτές διαφορές.
+</description>
+      <string original="Hue">Απόχρωση</string>
+      <string original="Saturation">Κορεσμός (S)</string>
+      <string original="Value">Τιμή (V)</string>
+      <string original="Saturation and Value">Κορεσμός και Τιμή</string>
+      <string original="sat., val.">S, V</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Στην προεπισκόπηση, σύρετε για να αλλάξετε την περιοχή που λαμβάνεται υπόψη για την αξιολόγηση της εικόνας. Μπορείτε επίσης να επιλέξετε διαφορετική ρύθμιση της κάμερας για τη ρύθμιση της εικόνας εντός της περιοχής. Οι υποεκτεθειμένες περιοχές επισημαίνονται με μπλε χρώμα, ενώ οι υπερεκτεθειμένες περιοχές επισημαίνονται με κόκκινο χρώμα.</string>
     </translation>
     <translation locale="es">
       <string original="Average rate">Tasa promedio</string>

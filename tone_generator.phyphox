@@ -233,6 +233,10 @@
       <string original="Frequency low">Fréquence basse</string>
       <string original="Frequency high">Fréquence élevée</string>
       <string original="Simple">Composantes</string>
+      <string original="Use multi tone generator">Utiliser le générateur de sons multiples</string>
+      <string original="Frequency 1">Fréquence 1</string>
+      <string original="Frequency 2">Fréquence 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Attention : l'amplitude totale maximum ne peut dépasser 1. Si la somme des amplitudes dépasse 1, il va y avoir des distorsions.</string>
     </translation>
     <translation locale="vi">
       <title>Bộ tạo âm</title>

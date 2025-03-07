@@ -315,7 +315,7 @@ Vezměte prosím v potaz, že přesnost měření silně závisí na kvalitě sv
       <string original="Trigger off 5">Evento off 5</string>
     </translation>
     <translation locale="el">
-      <title>Οπτικό χρονόμετρο</title>
+      <title>Οπτικό χρονόμετρο (Αισθητήρας Φωτεινότητας)</title>
       <category>Χρονόμετρα</category>
       <description>
         Μέτρηση χρονικών διαστημάτων βασισμένη στο φως που πέφτει στο τηλέφωνό σας.

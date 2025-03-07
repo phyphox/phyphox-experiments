@@ -103,7 +103,7 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="to">bis</string>
       <string original="The timer triggers if the measure hue falls within the given range. Note that hue is cyclic, so you can for example set a range from 350° to 10° to cover red at 355° as well as 0°. You can estimate a suitable threshold for your other trigger from the graph below.">Die Zeitmessung wird ausgelöst, wenn der gemessene Farbwert in den gewählten Bereich fällt. Beachte, dass der Farbwert zyklisch ist, so dass du beispielsweise auch einen Bereich von 350° bis 10° wählen kannst um Rottöne sowohl bei 355° als auch bei 0° abzudecken. Du kannst sinnvolle Schwellen für deinen Bereich in dem Graphen unten ablesen.</string>
       <string original="Hue">Farbwert</string>
-      <string original="Trigger on events">"An" Ereignisse</string>
+      <string original="Trigger on events">Ereignisse</string>
       <string original="Trigger durations">Auslösedauer</string>
     </translation>
     <translation locale="el">
@@ -143,6 +143,24 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Time interval">Χρονικό διάστημα</string>
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+      <title>Χρονόμετρο κάμερας: Χρώμα</title>
+      <category>Χρονόμετρα</category>
+      <description>Μετρήστε χρονικές διάρκειες μεταξύ αλλαγών στο χρώμα, που προκαλούνται για παράδειγμα, από διερχόμενα αντικείμενα.
+
+Αυτή η ρύθμιση σάς επιτρέπει να ορίσετε ένα κατώτερο και ένα ανώτερο όριο για τη μέση απόχρωση στο ορθογώνιο μέτρησης. Εάν η απόχρωση βρίσκεται μέσα στο διάστημα αυτό, η τρέχουσα ώρα ορίζεται ως συμβάν ενεργοποίησης. Καταγράφονται οι χρόνοι μεταξύ διαφορετικών συμβάντων καθώς και η διάρκεια τους.
+
+Το phyphox εκφράζει την απόχρωση στο διάστημα από 0° έως 360° και χρησιμοποιεί κυκλικό μέσο όρο. Εάν το κατώτερο κατώφλι είναι μεγαλύτερο από το ανώτερο κατώφλι, επιλέγεται το διάστημα απόχρωσης από τις 360° έως τις 0°. Για παράδειγμα, στο διάστημα από 10° έως 30° θα προκληθεί ενεργοποίηση στις 20°, αλλά όχι στις 40°. Αλλά στο διάστημα από 350° έως 10° θα γίνει ενεργοποίηση στις 359° καθώς και στις 0°, αλλά όχι στις 20°.
+
+Η χρονική ανάλυση καθορίζεται από το ρυθμό των καρέ προεπισκόπησης της κάμερας, ο οποίος συνήθως είναι ρυθμισμένος στα 30fps, με αποτέλεσμα ένα ρυθμό δειγματοληψίας 33 ms. Προσέξτε ότι το phyphox χρησιμοποιεί τη ροή προεπισκόπησης της κάμερας για ανάλυση σε πραγματικό χρόνο, η οποία περιορίζεται σε αυτόν τον ρυθμό. Εάν το τηλέφωνό σας προσφέρει εγγραφές υψηλής ταχύτητας ή αργής κίνησης, οι υψηλότεροι ρυθμοί καρέ είναι διαθέσιμοι μόνο στην εγγραφή (όχι σε πραγματικό χρόνο), η οποία προς το παρόν δεν χρησιμοποιείται από το phyphox.
+
+Λάβετε υπόψη ότι η αυτόματη ισορροπία λευκού καθώς και η αυτόματη έκθεση μπορεί να προκαλέσουν απόκλιση στα προσδιοριζόμενα χρώματα και, συνεπώς, στα ακριβή όρια ενεργοποίησης.
+</description>
+      <string original="Trigger from">Ενεργοποίηση από</string>
+      <string original="to">έως</string>
+      <string original="The timer triggers if the measure hue falls within the given range. Note that hue is cyclic, so you can for example set a range from 350° to 10° to cover red at 355° as well as 0°. You can estimate a suitable threshold for your other trigger from the graph below.">Το χρονόμετρο ενεργοποιείται εάν η απόχρωση που μετράται ανήκει στο δοσμένο εύρος. Π{ροσέξτε ότι η απόχρωση είναι κυκλική, οπότε μπορείτε, για παράδειγμα, να ορίσετε ένα εύρος από 350° έως 10° για να καλύψετε το κόκκινο στις 355° καθώς και τις 0°. Μπορείτε να εκτιμήσετε ένα κατάλληλο κατώφλι για την ενεργοποίηση από το παρακάτω γράφημα.</string>
+      <string original="Hue">Απόχρωση</string>
+      <string original="Trigger on events">Γεγονότα ενεργοποίησης</string>
+      <string original="Trigger durations">Διάρκεια ενεργοποιήσεων</string>
     </translation>
     <translation locale="es">
       <string original="Settings">Ajustes</string>
@@ -958,9 +976,8 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
     </view>
   </views>
   <analysis>
-
-   <!-- Keep input data to show in preview graph -->
-   <append>
+    <!-- Keep input data to show in preview graph -->
+    <append>
       <input keep="true">inHue</input>
       <output append="true">amplitude</output>
     </append>
@@ -968,49 +985,44 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <input keep="true">inT</input>
       <output append="true">t</output>
     </append>
-
     <append>
-        <input keep="true">inHue</input>
-        <input>hue_last</input>
-        <output>hue_last</output>
+      <input keep="true">inHue</input>
+      <input>hue_last</input>
+      <output>hue_last</output>
     </append>
     <append>
-        <input>hue_last</input>
-        <input>inHue</input>
-        <output>thisHue</output>
+      <input>hue_last</input>
+      <input>inHue</input>
+      <output>thisHue</output>
     </append>
     <append>
-        <input keep="true">thisHue</input>
-        <output>hue_last</output>
+      <input keep="true">thisHue</input>
+      <output>hue_last</output>
     </append>
-
-
     <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
-     <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
+    <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
       <input>thisHue</input>
       <input keep="true">threshold_low</input>
       <input keep="true">threshold_high</input>
       <output>triggering</output>
     </formula>
-
     <!-- Dermine times when triggering turns on or off -->
     <differentiate>
-        <input>triggering</input>
-        <output>triggering_change</output>
+      <input>triggering</input>
+      <output>triggering_change</output>
     </differentiate>
     <rangefilter>
-        <input keep="true">inT</input>
-        <input keep="true">triggering_change</input>
-        <input as="min" type="value">0.5</input>
-        <output append="true">onEvents</output>
+      <input keep="true">inT</input>
+      <input keep="true">triggering_change</input>
+      <input as="min" type="value">0.5</input>
+      <output append="true">onEvents</output>
     </rangefilter>
     <rangefilter>
-        <input>inT</input>
-        <input>triggering_change</input>
-        <input as="max" type="value">-0.5</input>
-        <output append="true">offEvents</output>
+      <input>inT</input>
+      <input>triggering_change</input>
+      <input as="max" type="value">-0.5</input>
+      <output append="true">offEvents</output>
     </rangefilter>
-
     <append>
       <input keep="true">t</input>
       <output>on0</output>
@@ -1401,7 +1413,6 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <input as="length">tcount</input>
       <output>tindex</output>
     </ramp>
-
   </analysis>
   <export>
     <set name="Raw">
