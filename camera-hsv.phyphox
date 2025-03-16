@@ -111,8 +111,10 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     <container size="0">iso</container>
     <container size="0">aperture</container>
     <container size="0">exposure</container>
-    <container size="1">count</container>
-    <container size="1">rate</container>
+    <container size="5">lastTimes</container>
+    <container size="0">lastPeriods</container>
+    <container size="1">framePeriod</container>
+    <container size="1">frameRate</container>
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
@@ -152,21 +154,29 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
       <separator height="1"/>
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
       <separator height="1"/>
-      <value label="Average rate" unit="[[unit_short_hertz]]" precision="1">
-        <input>rate</input>
+      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>frameRate</input>
       </value>
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
     </view>
   </views>
   <analysis>
-    <count>
-      <input clear="false">h</input>
-      <output>count</output>
-    </count>
+    <append>
+      <input keep="true">t</input>
+      <output>lastTimes</output>
+    </append>
+    <differentiate>
+        <input keep="true">lastTimes</input>
+        <output>lastPeriods</output>
+    </differentiate>
+    <average>
+        <input>lastPeriods</input>
+        <output>framePeriod</output>
+    </average>
     <divide>
-      <input clear="false">count</input>
-      <input clear="false">t</input>
-      <output>rate</output>
+      <input type="value">1</input>
+      <input keep="true">framePeriod</input>
+      <output>frameRate</output>
     </divide>
   </analysis>
   <export>

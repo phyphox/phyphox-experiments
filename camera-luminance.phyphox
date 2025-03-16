@@ -108,8 +108,10 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
     <container size="0">iso</container>
     <container size="0">aperture</container>
     <container size="0">exposure</container>
-    <container size="1">count</container>
-    <container size="1">rate</container>
+    <container size="5">lastTimes</container>
+    <container size="0">lastPeriods</container>
+    <container size="1">framePeriod</container>
+    <container size="1">frameRate</container>
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
@@ -135,21 +137,48 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
       <separator height="1"/>
       <camera-gui label="Preview" exposure_adjustment_level="3" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
       <separator height="1"/>
-      <value label="Average rate" unit="[[unit_short_hertz]]" precision="1">
-        <input>rate</input>
+      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>frameRate</input>
       </value>
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
     </view>
+    <view label="Important">
+      <info bold="true" label="What is being measured?"/>
+      <info label="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent."/>
+      <separator height="1"/>
+      <info bold="true" label="What errors are introduced by my phone?"/>
+      <info label="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:"/>
+      <separator height="0.2"/>
+      <info label="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness."/>
+      <separator height="0.2"/>
+      <info label="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness."/>
+      <separator height="0.2"/>
+      <info label="- Brightness boost: Most phones will increase the brightness of the image if is much too dark."/>
+      <separator height="1"/>
+      <info bold="true" label="How to measure reliably despite post-processing?"/>
+      <info label="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness."/>
+      <separator height="1"/>
+      <info bold="true" label="How to measure reliably despite post-processing?"/>
+      <info label="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.)."/>
+    </view>
   </views>
   <analysis>
-    <count>
-      <input clear="false">luma</input>
-      <output>count</output>
-    </count>
+    <append>
+      <input keep="true">t</input>
+      <output>lastTimes</output>
+    </append>
+    <differentiate>
+        <input keep="true">lastTimes</input>
+        <output>lastPeriods</output>
+    </differentiate>
+    <average>
+        <input>lastPeriods</input>
+        <output>framePeriod</output>
+    </average>
     <divide>
-      <input clear="false">count</input>
-      <input clear="false">t</input>
-      <output>rate</output>
+      <input type="value">1</input>
+      <input keep="true">framePeriod</input>
+      <output>frameRate</output>
     </divide>
   </analysis>
   <export>

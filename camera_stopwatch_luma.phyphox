@@ -829,8 +829,10 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     <container>dt34</container>
     <container>dt45</container>
     <container init="0">reset</container>
-    <container size="1">count</container>
-    <container size="1">rate</container>
+    <container size="5">lastTimes</container>
+    <container size="0">lastPeriods</container>
+    <container size="1">framePeriod</container>
+    <container size="1">frameRate</container>
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
@@ -840,7 +842,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
   </input>
   <views>
     <view label="Settings">
-      <camera-gui label="Preview" exposure_adjustment_level="2"/>
+      <camera-gui label="Preview" exposure_adjustment_level="3"/>
       <edit label="Trigger below" default="0.4" signed="false" min="0" max="1">
         <output>threshold_low</output>
       </edit>
@@ -854,9 +856,11 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
-      <value label="Average rate" unit="[[unit_short_hertz]]" precision="1">
-        <input>rate</input>
+      <separator height="1"/>
+      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>frameRate</input>
       </value>
+      <info label="Note that the framerate (and therefore the temporal resolution) depends on your phone's capabilities and the exposure settings of your camera. If the image is to dark, a long exposure time might limit your framerate (a captured frame cannot be exposed longer than 1/framerate). In this case you might want to disable auto exposure and manually set a short exposure time by tapping the preview and using the controls at the bottom." />
     </view>
     <view label="Sequence">
       <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
@@ -1382,15 +1386,26 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <input type="empty"/>
       <output>don5</output>
     </if>
-    <count>
-      <input clear="false">amplitude</input>
-      <output>count</output>
-    </count>
+    
+
+    <append>
+      <input keep="true">t</input>
+      <output>lastTimes</output>
+    </append>
+    <differentiate>
+        <input keep="true">lastTimes</input>
+        <output>lastPeriods</output>
+    </differentiate>
+    <average>
+        <input>lastPeriods</input>
+        <output>framePeriod</output>
+    </average>
     <divide>
-      <input clear="false">count</input>
-      <input clear="false">t</input>
-      <output>rate</output>
+      <input type="value">1</input>
+      <input keep="true">framePeriod</input>
+      <output>frameRate</output>
     </divide>
+
     <!-- BPM and many plot -->
     <differentiate>
       <input clear="false">onEvents</input>
