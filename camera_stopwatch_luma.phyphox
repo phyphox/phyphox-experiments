@@ -5,8 +5,6 @@
 
 This configuration allows you to set a lower threshold and an upper threshold for the average brightness (more specific: luminance) in the measurement rectangle. If the brightness exceeds the upper threshold or drops below the lower one, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
 
-The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
-
 If you are using auto exposure, be aware that the average brightness will drift towards 0.5 within a short time. This may allow reliable triggering in changing light conditions, but it may also impact the precision of the triggers and especially measured durations. Also note, that this stopwatch uses luma instead of luminance, i.e. a non-linear representation of brightness, which can be calculated faster. This means that the value will not be comparable to the luminance measurements and that it is influenced by changing exposure settings.
 </description>
   <icon format="base64">
@@ -94,8 +92,6 @@ If you are using auto exposure, be aware that the average brightness will drift 
       <description>Miss die Zeit zwischen Helligkeitsänderungen, z.B. verursacht durch sich bewegende Objekte.
 
 Diese Konfiguration erlaubt es dir eine untere und eine obere Grenze für die mittlere Helligkeit (Leuchtdichte) im Mess-Rechteck zu wählen. Falls die Helligkeit unter die untere Grenze fällt oder die obere Grenze übersteigt, wird die aktuelle Zeit als Auslöser-Ereignis gespeichert. Die Zeiten zwischen verschiedenen Ereignissen sowie die Länge dieser Ereignisse können so gemessen werden.
-
-Die zeitliche Auflösung wird durch die Bildrate des Vorschaumodus der Kamera bestimmt. Diese liegt in der Regel bei 30 fps, was zu einer Sample Rate von 33 ms führt. Beachte, dass phyphox den Vorschaumodus nutzt um Echtzeit-Auswertungen zu machen, was die Bildrate einschränkt. Falls dein Handy einen Hochgeschwindigkeits- oder Zeitlupenmodus anbietet, der höhere Bildraten anbietet, sind diese höheren Bildraten nur in Aufnahmen, nicht aber in der Vorschau vorhanden. Da phyphox derzeit jedoch keine Aufnahmen, sondern nur den Live-Modus unterstützt, sind diese höheren Bildraten hier nicht verfügbar.
 
 Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass die Helligkeit immer gegen 0,5 driften wird. Dies kann helfen um auch bei sich änderenden Lichtverhältnissen zuverlässig auszulösen, kann sich aber negativ auf die Genauigkeit und vor allem die gemessenen Auslösedauern auswirken. Beachte auch, dass die Stoppuhr "Luma" und nicht die Leuchtdichte (engl. "Luminance") misst, was bedeutet, dass es sich um ein nicht-lineares Maß für die Helligkeit handelt. Damit ist der Wert nicht vergleichbar mit der Leuchtdichte-Messung und hängt von den Belichtungseinstellungen ab.
 </description>
@@ -835,7 +831,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     <container size="1">frameRate</container>
   </data-containers>
   <input>
-    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="prioritizeFramerate">
       <output component="luma">inLuma</output>
       <output component="t">inT</output>
     </camera>
@@ -860,7 +856,6 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
         <input>frameRate</input>
       </value>
-      <info label="Note that the framerate (and therefore the temporal resolution) depends on your phone's capabilities and the exposure settings of your camera. If the image is to dark, a long exposure time might limit your framerate (a captured frame cannot be exposed longer than 1/framerate). In this case you might want to disable auto exposure and manually set a short exposure time by tapping the preview and using the controls at the bottom." />
     </view>
     <view label="Sequence">
       <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">

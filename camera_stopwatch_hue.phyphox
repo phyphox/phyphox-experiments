@@ -7,8 +7,6 @@ This configuration allows you to set a lower threshold and an upper threshold fo
 
 Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
 
-The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
-
 Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
 </description>
   <icon format="base64">
@@ -94,8 +92,6 @@ Be aware that automatic white balance as well as auto exposure may cause a drift
 Diese Konfiguration erlaubt es dir eine untere und eine obere Grenze für den mittleren Farbwert ("hue") im Mess-Rechteck zu wählen. Falls der Farbwert in diesen Bereich fällt, wird die aktuell Zeit als Auslöser-Ereignis gespeichert. Die Zeiten zwischen verschiedenen Ereignissen sowie die Länge dieser Ereignisse können so gemessen werden.
 
 Beachte, dass phyphox den Farbwert im Bereich von 0° bis 360° darstellt und eine zyklische Mittelung einsetzt. Wenn die untere Grenze größer ist als die obere Grenze, wird der Farbwertbereich über 360° nach 0° ausgewählt. Zum Beispiel löst ein Bereich von 10° bis 30° bei 20° aus, aber nicht bei 40°. Aber ein Bereich von 350° bis 10° löst bei 359° und auch bei 0° aus, aber nicht bei 20°.
-
-Die zeitliche Auflösung wird durch die Bildrate des Vorschaumodus der Kamera bestimmt. Diese liegt in der Regel bei 30 fps, was zu einer Sample Rate von 33 ms führt. Beachte, dass phyphox den Vorschaumodus nutzt um Echtzeit-Auswertungen zu machen, was die Bildrate einschränkt. Falls dein Handy einen Hochgeschwindigkeits- oder Zeitlupenmodus anbietet, der höhere Bildraten anbietet, sind diese höheren Bildraten nur in Aufnahmen, nicht aber in der Vorschau vorhanden. Da phyphox derzeit jedoch keine Aufnahmen, sondern nur den Live-Modus unterstützt, sind diese höheren Bildraten hier nicht verfügbar.
 
 Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teils auch eine automatische Belichtung zu einer Drift der Farbwerte und damit auch der genauen Auslöseschwellen führen kann.
 </description>
@@ -807,7 +803,7 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
     <container size="1">frameRate</container>
   </data-containers>
   <input>
-    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6">
+    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="prioritizeFramerate">
       <output component="hue">inHue</output>
       <output component="t">inT</output>
     </camera>
@@ -833,7 +829,6 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
         <input>frameRate</input>
       </value>
-      <info label="Note that the framerate (and therefore the temporal resolution) depends on your phone's capabilities and the exposure settings of your camera. If the image is to dark, a long exposure time might limit your framerate (a captured frame cannot be exposed longer than 1/framerate). In this case you might want to disable auto exposure and manually set a short exposure time by tapping the preview and using the controls at the bottom." />
     </view>
     <view label="Sequence">
       <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
