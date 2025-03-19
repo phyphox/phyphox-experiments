@@ -276,7 +276,7 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
   </views>
   <analysis sleep="0.01">
     <divide>
-      <input type="value">480</input>
+      <input type="value">479</input>
       <input clear="false">rate</input>
       <output>tmax</output>
     </divide>
