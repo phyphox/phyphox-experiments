@@ -758,19 +758,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <separator color="white"/>
       <separator height="0.5"/>
       <info label="White noise generator. (Can be loud. Please reduce your playback volume first.)"/>
-      <button label="Off">
-        <input type="value">0</input>
+      <toggle label="White noise">
         <output>wnamplitude</output>
-      </button>
-      <button label="On">
-        <input type="value">1</input>
-        <output>wnamplitude</output>
-      </button>
-      <value label="Status">
-        <input>wnamplitude</input>
-        <map max="0">Off</map>
-        <map min="1">On</map>
-      </value>
+      </toggle>
     </view>
     <view label="Raw data">
       <graph label="Recording" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]">
