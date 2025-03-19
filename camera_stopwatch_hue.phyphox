@@ -755,8 +755,9 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
     <container size="0">inT</container>
     <container size="0">triggering</container>
     <container size="0">triggering_change</container>
-    <container>threshold_low</container>
-    <container>threshold_high</container>
+    <container init="120">threshold_low</container>
+    <container init="240">threshold_high</container>
+    <container init="1">outside</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
     <container size="0">onEvents</container>
@@ -811,15 +812,21 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
   <views>
     <view label="Settings">
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
-      <edit label="Trigger from" unit="[[unit_short_degree]]" default="10" signed="false" min="0" max="360">
-        <output>threshold_low</output>
-      </edit>
-      <edit label="to" unit="[[unit_short_degree]]" default="40" signed="false" min="0" max="360">
-        <output>threshold_high</output>
-      </edit>
       <image src="hue.png"/>
-      <separator height="1"/>
-      <info label="The timer triggers if the measure hue falls within the given range. Note that hue is cyclic, so you can for example set a range from 350° to 10° to cover red at 355° as well as 0°. You can estimate a suitable threshold for your other trigger from the graph below."/>
+      <slider type="range" label="Trigger range" minValue="0" maxValue="360" stepSize="1" precision="0">
+        <output value="lowerValue">threshold_low</output>
+        <output value="upperValue">threshold_high</output>
+      </slider>
+      <dropdown label="Trigger">
+        <output>outside</output>
+        <map value="1">outside range</map>
+        <map value="-1">inside range</map>
+      </dropdown>
+      <value label="State">
+        <input>triggering</input>
+        <map max="0.5">Idle</map>
+        <map min="0.5">Triggered</map>
+      </value>
       <separator height="1"/>
       <graph label="Hue" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Hue" unitY="[[unit_short_degree]]" partialUpdate="true">
         <input axis="x">t</input>
@@ -999,15 +1006,16 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <output>hue_last</output>
     </append>
     <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
-    <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
+    <formula formula="min((1-heaviside([4]))*(heaviside([1_]-[3]) * heaviside([2]-[1_])) + (heaviside([4]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
       <input>thisHue</input>
-      <input keep="true">threshold_low</input>
       <input keep="true">threshold_high</input>
+      <input keep="true">threshold_low</input>
+      <input keep="true">outside</input>
       <output>triggering</output>
     </formula>
     <!-- Dermine times when triggering turns on or off -->
     <differentiate>
-      <input>triggering</input>
+      <input keep="true">triggering</input>
       <output>triggering_change</output>
     </differentiate>
     <rangefilter>

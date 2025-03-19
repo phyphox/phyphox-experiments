@@ -783,8 +783,9 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
     <container size="0">inT</container>
     <container size="0">triggering</container>
     <container size="0">triggering_change</container>
-    <container>threshold_low</container>
-    <container>threshold_high</container>
+    <container init="0.3">threshold_low</container>
+    <container init="0.7">threshold_high</container>
+    <container init="1">outside</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
     <container size="0">onEvents</container>
@@ -839,14 +840,20 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
   <views>
     <view label="Settings">
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
-      <edit label="Trigger below" default="0.4" signed="false" min="0" max="1">
-        <output>threshold_low</output>
-      </edit>
-      <edit label="Trigger above" default="0.6" signed="false" min="0" max="1">
-        <output>threshold_high</output>
-      </edit>
-      <separator height="1"/>
-      <info label="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value to one. You can estimate a suitable threshold for your other trigger from the graph below."/>
+      <slider type="range" label="Trigger range" minValue="0" maxValue="1" stepSize="0.01">
+        <output value="lowerValue">threshold_low</output>
+        <output value="upperValue">threshold_high</output>
+      </slider>
+      <dropdown label="Trigger">
+        <output>outside</output>
+        <map value="1">outside range</map>
+        <map value="-1">inside range</map>
+      </dropdown>
+      <value label="State">
+        <input>triggering</input>
+        <map max="0.5">Idle</map>
+        <map min="0.5">Triggered</map>
+      </value>
       <separator height="1"/>
       <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
         <input axis="x">t</input>
@@ -1026,15 +1033,16 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <output>luma_last</output>
     </append>
     <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
-    <formula formula="min(heaviside([3]-[2])*(heaviside([3]-[1_]) * heaviside([1_]-[2])) + (1-heaviside([3]-[2]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
+    <formula formula="min((1-heaviside([4]))*(heaviside([1_]-[3]) * heaviside([2]-[1_])) + (heaviside([4]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
       <input>thisLuma</input>
       <input keep="true">threshold_high</input>
       <input keep="true">threshold_low</input>
+      <input keep="true">outside</input>
       <output>triggering</output>
     </formula>
     <!-- Dermine times when triggering turns on or off -->
     <differentiate>
-      <input>triggering</input>
+      <input keep="true">triggering</input>
       <output>triggering_change</output>
     </differentiate>
     <rangefilter>
