@@ -707,7 +707,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
         <input axis="y">fft</input>
       </graph>
       <separator height="1" precision="0"/>
-      <value label="Samples used">
+      <value label="Samples used" precision="0">
         <input>actual_samples</input>
       </value>
       <value label="Period used" unit="[[unit_short_milli_second]]" precision="2" factor="1000">
@@ -730,30 +730,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
-      <value label="Samples" precision="0">
-        <input>samples</input>
-      </value>
-      <separator height="0.5"/>
-      <button label="2048">
-        <input type="value">2048</input>
+      <slider label="Samples" minValue="2048" maxValue="32768" precision="0" stepSize="2048">
         <output>samples</output>
-      </button>
-      <button label="4096">
-        <input type="value">4096</input>
-        <output>samples</output>
-      </button>
-      <button label="8192">
-        <input type="value">8192</input>
-        <output>samples</output>
-      </button>
-      <button label="16384">
-        <input type="value">16384</input>
-        <output>samples</output>
-      </button>
-      <button label="32768">
-        <input type="value">32768</input>
-        <output>samples</output>
-      </button>
+      </slider>
       <separator height="0.5"/>
       <separator color="white"/>
       <separator height="0.5"/>

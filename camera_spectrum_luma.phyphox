@@ -76,7 +76,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
         <input axis="y">fft</input>
       </graph>
       <separator height="1"/>
-      <value label="Samples used">
+      <value label="Samples used" precision="0">
         <input>actual_samples</input>
       </value>
       <value label="Period used" unit="[[unit_short_second]]" precision="2">
@@ -107,34 +107,9 @@ If you are using auto exposure, be aware that the average brightness will drift 
     </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
-      <value label="Samples" precision="0">
-        <input>samples</input>
-      </value>
-      <separator height="0.5"/>
-      <button label="128">
-        <input type="value">128</input>
+      <slider label="Samples" minValue="128" maxValue="4096" precision="0" stepSize="128">
         <output>samples</output>
-      </button>
-      <button label="256">
-        <input type="value">256</input>
-        <output>samples</output>
-      </button>
-      <button label="512">
-        <input type="value">512</input>
-        <output>samples</output>
-      </button>
-      <button label="1024">
-        <input type="value">1024</input>
-        <output>samples</output>
-      </button>
-      <button label="2048">
-        <input type="value">2048</input>
-        <output>samples</output>
-      </button>
-      <button label="4096">
-        <input type="value">4096</input>
-        <output>samples</output>
-      </button>
+      </slider>
     </view>
     <view label="Raw data">
       <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
