@@ -633,9 +633,15 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
-      <slider label="Samples" minValue="128" maxValue="4096" precision="0" stepSize="128">
+      <dropdown label="Samples">
         <output>samples</output>
-      </slider>
+        <map value="128">128</map>
+        <map value="256">256</map>
+        <map value="512">512</map>
+        <map value="1024">1024</map>
+        <map value="2048">2048</map>
+        <map value="4096">4096</map>
+      </dropdown>
     </view>
     <view label="Raw data">
       <graph label="Acceleration x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³">
