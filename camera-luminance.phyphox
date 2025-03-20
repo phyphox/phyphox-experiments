@@ -128,7 +128,7 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
       <value label="Luminance" size="2" precision="3">
         <input>luminance</input>
       </value>
-      <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="Luminance" partialUpdate="true" unitX="[[unit_short_second]]">
+      <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="[[quantity_short_luminance]]" partialUpdate="true" unitX="[[unit_short_second]]">
         <input axis="x" lineWidth="2">t</input>
         <input axis="y">luminance</input>
       </graph>

@@ -855,7 +855,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
         <map min="0.5">Triggered</map>
       </value>
       <separator height="1"/>
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_luma]]" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>

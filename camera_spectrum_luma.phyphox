@@ -112,7 +112,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
       </slider>
     </view>
     <view label="Raw data">
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Luminance" unitY="a.u." partialUpdate="true">
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_unit_luma]]" partialUpdate="true">
         <input axis="x">time_subrange</input>
         <input axis="y">luma_subrange</input>
       </graph>
