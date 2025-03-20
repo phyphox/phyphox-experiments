@@ -770,6 +770,34 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <separator height="1"/>
       <info label="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available."/>
     </view>
+    <view label="Coordinates">
+      <value label="Status">
+        <input>status</input>
+        <map max="-1">GPS disabled</map>
+        <map min="0">GPS active</map>
+      </value>
+      <separator height="2"/>
+      <value format="float" label="Latitude" size="1" precision="6" unit="[[unit_short_degree]]">
+        <input>lat</input>
+      </value>
+      <value format="float" label="Longitude" size="1" precision="6" unit="[[unit_short_degree]]">
+        <input>lon</input>
+      </value>
+      <separator height="2"/>
+      <value format="degree-minutes" label="Latitude" size="1" precision="4" positiveUnit="[[direction_short_north]]" negativeUnit="[[direction_short_south]]">
+        <input>lat</input>
+      </value>
+      <value format="degree-minutes" label="Longitude" size="1" precision="4" positiveUnit="[[direction_short_east]]" negativeUnit="[[direction_short_west]]">
+        <input>lon</input>
+      </value>
+      <separator height="2"/>
+      <value format="degree-minutes-seconds" label="Latitude" size="1" precision="2" positiveUnit="[[direction_short_north]]" negativeUnit="[[direction_short_south]]">
+        <input>lat</input>
+      </value>
+      <value format="degree-minutes-seconds" label="Longitude" size="1" precision="2" positiveUnit="[[direction_short_east]]" negativeUnit="[[direction_short_west]]">
+        <input>lon</input>
+      </value>
+    </view>
   </views>
   <analysis sleep="0.1">
     <count>
