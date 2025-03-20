@@ -38,6 +38,7 @@
       <string original="Off">Aus</string>
       <string original="On">An</string>
       <string original="Resolution">Auflösung</string>
+      <string original="White noise">Weißes Rauschen</string>
     </translation>
     <translation locale="cs">
       <title>Zvukové spektrum</title>

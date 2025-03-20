@@ -32,6 +32,19 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
 </description>
       <string original="Luminance">Leuchtdichte</string>
       <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Tippe auf die Vorschau und ziehe die Kreise um den Bereich des Bilds zu wählen, der bei der Messung berücksichtigt wird. Du kannst auch verschiedene Einstellungen für die Kamera vornehmen. Unterbelichtete Bereiche werden blau markiert, überbelichtete werden rot markiert.</string>
+      <string original="Frame rate">Bildrate</string>
+      <string original="Important">Wichtig</string>
+      <string original="What is being measured?">Was wird gemessen?</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">Diese Funktion misst die relative Leuchtdichte mit der Kamera des Smartphones. Sie berücksichtigt die Helligkeit des Kamerabildes und die verwendeten Kameraeinstellungen (z.B. Belichtungszeit). Der absolute Wert hängt von der Kamera und leider auch von einigen Nachbearbeitungen des Handys ab, die wir nicht verhindern können.</string>
+      <string original="What errors are introduced by my phone?">Welche Fehler entstehen durch die Nachbearbeitung?</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">Einige Smartphones optimieren die von der Kamera erfassten Daten, um ein ansprechenderes Bild zu erzeugen, indem sie die Helligkeit bestimmter Bildbereiche verändern. Die häufigsten Effekte sind:</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- Kontrastverstärkung: Dunkle Bereiche des Bildes werden dunkler, helle Bereiche heller. Dies passiert, wenn das gesamte Kamerabild keine starken Variationen in der Helligkeit aufweist.</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- Dynamikbereichskompression: Dunkle Bereiche werden aufgehellt, helle Bereiche abgedunkelt. Dies geschieht, wenn Details im Bild durch extreme Helligkeitswerte verloren gehen würden. Bei Smartphones mit starker Dynamikbereichskompression bleibt die relative Leuchtdichte nahezu unverändert, selbst wenn die Kameraeinstellungen verändert werden, da das bearbeitete Bild eine ähnliche Helligkeit beibehält.</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- Helligkeitsverstärkung: Die meisten Smartphones erhöhen die Bildhelligkeit, wenn das Bild andernfalls viel zu dunkel wäre.</string>
+      <string original="How to measure reliably despite post-processing?">Wie kann man trotz Nachbearbeitung zuverlässig messen?</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">Wir empfehlen, die Belichtung so einzustellen, dass der gemessene Bereich eine mittlere Helligkeit (d.h. grau) aufweist. Die automatische Belichtung von phyphox passt die Kameraeinstellungen entsprechend an, sodass dieser Helligkeitsbereich erreicht wird. Diese Helligkeit ist weitgehend unbeeinflusst von der Nachbearbeitung des Telefons. Die relative Leuchtdichte basiert dann fast ausschließlich auf den Kameraeinstellungen (insbesondere ISO und Belichtungszeit), die für diese Helligkeit erforderlich sind. Da die automatische Belichtung einen Moment benötigt, um sich zu stabilisieren, sollte man vor der Messung kurz warten und beobachten, ob sich das Vorschaubild auf eine mittlere graue Helligkeit einpendelt.</string>
+      <string original="Details for advanced users">Details für fortgeschrittene Nutzer</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">Die Rohdaten der Kamera werden in RGB konvertiert, wobei die einzelnen RGB-Kanäle unter Annahme der Gamma-Kurve von sRGB linearisiert und anschließend wieder in einen Luma-Wert umgerechnet werden. Die relative Leuchtdichte ist der auf die Kameraeinstellungen normalisierte Luma-Wert, sodass ein rein weißes Bild eine relative Leuchtdichte von 1 ergibt, wenn die Kamera auf eine Belichtungszeit von 1/60s, einen ISO-Wert von 100 und eine Blende von f/1 eingestellt ist. (Dies ermöglicht jedoch weiterhin keinen Vergleich zwischen verschiedenen Gerätemodellen.)</string>
     </translation>
     <translation locale="el">
       <string original="Preview">Προεπισκόπηση</string>
@@ -158,7 +171,7 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
       <info bold="true" label="How to measure reliably despite post-processing?"/>
       <info label="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness."/>
       <separator height="1"/>
-      <info bold="true" label="How to measure reliably despite post-processing?"/>
+      <info bold="true" label="Details for advanced users"/>
       <info label="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.)."/>
     </view>
   </views>
@@ -168,12 +181,12 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
       <output>lastTimes</output>
     </append>
     <differentiate>
-        <input keep="true">lastTimes</input>
-        <output>lastPeriods</output>
+      <input keep="true">lastTimes</input>
+      <output>lastPeriods</output>
     </differentiate>
     <average>
-        <input>lastPeriods</input>
-        <output>framePeriod</output>
+      <input>lastPeriods</input>
+      <output>framePeriod</output>
     </average>
     <divide>
       <input type="value">1</input>

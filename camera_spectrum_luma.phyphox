@@ -4,13 +4,351 @@
   <icon format="base64">
 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
   </icon>
-  <description>
-            Display the frequency spectrum of changing brightness from the camera.
+  <description>Display the frequency spectrum of changing brightness from the camera.
 
 This experiment measures the brightness in the selected area of the camera image and claculates the frequency spectrum of brightness fluctuations. Note that the maximum frequency of this spectrum is determined by the capabilities of your camera. The resolution of the spectrum can be changed by taking into account more data points (see settings), which results in slower reaction to changes as a trade-off.
 
 If you are using auto exposure, be aware that the average brightness will drift towards 0.5 within a short time. This may allow reliable triggering in changing light conditions, but it may also impact the precision of the triggers and especially measured durations. Also note, that this stopwatch uses luma instead of luminance, i.e. a non-linear representation of brightness, which can be calculated faster. This means that the value will not be comparable to the luminance measurements and that it is influenced by changing exposure settings.
-    </description>
+</description>
+  <translations>
+    <translation locale="cs">
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Resolution">Rozlišení</string>
+      <string original="Acquisition rate">Vzorkovací frekvence</string>
+      <string original="Nyquist frequency">Nyquistova frekvence</string>
+      <string original="Preview">Náhled</string>
+      <string original="History">Historie</string>
+      <string original="Time">čas</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+    </translation>
+    <translation locale="de">
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Resolution">Auflösung</string>
+      <string original="Acquisition rate">Aufnahmerate</string>
+      <string original="Nyquist frequency">Nyquist-Frequenz</string>
+      <string original="Preview">Vorschau</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Raw data">Rohdaten</string>
+      <title>Kamera-Spektrum: Helligkeit</title>
+      <category>Werkzeuge</category>
+      <description>Zeigt das Frequenz-Spektrum schwankender Helligkeit des Kamerabildes.
+
+Dieses Experiment misst die Helligkeit im ausgewählten Bereich des Kamerabildes und berechnet das Frequenzspektrum der Helligkeitsschwankungen. Beachte, dass die maximale Frequenz dieses Spektrums durch die Leistungsfähigkeit deiner Kamera bestimmt wird. Die Auflösung des Spektrums kann durch die Berücksichtigung weiterer Datenpunkte (siehe Einstellungen) erhöht werden, was jedoch als Kompromiss zu einer langsameren Reaktion auf Änderungen führt.
+
+Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche Helligkeit innerhalb kurzer Zeit auf 0,5 driftet. Dies kann eine zuverlässige Auslösung unter wechselnden Lichtverhältnissen ermöglichen, aber auch die Präzision der Auslösungen und insbesondere die gemessenen Zeitdauern beeinflussen. Beachte außerdem, dass diese Stoppuhr Luma anstelle von Luminanz verwendet, also eine nichtlineare Darstellung der Helligkeit, die schneller berechnet werden kann. Dies bedeutet, dass der Wert nicht mit Luminanzmessungen vergleichbar ist und von sich ändernden Belichtungseinstellungen beeinflusst wird.
+</description>
+    </translation>
+    <translation locale="el">
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Resolution">Διακριτικότητα</string>
+      <string original="Acquisition rate">Ρυθμός καταγραφής</string>
+      <string original="Nyquist frequency">Συχνότητα Nyquist</string>
+      <string original="Preview">Προεπισκόπηση</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">χρόνος</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+    </translation>
+    <translation locale="es">
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="Acquisition rate">Tasa de adquisición</string>
+      <string original="Nyquist frequency">Frecuencia de Nyquist</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Spectrum">Spectre</string>
+      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Fourier Transform">Transformée de Fourier</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="FFT Mag">FFT Amplitude</string>
+      <string original="Samples used">Nombre d'échantillons</string>
+      <string original="Period used">Durée de l’échantillonnage</string>
+      <string original="Acquisition rate">Fréquence d'acquisition</string>
+      <string original="Nyquist frequency">Fréquence de Nyquist</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Choisissez le nombre d'échantillons utilisés pour calculer la transformée de Fourier. Plus ce nombre est grand, plus la résolution en fréquence sera bonne, mais cela prendra plus de temps.</string>
+      <string original="Samples">Nombre d'échantillons</string>
+      <string original="Raw data">Données brutes</string>
+    </translation>
+    <translation locale="hi">
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="1/min">1/मिनट</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="Acquisition rate">अर्जन दर</string>
+      <string original="Nyquist frequency">नाइक्विस्ट आवृत्ति</string>
+      <string original="Preview">पूर्वावलोकन</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+    </translation>
+    <translation locale="it">
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Acquisition rate">Frequenza di acquisizione</string>
+      <string original="Nyquist frequency">Frequenza di Nyquist</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="Raw data">Dati grezzi</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency">周波数</string>
+      <string original="FFT Mag">FFTピーク強度</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="Acquisition rate">サンプリングレート</string>
+      <string original="Nyquist frequency">ナイキスト周波数</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下記より，フーリエ変換に使用するデータのサンプル数の変更が可能です．サンプル数を大きくすることで周波数分解能を改善できますが，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">時系列データ</string>
+    </translation>
+    <translation locale="ka">
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="1/min">1/წთ</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="Acquisition rate">მიღების სიხშირე</string>
+      <string original="Nyquist frequency">ჩამკეტი სიხშირე</string>
+      <string original="Preview">ნახვა</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Acquisition rate">Acquisitiesnelheid</string>
+      <string original="Nyquist frequency">Nyquist frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Acquisition rate">Częstotliwość próbkowania</string>
+      <string original="Nyquist frequency">Częstotliwość skł. widmowych</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frequência</string>
+      <string original="FFT Mag">TFR Mag</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="Acquisition rate">Taxa de aquisição</string>
+      <string original="Nyquist frequency">Frequência de Nyquist</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="1/min">1/мин</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Resolution">Разрешение</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Preview">Предварительный просмотр</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="1/min">1/dakika</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="Acquisition rate">Edinme oranı</string>
+      <string original="Nyquist frequency">Nist frekansı</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Spectrum">Phổ</string>
+      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="1/min">1/phút</string>
+      <string original="Fourier Transform">Biến đổi Fourier</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Samples used">Mẫu được dùng</string>
+      <string original="Period used">Khoảng được dùng</string>
+      <string original="Resolution">Độ phân giải</string>
+      <string original="Acquisition rate">Tốc độ thu được</string>
+      <string original="Nyquist frequency">Tần số Nyquist</string>
+      <string original="Preview">Xem trước</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Bạn có thể đặt số lượng mẫu được sử dụng cho biến đổi Fourier bên dưới. Nhiều mẫu hơn có nghĩa là cập nhật chậm hơn, nhưng độ phân giải phổ cao hơn.</string>
+      <string original="Samples">Mẫu</string>
+      <string original="Raw data">Dữ liệu thô</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <string original="Spectrum">加速度频谱</string>
+      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Fourier Transform">傅里叶变换</string>
+      <string original="Frequency">频率</string>
+      <string original="FFT Mag">FFT幅值</string>
+      <string original="Samples used">采用样本数</string>
+      <string original="Period used">使用周期</string>
+      <string original="Acquisition rate">采样率</string>
+      <string original="Nyquist frequency">奈奎斯特频率</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Settings">设置</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">以下你可以设立傅里叶变换采用的样本数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
+      <string original="Samples">样本数</string>
+      <string original="Raw data">原始数据</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency">頻率</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="Acquisition rate">資料獲取速率</string>
+      <string original="Nyquist frequency">奈奎斯頻率</string>
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+    </translation>
+  </translations>
   <data-containers>
     <container size="4096">lumaIn</container>
     <container size="4096">luma</container>
@@ -92,7 +430,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
         <input>maxf</input>
       </value>
       <separator height="1"/>
-      <camera-gui label="Preview" exposure_adjustment_level="3" />
+      <camera-gui label="Preview" exposure_adjustment_level="3"/>
     </view>
     <view label="History">
       <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">

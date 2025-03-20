@@ -7,6 +7,8 @@ This configuration allows you to set a lower threshold and an upper threshold fo
 
 Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
 
+The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
+
 Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
 </description>
   <icon format="base64">
@@ -93,6 +95,8 @@ Diese Konfiguration erlaubt es dir eine untere und eine obere Grenze für den mi
 
 Beachte, dass phyphox den Farbwert im Bereich von 0° bis 360° darstellt und eine zyklische Mittelung einsetzt. Wenn die untere Grenze größer ist als die obere Grenze, wird der Farbwertbereich über 360° nach 0° ausgewählt. Zum Beispiel löst ein Bereich von 10° bis 30° bei 20° aus, aber nicht bei 40°. Aber ein Bereich von 350° bis 10° löst bei 359° und auch bei 0° aus, aber nicht bei 20°.
 
+Die zeitliche Auflösung wird durch die Bildrate des Vorschaumodus der Kamera bestimmt. Diese liegt in der Regel bei 30 fps, was zu einer Sample Rate von 33 ms führt. Beachte, dass phyphox den Vorschaumodus nutzt um Echtzeit-Auswertungen zu machen, was die Bildrate einschränkt. Falls dein Handy einen Hochgeschwindigkeits- oder Zeitlupenmodus anbietet, der höhere Bildraten anbietet, sind diese höheren Bildraten nur in Aufnahmen, nicht aber in der Vorschau vorhanden. Da phyphox derzeit jedoch keine Aufnahmen, sondern nur den Live-Modus unterstützt, sind diese höheren Bildraten hier nicht verfügbar.
+
 Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teils auch eine automatische Belichtung zu einer Drift der Farbwerte und damit auch der genauen Auslöseschwellen führen kann.
 </description>
       <string original="Trigger from">Auslösen von</string>
@@ -101,6 +105,14 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Hue">Farbwert</string>
       <string original="Trigger on events">Ereignisse</string>
       <string original="Trigger durations">Auslösedauer</string>
+      <string original="Trigger range">Auslösebereich</string>
+      <string original="Trigger">Auslösen</string>
+      <string original="outside range">außerhalb des Bereichs</string>
+      <string original="inside range">innerhalb des Bereichs</string>
+      <string original="State">Zustand</string>
+      <string original="Idle">Untätig</string>
+      <string original="Triggered">Ausgelöst</string>
+      <string original="Frame rate">Bildrate</string>
     </translation>
     <translation locale="el">
       <string original="Settings">Ρυθμίσεις</string>
@@ -1362,25 +1374,23 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <input type="empty"/>
       <output>don5</output>
     </if>
-
     <append>
       <input keep="true">t</input>
       <output>lastTimes</output>
     </append>
     <differentiate>
-        <input keep="true">lastTimes</input>
-        <output>lastPeriods</output>
+      <input keep="true">lastTimes</input>
+      <output>lastPeriods</output>
     </differentiate>
     <average>
-        <input>lastPeriods</input>
-        <output>framePeriod</output>
+      <input>lastPeriods</input>
+      <output>framePeriod</output>
     </average>
     <divide>
       <input type="value">1</input>
       <input keep="true">framePeriod</input>
       <output>frameRate</output>
     </divide>
-
     <!-- BPM and many plot -->
     <differentiate>
       <input clear="false">onEvents</input>
