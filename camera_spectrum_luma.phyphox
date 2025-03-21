@@ -456,7 +456,7 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       </dropdown>
     </view>
     <view label="Raw data">
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_unit_luma]]" partialUpdate="true">
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_luma]]" partialUpdate="true">
         <input axis="x">time_subrange</input>
         <input axis="y">luma_subrange</input>
       </graph>
