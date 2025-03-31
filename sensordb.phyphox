@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.19" locale="en">
   <title>Submit to sensor database</title>
   <category>phyphox.org</category>
   <color>white</color>
@@ -637,6 +637,7 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <send id="raw_ligt" type="buffer">res_ligt</send>
       <send id="raw_pro" type="buffer">res_pro</send>
       <send id="raw_prot" type="buffer">res_prot</send>
+      <send id="camera2api" type="meta">camera2apiFull</send>
       <receive id="result">state</receive>
     </connection>
   </network>
