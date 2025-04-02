@@ -300,7 +300,10 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <edit label="Duration" unit="[[unit_short_milli_second]]" min="1" max="500">
         <output>length</output>
       </edit>
-    </view>
+      <slider label="Duration" minValue="1" maxValue="500" stepSize="10" showValue="false">
+        <output>length</output>
+      </slider>
+   </view>
   </views>
   <analysis requireFill="recording" requireFillDynamic="lengthSamplesLimit">
     <divide>
