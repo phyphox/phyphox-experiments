@@ -67,6 +67,7 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
     </translation>
     <translation locale="fr">
       <string original="Average rate">Fréquence moyenne</string>
+      <category>Caméra</category>
     </translation>
     <translation locale="hi">
       <string original="Preview">पूर्वावलोकन</string>

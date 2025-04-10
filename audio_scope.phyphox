@@ -303,7 +303,7 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <slider label="Duration" minValue="1" maxValue="500" stepSize="10" showValue="false">
         <output>length</output>
       </slider>
-   </view>
+    </view>
   </views>
   <analysis requireFill="recording" requireFillDynamic="lengthSamplesLimit">
     <divide>

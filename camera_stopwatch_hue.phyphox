@@ -1,6 +1,6 @@
 <phyphox version="1.19" locale="en">
   <title>Camera stopwatch: Color</title>
-  <category>Timers</category>
+  <category>Camera</category>
   <description>Measure times between changes in color, for example caused by passing objects.
 
 This configuration allows you to set a lower threshold and an upper threshold for the average hue in the measurement rectangle. If the hue falls within the range, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
@@ -88,7 +88,7 @@ Be aware that automatic white balance as well as auto exposure may cause a drift
       <string original="Average interval">Mittleres Intervall</string>
       <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
       <title>Kamera-Stoppuhr: Farbe</title>
-      <category>Zeitmessung</category>
+      <category>Kamera</category>
       <description>Miss die Zeit zwischen Farbänderungen, z.B. verursacht durch sich bewegende Objekte.
 
 Diese Konfiguration erlaubt es dir eine untere und eine obere Grenze für den mittleren Farbwert ("hue") im Mess-Rechteck zu wählen. Falls der Farbwert in diesen Bereich fällt, wird die aktuell Zeit als Auslöser-Ereignis gespeichert. Die Zeiten zwischen verschiedenen Ereignissen sowie die Länge dieser Ereignisse können so gemessen werden.
@@ -152,7 +152,7 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
       <title>Χρονόμετρο κάμερας: Χρώμα</title>
-      <category>Χρονόμετρα</category>
+      <category>Κάμερα</category>
       <description>Μετρήστε χρονικές διάρκειες μεταξύ αλλαγών στο χρώμα, που προκαλούνται για παράδειγμα, από διερχόμενα αντικείμενα.
 
 Αυτή η ρύθμιση σάς επιτρέπει να ορίσετε ένα κατώτερο και ένα ανώτερο όριο για τη μέση απόχρωση στο ορθογώνιο μέτρησης. Εάν η απόχρωση βρίσκεται μέσα στο διάστημα αυτό, η τρέχουσα ώρα ορίζεται ως συμβάν ενεργοποίησης. Καταγράφονται οι χρόνοι μεταξύ διαφορετικών συμβάντων καθώς και η διάρκεια τους.
@@ -243,6 +243,7 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Time interval">Temps mesuré</string>
       <string original="Average interval">Moyenne de l'intervalle de temps</string>
       <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+      <category>Caméra</category>
     </translation>
     <translation locale="hi">
       <string original="Settings">सेटिंग्स</string>

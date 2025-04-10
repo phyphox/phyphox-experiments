@@ -1,6 +1,6 @@
 <phyphox version="1.19" locale="en">
   <title>Camera stopwatch: Brightness</title>
-  <category>Timers</category>
+  <category>Camera</category>
   <description>Measure times between changes in brightness, for example caused by passing objects.
 
 This configuration allows you to set a lower threshold and an upper threshold for the average brightness (more specific: luminance) in the measurement rectangle. If the brightness exceeds the upper threshold or drops below the lower one, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
@@ -90,7 +90,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
       <string original="Average interval">Mittleres Intervall</string>
       <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
       <title>Kamera-Stoppuhr: Helligkeit</title>
-      <category>Zeitmessung</category>
+      <category>Kamera</category>
       <description>Miss die Zeit zwischen Helligkeitsänderungen, z.B. verursacht durch sich bewegende Objekte.
 
 Diese Konfiguration erlaubt es dir eine untere und eine obere Grenze für die mittlere Helligkeit (Leuchtdichte) im Mess-Rechteck zu wählen. Falls die Helligkeit unter die untere Grenze fällt oder die obere Grenze übersteigt, wird die aktuelle Zeit als Auslöser-Ereignis gespeichert. Die Zeiten zwischen verschiedenen Ereignissen sowie die Länge dieser Ereignisse können so gemessen werden.
@@ -152,7 +152,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
       <title>Χρονόμετρο κάμερας: φωτεινότητα</title>
-      <category>Χρονόμετρα</category>
+      <category>Κάμερα</category>
       <description>Μετρήστε τους χρόνους μεταξύ των αλλαγών στη λαμπρότητα που προκαλούνται για παράδειγμα από διερχόμενα αντικείμενα.
 
 Αυτή η ρύθμιση επιτρέπει να ορίσετε ένα κατώτερο και ένα ανώτερο όριο για τη μέση φωτεινότητα στο ορθογώνιο μέτρησης. Εάν η λαμπρότητα υπερβεί το ανώτερο όριο ή πέσει κάτω από το κατώτερο, η τρέχουσα χρονική στιγμή σημειώνεται ως συμβάν ενεργοποίησης. Καταγράφονται οι χρόνοι μεταξύ διαφορετικών συμβάντων καθώς και η διάρκεια τους.
@@ -243,6 +243,7 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <string original="Time interval">Temps mesuré</string>
       <string original="Average interval">Moyenne de l'intervalle de temps</string>
       <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+      <category>Caméra</category>
     </translation>
     <translation locale="hi">
       <string original="Settings">सेटिंग्स</string>

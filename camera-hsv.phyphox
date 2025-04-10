@@ -57,6 +57,7 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     </translation>
     <translation locale="fr">
       <string original="Average rate">Fréquence moyenne</string>
+      <category>Caméra</category>
     </translation>
     <translation locale="hi">
       <string original="Preview">पूर्वावलोकन</string>
