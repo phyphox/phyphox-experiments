@@ -6,7 +6,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRF
   </icon>
   <description>Display the frequency spectrum of changing brightness from the camera.
 
-This experiment measures the brightness in the selected area of the camera image and claculates the frequency spectrum of brightness fluctuations. Note that the maximum frequency of this spectrum is determined by the capabilities of your camera. The resolution of the spectrum can be changed by taking into account more data points (see settings), which results in slower reaction to changes as a trade-off.
+This experiment measures the brightness in the selected area of the camera image and calculates the frequency spectrum of brightness fluctuations. Note that the maximum frequency of this spectrum is determined by the capabilities of your camera. The resolution of the spectrum can be changed by taking into account more data points (see settings), which results in slower reaction to changes as a trade-off.
 
 If you are using auto exposure, be aware that the average brightness will drift towards 0.5 within a short time. This may allow reliable triggering in changing light conditions, but it may also impact the precision of the triggers and especially measured durations. Also note, that this stopwatch uses luma instead of luminance, i.e. a non-linear representation of brightness, which can be calculated faster. This means that the value will not be comparable to the luminance measurements and that it is influenced by changing exposure settings.
 </description>
