@@ -765,6 +765,8 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
     <container size="0">inHue</container>
     <container size="0">thisHue</container>
     <container size="1">hue_last</container>
+    <container size="1">t_last</container>
+    <container size="1">t_limit</container>
     <container size="0">inT</container>
     <container size="0">triggering</container>
     <container size="0">triggering_change</container>
@@ -1018,6 +1020,22 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <input keep="true">thisHue</input>
       <output>hue_last</output>
     </append>
+    <append>
+        <input keep="true">t</input>
+        <output>t_last</output>
+    </append>
+    <subtract>
+        <input>t_last</input>
+        <input type="value">10</input>
+        <output>t_limit</output>
+    </subtract>
+    <rangefilter>
+      <input>t</input>
+      <input as="min">t_limit</input>
+      <input>amplitude</input>
+      <output>t</output>
+      <output>amplitude</output>
+    </rangefilter>
     <!-- Translate input values into 1 (for triggering) and 0 (non-triggering) according to user-selected trigger range -->
     <formula formula="min((1-heaviside([4]))*(heaviside([1_]-[3]) * heaviside([2]-[1_])) + (heaviside([4]))*(heaviside([1_]-[2]) + heaviside([3]-[1_])),1)">
       <input>thisHue</input>
