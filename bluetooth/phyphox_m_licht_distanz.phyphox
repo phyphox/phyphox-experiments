@@ -1,0 +1,122 @@
+<phyphox version="1.12">
+    <title>Light-Distance</title>
+    <category>phyphox:m</category>
+	<color>117799</color>
+    <description>VEML6030</description>
+	<translations>	
+	</translations>	
+    <data-containers>
+        <container size="0">time_raw</container>
+		<container size="0">time</container>
+		<container size="1">timeOffset</container>
+
+		<container size="0">light</container>
+		<container size="0">white_light</container>
+
+		<container size="1">timeSpan</container>
+
+		<container size="1">count</container>
+		<container size="1">first</container>
+		<container size="1">rate</container>
+		
+		<container size="1" init="1">config_en</container>
+		<container size="1" init="2">config_integration_time</container>
+		<container size="1" init="3">config_gain</container>
+		
+		<container size="1" init="1">send_config</container>
+
+		<container size="1">config_en_out</container>
+		<container size="1">config_integration_time_out</container>
+		<container size="1">config_gain_out</container>
+		
+		<container size="6" init="25,50,100,200,400,800">integration_time_table</container>
+		<container size="4" init="2,1,0.25,0.125">gain_table</container>
+		
+		<container size="1">selected_integration_time</container>
+		<container size="1">selected_gain</container>
+
+        <container size="0">time_distance</container>
+        <container size="0">distance</container>
+        <container size="0">distance_raw</container>
+        <container size="0">std</container>
+        <container size="1">count_distance_raw</container>
+        <container size="1">average_distance</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:m" name="phyphox:m" mode="notification">
+            <config char="cddf1016-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010203</config>
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="uInt16LittleEndian">light</output>
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="2" conversion="uInt16LittleEndian">white_light</output>
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">time_raw</output>
+            <!-- distance -->
+            <config char="cddf1014-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="0" repeating="8" conversion="uInt16LittleEndian">distance_raw</output>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="2" repeating="8" conversion="uInt16LittleEndian">std</output>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="8" conversion="float32LittleEndian">time_distance</output>            
+        </bluetooth>		
+    </input>    	
+	<views>
+        <view label="Rawdata">
+        <graph style="dots" label="Distance-Light" timeOnX="false" labelX="d" unitX="mm" labelY="Ev" unitY="lx" partialUpdate="false">
+                <input axis="x">distance</input>
+                <input axis="y">light</input>
+		</graph>          
+		<graph label="Illuminance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+			<input axis="x">time</input>
+			<input axis="y">light</input>
+		</graph>
+		<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
+			<input>light</input>
+		</value>		
+		<graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
+            <input axis="x">time</input>
+            <input axis="y">distance</input>
+		</graph>        		            
+        </view>
+    </views>
+
+    <analysis optimization="true">
+    <first>
+        <input as="value" clear="false">time_raw</input>
+        <output as="first">timeOffset</output>
+    </first>
+    <subtract>
+        <input as="minuend" clear="false">time_raw</input>
+        <input as="subtrahend" clear="false">timeOffset</input>
+        <output as="difference">time</output>			
+    </subtract>    
+    <count>
+        <input as="buffer" clear="false">light</input>
+        <output as="count">count</output>
+    </count>
+	
+    <count>
+        <input as="buffer" clear="false">distance</input>
+        <output as="count">count_distance_raw</output>
+    </count>
+    <average>
+        <input as="buffer" clear="false">distance_raw</input>
+        <output as="average">average_distance</output>
+    </average>    
+    <if less="true" equal="false" greater="false">
+	    <input as="a" clear="false">count_distance_raw</input>
+	    <input as="b" clear="false">count</input>
+	    <input as="true" clear="false">average_distance</input>
+	    <output clear="false" as="result">distance</output>
+	</if>
+    <if less="true" equal="false" greater="false">
+	    <input as="a" clear="false">count_distance_raw</input>
+	    <input as="b" clear="false">count</input>
+	    <input as="true" type="empty"/>
+	    <output clear="true" as="result">distance_raw</output>
+	</if>	
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">time</data>
+			<data name="light (lx)">light</data>
+			<data name="distance (mm)">distance</data>
+        </set>
+    </export>
+</phyphox>

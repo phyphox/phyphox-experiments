@@ -1,0 +1,133 @@
+<phyphox version="1.12">
+    <title>Temperature, Humidity</title>
+    <category>phyphox:m</category>
+    <color>117799</color>
+    <description>SHTC3</description>
+
+    <data-containers>
+        <container size="0">time_raw</container>
+        <container size="1">timeOffset</container>
+		<container size="0">time</container>
+
+        <container size="0">temperature</container>
+        <container size="0">humidity</container>
+		
+		<container size="1">count</container>
+		<container size="1">first</container>
+		<container size="1">rate</container>
+
+        <container size="1" init="0">configButton</container>
+        <container size="2">byteArray</container>
+
+        <container size="1" init="3">interval</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:m" name="phyphox:m" mode="notification">
+            <config char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">0103</config>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">temperature</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">humidity</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian">time_raw</output>
+        </bluetooth>
+    </input>       
+    <output>
+        <bluetooth id="phyphox:m">
+            <input char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="byteArray">byteArray</input>
+        </bluetooth>
+    </output>
+    <views>
+        <view label="Rawdata">
+            <graph label="Temperature" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">temperature</input>                
+            </graph>
+            <value label="Temperature" unit="°C" size="1" precision="1" scientific="false" factor="1" >
+                <input>temperature</input>
+            </value> 
+
+            <graph label="Relative humidity" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="RH" unitY="%" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">humidity</input>                
+            </graph>
+            <value label="RH" unit="%" size="1" precision="1" scientific="false" factor="1" >
+                <input>humidity</input>
+            </value> 
+        </view>
+
+        <view label="Settings">
+            <value label="current measurement interval" unit="ms" size="1" precision="1" scientific="false" factor="1" >
+                <input>interval</input>
+                <map min="0" max="3">30ms</map>
+                <map min="50" max="50">500ms</map>
+                <map min="100" max="100">1s</map>
+                <map min="200" max="200">2s</map>
+            </value> 
+            <button label="30ms">
+                <input type="value">3</input>
+                <output>interval</output>
+                <input type="value">1</input>
+                <output>configButton</output>
+            </button>    
+            <button label="500ms">
+                <input type="value">50</input>
+                <output>interval</output>
+                <input type="value">1</input>
+                <output>configButton</output>
+            </button>            
+            <button label="1s">
+                <input type="value">100</input>
+                <output>interval</output>
+                <input type="value">1</input>
+                <output>configButton</output>
+            </button>   
+            <button label="2s">
+                <input type="value">200</input>
+                <output>interval</output>
+                <input type="value">1</input>
+                <output>configButton</output>
+            </button>                                       
+        </view>        
+    </views>
+    <analysis sleep="0" onUserInput="false">
+		<first>
+            <input as="value" clear="false">time_raw</input>
+            <output as="first">timeOffset</output>
+        </first>
+		<subtract>
+            <input as="minuend" clear="false">time_raw</input>
+            <input as="subtrahend" clear="false">timeOffset</input>
+            <output as="difference">time</output>			
+        </subtract>
+        <count>
+            <input as="buffer" clear="false">temperature</input>
+            <output as="count">count</output>
+        </count>
+        <formula formula="[2]/([1])">
+            <input as="in" clear="false">time</input>
+            <input as="in" clear="false">count</input>
+            <output as="out">rate</output>
+        </formula>
+        <append>
+            <input type="value">1</input>
+            <input clear="false">interval</input>
+            <output as="out">byteArray</output>
+		</append>
+        <if equal="true">
+            <input clear="false">configButton</input>
+            <input type="value">0</input>
+            <input type="empty" />
+            <output as="result" clear="true">byteArray</output>
+        </if>  
+        <append>
+            <input type="value">0</input>
+            <output as="out">configButton</output>
+		</append>      
+    </analysis>
+    <export>
+        <set name="Raw data">
+            <data name="Time (s)">time</data>
+            <data name="Temperature (°C)">temperature</data>
+			<data name="rel Humidity (%)">humidity</data>
+        </set>
+    </export>
+</phyphox>

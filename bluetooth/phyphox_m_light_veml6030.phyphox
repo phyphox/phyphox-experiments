@@ -1,0 +1,147 @@
+<phyphox version="1.12">
+    <title>Light</title>
+    <category>phyphox:m</category>
+	<color>117799</color>
+    <description>VEML6030</description>
+	<translations>	
+	</translations>	
+    <data-containers>
+        <container size="0">time_raw</container>
+		<container size="0">time</container>
+		<container size="1">timeOffset</container>
+
+		
+		<container size="0">light</container>
+		<container size="0">white_light</container>
+
+		<container size="1">timeSpan</container>
+
+		<container size="1">count</container>
+		<container size="1">first</container>
+		<container size="1">rate</container>
+		
+		<container size="1" init="1">config_en</container>
+		<container size="1" init="2">config_integration_time</container>
+		<container size="1" init="3">config_gain</container>
+		
+		<container size="1" init="1">send_config</container>
+
+		<container size="1">config_en_out</container>
+		<container size="1">config_integration_time_out</container>
+		<container size="1">config_gain_out</container>
+		
+		<container size="6" init="25,50,100,200,400,800">integration_time_table</container>
+		<container size="4" init="2,1,0.25,0.125">gain_table</container>
+		
+		<container size="1">selected_integration_time</container>
+		<container size="1">selected_gain</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:m" name="phyphox:m" mode="notification">
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="uInt16LittleEndian">light</output>
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="2" conversion="uInt16LittleEndian">white_light</output>
+			<output char="cddf1015-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">time_raw</output>
+        </bluetooth>		
+    </input>
+    <output>
+        <bluetooth id="phyphox:m">
+		<input char="cddf1016-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="singleByte">config_en_out</input>
+		<input char="cddf1016-30f7-4671-8b43-5e40ba53514a" offset="1" conversion="singleByte">config_integration_time_out</input>
+		<input char="cddf1016-30f7-4671-8b43-5e40ba53514a" offset="2" conversion="singleByte">config_gain_out</input>
+        </bluetooth>
+    </output>
+    	
+	<views>
+        <view label="Rawdata">
+		<graph label="Illuminance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+			<input axis="x">time</input>
+			<input axis="y">light</input>
+		</graph>
+		<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
+			<input>light</input>
+		</value>		
+		
+		<graph label="Illuminance (white)" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+                	<input axis="y">white_light</input>
+                	<input axis="x">time</input>
+		</graph>
+		<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
+			<input>white_light</input>
+		</value>		
+        </view>
+	
+	<view label="Settings">		
+		<info label="The following settings are used in this experiment configuration:" >
+		</info>
+		<value label="Integration time" size="1" precision="0" scientific="false" unit="ms" factor="1" >
+			<input>selected_integration_time</input>
+		</value>
+		<value label="Gain" size="1" precision="3" scientific="false" unit="" factor="1" >
+			<input>selected_gain</input>
+		</value>
+		
+	</view>
+    </views>
+    <analysis optimization="true">
+	    <first>
+        <input as="value" clear="false">time_raw</input>
+        <output as="first">timeOffset</output>
+    </first>
+    <subtract>
+        <input as="minuend" clear="false">time_raw</input>
+        <input as="subtrahend" clear="false">timeOffset</input>
+        <output as="difference">time</output>			
+    </subtract>
+	<if less="false" equal="true" greater="false">
+	    <input as="a" clear="false">send_config</input>
+	    <input as="b" clear="false" type="value">1</input>
+		<input as="false" type="empty" />
+	    <input as="true" clear="false">config_en</input>
+	    <output as="result">config_en_out</output>
+	</if>
+	<if less="false" equal="true" greater="false">
+		<input as="a" clear="false">send_config</input>
+		<input as="b" clear="false" type="value">1</input>
+		<input as="false" type="empty" />
+		<input as="true" clear="false">config_integration_time</input>
+		<output as="result">config_integration_time_out</output>
+	</if>
+	<if less="false" equal="true" greater="false">
+		<input as="a" clear="false">send_config</input>
+		<input as="b" clear="false" type="value">1</input>
+		<input as="false" type="empty" />
+		<input as="true" clear="false">config_gain</input>
+		<output as="result">config_gain_out</output>
+	</if>
+	
+	<append cycles="1-">
+        <input as="in" type="value">0</input>
+        <output as="out">send_config</output>
+    </append>
+	
+	<subrange>
+		<input as="in" clear="false">integration_time_table</input>
+		<input as="from" clear="false">config_integration_time</input>
+		<input as="length" type="value">1</input>
+		<output>selected_integration_time</output>
+	</subrange>
+	<subrange>
+		<input as="in" clear="false">gain_table</input>
+		<input as="from" clear="false">config_gain</input>
+		<input as="length" type="value">1</input>
+		<output>selected_gain</output>
+	</subrange>	
+    <count>
+        <input as="buffer" clear="false">light</input>
+        <output as="count">count</output>
+    </count>
+	
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">time</data>
+
+        </set>
+    </export>
+</phyphox>

@@ -1,0 +1,84 @@
+<phyphox version="1.12">
+    <title>Distance</title>
+    <category>phyphox:m</category>
+    <color>117799</color>
+    <description>Uses the VL53L4 sensor of the newton board to measure distance.</description>
+
+    <data-containers>
+        <container size="0">time_raw</container>
+        <container size="1">timeOffset</container>
+		<container size="0">time</container>
+
+        <container size="0">distance</container>
+        <container size="0">std</container>
+		
+		<container size="1">count</container>
+		<container size="1">first</container>
+		<container size="0">battery</container>
+		<container size="0">batteryTime</container>
+		<container size="1" init="100">rate</container>
+		
+				
+		<container size="1">timeSpan</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:m" name="phyphox:m" mode="notification">
+            <config char="cddf1014-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="0" repeating="8" conversion="uInt16LittleEndian">distance</output>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="2" repeating="8" conversion="uInt16LittleEndian">std</output>
+            <output char="cddf1013-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="8" conversion="float32LittleEndian">time_raw</output>            
+        </bluetooth>
+    </input>       
+    <views>
+        <view label="Rawdata">
+            <graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">distance</input>                
+            </graph>
+            <value label="Distance" unit="mm" size="1" precision="1" scientific="false" factor="1" >
+                <input>distance</input>
+            </value> 
+
+            <graph label="Standard deviation" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="σ" unitY="mm" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">std</input>                
+            </graph>
+            <value label="σ" unit="mm" size="1" precision="1" scientific="false" factor="1" >
+                <input>std</input>
+            </value>                         			
+        </view>
+        <view label="Settings">
+            <value label="Rate" unit="Hz" size="1" precision="0" scientific="false" factor="1" >
+                <input>rate</input>
+            </value> 
+        </view>
+    </views>
+    <analysis sleep="0" onUserInput="false">
+    <first>
+        <input as="value" clear="false">time_raw</input>
+        <output as="first">timeOffset</output>
+    </first>
+    <subtract>
+        <input as="minuend" clear="false">time_raw</input>
+        <input as="subtrahend" clear="false">timeOffset</input>
+        <output as="difference">time</output>			
+    </subtract>	
+		<count>
+            <input as="buffer" clear="false">distance</input>
+            <output as="count">count</output>
+        </count>
+		<formula formula="([1])/[2]">
+            <input as="in" clear="false">count</input>
+			<input as="in" clear="false" >rate</input>
+            <output as="out" clear="true">timeSpan</output>
+        </formula>
+    </analysis>
+    <export>
+        <set name="Rawdata">
+            <data name="Time (s)">time</data>
+            <data name="Distance (mm)">distance</data>
+			<data name="Standart deviation (mm)">std</data>
+        </set>
+    </export>
+</phyphox>
