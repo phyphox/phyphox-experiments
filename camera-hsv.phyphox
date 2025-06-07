@@ -51,6 +51,7 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
       <string original="Saturation and Value">Κορεσμός και Τιμή</string>
       <string original="sat., val.">S, V</string>
       <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Στην προεπισκόπηση, σύρετε για να αλλάξετε την περιοχή που λαμβάνεται υπόψη για την αξιολόγηση της εικόνας. Μπορείτε επίσης να επιλέξετε διαφορετική ρύθμιση της κάμερας για τη ρύθμιση της εικόνας εντός της περιοχής. Οι υποεκτεθειμένες περιοχές επισημαίνονται με μπλε χρώμα, ενώ οι υπερεκτεθειμένες περιοχές επισημαίνονται με κόκκινο χρώμα.</string>
+      <string original="Frame rate">Ρυθμός ανανέωσης</string>
     </translation>
     <translation locale="es">
       <string original="Average rate">Tasa promedio</string>

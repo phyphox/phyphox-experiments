@@ -6,7 +6,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRF
   </icon>
   <description>Display the frequency spectrum of changing brightness from the camera.
 
-This experiment measures the brightness in the selected area of the camera image and calculates the frequency spectrum of brightness fluctuations. Note that the maximum frequency of this spectrum is determined by the capabilities of your camera. The resolution of the spectrum can be changed by taking into account more data points (see settings), which results in slower reaction to changes as a trade-off.
+This experiment measures the brightness in the selected area of the camera image and claculates the frequency spectrum of brightness fluctuations. Note that the maximum frequency of this spectrum is determined by the capabilities of your camera. The resolution of the spectrum can be changed by taking into account more data points (see settings), which results in slower reaction to changes as a trade-off.
 
 If you are using auto exposure, be aware that the average brightness will drift towards 0.5 within a short time. This may allow reliable triggering in changing light conditions, but it may also impact the precision of the triggers and especially measured durations. Also note, that this stopwatch uses luma instead of luminance, i.e. a non-linear representation of brightness, which can be calculated faster. This means that the value will not be comparable to the luminance measurements and that it is influenced by changing exposure settings.
 </description>
@@ -74,6 +74,13 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       <string original="Samples">Δείγματα</string>
       <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <category>Κάμερα</category>
+      <title>Φάσμα της κάμερας: Φωτεινότητα</title>
+      <description>Εμφάνιση του φάσματος συχνοτήτων της μεταβαλλόμενης φωτεινότητας από την κάμερα.
+
+Αυτό το πείραμα μετρά τη φωτεινότητα στην επιλεγμένη περιοχή της εικόνας της κάμερας και υπολογίζει το φάσμα συχνοτήτων των διακυμάνσεων της φωτεινότητας. Σημειώστε ότι η μέγιστη συχνότητα αυτού του φάσματος καθορίζεται από τις δυνατότητες της κάμεράς σας. Η ανάλυση του φάσματος μπορεί να αλλάξει λαμβάνοντας υπόψη περισσότερα σημεία δεδομένων (βλ. ρυθμίσεις), γεγονός που έχει ως αποτέλεσμα την πιο αργή αντίδραση στις αλλαγές ως αντιστάθμισμα.
+
+Εάν χρησιμοποιείτε αυτόματη έκθεση, λάβετε υπόψη ότι η μέση φωτεινότητα θα διολισθήσει προς το 0,5 μέσα σε σύντομο χρονικό διάστημα. Αυτό μπορεί να επιτρέπει την αξιόπιστη ενεργοποίηση σε μεταβαλλόμενες συνθήκες φωτισμού, αλλά μπορεί επίσης να επηρεάζει την ακρίβεια των ενεργοποιήσεων και ιδιαίτερα τις μετρούμενες διάρκειες. Σημειώστε επίσης ότι αυτό το χρονόμετρο χρησιμοποιεί τη λαμπρότητα αντί της φωτεινότητας, δηλαδή μια μη γραμμική αναπαράσταση της φωτεινότητας, η οποία υπολογίζεται ταχύτερα. Αυτό σημαίνει ότι η τιμή δεν θα είναι συγκρίσιμη με τις μετρήσεις φωτεινότητας και επίσης ότι επηρεάζεται από την αλλαγή των ρυθμίσεων έκθεσης.
+</description>
     </translation>
     <translation locale="es">
       <string original="Spectrum">Espectro</string>

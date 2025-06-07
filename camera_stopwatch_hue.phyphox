@@ -169,6 +169,14 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Hue">Απόχρωση</string>
       <string original="Trigger on events">Γεγονότα ενεργοποίησης</string>
       <string original="Trigger durations">Διάρκεια ενεργοποιήσεων</string>
+      <string original="Trigger range">Εύρος ενεργοποίησης</string>
+      <string original="Trigger">Ενεργοποίηση</string>
+      <string original="outside range">εκτός εύρους</string>
+      <string original="inside range">εντός εύρους</string>
+      <string original="State">Κατάσταση</string>
+      <string original="Idle">Σε αδράνεια</string>
+      <string original="Triggered">Ενεργοποιημένο</string>
+      <string original="Frame rate">Ρυθμός ανανέωσης</string>
     </translation>
     <translation locale="es">
       <string original="Settings">Ajustes</string>
@@ -1021,13 +1029,13 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <output>hue_last</output>
     </append>
     <append>
-        <input keep="true">t</input>
-        <output>t_last</output>
+      <input keep="true">t</input>
+      <output>t_last</output>
     </append>
     <subtract>
-        <input>t_last</input>
-        <input type="value">10</input>
-        <output>t_limit</output>
+      <input>t_last</input>
+      <input type="value">10</input>
+      <output>t_limit</output>
     </subtract>
     <rangefilter>
       <input>t</input>

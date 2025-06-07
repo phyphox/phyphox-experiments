@@ -254,6 +254,7 @@
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Επίσης βεβαιωθείτε ότι η ρύθμιση για την τοποθεσία στο σύστημα σας δεν είναι ρυθμισμένη στο "Εξοικονόμηση ενέργειας" γιατί τότε συνήθως απενεργοποιείται η ακριβής λειτουργία του GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Η οριζόντια ακρίβεια είναι η αβεβαιότητα στην τοποθεσία σας, ενώ η κατακόρυφη ακρίβεια (συνήθως μικρότερη) είναι η αβεβαιότητα στο υψόμετρο. Αν η ακρίβεια είναι μηδέν, τότε η πληροφορία για την ακρίβεια δεν είναι διαθέσιμη.</string>
       <string original="unknown">άγνωστο</string>
+      <string original="Coordinates">Συντεταγμένες</string>
     </translation>
     <translation locale="ja">
       <title>位置 (GPS)</title>
