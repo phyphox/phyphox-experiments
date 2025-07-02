@@ -413,7 +413,7 @@
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000">
         <output>f</output>
       </edit>
-      <slider label="Frequency" showValue="false" minValue="100" maxValue="8000">
+      <slider label="Frequency" showValue="false" minValue="100" maxValue="8000"precision="0">
         <output>f</output>
       </slider>
       <graph label="Signal" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]">

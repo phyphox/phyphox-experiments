@@ -359,7 +359,6 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
     </translation>
   </translations>
   <data-containers>
-    <container size="4096">lumaIn</container>
     <container size="4096">luma</container>
     <container size="4096">time</container>
     <container size="4096">luma_subrange</container>
@@ -405,7 +404,7 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="prioritizeFramerate">
-      <output component="luma">lumaIn</output>
+      <output component="luma">luma</output>
       <output component="t">time</output>
     </camera>
   </input>
@@ -480,10 +479,6 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       <input as="length" type="value">256</input>
       <output>timeline</output>
     </const>
-    <append>
-      <input>lumaIn</input>
-      <output clear="false">luma</output>
-    </append>
     <count>
       <input clear="false">luma</input>
       <output>count</output>
