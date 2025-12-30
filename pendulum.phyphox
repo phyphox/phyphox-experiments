@@ -598,6 +598,35 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope y">जायरोस्कोप y</string>
       <string original="Gyroscope z">जायरोस्कोप z</string>
     </translation>
+    <translation locale="ta">
+      <title>ஊசல்</title>
+      <category>இயந்திரவியல்</category>
+      <description>
+        உங்கள் தொலைபேசியை ஊசலாகப் பயன்படுத்தி ஈர்ப்பு மாறிலியை (g=9.81m/s²) தீர்மானிக்கவும்.
+
+        இந்தப் பரிசோதனை ஊசல் இயக்கத்தை அளவிட gyroscope-ப் பயன்படுத்துகிறது மற்றும் அலைவு காலம் T ஐக் கணக்கிடுகிறது. பயனர் ஊசலுக்குப் பயன்படுத்தப்படும் சரத்தின் நீளம் L ஐ உள்ளிட வேண்டும், எனவே பைபாக்ஸ் g = 4π²L/T² ஐக் கணக்கிட முடியும்.
+
+        மாற்றாக, g ஐ அளவிடுவதற்குப் பதிலாக, நீங்கள் தாவல் நீளத்தைப் பயன்படுத்தி g = 9.81 m/s² என்று வைத்துக் கொண்டு, ஊசல் இயக்கத்திலிருந்து சரத்தின் நீளத்தைக் கண்டறியலாம். (உண்மையில் இது சுழல் புள்ளியிலிருந்து நிறை மையத்திற்கான தூரம்)
+
+        கூடுதலாக, அதிர்வு பட்டியில், இது கண்டறியப்பட்ட அதிர்வெண்ணுக்கு எதிராக வீச்சைக் காட்டுகிறது. இந்த வழியில், நீங்கள் ஒரு இயக்கப்படும் ஊசலை உருவாக்கி அதன் அதிர்வெண்ணை மாற்றி அதிர்வு வளைவை அளவிடலாம்.
+
+        மேலும் விவரங்கள்::
+        மூன்று Gyroscope கூறுகளின் கூட்டுத்தொகையின் தன்னியக்க தொடர்பு மூலம் அலைவுக்காலத்தைப் பெருகிறது. முதல் மதிப்பீட்டிற்காக அதன் முதல் அதிகபட்சத்திற்கு தன்னியக்க தொடர்பு பகுப்பாய்வு செய்யப்படுகிறது, பின்னர் மிகவும் துல்லியமான முடிவைப் பெற தன்னியக்க தொடர்புகளின் கடைசி அதிகபட்சம் பயன்படுத்தப்படுகிறது.
+    </description>
+      <string original="Results">முடிவுகள்</string>
+      <string original="Period">கால இடைவெளி</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Length">நீளம்</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">இங்கே, உங்கள் ஊசலின் நீளத்தை (நிறை மையத்திற்கு) உள்ளிட்டு பூமியின் முடுக்கம் g ஐ தீர்மானிக்கலாம்.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">இங்கே, g = 9.81 m/s² என்று வைத்துக் கொண்டு, உங்கள் ஊசலின் நீளத்தை (நிறை மையத்திற்கு மையப் புள்ளி) நீங்கள் தீர்மானிக்கலாம்.</string>
+      <string original="Resonance">அதிர்வெண்</string>
+      <string original="Rel. amplitude">ஒப்பீட்டு வீச்சு</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">இந்த பட்டியில், கண்டறியப்பட்ட அதிர்வெண்ணுக்கு எதிராக வீச்சு வரையப்பட்டுள்ளது. இயக்கப்படும் ஊசலின் அதிர்வை அளவிட இதைப் பயன்படுத்தலாம். 0 முதல் 1 வரையிலான வீச்சு வரம்பிற்கு சராசரி மதிப்பு பயன்படுத்தப்படுகிறது.</string>
+      <string original="Autocorrelation">தன்னியக்க தொடர்பு</string>
+      <string original="Δt">Δநேரம்</string>
+      <string original="correlation">தொடர்பு</string>
+      <string original="Raw Data">மூலத்தரவு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

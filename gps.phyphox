@@ -618,6 +618,41 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">यह भी सुनिश्चित करें कि आपके सिस्टम की लोकेशन सेटिंग "पावर सेविंग" पर सेट न हो, क्योंकि यह आमतौर पर सटीक GPS स्रोत को बंद कर देता है।</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">क्षैतिज मान में सटीकता आपकी अवस्थिति में अनिश्चितता है और ऊर्ध्वाधर मान में सटीकता आपकी समुद्र तल से ऊँचाई में अनिश्चितता है जो कि अक्सर बदतर होती है। सटीकता शून्य होने की स्थिति में यह जानकारी उपलब्ध नहीं होगी।</string>
     </translation>
+    <translation locale="ta">
+      <title>இருப்பிடம் (GPS)</title>
+      <category>மூல உணர்விகள்</category>
+      <description>
+        செயற்கைக்கோள் வழியே மூல நிலைத் தரவைப் பெறுங்கள்.
+
+        கிடைக்கும் தரவு உங்கள் சாதனத்தில் உள்ள செயலாக்கத்தைப் பொறுத்து மாறுபடலாம் என்பதை கவனத்தில் கொள்ளவும். சில சாதனங்கள் செங்குத்துத் துல்லியம் அல்லது செயற்கைக்கோள்களின் எண்ணிக்கையை வழங்காமல் இருக்கலாம்.
+
+        மேலும், இயல்பாகவே, செயற்கைக்கோள் வழிசெலுத்தலில் இருந்து வரும் தரவுகளுடன், பொதுவாகத் துல்லியம் குறைந்த பிற மூலங்களிலிருந்து (WiFi அல்லது இணையம் போன்றவை) வரும் இருப்பிடத் தகவல்களும் கலந்திருக்கும். மீண்டும், உங்கள் சாதனத்தைப் பொறுத்து, செயற்கைக்கோள் வழிசெலுத்தலில் இருந்து மட்டுமே தரவுகளைச் சேகரிக்கும் அமைப்பை இயக்குவதன் மூலம், இந்த மூலங்களை பரிசோதனைப் பட்டியிலிருந்து முடக்க முடியும்.
+
+        வேகம் மற்றும் திசை ஆகியவை பொதுவாக சாதனத்தால் வழங்கப்படுகின்றன, மேலும் அவை இரண்டு அல்லது அதற்கு மேற்பட்ட தொடர்ச்சியான இருப்பிடத் தரவுகளை அடிப்படையாகக் கொண்டவை.
+    </description>
+      <string original="Position">இடம்</string>
+      <string original="Status">நிலை</string>
+      <string original="GPS disabled">GPS முடக்கப்பட்டது</string>
+      <string original="GPS active">GPS இயக்கப்பட்டது</string>
+      <string original="Latitude">அட்சரேகை</string>
+      <string original="Longitude">தீர்க்கரேகை</string>
+      <string original="Altitude">உயரம்</string>
+      <string original="Movement">நகர்வு</string>
+      <string original="Speed">வேகம்</string>
+      <string original="Direction">திசை</string>
+      <string original="Distance travelled">பயணித்த தூரம்</string>
+      <string original="Simple">எளிமையான</string>
+      <string original="Compass">திசைகாட்டி</string>
+      <string original="Distance from start">தொடக்கத்தில் இருந்து தூரம்</string>
+      <string original="Horizontal Accuracy">கிடைமட்டத் துல்லியம்</string>
+      <string original="Vertical Accuracy">செங்குத்துத் துல்லியம்</string>
+      <string original="Satellites">செயற்கைக்கோள்கள்</string>
+      <string original="unknown">அறியப்படாதது</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">சில சாதனங்களில் GPS உணர்வி இருப்பதில்லை, மாறாக அவை Wifi அல்லது இணையத்தின் மூலம் இருப்பிடத் தகவலை வழங்குகின்றன என்பதை கவனத்தில் கொள்ளவும். இந்தத் தரவு மூலங்கள் குறைந்த துல்லியத்துடன் கூடிய தரவை உருவாக்குகின்றன.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">மேலும், உங்கள் சாதனத்தின் இருப்பிட அமைப்பு 'மின் சேமிப்பு' (Power saving) என அமைக்கப்படவில்லை என்பதை உறுதிப்படுத்திக்கொள்ளுங்கள், ஏனெனில் இது பொதுவாக துல்லியமான GPS மூலத்தை அணைத்துவிடும்.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">கிடைமட்டத் துல்லியம் என்பது உங்கள் இருப்பிடத்தின் நிச்சயமற்ற தன்மையைக் குறிக்கிறது, அதே சமயம் செங்குத்துத் துல்லியம் என்பது உங்கள் உயரத்தின் (பொதுவாக மோசமான) நிச்சயமற்ற தன்மையைக் குறிக்கிறது. துல்லியம் பூஜ்ஜியமாக இருந்தால், இந்தத் தகவல் கிடைக்கவில்லை என்று அர்த்தம்.</string>
+      <string original="Coordinates">ஆயத்தொலைவுகள்</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

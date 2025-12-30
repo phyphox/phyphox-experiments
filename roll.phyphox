@@ -258,6 +258,18 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">मूल (रॉ) डेटा</string>
       <string original="Gyroscope y">जायरोस्कोप y</string>
     </translation>
+    <translation locale="ta">
+      <title>உருளுதல்</title>
+      <category>இயந்திரவியல்</category>
+      <description>
+        உங்கள் தொலைபேசியை ஒரு உருளையில் வைத்து அதன் வேகத்தை தீர்மானிக்கவும்.
+
+        உங்கள் தொலைபேசியை ஒரு காகிதச் சுருளில் வைக்க வேண்டும், அப்போதுதான் அது அதன் மிக நீளமான பக்கத்தைச் சுற்றி சுழலும். இந்தப் பரிசோதனையானது, Gyroscope-பால் அளவிடப்படும் கோண வேகத்தையும், உருளையின் ஆரத்தையும் எடுத்து, உருளை பயணிக்கும் வேகத்தைக் கணக்கிடும்.
+    </description>
+      <string original="Velocity">வேகம்</string>
+      <string original="Roll radius">உருளையின் ஆரம்</string>
+      <string original="Raw Data">மூலத்தரவு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

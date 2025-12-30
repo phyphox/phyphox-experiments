@@ -893,6 +893,51 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">ट्रिगर 5 आरम्भ</string>
       <string original="Trigger off 5">ट्रिगर 5 अंत</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒளியியல் கடிகாரம் (ஒளி உணர்வி)</title>
+      <category>நேரக் கணிப்பான்கள்</category>
+      <description>
+        உங்கள் தொலைபேசியில் பிரகாசிக்கும் ஒளியின் அடிப்படையில் நேரத்தை அளவிடவும்.
+
+        இந்தப் பரிசோதனையில், பிரகாசமான அல்லது இருண்ட நிலைகளுக்கு இடையிலான நேரத்தை அல்லது கால அளவை அளவிட, உங்கள் ஒளி உணரியை ஒரு ஒளி மூலத்திற்கு வெளிப்படுத்தலாம். எடுத்துக்காட்டாக, ஒரு ஒளி மூலத்தைத் தடுக்கும் இரண்டு நிகழ்வுகளுக்கு இடையிலான நேரத்தை நீங்கள் அளவிடலாம்.
+
+        உங்கள் தொலைபேசியில் உள்ள ஒளி உணரியைப் பொறுத்து துல்லியம் பெரிதும் சார்ந்துள்ளது என்பதை நினைவில் கொள்க. மெதுவான உணரிகளுக்கு இது ஒரு வினாடிக்கு மேல் ஆகலாம், அதே நேரத்தில் வேகமான உணரிகள் பொதுவாக ஒரு வினாடியில் பத்தில் ஒரு பங்கிற்கு மேல் வேகமாக இருக்காது. ஒளிகளை அடிப்படையாகக் கொண்ட ஒளி நேரக் கணிப்பான் பரிசோதனையைப் பயன்படுத்தி வேகமான அளவீடுகளை அடைய முடியும்.
+    </description>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Trigger below">குறைந்தபட்ச அளவு</string>
+      <string original="Trigger above">அதிகபட்ச அளவு</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">கொடுக்கப்பட்ட வரம்புகளுக்கு மேலேயும் கீழேயும் நேரக் கணிப்பான் தூண்டுகிறது. பிரகாசமான வெளிச்சத்தில் மட்டுமே தூண்ட விரும்பினால், "குறைந்தபட்ச அளவு" என்பதற்கான மதிப்பை பூஜ்ஜியமாக அமைக்கவும். இருண்ட நிகழ்வுகளில் மட்டுமே தூண்ட விரும்பினால், "அதிகபட்ச அளவு" மதிப்பை மிக அதிகமாக அமைக்கவும். கீழே உள்ள வரைபடத்திலிருந்து உங்கள் மற்ற தூண்டுதலுக்கு பொருத்தமான வரம்பை நீங்கள் வரையறுக்கலாம்.</string>
+      <string original="Illuminance">ஒளிர்வு</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">உங்கள் தொலைபேசியில் உள்ள ஒளி உணரியைப் பொறுத்து துல்லியம் பெரிதும் சார்ந்துள்ளது. மெதுவான உணரிகளுக்கு இது ஒரு வினாடிக்கு மேல் ஆகலாம், அதே நேரத்தில் வேகமான உணரிகள் பொதுவாக ஒரு வினாடியில் பத்தில் ஒரு பங்கிற்கு மேல் வேகமாக இருக்காது. ஒளிகளை அடிப்படையாகக் கொண்ட ஒளி நேரக் கணிப்பான் பரிசோதனையைப் பயன்படுத்தி வேகமான அளவீடுகளை அடைய முடியும்.</string>
+      <string original="Sequence">வரிசை</string>
+      <string original="Time 1">நேரம் ௧</string>
+      <string original="Time 2">நேரம் ௨</string>
+      <string original="Time 3">நேரம் ௩</string>
+      <string original="Time 4">நேரம் ௪</string>
+      <string original="Time 5">நேரம் ௫</string>
+      <string original="Reset">மீட்டமை</string>
+      <string original="Parallel">இணை</string>
+      <string original="Duration">கால அளவு</string>
+      <string original="Trigger duration 0">தூண்டுதல் கால அளவு ௦</string>
+      <string original="Trigger duration 1">தூண்டுதல் கால அளவு ௧</string>
+      <string original="Trigger duration 2">தூண்டுதல் கால அளவு ௨</string>
+      <string original="Trigger duration 3">தூண்டுதல் கால அளவு ௩</string>
+      <string original="Trigger duration 4">தூண்டுதல் கால அளவு ௪</string>
+      <string original="Trigger duration 5">தூண்டுதல் கால அளவு ௫</string>
+      <string original="Triggers">தூண்டுதல்கள்</string>
+      <string original="Trigger on 0">தூண்டுதல் தொடக்கம் ௦</string>
+      <string original="Trigger off 0">தூண்டுதல் முடிவு ௦</string>
+      <string original="Trigger on 1">தூண்டுதல் தொடக்கம் ௧</string>
+      <string original="Trigger off 1">தூண்டுதல் முடிவு ௧</string>
+      <string original="Trigger on 2">தூண்டுதல் தொடக்கம் ௨</string>
+      <string original="Trigger off 2">தூண்டுதல் முடிவு ௨</string>
+      <string original="Trigger on 3">தூண்டுதல் தொடக்கம் ௩</string>
+      <string original="Trigger off 3">தூண்டுதல் முடிவு ௩</string>
+      <string original="Trigger on 4">தூண்டுதல் தொடக்கம் ௪</string>
+      <string original="Trigger off 4">தூண்டுதல் முடிவு ௪</string>
+      <string original="Trigger on 5">தூண்டுதல் தொடக்கம் ௫</string>
+      <string original="Trigger off 5">தூண்டுதல் முடிவு ௫</string>
+    </translation>
   </translations>
   <input>
     <sensor type="light">

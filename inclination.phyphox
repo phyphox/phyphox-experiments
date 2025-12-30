@@ -453,6 +453,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Rotation">घूर्णन</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">यह टैब किसी समतल के झुकाव को मापने में सहायता करता है। यहाँ समतल के झुकाव को मापा जाता है क्योंकि फोन समतल पर स्थित रहता है, चाहे समतल का अभिविन्यास कुछ भी हो। घूर्णन झुकाव की दिशा देता है।</string>
     </translation>
+    <translation locale="ta">
+      <title>சாய்வு</title>
+      <category>கருவிகள்</category>
+      <description>
+        தொலைபேசியின் சாய்வுக் கோணத்தை அளவிடுகிறது.
+
+        இந்தக் கருவி தொலைபேசியின் சாய்வைத் தீர்மானிக்க முடுக்கமானியைப் பயன்படுத்துகிறது. தொலைபேசி ஒரு மேஜையில் வைக்கப்படும்போது, சாய்வு பூஜ்ஜியமாக இருக்கும். பூஜ்ஜியமற்ற சாய்வுக்கு, சாய்வின் திசையானது சுழற்சி வடிவத்தில் கொடுக்கப்படுகிறது.
+
+        தொலைபேசியின் சுழற்சியைச் (z அச்சைப் பற்றி) சாராத சாய்வை (குறிப்பாக சாய்தள சோதனைகளுக்கு) அளவிடும் பணிக்காக கோணங்கள் தேர்ந்தெடுக்கப்பட்டுள்ளது என்பதை நினைவில் கொள்க.
+    </description>
+      <string original="Flat">தரை</string>
+      <string original="Tilt up/down">கீழ்/மேல் சாய்வு</string>
+      <string original="Angle">கோணம்</string>
+      <string original="Tilt left/right">இட/வல சாய்வு</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">இந்தப் பட்டி, ஒரு தட்டையான நிலையில் இருந்து தொடங்கி, தொலைபேசியின் சாய்வு கோணத்தை அளவிட உதவுகிறது.</string>
+      <string original="Upright">நிமிர்ந்த நிலை</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">இந்தப் பட்டி, நேரான(நின்ற) நிலையில் இருந்து தொடங்கி, தொலைபேசியின் சாய்வுக் கோணத்தை அளவிட உதவுகிறது.</string>
+      <string original="Side">ஓரங்கள்</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">இந்தப் பட்டி, பக்கவாட்டு நிலையில் இருந்து தொடங்கி, தொலைபேசியின் சாய்வு கோணத்தை அளவிட உதவுகிறது.</string>
+      <string original="Plane">கிடைநிலை</string>
+      <string original="Inclination">சாய்வு</string>
+      <string original="Rotation">சுழற்சி</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">இந்தப் பட்டி கிடைநிலை சாய்வை அளவிட உதவுகிறது. தொலைபேசி அதன் சாய்நிலையைப் பொருட்படுத்தாமல் மேற்பரப்பில் தட்டையாக இருப்பதாகக் கொண்டு கிடைநிலை சாய்வை அளவிடப்படுகிறது. சுழற்சி சாய்வின் திசையை அளிக்கிறது.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

@@ -155,6 +155,14 @@
       <string original="Pressure">दबाव</string>
       <string original="Simple">साधारण (सामान्य)</string>
     </translation>
+    <translation locale="ta">
+      <title>அழுத்தம்</title>
+      <category>மூல உணர்விகள்</category>
+      <description>காற்றழுத்தமானியிலிருந்து மூலத் தரவைப் பெறுங்கள்.</description>
+      <string original="Graph">வரைபடம்</string>
+      <string original="Pressure">அழுத்தம்</string>
+      <string original="Simple">எளிமையான</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

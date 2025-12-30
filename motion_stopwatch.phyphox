@@ -653,6 +653,39 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate (bpm)">औसत दर (बी पी एम )</string>
       <string original="1/min">1/मिनट</string>
     </translation>
+    <translation locale="ta">
+      <title>இசைவுக் கடிகாரம்</title>
+      <category>கடிகாரங்கள்</category>
+      <description>
+        இரண்டு இயக்க நிகழ்வுகளுக்கு இடையிலான நேரத்தைப் பெறுங்கள்.
+
+        இந்த பரிசோதனை இரண்டு முடுக்கங்களுக்கு இடையிலான நேரத்தை அளவிட அனுமதிக்கிறது (சிறிய அதிர்ச்சிகள் போன்றவை). நிறுத்தக் கடிகாரம் எந்த அளவில் தூண்டப்படுகிறது என்பதைக் கொடுத்து, நீங்கள் வரம்பை சரிசெய்ய விரும்பலாம்.
+
+        பரிசோதனையைத் தொடங்கிய பிறகு, கடிகாரம் முதல் (மொத்த) முடுக்கம் வரம்பை மீறும் போது தொடங்கும், மேலும் இரண்டாவது முடுக்கத்தில் நிறுத்தப்படும். முதல் முடுக்க சமிக்ஞை குறுகியதாக இருப்பதை உறுதிசெய்து கொள்ளுங்கள், ஏனெனில் நீண்ட அதிர்வு உடனடியாக நிறுத்தமாக கண்டறியப்படலாம்.
+    </description>
+      <string original="Simple">எளிமையான</string>
+      <string original="Threshold">வரம்பு</string>
+      <string original="Minimum Delay">குறுகிய இடைவெளி</string>
+      <string original="Time">நேரம்</string>
+      <string original="Reset">மீட்டமை</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">உணர்வியின் இரைச்சல் அளவை விட அதிகமாகவும், ஆனால் தூண்டுதல் முடுக்கத்திற்குக் குறைவாகவும் இருக்க வரம்பை மாற்றவும் (இவற்றைச் சரிபார்க்க g இல்லாமல் முடுக்கமானி பரிசோதனையை நீங்கள் முயற்சி செய்யலாம்). அந்த நேரத்தை விடக் குறைவான தூண்டுதல்களைத் தவிர்க்க குறைந்தபட்ச தாமதத்தையும் அமைக்கவும்.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">இந்த பரிசோதனையின் துல்லியம் உங்கள் தொலைபேசியில் உள்ள முடுக்கமானியைப் பொறுத்தது. வேகமான முடுக்கமானிகள் ஒரு நொடியில் நூறில் ஒரு பங்கை விட சிறப்பாக இருக்கும், அதே நேரத்தில் மெதுவானவை ஒரு நொடி மட்டுமே தெளிவுத்திறனை அடையக்கூடும்.</string>
+      <string original="Sequence">வரிசை</string>
+      <string original="Time 1">நேரம் ௧</string>
+      <string original="Time 2">நேரம் ௨</string>
+      <string original="Time 3">நேரம் ௩</string>
+      <string original="Time 4">நேரம் ௪</string>
+      <string original="Time 5">நேரம் ௫</string>
+      <string original="Parallel">இணை</string>
+      <string original="Many">கணக்கற்ற</string>
+      <string original="Events">நிகழ்வுகள்</string>
+      <string original="Event number">நிகழ்வு எண்ணிக்கை</string>
+      <string original="Time interval">நேர இடைவெளி</string>
+      <string original="Average interval">சராசரி இடைவெளி</string>
+      <string original="Average rate">சராசரி அதிர்வு</string>
+      <string original="Average rate (bpm)">சராசரி அதிர்வு (ஒரு வினாடிக்கு)</string>
+      <string original="1/min">1/நிமிடம்</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

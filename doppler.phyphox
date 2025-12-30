@@ -368,6 +368,25 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">आवृत्ति</string>
       <string original="Speed">चाल</string>
     </translation>
+    <translation locale="ta">
+      <title>Doppler விளைவு</title>
+      <category>ஒலியியல்</category>
+      <description>
+        Doppler விளைவின் சிறிய அதிர்வெண் மாற்றங்களைக் கண்டறியவும்.
+
+        நிலையான அதிர்வெண்ணை வெளியிடும் ஒரு இசைக்கவை(Tuner) உங்களுக்குத் தேவைப்படும் (உதாரணமாக 1000 ஹெர்ட்ஸ்). இந்த அடிப்படை அதிர்வெண்ணை சோதனையின் அமைப்பில் உள்ளிட்டு, Doppler மாற்றப்பட்ட அதிர்வெண்ணை நீங்கள் எதிர்பார்க்கும் ஒரு கண்டறிதல் வரம்பைத் தேர்ந்தெடுக்கவும் (உதாரணமாக 10 ஹெர்ட்ஸ்). இந்தச் சோதனையானது பதிவுசெய்யப்பட்ட அதிர்வெண்ணைத் தீர்மானித்து, ஒலி மூலத்தின் சார்பு வேகத்தைக் கணக்கிடும்.
+    </description>
+      <string original="Setup">அமைப்பு</string>
+      <string original="Base frequency">அடிப்படை அதிர்வெண்</string>
+      <string original="Frequency range">அதிர்வெண் வரம்பு</string>
+      <string original="Time step">நேரப்படி</string>
+      <string original="Speed of sound">ஒலியின் வேகம்</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">நேரப்படிநிலை (time step) என்பது ஒரு தனிப்பட்ட திசைவேகப் புள்ளியைக் கணக்கிடப் பயன்படுத்தப்படும் தரவின் வீதத்தையும் அளவையும் தீர்மானிக்கிறது. இந்த வழிமுறை, அடிப்படை அதிர்வெண்ணைச் சுற்றி -வரம்பு முதல் +வரம்பு வரையிலான அதிர்வெண்ணைத் தேடி, அதிர்வெண்ணைத் தீர்மானிக்க n-வது கால அளவைப் (கீழே) பயன்படுத்தும். வரம்பு அல்லது நேரப் படிநிலைக்கான தீவிர அமைப்புகள் துல்லியமற்றதாக இருக்கலாம் அல்லது உங்கள் தொலைபேசியால் கணக்கிடுவதற்கு மிகவும் கடினமாக இருக்கலாம். மேலும், நீங்கள் வரம்பை 1/படிநிலையை விட கணிசமாகச் சிறியதாக வைத்திருக்க வேண்டும்.</string>
+      <string original="nth period">nவது காலம்</string>
+      <string original="Results">முடிவுகள்</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Speed">வேகம்</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

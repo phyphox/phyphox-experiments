@@ -354,6 +354,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">समय</string>
       <string original="Angular velocity">कोणीय वेग</string>
     </translation>
+    <translation locale="ta">
+      <title>மையநோக்கு முடுக்கம்</title>
+      <category>இயந்திரவியல்</category>
+      <description>
+        மையநோக்கு முடுக்கத்தை கோண திசைவேகத்தின் சார்பாகக் காட்சிப்படுத்துகிறது.
+
+        இந்தச் சோதனையானது Gyroscope-லிருந்து கோணத் திசைவேகம் ω-வின் தனிமதிப்பையும், முடுக்கமானியிலிருந்து நேரியல் முடுக்கம் a-வின் தனிமதிப்பையும் கணக்கிடுகிறது. a-க்கு எதிராக ω-ஐ வரைபடமாக்குவதன் மூலம் a = r·ω² என்ற தொடர்பை எளிதில் காட்ட முடியும்; எனவே, ω²-க்கு எதிராக வரைபடமாக்கும்போது ஒரு நேர்கோடு கிடைக்க வேண்டும்.
+
+        இதைக் காண, நீங்கள் ஒரு நிலையான ஆரத்தில், வெவ்வேறு கோண வேகங்களில் அளவீடுகளை எடுக்க வேண்டும். ஒரு சாலட் ஸ்பின்னர் அல்லது ஒரு சிறிய ராட்டினம் இதற்குச் சிறப்பாகப் பயன்படும்.
+    </description>
+      <string original="Relation">தொடர்பு</string>
+      <string original="Acceleration">முடுக்கம்</string>
+      <string original="Angular velocity ω">கோண வேகம் ω</string>
+      <string original="Acceleration a">முடுக்கம் a</string>
+      <string original="Square plot">இருமடங்கின் தளம்</string>
+      <string original="Time">நேரம்</string>
+      <string original="Angular velocity">கோணத் திசைவேகம்</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

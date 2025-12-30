@@ -438,6 +438,30 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">रिकॉर्डिंग</string>
       <string original="Amplitude">आयाम</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒலி தன்னியக்க தொடர்பு</title>
+      <category>ஒலியியல்</category>
+      <description>
+        ஒற்றை ஒலியின் அதிர்வெண்ணை அளவிடவும்.
+
+        இந்தச் சோதனை ஒலிவாங்கியிலிருந்து ஒலியைப் பதிவுசெய்து, அதன் அதிர்வெண்ணை ஆய்வு செய்கிறது. இது நிலையான அதிர்வெண் கொண்ட ஒற்றை ஒலி இருந்தால் மட்டுமே வேலை செய்யும் - பல அதிர்வெண்கள் இருந்தால் (ஒரு இசைக்கோர்வை போல), இதற்குப் பதிலாக "ஒலியின் வீச்சு" சோதனையைப் பயன்படுத்தவும்.
+
+        ஒலி சமிக்ஞையின் தன்னியக்கத் தொடர்பை கணக்கிடுவதன் மூலம் இந்த பகுப்பாய்வு செய்யப்படுகிறது. பின்னர், இந்தச் சோதனையானது தன்னியக்கத் தொடர்பில் உள்ள அதிகபட்ச சமிக்ஞையில் பாதியைத் தாண்டிய அனைத்து உச்சங்களையும் கருத்தில் கொள்கிறது. தன்னியக்கத் தொடர்பில் இந்த உச்சங்களில் கடைசியின் நிலை, சமிக்ஞையின் கால அளவின் ஒரு மடங்கைக் கொடுக்கிறது. உச்சங்களின் எண்ணிக்கையைக் கணக்கிடுவதன் மூலம் நாம் அடிப்படை அதிர்வெண்ணின் கால அளவைப் பெறலாம்.
+    </description>
+      <string original="Autocorr.">தன்னியக்க தொடர்பு.</string>
+      <string original="Period">கால இடைவெளி</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Musical note">இசை வடிவம்</string>
+      <string original="Low">குறைவான</string>
+      <string original="High">அதிகமான</string>
+      <string original="Cents from note">இசைக்குறிப்பின் அளவு</string>
+      <string original="Autocorrelation">தன்னியக்க தொடர்பு</string>
+      <string original="Δt">Δநேரம்</string>
+      <string original="correlation">தொடர்பு</string>
+      <string original="Raw data">மூலத்தரவு</string>
+      <string original="Recording">பதிவாகிறது</string>
+      <string original="Amplitude">வீச்சு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

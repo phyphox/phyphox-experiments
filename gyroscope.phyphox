@@ -242,6 +242,15 @@
       <string original="Gyroscope">जाइरोस्कोप</string>
       <string original="Simple">साधारण (सामान्य)</string>
     </translation>
+    <translation locale="ta">
+      <title>Gyroscope (சுழற்சி விகிதம்)</title>
+      <category>மூல உணர்விகள்</category>
+      <description>gyroscope-லிருந்து மூலத் தரவைப் பெறுங்கள்.</description>
+      <string original="Graph">வரைபடம்</string>
+      <string original="Absolute">முழுமையான</string>
+      <string original="Multi">பல</string>
+      <string original="Simple">எளிமையான</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

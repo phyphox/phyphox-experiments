@@ -571,6 +571,36 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">रिकॉर्डिंग</string>
       <string original="Amplitude">आयाम</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒலியின் வீச்சு</title>
+      <category>ஒலியியல்</category>
+      <description>
+            ஒரு ஒலியலையின் அதிர்வெண் நிறமாலையைக் காண்பிக்கிறது.
+
+            இந்தப் பரிசோதனையானது ஒலிவாங்கியிலிருந்து ஒலியைப் பதிவுசெய்து அதன் அதிர்வெண் நிறமாலையை Fourier உருமாற்றம் (FFT) மூலம் கணக்கிடுகிறது. உங்களிடம் ஒற்றை அதிர்வெண் கொண்ட ஒற்றை ஒலி மட்டுமே இருந்தால், "தன்னியக்கத் தொடர்பு" ஒலியியல் பரிசோதனையிலிருந்து நீங்கள் மிகவும் துல்லியமான முடிவுகளைப் பெறலாம்.
+    </description>
+      <string original="Spectrum">நிறமாலை</string>
+      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="Musical note">இசை வடிவம்</string>
+      <string original="Low">குறைவான</string>
+      <string original="High">அதிகமான</string>
+      <string original="Cents from note">இசைக்குறிப்பின் அளவு</string>
+      <string original="Fourier Transform">Fourier உருமாற்றம்</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Samples used">பயன்படுத்தப்பட்ட மாதிரிகள்</string>
+      <string original="Period used">பயன்படுத்தப்பட்ட கால இடைவெளி</string>
+      <string original="Resolution">பரிமானம் (l*b)</string>
+      <string original="History">வரலாறு</string>
+      <string original="Time">நேரம்</string>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier உருமாற்றத்திற்குப் பயன்படுத்தப்படும் மாதிரிகளின் எண்ணிக்கையை நீங்கள் கீழே கொடுக்கலாம். அதிக மாதிரிகள் எனில் மெதுவான புதுப்பிப்புகள், ஆனால் அதிக நிறமாலை தெளிவுத்திறன்.</string>
+      <string original="Samples">மாதிரிகள்</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">வெள்ளை இரைச்சலை உருவாக்கும் கருவி. (சத்தமாக இருக்கலாம். முதலில் உங்கள் சாதனத்தின் ஒலியளவைக் குறைக்கவும்.)</string>
+      <string original="White noise">வெள்ளை ஒலி</string>
+      <string original="Raw data">மூலத்தரவு</string>
+      <string original="Recording">பதிவாகிறது</string>
+      <string original="Amplitude">வீச்சு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

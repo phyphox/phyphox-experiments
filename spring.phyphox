@@ -462,6 +462,31 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">त्वरक मापी y</string>
       <string original="Accelerometer z">त्वरण मापी z</string>
     </translation>
+    <translation locale="ta">
+      <title>குதித்தல்</title>
+      <category>இயந்திரவியல்</category>
+      <description>
+        ஒரு குதிக்கும் ஊசலின் அதிர்வெண் மற்றும் காலத்தை பகுப்பாய்வு செய்யுங்கள்.
+
+        இந்தப் பரிசோதனையானது அலையியக்கத்தை அளவிட முடுக்கமானியைப் பயன்படுத்துகிறது மற்றும் அலைவு காலம் T ஐக் கணக்கிடுகிறது. கூடுதலாக, அதிர்வுப் பட்டியில், இது கண்டறியப்பட்ட அதிர்வெண்ணுக்கு எதிராக வீச்சைக் காட்டுகிறது. இந்த வழியில், நீங்கள் ஒரு இயக்கப்படும் ஊசலை உருவாக்கி அதன் அதிர்வெண்ணை மாற்றி அதிர்வு வளைவை அளவிடலாம்.
+
+        மேலும் சில தகவல்:
+        மூன்று முடுக்கமானி கூறுகளின் கூட்டுத்தொகையின் தன்னியக்க தொடர்பு மூலம் அலைவு காலம் பெறப்படுகிறது. முதல் மதிப்பீட்டிற்காக தன்னியக்க தொடர்பு அதன் முதல் அதிகபட்சத்திற்கு பகுப்பாய்வு செய்யப்படுகிறது, பின்னர் மிகவும் துல்லியமான முடிவைப் பெற தன்னியக்க தொடர்புகளின் கடைசி அதிகபட்சம் பயன்படுத்தப்படுகிறது.
+    </description>
+      <string original="Results">முடிவுகள்</string>
+      <string original="Period">கால இடைவெளி</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Resonance">அதிர்வெண்</string>
+      <string original="Rel. amplitude">ஒப்பீட்டு வீச்சு</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">இந்த பட்டியில், கண்டறியப்பட்ட அதிர்வெண்ணுக்கு எதிராக வீச்சு வரையப்பட்டுள்ளது. இயக்கப்படும் ஊசலின் அதிர்வை அளவிட இதைப் பயன்படுத்தலாம். 0 முதல் 1 வரையிலான வீச்சு வரம்பிற்கு சராசரி மதிப்பு பயன்படுத்தப்படுகிறது.</string>
+      <string original="Autocorrelation">தன்னியக்க தொடர்பு</string>
+      <string original="Δt">Δநேரம்</string>
+      <string original="correlation">தொடர்பு</string>
+      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Accelerometer x">முடுக்கமானி x</string>
+      <string original="Accelerometer y">முடுக்கமானி y</string>
+      <string original="Accelerometer z">முடுக்கமானி z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

@@ -768,6 +768,68 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Trigger on 5">開始觸發 5</string>
       <string original="Trigger off 5">結束觸發 5</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒளிப்படவி நிறுத்தக்கடிகாரம்: நிறம்</title>
+      <category>ஒளிப்படவி</category>
+      <description>நிற மாற்றங்களுக்கு இடையிலான நேரங்களை அளவிடுதல், எடுத்துக்காட்டாக கடந்து செல்லும் பொருட்களால் ஏற்படும்.
+
+இந்த உள்ளமைவு அளவீட்டு செவ்வகத்தில் சராசரி சாயலுக்கு குறைந்த வரம்பையும் மேல் வரம்பையும் அமைக்க உங்களை அனுமதிக்கிறது. சாயல் வரம்பிற்குள் வந்தால், தற்போதைய நேரம் ஒரு தூண்டுதல் நிகழ்வாகக் குறிப்பிடப்படும். வெவ்வேறு நிகழ்வுகளுக்கு இடையிலான நேரங்களும் இந்த நிகழ்வுகளின் கால அளவும் பதிவு செய்யப்படுகின்றன.
+
+phyphox 0° முதல் 360° வரையிலான வரம்பில் சாயலை வெளிப்படுத்துகிறது மற்றும் சுழற்சி சராசரியைப் பயன்படுத்துகிறது என்பதை நினைவில் கொள்க. கீழ் வரம்பு மேல் வரம்பு அளவை விட பெரியதாக இருந்தால், 360° முதல் 0° வரையிலான சாயல் வரம்பு தேர்ந்தெடுக்கப்படும். எடுத்துக்காட்டாக, 10° முதல் 30° வரையிலான வரம்பு 20° இல் தூண்டப்படும், ஆனால் 40° இல் அல்ல. ஆனால் 350° முதல் 10° வரையிலான வரம்பு 359° மற்றும் 0° இல் தூண்டப்படும், ஆனால் 20° இல் அல்ல.
+
+தற்காலிக தெளிவுத்திறன் ஒளிப்படவியின் முன்னோட்ட சாளர அளவால் தீர்மானிக்கப்படுகிறது, இது பொதுவாக 30fps இல் சரி செய்யப்படுகிறது, இதன் விளைவாக 33 ms மாதிரி வீதம் கிடைக்கும். நிகழ்நேர பகுப்பாய்விற்காக phyphox ஒளிப்படவியின் முன்னோட்ட தொடரை பயன்படுத்துகிறது என்பதை நினைவில் கொள்க, இது இந்த விகிதத்திற்கு மட்டுமே. உங்கள் தொலைபேசி அதிவேக அல்லது மெதுவான காணொளி பதிவுகளை வழங்கினால், அதிக பட நுணுக்கங்கள் பதிவில் மட்டுமே கிடைக்கும் (நிகழ்நேரத்தில் அல்ல), இது தற்போது phyphox-னால் பயன்படுத்தப்படவில்லை.
+
+தானியங்கி வெள்ளை சமநிலை மற்றும் தானியங்கி வெளிச்சம் ஆகியவை தீர்மானிக்கப்பட்ட வண்ணங்களில் ஒரு சறுக்கலை ஏற்படுத்தக்கூடும், இதனால் தூண்டுதலுக்கான சரியான வரம்புகளில் மாற்றம் ஏற்படலாம் என்பதை நினைவில் கொள்ளுங்கள்.
+</description>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Preview">வெள்ளோட்டம்</string>
+      <string original="Trigger range">தூண்டப்படும் வரம்பு</string>
+      <string original="Trigger">தூண்டுதல்</string>
+      <string original="outside range">வெளிப்புற வரம்பு</string>
+      <string original="inside range">உட்புற வரம்பு</string>
+      <string original="State">நிலை</string>
+      <string original="Idle">அமைதி நிலை</string>
+      <string original="Triggered">துவக்கப்பட்டது</string>
+      <string original="Hue">சாயல்</string>
+      <string original="Frame rate">காட்சி வீதம்</string>
+      <string original="Sequence">வரிசை</string>
+      <string original="Time 1">நேரம் ௧</string>
+      <string original="Time 2">நேரம் ௨</string>
+      <string original="Time 3">நேரம் ௩</string>
+      <string original="Time 4">நேரம் ௪</string>
+      <string original="Time 5">நேரம் ௫</string>
+      <string original="Reset">மீட்டமை</string>
+      <string original="Parallel">இணை</string>
+      <string original="Duration">கால அளவு</string>
+      <string original="Trigger duration 0">தூண்டுதல் கால அளவு ௦</string>
+      <string original="Trigger duration 1">தூண்டுதல் கால அளவு ௧</string>
+      <string original="Trigger duration 2">தூண்டுதல் கால அளவு ௨</string>
+      <string original="Trigger duration 3">தூண்டுதல் கால அளவு ௩</string>
+      <string original="Trigger duration 4">தூண்டுதல் கால அளவு ௪</string>
+      <string original="Trigger duration 5">தூண்டுதல் கால அளவு ௫</string>
+      <string original="Triggers">தூண்டுதல்கள்</string>
+      <string original="Trigger on 0">தூண்டுதல் தொடக்கம் ௦</string>
+      <string original="Trigger off 0">தூண்டுதல் முடிவு ௦</string>
+      <string original="Trigger on 1">தூண்டுதல் தொடக்கம் ௧</string>
+      <string original="Trigger off 1">தூண்டுதல் முடிவு ௧</string>
+      <string original="Trigger on 2">தூண்டுதல் தொடக்கம் ௨</string>
+      <string original="Trigger off 2">தூண்டுதல் முடிவு ௨</string>
+      <string original="Trigger on 3">தூண்டுதல் தொடக்கம் ௩</string>
+      <string original="Trigger off 3">தூண்டுதல் முடிவு ௩</string>
+      <string original="Trigger on 4">தூண்டுதல் தொடக்கம் ௪</string>
+      <string original="Trigger off 4">தூண்டுதல் முடிவு ௪</string>
+      <string original="Trigger on 5">தூண்டுதல் தொடக்கம் ௫</string>
+      <string original="Trigger off 5">தூண்டுதல் முடிவு ௫</string>
+      <string original="Many">கணக்கற்ற</string>
+      <string original="Trigger on events">தூண்டப்பட்ட நிகழ்வுகள்</string>
+      <string original="Event number">நிகழ்வு எண்ணிக்கை</string>
+      <string original="Time interval">நேர இடைவெளி</string>
+      <string original="Trigger durations">தூண்டுதலின் கால அளவுகள்</string>
+      <string original="Average interval">சராசரி இடைவெளி</string>
+      <string original="Average rate">சராசரி அதிர்வு</string>
+      <string original="Average rate (bpm)">சராசரி அதிர்வு (ஒரு வினாடிக்கு)</string>
+      <string original="1/min">1/நிமிடம்</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">inHue</container>

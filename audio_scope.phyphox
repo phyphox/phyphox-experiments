@@ -270,6 +270,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Amplitude">आयाम</string>
       <string original="Duration">अवधि</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒலி அளவி</title>
+      <category>ஒலியியல்</category>
+      <description>
+        பதிவுசெய்யப்பட்ட ஒலித் தரவைக் காட்டுகிறது.
+
+        இந்தப் பரிசோதனை குறுகிய கால ஆடியோ ஒலியைப் பதிவுசெய்து அவற்றைக் காட்டுகிறது. ஒரு நிலையான படத்தைப் பெற, பூஜ்ஜியக் கடப்பு ஒரு தூண்டுதலாகப் பயன்படுத்தப்படுகிறது மற்றும் t=0 முதல் (நேர்மறை) கடப்புக்கு மாற்றப்படுகிறது.
+    </description>
+      <string original="Scope">அளவு</string>
+      <string original="Audio Data">ஒலித்தரவு</string>
+      <string original="Time">நேரம்</string>
+      <string original="Amplitude">வீச்சு</string>
+      <string original="Duration">கால அளவு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

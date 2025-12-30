@@ -260,6 +260,20 @@
       <string original="Acceleration">त्वरण</string>
       <string original="Simple">साधारण (सामान्य)</string>
     </translation>
+    <translation locale="ta">
+      <title>g உடனான முடுக்கம்</title>
+      <category>பொது உணர்விகள்</category>
+      <description>முடுக்கமானியிடமிருந்து மூலத் தரவைப் பெறுங்கள். இந்த உணர்வி, ஈர்ப்பு விசையைக் கழிக்காது, எனவே தொலைபேசி ஓய்வில் இருக்கும்போது கூட இது 9.81 மீ/வி² வேகத்தை அளிக்கும்.</description>
+      <string original="Graph">வரைபடம்</string>
+      <string original="Accelerometer x">முடுக்கமானி x</string>
+      <string original="Accelerometer y">முடுக்கமானி y</string>
+      <string original="Accelerometer z">முடுக்கமானி z</string>
+      <string original="Absolute">முழுமையான</string>
+      <string original="Absolute acceleration">முழுமையான முடுக்கம்</string>
+      <string original="Multi">பல</string>
+      <string original="Acceleration">முடுக்கம்</string>
+      <string original="Simple">எளிமையான</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

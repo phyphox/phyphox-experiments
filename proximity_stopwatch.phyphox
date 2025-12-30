@@ -899,6 +899,51 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <string original="Trigger on 5">ट्रिगर 5 आरम्भ</string>
       <string original="Trigger off 5">ट्रिगर 5 अंत</string>
     </translation>
+    <translation locale="ta">
+      <title>அருகாமை நிறுத்தக் கடிகாரம்</title>
+      <category>கடிகாரங்கள்</category>
+      <description>
+        Proximity உணர்வியின்அடிப்படையில் நேரங்களை அளவிடவும்.
+
+        இந்தப் பரிசோதனையில், உங்கள் Proximity உணர்விக்கு அருகில் ஒரு பொருளைக் கொண்டு வருகிறீர்கள் (பொதுவாக தொலைபேசி அழைப்புகளுக்குப் பயன்படுத்தப்படும் ஒலிப்பானுக்கு அடுத்ததாக முன்புறத்தில் அமைந்துள்ளது) மேலும், பொருள் உங்கள் தொலைபேசிக்கு அருகில் அல்லது தொலைவில் இருக்கும் நேரங்களை அளவிடுகிறீர்கள்.
+
+        துல்லியம் உங்கள் தொலைபேசியில் உள்ள Proximity உணர்வியைச் சார்ந்துள்ளது என்பதை நினைவில் கொள்ளவும். மெதுவான உணர்விகளுக்கு இது ஒரு வினாடியை விட அதிகமாக இருக்கலாம், அதே நேரத்தில் வேகமான உணர்விகள் பொதுவாக ஒரு வினாடியில் பத்தில் ஒரு பங்கை விட வேகமாக இருக்காது. ஒலியை அடிப்படையாகக் கொண்ட வேகமான அளவீடுகளை, ஒலி நிறுத்தக் கடிகாரம் பரிசோதனையைப் பயன்படுத்தி அடையலாம்.
+    </description>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Trigger below">குறைந்தபட்ச அளவு</string>
+      <string original="Trigger above">அதிகபட்ச அளவு</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">கொடுக்கப்பட்ட வரம்புகளுக்கு மேலேயும் கீழேயும் உள்ளபோது நேரக்காட்டியை தூண்டுகிறது. நீங்கள் தொலைதூரங்களில் மட்டுமே தூண்ட விரும்பினால், "இதற்கு கீழே" மதிப்பை பூஜ்ஜியமாக அமைக்கவும். நீங்கள் நெருங்கிய தூரங்களில் மட்டுமே தூண்ட விரும்பினால், "இதற்கு மேலே" மதிப்பை மிக அதிகமாக அமைக்கவும். கீழே உள்ள வரைபடத்திலிருந்து உங்கள் மற்ற தூண்டுதலுக்கு பொருத்தமான வரம்பை நீங்கள் மதிப்பிடலாம். பெரும்பாலான உணர்விகள் 0 செ.மீ மற்றும் சுமார் 5 செ.மீ என இரண்டு தூரங்களை மட்டுமே அளவிடுகின்றன.</string>
+      <string original="Distance">தூரம்</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">துல்லியம் உங்கள் தொலைபேசியில் உள்ள Proximity உணர்வியைச் சார்ந்துள்ளது என்பதை நினைவில் கொள்ளவும். மெதுவான உணர்விகளுக்கு இது ஒரு வினாடியை விட அதிகமாக இருக்கலாம், அதே நேரத்தில் வேகமான உணர்விகள் பொதுவாக ஒரு வினாடியில் பத்தில் ஒரு பங்கை விட வேகமாக இருக்காது. ஒலியை அடிப்படையாகக் கொண்ட வேகமான அளவீடுகளை, ஒலி நிறுத்தக் கடிகாரம் பரிசோதனையைப் பயன்படுத்தி அடையலாம். iPhone-களில், உணர்வி நிமிர்ந்து வைத்திருக்கும் மட்டுமே செயல்படும் மற்றும் இயக்கப்படும் போது திரையை அணைக்கும்.</string>
+      <string original="Sequence">வரிசை</string>
+      <string original="Time 1">நேரம் ௧</string>
+      <string original="Time 2">நேரம் ௨</string>
+      <string original="Time 3">நேரம் ௩</string>
+      <string original="Time 4">நேரம் ௪</string>
+      <string original="Time 5">நேரம் ௫</string>
+      <string original="Reset">மீட்டமை</string>
+      <string original="Parallel">இணை</string>
+      <string original="Duration">கால அளவு</string>
+      <string original="Trigger duration 0">தூண்டுதல் கால அளவு ௦</string>
+      <string original="Trigger duration 1">தூண்டுதல் கால அளவு ௧</string>
+      <string original="Trigger duration 2">தூண்டுதல் கால அளவு ௨</string>
+      <string original="Trigger duration 3">தூண்டுதல் கால அளவு ௩</string>
+      <string original="Trigger duration 4">தூண்டுதல் கால அளவு ௪</string>
+      <string original="Trigger duration 5">தூண்டுதல் கால அளவு ௫</string>
+      <string original="Triggers">தூண்டுதல்கள்</string>
+      <string original="Trigger on 0">தூண்டுதல் தொடக்கம் ௦</string>
+      <string original="Trigger off 0">தூண்டுதல் முடிவு ௦</string>
+      <string original="Trigger on 1">தூண்டுதல் தொடக்கம் ௧</string>
+      <string original="Trigger off 1">தூண்டுதல் முடிவு ௧</string>
+      <string original="Trigger on 2">தூண்டுதல் தொடக்கம் ௨</string>
+      <string original="Trigger off 2">தூண்டுதல் முடிவு ௨</string>
+      <string original="Trigger on 3">தூண்டுதல் தொடக்கம் ௩</string>
+      <string original="Trigger off 3">தூண்டுதல் முடிவு ௩</string>
+      <string original="Trigger on 4">தூண்டுதல் தொடக்கம் ௪</string>
+      <string original="Trigger off 4">தூண்டுதல் முடிவு ௪</string>
+      <string original="Trigger on 5">தூண்டுதல் தொடக்கம் ௫</string>
+      <string original="Trigger off 5">தூண்டுதல் முடிவு ௫</string>
+    </translation>
   </translations>
   <input>
     <sensor type="proximity">

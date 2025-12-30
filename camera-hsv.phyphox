@@ -102,8 +102,27 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     </translation>
     <translation locale="zh_Hans">
       <string original="Average rate">平均频率</string>
+      <category>自带摄像头</category>
     </translation>
     <translation locale="zh_Hant"/>
+    <translation locale="ta">
+      <title>நிறம் (சாயல் செறிவு மதிப்பு)</title>
+      <category>ஒளிப்படவி</category>
+      <description>சாயல் செறிவு மதிப்பு (HSV) வண்ண மாதிரியைப் பயன்படுத்தி நிறத்தைத் தீர்மானிக்கவும்.
+
+தேர்ந்தெடுக்கப்பட்ட பகுதிக்குள் உள்ள புள்ளியின் தனித்தனியாக சாயல், செறிவு மற்றும் மதிப்பு என மாற்றப்பட்டு பின்னர் சராசரியாக மாற்றப்படுகின்றன. சாயல் விஷயத்தில், ஒரு சுழற்சி சராசரி பயன்படுத்தப்படுகிறது.
+
+வெள்ளை சமநிலை (White Balance) முடிவை பாதிக்கும் என்பதை நினைவில் கொள்க. உங்கள் தொலைபேசியின் தானியங்கி வெள்ளை சமநிலை பெரும்பாலான சூழ்நிலைகளில் போதுமான வேலையைச் செய்யும் என்றாலும், நுட்பமான வேறுபாடுகளைத் தீர்மானிக்க அதை ஒரு நிலையான வெள்ளை குறிப்புக்கு அமைக்க நீங்கள் விரும்பலாம்.
+</description>
+      <string original="Hue">சாயல்</string>
+      <string original="Saturation">செறிவு</string>
+      <string original="Value">அளவு</string>
+      <string original="Saturation and Value">செறிவு மற்றும் அளவு</string>
+      <string original="sat., val.">செறி., அளவு.</string>
+      <string original="Preview">வெள்ளோட்டம்</string>
+      <string original="Frame rate">காட்சி வீதம்</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">படத்தை மதிப்பிடுவதற்கு கணக்கில் எடுத்துக்கொள்ளப்படும் படத்தின் பகுதியை மாற்ற, முன்னோட்டத்தைத் தட்டி நகர்த்தவும். அந்தப் பகுதிக்குள் படத்தை அமைக்க நீங்கள் வெவ்வேறு ஒளிப்படவி அமைப்புகளையும் தேர்வு செய்யலாம். குறைவாக வெளிப்படும் பகுதிகள் நீல நிறத்திலும், அதிகமாக வெளிப்படும் பகுதிகள் சிவப்பு நிறத்திலும் குறிக்கப்பட்டுள்ளன.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">h</container>

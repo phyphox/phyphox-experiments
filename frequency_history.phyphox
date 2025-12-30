@@ -235,6 +235,18 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">आवृत्ति</string>
       <string original="Period">काल</string>
     </translation>
+    <translation locale="ta">
+      <title>அதிர்வெண் வரலாறு</title>
+      <category>ஒலியியல்</category>
+      <description>
+        ஒரு ஒற்றை ஒலிக்கு காலப்போக்கில் ஏற்படும் அதிர்வெண் மாற்றத்தை அளவிடவும்.
+
+        இந்தப் பரிசோதனையானது ஒலிவாங்கியிலிருந்து ஒலியைப் பதிவுசெய்து, குறுகிய காலத்தில் அதன் அதிர்வெண்ணைப் பகுப்பாய்வு செய்கிறது. இது தன்னியக்கத் தொடர்பைப் பயன்படுத்துவதால், நிலையான அதிர்வெண் கொண்ட ஒற்றை தொனி இருந்தால் மட்டுமே இது செயல்படும். இதன் விளைவாக காலப்போக்கில் ஒரு அதிர்வெண்ணாக வரையப்படும்.
+    </description>
+      <string original="History">வரலாறு</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Period">கால இடைவெளி</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

@@ -217,6 +217,17 @@
             </string>
       <string original="Simple">साधारण (सामान्य)</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒளி</title>
+      <category>மூல உணர்விகள்</category>
+      <description>ஒளி உணர்வியிலிருந்து மூலத் தரவைப் பெறுங்கள்.</description>
+      <string original="Graph">வரைபடம்</string>
+      <string original="Illuminance">ஒளிர்வு</string>
+      <string original="Info">
+                குறிப்பு: சில சாதனங்களில் ஒளி உணரி வெளிச்சத்தில் குறிப்பிட்ட மாற்றம் இருக்கும்போது மட்டுமே புதுப்பிக்கப்படும்.
+            </string>
+      <string original="Simple">எளிமையான</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

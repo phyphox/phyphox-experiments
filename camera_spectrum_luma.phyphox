@@ -357,6 +357,34 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       <string original="Samples">樣本數</string>
       <string original="Raw data">原始數據</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒளிப்படவி ஒளிப்பரவல்: பிரகாசம்</title>
+      <category>ஒளிப்படவி</category>
+      <description>ஒளிப்படவியிலிருந்து வரும் மாறும் பிரகாசத்தின் அதிர்வெண் நிறமாலையைக் காண்பி.
+
+இந்தச் சோதனை, ஒளிப்படவிப் படத்தின் தேர்ந்தெடுக்கப்பட்ட பகுதியில் உள்ள பிரகாசத்தை அளவிடுகிறது மற்றும் பிரகாச ஏற்ற இறக்கங்களின் அதிர்வெண் நிறமாலையைக் கணக்கிடுகிறது. இந்த நிறமாலையின் அதிகபட்ச அதிர்வெண் உங்கள் ஒளிப்படவியின் திறன்களால் தீர்மானிக்கப்படுகிறது என்பதை நினைவில் கொள்ளவும். அதிக தரவுப் புள்ளிகளைக் கணக்கில் எடுத்துக்கொள்வதன் மூலம் (அமைப்புகளைப் பார்க்கவும்) நிறமாலையின் தெளிவுத்திறனை மாற்றலாம், இதனால் மாற்றங்களில் வேகம் குறைய வாய்ப்புள்ளது.
+
+நீங்கள் தானியங்கி வெளிப்பாடு (Exposure) அமைப்பைப் பயன்படுத்தினால், சராசரி பிரகாசம் குறுகிய காலத்திற்குள் 0.5-ஐ நோக்கி நகரும் என்பதை நினைவில் கொள்ளுங்கள். இது மாறும் ஒளி நிலைகளிலும் நம்பகமான தூண்டுதலை அனுமதிக்கலாம், ஆனால் இது தூண்டுதல்களின் துல்லியத்தையும், குறிப்பாக அளவிடப்பட்ட நேர அளவுகளையும் பாதிக்கக்கூடும். மேலும், இந்த ஸ்டாப்வாட்ச் ஒளிர்வுக்குப் பதிலாக லூமாவை (luma) பயன்படுத்துகிறது என்பதையும் கவனத்தில் கொள்ளவும்; அதாவது, இது பிரகாசத்தின் ஒரு நேரியல் அல்லாத பிரதிநிதித்துவமாகும், இதை வேகமாக கணக்கிட முடியும். இதன் பொருள், இந்த மதிப்பு ஒளிர்வின் அளவீடுகளுடன் ஒப்பிடத்தக்கதாக இருக்காது என்பதும், இது மாறும் வெளிப்பாடு அமைப்புகளால் பாதிக்கப்படும் என்பதுமாகும்.
+</description>
+      <string original="Spectrum">நிறமாலை</string>
+      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="1/min">1/நிமிடம்</string>
+      <string original="Fourier Transform">Fourier உருமாற்றம்</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Samples used">பயன்படுத்தப்பட்ட மாதிரிகள்</string>
+      <string original="Period used">பயன்படுத்தப்பட்ட கால இடைவெளி</string>
+      <string original="Resolution">பரிமானம் (l*b)</string>
+      <string original="Acquisition rate">கையகப்படுத்தல் விகிதம்</string>
+      <string original="Nyquist frequency">Nyquist அதிர்வெண்</string>
+      <string original="Preview">வெள்ளோட்டம்</string>
+      <string original="History">வரலாறு</string>
+      <string original="Time">நேரம்</string>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier உருமாற்றத்திற்குப் பயன்படுத்தப்படும் மாதிரிகளின் எண்ணிக்கையை நீங்கள் கீழே கொடுக்கலாம். அதிக மாதிரிகள் எனில் மெதுவான புதுப்பிப்புகள், ஆனால் அதிக நிறமாலை தெளிவுத்திறன்.</string>
+      <string original="Samples">மாதிரிகள்</string>
+      <string original="Raw data">மூலத்தரவு</string>
+      <string original="Luma">ஒற்றை வர்ண ஒளிர்வு</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">luma</container>

@@ -414,6 +414,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">अंतिम स्कोर को रिसेट करें</string>
       <string original="Clear all scores">सभी स्कोर मिटायें</string>
     </translation>
+    <translation locale="ta">
+      <title>கைத்தட்டல் அளவி</title>
+      <category>தினசரி வாழ்வியல்</category>
+      <description>
+        ஒரு கைதட்டலின் நீளம் மற்றும் வீச்சுக்கு மதிப்பெண்களை ஒதுக்குங்கள்.
+
+        இந்த சோதனைகள் காலப்போக்கில் ஒலியின் வீச்சை ஒருங்கிணைத்து மதிப்பெண்களை ஒதுக்குகின்றன. இந்த வழியில் உரத்த மற்றும் நீண்ட கைதட்டல் அதிக மதிப்பெண்ணைப் பெறுகிறது. நீங்கள் பல போட்டியாளர்களை மதிப்பீடு செய்து பட்டை விளக்கப்படத்தில் அவர்களின் செயல்திறனை ஒப்பிடலாம்.
+
+        பயன்பாடு: வரலாறு phyphox-ல் கண்டறியப்பட்ட இரைச்சல் அளவைக் காட்டுகிறது. "தொடங்கு" என்பதை அழுத்துவதன் மூலம் மதிப்பெண்ணைத் தொடங்கலாம் மற்றும் "நிறுத்து" என்பதை அழுத்துவதன் மூலம் மதிப்பெண்ணை நிறுத்தலாம். இந்த காலகட்டத்தில் மஞ்சள் பட்டையால் குறிக்கப்படும் மதிப்பெண் அதிகரிப்பதை நீங்கள் காண்பீர்கள். நிறுத்திய பிறகு, அடுத்த மதிப்பெண்ணை அளவிடுவதற்குத் தயாராக "அடுத்த போட்டியாளர்" என்பதை அழுத்தலாம். நீங்கள் மீண்டும் "தொடங்கு" என்பதை அழுத்தும்போது, மீண்டும் "நிறுத்து" என்பதை அழுத்தும் வரை இரண்டாவது பட்டை வளரும். பல மதிப்பெண்களை ஒப்பிட நீங்கள் விரும்பும் போதெல்லாம் இதை மீண்டும் செய்யலாம்.
+    </description>
+      <string original="Score">மதிப்பெண்</string>
+      <string original="History">வரலாறு</string>
+      <string original="Time">நேரம்</string>
+      <string original="Subscore">உபமதிப்பெண்</string>
+      <string original="Scores">மதிப்பெண்கள்</string>
+      <string original="Contestant">போட்டியாளர்</string>
+      <string original="Start">தொடங்கு</string>
+      <string original="Stop">நிறுத்து</string>
+      <string original="Next contestant">அடுத்த போட்டியாளர்</string>
+      <string original="Controls">கட்டுப்பாடுகள்</string>
+      <string original="Reset last score">கடைசி மதிப்பெண்ணை மீட்டமை</string>
+      <string original="Clear all scores">அனைத்தையும் மீட்டமை</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

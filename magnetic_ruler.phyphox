@@ -386,6 +386,27 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">कुल चुंबकीय क्षेत्र स्क्वेर्ड और फ़िल्टर्ड</string>
       <string original="Filtered B²">फिल्टर्ड B²</string>
     </translation>
+    <translation locale="ta">
+      <title>காந்த அளவுகோல்</title>
+      <category>கருவிகள்</category>
+      <description>
+        தொலைபேசியின் தூரம், வேகம் மற்றும் முடுக்கம் ஆகியவற்றை அளவிட தொடர்ச்சியான காந்தங்களைப் பயன்படுத்தவும்.
+
+        இந்தப் பரிசோதனைக்காக, தொலைபேசி பயணிக்கும் பாதையில் ஒரே மாதிரியான காந்தங்களின் வரிசையை வைக்க வேண்டும். ஒவ்வொரு காந்தத்திற்கும் காந்தங்களுக்கு இடையிலான தூரம் ஒரே மாதிரியாக இருக்க வேண்டும், மேலும் பரிசோதனையில் உள்ளிடப்பட வேண்டும். பின்னர் தொலைபேசி அதன் காந்தமானியைப் பயன்படுத்தி ஒரு காந்தத்தைக் கடந்து சென்றதைத் தீர்மானிக்கும், இது மொத்த தூரத்தைக் கணக்கிட அனுமதிக்கிறது.
+    </description>
+      <string original="Results">முடிவுகள்</string>
+      <string original="dx">தூர இடைவெளி (dx)</string>
+      <string original="dx is the distance between two magnets">dx என்பது இரண்டு காந்தங்களுக்கு இடையிலான தூரம்</string>
+      <string original="Distance">தூரம்</string>
+      <string original="x">தூரம் (x)</string>
+      <string original="Velocity">வேகம்</string>
+      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Magnetic field x">காந்தப்புலம் x</string>
+      <string original="Magnetic field y">காந்தப்புலம் y</string>
+      <string original="Magnetic field z">காந்தப்புலம் z</string>
+      <string original="Total magnetic field squared and filtered">மொத்த காந்தப்புலம் இருமடங்காக்கப்பட்டு வடிகட்டப்படுகிறது</string>
+      <string original="Filtered B²">வடிகட்டப்பட்ட B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container>magnetDistance</container>

@@ -192,6 +192,7 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">速度</string>
       <string original="Acceleration">加速度</string>
       <string original="Settings">设置</string>
+      <title>深度传感器 (LiDAR / ToF)</title>
     </translation>
     <translation locale="zh_Hant">
       <string original="Graph">圖表</string>
@@ -241,6 +242,27 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Preview">पूर्वावलोकन</string>
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">नीचे कैनेमेटिक्स टैब पर ग्राफ़ की स्थानीय प्रवाह बदल सकते हैं। चौड़ाई सेटिंग वेग और त्वरण अनुमानों को प्रभावित करती है। बड़े मान कम विस्तार के साथ चिकने वक्र परिणाम में देते हैं।</string>
       <string original="Width of LOESS fit">LOESS फ़िट की चौड़ाई</string>
+    </translation>
+    <translation locale="ta">
+      <title>ஆழ உணரி (LiDAR / ToF)</title>
+      <category>ஒளிப்படவி</category>
+      <description>ஆழ உணரியைப் பயன்படுத்தி தூரங்களை அளவிடவும்.
+
+    உங்கள் தொலைபேசியில் கேமரா அமைப்பின் ஒரு பகுதியாக ஆழஉணர்வி இருந்தால் மட்டுமே இது கிடைக்கும். நீங்கள் முன்னோட்ட படத்தைத் தட்டி, அளவீட்டிற்கு பங்களிக்கும் உங்கள் ஒளிப்படவியின் பார்வையின் பகுதியைத் தேர்ந்தெடுக்கலாம், மேலும் முடிவு மிக நெருக்கமான தூரமா, சராசரி தூரமா அல்லது ஒவ்வொரு அளவிடப்பட்ட புள்ளியின் துல்லியம் குறித்த உணர்வியின் மதிப்பீட்டைக் கணக்கில் எடுத்துக்கொள்ளும் சராசரியா என்பதையும் தேர்ந்தெடுக்கலாம்.
+
+    இயக்க பட்டியில் LOESS வழிமுறையைப் பயன்படுத்தி அளவிடப்பட்ட தூரத்திலிருந்து வேகம் மற்றும் முடுக்கத்தையும் கணக்கிடுகிறது.
+</description>
+      <string original="Graph">வரைபடம்</string>
+      <string original="Distance / Depth">தூரம் / ஆழம்</string>
+      <string original="Simple">எளிமையான</string>
+      <string original="Kinematics">இயக்கவியல்</string>
+      <string original="Velocity">வேகம்</string>
+      <string original="Acceleration">முடுக்கம்</string>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">தூரத்தைக் கணக்கிட கணக்கில் எடுத்துக்கொள்ளப்படும் படத்தின் பகுதியை மாற்ற, முன்னோட்டத்தைத் தட்டி இழுக்கவும். இந்தப் பகுதிக்குள் ஆழ அளவீடுகளைத் திரட்டுவதற்கு நீங்கள் வெவ்வேறு முறைகளையும் தேர்வு செய்யலாம்.</string>
+      <string original="Preview">வெள்ளோட்டம்</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">கீழே உள்ள இயக்கவியல் பட்டியில் வரைபடங்களுக்கான உள்மென்மையாக்கலை நீங்கள் மாற்றலாம். அகல அமைப்பு வேகம் மற்றும் முடுக்கம் மதிப்பீடுகளைப் பாதிக்கிறது. பெரிய மதிப்புகள் குறைந்த விவரங்களுடன் மென்மையான வளைவுகளை உருவாக்குகின்றன.</string>
+      <string original="Width of LOESS fit">LOESS பொருத்தத்தின் அகலம்</string>
     </translation>
   </translations>
   <data-containers>

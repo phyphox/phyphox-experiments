@@ -522,6 +522,34 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">त्वरण y</string>
       <string original="Acceleration z">त्वरण z</string>
     </translation>
+    <translation locale="ta">
+      <title>முடுக்க நிறமாலை</title>
+      <category>கருவிகள்</category>
+      <description>
+            முடுக்க மானியிலிருந்து தரவின் அதிர்வெண் நிறமாலையைக் காண்பி.
+
+            இந்தப் பரிசோதனை முடுக்க மானியிலிருந்து தரவைப் பதிவுசெய்து, அதன் அதிர்வெண் நிறமாலையை Fourier உருமாற்றம் (FFT) மூலம் கணக்கிடுகிறது. அதிகபட்ச கண்டறியக்கூடிய அதிர்வெண் உங்கள் உணர்வியின் அதிகபட்ச கையகப்படுத்தல் விகிதத்தைப் பொறுத்தது.
+    </description>
+      <string original="Spectrum">நிறமாலை</string>
+      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="1/min">1/நிமிடம்</string>
+      <string original="Fourier Transform">Fourier உருமாற்றம்</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Samples used">பயன்படுத்தப்பட்ட மாதிரிகள்</string>
+      <string original="Period used">பயன்படுத்தப்பட்ட கால இடைவெளி</string>
+      <string original="Resolution">பரிமானம் (l*b)</string>
+      <string original="Acquisition rate">கையகப்படுத்தல் விகிதம்</string>
+      <string original="Nyquist frequency">Nyquist அதிர்வெண்</string>
+      <string original="History">வரலாறு</string>
+      <string original="Time">நேரம்</string>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier உருமாற்றத்திற்குப் பயன்படுத்தப்படும் மாதிரிகளின் எண்ணிக்கையை நீங்கள் கீழே கொடுக்கலாம். அதிக மாதிரிகள் எனில் மெதுவான புதுப்பிப்புகள், ஆனால் அதிக நிறமாலை தெளிவுத்திறன்.</string>
+      <string original="Samples">மாதிரிகள்</string>
+      <string original="Raw data">மூலத்தரவு</string>
+      <string original="Acceleration x">முடுக்கம் x</string>
+      <string original="Acceleration y">முடுக்கம் y</string>
+      <string original="Acceleration z">முடுக்கம் z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">accInX</container>

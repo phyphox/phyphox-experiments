@@ -392,6 +392,35 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Light">प्रकाश</string>
       <string original="Proximity">समीपता</string>
     </translation>
+    <translation locale="ta">
+      <title>உணர்வித் தரவுத்தளத்திற்கு சமர்ப்பிக்கவும்</title>
+      <category>phyphox.org</category>
+      <description>உங்கள் தொலைபேசியில் உள்ள உணர்விகள் பற்றிய தகவல்களை phyphox.org க்கு சமர்ப்பிக்கவும்.
+
+இந்த சோதனை உங்கள் தொலைபேசி மற்றும் உங்கள் சென்சார்கள் பற்றிய தொழில்நுட்பத் தரவைச் சேகரிக்கும், அதை நீங்கள் எங்கள் உணர்வித் தரவுத்தளத்தில் சமர்ப்பிக்கலாம். வெவ்வேறு சாதனங்களில் உணர்விகளின் கிடைக்கும் தன்மை மற்றும் திறன் பற்றி எங்களுக்கும் மற்றவர்களுக்கும் அறிய உதவும் வகையில் தரவு ஒருங்கிணைக்கப்பட்டு பிற பயனர்களுக்குக் கிடைக்கும்படி செய்யப்படும்.</description>
+      <string original="Submit">சமர்ப்பி</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">இந்தப் பரிசோதனை உங்கள் தொலைபேசி மற்றும் உங்கள் உணர்விகள் பற்றிய தொழில்நுட்பத் தரவைச் சேகரிக்கும், அவற்றை நீங்கள் எங்கள் உணர்வித் தரவுத்தளத்திற்குச் சமர்ப்பிக்கலாம். வெவ்வேறு சாதனங்களில் சென்சார்களின் கிடைக்கும் தன்மை மற்றும் திறன் பற்றி எங்களுக்கும் மற்றவர்களுக்கும் அறிய உதவும் வகையில், தரவு ஒருங்கிணைக்கப்பட்டு பிற பயனர்களுக்குக் கிடைக்கும்படி செய்யப்படும்.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">உங்கள் தொலைபேசியை ஒரு நிலையான மேற்பரப்பில் வைத்து "தொடங்கு" என்பதை அழுத்தவும். நகரும் போது (கார், ரயில் போன்றவை) அல்லது அதிர்வுறும் மேற்பரப்பில் (உரத்த இசை, வாகனங்களிலிருந்து வரும் அதிர்வுகள் போன்றவை) இதைச் செய்வதைத் தவிர்க்கவும், ஏனெனில் இது முடிவுகளை சிதைக்கும்.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">phyphox ஒருகணம் தரவைச் சேகரித்து, இறுதியில் தரவைச் சமர்ப்பிக்கச் சொல்லும்.</string>
+      <string original="Step">நிலை</string>
+      <string original="Waiting for start">தொடங்க காத்திருக்கிறது</string>
+      <string original="Collecting data">தரவுகளைச் சேகரிக்கிறது</string>
+      <string original="You may now press submit">நீங்கள் இப்போது "சமர்ப்பி" என்பதை அழுத்தலாம்</string>
+      <string original="Success. Thank you!">வெற்றி. நன்றி!</string>
+      <string original="Confidence">நம்பிக்கை</string>
+      <string original="Results">முடிவுகள்</string>
+      <string original="Accelerometer">முடுக்கமானி</string>
+      <string original="Rate">மதிப்பீடு</string>
+      <string original="Average">சராசரி</string>
+      <string original="Standard deviation">நிலையான விலகல்</string>
+      <string original="Acceleration (without g)">முடுக்கம் (g இல்லாமல்)</string>
+      <string original="Magnetometer">காந்தமானி</string>
+      <string original="Barometer">காற்றழுத்தமானி</string>
+      <string original="Temperature">வெப்பநிலை</string>
+      <string original="Humidity">ஈரப்பதம்</string>
+      <string original="Light">ஒளி</string>
+      <string original="Proximity">அருகாமை</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1" init="0">state</container>

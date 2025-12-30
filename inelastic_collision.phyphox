@@ -790,6 +790,47 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">न्यूनतम डिले</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले ध्वनिक विरामघड़ी (स्टॉपवॉच) प्रयोग की तुलना नियमित घड़ी से करें। अगर वह काम करता है, तो यहां यह प्रयोग भी काम करना चाहिए।</string>
     </translation>
+    <translation locale="ta">
+      <title>(மீள்) மீட்சியற்ற மோதல்</title>
+      <category>இயந்திரவியல்</category>
+      <description>
+        துள்ளும் பந்தின் மீள் மற்றும் மீளாத மோதல்களின் போது இழக்கப்படும் ஆற்றலைக் கண்டறியவும்.
+
+        கொள்கையளவில், இந்தச் சோதனை ஒலி நிறுத்தற்கடிகாரச் சோதனை போன்றே செயல்படுகிறது. இருப்பினும், இந்தச் சோதனையானது ஒரு பரப்பின் மீது துள்ளும் பந்திலிருந்து (அல்லது அதுபோன்ற ஒன்றிலிருந்து) ஒலி வருவதை எதிர்பார்க்கிறது. மேலும், மோதலினால் ஏற்படும் ஒலிகளுக்கு இடையிலான இடைவெளியை பகுப்பாய்வு செய்வதன் மூலம், முதல் துள்ளலுடன் ஒப்பிட்டு, துள்ளலின் உயரத்தையும் மீதமுள்ள இயக்க ஆற்றலையும் இது கணக்கிடும்.
+
+        மேலும், பந்து அதன் முதல் குதிக்கும் போது அதே சதவீத இயக்க ஆற்றலைத் தக்கவைத்துக்கொள்கிறது என்று கருதுவதன் மூலம், பந்து கீழே போடப்பட்ட ஆரம்ப உயரம் 0-ஐ phyphox கணக்கிடும்.
+
+        எனவே, பரிசோதனையைத் தொடங்கி, ஒரு பந்து ஒரு பரப்பில் மோதித் தெறிக்கும்போது தெளிவாகக் கேட்கக்கூடிய ஒரு ஒலியை உருவாக்கும்படி செய்யுங்கள். அமைப்புகளில் உள்ள வரம்பு மதிப்பை (0 முதல் 1 வரையிலான வரம்பில்) நீங்கள் மாற்ற வேண்டியிருக்கலாம், இதன்மூலம் இந்தச் சோதனை பந்தின் ஒலி அளவிற்கேற்ப எதிர்வினையாற்றுமே தவிர, பின்னணி இரைச்சலுக்கு அல்ல. மேலும், உங்களுக்கு எதிரொலிகளால் சிக்கல் ஏற்பட்டால், அடுத்த ஒலிக்கு எதிர்வினையாற்றுவதற்கு முன்பு சோதனை புறக்கணிக்கும் குறைந்தபட்ச இடைவெளியை அமைக்க, குறைந்தபட்ச தாமத நேரத்தையும் நீங்கள் மாற்ற விரும்பலாம்.
+    </description>
+      <string original="Heights">உயரங்கள்</string>
+      <string original="Height 0">உயரம் ௦</string>
+      <string original="Height 1">உயரம் ௧</string>
+      <string original="Time 1">நேரம் ௧</string>
+      <string original="Height 2">உயரம் ௨</string>
+      <string original="Time 2">நேரம் ௨</string>
+      <string original="Height 3">உயரம் ௩</string>
+      <string original="Time 3">நேரம் ௩</string>
+      <string original="Height 4">உயரம் ௪</string>
+      <string original="Time 4">நேரம் ௪</string>
+      <string original="Height 5">உயரம் ௫</string>
+      <string original="Time 5">நேரம் ௫</string>
+      <string original="Reset">மீட்டமை</string>
+      <string original="Energy">ஆற்றல்</string>
+      <string original="Energy 1">ஆற்றல் ௧</string>
+      <string original="Energy 2">ஆற்றல் ௨</string>
+      <string original="Retained on collision 2">௨- வது மோதலில்</string>
+      <string original="Energy 3">ஆற்றல் ௩</string>
+      <string original="Retained on collision 3">௩-வது மோதலில்</string>
+      <string original="Energy 4">ஆற்றல் ௪</string>
+      <string original="Retained on collision 4">௪-வது மோதலில்</string>
+      <string original="Energy 5">ஆற்றல் ௫</string>
+      <string original="Retained on collision 5">௫-வது மோதலில்</string>
+      <string original="Average retained">சராசரியாகத் தக்கவைக்கப்பட்டது</string>
+      <string original="Settings">அமைப்புகள்</string>
+      <string original="Threshold">வரம்பு</string>
+      <string original="Minimum Delay">குறுகிய இடைவெளி</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">துரதிர்ஷ்டவசமாக, இது வேகம்குறைந்த தொலைபேசிகளில் இயங்காது. இந்தச் சோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்திக்கொள்ள, முதலில் ஒலி அடிப்படையிலான நிறுத்தற்கடிகாரச் சோதனையை ஒரு சாதாரண கடிகாரத்துடன் ஒப்பிட்டுப் பார்க்கவும். அது சரியாக வேலை செய்தால், இந்தச் சோதனையும் வேலை செய்யும்.</string>
+    </translation>
   </translations>
   <data-containers>
     <container>threshold</container>

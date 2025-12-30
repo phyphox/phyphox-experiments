@@ -372,6 +372,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Pressure">दबाव</string>
       <string original="Accelerometer z">त्वरण मापी z</string>
     </translation>
+    <translation locale="ta">
+      <title>ஏற்றம்</title>
+      <category>அன்றாட வாழ்க்கைக்கானவை</category>
+      <description>
+        காற்றழுத்தமானியைப் பயன்படுத்தி ஒரு மின்னேற்றியின் வேகத்தைக் கண்டறிகிறது.
+
+        GPS வேலை செய்யாத இடங்களிலும் கூட, காற்றழுத்தமானியைப் பயன்படுத்தி குறுகிய நேரத்திற்குள் உயரத்தில் ஏற்படும் மாற்றங்களை மிகத் துல்லியமாக அளவிட முடியும். இதைப் பயன்படுத்தி மின்னேற்றி (Elevator)-ன் செங்குத்து வேகத்தைக் கண்டறியலாம். கூடுதலாக, முடுக்கம் z-கூறு முடுக்க மானியைப் பயன்படுத்தி அளவிடப்படுகிறது, எனவே முடுக்கத்தை துல்லியமாக அளவிட, தொலைபேசி மின்னேற்றி (Elevator)-ன் தரையில் தட்டையாக இருக்க வேண்டும்.
+
+        மேலும் சில தகவல்:
+        இந்த சோதனையில் சில சத்தங்களை நீக்க, காற்றழுத்தமானியின் அளவீடுகள் 1 வினாடிக்கு மேல் சராசரியாகக் கணக்கிடப்படுகின்றன. தொடர்ச்சியான சராசரிகளின் வேறுபாடு சர்வதேச காற்றழுத்தமானி உயர சூத்திரத்தைப் பயன்படுத்தி உயர வேறுபாடாக மாற்றப்படுகிறது. உயர வேறுபாட்டை நேர வேறுபாட்டால் வகுத்தால் செங்குத்து வேகம் கிடைக்கும்.
+    </description>
+      <string original="Motion">இயக்கம்</string>
+      <string original="Altitude (from barometer)">உயரம் (காற்றழுத்தமானியிலிருந்து)</string>
+      <string original="Vertical velocity (from altitude)">செங்குத்து வேகம் (உயரத்திலிருந்து)</string>
+      <string original="z acceleration (from accelerometer)">z முடுக்கம் (முடுக்க மானியிலிருந்து)</string>
+      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Pressure">அழுத்தம்</string>
+      <string original="Accelerometer z">முடுக்கமானி z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -378,6 +378,30 @@
       <string original="Frequency 2">आवृत्ति 2</string>
       <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">ध्यान दें कि कुल अधिकतम आयाम 1 है। यदि दोनों आयामों का योग 1 से अधिक है, तो आप विकृति का अनुभव करेंगे।</string>
     </translation>
+    <translation locale="ta">
+      <title>ஒலி உண்டாக்கி</title>
+      <category>ஒலியியல்</category>
+      <description>
+        ஒரு குறிப்பிட்ட அதிர்வெண் கொண்ட ஒலியை உருவாக்குகிறது.
+    </description>
+      <string original="Simple">எளிமையான</string>
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Signal">சமிக்ஞை</string>
+      <string original="Time">நேரம்</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphox தன்னிச்சையான அதிர்வெண்களை அமைக்க அனுமதிக்கும் அதே வேளையில், வன்பொருள் வரம்புகள் காரணமாக 100Hz க்குக் கீழே அல்லது 8000Hz க்கு மேலான அதிர்வெண்களில் மோசமான முடிவுகளை பெறுவீர்கள்.</string>
+      <string original="Status">நிலை</string>
+      <string original="Frequency low">குறைந்த அதிர்வெண்</string>
+      <string original="Frequency high">அதிகமான அதிர்வெண்</string>
+      <string original="OK">சரி</string>
+      <string original="Multi">பல</string>
+      <string original="Use multi tone generator">பல்லொலி உண்டாக்கியை பயன்படுத்து</string>
+      <string original="Mode">வகை/நிலை</string>
+      <string original="Amplitude 1">வீச்சு ௧</string>
+      <string original="Frequency 1">அதிர்வெண் க</string>
+      <string original="Amplitude 2">வீச்சு ௨</string>
+      <string original="Frequency 2">அதிர்வெண் ௨</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">மொத்த அதிகபட்ச வீச்சு 1 (க) என்பதை நினைவில் கொள்ளவும். இரண்டு வீச்சுகளின் கூட்டுத்தொகை 1 ஐ விட அதிகமாக இருந்தால், நீங்கள் சிதைவான ஒலியை அனுபவிப்பீர்கள்.</string>
+    </translation>
   </translations>
   <data-containers>
     <container init="0.5">a1in</container>
