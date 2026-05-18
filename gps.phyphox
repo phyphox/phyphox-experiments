@@ -90,6 +90,12 @@
       <category>Surowe dane</category>
       <description>
         Uzyskaj surowe dane o położeniu z satelitarnego systemy nawigacji (GPS).
+    
+        Dostępność danych może zależeć od modelu smartfona. Niektóre urządzenia mogą nie udostępniać informacji o dokładności w pionie ani liczbie satelitów.
+    
+        Ponadto domyślnie dane z nawigacji satelitarnej są łączone z informacjami o lokalizacji pochodzącymi z innych, zazwyczaj mniej dokładnych źródeł (takich jak sieci Wi‑Fi lub sieć komórkowa). W zależności od urządzenia może być możliwe wyłączenie tych źródeł w menu eksperymentu poprzez włączenie ustawienia pozwalającego na zbieranie danych wyłącznie z nawigacji satelitarnej.
+    
+        Prędkość i kierunek są zazwyczaj podawane przez urządzenie i obliczane na podstawie dwóch lub więcej kolejnych wyznaczeń pozycji.
     </description>
       <string original="Graph">Wykres</string>
       <string original="GPS disabled">GPS NIEaktywny</string>
@@ -113,6 +119,8 @@
       <string original="Distance from start">Dystans od startu</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Upewnij się również, że urządzenie nie pracuje w trybie "Oszczędzanie energii", ponieważ zwykle w trybie tym wyłączana jest dokładna lokalizacja GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Dokładność w poziomie określa niepewnością twojej lokalizacji na płaszczyźnie, podczas gdy dokładność w pionie (zwykle gorsza) określa niepewnością twojej wysokości (w kierunku prostopadłym do płaszczyzny). Jeśli dokładność wynosi zero, ta oznacza to, że informacja ta nie jest dostępna.</string>
+      <string original="unknown">nieznane</string>
+      <string original="Coordinates">Współrzędne</string>
     </translation>
     <translation locale="nl">
       <title>Locatie (GPS)</title>

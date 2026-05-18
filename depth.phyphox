@@ -115,6 +115,20 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Velocity">Prędkość</string>
       <string original="Acceleration">Przyspieszenie</string>
       <string original="Settings">Ustawienia</string>
+      <title>Czujnik głębi (LiDAR / ToF)</title>
+      <category>Kamera</category>
+      <description>Mierz odległość z czujnikiem dystansu.
+
+    Funkcja ta jest dostępna tylko wtedy, gdy telefon jest wyposażony w czujnik głębi. Możesz dotknąć obrazu podglądu i wybrać obszar pola widzenia kamery, który ma być uwzględniony w pomiarze, a także określić, czy wynikiem ma być najmniejsza odległość, średnia odległość czy średnia uwzględniająca oszacowanie dokładności każdego zmierzonego punktu przez czujnik.
+
+    W zakładce Ruch obliczana jest również prędkość i przyspieszenie na podstawie mierzonej odległości z wykorzystaniem algorytmu LOESS.
+</description>
+      <string original="Distance / Depth">Odległość / Głębia</string>
+      <string original="Kinematics">Kinematyka</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Dotknij obrazu podglądu i przeciągnij, aby zmienić obszar uwzględniany przy obliczaniu odległości. Możesz także wybrać różne metody agregacji pomiarów głębi w obrębie tego obszaru.</string>
+      <string original="Preview">Podgląd</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Poniżej możesz zmienić lokalne wygładzanie wykresów w zakładce Kinematyka. Ustawienie szerokości wpływa na wyznaczanie prędkości i przyspieszenia. Duże wartości powodują wygładzenie krzywych, ale kosztem utraty szczegółów.</string>
+      <string original="Width of LOESS fit">Z dopasowaniem LOESS</string>
     </translation>
     <translation locale="pt">
       <string original="Graph">Gráfico</string>

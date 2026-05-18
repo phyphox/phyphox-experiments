@@ -57,12 +57,9 @@ Aby se v tomto experimentu eliminoval určitý šum, jsou hodnoty z barometru zp
       <category>Życie codzienne</category>
       <description>
         Wyznacz szybkość ruchu windy korzystając z barometru.
-
-        Zmiany w położeniu windy mogą być bardo precyzyjnie określone dzięki wykorzystaniu barometru - zwłaszcza w miejscach gdzie nie działa GPS. Informacje o zmianie położenia mogą posłużyć do wyznaczenia prędkości ruchu w pionie. 
+Zmiany w położeniu windy mogą być bardo precyzyjnie określone dzięki wykorzystaniu barometru - zwłaszcza w miejscach gdzie nie działa GPS. Informacje o zmianie położenia mogą posłużyć do wyznaczenia prędkości ruchu w pionie.
 Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową składową przyspieszenia pod warunkiem, że urządzenie spoczywa na płaskiej powierzchni podłogi windy.
-
-        Dodatkowe wskazówki:
-        Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
+Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
     </description>
       <string original="Motion">Ruch</string>
       <string original="Altitude (from barometer)">Wysokość (z barometru)</string>

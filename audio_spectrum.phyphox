@@ -98,6 +98,9 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="History">Historia</string>
       <string original="Time">Czas</string>
       <string original="Amplitude">Amplituda</string>
+      <string original="Resolution">Rozdzielczość</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generator szumu białego. (Może być głośny. Zmniejsz głośność przed uruchomieniem.)</string>
+      <string original="White noise">Biały szum</string>
     </translation>
     <translation locale="nl">
       <title>Audio spectrum</title>

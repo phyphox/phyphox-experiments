@@ -218,6 +218,16 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
       <string original="Samples">Liczba próbek</string>
       <string original="Raw data">Surowe dane</string>
+      <title>Kamera widmowa: Jasność</title>
+      <category>Kamera</category>
+      <description>Wyświetl widmo częstotliwości zmian jasności obrazu z kamery.
+
+W aktywności mierzona jest jasność w wybranym obszarze obrazu z kamery i obliczane widmo częstotliwości fluktuacji jasności. Należy pamiętać, że maksymalna częstotliwość tego widma jest ograniczona możliwościami kamery w urządzeniu. Rozdzielczość widma można zmieniać, uwzględniając większą liczbę punktów danych (zob. ustawienia), co odbywa się kosztem wolniejszej reakcji na zmiany.
+
+Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność w krótkim czasie będzie dryfować w kierunku wartości 0,5. Może to umożliwić niezawodne wyzwalanie w zmiennych warunkach oświetleniowych, ale jednocześnie może wpływać na precyzję wyzwoleń, a w szczególności na dokładność mierzonych czasów trwania. Zwróć również uwagę, że ten stoper wykorzystuje "lumę", a nie luminancję, czyli nieliniową reprezentację jasności, którą można obliczać szybciej. Oznacza to, że uzyskane wartości nie są porównywalne z pomiarami luminancji oraz że zależą od zmieniających się ustawień ekspozycji.
+</description>
+      <string original="Resolution">Rozdzielczość</string>
+      <string original="Preview">Podgląd</string>
     </translation>
     <translation locale="pt">
       <string original="Spectrum">Espectro</string>

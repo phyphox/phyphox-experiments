@@ -474,6 +474,30 @@ Du solltest dir auch bewusst sein, dass ein automatischer Weißabgleich und teil
       <string original="Time interval">Przedział czasu</string>
       <string original="Average interval">Średni przedział</string>
       <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
+      <title>Stoper obrazem: Kolor</title>
+      <category>Kamera</category>
+      <description>Mierz czasy pomiędzy zmianami koloru, na przykład spowodowanymi przez przemieszczające się obiekty.
+
+Ta konfiguracja umożliwia ustawienie dolnego i górnego progu dla średniej barwy (hue) w prostokątnym obszarze pomiaru. Jeśli wartość barwy mieści się w tym zakresie, bieżący czas jest rejestrowany jako zdarzenie wyzwalające. Rejestrowane są czasy pomiędzy poszczególnymi zdarzeniami, jak również czas trwania tych zdarzeń.
+
+Należy pamiętać, że aplikacja Phyphox wyraża barwę w zakresie od 0° do 360° i stosuje uśrednianie cykliczne. Jeśli dolny próg jest większy niż górny, wybierany jest zakres barw przechodzący przez granicę 360° → 0°. Na przykład zakres od 10° do 30° wyzwoli zdarzenie dla 20°, ale nie dla 40°. Natomiast zakres od 350° do 10° wyzwoli zdarzenie zarówno dla 359°, jak i 0°, ale nie dla 20°.
+
+Rozdzielczość czasowa jest określona przez liczbę klatek na sekundę podglądu z kamery, która zazwyczaj jest stała i wynosi 30 fps, co odpowiada częstości próbkowania 33 ms. Należy pamiętać, że Phyphox wykorzystuje strumień podglądu kamery do analizy w czasie rzeczywistym, co ogranicza maksymalną częstość próbkowania do tej wartości. Jeśli telefon oferuje nagrywanie w trybie szybkiego lub zwolnionego tempa, wyższe liczby klatek są dostępne jedynie podczas nagrywania (a nie w czasie rzeczywistym) i obecnie nie są wykorzystywane przez aplikację.
+
+Należy mieć świadomość, że automatyczny balans bieli oraz automatyczna ekspozycja mogą powodować dryf wyznaczanych kolorów, a tym samym przesunięcie dokładnych progów wyzwalania.
+</description>
+      <string original="Preview">Podgląd</string>
+      <string original="Trigger range">Zakres wyzwalania</string>
+      <string original="Trigger">Wyzwalanie</string>
+      <string original="outside range">poza obszarem</string>
+      <string original="inside range">w obszarze</string>
+      <string original="State">Stan</string>
+      <string original="Idle">Bezczynny</string>
+      <string original="Triggered">Wyzwolony</string>
+      <string original="Hue">Odcień</string>
+      <string original="Frame rate">Zakres klatek</string>
+      <string original="Trigger on events">Wyzwalające zdarzenie</string>
+      <string original="Trigger durations">Przedział wyzwalania</string>
     </translation>
     <translation locale="pt">
       <string original="Settings">Configurações</string>

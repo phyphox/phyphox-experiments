@@ -90,6 +90,7 @@ Tento experiment zaznamenává data z magnetometru a provádí jejich spektráln
       <string original="Frequency">Częstotliwość</string>
       <string original="History">Historia</string>
       <string original="Time">Czas</string>
+      <string original="Resolution">Rozdzielczość</string>
     </translation>
     <translation locale="nl">
       <title>Magnetisch Spectrum</title>

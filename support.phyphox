@@ -29,7 +29,10 @@
     </translation>
     <translation locale="ja"/>
     <translation locale="nl"/>
-    <translation locale="pl"/>
+    <translation locale="pl">
+      <title>Inne sposoby wsparcia…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="pt"/>
     <translation locale="ru">
       <title>Другие способы внести свой вклад…</title>

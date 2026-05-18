@@ -486,6 +486,27 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <string original="Time interval">Przedział czasu</string>
       <string original="Average interval">Średni przedział</string>
       <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
+      <title>Stoper obrazem: Jasność</title>
+      <category>Kamera</category>
+      <description>Mierz czasy pomiędzy zmianami jasności, na przykład spowodowanymi przez poruszające się obiekty.
+
+Ta konfiguracja umożliwia ustawienie dolnego i górnego progu dla średniej jasności (dokładniej: luminancji) w prostokątnym obszarze pomiaru. Jeżeli jasność przekroczy próg górny lub obniży się poniżej progu dolnego, bieżący czas zostanie zarejestrowany jako zdarzenie wyzwalające. Rejestrowane są czasy pomiędzy poszczególnymi zdarzeniami, a także czas trwania tych zdarzeń.
+
+Rozdzielczość czasowa jest określona przez liczbę klatek na sekundę podglądu z kamery, która zazwyczaj jest stała i wynosi 30 fps, co odpowiada częstości próbkowania 33 ms. Należy pamiętać, że Phyphox wykorzystuje strumień podglądu kamery do analizy w czasie rzeczywistym, co ogranicza maksymalną rozdzielczość czasową do tej wartości. Jeśli telefon oferuje nagrywanie w trybie szybkiego lub zwolnionego tempa, wyższe liczby klatek są dostępne jedynie podczas nagrywania (a nie w czasie rzeczywistym) i obecnie nie są wykorzystywane przez aplikację.
+
+Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność w krótkim czasie będzie dryfować w kierunku wartości 0,5. Może to umożliwić niezawodne wyzwalanie w zmiennych warunkach oświetleniowych, ale jednocześnie może wpływać na precyzję wyzwoleń, a w szczególności na dokładność mierzonych czasów trwania. Zwróć również uwagę, że ten stoper wykorzystuje "lumę", a nie luminancję, czyli nieliniową reprezentację jasności, którą można obliczyć szybciej. Oznacza to, że uzyskane wartości nie są porównywalne z pomiarami luminancji oraz że pozostają pod wpływem zmian ustawień ekspozycji.
+</description>
+      <string original="Preview">Podgląd</string>
+      <string original="Trigger range">Zakres wyzwalania</string>
+      <string original="Trigger">Wyzwalanie</string>
+      <string original="outside range">poza obszarem</string>
+      <string original="inside range">w obszarze</string>
+      <string original="State">Stan</string>
+      <string original="Idle">Bezczynny</string>
+      <string original="Triggered">Wyzwolony</string>
+      <string original="Frame rate">Zakres klatek</string>
+      <string original="Trigger on events">Wyzwalające zdarzenie</string>
+      <string original="Trigger durations">Przedział wyzwalania</string>
     </translation>
     <translation locale="pt">
       <string original="Settings">Configurações</string>

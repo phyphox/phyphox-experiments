@@ -322,7 +322,7 @@
     </translation>
     <translation locale="ta">
       <title>முடுக்கம் (g இல்லாமல்)</title>
-      <category>அடிப்படை உணர்விகள்</category>
+      <category>மூல உணர்விகள்</category>
       <description>ஈர்ப்பு (gravity) முடுக்கம் இல்லாமல் உண்மையான முடுக்கத்தை வழங்கும் நேரியல் (linear) முடுக்கமானி என்று அழைக்கப்படுவதிலிருந்து மூலத் தரவைப் பெறுங்கள். "முடுக்கம் g உடன்" என்பதற்கு மாறாக, சாதனம் ஓய்வில் இருக்கும்போது இந்த உணர்வி 0 ஐ அளிக்கிறது.</description>
       <string original="Graph">வரைபடம்</string>
       <string original="Linear Acceleration x">நேரியல் (linear) முடுக்கம் x</string>

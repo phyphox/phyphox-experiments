@@ -163,6 +163,31 @@ Quest'esperimento raccoglierà alcuni dati usando i sensori a bordo del tuo tele
       <string original="Results">Rezultaty</string>
       <string original="Gyroscope">Żyroskop</string>
       <string original="Magnetometer">Magnetometr</string>
+      <title>Prześlij do bazy danych o czujnikach</title>
+      <category>phyphox.org</category>
+      <description>Prześlij informacje o czujnikach w Twoim telefonie do serwisu phyphox.org.
+
+W tej aktywności zbierane są dane techniczne dotyczące Twojego telefonu oraz jego czujników. Możesz je przesłać do naszej bazy danych czujników. Dane te zostaną zagregowane i udostępnione innym użytkownikom, aby pomóc nam oraz innym w poznaniu dostępności i możliwości czujników w różnych urządzeniach.</description>
+      <string original="Submit">Prześlij</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">W tej aktywności zbieramy dane techniczne dotyczące Twojego telefonu oraz jego czujników. Możesz je przesłać do naszej bazy danych czujników. Dane te zostaną zagregowane i udostępnione innym użytkownikom, aby pomóc nam oraz innym w poznaniu dostępności i możliwości czujników w różnych urządzeniach.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Umieść telefon na stabilnej powierzchni i naciśnij Start. Unikaj wykonywania tego eksperymentu w trakcie ruchu (np. w samochodzie, pociągu itp.) lub na drgającej powierzchni (głośna muzyka, wibracje pojazdów itp.), ponieważ spowoduje to zniekształcenie wyników.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox zbierze dane w tej chwili i potencjalnie poprosi o ich finalne przesłanie.</string>
+      <string original="Step">Krok</string>
+      <string original="Waiting for start">Oczekuje na rozpoczęcie</string>
+      <string original="Collecting data">Zbieranie danych</string>
+      <string original="You may now press submit">Można przesłać teraz</string>
+      <string original="Success. Thank you!">Sukces. Dziękuję!</string>
+      <string original="Confidence">Pewność</string>
+      <string original="Accelerometer">Akcelerometr</string>
+      <string original="Rate">Wskaźnik</string>
+      <string original="Average">Średnia</string>
+      <string original="Standard deviation">Odchylenie standardowe</string>
+      <string original="Acceleration (without g)">Przyspieszenie (bez g)</string>
+      <string original="Barometer">Barometr</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Wilgotność</string>
+      <string original="Light">Światło</string>
+      <string original="Proximity">Bliskość</string>
     </translation>
     <translation locale="pt">
       <string original="Results">Resultados</string>

@@ -79,6 +79,23 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     </translation>
     <translation locale="pl">
       <string original="Average rate">Średnia szybkość</string>
+      <title>Kolor (model HSV: odcień, nasycenie, jasność)</title>
+      <category>Kamera</category>
+      <description>Określ kolor z wykorzystaniem modelu HSV (odcień, nasycenie, jasność).
+
+Piksele znajdujące się w wybranym obszarze są indywidualnie przekształcane do wartości odcienia (hue), nasycenia (saturation) oraz jasności (value), a następnie uśredniane. W przypadku odcienia stosowane jest uśrednianie cykliczne.
+
+Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans bieli w większości sytuacji działa wystarczająco dobrze, w celu wykrywania subtelnych różnic warto ustawić stały punkt odniesienia bieli.
+</description>
+      <string original="HSV">HSV (odcień, nasycenie, jasność)</string>
+      <string original="Hue">Odcień</string>
+      <string original="Saturation">Nasycenie</string>
+      <string original="Value">Jasność</string>
+      <string original="Saturation and Value">Nasycenie i jasność</string>
+      <string original="sat., val.">nas., jas.</string>
+      <string original="Preview">Podgląd</string>
+      <string original="Frame rate">Zakres klatek</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Dotknij obrazu podglądu i przeciągnij, aby zmienić obszar obrazu brany pod uwagę przy analizie. Możesz także wybrać różne ustawienia aparatu, aby skonfigurować obraz w obrębie tego obszaru. Obszary niedoświetlone są oznaczone kolorem niebieskim, a obszary prześwietlone — kolorem czerwonym.</string>
     </translation>
     <translation locale="pt">
       <string original="Average rate">Taxa média</string>

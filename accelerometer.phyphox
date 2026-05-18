@@ -262,7 +262,7 @@
     </translation>
     <translation locale="ta">
       <title>g உடனான முடுக்கம்</title>
-      <category>பொது உணர்விகள்</category>
+      <category>மூல உணர்விகள்</category>
       <description>முடுக்கமானியிடமிருந்து மூலத் தரவைப் பெறுங்கள். இந்த உணர்வி, ஈர்ப்பு விசையைக் கழிக்காது, எனவே தொலைபேசி ஓய்வில் இருக்கும்போது கூட இது 9.81 மீ/வி² வேகத்தை அளிக்கும்.</description>
       <string original="Graph">வரைபடம்</string>
       <string original="Accelerometer x">முடுக்கமானி x</string>

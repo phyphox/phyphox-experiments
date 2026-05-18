@@ -90,6 +90,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Frequency">Częstotliwość</string>
       <string original="History">Historia</string>
       <string original="Time">Czas</string>
+      <string original="Resolution">Rozdzielczość</string>
     </translation>
     <translation locale="nl">
       <title>Spectrum Versnelling</title>
