@@ -531,7 +531,7 @@
         <separator color="white"/>
         <separator height="1"/>
 
-        <info label="The output amplitude is ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1." />
+        <info label="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1." />
         <toggle label="Normalize" default="1">
             <output>normalize</output>
         </toggle>
