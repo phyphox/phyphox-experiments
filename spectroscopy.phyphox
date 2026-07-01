@@ -1,0 +1,73 @@
+<phyphox version="1.20" locale="en">
+  <title>Spectroscopy</title>
+  <category>Camera</category>
+  <icon format="base64">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</icon>
+  <description>
+    Use an external diffraction grating for spectroscopy.
+
+    If you do not have a dedicated diffraction grating, a part of a CD or DVD will work as well. Set up your experiment such that the camera can see the rainbow of the diffraction and select in phyphox whether the diffraction occurs horizontally or vertically. Phyphox will average contributions from same wavelengths in the selected area of the camera image. You can also calibrate your spectrum.
+  </description>
+  <data-containers>
+    <container size="0">spectrum_raw_x</container>
+    <container size="0">spectrum_raw_y</container>
+    <container size="0">spectrum_cal_x</container>
+    <container size="1">cal_slope</container>
+    <container size="1">cal_intercept</container>
+  </data-containers>
+  <input>
+    <camera auto_exposure="true" feature="spectroscopy" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
+      <output component="pixelPosition">spectrum_raw_x</output>
+      <output component="luminance">spectrum_raw_y</output>
+    </camera>
+  </input>
+  <views>
+    <view label="1 Camera">
+      <separator height="1" />
+      <info bold="true" align="center" label="Set up your camera" />
+      <separator height="1" />
+      <camera-gui label="Preview" exposure_adjustment_level="3"/>
+      <info label="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2." />
+    </view>
+    <view label="2 Calibration">
+      <separator height="1" />
+      <info bold="true" label="In this tab you can calibrate your spectrum" />
+      <separator height="1" />
+      <graph label="Raw Spectrum" labelX="Position on sensor" labelY="[[quantity_short_luminance]]" calibrationMode="xLinear">
+        <input axis="x">spectrum_raw_x</input>
+        <input axis="y">spectrum_raw_y</input>
+        <output as="slope">cal_slope</output>
+        <output as="intercept">cal_intercept</output>
+      </graph>
+      <info label="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3." />
+    </view>
+    <view label="3 Spectrum">
+      <separator height="1" />
+      <info bold="true" label="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here." />
+      <separator height="1" />
+      <graph label="Spectrum" labelX="Wavelength" unitX="nm" labelY="[[quantity_short_luminance]]">
+        <input axis="x">spectrum_cal_x</input>
+        <input axis="y">spectrum_raw_y</input>
+      </graph>
+      <info label="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum." />
+    </view>
+  </views>
+  <analysis>
+    <formula formula="[1_]*[2]+[3]">
+      <input keep="true">spectrum_raw_x</input>
+      <input keep="true">cal_slope</input>
+      <input keep="true">cal_intercept</input>
+      <output>spectrum_cal_x</output>
+    </formula>
+  </analysis>
+  <export>
+    <set name="Raw Data">
+      <data name="Pixel position">spectrum_raw_x</data>
+      <data name="Wavelength (nm)">spectrum_cal_x</data>
+      <data name="Relative Luminance">spectrum_raw_y</data>
+    </set>
+    <set name="Calibration">
+      <data name="Slope">cal_slope</data>
+      <data name="Intercept">cal_intercept</data>
+    </set>
+  </export>
+</phyphox>
