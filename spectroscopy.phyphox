@@ -11,8 +11,10 @@
     <container size="0">spectrum_raw_x</container>
     <container size="0">spectrum_raw_y</container>
     <container size="0">spectrum_cal_x</container>
-    <container size="1">cal_slope</container>
-    <container size="1">cal_intercept</container>
+    <container size="1">cal_x1</container>
+    <container size="1">cal_x2</container>
+    <container size="1">cal_lambda1</container>
+    <container size="1">cal_lambda2</container>
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="spectroscopy" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
@@ -32,12 +34,28 @@
       <separator height="1" />
       <info bold="true" label="In this tab you can calibrate your spectrum" />
       <separator height="1" />
-      <graph label="Raw Spectrum" labelX="Position on sensor" labelY="[[quantity_short_luminance]]" calibrationMode="xLinear">
+      <graph label="Raw Spectrum" labelX="Position on sensor" labelY="[[quantity_short_luminance]]" unitX="Pixel" pickLabel="Calibrate">
         <input axis="x">spectrum_raw_x</input>
         <input axis="y">spectrum_raw_y</input>
-        <output as="slope">cal_slope</output>
-        <output as="intercept">cal_intercept</output>
+        <output axis="x" label="Calibration 1">cal_x1</output>
+        <output axis="xcal" label="Wavelength in nm">cal_lambda1</output>
+        <output axis="x" label="Calibration 2">cal_x2</output>
+        <output axis="xcal" label="Wavelength in nm">cal_lambda2</output>
       </graph>
+      <separator height="1" />
+      <info label="Calibration data" />
+      <value label="Pixel 1">
+        <input>cal_x1</input>
+      </value>
+      <value label="Wavelength 1" unit="nm">
+        <input>cal_lambda1</input>
+      </value>
+      <value label="Pixel 2">
+        <input>cal_x2</input>
+      </value>
+      <value label="Wavelength 2" unit="nm">
+        <input>cal_lambda2</input>
+      </value>
       <info label="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3." />
     </view>
     <view label="3 Spectrum">
@@ -52,10 +70,12 @@
     </view>
   </views>
   <analysis>
-    <formula formula="[1_]*[2]+[3]">
+    <formula formula="([1_]-[2])*([5]-[3])/([4]-[2])+[3]">
       <input keep="true">spectrum_raw_x</input>
-      <input keep="true">cal_slope</input>
-      <input keep="true">cal_intercept</input>
+      <input keep="true">cal_x1</input>
+      <input keep="true">cal_lambda1</input>
+      <input keep="true">cal_x2</input>
+      <input keep="true">cal_lambda2</input>
       <output>spectrum_cal_x</output>
     </formula>
   </analysis>
@@ -66,8 +86,10 @@
       <data name="Relative Luminance">spectrum_raw_y</data>
     </set>
     <set name="Calibration">
-      <data name="Slope">cal_slope</data>
-      <data name="Intercept">cal_intercept</data>
+      <data name="Pixel 1">cal_x1</data>
+      <data name="Wavelength 1">cal_lambda1</data>
+      <data name="Pixel 2">cal_x2</data>
+      <data name="Wavelength 2">cal_lambda2</data>
     </set>
   </export>
 </phyphox>
