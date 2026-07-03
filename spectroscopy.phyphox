@@ -62,7 +62,7 @@
       <separator height="1" />
       <info bold="true" label="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here." />
       <separator height="1" />
-      <graph label="Spectrum" labelX="Wavelength" unitX="nm" labelY="[[quantity_short_luminance]]">
+      <graph label="Spectrum" labelX="[[quantity_short_wavelength]]" unitX="[[unit_short_nano_meter]]" labelY="[[quantity_short_luminance]]">
         <input axis="x">spectrum_cal_x</input>
         <input axis="y">spectrum_raw_y</input>
       </graph>
