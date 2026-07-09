@@ -368,6 +368,9 @@
     <container init="440">f1</container>
     <container init="430">f2</container>
     <container init="450">f3</container>
+    <container init="0">p1</container>
+    <container init="0">p2</container>
+    <container init="0">p3</container>
 
     <container init="0">a1_wf1A</container>
     <container init="0">a1_wf1B</container>
@@ -385,38 +388,47 @@
   <output>
     <audio loop="true">
       <tone waveform="sine">
+        <input parameter="pan">p1</input>
         <input parameter="frequency">f1</input>
         <input parameter="amplitude">a1_wf1A</input>
       </tone>
       <tone waveform="square">
+        <input parameter="pan">p1</input>
         <input parameter="frequency">f1</input>
         <input parameter="amplitude">a1_wf1B</input>
       </tone>
       <tone waveform="sawtooth">
+        <input parameter="pan">p1</input>
         <input parameter="frequency">f1</input>
         <input parameter="amplitude">a1_wf1C</input>
       </tone>
       <tone waveform="sine">
+        <input parameter="pan">p2</input>
         <input parameter="frequency">f2</input>
         <input parameter="amplitude">a2_wf2A</input>
       </tone>
       <tone waveform="square">
+        <input parameter="pan">p2</input>
         <input parameter="frequency">f2</input>
         <input parameter="amplitude">a2_wf2B</input>
       </tone>
       <tone waveform="sawtooth">
+        <input parameter="pan">p2</input>
         <input parameter="frequency">f2</input>
         <input parameter="amplitude">a2_wf2C</input>
       </tone>
       <tone waveform="sine">
+        <input parameter="pan">p3</input>
         <input parameter="frequency">f3</input>
         <input parameter="amplitude">a3_wf3A</input>
       </tone>
       <tone waveform="square">
+        <input parameter="pan">p3</input>
         <input parameter="frequency">f3</input>
         <input parameter="amplitude">a3_wf3B</input>
       </tone>
       <tone waveform="sawtooth">
+        <input parameter="pan">p3</input>
         <input parameter="frequency">f3</input>
         <input parameter="amplitude">a3_wf3C</input>
       </tone>
@@ -433,7 +445,7 @@
       <separator color="white"/>
       <separator height="1"/>
 
-      <info label="Channel 1" visibility="c2" />
+      <info label="Channel 1" bold="true" visibility="c2" />
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000">
         <output>f1</output>
       </edit>
@@ -446,6 +458,12 @@
       <slider label="Amplitude" showValue="false" minValue="0" maxValue="1" precision="2" stepSize="0.01" visibility="advanced">
         <output>a1in</output>
       </slider>
+      <edit label="Pan left/right" default="0" signed="true" min="-1" max="1" visibility="advanced">
+        <output>p1</output>
+      </edit>
+      <slider label="Pan left/right" showValue="false" minValue="-1" maxValue="1" precision="2" stepSize="0.01" visibility="advanced">
+        <output>p1</output>
+      </slider>
       <dropdown label="Waveform" default="0" visibility="advanced">
             <output>wf1</output>
             <map value="0">Sine</map>
@@ -457,7 +475,7 @@
       <separator color="white" visibility="c2"/>
       <separator height="1" visibility="c2"/>
 
-      <info label="Channel 2" visibility="c2" />
+      <info label="Channel 2" bold="true" visibility="c2" />
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000" visibility="c2">
         <output>f2</output>
       </edit>
@@ -470,6 +488,12 @@
       <slider label="Amplitude" showValue="false" minValue="0" maxValue="1" precision="2" stepSize="0.01" visibility="c2advanced">
         <output>a2in</output>
       </slider>
+      <edit label="Pan left/right" default="0" signed="true" min="-1" max="1" visibility="c2advanced">
+        <output>p2</output>
+      </edit>
+      <slider label="Pan left/right" showValue="false" minValue="-1" maxValue="1" precision="2" stepSize="0.01" visibility="c2advanced">
+        <output>p2</output>
+      </slider>
       <dropdown label="Waveform" default="0" visibility="c2advanced">
             <output>wf2</output>
             <map value="0">Sine</map>
@@ -481,7 +505,7 @@
       <separator color="white" visibility="c3"/>
       <separator height="1" visibility="c3"/>
 
-      <info label="Channel 3" visibility="c3" />
+      <info label="Channel 3" bold="true" visibility="c3" />
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000" visibility="c3">
         <output>f3</output>
       </edit>
@@ -493,6 +517,12 @@
       </edit>
       <slider label="Amplitude" showValue="false" minValue="0" maxValue="1" precision="2" stepSize="0.01" visibility="c3advanced">
         <output>a3in</output>
+      </slider>
+      <edit label="Pan left/right" default="0" signed="true" min="-1" max="1" visibility="c3advanced">
+        <output>p3</output>
+      </edit>
+      <slider label="Pan left/right" showValue="false" minValue="-1" maxValue="1" precision="2" stepSize="0.01" visibility="c3advanced">
+        <output>p3</output>
       </slider>
       <dropdown label="Waveform" default="0" visibility="c3advanced">
             <output>wf3</output>
