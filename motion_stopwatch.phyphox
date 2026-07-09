@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.20" locale="en">
   <title>Motion Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -13,8 +13,8 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Motion_Stopwatch</link>
   <data-containers>
-    <container>threshold</container>
-    <container>mindelay</container>
+    <container clearGroup="Settings">threshold</container>
+    <container clearGroup="Settings">mindelay</container>
     <container size="50">acc</container>
     <container size="50">accT</container>
     <container size="50">accCopy</container>

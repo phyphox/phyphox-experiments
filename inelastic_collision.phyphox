@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.20" locale="en">
   <title>(In)elastic collision</title>
   <category>Mechanics</category>
   <icon format="base64">
@@ -833,8 +833,8 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
     </translation>
   </translations>
   <data-containers>
-    <container>threshold</container>
-    <container>mindelay</container>
+    <container clearGroup="Settings">threshold</container>
+    <container clearGroup="Settings">mindelay</container>
     <container size="16384" init="0">recording</container>
     <container>rate</container>
     <container>i</container>

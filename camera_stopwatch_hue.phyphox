@@ -1,4 +1,4 @@
-<phyphox version="1.19" locale="en">
+<phyphox version="1.20" locale="en">
   <title>Camera stopwatch: Color</title>
   <category>Camera</category>
   <description>Measure times between changes in color, for example caused by passing objects.
@@ -864,9 +864,9 @@ phyphox 0° முதல் 360° வரையிலான வரம்பில
     <container size="0">inT</container>
     <container size="0">triggering</container>
     <container size="0">triggering_change</container>
-    <container init="120">threshold_low</container>
-    <container init="240">threshold_high</container>
-    <container init="1">outside</container>
+    <container init="120" clearGroup="Settings">threshold_low</container>
+    <container init="240" clearGroup="Settings">threshold_high</container>
+    <container init="1" clearGroup="Settings">outside</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
     <container size="0">onEvents</container>

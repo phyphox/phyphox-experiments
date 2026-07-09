@@ -1,4 +1,4 @@
-<phyphox version="1.18" locale="en">
+<phyphox version="1.20" locale="en">
   <title>Acoustic Stopwatch</title>
   <category>Timers</category>
   <description>
@@ -15,8 +15,8 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
   <link label="Video 1" highlight="true">https://youtu.be/uoUm34CnHdE</link>
   <link label="Video 2" highlight="true">https://youtu.be/zRGh9_a1J7s</link>
   <data-containers>
-    <container>threshold</container>
-    <container>mindelay</container>
+    <container clearGroup="Settings">threshold</container>
+    <container clearGroup="Settings">mindelay</container>
     <container>distance</container>
     <container size="16384">recording</container>
     <container>rate</container>

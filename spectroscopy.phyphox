@@ -11,10 +11,10 @@
     <container size="0">spectrum_raw_x</container>
     <container size="0">spectrum_raw_y</container>
     <container size="0">spectrum_cal_x</container>
-    <container size="1">cal_x1</container>
-    <container size="1">cal_x2</container>
-    <container size="1">cal_lambda1</container>
-    <container size="1">cal_lambda2</container>
+    <container size="1" clearGroup="Calibration data">cal_x1</container>
+    <container size="1" clearGroup="Calibration data">cal_x2</container>
+    <container size="1" clearGroup="Calibration data">cal_lambda1</container>
+    <container size="1" clearGroup="Calibration data">cal_lambda2</container>
   </data-containers>
   <input>
     <camera auto_exposure="true" feature="spectroscopy" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">

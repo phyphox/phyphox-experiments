@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.20" locale="en">
   <title>Proximity Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -13,8 +13,8 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Proximity_Stopwatch</link>
   <data-containers>
-    <container>threshold_low</container>
-    <container>threshold_high</container>
+    <container clearGroup="Settings">threshold_low</container>
+    <container clearGroup="Settings">threshold_high</container>
     <container size="0">amplitude</container>
     <container size="0">t</container>
     <container size="0">traw</container>
