@@ -547,10 +547,10 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>（非）弹性碰撞</title>
+      <title>非弹性碰撞</title>
       <category>力学</category>
       <description>
-        确定弹跳中的球在（非）弹性碰撞中的能量损耗。
+        确定弹跳的小球在非弹性碰撞中的能量损耗。
 
 	原则上，本实验工作原理与声学秒表相似。然而，本实验期望声音来源于在任一平面上弹跳的球（或类似物），而且通过分析声音时间间隔，能计算出弹起高度和相对于第一次弹跳的剩余动能。
 
@@ -831,6 +831,57 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">குறுகிய இடைவெளி</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">துரதிர்ஷ்டவசமாக, இது வேகம்குறைந்த தொலைபேசிகளில் இயங்காது. இந்தச் சோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்திக்கொள்ள, முதலில் ஒலி அடிப்படையிலான நிறுத்தற்கடிகாரச் சோதனையை ஒரு சாதாரண கடிகாரத்துடன் ஒப்பிட்டுப் பார்க்கவும். அது சரியாக வேலை செய்தால், இந்தச் சோதனையும் வேலை செய்யும்.</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>(In)સ્થિતિસ્થાપક અથડામણ</title>
+      <category>મીકેનીક્સ</category>
+      <description>
+        ઉછળતા દડાની (in)સ્થિતિસ્થાપક અથડામણ દરમિયાન ગુમાવેલી ઊર્જા શોધો.
+
+        મૂળભૂત રીતે, આ પ્રયોગ એકોસ્ટિક સ્ટોપવોચ પ્રયોગની જેમ કામ કરે છે. જો કે, આ પ્રયોગ સપાટી પર ઉછળતા દડા (અથવા તેના જેવું કંઈક) માંથી અવાજ આવવાની અપેક્ષા રાખે છે અને અથડામણ અને ધ્વનિ વચ્ચેના અંતરાલનું વિશ્લેષણ કરીને પ્રથમ ઉછાળાની તુલનામાં ઉછળતી ઊંચાઈ અને બાકી રહેલી ગતિ ઊર્જાની ગણતરી કરે છે.
+
+        ઉપરાંત, ધારી રહ્યા છીએ કે દડો તેના પ્રથમ ઉછાળા પર જેટલી જ ગતિ ઊર્જા જાળવી રાખે છે, phyphox પ્રારંભિક ઊંચાઈની ગણતરી કરશે જ્યાંથી દડો પડ્યો હતો 0.
+
+        તેથી, પ્રયોગ શરૂ કરો અને બોલને સપાટી પરથી એવા દરે ઉછળવા દો જે સ્પષ્ટ રીતે સાંભળી શકાય તેવો અવાજ ઉત્પન્ન કરે. તમે સેટિંગ્સમાં થ્રેશોલ્ડ (0 થી 1 સુધી) બદલવા માંગી શકો છો જેથી પ્રયોગ બોલના અવાજ સ્તર પર પ્રતિક્રિયા આપે પરંતુ પૃષ્ઠભૂમિ અવાજ પર નહીં. ઉપરાંત, જો તમને ઇકો સાથે સમસ્યા આવી રહી હોય, તો તમે આગામી અવાજ પર પ્રતિક્રિયા આપતા પહેલા પ્રયોગ અવગણશે તે ન્યૂનતમ અંતર સેટ કરવા માટે ન્યૂનતમ વિલંબ બદલી શકો છો.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Heights">ઊંચાઈ</string>
+      <string original="Height 0">ઊંચાઈ 0</string>
+      <string original="Height 1">ઊંચાઈ 1</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Height 2">ઊંચાઈ 2</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Height 3">ઊંચાઈ 3</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Height 4">ઊંચાઈ 4</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Height 5">ઊંચાઈ 5</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Energy">ઊર્જા</string>
+      <string original="Energy 1">ઊર્જા 1</string>
+      <string original="Energy 2">ઊર્જા 2</string>
+      <string original="Retained on collision 2">અથડામણ 2 પર જાળવ્યું</string>
+      <string original="Energy 3">ઊર્જા 3</string>
+      <string original="Retained on collision 3">અથડામણ 3 પર જાળવ્યું</string>
+      <string original="Energy 4">ઊર્જા 4</string>
+      <string original="Retained on collision 4">અથડામણ 4 પર જાળવ્યું</string>
+      <string original="Energy 5">ઊર્જા 5</string>
+      <string original="Retained on collision 5">અથડામણ 5 પર જાળવ્યું</string>
+      <string original="Average retained">જાળવેલી સરેરાશ</string>
+      <string original="Threshold">થ્રેશોલ્ડ</string>
+      <string original="Minimum Delay">લઘુતમ વિલંબ</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા એકોસ્ટિક સ્ટોપવોચ પ્રયોગની તુલના નિયમિત ઘડિયાળ સાથે કરો જેથી ખાતરી કરી શકાય કે તે અપેક્ષા મુજબ કાર્ય કરે છે. જો તે કાર્ય કરે છે, તો આ પ્રયોગ પણ કાર્ય કરશે.</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container clearGroup="Settings">threshold</container>

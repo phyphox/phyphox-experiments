@@ -32,6 +32,7 @@
       <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
       <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
       <string original="Filtered B²">Gefiltertes B²</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Magnetické pravítko</title>
@@ -52,6 +53,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Filtrovaný kvadrát celkové magnetické indukce</string>
       <string original="Filtered B² (µT²)">Filtrované B² (µT²)</string>
       <string original="Filtered B²">Filtrované B²</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Linijka magnetyczna</title>
@@ -72,6 +74,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Kwadrat wypadkowej wartości indukcji magnetycznej</string>
       <string original="Filtered B² (µT²)">Wygładzone B² (µT²)</string>
       <string original="Filtered B²">Wygładzone B²</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Magnestische meetlat</title>
@@ -92,6 +95,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
       <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
       <string original="Filtered B²">Gefilterde B²</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Магнитная линейка</title>
@@ -118,6 +122,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
       <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
       <string original="Filtered B²">B² после поправки</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Righello magnetico</title>
@@ -137,6 +142,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Modulo quadro del campo magnetico filtrato</string>
       <string original="Filtered B² (µT²)">B² (µT²) filtrato</string>
       <string original="Filtered B²">B² filtrato</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Μαγνητικός χάρακας</title>
@@ -157,6 +163,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">Ολικό μαγνητικό πεδίο τετραγωνισμένο και φιλτραρισμένο</string>
       <string original="Filtered B² (µT²)">Φιλτραρισμένο B² (µT²)</string>
       <string original="Filtered B²">Φιλτραρισμένο B²</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>磁力定規</title>
@@ -177,6 +184,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">磁界 z</string>
       <string original="Total magnetic field squared and filtered">フィルターされた磁界の二乗</string>
       <string original="Filtered B²">フィルターされたB²</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Régua Magnética</title>
@@ -197,6 +205,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Campo magnético z</string>
       <string original="Total magnetic field squared and filtered">Campo magnético total ao quadrado e filtrado</string>
       <string original="Filtered B²">B² Filtrado</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Manyetik cetvel</title>
@@ -216,6 +225,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Manyetik alan z</string>
       <string original="Total magnetic field squared and filtered">Karesi alınmış ve filtrelenmiş toplam manyetik alan</string>
       <string original="Filtered B²">Süzülmüş B²</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>磁性尺</title>
@@ -234,6 +244,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field y">y方向磁場</string>
       <string original="Magnetic field z">z方向磁場</string>
       <string original="Total magnetic field squared and filtered">過濾及平方後的總磁場</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Règle magnétique</title>
@@ -252,6 +263,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Champs magnétique selon z</string>
       <string original="Total magnetic field squared and filtered">Champ magnétique total - élevé au carré et filtré</string>
       <string original="Filtered B²">B² filtré</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Thước đo từ</title>
@@ -271,6 +283,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Từ trường z</string>
       <string original="Total magnetic field squared and filtered">Tổng bình phương từ trường đã lọc</string>
       <string original="Filtered B²">B² đã lọc</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
       <title>磁性标尺</title>
@@ -290,6 +303,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Z方向磁场</string>
       <string original="Total magnetic field squared and filtered">平方和滤波后的总磁场</string>
       <string original="Filtered B²">滤波后的B²</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Magnetni lenjir</title>
@@ -309,6 +323,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Magnetno polje z</string>
       <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
       <string original="Filtered B²">Obrađen B²</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Magnetni lenjir</title>
@@ -328,6 +343,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Magnetno polje z</string>
       <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
       <string original="Filtered B²">Obrađen B²</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Regla magnética</title>
@@ -347,6 +363,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">Campo magnético z</string>
       <string original="Total magnetic field squared and filtered">Campo magnético total al cuadrado y filtrado</string>
       <string original="Filtered B²">Filtrado  B²</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>მაგნიტური სახაზავი</title>
@@ -366,6 +383,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">მაგნიტური ველი z</string>
       <string original="Total magnetic field squared and filtered">მთლიანი მაგნიტური ველი გაფილტრული</string>
       <string original="Filtered B²">გაფილტრული B²</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>चुम्बकीय रूलर</title>
@@ -385,6 +403,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
       <string original="Total magnetic field squared and filtered">कुल चुंबकीय क्षेत्र स्क्वेर्ड और फ़िल्टर्ड</string>
       <string original="Filtered B²">फिल्टर्ड B²</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>காந்த அளவுகோல்</title>
@@ -406,7 +425,33 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Magnetic field z">காந்தப்புலம் z</string>
       <string original="Total magnetic field squared and filtered">மொத்த காந்தப்புலம் இருமடங்காக்கப்பட்டு வடிகட்டப்படுகிறது</string>
       <string original="Filtered B²">வடிகட்டப்பட்ட B²</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ચુંબકીય રૂલર</title>
+      <category>ટૂલ</category>
+      <description>
+        ફોનનું અંતર, ગતિ અને પ્રવેગ માપવા માટે ચુંબકની શ્રેણીનો ઉપયોગ કરો.
+
+        આ પ્રયોગ માટે તમારે ફોન જે ટ્રેક પર જશે તેની સાથે સમાન ચુંબકોની શ્રેણી મૂકવી જોઈએ. ચુંબકો વચ્ચેનું અંતર દરેક ચુંબક માટે સમાન હોવું જોઈએ અને તેને પ્રયોગમાં દાખલ કરવું જોઈએ. ત્યારબાદ ફોન તેના મેગ્નેટોમીટરનો ઉપયોગ કરીને નક્કી કરશે કે તે ક્યારે ચુંબકમાંથી પસાર થયો છે, જેનાથી કુલ કાપેલા અંતરની ગણતરી કરી શકાય છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Results">પરિણામો</string>
+      <string original="dx is the distance between two magnets">dx એ બે ચુંબક વચ્ચેનું અંતર છે</string>
+      <string original="Distance">અંતર</string>
+      <string original="Velocity">વેગ</string>
+      <string original="Raw Data">રો ડેટા</string>
+      <string original="Magnetic field x">ચુંબકીય ક્ષેત્ર x</string>
+      <string original="Magnetic field y">ચુંબકીય ક્ષેત્ર y</string>
+      <string original="Magnetic field z">ચુંબકીય ક્ષેત્ર z</string>
+      <string original="Total magnetic field squared and filtered">કુલ ચુંબકીય ક્ષેત્રનો વર્ગ અને ફિલ્ટર કરેલ</string>
+      <string original="Filtered B²">ફિલ્ટર કરેલ B²</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container clearGroup="Settings">magnetDistance</container>

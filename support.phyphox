@@ -45,7 +45,10 @@
       <title>Các cách khác để đóng góp…</title>
       <category>phyphox.org</category>
     </translation>
-    <translation locale="zh_Hans"/>
+    <translation locale="zh_Hans">
+      <title>其他贡献方式…</title>
+      <category>phyphox.org</category>
+    </translation>
     <translation locale="zh_Hant"/>
     <translation locale="ka">
       <title>წვლისის შეტანის სხვა გზები…</title>
@@ -59,5 +62,12 @@
       <title>பங்களிப்பதற்கான பிற வழிகள்…</title>
       <category>phyphox.org</category>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>યોગદાન આપવાની અન્ય રીતો…</title>
+      <category>phyphox.org</category>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
 </phyphox>

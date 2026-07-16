@@ -437,6 +437,35 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">கடைசி மதிப்பெண்ணை மீட்டமை</string>
       <string original="Clear all scores">அனைத்தையும் மீட்டமை</string>
     </translation>
+    <translation locale="bn">
+      <string original="Start">শুরু করুন</string>
+      <string original="Stop">দাঁড়ান</string>
+    </translation>
+    <translation locale="gu">
+      <title>એપ્લોઝ મીટર</title>
+      <category>રોજિંદી જિંદગી</category>
+      <description>
+        તાળીઓની લંબાઈ અને એમ્પ્લીટ્યુડ મુજબ સ્કોર્સ સોંપો.
+
+        આ પ્રયોગ સમય જતાં ધ્વનિના એમ્પ્લીટ્યુડને એકીકૃત કરે છે. આ રીતે જોરથી અને લાંબી તાળીઓથી વધુ સ્કોર મળે છે. તમે બહુવિધ સ્પર્ધકોનું મૂલ્યાંકન કરી શકો છો અને બાર ચાર્ટમાં તેમના પ્રદર્શનની તુલના કરી શકો છો.
+
+        ઉપયોગ: ઇતિહાસ phyphox દ્વારા ઓળખાયેલા ઘોંઘાટનું સ્તર દર્શાવે છે. તમે "ચાલુ કરો" દબાવીને સ્કોરિંગ શરૂ કરી શકો છો અને "રોકો" દબાવીને સ્કોરિંગ બંધ કરી શકો છો. આ સમયગાળા દરમિયાન તમે સ્કોર વધતો જોશો જે પીળા બાર દ્વારા પણ સૂચવવામાં આવે છે. રોક્યા પછી, તમે આગામી સ્કોર માપવા માટે તૈયાર થવા માટે "આગામી સ્પર્ધક" દબાવી શકો છો. જ્યારે તમે ફરીથી "ચાલુ કરો" દબાવો છો, ત્યારે તમે ફરીથી "રોકો" દબાવો નહીં ત્યાં સુધી બીજો બાર વધશે. તમે બહુવિધ સ્કોર્સની તુલના કરવા માટે આને ગમે તેટલી વાર પુનરાવર્તન કરી શકો છો.
+    </description>
+      <string original="Score">સ્કોર</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Subscore">પેટાસ્કોર</string>
+      <string original="Scores">સ્કોર</string>
+      <string original="Contestant">સ્પર્ધક</string>
+      <string original="Start">ચાલુ કરો</string>
+      <string original="Stop">રોકો</string>
+      <string original="Next contestant">આગામી સ્પર્ધક</string>
+      <string original="Controls">નિયંત્રણો</string>
+      <string original="Reset last score">છેલ્લો સ્કોર રીસેટ કરો</string>
+      <string original="Clear all scores">તમામ સ્કોર સાફ કરો</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

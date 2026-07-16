@@ -366,7 +366,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Magnetometer y">y轴磁力计</string>
       <string original="Magnetometer z">z轴磁力计</string>
       <string original="Absolute">绝对值</string>
-      <string original="Multi">多方向</string>
+      <string original="Multi">多通道</string>
       <string original="Magnetometer">磁力计</string>
       <string original="Simple">简明值</string>
       <string original="Help">帮助</string>
@@ -532,6 +532,36 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Help">உதவி</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">உங்கள் தொலைபேசியில் உள்ள காந்தமானி எப்போதும் உங்கள் தொலைபேசியில் உள்ள மின்னணு சாதனங்களிலிருந்து உள் புலங்களுக்கு வெளிப்படும், இது தவறான முடிவுகளுக்கு வழிவகுக்கும். எனவே phyphox கணினியிலிருந்து அளவீடு செய்யப்பட்ட காந்தப்புலத்தைப் பெற முயற்சிக்கிறது. சில சந்தர்ப்பங்களில், அது இன்னும் அளவீடு செய்யப்படாவிட்டால் (எடுத்துக்காட்டாக, தொலைபேசி தொடங்கிய பிறகு) உங்களுக்கு எந்தத் தரவும் கிடைக்காமல் போகலாம். இந்த விஷயத்தில், பரிசோதனையை இயங்கும் போது உங்கள் தொலைபேசியை சில முறை சுழற்ற வேண்டும். இது உணர்வியை அளவீடு செய்ய சாதனத்திற்கு உதவுகிறது. மேலும், பல சாதனங்களில் (அனைத்தும் அல்ல) மேல் வலதுபுறத்தில் உள்ள மெனு வழியாக அளவீடு செய்யப்படாத காந்தமானி தரவுக்கு மாறலாம்.</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>મેગ્નેટોમીટર</title>
+      <category>રો સેન્સર</category>
+      <description>
+        મેગ્નેટોમીટરમાંથી કાચો ડેટા મેળવો.
+
+        મેગ્નેટોમીટર ખૂબ જ સંવેદનશીલ છે કારણ કે તે પૃથ્વીના ચુંબકીય ક્ષેત્રને માપવા માટે રચાયેલ છે જેથી તે હોકાયંત્ર તરીકે કાર્ય કરી શકે. જો કે, તે હંમેશા તમારા ફોનમાં રહેલા ઇલેક્ટ્રોનિક્સમાંથી આંતરિક ક્ષેત્રોના સંપર્કમાં રહે છે, જેનાથી ખોટા પરિણામો આવી શકે છે. તેથી, phyphox સિસ્ટમમાંથી કેલીબ્રેટેડ ચુંબકીય ક્ષેત્ર મેળવવાનો પ્રયાસ કરે છે. કેટલાક કિસ્સાઓમાં, જો તે હજુ સુધી કેલીબ્રેટેડ ન હોય (જેમ કે ફોન હમણાં જ શરૂ થયા પછી), તો તમને કોઈ ડેટા ન પણ મળે. આ કિસ્સામાં, પ્રયોગ ચાલુ હોય ત્યારે તમારે તમારા ફોનને થોડી વાર ફેરવવો જોઈએ. આ સિસ્ટમને સેન્સરને કેલીબ્રેટ કરવામાં મદદ કરે છે. ઉપરાંત, ઘણા (પરંતુ બધા નહીં) ઉપકરણો પર, તમે ઉપર જમણી બાજુના મેનૂ દ્વારા કેલીબ્રેટ કર્યા વગરના મેગ્નેટોમીટર ડેટા પર સ્વિચ કરી શકો છો.
+
+        તમારા ફોનને મજબૂત ચુંબકીય ક્ષેત્રમાં ન મૂકો!
+    </description>
+      <string original="Graph">આલેખ</string>
+      <string original="Accuracy">ચોકસાઈ</string>
+      <string original="Uncalibrated">કેલીબ્રેટ કર્યા વગરનું</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Low">નિમ્ન</string>
+      <string original="Medium">મધ્યમ</string>
+      <string original="High">ઉચ્ચ</string>
+      <string original="Magnetometer x">મેગ્નેટોમીટર x</string>
+      <string original="Magnetometer y">મેગ્નેટોમીટર y</string>
+      <string original="Magnetometer z">મેગ્નેટોમીટર z</string>
+      <string original="Absolute">નિરપેક્ષ</string>
+      <string original="Multi">બહુ</string>
+      <string original="Magnetometer">મેગ્નેટોમીટર</string>
+      <string original="Simple">સિમ્પલ</string>
+      <string original="Help">મદદ</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">તમારા ફોનનું મેગ્નેટોમીટર હંમેશા તમારા ફોનના ઇલેક્ટ્રોનિક્સમાંથી આંતરિક ક્ષેત્રોના સંપર્કમાં રહે છે, જેનાથી ખોટા પરિણામો આવી શકે છે. તેથી, phyphox સિસ્ટમમાંથી કેલીબ્રેટેડ ચુંબકીય ક્ષેત્ર મેળવવાનો પ્રયાસ કરે છે. કેટલાક કિસ્સાઓમાં, જો તે હજુ સુધી કેલીબ્રેટેડ ન હોય (જેમ કે ફોન હમણાં જ શરૂ થયા પછી), તો તમને કોઈ ડેટા ન મળી શકે. આ કિસ્સામાં, પ્રયોગ ચાલુ હોય ત્યારે તમારે તમારા ફોનને થોડી વાર ફેરવવો જોઈએ. આ સિસ્ટમને સેન્સરને કેલીબ્રેટ કરવામાં મદદ કરે છે. ઉપરાંત, ઘણા (બધા નહીં) ઉપકરણો પર, તમે ઉપર જમણી બાજુના મેનૂમાંથી કેલીબ્રેટે કર્યા વગરના મેગ્નેટોમીટર ડેટા પર સ્વિચ કરી શકો છો.</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">mag_time</container>

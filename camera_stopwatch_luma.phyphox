@@ -507,6 +507,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Frame rate">Zakres klatek</string>
       <string original="Trigger on events">Wyzwalające zdarzenie</string>
       <string original="Trigger durations">Przedział wyzwalania</string>
+      <string original="Luma">Luminancja</string>
     </translation>
     <translation locale="pt">
       <string original="Settings">Configurações</string>
@@ -783,6 +784,28 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Time interval">事件间隔</string>
       <string original="Average interval">平均间隔</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+      <title>相机秒表 (亮度触发)</title>
+      <category>相机</category>
+      <description>测量亮度变化（例如由物体经过引起）之间的时间间隔。
+
+此配置允许您为测量区域内的平均亮度（更准确地说是“亮度/luminance”）设定下限阈值和上限阈值。当亮度超过上限阈值或低于下限阈值时，系统会将当前时间记录为触发事件。程序会记录不同事件之间的时间间隔以及事件持续的时长。
+
+时间分辨率取决于相机的预览帧率（通常固定为 30 fps），对应的采样间隔为 33 毫秒。请注意，phyphox 使用相机的预览流进行实时分析，因此受限于该帧率。虽然某些手机支持高速或慢动作拍摄，但更高的帧率仅适用于录制视频（而非实时画面），而 phyphox 目前并不使用录制功能。
+
+如果您使用自动曝光功能，请注意平均亮度值会在短时间内向 0.5 漂移。这虽然有助于在光照条件变化时实现可靠触发，但也可能影响触发的精确度，尤其是测量所得的持续时间。此外，该秒表使用的是“luma”（一种非线性的亮度表示方式，计算速度更快）而非物理意义上的“luminance”（亮度）。这意味着该数值无法与“luminance”测量值直接比较，且会受到曝光设置变化的影响。
+</description>
+      <string original="Preview">预览</string>
+      <string original="Trigger range">触发范围</string>
+      <string original="Trigger">触发条件</string>
+      <string original="outside range">范围外</string>
+      <string original="inside range">范围内</string>
+      <string original="State">状态</string>
+      <string original="Idle">空闲 (Idle)</string>
+      <string original="Triggered">触发 (Trig'd)</string>
+      <string original="Luma">视频亮度 (Luma)</string>
+      <string original="Frame rate">帧率</string>
+      <string original="Trigger on events">触发事件</string>
+      <string original="Trigger durations">触发持续时长</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Settings">設定</string>
@@ -877,6 +900,77 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Average rate (bpm)">சராசரி அதிர்வு (ஒரு வினாடிக்கு)</string>
       <string original="1/min">1/நிமிடம்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+      <string original="Sequence">ক্রম</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>કેમેરા સ્ટોપવોચ: બ્રાઈટનેસ</title>
+      <category>કેમેરા</category>
+      <description>બ્રાઈટનેસમાં થતા ફેરફારો વચ્ચેનો સમય માપો, જેમ કે પસાર થતી વસ્તુઓને કારણે થતા ફેરફારો.
+
+આ રૂપરેખાંકન તમને માપન લંબચોરસમાં સરેરાશ બ્રાઈટનેસ (વધુ સ્પષ્ટ રીતે: લ્યુમિનન્સ) માટે નીચલી થ્રેશોલ્ડ અને ઉપલી થ્રેશોલ્ડ સેટ કરવાની મંજૂરી આપે છે. જો બ્રાઈટનેસ ઉપલા થ્રેશોલ્ડ કરતાં વધી જાય અથવા નીચલા થ્રેશોલ્ડથી નીચે જાય, તો વર્તમાન ક્ષણને ટ્રીગર ઘટના તરીકે નોંધવામાં આવે છે. વ્યક્તિગત ઘટનાઓ અને આ ઘટનાઓના સમય વચ્ચેનો સમય રેકોર્ડ કરવામાં આવે છે.
+
+ટેમ્પોરલ રિઝોલ્યુશન કેમેરાના પ્રીવ્યૂ ફ્રેમ રેટ દ્વારા નક્કી કરવામાં આવે છે, જે સામાન્ય રીતે 30fps પર નિશ્ચિત હોય છે, જેના પરિણામે 33 ms નો સેમ્પલિંગ રેટ થાય છે. નોંધ કરો કે phyphox રીઅલ-ટાઇમ વિશ્લેષણ માટે કેમેરાના પ્રીવ્યૂ સ્ટ્રીમનો ઉપયોગ કરે છે, જે આ દર સુધી મર્યાદિત છે. જો તમારો ફોન હાઇ-સ્પીડ અથવા સ્લો-મોશન રેકોર્ડિંગને સપોર્ટ કરે છે, તો ઉચ્ચ ફ્રેમ રેટ ફક્ત રેકોર્ડિંગમાં ઉપલબ્ધ છે (રીઅલ-ટાઇમ નહીં), જેને phyphox હાલમાં સપોર્ટ કરતું નથી.
+
+જો તમે ઓટોએક્સપોઝરનો ઉપયોગ કરી રહ્યા છો, તો ધ્યાનમાં રાખો કે ટૂંકા ગાળામાં સરેરાશ બ્રાઈટનેસ 0.5 તરફ જશે. આ બદલાતી પ્રકાશની સ્થિતિમાં વિશ્વસનીય ટ્રીગરિંગ તરફ દોરી શકે છે, પરંતુ તે ટ્રીગર ચોકસાઈ અને ખાસ કરીને માપેલા સમયને પણ અસર કરી શકે છે. એ પણ નોંધ લો કે આ સ્ટોપવોચ લ્યુમિનન્સને બદલે લુમાનો ઉપયોગ કરે છે, જે બ્રાઈટનેસનું બિન-રેખીય પ્રતિનિધિત્વ છે જેની ગણતરી ઝડપથી કરી શકાય છે. આનો અર્થ એ છે કે મૂલ્ય લ્યુમિનન્સ માપન સાથે તુલનાત્મક રહેશે નહીં અને એક્સપોઝર સેટિંગ્સ બદલવાથી પ્રભાવિત થાય છે.
+</description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="Trigger range">ટ્રીગર રેંજ</string>
+      <string original="Trigger">ટ્રીગર</string>
+      <string original="outside range">રેંજ બહાર</string>
+      <string original="inside range">રેંજની અંદર</string>
+      <string original="State">સ્થિતિ</string>
+      <string original="Idle">નિષ્ક્રિય</string>
+      <string original="Triggered">ટ્રીગર થયું</string>
+      <string original="Luma">લુમા</string>
+      <string original="Frame rate">ફ્રેમ રેટ</string>
+      <string original="Sequence">ક્રમ</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Parallel">સમાંતર</string>
+      <string original="Duration">સમયગાળો</string>
+      <string original="Trigger duration 0">ટ્રીગર સમયગાળો 0</string>
+      <string original="Trigger duration 1">ટ્રીગર સમયગાળો 1</string>
+      <string original="Trigger duration 2">ટ્રીગર સમયગાળો 2</string>
+      <string original="Trigger duration 3">ટ્રીગર સમયગાળો 3</string>
+      <string original="Trigger duration 4">ટ્રીગર સમયગાળો 4</string>
+      <string original="Trigger duration 5">ટ્રીગર સમયગાળો 5</string>
+      <string original="Triggers">ટ્રીગરો</string>
+      <string original="Trigger on 0">ટ્રીગર ચાલુ 0</string>
+      <string original="Trigger off 0">ટ્રીગર બંધ 0</string>
+      <string original="Trigger on 1">ટ્રીગર ચાલુ 1</string>
+      <string original="Trigger off 1">ટ્રીગર બંધ 1</string>
+      <string original="Trigger on 2">ટ્રીગર ચાલુ 2</string>
+      <string original="Trigger off 2">ટ્રીગર બંધ 2</string>
+      <string original="Trigger on 3">ટ્રીગર ચાલુ 3</string>
+      <string original="Trigger off 3">ટ્રીગર બંધ 3</string>
+      <string original="Trigger on 4">ટ્રીગર ચાલુ 4</string>
+      <string original="Trigger off 4">ટ્રીગર બંધ 4</string>
+      <string original="Trigger on 5">ટ્રીગર ચાલુ 5</string>
+      <string original="Trigger off 5">ટ્રીગર બંધ 5</string>
+      <string original="Many">ઘણા</string>
+      <string original="Trigger on events">ટ્રીગર ઘટનાઓ</string>
+      <string original="Event number">ઘટના નંબર</string>
+      <string original="Time interval">સમય અંતરાલ</string>
+      <string original="Trigger durations">ટ્રીગર સમયગાળો</string>
+      <string original="Average interval">સરેરાશ અંતરાલ</string>
+      <string original="Average rate">સરેરાશ દર</string>
+      <string original="Average rate (bpm)">સરેરાશ દર (bpm)</string>
+      <string original="1/min">1/મિનીટ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">inLuma</container>

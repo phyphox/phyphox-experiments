@@ -21,6 +21,8 @@
       <string original="Time">Zeit</string>
       <string original="Frequency 1">Frequenz 1</string>
       <string original="Frequency 2">Frequenz 2</string>
+      <string original="Controls">Steuerung</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Tónový generátor</title>
@@ -39,6 +41,9 @@
       <string original="Frequency 1">Frekvence 1</string>
       <string original="Amplitude 2">Amplituda 2</string>
       <string original="Frequency 2">Frekvence 2</string>
+      <string original="Controls">Ovládání</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Generator dźwięku</title>
@@ -53,6 +58,9 @@
       <string original="Frequency low">Częstotliwość niska</string>
       <string original="Frequency high">Częstotliwość wysoka</string>
       <string original="Time">Czas</string>
+      <string original="Controls">Sterowanie</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Toongenerator</title>
@@ -68,6 +76,8 @@
       <string original="Frequency low">Lage frequentie</string>
       <string original="Frequency high">Hoge frequentie</string>
       <string original="Time">Tijd</string>
+      <string original="Controls">Controles</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Генератор тона</title>
@@ -88,6 +98,9 @@
       <string original="Frequency 1">Частота 1</string>
       <string original="Amplitude 2">Амплитуда 2</string>
       <string original="Frequency 2">Частота 2</string>
+      <string original="Controls">Управление</string>
+      <string original="Amplitude">Амплитуда</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Generatore di suoni</title>
@@ -107,6 +120,9 @@
       <string original="Frequency 1">Frequenza 1</string>
       <string original="Amplitude 2">Ampiezza 2</string>
       <string original="Frequency 2">Frequenza 2</string>
+      <string original="Controls">Controlli</string>
+      <string original="Amplitude">Ampiezza</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Γεννήτρια συχνοτήτων</title>
@@ -126,6 +142,9 @@
       <string original="Frequency 1">Συχνότητα 1</string>
       <string original="Amplitude 2">Πλάτος 2</string>
       <string original="Frequency 2">Συχνότητα 2</string>
+      <string original="Controls">Κουμπιά ελέγχου</string>
+      <string original="Amplitude">Πλάτος</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
@@ -141,6 +160,9 @@
       <string original="Status">ステータス</string>
       <string original="Frequency low">低周波数</string>
       <string original="Frequency high">高周波数</string>
+      <string original="Controls">スコア計測</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Gerador de tom</title>
@@ -156,6 +178,8 @@
       <string original="Status">Estado</string>
       <string original="Frequency low">Frequência baixa</string>
       <string original="Frequency high">Frequência muito alta</string>
+      <string original="Controls">Controles</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Ton üreteci</title>
@@ -172,6 +196,9 @@
       <string original="Frequency low">Frekans düşük</string>
       <string original="Frequency high">Frekans yüksek</string>
       <string original="OK">İYİ</string>
+      <string original="Controls">Kontroller</string>
+      <string original="Amplitude">Genlik</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>聲調產生器</title>
@@ -188,6 +215,8 @@
       <string original="Frequency low">低頻</string>
       <string original="Frequency high">高頻</string>
       <string original="OK">良好</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Générateur de son</title>
@@ -204,6 +233,9 @@
       <string original="Frequency high">Fréquence élevée</string>
       <string original="Frequency 1">Fréquence 1</string>
       <string original="Frequency 2">Fréquence 2</string>
+      <string original="Controls">Contrôles</string>
+      <string original="Amplitude">Intensité</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Bộ tạo âm</title>
@@ -223,6 +255,9 @@
       <string original="Frequency 1">Tần số 1</string>
       <string original="Amplitude 2">Tần số 1</string>
       <string original="Frequency 2">Tần số 2</string>
+      <string original="Controls">Điều khiển</string>
+      <string original="Amplitude">Biên độ</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
       <title>音频发生器</title>
@@ -238,6 +273,10 @@
       <string original="Status">状态</string>
       <string original="Frequency low">低频</string>
       <string original="Frequency high">高频</string>
+      <string original="Controls">控件</string>
+      <string original="Amplitude">振幅</string>
+      <string original="OK">确定</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Generator tona</title>
@@ -251,6 +290,9 @@
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox dozvoljava postavljanje proizvoljnih frekvencija, može se dogoditi da rezultati ispod 100Hz ili iznad 8000Hz budu loši zbog ograničenja hardvera.</string>
       <string original="Frequency low">Donja frekvencija</string>
       <string original="Frequency high">Gornja frekvencija</string>
+      <string original="Controls">Kontrole</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Generator tona</title>
@@ -264,6 +306,9 @@
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">Phyphox dozvoljava postavljanje proizvoljnih frekvencija, može se dogoditi da rezultati ispod 100Hz ili iznad 8000Hz budu loši zbog ograničenja hardvera.</string>
       <string original="Frequency low">Donja frekvencija</string>
       <string original="Frequency high">Gornja frekvencija</string>
+      <string original="Controls">Kontrole</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Generador de tonos</title>
@@ -283,6 +328,9 @@
       <string original="Frequency 1">Frecuencia 1</string>
       <string original="Amplitude 2">Amplitud 2</string>
       <string original="Frequency 2">Frecuencia 2</string>
+      <string original="Controls">Controles</string>
+      <string original="Amplitude">Amplitud</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>ტონის გენერატორი</title>
@@ -302,6 +350,9 @@
       <string original="Frequency 1">სიხშირე 1</string>
       <string original="Amplitude 2">ამპლიტუდა 2</string>
       <string original="Frequency 2">სიხშირე 2</string>
+      <string original="Controls">კონტრლები</string>
+      <string original="Amplitude">ამპლიტუდა</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>स्वर जनित्र</title>
@@ -321,6 +372,9 @@
       <string original="Frequency 1">आवृत्ति 1</string>
       <string original="Amplitude 2">आयाम 2</string>
       <string original="Frequency 2">आवृत्ति 2</string>
+      <string original="Controls">कंट्रोल्स</string>
+      <string original="Amplitude">आयाम</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>ஒலி உண்டாக்கி</title>
@@ -340,7 +394,36 @@
       <string original="Frequency 1">அதிர்வெண் க</string>
       <string original="Amplitude 2">வீச்சு ௨</string>
       <string original="Frequency 2">அதிர்வெண் ௨</string>
+      <string original="Controls">கட்டுப்பாடுகள்</string>
+      <string original="Amplitude">வீச்சு</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="OK">ঠিক আছে।</string>
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ટોન જનરેટર</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        ચોક્કસ ફ્રીક્વન્સીનો ટોન ઉત્પન્ન કરે છે.
+    </description>
+      <string original="Controls">નિયંત્રણો</string>
+      <string original="Signal">સિગ્નલ</string>
+      <string original="Time">સમય</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Amplitude">એમ્પ્લીટ્યુડ</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">જોકે phyphox તમને કોઈપણ ફ્રીક્વન્સી સેટ કરવાની મંજૂરી આપે છે, હાર્ડવેર મર્યાદાઓને કારણે તમને 100Hz થી નીચે અથવા 8000Hz થી ઉપર ખરાબ પરિણામો મળી શકે છે.</string>
+      <string original="Status">સ્થિતિ</string>
+      <string original="Frequency low">ફ્રીક્વન્સી નિમ્ન</string>
+      <string original="Frequency high">ફ્રીક્વન્સી ઉચ્ચ</string>
+      <string original="OK">બરાબર</string>
+      <string original="Settings">સેટિંગ્સ</string>
+    </translation>
+    <translation locale="kn">
+      <string original="OK">ಸರಿ</string>
+    </translation>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <!-- UI state -->
@@ -353,12 +436,10 @@
     <container init="0">c2advanced</container>
     <container init="0">c3</container>
     <container init="0">c3advanced</container>
-
     <container init="1">a1in</container>
     <container init="1">a2in</container>
     <container init="1">a3in</container>
     <container init="1">atotal</container>
-
     <container init="0">a1</container>
     <container init="0">a2</container>
     <container init="0">a3</container>
@@ -371,7 +452,6 @@
     <container init="0">p1</container>
     <container init="0">p2</container>
     <container init="0">p3</container>
-
     <container init="0">a1_wf1A</container>
     <container init="0">a1_wf1B</container>
     <container init="0">a1_wf1C</container>
@@ -381,7 +461,6 @@
     <container init="0">a3_wf3A</container>
     <container init="0">a3_wf3B</container>
     <container init="0">a3_wf3C</container>
-
     <container size="4801" static="true">t</container>
     <container size="4801">signal</container>
   </data-containers>
@@ -440,12 +519,10 @@
         <input axis="x">t</input>
         <input axis="y">signal</input>
       </graph>
-
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-
-      <info label="Channel 1" bold="true" visibility="c2" />
+      <info label="Channel 1" bold="true" visibility="c2"/>
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000">
         <output>f1</output>
       </edit>
@@ -465,17 +542,15 @@
         <output>p1</output>
       </slider>
       <dropdown label="Waveform" default="0" visibility="advanced">
-            <output>wf1</output>
-            <map value="0">Sine</map>
-            <map value="1">Square</map>
-            <map value="2">Sawtooth</map>
+        <output>wf1</output>
+        <map value="0">Sine</map>
+        <map value="1">Square</map>
+        <map value="2">Sawtooth</map>
       </dropdown>
-
       <separator height="1" visibility="c2"/>
       <separator color="white" visibility="c2"/>
       <separator height="1" visibility="c2"/>
-
-      <info label="Channel 2" bold="true" visibility="c2" />
+      <info label="Channel 2" bold="true" visibility="c2"/>
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000" visibility="c2">
         <output>f2</output>
       </edit>
@@ -495,17 +570,15 @@
         <output>p2</output>
       </slider>
       <dropdown label="Waveform" default="0" visibility="c2advanced">
-            <output>wf2</output>
-            <map value="0">Sine</map>
-            <map value="1">Square</map>
-            <map value="2">Sawtooth</map>
+        <output>wf2</output>
+        <map value="0">Sine</map>
+        <map value="1">Square</map>
+        <map value="2">Sawtooth</map>
       </dropdown>
-      
       <separator height="1" visibility="c3"/>
       <separator color="white" visibility="c3"/>
       <separator height="1" visibility="c3"/>
-
-      <info label="Channel 3" bold="true" visibility="c3" />
+      <info label="Channel 3" bold="true" visibility="c3"/>
       <edit label="Frequency" unit="[[unit_short_hertz]]" default="440" signed="false" min="0" max="24000" visibility="c3">
         <output>f3</output>
       </edit>
@@ -525,20 +598,17 @@
         <output>p3</output>
       </slider>
       <dropdown label="Waveform" default="0" visibility="c3advanced">
-            <output>wf3</output>
-            <map value="0">Sine</map>
-            <map value="1">Square</map>
-            <map value="2">Sawtooth</map>
+        <output>wf3</output>
+        <map value="0">Sine</map>
+        <map value="1">Square</map>
+        <map value="2">Sawtooth</map>
       </dropdown>
-
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-
       <separator height="1" visibility="single"/>
       <info label="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations." visibility="single"/>
       <separator height="1" visibility="single"/>
-
       <value label="Status" visibility="single">
         <input>f1</input>
         <map max="100">Frequency low</map>
@@ -547,172 +617,152 @@
       </value>
     </view>
     <view label="Settings">
-        <dropdown label="Channels" default="1">
-            <output>channels</output>
-            <map value="1">1</map>
-            <map value="2">2</map>
-            <map value="3">3</map>
-        </dropdown>
-        <toggle label="Advanced" default="0">
-            <output>advanced</output>
-        </toggle>
-
-        <separator height="1"/>
-        <separator color="white"/>
-        <separator height="1"/>
-
-        <info label="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1." />
-        <toggle label="Normalize" default="1">
-            <output>normalize</output>
-        </toggle>
-        <edit label="Normalization amplitude" unit="[[unit_short_arbitrary_unit]]" default="0.5" signed="false" min="0" max="1" visibility="normalize">
-            <output>target_a</output>
-        </edit>
-        <slider label="Normalization amplitude" showValue="false" minValue="0" maxValue="1" precision="2" stepSize="0.01" visibility="normalize">
-          <output>target_a</output>
-        </slider>
+      <dropdown label="Channels" default="1">
+        <output>channels</output>
+        <map value="1">1</map>
+        <map value="2">2</map>
+        <map value="3">3</map>
+      </dropdown>
+      <toggle label="Advanced" default="0">
+        <output>advanced</output>
+      </toggle>
+      <separator height="1"/>
+      <separator color="white"/>
+      <separator height="1"/>
+      <info label="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1."/>
+      <toggle label="Normalize" default="1">
+        <output>normalize</output>
+      </toggle>
+      <edit label="Normalization amplitude" unit="[[unit_short_arbitrary_unit]]" default="0.5" signed="false" min="0" max="1" visibility="normalize">
+        <output>target_a</output>
+      </edit>
+      <slider label="Normalization amplitude" showValue="false" minValue="0" maxValue="1" precision="2" stepSize="0.01" visibility="normalize">
+        <output>target_a</output>
+      </slider>
     </view>
   </views>
   <analysis onUserInput="true">
     <!-- Apply settings to helper variables and individual channel parameters -->
     <if equal="true">
-        <input keep="true">channels</input>
-        <input type="value">1</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output>single</output>
+      <input keep="true">channels</input>
+      <input type="value">1</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>single</output>
     </if>
-
     <if greater="true">
-        <input keep="true">channels</input>
-        <input type="value">1</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output>c2</output>
+      <input keep="true">channels</input>
+      <input type="value">1</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>c2</output>
     </if>
-
     <multiply>
-        <input keep="true">c2</input>
-        <input keep="true">advanced</input>
-        <output>c2advanced</output>
+      <input keep="true">c2</input>
+      <input keep="true">advanced</input>
+      <output>c2advanced</output>
     </multiply>
-
     <if greater="true">
-        <input keep="true">channels</input>
-        <input type="value">2</input>
-        <input type="value">1</input>
-        <input type="value">0</input>
-        <output>c3</output>
+      <input keep="true">channels</input>
+      <input type="value">2</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>c3</output>
     </if>
-
     <multiply>
-        <input keep="true">c3</input>
-        <input keep="true">advanced</input>
-        <output>c3advanced</output>
+      <input keep="true">c3</input>
+      <input keep="true">advanced</input>
+      <output>c3advanced</output>
     </multiply>
-
     <formula formula="max([1],1-[6])+[2]*max([3],1-[6])+[4]*max([5],1-[6])">
-        <input keep="true">a1in</input>
-        <input keep="true">c2</input>
-        <input keep="true">a2in</input>
-        <input keep="true">c3</input>
-        <input keep="true">a3in</input>
-        <input keep="true">advanced</input>
-        <output>atotal</output>
+      <input keep="true">a1in</input>
+      <input keep="true">c2</input>
+      <input keep="true">a2in</input>
+      <input keep="true">c3</input>
+      <input keep="true">a3in</input>
+      <input keep="true">advanced</input>
+      <output>atotal</output>
     </formula>
-
     <formula formula="[1]*max([2],1-[4])/[3]*[5]+(1-[1])*max([2],1-[4])">
-        <input keep="true">normalize</input>
-        <input keep="true">a1in</input>
-        <input keep="true">atotal</input>
-        <input keep="true">advanced</input>
-        <input keep="true">target_a</input>
-        <output>a1</output>
+      <input keep="true">normalize</input>
+      <input keep="true">a1in</input>
+      <input keep="true">atotal</input>
+      <input keep="true">advanced</input>
+      <input keep="true">target_a</input>
+      <output>a1</output>
     </formula>
-
     <formula formula="[4]*([1]*max([2],1-[5])/[3]*[6]+(1-[1])*max([2],1-[5]))">
-        <input keep="true">normalize</input>
-        <input keep="true">a2in</input>
-        <input keep="true">atotal</input>
-        <input keep="true">c2</input>
-        <input keep="true">advanced</input>
-        <input keep="true">target_a</input>
-        <output>a2</output>
+      <input keep="true">normalize</input>
+      <input keep="true">a2in</input>
+      <input keep="true">atotal</input>
+      <input keep="true">c2</input>
+      <input keep="true">advanced</input>
+      <input keep="true">target_a</input>
+      <output>a2</output>
     </formula>
-
     <formula formula="[4]*([1]*max([2],1-[5])/[3]*[6]+(1-[1])*max([2],1-[5]))">
-        <input keep="true">normalize</input>
-        <input keep="true">a3in</input>
-        <input keep="true">atotal</input>
-        <input keep="true">c3</input>
-        <input keep="true">advanced</input>
-        <input keep="true">target_a</input>
-        <output>a3</output>
+      <input keep="true">normalize</input>
+      <input keep="true">a3in</input>
+      <input keep="true">atotal</input>
+      <input keep="true">c3</input>
+      <input keep="true">advanced</input>
+      <input keep="true">target_a</input>
+      <output>a3</output>
     </formula>
-    
     <formula formula="max(heaviside([1]+0.5)*heaviside(0.5-[1]), 1-[2])*[3]">
-        <input keep="true">wf1</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a1</input>
-        <output>a1_wf1A</output>
+      <input keep="true">wf1</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a1</input>
+      <output>a1_wf1A</output>
     </formula>
-
     <formula formula="min(heaviside([1]-0.5)*heaviside(1.5-[1]), [2])*[3]">
-        <input keep="true">wf1</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a1</input>
-        <output>a1_wf1B</output>
+      <input keep="true">wf1</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a1</input>
+      <output>a1_wf1B</output>
     </formula>
-
     <formula formula="min(heaviside([1]-1.5)*heaviside(2.5-[1]), [2])*[3]">
-        <input keep="true">wf1</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a1</input>
-        <output>a1_wf1C</output>
+      <input keep="true">wf1</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a1</input>
+      <output>a1_wf1C</output>
     </formula>
-
     <formula formula="max(heaviside([1]+0.5)*heaviside(0.5-[1]), 1-[2])*[3]">
-        <input keep="true">wf2</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a2</input>
-        <output>a2_wf2A</output>
+      <input keep="true">wf2</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a2</input>
+      <output>a2_wf2A</output>
     </formula>
-
     <formula formula="min(heaviside([1]-0.5)*heaviside(1.5-[1]), [2])*[3]">
-        <input keep="true">wf2</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a2</input>
-        <output>a2_wf2B</output>
+      <input keep="true">wf2</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a2</input>
+      <output>a2_wf2B</output>
     </formula>
-
     <formula formula="min(heaviside([1]-1.5)*heaviside(2.5-[1]), [2])*[3]">
-        <input keep="true">wf2</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a2</input>
-        <output>a2_wf2C</output>
+      <input keep="true">wf2</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a2</input>
+      <output>a2_wf2C</output>
     </formula>
-
     <formula formula="max(heaviside([1]+0.5)*heaviside(0.5-[1]), 1-[2])*[3]">
-        <input keep="true">wf3</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a3</input>
-        <output>a3_wf3A</output>
+      <input keep="true">wf3</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a3</input>
+      <output>a3_wf3A</output>
     </formula>
-
     <formula formula="min(heaviside([1]-0.5)*heaviside(1.5-[1]), [2])*[3]">
-        <input keep="true">wf3</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a3</input>
-        <output>a3_wf3B</output>
+      <input keep="true">wf3</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a3</input>
+      <output>a3_wf3B</output>
     </formula>
-
     <formula formula="min(heaviside([1]-1.5)*heaviside(2.5-[1]), [2])*[3]">
-        <input keep="true">wf3</input>
-        <input keep="true">advanced</input>
-        <input keep="true">a3</input>
-        <output>a3_wf3C</output>
+      <input keep="true">wf3</input>
+      <input keep="true">advanced</input>
+      <input keep="true">a3</input>
+      <output>a3_wf3C</output>
     </formula>
-
     <!-- Calculate wave preview -->
     <ramp>
       <input as="start" type="value">0</input>

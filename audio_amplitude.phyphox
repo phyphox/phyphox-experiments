@@ -441,7 +441,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <title>声音振幅</title>
       <category>声学</category>
       <description>
-        得出声音的振幅大小。
+        测量声音的振幅大小。
 
        本实验仅记录麦克风的短间隔并计算声压级(SPL)。注意该计算为十分简易的计算方式，因此结果可能不准确。你还需要一个参考值来校准该测量。
     </description>
@@ -667,6 +667,41 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Why can't we get a better calibration?">நம்மால் ஏன் சிறந்த அளவுத்திருத்தத்தைப் பெற முடியாது?</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">மாணவர்கள் வெவ்வேறு சாதனங்களில் ஒப்பிடக்கூடிய தரவைப் பெற அனுமதிக்கும் ஒரு எளிய நடைமுறையை நாங்கள் விரும்பினோம். நல்ல உபகரணங்களைப் பயன்படுத்தி உங்கள் ஒலிவாங்கி-ன் அதிர்வெண் சார்புநிலையையும் அளவீடு செய்யலாம், மேலும் நேரியல் அல்லாத தொடர்களுக்கு ஈடுசெய்யலாம். உங்களிடம் அத்தகைய உபகரணங்கள் இருந்தால், அதை முயற்சிக்க விரும்பினால், தயவுசெய்து எங்களுக்குத் தெரியப்படுத்துங்கள் - மேம்பட்ட அளவுத்திருத்த நுட்பங்களை அனுமதிக்கும் phyphox-சோதனைகள் ஏற்கனவே எங்களிடம் உள்ளன.</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ઓડિઓ એમ્પ્લીટ્યુડ (કંપનવિસ્તાર)</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        ધ્વનિનો એમ્પ્લીટ્યુડ મેળવો.
+
+        આ પ્રયોગ ફક્ત માઇક્રોફોનથી ટૂંકા અંતરાલો રેકોર્ડ કરે છે અને સાઉન્ડ પ્રેશર લેવલ (SPL) ની ગણતરી કરે છે. નોંધ કરો કે આ ગણતરી ખૂબ જ સરળ પદ્ધતિ છે અને પરિણામો સચોટ ન પણ હોઈ શકે. માપને કેલીબ્રેટ કરવા માટે તમારે સંદર્ભની પણ જરૂર પડશે.
+    </description>
+      <string original="Calibration">કેલીબ્રેશન</string>
+      <string original="Amplitude">એમ્પ્લીટ્યુડ</string>
+      <string original="Status">સ્થિતિ</string>
+      <string original="NOT calibrated">કેલીબ્રેટ કરેલું નથી</string>
+      <string original="calibrated">કેલીબ્રેટ કરેલું</string>
+      <string original="Sound pressure level">સાઉન્ડ પ્રેશર લેવલ</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Clear history">ઈતિહાસ સાફ કરો</string>
+      <string original="Please see the calibration tab to get proper results.">યોગ્ય પરિણામો મેળવવા માટે કૃપા કરીને કેલીબ્રેશન ટેબ જુઓ.</string>
+      <string original="Reference SPL">સંદર્ભ SPL</string>
+      <string original="Calibrate">કેલીબ્રેટ</string>
+      <string original="Calibration offset">કેલીબ્રેશન ઓફસેટ</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">જો તમે આ પહેલાં અથવા સમાન ઉપકરણ પર કર્યું હોય, તો તમે ફક્ત તમારા છેલ્લા કેલીબ્રેશનમાંથી કેલીબ્રેશન ઓફસેટ દાખલ કરી શકો છો અને 'ઓફસેટ સેટ કરો' દબાવો.</string>
+      <string original="Custom offset">ઓફસેટ કસ્ટમ કરો</string>
+      <string original="Set offset">ઓફસેટ સેટ કરો</string>
+      <string original="FAQ">વારંવાર પૂછાતા પ્રશ્નો</string>
+      <string original="How accurate are these results?">આ પરિણામો કેટલા સચોટ છે?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">શિક્ષણ અને સંશોધન માટે? કદાચ પૂરતા છે. ગંભીર અભ્યાસ માટે? કદાચ નહીં, પણ અન્ય એપ્લિકેશનો વધુ સારી કામગીરી કરી શકે છે (નીચે જુઓ). વૈજ્ઞાનિક અથવા આરોગ્ય સંબંધિત એપ્લિકેશનો માટે? બિલકુલ નહીં; તેના માટે સમર્પિત ઉપકરણ મેળવો.</string>
+      <string original="Why isn't this already calibrated?">આ પહેલાથી જ કેલીબ્રેટ કરેલું કેમ નથી?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox 10,000 થી વધુ ઉપકરણો પર ઉપલબ્ધ છે. તેમાંના મોટાભાગનામાં અલગ અલગ માઇક્રોફોન, અલગ અલગ ઇલેક્ટ્રોનિક્સ અને અલગ અલગ સોફ્ટવેર હોય છે - જે બધા અવાજ પ્રત્યેના તેમના પ્રતિભાવને અસર કરે છે. આપણે તે બધાને કેલીબ્રેટ કરી શકતા નથી, પરંતુ અમુક કિસ્સાઓમાં, એવી એપ્લિકેશનો છે જે ફક્ત ચોક્કસ ઉપકરણો (જેમ કે iPhone-વિશિષ્ટ એપ્લિકેશનો) ને લક્ષ્ય બનાવે છે જે આ ઉપકરણોને કેલીબ્રેટ કરી શકે છે. જો તમે કેલીબ્રેશન વિના વધુ સારા પરિણામો ઇચ્છતા હો, તો તમારે તમારા ઉપકરણ માટે વિશિષ્ટ એપ્લિકેશનો માટે તપાસ કરવી જોઈએ.</string>
+      <string original="Why can't we get a better calibration?">આપણે વધુ સારું કેલીબ્રેશન કેમ નથી મેળવી શકતા?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">અમે વિદ્યાર્થીઓને વિવિધ ઉપકરણો પર સુસંગત ડેટા મેળવવાની મંજૂરી આપવા માટે એક સરળ રીત ઇચ્છતા હતા. સારા સાધનો સાથે, તમે તમારા માઇક્રોફોનની ફ્રીક્વન્સી ડિપેન્ડન્સીને પણ કેલીબ્રેટ કરી શકો છો અને સંભવતઃ બિન-રેખીય પ્રતિભાવ માટે ભરપાઈ કરી શકો છો. જો તમારી પાસે આવા સાધનો છે અને તમે તેને અજમાવવા માંગો છો, તો કૃપા કરીને અમને જણાવો - અમારી પાસે પહેલાથી જ phyphox-પ્રયોગો છે, જે વધુ અદ્યતન કેલીબ્રેશન તકનીકો માટે પરવાનગી આપે છે.</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

@@ -369,7 +369,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
 
            本实验记录加速度计的数据并通过傅里叶变换（FFT）计算其频谱。最大可测频率与你的传感器的最大采样率有关。
     </description>
-      <string original="Spectrum">加速度频谱</string>
+      <string original="Spectrum">频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
@@ -387,6 +387,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration x">x轴加速度</string>
       <string original="Acceleration y">y轴加速度</string>
       <string original="Acceleration z">z轴加速度</string>
+      <string original="Resolution">分辨率</string>
     </translation>
     <translation locale="sr">
       <title>Spektar ubrzanja</title>
@@ -551,6 +552,40 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <string original="Acceleration y">முடுக்கம் y</string>
       <string original="Acceleration z">முடுக்கம் z</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>પ્રવેગ સ્પેક્ટ્રમ</title>
+      <category>ટૂલ</category>
+      <description>
+            એક્સીલેરોમીટરમાંથી ડેટાનો ફ્રીક્વન્સી સ્પેક્ટ્રમ દર્શાવો.
+
+            આ પ્રયોગ એક્સીલેરોમીટરમાંથી ડેટા રેકોર્ડ કરે છે અને ફુરિયર ટ્રાન્સફોર્મેશન (FFT) દ્વારા તેના ફ્રીક્વન્સી સ્પેક્ટ્રમની ગણતરી કરે છે. મહત્તમ શોધી શકાય તેવી ફ્રીક્વન્સી તમારા સેન્સરના મહત્તમ સંપાદન દર પર આધારિત છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Spectrum">સ્પેક્ટ્રમ</string>
+      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="1/min">1/મિનીટ</string>
+      <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="FFT Mag">FFT મેગ</string>
+      <string original="Samples used">ઉપયોગ કરેલા સેમ્પલ</string>
+      <string original="Period used">ઉપયોગ કરેલા પિરીઅડ</string>
+      <string original="Resolution">રિઝોલ્યુશન</string>
+      <string original="Acquisition rate">સંપાદન દર</string>
+      <string original="Nyquist frequency">નાયક્વિસ્ટ ફ્રીક્વન્સી</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">નીચે તમે ફુરિયર ટ્રાન્સફોર્મ માટે ઉપયોગમાં લેવાતા સેમ્પલની સંખ્યા સેટ કરી શકો છો. વધુ સેમ્પલનો અર્થ છે ધીમા અપડેટ્સ, પરંતુ ઉચ્ચ સ્પેક્ટ્રલ રિઝોલ્યુશન.</string>
+      <string original="Samples">સેમ્પલ</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Acceleration x">પ્રવેગ x</string>
+      <string original="Acceleration y">પ્રવેગ y</string>
+      <string original="Acceleration z">પ્રવેગ z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="4096">accInX</container>

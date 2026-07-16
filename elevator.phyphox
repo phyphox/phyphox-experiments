@@ -256,7 +256,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Vertical velocity (from altitude)">Tốc độ thẳng đứng (từ độ cao)</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>电梯</title>
+      <title>电梯测速</title>
       <category>日常生活</category>
       <description>
         利用气压计确定电梯的速度。
@@ -270,7 +270,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">高度（来自气压计）</string>
       <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
       <string original="Raw Data">原始数据</string>
-      <string original="Pressure">压力</string>
+      <string original="Pressure">气压</string>
       <string original="Accelerometer z">z轴加速度计</string>
       <string original="Vertical velocity (from altitude)">垂直速度（来自高度）</string>
     </translation>
@@ -388,6 +388,28 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Pressure">அழுத்தம்</string>
       <string original="Accelerometer z">முடுக்கமானி z</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>એલિવેટર</title>
+      <category>રોજિંદી જિંદગી</category>
+      <description>
+        બેરોમીટરનો ઉપયોગ કરીને એલિવેટરની ગતિ નક્કી કરો.
+
+        બેરોમીટરનો ઉપયોગ કરીને, ટૂંકા ગાળામાં ઊંચાઈમાં થતા ફેરફારો ખૂબ જ સચોટ રીતે માપી શકાય છે - જ્યાં GPS કામ કરતું ન હોય ત્યાં પણ. આનો ઉપયોગ એલિવેટરની ઊભી ગતિની ગણતરી કરવા માટે થઈ શકે છે. વધુમાં, z-ઘટક એક્સીલેરોમીટરનો ઉપયોગ કરીને પ્રવેગ માપવામાં આવે છે, તેથી પ્રવેગને સચોટ રીતે માપવા માટે ફોનને એલિવેટરના ફ્લોર પર સપાટ રાખવો આવશ્યક છે.
+
+        વધુ માહિતી:
+        આ પ્રયોગમાં કેટલાક અવાજને દૂર કરવા માટે, બેરોમીટર રીડિંગ્સનું સરેરાશ 1 સેકન્ડથી વધુ લેવામાં આવે છે. આ સળંગ સરેરાશ વચ્ચેના તફાવતને આંતરરાષ્ટ્રીય બેરોમેટ્રિક ઊંચાઈ સૂત્રનો ઉપયોગ કરીને ઊંચાઈ તફાવતમાં રૂપાંતરિત કરવામાં આવે છે. ઊંચાઈ તફાવતને સમય તફાવત દ્વારા ભાગવાથી ઊભી ગતિ મળે છે.
+    </description>
+      <string original="Motion">મોશન (ગતિ)</string>
+      <string original="Altitude (from barometer)">ઊંચાઈ (બેરોમીટરથી)</string>
+      <string original="Vertical velocity (from altitude)">ઉભો વેગ (ઊંચાઈથી)</string>
+      <string original="z acceleration (from accelerometer)">z પ્રવેગ (બેરોમીટરથી)</string>
+      <string original="Raw Data">રો ડેટા</string>
+      <string original="Pressure">દબાણ</string>
+      <string original="Accelerometer z">એક્સીલેરોમીટર z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

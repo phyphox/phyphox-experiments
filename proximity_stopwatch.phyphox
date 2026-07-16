@@ -944,6 +944,64 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <string original="Trigger on 5">தூண்டுதல் தொடக்கம் ௫</string>
       <string original="Trigger off 5">தூண்டுதல் முடிவு ௫</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+      <string original="Trigger below">নিম্ন ট্রিগার সীমা</string>
+      <string original="Trigger above">উচ্চ ট্রিগার সীমা</string>
+      <string original="Sequence">ক্রম</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>પ્રોક્સિમિટી સ્ટોપવોચ</title>
+      <category>ટાઇમર</category>
+      <description>
+        પ્રોક્સિમિટી સેન્સરના આધારે સમય માપો.
+
+        આ પ્રયોગમાં તમે કોઈ વસ્તુને તમારા પ્રોક્સિમિટી સેન્સરની નજીક લાવો છો (સામાન્ય રીતે ફોન કોલ્સ માટે ઉપયોગમાં લેવાતા સ્પીકરની આગળ સ્થિત) અને તે વસ્તુ તમારા ફોનની નજીક અથવા દૂર હોય ત્યારે સમય માપો છો.
+
+        નોંધ કરો કે ચોકસાઈ તમારા ફોનમાં રહેલા પ્રોક્સિમિટી સેન્સર પર વધુ આધાર રાખે છે. ધીમા સેન્સર માટે, આ સમય સરળતાથી એક સેકન્ડથી વધુ થઈ શકે છે, જ્યારે ઝડપી સેન્સર માટે આ સમય સામાન્ય રીતે સેકન્ડના દસમા ભાગથી ઓછો હોય છે. ઝડપી માપન, પરંતુ ધ્વનિ પર આધારિત, એકોસ્ટિક સ્ટોપવોચ પ્રયોગનો ઉપયોગ કરીને પ્રાપ્ત કરી શકાય છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Trigger below">ટ્રીગર નીચે</string>
+      <string original="Trigger above">ટ્રીગર ઉપર</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">ટાઇમર આપેલ થ્રેશોલ્ડ ઉપર અને નીચે બંને રીતે ટ્રીગર કરે છે. જો તમે ફક્ત લાંબા અંતર પર ટ્રીગર કરવા માંગતા હો, તો "ટ્રીગર નીચે" મૂલ્ય શૂન્ય પર સેટ કરો. જો તમે ફક્ત નજીકના અંતર પર ટ્રીગર કરવા માંગતા હો, તો "ટ્રીગર નીચે" મૂલ્ય ખૂબ ઊંચું સેટ કરો. તમે નીચેના ગ્રાફ પરથી તમારા બીજા ટ્રીગર માટે યોગ્ય થ્રેશોલ્ડનો અંદાજ લગાવી શકો છો. મોટાભાગના સેન્સર ફક્ત બે અંતર માપે છે, સામાન્ય રીતે 0 સેમી અને લગભગ 5 સેમી.</string>
+      <string original="Distance">અંતર</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">આ ચોકસાઈ તમારા ફોનમાં રહેલા પ્રોક્સિમિટી સેન્સર પર વધુ આધાર રાખે છે. ધીમા સેન્સર માટે, આ સમય સરળતાથી એક સેકન્ડથી વધુ થઈ શકે છે, જ્યારે ઝડપી સેન્સર માટે આ સમય સામાન્ય રીતે સેકન્ડના દસમા ભાગથી ઓછો હોય છે. ઝડપી માપન, પરંતુ ધ્વનિ પર આધારિત, એકોસ્ટિક સ્ટોપવોચ પ્રયોગનો ઉપયોગ કરીને પ્રાપ્ત કરી શકાય છે. iPhones પર, સેન્સર ફક્ત પોટ્રેટ મોડમાં જ કામ કરે છે (એટલે કે, જ્યારે ફોન સીધો રાખવામાં આવે છે) અને ટ્રિગર થવા પર સ્ક્રીન બંધ કરી દેશે.</string>
+      <string original="Sequence">ક્રમ</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Parallel">સમાંતર</string>
+      <string original="Duration">સમયગાળો</string>
+      <string original="Trigger duration 0">ટ્રીગર સમયગાળો 0</string>
+      <string original="Trigger duration 1">ટ્રીગર સમયગાળો 1</string>
+      <string original="Trigger duration 2">ટ્રીગર સમયગાળો 2</string>
+      <string original="Trigger duration 3">ટ્રીગર સમયગાળો 3</string>
+      <string original="Trigger duration 4">ટ્રીગર સમયગાળો 4</string>
+      <string original="Trigger duration 5">ટ્રીગર સમયગાળો 5</string>
+      <string original="Triggers">ટ્રીગરો</string>
+      <string original="Trigger on 0">ટ્રીગર ચાલુ 0</string>
+      <string original="Trigger off 0">ટ્રીગર બંધ 0</string>
+      <string original="Trigger on 1">ટ્રીગર ચાલુ 1</string>
+      <string original="Trigger off 1">ટ્રીગર બંધ 1</string>
+      <string original="Trigger on 2">ટ્રીગર ચાલુ 2</string>
+      <string original="Trigger off 2">ટ્રીગર બંધ 2</string>
+      <string original="Trigger on 3">ટ્રીગર ચાલુ 3</string>
+      <string original="Trigger off 3">ટ્રીગર બંધ 3</string>
+      <string original="Trigger on 4">ટ્રીગર ચાલુ 4</string>
+      <string original="Trigger off 4">ટ્રીગર બંધ 4</string>
+      <string original="Trigger on 5">ટ્રીગર ચાલુ 5</string>
+      <string original="Trigger off 5">ટ્રીગર બંધ 5</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <input>
     <sensor type="proximity">

@@ -440,10 +440,16 @@
       <string original="unknown">chưa biết</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>定位（GPS）</title>
+      <title>定位 (GPS)</title>
       <category>原始传感器</category>
       <description>
-        从卫星导航获得原始位置数据。
+        从卫星导航获得原始位置数据
+
+        请注意，可用数据取决于您手机的具体实现方式。某些设备可能无法提供垂直精度或卫星数量等信息。 
+
+        此外，默认情况卫星导航数据中会混入来自其他来源（如 Wi-Fi 或移动数据网络）的位置信息，而这些来源的精度通常较低。取决于您的设备，您或许可以通过“实验”菜单中的设置，选择仅采集卫星导航数据，从而禁用这些其他来源。 
+
+        速度和方向信息通常由设备提供，基于两以上连续的位置定位数据计算得出。
     </description>
       <string original="Position">位置</string>
       <string original="Status">状态</string>
@@ -465,6 +471,9 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些装置并没有GPS传感器，但能通过移动或WIFI连接提供定位数据。这些来源的数据精度较差。</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">还要确保你的系统定位设置没有设为“省电模式”，因为这通常会关闭精确的GPS数据源。</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">平面精度是指你的定位误差，垂直精度（通常更差）是指你的海拔误差。如果精度为零，则该信息不可用。</string>
+      <string original="m (WGS84)">m (WGS84 坐标系)</string>
+      <string original="unknown">未知</string>
+      <string original="Coordinates">坐标</string>
     </translation>
     <translation locale="sr">
       <title>Lokacija (GPS)</title>
@@ -661,6 +670,46 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">கிடைமட்டத் துல்லியம் என்பது உங்கள் இருப்பிடத்தின் நிச்சயமற்ற தன்மையைக் குறிக்கிறது, அதே சமயம் செங்குத்துத் துல்லியம் என்பது உங்கள் உயரத்தின் (பொதுவாக மோசமான) நிச்சயமற்ற தன்மையைக் குறிக்கிறது. துல்லியம் பூஜ்ஜியமாக இருந்தால், இந்தத் தகவல் கிடைக்கவில்லை என்று அர்த்தம்.</string>
       <string original="Coordinates">ஆயத்தொலைவுகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="unknown">অজ্ঞাত</string>
+    </translation>
+    <translation locale="gu">
+      <title>લોકેશન (GPS)</title>
+      <category>રો સેન્સર</category>
+      <description>
+        સેટેલાઇટ નેવિગેશનમાંથી કાચો લોકેશન ડેટા મેળવો.
+
+        નોંધ કરો કે ઉપલબ્ધ ડેટા તમારા સ્માર્ટફોન પર ઈમ્પલીમેન્ટેશન પર આધાર રાખી શકે છે. કેટલાક ઉપકરણો ઊભી ચોકસાઈ અથવા ઉપગ્રહોની સંખ્યા પ્રદાન કરી શકતા નથી.
+
+        ઉપરાંત, ડિફૉલ્ટ રૂપે, અન્ય ઓછા સચોટ સ્ત્રોતો (જેમ કે wifi અથવા મોબાઇલ ડેટા નેટવર્ક્સ) માંથી લોકેશન માહિતી સેટેલાઇટ નેવિગેશનના ડેટામાં મિશ્રિત થાય છે. ફરીથી, તમારા ઉપકરણના આધારે, તમે ફક્ત સેટેલાઇટ નેવિગેશનમાંથી ડેટા એકત્રિત કરવા માટે સેટિંગને સક્ષમ કરીને પ્રયોગ મેનૂમાંથી આ સ્ત્રોતોને અક્ષમ કરી શકો છો.
+
+        ગતિ અને દિશા સામાન્ય રીતે ઉપકરણ દ્વારા આપવામાં આવે છે અને તે બે અથવા વધુ સળંગ સ્થિતિ પર આધારિત છે.
+    </description>
+      <string original="Position">સ્થિતિ</string>
+      <string original="Status">સ્થિતિ</string>
+      <string original="GPS disabled">GPS અક્ષમ કર્યું</string>
+      <string original="GPS active">GPS સક્રિય</string>
+      <string original="Latitude">અક્ષાંશ</string>
+      <string original="Longitude">રેખાંશ</string>
+      <string original="Altitude">ઊંચાઈ</string>
+      <string original="Movement">હલનચલન</string>
+      <string original="Speed">ઝડપ</string>
+      <string original="Direction">દિશા</string>
+      <string original="Distance travelled">કાપેલું અંતર</string>
+      <string original="Simple">સિમ્પલ</string>
+      <string original="Compass">હોકાયંત્ર</string>
+      <string original="Distance from start">શરૂઆતથી અંતર</string>
+      <string original="Horizontal Accuracy">આડી ચોકસાઈ</string>
+      <string original="Vertical Accuracy">ઉભી ચોકસાઈ</string>
+      <string original="Satellites">ઉપગ્રહ</string>
+      <string original="unknown">અજ્ઞાત</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">નોંધ કરો કે કેટલાક ઉપકરણોમાં GPS સેન્સર હોતું નથી, પરંતુ તેઓ મોબાઇલ અથવા WIFI કનેક્શન દ્વારા લોકેશન ડેટા પ્રદાન કરે છે. આ ડેટા સ્ત્રોતો નબળી ચોકસાઈ સાથે ડેટા ઉત્પન્ન કરે છે.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">ઉપરાંત, ખાતરી કરો કે તમારી સિસ્ટમની લોકેશન સેટિંગ્સ "પાવર સેવિંગ" પર સેટ કરેલી નથી, કારણ કે આ સામાન્ય રીતે સાચા GPS સ્રોતને અક્ષમ કરે છે.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">આડી ચોકસાઈ એ તમારા લોકેશનની અનિશ્ચિતતા છે, જ્યારે ઊભી ચોકસાઈ એ તમારી ઊંચાઈની (સામાન્ય રીતે ખરાબ) અનિશ્ચિતતા છે. જો ચોકસાઈ શૂન્ય હોય, તો આ માહિતી ઉપલબ્ધ નથી.</string>
+      <string original="Coordinates">કોઓર્ડિનેટ્સ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">lat</container>

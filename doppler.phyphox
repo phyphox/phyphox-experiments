@@ -27,6 +27,7 @@
       <string original="Results">Ergebnisse</string>
       <string original="Frequency">Frequenz</string>
       <string original="Speed">Geschwindigkeit</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Dopplerův jev</title>
@@ -46,6 +47,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Results">Výsledky</string>
       <string original="Frequency">Frekvence</string>
       <string original="Speed">Rychlost</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Efekt Dopplera</title>
@@ -65,6 +67,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Results">Rezultaty</string>
       <string original="Frequency">Częstotliwość</string>
       <string original="Speed">Szybkość</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Doppler effect</title>
@@ -83,6 +86,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Results">Resultaten</string>
       <string original="Frequency">Frequentie</string>
       <string original="Speed">Snelheid</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Эффект Доплера</title>
@@ -102,6 +106,7 @@ Budete potřebovat tónový generátor produkující konstantní frekvenci (nap�
       <string original="Results">Результаты</string>
       <string original="Frequency">Частота</string>
       <string original="Speed">Скорость</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Effetto Doppler</title>
@@ -120,6 +125,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="nth period">periodo n-esimo</string>
       <string original="Frequency">Frequenza</string>
       <string original="Speed">Velocità</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Φαινόμενο Doppler</title>
@@ -139,6 +145,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Αποτελέσματα</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="Speed">Ταχύτητα</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>ドップラー効果</title>
@@ -158,6 +165,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">結果</string>
       <string original="Frequency">周波数</string>
       <string original="Speed">速度</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Efeito Doppler</title>
@@ -177,6 +185,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Resultados</string>
       <string original="Frequency">Frequência</string>
       <string original="Speed">Velocidade</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Doppler etkisi</title>
@@ -196,6 +205,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Sonuçlar</string>
       <string original="Frequency">Frekans</string>
       <string original="Speed">Hız</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>都卜勒效應</title>
@@ -215,6 +225,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">結果</string>
       <string original="Frequency">頻率</string>
       <string original="Speed">速度</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Effet Doppler</title>
@@ -234,6 +245,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Résultats</string>
       <string original="Frequency">Fréquence</string>
       <string original="Speed">Vitesse</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Hiệu ứng Doppler</title>
@@ -253,6 +265,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Kết quả</string>
       <string original="Frequency">Tần số</string>
       <string original="Speed">Tốc độ</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
       <title>多普勒效应</title>
@@ -272,6 +285,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">结果</string>
       <string original="Frequency">频率</string>
       <string original="Speed">速度</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Doplerov efekat</title>
@@ -291,6 +305,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Rezultati</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Speed">Brzina</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Doplerov efekat</title>
@@ -310,6 +325,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Rezultati</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Speed">Brzina</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Efecto Doppler</title>
@@ -329,6 +345,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">Resultados</string>
       <string original="Frequency">Frecuencia</string>
       <string original="Speed">Velocidad</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>დოპლერის ეფექტი</title>
@@ -348,6 +365,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">შედეგები</string>
       <string original="Frequency">სიხშირე</string>
       <string original="Speed">სიჩქარე</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>डॉप्लर प्रभाव</title>
@@ -367,6 +385,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">परिणाम</string>
       <string original="Frequency">आवृत्ति</string>
       <string original="Speed">चाल</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>Doppler விளைவு</title>
@@ -386,7 +405,33 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Results">முடிவுகள்</string>
       <string original="Frequency">அதிர்வெண்</string>
       <string original="Speed">வேகம்</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ડોપ્લર અસર</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        ડોપ્લર અસરના નાના ફ્રીક્વન્સી શિફ્ટ શોધો.
+
+        તમારે એક ટોન જનરેટરની જરૂર છે જે સતત ફ્રીક્વન્સી (ઉદાહરણ તરીકે 1000Hz) ઉત્સર્જિત કરે છે. પ્રયોગ સેટઅપમાં આ બેઝ ફ્રીક્વન્સી દાખલ કરો અને એક ડિટેક્શન રેન્જ પસંદ કરો જેમાં તમે ડોપ્લર શિફ્ટેડ ફ્રીક્વન્સી (ઉદાહરણ તરીકે 10Hz) ની અપેક્ષા રાખો છો. પ્રયોગ રેકોર્ડ કરેલી ફ્રીક્વન્સી નક્કી કરશે અને ધ્વનિ સ્ત્રોતની સાપેક્ષ ગતિની ગણતરી કરશે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Setup">સેટઅપ</string>
+      <string original="Base frequency">બેઝ ફ્રીક્વન્સી</string>
+      <string original="Frequency range">ફ્રીક્વન્સી રેંજ</string>
+      <string original="Time step">ટાઈમ સ્ટેપ</string>
+      <string original="Speed of sound">ધ્વનિની ગતિ</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">ટાઈમ સ્ટેપ એક વેગ બિંદુની ગણતરી કરવા માટે ઉપયોગમાં લેવાતા દર અને ડેટાની માત્રા નક્કી કરે છે. અલ્ગોરિધમ -રેન્જથી +રેન્જ સુધીની બેઝ ફ્રીક્વન્સીની આસપાસ ફ્રીક્વન્સી શોધશે અને ફ્રીક્વન્સી નક્કી કરવા માટે nth પિરીઅડ (નીચે) નો ઉપયોગ કરશે. રેન્જ અથવા ટાઈમ સ્ટેપ માટે એક્સ્ટ્રીમ સેટિંગ્સ ખોટા હોઈ શકે છે અથવા તમારા ફોન માટે ગણતરી કરવી ખૂબ મુશ્કેલ હોઈ શકે છે. ઉપરાંત, તમારે રેન્જ 1/સ્ટેપ કરતા નોંધપાત્ર રીતે નાની રાખવી જોઈએ.</string>
+      <string original="nth period">nth પિરીઅડ</string>
+      <string original="Results">પરિણામો</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Speed">ઝડપ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

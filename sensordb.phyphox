@@ -323,6 +323,31 @@ Thí nghiệm này sẽ thu thập dữ liệu kỹ thuật về điện thoại
       <string original="Results">结果</string>
       <string original="Gyroscope">陀螺仪</string>
       <string original="Magnetometer">磁力计</string>
+      <title>提交到传感器数据库</title>
+      <category>phyphox.org</category>
+      <description>向 phyphox.org 提交您手机的传感器相关信息。
+
+该实验将收集有关您手机及传感器的技术数据，您可以将其提交至我们的传感器数据库。经汇总后这些数据将提供给其他用户，旨在帮助我们及他人了解不同设备上传感器的可用性与性能。</description>
+      <string original="Submit">提交</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">本实验将收集有关您的手机及传感器的技术数据，您可以将这些数据提交至我们的传感器数据库。汇总后这些数据经将提供给其他用户，旨在帮助我们及他人了解不同设备上传感器的可用性与性能。</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">请将手机放置在平稳的表面上，然后点击“开始”。请避免在移动中（如乘坐汽车、火车等）或在有震动的环境（如大音量音乐、车辆震动等）下进行此操作，以免导致结果失真。</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox 会在短时间内收集数据，并最终提示您提交数据。</string>
+      <string original="Step">步骤</string>
+      <string original="Waiting for start">等待开始</string>
+      <string original="Collecting data">正在收集数据</string>
+      <string original="You may now press submit">现在可以点击提交</string>
+      <string original="Success. Thank you!">成功. 谢谢你！</string>
+      <string original="Confidence">可信度</string>
+      <string original="Accelerometer">加速度计</string>
+      <string original="Rate">更新频率</string>
+      <string original="Average">平均值</string>
+      <string original="Standard deviation">标准差</string>
+      <string original="Acceleration (without g)">加速度 (不含 g)</string>
+      <string original="Barometer">气压计</string>
+      <string original="Temperature">温度</string>
+      <string original="Humidity">湿度</string>
+      <string original="Light">亮度</string>
+      <string original="Proximity">接近觉传感器</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Results">結果</string>
@@ -446,6 +471,39 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Light">ஒளி</string>
       <string original="Proximity">அருகாமை</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>સેન્સર ડેટાબેઝમાં સબમિટ કરો</title>
+      <category>phyphox.org</category>
+      <description>તમારા ફોનમાં રહેલા સેન્સર વિશેની માહિતી phyphox.org પર સબમિટ કરો.
+
+આ પ્રયોગ તમારા ફોન અને તમારા સેન્સર વિશેનો ટેકનિકલ ડેટા એકત્રિત કરશે, જે તમે અમારા સેન્સર ડેટા બેઝ પર સબમિટ કરી શકો છો. ડેટા એકત્રિત કરવામાં આવશે અને અન્ય વપરાશકર્તાઓને ઉપલબ્ધ કરાવવામાં આવશે જેથી અમને અને અન્ય લોકોને વિવિધ ઉપકરણો પર સેન્સરની ઉપલબ્ધતા અને ક્ષમતા વિશે જાણવામાં મદદ મળે.</description>
+      <string original="Submit">સબમિટ કરો</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">આ પ્રયોગ તમારા ફોન અને તમારા સેન્સર વિશેનો ટેકનિકલ ડેટા એકત્રિત કરશે, જે તમે અમારા સેન્સર ડેટા બેઝ પર સબમિટ કરી શકો છો. ડેટા એકત્રિત કરવામાં આવશે અને અન્ય વપરાશકર્તાઓને ઉપલબ્ધ કરાવવામાં આવશે જેથી અમને અને અન્ય લોકોને વિવિધ ઉપકરણો પર સેન્સરની ઉપલબ્ધતા અને ક્ષમતા વિશે જાણવામાં મદદ મળે.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">કૃપા કરીને તમારા ફોનને સ્થિર સપાટી પર મૂકો અને ચાલુ કરોદબાવો. ચાલતી વખતે (કાર, ટ્રેન, વગેરે) અથવા કંપન કરતી સપાટી (મોટા અવાજે સંગીત, વાહનોના કંપન, વગેરે) આવું કરવાનું ટાળો કારણ કે આ પરિણામોને વિકૃત કરી શકે છે.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox થોડા સમય માટે ડેટા એકત્રિત કરશે અને અંતે તમને ડેટા સબમિટ કરવાનું કહેશે.</string>
+      <string original="Step">પગલું</string>
+      <string original="Waiting for start">શરૂઆતની રાહ જોઈ રહ્યા છીએ</string>
+      <string original="Collecting data">ડેટા એકત્રિત કરી રહ્યા છીએ</string>
+      <string original="You may now press submit">હવે તમે સબમિટ કરો દબાવી શકો છો</string>
+      <string original="Success. Thank you!">સફળતા. આભાર!</string>
+      <string original="Confidence">આત્મ-વિશ્વાસ</string>
+      <string original="Results">પરિણામો</string>
+      <string original="Accelerometer">એક્સીલેરોમીટર</string>
+      <string original="Rate">દર</string>
+      <string original="Average">સરેરાશ</string>
+      <string original="Standard deviation">પ્રમાણભૂત વિચલન</string>
+      <string original="Acceleration (without g)">પ્રવેગ (g વગર)</string>
+      <string original="Gyroscope">ગાયરોસ્કોપ</string>
+      <string original="Magnetometer">મેગ્નેટોમીટર</string>
+      <string original="Barometer">બેરોમીટર</string>
+      <string original="Temperature">તાપમાન</string>
+      <string original="Humidity">ભેજ</string>
+      <string original="Light">લાઇટ</string>
+      <string original="Proximity">પ્રોક્સિમિટી</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="1" init="0">state</container>

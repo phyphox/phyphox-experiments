@@ -119,7 +119,22 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
     </translation>
     <translation locale="zh_Hans">
       <string original="Average rate">平均频率</string>
-      <category>自带摄像头</category>
+      <category>相机</category>
+      <title>颜色 (HSV 色彩空间)</title>
+      <description>使用色相-饱和度-明度 (HSV) 颜色模型确定颜色。
+
+选定区域内的像素会分别转换为色相、饱和度和明度，然后取平均值。对于色相，采用循环平均法。
+
+请注意，白平衡会影响结果。虽然手机的自动白平衡在大多数情况下都能正常工作，但您可能需要将其设置为固定白平衡，以便分辨细微差别。
+</description>
+      <string original="Hue">色调</string>
+      <string original="Saturation">饱和度</string>
+      <string original="Value">明度值</string>
+      <string original="Saturation and Value">饱和度和明度</string>
+      <string original="sat., val.">饱和度, 明度</string>
+      <string original="Preview">预览</string>
+      <string original="Frame rate">帧率</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">点击预览画面并拖动，即可更改用于评估图像的区域。您还可以选择不同的相机设置来调整该区域内的图像。曝光不足的区域会以蓝色表示，曝光过度的区域则以红色表示。</string>
     </translation>
     <translation locale="zh_Hant"/>
     <translation locale="ta">
@@ -140,6 +155,27 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
       <string original="Frame rate">காட்சி வீதம்</string>
       <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">படத்தை மதிப்பிடுவதற்கு கணக்கில் எடுத்துக்கொள்ளப்படும் படத்தின் பகுதியை மாற்ற, முன்னோட்டத்தைத் தட்டி நகர்த்தவும். அந்தப் பகுதிக்குள் படத்தை அமைக்க நீங்கள் வெவ்வேறு ஒளிப்படவி அமைப்புகளையும் தேர்வு செய்யலாம். குறைவாக வெளிப்படும் பகுதிகள் நீல நிறத்திலும், அதிகமாக வெளிப்படும் பகுதிகள் சிவப்பு நிறத்திலும் குறிக்கப்பட்டுள்ளன.</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>રંગ (હ્યુ સેચ્યુરેશન મૂલ્ય)</title>
+      <category>કેમેરા</category>
+      <description>હ્યુ સેચ્યુરેશન મુલ્ય (HSV) કલર મોડેલનો ઉપયોગ કરીને રંગ શોધો.
+
+પસંદ કરેલા વિસ્તારમાં પિક્સેલ્સને વિવિધ રંગછટા (હ્યુ), સંતૃપ્તિ (સેચ્યુરેશન) અને મૂલ્યોમાં રૂપાંતરિત કરવામાં આવે છે, અને પછી સરેરાશ કરવામાં આવે છે. હ્યુના કિસ્સામાં, ચક્રીય સરેરાશનો ઉપયોગ થાય છે.
+
+નોંધ કરો કે વ્હાઈટ બેલેન્સ પરિણામોને અસર કરશે. જ્યારે તમારા ફોનનું ઓટોમેટિક વ્હાઈટ બેલેન્સ મોટાભાગની પરિસ્થિતિઓમાં સારું કામ કરશે, તો તમે નાના તફાવતોને ધ્યાનમાં લેવા માટે તેને નિશ્ચિત વ્હાઈટ રેફરન્સ પર સેટ કરી શકો છો.
+</description>
+      <string original="Hue">હ્યુ</string>
+      <string original="Saturation">સેચ્યુરેશન</string>
+      <string original="Value">મુલ્ય</string>
+      <string original="Saturation and Value">સેચ્યુરેશન અને મુલ્ય</string>
+      <string original="sat., val.">સેચ., મુલ્ય</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="Frame rate">ફ્રેમ રેટ</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">છબીનું મૂલ્યાંકન કરવા માટે ધ્યાનમાં લેવામાં આવેલ છબીના ક્ષેત્રફળને બદલવા માટે પૂર્વાવલોકન પર ટેપ કરો અને ડ્રેગ કરો. તમે વિસ્તારની અંદર છબીને એડજસ્ટ કરવા માટે વિવિધ કેમેરા સેટિંગ્સ પણ પસંદ કરી શકો છો. અન્ડરએક્સપોઝ્ડ વિસ્તારો વાદળી રંગમાં ચિહ્નિત થયેલ છે, ઓવરએક્સપોઝ્ડ વિસ્તારો લાલ રંગમાં ચિહ્નિત થયેલ છે.</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">h</container>

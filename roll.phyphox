@@ -270,6 +270,22 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Roll radius">உருளையின் ஆரம்</string>
       <string original="Raw Data">மூலத்தரவு</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>રોલ</title>
+      <category>મીકેનીક્સ</category>
+      <description>
+        તમારા ફોનને રોલમાં મૂકો અને તેનો વેગ નક્કી કરો.
+
+        તમે તમારા ફોનને કાગળના રોલ પર મૂકો જેથી તે તેની સૌથી લાંબી બાજુએ ફરે. આ પ્રયોગ પછી ગાયરોસ્કોપ દ્વારા માપવામાં આવેલા કોણીય વેગ અને રોલની ત્રિજ્યા લઈને રોલની ગતિની ગણતરી કરે છે.
+    </description>
+      <string original="Roll radius">રોલ ત્રિજ્યા</string>
+      <string original="Velocity">વેગ</string>
+      <string original="Raw Data">રો ડેટા</string>
+      <string original="Gyroscope y">ગાયરોસ્કોપ y</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

@@ -1,21 +1,112 @@
 <phyphox version="1.20" locale="en">
   <title>Flashlight Stroboscope</title>
-  <category>
-    Tools
-  </category>
-  <description>
-    Toggle your phone's flashlight with a tunable frequency.
-
-    Note that the flash is not designed to be toggled with precise timing. Depending on your phone's model, the usable frequencies can be limited. Please note the information shown under the strobe controls.
-  </description>
+  <category>Tools</category>
+  <description>Toggle your phone's flashlight with a tunable frequency.Note that the flash is not designed to be toggled with precise timing. Depending on your phone's model, the usable frequencies can be limited. Please note the information shown under the strobe controls.</description>
   <icon format="base64">
     iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABzJJREFUeJzt3duPnGUBx/HvlgVsqWA8lU3UEBJDPRDEbWIVPLINhgS8IKg1GDxHo0a9UDFeSzzcGPUvwBvEKzHGqOuBCCqhWqiRaFQ0HrDZUI0KFVtlvHhmnOlk9tfuvPOett9Pshc73XmfZ9v57nvY6fssDQYDJM22o+0JSF1mIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIFJgIOqjHcAqcHkTA0l9sALcBNwObACHgFvrHnRpMBjUPYY0j93AfmBt+LE642s2gIuB2l7EBqKuWAauYBzEq4Fzz+B5VwBH6pyU1JZLGQdxLXDhHNs4gIHoDF0APD7x+TnAi2d83WPAbxuZ0ameQ3lBrwHXAHsqbOsx4G7gNwuY16Y8xNoeVoH3UH4KXzLx+DOAR2d8/Q+A19Y+qxLsyxnvJV4KLM25rf8CDwDrw48fAv9ewBwj9yD99RTgeuBDwFXDx461Nx2g7LFewjiIVwHnVdjew4yDWAf+VnWCW2Ug/fMC4Bbg3cDTW54LnHoecQB4WoVtPQp8nxLDt4HfV51cVQbSD+cDN1AOo9ZansuzKVeY1oDXA8+rsK1/Afcy3kMcBp6sOsFFMpBuuwx4O/AuyvlEG3YBr2Ax5xFPUiIYBXEP8MQC5lgbA+meyb3FNcz/YpzX9HnEK4dzmtdfKDF8Hfge7Z8nbYmBdMfzgXcC7wCe1dIcdgF/oNre6q+UEEZ7iTYuJy/MogK5BLhoQdva7h4CTk58fiPwfuA1NL+3mHYc+B1bC+Q/wIOMg7ibU7+/XltUIF+gXHLU6T0X+NPE55+n/AKtK74D7DvN10xefv0W8I+6J9UWD7E0bR34xNRjRym/mFsHvgH8uelJtcVANO0eyrtkjzDeS/yMGt8x22UGomknqPkt5H3if5jSLMYxZCBSYCBSYCBSYCBSYCBS4GVezXI58Km2J7FFDwMfXvRGDUSzPJP+vXXowTo26iGWFBiIFBiIFHgOolmOAG9oexJb9Pc6NmogmuUYcFfbk+gCD7GkwECkwECkwECkwECkwEA0y/WUW4ye9bzMq2kXA1+j3KPrrLm9z2bcg2jaAcY3sLuUcgvUOym/GzkEfJpyS9IzWR6t9xa1B/k15S9Pp3di6vN/tjKLzW129/hlykI9q8DHKSs8/YTxHuanjcyuYa4w1b7zKG/rWMTNqo9R3qo+Ms8KU39kvjs99vom1ZvxEKt9J4CvUg5t9gKfYfaLugk7h3P5+RzPXQHeSjkc2wDuB24DXke1u8O3yj1IN827YM4i9iAjZ9VCOZsxkO7bC7yNM1tybZGBTNvWS61txkD6Y7RoZ9qr1BnIpG23WOdmDKSfRss+vwXYPfF4U4FM6/1yz5sxkH57KnAQeC9wJe0FMm0PZa+yBlxHtfVPjgM/oqU7zRvI9vEy4M3ARyYeu4jyopp2CHhfE5Mamjx/uRa4sMK2NiirWK0D36Rclq6Ngahp51NWzT3A+HDsnArbuw345ALmNZOBqG27gf2M9zCrW3z+QeCORU9qxEDUNSvA1ZQrdteRFxQdUN5cuVHXZAxEXbaDcvFhtHe5mnK5e+SB4Z/XxkDUJzuBqxgHsw7cWueABqI+W6LmS76+WVF9VvtPdwORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORAgORguUWxrwSeFED4/ySsh54W84F3tTQWF8BTjY01iz7gL0NjPML4HAD4/xfG4EcBD7awDhfot1AdgJfbmisu2g3kFuADzQwzudoOBAPsaTAQKTAQKSgjXOQWQ4DD1V4/mWUE8WuOwncWXEbb6RcAOi6Q8CvKjz/hZQLOq3qSiB3AJ+t8PwP0o9AngBurriNG+hHILcDX6zw/I/RgUA8xJICA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5ECA5GCZWB/w2OuNDTOHpr/3ibtanCsfcDxBsebtqehcVZo+N90GfhxkwM26Kbhx9ngu21PoCE3U32Nxy3xEEsKDEQKDEQKloH72p4E8EjF5x+lG9/H6Ty+gG3cD1ywgO3U7WjF5z9CB/5NlwaDQdtzkDrLQywpMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBApMBAp+B+VfCyMAIxAvAAAAABJRU5ErkJggg==
   </icon>
+  <translations>
+    <translation locale="cs">
+      <string original="Frequency">Frekvence</string>
+      <string original="Period">Perioda</string>
+      <string original="Preview">Náhled</string>
+    </translation>
+    <translation locale="de">
+      <string original="Frequency">Frequenz</string>
+      <string original="Period">Periode</string>
+      <string original="Preview">Vorschau</string>
+    </translation>
+    <translation locale="el">
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Period">Περίοδος</string>
+      <string original="Preview">Προεπισκόπηση</string>
+    </translation>
+    <translation locale="es">
+      <string original="Frequency">Frecuencia</string>
+      <string original="Period">Periodo</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Frequency">Fréquence</string>
+      <string original="Period">Période</string>
+    </translation>
+    <translation locale="hi">
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Period">काल</string>
+      <string original="Preview">पूर्वावलोकन</string>
+    </translation>
+    <translation locale="it">
+      <string original="Frequency">Frequenza</string>
+      <string original="Period">Periodo</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Frequency">周波数</string>
+      <string original="Period">周期</string>
+    </translation>
+    <translation locale="ka">
+      <string original="Frequency">სიხშირე</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Preview">ნახვა</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Frequency">Frequentie</string>
+      <string original="Period">Periode</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Period">Okres</string>
+      <string original="Preview">Podgląd</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Frequency">Frequência</string>
+      <string original="Period">Período</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Frequency">Частота</string>
+      <string original="Period">Период</string>
+      <string original="Preview">Предварительный просмотр</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Frequency">Frekvencija</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Frequency">Frekvencija</string>
+    </translation>
+    <translation locale="ta">
+      <string original="Frequency">அதிர்வெண்</string>
+      <string original="Period">கால இடைவெளி</string>
+      <string original="Preview">வெள்ளோட்டம்</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Frequency">Frekans</string>
+      <string original="Period">Periyot</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Frequency">Tần số</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Preview">Xem trước</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <string original="Frequency">频率</string>
+      <string original="Period">周期</string>
+      <string original="Preview">预览</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="Frequency">頻率</string>
+      <string original="Period">週期</string>
+    </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Period">પિરીઅડ</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
+  </translations>
   <data-containers>
     <container size="1" init="1">intensity</container>
     <container size="1" init="5">frequency</container>
     <container size="1" init="0.5">dutycycle</container>
-
     <container size="1">period</container>
     <container size="1">period3</container>
     <container size="1">on</container>
@@ -24,7 +115,6 @@
     <container size="1">offok</container>
     <container size="1">onwarning</container>
     <container size="1">offwarning</container>
-
     <container size="0">previewt</container>
     <container size="0">previewy</container>
   </data-containers>
@@ -72,8 +162,8 @@
         <input axis="x">previewt</input>
         <input axis="y">previewy</input>
       </graph>
-      <info label="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone." />
-      <info label="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits." />
+      <info label="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone."/>
+      <info label="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits."/>
     </view>
   </views>
   <analysis onUserInput="true">
@@ -136,4 +226,3 @@
     </formula>
   </analysis>
 </phyphox>
-

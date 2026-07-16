@@ -221,7 +221,7 @@
       <string original="Acceleration z">Gia tốc z</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>加速度（不含g）</title>
+      <title>加速度 (不含 g)</title>
       <category>原始传感器</category>
       <description>从所谓的线性加速度计获得原始数据，能得到不含重力加速度的真实加速度。和“含g加速度”不同，本传感器在装置静止时显示为0。</description>
       <string original="Graph">图表</string>
@@ -230,7 +230,7 @@
       <string original="Linear Acceleration z">z轴线性加速度</string>
       <string original="Absolute">绝对值</string>
       <string original="Absolute acceleration">加速度绝对值</string>
-      <string original="Multi">多方向</string>
+      <string original="Multi">多通道</string>
       <string original="Acceleration">加速度</string>
       <string original="Simple">简明值</string>
       <string original="Acceleration x">x轴加速度</string>
@@ -337,6 +337,26 @@
       <string original="Acceleration y">முடுக்கம் y</string>
       <string original="Acceleration z">முடுக்கம் z</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>પ્રવેગ (g વગર)</title>
+      <category>રો સેન્સર</category>
+      <description>કહેવાતા રેખીય એક્સીલેરોમીટરમાંથી કાચો ડેટા મેળવો, જે ગુરુત્વાકર્ષણ પ્રવેગ વિના સાચો પ્રવેગ પ્રદાન કરે છે. "g સાથે પ્રવેગ" થી વિપરીત, આ સેન્સર જ્યારે ઉપકરણ સ્થિર હોય ત્યારે 0 નો અહેવાલ આપે છે.</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Linear Acceleration x">રેખીય પ્રવેગ x</string>
+      <string original="Linear Acceleration y">રેખીય પ્રવેગ y</string>
+      <string original="Linear Acceleration z">રેખીય પ્રવેગ z</string>
+      <string original="Absolute">નિરપેક્ષ</string>
+      <string original="Absolute acceleration">નિરપેક્ષ પ્રવેગ</string>
+      <string original="Multi">બહુ</string>
+      <string original="Acceleration">પ્રવેગ</string>
+      <string original="Simple">સિમ્પલ</string>
+      <string original="Acceleration x">પ્રવેગ x</string>
+      <string original="Acceleration y">પ્રવેગ y</string>
+      <string original="Acceleration z">પ્રવેગ z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

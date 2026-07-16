@@ -760,6 +760,30 @@ Należy mieć świadomość, że automatyczny balans bieli oraz automatyczna eks
       <string original="Time interval">事件间隔</string>
       <string original="Average interval">平均间隔</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+      <title>相机秒表 (颜色触发)</title>
+      <category>相机</category>
+      <description>测量颜色变化之间的时间间隔，例如物体经过时引起的颜色变化。
+
+此配置允许您为测量矩形内的平均色调设置下限阈值和上限阈值。如果色调落在该范围内，则当前时间会被记录为触发事件。系统会记录不同事件之间的时间间隔以及这些事件的持续时间。
+
+请注意，phyphox 将色调表示在 0° 到 360° 的范围内，并使用循环平均。如果下限阈值大于上限阈值，则会选择 360° 到 0° 的色调范围。例如，10° 到 30° 的范围会在 20° 时触发，但不会在 40° 时触发。但是，350° 到 10° 的范围会在 359° 和 0° 时触发，但不会在 20° 时触发。
+
+时间分辨率取决于摄像头的预览帧率，通常固定为 30fps，采样率为 33 毫秒。请注意，phyphox 使用摄像头的预览视频流进行实时分析，而帧率受限于此。如果您的手机相机支持高速或慢动作录制，则更高的帧率仅在录制过程中可用（不适用于实时处理），phyphox 目前不支持此功能。
+
+请注意，自动白平衡和自动曝光可能会导致色彩识别出现偏差，从而影响触发阈值的精确度。
+</description>
+      <string original="Preview">预览</string>
+      <string original="Trigger range">触发范围</string>
+      <string original="Trigger">触发条件</string>
+      <string original="outside range">范围外</string>
+      <string original="inside range">范围内</string>
+      <string original="State">状态</string>
+      <string original="Idle">空闲 (Idle)</string>
+      <string original="Triggered">触发 (Trig'd)</string>
+      <string original="Hue">色调</string>
+      <string original="Frame rate">帧率</string>
+      <string original="Trigger on events">触发事件</string>
+      <string original="Trigger durations">触发持续时长</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Settings">設定</string>
@@ -854,6 +878,79 @@ phyphox 0° முதல் 360° வரையிலான வரம்பில
       <string original="Average rate (bpm)">சராசரி அதிர்வு (ஒரு வினாடிக்கு)</string>
       <string original="1/min">1/நிமிடம்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+      <string original="Sequence">ক্রম</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>કેમેરા સ્ટોપવોચ: રંગ</title>
+      <category>કેમેરા</category>
+      <description>રંગ પરિવર્તન વચ્ચેનો સમય માપો, જેમ કે પસાર થતી વસ્તુઓને કારણે થતા ફેરફારો.
+
+આ રૂપરેખાંકન તમને માપન લંબચોરસમાં સરેરાશ રંગ માટે નીચલી થ્રેશોલ્ડ અને ઉપલી થ્રેશોલ્ડ સેટ કરવાની મંજૂરી આપે છે. જો રંગ શ્રેણીમાં આવે છે, તો વર્તમાન સમયને ટ્રીગર ઇવેન્ટ તરીકે નોંધવામાં આવે છે. વ્યક્તિગત ઘટનાઓ અને આ ઘટનાઓના સમય વચ્ચેનો સમય પણ રેકોર્ડ કરવામાં આવે છે.
+
+નોંધ કરો કે ફાયરફોક્સ 0° થી 360° શ્રેણીમાં રંગ પ્રદર્શિત કરે છે અને ચક્રીય સરેરાશનો ઉપયોગ કરે છે. જો નીચલી થ્રેશોલ્ડ ઉપલા થ્રેશોલ્ડ કરતા વધારે હોય, તો 360° થી 0° સુધીની રંગ શ્રેણી પસંદ કરવામાં આવે છે. ઉદાહરણ તરીકે, 10° થી 30° ની શ્રેણી 20° પર ટ્રીગર થશે, પરંતુ 40° પર નહીં. જો કે, 350° થી 10° ની શ્રેણી 359° તેમજ 0° પર ટ્રિગર થશે, પરંતુ 20° પર નહીં.
+
+ટેમ્પોરલ રિઝોલ્યુશન કેમેરાના પૂર્વાવલોકન ફ્રેમ દર દ્વારા નક્કી કરવામાં આવે છે, જે સામાન્ય રીતે 30fps પર નિશ્ચિત હોય છે, જેના પરિણામે 33 ms નો સેમ્પલ રેટ થાય છે. નોંધ કરો કે phyphox રીઅલ-ટાઇમ વિશ્લેષણ માટે કેમેરાના પ્રીવ્યૂ સ્ટ્રીમનો ઉપયોગ કરે છે, જે આ દર સુધી મર્યાદિત છે. જો તમારો ફોન હાઇ-સ્પીડ અથવા સ્લો-મોશન રેકોર્ડિંગને સપોર્ટ કરે છે, તો ઉચ્ચ ફ્રેમ રેટ ફક્ત રેકોર્ડિંગ માટે ઉપલબ્ધ છે (રીઅલ-ટાઇમ નહીં), જેનો phyphox હાલમાં ઉપયોગ કરતું નથી.
+
+ધ્યાનમાં રાખો કે ઓટોમેટિક વ્હાઇટ બેલેન્સ અને ઓટોએક્સપોઝર ઇચ્છિત રંગોને બદલી શકે છે અને આમ ટ્રીગર કરવા માટે યોગ્ય થ્રેશોલ્ડ.
+</description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="Trigger range">ટ્રીગર રેંજ</string>
+      <string original="Trigger">ટ્રીગર</string>
+      <string original="outside range">રેંજ બહાર</string>
+      <string original="inside range">રેંજની અંદર</string>
+      <string original="State">સ્થિતિ</string>
+      <string original="Idle">નિષ્ક્રિય</string>
+      <string original="Triggered">ટ્રીગર થયું</string>
+      <string original="Hue">હ્યુ</string>
+      <string original="Frame rate">ફ્રેમ રેટ</string>
+      <string original="Sequence">ક્રમ</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Parallel">સમાંતર</string>
+      <string original="Duration">સમયગાળો</string>
+      <string original="Trigger duration 0">ટ્રીગર સમયગાળો 0</string>
+      <string original="Trigger duration 1">ટ્રીગર સમયગાળો 1</string>
+      <string original="Trigger duration 2">ટ્રીગર સમયગાળો 2</string>
+      <string original="Trigger duration 3">ટ્રીગર સમયગાળો 3</string>
+      <string original="Trigger duration 4">ટ્રીગર સમયગાળો 4</string>
+      <string original="Trigger duration 5">ટ્રીગર સમયગાળો 5</string>
+      <string original="Triggers">ટ્રીગરો</string>
+      <string original="Trigger on 0">ટ્રીગર ચાલુ 0</string>
+      <string original="Trigger off 0">ટ્રીગર બંધ 0</string>
+      <string original="Trigger on 1">ટ્રીગર ચાલુ 1</string>
+      <string original="Trigger off 1">ટ્રીગર બંધ 1</string>
+      <string original="Trigger on 2">ટ્રીગર ચાલુ 2</string>
+      <string original="Trigger off 2">ટ્રીગર બંધ 2</string>
+      <string original="Trigger on 3">ટ્રીગર ચાલુ 3</string>
+      <string original="Trigger off 3">ટ્રીગર બંધ 3</string>
+      <string original="Trigger on 4">ટ્રીગર ચાલુ 4</string>
+      <string original="Trigger off 4">ટ્રીગર બંધ 4</string>
+      <string original="Trigger on 5">ટ્રીગર ચાલુ 5</string>
+      <string original="Trigger off 5">ટ્રીગર બંધ 5</string>
+      <string original="Many">ઘણા</string>
+      <string original="Trigger on events">ટ્રીગર ઘટનાઓ</string>
+      <string original="Event number">ઘટના નંબર</string>
+      <string original="Time interval">સમય અંતરાલ</string>
+      <string original="Trigger durations">ટ્રીગર સમયગાળો</string>
+      <string original="Average interval">સરેરાશ અંતરાલ</string>
+      <string original="Average rate">સરેરાશ દર</string>
+      <string original="Average rate (bpm)">સરેરાશ દર (bpm)</string>
+      <string original="1/min">1/મિનીટ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">inHue</container>

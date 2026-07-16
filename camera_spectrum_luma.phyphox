@@ -228,6 +228,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
 </description>
       <string original="Resolution">Rozdzielczość</string>
       <string original="Preview">Podgląd</string>
+      <string original="Luma">Luminancja</string>
     </translation>
     <translation locale="pt">
       <string original="Spectrum">Espectro</string>
@@ -335,7 +336,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Raw data">Dữ liệu thô</string>
     </translation>
     <translation locale="zh_Hans">
-      <string original="Spectrum">加速度频谱</string>
+      <string original="Spectrum">频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
@@ -350,6 +351,17 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">以下你可以设立傅里叶变换采用的样本数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
       <string original="Samples">样本数</string>
       <string original="Raw data">原始数据</string>
+      <title>相机亮度频谱</title>
+      <category>相机</category>
+      <description>显示摄像头图像的亮度变化频谱
+
+本实验测量摄像头画面中选定区域的亮度，并计算亮度波动的频谱。请注意，该频谱的最高频率取决于摄像头的性能。通过增加参与计算的数据点数量（参见设置），可以提高频谱分辨率，但代价是系统对变化的响应速度会变慢。
+
+若使用自动曝光功能，请注意平均亮度会在短时间内向 0.5 漂移。这虽有助于在光照条件变化时实现可靠触发，但也可能影响触发精度，尤其是对持续时间的测量精度。此外，该秒表使用的是“luma”（一种非线性的亮度表示方式，计算速度更快）而非物理上的“luminance”（亮度）；这意味着该数值无法与物理亮度测量值直接比较，且会受到曝光设置变化的影响。
+</description>
+      <string original="Resolution">分辨率</string>
+      <string original="Preview">预览</string>
+      <string original="Luma">视频亮度 (Luma)</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Spectrum">加速頻譜</string>
@@ -395,6 +407,40 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Raw data">மூலத்தரவு</string>
       <string original="Luma">ஒற்றை வர்ண ஒளிர்வு</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>કેમેરા સ્પેક્ટ્રમ: બ્રાઈટનેસ</title>
+      <category>કેમેરા</category>
+      <description>કેમેરામાંથી બદલાતી બ્રાઈટનેસના ફ્રીક્વન્સી સ્પેક્ટ્રમ દર્શાવો.
+
+આ પ્રયોગ કેમેરા છબીના પસંદ કરેલા વિસ્તારમાં બ્રાઈટનેસને માપે છે અને બ્રાઈટનેસ વધવાની અને ઘટવાની ફ્રીક્વન્સી સ્પેક્ટ્રમની ગણતરી કરે છે. નોંધ કરો કે આ સ્પેક્ટ્રમની મહત્તમ ફ્રીક્વન્સી તમારા કેમેરાની ક્ષમતાઓ દ્વારા નક્કી થાય છે. સ્પેક્ટ્રમનું રિઝોલ્યુશન વધુ ડેટા પોઈન્ટ (સેટિંગ્સ જુઓ) માટે ગોઠવી શકાય છે, જેના પરિણામે ટ્રેડ-ઓફ તરીકે ફેરફારોનો ધીમો પ્રતિભાવ મળશે.
+
+જો તમે ઓટોએક્સપોઝરનો ઉપયોગ કરી રહ્યા છો, તો ધ્યાનમાં રાખો કે ટૂંકા ગાળામાં સરેરાશ તેજ 0.5 તરફ જશે. આ બદલાતી પ્રકાશ પરિસ્થિતિઓમાં વિશ્વસનીય ટ્રીગરિંગ તરફ દોરી શકે છે, પરંતુ તે ટ્રીગર્સની ચોકસાઈ અને ખાસ કરીને, માપેલ અવધિને પણ અસર કરી શકે છે. ઉપરાંત, નોંધ કરો કે આ સ્ટોપવોચ લ્યુમિનન્સને બદલે લ્યુમાનો ઉપયોગ કરે છે, જે તેજનું બિન-રેખીય પ્રતિનિધિત્વ છે જેની ગણતરી ઝડપથી કરી શકાય છે. આનો અર્થ એ છે કે મૂલ્ય લ્યુમિનન્સ માપન સાથે તુલનાત્મક રહેશે નહીં અને એક્સપોઝર સેટિંગ્સ બદલવાથી પ્રભાવિત થાય છે.
+</description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Spectrum">સ્પેક્ટ્રમ</string>
+      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="1/min">1/મિનીટ</string>
+      <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="FFT Mag">FFT મેગ</string>
+      <string original="Samples used">ઉપયોગ કરેલા સેમ્પલ</string>
+      <string original="Period used">ઉપયોગ કરેલા પિરીઅડ</string>
+      <string original="Resolution">રિઝોલ્યુશન</string>
+      <string original="Acquisition rate">સંપાદન દર</string>
+      <string original="Nyquist frequency">નાયક્વિસ્ટ ફ્રીક્વન્સી</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">નીચે તમે ફુરિયર ટ્રાન્સફોર્મ માટે ઉપયોગમાં લેવાતા સેમ્પલની સંખ્યા સેટ કરી શકો છો. વધુ સેમ્પલનો અર્થ છે ધીમા અપડેટ્સ, પરંતુ ઉચ્ચ સ્પેક્ટ્રલ રિઝોલ્યુશન.</string>
+      <string original="Samples">સેમ્પલ</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Luma">લુમા</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="4096">luma</container>

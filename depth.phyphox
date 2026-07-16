@@ -207,6 +207,19 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Acceleration">加速度</string>
       <string original="Settings">设置</string>
       <title>深度传感器 (LiDAR / ToF)</title>
+      <category>相机</category>
+      <description>使用深度传感器测量距离
+
+此功能仅适用于相机系统中配备深度传感器的手机。您可以点击预览图像，选择相机视野中用于测量的区域，并选择测量结果为最近距离、平均距离或考虑传感器对每个测量点精度估计值的平均值。
+
+"运动"标签页还会使用 LOESS 算法，根据测量的距离计算速度和加速度。
+</description>
+      <string original="Distance / Depth">距离 / 深度</string>
+      <string original="Kinematics">运动学</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">点击并拖动预览画面可更改用于计算距离的图像区域，您还可以选择不同的方法来汇总该区域内的深度测量数据。</string>
+      <string original="Preview">预览</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">下方可以调整“运动学”选项卡中图表的局部平滑度。宽度设置会影响速度和加速度的估算结果。数值越大，曲线越平滑，但细节越少。</string>
+      <string original="Width of LOESS fit">LOESS 拟合的宽度</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Graph">圖表</string>
@@ -278,6 +291,32 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">கீழே உள்ள இயக்கவியல் பட்டியில் வரைபடங்களுக்கான உள்மென்மையாக்கலை நீங்கள் மாற்றலாம். அகல அமைப்பு வேகம் மற்றும் முடுக்கம் மதிப்பீடுகளைப் பாதிக்கிறது. பெரிய மதிப்புகள் குறைந்த விவரங்களுடன் மென்மையான வளைவுகளை உருவாக்குகின்றன.</string>
       <string original="Width of LOESS fit">LOESS பொருத்தத்தின் அகலம்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ડેપ્થ સેન્સર (LiDAR / ToF)</title>
+      <category>કેમેરા</category>
+      <description>ડેપ્થ સેન્સરનો ઉપયોગ કરીને અંતર માપો.
+
+    આ ફક્ત ત્યારે જ ઉપલબ્ધ છે જો તમારા ફોનમાં તમારા કેમેરા સિસ્ટમના ભાગ રૂપે ડેપ્થ સેન્સર હોય. તમે પૂર્વાવલોકન છબીને ટેપ કરીને તમારા કેમેરાના દૃશ્યનો વિસ્તાર પસંદ કરી શકો છો જે માપનને સપોર્ટ કરે છે, અને પરિણામ સૌથી નજીકનું અંતર, સરેરાશ અંતર અથવા દરેક માપેલા બિંદુની ચોકસાઈના સેન્સરના અંદાજને ધ્યાનમાં લેતી સરેરાશ પસંદ કરી શકો છો.
+
+    મોશન ટેબ LOESS અલ્ગોરિધમનો ઉપયોગ કરીને માપેલા અંતરથી વેગ અને પ્રવેગની પણ ગણતરી કરે છે.
+</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Distance / Depth">અંતર / ઊંડાઈ</string>
+      <string original="Simple">સિમ્પલ</string>
+      <string original="Kinematics">ગતિશાસ્ત્ર</string>
+      <string original="Velocity">વેગ</string>
+      <string original="Acceleration">પ્રવેગ</string>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">અંતરની ગણતરી કરવા માટે ધ્યાનમાં લેવામાં આવતી છબીના ક્ષેત્રફળને બદલવા માટે પૂર્વાવલોકન પર ટેપ કરો અને ડ્રેગ કરો. તમે આ ક્ષેત્રમાં ઊંડાઈ માપનને એકત્રિત કરવાની વિવિધ રીતો પણ પસંદ કરી શકો છો.</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">નીચે, તમે ગતિશાસ્ત્ર ટેબ પર ગ્રાફ માટે સ્થાનિક સ્મૂથિંગ બદલી શકો છો. પહોળાઈ સેટિંગ વેગ અને પ્રવેગના અંદાજને અસર કરે છે. મોટા મૂલ્યો ઓછી વિગતો સાથે સરળ વળાંકોમાં પરિણમે છે.</string>
+      <string original="Width of LOESS fit">LOESS ફિટની પહોળાઈ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">xmm</container>

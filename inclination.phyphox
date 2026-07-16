@@ -310,7 +310,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">Mục này để đo độ nghiêng của mặt phẳng. Độ nghiêng của mặt phẳng được đo khi điện thoại được gắn nằm cố định trên mặt phẳng, bất kể hướng nào. Độ quay cho biết hướng của mặt phẳng.</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>斜面</title>
+      <title>倾角测量</title>
       <category>工具</category>
       <description>
         测量手机的倾斜角度。
@@ -477,6 +477,33 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <string original="Rotation">சுழற்சி</string>
       <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">இந்தப் பட்டி கிடைநிலை சாய்வை அளவிட உதவுகிறது. தொலைபேசி அதன் சாய்நிலையைப் பொருட்படுத்தாமல் மேற்பரப்பில் தட்டையாக இருப்பதாகக் கொண்டு கிடைநிலை சாய்வை அளவிடப்படுகிறது. சுழற்சி சாய்வின் திசையை அளிக்கிறது.</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ઢોળાવ</title>
+      <category>ટૂલ્સ</category>
+      <description>
+        ફોનના ઢોળાવના ખૂણાને માપો.
+
+        આ ટૂલ ફોનના ઢોળાવને શોધવા માટે એક્સીલેરોમીટરનો ઉપયોગ કરે છે. જ્યારે ફોન ટેબલ પર હોય છે, ત્યારે ઢોળાવ શૂન્ય હોય છે. શૂન્ય ન હોય તેવા ઢોળાવ માટે, ઢોળાવની દિશા પરિભ્રમણ તરીકે આપવામાં આવે છે.
+
+        નોંધ કરો કે ખૂણાની વ્યાખ્યા ફોનના પરિભ્રમણ (z અક્ષ વિશે) ની બદલે, ઢોળાવ (ખાસ કરીને ઢોળાવવાળા સમતલ પ્રયોગો માટે) માપવા માટે પસંદ કરવામાં આવે છે.
+    </description>
+      <string original="Flat">સપાટ</string>
+      <string original="Tilt up/down">ટિલ્ટ ઉપર/નીચે</string>
+      <string original="Angle">ખૂણો</string>
+      <string original="Tilt left/right">ટિલ્ટ ડાબો/જમણો</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">આ ટેબ સપાટ સ્થિતિથી શરૂ કરીને ફોનના ટિલ્ટ ખૂણાને માપવામાં મદદ કરે છે.</string>
+      <string original="Upright">ઉભું</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">આ ટેબ ફોનને સીધો ઉભો રાખીને તેના ટિલ્ટ ખૂણાને માપવામાં મદદ કરે છે.</string>
+      <string original="Side">બાજુ</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">આ ટેબ બાજુ (સાઇડ) સ્થિતિથી શરૂ કરીને ફોનના ટિલ્ટ ખૂણાને માપવામાં મદદ કરે છે.</string>
+      <string original="Plane">પ્લેન</string>
+      <string original="Inclination">ઢોળાવ</string>
+      <string original="Rotation">પરિભ્રમણ</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">આ ટેબ પ્લેનના ઢોળાવને માપવામાં મદદ કરે છે. ફોન સપાટી પર સપાટ રહે છે ત્યારે પ્લેનનો ઢોળાવ માપવામાં આવે છે, પછી ભલે ઓરીએન્ટેશન કઈ પણ હોય. પરિભ્રમણ ઢોળાવની દિશા આપે છે.</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="1">accX</container>

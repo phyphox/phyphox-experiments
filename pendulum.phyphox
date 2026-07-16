@@ -50,6 +50,7 @@
       <string original="Gyroscope z">Gyroskop z</string>
       <string original="Rel. amplitude">Rel. Amplitude</string>
       <string original="correlation">Korrelation</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Kyvadlo</title>
@@ -81,6 +82,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Gyroskop z</string>
       <string original="Rel. amplitude">Rel. amplituda</string>
       <string original="correlation">korelace</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Wahadło</title>
@@ -112,6 +114,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Żyroskop - składowa z</string>
       <string original="Rel. amplitude">Amplituda odniesienia</string>
       <string original="correlation">Korelacja</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Slinger</title>
@@ -142,6 +145,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope y">Gyroscoop y</string>
       <string original="Gyroscope z">Gyroscoop z</string>
       <string original="correlation">correlatie</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Маятник</title>
@@ -173,6 +177,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Гироскоп z</string>
       <string original="Rel. amplitude">Отн. амплитуда</string>
       <string original="correlation">корреляция</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Pendolo</title>
@@ -203,6 +208,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Giroscopio z</string>
       <string original="Rel. amplitude">Amp. relativa</string>
       <string original="correlation">correlazione</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Εκκρεμές</title>
@@ -234,6 +240,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope z">Γυροσκόπιο z</string>
       <string original="Rel. amplitude">Σχετ. πλάτος</string>
       <string original="correlation">συσχέτιση</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>振り子</title>
@@ -265,6 +272,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">ジャイロスコープ x</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>
       <string original="Gyroscope z">ジャイロスコープ　z</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Pêndulo</title>
@@ -296,6 +304,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Gyroscope x">Giroscópio x</string>
       <string original="Gyroscope y">Giroscópio y</string>
       <string original="Gyroscope z">Giroscópio z</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Sarkaç</title>
@@ -326,6 +335,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Jiroskop x</string>
       <string original="Gyroscope y">Jiroskop y</string>
       <string original="Gyroscope z">Jiroskop z</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>擺</title>
@@ -355,6 +365,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">x方向陀螺儀</string>
       <string original="Gyroscope y">y方向陀螺儀</string>
       <string original="Gyroscope z">z方向陀螺儀</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Pendule</title>
@@ -386,6 +397,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Gyroscope axe x</string>
       <string original="Gyroscope y">Gyroscope axe y</string>
       <string original="Gyroscope z">Gyroscope axe z</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Con lắc đơn</title>
@@ -417,9 +429,10 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Con quay hồi chuyển x</string>
       <string original="Gyroscope y">Con quay hồi chuyển y</string>
       <string original="Gyroscope z">Con quay hồi chuyển z</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>摆</title>
+      <title>单摆</title>
       <category>力学</category>
       <description>
         通过将你的手机当作摆来确定重力常数（g=9.81m/s²）。
@@ -448,6 +461,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">x方向陀螺仪</string>
       <string original="Gyroscope y">y方向陀螺仪</string>
       <string original="Gyroscope z">z方向陀螺仪</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Klatno</title>
@@ -476,6 +490,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Žiroskop x</string>
       <string original="Gyroscope y">Žiroskop y</string>
       <string original="Gyroscope z">Žiroskop z</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Klatno</title>
@@ -504,6 +519,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Žiroskop x</string>
       <string original="Gyroscope y">Žiroskop y</string>
       <string original="Gyroscope z">Žiroskop z</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Péndulo</title>
@@ -535,6 +551,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">Giroscopio x</string>
       <string original="Gyroscope y">Giroscopio y</string>
       <string original="Gyroscope z">Giroscopio z</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>ქანქარა</title>
@@ -566,6 +583,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">გიროსკოპი x</string>
       <string original="Gyroscope y">გიროსკოპი y</string>
       <string original="Gyroscope z">გიროსკოპი z</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>लोलक</title>
@@ -597,6 +615,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope x">जायरोस्कोप x</string>
       <string original="Gyroscope y">जायरोस्कोप y</string>
       <string original="Gyroscope z">जायरोस्कोप z</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>ஊசல்</title>
@@ -626,7 +645,45 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Δt">Δநேரம்</string>
       <string original="correlation">தொடர்பு</string>
       <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>લોલક</title>
+      <category>મીકેનીક્સ</category>
+      <description>
+        તમારા ફોનનો લોલક તરીકે ઉપયોગ કરીને ગુરુત્વાકર્ષણ અચળાંક (g = 9.81 m/s²) શોધો.
+
+        આ પ્રયોગ લોલકની ગતિ માપવા અને ઓસિલેશન પિરીઅડ T ની ગણતરી કરવા માટે ગાયરોસ્કોપનો ઉપયોગ કરે છે. વપરાશકર્તાએ લોલક માટે વપરાયેલી સ્ટ્રિંગની લંબાઈ, L દાખલ કરવી આવશ્યક છે, જેથી phyphox g = 4π²L/T² ની ગણતરી કરી શકે.
+
+        ઉપરાંત, g માપવાને બદલે, તમે લંબાઈ ટેબનો ઉપયોગ કરી શકો છો અને લોલકની ગતિમાંથી સ્ટ્રિંગની લંબાઈ શોધવા માટે g = 9.81 m/s² ધારી શકો છો. (આ વાસ્તવમાં પીવટ બિંદુથી દળના કેન્દ્ર સુધીનું અંતર છે.)
+
+        ઉપરાંત, રેઝોનન્સ ટેબ પર, તે શોધાયેલ ફ્રીક્વન્સી વિરુદ્ધ એમ્પ્લીટ્યુડનો પ્લોટ બનાવે છે. આ રીતે, તમે એક સંચાલિત ઓસિલેટર બનાવી શકો છો અને રેઝોનન્સ વળાંક માપવા માટે તેની ફ્રીક્વન્સીમાં ફેરફાર કરી શકો છો.
+
+        વધુ વિગતો:
+        ઓસિલેશન પિરીઅડ ત્રણ ગાયરોસ્કોપ ઘટકોના સરવાળાના ઓટો-કોરિલેશનમાંથી મેળવવામાં આવે છે. પછી પ્રથમ અંદાજ મેળવવા માટે તેના પ્રથમ મહત્તમ માટે ઓટો-કોરિલેશનનું વિશ્લેષણ કરવામાં આવે છે, અને પછી વધુ સચોટ પરિણામ મેળવવા માટે છેલ્લા મહત્તમનો ઉપયોગ કરવામાં આવે છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Results">પરિણામો</string>
+      <string original="Period">પિરીઅડ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Length">લંબાઈ</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">અહીં, તમે તમારા લોલકની લંબાઈ (પીવોટ બિંદુથી દળનું કેન્દ્ર) દાખલ કરી શકો છો અને પૃથ્વીનો પ્રવેગ g નક્કી કરી શકો છો.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">અહીં, તમે તમારા લોલકની લંબાઈ (પીવટ બિંદુથી દળનું કેન્દ્ર) g = 9.81 m/s² ધારીને નક્કી કરી શકો છો.</string>
+      <string original="Resonance">રેઝોનન્સ</string>
+      <string original="Rel. amplitude">સાપેક્ષ એમ્પ્લીટ્યુડ</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">આ ટેબ પર, ઓળખાયેલ ફ્રીક્વન્સી વિરુદ્ધ એમ્પ્લીટ્યુડનું પ્લોટિંગ કરવામાં આવે છે. તમે આનો ઉપયોગ સંચાલિત ઓસિલેટરના રેઝોનન્સને માપવા માટે કરી શકો છો. એમ્પ્લીટ્યુડ 0 થી 1 ની રેન્જમાં નોર્મલાઇઝ કરવામાં આવે છે.</string>
+      <string original="Autocorrelation">ઓટો-કોરિલેશન</string>
+      <string original="correlation">કોરિલેશન</string>
+      <string original="Raw Data">રો ડેટા</string>
+      <string original="Gyroscope x">ગાયરોસ્કોપ x</string>
+      <string original="Gyroscope y">ગાયરોસ્કોપ y</string>
+      <string original="Gyroscope z">ગાયરોસ્કોપ z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

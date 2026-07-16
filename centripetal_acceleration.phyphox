@@ -251,7 +251,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <title>向心加速度</title>
       <category>力学</category>
       <description>
-        利用角速度函数可将向心加速度可视化。
+        将向心加速度作为角速度的函数进行可视化。
 
         本实验通过陀螺仪计算角速度ω 的绝对值，并通过加速度计得到绝对加速度。通过绘制a对ω的图形，a=r·ω²能够直观得出，因此，绘制ω² 图形应该是一条直线。
         想观察这种情况，你需要测量固定半径下的不同角速度。沙拉搅拌器和小型旋转木马就能实现。
@@ -372,6 +372,27 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">நேரம்</string>
       <string original="Angular velocity">கோணத் திசைவேகம்</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>કેન્દ્રગામી પ્રવેગ</title>
+      <category>મીકેનીક્સ</category>
+      <description>
+        કોણીય વેગના કાર્ય તરીકે કેન્દ્રગામી પ્રવેગ દર્શાવે છે. 
+
+        આ પ્રયોગ ગાયરોસ્કોપથી કોણીય વેગ ω ના નિરપેક્ષ મૂલ્ય તેમજ એક્સીલેરોમીટરથી નિરપેક્ષ પ્રવેગ a ની ગણતરી કરે છે. ω સામે a ને પ્લોટ કરીને a = r·ω² સંબંધ સરળતાથી બતાવી શકાય છે, તેથી ω² સામે પ્લોટ કરવાથી સીધી રેખા બનવી જોઈએ. 
+
+        આ જોવા માટે, તમારે અલગ અલગ કોણીય વેગ પર પરંતુ નિશ્ચિત ત્રિજ્યા પર માપવાની જરૂર છે. સલાડ સ્પિનર અથવા નાનું કેરોયુઝલ ખૂબ સારું કામ કરે છે.
+    </description>
+      <string original="Relation">સંબંધ</string>
+      <string original="Acceleration">પ્રવેગ</string>
+      <string original="Angular velocity ω">કોણીય વેગ ω</string>
+      <string original="Acceleration a">પ્રવેગ a</string>
+      <string original="Square plot">સ્ક્વેર પ્લોટ</string>
+      <string original="Time">સમય</string>
+      <string original="Angular velocity">કોણીય વેગ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

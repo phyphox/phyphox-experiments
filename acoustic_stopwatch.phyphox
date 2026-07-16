@@ -88,6 +88,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Average interval">Mittleres Intervall</string>
       <string original="Average rate">Mittlere Rate</string>
       <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Akustické stopky</title>
@@ -119,6 +120,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Average interval">Průměrný interval</string>
       <string original="Average rate">Průměrné tempo</string>
       <string original="Average rate (bpm)">Průměrné tempo (bpm)</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Stoper akustyczny</title>
@@ -151,6 +153,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Average interval">Średni przedział</string>
       <string original="Average rate">Średnia szybkość</string>
       <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Akoestische Chronometer</title>
@@ -181,6 +184,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Average interval">Gemiddeld interval</string>
       <string original="Average rate">Gemiddelde snelheid</string>
       <string original="Average rate (bpm)">Gemiddelde frequentie (bpm: per minuut)</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Акустический секундомер</title>
@@ -214,6 +218,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Average rate">Средняя частота</string>
       <string original="Average rate (bpm)">Средняя частота (bpm)</string>
       <string original="1/min">1/мин</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Cronometro acustico</title>
@@ -245,6 +250,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Intervallo medio</string>
       <string original="Average rate">Frequenza media</string>
       <string original="Average rate (bpm)">Frequenza media (ev/m)</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Ακουστικό χρονόμετρο</title>
@@ -277,6 +283,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Μέσο διάστημα</string>
       <string original="Average rate">Μέσος ρυθμός</string>
       <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>音響ストップウォッチ</title>
@@ -309,6 +316,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">平均時間間隔</string>
       <string original="Average rate">平均周波数</string>
       <string original="Average rate (bpm)">平均ビートレート (bpm)</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Cronômetro Acústico</title>
@@ -341,6 +349,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Intervalo médio</string>
       <string original="Average rate">Taxa média</string>
       <string original="Average rate (bpm)">Taxa média (bpm)</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Akustik Kronometre</title>
@@ -373,6 +382,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average rate">Ortalama oran</string>
       <string original="Average rate (bpm)">Ortalama oranı (bpm)</string>
       <string original="1/min">1/dakika</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>聲學碼表</title>
@@ -398,6 +408,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time 4">時間 4</string>
       <string original="Time 5">時間 5</string>
       <string original="Parallel">平行序列</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Chronomètre sonore</title>
@@ -430,6 +441,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Moyenne de l'intervalle de temps</string>
       <string original="Average rate">Fréquence moyenne</string>
       <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Đồng hồ bấm giờ âm</title>
@@ -463,6 +475,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average rate">Tần số trung bình</string>
       <string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string>
       <string original="1/min">1/phút</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
       <title>声学秒表</title>
@@ -495,6 +508,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">平均间隔</string>
       <string original="Average rate">平均频率</string>
       <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Akustična štoperica</title>
@@ -526,6 +540,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Prosečni interval</string>
       <string original="Average rate">Prosečna stopa</string>
       <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Akustična štoperica</title>
@@ -557,6 +572,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Prosečni interval</string>
       <string original="Average rate">Prosečna stopa</string>
       <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Cronómetro acústico</title>
@@ -588,6 +604,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average interval">Intervalo medio</string>
       <string original="Average rate">Tasa promedio</string>
       <string original="Average rate (bpm)">Tasa promedio(bpm)</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>აკუსტიკური წამზომი</title>
@@ -621,6 +638,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average rate">საშუალო სიხშირე</string>
       <string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string>
       <string original="1/min">1/წთ</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>ध्वनिक स्टॉपवॉच</title>
@@ -654,6 +672,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average rate">औसत दर</string>
       <string original="Average rate (bpm)">औसत दर (बी पी एम )</string>
       <string original="1/min">1/मिनट</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>ஒலி நிறுத்தக் கடிகாரம்</title>
@@ -687,7 +706,53 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Average rate">சராசரி அதிர்வு</string>
       <string original="Average rate (bpm)">சராசரி அதிர்வு (ஒரு வினாடிக்கு)</string>
       <string original="1/min">1/நிமிடம்</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+      <string original="Sequence">ক্রম</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>એકોસ્ટિક સ્ટોપવોચ</title>
+      <category>ટાઇમર</category>
+      <description>
+        બે એકોસ્ટિક ઘટનાઓ વચ્ચેનો સમય મેળવો.
+
+        આ પ્રયોગ બે તીવ્ર એકોસ્ટિક સિગ્નલ વચ્ચેનો સમય માપવાની મંજૂરી આપે છે. આ ક્લિક્સ, બીપ્સ, તાળીઓ વગેરે હોઈ શકે છે જ્યાં સુધી તે પર્યાવરણ કરતા વધુ ઉંચો હોય. તમે થ્રેશોલ્ડને સમાયોજિત કરવા માંગી શકો છો, જે સ્ટોપ વોચ કયા સ્તર પર ટ્રીગર થાય છે તે સ્તર આપે છે (0 થી 1 સુધી).
+
+        પ્રયોગ શરૂ કર્યા પછી, ઘડિયાળ થ્રેશોલ્ડ કરતાં વધુ પહેલા અવાજ પર શરૂ થશે અને બીજા અવાજ પર બંધ થઈ જશે. પ્રયોગનું પુનરાવર્તન કરવા માટે, ડેટા સાફ કરો અને ફરીથી શરૂ કરો. ખાતરી કરો કે પહેલો અવાજ ટૂંકો હોય કારણ કે લાંબો અવાજ તરત જ સ્ટોપ તરીકે ઓળખી શકાય છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Simple">સિમ્પલ</string>
+      <string original="Threshold">થ્રેશોલ્ડ</string>
+      <string original="Minimum Delay">લઘુતમ વિલંબ</string>
+      <string original="Time">સમય</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">થ્રેશોલ્ડને પર્યાવરણીય અવાજ સ્તરથી ઉપર રાખો, પરંતુ ટ્રીગર અવાજથી નીચે રાખો (આ તપાસવા માટે તમે ઓડિઓ સ્કોપ પ્રયોગ અજમાવી શકો છો). તે સમય કરતાં ટૂંકા ટ્રીગરને ટાળવા માટે ન્યૂનતમ વિલંબ પણ સેટ કરો (ઉદાહરણ તરીકે, ઇકો અથવા પડઘાને કારણે).</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા નિયમિત ઘડિયાળ સાથે સરખામણી કરો, ખાતરી કરવા માટે કે પ્રયોગ અપેક્ષા મુજબ કામ કરી રહ્યો છે.</string>
+      <string original="Sequence">ક્રમ</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Parallel">સમાંતર</string>
+      <string original="Many">ઘણા</string>
+      <string original="Events">ઘટનાઓ</string>
+      <string original="Event number">ઘટના નંબર</string>
+      <string original="Time interval">સમય અંતરાલ</string>
+      <string original="Average interval">સરેરાશ અંતરાલ</string>
+      <string original="Average rate">સરેરાશ દર</string>
+      <string original="Average rate (bpm)">સરેરાશ દર (bpm)</string>
+      <string original="1/min">1/મિનીટ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <input>
     <audio>

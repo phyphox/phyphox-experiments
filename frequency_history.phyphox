@@ -247,6 +247,21 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">அதிர்வெண்</string>
       <string original="Period">கால இடைவெளி</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ફ્રીક્વન્સી ઈતિહાસ</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        એક જ ટોન માટે સમય સાથે ફ્રીક્વન્સીમાં ફેરફાર માપો.
+
+        આ પ્રયોગ માઇક્રોફોનમાંથી ઓડિઓ રેકોર્ડ કરે છે અને ટૂંકા ગાળા માટે તેની ફ્રીક્વન્સી માટે તેનું વિશ્લેષણ કરે છે. આ ફક્ત ત્યારે જ કાર્ય કરે છે જો નિશ્ચિત ફ્રીક્વન્સી સાથે એક જ ટોન હોય કારણ કે તે ઓટો-કોરિલેશનનો ઉપયોગ કરે છે. પરિણામ સમય જતાં ફ્રીક્વન્સી તરીકે પ્લોટ કરવામાં આવશે.
+    </description>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Period">પિરીઅડ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="480">recording</container>

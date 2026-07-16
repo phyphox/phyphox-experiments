@@ -113,7 +113,7 @@
       <category>原始传感器</category>
       <description>从气压计获得原始数据。</description>
       <string original="Graph">图表</string>
-      <string original="Pressure">压力</string>
+      <string original="Pressure">气压</string>
       <string original="Simple">简明值</string>
     </translation>
     <translation locale="sr">
@@ -163,6 +163,17 @@
       <string original="Pressure">அழுத்தம்</string>
       <string original="Simple">எளிமையான</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>દબાણ</title>
+      <category>રો સેન્સર</category>
+      <description>બેરોમીટરમાંથી કાચો ડેટા મેળવો.</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Pressure">દબાણ</string>
+      <string original="Simple">સિમ્પલ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

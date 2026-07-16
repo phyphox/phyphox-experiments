@@ -403,7 +403,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
 
             本实验记录来自麦克风的声音并通过快速傅里叶变换（FFT）来计算它的频谱。如果你只有一个单一频率的音调，你可以在“自相关”声学实验中得到更精确的结果。
     </description>
-      <string original="Spectrum">加速度频谱</string>
+      <string original="Spectrum">频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
@@ -423,6 +423,9 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">录制</string>
       <string original="Amplitude">振幅</string>
       <string original="Status">状态</string>
+      <string original="Resolution">分辨率</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">白噪声发生器 (会很吵，请先调低设备音量)</string>
+      <string original="White noise">白噪声</string>
     </translation>
     <translation locale="sr">
       <title>Spektar zvuka</title>
@@ -604,6 +607,42 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Recording">பதிவாகிறது</string>
       <string original="Amplitude">வீச்சு</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ઓડિઓ સ્પેક્ટ્રમ</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+            ઓડિઓ સિગ્નલના ફ્રીક્વન્સી સ્પેક્ટ્રમ દર્શાવો.
+
+            આ પ્રયોગ માઇક્રોફોનમાંથી ઓડિઓ રેકોર્ડ કરે છે અને ફુરિયર ટ્રાન્સફોર્મેશન (FFT) નો ઉપયોગ કરીને તેના ફ્રીક્વન્સી સ્પેક્ટ્રમની ગણતરી કરે છે. જો તમારી પાસે ફક્ત એક જ ફ્રીક્વન્સી ધરાવતો ટોન હોય, તો તમને "ઓટોકોરિલેશન" ઓડિઓ પ્રયોગ કરતાં વધુ સચોટ પરિણામો મળી શકે છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Spectrum">સ્પેક્ટ્રમ</string>
+      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="Musical note">સંગીતમય ટોન</string>
+      <string original="Low">નિમ્ન</string>
+      <string original="High">ઉચ્ચ</string>
+      <string original="Cents from note">નોટમાંથી સેન્ટ</string>
+      <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="FFT Mag">FFT મેગ</string>
+      <string original="Samples used">ઉપયોગ કરેલા સેમ્પલ</string>
+      <string original="Period used">ઉપયોગ કરેલા પિરીઅડ</string>
+      <string original="Resolution">રિઝોલ્યુશન</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">નીચે તમે ફુરિયર ટ્રાન્સફોર્મ માટે ઉપયોગમાં લેવાતા સેમ્પલની સંખ્યા સેટ કરી શકો છો. વધુ સેમ્પલનો અર્થ છે ધીમા અપડેટ્સ, પરંતુ ઉચ્ચ સ્પેક્ટ્રલ રિઝોલ્યુશન.</string>
+      <string original="Samples">સેમ્પલ</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">વ્હાઈટ નોઈઝ જનરેટર. (તીવ્ર અવાજ હોઈ શકે છે. કૃપા કરીને પહેલા તમારા પ્લેબેકનો અવાજ ઓછો કરો.)</string>
+      <string original="White noise">વ્હાઈટ નોઈઝ</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Recording">રેકોર્ડીંગ</string>
+      <string original="Amplitude">એમ્પ્લીટ્યુડ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

@@ -179,7 +179,7 @@
       <string original="Simple">Đơn giản</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>含（g）的加速度</title>
+      <title>加速度 (含 g)</title>
       <category>原始传感器</category>
       <description>获得加速度计的原始数据。这个传感器不会扣除重力，因此即使手机静止时，它会报告 9.81 m/s²的加速度值。</description>
       <string original="Graph">图表</string>
@@ -188,7 +188,7 @@
       <string original="Accelerometer z">z轴加速度计</string>
       <string original="Absolute">绝对值</string>
       <string original="Absolute acceleration">加速度绝对值</string>
-      <string original="Multi">多方向</string>
+      <string original="Multi">多通道</string>
       <string original="Acceleration">加速度</string>
       <string original="Simple">简明值</string>
     </translation>
@@ -274,6 +274,23 @@
       <string original="Acceleration">முடுக்கம்</string>
       <string original="Simple">எளிமையான</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>g સાથે પ્રવેગ</title>
+      <category>રો સેન્સર</category>
+      <description>એક્સીલેરોમીટરમાંથી રો (કાચો) ડેટા મેળવો. આ સેન્સર ગુરુત્વાકર્ષણ બળ બાદ કરતું નથી, તેથી ફોન સ્થિર હોય ત્યારે પણ તે 9.81 m/s² નો પ્રવેગનો નોંધાવશે.</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Accelerometer x">પ્રવેગ x</string>
+      <string original="Accelerometer y">પ્રવેગ y</string>
+      <string original="Accelerometer z">એક્સીલેરોમીટર z</string>
+      <string original="Absolute">નિરપેક્ષ</string>
+      <string original="Absolute acceleration">નિરપેક્ષ પ્રવેગ</string>
+      <string original="Multi">બહુ</string>
+      <string original="Acceleration">પ્રવેગ</string>
+      <string original="Simple">સિમ્પલ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">accX</container>

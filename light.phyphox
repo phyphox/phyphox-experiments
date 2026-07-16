@@ -153,7 +153,7 @@
       <string original="Simple">Đơn giản</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>光</title>
+      <title>亮度</title>
       <category>原始传感器</category>
       <description>从光传感器获取原始数据。</description>
       <string original="Graph">图表</string>
@@ -228,6 +228,22 @@
             </string>
       <string original="Simple">எளிமையான</string>
     </translation>
+    <translation locale="bn">
+      <string original="Illuminance">আলোকীয়  তীব্রতা</string>
+    </translation>
+    <translation locale="gu">
+      <title>લાઈટ</title>
+      <category>રો સેન્સર</category>
+      <description>લાઇટ સેન્સરમાંથી કાચો ડેટા મેળવો.</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Illuminance">પ્રકાશિત (ઇલ્યૂમિનેશન)</string>
+      <string original="Info">
+                નોંધ: કેટલાક ઉપકરણો પર લાઇટ સેન્સર ફક્ત ત્યારે જ અપડેટ થાય છે જ્યારે પ્રકાશમાં થોડો ફેરફાર થાય છે.
+            </string>
+      <string original="Simple">સિમ્પલ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">illum</container>

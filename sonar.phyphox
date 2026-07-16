@@ -40,6 +40,7 @@
       <string original="time">Zeit</string>
       <string original="Delay">Laufzeit</string>
       <string original="Time">Zeit</string>
+      <string original="Settings">Einstellungen</string>
     </translation>
     <translation locale="cs">
       <title>Sonar</title>
@@ -67,6 +68,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="distance">vzdálenost</string>
       <string original="time">čas</string>
       <string original="Delay">Zpoždění</string>
+      <string original="Settings">Nastavení</string>
     </translation>
     <translation locale="pl">
       <title>Sonar</title>
@@ -94,6 +96,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="distance">odległość</string>
       <string original="time">czas</string>
       <string original="Delay">Opóźnienie</string>
+      <string original="Settings">Ustawienia</string>
     </translation>
     <translation locale="nl">
       <title>Sonar</title>
@@ -123,6 +126,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="distance">afstand</string>
       <string original="time">tijd</string>
       <string original="Delay">Uitstel</string>
+      <string original="Settings">Instellingen</string>
     </translation>
     <translation locale="ru">
       <title>Сонар</title>
@@ -150,6 +154,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="time">время</string>
       <string original="Delay">Задержка</string>
       <string original="Time">Время</string>
+      <string original="Settings">Настройки</string>
     </translation>
     <translation locale="it">
       <title>Sonar</title>
@@ -176,6 +181,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="distance">distanza</string>
       <string original="time">tempo</string>
       <string original="Delay">Ritardo</string>
+      <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
       <title>Σόναρ</title>
@@ -203,6 +209,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="distance">Απόσταση</string>
       <string original="time">χρόνος</string>
       <string original="Delay">Καθυστέρηση</string>
+      <string original="Settings">Ρυθμίσεις</string>
     </translation>
     <translation locale="ja">
       <title>ソナー</title>
@@ -231,6 +238,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay">遅延時間</string>
       <string original="Chirp">チャープ</string>
       <string original="Time">時間</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="pt">
       <title>Sonar</title>
@@ -258,6 +266,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Delay">Atraso</string>
       <string original="Chirp">Bip</string>
       <string original="Time">Tempo</string>
+      <string original="Settings">Configurações</string>
     </translation>
     <translation locale="tr">
       <title>Sonar</title>
@@ -285,6 +294,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Gecikme</string>
       <string original="Chirp">Bip</string>
       <string original="Time">Zaman</string>
+      <string original="Settings">Ayarlar</string>
     </translation>
     <translation locale="zh_Hant">
       <title>聲納</title>
@@ -307,6 +317,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="On this page you just get the measured delay.">此頁顯示測量到的延遲。</string>
       <string original="Chirp">波包</string>
       <string original="Time">時間</string>
+      <string original="Settings">設定</string>
     </translation>
     <translation locale="fr">
       <title>Sonar</title>
@@ -333,6 +344,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Temps écoulé</string>
       <string original="Chirp">Pulse</string>
       <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
     </translation>
     <translation locale="vi">
       <title>Sonar</title>
@@ -360,6 +372,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Độ trễ</string>
       <string original="Chirp">Tiếng kêu</string>
       <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
     </translation>
     <translation locale="zh_Hans">
       <title>声呐</title>
@@ -387,6 +400,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">时延</string>
       <string original="Chirp">波包</string>
       <string original="Time">时间</string>
+      <string original="Settings">设置</string>
     </translation>
     <translation locale="sr">
       <title>Sonar</title>
@@ -414,6 +428,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Kašnjenje</string>
       <string original="Chirp">Zvižduk</string>
       <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="sr_Latn">
       <title>Sonar</title>
@@ -441,6 +456,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Kašnjenje</string>
       <string original="Chirp">Zvižduk</string>
       <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
     </translation>
     <translation locale="es">
       <title>Sónar</title>
@@ -468,6 +484,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">Retardo</string>
       <string original="Chirp">Chirrido</string>
       <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
     </translation>
     <translation locale="ka">
       <title>სონარი</title>
@@ -495,6 +512,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">დაგვიანება</string>
       <string original="Chirp">ჭრიჭინი</string>
       <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
     </translation>
     <translation locale="hi">
       <title>सोनार</title>
@@ -522,6 +540,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">डिले</string>
       <string original="Chirp">चिर्प</string>
       <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
     </translation>
     <translation locale="ta">
       <title>எதிரொலி</title>
@@ -549,7 +568,41 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Delay">இடைவெளி</string>
       <string original="Chirp">சிரிப் ஒலி</string>
       <string original="Time">நேரம்</string>
+      <string original="Settings">அமைப்புகள்</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>સોનાર</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        ઇકો અને ધ્વનિની ગતિ દ્વારા અંતર માપે છે..
+
+        સોનાર ટૂંકા અવાજોના જૂથ મોકલે છે જે તમે જે વસ્તુને માપવા માંગો છો તેમાંથી પરાવર્તિત થાય છે. કારણ કે ધ્વનિ લગભગ 340 મીટર/સેકન્ડની ઝડપે મુસાફરી કરે છે, પરાવર્નેતનને તમારા ફોનના માઇક્રોફોન સુધી પહોંચવામાં જે સમય લાગે છે તેનો ઉપયોગ વસ્તુથી અંતરની ગણતરી કરવા માટે કરી શકાય છે.
+
+        આ પ્રયોગો "ચિર્પ" ઉત્પન્ન કરે છે, તેને સ્પીકર દ્વારા મોકલે છે અને રેકોર્ડિંગ શરૂ કરે છે. ચિર્પ અને રેકોર્ડ કરેલા ડેટાનો ક્રોસકોરીલેશન ઇકો કયા સમયે થાય છે તે સમય વિશે માહિતી આપે છે. આ સમયને પછી ધ્વનિની ગતિ સાથે ગુણાકાર કરી શકાય છે (અને ધ્વનિને આગળ અને પાછળ મુસાફરી કરવી પડે છે તેથી 2 વડે ભાગી શકાય છે) અને તમને ઇકો કયા અંતરે ઉદ્ભવ્યા તે અંતર મળે છે.
+
+        જોકે, ધ્વનિ સામાન્ય રીતે દરેક દિશામાં પ્રવાસ કરે છે. સોનાર માટે, આનો અર્થ એ છે કે જ્યારે તમે દિવાલને લક્ષ્ય બનાવો છો, ત્યારે તમને ફ્લોર, છત, બીજી નજીકની દિવાલ, એક થાંભલો અને નજીકની લગભગ દરેક "કઠણ" સપાટી પરથી પણ પરાવર્તન મળે છે. તેથી, સોનાર તમને બધા પરાવર્તન આપે છે, અને પરિણામોનું અર્થઘટન કરવાનું અને તમે જે લક્ષ્યને માપવા માંગો છો તેના સાથે કયા પરાવર્તન અનુરૂપ છે તે શોધવાનું તમારા પર નિર્ભર છે. તેથી, નાના, કઠણ લક્ષ્યથી શરૂઆત કરો અને કેટલાક ફોમવાળી સામગ્રીનો ઉપયોગ કરીને અન્ય બધી દિશાઓને સ્ક્રીન કરવાનો પ્રયાસ કરો. ઉપરાંત, આ માટે શાંત વાતાવરણની જરૂર છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Time series">ટાઇમ સીરીઝ</string>
+      <string original="Normalized history">સામાન્ય ઇતિહાસ</string>
+      <string original="distance">અંતર</string>
+      <string original="time">સમય</string>
+      <string original="Echo location">ઇકોનું સ્થાન</string>
+      <string original="Speed of Sound">ધ્વનિની ગતિ</string>
+      <string original="Normalized to spherical surface">ગોળાકાર સપાટી પર સામાન્યીકૃત</string>
+      <string original="Target distance">લક્ષ્ય અંતર</string>
+      <string original="Echo strength">ઇકોની ક્ષમતા</string>
+      <string original="Timing">સમય</string>
+      <string original="On this page you just get the measured delay.">આ પેજ પર તમને ફક્ત માપેલો વિલંબ મળે છે.</string>
+      <string original="Delay">વિલંબ</string>
+      <string original="Chirp">ચીર્પ</string>
+      <string original="Time">સમય</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

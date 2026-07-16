@@ -284,6 +284,23 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Amplitude">வீச்சு</string>
       <string original="Duration">கால அளவு</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ઓડિઓ સ્કોપ</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        રેકોર્ડ કરેલ ઓડિઓ ડેટા બતાવો.
+
+        આ પ્રયોગ ફક્ત ટૂંકા ગાળાના ઓડિઓ ડેટાને રેકોર્ડ કરે છે અને તેમને દર્શાવે છે. સ્થિર છબી પ્રાપ્ત કરવા માટે, શૂન્ય ક્રોસિંગનો ઉપયોગ ટ્રિગર તરીકે થાય છે અને t=0 ને પ્રથમ (ધન) ક્રોસિંગ પર ખસેડવામાં આવે છે.
+    </description>
+      <string original="Duration">સમયગાળો</string>
+      <string original="Scope">સ્કોપ</string>
+      <string original="Audio Data">ઓડિઓ ડેટા</string>
+      <string original="Time">સમય</string>
+      <string original="Amplitude">એમ્પ્લીટ્યુડ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

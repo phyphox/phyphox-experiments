@@ -487,6 +487,33 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">முடுக்கமானி y</string>
       <string original="Accelerometer z">முடுக்கமானி z</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>સ્પ્રિંગ</title>
+      <category>મીકેનીક્સ</category>
+      <description>
+        સ્પ્રિંગ ઓસિલેટરની ફ્રીક્વન્સી અને પિરીઅડનું વિશ્લેષણ કરો.
+
+        આ પ્રયોગ ઓસિલેટરની ગતિને માપવા માટે એક્સીલેરોમીટરનો ઉપયોગ કરે છે અને ઓસિલેશન પિરીઅડ T ની ગણતરી કરે છે. વધુમાં, રેઝોનન્સ ટેબ પર, તે શોધાયેલ ફ્રીક્વન્સી વિરુદ્ધ એમ્પ્લીટ્યુડ પ્લોટ કરે છે. આ રીતે, તમે એક સંચાલિત ઓસિલેટર બનાવી શકો છો અને રેઝોનન્સ વળાંકને માપવા માટે તેની ફ્રીક્વન્સીમાં ફેરફાર કરી શકો છો.
+
+        વધુ વિગતો:
+        ઓસિલેશન પિરીઅડ ત્રણ એક્સીલેરોમીટર ઘટકોના સરવાળાના ઓટો-કોરિલેશનમાંથી મેળવવામાં આવે છે. પછી પ્રથમ અંદાજ મેળવવા માટે તેના પ્રથમ મહત્તમ માટે ઓટો-કોરિલેશનનું વિશ્લેષણ કરવામાં આવે છે, અને પછી વધુ સચોટ પરિણામ મેળવવા માટે ઓટો-કોરિલેશનના છેલ્લા મહત્તમનો ઉપયોગ કરવામાં આવે છે.
+    </description>
+      <string original="Results">પરિણામો</string>
+      <string original="Period">પિરીઅડ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Resonance">રેઝોનન્સ</string>
+      <string original="Rel. amplitude">સાપેક્ષ એમ્પ્લીટ્યુડ</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">આ ટેબ પર, ઓળખાયેલ ફ્રીક્વન્સી વિરુદ્ધ એમ્પ્લીટ્યુડનું પ્લોટિંગ કરવામાં આવે છે. તમે આનો ઉપયોગ સંચાલિત ઓસિલેટરના રેઝોનન્સને માપવા માટે કરી શકો છો. એમ્પ્લીટ્યુડ 0 થી 1 ની રેન્જમાં નોર્મલાઇઝ કરવામાં આવે છે.</string>
+      <string original="Autocorrelation">ઓટો-કોરિલેશન</string>
+      <string original="correlation">કોરિલેશન</string>
+      <string original="Raw Data">રો ડેટા</string>
+      <string original="Accelerometer x">પ્રવેગ x</string>
+      <string original="Accelerometer y">પ્રવેગ y</string>
+      <string original="Accelerometer z">એક્સીલેરોમીટર z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="500">accX</container>

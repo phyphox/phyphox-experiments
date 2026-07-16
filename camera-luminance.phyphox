@@ -101,7 +101,7 @@ Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und lin
     </translation>
     <translation locale="pl">
       <string original="Average rate">Średnia szybkość</string>
-      <title>Jasność (luminescencja)</title>
+      <title>Jasność (luminancja)</title>
       <category>Kamera</category>
       <description>Zmierz luminancję, czyli jasność obserwowaną przez obiektyw aparatu w telefonie.
 
@@ -150,8 +150,32 @@ Dodatkowe informacje techniczne: aplikacja Phyphox korzysta ze strumienia podgl�
     </translation>
     <translation locale="zh_Hans">
       <string original="Average rate">平均频率</string>
-      <title>亮度/辉度</title>
-      <category>自带摄像头</category>
+      <title>亮度 (辉度)</title>
+      <category>相机</category>
+      <description>测量通过相机镜头观测到的亮度。
+
+所得数值采用相对单位，并以 ISO 感光度 100、光圈 f/1、曝光时间 1/60 秒下的纯白图像为基准进行了归一化处理。Phyphox 会根据当前的曝光设置，自动对从相机图像计算出的亮度值进行缩放调整。请注意，大多数手机在应用新的曝光设置时会有一定的延迟；因此，若使用自动曝光或手动更改设置，读数需要片刻时间才能稳定下来。
+
+此外，如果图像的任何部分（或具体到任一颜色通道）出现过曝或（程度较轻的）欠曝，读数将会出现偏差并显示饱和效应。Phyphox 会以红色高亮显示过曝区域，以蓝色高亮显示欠曝区域。应避免在测量矩形框内出现红色区域。蓝色区域通常无碍，只要它们不占据测量区域的大部分即可。在此配置下，自动曝光模式会比 Phyphox 的其他功能模块更积极地避免过曝。
+
+更多技术细节：Phyphox 利用相机的预览数据流，并基于 sRGB 色彩模型及其对应的伽马曲线对每个像素进行线性化处理。随后，系统利用手机 GPU 中的着色器（shader）平均算法与纹理过滤技术，计算出平均亮度值。然而，相机的非线性特性（尤其是当预览画面已应用动态范围压缩时）超出了我们的控制范围，这可能会影响某些机型上的测量结果。
+</description>
+      <string original="Luminance">亮度 (Luminance)</string>
+      <string original="Preview">预览</string>
+      <string original="Frame rate">帧率</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">点击预览画面并拖动，即可更改用于评估图像的区域。您还可以选择不同的相机设置来调整该区域内的图像。曝光不足的区域会以蓝色表示，曝光过度的区域则以红色表示。</string>
+      <string original="Important">注意</string>
+      <string original="What is being measured?">实际测量的是什么？</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">此功能利用手机摄像头测量相对亮度。它会根据特定的摄像头设置（如曝光时间）考量摄像头图像的亮度。测量出的绝对数值取决于摄像头，同时也受限于手机无法规避的某些后期处理。</string>
+      <string original="What errors are introduced by my phone?">手机会引入哪些误差？</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">某些手机会通过调整图像局部亮度来优化相机数据，从而获得理想的成像效果。以下情况最为常见：</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- 对比度增强：图像的暗部变得更暗，亮部变得更亮。当整个相机画面缺乏宽广的亮度范围时，手机会采用这种处理方式。</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- 动态范围压缩：黑暗部分变得更亮，明亮部分变得更暗。如果图像的最亮和/或最暗部分过于极端以致细节会丢失，则由手机完成此操作。在频繁执行此操作的手机上，更改相机设置时您几乎不会注意到相对亮度的变化，因为后处理的图像保持相似的亮度。</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- 亮度增强：如果图像过暗，大多数手机都会提高其亮度。</string>
+      <string original="How to measure reliably despite post-processing?">即使存在后处理如何进行可靠测量？</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">建议调整曝光，使被测区域保持中等亮度（即灰色）。phyphox 的自动曝光功能会自动调节相机设置以达到这一状态，且该亮度水平基本不受手机后期图像处理的影响。此时，相对亮度几乎完全取决于实现该亮度所需的相机设置（特别是 ISO 和曝光时间）。不过，自动曝光需要一定时间才能稳定下来，因此在测量相对亮度之前，请稍作等待，并观察预览图像的亮度是否已稳定在中等灰色水平。</string>
+      <string original="Details for advanced users">给专业用户的细节信息</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">来自相机的原始数据被转换为 RGB 格式，各 RGB 通道基于 sRGB 伽马曲线进行线性化处理，随后转换为视频亮度（luma）信号。相对亮度是指根据相机设置进行归一化处理后的亮度值；具体而言，若相机设置为 1/60 秒曝光时间、ISO 100 感光度和 f/1 光圈，则纯白图像对应的相对亮度为 1（注：即便如此，该数值仍无法用于不同机型之间的比较）。</string>
     </translation>
     <translation locale="zh_Hant"/>
     <translation locale="ta">
@@ -182,6 +206,37 @@ Dodatkowe informacje techniczne: aplikacja Phyphox korzysta ze strumienia podgl�
       <string original="Details for advanced users">மேம்பட்ட பயனர்களுக்கான விவரங்கள்</string>
       <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">ஒளிப்படவியிலிருந்து வரும் மூலத் தரவு RGB ஆக மாற்றப்படுகிறது, மேலும் sRGB-யின் காமா வளைவைக் கருத்தில் கொண்டு தனிப்பட்ட RGB சேனல்கள் நேர்கோடாக்கப்பட்டு, பின்னர் லுமா-வாக மாற்றப்படுகின்றன. சார்பு ஒளிர்வு என்பது ஒளிப்படவி அமைப்புகளுக்கு ஏற்ப இயல்பாக்கப்பட்ட லுமா மதிப்பாகும்; அதன்படி, ஒளிப்படவியை 1/60 வினாடி வெளிப்பாட்டு நேரம், 100 ISO மற்றும் f/1 துளை அளவு ஆகியவற்றில் அமைத்தால், ஒரு தூய வெள்ளைப்படம் 1 என்ற சார்பு ஒளிர்வு மதிப்பைக் கொடுக்கும் (குறிப்பு: இது வெவ்வேறு மாடல்களுக்கு இடையே ஒப்பிடுவதற்கு இன்னும் அனுமதிக்காது).</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>બ્રાઈટનેસ (લ્યુમીનન્સ)</title>
+      <category>કેમેરા</category>
+      <description>લ્યુમિનન્સ માપો, એટલે કે તમારા કેમેરાના લેન્સ દ્વારા જોવા મળતી બ્રાઈટનેસ.
+
+પરિણામી મૂલ્યો આર્બિટ્રેટી એકમોનો ઉપયોગ કરે છે જે 100 ની ISO સંવેદનશીલતા, f/1 નું અપર્ચર અને 1/60 ના એક્સપોઝર સમય સાથે સંપૂર્ણપણે સફેદ છબી માટે સામાન્ય બને છે. Phyphox વર્તમાન એક્સપોઝર સેટિંગ્સ અનુસાર કેમેરાની છબીમાંથી ગણતરી કરાયેલ લ્યુમિનન્સને આપમેળે માપશે. જો કે, ધ્યાનમાં રાખો કે મોટાભાગના ફોન બદલાતા એક્સપોઝર સેટિંગ્સ લાગુ કરવામાં થોડો સમય લે છે, તેથી જો તમે ઓટો એક્સપોઝરનો ઉપયોગ કરો છો અથવા જો તમે સેટિંગ્સ બદલો છો, તો રીડિંગ્સ સેટ થવામાં થોડો સમય લાગશે.
+
+ઉપરાંત, જો છબીનો કોઈપણ ભાગ (અથવા ખરેખર કોઈપણ રંગ ચેનલ) વધુ પડતું એક્સપોઝર અથવા (ઓછા પ્રમાણમાં) ઓછું એક્સપોઝર હોય તો વાંચન ખોટું હશે અને સેચ્યુરેશન અસરો બતાવશે. Phyphox વધુ પડતા એક્સપોઝરવાળા વિસ્તારોને લાલ અને ઓછા એક્સપોઝરવાળા વિસ્તારોને વાદળી રંગમાં પ્રકાશિત કરશે. તમારે માપન લંબચોરસમાં વાંચન વિસ્તારો ન આવે તે ટાળવું જોઈએ. વાદળી ભાગો બરાબર હોવા જોઈએ જ્યાં સુધી તેઓ માપેલા વિસ્તારનો મોટાભાગનો ભાગ ન બનાવે. આ રૂપરેખાંકનમાં ઓટો એક્સપોઝર મોડ Phyphoxના અન્ય ભાગો કરતાં વધુ આક્રમક રીતે ઓવરએક્સપોઝર ટાળવાનો પ્રયાસ કરશે.
+
+વધુ તકનીકી વિગતો: Phyphox કેમેરાના પ્રીવ્યૂ સ્ટ્રીમનો ઉપયોગ કરે છે અને દરેક પિક્સેલને રેખીય બનાવે છે, અનુરૂપ ગામા કર્વ સાથે sRGB કલર મોડેલ ધારે છે. પરિણામી લ્યુમિનન્સ પછી ફોનના GPU માં શેડર-આધારિત સરેરાશ અને ટેક્સચર ફિલ્ટરિંગના મિશ્રણ દ્વારા સરેરાશ કરવામાં આવે છે. જો કે, કેમેરાનું બિન-રેખીય વર્તન, ખાસ કરીને જો પ્રીવ્યૂમાં પણ ડાયનેમિક રેન્જ કમ્પ્રેશન લાગુ કરવામાં આવે તો, તે અમારા નિયંત્રણની બહાર છે અને કેટલાક ફોન મોડેલો પર માપને અસર કરી શકે છે.
+</description>
+      <string original="Luminance">લ્યુમિનન્સ</string>
+      <string original="Preview">પૂર્વાવલોકન</string>
+      <string original="Frame rate">ફ્રેમ રેટ</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">છબીનું મૂલ્યાંકન કરવા માટે ધ્યાનમાં લેવામાં આવેલ છબીના ક્ષેત્રફળને બદલવા માટે પૂર્વાવલોકન પર ટેપ કરો અને ડ્રેગ કરો. તમે વિસ્તારની અંદર છબીને એડજસ્ટ કરવા માટે વિવિધ કેમેરા સેટિંગ્સ પણ પસંદ કરી શકો છો. અન્ડરએક્સપોઝ્ડ વિસ્તારો વાદળી રંગમાં ચિહ્નિત થયેલ છે, ઓવરએક્સપોઝ્ડ વિસ્તારો લાલ રંગમાં ચિહ્નિત થયેલ છે.</string>
+      <string original="Important">મહત્ત્વપૂર્ણ</string>
+      <string original="What is being measured?">શું માપવામાં આવી રહ્યું છે?</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">આ ફીચર ફોનના કેમેરાનો ઉપયોગ કરીને સંબંધિત બ્રાઈટનેસને માપે છે. તે કેમેરા સેટિંગ્સના આપેલ સેટ (જેમ કે એક્સપોઝર સમય) માટે કેમેરા છબીની બ્રાઈટનેસને ધ્યાનમાં લે છે. સંપૂર્ણ મૂલ્ય કેમેરા પર અને કમનસીબે, ફોન દ્વારા કેટલીક પોસ્ટપ્રોસેસિંગ પર આધાર રાખે છે, જેને આપણે રોકી શકતા નથી.</string>
+      <string original="What errors are introduced by my phone?">મારો ફોન કઈ ભૂલો આપે છે?</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">કેટલાક ફોન કેમેરા ડેટાને ઑપ્ટિમાઇઝ કરીને છબીના ચોક્કસ વિસ્તારોની બ્રાઈટનેસ બદલીને વધુ સારી છબી બનાવે છે. અમને આશા છે કે આ સૌથી સામાન્ય હશે:</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- કોન્ટ્રાસ્ટ એન્હાન્સમેન્ટ: છબીના ડાર્ક ભાગો ડાર્ક અને બ્રાઈટ ભાગો બ્રાઈટ બને છે. જો સમગ્ર કેમેરા છબીમાં બ્રાઈટનેસની વિશાળ શ્રેણી ન હોય તો ફોન આ કરે છે.</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- ડાયનેમિક રેન્જ કમ્પ્રેશન: ડાર્ક ભાગ વધુ બ્રાઈટ બને છે અને બ્રાઈટ ભાગ વધુ ડાર્ક થાય છે. ફોન આનો ઉપયોગ ત્યારે કરે છે જ્યારે છબીના સૌથી બ્રાઈટ અને/અથવા ડાર્ક ભાગો એટલા બધા વધુ પડતા હોય તો વિગતો ખોવાઈ જાય છે. આ સેટિંગવાળા ફોન પર, કેમેરા સેટિંગ્સ બદલતી વખતે તમને સંબંધિત લ્યુમીનન્સ ભાગ્યે જ કોઈ ફેરફાર દેખાશે, કારણ કે પોસ્ટપ્રોસેસ્ડ ઇમેજ સમાન બ્રાઈટનેસ જાળવી રાખે છે.</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- બ્રાઇટનેસ બૂસ્ટ: જો મોટાભાગના ફોન ખૂબ જ ડાર્ક હોય તો તે છબીની બ્રાઈટનેસ વધારશે.</string>
+      <string original="How to measure reliably despite post-processing?">પ્રક્રિયા પછી પણ વિશ્વસનીય રીતે કેવી રીતે માપવું?</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">અમે એક્સપોઝરને એવી રીતે સેટ કરવાની ભલામણ કરીએ છીએ કે માપેલ વિસ્તાર મધ્યમ બ્રાઈટનેસ (એટલે કે, ગ્રે) પર હોય. phyphox નું ઓટોએક્સપોઝર આ પ્રાપ્ત કરવા માટે કેમેરા સેટિંગ્સને એડજસ્ટ કરશે, અને આ બ્રાઈટનેસ સ્તર મોટાભાગે તમારા ફોનના પોસ્ટ-પ્રોસેસિંગથી પ્રભાવિત થતું નથી. પછી સંબંધિત લ્યુમિનન્સ લગભગ સંપૂર્ણપણે કેમેરા સેટિંગ્સ (ખાસ કરીને, ISO અને એક્સપોઝર સમય) પર આધારિત હોય છે જે બ્રાઈટનેસ તેજ પ્રાપ્ત કરવા માટે જરૂરી છે. જો કે, ઓટોએક્સપોઝરને સ્થિર થવામાં થોડો સમય લાગે છે, તેથી તમારે સંબંધિત લ્યુમિનન્સ માપ લેતા પહેલા થોડી રાહ જોવી જોઈએ અને જોવું જોઈએ કે પૂર્વાવલોકન છબી મધ્યમ ગ્રે બ્રાઈટનેસ પર સ્થિર થાય છે કે નહીં.</string>
+      <string original="Details for advanced users">એડવાન્સ વપરાશકર્તાઓ માટે વિગતો</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">કેમેરામાંથી કાચો ડેટા RGB માં રૂપાંતરિત થાય છે અને વ્યક્તિગત RGB ચેનલોને sRGB ગામા કર્વમાં રેખીય બનાવવામાં આવે છે અને પછી લુમામાં રૂપાંતરિત કરવામાં આવે છે. રિલેટિવ લ્યુમિનેન્સ એ કેમેરા સેટિંગ્સમાં સામાન્ય થયેલ લુમા મૂલ્ય છે, જેથી જો કેમેરા 1/60s ના એક્સપોઝર સમય, 100 ના ISO અને f/1 ના અપર્ચર પર સેટ હોય, તો શુદ્ધ સફેદ છબી 1 નું રિલેટિવ લ્યુમિનેન્સ આપે છે (નોંધ કરો, આ હજુ પણ મોડેલોમાં સરખામણી કરવાની મંજૂરી આપતું નથી).</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">luma</container>

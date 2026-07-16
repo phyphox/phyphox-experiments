@@ -363,14 +363,14 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Resolution">Độ phân giải</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>磁场谱</title>
+      <title>磁场频谱</title>
       <category>工具</category>
       <description>
             显示磁力计数据的频谱。
 
             本实验记录来自磁力计的数据并利用快速傅里叶变换（FFT）计算其频谱。可测最大频率取决于你的传感器的最高采样率。
     </description>
-      <string original="Spectrum">加速度频谱</string>
+      <string original="Spectrum">频谱</string>
       <string original="Peak-Frequency">峰值频率</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
@@ -388,6 +388,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">X方向磁场</string>
       <string original="Magnetic field y">Y方向磁场</string>
       <string original="Magnetic field z">Z方向磁场</string>
+      <string original="Resolution">分辨率</string>
     </translation>
     <translation locale="sr">
       <title>Magnetni spektar</title>
@@ -552,6 +553,40 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <string original="Magnetic field y">காந்தப்புலம் y</string>
       <string original="Magnetic field z">காந்தப்புலம் z</string>
     </translation>
+    <translation locale="bn">
+      <string original="Settings">সেটিং</string>
+    </translation>
+    <translation locale="gu">
+      <title>ચુંબકીય સ્પેક્ટ્રમ</title>
+      <category>ટૂલ્સ</category>
+      <description>
+            મેગ્નેટોમીટરમાંથી ડેટાનો ફ્રીક્વન્સી સ્પેક્ટ્રમ દર્શાવો.
+
+            આ પ્રયોગ મેગ્નેટોમીટરમાંથી ડેટા રેકોર્ડ કરે છે અને ફુરિયર ટ્રાન્સફોર્મેશન (FFT) દ્વારા તેના ફ્રીક્વન્સી સ્પેક્ટ્રમની ગણતરી કરે છે. મહત્તમ શોધી શકાય તેવી ફ્રીક્વન્સી તમારા સેન્સરના મહત્તમ સંપાદન દર પર આધારિત છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Spectrum">સ્પેક્ટ્રમ</string>
+      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="1/min">1/મિનીટ</string>
+      <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="FFT Mag">FFT મેગ</string>
+      <string original="Samples used">ઉપયોગ કરેલા સેમ્પલ</string>
+      <string original="Period used">ઉપયોગ કરેલા પિરીઅડ</string>
+      <string original="Resolution">રિઝોલ્યુશન</string>
+      <string original="Acquisition rate">સંપાદન દર</string>
+      <string original="Nyquist frequency">નાયક્વિસ્ટ ફ્રીક્વન્સી</string>
+      <string original="History">ઈતિહાસ</string>
+      <string original="Time">સમય</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">નીચે તમે ફુરિયર ટ્રાન્સફોર્મ માટે ઉપયોગમાં લેવાતા સેમ્પલની સંખ્યા સેટ કરી શકો છો. વધુ સેમ્પલનો અર્થ છે ધીમા અપડેટ્સ, પરંતુ ઉચ્ચ સ્પેક્ટ્રલ રિઝોલ્યુશન.</string>
+      <string original="Samples">સેમ્પલ</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Magnetic field x">ચુંબકીય ક્ષેત્ર x</string>
+      <string original="Magnetic field y">ચુંબકીય ક્ષેત્ર y</string>
+      <string original="Magnetic field z">ચુંબકીય ક્ષેત્ર z</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="4096">magInX</container>

@@ -630,7 +630,7 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger off 5">Kích hoạt tắt 5</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>光学秒表</title>
+      <title>光学秒表 (亮度传感器)</title>
       <category>计时器</category>
       <description>
         根据手机接受的光照测量时间
@@ -938,6 +938,67 @@ Hassaslığın telefonunuzdaki ışık sensörüne önemli ölçüde bağlı old
       <string original="Trigger on 5">தூண்டுதல் தொடக்கம் ௫</string>
       <string original="Trigger off 5">தூண்டுதல் முடிவு ௫</string>
     </translation>
+    <translation locale="bn">
+      <title>আলোকীয়  বিরাম ঘড়ি</title>
+      <category>সময় সূচক</category>
+      <string original="Settings">সেটিং</string>
+      <string original="Trigger below">নিম্ন ট্রিগার সীমা</string>
+      <string original="Trigger above">উচ্চ ট্রিগার সীমা</string>
+      <string original="Illuminance">আলোকীয়  তীব্রতা</string>
+      <string original="Sequence">ক্রম</string>
+      <string original="Time 1">সময় ১</string>
+      <string original="Time 2">সময় ২</string>
+      <string original="Time 3">সময় ৩</string>
+      <string original="Time 4">সময় ৪</string>
+      <string original="Time 5">সময় ৫</string>
+    </translation>
+    <translation locale="gu">
+      <title>ઓપ્ટિકલ સ્ટોપવોચ (લાઇટ સેન્સર)</title>
+      <category>ટાઇમર</category>
+      <description>
+        તમારા ફોન પરની ચમકતી લાઇટના આધારે સમય માપો.
+
+        આ પ્રયોગમાં, તમે તમારા લાઇટ સેન્સરને લાઇટના સ્ત્રોતના સંપર્કમાં લાવીને બ્રાઇટ અને ડાર્ક સ્થિતિઓ વચ્ચેનો સમય અથવા અવધિ માપી શકો છો. ઉદાહરણ તરીકે, તમે લાઇટ સ્ત્રોતને અવરોધિત કરતી બે ઘટનાઓ વચ્ચેનો સમય માપી શકો છો.
+
+        નોંધ કરો કે આની ચોકસાઈ તમારા ફોનના લાઇટ સેન્સર પર ખૂબ વધુ આધાર રાખે છે. ધીમા સેન્સર માટે, આ સમય સરળતાથી એક સેકન્ડથી વધુ થઈ શકે છે, જ્યારે ઝડપી સેન્સર માટે આ સમય સામાન્ય રીતે સેકન્ડના દસમા ભાગથી ઓછો હોય છે. અવાજોના આધારે એકોસ્ટિક સ્ટોપવોચ પ્રયોગનો ઉપયોગ કરીને ઝડપી માપન કરી શકાય છે.
+    </description>
+      <string original="Settings">સેટિંગ્સ</string>
+      <string original="Trigger below">ટ્રીગર નીચે</string>
+      <string original="Trigger above">ટ્રીગર ઉપર</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on bright illumination, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on dark events, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below.">ટાઈમર આપેલ થ્રેશોલ્ડની ઉપર અને નીચે બંને રીતે ટ્રિગર કરે છે. જો તમે ફક્ત તેજ પ્રકાશમાં ટ્રિગર કરવા માંગતા હો, તો "ટ્રીગર નીચે" મૂલ્ય શૂન્ય પર સેટ કરો. જો તમે ફક્ત અંધારાવાળી ઘટનાઓમાં ટ્રીગર કરવા માંગતા હો, તો "ટ્રીગર નીચે" મૂલ્ય ઉચ્ચ પર સેટ કરો. તમે નીચેના ગ્રાફ પરથી તમારા બીજા ટ્રિગર માટે યોગ્ય થ્રેશોલ્ડનો ખ્યાલ મેળવી શકો છો.</string>
+      <string original="Illuminance">પ્રકાશિત (ઇલ્યૂમિનેશન)</string>
+      <string original="The precision depends strongly on the light sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.">આ ચોકસાઈ તમારા ફોનના લાઇટ સેન્સર પર ખૂબ વધુ આધાર રાખે છે. ધીમા સેન્સર માટે, આ સમય સરળતાથી એક સેકન્ડથી વધુ થઈ શકે છે, જ્યારે ઝડપી સેન્સર માટે આ સમય સામાન્ય રીતે સેકન્ડના દસમા ભાગથી ઓછો હોય છે. ઝડપી માપન, પરંતુ ધ્વનિ આધારિત, એકોસ્ટિક સ્ટોપવોચ પ્રયોગનો ઉપયોગ કરીને પ્રાપ્ત કરી શકાય છે.</string>
+      <string original="Sequence">ક્રમ</string>
+      <string original="Time 1">ટાઇમ 1</string>
+      <string original="Time 2">ટાઇમ 2</string>
+      <string original="Time 3">ટાઇમ 3</string>
+      <string original="Time 4">ટાઇમ 4</string>
+      <string original="Time 5">ટાઇમ 5</string>
+      <string original="Reset">રીસેટ</string>
+      <string original="Parallel">સમાંતર</string>
+      <string original="Duration">સમયગાળો</string>
+      <string original="Trigger duration 0">ટ્રીગર સમયગાળો 0</string>
+      <string original="Trigger duration 1">ટ્રીગર સમયગાળો 1</string>
+      <string original="Trigger duration 2">ટ્રીગર સમયગાળો 2</string>
+      <string original="Trigger duration 3">ટ્રીગર સમયગાળો 3</string>
+      <string original="Trigger duration 4">ટ્રીગર સમયગાળો 4</string>
+      <string original="Trigger duration 5">ટ્રીગર સમયગાળો 5</string>
+      <string original="Triggers">ટ્રીગરો</string>
+      <string original="Trigger on 0">ટ્રીગર ચાલુ 0</string>
+      <string original="Trigger off 0">ટ્રીગર બંધ 0</string>
+      <string original="Trigger on 1">ટ્રીગર ચાલુ 1</string>
+      <string original="Trigger off 1">ટ્રીગર બંધ 1</string>
+      <string original="Trigger on 2">ટ્રીગર ચાલુ 2</string>
+      <string original="Trigger off 2">ટ્રીગર બંધ 2</string>
+      <string original="Trigger on 3">ટ્રીગર ચાલુ 3</string>
+      <string original="Trigger off 3">ટ્રીગર બંધ 3</string>
+      <string original="Trigger on 4">ટ્રીગર ચાલુ 4</string>
+      <string original="Trigger off 4">ટ્રીગર બંધ 4</string>
+      <string original="Trigger on 5">ટ્રીગર ચાલુ 5</string>
+      <string original="Trigger off 5">ટ્રીગર બંધ 5</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <input>
     <sensor type="light">

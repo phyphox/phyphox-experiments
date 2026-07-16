@@ -167,7 +167,7 @@
       <string original="Simple">Đơn giản</string>
     </translation>
     <translation locale="zh_Hans">
-      <title>陀螺仪（转动速率）</title>
+      <title>陀螺仪 (转动速率)</title>
       <category>原始传感器</category>
       <description>从陀螺仪获得原始数据。</description>
       <string original="Graph">图表</string>
@@ -175,7 +175,7 @@
       <string original="Gyroscope y">y方向陀螺仪</string>
       <string original="Gyroscope z">z方向陀螺仪</string>
       <string original="Absolute">绝对值</string>
-      <string original="Multi">多方向</string>
+      <string original="Multi">多通道</string>
       <string original="Gyroscope">陀螺仪</string>
       <string original="Simple">简明值</string>
     </translation>
@@ -251,6 +251,22 @@
       <string original="Multi">பல</string>
       <string original="Simple">எளிமையான</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ગાયરોસ્કોપ (પરિભ્રમણ દર)</title>
+      <category>રો સેન્સર</category>
+      <description>ગાયરોસ્કોપમાંથી કાચો ડેટા મેળવો.</description>
+      <string original="Graph">આલેખ</string>
+      <string original="Gyroscope x">ગાયરોસ્કોપ x</string>
+      <string original="Gyroscope y">ગાયરોસ્કોપ y</string>
+      <string original="Gyroscope z">ગાયરોસ્કોપ z</string>
+      <string original="Absolute">નિરપેક્ષ</string>
+      <string original="Multi">બહુ</string>
+      <string original="Gyroscope">ગાયરોસ્કોપ</string>
+      <string original="Simple">સિમ્પલ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

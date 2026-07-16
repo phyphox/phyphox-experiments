@@ -462,6 +462,32 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">பதிவாகிறது</string>
       <string original="Amplitude">வீச்சு</string>
     </translation>
+    <translation locale="bn"/>
+    <translation locale="gu">
+      <title>ઓડિઓ ઓટો-કોરિલેશન</title>
+      <category>એકોસ્ટિક</category>
+      <description>
+        એક ટોનની ફ્રીક્વન્સી માપો.
+
+        આ પ્રયોગ માઇક્રોફોનમાંથી ઓડિઓ રેકોર્ડ કરે છે અને તેની ફ્રીક્વન્સી માટે તેનું વિશ્લેષણ કરે છે. આ ફક્ત ત્યારે જ કાર્ય કરે છે જો નિશ્ચિત ફ્રીક્વન્સી સાથે એક જ ટોન હોય - જો બહુવિધ ફ્રીક્વન્સી (જેમ કે એકોર્ડ) હોય, તો તેના બદલે "સ્પેક્ટ્રમ" પ્રયોગનો ઉપયોગ કરો.
+
+        વિશ્લેષણ ઓડિઓ સિગ્નલના ઓટો-કોરિલેશનની ગણતરી કરીને કરવામાં આવે છે. પછી પ્રયોગમાં ઓટો-કોરિલેશનમાં મહત્તમ સિગ્નલના અડધાથી વધુ હોય તેવા બધા શૃંગનો વિચાર કરવામાં આવે છે. ઓટો-કોરિલેશનમાં આમાંથી છેલ્લા શૃંગની સ્થિતિ સિગ્નલના પિરીઅડનો ગુણાંક આપે છે. શૃંગની સંખ્યા ગણીને આપણે મૂળ ફ્રીક્વન્સીનો પિરીઅડ મેળવી શકીએ છીએ.
+    </description>
+      <string original="Autocorr.">ઓટો-કોરિ.</string>
+      <string original="Period">પિરીઅડ</string>
+      <string original="Frequency">ફ્રીક્વન્સી</string>
+      <string original="Musical note">સંગીતમય ટોન</string>
+      <string original="Low">નિમ્ન</string>
+      <string original="High">ઉચ્ચ</string>
+      <string original="Cents from note">નોટમાંથી સેન્ટ</string>
+      <string original="Autocorrelation">ઓટો-કોરિલેશન</string>
+      <string original="correlation">કોરિલેશન</string>
+      <string original="Raw data">રો ડેટા</string>
+      <string original="Recording">રેકોર્ડીંગ</string>
+      <string original="Amplitude">એમ્પ્લીટ્યુડ</string>
+    </translation>
+    <translation locale="kn"/>
+    <translation locale="or"/>
   </translations>
   <data-containers>
     <container size="4800">recording</container>
