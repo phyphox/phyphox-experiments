@@ -12,7 +12,7 @@
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Autocorrelation</link>
   <translations>
     <translation locale="de">
-      <title>Audio Autokorrelation</title>
+      <title>Audioautokorrelation</title>
       <category>Akustik</category>
       <description>
         Die Frequenz eines einzelnen Tons ermitteln.

@@ -11,7 +11,7 @@
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Spectrum</link>
   <translations>
     <translation locale="de">
-      <title>Magnetfeld-Spektrum</title>
+      <title>Magnetfeldspektrum</title>
       <category>Werkzeuge</category>
       <description>
             Zeigt das Frequenz-Spektrum des Magnetometers.

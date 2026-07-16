@@ -1,5 +1,5 @@
 <phyphox version="1.20" locale="en">
-  <title>Camera stopwatch: Brightness</title>
+  <title>Camera Stopwatch: Brightness</title>
   <category>Camera</category>
   <description>Measure times between changes in brightness, for example caused by passing objects.
 
@@ -89,7 +89,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
       <string original="Time interval">Zeitintervall</string>
       <string original="Average interval">Mittleres Intervall</string>
       <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
-      <title>Kamera-Stoppuhr: Helligkeit</title>
+      <title>Kamerastoppuhr: Helligkeit</title>
       <category>Kamera</category>
       <description>Miss die Zeit zwischen Helligkeitsänderungen, z.B. verursacht durch sich bewegende Objekte.
 

@@ -10,7 +10,7 @@
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
   <translations>
     <translation locale="de">
-      <title>Audio Spektrum</title>
+      <title>Audiospektrum</title>
       <category>Akustik</category>
       <description>
             Zeigt das Frequenz-Spektrum von Audiosignalen.

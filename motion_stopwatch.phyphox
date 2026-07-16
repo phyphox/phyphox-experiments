@@ -57,7 +57,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
   </data-containers>
   <translations>
     <translation locale="de">
-      <title>Bewegungs-Stoppuhr</title>
+      <title>Bewegungsstoppuhr</title>
       <category>Zeitmessung</category>
       <description>
         Stoppe die Zeit zwischen zwei Bewegungs-Ereignissen.

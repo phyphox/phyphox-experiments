@@ -47,7 +47,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
       <string original="Samples">Messwerte</string>
       <string original="Raw data">Rohdaten</string>
-      <title>Kamera-Spektrum: Helligkeit</title>
+      <title>Kameraspektrum: Helligkeit</title>
       <category>Kamera</category>
       <description>Zeigt das Frequenz-Spektrum schwankender Helligkeit des Kamerabildes.
 

@@ -15,6 +15,17 @@
       <string original="Frequency">Frequenz</string>
       <string original="Period">Periode</string>
       <string original="Preview">Vorschau</string>
+      <title>Taschenlampenstroboskop</title>
+      <category>Werkzeuge</category>
+      <description>Schalte die Taschenlampe deines Smartphones mit einer einstellbaren Frequenz ein und aus. Beachte, dass die Blitzfunktion nicht dafür ausgelegt ist, mit exakt abgestimmtem Timing geschaltet zu werden. Je nach Smartphone-Modell können die nutzbaren Frequenzen eingeschränkt sein. Bitte beachte die Informationen, die unter den Stroboskop-Steuerelementen angezeigt werden.</description>
+      <string original="Strobe">Stroboskop</string>
+      <string original="Brightness">Helligkeit</string>
+      <string original="Duty cycle">Einschaltdauer (Duty Cycle)</string>
+      <string original="Reset duty cycle to 0.5">Einschaltdauer auf 0.5 setzen</string>
+      <string original="On duration">Dauer An</string>
+      <string original="Off duration">Dauer Aus</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">Die maximal mögliche Frequenz variiert je nach Smartphone-Modell und kann von phyphox nicht überprüft werden. Erhöhe die Stroboskopfrequenz langsam und beobachte dabei das ausgesendete Licht. Wenn du ein unregelmäßiges Flackern oder eine plötzliche Änderung der Helligkeit feststellst, solltest du davon ausgehen, dass die maximale Frequenz erreicht ist und höhere Blitzfrequenzen von deinem Smartphone nicht mehr korrekt wiedergegeben werden.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">Die höchste Frequenz kann mit einem Duty Cycle von 0,5 erreicht werden, da dadurch die Schaltvorgänge gleichmäßig verteilt werden. Die Ein- und Ausschaltzeiten werden rot markiert, wenn sie unterhalb typischer Grenzwerte liegen. Dein Smartphone kann jedoch niedrigere oder höhere Grenzwerte haben.</string>
     </translation>
     <translation locale="el">
       <string original="Frequency">Συχνότητα</string>

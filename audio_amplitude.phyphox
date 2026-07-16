@@ -10,7 +10,7 @@
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Amplitude</link>
   <translations>
     <translation locale="de">
-      <title>Audio Amplitude</title>
+      <title>Audioamplitude</title>
       <category>Akustik</category>
       <description>
         Ermittelt die Amplitude von Audio-Signalen.

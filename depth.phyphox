@@ -1,5 +1,5 @@
 <phyphox version="1.14" locale="en">
-  <title>Depth sensor (LiDAR / ToF)</title>
+  <title>Depth Sensor (LiDAR / ToF)</title>
   <category>Camera</category>
   <description>Measure distances using the depth sensor.
 

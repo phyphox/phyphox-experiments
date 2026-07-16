@@ -13,6 +13,26 @@
       <string original="Preview">Vorschau</string>
       <string original="Calibrate">Kalibrieren</string>
       <string original="Spectrum">Spektrum</string>
+      <title>Spektroskopie</title>
+      <category>Kamera</category>
+      <description>Verwende für die Spektroskopie ein externes Beugungsgitter. Falls du kein spezielles Beugungsgitter hast, eignet sich auch ein Stück einer CD oder DVD. Richte den Versuch so ein, dass die Kamera den durch die Beugung entstehenden Regenbogen des Spektrums erfassen kann. Wähle anschließend in phyphox aus, ob das Spektrum horizontal oder vertikal verläuft. phyphox mittelt dann die Beiträge gleicher Wellenlängen innerhalb des ausgewählten Bereichs des Kamerabildes. Außerdem kannst du dein Spektrum kalibrieren.</description>
+      <string original="Calibration data">Kalibrierungsdaten</string>
+      <string original="1 Camera">1 Kamera</string>
+      <string original="Set up your camera">Kamera einrichten</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Verwende ein Beugungsgitter und richte die Kamera deines Smartphones auf einem Stativ so aus, dass sie den erzeugten Regenbogen des Spektrums erfassen kann. Tippe auf das Vorschaubild und ziehe die Griffe des hervorgehobenen Rechtecks, sodass nur das Spektrum ausgewählt ist. Achte darauf, dass die Farbbänder exakt horizontal oder vertikal verlaufen, und wähle die entsprechende Ausrichtung des Spektrums aus. Wechsle anschließend zu Tab 2.</string>
+      <string original="2 Calibration">2 Kalibrierung</string>
+      <string original="In this tab you can calibrate your spectrum">In diesem Tab kannst du dein Spektrum kalibrieren</string>
+      <string original="Raw Spectrum">Rohdaten des Spektrums</string>
+      <string original="Position on sensor">Position auf dem Sensor</string>
+      <string original="Calibration 1">Kalibrierung 1</string>
+      <string original="Wavelength in nm">Wellenlänge in nm</string>
+      <string original="Calibration 2">Kalibrierung 2</string>
+      <string original="Wavelength 1">Wellenlänge 1</string>
+      <string original="Wavelength 2">Wellenlänge 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">Wenn du eine Lichtquelle mit bekannten Spektrallinien verwendest, kannst du auf das Diagramm tippen, unten den Kalibrierungsmodus auswählen und Spektrallinien markieren, um sie bekannten Wellenlängen zuzuordnen. Das kalibrierte Spektrum wird anschließend auf Tab 3 angezeigt.</string>
+      <string original="3 Spectrum">3 Spektrum</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">Nachdem du dein Spektrometer in Tab 2 kalibriert hast, wird hier das kalibrierte Spektrum angezeigt.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">Beachte, dass die Kamera deines Smartphones Filter verwendet, um die roten, grünen und blauen Farbanteile zu erfassen. Die daraus resultierende relative Helligkeit hängt von der Wellenlänge ab. Daher sind die Intensitäten verschiedener Wellenlängen in diesem Spektrum nicht miteinander vergleichbar.</string>
     </translation>
     <translation locale="el">
       <string original="Preview">Προεπισκόπηση</string>

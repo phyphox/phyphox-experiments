@@ -1,5 +1,5 @@
 <phyphox version="1.20" locale="en">
-  <title>Camera stopwatch: Color</title>
+  <title>Camera Stopwatch: Color</title>
   <category>Camera</category>
   <description>Measure times between changes in color, for example caused by passing objects.
 
@@ -87,7 +87,7 @@ Be aware that automatic white balance as well as auto exposure may cause a drift
       <string original="Time interval">Zeitintervall</string>
       <string original="Average interval">Mittleres Intervall</string>
       <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
-      <title>Kamera-Stoppuhr: Farbe</title>
+      <title>Kamerastoppuhr: Farbe</title>
       <category>Kamera</category>
       <description>Miss die Zeit zwischen Farbänderungen, z.B. verursacht durch sich bewegende Objekte.
 
