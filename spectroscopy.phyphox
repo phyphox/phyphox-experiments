@@ -132,7 +132,7 @@
     <container size="1" clearGroup="Calibration data">cal_lambda2</container>
   </data-containers>
   <input>
-    <camera auto_exposure="true" feature="spectroscopy" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
+    <camera auto_exposure="true" feature="spectroscopy" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure" locked="focus_distance=0">
       <output component="pixelPosition">spectrum_raw_x</output>
       <output component="luminance">spectrum_raw_y</output>
     </camera>
