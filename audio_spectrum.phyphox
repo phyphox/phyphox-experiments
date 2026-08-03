@@ -780,7 +780,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
-      <separator height="1" precision="0"/>
+      <separator height="1"/>
       <value label="Samples used" precision="0">
         <input>actual_samples</input>
       </value>
