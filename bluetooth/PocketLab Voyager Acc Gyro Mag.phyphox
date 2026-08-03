@@ -61,7 +61,7 @@
         </view>
 
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input clear="false">accXRaw</input>
             <input type="value">0.004790039</input> <!-- 9.81/2048 -->

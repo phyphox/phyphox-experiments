@@ -31,7 +31,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <formula formula="floor([1_]/4)*0.03125">
             <input clear="false">ambRaw</input>
             <output clear="true">ambCal</output>

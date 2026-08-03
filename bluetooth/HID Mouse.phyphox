@@ -61,7 +61,7 @@
             <info label="Mice do not report absolute position, but differences. These do not necessarily represent velocity as they may be reported over different time intervals." />
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input>-dy</input>
             <input type="value">-1</input>

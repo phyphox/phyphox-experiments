@@ -77,7 +77,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <append>
             <input clear="false">x</input>
             <output>last</output>

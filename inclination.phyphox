@@ -530,7 +530,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
   </input>
   <views>
     <view label="Flat">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltFlatUD</input>
       </graph>
@@ -538,7 +538,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltFlatUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltFlatLR</input>
       </graph>
@@ -548,7 +548,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position."/>
     </view>
     <view label="Upright">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltUprightUD</input>
       </graph>
@@ -556,7 +556,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltUprightUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltUprightLR</input>
       </graph>
@@ -566,7 +566,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position."/>
     </view>
     <view label="Side">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltSideUD</input>
       </graph>
@@ -574,7 +574,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>tiltSideUD</input>
       </value>
       <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">tiltSideLR</input>
       </graph>
@@ -584,7 +584,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
       <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position."/>
     </view>
     <view label="Plane">
-      <graph label="Inclination" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Inclination" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">angle</input>
       </graph>
@@ -592,7 +592,7 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
         <input>angle</input>
       </value>
       <separator height="1"/>
-      <graph label="Rotation" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="line">
+      <graph label="Rotation" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
         <input axis="x">t</input>
         <input axis="y">anglePlane</input>
       </graph>

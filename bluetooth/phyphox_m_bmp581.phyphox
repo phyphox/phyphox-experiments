@@ -63,7 +63,7 @@
             </info>
         </view>		
     </views>
-    <analysis optimization="true">
+    <analysis>
 		<first>
             <input as="value" clear="false">time_raw</input>
             <output as="first">timeOffset</output>

@@ -23,7 +23,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input clear="false">dRaw</input>
             <input type="value">0.001</input> <!-- 2.3 / 0x1ffe -->

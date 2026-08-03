@@ -38,7 +38,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input clear="false">gyrXRaw</input>
             <input type="value">0.000133158054</input> <!-- 500 / 65536 * 2pi / 360 -->

@@ -38,7 +38,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input clear="false">accXRaw</input>
             <input type="value">0.00239502</input> <!-- 9.81 / 32768 * 8 -->

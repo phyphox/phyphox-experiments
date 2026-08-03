@@ -25,7 +25,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <if greater="true">
             <input>flags</input>
             <input type="value">127</input>

@@ -124,7 +124,7 @@
 		</view>
 
     </views>
-    <analysis optimization="true">
+    <analysis>
 	<!-- generate time stamps -->
 	<count>
 	    <input clear="false">gyr_timestamps</input>    		

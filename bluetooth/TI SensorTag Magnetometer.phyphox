@@ -38,7 +38,7 @@
             </graph>
         </view>
     </views>
-    <analysis optimization="true">
+    <analysis>
         <multiply>
             <input clear="false">magXRaw</input>
             <input type="value">0.001</input> <!-- µT -> mT -->
