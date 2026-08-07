@@ -38,6 +38,26 @@
       <string original="Preview">Προεπισκόπηση</string>
       <string original="Calibrate">Βαθμονόμηση</string>
       <string original="Spectrum">Φάσμα</string>
+      <title>Φασματοσκοπία</title>
+      <category>Κάμερα</category>
+      <description>Χρησιμοποιήστε ένα εξωτερικό φράγμα περίθλασης για φασματοσκοπία. Αν δεν έχετε φράγμα περίθλασης, μπορείτε να χρησιμοποιήσετε ένα τμήμα ενός CD ή DVD. Ρυθμίστε το πείραμά σας έτσι ώστε η κάμερα να καταγράφει το ουράνιο τόξο της περίθλασης και επιλέξτε στο Phyphox αν η περίθλαση καταγράφεται οριζόντια ή κάθετα. Το Phyphox θα υπολογίσει τον μέσο όρο των συνεισφορών από τα ίδια μήκη κύματος στην επιλεγμένη περιοχή της εικόνας της κάμερας. Μπορείτε επίσης να βαθμονομήσετε το φάσμα σας.</description>
+      <string original="Calibration data">Δεδομένα βαθμονόμησης</string>
+      <string original="1 Camera">1 Κάμερα</string>
+      <string original="Set up your camera">Ρυθμίστε την κάμερά σας</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Χρησιμοποιήστε ένα πλέγμα περίθλασης και τοποθετήστε την κάμερα του κινητού σας σε ένα τρίποδο, έτσι ώστε να μπορεί να καταγράψει το ουράνιο τόξο που δημιουργείται. Πατήστε την εικόνα προεπισκόπησης και σύρετε τα χερούλια του φωτισμένου ορθογωνίου για να επιλέξετε μόνο το ουράνιο τόξο. Βεβαιωθείτε ότι οι χρωματικές ζώνες του είναι είτε απόλυτα οριζόντιες είτε κάθετες και επιλέξτε τον προσανατολισμό του φάσματος ανάλογα. Στη συνέχεια, προχωρήστε στην καρτέλα 2.</string>
+      <string original="2 Calibration">2 Βαθμονόμηση</string>
+      <string original="In this tab you can calibrate your spectrum">Στην καρτέλα αυτή μπορείτε να βαθμονομήσετε το φάσμα σας</string>
+      <string original="Raw Spectrum">Μη βαθμονομημένο Φάσμα</string>
+      <string original="Position on sensor">Σημείο στον αισθητήρα</string>
+      <string original="Calibration 1">Βαθμονόμηση 1</string>
+      <string original="Wavelength in nm">Μήκος κύματος σε nm</string>
+      <string original="Calibration 2">Βαθμονόμηση 2</string>
+      <string original="Wavelength 1">Μήκος κύματος 1</string>
+      <string original="Wavelength 2">Μήκος Κύματος 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">Χρησιμοποιείστε μια γνωστή φωτεινή πηγή, πατήστε πάνω στο γράφημα, επιλέξτε το πλήκτρο βαθμονόμησης στο κάτω μέρος και επιλέξτε κορυφές που αντιστοιχούν σε γνωστά μήκη κύματος. Μετά μπορείτε να δείτε το βαθμονομημένο διάγραμμα στην καρτέλα 3.</string>
+      <string original="3 Spectrum">3 Φάσμα</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">Μετά τη βαθμονόμηση του φασματοσκοπίου στην καρτέλα 2, μπορείτε να δείτε εδώ το βαθμονομημένο φάσμα.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">Σημειώστε ότι η κάμερα του κινητού σας χρησιμοποιεί φίλτρα για να καταγράψει τις συνιστώσες του κόκκινου, του πράσινου και του μπλε. Η σχετική φωτεινότητα που προκύπτει εξαρτάται από το μήκος κύματος, οπότε η ένταση διαφορετικών μηκών κύματος δεν είναι συγκρίσιμη σε αυτό το φάσμα.</string>
     </translation>
     <translation locale="es">
       <string original="Calibrate">Calibrar</string>
@@ -108,6 +128,17 @@
       <string original="Preview">预览</string>
       <string original="Calibrate">校准</string>
       <string original="Spectrum">频谱</string>
+      <string original="1 Camera">1 相机</string>
+      <string original="Set up your camera">设置你的相机</string>
+      <string original="2 Calibration">2 校准</string>
+      <string original="Calibration 1">校准 1</string>
+      <string original="Wavelength in nm">波长 (nm)</string>
+      <string original="Calibration 2">校准 2</string>
+      <string original="Pixel 1">像素 1</string>
+      <string original="Wavelength 1">波长 1</string>
+      <string original="Pixel 2">像素 2</string>
+      <string original="Wavelength 2">波长 2</string>
+      <string original="3 Spectrum">3 频谱</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Calibrate">校正</string>
@@ -118,6 +149,28 @@
       <string original="Preview">પૂર્વાવલોકન</string>
       <string original="Calibrate">કેલીબ્રેટ</string>
       <string original="Spectrum">સ્પેક્ટ્રમ</string>
+      <title>સ્પેક્ટ્રોસ્કોપી</title>
+      <category>કેમેરા</category>
+      <description>સ્પેક્ટ્રોસ્કોપી માટે બાહ્ય વિવર્તન ગ્રેટિંગનો ઉપયોગ કરો. જો તમારી પાસે સમર્પિત વિવર્તન ગ્રેટિંગ ન હોય, તો CD અથવા DVD નો એક ભાગ પણ કામ કરશે. તમારા પ્રયોગને એવી રીતે સેટ કરો કે કેમેરા વિવર્તનનો મેઘધનુષ્ય જોઈ શકે અને phyphoxમાં પસંદ કરો કે વિવર્તન આડું થાય છે કે ઊભી રીતે. phyphox કેમેરા છબીના પસંદ કરેલા વિસ્તારમાં સમાન તરંગલંબાઇમાંથી યોગદાનને સરેરાશ કરશે. તમે તમારા સ્પેક્ટ્રમને પણ માપાંકિત કરી શકો છો.</description>
+      <string original="Calibration data">કેલિબ્રેશન ડેટા</string>
+      <string original="1 Camera">1 કેમેરા</string>
+      <string original="Set up your camera">તમારો કેમેરા સેટ કરો</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">ડિફ્રેક્શન ગ્રેટિંગનો ઉપયોગ કરો અને તમારા ફોનના કેમેરાને ટ્રાઇપોડ પર એવી રીતે ગોઠવો કે તે જનરેટ થયેલ મેઘધનુષ્ય જોઈ શકે. પ્રિવ્યૂ છબીને ટેપ કરો અને ફક્ત મેઘધનુષ્ય પસંદ કરવા માટે હાઇલાઇટ કરેલા લંબચોરસના હેન્ડલ્સને ખેંચો. ખાતરી કરો કે તેના રંગ પટ્ટા સંપૂર્ણપણે આડા અથવા ઊભા છે અને તે મુજબ સ્પેક્ટ્રમ ઓરિએન્ટેશન પસંદ કરો. પછી ટેબ 2 પર જાઓ.</string>
+      <string original="2 Calibration">2 કેલીબ્રેશન</string>
+      <string original="In this tab you can calibrate your spectrum">આ ટેબમાં તમે તમારા સ્પેક્ટ્રમને કેલિબ્રેટ કરી શકો છો</string>
+      <string original="Raw Spectrum">રો સ્પેક્ટ્રમ</string>
+      <string original="Position on sensor">સેન્સર પર સ્થિતિ</string>
+      <string original="Calibration 1">કેલીબ્રેશન 1</string>
+      <string original="Wavelength in nm">nmમાં તરંગલંબાઇ</string>
+      <string original="Calibration 2">કેલીબ્રેશન 2</string>
+      <string original="Pixel 1">પિકસેલ 1</string>
+      <string original="Wavelength 1">તરંગલંબાઇ 1</string>
+      <string original="Pixel 2">પિકસેલ 2</string>
+      <string original="Wavelength 2">તરંગલંબાઇ 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">જાણીતા પ્રકાશ સ્ત્રોતનો ઉપયોગ કરીને, તમે ગ્રાફને ટેપ કરી શકો છો, તળિયે કેલિબ્રેટ મોડ પસંદ કરી શકો છો અને નોન તરંગલંબાઇ સાથે મેચ કરવા માટે શિખરો પસંદ કરી શકો છો. પછી તમે ટેબ 3 પર કેલિબ્રેટેડ સ્પેક્ટ્રમ જોઈ શકો છો.</string>
+      <string original="3 Spectrum">3 સ્પેક્ટ્રમ</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">ટેબ 2 માં તમારા સ્પેક્ટ્રોમીટરને કેલિબ્રેટ કર્યા પછી, તમે અહીં તમારા કેલિબ્રેટ સ્પેક્ટ્રમને જોઈ શકો છો.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">નોંધ કરો કે તમારા ફોનનો કેમેરા લાલ, લીલો અને વાદળી ઘટકોને કેપ્ચર કરવા માટે ફિલ્ટર્સનો ઉપયોગ કરે છે. પરિણામી સંબંધિત તેજ તરંગલંબાઇ પર આધાર રાખે છે, તેથી આ સ્પેક્ટ્રમમાં વિવિધ તરંગલંબાઇઓની તીવ્રતા તુલનાત્મક નથી.</string>
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>

@@ -158,6 +158,18 @@
       <string original="Controls">Κουμπιά ελέγχου</string>
       <string original="Amplitude">Πλάτος</string>
       <string original="Settings">Ρυθμίσεις</string>
+      <string original="Channel 1">Κανάλι 1</string>
+      <string original="Pan left/right">Μετακίνηση αριστερά/δεξιά</string>
+      <string original="Waveform">Κυματομορφή</string>
+      <string original="Sine">Ημιτονική</string>
+      <string original="Square">Τετράγωνη</string>
+      <string original="Sawtooth">Πριονωτή</string>
+      <string original="Channel 2">Κανάλι 2</string>
+      <string original="Channel 3">Κανάλι 3</string>
+      <string original="Channels">Κανάλια</string>
+      <string original="Advanced">Προηγμένες Ρυθμίσεις</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">Το πλάτος εξόδου κυμαίνεται από 0 έως 1. Εάν το άθροισμα των πλατών πολλαπλών καναλιών υπερβαίνει το 1, θα προκύψει παραμόρφωση. Η παρακάτω ρύθμιση προσαρμόζει αυτόματα τα πλάτη αναλογικά, ώστε το άθροισμά τους να ισούται με 1.</string>
+      <string original="Normalize">Κανονικοποίηση</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
@@ -432,6 +444,19 @@
       <string original="Frequency high">ફ્રીક્વન્સી ઉચ્ચ</string>
       <string original="OK">બરાબર</string>
       <string original="Settings">સેટિંગ્સ</string>
+      <string original="Channel 1">ચેનલ 1</string>
+      <string original="Pan left/right">પેન ડાબું/જમણું</string>
+      <string original="Waveform">વેવફોર્મ</string>
+      <string original="Sine">સાઇન</string>
+      <string original="Square">વર્ગ</string>
+      <string original="Sawtooth">સોટૂથ</string>
+      <string original="Channel 2">ચેનલ 2</string>
+      <string original="Channel 3">ચેનલ 3</string>
+      <string original="Channels">ચેનલ</string>
+      <string original="Advanced">એડવાન્સ્ડ</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">આઉટપુટ એમ્પ્લીટ્યુડ 0 થી 1 સુધીનો હોય છે. જો બહુવિધ ચેનલોના એમ્પ્લીટ્યુડનો સરવાળો 1 થી વધી જાય, તો તમને વિકૃતિ મળશે. નીચેના સેટિંગ આપમેળે એમ્પ્લીટ્યુડને પ્રમાણસર સ્કેલ કરે છે જેથી 1 નો સરવાળો મળે.</string>
+      <string original="Normalize">નૉર્મલાઈઝ</string>
+      <string original="Normalization amplitude">નૉર્મલાઇઝેશન એમ્પ્લીટ્યુડ</string>
     </translation>
     <translation locale="kn">
       <string original="OK">ಸರಿ</string>

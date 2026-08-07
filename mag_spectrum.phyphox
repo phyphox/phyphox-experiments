@@ -668,7 +668,7 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
-      <separator height="1" />
+      <separator height="1"/>
       <value label="Samples used" precision="0">
         <input>actual_samples</input>
       </value>

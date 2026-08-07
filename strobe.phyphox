@@ -31,6 +31,7 @@
       <string original="Frequency">Συχνότητα</string>
       <string original="Period">Περίοδος</string>
       <string original="Preview">Προεπισκόπηση</string>
+      <category>Εργαλεία</category>
     </translation>
     <translation locale="es">
       <string original="Frequency">Frecuencia</string>
@@ -100,6 +101,8 @@
       <string original="Frequency">频率</string>
       <string original="Period">周期</string>
       <string original="Preview">预览</string>
+      <category>工具</category>
+      <string original="Brightness">亮度</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Frequency">頻率</string>
@@ -110,6 +113,17 @@
       <string original="Frequency">ફ્રીક્વન્સી</string>
       <string original="Period">પિરીઅડ</string>
       <string original="Preview">પૂર્વાવલોકન</string>
+      <title>ફ્લેશલાઇટ સ્ટ્રોબોસ્કોપ</title>
+      <category>ટૂલ્સ</category>
+      <description>તમારા ફોનની ફ્લેશલાઇટને ટ્યુનેબલ ફ્રીક્વન્સી સાથે ટૉગલ કરો. નોંધ કરો કે ફ્લેશ ચોક્કસ સમય સાથે ટૉગલ કરવા માટે ડિઝાઇન કરવામાં આવી નથી. તમારા ફોનના મોડેલના આધારે, ઉપયોગી ફ્રીક્વન્સી મર્યાદિત હોઈ શકે છે. કૃપા કરીને સ્ટ્રોબ કંટ્રોલ્સ હેઠળ બતાવેલ માહિતી પર ધ્યાન આપો.</description>
+      <string original="Strobe">સ્ટ્રોબ</string>
+      <string original="Brightness">બ્રાઇટનેસ</string>
+      <string original="Duty cycle">ડયુટી સાઇકલ</string>
+      <string original="Reset duty cycle to 0.5">ડ્યુટી સાઇકલને 0.5 પર રીસેટ કરો</string>
+      <string original="On duration">ચાલુ સમયગાળો</string>
+      <string original="Off duration">બંધ સમયગાળો</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">મહત્તમ શક્ય દર ફોન મોડેલોમાં બદલાય છે અને phyphox દ્વારા તેની ચકાસણી કરી શકાતી નથી. ધીમે ધીમે સ્ટ્રોબોસ્કોપ ફ્રીક્વન્સી વધારો અને ઉત્સર્જિત પ્રકાશ પર નજર રાખો. જો તમને અનિયમિત ઝબકવું અથવા બ્રાઇટનેસમાં અચાનક ફેરફાર દેખાય, તો તમારે માની લેવું જોઈએ કે તમે મહત્તમ ફ્રીક્વન્સી પર પહોંચી ગયા છો અને તમારા ફોન દ્વારા ઉચ્ચ ફ્લેશ દર યોગ્ય રીતે પુનઃઉત્પાદિત થશે નહીં.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">સ્વિચિંગ ઇવેન્ટ્સને સમાન રીતે અંતર આપવા માટે 0.5 ના ડ્યુટી સાઇકલ સાથે સૌથી વધુ ફ્રીક્વન્સી પ્રાપ્ત કરી શકાય છે. ચાલુ અને બંધ સમયગાળો લાક્ષણિક મર્યાદાઓથી નીચે લાલ રંગમાં પ્રકાશિત થશે, પરંતુ તમારા ફોનમાં ઓછી અથવા ઊંચી મર્યાદા હોઈ શકે છે.</string>
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
@@ -144,7 +158,7 @@
       <edit label="Frequency" min="0" max="30" unit="[[unit_short_hertz]]">
         <output>frequency</output>
       </edit>
-      <slider label="Frequency" minValue="0" maxValue="30" stepSize="0.1" showValue="false" >
+      <slider label="Frequency" minValue="0" maxValue="30" stepSize="0.1" showValue="false">
         <output>frequency</output>
       </slider>
       <slider label="Duty cycle" minValue="0.01" maxValue="0.99" stepSize="0.01">
