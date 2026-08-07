@@ -155,10 +155,10 @@
       <slider label="Brightness" minValue="0" maxValue="1" stepSize="0.01">
         <output>intensity</output>
       </slider>
-      <edit label="Frequency" min="0" max="30" unit="[[unit_short_hertz]]">
+      <edit label="Frequency" min="0" max="50" unit="[[unit_short_hertz]]">
         <output>frequency</output>
       </edit>
-      <slider label="Frequency" minValue="0" maxValue="30" stepSize="0.1" showValue="false">
+      <slider label="Frequency" minValue="0" maxValue="50" stepSize="0.1" showValue="false">
         <output>frequency</output>
       </slider>
       <slider label="Duty cycle" minValue="0.01" maxValue="0.99" stepSize="0.01">
