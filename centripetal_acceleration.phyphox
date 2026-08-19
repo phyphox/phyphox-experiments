@@ -125,7 +125,7 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Acceleration a">Accelerazione a</string>
     </translation>
     <translation locale="el">
-      <title>Κεντρομόλος επιτάχυνση</title>
+      <title>Κεντρομόλος Επιτάχυνση</title>
       <category>Μηχανική</category>
       <description>
         Οπτικοποίηση της κεντρομόλου επιτάχυνσης σαν συνάρτηση της γωνιακής ταχύτητας. 
@@ -393,6 +393,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>구심 가속도</title>
+      <category>역학</category>
+      <description>
+        구심 가속도를 각속도의 함수로 시각화합니다.
+
+        이 실험은 자이로스코프의 각속도 ω의 절대값과 가속도계의 절대 가속도 a를 계산합니다. ω에 대해 a를 그래프로 그리면 a = r·ω²의 관계를 쉽게 표시할 수 있는데,  ω²에 대한 그래프에서 직선이 되어야 합니다.
+
+        이를 확인하려면, 반경을 고정하고 다른 각속도에서 측정합니다. 채소건조기(샐러드 스피너)나 작은 회전 목마가 효과적입니다.
+    </description>
+      <string original="Relation">관계</string>
+      <string original="Acceleration">가속도</string>
+      <string original="Angular velocity ω">각속도 ω</string>
+      <string original="Acceleration a">가속도 a</string>
+      <string original="Square plot">제곱 그래프</string>
+      <string original="Time">시간</string>
+      <string original="Angular velocity">각속도</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

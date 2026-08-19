@@ -81,7 +81,7 @@
       <string original="Gyroscope">Giroscopio</string>
     </translation>
     <translation locale="el">
-      <title>Γυροσκόπιο (ρυθμός περιστροφής)</title>
+      <title>Γυροσκόπιο (Ρυθμός Περιστροφής)</title>
       <category>Δεδομένα Αισθητήρων</category>
       <description>Πάρτε τις καταγραφές του γυροσκοπίου.</description>
       <string original="Graph">Γράφημα</string>
@@ -267,6 +267,19 @@
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>자이로스코프(회전 속도)</title>
+      <category>원 센서</category>
+      <description>자이로스코프로부터 원 데이터를 가져옵니다.</description>
+      <string original="Graph">그래프</string>
+      <string original="Gyroscope x">자이로스코프 x</string>
+      <string original="Gyroscope y">자이로스코프 y</string>
+      <string original="Gyroscope z">자이로스코프 z</string>
+      <string original="Absolute">절대값</string>
+      <string original="Multi">다중</string>
+      <string original="Gyroscope">자이로스코프</string>
+      <string original="Simple">단순</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

@@ -951,6 +951,67 @@ phyphox 0° முதல் 360° வரையிலான வரம்பில
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>카메라 스톱워치: 색상</title>
+      <category>카메라</category>
+      <description>예를 들어 움직이는 물체로 인해 발생하는 색상 변화 사이의 시간을 측정합니다. 
+
+이 구성에서는 측정 사각형 내부의 평균 색상(Hue)에 대한 하한 임계값과 상한 임계값을 설정할 수 있습니다. 색상이 이 범위에 들어가면 현재 시간이 트리거 이벤트로 기록됩니다. 서로 다른 이벤트 사이의 시간 간격과 각 이벤트의 지속 시간이 함께 기록됩니다.
+
+Phyphox는 색상을 0°에서 360° 범위로 표현하며 순환 평균 방식을 사용합니다. 하한 임계값이 상한 임계값보다 크면 360°를 거쳐 0°로 이어지는 색상 범위가 선택됩니다. 예를 들어 10°~30° 범위는 20°에서 트리거되지만 40°에서는 트리거되지 않습니다. 반면 350°~10° 범위는 359°와 0° 모두에서 트리거되지만 20°에서는 트리거되지 않습니다.
+
+시간 분해능은 카메라의 미리보기 프레임 속도에 의해 결정되며, 보통 30fps로 고정되어 33ms의 샘플링 주기를 갖습니다. Phyphox는 실시간 분석을 위해 카메라의 미리보기 스트림을 사용하므로 이 속도로 제한됩니다. 휴대폰이 고속 촬영이나 슬로 모션 녹화를 지원하더라도 더 높은 프레임 속도는 녹화 영상에서만 제공되며(실시간 분석 아님) 현재 phyphox에서는 사용되지 않습니다.
+
+자동 화이트 밸런스 및 자동 노출 기능으로 인해 측정된 색상에 표류(drift)가 발생할 수 있으며, 이로 인해 정확한 트리거 임계값에 영향이 생길 수 있습니다.
+</description>
+      <string original="Settings">설정</string>
+      <string original="Preview">미리보기</string>
+      <string original="Trigger range">트리거 범위</string>
+      <string original="Trigger">트리거</string>
+      <string original="outside range">범위 밖</string>
+      <string original="inside range">범위 안</string>
+      <string original="State">상태</string>
+      <string original="Idle">대기 중</string>
+      <string original="Triggered">트리거됨</string>
+      <string original="Hue">색상</string>
+      <string original="Frame rate">프레임 속도</string>
+      <string original="Sequence">순서</string>
+      <string original="Time 1">시간 1</string>
+      <string original="Time 2">시간 2</string>
+      <string original="Time 3">시간 3</string>
+      <string original="Time 4">시간 4</string>
+      <string original="Time 5">시간 5</string>
+      <string original="Reset">초기화</string>
+      <string original="Parallel">병렬</string>
+      <string original="Duration">지속 간격</string>
+      <string original="Trigger duration 0">트리거 지속 시간 0</string>
+      <string original="Trigger duration 1">트리거 지속 시간 1</string>
+      <string original="Trigger duration 2">트리거 지속 시간 2</string>
+      <string original="Trigger duration 3">트리거 지속 시간 3</string>
+      <string original="Trigger duration 4">트리거 지속 시간 4</string>
+      <string original="Trigger duration 5">트리거 지속 시간 5</string>
+      <string original="Triggers">트리거</string>
+      <string original="Trigger on 0">트리거 켜기 0</string>
+      <string original="Trigger off 0">트리거 끄기 0</string>
+      <string original="Trigger on 1">트리거 켜기 1</string>
+      <string original="Trigger off 1">트리거 끄기 1</string>
+      <string original="Trigger on 2">트리거 켜기 2</string>
+      <string original="Trigger off 2">트리거 끄기 2</string>
+      <string original="Trigger on 3">트리거 켜기 3</string>
+      <string original="Trigger off 3">트리거 끄기 3</string>
+      <string original="Trigger on 4">트리거 켜기 4</string>
+      <string original="Trigger off 4">트리거 끄기 4</string>
+      <string original="Trigger on 5">트리거 켜기 5</string>
+      <string original="Trigger off 5">트리거 끄기 5</string>
+      <string original="Many">여러 번</string>
+      <string original="Trigger on events">트리거 이벤트</string>
+      <string original="Event number">이벤트 번호</string>
+      <string original="Time interval">시간 간격</string>
+      <string original="Trigger durations">트리거 지속 시간</string>
+      <string original="Average interval">평균 간격</string>
+      <string original="Average rate">평균 비율</string>
+      <string original="Average rate (bpm)">평균 비율(bpm)</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">inHue</container>

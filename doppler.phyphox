@@ -432,6 +432,26 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>도플러 효과</title>
+      <category>음향학</category>
+      <description>
+        도플러 효과에 의한 작은 주파수 이동을 감지합니다.
+
+        일정한 주파수(예: 1000Hz)를 방출하는 음원이 필요합니다. 실험 설정에 이 기본 주파수를 입력하고 도플러 효과로 인한 주파수 이동 감지 범위(예: 10Hz)를 선택합니다. 실험에서는 녹음된 주파수가 결정하되고 음원의 상대 속력를 계산합니다.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Setup">설정</string>
+      <string original="Base frequency">기본 진동수</string>
+      <string original="Frequency range">주파수 범위</string>
+      <string original="Time step">시간 단계</string>
+      <string original="Speed of sound">소리 속력</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">시간 단계는 단일 속도 지점을 계산하는 데 사용되는 데이터 양과 속도를 결정합니다. 알고리즘은 -범위에서 +범위 내에서 기본 주파수에 가까운 주파수를 찾고 n번째 주기(아래)를 사용하여 주파수를 결정합니다. 범위 또는 시간 단계에 대한 극단적인 설정은 부정확하거나 휴대전화가 계산하기 어려울 수 있습니다. 또한 범위를 1/단계보다 훨씬 작은 값으로 유지해야 합니다.</string>
+      <string original="nth period">n번째 주기</string>
+      <string original="Results">결과</string>
+      <string original="Frequency">주파수</string>
+      <string original="Speed">속력</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

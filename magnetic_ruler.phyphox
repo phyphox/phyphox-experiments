@@ -145,7 +145,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Settings">Impostazioni</string>
     </translation>
     <translation locale="el">
-      <title>Μαγνητικός χάρακας</title>
+      <title>Μαγνητικός Χάρακας</title>
       <category>Εργαλεία</category>
       <description>
         Χρησιμοποιείστε μια σειρά από μαγνήτες για να μετρήστε απόσταση, ταχύτητα και επιτάχυνση στο τηλέφωνο.
@@ -452,6 +452,26 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>자기 눈금자</title>
+      <category>도구</category>
+      <description>
+        자석을 일렬로 놓아 휴대 전화의 거리, 속도 및 가속도를 측정하십시오.
+
+        이 실험을 위해서는 휴대전화가 움직일 트랙을 따라 동일한 자석을 일렬로 배치해야 합니다. 자석 사이의 거리는 동일해야 하며 이를 입력해야 합니다. 휴대전화는 자기(력)계를 사용하여 자석을 통과한 것을 결정하고 총 거리를 계산할 수 있습니다.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Results">결과</string>
+      <string original="dx is the distance between two magnets">dx는 두 자석 사이의 거리입니다</string>
+      <string original="Distance">거리</string>
+      <string original="Velocity">속력</string>
+      <string original="Raw Data">원 데이터</string>
+      <string original="Magnetic field x">자기장 x</string>
+      <string original="Magnetic field y">자기장 y</string>
+      <string original="Magnetic field z">자기장 z</string>
+      <string original="Total magnetic field squared and filtered">제곱되고 필터링된 총 자기장</string>
+      <string original="Filtered B²">필터링된 B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container clearGroup="Settings">magnetDistance</container>

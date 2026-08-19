@@ -504,6 +504,30 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>기울기</title>
+      <category>도구</category>
+      <description>
+        휴대전화의 기울기 각도를 측정합니다.
+
+        이 도구는 가속도계를 사용하여 휴대전화의 기울기를 측정합니다. 휴대전화가 탁자 위에 놓여 있을 때 기울기는 0입니다. 0이 아닌 기울기의 경우 기울기 방향은 회전 각도로 정해집니다.
+
+        주의, 각도의 정의는 전화기의 회전(z축 기준)과 관계없이 기울기(특히 경사면 실험의 경우)를 측정하는 작업을 위해 임의로 선택되었습니다.
+    </description>
+      <string original="Flat">수평</string>
+      <string original="Tilt up/down">위/아래 기울기</string>
+      <string original="Angle">각도</string>
+      <string original="Tilt left/right">좌/우 기울기</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a flat position.">이 탭은 평평한 위치에서 시작한 휴대전화의 기울기 각도를 측정하는 데 도움이 됩니다.</string>
+      <string original="Upright">수직</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from an upright position.">이 탭은 휴대폰을 세운 상태(수직 위치)에서 시작하여 기울어진 각도를 측정하는 데 도움이 됩니다.</string>
+      <string original="Side">사이드</string>
+      <string original="This tab helps to measure the tilting angle of the phone, starting from a sideways position.">이 탭은 측면 위치에서 시작한 휴대전화의 기울기 각도를 측정하는 데 도움이 됩니다.</string>
+      <string original="Plane">평면</string>
+      <string original="Inclination">기울기</string>
+      <string original="Rotation">회전</string>
+      <string original="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination.">이 탭은 평면의 기울기를 측정하는 데 도움이 됩니다. 평면의 기울기는 방향에 관계없이 전화기가 표면에 평평하게 놓여 있을 때 측정됩니다. 회전은 기울기의 방향을 제공합니다.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">accX</container>

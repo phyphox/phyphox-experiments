@@ -170,6 +170,7 @@
       <string original="Advanced">Προηγμένες Ρυθμίσεις</string>
       <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">Το πλάτος εξόδου κυμαίνεται από 0 έως 1. Εάν το άθροισμα των πλατών πολλαπλών καναλιών υπερβαίνει το 1, θα προκύψει παραμόρφωση. Η παρακάτω ρύθμιση προσαρμόζει αυτόματα τα πλάτη αναλογικά, ώστε το άθροισμά τους να ισούται με 1.</string>
       <string original="Normalize">Κανονικοποίηση</string>
+      <string original="Normalization amplitude">Κανονικοποιημένο πλάτος</string>
     </translation>
     <translation locale="ja">
       <title>音源</title>
@@ -302,6 +303,17 @@
       <string original="Amplitude">振幅</string>
       <string original="OK">确定</string>
       <string original="Settings">设置</string>
+      <string original="Channel 1">通道 1</string>
+      <string original="Waveform">波形</string>
+      <string original="Sine">正弦波</string>
+      <string original="Square">方波</string>
+      <string original="Sawtooth">锯齿波</string>
+      <string original="Channel 2">通道 2</string>
+      <string original="Channel 3">通道 3</string>
+      <string original="Channels">通道</string>
+      <string original="Advanced">高级</string>
+      <string original="Normalize">归一化</string>
+      <string original="Normalization amplitude">归一化振幅</string>
     </translation>
     <translation locale="sr">
       <title>Generator tona</title>
@@ -422,6 +434,18 @@
       <string original="Controls">கட்டுப்பாடுகள்</string>
       <string original="Amplitude">வீச்சு</string>
       <string original="Settings">அமைப்புகள்</string>
+      <string original="Channel 1">தடம் 1</string>
+      <string original="Pan left/right">இடது/வலதுபுறம் நகர்த்து</string>
+      <string original="Waveform">அலைவடிவம்</string>
+      <string original="Square">சதுரம்</string>
+      <string original="Sawtooth">அரக்குப்பல்</string>
+      <string original="Channel 2">தடம் 2</string>
+      <string original="Channel 3">தடம் 3</string>
+      <string original="Channels">தடங்கள்</string>
+      <string original="Advanced">மேம்பட்ட</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">வெளியீட்டு வீச்சு (amplitude) 0 முதல் 1 வரையிலான வரம்பில் அமைகிறது. பல தடங்களின் வீச்சுகளின் கூடுதல் 1-ஐத் தாண்டினால், சிதைவு (distortion) ஏற்படும். பின்வரும் அமைப்பானது, வீச்சுகளின் கூடுதல் 1-ஆக இருக்கும் வகையில் அவற்றை விகிதாச்சாரப்படி தானாகவே சரிசெய்கிறது.</string>
+      <string original="Normalize">இயல்பாக்கு</string>
+      <string original="Normalization amplitude">இயல்பாக்க வீச்சு</string>
     </translation>
     <translation locale="bn">
       <string original="OK">ঠিক আছে।</string>
@@ -462,6 +486,37 @@
       <string original="OK">ಸರಿ</string>
     </translation>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>주파수 발생기</title>
+      <category>음향학</category>
+      <description>
+        특정 주파수의 음을 발생합니다.
+    </description>
+      <string original="Controls">컨트롤</string>
+      <string original="Signal">신호</string>
+      <string original="Time">시간</string>
+      <string original="Channel 1">채널 1</string>
+      <string original="Frequency">주파수</string>
+      <string original="Amplitude">진폭</string>
+      <string original="Pan left/right">좌/우 이동</string>
+      <string original="Waveform">파형</string>
+      <string original="Sine">사인파</string>
+      <string original="Square">사각파</string>
+      <string original="Sawtooth">톱니파</string>
+      <string original="Channel 2">채널 2</string>
+      <string original="Channel 3">채널 3</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphox에서는 임의의 주파수를 설정할 수 있습니다만, 100Hz 이하나 8000Hz 이상에서는 하드웨어의 한계에 의해 좋은 결과를 얻을 수 없는 경우도 있습니다.</string>
+      <string original="Status">상태</string>
+      <string original="Frequency low">낮은 주파수</string>
+      <string original="Frequency high">높은 주파수</string>
+      <string original="OK">확인</string>
+      <string original="Settings">설정</string>
+      <string original="Channels">채널</string>
+      <string original="Advanced">고급 설정</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">출력 진폭의 범위는 0에서 1 사이입니다. 여러 채널의 진폭 합이 1을 초과하면 왜곡이 발생합니다. 다음 설정은 진폭의 합이 1이 되도록 비례적으로 자동 조정합니다.</string>
+      <string original="Normalize">정규화</string>
+      <string original="Normalization amplitude">정규화 진폭</string>
+    </translation>
   </translations>
   <data-containers>
     <!-- UI state -->

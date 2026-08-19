@@ -237,6 +237,34 @@ Dodatkowe informacje techniczne: aplikacja Phyphox korzysta ze strumienia podgl�
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>밝기 (휘도)</title>
+      <category>카메라</category>
+      <description>휘도, 즉 카메라 렌즈를 통해 관찰되는 밝기를 측정합니다.
+
+결과 값은 ISO 감도 100, 조리개 f/1, 노출 시간 1/60초 조건의 완전한 흰색 이미지로 정규화된 임의 단위를 사용합니다. Phyphox는 현재 노출 설정에 따라 카메라 이미지에서 계산된 휘도를 자동으로 스케일링합니다. 다만 대부분의 휴대폰은 변경된 노출 설정을 실제로 적용하는 데 약간의 시간이 걸리므로, 자동 노출을 사용하거나 설정을 변경하면 측정값이 안정화되기까지 잠시 시간이 걸립니다.
+
+또한 이미지의 어느 한 부분(또는 특정 색상 채널)이 노출 과다이거나 노출 부족인 경우 측정값이 잘못되고 포화(saturation) 현상이 나타납니다. Phyphox는 노출 과다 영역을 빨간색으로, 노출 부족 영역을 파란색으로 강조합니다. 측정 사각형 내에 빨간색 영역이 발생하는 것은 피해야 합니다. 파란색 부분은 측정 영역의 대부분을 차지하지 않는 한 괜찮습니다. 이 구성의 자동 노출 모드는 phyphox의 다른 부분보다 노출 과다를 더 적극적으로 방지하려고 시도합니다.
+
+추가 기술 상세: phyphox는 카메라의 미리보기 스트림을 사용하고 해당 감마 곡선이 있는 sRGB 색상 모델을 가정하여 각 픽셀을 선형화합니다. 그런 다음 결과 휘도는 휴대폰 GPU에서 셰이더 기반 평균화와 텍스처 필터링의 조합을 통해 평균화됩니다. 그러나 카메라의 비선형 동작, 특히 미리보기 단계에서조차 동적 범위 압축(DRC)이 적용되는 경우는 제어 범위를 벗어나며 일부 휴대폰 모델의 측정에 영향을 줄 수 있습니다.
+</description>
+      <string original="Luminance">휘도</string>
+      <string original="Preview">미리보기</string>
+      <string original="Frame rate">프레임 속도</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">미리보기를 탭하고 드래그하여 이미지 분석에 반영될 영역을 변경하세요. 영역 내 이미지를 설정하기 위해 다른 카메라 설정을 선택할 수도 있습니다. 노출 부족 영역은 파란색, 노출 과다 영역은 빨간색으로 표시됩니다.</string>
+      <string original="Important">중요</string>
+      <string original="What is being measured?">무엇을 측정하나요?</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">이 기능은 휴대폰 카메라로 상대 휘도를 측정합니다. 특정 카메라 설정(노출 시간 등)에 따른 카메라 이미지의 밝기를 고려합니다. 절대값은 카메라에 따라 달라지며, 방지할 수 없는 휴대폰 자체의 후처리 작업의 영향도 받습니다.</string>
+      <string original="What errors are introduced by my phone?">내 휴대폰으로 인해 어떤 오류가 발생할 수 있나요?</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">일부 휴대폰은 이미지의 특정 부분 밝기를 변경하여 더 나은 이미지를 얻도록 카메라 데이터를 최적화합니다. 가장 흔하게 발생하는 원인은 다음과 같습니다:</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- 대비(대조) 향상: 이미지의 어두운 부분은 더 어두워지고 밝은 부분은 더 밝아집니다. 카메라 이미지 전체의 밝기 범위가 넓지 않은 경우 휴대폰에서 이 작업을 수행합니다.</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- 동적 범위 압축(Dynamic range compression): 어두운 부분은 더 밝아지고 밝은 부분은 더 어두워집니다. 이미지의 가장 밝거나 어두운 부분이 너무 극단적이어서 세부 정보가 손실될 위험이 있을 때 휴대폰에서 이를 적용합니다. 이 기능이 강하게 작동하는 휴대폰에서는 후처리된 이미지가 유사한 밝기를 유지하므로, 카메라 설정을 변경해도 상대 휘도의 변화를 거의 느낄 수 없습니다.</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- 밝기 증가(Brightness boost): 대부분의 휴대폰은 이미지가 너무 어두우면 밝기를 강제로 높입니다.</string>
+      <string original="How to measure reliably despite post-processing?">후처리에도 불구하고 어떻게 하면 높은 신뢰도를 갖도록 측정할 수 있나요?</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">측정 영역이 중간 밝기(즉, 회색)를 유지하도록 노출을 설정하는 것을 권장합니다. phyphox의 자동 노출 기능은 이를 달성하기 위해 카메라 설정을 조정하며, 이 밝기 수준은 휴대폰의 후처리에 거의 영향을 받지 않습니다. 이렇게 하면 상대 휘도는 이 밝기를 맞추는 데 필요한 카메라 설정(특히 ISO 및 노출 시간)에 거의 완전히 기반하게 됩니다. 단, 자동 노출이 안정화되는 데 시간이 조금 걸리므로, 상대 휘도를 측정하기 전에 미리보기 이미지가 중간 회색 밝기로 안정을 찾을 때까지 잠시 기다려 주세요.</string>
+      <string original="Details for advanced users">고급 사용자를 위한 상세 정보</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">카메라의 원시 데이터는 RGB로 변환되며, 각 RGB 채널은 sRGB의 감마 곡선을 가정하여 선형화된 후 루마(luma)로 변환됩니다. 상대 휘도는 카메라가 노출 시간 1/60초, ISO 100, 조리개 f/1로 설정되었을 때 순수한 흰색 이미지가 상대 휘도 1을 갖도록 카메라 설정에 맞게 정규화된 루마 값입니다. (단, 이 값이 다른 휴대폰 기종 간 직접 비교를 가능하게 해주는 것은 아닙니다.).</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">luma</container>

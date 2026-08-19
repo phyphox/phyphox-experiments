@@ -466,6 +466,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>박수측정기</title>
+      <category>일상생활</category>
+      <description>
+        박수의 길이와 진폭에 따라 점수를 부여합니다.
+
+        이 실험은 일정 시간에 걸쳐 소리의 진폭을 합해서 점수를 부여합니다. 이렇게 하면 크고 긴 박수 갈채가 더 높은 점수를 얻습니다. 여러 참가자를 평가하고 막대 그래프에서 성과를 비교할 수 있습니다.
+
+        사용법 : 기록은 phyphox에 의해 감지된 소음 레벨을 보여줍니다. "시작"을 눌러 점수 누적을 시작하고 "중지"를 눌러 중지할 수 있습니다. 이 기간 동안 점수가 증가하는 것을 볼 수 있으며 노란색 막대로 표시됩니다. 중지 후 "다음 참가자"를 눌러 다음 점수를 측정할 준비를하십시오. "시작"을 다시 누르면 "중지"를 다시 누를 때까지 두 번째 막대가 커집니다. 여러 점수를 비교하고 싶은 만큼 반복할 수 있습니다.
+    </description>
+      <string original="Score">점수</string>
+      <string original="History">과거기록</string>
+      <string original="Time">시간</string>
+      <string original="Subscore">하위점수</string>
+      <string original="Scores">점수</string>
+      <string original="Contestant">참가자</string>
+      <string original="Start">시작</string>
+      <string original="Stop">중지</string>
+      <string original="Next contestant">다음 참가자</string>
+      <string original="Controls">컨트롤</string>
+      <string original="Reset last score">최종 점수 초기화</string>
+      <string original="Clear all scores">전체 점수 삭제</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

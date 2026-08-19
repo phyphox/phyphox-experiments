@@ -410,6 +410,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>엘리베이터</title>
+      <category>일상 생활</category>
+      <description>
+        기압계를 사용하여 엘리베이터의 속도를 결정합니다.
+
+        GPS가 작동하지 않는 곳에서도 기압계를 사용하여 짧은 시간 내에 고도의 변화를 매우 정확하게 측정할 수 있습니다. 이것은 엘리베이터의 수직 속도를 유추하는 데 사용할 수 있습니다. 또한 가속도는 z 방향의 가속도계를 사용하여 측정되므로 정확한 가속도 측정을 위해서는 휴대전화를 엘리베이터 바닥에 평평하게 놓여야 합니다.
+
+        상세 정보:
+        이 실험에서 노이즈를 제거하기 위해 기압계의 측정값을 1초 동안 평균화했습니다. 연속 계측된 평균값의 차이는 국제적인 압력 고도 환산 공식을 이용하여 고도로 변환됩니다. 고도차를 시간차로 나눔으로써 수직 속도를 얻을 수 있습니다.
+    </description>
+      <string original="Motion">위치, 속도, 가속도</string>
+      <string original="Altitude (from barometer)">고도(기압계에서)</string>
+      <string original="Vertical velocity (from altitude)">수직 속력(고도에서)</string>
+      <string original="z acceleration (from accelerometer)">z 가속도(가속도계에서)</string>
+      <string original="Raw Data">원 데이터</string>
+      <string original="Pressure">압력</string>
+      <string original="Accelerometer z">가속도계 z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -710,6 +710,41 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>위치 (GPS)</title>
+      <category>원 센서</category>
+      <description>
+        위성 네비게이션에서 원 위치 데이터를 가져옵니다.
+
+        사용 가능한 데이터는 스마트폰의 적용에 따라 달라질 수 있습니다. 일부 장치는 수직 정확도 또는 위성 수를 제공하지 않을 수 있습니다.
+
+        또한 기본적으로 일반적으로 정확도가 낮은 다른 소스 (예 : Wi-Fi 또는 모바일 데이터 네트워크)의 위치 정보가 위성 네비게이션의 데이터에 혼합되어 있습니다. 즉, 실험 메뉴에서 위성 네이게이션에서만 데이터를 수집하도록 설정하여 이러한 소스를 사용하지 않도록 할 수 있습니다.
+
+        속력 및 방향이 일반적으로 장치에서 제공되며, 둘 이상의 연속 위치 측정을 기반으로 하고 있습니다.
+    </description>
+      <string original="Position">위치</string>
+      <string original="Status">상태</string>
+      <string original="GPS disabled">GPS 비활성화</string>
+      <string original="GPS active">GPS 활성화</string>
+      <string original="Latitude">위도</string>
+      <string original="Longitude">경도</string>
+      <string original="Altitude">고도</string>
+      <string original="Movement">변위</string>
+      <string original="Speed">속력</string>
+      <string original="Direction">방향</string>
+      <string original="Distance travelled">움직인 거리</string>
+      <string original="Simple">단순</string>
+      <string original="Compass">나침반</string>
+      <string original="Distance from start">시작점으로부터의 거리</string>
+      <string original="Horizontal Accuracy">수평 정확도</string>
+      <string original="Vertical Accuracy">수직 정확도</string>
+      <string original="Satellites">위성</string>
+      <string original="unknown">알려지지 않음</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">주의, 일부 장치에는 GPS 센서가 없지만 이동 통신 기반 또는 WIFI 연결에서 위치 정보를 가져옵니다. 이러한 경우 위치 정보의 정확도는 좋지 않습니다.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">또한 시스템의 위치 설정이 "절전 모드"로 설정되어 있지 않은지 확인하십시오.이 설정은 일반적으로 정확한 GPS 소스를 끄기 때문입니다.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">수평 정확도는 위치의 불확실성이며, 수직 정확도는 고도의 (일반적으로 더 나쁜) 불확실성입니다. 정확도가 0이면 이 정보를 사용할 수 없습니다.</string>
+      <string original="Coordinates">좌표</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">lat</container>

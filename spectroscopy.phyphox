@@ -44,7 +44,7 @@
       <string original="Calibration data">Δεδομένα βαθμονόμησης</string>
       <string original="1 Camera">1 Κάμερα</string>
       <string original="Set up your camera">Ρυθμίστε την κάμερά σας</string>
-      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Χρησιμοποιήστε ένα πλέγμα περίθλασης και τοποθετήστε την κάμερα του κινητού σας σε ένα τρίποδο, έτσι ώστε να μπορεί να καταγράψει το ουράνιο τόξο που δημιουργείται. Πατήστε την εικόνα προεπισκόπησης και σύρετε τα χερούλια του φωτισμένου ορθογωνίου για να επιλέξετε μόνο το ουράνιο τόξο. Βεβαιωθείτε ότι οι χρωματικές ζώνες του είναι είτε απόλυτα οριζόντιες είτε κάθετες και επιλέξτε τον προσανατολισμό του φάσματος ανάλογα. Στη συνέχεια, προχωρήστε στην καρτέλα 2.</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Χρησιμοποιήστε ένα φράγμα περίθλασης, τοποθετήστε την κάμερα του κινητού σας σε ένα τρίποδο, έτσι ώστε να μπορεί να καταγράψει το ουράνιο τόξο που δημιουργείται. Πατήστε την εικόνα προεπισκόπησης και σύρετε τα χερούλια του φωτισμένου ορθογωνίου για να επιλέξετε μόνο το ουράνιο τόξο. Βεβαιωθείτε ότι οι χρωματικές ζώνες του είναι είτε απόλυτα οριζόντιες είτε κάθετες και επιλέξτε τον προσανατολισμό του φάσματος ανάλογα. Στη συνέχεια, προχωρήστε στην καρτέλα 2.</string>
       <string original="2 Calibration">2 Βαθμονόμηση</string>
       <string original="In this tab you can calibrate your spectrum">Στην καρτέλα αυτή μπορείτε να βαθμονομήσετε το φάσμα σας</string>
       <string original="Raw Spectrum">Μη βαθμονομημένο Φάσμα</string>
@@ -114,6 +114,29 @@
       <string original="Preview">வெள்ளோட்டம்</string>
       <string original="Calibrate">அளவுத்திருத்தம்</string>
       <string original="Spectrum">நிறமாலை</string>
+      <title>நிறமாலையியல்</title>
+      <category>ஒளிப்படவி</category>
+      <description>நிறமாலை ஆய்வுக்கு (spectroscopy) ஒரு வெளிப்புற விளிம்பு விளைவுத் தட்டி (diffraction grating) ஒன்றைப் பயன்படுத்தவும். உங்களிடம் இதற்கெனத் தனிப்பட்ட தட்டி இல்லையென்றால், ஒரு CD அல்லது DVD-யின் ஒரு பகுதியையும் இதற்குப் பயன்படுத்தலாம். கேமராவால் விளிம்பு விளைவினால் உருவாகும் வானவில் போன்ற நிறப்பட்டையை (spectrum) காணக்கூடிய வகையில் உங்கள் சோதனையை அமைக்கவும்; மேலும், அந்த விளிம்பு விளைவு கிடைமட்டமாகவா அல்லது செங்குத்தாகவா நிகழ்கிறது என்பதை phyphox செயலியில் தேர்ந்தெடுக்கவும். கேமரா பிம்பத்தின் தேர்ந்தெடுக்கப்பட்ட பகுதியில், ஒரே அலைநீளம் கொண்டவற்றின் பங்களிப்புகளை phyphox சராசரி செய்யும். உங்கள் நிறமாலையை நீங்கள் அளவுத்திருத்தம் (calibrate) செய்யவும் முடியும்.</description>
+      <string original="Calibration data">அளவுத்திருத்த தரவு</string>
+      <string original="1 Camera">ஒளிப்படவி 1</string>
+      <string original="Set up your camera">உங்கள் ஒளிப்படவியை அமைக்கவும்</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">விளிம்பு விலகல் கீற்றைப் பயன்படுத்தி, உருவாக்கப்பட்ட வானவில்லை உங்கள் தொலைபேசி ஒளிப்படவி காணுமாறு ஒரு முக்காலியில் (tripod) சீரமைக்கவும். முன்னோட்டப் படத்தைத் தட்டி, வானவில்லை மட்டும் தேர்ந்தெடுக்க, முன்னிலைப்படுத்தப்பட்ட செவ்வகத்தின் கைப்பிடிகளை இழுக்கவும். அதன் வண்ணப் பட்டைகள் கச்சிதமாகக் கிடைமட்டமாகவோ அல்லது செங்குத்தாகவோ இருப்பதை உறுதிசெய்து, அதற்கேற்ப நிறமாலையின் திசையைத் தேர்ந்தெடுக்கவும். பின்னர், பட்டி 2-க்குச் செல்லவும்.</string>
+      <string original="2 Calibration">அளவுத்திருத்தம் 2</string>
+      <string original="In this tab you can calibrate your spectrum">இந்தப் பட்டியில் (tab) உங்கள் நிறமாலையை (spectrum) நீங்கள் அளவீடு செய்யலாம்</string>
+      <string original="Raw Spectrum">மூல நிறமாலை</string>
+      <string original="Position on sensor">உணர்வியின் நிலை</string>
+      <string original="Calibration 1">அளவுத்திருத்தம் 1</string>
+      <string original="Wavelength in nm">நானோமீட்டர்-ல் அலைநீளம்</string>
+      <string original="Calibration 2">அளவுத்திருத்தம் 2</string>
+      <string original="Pixel 1">புள்ளி 1</string>
+      <string original="Wavelength 1">அலைநீளம் 1</string>
+      <string original="nm">நானோமீட்டர் (நா.மீ)</string>
+      <string original="Pixel 2">புள்ளி 2</string>
+      <string original="Wavelength 2">அலைநீளம் 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">அறியப்பட்ட ஒளி மூலத்தைப் பயன்படுத்தி, நீங்கள் வரைபடத்தைத் தட்டி, கீழே உள்ள அளவுத்திருத்தப் பயன்முறையைத் தேர்ந்தெடுத்து, அறியப்பட்ட அலைநீளங்களுடன் பொருத்துவதற்கு உச்சங்களைத் தேர்ந்தெடுக்கலாம். அதன் பிறகு, அளவுத்திருத்தம் செய்யப்பட்ட நிறமாலையை பட்டி 3-இல் காணலாம்.</string>
+      <string original="3 Spectrum">நிறமாலை 3</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">பட்டி-2 இல் உங்கள் நிறமாலை அளவியை (spectrometer) அளவுத்திருத்தம் செய்த பிறகு, அளவுத்திருத்தம் செய்யப்பட்ட உங்கள் நிறமாலை (spectrum) இங்கே காணலாம்.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">உங்கள் தொலைபேசியின் ஒளிப்படவி சிவப்பு, பச்சை மற்றும் நீலக் கூறுகளைப் பதிவு செய்ய வடிகட்டிகளைப் (filters) பயன்படுத்துகிறது என்பதை நினைவில் கொள்க. இதன் விளைவாகக் கிடைக்கும் ஒப்புமை ஒளிர்வு (relative luminance) அலைநீளத்தைச் சார்ந்துள்ளதால், இந்த நிறமாலையில் வெவ்வேறு அலைநீளங்களின் செறிவுகளை ஒன்றுடன் ஒன்று ஒப்பிட முடியாது.</string>
     </translation>
     <translation locale="tr">
       <string original="Calibrate">Kalibre et</string>
@@ -139,6 +162,11 @@
       <string original="Pixel 2">像素 2</string>
       <string original="Wavelength 2">波长 2</string>
       <string original="3 Spectrum">3 频谱</string>
+      <category>相机</category>
+      <string original="Calibration data">校准数据</string>
+      <string original="In this tab you can calibrate your spectrum">在此标签页，你可以校准频谱</string>
+      <string original="Raw Spectrum">原始频谱</string>
+      <string original="Position on sensor">传感器上的位置</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Calibrate">校正</string>
@@ -174,6 +202,33 @@
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>분광학</title>
+      <category>카메라</category>
+      <description>분광을 위해 외부 회절 격자를 사용합니다. 전용 회절 격자가 없다면 CD나 DVD의 일부를 사용해도 됩니다. 카메라가 회절된 무지개를 볼 수 있도록 실험을 설치하고, phyphox에서 회절이 가로로 발생하는지 세로로 발생하는지 선택하세요. phyphox는 카메라 이미지의 선택한 영역에서 동일한 파장의 기여도를 평균화합니다. 스펙트럼을 보정할 수도 있습니다.</description>
+      <string original="Calibration data">보정 데이터</string>
+      <string original="1 Camera">1 카메라</string>
+      <string original="Set up your camera">카메라 설정</string>
+      <string original="Preview">미리보기</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">회절 격자를 사용하고, 생성된 무지개가 보이도록 삼각대에 휴대폰 카메라를 맞추세요. 미리보기 이미지를 탭하고 강조 표시된 사각형의 핸들을 드래그하여 무지개 영역만 선택합니다. 색상 띠가 완벽하게 가로 또는 세로인지 확인하고 그에 따라 스펙트럼 방향을 선택하세요. 그런 다음 2번 탭으로 이동하세요.</string>
+      <string original="2 Calibration">2 보정</string>
+      <string original="In this tab you can calibrate your spectrum">이 탭에서 스펙트럼을 보정할 수 있습니다</string>
+      <string original="Raw Spectrum">보정 전 스펙트럼</string>
+      <string original="Position on sensor">센서상 위치</string>
+      <string original="Calibrate">보정</string>
+      <string original="Calibration 1">보정 1</string>
+      <string original="Wavelength in nm">파장 (nm 단위)</string>
+      <string original="Calibration 2">보정 2</string>
+      <string original="Pixel 1">픽셀 1</string>
+      <string original="Wavelength 1">파장 1</string>
+      <string original="Pixel 2">픽셀 2</string>
+      <string original="Wavelength 2">파장 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">알려진 광원을 사용하여 그래프를 탭하고, 하단의 보정 모드를 선택한 후 피크(peak)를 골라 알려진 파장과 맞출 수 있습니다. 보정된 스펙트럼은 3번 탭에서 확인할 수 있습니다.</string>
+      <string original="3 Spectrum">3 스펙트럼</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">2번 탭에서 분광기를 보정한 후, 여기에서 보정된 스펙트럼을 확인할 수 있습니다.</string>
+      <string original="Spectrum">스펙트럼</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">휴대폰 카메라 필터는 빨간색, 초록색, 파란색 성분을 포착하도록 되어 있습니다. 그 결과 발생하는 상대 휘도는 파장에 따라 달라지므로, 이 스펙트럼에서는 서로 다른 파장의 세기를 직접 비교할 수 없습니다.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">spectrum_raw_x</container>

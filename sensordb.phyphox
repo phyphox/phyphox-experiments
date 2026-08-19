@@ -68,7 +68,7 @@ Dieses Experiment sammelt technische Informationen über dein Handy und seine Se
       <string original="Results">Αποτελέσματα</string>
       <string original="Gyroscope">Γυροσκόπιο</string>
       <string original="Magnetometer">Μαγνητόμετρο</string>
-      <title>Υποβολή στη βάση δεδομένων αισθητήρων</title>
+      <title>Υποβολή στη Βάση Δεδομένων Αισθητήρων</title>
       <category>phyphox.org</category>
       <description>Υποβάλλεται πληροφορίες για τους αισθητήρες του κινητού σας στο phyphox.org.
 
@@ -504,6 +504,36 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>센서 데이터베이스로 보내기</title>
+      <category>phyphox.org</category>
+      <description>휴대전화의 센서에 대한 정보를 phyphox.org에 제출하세요.
+
+이 실험은 휴대전화와 센서에 대한 기술 데이터를 수집하여 센서 데이터베이스에 제출할 수 있습니다. 데이터는 축척되어 다른 사용자가 사용할 수 있게 되고, 우리와 다른 사람들이 다양한 장치에서 센서의 이용 가용성과 기능에 대해 배울 수 있도록 도움을 줍니다.</description>
+      <string original="Submit">보내기</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">이 실험은 휴대전화와 센서에 대한 기술 데이터를 수집하여 센서 데이터베이스에 제출할 수 있습니다. 데이터는 축척되어 다른 사용자가 사용할 수 있게 되고, 우리와 다른 사람들이 다양한 장치에서 센서의 이용 가용성과 기능에 대해 배울 수 있도록 도움을 줍니다.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">휴대폰을 안정된 바닥에 놓고 시작을 누르십시오. 이동 중(자동차, 기차 등) 또는 진동하는 표면(시끄러운 음악, 차량의 진동 등)에서 이 작업을 수행하면 결과가 왜곡될 수 있으므로 피하십시오.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox는 데이터를 수집하고 데이터를 제출하라고 알려줍니다.</string>
+      <string original="Step">단계</string>
+      <string original="Waiting for start">시작 대기 중</string>
+      <string original="Collecting data">자료 수집 중</string>
+      <string original="You may now press submit">보내기 버튼을 누룰 수 있습니다</string>
+      <string original="Success. Thank you!">성공. 감사합니다!</string>
+      <string original="Confidence">신뢰도</string>
+      <string original="Results">결과</string>
+      <string original="Accelerometer">가속도계</string>
+      <string original="Rate">속도</string>
+      <string original="Average">평균</string>
+      <string original="Standard deviation">표준 편차</string>
+      <string original="Acceleration (without g)">가속도 (g제외)</string>
+      <string original="Gyroscope">자이로스코프</string>
+      <string original="Magnetometer">자기(력)계</string>
+      <string original="Barometer">기압계</string>
+      <string original="Temperature">온도</string>
+      <string original="Humidity">습도</string>
+      <string original="Light">빛</string>
+      <string original="Proximity">근접</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1" init="0">state</container>

@@ -32,6 +32,16 @@
       <string original="Period">Περίοδος</string>
       <string original="Preview">Προεπισκόπηση</string>
       <category>Εργαλεία</category>
+      <title>Στροβοσκόπιο με το φακό του κινητού</title>
+      <description>Αναβοσβήστε το φακό του κινητού με ρυθμιζόμενη συχνότητα. Σημειώστε ότι ο φακός δεν είναι σχεδιασμένος ώστε να αναβοσβήνει με ακριβή χρονισμό. Ανάλογα το μοντέλο του κινητού σας οι διαθέσιμες συχνότητες μπορεί να είναι περιορισμένες. Παρακαλούμε λάβετε υπόψην τις πληροφορίες κάτω από τα χειριστικά του φακού.</description>
+      <string original="Strobe">Στροβοσκόπιο</string>
+      <string original="Brightness">Φωτεινότητα</string>
+      <string original="Duty cycle">Κύκλος λειτουργίας</string>
+      <string original="Reset duty cycle to 0.5">Επαναφορά του κύκλου στο 0.5</string>
+      <string original="On duration">Διάρκεια ανάμματος</string>
+      <string original="Off duration">Διάρκεια σβησίματος</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">Η μέγιστη δυνατή συχνότητα διαφέρει ανάλογα με το μοντέλο του κινητού και δεν μπορεί να επαληθευτεί από το phyphox. Αυξήστε σταδιακά τη συχνότητα του στροβοσκοπίου και παρακολουθήστε το εκπεμπόμενο φως. Εάν παρατηρήσετε ακανόνιστο τρεμόπαιγμα ή ξαφνική αλλαγή στη φωτεινότητα, θα πρέπει να θεωρήσετε ότι έχετε φτάσει στη μέγιστη συχνότητα και ότι υψηλότερες συχνότητες αναλαμπής δεν θα αναπαραχθούν σωστά από το κινητό σας.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">Η μέγιστη συχνότητα μπορεί να επιτευχθεί με κύκλο λειτουργίας 0,5, όταν οι εναλλαγές κατανέμονται ομοιόμορφα. Οι διάρκειες ανάμματος και σβησίματος όταν βρίσκονται έξω από τα τυπικά όρια, θα επισημαίνονται με κόκκινο χρώμα, αλλά το τηλέφωνό σας ενδέχεται να έχει χαμηλότερα ή υψηλότερα όρια.</string>
     </translation>
     <translation locale="es">
       <string original="Frequency">Frecuencia</string>
@@ -87,6 +97,17 @@
       <string original="Frequency">அதிர்வெண்</string>
       <string original="Period">கால இடைவெளி</string>
       <string original="Preview">வெள்ளோட்டம்</string>
+      <title>மின்வெட்டொளி ஒளியுணர்வேக நோக்கி</title>
+      <category>கருவிகள்</category>
+      <description>உங்கள் தொலைபேசியின் மின்வெட்டொளி விளக்கை, சரிசெய்யக்கூடிய அதிர்வெண்ணுடன் இயக்கவும். இந்த ஒளிரும் விளக்கு, துல்லியமான நேரத்தைக் கொண்டு இயக்க வடிவமைக்கப்படவில்லை என்பதை நினைவில் கொள்ளவும். உங்கள் தொலைபேசியின் மாடலைப் பொறுத்து, பயன்படுத்தக்கூடிய அதிர்வெண்கள் வரம்பிடப்படலாம். செறிவுக்குறிகை (strobe) கட்டுப்பாடுகளின் கீழ் காட்டப்பட்டுள்ள தகவல்களைக் கவனத்தில் கொள்ளவும்.</description>
+      <string original="Strobe">செறிவுக்குறிகை</string>
+      <string original="Brightness">பிரகாசம்</string>
+      <string original="Duty cycle">பணிச் சுழற்சி</string>
+      <string original="Reset duty cycle to 0.5">பணிச் சுழற்சியை 0.5-க்கு மீட்டமைக்கவும்</string>
+      <string original="On duration">இயக்க காலம்</string>
+      <string original="Off duration">நிறுத்தக் காலம்</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">அதிகபட்ச வேகம் தொலைபேசி வகையைப் பொறுத்து மாறுபடும்; இதை 'phyphox' செயலி மூலம் சரிபார்க்க முடியாது. ஒளியுணர்வேக நோக்கி (stroboscope) அதிர்வெண்ணை மெதுவாக அதிகரித்து, வெளிப்படும் ஒளியைக் கூர்ந்து கவனிக்கவும். சீரற்ற முறையில் ஒளி மின்னுவதையோ அல்லது பிரகாசத்தில் திடீர் மாற்றத்தையோ நீங்கள் கவனித்தால், அதிகபட்ச அதிர்வெண்ணை அடைந்துவிட்டீர்கள் என்றும், இதைவிட அதிகமான மின்வெட்டொளி (flash) வேகங்களை உங்கள் தொலைபேசியால் சரியாக உருவாக்க முடியாது என்றும் கருத வேண்டும்.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">மாறுதல் நிகழ்வுகளுக்கு இடையில் சீரான இடைவெளியை ஏற்படுத்த, 0.5 என்ற பணிச் சுழற்சியைப் பயன்படுத்தி மிக உயர்ந்த அதிர்வெண்ணை அடையலாம். வழக்கமான வரம்புகளுக்குக் கீழே, இயக்க மற்றும் நிறுத்தக் கால அளவுகள் சிவப்பு நிறத்தில் சிறப்பித்துக் காட்டப்படும், ஆனால் உங்கள் தொலைபேசியில் இதைவிடக் குறைவான அல்லது அதிகமான வரம்புகள் இருக்கலாம்.</string>
     </translation>
     <translation locale="tr">
       <string original="Frequency">Frekans</string>
@@ -127,6 +148,22 @@
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>손전등 스트로보스코프</title>
+      <category>도구</category>
+      <description>조절 가능한 진동수로 휴대폰 손전등을 점멸합니다. 손전등은 정밀한 타이밍으로 점멸하도록 설계되지 않았다는 점에 유의하세요. 휴대폰 모델에 따라 사용할 수 있는 진동수가 제한될 수 있습니다. 스트로보 제어기 하단에 표시되는 정보를 확인하세요.</description>
+      <string original="Strobe">스트로보</string>
+      <string original="Brightness">밝기</string>
+      <string original="Frequency">주파수</string>
+      <string original="Duty cycle">듀티 사이클</string>
+      <string original="Reset duty cycle to 0.5">듀티 사이클을 0.5로 초기화</string>
+      <string original="Period">주기</string>
+      <string original="On duration">켜짐 시간</string>
+      <string original="Off duration">꺼짐 시간</string>
+      <string original="Preview">미리보기</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">최대 가능 진동수는 휴대폰 모델에 따라 다르며 phyphox에서 검증할 수 없습니다. 스트로보스코프 진동수를 천천히 올리면서 나오는 빛을 주시하세요. 불규칙한 깜빡임이나 갑작스러운 밝기 변화가 느껴진다면 최대 진동수에 도달한 것이며, 그보다 높은 점멸 속도는 휴대폰에서 올바르게 구현되지 않는 것으로 간주해야 합니다.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">스위칭 간격을 균일하게 유지하기 위해 듀티 사이클을 0.5로 설정할 때 가장 높은 진동수를 얻을 수 있습니다. 켜짐 및 꺼짐 시간이 일반적인 제한 수준 아래로 떨어지면 빨간색으로 강조 표시되지만, 사용 중인 휴대폰의 실제 제한 수준은 이보다 낮거나 높을 수 있습니다.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1" init="1">intensity</container>

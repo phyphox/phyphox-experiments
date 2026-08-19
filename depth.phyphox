@@ -317,6 +317,27 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>깊이 센서 (LiDAR / ToF)</title>
+      <category>도구</category>
+      <description>깊이 센서를 사용하여 거리를 측정합니다.
+
+    휴대전화에 카메라 시스템에 깊이 센서가 있는 경우에만 사용할 수 있습니다. 미리보기 이미지를 탭하고, 측정에 기여하는 카메라 보기의 영역을 선택하고 결과가 가장 가까운 거리인지, 평균 거리인지 또는 각 측정 지점의 정확도에 대한 센서의 추정치를 고려한 평균인지 선택할 수도 있습니다.
+
+    모션 탭은 또한 LOESS 알고리즘을 사용하여 측정된 거리에서 속도와 가속도를 계산합니다.
+</description>
+      <string original="Graph">그래프</string>
+      <string original="Distance / Depth">거리 / 깊이</string>
+      <string original="Simple">단순</string>
+      <string original="Kinematics">운동학</string>
+      <string original="Velocity">속력</string>
+      <string original="Acceleration">가속도</string>
+      <string original="Settings">설정</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">미리보기를 탭하여 거리 측정을 고려할 영역을 드래그하여 선택합니다. 이 영역 내에서 깊이 측정을 집계하기 위한 다른 방법을 선택할 수도 있습니다.</string>
+      <string original="Preview">미리보기</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">아래에서 운동학 탭에서 그래프의 스무딩을 변경할 수 있습니다. 너비 설정은 속도 및 가속도 추정에 영향을 줍니다. 값이 크면 세부 사항이 적어지고 곡선이 더 부드러워집니다.</string>
+      <string original="Width of LOESS fit">LOESS fit의 폭</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">xmm</container>

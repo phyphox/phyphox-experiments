@@ -751,6 +751,39 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>운동 스톱워치</title>
+      <category>타이머</category>
+      <description>
+        두 운동 이벤트 사이의 시간을 가져옵니다.
+
+        이 실험을 통해 두 가속(작은 충격) 사이의 시간을 측정할 수 있습니다. 임계값을 조정하여 스톱워치가 트리거되는 수준을 제공할 수 있습니다.
+
+        실험을 시작한 후 시계는 임계값을 초과하는 첫 번째(총) 가속에서 시작하고 두 번째 가속에서 중지됩니다. 긴 진동은 즉시 정지로 감지될 수 있으므로 첫 번째 가속 신호가 짧은지 확인하십시오.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Simple">단순</string>
+      <string original="Threshold">임계값</string>
+      <string original="Minimum Delay">최소 지연</string>
+      <string original="Time">시간</string>
+      <string original="Reset">초기화</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">임계값을 센서 노이즈 레벨보다 높지만 트리거 가속도 아래로 변경합니다(g 제외 가속도계 실험을 통해 이를 확인할 수 있음). 또한 해당 시간보다 짧은 트리거를 피하기 위해 최소 지연을 설정하십시오.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">이 실험의 정확도는 휴대전화의 가속도계에 따라 다릅니다. 빠른 가속도계는 100분의 1초보다 좋을 수 있지만 느린 가속도계는 1초의 분해능만 나타낼 수 있습니다.</string>
+      <string original="Sequence">순서</string>
+      <string original="Time 1">시간 1</string>
+      <string original="Time 2">시간 2</string>
+      <string original="Time 3">시간 3</string>
+      <string original="Time 4">시간 4</string>
+      <string original="Time 5">시간 5</string>
+      <string original="Parallel">병렬</string>
+      <string original="Many">여러 번</string>
+      <string original="Events">이벤트</string>
+      <string original="Event number">이벤트 번호</string>
+      <string original="Time interval">시간 간격</string>
+      <string original="Average interval">평균 간격</string>
+      <string original="Average rate">평균 비율</string>
+      <string original="Average rate (bpm)">평균 비율(bpm)</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

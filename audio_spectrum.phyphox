@@ -643,6 +643,37 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>오디오 스펙트럼</title>
+      <category>음향학</category>
+      <description>
+            오디오 신호의 주파수 스펙트럼을 표시합니다.
+
+            이 실험은 마이크의 오디오를 녹음하고 FFT(푸리에 변환)를 통해 주파수 스펙트럼을 계산합니다. 단일 주파수의 단일 음만 있는 경우 "자기 상관" 오디오 실험에서 더 정확한 결과를 얻을 수 있습니다.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Spectrum">스펙트럼</string>
+      <string original="Peak-Frequency">최대 주파수</string>
+      <string original="Musical note">음표</string>
+      <string original="Low">저</string>
+      <string original="High">고</string>
+      <string original="Cents from note">음의 센트값</string>
+      <string original="Fourier Transform">푸리에 변환</string>
+      <string original="Frequency">주파수</string>
+      <string original="FFT Mag">FFT 크기</string>
+      <string original="Samples used">사용 샘플 수</string>
+      <string original="Period used">작동 시간</string>
+      <string original="Resolution">분해능</string>
+      <string original="History">과거기록</string>
+      <string original="Time">시간</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">아래에서 푸리에 변환에 사용되는 데이터의 샘플 수를 설정할 수 있습니다. 샘플 수를 늘려 주파수 해상도를 향상시킬 수 있지만 데이터를 얻고 업데이트하는 데 시간이 걸립니다.</string>
+      <string original="Samples">샘플 수</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">백색 소음 생성기. (큰 소리가 날 수 있습니다. 먼저 재생 볼륨을 줄이십시오.)</string>
+      <string original="White noise">화이트 노이즈</string>
+      <string original="Raw data">원 데이터</string>
+      <string original="Recording">기록</string>
+      <string original="Amplitude">진폭</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="32768">recording</container>

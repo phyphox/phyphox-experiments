@@ -291,6 +291,20 @@
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>중력 가속도 g를 포함한 가속도</title>
+      <category>원 센서</category>
+      <description>가속도계에서 원 데이터를 가져옵니다. 이 센서는 중력을 빼지 않으므로 휴대전화가 정지 상태일 때도 9.81m/s²의 가속도를 표시합니다.</description>
+      <string original="Graph">그래프</string>
+      <string original="Accelerometer x">가속도계 x</string>
+      <string original="Accelerometer y">가속도계 y</string>
+      <string original="Accelerometer z">가속도계 z</string>
+      <string original="Absolute">절대값</string>
+      <string original="Absolute acceleration">가속도의 절댓값</string>
+      <string original="Multi">다중</string>
+      <string original="Acceleration">가속도</string>
+      <string original="Simple">단순</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

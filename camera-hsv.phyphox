@@ -176,6 +176,24 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>색상 (HSV 모델)</title>
+      <category>카메라</category>
+      <description>색상·채도·명도(HSV) 색상 모델을 사용하여 색상을 측정합니다.
+
+선택한 영역 내부의 픽셀들을 각각 색상(Hue), 채도(Saturation), 명도(Value)로 변환한 후 평균을 계산합니다. 색상(Hue)의 경우 순환 평균 방식을 사용합니다.
+
+화이트 밸런스가 결과에 영향을 미칩니다. 휴대폰의 자동 화이트 밸런스는 대부분의 상황에서 충분히 잘 작동하지만, 미세한 차이를 구분하려면 고정된 화이트 레퍼런스로 설정하는 것이 좋습니다.
+</description>
+      <string original="Hue">색상</string>
+      <string original="Saturation">채도(Saturation)</string>
+      <string original="Value">명도(Value)</string>
+      <string original="Saturation and Value">채도 및 명도</string>
+      <string original="sat., val.">채도, 명도.</string>
+      <string original="Preview">미리보기</string>
+      <string original="Frame rate">프레임 속도</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">미리보기를 탭하고 드래그하여 이미지 분석에 반영될 영역을 변경하세요. 영역 내 이미지를 설정하기 위해 다른 카메라 설정을 선택할 수도 있습니다. 노출 부족 영역은 파란색, 노출 과다 영역은 빨간색으로 표시됩니다.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">h</container>

@@ -15,7 +15,7 @@
       <category>phyphox.org</category>
     </translation>
     <translation locale="el">
-      <title>Άλλοι τρόποι συνεισφοράς…</title>
+      <title>Άλλοι Τρόποι Συνεισφοράς…</title>
       <category>phyphox.org</category>
     </translation>
     <translation locale="es"/>
@@ -69,5 +69,9 @@
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>다른 기여 방법…</title>
+      <category>phyphox.org</category>
+    </translation>
   </translations>
 </phyphox>

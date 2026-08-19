@@ -301,6 +301,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>오디오 스코프</title>
+      <category>음향학</category>
+      <description>
+        녹음된 오디오 데이터를 표시합니다.
+
+        이 실험은 짧은 기간의 오디오 데이터를 기록하고 표시합니다. 안정적인 그림을 표시하기 위해 신호가 0선을 교차할 때 오실로스코프와 유사한 트리거를 사용하고 t=0이 첫 번째 양의 가장자리에 있도록 시간 스케일을 이동합니다.
+    </description>
+      <string original="Duration">지속 간격</string>
+      <string original="Scope">스코프</string>
+      <string original="Audio Data">음성 데이터</string>
+      <string original="Time">시간</string>
+      <string original="Amplitude">진폭</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

@@ -603,6 +603,34 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>소나(음파 탐지기)</title>
+      <category>음향학</category>
+      <description>
+        메아리와 음속을 통해 거리를 측정합니다.
+
+        음파 탐지기는 짧은 소리를 물체에 보내 반사되는 소리를 측정합니다. 소리가 약 340m/s의 속력으로 진행하므로 반사음이 휴대전화의 마이크에 도달할 때까지의 시간을 사용하여 물체까지의 거리를 계산할 수 있습니다.
+
+        이 실험은 "짹짹" 소리를 만들어 스피커를 통해 보내고 녹음을 시작합니다. 발생한 소리와 기록된 데이터의 상호 상관은 메아리가 발생한 시간에 대한 정보를 제공합니다. 시간과 속도를 곱하여 반사된 물체와의 거리를 계산할 수 있습니다(소리가 왕복해야 하므로 2로 나눕니다) .
+
+        그러나 소리는 일반적으로 모든 방향으로 진행합니다. 음파 탐지기의 경우 벽까지 거리를 측정하려고 할 때 바닥, 천장, 근처의 다른 벽, 기둥 및 근처의  "단단한" 표면에서도 반사될 수 있다는 것을 의미합니다. 따라서 음파 탐지기의 자료는 모든 반사를 포함하고 있으므로 결과를 해석할 때 측정하려는 대상에 해당하는 반사를 파악해야 합니다. 따라서 작고 표면이 단단한 표적으로 시작하여 일부 폼 재료로 다른 모든 방향을 가려보십시오. 또한 조용한 환경이 필요합니다.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Time series">시계열</string>
+      <string original="Normalized history">정규화된 이력</string>
+      <string original="distance">거리</string>
+      <string original="time">시간</string>
+      <string original="Echo location">반향 위치</string>
+      <string original="Speed of Sound">소리 속력</string>
+      <string original="Normalized to spherical surface">구면 정규화</string>
+      <string original="Target distance">목표 거리</string>
+      <string original="Echo strength">반향 강도</string>
+      <string original="Timing">측정 시간</string>
+      <string original="On this page you just get the measured delay.">이 페이지에서는 측정 지연 시간을 얻을 수 있습니다.</string>
+      <string original="Delay">지연 시간</string>
+      <string original="Chirp">짹짹(처프)</string>
+      <string original="Time">시간</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

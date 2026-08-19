@@ -1002,6 +1002,51 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>근접 스톱워치</title>
+      <category>타이머</category>
+      <description>
+        근접 센서를 기반으로 시간을 측정합니다.
+
+        I이 실험에서는 물체를 근접 센서(일반적으로 전화 통화에 사용되는 스피커 옆의 앞쪽에 위치)에 가깝게 가져가게 하여 , 물체가 휴대전화에서 가깝거나 멀리 떨어져 있는 시간을 측정합니다.
+
+        주의, 정밀도는 휴대전화의 근접 센서에 크게 의존합니다. 느린 센서의 경우 1초보다 느릴 수 있고, 빠른 센서는 일반적으로 10분의 1초보다는 빠르지 않습니다. 소리를 기반으로 한 더 빠른 측정을 위해서는 음향 스톱워치 실험을 사용하여 수행할 수 있습니다.
+    </description>
+      <string original="Settings">설정</string>
+      <string original="Trigger below">트리거(하)</string>
+      <string original="Trigger above">트리거(상)</string>
+      <string original="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm.">타이머는 주어진 임계값 위와 아래를 모두 트리거합니다. 먼 거리에서만 트리거하려면 "아래 트리거"의 값을 0으로 설정하십시오. 가까운 거리에서만 트리거하려면 "위의 트리거" 값을 매우 높게 설정하십시오. 아래 그래프에서 트리거에 적합한 임계값을 추정할 수 있습니다. 대부분의 센서는 보통 0cm와 약 5cm에서 거리를 측정합니다.</string>
+      <string original="Distance">거리</string>
+      <string original="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered.">정밀도는 휴대전화의 근접 센서에 따라 크게 달라집니다. 느린 센서의 경우 보통 1초 이상이고, 빠른 센서의 경우도 일반적으로 10분의 1초보다 빠르지 않습니다. 소리를 기반으로 하는 음향 스톱워치 실험을 사용하여 더 빠른 측정을 수행할 수 있습니다.iPhone에서 센서는 세로 모드 (예 : 휴대 전화를 똑바로 잡을 때)에서만 작동하며 트리거되는 동안 화면이 꺼집니다.</string>
+      <string original="Sequence">순서</string>
+      <string original="Time 1">시간 1</string>
+      <string original="Time 2">시간 2</string>
+      <string original="Time 3">시간 3</string>
+      <string original="Time 4">시간 4</string>
+      <string original="Time 5">시간 5</string>
+      <string original="Reset">초기화</string>
+      <string original="Parallel">병렬</string>
+      <string original="Duration">지속 간격</string>
+      <string original="Trigger duration 0">트리거 지속 시간 0</string>
+      <string original="Trigger duration 1">트리거 지속 시간 1</string>
+      <string original="Trigger duration 2">트리거 지속 시간 2</string>
+      <string original="Trigger duration 3">트리거 지속 시간 3</string>
+      <string original="Trigger duration 4">트리거 지속 시간 4</string>
+      <string original="Trigger duration 5">트리거 지속 시간 5</string>
+      <string original="Triggers">트리거</string>
+      <string original="Trigger on 0">트리거 켜기 0</string>
+      <string original="Trigger off 0">트리거 끄기 0</string>
+      <string original="Trigger on 1">트리거 켜기 1</string>
+      <string original="Trigger off 1">트리거 끄기 1</string>
+      <string original="Trigger on 2">트리거 켜기 2</string>
+      <string original="Trigger off 2">트리거 끄기 2</string>
+      <string original="Trigger on 3">트리거 켜기 3</string>
+      <string original="Trigger off 3">트리거 끄기 3</string>
+      <string original="Trigger on 4">트리거 켜기 4</string>
+      <string original="Trigger off 4">트리거 끄기 4</string>
+      <string original="Trigger on 5">트리거 켜기 5</string>
+      <string original="Trigger off 5">트리거 끄기 5</string>
+    </translation>
   </translations>
   <input>
     <sensor type="proximity">

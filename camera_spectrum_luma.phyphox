@@ -441,6 +441,34 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>카메라 스펙트럼: 밝기</title>
+      <category>카메라</category>
+      <description>카메라로 측정한 밝기 변화의 진동수 스펙트럼을 표시합니다.
+
+이 실험은 카메라 이미지의 선택한 영역에서 밝기를 측정하고 밝기 변동의 진동수 스펙트럼을 계산합니다. 이 스펙트럼의 최대 진동수는 카메라 성능에 의해 결정됩니다. 더 많은 데이터 포인트를 고려하여 스펙트럼의 분해능을 변경할 수 있으며(설정 참조), 그에 따른 절충안으로 변화에 대한 반응 속도가 느려집니다.
+
+자동 노출을 사용하는 경우 평균 밝기가 짧은 시간 내에 0.5 근처로 표류(drift)한다는 점에 유의하세요. 이는 변화하는 조명 환경에서 안정적인 트리거를 가능하게 할 수도 있지만, 트리거의 정밀도 및 측정된 지속 시간에 영향을 줄 수도 있습니다. 또한 이 스톱워치는 휘도(luminance) 대신 연산 속도가 빠른 비선형 밝기 표현 방식인 루마(luma)를 사용합니다. 따라서 이 값은 일반 휘도 측정값과 직접 비교할 수 없으며 노출 설정 변화의 영향을 받습니다.
+</description>
+      <string original="Settings">설정</string>
+      <string original="Spectrum">스펙트럼</string>
+      <string original="Peak-Frequency">최대 주파수</string>
+      <string original="Fourier Transform">푸리에 변환</string>
+      <string original="Frequency">주파수</string>
+      <string original="FFT Mag">FFT 크기</string>
+      <string original="Samples used">사용 샘플 수</string>
+      <string original="Period used">작동 시간</string>
+      <string original="Resolution">분해능</string>
+      <string original="Acquisition rate">자료 획득 속도</string>
+      <string original="Nyquist frequency">나이퀴스트 주파수</string>
+      <string original="Preview">미리보기</string>
+      <string original="History">과거기록</string>
+      <string original="Time">시간</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">아래에서 푸리에 변환에 사용되는 데이터의 샘플 수를 설정할 수 있습니다. 샘플 수를 늘려 주파수 해상도를 향상시킬 수 있지만 데이터를 얻고 업데이트하는 데 시간이 걸립니다.</string>
+      <string original="Samples">샘플 수</string>
+      <string original="Raw data">원 데이터</string>
+      <string original="Luma">루마</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4096">luma</container>

@@ -488,6 +488,29 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>음향 자동 상관 관계</title>
+      <category>음향학</category>
+      <description>
+        단일 음의 진동수를 측정합니다.
+
+        이 실험은 마이크로 오디오를 녹음하고 진동수를 분석합니다. 이는 고정된 진동수를 가진 단일 음인 경우에만 작동합니다. 화음처럼 여러 진동수가 섞여 있다면 대신 "스펙트럼" 실험을 사용하세요.
+
+        분석은 오디오 신호의 자기상관(autocorrelation)을 계산하여 수행됩니다. 그후 자기상관 함수에서 최대 신호의 절반을 초과하는 모든 피크(peak)를 탐지합니다. 자기상관 내에서 이 피크들 중 마지막 피크의 위치는 신호 주기의 배수를 나타냅니다. 피크의 개수를 세어 기본 진동수의 주기를 구할 수 있습니다.
+    </description>
+      <string original="Autocorr.">자기상관.</string>
+      <string original="Period">주기</string>
+      <string original="Frequency">주파수</string>
+      <string original="Musical note">음표</string>
+      <string original="Low">저</string>
+      <string original="High">고</string>
+      <string original="Cents from note">음의 센트값</string>
+      <string original="Autocorrelation">자기 상관</string>
+      <string original="correlation">상관</string>
+      <string original="Raw data">원 데이터</string>
+      <string original="Recording">기록</string>
+      <string original="Amplitude">진폭</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

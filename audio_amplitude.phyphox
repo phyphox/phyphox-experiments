@@ -702,6 +702,38 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
+    <translation locale="ko">
+      <title>오디오 진폭</title>
+      <category>음향학</category>
+      <description>
+        소리의 진폭을 측정합니다.
+
+        이 실험은 마이크에서 짧은 간격을 기록하고 음압 레벨(SPL)을 계산합니다. 이 계산은 매우 단순화된 접근 방식이며 결과가 다소 부정확할 수 있습니다. 또한 측정을 보정하기 위해 기준 음원이 필요합니다.
+    </description>
+      <string original="Calibration">보정</string>
+      <string original="Amplitude">진폭</string>
+      <string original="Status">상태</string>
+      <string original="NOT calibrated">미보정</string>
+      <string original="calibrated">보정</string>
+      <string original="Sound pressure level">음압레벨</string>
+      <string original="History">과거기록</string>
+      <string original="Time">시간</string>
+      <string original="Clear history">기록 삭제</string>
+      <string original="Please see the calibration tab to get proper results.">정확한 결과를 얻으려면 보정 탭을 참조하십시오.</string>
+      <string original="Reference SPL">기준 SPL</string>
+      <string original="Calibrate">보정</string>
+      <string original="Calibration offset">보정 offset</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">동일한 기기에서 이전에 보정을 한 경우에는 이전 SPL 보정 값을 수동 보정 값 설정에 입력하고 오프셋 설정을 누르면 보정이 가능합니다.</string>
+      <string original="Custom offset">수동 오프셋</string>
+      <string original="Set offset">오프셋 설정</string>
+      <string original="FAQ">자주하는 질문</string>
+      <string original="How accurate are these results?">이 결과는 얼마나 정확합니까?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">교육용이나 탐색용으로는 비교적 충분한 성능입니다. 중요한 연구 목적으로는 충분하지 않을 수 있으니 다른 응용 프로그램을 찾으십시오. (아래 참조) 과학, 의료 관련 목적에는 본 응용 프로그램이 아닌 전용 응용 프로그램을 이용하십시오.</string>
+      <string original="Why isn't this already calibrated?">왜 보정되지 않았습니까?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox는 10000개 이상의 장치에서 사용할 수 있습니다. 그들 대부분은 소리에 대한 반응에 영향을 미치는 다른 마이크, 다른 전자 장치 및 다른 소프트웨어를 가지고 있습니다. 모두 보정할 수는 없지만 일부 경우에는 이러한 소수의 장치를 보정할 수 있는 제한된 수의 장치(예: iPhone 전용 앱)만 대상으로 하는 앱이 있습니다. 보정 없이 더 나은 결과에 관심이 있다면 기기에 맞는 특정 앱을 확인해야 합니다.</string>
+      <string original="Why can't we get a better calibration?">더 나은 보정을 얻을 수 없는 이유는 무엇입니까?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">우리는 학생들이 다양한 장치에서 비교 가능한 데이터를 얻을 수 있도록 하는 간단한 절차를 원했습니다. 적절한 장치를 사용하면 마이크의 주파수 의존성을 보정 할 수 있습니다. 또한 비선형 응답도 보정할 수 있습니다. 보다 고정밀도의 보정이 가능한 phyphox가 있으므로 만약 그러한 보정을 시도하고 싶은 경우는 저희에게 연락해 주십시오.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>
