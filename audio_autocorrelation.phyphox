@@ -489,7 +489,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>음향 자동 상관 관계</title>
+      <title>음향 자기상관 (Audio Autocorrelation)</title>
       <category>음향학</category>
       <description>
         단일 음의 진동수를 측정합니다.
@@ -500,7 +500,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
     </description>
       <string original="Autocorr.">자기상관.</string>
       <string original="Period">주기</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="Musical note">음표</string>
       <string original="Low">저</string>
       <string original="High">고</string>

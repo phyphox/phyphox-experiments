@@ -246,7 +246,7 @@
     <translation locale="or"/>
     <translation locale="ko">
       <title>빛</title>
-      <category>원 센서</category>
+      <category>기본 센서 (raw sensors)</category>
       <description>광센서에서 원 데이터를 가져옵니다.</description>
       <string original="Graph">그래프</string>
       <string original="Illuminance">조도</string>

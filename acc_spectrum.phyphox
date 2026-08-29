@@ -590,21 +590,21 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
       <title>가속도 스펙트럼</title>
       <category>도구</category>
       <description>
-            가속도계 데이터의 주파수 스펙트럼을 표시합니다.
+            가속도계 데이터의 진동수 스펙트럼을 표시합니다.
 
-            이 실험은 가속도계의 데이터를 기록하고 FFT(푸리에 변환)를 통해 주파수 스펙트럼을 계산합니다. 최대 감지 주파수는 센서의 최대 획득 속도에 따라 다릅니다.
+            이 실험은 가속도계로 데이터를 측정한 후 고속 푸리에 변환(FFT)을 통해 진동수 스펙트럼을 계산합니다. 감지할 수 있는 최대 진동수는 센서의 최대 측정 속도(샘플링 속도)에 따라 달라집니다.
     </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 주파수</string>
+      <string original="Peak-Frequency">최대 진동수</string>
       <string original="Fourier Transform">푸리에 변환</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="FFT Mag">FFT 크기</string>
       <string original="Samples used">사용 샘플 수</string>
       <string original="Period used">작동 시간</string>
       <string original="Resolution">분해능</string>
       <string original="Acquisition rate">자료 획득 속도</string>
-      <string original="Nyquist frequency">나이퀴스트 주파수</string>
+      <string original="Nyquist frequency">나이퀴스트 진동수 (Nyquist frequency)</string>
       <string original="History">과거기록</string>
       <string original="Time">시간</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">아래에서 푸리에 변환에 사용되는 데이터의 샘플 수를 설정할 수 있습니다. 샘플 수를 늘려 주파수 해상도를 향상시킬 수 있지만 데이터를 얻고 업데이트하는 데 시간이 걸립니다.</string>

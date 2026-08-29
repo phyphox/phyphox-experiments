@@ -263,15 +263,15 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>주파수 기록</title>
+      <title>진동수 기록</title>
       <category>음향학</category>
       <description>
-        단일 음에 대한 시간에 따른 주파수 변화를 측정합니다.
+        단일 음에 대한 시간에 따른 진동수 변화를 측정합니다.
 
-        이 실험은 마이크에서 오디오를 녹음하고 짧은 주기 동안에 주파수를 분석합니다. 이것은 자기 상관 관계를 사용하기 때문에 고정 주파수를 가진 단일 톤이 있는 경우에만 작동합니다. 결과는 시간에 따라 주파수로 표시합니다.
+        이 실험은 마이크로 오디오를 녹음하고 짧은 시간 간격으로 진동수를 분석합니다. 자기상관(autocorrelation) 방식을 사용하므로 고정된 진동수를 갖는 단일 음일 때만 정상적으로 작동합니다. 측정 결과는 시간에 따른 진동수 그래프로 표시됩니다.
     </description>
       <string original="History">과거기록</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="Period">주기</string>
     </translation>
   </translations>

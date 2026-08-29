@@ -688,27 +688,27 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <title>진자</title>
       <category>역학</category>
       <description>
-        휴대전화를을 진자로 사용하여 중력 가속도(g=9.81m/s²)를 결정합니다.
+        스마트폰을 진자로 사용하여 중력 가속도(g=9.81m/s²)를 측정합니다.
 
-        이 실험은 자이로스코프를 사용하여 진자의 움직임을 측정하고 진동 주기 T를 계산합니다. 사용자는 진자에 사용되는 실의 길이 L을 입력해야 phyphox가 g = 4π²L/T²를 계산할 수 있습니다.
+        이 실험은 자이로스코프 센서로 진자의 움직임을 측정하여 진동 주기 T를 계산합니다. 진자에 사용되는 줄의 길이 L을 입력하면 phyphox가 g = 4π²L/T² 공식을 이용해 중력 가속도를 계산합니다.
 
-        또는 g를 측정하는 대신 "길이 탭"을 사용하여  g = 9.81m/s²로 가정하여 진자 운동에서 실의 길이를 결정할 수 있습니다. (실제로는 지지점에서 질량 중심까지의 거리입니다.)
+        또는 중력 가속도 g를 측정하는 대신 '길이' 탭을 사용하여 g = 9.81 m/s²으로 가정하여 진자 운동을 통해 실의 길이를 구할 수도 있습니다. (정확히는 회전축에서 질량 중심까지의 거리입니다.)
 
-        또한 공진 탭 메뉴는 진폭을 주파수에 대해 플로팅합니다. 이를 통해 외부 진동 된 물체의 공진 특성 곡선을 주파수에 대해 얻을 수 있으며 공진 특성 곡선을 나타낼 수 있습니다.
+        또한 '공진' 탭에서는 감지된 진동수에 따른 진폭 그래프를 보여줍니다. 이를 이용해 강제 진동자를 구성하고 진동수를 바꾸어가며 공진 곡선을 측정할 수 있습니다.
 
         추가 정보:
-        진동 주기는 세 자이로스코프 구성 요소의 합계의 자기 상관을 통해 얻습니다. 그런 다음 자기 상관은 첫 번째 추정치의 첫 번째 최댓값에 대해 분석된 다음 자기 상관의 마지막 최댓값을 사용하여 보다 정확한 결과를 얻습니다.
+        진동 주기는 자이로스코프 3축 성분 합의 자기상관(autocorrelation)을 통해 구합니다. 먼저 자기상관 함수의 첫 번째 극댓값을 분석해 주기를 1차로 추정한 후, 마지막 극댓값을 활용하여 더욱 정밀한 결과를 계산합니다.
     </description>
       <string original="Settings">설정</string>
       <string original="Results">결과</string>
       <string original="Period">주기</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="Length">길이</string>
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">여기에서 진자의 길이(지지점에서 질량 중심까지)를 입력하고 지구의 가속도 g를 결정할 수 있습니다.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">여기에서 g = 9.81m/s²를 가정하여 진자의 길이(지지점에서 질량 중심까지)를 결정할 수 있습니다.</string>
       <string original="Resonance">공명</string>
       <string original="Rel. amplitude">상대 진폭</string>
-      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">이 탭에서 진폭은 감지된 주파수에 따라 그래프가 그려집니다. 이를 사용하여 구동 발진기의 공진을 측정할 수 있습니다. 진폭은 0에서 1까지의 범위로 정규화됩니다.</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">이 탭에서는 감지된 진동수에 따른 진폭 그래프를 보여줍니다. 이를 이용해 강제 진동자의 공진을 측정할 수 있습니다. 진폭은 0에서 1 사이의 값으로 정규화됩니다.</string>
       <string original="Autocorrelation">자기 상관</string>
       <string original="correlation">상관</string>
       <string original="Raw Data">원 데이터</string>

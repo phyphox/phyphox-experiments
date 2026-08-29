@@ -467,7 +467,7 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>박수측정기</title>
+      <title>박수 측정기</title>
       <category>일상생활</category>
       <description>
         박수의 길이와 진폭에 따라 점수를 부여합니다.

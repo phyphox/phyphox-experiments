@@ -490,13 +490,13 @@
       <title>주파수 발생기</title>
       <category>음향학</category>
       <description>
-        특정 주파수의 음을 발생합니다.
+        특정 진동수의 음을 발생합니다.
     </description>
       <string original="Controls">컨트롤</string>
       <string original="Signal">신호</string>
       <string original="Time">시간</string>
       <string original="Channel 1">채널 1</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="Amplitude">진폭</string>
       <string original="Pan left/right">좌/우 이동</string>
       <string original="Waveform">파형</string>
@@ -507,8 +507,8 @@
       <string original="Channel 3">채널 3</string>
       <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphox에서는 임의의 주파수를 설정할 수 있습니다만, 100Hz 이하나 8000Hz 이상에서는 하드웨어의 한계에 의해 좋은 결과를 얻을 수 없는 경우도 있습니다.</string>
       <string original="Status">상태</string>
-      <string original="Frequency low">낮은 주파수</string>
-      <string original="Frequency high">높은 주파수</string>
+      <string original="Frequency low">낮은 진동수</string>
+      <string original="Frequency high">높은 진동수</string>
       <string original="OK">확인</string>
       <string original="Settings">설정</string>
       <string original="Channels">채널</string>

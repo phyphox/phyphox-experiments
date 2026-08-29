@@ -769,7 +769,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Minimum Delay">최소 지연</string>
       <string original="Time">시간</string>
       <string original="Reset">초기화</string>
-      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">임계값을 환경 소음 레벨보다 높지만 트리거 노이즈 미만으로 변경합니다(오디오 스코프 실험을 통해 이를 확인할 수 있음). 또한 최소 지연을 설정하여 트리거가 특정 시간보다 짧아지지 않도록 합니다(예: 메아리 또는 잔향에 의한 것).</string>
+      <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">임계값을 환경 소음 레벨보다 높지만 트리거 노이즈 미만으로 변경합니다(음향 파형(Audio Scope) 실험을 통해 이를 확인할 수 있음). 또한 최소 지연을 설정하여 트리거가 특정 시간보다 짧아지지 않도록 합니다(예: 메아리 또는 잔향에 의한 것).</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 실험이 예상대로 작동하는지 확인하려면 먼저 일반 시계와 비교하십시오.</string>
       <string original="Sequence">순서</string>
       <string original="Time 1">시간 1</string>

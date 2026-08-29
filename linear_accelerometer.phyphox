@@ -359,7 +359,7 @@
     <translation locale="or"/>
     <translation locale="ko">
       <title>가속도 (g 제외)</title>
-      <category>원 센서</category>
+      <category>기본 센서 (raw sensors)</category>
       <description>선형 가속도계에서 원 데이터를 가져 와서 중력 가속도없이 실제 가속도를 제공합니다. "g를 사용한 가속도"와는 달리, 이 센서는 장치가 정지 중일 때 0을 나타냅니다.</description>
       <string original="Graph">그래프</string>
       <string original="Linear Acceleration x">선형 가속도 x</string>

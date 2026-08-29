@@ -287,14 +287,14 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>구름</title>
+      <title>굴림</title>
       <category>역학</category>
       <description>
-        휴대전화를 구름통에 넣고 속력을 측정하세요.
+        스마트폰을 굴림통에 넣고 속도를 측정하세요.
 
-       휴대전화가 가장 긴 쪽을 중심으로 회전하도록 종이 구름통에 휴대 전화를 놓아야합니다. 이 실험에서는 자이로스코프에 의해 측정된 각속도와 구름통의 반지름을 이용하여 구름통이 이동하는 속력을 계산합니다.
+       스마트폰의 가장 긴 모서리를 회전축으로 하여 굴러가도록 종이 굴림통 안에 넣어야 합니다. 이 실험은 자이로스코프로 측정한 각속도와 굴림통의 반지름을 이용해 굴림통이 이동하는 속도를 계산합니다.
     </description>
-      <string original="Roll radius">구름통 반지름</string>
+      <string original="Roll radius">굴림통 반지름</string>
       <string original="Velocity">속력</string>
       <string original="Raw Data">원 데이터</string>
       <string original="Gyroscope y">자이로스코프 y</string>

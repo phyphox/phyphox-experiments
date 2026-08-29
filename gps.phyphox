@@ -712,7 +712,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
     <translation locale="or"/>
     <translation locale="ko">
       <title>위치 (GPS)</title>
-      <category>원 센서</category>
+      <category>기본 센서 (raw sensors)</category>
       <description>
         위성 네비게이션에서 원 위치 데이터를 가져옵니다.
 

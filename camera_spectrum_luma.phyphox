@@ -452,15 +452,15 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
 </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 주파수</string>
+      <string original="Peak-Frequency">최대 진동수</string>
       <string original="Fourier Transform">푸리에 변환</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="FFT Mag">FFT 크기</string>
       <string original="Samples used">사용 샘플 수</string>
       <string original="Period used">작동 시간</string>
       <string original="Resolution">분해능</string>
       <string original="Acquisition rate">자료 획득 속도</string>
-      <string original="Nyquist frequency">나이퀴스트 주파수</string>
+      <string original="Nyquist frequency">나이퀴스트 진동수 (Nyquist frequency)</string>
       <string original="Preview">미리보기</string>
       <string original="History">과거기록</string>
       <string original="Time">시간</string>

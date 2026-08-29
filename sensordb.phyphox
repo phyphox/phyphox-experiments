@@ -525,9 +525,9 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Rate">속도</string>
       <string original="Average">평균</string>
       <string original="Standard deviation">표준 편차</string>
-      <string original="Acceleration (without g)">가속도 (g제외)</string>
+      <string original="Acceleration (without g)">가속도 (중력 가속도 g 제외)</string>
       <string original="Gyroscope">자이로스코프</string>
-      <string original="Magnetometer">자기(력)계</string>
+      <string original="Magnetometer">자력계</string>
       <string original="Barometer">기압계</string>
       <string original="Temperature">온도</string>
       <string original="Humidity">습도</string>

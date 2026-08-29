@@ -703,7 +703,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>오디오 진폭</title>
+      <title>음향 진폭</title>
       <category>음향학</category>
       <description>
         소리의 진폭을 측정합니다.
@@ -732,7 +732,7 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Why isn't this already calibrated?">왜 보정되지 않았습니까?</string>
       <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox는 10000개 이상의 장치에서 사용할 수 있습니다. 그들 대부분은 소리에 대한 반응에 영향을 미치는 다른 마이크, 다른 전자 장치 및 다른 소프트웨어를 가지고 있습니다. 모두 보정할 수는 없지만 일부 경우에는 이러한 소수의 장치를 보정할 수 있는 제한된 수의 장치(예: iPhone 전용 앱)만 대상으로 하는 앱이 있습니다. 보정 없이 더 나은 결과에 관심이 있다면 기기에 맞는 특정 앱을 확인해야 합니다.</string>
       <string original="Why can't we get a better calibration?">더 나은 보정을 얻을 수 없는 이유는 무엇입니까?</string>
-      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">우리는 학생들이 다양한 장치에서 비교 가능한 데이터를 얻을 수 있도록 하는 간단한 절차를 원했습니다. 적절한 장치를 사용하면 마이크의 주파수 의존성을 보정 할 수 있습니다. 또한 비선형 응답도 보정할 수 있습니다. 보다 고정밀도의 보정이 가능한 phyphox가 있으므로 만약 그러한 보정을 시도하고 싶은 경우는 저희에게 연락해 주십시오.</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">우리는 학생들이 서로 다른 기기에서도 서로 비교할 수 있는 데이터를 얻을 수 있도록 간단한 절차를 마련하고자 했습니다. 적절한 장비가 있다면 마이크의 진동수 의존성을 보정할 수 있으며, 비선형 응답까지 보정하는 것도 가능합니다. 이러한 장비를 갖추고 있어 직접 시도해 보고 싶으시다면 언제든 알려주세요. phyphox에는 더 고급 보정 기술을 적용할 수 있는 실험들이 이미 준비되어 있습니다.</string>
     </translation>
   </translations>
   <data-containers>

@@ -644,22 +644,22 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>오디오 스펙트럼</title>
+      <title>음향 스펙트럼 (Audio Spectrum)</title>
       <category>음향학</category>
       <description>
-            오디오 신호의 주파수 스펙트럼을 표시합니다.
+            오디오 신호의 진동수 스펙트럼을 표시합니다.
 
-            이 실험은 마이크의 오디오를 녹음하고 FFT(푸리에 변환)를 통해 주파수 스펙트럼을 계산합니다. 단일 주파수의 단일 음만 있는 경우 "자기 상관" 오디오 실험에서 더 정확한 결과를 얻을 수 있습니다.
+            이 실험은 마이크로 오디오를 녹음하고 고속 푸리에 변환(FFT)을 통해 주파수 스펙트럼을 계산합니다. 단일 주파수를 가진 순음(단일 톤)만 분석하는 경우라면 "자기상관(autocorrelation)" 오디오 실험을 사용하는 것이 더 정밀한 결과를 얻을 수 있습니다.
     </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 주파수</string>
+      <string original="Peak-Frequency">최대 진동수</string>
       <string original="Musical note">음표</string>
       <string original="Low">저</string>
       <string original="High">고</string>
       <string original="Cents from note">음의 센트값</string>
       <string original="Fourier Transform">푸리에 변환</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="FFT Mag">FFT 크기</string>
       <string original="Samples used">사용 샘플 수</string>
       <string original="Period used">작동 시간</string>

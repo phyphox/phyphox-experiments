@@ -154,7 +154,7 @@
       <description>조절 가능한 진동수로 휴대폰 손전등을 점멸합니다. 손전등은 정밀한 타이밍으로 점멸하도록 설계되지 않았다는 점에 유의하세요. 휴대폰 모델에 따라 사용할 수 있는 진동수가 제한될 수 있습니다. 스트로보 제어기 하단에 표시되는 정보를 확인하세요.</description>
       <string original="Strobe">스트로보</string>
       <string original="Brightness">밝기</string>
-      <string original="Frequency">주파수</string>
+      <string original="Frequency">진동수</string>
       <string original="Duty cycle">듀티 사이클</string>
       <string original="Reset duty cycle to 0.5">듀티 사이클을 0.5로 초기화</string>
       <string original="Period">주기</string>

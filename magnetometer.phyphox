@@ -563,14 +563,14 @@ Nevystavujte svůj mobil silnému magnetickému poli!
     <translation locale="kn"/>
     <translation locale="or"/>
     <translation locale="ko">
-      <title>자기(력)계</title>
-      <category>원 센서</category>
+      <title>자력계</title>
+      <category>기본 센서 (raw sensors)</category>
       <description>
-        자기(력)계에서 원 데이터를 가져옵니다.
+        자력계에서 원시 데이터를 가져옵니다.
 
-        자기(력)계는 나침반 역할을 하기 위해 지구의 자기장을 측정하도록 설계되었으므로 매우 민감합니다. 그러나 항상 휴대전화의 전자 제품의 내부 장(field)에 노출되어 부정확한 값을 나타낼 수 있습니다. 따라서 phyphox는 시스템에서 보정된 자기장을 측정하려고 합니다. 일부에 아직 보정되지 않은 경우(예: 휴대폰이 방금 시작된 후) 데이터를 가져오지 못할 수도 있습니다. 이 경우 실험이 실행되는 동안 휴대전화를 몇 번 회전해야 합니다. 이렇게 하면 시스템이 센서를 보정하는 데 도움이 됩니다. 또한 많은 장치 (전부는 아님)에서 오른쪽 상단의 메뉴를 통해 보정되지 않은 자기(력)계 데이터로 전환할 수 있습니다.
+        자력계는 나침반 역할을 할 수 있도록 지구 자기장을 측정하도록 설계되어 매우 민감합니다. 하지만 스마트폰 내부 전자 부품에서 발생하는 자기장에 항상 노출되어 있어 측정 오차가 생길 수 있습니다. 따라서 phyphox는 시스템에서 보정된 자기장 값을 가져오려고 시도합니다. (휴대폰을 방금 켠 직후처럼) 아직 센서가 보정되지 않은 경우 데이터를 불러오지 못할 수 있습니다. 이럴 때는 실험이 진행되는 동안 스마트폰을 몇 번 회전시켜 주면 시스템이 센서를 보정하는 데 도움이 됩니다. 또한 일부 기기에서는 오른쪽 상단 메뉴를 통해 보정되지 않은 자력계 데이터로 전환할 수도 있습니다.
 
-        휴대전화를 강한 자기장에 노출시키지 마십시오!
+        스마트폰을 강한 자기장에 노출시키지 마세요!
     </description>
       <string original="Graph">그래프</string>
       <string original="Accuracy">정확도</string>
@@ -579,15 +579,15 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Low">저</string>
       <string original="Medium">보통</string>
       <string original="High">고</string>
-      <string original="Magnetometer x">자기(력)계 x</string>
-      <string original="Magnetometer y">자기(력)계 y</string>
-      <string original="Magnetometer z">자기(력)계 z</string>
+      <string original="Magnetometer x">자력계 x</string>
+      <string original="Magnetometer y">자력계 y</string>
+      <string original="Magnetometer z">자력계 z</string>
       <string original="Absolute">절대값</string>
       <string original="Multi">다중</string>
-      <string original="Magnetometer">자기(력)계</string>
+      <string original="Magnetometer">자력계</string>
       <string original="Simple">단순</string>
       <string original="Help">도움말</string>
-      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">자기(력)계는 항상 휴대전화의 전자 제품의 내부 장(field)에 노출되어 부정확한 값을 나타낼 수 있습니다. 따라서 phyphox는 시스템에서 보정된 자기장을 측정하려고 합니다. 일부에 아직 보정되지 않은 경우(예: 휴대폰이 방금 시작된 후) 데이터를 가져오지 못할 수도 있습니다. 이 경우 실험이 실행되는 동안 휴대전화를 몇 번 회전해야 합니다. 이렇게 하면 시스템이 센서를 보정하는 데 도움이 됩니다. 또한 많은 장치 (전부는 아님)에서 오른쪽 상단의 메뉴를 통해 보정되지 않은 자기(력)계 데이터로 전환할 수 있습니다.</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">자력계는 항상 스마트폰의 전자 제품 내부에서 발생하는 자기장에 노출되기 때문에, 부정확한 값을 나타낼 수 있습니다. 따라서 phyphox는 시스템에서 보정된 자기장을 측정하려고 합니다. 아직 센서 보정이 완료되지 않은 경우(예: 스마트폰을 켠 직후) 데이터를 가져오지 못할 수도 있습니다. 이 경우 실험이 실행되는 동안 스마트폰을 몇 번 회전시켜 주면 시스템이 센서를 보정하는 데 도움이 됩니다. 또한 일부 기기에서는 오른쪽 상단 메뉴를 통해 보정되지 않은 원시 자력계 데이터로 전환할 수도 있습니다.</string>
     </translation>
   </translations>
   <data-containers>
