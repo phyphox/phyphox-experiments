@@ -274,6 +274,17 @@ Tento experiment zaznamenává zvuk z mikrofonu a vyhodnocuje jeho frekvenci př
       <string original="Frequency">진동수</string>
       <string original="Period">주기</string>
     </translation>
+    <translation locale="az">
+      <title>Tezlik tarixçəsi</title>
+      <category>Akustika</category>
+      <description>
+        Tək ton üçün tezliyin zamanla dəyişməsini ölçün.
+
+        Bu təcrübə mikrofondan səsi qeydə alır və qısa vaxt aralıqlarında onun tezliyini təhlil edir. Avtokorrelyasiyadan istifadə etdiyi üçün bu, yalnız sabit tezlikli tək ton olduqda işləyir. Nəticə zamandan asılı tezlik qrafiki kimi göstəriləcək.
+    </description>
+      <string original="History">Tarixçə</string>
+      <string original="Frequency">Tezlik</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="480">recording</container>

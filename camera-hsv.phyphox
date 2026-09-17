@@ -59,6 +59,19 @@ Beachte, dass der Weißabgleich das Ergebnis beeinflusst. Auch wenn der automati
     <translation locale="fr">
       <string original="Average rate">Fréquence moyenne</string>
       <category>Caméra</category>
+      <title>Couleur (Teinte, Saturation, Valeur)</title>
+      <description>Détermine la couleur dans le système de couleur teinte-saturation-valeur (HSV).
+
+Les pixels de la zone sélectionnée sont convertis individuellement en teinte, saturation et luminosité, puis leur moyenne est calculée. Pour la teinte (hue), on utilise une moyenne cyclique (passage de 360° à 0°).
+
+La balance des blancs aura une incidence sur le résultat. Bien que la balance des blancs automatique de votre téléphone soit suffisante dans la plupart des situations, vous pouvez la régler sur une référence blanche fixe afin de détecter des petites variations.
+</description>
+      <string original="Hue">Teinte (hue)</string>
+      <string original="Value">Valeur</string>
+      <string original="Saturation and Value">Saturation et Valeur</string>
+      <string original="Preview">Aperçu</string>
+      <string original="Frame rate">Images par seconde</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Appuyez sur l'aperçu et faites glisser votre doigt pour modifier la zone de l'image utilisée pour la mesure. Vous pouvez également choisir les réglages de la caméra pour ajuster l'image. Les zones sous-exposées sont indiquées en bleu, les zones surexposées sont indiquées en rouge.</string>
     </translation>
     <translation locale="hi">
       <string original="Preview">पूर्वावलोकन</string>
@@ -103,6 +116,21 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
     <translation locale="ru">
       <string original="Preview">Предварительный просмотр</string>
       <string original="Average rate">Средняя частота</string>
+      <title>Цвет (тон, насыщенность, значение)</title>
+      <category>Камера</category>
+      <description>Определение цвета с помощью цветовой модели HSV (тон, насыщенность, значение).
+
+Пиксели внутри выделенной области по отдельности преобразуются в тон, насыщенность и значение, а затем усредняются. Для тона используется циклическое усреднение.
+
+Обратите внимание: на результат влияет баланс белого. В большинстве ситуаций автоматический баланс белого телефона справляется достаточно хорошо, но для выявления малозаметных различий может быть полезно зафиксировать его по эталону белого.
+</description>
+      <string original="Hue">Цветовой тон</string>
+      <string original="Saturation">Насыщенность</string>
+      <string original="Value">Значение</string>
+      <string original="Saturation and Value">Насыщенность и значение</string>
+      <string original="sat., val.">нас., знач.</string>
+      <string original="Frame rate">Частота кадров</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Коснитесь изображения предпросмотра и перетащите, чтобы изменить область кадра, учитываемую при анализе изображения. Вы также можете выбрать другие настройки камеры, чтобы подготовить изображение в этой области. Недоэкспонированные участки отмечаются синим, переэкспонированные — красным.</string>
     </translation>
     <translation locale="sr">
       <string original="Average rate">Prosečna stopa</string>
@@ -193,6 +221,24 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
       <string original="Preview">미리보기</string>
       <string original="Frame rate">프레임 속도</string>
       <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">미리보기를 탭하고 드래그하여 이미지 분석에 반영될 영역을 변경하세요. 영역 내 이미지를 설정하기 위해 다른 카메라 설정을 선택할 수도 있습니다. 노출 부족 영역은 파란색, 노출 과다 영역은 빨간색으로 표시됩니다.</string>
+    </translation>
+    <translation locale="az">
+      <title>Rəng (Rəngin çaları, Doyma, Parlaqlıq)</title>
+      <category>Kamera</category>
+      <description>Rəngi rəng çaları, doyma və parlaqlıq (HSV) rəng modelindən istifadə edərək müəyyən edin.
+
+Seçilmiş sahədəki hər bir piksel ayrıca rəng çaları, doyma və parlaqlıq qiymətlərinə çevrilir, sonra isə onların orta qiyməti hesablanır. Rəng çaları üçün dövri ortalamadan istifadə olunur.
+
+Nəzərə alın ki, ağ balansı nəticəyə təsir edir. Telefonunuzun avtomatik ağ balansı əksər hallarda kifayət qədər yaxşı nəticə versə də, kiçik rəng fərqlərini müəyyən etmək üçün ağ balansını sabit ağ etalonuna uyğun təyin etmək daha məqsədəuyğun ola bilər.
+</description>
+      <string original="Hue">Rəng çaları</string>
+      <string original="Saturation">Doyma</string>
+      <string original="Value">Parlaqlıq</string>
+      <string original="Saturation and Value">Doyma və Parlaqlıq</string>
+      <string original="sat., val.">doy., parl.</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="Frame rate">Kadr tezliyi</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Önizləmə şəklinə toxunub sürüşdürərək görüntünün qiymətləndirilməsi zamanı nəzərə alınacaq sahəni dəyişə bilərsiniz. Həmçinin seçilmiş sahədə görüntünü tənzimləmək üçün müxtəlif kamera parametrlərini seçə bilərsiniz. Az ekspozisiyalı sahələr mavi, həddindən artıq ekspozisiyalı sahələr isə qırmızı rənglə işarələnir.</string>
     </translation>
   </translations>
   <data-containers>

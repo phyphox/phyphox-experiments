@@ -66,6 +66,7 @@
     <translation locale="fr">
       <string original="Calibrate">Étalonner</string>
       <string original="Spectrum">Spectre</string>
+      <string original="Preview">Aperçu</string>
     </translation>
     <translation locale="hi">
       <string original="Preview">पूर्वावलोकन</string>
@@ -101,6 +102,29 @@
       <string original="Preview">Предварительный просмотр</string>
       <string original="Calibrate">Калибровать</string>
       <string original="Spectrum">Спектр</string>
+      <title>Спектроскопия</title>
+      <category>Камера</category>
+      <description>Спектроскопия с помощью внешней дифракционной решётки. Если специальной дифракционной решётки нет, подойдёт и фрагмент CD или DVD. Расположите установку так, чтобы камера видела радугу, создаваемую дифракцией, и укажите в phyphox, происходит дифракция по горизонтали или по вертикали. Phyphox усредняет вклады одинаковых длин волн в выбранной области изображения камеры. Спектр также можно откалибровать.</description>
+      <string original="Calibration data">Данные калибровки</string>
+      <string original="1 Camera">1 Камера</string>
+      <string original="Set up your camera">Настройте камеру</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Используйте дифракционную решётку и закрепите телефон на штативе так, чтобы камера видела получившуюся радугу. Коснитесь изображения предпросмотра и перетащите маркеры выделенного прямоугольника, чтобы выделить только радугу. Убедитесь, что её цветные полосы расположены строго горизонтально или строго вертикально, и выберите соответствующую ориентацию спектра. Затем перейдите на вкладку 2.</string>
+      <string original="2 Calibration">2 Калибровка</string>
+      <string original="In this tab you can calibrate your spectrum">На этой вкладке можно откалибровать спектр</string>
+      <string original="Raw Spectrum">Необработанный спектр</string>
+      <string original="Position on sensor">Положение на матрице</string>
+      <string original="Calibration 1">Калибровка 1</string>
+      <string original="Wavelength in nm">Длина волны в нм</string>
+      <string original="Calibration 2">Калибровка 2</string>
+      <string original="Pixel 1">Пиксель 1</string>
+      <string original="Wavelength 1">Длина волны 1</string>
+      <string original="nm">нм</string>
+      <string original="Pixel 2">Пиксель 2</string>
+      <string original="Wavelength 2">Длина волны 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">Используя известный источник света, можно коснуться графика, выбрать внизу режим калибровки и отметить пики, сопоставив их с известными длинами волн. Откалиброванный спектр затем виден на вкладке 3.</string>
+      <string original="3 Spectrum">3 Спектр</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">После калибровки спектрометра на вкладке 2 здесь можно увидеть откалиброванный спектр.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">Учтите, что камера телефона использует фильтры для регистрации красной, зелёной и синей составляющих. Получаемая относительная яркость зависит от длины волны, поэтому интенсивности разных длин волн в этом спектре несопоставимы между собой.</string>
     </translation>
     <translation locale="sr">
       <string original="Calibrate">Kalibriraj</string>
@@ -167,6 +191,12 @@
       <string original="In this tab you can calibrate your spectrum">在此标签页，你可以校准频谱</string>
       <string original="Raw Spectrum">原始频谱</string>
       <string original="Position on sensor">传感器上的位置</string>
+      <title>光谱学</title>
+      <description>使用外部衍射光栅进行光谱测量。如果没有专用衍射光栅，CD 或 DVD 的一部分也可以。搭建实验装置，使相机能够捕捉到衍射产生的彩虹，并在 Phyphox 中选择衍射方向是水平还是垂直。Phyphox 会对相机图像选定区域中相同波长的贡献进行平均。您还可以校准频谱。</description>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">使用衍射光栅，并将手机摄像头固定在三脚架上，使其能够拍摄到生成的彩虹。点按预览图像，拖动高亮矩形的控制柄，仅选中彩虹区域。确保其色带完全水平或垂直，并相应地选择频谱方向。然后继续执行第二个标签页。</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">使用已知光源，您可以点击图表，选择底部的校准模式，然后选择峰值与已知波长进行匹配。之后，您可以在标签页 3 中查看校准后的频谱。</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">在标签页 2 中校准光谱仪后，您可以在这里查看校准后的频谱。</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">请注意，手机摄像头使用滤镜来捕捉红、绿、蓝三种颜色分量。最终的相对亮度取决于波长，因此在此光谱范围内，不同波长的光强度不具有可比性。</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Calibrate">校正</string>
@@ -228,6 +258,33 @@
       <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">2번 탭에서 분광기를 보정한 후, 여기에서 보정된 스펙트럼을 확인할 수 있습니다.</string>
       <string original="Spectrum">스펙트럼</string>
       <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">휴대폰 카메라 필터는 빨간색, 초록색, 파란색 성분을 포착하도록 되어 있습니다. 그 결과 발생하는 상대 휘도는 파장에 따라 달라지므로, 이 스펙트럼에서는 서로 다른 파장의 세기를 직접 비교할 수 없습니다.</string>
+    </translation>
+    <translation locale="az">
+      <title>Spektroskopiya</title>
+      <category>Kamera</category>
+      <description>Spektroskopiya üçün xarici difraksiya qəfəsindən istifadə edin. Xüsusi difraksiya qəfəsiniz yoxdursa, CD və ya DVD-nin bir hissəsi də uyğun gəlir. Təcrübəni elə qurun ki, kamera difraksiyanın yaratdığı göy qurşağını görsün və phyphox-da difraksiyanın üfüqi, yoxsa şaquli baş verdiyini seçin. phyphox kamera görüntüsünün seçilmiş sahəsində eyni dalğa uzunluqlarından gələn payları ortalayacaq. Həmçinin spektrinizi kalibrləyə bilərsiniz.</description>
+      <string original="Calibration data">Kalibrləmə verilənləri</string>
+      <string original="1 Camera">a1 Kamera</string>
+      <string original="Set up your camera">Kameranızı quraşdırın</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Difraksiya qəfəsindən istifadə edin və telefonunuzun kamerasını ştativdə elə yerləşdirin ki, yaranan göy qurşağını görsün. Önizləmə şəklinə toxunun və yalnız göy qurşağını seçmək üçün işıqlandırılmış düzbucaqlının tutacaqlarını sürüşdürün. Rəng zolaqlarının tam üfüqi və ya tam şaquli olduğuna əmin olun və spektrin yönümünü buna uyğun seçin. Sonra 2-ci bölməyə keçin.</string>
+      <string original="2 Calibration">2 Kalibrləmə</string>
+      <string original="In this tab you can calibrate your spectrum">Bu bölmədə spektrinizi kalibrləyə bilərsiniz</string>
+      <string original="Raw Spectrum">Xam spektr</string>
+      <string original="Position on sensor">Sensordakı mövqe</string>
+      <string original="Calibrate">Kalibrlə</string>
+      <string original="Calibration 1">Kalibrləmə 1</string>
+      <string original="Wavelength in nm">Dalğa uzunluğu (nm)</string>
+      <string original="Calibration 2">Kalibrləmə 2</string>
+      <string original="Pixel 1">Piksel 1</string>
+      <string original="Wavelength 1">Dalğa uzunluğu 1</string>
+      <string original="Pixel 2">Piksel 2</string>
+      <string original="Wavelength 2">Dalğa uzunluğu 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with knwon wavelengths. You can then see the calibrated spectrum on tab 3.">Məlum işıq mənbəyindən istifadə edərək qrafikə toxuna, aşağıdan kalibrləmə rejimini seçə və pikləri məlum dalğa uzunluqları ilə uzlaşdırmaq üçün onları seçə bilərsiniz. Sonra kalibrlənmiş spektri 3-cü bölmədə görə bilərsiniz.</string>
+      <string original="3 Spectrum">3 Spektr</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">Spektrometrinizi 2-ci bölmədə kalibrlədikdən sonra kalibrlənmiş spektrinizi burada görə bilərsiniz.</string>
+      <string original="Spectrum">Spektr</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">Nəzərə alın ki, telefonunuzun kamerası qırmızı, yaşıl və mavi bileşənləri qeyd etmək üçün filtrlərdən istifadə edir. Alınan nisbi işıqlılıq dalğa uzunluğundan asılıdır, ona görə bu spektrdə müxtəlif dalğa uzunluqlarının intensivliyi müqayisə oluna bilməz.</string>
     </translation>
   </translations>
   <data-containers>

@@ -472,6 +472,26 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Total magnetic field squared and filtered">제곱되고 필터링된 총 자기장</string>
       <string original="Filtered B²">필터링된 B²</string>
     </translation>
+    <translation locale="az">
+      <title>Maqnit xətkeşi</title>
+      <category>Alətlər</category>
+      <description>
+        Telefonun məsafəsini, sürətini və təcilini ölçmək üçün bir sıra maqnitdən istifadə edin.
+
+        Bu təcrübə üçün telefonun keçəcəyi yol boyunca bir sıra eyni maqnit yerləşdirməlisiniz. Maqnitlər arasındakı məsafə hər maqnit üçün eyni olmalı və təcrübədə daxil edilməlidir. Sonra telefon maqnitin yanından nə vaxt keçdiyini təyin etmək üçün maqnitometrindən istifadə edəcək və bu, qət edilən ümumi məsafəni hesablamağa imkan verəcək.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Results">Nəticələr</string>
+      <string original="dx is the distance between two magnets">dx iki maqnit arasındakı məsafədir</string>
+      <string original="Distance">Məsafə</string>
+      <string original="Velocity">Sürət</string>
+      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Magnetic field x">Maqnit sahəsi x</string>
+      <string original="Magnetic field y">Maqnit sahəsi y</string>
+      <string original="Magnetic field z">Maqnit sahəsi z</string>
+      <string original="Total magnetic field squared and filtered">Ümumi maqnit sahəsinin kvadratı və filtrlənmiş qiyməti</string>
+      <string original="Filtered B²">Filtrlənmiş B²</string>
+    </translation>
   </translations>
   <data-containers>
     <container clearGroup="Settings">magnetDistance</container>

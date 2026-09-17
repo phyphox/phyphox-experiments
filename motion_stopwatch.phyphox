@@ -784,6 +784,39 @@ Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima acc
       <string original="Average rate">평균 비율</string>
       <string original="Average rate (bpm)">평균 비율(bpm)</string>
     </translation>
+    <translation locale="az">
+      <title>Hərəkət saniyəölçəni</title>
+      <category>Vaxtölçənlər</category>
+      <description>
+        İki hərəkət hadisəsi arasındakı vaxtı ölçün.
+
+        Bu təcrübə iki təcil (məsələn, kiçik zərbələr) arasındakı vaxtı ölçməyə imkan verir. Saniyəölçənin işə düşdüyü səviyyəni göstərən həddi tənzimləmək istəyə bilərsiniz.
+
+        Təcrübəni başlatdıqdan sonra saat həddi keçən ilk (ümumi) təcildə işə düşəcək və ikinci təcildə dayanacaq. İlk təcil siqnalının qısa olduğuna əmin olun, çünki uzun titrəyiş dərhal dayandırma kimi aşkarlana bilər.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Simple">Sadə</string>
+      <string original="Threshold">Hədd</string>
+      <string original="Minimum Delay">Minimal gecikmə</string>
+      <string original="Time">vaxt</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Həddi sensorun küy səviyyəsindən yuxarı, lakin trigger təcilindən aşağı olacaq şəkildə dəyişin (bunları yoxlamaq üçün g olmadan akselerometr təcrübəsini sınaya bilərsiniz). Həmçinin minimal gecikməni təyin edin ki, bu vaxtdan qısa triggerlərin qarşısı alınsın.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Bu təcrübənin dəqiqliyi telefonunuzdakı akselerometrdən asılıdır. Sürətli akselerometrlər saniyənin yüzdə birindən yaxşı ola bilər, yavaşları isə yalnız bir saniyə ayırdetməyə çata bilər.</string>
+      <string original="Sequence">Ardıcıllıq</string>
+      <string original="Time 1">Vaxt 1</string>
+      <string original="Time 2">Vaxt 2</string>
+      <string original="Time 3">Vaxt 3</string>
+      <string original="Time 4">Vaxt 4</string>
+      <string original="Time 5">Vaxt 5</string>
+      <string original="Parallel">Paralel</string>
+      <string original="Many">Çoxlu</string>
+      <string original="Events">Hadisələr</string>
+      <string original="Event number">Hadisənin nömrəsi</string>
+      <string original="Time interval">Vaxt intervalı</string>
+      <string original="Average interval">Orta interval</string>
+      <string original="Average rate">Orta tezlik</string>
+      <string original="Average rate (bpm)">Orta tezlik (vurğu/dəq)</string>
+    </translation>
   </translations>
   <input>
     <sensor type="linear_acceleration" rate="0">

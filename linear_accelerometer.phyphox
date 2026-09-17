@@ -374,6 +374,23 @@
       <string original="Acceleration y">가속도 y</string>
       <string original="Acceleration z">가속도 z</string>
     </translation>
+    <translation locale="az">
+      <title>Təcil (g olmadan)</title>
+      <category>Xam sensorlar</category>
+      <description>Xətti akselerometr adlanan sensordan xam verilənləri alın; o, ağırlıq təcili olmadan həqiqi təcili verir. "g ilə təcil"dən fərqli olaraq, bu sensor cihaz hərəkətsiz olduqda 0 göstərir.</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Linear Acceleration x">Xətti təcil x</string>
+      <string original="Linear Acceleration y">Xətti təcil y</string>
+      <string original="Linear Acceleration z">Xətti təcil z</string>
+      <string original="Absolute">Mütləq</string>
+      <string original="Absolute acceleration">Mütləq təcil</string>
+      <string original="Multi">Çoxlu</string>
+      <string original="Acceleration">Təcil</string>
+      <string original="Simple">Sadə</string>
+      <string original="Acceleration x">Təcil x</string>
+      <string original="Acceleration y">Təcil y</string>
+      <string original="Acceleration z">Təcil z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">acc_time</container>

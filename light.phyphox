@@ -255,6 +255,17 @@
             </string>
       <string original="Simple">단순</string>
     </translation>
+    <translation locale="az">
+      <title>İşıq</title>
+      <category>Xam sensorlar</category>
+      <description>İşıq sensorundan xam verilənləri alın.</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Illuminance">İşıqlanma</string>
+      <string original="Info">
+                Qeyd: Bəzi cihazlarda işıq sensoru yalnız işıqlanmada kobud dəyişiklik olduqda yenilənir.
+            </string>
+      <string original="Simple">Sadə</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">illum</container>

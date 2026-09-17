@@ -332,6 +332,7 @@ Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kul
       <string original="Magnetic field x">Champs magnétique selon x</string>
       <string original="Magnetic field y">Champs magnétique selon y</string>
       <string original="Magnetic field z">Champs magnétique selon z</string>
+      <string original="Resolution">Résolution</string>
     </translation>
     <translation locale="vi">
       <title>Từ phổ</title>
@@ -614,6 +615,34 @@ Este experimento registra datos del magnetómetro y calcula su frecuencia a trav
       <string original="Magnetic field x">자기장 x</string>
       <string original="Magnetic field y">자기장 y</string>
       <string original="Magnetic field z">자기장 z</string>
+    </translation>
+    <translation locale="az">
+      <title>Maqnit spektri</title>
+      <category>Alətlər</category>
+      <description>
+            Maqnitometrdən alınan verilənlərin tezlik spektrini göstərin.
+
+            Bu təcrübə maqnitometrdən verilənləri qeydə alır və Furye çevrilməsi (FFT) vasitəsilə onun tezlik spektrini hesablayır. Aşkarlana bilən maksimal tezlik sensorunuzun maksimal toplama tezliyindən asılıdır.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Spectrum">Spektr</string>
+      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Fourier Transform">Furye çevrilməsi</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="FFT Mag">FFT amplitudu</string>
+      <string original="Samples used">İstifadə olunan nümunələr</string>
+      <string original="Period used">İstifadə olunan period</string>
+      <string original="Resolution">Ayırdetmə qabiliyyəti</string>
+      <string original="Acquisition rate">Toplama tezliyi</string>
+      <string original="Nyquist frequency">Naykvist tezliyi</string>
+      <string original="History">Tarixçə</string>
+      <string original="Time">vaxt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Aşağıda Furye çevrilməsi üçün istifadə olunan nümunələrin sayını təyin edə bilərsiniz. Nümunə sayı çox olduqca yenilənmə yavaşlayır, lakin spektral ayırdetmə yüksəlir.</string>
+      <string original="Samples">Nümunələr</string>
+      <string original="Raw data">Xam verilənlər</string>
+      <string original="Magnetic field x">Maqnit sahəsi x</string>
+      <string original="Magnetic field y">Maqnit sahəsi y</string>
+      <string original="Magnetic field z">Maqnit sahəsi z</string>
     </translation>
   </translations>
   <data-containers>

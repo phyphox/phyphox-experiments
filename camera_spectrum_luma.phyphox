@@ -115,6 +115,15 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
       <string original="Samples">Nombre d'échantillons</string>
       <string original="Raw data">Données brutes</string>
       <category>Caméra</category>
+      <title>Caméra : spectre de luminosité</title>
+      <description>Affiche le spectre de fréquences des variations de luminosité mesurée par la caméra.
+
+Cette expérience mesure la luminosité dans la zone sélectionnée de l'image de la caméra et calcule le spectre de fréquences des fluctuations de luminosité dans le temps. Notez que la fréquence maximale de ce spectre est déterminée par la vitesse de votre caméra. La résolution du spectre peut être modifiée en utilisant davantage d'images (voir les paramètres), ce qui entraîne en contrepartie une réaction plus lente aux changements.
+
+Si vous utilisez le réglage exposition automatique de la caméra, sachez que la luminosité moyenne tendra vers 0,5 en peu de temps. Cela peut permettre un déclenchement fiable dans des conditions d’éclairage changeantes, mais cela peut également avoir un impact sur la précision des déclenchements et surtout sur les durées mesurées. Notez également que cette expérience utilise la luma plutôt que la luminance, c'est-à-dire une représentation non linéaire de la luminosité, qui peut être calculée plus rapidement. Cela signifie que la valeur ne sera pas comparable aux mesures de luminance et qu'elle est modifiée par les modifications des réglages d'exposition.
+</description>
+      <string original="Resolution">Résolution</string>
+      <string original="Preview">Aperçu</string>
     </translation>
     <translation locale="hi">
       <string original="Spectrum">वर्णक्रम</string>
@@ -266,6 +275,15 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
       <string original="Samples">Дискретизация</string>
       <string original="Raw data">Исходные данные</string>
+      <title>Спектр с камеры: яркость</title>
+      <category>Камера</category>
+      <description>Отображение частотного спектра изменений яркости, снимаемых камерой.
+
+Этот эксперимент измеряет яркость в выбранной области изображения камеры и вычисляет частотный спектр колебаний яркости. Учтите, что максимальная частота этого спектра определяется возможностями вашей камеры. Разрешение спектра можно изменить, задействовав большее число отсчётов (см. настройки); платой за это будет более медленная реакция на изменения.
+
+Если вы используете автоматическую экспозицию, учтите, что средняя яркость за короткое время сместится к значению 0,5. Это может обеспечить надёжное срабатывание при меняющемся освещении, но также способно снизить точность срабатываний и особенно измеряемых длительностей. Также обратите внимание, что этот секундомер использует luma, а не luminance, то есть нелинейное представление яркости, которое вычисляется быстрее. Это означает, что значение не будет сопоставимо с измерениями luminance и зависит от изменения настроек экспозиции.
+</description>
+      <string original="Luma">Люма</string>
     </translation>
     <translation locale="sr">
       <string original="Spectrum">Spektar</string>
@@ -468,6 +486,34 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Samples">샘플 수</string>
       <string original="Raw data">원 데이터</string>
       <string original="Luma">루마</string>
+    </translation>
+    <translation locale="az">
+      <title>Kamera spektri: Parlaqlıq</title>
+      <category>Kamera</category>
+      <description>Kameradan alınan parlaqlıq dəyişmələrinin tezlik spektrini göstərin.
+
+Bu təcrübə kamera təsvirinin seçilmiş sahəsindəki parlaqlığı ölçür və parlaqlıq dalğalanmalarının tezlik spektrini hesablayır. Nəzərə alın ki, bu spektrin maksimal tezliyi kameranızın imkanları ilə müəyyən olunur. Spektrin ayırdetməsini daha çox verilən nöqtəsi nəzərə alınmaqla dəyişmək olar (tənzimləmələrə baxın); bunun əvəzi isə dəyişikliklərə daha yavaş reaksiyadır.
+
+Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaqlıq qısa müddət ərzində 0,5-ə doğru sürüşəcək. Bu, dəyişən işıq şəraitində etibarlı işəsalmaya imkan verə bilər, lakin həm də triggerlərin və xüsusilə ölçülən müddətlərin dəqiqliyinə təsir edə bilər. Həmçinin nəzərə alın ki, bu saniyəölçən luminance əvəzinə luma-dan, yəni parlaqlığın daha sürətli hesablana bilən qeyri-xətti təsvirindən istifadə edir. Bu o deməkdir ki, dəyər luminance ölçmələri ilə müqayisə oluna bilməyəcək və dəyişən ekspozisiya tənzimləmələrindən təsirlənəcək.
+</description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Spectrum">Spektr</string>
+      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Fourier Transform">Furye çevrilməsi</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="FFT Mag">FFT amplitudu</string>
+      <string original="Samples used">İstifadə olunan nümunələr</string>
+      <string original="Period used">İstifadə olunan period</string>
+      <string original="Resolution">Ayırdetmə qabiliyyəti</string>
+      <string original="Acquisition rate">Toplama tezliyi</string>
+      <string original="Nyquist frequency">Naykvist tezliyi</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="History">Tarixçə</string>
+      <string original="Time">vaxt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Aşağıda Furye çevrilməsi üçün istifadə olunan nümunələrin sayını təyin edə bilərsiniz. Nümunə sayı çox olduqca yenilənmə yavaşlayır, lakin spektral ayırdetmə yüksəlir.</string>
+      <string original="Samples">Nümunələr</string>
+      <string original="Raw data">Xam verilənlər</string>
+      <string original="Luma">Parlaqlıq</string>
     </translation>
   </translations>
   <data-containers>

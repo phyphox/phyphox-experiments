@@ -716,6 +716,37 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Gyroscope y">자이로스코프 y</string>
       <string original="Gyroscope z">자이로스코프 z</string>
     </translation>
+    <translation locale="az">
+      <title>Rəqqas</title>
+      <category>Mexanika</category>
+      <description>
+        Telefonunuzdan rəqqas kimi istifadə edərək ağırlıq qüvvəsi sabitini (g=9,81 m/s²) təyin edin.
+
+        Bu təcrübə rəqqasın hərəkətini ölçmək üçün giroskopdan istifadə edir və rəqsin T periodunu hesablayır. İstifadəçi rəqqas üçün istifadə etdiyi ipin L uzunluğunu daxil etməlidir ki, phyphox g = 4π²L/T² hesablaya bilsin.
+
+        Alternativ olaraq, g-ni ölçmək əvəzinə uzunluq bölməsindən istifadə edib g = 9,81 m/s² qəbul etməklə rəqqasın hərəkətindən ipin uzunluğunu təyin edə bilərsiniz. (Əslində bu, asılma nöqtəsindən kütlə mərkəzinə qədər olan məsafədir.)
+
+        Əlavə olaraq, rezonans bölməsində amplitud aşkarlanan tezliyə görə qurulur. Beləliklə, məcburi rəqs sistemi qurub tezliyini dəyişməklə rezonans əyrisini ölçə bilərsiniz.
+
+        Ətraflı:
+        Rəqs periodu giroskopun hər üç bileşəninin cəminin avtokorrelyasiyası ilə alınır. Sonra avtokorrelyasiya ilkin qiymətləndirmə üçün ilk maksimumuna görə təhlil edilir, daha dəqiq nəticə almaq üçün isə avtokorrelyasiyanın sonuncu maksimumundan istifadə olunur.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Results">Nəticələr</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Length">Uzunluq</string>
+      <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Burada rəqqasınızın uzunluğunu (asılma nöqtəsindən kütlə mərkəzinə qədər) daxil edib yerin təcili g-ni təyin edə bilərsiniz.</string>
+      <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Burada g = 9,81 m/s² qəbul etməklə rəqqasınızın uzunluğunu (asılma nöqtəsindən kütlə mərkəzinə qədər) təyin edə bilərsiniz.</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="Rel. amplitude">Nisbi amplitud</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu bölmədə amplitud aşkarlanan tezliyə görə qurulur. Bundan məcburi rəqs sisteminin rezonansını ölçmək üçün istifadə edə bilərsiniz. Amplitud 0-dan 1-ə qədər diapazona normallaşdırılıb.</string>
+      <string original="Autocorrelation">Avtokorrelyasiya</string>
+      <string original="correlation">korrelyasiya</string>
+      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Gyroscope x">Giroskop x</string>
+      <string original="Gyroscope y">Giroskop y</string>
+      <string original="Gyroscope z">Giroskop z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyr_time</container>

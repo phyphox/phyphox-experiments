@@ -511,6 +511,28 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Recording">기록</string>
       <string original="Amplitude">진폭</string>
     </translation>
+    <translation locale="az">
+      <title>Səsin avtokorrelyasiyası</title>
+      <category>Akustika</category>
+      <description>
+        Tək tonun tezliyini ölçün.
+
+        Bu təcrübə mikrofondan səsi qeydə alır və onun tezliyini təhlil edir. Bu, yalnız sabit tezlikli tək ton olduqda işləyir — bir neçə tezlik varsa (məsələn, akkord), əvəzinə "spektr" təcrübəsindən istifadə edin.
+
+        Təhlil səs siqnalının avtokorrelyasiyasının hesablanması ilə aparılır. Sonra təcrübə avtokorrelyasiyada maksimal siqnalın yarısını keçən bütün pikləri nəzərə alır. Bu piklərdən sonuncusunun avtokorrelyasiyadakı mövqeyi siqnal periodunun tam misilini verir. Piklərin sayını hesablamaqla baza tezliyinin periodunu tapa bilərik.
+    </description>
+      <string original="Autocorr.">Avtokorr.</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Musical note">Musiqi notu</string>
+      <string original="Low">Aşağı</string>
+      <string original="High">Yuxarı</string>
+      <string original="Cents from note">Notdan sent fərqi</string>
+      <string original="Autocorrelation">Avtokorrelyasiya</string>
+      <string original="correlation">korrelyasiya</string>
+      <string original="Raw data">Xam verilənlər</string>
+      <string original="Recording">Yazılış</string>
+      <string original="Amplitude">Amplitud</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

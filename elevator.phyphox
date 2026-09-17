@@ -429,6 +429,25 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Pressure">압력</string>
       <string original="Accelerometer z">가속도계 z</string>
     </translation>
+    <translation locale="az">
+      <title>Lift</title>
+      <category>Gündəlik həyat</category>
+      <description>
+        Barometrdən istifadə edərək liftin sürətini təyin edin.
+
+        Qısa müddət ərzində hündürlükdəki dəyişiklikləri barometrlə çox dəqiq ölçmək olar — hətta GPS işləmədiyi yerlərdə belə. Bundan liftin şaquli sürətini almaq üçün istifadə etmək olar. Əlavə olaraq, təcil akselerometrin z bileşəni ilə ölçülür, ona görə də təcilin dəqiq ölçülməsi üçün telefon liftin döşəməsində düz uzanmalıdır.
+
+        Ətraflı:
+        Bu təcrübədəki küyün bir hissəsini aradan qaldırmaq üçün barometrin göstərişləri 1 s ərzində ortalanır. Ardıcıl ortalamaların fərqi beynəlxalq barometrik hündürlük düsturu ilə hündürlük fərqinə çevrilir. Hündürlük fərqinin vaxt fərqinə bölünməsi şaquli sürəti verir.
+    </description>
+      <string original="Motion">Hərəkət</string>
+      <string original="Altitude (from barometer)">Hündürlük (barometrdən)</string>
+      <string original="Vertical velocity (from altitude)">Şaquli sürət (hündürlükdən)</string>
+      <string original="z acceleration (from accelerometer)">z təcili (akselerometrdən)</string>
+      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Pressure">Təzyiq</string>
+      <string original="Accelerometer z">Akselerometr z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

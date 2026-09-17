@@ -631,6 +631,34 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Chirp">짹짹(처프)</string>
       <string original="Time">시간</string>
     </translation>
+    <translation locale="az">
+      <title>Sonar</title>
+      <category>Akustika</category>
+      <description>
+        Əks-səda və səsin sürəti vasitəsilə məsafələri ölçür.
+
+        Sonar qısa səs paketləri göndərir, onlar da ölçmək istədiyiniz cisimdən əks olunur. Səs təxminən 340 m/s sürətlə yayıldığı üçün əks-sədanın telefonunuzun mikrofonuna çatmasına qədər keçən vaxtdan istifadə edərək bu cismin məsafəsini hesablamaq olar.
+
+        Bu təcrübə bir "çirp" siqnalı yaradır, onu dinamikdən yayımlayır və yazılışa başlayır. Çirp siqnalı ilə qeydə alınmış verilənlərin çarpaz korrelyasiyası əks-sədaların hansı anda baş verdiyi haqqında məlumat verir. Sonra bu vaxtı səsin sürətinə vurmaqla (və səs gedib-qayıtdığı üçün 2-yə bölməklə) əks-sədanın yarandığı məsafəni alırsınız.
+
+        Lakin səs adətən hər istiqamətə yayılır. Sonar üçün bu o deməkdir ki, divarı hədəf alarkən eyni zamanda döşəmədən, tavandan, yaxınlıqdakı başqa divardan, dirəkdən və sadəcə ətrafdakı hər cür "sərt" səthdən də əkslər alırsınız. Buna görə də sonar sizə bütün əksləri verir və nəticəni şərh edərək hansı əksin ölçmək istədiyiniz hədəfə aid olduğunu müəyyən etmək sizin öhdənizdədir. Ona görə də kiçik və sərt bir hədəflə başlayın və digər bütün istiqamətləri köpük material ilə örtməyə çalışın. Həmçinin bunun üçün sakit mühit lazımdır.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Time series">Vaxt sırası</string>
+      <string original="Normalized history">Normallaşdırılmış tarixçə</string>
+      <string original="distance">Məsafə</string>
+      <string original="time">vaxt</string>
+      <string original="Echo location">Əks-sədanın yeri</string>
+      <string original="Speed of Sound">Səsin sürəti</string>
+      <string original="Normalized to spherical surface">Sferik səthə normallaşdırılıb</string>
+      <string original="Target distance">Hədəfə qədər məsafə</string>
+      <string original="Echo strength">Əks-sədanın gücü</string>
+      <string original="Timing">Vaxt ölçmə</string>
+      <string original="On this page you just get the measured delay.">Bu səhifədə sadəcə ölçülmüş gecikməni görürsünüz.</string>
+      <string original="Delay">Gecikmə</string>
+      <string original="Chirp">Çirp</string>
+      <string original="Time">vaxt</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

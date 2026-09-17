@@ -182,6 +182,14 @@
       <string original="Pressure">압력</string>
       <string original="Simple">단순</string>
     </translation>
+    <translation locale="az">
+      <title>Təzyiq</title>
+      <category>Xam sensorlar</category>
+      <description>Barometrdən xam verilənləri alın.</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Pressure">Təzyiq</string>
+      <string original="Simple">Sadə</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">pressure</container>

@@ -923,6 +923,47 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Minimum Delay">최소 지연</string>
       <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 먼저 음향 스톱워치 실험을 일반 시계와 비교하여 실험이 예상대로 작동하는지 확인하십시오. 그것이 작동한다면, 이 실험은 여기에서도 작동할 것입니다.</string>
     </translation>
+    <translation locale="az">
+      <title>(Qeyri-)elastik toqquşma</title>
+      <category>Mexanika</category>
+      <description>
+        Sıçrayan topun (qeyri-)elastik toqquşmaları zamanı itirilən enerjini təyin edin.
+
+        Prinsipcə, bu təcrübə akustik saniyəölçən təcrübəsi kimi işləyir. Lakin bu təcrübə səsin səthdən sıçrayan topdan (və ya oxşar bir şeydən) gəldiyini gözləyir və zərbə səsləri arasındakı intervalı təhlil edərək sıçrayış hündürlüyünü və ilk sıçrayışa nisbətən qalan kinetik enerjini hesablayır.
+
+        Həmçinin, topun ilk sıçrayışında kinetik enerjinin eyni faizini saxladığını qəbul edərək phyphox topun buraxıldığı ilkin 0 hündürlüyünü hesablayacaq.
+
+        Beləliklə, təcrübəni başladın və topu səthdən elə sıçratdırın ki, aydın eşidilən səs yaransın. Tənzimləmələrdə həddi (0-dan 1-ə qədər diapazonda) dəyişmək istəyə bilərsiniz ki, təcrübə topun səs səviyyəsinə reaksiya versin, fon küyünə isə yox. Həmçinin əks-səda ilə problem yaşayırsınızsa, minimal gecikməni də dəyişərək təcrübənin növbəti səsə reaksiya verməzdən əvvəl nəzərə almayacağı minimal intervalı təyin edə bilərsiniz.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Heights">Hündürlüklər</string>
+      <string original="Height 0">Hündürlük 0</string>
+      <string original="Height 1">Hündürlük 1</string>
+      <string original="Time 1">Vaxt 1</string>
+      <string original="Height 2">Hündürlük 2</string>
+      <string original="Time 2">Vaxt 2</string>
+      <string original="Height 3">Hündürlük 3</string>
+      <string original="Time 3">Vaxt 3</string>
+      <string original="Height 4">Hündürlük 4</string>
+      <string original="Time 4">Vaxt 4</string>
+      <string original="Height 5">Hündürlük 5</string>
+      <string original="Time 5">Vaxt 5</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Energy">Enerji</string>
+      <string original="Energy 1">Enerji 1</string>
+      <string original="Energy 2">Enerji 2</string>
+      <string original="Retained on collision 2">2-ci toqquşmada saxlanılan</string>
+      <string original="Energy 3">Enerji 3</string>
+      <string original="Retained on collision 3">3-cü toqquşmada saxlanılan</string>
+      <string original="Energy 4">Enerji 4</string>
+      <string original="Retained on collision 4">4-cü toqquşmada saxlanılan</string>
+      <string original="Energy 5">Enerji 5</string>
+      <string original="Retained on collision 5">5-ci toqquşmada saxlanılan</string>
+      <string original="Average retained">Orta hesabla saxlanılan</string>
+      <string original="Threshold">Hədd</string>
+      <string original="Minimum Delay">Minimal gecikmə</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Təəssüf ki, bu, yavaş telefonlarda işləməyəcək. Əvvəlcə akustik saniyəölçən təcrübəsini adi saatla müqayisə edərək onun gözlənildiyi kimi işlədiyinə əmin olun. Əgər o işləyirsə, bu təcrübə də işləməlidir.</string>
+    </translation>
   </translations>
   <data-containers>
     <container clearGroup="Settings">threshold</container>

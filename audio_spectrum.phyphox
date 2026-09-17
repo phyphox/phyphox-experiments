@@ -160,6 +160,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
       <string original="Off">Выкл.</string>
       <string original="On">Вкл.</string>
       <string original="Resolution">Разрешение</string>
+      <string original="White noise">Белый шум</string>
     </translation>
     <translation locale="it">
       <title>Spettro Audio</title>
@@ -362,6 +363,8 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Amplitude">Intensité</string>
       <string original="Status">État</string>
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Générateur de bruit blanc. (Il est préférable de baisser le volume d'abord : le son peut être désagréable.)</string>
+      <string original="Resolution">Résolution</string>
+      <string original="White noise">Bruit blanc</string>
     </translation>
     <translation locale="vi">
       <title>Phổ âm thanh</title>
@@ -673,6 +676,37 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Raw data">원 데이터</string>
       <string original="Recording">기록</string>
       <string original="Amplitude">진폭</string>
+    </translation>
+    <translation locale="az">
+      <title>Səs spektri</title>
+      <category>Akustika</category>
+      <description>
+            Səs siqnalının tezlik spektrini göstərin.
+
+            Bu təcrübə mikrofondan səsi qeydə alır və Furye çevrilməsi (FFT) vasitəsilə onun tezlik spektrini hesablayır. Yalnız bir tezlikli tək ton varsa, "avtokorrelyasiya" səs təcrübəsindən daha dəqiq nəticə ala bilərsiniz.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Spectrum">Spektr</string>
+      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Musical note">Musiqi notu</string>
+      <string original="Low">Aşağı</string>
+      <string original="High">Yuxarı</string>
+      <string original="Cents from note">Notdan sent fərqi</string>
+      <string original="Fourier Transform">Furye çevrilməsi</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="FFT Mag">FFT amplitudu</string>
+      <string original="Samples used">İstifadə olunan nümunələr</string>
+      <string original="Period used">İstifadə olunan period</string>
+      <string original="Resolution">Ayırdetmə qabiliyyəti</string>
+      <string original="History">Tarixçə</string>
+      <string original="Time">vaxt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Aşağıda Furye çevrilməsi üçün istifadə olunan nümunələrin sayını təyin edə bilərsiniz. Nümunə sayı çox olduqca yenilənmə yavaşlayır, lakin spektral ayırdetmə yüksəlir.</string>
+      <string original="Samples">Nümunələr</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Ağ küy generatoru. (Uca ola bilər. Zəhmət olmasa əvvəlcə səs səviyyəsini azaldın.)</string>
+      <string original="White noise">Ağ küy</string>
+      <string original="Raw data">Xam verilənlər</string>
+      <string original="Recording">Yazılış</string>
+      <string original="Amplitude">Amplitud</string>
     </translation>
   </translations>
   <data-containers>

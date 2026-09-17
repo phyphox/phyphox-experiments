@@ -734,6 +734,38 @@ Bu deneyler mikrofonu kısa aralıklarla kaydeder ve ses basınç seviyesini (SB
       <string original="Why can't we get a better calibration?">더 나은 보정을 얻을 수 없는 이유는 무엇입니까?</string>
       <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">우리는 학생들이 서로 다른 기기에서도 서로 비교할 수 있는 데이터를 얻을 수 있도록 간단한 절차를 마련하고자 했습니다. 적절한 장비가 있다면 마이크의 진동수 의존성을 보정할 수 있으며, 비선형 응답까지 보정하는 것도 가능합니다. 이러한 장비를 갖추고 있어 직접 시도해 보고 싶으시다면 언제든 알려주세요. phyphox에는 더 고급 보정 기술을 적용할 수 있는 실험들이 이미 준비되어 있습니다.</string>
     </translation>
+    <translation locale="az">
+      <title>Səsin amplitudu</title>
+      <category>Akustika</category>
+      <description>
+        Səslərin amplitudunu alın.
+
+        Bu təcrübə sadəcə mikrofondan qısa intervallar qeydə alır və səs təzyiqi səviyyəsini (SPL) hesablayır. Nəzərə alın ki, bu hesablama olduqca sadə yanaşmadır və nəticələr kifayət qədər qeyri-dəqiq ola bilər. Həmçinin ölçməni kalibrləmək üçün istinad dəyəri verməlisiniz.
+    </description>
+      <string original="Calibration">Kalibrləmə</string>
+      <string original="Amplitude">Amplitud</string>
+      <string original="Status">Vəziyyət</string>
+      <string original="NOT calibrated">KALİBRLƏNMƏYİB</string>
+      <string original="calibrated">kalibrlənib</string>
+      <string original="Sound pressure level">Səs təzyiqi səviyyəsi</string>
+      <string original="History">Tarixçə</string>
+      <string original="Time">vaxt</string>
+      <string original="Clear history">Tarixçəni təmizlə</string>
+      <string original="Please see the calibration tab to get proper results.">Düzgün nəticə almaq üçün kalibrləmə bölməsinə baxın.</string>
+      <string original="Reference SPL">İstinad SPL</string>
+      <string original="Calibrate">Kalibrlə</string>
+      <string original="Calibration offset">Kalibrləmə sürüşməsi</string>
+      <string original="If you have done this before or on an identical device you may just enter the calibration offset from your previous calibration directly and press 'set offset'.">Əgər bunu əvvəllər və ya eyni model cihazda etmisinizsə, əvvəlki kalibrləmədən aldığınız kalibrləmə sürüşməsini birbaşa daxil edib 'sürüşməni təyin et' düyməsini basa bilərsiniz.</string>
+      <string original="Custom offset">Fərdi sürüşmə</string>
+      <string original="Set offset">Sürüşməni təyin et</string>
+      <string original="FAQ">Tez-tez verilən suallar</string>
+      <string original="How accurate are these results?">Bu nəticələr nə dərəcədə dəqiqdir?</string>
+      <string original="For teaching and exploring? Probably good enough. For serious studies? Probably not, but other apps might perform better (see below). For scientific or health-related applications? Certainly not, get a dedicated device for this.">Tədris və araşdırma üçün? Yəqin ki, kifayət qədər yaxşıdır. Ciddi tədqiqatlar üçün? Yəqin ki, yox, lakin digər tətbiqlər daha yaxşı nəticə verə bilər (aşağıya baxın). Elmi və ya sağlamlıqla bağlı məqsədlər üçün? Qətiyyən yox, bunun üçün ixtisaslaşmış cihaz alın.</string>
+      <string original="Why isn't this already calibrated?">Bu niyə artıq kalibrlənməyib?</string>
+      <string original="phyphox is available on more than 10000 devices. Most of them have different microphones, different electronics and different software - all affecting their response to sound. We cannot calibrate them all, but in some cases there are apps which only target a limited number of devices (like apps specific to iPhones) which can calibrate these few devices. If you are interested in better results without calibration, you should check out specific apps for your device.">phyphox 10000-dən çox cihazda mövcuddur. Onların əksəriyyətində fərqli mikrofonlar, fərqli elektronika və fərqli proqram təminatı var — bunların hamısı səsə cavab reaksiyasına təsir edir. Biz onların hamısını kalibrləyə bilmərik, lakin bəzi hallarda yalnız məhdud sayda cihazı hədəf alan tətbiqlər (məsələn, yalnız iPhone üçün olanlar) bu bir neçə cihazı kalibrləyə bilir. Kalibrləmə olmadan daha yaxşı nəticə ilə maraqlanırsınızsa, cihazınıza uyğun ixtisaslaşmış tətbiqlərə baxın.</string>
+      <string original="Why can't we get a better calibration?">Niyə daha yaxşı kalibrləmə edə bilmirik?</string>
+      <string original="We wanted a simple procedure to allow students to get comparable data across different devices. With decent equipment you could calibrate the frequency dependency of your microphone as well and maybe even compensate for non-linear responses. If you have such equipment and want to try it, please let us know - we already have phyphox-experiments that allow for more advanced calibration techniques.">Biz şagirdlərin müxtəlif cihazlarda müqayisə oluna bilən verilənlər almasına imkan verən sadə bir üsul istəyirdik. Yaxşı avadanlıqla mikrofonunuzun tezlik asılılığını da kalibrləmək, hətta qeyri-xətti cavab reaksiyalarını kompensasiya etmək mümkündür. Belə avadanlığınız varsa və sınamaq istəyirsinizsə, bizə bildirin — daha təkmil kalibrləmə üsullarına imkan verən phyphox təcrübələrimiz artıq var.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="4800">recording</container>

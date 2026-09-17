@@ -305,6 +305,20 @@
       <string original="Acceleration">가속도</string>
       <string original="Simple">단순</string>
     </translation>
+    <translation locale="az">
+      <title>g ilə təcil</title>
+      <category>Xam sensorlar</category>
+      <description>Akselerometrdən xam verilənləri alın. Bu sensor ağırlıq qüvvəsini çıxmır, ona görə də telefon hərəkətsiz olduqda belə 9,81 m/s² təcil göstərəcək.</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Accelerometer x">Akselerometr x</string>
+      <string original="Accelerometer y">Akselerometr y</string>
+      <string original="Accelerometer z">Akselerometr z</string>
+      <string original="Absolute">Mütləq</string>
+      <string original="Absolute acceleration">Mütləq təcil</string>
+      <string original="Multi">Çoxlu</string>
+      <string original="Acceleration">Təcil</string>
+      <string original="Simple">Sadə</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">accX</container>

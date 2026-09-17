@@ -411,6 +411,24 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
       <string original="Time">시간</string>
       <string original="Angular velocity">각속도</string>
     </translation>
+    <translation locale="az">
+      <title>Mərkəzəqaçma təcili</title>
+      <category>Mexanika</category>
+      <description>
+        Mərkəzəqaçma təcilini bucaq sürətinin funksiyası kimi göstərin.
+
+        Bu təcrübə giroskopdan ω bucaq sürətinin mütləq qiymətini, akselerometrdən isə a mütləq təcilini hesablayır. a-nı ω-ya görə qurmaqla a = r·ω² asılılığını asanlıqla göstərmək olar, deməli ω²-yə görə qurulan qrafik düz xətt verməlidir.
+
+        Bunu görmək üçün müxtəlif bucaq sürətlərində, lakin sabit radiusda ölçmə aparmalısınız. Salat quruducusu və ya kiçik karusel bunun üçün əla uyğun gəlir.
+    </description>
+      <string original="Relation">Asılılıq</string>
+      <string original="Acceleration">Təcil</string>
+      <string original="Angular velocity ω">Bucaq sürəti ω</string>
+      <string original="Acceleration a">Təcil a</string>
+      <string original="Square plot">Kvadratik qrafik</string>
+      <string original="Time">vaxt</string>
+      <string original="Angular velocity">Bucaq sürəti</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1">acc_result</container>

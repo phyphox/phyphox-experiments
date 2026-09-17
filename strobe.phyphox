@@ -50,6 +50,7 @@
     <translation locale="fr">
       <string original="Frequency">Fréquence</string>
       <string original="Period">Période</string>
+      <string original="Preview">Aperçu</string>
     </translation>
     <translation locale="hi">
       <string original="Frequency">आवृत्ति</string>
@@ -86,6 +87,17 @@
       <string original="Frequency">Частота</string>
       <string original="Period">Период</string>
       <string original="Preview">Предварительный просмотр</string>
+      <title>Стробоскоп из фонарика</title>
+      <category>Инструменты</category>
+      <description>Включение и выключение фонарика телефона с настраиваемой частотой. Учтите, что вспышка не рассчитана на переключение с точным таймингом. В зависимости от модели телефона доступные частоты могут быть ограничены. Обратите внимание на информацию под органами управления стробоскопом.</description>
+      <string original="Strobe">Стробоскоп</string>
+      <string original="Brightness">Яркость</string>
+      <string original="Duty cycle">Коэффициент заполнения</string>
+      <string original="Reset duty cycle to 0.5">Сбросить коэффициент заполнения до 0,5</string>
+      <string original="On duration">Длительность включения</string>
+      <string original="Off duration">Длительность выключения</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">Максимально возможная частота зависит от модели телефона и не может быть проверена phyphox. Медленно увеличивайте частоту стробоскопа и следите за излучаемым светом. Если вы заметите неравномерное мерцание или резкое изменение яркости, считайте, что достигнут предел частоты и что более высокие частоты вспышек ваш телефон корректно воспроизводить не будет.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">Наибольшая частота достигается при коэффициенте заполнения 0,5, когда моменты переключения распределены равномерно. Длительности включения и выключения подсвечиваются красным, если они ниже типичных пределов, однако у вашего телефона пределы могут быть меньше или больше.</string>
     </translation>
     <translation locale="sr">
       <string original="Frequency">Frekvencija</string>
@@ -124,6 +136,15 @@
       <string original="Preview">预览</string>
       <category>工具</category>
       <string original="Brightness">亮度</string>
+      <title>手电筒频闪仪</title>
+      <description>切换手机闪光灯的频率，并可进行调节。请注意，闪光灯并非设计用于精确控制闪烁时间。根据手机型号的不同，可用频率可能有限。请参阅频闪控制下方的说明信息。</description>
+      <string original="Strobe">频闪</string>
+      <string original="Duty cycle">占空比</string>
+      <string original="Reset duty cycle to 0.5">重置占空比为 0.5</string>
+      <string original="On duration">开启持续时间</string>
+      <string original="Off duration">关闭持续时间</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">不同手机型号的最大闪光频率各不相同，phyphox 无法验证。请缓慢增加频闪频率，并观察闪光灯的发光情况。如果您发现闪光灯闪烁不定或亮度突然变化，则说明您已达到最大频率，更高的闪光频率将无法被手机正确模拟。</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">当占空比为 0.5 时，开关事件的间隔会更均匀，从而实现最高的频率。低于典型值的开启/关闭持续时间将以红色突出显示，但您手机的实际值可能更高或更低。</string>
     </translation>
     <translation locale="zh_Hant">
       <string original="Frequency">頻率</string>
@@ -163,6 +184,21 @@
       <string original="Preview">미리보기</string>
       <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">최대 가능 진동수는 휴대폰 모델에 따라 다르며 phyphox에서 검증할 수 없습니다. 스트로보스코프 진동수를 천천히 올리면서 나오는 빛을 주시하세요. 불규칙한 깜빡임이나 갑작스러운 밝기 변화가 느껴진다면 최대 진동수에 도달한 것이며, 그보다 높은 점멸 속도는 휴대폰에서 올바르게 구현되지 않는 것으로 간주해야 합니다.</string>
       <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">스위칭 간격을 균일하게 유지하기 위해 듀티 사이클을 0.5로 설정할 때 가장 높은 진동수를 얻을 수 있습니다. 켜짐 및 꺼짐 시간이 일반적인 제한 수준 아래로 떨어지면 빨간색으로 강조 표시되지만, 사용 중인 휴대폰의 실제 제한 수준은 이보다 낮거나 높을 수 있습니다.</string>
+    </translation>
+    <translation locale="az">
+      <title>Fənər stroboskopu</title>
+      <category>aAlətlər</category>
+      <description>Telefonunuzun fənərini tənzimlənə bilən tezliklə yandırıb-söndürün. Nəzərə alın ki, fənər dəqiq vaxt ölçüsü ilə yandırılıb-söndürülmək üçün nəzərdə tutulmayıb. Telefonunuzun modelindən asılı olaraq istifadə oluna bilən tezliklər məhdud ola bilər. Zəhmət olmasa stroboskop idarəetmələrinin altında göstərilən məlumata diqqət yetirin.</description>
+      <string original="Strobe">Stroboskop</string>
+      <string original="Brightness">Parlaqlıq</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Duty cycle">Doldurma əmsalı</string>
+      <string original="Reset duty cycle to 0.5">Doldurma əmsalını 0,5-ə qaytar</string>
+      <string original="On duration">Yanma müddəti</string>
+      <string original="Off duration">Sönmə müddəti</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">Mümkün olan maksimal tezlik telefon modellərinə görə dəyişir və phyphox tərəfindən yoxlana bilməz. Stroboskopun tezliyini yavaş-yavaş artırın və yayılan işığı izləyin. Qeyri-müntəzəm sayrışma və ya parlaqlıqda qəfil dəyişiklik hiss etsəniz, maksimal tezliyə çatdığınızı və daha yüksək yanıb-sönmə tezliklərinin telefonunuz tərəfindən düzgün əks etdirilməyəcəyini güman etməlisiniz.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">Ən yüksək tezliyə keçid hadisələrini bərabər paylamaq üçün 0,5 doldurma əmsalı ilə nail olmaq olar. Yanma və sönmə müddətləri tipik hədlərdən aşağı olduqda qırmızı rənglə işarələnəcək, lakin telefonunuzun hədləri daha aşağı və ya daha yüksək ola bilər.</string>
     </translation>
   </translations>
   <data-containers>

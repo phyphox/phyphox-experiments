@@ -280,6 +280,19 @@
       <string original="Gyroscope">자이로스코프</string>
       <string original="Simple">단순</string>
     </translation>
+    <translation locale="az">
+      <title>Giroskop (dönmə sürəti)</title>
+      <category>Xam sensorlar</category>
+      <description>Giroskopdan xam verilənləri alın.</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Gyroscope x">Giroskop x</string>
+      <string original="Gyroscope y">Giroskop y</string>
+      <string original="Gyroscope z">Giroskop z</string>
+      <string original="Absolute">Mütləq</string>
+      <string original="Multi">Çoxlu</string>
+      <string original="Gyroscope">Giroskop</string>
+      <string original="Simple">Sadə</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">gyrX</container>

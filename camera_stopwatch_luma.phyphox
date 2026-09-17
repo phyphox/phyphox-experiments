@@ -252,6 +252,26 @@ Falls du die automatische Belichtung aktiviert hast, solltest du beachten, dass 
       <string original="Average interval">Moyenne de l'intervalle de temps</string>
       <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
       <category>Caméra</category>
+      <title>Caméra : chronomètre, luminosité</title>
+      <description>Mesure l'intervalle entre deux variations de luminosité, provoquées par exemple par le passage d’objets devant la caméra.
+
+Cette expérience vous permet de définir un seuil inférieur et un seuil supérieur pour la luminosité moyenne (plus précisément : la luminance) dans le rectangle de mesure. Si la luminosité dépasse le seuil supérieur ou descend en dessous du seuil inférieur, cela déclenche un évènement. Les intervalles entre les différents événements ainsi que leurs durées sont enregistrés.
+
+La résolution temporelle est déterminée par la fréquence de l'aperçu d'images de la caméra, qui est généralement fixée à 30 images par seconde, ce qui correspond à un intervalle d'échantillonnage de 33 ms. Notez que phyphox utilise le flux de prévisualisation de la caméra pour l’analyse en temps réel, qui est limité à cette fréquence. Si votre téléphone propose des enregistrements en haute vitesse ou au ralenti, les fréquences d’images plus élevées ne sont disponibles que lors de l’enregistrement (et non en temps réel), et ne peuvent pas être utilisées par phyphox pour le moment.
+
+Si vous utilisez le réglage exposition automatique de la caméra, sachez que la luminosité moyenne tendra vers 0,5 en peu de temps. Cela peut permettre un déclenchement fiable dans des conditions d’éclairage changeantes, mais cela peut également avoir un impact sur la précision des déclenchements et surtout sur les durées mesurées. Notez par ailleurs que ce chronomètre utilise la luma plutôt que la luminance, c’est-à-dire une représentation non linéaire de la luminosité, qui peut être calculée plus rapidement. Cela signifie que la valeur ne sera pas comparable aux mesures de luminance et qu’elle est influencée par les changements de réglages d’exposition.
+</description>
+      <string original="Preview">Aperçu</string>
+      <string original="Trigger range">Plage de déclenchement</string>
+      <string original="Trigger">Déclenchement</string>
+      <string original="outside range">en dehors de la plage</string>
+      <string original="inside range">en dedans de la plage</string>
+      <string original="State">État</string>
+      <string original="Idle">En attente</string>
+      <string original="Triggered">Déclenché</string>
+      <string original="Frame rate">Images par seconde</string>
+      <string original="Trigger on events">Déclenchements</string>
+      <string original="Trigger durations">Durée des déclenchements</string>
     </translation>
     <translation locale="hi">
       <string original="Settings">सेटिंग्स</string>
@@ -588,6 +608,27 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Average interval">Средний интервал</string>
       <string original="Average rate (bpm)">Средняя частота (bpm)</string>
       <string original="1/min">1/мин</string>
+      <title>Секундомер с камерой: яркость</title>
+      <category>Камера</category>
+      <description>Измерение промежутков времени между изменениями яркости, например вызванными проходящими объектами.
+
+Эта конфигурация позволяет задать нижний и верхний пороги для средней яркости (точнее — luminance) в измерительном прямоугольнике. Если яркость превышает верхний порог или опускается ниже нижнего, текущее время фиксируется как событие срабатывания. Записываются как промежутки между отдельными событиями, так и длительность самих событий.
+
+Временное разрешение определяется частотой кадров предварительного просмотра камеры, которая обычно фиксирована на 30 кадрах/с, что даёт период дискретизации 33 мс. Учтите, что для анализа в реальном времени phyphox использует поток предварительного просмотра камеры, ограниченный этой частотой. Если ваш телефон поддерживает высокоскоростную или замедленную съёмку, более высокие частоты кадров доступны только при записи (не в реальном времени), а запись phyphox сейчас не использует.
+
+Если вы используете автоматическую экспозицию, учтите, что средняя яркость за короткое время сместится к значению 0,5. Это может обеспечить надёжное срабатывание при меняющемся освещении, но также способно снизить точность срабатываний и особенно измеряемых длительностей. Также обратите внимание, что этот секундомер использует luma, а не luminance, то есть нелинейное представление яркости, которое вычисляется быстрее. Это означает, что значение не будет сопоставимо с измерениями luminance и зависит от изменения настроек экспозиции.
+</description>
+      <string original="Trigger range">Диапазон срабатывания</string>
+      <string original="Trigger">Срабатывание</string>
+      <string original="outside range">вне диапазона</string>
+      <string original="inside range">в диапазоне</string>
+      <string original="State">Состояние</string>
+      <string original="Idle">Ожидание</string>
+      <string original="Triggered">Сработало</string>
+      <string original="Luma">Люма</string>
+      <string original="Frame rate">Частота кадров</string>
+      <string original="Trigger on events">События срабатывания</string>
+      <string original="Trigger durations">Длительность срабатываний</string>
     </translation>
     <translation locale="sr">
       <string original="Settings">Podešavanja</string>
@@ -1029,6 +1070,64 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Average interval">평균 간격</string>
       <string original="Average rate">평균 비율</string>
       <string original="Average rate (bpm)">평균 비율(bpm)</string>
+    </translation>
+    <translation locale="az">
+      <title>Kamera saniyəölçəni: Parlaqlıq</title>
+      <category>Kamera</category>
+      <description>Parlaqlıq dəyişiklikləri arasındakı vaxtı ölçün; məsələn, obyektlərin kameranın qarşısından keçməsi nəticəsində yaranan dəyişiklikləri.
+
+Bu konfiqurasiya ölçmə düzbucaqlısındakı orta parlaqlıq (daha dəqiq desək, işıqlılıq — luminance) üçün aşağı və yuxarı hədd təyin etməyə imkan verir. Parlaqlıq yuxarı həddi keçdikdə və ya aşağı həddən aşağı düşdükdə, həmin an işə düşmə hadisəsi kimi qeydə alınır. Müxtəlif hadisələr arasındakı vaxt, həmçinin bu hadisələrin davametmə müddəti qeydə alınır.
+
+Zaman üzrə ayırdetmə qabiliyyəti kameranın önizləmə kadr tezliyi ilə müəyyən edilir. Bu tezlik adətən 30 kadr/s (fps) olur və nəticədə təxminən 33 ms ölçmə intervalı əldə edilir. phyphox real vaxt analizində kameranın önizləmə görüntüsündən istifadə etdiyinə görə bu tezliklə məhdudlaşır. Telefon yüksək sürətli və ya yavaşladılmış video çəkilişini dəstəkləsə belə, daha yüksək kadr tezliyi yalnız video yazısı zamanı mümkündür, real vaxt rejimində deyil. Hazırda phyphox bu rejimdən istifadə etmir.
+
+Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaqlıq qısa müddət ərzində 0,5 qiymətinə doğru dəyişəcək. Bu, dəyişən işıq şəraitində etibarlı işə düşməni təmin edə bilər, lakin işə düşmə anlarının dəqiqliyinə və xüsusilə ölçülən müddətlərə təsir göstərə bilər. Həmçinin nəzərə alın ki, bu saniyəölçən luminance əvəzinə luma istifadə edir, yəni parlaqlığın daha sürətli hesablana bilən qeyri-xətti təsvirindən istifadə olunur. Buna görə alınan qiymət luminance ölçmələri ilə birbaşa müqayisə edilə bilməz və ekspozisiya parametrlərinin dəyişməsindən təsirlənir.
+</description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="Trigger range">Trigger diapazonu</string>
+      <string original="outside range">diapazondan kənar</string>
+      <string original="inside range">diapazon daxilində</string>
+      <string original="State">Vəziyyət</string>
+      <string original="Idle">Gözləmə</string>
+      <string original="Triggered">İşə düşdü</string>
+      <string original="Luma">Parlaqlıq</string>
+      <string original="Frame rate">Kadr tezliyi</string>
+      <string original="Sequence">Ardıcıllıq</string>
+      <string original="Time 1">Vaxt 1</string>
+      <string original="Time 2">Vaxt 2</string>
+      <string original="Time 3">Vaxt 3</string>
+      <string original="Time 4">Vaxt 4</string>
+      <string original="Time 5">Vaxt 5</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Parallel">Paralel</string>
+      <string original="Duration">Müddət</string>
+      <string original="Trigger duration 0">Trigger müddəti 0</string>
+      <string original="Trigger duration 1">Trigger müddəti 1</string>
+      <string original="Trigger duration 2">Trigger müddəti 2</string>
+      <string original="Trigger duration 3">Trigger müddəti 3</string>
+      <string original="Trigger duration 4">Trigger müddəti 4</string>
+      <string original="Trigger duration 5">Trigger müddəti 5</string>
+      <string original="Triggers">Triggerlər</string>
+      <string original="Trigger on 0">Trigger açıq 0</string>
+      <string original="Trigger off 0">Trigger bağlı 0</string>
+      <string original="Trigger on 1">Trigger açıq 1</string>
+      <string original="Trigger off 1">Trigger bağlı 1</string>
+      <string original="Trigger on 2">Trigger açıq 2</string>
+      <string original="Trigger off 2">Trigger bağlı 2</string>
+      <string original="Trigger on 3">Trigger açıq 3</string>
+      <string original="Trigger off 3">Trigger bağlı 3</string>
+      <string original="Trigger on 4">Trigger açıq 4</string>
+      <string original="Trigger off 4">Trigger bağlı 4</string>
+      <string original="Trigger on 5">Trigger açıq 5</string>
+      <string original="Trigger off 5">Trigger bağlı 5</string>
+      <string original="Many">Çoxlu</string>
+      <string original="Trigger on events">İşə düşmə hadisələri</string>
+      <string original="Event number">Hadisənin nömrəsi</string>
+      <string original="Time interval">Vaxt intervalı</string>
+      <string original="Trigger durations">Tətikləmə müddətləri</string>
+      <string original="Average interval">Orta interval</string>
+      <string original="Average rate">Orta tezlik</string>
+      <string original="Average rate (bpm)">Orta tezlik (vurğu/dəq)</string>
     </translation>
   </translations>
   <data-containers>

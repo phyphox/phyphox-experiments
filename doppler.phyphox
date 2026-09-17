@@ -452,6 +452,26 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">진동수</string>
       <string original="Speed">속력</string>
     </translation>
+    <translation locale="az">
+      <title>Dopler effekti</title>
+      <category>Akustika</category>
+      <description>
+        Dopler effektinin kiçik tezlik sürüşmələrini aşkarlayın.
+
+        Sizə sabit tezlik (məsələn, 1000 Hz) yayan ton generatoru lazımdır. Bu baza tezliyini təcrübənin quraşdırma bölməsinə daxil edin və Dopler sürüşməsi gözlədiyiniz aşkarlama diapazonunu (məsələn, 10 Hz) seçin. Təcrübə qeydə alınan tezliyi təyin edəcək və səs mənbəyinin nisbi sürətini hesablayacaq.
+    </description>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Setup">Quraşdırma</string>
+      <string original="Base frequency">Baza tezliyi</string>
+      <string original="Frequency range">Tezlik diapazonu</string>
+      <string original="Time step">Vaxt addımı</string>
+      <string original="Speed of sound">Səsin sürəti</string>
+      <string original="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step.">Vaxt addımı tək bir sürət nöqtəsini hesablamaq üçün istifadə olunan verilənlərin tezliyini və miqdarını təyin edir. Alqoritm baza tezliyi ətrafında -diapazondan +diapazona qədər tezlik axtaracaq və tezliyi təyin etmək üçün n-ci perioddan (aşağıda) istifadə edəcək. Diapazon və ya vaxt addımı üçün həddindən artıq dəyərlər qeyri-dəqiq ola, yaxud telefonunuz üçün hesablanması çox çətin ola bilər. Həmçinin diapazonu 1/addım qiymətindən nəzərəçarpacaq dərəcədə kiçik saxlamalısınız.</string>
+      <string original="nth period">n-ci period</string>
+      <string original="Results">Nəticələr</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Speed">Sürət</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="48000">recording</container>

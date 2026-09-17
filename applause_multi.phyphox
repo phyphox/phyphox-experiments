@@ -489,6 +489,29 @@ Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werde
       <string original="Reset last score">최종 점수 초기화</string>
       <string original="Clear all scores">전체 점수 삭제</string>
     </translation>
+    <translation locale="az">
+      <title>Alqış ölçən</title>
+      <category>Gündəlik həyat</category>
+      <description>
+        Alqışın uzunluğuna və amplituduna görə bal verin.
+
+        Bu təcrübə səsin amplitudunu zamana görə inteqrallayır və bal verir. Beləliklə, uca və uzun alqış daha yüksək bal alır. Bir neçə iştirakçını qiymətləndirib onların nəticələrini sütunlu diaqramda müqayisə edə bilərsiniz.
+
+        İstifadə: Tarixçə phyphox-un aşkarladığı səs səviyyəsini göstərir. Bal toplamağa "başlat" düyməsi ilə başlaya, "dayandır" düyməsi ilə dayandıra bilərsiniz. Bu müddət ərzində balın artdığını görəcəksiniz; bu, həm də sarı sütunla göstərilir. Dayandırdıqdan sonra növbəti balı ölçməyə hazırlaşmaq üçün "növbəti iştirakçı" düyməsini basa bilərsiniz. "başlat" düyməsini yenidən basdıqda, siz "dayandır" düyməsini basana qədər ikinci sütun böyüyəcək. Bir neçə balı müqayisə etmək üçün bunu istədiyiniz qədər təkrarlaya bilərsiniz.
+    </description>
+      <string original="Score">Bal</string>
+      <string original="History">Tarixçə</string>
+      <string original="Time">vaxt</string>
+      <string original="Subscore">Aralıq bal</string>
+      <string original="Scores">Ballar</string>
+      <string original="Contestant">İştirakçı</string>
+      <string original="Start">Başlat</string>
+      <string original="Stop">Dayandır</string>
+      <string original="Next contestant">Növbəti iştirakçı</string>
+      <string original="Controls">İdarəetmə</string>
+      <string original="Reset last score">Sonuncu balı sıfırla</string>
+      <string original="Clear all scores">Bütün balları təmizlə</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="9600">recording</container>

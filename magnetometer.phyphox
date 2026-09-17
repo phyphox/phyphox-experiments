@@ -589,6 +589,33 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Help">도움말</string>
       <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">자력계는 항상 스마트폰의 전자 제품 내부에서 발생하는 자기장에 노출되기 때문에, 부정확한 값을 나타낼 수 있습니다. 따라서 phyphox는 시스템에서 보정된 자기장을 측정하려고 합니다. 아직 센서 보정이 완료되지 않은 경우(예: 스마트폰을 켠 직후) 데이터를 가져오지 못할 수도 있습니다. 이 경우 실험이 실행되는 동안 스마트폰을 몇 번 회전시켜 주면 시스템이 센서를 보정하는 데 도움이 됩니다. 또한 일부 기기에서는 오른쪽 상단 메뉴를 통해 보정되지 않은 원시 자력계 데이터로 전환할 수도 있습니다.</string>
     </translation>
+    <translation locale="az">
+      <title>Maqnitometr</title>
+      <category>Xam sensorlar</category>
+      <description>
+        Maqnitometrdən xam verilənləri alın.
+
+        Maqnitometr kompas rolunu oynamaq üçün yerin maqnit sahəsini ölçmək məqsədilə hazırlandığından olduqca həssasdır. Lakin o, həmişə telefonunuzdakı elektronikadan gələn daxili sahələrə məruz qalır və bu, yanlış nəticələrə gətirib çıxarır. Buna görə də phyphox sistemdən kalibrlənmiş maqnit sahəsini almağa çalışır. Bəzi hallarda, sensor hələ kalibrlənməyibsə (məsələn, telefon yenicə işə salınıbsa), heç bir verilən almaya bilərsiniz. Bu halda təcrübə işləyərkən telefonunuzu bir neçə dəfə fırladın. Bu, sistemə sensoru kalibrləməyə kömək edir. Həmçinin bir çox cihazda (hamısında yox) sağ yuxarıdakı menyu vasitəsilə kalibrlənməmiş maqnitometr verilənlərinə keçə bilərsiniz.
+
+        Telefonunuzu güclü maqnit sahələrinə məruz qoymayın!
+    </description>
+      <string original="Graph">Qrafik</string>
+      <string original="Accuracy">Dəqiqlik</string>
+      <string original="Uncalibrated">Kalibrlənməyib</string>
+      <string original="Raw data">Xam verilənlər</string>
+      <string original="Low">Aşağı</string>
+      <string original="Medium">Orta</string>
+      <string original="High">Yuxarı</string>
+      <string original="Magnetometer x">Maqnitometr x</string>
+      <string original="Magnetometer y">Maqnitometr y</string>
+      <string original="Magnetometer z">Maqnitometr z</string>
+      <string original="Absolute">Mütləq</string>
+      <string original="Multi">Çoxlu</string>
+      <string original="Magnetometer">Maqnitometr</string>
+      <string original="Simple">Sadə</string>
+      <string original="Help">Kömək</string>
+      <string original="The magnetometer in your phone is always exposed to internal fields from the electronics in your phone, which lead to incorrect results. Therefore phyphox tries to get the calibrated magnetic field from the system. In some cases, you might not get any data, if it is not yet calibrated (for example after the phone has just started). In this case you should rotate your phone a few times while the experiment is running. This helps the system to calibrate the sensor. Also, on many devices (not all) you can switch to uncalibrated magnetometer data via the menu in the top right.">Telefonunuzdakı maqnitometr həmişə telefonunuzdakı elektronikadan gələn daxili sahələrə məruz qalır və bu, yanlış nəticələrə gətirib çıxarır. Buna görə də phyphox sistemdən kalibrlənmiş maqnit sahəsini almağa çalışır. Bəzi hallarda, sensor hələ kalibrlənməyibsə (məsələn, telefon yenicə işə salınıbsa), heç bir verilən almaya bilərsiniz. Bu halda təcrübə işləyərkən telefonunuzu bir neçə dəfə fırladın. Bu, sistemə sensoru kalibrləməyə kömək edir. Həmçinin bir çox cihazda (hamısında yox) sağ yuxarıdakı menyu vasitəsilə kalibrlənməmiş maqnitometr verilənlərinə keçə bilərsiniz.</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="0">mag_time</container>

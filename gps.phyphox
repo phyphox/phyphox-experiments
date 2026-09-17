@@ -189,6 +189,7 @@
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Горизонтальная точность - это неопределенность вашего местоположения, в то время как вертикальная точность - (обычно менее точно) неопределенность вашей высоты. Если точность равна нулю, эта информация недоступна.</string>
       <string original="m (WGS84)">m (WGS84 - всемирная система геодезических параметров Земли 1984 года)</string>
       <string original="unknown">неизвестный</string>
+      <string original="Coordinates">Координаты</string>
     </translation>
     <translation locale="it">
       <title>Posizione (GPS)</title>
@@ -403,6 +404,8 @@
       <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Notez que certains appareils ne possèdent pas de capteur GPS, mais fournissent des données de localisation via des connexions mobiles ou WIFI. Ces sources produisent des données avec une mauvaise précision.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assurez-vous également que votre système ne soit pas en mode "Économie d'énergie", car cela désactive généralement le GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La précision horizontale correspond à l'incertitude de votre position, tandis que la précision verticale correspond à l'incertitude (mauvaise en général) de votre altitude (hauteur). Si la précision indiquée est égale à zéro c'est que cette information n'est pas disponible.</string>
+      <string original="unknown">inconnu</string>
+      <string original="Coordinates">Coordonnées</string>
     </translation>
     <translation locale="vi">
       <title>Vị trí (GPS)</title>
@@ -744,6 +747,41 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">또한 시스템의 위치 설정이 "절전 모드"로 설정되어 있지 않은지 확인하십시오.이 설정은 일반적으로 정확한 GPS 소스를 끄기 때문입니다.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">수평 정확도는 위치의 불확실성이며, 수직 정확도는 고도의 (일반적으로 더 나쁜) 불확실성입니다. 정확도가 0이면 이 정보를 사용할 수 없습니다.</string>
       <string original="Coordinates">좌표</string>
+    </translation>
+    <translation locale="az">
+      <title>Məkan (GPS)</title>
+      <category>Xam sensorlar</category>
+      <description>
+        Peyk naviqasiyasından xam mövqe verilənlərini alın.
+
+        Nəzərə alın ki, mövcud verilənlər smartfonunuzdakı tətbiqetmədən asılı ola bilər. Bəzi cihazlar şaquli dəqiqliyi və ya peyklərin sayını verməyə bilər.
+
+        Həmçinin, ilkin olaraq peyk naviqasiyasından gələn verilənlərə digər, adətən daha az dəqiq mənbələrdən (məsələn, Wi-Fi və ya mobil verilən şəbəkələrindən) alınan məkan məlumatı qarışdırılır. Yenə də cihazınızdan asılı olaraq, təcrübə menyusundan yalnız peyk naviqasiyasından verilən toplama tənzimləməsini aktivləşdirməklə bu mənbələri söndürə bilərsiniz.
+
+        Sürət və istiqamət adətən cihaz tərəfindən verilir və iki və ya daha çox ardıcıl mövqe təyinatına əsaslanır.
+    </description>
+      <string original="Position">Mövqe</string>
+      <string original="Status">Vəziyyət</string>
+      <string original="GPS disabled">GPS söndürülüb</string>
+      <string original="GPS active">GPS aktivdir</string>
+      <string original="Latitude">En dairəsi</string>
+      <string original="Longitude">Uzunluq dairəsi</string>
+      <string original="Altitude">Hündürlük</string>
+      <string original="Movement">Hərəkət</string>
+      <string original="Speed">Sürət</string>
+      <string original="Direction">İstiqamət</string>
+      <string original="Distance travelled">Qət edilən məsafə</string>
+      <string original="Simple">Sadə</string>
+      <string original="Compass">Kompas</string>
+      <string original="Distance from start">Başlanğıcdan məsafə</string>
+      <string original="Horizontal Accuracy">Üfüqi dəqiqlik</string>
+      <string original="Vertical Accuracy">Şaquli dəqiqlik</string>
+      <string original="Satellites">Peyklər</string>
+      <string original="unknown">naməlum</string>
+      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nəzərə alın ki, bəzi cihazlarda GPS sensoru yoxdur, lakin onlar məkan verilənlərini mobil və ya Wi-Fi bağlantıları vasitəsilə təqdim edir. Bu verilən mənbələri pis dəqiqlikli nəticələr verir.</string>
+      <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Həmçinin sisteminizin məkan tənzimləməsinin "Enerjiyə qənaət" rejimində olmadığına əmin olun, çünki bu, adətən dəqiq GPS mənbəyini söndürür.</string>
+      <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Üfüqi dəqiqlik məkanınızın qeyri-müəyyənliyi, şaquli dəqiqlik isə hündürlüyünüzün (adətən daha pis olan) qeyri-müəyyənliyidir. Dəqiqlik sıfırdırsa, bu məlumat mövcud deyil.</string>
+      <string original="Coordinates">Koordinatlar</string>
     </translation>
   </translations>
   <data-containers>

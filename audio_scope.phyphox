@@ -315,6 +315,20 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
       <string original="Time">시간</string>
       <string original="Amplitude">진폭</string>
     </translation>
+    <translation locale="az">
+      <title>Səs ossiloqrafı</title>
+      <category>Akustika</category>
+      <description>
+        Qeydə alınmış səs verilənlərini göstərin.
+
+        Bu təcrübə sadəcə qısa səs parçalarını qeydə alır və onları göstərir. Sabit təsvir almaq üçün sıfırdan keçid trigger kimi istifadə olunur və t=0 ilk (müsbət) keçidə sürüşdürülür.
+    </description>
+      <string original="Duration">Müddət</string>
+      <string original="Scope">Ossiloqraf</string>
+      <string original="Audio Data">Səs verilənləri</string>
+      <string original="Time">vaxt</string>
+      <string original="Amplitude">Amplitud</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="26400">recording</container>

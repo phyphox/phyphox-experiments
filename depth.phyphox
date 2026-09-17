@@ -87,6 +87,16 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <category>Caméra</category>
       <string original="Distance / Depth">Distance / Profondeur</string>
       <string original="Kinematics">Cinématique</string>
+      <description>Mesure de la distance à l'aide du capteur de profondeur.
+
+    Cette fonctionnalité n'est disponible que si votre téléphone est équipé d'un capteur de profondeur intégré au système de caméra. Vous pouvez appuyer sur l'aperçu d'image et sélectionner la zone du champ de vision de votre caméra qui servira à la mesure. Vous pouvez également choisir si le résultat correspond à la distance la plus proche, à la distance moyenne ou à une moyenne tenant compte de l'estimation par le capteur de la précision de chaque point mesuré.
+
+    L'onglet « Mouvement » calcule également la vitesse et l'accélération à partir de la distance mesurée à l'aide de l'algorithme LOESS.
+</description>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Appuyez sur l'aperçu de la caméra et faites glisser pour modifier la zone de l'image utilisée pour le calcul de la distance. Vous pouvez également choisir différentes méthodes pour combiner les mesures de profondeur au sein de cette zone.</string>
+      <string original="Preview">Aperçu</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Vous pouvez modifier ci-dessous le lissage des courbes dans l'onglet « Cinématique ». Le paramètre « Largeur » influe sur la détermination de la vitesse et de l'accélération. Des valeurs élevées donnent des courbes plus lisses, mais moins détaillées.</string>
+      <string original="Width of LOESS fit">Largeur de l'ajustement LOESS</string>
     </translation>
     <translation locale="it">
       <string original="Graph">Grafico</string>
@@ -337,6 +347,27 @@ Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entf
       <string original="Preview">미리보기</string>
       <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">아래에서 운동학 탭에서 그래프의 스무딩을 변경할 수 있습니다. 너비 설정은 속도 및 가속도 추정에 영향을 줍니다. 값이 크면 세부 사항이 적어지고 곡선이 더 부드러워집니다.</string>
       <string original="Width of LOESS fit">LOESS fit의 폭</string>
+    </translation>
+    <translation locale="az">
+      <title>Dərinlik sensoru (LiDAR / ToF)</title>
+      <category>Kamera</category>
+      <description>Dərinlik sensorundan istifadə edərək məsafələri ölçün.
+
+Bu funksiya yalnız telefonunuzun kamera sistemində dərinlik sensoru olduqda əlçatandır. Önizləmə şəklinə toxunaraq kameranın görüntüsündə ölçmədə istifadə olunacaq sahəni seçə bilərsiniz. Həmçinin nəticə kimi ən yaxın məsafəni, orta məsafəni və ya sensorun hər bir ölçmə nöqtəsinin dəqiqlik qiymətləndirməsini nəzərə alan çəkili orta məsafəni seçə bilərsiniz.
+
+Hərəkət bölməsi həmçinin ölçülmüş məsafə əsasında LOESS alqoritmindən istifadə edərək sürət və təcili hesablayır.
+</description>
+      <string original="Graph">Qrafik</string>
+      <string original="Distance / Depth">Məsafə / Dərinlik</string>
+      <string original="Simple">Sadə</string>
+      <string original="Kinematics">Kinematika</string>
+      <string original="Velocity">Sürət</string>
+      <string original="Acceleration">Təcil</string>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Kontekst Məsafənin hesablanması zamanı nəzərə alınacaq görüntü sahəsini dəyişmək üçün önizləmə şəklinə toxunun və sürüşdürün. Həmçinin bu sahə daxilində dərinlik ölçmələrini birləşdirmək üçün müxtəlif hesablama üsullarını seçə bilərsiniz.</string>
+      <string original="Preview">Önizləmə</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Aşağıda Kinematika bölməsindəki qrafiklər üçün lokal hamarlama parametrini dəyişə bilərsiniz. En (Width) parametri sürət və təcilin hesablanmasına təsir edir. Böyük qiymətlər daha az detallı, lakin daha hamar əyrilər yaradır.</string>
+      <string original="Width of LOESS fit">LOESS uyğunlaşdırmasının eni</string>
     </translation>
   </translations>
   <data-containers>

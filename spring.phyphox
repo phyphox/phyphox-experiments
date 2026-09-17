@@ -538,6 +538,29 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Accelerometer y">가속도계 y</string>
       <string original="Accelerometer z">가속도계 z</string>
     </translation>
+    <translation locale="az">
+      <title>Yay</title>
+      <category>Mexanika</category>
+      <description>
+        Yay rəqs sisteminin tezliyini və periodunu təhlil edin.
+
+        Bu təcrübə rəqs hərəkətini ölçmək üçün akselerometrdən istifadə edir və rəqsin T periodunu hesablayır. Əlavə olaraq, rezonans bölməsində amplitud aşkarlanan tezliyə görə qurulur. Beləliklə, məcburi rəqs sistemi qurub tezliyini dəyişməklə rezonans əyrisini ölçə bilərsiniz.
+
+        Ətraflı:
+        Rəqs periodu akselerometrin hər üç bileşəninin cəminin avtokorrelyasiyası ilə alınır. Sonra avtokorrelyasiya ilkin qiymətləndirmə üçün ilk maksimumuna görə təhlil edilir, daha dəqiq nəticə almaq üçün isə avtokorrelyasiyanın sonuncu maksimumundan istifadə olunur.
+    </description>
+      <string original="Results">Nəticələr</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="Rel. amplitude">Nisbi amplitud</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu bölmədə amplitud aşkarlanan tezliyə görə qurulur. Bundan məcburi rəqs sisteminin rezonansını ölçmək üçün istifadə edə bilərsiniz. Amplitud 0-dan 1-ə qədər diapazona normallaşdırılıb.</string>
+      <string original="Autocorrelation">Avtokorrelyasiya</string>
+      <string original="correlation">korrelyasiya</string>
+      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Accelerometer x">Akselerometr x</string>
+      <string original="Accelerometer y">Akselerometr y</string>
+      <string original="Accelerometer z">Akselerometr z</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">accX</container>

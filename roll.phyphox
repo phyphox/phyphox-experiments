@@ -299,6 +299,19 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
       <string original="Raw Data">원 데이터</string>
       <string original="Gyroscope y">자이로스코프 y</string>
     </translation>
+    <translation locale="az">
+      <title>Rulon</title>
+      <category>Mexanika</category>
+      <description>
+        Telefonunuzu bir rulonun içinə qoyub onun sürətini təyin edin.
+
+        Telefonunuzu kağız rulonun içinə elə qoymalısınız ki, o, ən uzun tərəfi ətrafında fırlansın. Bu təcrübə rulonun hərəkət sürətini hesablamaq üçün giroskopun ölçdüyü bucaq sürətindən və rulonun radiusundan istifadə edir.
+    </description>
+      <string original="Roll radius">Rulonun radiusu</string>
+      <string original="Velocity">Sürət</string>
+      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Gyroscope y">Giroskop y</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="500">gyrY</container>

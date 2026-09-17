@@ -114,6 +114,19 @@
       <string original="Controls">Управление</string>
       <string original="Amplitude">Амплитуда</string>
       <string original="Settings">Настройки</string>
+      <string original="Channel 1">Канал 1</string>
+      <string original="Pan left/right">Панорама влево/вправо</string>
+      <string original="Waveform">Форма сигнала</string>
+      <string original="Sine">Синус</string>
+      <string original="Square">Прямоугольник</string>
+      <string original="Sawtooth">Пила</string>
+      <string original="Channel 2">Канал 2</string>
+      <string original="Channel 3">Канал 3</string>
+      <string original="Channels">Каналы</string>
+      <string original="Advanced">Дополнительно</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">Амплитуда на выходе лежит в диапазоне от 0 до 1. Если сумма амплитуд нескольких каналов превышает 1, возникнут искажения. Следующая настройка автоматически масштабирует амплитуды пропорционально, чтобы их сумма равнялась 1.</string>
+      <string original="Normalize">Нормировать</string>
+      <string original="Normalization amplitude">Амплитуда нормировки</string>
     </translation>
     <translation locale="it">
       <title>Generatore di suoni</title>
@@ -314,6 +327,8 @@
       <string original="Advanced">高级</string>
       <string original="Normalize">归一化</string>
       <string original="Normalization amplitude">归一化振幅</string>
+      <string original="Pan left/right">向左/向右平移</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">输出幅值范围为 0 到 1。如果多个通道的幅值之和超过 1，则会出现失真。以下设置会自动按比例缩放幅值，使之和为 1。</string>
     </translation>
     <translation locale="sr">
       <title>Generator tona</title>
@@ -516,6 +531,36 @@
       <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">출력 진폭의 범위는 0에서 1 사이입니다. 여러 채널의 진폭 합이 1을 초과하면 왜곡이 발생합니다. 다음 설정은 진폭의 합이 1이 되도록 비례적으로 자동 조정합니다.</string>
       <string original="Normalize">정규화</string>
       <string original="Normalization amplitude">정규화 진폭</string>
+    </translation>
+    <translation locale="az">
+      <title>Ton generatoru</title>
+      <category>Akustika</category>
+      <description>
+        Müəyyən tezlikdə ton yaradır.
+    </description>
+      <string original="Controls">İdarəetmə</string>
+      <string original="Signal">Siqnal</string>
+      <string original="Time">vaxt</string>
+      <string original="Channel 1">Kanal 1</string>
+      <string original="Frequency">Tezlik</string>
+      <string original="Amplitude">Amplitud</string>
+      <string original="Pan left/right">Sola/sağa balans</string>
+      <string original="Waveform">Dalğa forması</string>
+      <string original="Sine">Sinus</string>
+      <string original="Square">Düzbucaqlı</string>
+      <string original="Sawtooth">Mişardişli</string>
+      <string original="Channel 2">Kanal 2</string>
+      <string original="Channel 3">Kanal 3</string>
+      <string original="While phyphox allows setting arbitrary frequencies, you may experience bad results below 100Hz or above 8000Hz due to hardware limitations.">phyphox istənilən tezliyi təyin etməyə imkan versə də, aparat məhdudiyyətlərinə görə 100 Hz-dən aşağı və ya 8000 Hz-dən yuxarı tezliklərdə pis nəticə ala bilərsiniz.</string>
+      <string original="Status">Vəziyyət</string>
+      <string original="Frequency low">Aşağı tezlik</string>
+      <string original="Frequency high">Yuxarı tezlik</string>
+      <string original="Settings">Tənzimləmələr</string>
+      <string original="Channels">Kanallar</string>
+      <string original="Advanced">Təkmilləşmiş</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">Çıxış amplitudu 0-dan 1-ə qədər diapazondadır. Bir neçə kanalın amplitudlarının cəmi 1-i keçərsə, təhrif yaranacaq. Aşağıdakı tənzimləmə amplitudları cəmi 1 olacaq şəkildə proporsional olaraq avtomatik miqyaslandırır.</string>
+      <string original="Normalize">Normallaşdır</string>
+      <string original="Normalization amplitude">Normallaşdırma amplitudu</string>
     </translation>
   </translations>
   <data-containers>

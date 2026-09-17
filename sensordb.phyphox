@@ -534,6 +534,36 @@ Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, 
       <string original="Light">빛</string>
       <string original="Proximity">근접</string>
     </translation>
+    <translation locale="az">
+      <title>Sensor bazasına göndər</title>
+      <category>phyphox.org</category>
+      <description>Telefonunuzdakı sensorlar haqqında məlumatı phyphox.org saytına göndərin.
+
+Bu təcrübə telefonunuz və sensorlarınız haqqında texniki verilənləri toplayacaq; siz onları sensor verilənlər bazamıza göndərə bilərsiniz. Verilənlər ümumiləşdiriləcək və bizə və başqalarına müxtəlif cihazlarda sensorların mövcudluğu və imkanları haqqında öyrənməyə kömək etmək üçün digər istifadəçilərin ixtiyarına veriləcək.</description>
+      <string original="Submit">Göndər</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Bu təcrübə telefonunuz və sensorlarınız haqqında texniki verilənləri toplayacaq; siz onları sensor verilənlər bazamıza göndərə bilərsiniz. Verilənlər ümumiləşdiriləcək və bizə və başqalarına müxtəlif cihazlarda sensorların mövcudluğu və imkanları haqqında öyrənməyə kömək etmək üçün digər istifadəçilərin ixtiyarına veriləcək.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Zəhmət olmasa telefonunuzu sabit bir səthin üzərinə qoyub başlat düyməsini basın. Bunu hərəkət edərkən (avtomobil, qatar və s.) və ya titrəyən səthdə (uca musiqi, nəqliyyatdan gələn titrəyişlər və s.) etməyin, çünki bu, nəticələri təhrif edəcək.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox bir müddət verilən toplayacaq və sonda sizə verilənləri göndərməyi təklif edəcək.</string>
+      <string original="Step">Addım</string>
+      <string original="Waiting for start">Başlanğıc gözlənilir</string>
+      <string original="Collecting data">Verilənlər toplanır</string>
+      <string original="You may now press submit">İndi göndər düyməsini basa bilərsiniz</string>
+      <string original="Success. Thank you!">Uğurlu oldu. Təşəkkür edirik!</string>
+      <string original="Confidence">Etibarlılıq</string>
+      <string original="Results">Nəticələr</string>
+      <string original="Accelerometer">Akselerometr</string>
+      <string original="Rate">Tezlik</string>
+      <string original="Average">Orta</string>
+      <string original="Standard deviation">Standart meyl</string>
+      <string original="Acceleration (without g)">Təcil (g olmadan)</string>
+      <string original="Gyroscope">Giroskop</string>
+      <string original="Magnetometer">Maqnitometr</string>
+      <string original="Barometer">Barometr</string>
+      <string original="Temperature">Temperatur</string>
+      <string original="Humidity">Rütubət</string>
+      <string original="Light">İşıq</string>
+      <string original="Proximity">Yaxınlıq</string>
+    </translation>
   </translations>
   <data-containers>
     <container size="1" init="0">state</container>
