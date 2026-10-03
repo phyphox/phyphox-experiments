@@ -5,7 +5,7 @@
   <description>
         Detect small frequency shifts of the Doppler effect.
 
-        You need a tone generator that emits a constant frequency (for example 1000Hz). Enter this base frequency in the experiments setup and select a detection range in which you expect the Doppler shifted frequency (for example 10Hz). The experiment will determine the recorded frequency and calculate the relative speed of the sound source.
+        You need a tone generator that emits a constant frequency (for example 1000Hz from a second phone). Enter this base frequency in the experiment's setup. The experiment will determine the recorded frequency and calculate the relative speed of the sound source.
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Doppler_Effect</link>
   <translations>
@@ -475,38 +475,60 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
   </translations>
   <data-containers>
     <container size="48000">recording</container>
-    <container>rate</container>
-    <container>tmax</container>
-    <container size="48000">time</container>
+    <container init="48000">rate</container>
     <container clearGroup="Settings">f</container>
-    <container clearGroup="Settings">df</container>
     <container clearGroup="Settings">dt</container>
-    <container>dt_samples</container>
     <container clearGroup="Settings">c</container>
-    <container size="1000" static="true">Nth_step</container>
-    <container size="1000">Nth_frequency_lower_limit</container>
-    <container size="1000">Nth_period_upper_limit</container>
-    <container size="1000">Nth_step_filtered</container>
-    <container size="1000">Nth_period_upper_limit_filtered</container>
-    <container>periodFactor</container>
-    <container>minf</container>
-    <container>maxf</container>
-    <container>minPeriod</container>
-    <container>maxPeriod</container>
-    <container>startTime</container>
-    <container size="100">period</container>
+    <container>blockSize</container>
+    <container>groupBlocks</container>
+    <container>groupSize</container>
+    <container>experimentTime</container>
+    <container>linearTime</container>
+    <container>pauseOffset</container>
+    <container>pauseOffsetPrevious</container>
+    <container>pauseJump</container>
+    <container size="96000">rest</container>
+    <container size="96000">work</container>
+    <container>restCount</container>
+    <container>workCount</container>
+    <container init="0">sampleCount</container>
+    <container>sampleCountNext</container>
+    <container>firstIndex</container>
+    <container>usedCount</container>
+    <container>lastIndex</container>
+    <container size="96000">data</container>
+    <container size="96000">index</container>
+    <container size="96000">mixedI</container>
+    <container size="96000">mixedQ</container>
+    <container size="2000">blockIndex</container>
+    <container size="2000">blockI</container>
+    <container size="2000">blockQ</container>
+    <container size="2000">blockUnused</container>
+    <container size="2000">blockPhase</container>
+    <container size="2000">blockPower</container>
+    <container size="2000">phaseStep</container>
+    <container>stepCount</container>
+    <container>lastStep</container>
+    <container size="2000">stepIndex</container>
+    <container size="2000">weightedStep</container>
+    <container size="2000">weightedStepPadded</container>
+    <container size="2000">coherenceCos</container>
+    <container size="2000">coherenceSin</container>
+    <container size="2000">coherenceCosPadded</container>
+    <container size="2000">coherenceSinPadded</container>
+    <container size="100">groupIndex</container>
+    <container size="100">groupStep</container>
+    <container size="100">groupCos</container>
+    <container size="100">groupSin</container>
+    <container size="100">groupPower</container>
+    <container size="100">coherence</container>
+    <container size="100">coherenceFiltered</container>
     <container size="100">frequency</container>
-    <container size="100">temp1</container>
-    <container size="100">temp2</container>
-    <container size="100">temp3</container>
     <container size="100">speed</container>
-    <container size="100">time_res</container>
+    <container size="100">time</container>
     <container size="0">frequency_hist</container>
-    <container size="0">frequency_hist_filtered</container>
     <container size="0">speed_hist</container>
-    <container size="0">speed_hist_filtered</container>
     <container size="0">time_hist</container>
-    <container size="0">time_hist_filtered</container>
   </data-containers>
   <input>
     <audio>
@@ -516,163 +538,299 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
   </input>
   <views>
     <view label="Setup">
-      <edit label="Base frequency" unit="[[unit_short_hertz]]" default="1000" signed="false">
+      <edit label="Base frequency" unit="[[unit_short_hertz]]" default="1000" signed="false" min="20" max="20000">
         <output>f</output>
       </edit>
-      <edit label="Frequency range" unit="[[unit_short_hertz]]" default="10" signed="false">
-        <output>df</output>
-      </edit>
-      <edit label="Time step" unit="[[unit_short_milli_second]]" default="50" signed="false">
+      <edit label="Time step" unit="[[unit_short_milli_second]]" default="50" signed="false" min="10" max="500">
         <output>dt</output>
       </edit>
       <edit label="Speed of sound" unit="[[unit_short_meter_per_second]]" default="340" signed="false">
         <output>c</output>
       </edit>
       <separator height="1"/>
-      <info label="Time step determines the rate and the amount of data that is used to calculate a single velocity point. The algorithm will look for a frequency around the base frequency from -range to +range and use the nth period (below) to determine the frequency. Extreme settings for the range or time step may be inaccurate or too hard to calculate for your phone. Also, you should keep range significantly smaller than 1/step."/>
-      <value label="nth period">
-        <input>periodFactor</input>
-      </value>
+      <info label="Enter the frequency of your tone generator as base frequency. A shorter time step gives more values per second, a longer one gives more precise values. Values are only shown while the tone is clearly recognizable and stays within a few hundred hertz of the base frequency."/>
     </view>
     <view label="Results">
       <graph label="Frequency" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true">
-        <input axis="x">time_hist_filtered</input>
-        <input axis="y">frequency_hist_filtered</input>
+        <input axis="x">time_hist</input>
+        <input axis="y">frequency_hist</input>
       </graph>
       <graph label="Speed" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Speed" unitY="[[unit_short_meter_per_second]]" unitYperX="[[unit_short_meter_per_square_second]]" partialUpdate="true" color="ffff00">
-        <input axis="x">time_hist_filtered</input>
-        <input axis="y">speed_hist_filtered</input>
+        <input axis="x">time_hist</input>
+        <input axis="y">speed_hist</input>
       </graph>
     </view>
   </views>
-  <analysis sleep="0.5">
-    <divide>
-      <input type="value">48000</input>
-      <input clear="false">rate</input>
-      <output>tmax</output>
-    </divide>
+  <analysis requireFill="recording" requireFillDynamic="groupSize">
+    <!-- The recording is mixed down with the base frequency (I/Q demodulation) and averaged over short blocks of
+         about 2.5 ms, each spanning a whole number of periods. The phase of these blocks advances with the
+         difference between the received frequency and the base frequency, which a least-squares fit of the
+         phase over each time step yields. -->
+    <formula formula="round(max(1,round([1]*0.0025))*[2]/[1])">
+      <input keep="true">f</input>
+      <input keep="true">rate</input>
+      <output>blockSize</output>
+    </formula>
+    <formula formula="max(2,min(round([1]*0.001*[2]/[3]),floor(24000/[3])))">
+      <input keep="true">dt</input>
+      <input keep="true">rate</input>
+      <input keep="true">blockSize</input>
+      <output>groupBlocks</output>
+    </formula>
+    <formula formula="[1]*[2]">
+      <input keep="true">groupBlocks</input>
+      <input keep="true">blockSize</input>
+      <output>groupSize</output>
+    </formula>
+
+    <!-- Samples left over from the previous cycle are only continued if the experiment was not paused in between -->
+    <timer>
+      <output>experimentTime</output>
+    </timer>
+    <timer linearTime="true">
+      <output>linearTime</output>
+    </timer>
+    <formula formula="[1]-[2]">
+      <input>linearTime</input>
+      <input>experimentTime</input>
+      <output>pauseOffset</output>
+    </formula>
+    <formula formula="[1]-[2]">
+      <input keep="true">pauseOffset</input>
+      <input>pauseOffsetPrevious</input>
+      <output>pauseJump</output>
+    </formula>
+    <append>
+      <input>pauseOffset</input>
+      <output>pauseOffsetPrevious</output>
+    </append>
+    <if greater="true">
+      <input as="a">pauseJump</input>
+      <input as="b" type="value">0.05</input>
+      <input as="true" type="empty"/>
+      <output>rest</output>
+    </if>
+
+    <!-- Split the data into complete time steps and keep the remainder for the next cycle -->
+    <count>
+      <input keep="true">rest</input>
+      <output>restCount</output>
+    </count>
+    <append>
+      <input>rest</input>
+      <input>recording</input>
+      <output>work</output>
+    </append>
+    <count>
+      <input keep="true">work</input>
+      <output>workCount</output>
+    </count>
+    <formula formula="[1]-[2]">
+      <input keep="true">sampleCount</input>
+      <input keep="true">restCount</input>
+      <output>firstIndex</output>
+    </formula>
+    <formula formula="[1]+[2]-[3]">
+      <input keep="true">sampleCount</input>
+      <input keep="true">workCount</input>
+      <input>restCount</input>
+      <output>sampleCountNext</output>
+    </formula>
+    <append>
+      <input>sampleCountNext</input>
+      <output>sampleCount</output>
+    </append>
+    <formula formula="floor([1]/[2])*[2]">
+      <input>workCount</input>
+      <input keep="true">groupSize</input>
+      <output>usedCount</output>
+    </formula>
+    <split>
+      <input as="data">work</input>
+      <input as="index" keep="true">usedCount</input>
+      <output as="out1">data</output>
+      <output as="out2">rest</output>
+    </split>
+    <formula formula="[1]+[2]-1">
+      <input keep="true">firstIndex</input>
+      <input keep="true">usedCount</input>
+      <output>lastIndex</output>
+    </formula>
+    <ramp>
+      <input as="start">firstIndex</input>
+      <input as="stop">lastIndex</input>
+      <input as="length">usedCount</input>
+      <output>index</output>
+    </ramp>
+
+    <!-- I/Q demodulation and block averages -->
+    <formula formula="[1_]*cos(6.283185307179586*[2]*[3_]/[4])">
+      <input keep="true">data</input>
+      <input keep="true">f</input>
+      <input keep="true">index</input>
+      <input keep="true">rate</input>
+      <output>mixedI</output>
+    </formula>
+    <formula formula="-[1_]*sin(6.283185307179586*[2]*[3_]/[4])">
+      <input>data</input>
+      <input keep="true">f</input>
+      <input keep="true">index</input>
+      <input keep="true">rate</input>
+      <output>mixedQ</output>
+    </formula>
+    <reduce averageX="true" averageY="true">
+      <input as="factor" keep="true">blockSize</input>
+      <input as="x" keep="true">index</input>
+      <input as="y">mixedI</input>
+      <output as="x">blockIndex</output>
+      <output as="y">blockI</output>
+    </reduce>
+    <reduce averageY="true">
+      <input as="factor" keep="true">blockSize</input>
+      <input as="x">index</input>
+      <input as="y">mixedQ</input>
+      <output as="x">blockUnused</output>
+      <output as="y">blockQ</output>
+    </reduce>
+    <formula formula="atan2([1_],[2_])">
+      <input keep="true">blockQ</input>
+      <input keep="true">blockI</input>
+      <output>blockPhase</output>
+    </formula>
+    <formula formula="[1_]*[1_]+[2_]*[2_]">
+      <input>blockQ</input>
+      <input>blockI</input>
+      <output>blockPower</output>
+    </formula>
+
+    <!-- Phase step from block to block, wrapped to -pi..pi. Within each time step, the steps are weighted to
+         yield the least-squares slope of the phase. The step from the last block of a time step to the first
+         block of the next one gets a weight of zero. -->
+    <differentiate>
+      <input>blockPhase</input>
+      <output>phaseStep</output>
+    </differentiate>
+    <count>
+      <input keep="true">phaseStep</input>
+      <output>stepCount</output>
+    </count>
+    <formula formula="[1]-1">
+      <input keep="true">stepCount</input>
+      <output>lastStep</output>
+    </formula>
     <ramp>
       <input as="start" type="value">0</input>
-      <input as="stop" clear="false">tmax</input>
-      <output>time</output>
+      <input as="stop">lastStep</input>
+      <input as="length">stepCount</input>
+      <output>stepIndex</output>
     </ramp>
-    <ramp>
-      <input as="start" type="value">1</input>
-      <input as="stop" type="value">1000</input>
-      <output>Nth_step</output>
-    </ramp>
-    <subtract>
-      <input clear="false">f</input>
-      <input clear="false">df</input>
-      <output>minf</output>
-    </subtract>
-    <add>
-      <input clear="false">f</input>
-      <input clear="false">df</input>
-      <output>maxf</output>
-    </add>
-    <divide>
-      <input clear="false">minf</input>
-      <input clear="false">Nth_step</input>
-      <output>Nth_frequency_lower_limit</output>
-    </divide>
-    <divide>
-      <input clear="false">rate</input>
-      <input>Nth_frequency_lower_limit</input>
-      <output>Nth_period_upper_limit</output>
-    </divide>
-    <multiply>
-      <input clear="false">dt</input>
-      <input type="value">48</input>
-      <output clear="false">dt_samples</output>
-    </multiply>
-    <rangefilter>
-      <input as="in">Nth_period_upper_limit</input>
-      <input as="max" clear="false">dt_samples</input>
-      <input as="in">Nth_step</input>
-      <output>Nth_period_upper_limit_filtered</output>
-      <output>Nth_step_filtered</output>
-    </rangefilter>
-    <max>
-      <input as="y">Nth_step_filtered</input>
-      <output as="max">periodFactor</output>
-    </max>
-    <multiply>
-      <input clear="false">periodFactor</input>
-      <input clear="false">rate</input>
-      <output>temp1</output>
-    </multiply>
-    <divide>
-      <input clear="false">temp1</input>
-      <input clear="false">minf</input>
-      <output>maxPeriod</output>
-    </divide>
-    <divide>
-      <input>temp1</input>
-      <input clear="false">maxf</input>
-      <output>minPeriod</output>
-    </divide>
-    <periodicity>
-      <input as="x">time</input>
-      <input as="y">recording</input>
-      <input as="dx">dt_samples</input>
-      <input as="overlap" type="value">0</input>
-      <input as="min">minPeriod</input>
-      <input as="max">maxPeriod</input>
-      <output as="time">time_res</output>
-      <output as="period">period</output>
-    </periodicity>
-    <divide>
-      <input clear="false">periodFactor</input>
-      <input>period</input>
+    <formula formula="6*(([2_]%[3])+1)*([3]-1-([2_]%[3]))/([3]*([3]*[3]-1))*([1_]-6.283185307179586*round([1_]/6.283185307179586))">
+      <input keep="true">phaseStep</input>
+      <input keep="true">stepIndex</input>
+      <input keep="true">groupBlocks</input>
+      <output>weightedStep</output>
+    </formula>
+    <append>
+      <input>weightedStep</input>
+      <input type="value">0</input>
+      <output>weightedStepPadded</output>
+    </append>
+    <reduce averageX="true" sumY="true">
+      <input as="factor" keep="true">groupBlocks</input>
+      <input as="x" keep="true">blockIndex</input>
+      <input as="y">weightedStepPadded</input>
+      <output as="x">groupIndex</output>
+      <output as="y">groupStep</output>
+    </reduce>
+
+    <!-- Coherence of the phase steps within a time step: close to 1 for a clean tone, small for noise -->
+    <formula formula="sign([3]-1-([2_]%[3]))*cos([1_])">
+      <input keep="true">phaseStep</input>
+      <input keep="true">stepIndex</input>
+      <input keep="true">groupBlocks</input>
+      <output>coherenceCos</output>
+    </formula>
+    <formula formula="sign([3]-1-([2_]%[3]))*sin([1_])">
+      <input>phaseStep</input>
+      <input>stepIndex</input>
+      <input keep="true">groupBlocks</input>
+      <output>coherenceSin</output>
+    </formula>
+    <append>
+      <input>coherenceCos</input>
+      <input type="value">0</input>
+      <output>coherenceCosPadded</output>
+    </append>
+    <append>
+      <input>coherenceSin</input>
+      <input type="value">0</input>
+      <output>coherenceSinPadded</output>
+    </append>
+    <reduce sumY="true">
+      <input as="factor" keep="true">groupBlocks</input>
+      <input as="x" keep="true">blockIndex</input>
+      <input as="y">coherenceCosPadded</input>
+      <output as="x">blockUnused</output>
+      <output as="y">groupCos</output>
+    </reduce>
+    <reduce sumY="true">
+      <input as="factor" keep="true">groupBlocks</input>
+      <input as="x" keep="true">blockIndex</input>
+      <input as="y">coherenceSinPadded</input>
+      <output as="x">blockUnused</output>
+      <output as="y">groupSin</output>
+    </reduce>
+    <reduce sumY="true">
+      <input as="factor" keep="true">groupBlocks</input>
+      <input as="x">blockIndex</input>
+      <input as="y">blockPower</input>
+      <output as="x">blockUnused</output>
+      <output as="y">groupPower</output>
+    </reduce>
+    <!-- Digital silence (for example a muted microphone) would look perfectly coherent -->
+    <formula formula="sign([4_])*sqrt([1_]*[1_]+[2_]*[2_])/([3]-1)">
+      <input>groupCos</input>
+      <input>groupSin</input>
+      <input keep="true">groupBlocks</input>
+      <input>groupPower</input>
+      <output>coherence</output>
+    </formula>
+
+    <!-- Results -->
+    <formula formula="[1]+[2_]*[3]/(6.283185307179586*[4])">
+      <input keep="true">f</input>
+      <input>groupStep</input>
+      <input keep="true">rate</input>
+      <input keep="true">blockSize</input>
       <output>frequency</output>
-    </divide>
-    <divide>
-      <input clear="false">f</input>
-      <input clear="false">frequency</input>
-      <output>temp2</output>
-    </divide>
-    <subtract>
-      <input type="value">1</input>
-      <input>temp2</input>
-      <output>temp3</output>
-    </subtract>
-    <multiply>
-      <input clear="false">c</input>
-      <input>temp3</input>
+    </formula>
+    <formula formula="[1_]/[2]">
+      <input>groupIndex</input>
+      <input keep="true">rate</input>
+      <output>time</output>
+    </formula>
+    <formula formula="[1]*(1-[2]/[3_])">
+      <input keep="true">c</input>
+      <input keep="true">f</input>
+      <input keep="true">frequency</input>
       <output>speed</output>
-    </multiply>
-    <append>
-      <input>frequency</input>
-      <output clear="false">frequency_hist</output>
-    </append>
-    <append>
-      <input>speed</input>
-      <output clear="false">speed_hist</output>
-    </append>
-    <timer>
-      <output>startTime</output>
-    </timer>
-    <add>
-      <input>time_res</input>
-      <input>startTime</input>
-      <output clear="false">time_hist</output>
-    </add>
+    </formula>
     <rangefilter>
-      <input as="min">minf</input>
-      <input as="max">maxf</input>
-      <input as="in" clear="false">frequency_hist</input>
-      <input as="in" clear="false">time_hist</input>
-      <input as="in" clear="false">speed_hist</input>
-      <output>frequency_hist_filtered</output>
-      <output>time_hist_filtered</output>
-      <output>speed_hist_filtered</output>
+      <input>coherence</input>
+      <input as="min" type="value">0.8</input>
+      <input>frequency</input>
+      <input>speed</input>
+      <input>time</input>
+      <output>coherenceFiltered</output>
+      <output append="true">frequency_hist</output>
+      <output append="true">speed_hist</output>
+      <output append="true">time_hist</output>
     </rangefilter>
   </analysis>
   <export>
     <set name="Frequency and speed">
       <data name="Time (s)">time_hist</data>
-      <data name="Frequency (Hz)">frequency_hist_filtered</data>
+      <data name="Frequency (Hz)">frequency_hist</data>
       <data name="Speed (m/s)">speed_hist</data>
     </set>
   </export>

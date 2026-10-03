@@ -5,9 +5,9 @@
   <description>
         Measures distances through echoes and the speed of sound.
 
-        A sonar sends bursts of short sounds, which get reflected by the object you want to measure. As sound travels at a speed of approximately 340 m/s, the time until the reflection reaches the microphone of your phone can be used to calculate the distance of this object.
+        A sonar sends out sound, which gets reflected by the object you want to measure. As sound travels at a speed of approximately 340 m/s, the time until the reflection reaches the microphone of your phone can be used to calculate the distance of this object.
 
-        This experiments generates a "chirp", sends it out through the speaker and starts a recording. A crosscorrelation of the chirp and the recorded data gives information about the timing at which echoes occur. This timing can then be multiplied with the speed of sound (and divided by 2 as the sound has to travel forth and back) and you get the distance at which the echo originated.
+        This experiment continuously plays a short "chirp", a sound sweeping from 2 kHz to 10 kHz, repeated about 23 times per second, and records at the same time. A crosscorrelation of the chirp and the recorded data gives information about the timing at which echoes occur. Several chirps are averaged for each result. The strongest signal is the sound traveling directly from the speaker to the microphone and all echoes are timed relative to it. This timing can then be multiplied with the speed of sound (and divided by 2 as the sound has to travel forth and back) and you get the distance at which the echo originated.
 
         However, sound usually travels in every direction. For a sonar this means, that when targeting a wall, you also get reflections from the floor, the ceiling, another wall nearby, a post and simply from every suitable "hard" surface nearby. Therefore this sonar gives you all the reflections and it is up to you to interpret the result and to figure out, which reflection corresponds to the target you intended to measure. So start with a small hard target and try to screen all other directions with some foam material. Also, this needs a quiet environment.
     </description>
@@ -661,55 +661,52 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </translation>
   </translations>
   <data-containers>
-    <container size="48000">recording</container>
+    <container size="16384">recording</container>
     <container init="48000">rate</container>
-    <container size="9000">recording_range</container>
     <container clearGroup="Settings">speedofsound</container>
     <container clearGroup="Settings">targetdistance</container>
-    <container size="240" static="true">chirp_t</container>
-    <container size="240" static="true">chirp_f</container>
-    <container size="240" static="true">chirp_temp1</container>
-    <container size="240" static="true">chirp_temp2</container>
-    <container size="240" static="true">chirp_temp3</container>
-    <container size="240" static="true">chirp_temp4</container>
-    <container size="240" static="true">chirp</container>
-    <container size="240" static="true">weighted_chirp</container>
-    <container size="1260" static="true">padding</container>
-    <container size="1500" static="true">padded_chirp</container>
-    <container size="7500" static="true">multi_chirp</container>
-    <container size="1500">crosscorrelation</container>
-    <container size="1500">crosscorrelation_smooth</container>
-    <container size="1500">ccTemp</container>
-    <container>max</container>
-    <container>startthreshold</container>
-    <container>t0</container>
-    <container>t1</container>
-    <container size="1200" static="true">count_t</container>
-    <container size="1200" static="true">relative_t</container>
-    <container size="1200">relative_cc</container>
-    <container size="1200" init="0">relative_cc_out</container>
-    <container size="1200" init="0">relative_cc_h1</container>
-    <container size="1200" init="0">relative_cc_h2</container>
-    <container size="1200" init="0">relative_cc_h3</container>
-    <container size="1200" init="0">relative_cc_h4</container>
-    <container size="1200" init="0">relative_cc_h5</container>
-    <container size="1200">distance</container>
-    <container size="1200">distance_out</container>
-    <container size="1200">sos</container>
-    <container size="1200">sos_out</container>
-    <container size="1200">weighted_cc</container>
-    <container size="1200" init="0">weighted_cc_out</container>
-    <container size="1200" init="0">weighted_cc_h1</container>
-    <container size="1200" init="0">weighted_cc_h2</container>
-    <container size="1200" init="0">weighted_cc_h3</container>
-    <container size="1200" init="0">weighted_cc_h4</container>
-    <container size="1200" init="0">weighted_cc_h5</container>
+    <container size="2048" static="true">sample_index</container>
+    <container size="2048" static="true">chirp_t</container>
+    <container size="2048" static="true">chirp</container>
+    <container size="2048" static="true">chirp_quadrature</container>
+    <container size="14336" static="true">template</container>
+    <container size="14336" static="true">template_quadrature</container>
+    <container size="1440" static="true">count_t</container>
+    <container>recording_count</container>
+    <container size="16384">recording_complete</container>
+    <container size="2048">crosscorrelation</container>
+    <container size="2048">crosscorrelation_quadrature</container>
+    <container size="2048">envelope</container>
+    <container size="4096">envelope_twice</container>
+    <container>direct</container>
+    <container>direct_position</container>
+    <container>profile_start</container>
+    <container size="1440">profile</container>
+    <container size="1440">relative_t</container>
+    <container size="1440">relative_cc</container>
+    <container size="1440" init="0">relative_cc_out</container>
+    <container size="1440" init="0">relative_cc_h1</container>
+    <container size="1440" init="0">relative_cc_h2</container>
+    <container size="1440" init="0">relative_cc_h3</container>
+    <container size="1440" init="0">relative_cc_h4</container>
+    <container size="1440" init="0">relative_cc_h5</container>
+    <container size="1440">distance</container>
+    <container size="1440">distance_out</container>
+    <container size="1440">sos</container>
+    <container size="1440">sos_out</container>
+    <container size="1440">weighted_cc</container>
+    <container size="1440" init="0">weighted_cc_out</container>
+    <container size="1440" init="0">weighted_cc_h1</container>
+    <container size="1440" init="0">weighted_cc_h2</container>
+    <container size="1440" init="0">weighted_cc_h3</container>
+    <container size="1440" init="0">weighted_cc_h4</container>
+    <container size="1440" init="0">weighted_cc_h5</container>
     <container size="1">size</container>
     <container size="1">time</container>
-    <container size="1200">time_line</container>
-    <container size="96000">time_map</container>
-    <container size="96000">distance_map</container>
-    <container size="96000">weighted_map</container>
+    <container size="1440">time_line</container>
+    <container size="115200">time_map</container>
+    <container size="115200">distance_map</container>
+    <container size="115200">weighted_map</container>
   </data-containers>
   <input>
     <audio>
@@ -718,13 +715,13 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </audio>
   </input>
   <output>
-    <audio>
-      <input>multi_chirp</input>
+    <audio loop="true">
+      <input>chirp</input>
     </audio>
   </output>
   <views>
     <view label="Time series">
-      <graph label="Normalized history" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="time" unitY="[[unit_short_second]]" labelZ="[[quantity_short_amplitude]]" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="1200" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Normalized history" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="time" unitY="[[unit_short_second]]" labelZ="[[quantity_short_amplitude]]" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="1440" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_map</input>
         <input axis="y">time_map</input>
         <input axis="z">weighted_map</input>
@@ -830,271 +827,247 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     <view label="Chirp">
       <graph label="Chirp" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]">
         <input axis="x">chirp_t</input>
-        <input axis="y">weighted_chirp</input>
+        <input axis="y">chirp</input>
       </graph>
     </view>
   </views>
-  <analysis sleep="0.5" requireFill="recording" requireFillThreshold="20000">
+  <analysis requireFill="recording" requireFillThreshold="16384">
+    <!-- The speaker loops one period of 2048 samples (at 48 kHz) with a chirp from 2000 Hz to 10000 Hz and a duration of 480 samples at its start.
+         As the sound is strictly periodic, it does not matter where a recording starts: Any 16384 consecutive samples contain 7 complete
+         periods plus one period of offsets for the crosscorrelation. -->
     <ramp>
       <input as="start" type="value">0</input>
-      <input as="stop" type="value">0.005</input>
+      <input as="stop" type="value">2047</input>
+      <output>sample_index</output>
+    </ramp>
+    <formula formula="[1_]/48000">
+      <input>sample_index</input>
       <output>chirp_t</output>
-    </ramp>
-    <ramp>
-      <input as="start" type="value">1000</input>
-      <input as="stop" type="value">4000</input>
-      <output>chirp_f</output>
-    </ramp>
-    <ramp>
-      <input as="start" type="value">0</input>
-      <input as="stop" type="value">3.14159</input>
-      <output>chirp_temp1</output>
-    </ramp>
-    <sin>
-      <input>chirp_temp1</input>
-      <output>chirp_temp2</output>
-    </sin>
-    <power>
-      <input as="base">chirp_temp2</input>
-      <input as="exponent" type="value">0.25</input>
-      <output>chirp_temp3</output>
-    </power>
-    <multiply>
-      <input>chirp_f</input>
-      <input>chirp_t</input>
-      <input type="value">6.283185307</input>
-      <output>chirp_temp4</output>
-    </multiply>
-    <sin>
-      <input>chirp_temp4</input>
+    </formula>
+    <formula formula="heaviside(480-0.5-[1_])*sin(3.141592653589793*[1_]/479)^2*sin(6.283185307179586*(2000*[1_]/48000+8000*[1_]*[1_]/46080000))">
+      <input>sample_index</input>
       <output>chirp</output>
-    </sin>
-    <multiply>
+    </formula>
+    <formula formula="heaviside(480-0.5-[1_])*sin(3.141592653589793*[1_]/479)^2*cos(6.283185307179586*(2000*[1_]/48000+8000*[1_]*[1_]/46080000))">
+      <input>sample_index</input>
+      <output>chirp_quadrature</output>
+    </formula>
+    <append>
       <input>chirp</input>
-      <input>chirp_temp3</input>
-      <output>weighted_chirp</output>
-    </multiply>
-    <const>
-      <output>padding</output>
-    </const>
-    <append>
-      <input>weighted_chirp</input>
-      <input>padding</input>
-      <output>padded_chirp</output>
+      <input>chirp</input>
+      <input>chirp</input>
+      <input>chirp</input>
+      <input>chirp</input>
+      <input>chirp</input>
+      <input>chirp</input>
+      <output>template</output>
     </append>
     <append>
-      <input>padded_chirp</input>
-      <input>padded_chirp</input>
-      <input>padded_chirp</input>
-      <input>padded_chirp</input>
-      <input>padded_chirp</input>
-      <output>multi_chirp</output>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <input>chirp_quadrature</input>
+      <output>template_quadrature</output>
     </append>
-    <!-- end chirp -->
-    <!-- Relative time -->
     <ramp>
-      <input as="start" type="value">96</input>
-      <input as="stop" type="value">1295</input>
+      <input as="start" type="value">72</input>
+      <input as="stop" type="value">1511</input>
       <output>count_t</output>
     </ramp>
-    <divide>
+    <formula formula="[1_]/[2]">
       <input>count_t</input>
-      <input clear="false">rate</input>
+      <input keep="true">rate</input>
       <output>relative_t</output>
-    </divide>
-    <!-- Estimate start point -->
-    <max>
-      <input as="y" clear="false">recording</input>
-      <output as="max">max</output>
-    </max>
-    <multiply>
-      <input clear="false">max</input>
-      <input type="value">0.6</input>
-      <output>startthreshold</output>
-    </multiply>
-    <threshold>
-      <input as="y" clear="false">recording</input>
-      <input as="threshold" clear="false">startthreshold</input>
-      <output>t0</output>
-    </threshold>
-    <subtract>
-      <input clear="false">t0</input>
-      <input type="value">240</input>
-      <!-- chirp -->
-      <output>t1</output>
-    </subtract>
-    <subrange>
-      <input as="from" clear="false">t1</input>
-      <input as="length" type="value">9000</input>
-      <!-- five chirps with padding + distance + headroom -->
-      <input as="in" clear="true">recording</input>
-      <output>recording_range</output>
-    </subrange>
-    <!-- Crosscorrelation -->
+    </formula>
+
+    <!-- Matched filter: The crosscorrelation with the chirp and with its quadrature (90° shifted) version yields the envelope of
+         the correlation, so each echo becomes a single smooth peak. -->
+    <count>
+      <input keep="true">recording</input>
+      <output>recording_count</output>
+    </count>
+    <if equal="true">
+      <input as="a">recording_count</input>
+      <input as="b" type="value">16384</input>
+      <input as="true">recording</input>
+      <output>recording_complete</output>
+    </if>
     <crosscorrelation>
-      <input clear="false">recording_range</input>
-      <input clear="false">multi_chirp</input>
+      <input keep="true">recording_complete</input>
+      <input keep="true">template</input>
       <output>crosscorrelation</output>
     </crosscorrelation>
-    <multiply>
-      <input clear="false">crosscorrelation</input>
-      <input clear="false">crosscorrelation</input>
-      <input type="value">1e5</input>
-      <output>ccTemp</output>
-    </multiply>
-    <gausssmooth sigma="3">
-      <input>ccTemp</input>
-      <output>crosscorrelation_smooth</output>
-    </gausssmooth>
-    <!-- Find start and range -->
+    <crosscorrelation>
+      <input>recording_complete</input>
+      <input keep="true">template_quadrature</input>
+      <output>crosscorrelation_quadrature</output>
+    </crosscorrelation>
+    <formula formula="sqrt([1_]*[1_]+[2_]*[2_])">
+      <input>crosscorrelation</input>
+      <input>crosscorrelation_quadrature</input>
+      <output>envelope</output>
+    </formula>
+
+    <!-- The strongest peak is the sound traveling directly from the speaker to the microphone. Echoes are timed relative to it
+         and their amplitude is given relative to it. As the correlation is periodic, the profile may wrap around. -->
     <max>
-      <input as="y" clear="false">crosscorrelation_smooth</input>
-      <output as="position">t0</output>
+      <input as="y" keep="true">envelope</input>
+      <output as="max">direct</output>
+      <output as="position">direct_position</output>
     </max>
-    <add>
-      <input clear="false">t0</input>
-      <input type="value">96</input>
-      <!-- 2ms -->
-      <output>t1</output>
-    </add>
+    <append>
+      <input keep="true">envelope</input>
+      <input>envelope</input>
+      <output>envelope_twice</output>
+    </append>
+    <formula formula="[1]+72">
+      <input>direct_position</input>
+      <output>profile_start</output>
+    </formula>
     <subrange>
-      <input as="from">t1</input>
-      <input as="length" type="value">1200</input>
-      <!-- 25ms -->
-      <input as="in" clear="false">crosscorrelation_smooth</input>
-      <output>relative_cc</output>
+      <input as="from">profile_start</input>
+      <input as="length" type="value">1440</input>
+      <input as="in">envelope_twice</input>
+      <output>profile</output>
     </subrange>
-    <multiply>
-      <input clear="false">relative_t</input>
-      <input clear="false">speedofsound</input>
-      <input type="value">50</input>
+    <formula formula="[1_]/[2]">
+      <input>profile</input>
+      <input>direct</input>
+      <output>relative_cc</output>
+    </formula>
+    <formula formula="[1_]*[2]*50">
+      <input keep="true">relative_t</input>
+      <input keep="true">speedofsound</input>
       <output>distance</output>
-    </multiply>
-    <divide>
-      <input clear="false">targetdistance</input>
-      <input>relative_t</input>
-      <input type="value">0.5</input>
+    </formula>
+    <formula formula="2*[1]/[2_]">
+      <input keep="true">targetdistance</input>
+      <input keep="true">relative_t</input>
       <output>sos</output>
-    </divide>
-    <multiply>
-      <input clear="false">relative_cc</input>
-      <input clear="false">distance</input>
-      <input clear="false">distance</input>
+    </formula>
+    <formula formula="[1_]*[2_]/100">
+      <input keep="true">relative_cc</input>
+      <input keep="true">distance</input>
       <output>weighted_cc</output>
-    </multiply>
+    </formula>
+
+    <!-- History -->
     <timer>
       <output>time</output>
     </timer>
     <const>
       <input as="value">time</input>
-      <input as="length" type="value">1200</input>
+      <input as="length" type="value">1440</input>
       <output>time_line</output>
     </const>
     <count>
-      <input clear="false">crosscorrelation</input>
+      <input keep="true">relative_cc</input>
       <output>size</output>
     </count>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">time_line</input>
-      <output clear="false">time_map</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">time_line</input>
+      <output append="true">time_map</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">distance</input>
-      <output clear="false">distance_map</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">distance</input>
+      <output append="true">distance_map</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc</input>
-      <output clear="false">weighted_map</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc</input>
+      <output append="true">weighted_map</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">distance</input>
-      <output clear="false">distance_out</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">distance</input>
+      <output>distance_out</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">sos</input>
-      <output clear="false">sos_out</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">sos</input>
+      <output>sos_out</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc_h4</input>
-      <output clear="true">relative_cc_h5</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc_h4</input>
+      <output>relative_cc_h5</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc_h3</input>
-      <output clear="true">relative_cc_h4</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc_h3</input>
+      <output>relative_cc_h4</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc_h2</input>
-      <output clear="true">relative_cc_h3</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc_h2</input>
+      <output>relative_cc_h3</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc_h1</input>
-      <output clear="true">relative_cc_h2</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc_h1</input>
+      <output>relative_cc_h2</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc_out</input>
-      <output clear="true">relative_cc_h1</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc_out</input>
+      <output>relative_cc_h1</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">relative_cc</input>
-      <output clear="true">relative_cc_out</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">relative_cc</input>
+      <output>relative_cc_out</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc_h4</input>
-      <output clear="true">weighted_cc_h5</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc_h4</input>
+      <output>weighted_cc_h5</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc_h3</input>
-      <output clear="true">weighted_cc_h4</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc_h3</input>
+      <output>weighted_cc_h4</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc_h2</input>
-      <output clear="true">weighted_cc_h3</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc_h2</input>
+      <output>weighted_cc_h3</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc_h1</input>
-      <output clear="true">weighted_cc_h2</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc_h1</input>
+      <output>weighted_cc_h2</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc_out</input>
-      <output clear="true">weighted_cc_h1</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc_out</input>
+      <output>weighted_cc_h1</output>
     </if>
     <if equal="true">
-      <input clear="false">size</input>
-      <input type="value">1500</input>
-      <input clear="false">weighted_cc</input>
-      <output clear="true">weighted_cc_out</output>
+      <input as="a" keep="true">size</input>
+      <input as="b" type="value">1440</input>
+      <input as="true" keep="true">weighted_cc</input>
+      <output>weighted_cc_out</output>
     </if>
   </analysis>
   <export>
@@ -1145,7 +1118,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </set>
     <set name="Chirp">
       <data name="Time (s)">chirp_t</data>
-      <data name="Amplitude (a.u.)">weighted_chirp</data>
+      <data name="Amplitude (a.u.)">chirp</data>
     </set>
   </export>
 </phyphox>
