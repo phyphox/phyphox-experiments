@@ -1,4 +1,4 @@
-<phyphox version="1.12">
+<phyphox version="1.21">
     <title>Temperature, Humidity</title>
     <category>phyphox:m</category>
     <color>117799</color>
@@ -23,7 +23,7 @@
 
     </data-containers>
     <input>
-        <bluetooth id="phyphox:m" name="phyphox:m" mode="notification">
+        <bluetooth id="phyphox:m" nameRegex="phyphox:m( \d+)?" mode="notification">
             <config char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">0103</config>
             <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">temperature</output>
             <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">humidity</output>
