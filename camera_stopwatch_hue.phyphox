@@ -561,7 +561,7 @@ Należy mieć świadomość, że automatyczny balans bieli oraz automatyczna eks
     </translation>
     <translation locale="ru">
       <string original="Settings">Настройки</string>
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <string original="Average rate">Средняя частота</string>
       <string original="Sequence">Последовательность</string>
       <string original="Time 1">Время 1</string>

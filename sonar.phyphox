@@ -91,7 +91,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Time">Czas</string>
       <string original="Time series">Szeregi czasowe</string>
       <string original="Normalized history">Skala barwna</string>
-      <string original="Distance">odległość</string>
+      <string original="Distance">Dystans</string>
       <string original="Delay">Opóźnienie</string>
       <string original="Settings">Ustawienia</string>
     </translation>
@@ -120,7 +120,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time">Tijd</string>
       <string original="Time series">Tijdreeks</string>
       <string original="Normalized history">Genormaliseerde geschiedenis</string>
-      <string original="Distance">afstand</string>
+      <string original="Distance">Afstand</string>
       <string original="Delay">Uitstel</string>
       <string original="Settings">Instellingen</string>
     </translation>
@@ -146,7 +146,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Chirp">Щебетание</string>
       <string original="Time series">Временные отрезки</string>
       <string original="Normalized history">Нормализованная история</string>
-      <string original="Distance">расстояние</string>
+      <string original="Distance">Дистанция</string>
       <string original="Delay">Задержка</string>
       <string original="Time">Время</string>
       <string original="Settings">Настройки</string>
@@ -173,7 +173,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time">Tempo</string>
       <string original="Time series">Serie temporale</string>
       <string original="Normalized history">Cronologia normalizzata</string>
-      <string original="Distance">distanza</string>
+      <string original="Distance">Distanza</string>
       <string original="Delay">Ritardo</string>
       <string original="Settings">Impostazioni</string>
     </translation>
@@ -246,7 +246,7 @@ Voer dit experiment best uit in een rustige omgeving.
     </description>
       <string original="Time series">Série Temporal</string>
       <string original="Normalized history">Histórico Normalizado</string>
-      <string original="Distance">distância</string>
+      <string original="Distance">Distância</string>
       <string original="Echo location">Ecolocalização</string>
       <string original="Speed of Sound">Velocidade do Som</string>
       <string original="Normalized to spherical surface">Normalizado para uma superfície esférica</string>
@@ -273,7 +273,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Zaman serileri</string>
       <string original="Normalized history">Normalleştirilmiş tarih</string>
-      <string original="Distance">mesafe</string>
+      <string original="Distance">Mesafe</string>
       <string original="Echo location">Eko konumu</string>
       <string original="Speed of Sound">Ses hızı</string>
       <string original="Normalized to spherical surface">Küresel yüzeye göre normalize</string>
@@ -308,6 +308,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Chirp">波包</string>
       <string original="Time">時間</string>
       <string original="Settings">設定</string>
+      <string original="Distance">距離</string>
     </translation>
     <translation locale="fr">
       <title>Sonar</title>
@@ -349,7 +350,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Chuỗi t. gian</string>
       <string original="Normalized history">Lịch sử đã chuẩn hoá</string>
-      <string original="Distance">khoảng cách</string>
+      <string original="Distance">Khoảng cách</string>
       <string original="Echo location">Vị trí tiếng vang</string>
       <string original="Speed of Sound">Tốc độ âm thanh</string>
       <string original="Normalized to spherical surface">Chuẩn hoá mặt cầu</string>
@@ -403,7 +404,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Vremenski intervali</string>
       <string original="Normalized history">Standardna Legenda</string>
-      <string original="Distance">rastojanje</string>
+      <string original="Distance">Razdaljina</string>
       <string original="Echo location">Eho lokacija</string>
       <string original="Speed of Sound">Brzina zvuka</string>
       <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
@@ -430,7 +431,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Vremenski intervali</string>
       <string original="Normalized history">Standardna Legenda</string>
-      <string original="Distance">rastojanje</string>
+      <string original="Distance">Razdaljina</string>
       <string original="Echo location">Eho lokacija</string>
       <string original="Speed of Sound">Brzina zvuka</string>
       <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
@@ -457,7 +458,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Series de tiempo</string>
       <string original="Normalized history">Historia normalizada</string>
-      <string original="Distance">distancia</string>
+      <string original="Distance">Distancia</string>
       <string original="Echo location">Ecolocalización</string>
       <string original="Speed of Sound">Velocidad del sonido</string>
       <string original="Normalized to spherical surface">Normalizado a superficie esférica</string>
@@ -860,7 +861,6 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <input keep="true">rate</input>
       <output>relative_t</output>
     </formula>
-
     <!-- Matched filter: The crosscorrelation with the chirp and with its quadrature (90° shifted) version yields the envelope of
          the correlation, so each echo becomes a single smooth peak. -->
     <count>
@@ -888,7 +888,6 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <input>crosscorrelation_quadrature</input>
       <output>envelope</output>
     </formula>
-
     <!-- The strongest peak is the sound traveling directly from the speaker to the microphone. Echoes are timed relative to it
          and their amplitude is given relative to it. As the correlation is periodic, the profile may wrap around. -->
     <max>
@@ -931,7 +930,6 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <input keep="true">distance</input>
       <output>weighted_cc</output>
     </formula>
-
     <!-- History -->
     <timer>
       <output>time</output>

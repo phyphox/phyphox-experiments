@@ -112,7 +112,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">速度</string>
       <string original="Roll radius">回転体半径</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>
     </translation>
     <translation locale="pt">
@@ -309,7 +309,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Roll radius">Rulonun radiusu</string>
       <string original="Velocity">Sürət</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Gyroscope y">Giroskop y</string>
     </translation>
   </translations>

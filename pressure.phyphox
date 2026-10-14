@@ -184,8 +184,8 @@
     </translation>
     <translation locale="az">
       <title>Təzyiq</title>
-      <category>Xam sensorlar</category>
-      <description>Barometrdən xam verilənləri alın.</description>
+      <category>Sensorlar</category>
+      <description>Barometrdən verilənləri alın.</description>
       <string original="Graph">Qrafik</string>
       <string original="Pressure">Təzyiq</string>
       <string original="Simple">Sadə</string>

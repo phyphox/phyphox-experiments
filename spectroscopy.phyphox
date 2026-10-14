@@ -67,6 +67,24 @@
       <string original="Calibrate">Étalonner</string>
       <string original="Spectrum">Spectre</string>
       <string original="Preview">Aperçu</string>
+      <title>Spectroscopie</title>
+      <category>Caméra</category>
+      <description>Permet une mesure de spectroscopie lumineuse, en utilisant un réseau de diffraction externe. Si vous ne disposez pas d'un réseau de diffraction, un morceau de CD ou de DVD peut convenir. Fixez votre smartphone de manière à ce que la caméra capte l'arc-en-ciel de diffraction, puis indiquez si la diffraction se produit horizontalement ou verticalement. À partir de l'image de la caméra, phyphox calculera la moyenne des contributions pour les différentes longueurs d'onde dans la zone sélectionnée. Vous pouvez également étalonner votre spectre lumineux.</description>
+      <string original="Calibration data">Calibration</string>
+      <string original="1 Camera">1 - Caméra</string>
+      <string original="Set up your camera">Configurez votre caméra</string>
+      <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Installez un réseau de diffraction externe et la source de lumière que vous voulez étudier. Fixez votre smartphone de façon à ce que la caméra puisse filmer l'arc-en-ciel de diffraction. Appuyez sur l'aperçu d'image et sélectionnez uniquement la zone de l'arc-en-ciel. Assurez-vous que les bandes de couleur soient bien alignées, soit verticalement, soit horizontalement (et sélectionnez l'orientation en conséquence). Cette configuration faite, passez à l'onglet "2 - Calibration".</string>
+      <string original="2 Calibration">2 - Calibration</string>
+      <string original="In this tab you can calibrate your spectrum">Procédure pour calibrer le spectre de lumière</string>
+      <string original="Raw Spectrum">Spectre non calibré</string>
+      <string original="Position on sensor">Position sur l'image</string>
+      <string original="Wavelength in nm">Longueur d'onde (en nm)</string>
+      <string original="Wavelength 1">Longueur d'onde 1</string>
+      <string original="Wavelength 2">Longueur d'onde 2</string>
+      <string original="Using a known light source, you can tap the graph, select the calibrate mode at the bottom and pick peaks to match them with known wavelengths. You can then see the calibrated spectrum on tab 3.">Utilisez une source de lumière dont vous connaissez le spectre pour cette étape de calibration. Cliquez sur le graph, et choisissez le mode "Étalonner", en bas de l'écran. Définissez les longueurs d'onde de deux points que vous choisissez. Le spectre lumineux calibré à partir de ces deux points est affiché dans l'onglet "3 - Spectre".</string>
+      <string original="3 Spectrum">3 - Spectre lumineux</string>
+      <string original="After calibrating your spectrometer in tab 2, you can see your calibrated spectrum here.">Après avoir calibré votre spectromètre dans l'onglet "2 - Calibration", le spectre lumineux est affiché ici.</string>
+      <string original="Note that your phone's camera uses filters to capture red, green and blue components. The resulting relative luminance depends on the wavelength, so the intensity of different wavelengths is not comparable in this spectrum.">Notez que la caméra de votre smartphone comporte des filtres colorés pour mesurer les composantes rouge, vert et bleu de la lumière, et ne mesure pas de manière continue la luminosité sur la plage des longueurs d'onde. Les intensités mesurées à différentes longueurs d'onde ne sont donc pas directement comparables dans cette expérience.</string>
     </translation>
     <translation locale="hi">
       <string original="Preview">पूर्वावलोकन</string>
@@ -99,7 +117,7 @@
       <string original="Spectrum">Espectro</string>
     </translation>
     <translation locale="ru">
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <string original="Calibrate">Калибровать</string>
       <string original="Spectrum">Спектр</string>
       <title>Спектроскопия</title>
@@ -264,13 +282,13 @@
       <category>Kamera</category>
       <description>Spektroskopiya üçün xarici difraksiya qəfəsindən istifadə edin. Xüsusi difraksiya qəfəsiniz yoxdursa, CD və ya DVD-nin bir hissəsi də uyğun gəlir. Təcrübəni elə qurun ki, kamera difraksiyanın yaratdığı göy qurşağını görsün və phyphox-da difraksiyanın üfüqi, yoxsa şaquli baş verdiyini seçin. phyphox kamera görüntüsünün seçilmiş sahəsində eyni dalğa uzunluqlarından gələn payları ortalayacaq. Həmçinin spektrinizi kalibrləyə bilərsiniz.</description>
       <string original="Calibration data">Kalibrləmə verilənləri</string>
-      <string original="1 Camera">a1 Kamera</string>
+      <string original="1 Camera">1 Kamera</string>
       <string original="Set up your camera">Kameranızı quraşdırın</string>
       <string original="Preview">Önizləmə</string>
       <string original="Use a diffraction grating and align your phone's camera on a tripod such that it can see the generated rainbow. Tap the preview image and drag the handles of the highlighted rectangle to select only the rainbow. Make sure its color bands are either perfectly horizontal or vertical and select the spectrum orientation accordingly. Then move on to tab 2.">Difraksiya qəfəsindən istifadə edin və telefonunuzun kamerasını ştativdə elə yerləşdirin ki, yaranan göy qurşağını görsün. Önizləmə şəklinə toxunun və yalnız göy qurşağını seçmək üçün işıqlandırılmış düzbucaqlının tutacaqlarını sürüşdürün. Rəng zolaqlarının tam üfüqi və ya tam şaquli olduğuna əmin olun və spektrin yönümünü buna uyğun seçin. Sonra 2-ci bölməyə keçin.</string>
       <string original="2 Calibration">2 Kalibrləmə</string>
       <string original="In this tab you can calibrate your spectrum">Bu bölmədə spektrinizi kalibrləyə bilərsiniz</string>
-      <string original="Raw Spectrum">Xam spektr</string>
+      <string original="Raw Spectrum">Kalibrlənməmiş spektr</string>
       <string original="Position on sensor">Sensordakı mövqe</string>
       <string original="Calibrate">Kalibrlə</string>
       <string original="Calibration 1">Kalibrləmə 1</string>

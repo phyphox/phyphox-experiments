@@ -307,8 +307,8 @@
     </translation>
     <translation locale="az">
       <title>g ilə təcil</title>
-      <category>Xam sensorlar</category>
-      <description>Akselerometrdən xam verilənləri alın. Bu sensor ağırlıq qüvvəsini çıxmır, ona görə də telefon hərəkətsiz olduqda belə 9,81 m/s² təcil göstərəcək.</description>
+      <category>Sensorlar</category>
+      <description>Akselerometrdən verilənləri alın. Bu sensor ağırlıq qüvvəsini çıxmır, ona görə də telefon hərəkətsiz olduqda belə 9,81 m/s² təcil göstərəcək.</description>
       <string original="Graph">Qrafik</string>
       <string original="Accelerometer x">Akselerometr x</string>
       <string original="Accelerometer y">Akselerometr y</string>

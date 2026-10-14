@@ -281,9 +281,9 @@
       <string original="Simple">단순</string>
     </translation>
     <translation locale="az">
-      <title>Giroskop (dönmə sürəti)</title>
-      <category>Xam sensorlar</category>
-      <description>Giroskopdan xam verilənləri alın.</description>
+      <title>Giroskop (bucaq sürəti)</title>
+      <category>Sensorlar</category>
+      <description>Giroskopdan verilənləri alın.</description>
       <string original="Graph">Qrafik</string>
       <string original="Gyroscope x">Giroskop x</string>
       <string original="Gyroscope y">Giroskop y</string>

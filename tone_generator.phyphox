@@ -275,6 +275,18 @@
       <string original="Controls">Contrôles</string>
       <string original="Amplitude">Intensité</string>
       <string original="Settings">Paramètres</string>
+      <string original="Channel 1">Canal 1</string>
+      <string original="Waveform">Type de singal</string>
+      <string original="Sine">sinusoïdal</string>
+      <string original="Square">carré</string>
+      <string original="Sawtooth">dents de scie</string>
+      <string original="Channel 2">Canal 2</string>
+      <string original="Channel 3">Canal 3</string>
+      <string original="Channels">Nombre de canaux</string>
+      <string original="Advanced">Contrôles avancés</string>
+      <string original="The output amplitude ranges from 0 to 1. If the sum of the amplitudes of multiple channels exceeds 1, you will get distortion. The following setting automatically scales amplitudes proportionally to get a sum of 1.">L'amplitude de sortie ne peut pas dépasser 1. Si la somme des amplitudes de plusieurs canaux dépasse 1, vous obtiendrez une distorsion. Le réglage suivant permet de normaliser linéairement les amplitudes des canaux afin que leur somme soit inférieure ou égale à 1.</string>
+      <string original="Normalize">Normaliser</string>
+      <string original="Normalization amplitude">Amplitude normalisée</string>
     </translation>
     <translation locale="vi">
       <title>Bộ tạo âm</title>

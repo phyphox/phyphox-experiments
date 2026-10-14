@@ -121,6 +121,7 @@ Cette expérience collectera des données techniques de votre téléphone et vos
       <string original="Humidity">Humidité</string>
       <string original="Light">Lumière</string>
       <string original="Proximity">Proximité</string>
+      <string original="Confidence">Confiance</string>
     </translation>
     <translation locale="it">
       <string original="Gyroscope">Giroscopio</string>

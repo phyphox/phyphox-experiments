@@ -704,7 +704,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
       <string original="Samples">Nümunələr</string>
       <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Ağ küy generatoru. (Uca ola bilər. Zəhmət olmasa əvvəlcə səs səviyyəsini azaldın.)</string>
       <string original="White noise">Ağ küy</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Recording">Yazılış</string>
       <string original="Amplitude">Amplitud</string>
     </translation>

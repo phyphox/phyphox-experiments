@@ -257,8 +257,8 @@
     </translation>
     <translation locale="az">
       <title>İşıq</title>
-      <category>Xam sensorlar</category>
-      <description>İşıq sensorundan xam verilənləri alın.</description>
+      <category>Sensorlar</category>
+      <description>İşıq sensorundan verilənləri alın.</description>
       <string original="Graph">Qrafik</string>
       <string original="Illuminance">İşıqlanma</string>
       <string original="Info">

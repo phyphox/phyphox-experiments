@@ -268,7 +268,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Gyroscope x">ジャイロスコープ x</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>
       <string original="Gyroscope z">ジャイロスコープ　z</string>
@@ -742,7 +742,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu bölmədə amplitud aşkarlanan tezliyə görə qurulur. Bundan məcburi rəqs sisteminin rezonansını ölçmək üçün istifadə edə bilərsiniz. Amplitud 0-dan 1-ə qədər diapazona normallaşdırılıb.</string>
       <string original="Autocorrelation">Avtokorrelyasiya</string>
       <string original="correlation">korrelyasiya</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Gyroscope x">Giroskop x</string>
       <string original="Gyroscope y">Giroskop y</string>
       <string original="Gyroscope z">Giroskop z</string>

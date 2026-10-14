@@ -529,7 +529,7 @@ L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio.
       <string original="Cents from note">Notdan sent fərqi</string>
       <string original="Autocorrelation">Avtokorrelyasiya</string>
       <string original="correlation">korrelyasiya</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Recording">Yazılış</string>
       <string original="Amplitude">Amplitud</string>
     </translation>

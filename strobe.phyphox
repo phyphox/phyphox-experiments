@@ -51,6 +51,17 @@
       <string original="Frequency">Fréquence</string>
       <string original="Period">Période</string>
       <string original="Preview">Aperçu</string>
+      <title>Lampe stroboscopique</title>
+      <category>Outil</category>
+      <description>Fait clignoter le flash de votre téléphone, à une fréquence réglable. La précision de cette fréquence n'est pas garantie. La plage des fréquences accessible dépend du modèle de votre smartphone. Lisez bien l'avertissement qui apparait à l'ouverture de l'expérience.</description>
+      <string original="Strobe">Stroboscope</string>
+      <string original="Brightness">Luminosité</string>
+      <string original="Duty cycle">Rapport cyclique</string>
+      <string original="Reset duty cycle to 0.5">Remet la valeur du rapport cyclique à 0,5</string>
+      <string original="On duration">Durée On</string>
+      <string original="Off duration">Durée Off</string>
+      <string original="The maximum possible rate varies across phone models and cannot be verified by phyphox. Slowly increase the stroboscope frequency and keep an eye on the emitted light. If you notice irregular flickering or a sudden change in brightness, you should assume that you have reached the maximum frequency and that higher flash rates will not be reproduced correctly by your phone.">La fréquence maximale atteignable dépend du modèle du téléphone et ne peut pas être vérifiée par phyphox. Augmentez progressivement la fréquence du stroboscope tout en surveillant la lumière émise. Si vous constatez un clignotement irrégulier ou un changement soudain de luminosité, vous avez sans doute atteint la fréquence maximale à laquelle votre téléphone peut correctement clignoter.</string>
+      <string original="The highest frequency can be achieved with a duty cycle of 0.5 to space the switching events evenly. The on and off durations will be highlighted in red below typical limits, but your phone may have lower or higher limits.">Un rapport cyclique de 0,5, qui espace régulièrement les commutations, permet d'atteindre les fréquences les plus élevées. Les durées On et Off seront affichées en rouge en dessous de valeurs typiques, mais votre téléphone peut avoir des limites qui sont supérieures ou inférieures.</string>
     </translation>
     <translation locale="hi">
       <string original="Frequency">आवृत्ति</string>
@@ -86,7 +97,7 @@
     <translation locale="ru">
       <string original="Frequency">Частота</string>
       <string original="Period">Период</string>
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <title>Стробоскоп из фонарика</title>
       <category>Инструменты</category>
       <description>Включение и выключение фонарика телефона с настраиваемой частотой. Учтите, что вспышка не рассчитана на переключение с точным таймингом. В зависимости от модели телефона доступные частоты могут быть ограничены. Обратите внимание на информацию под органами управления стробоскопом.</description>
@@ -187,7 +198,7 @@
     </translation>
     <translation locale="az">
       <title>Fənər stroboskopu</title>
-      <category>aAlətlər</category>
+      <category>Alətlər</category>
       <description>Telefonunuzun fənərini tənzimlənə bilən tezliklə yandırıb-söndürün. Nəzərə alın ki, fənər dəqiq vaxt ölçüsü ilə yandırılıb-söndürülmək üçün nəzərdə tutulmayıb. Telefonunuzun modelindən asılı olaraq istifadə oluna bilən tezliklər məhdud ola bilər. Zəhmət olmasa stroboskop idarəetmələrinin altında göstərilən məlumata diqqət yetirin.</description>
       <string original="Strobe">Stroboskop</string>
       <string original="Brightness">Parlaqlıq</string>

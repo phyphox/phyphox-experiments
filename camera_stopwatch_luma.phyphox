@@ -570,7 +570,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="ru">
       <string original="Settings">Настройки</string>
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <string original="Trigger below">Нижний порог</string>
       <string original="Trigger above">Верхний порог</string>
       <string original="Average rate">Средняя частота</string>

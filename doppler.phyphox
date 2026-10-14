@@ -582,7 +582,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input keep="true">blockSize</input>
       <output>groupSize</output>
     </formula>
-
     <!-- Samples left over from the previous cycle are only continued if the experiment was not paused in between -->
     <timer>
       <output>experimentTime</output>
@@ -610,7 +609,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input as="true" type="empty"/>
       <output>rest</output>
     </if>
-
     <!-- Split the data into complete time steps and keep the remainder for the next cycle -->
     <count>
       <input keep="true">rest</input>
@@ -662,7 +660,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input as="length">usedCount</input>
       <output>index</output>
     </ramp>
-
     <!-- I/Q demodulation and block averages -->
     <formula formula="[1_]*cos(6.283185307179586*[2]*[3_]/[4])">
       <input keep="true">data</input>
@@ -702,7 +699,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input>blockI</input>
       <output>blockPower</output>
     </formula>
-
     <!-- Phase step from block to block, wrapped to -pi..pi. Within each time step, the steps are weighted to
          yield the least-squares slope of the phase. The step from the last block of a time step to the first
          block of the next one gets a weight of zero. -->
@@ -742,7 +738,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <output as="x">groupIndex</output>
       <output as="y">groupStep</output>
     </reduce>
-
     <!-- Coherence of the phase steps within a time step: close to 1 for a clean tone, small for noise -->
     <formula formula="sign([3]-1-([2_]%[3]))*cos([1_])">
       <input keep="true">phaseStep</input>
@@ -795,7 +790,6 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <input>groupPower</input>
       <output>coherence</output>
     </formula>
-
     <!-- Results -->
     <formula formula="[1]+[2_]*[3]/(6.283185307179586*[4])">
       <input keep="true">f</input>

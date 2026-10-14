@@ -198,7 +198,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Accelerometer x">加速度計 x</string>
       <string original="Accelerometer y">加速度計 y</string>
       <string original="Accelerometer z">加速度計 z</string>
@@ -556,7 +556,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu bölmədə amplitud aşkarlanan tezliyə görə qurulur. Bundan məcburi rəqs sisteminin rezonansını ölçmək üçün istifadə edə bilərsiniz. Amplitud 0-dan 1-ə qədər diapazona normallaşdırılıb.</string>
       <string original="Autocorrelation">Avtokorrelyasiya</string>
       <string original="correlation">korrelyasiya</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Accelerometer x">Akselerometr x</string>
       <string original="Accelerometer y">Akselerometr y</string>
       <string original="Accelerometer z">Akselerometr z</string>

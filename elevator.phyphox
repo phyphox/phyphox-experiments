@@ -156,7 +156,7 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Motion">位置・速度・加速度</string>
       <string original="Altitude (from barometer)">バロメーターから換算された高度</string>
       <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Pressure">圧力</string>
       <string original="Accelerometer z">加速度計 z</string>
       <string original="Vertical velocity (from altitude)">高度から計算される垂直速度</string>
@@ -224,7 +224,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <description>
         Mesure la vitesse d'un ascenseur à l'aide du baromètre.
 
-        Les variations rapides d'altitude  peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
+        Les variations rapides d'altitude peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
 
         Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation d'altitude à l'aide de la relation pression / hauteur. La différence d'altitude divisée par l’intervalle de temps donne la vitesse verticale.
     </description>
@@ -444,7 +444,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">Hündürlük (barometrdən)</string>
       <string original="Vertical velocity (from altitude)">Şaquli sürət (hündürlükdən)</string>
       <string original="z acceleration (from accelerometer)">z təcili (akselerometrdən)</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Pressure">Təzyiq</string>
       <string original="Accelerometer z">Akselerometr z</string>
     </translation>

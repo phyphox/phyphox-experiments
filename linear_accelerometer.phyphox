@@ -376,8 +376,8 @@
     </translation>
     <translation locale="az">
       <title>Təcil (g olmadan)</title>
-      <category>Xam sensorlar</category>
-      <description>Xətti akselerometr adlanan sensordan xam verilənləri alın; o, ağırlıq təcili olmadan həqiqi təcili verir. "g ilə təcil"dən fərqli olaraq, bu sensor cihaz hərəkətsiz olduqda 0 göstərir.</description>
+      <category>Sensorlar</category>
+      <description>Xətti akselerometr adlanan sensordan verilənləri alın; o, ağırlıq təcili olmadan həqiqi təcili verir. "g ilə təcil"dən fərqli olaraq, bu sensor cihaz hərəkətsiz olduqda 0 göstərir.</description>
       <string original="Graph">Qrafik</string>
       <string original="Linear Acceleration x">Xətti təcil x</string>
       <string original="Linear Acceleration y">Xətti təcil y</string>

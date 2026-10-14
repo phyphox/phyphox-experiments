@@ -268,7 +268,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
       <string original="Resolution">Разрешение</string>
       <string original="Acquisition rate">Cкорость сбора данных</string>
       <string original="Nyquist frequency">Частота Найквиста</string>
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <string original="History">История</string>
       <string original="Time">Время</string>
       <string original="Settings">Настройки</string>
@@ -512,7 +512,7 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       <string original="Time">vaxt</string>
       <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Aşağıda Furye çevrilməsi üçün istifadə olunan nümunələrin sayını təyin edə bilərsiniz. Nümunə sayı çox olduqca yenilənmə yavaşlayır, lakin spektral ayırdetmə yüksəlir.</string>
       <string original="Samples">Nümunələr</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Luma">Parlaqlıq</string>
     </translation>
   </translations>

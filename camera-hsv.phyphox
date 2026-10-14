@@ -114,7 +114,7 @@ Należy pamiętać, że na wynik wpływa balans bieli. Choć automatyczny balans
       <string original="Average rate">Taxa média</string>
     </translation>
     <translation locale="ru">
-      <string original="Preview">Предварительный просмотр</string>
+      <string original="Preview">Предпросмотр</string>
       <string original="Average rate">Средняя частота</string>
       <title>Цвет (тон, насыщенность, значение)</title>
       <category>Камера</category>

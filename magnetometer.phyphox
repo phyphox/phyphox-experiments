@@ -591,9 +591,9 @@ Nevystavujte svůj mobil silnému magnetickému poli!
     </translation>
     <translation locale="az">
       <title>Maqnitometr</title>
-      <category>Xam sensorlar</category>
+      <category>Sensorlar</category>
       <description>
-        Maqnitometrdən xam verilənləri alın.
+        Maqnitometrdən verilənləri alın.
 
         Maqnitometr kompas rolunu oynamaq üçün yerin maqnit sahəsini ölçmək məqsədilə hazırlandığından olduqca həssasdır. Lakin o, həmişə telefonunuzdakı elektronikadan gələn daxili sahələrə məruz qalır və bu, yanlış nəticələrə gətirib çıxarır. Buna görə də phyphox sistemdən kalibrlənmiş maqnit sahəsini almağa çalışır. Bəzi hallarda, sensor hələ kalibrlənməyibsə (məsələn, telefon yenicə işə salınıbsa), heç bir verilən almaya bilərsiniz. Bu halda təcrübə işləyərkən telefonunuzu bir neçə dəfə fırladın. Bu, sistemə sensoru kalibrləməyə kömək edir. Həmçinin bir çox cihazda (hamısında yox) sağ yuxarıdakı menyu vasitəsilə kalibrlənməmiş maqnitometr verilənlərinə keçə bilərsiniz.
 
@@ -602,7 +602,7 @@ Nevystavujte svůj mobil silnému magnetickému poli!
       <string original="Graph">Qrafik</string>
       <string original="Accuracy">Dəqiqlik</string>
       <string original="Uncalibrated">Kalibrlənməyib</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Low">Aşağı</string>
       <string original="Medium">Orta</string>
       <string original="High">Yuxarı</string>

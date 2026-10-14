@@ -178,7 +178,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx : 磁石間の距離</string>
       <string original="Distance">距離</string>
       <string original="Velocity">速度</string>
-      <string original="Raw data">センサー出力</string>
+      <string original="Raw data">時系列データ</string>
       <string original="Magnetic field x">磁界 x</string>
       <string original="Magnetic field y">磁界 y</string>
       <string original="Magnetic field z">磁界 z</string>
@@ -485,7 +485,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx iki maqnit arasındakı məsafədir</string>
       <string original="Distance">Məsafə</string>
       <string original="Velocity">Sürət</string>
-      <string original="Raw data">Xam verilənlər</string>
+      <string original="Raw data">Verilənlər</string>
       <string original="Magnetic field x">Maqnit sahəsi x</string>
       <string original="Magnetic field y">Maqnit sahəsi y</string>
       <string original="Magnetic field z">Maqnit sahəsi z</string>

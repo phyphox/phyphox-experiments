@@ -750,9 +750,9 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
     </translation>
     <translation locale="az">
       <title>Məkan (GPS)</title>
-      <category>Xam sensorlar</category>
+      <category>Sensorlar</category>
       <description>
-        Peyk naviqasiyasından xam mövqe verilənlərini alın.
+        Peyk naviqasiyasından mövqe verilənlərini alın.
 
         Nəzərə alın ki, mövcud verilənlər smartfonunuzdakı tətbiqetmədən asılı ola bilər. Bəzi cihazlar şaquli dəqiqliyi və ya peyklərin sayını verməyə bilər.
 
