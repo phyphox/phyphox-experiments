@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Depth Sensor (LiDAR / ToF)</title>
   <category>Camera</category>
   <description>Measure distances using the depth sensor.
@@ -528,44 +528,46 @@ Hərəkət bölməsi həmçinin ölçülmüş məsafə əsasında LOESS alqoritm
   </analysis>
   <views>
     <view label="Graph">
-      <graph label="Distance / Depth" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
+      <graph label="Distance / Depth" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="@second" unitY="@meter">
         <input axis="x">t</input>
         <input axis="y">x</input>
       </graph>
     </view>
     <view label="Simple">
-      <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+      <value label="Distance / Depth" size="2" unit="@meter">
         <input>x</input>
       </value>
     </view>
     <view label="Kinematics">
-      <graph label="Distance / Depth" partialUpdate="false" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
-        <input axis="x" lineWidth="2">toutpreview</input>
-        <input axis="y">xoutpreview</input>
-        <input axis="x" style="dots" color="white">t</input>
-        <input axis="y">x</input>
-      </graph>
-      <graph label="Velocity" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_velocity]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_second]]">
-        <input axis="x" lineWidth="2">toutpreview</input>
-        <input axis="y">voutpreview</input>
-      </graph>
-      <graph label="Acceleration" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_acceleration]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_square_second]]">
-        <input axis="x" lineWidth="2">toutpreview</input>
-        <input axis="y">aoutpreview</input>
-      </graph>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Distance / Depth" partialUpdate="false" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="@second" unitY="@meter">
+          <input axis="x" lineWidth="2">toutpreview</input>
+          <input axis="y">xoutpreview</input>
+          <input axis="x" style="dots" color="white">t</input>
+          <input axis="y">x</input>
+        </graph>
+        <graph label="Velocity" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_velocity]]" unitX="@second" unitY="@meter_per_second">
+          <input axis="x" lineWidth="2">toutpreview</input>
+          <input axis="y">voutpreview</input>
+        </graph>
+        <graph label="Acceleration" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_acceleration]]" unitX="@second" unitY="@meter_per_square_second">
+          <input axis="x" lineWidth="2">toutpreview</input>
+          <input axis="y">aoutpreview</input>
+        </graph>
+      </grid>
     </view>
     <view label="Settings">
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area."/>
       <separator height="1"/>
       <depth-gui label="Preview"/>
-      <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+      <value label="Distance / Depth" size="2" unit="@meter">
         <input>x</input>
       </value>
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
       <info label="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail."/>
-      <edit label="Width of LOESS fit" unit="[[unit_short_second]]" default="0.2">
+      <edit label="Width of LOESS fit" unit="@second" default="0.2">
         <output>d</output>
       </edit>
     </view>

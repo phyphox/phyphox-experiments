@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Inclination</title>
   <category>Tools</category>
   <icon format="base64">
@@ -578,75 +578,95 @@ Dikkat, açıların tanımının telefonun dönüşünden bağımsız olarak (z 
   </input>
   <views>
     <view label="Flat">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltFlatUD</input>
-      </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltFlatUD</input>
-      </value>
-      <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltFlatLR</input>
-      </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltFlatLR</input>
-      </value>
+      <grid maxWidth="1" maxWidthUnit="screen" spacing="1">
+        <vertical>
+          <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltFlatUD</input>
+          </graph>
+          <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltFlatUD</input>
+          </value>
+        </vertical>
+        <vertical>
+          <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltFlatLR</input>
+          </graph>
+          <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltFlatLR</input>
+          </value>
+        </vertical>
+      </grid>
       <info label="This tab helps to measure the tilting angle of the phone, starting from a flat position."/>
     </view>
     <view label="Upright">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltUprightUD</input>
-      </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltUprightUD</input>
-      </value>
-      <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltUprightLR</input>
-      </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltUprightLR</input>
-      </value>
+      <grid maxWidth="1" maxWidthUnit="screen" spacing="1">
+        <vertical>
+          <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltUprightUD</input>
+          </graph>
+          <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltUprightUD</input>
+          </value>
+        </vertical>
+        <vertical>
+          <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltUprightLR</input>
+          </graph>
+          <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltUprightLR</input>
+          </value>
+        </vertical>
+      </grid>
       <info label="This tab helps to measure the tilting angle of the phone, starting from an upright position."/>
     </view>
     <view label="Side">
-      <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltSideUD</input>
-      </graph>
-      <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltSideUD</input>
-      </value>
-      <separator height="1"/>
-      <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">tiltSideLR</input>
-      </graph>
-      <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>tiltSideLR</input>
-      </value>
+      <grid maxWidth="1" maxWidthUnit="screen" spacing="1">
+        <vertical>
+          <graph label="Tilt up/down" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltSideUD</input>
+          </graph>
+          <value label="Tilt up/down" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltSideUD</input>
+          </value>
+        </vertical>
+        <vertical>
+          <graph label="Tilt left/right" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">tiltSideLR</input>
+          </graph>
+          <value label="Tilt left/right" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>tiltSideLR</input>
+          </value>
+        </vertical>
+      </grid>
       <info label="This tab helps to measure the tilting angle of the phone, starting from a sideways position."/>
     </view>
     <view label="Plane">
-      <graph label="Inclination" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">angle</input>
-      </graph>
-      <value label="Inclination" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>angle</input>
-      </value>
-      <separator height="1"/>
-      <graph label="Rotation" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Angle" unitY="[[unit_short_degree]]" partialUpdate="true" style="lines">
-        <input axis="x">t</input>
-        <input axis="y">anglePlane</input>
-      </graph>
-      <value label="Rotation" size="2" precision="2" scientific="false" unit="[[unit_short_degree]]" factor="1">
-        <input>anglePlane</input>
-      </value>
+      <grid maxWidth="1" maxWidthUnit="screen" spacing="1">
+        <vertical>
+          <graph label="Inclination" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">angle</input>
+          </graph>
+          <value label="Inclination" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>angle</input>
+          </value>
+        </vertical>
+        <vertical>
+          <graph label="Rotation" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Angle" unitY="@degree" partialUpdate="true" style="lines">
+            <input axis="x">t</input>
+            <input axis="y">anglePlane</input>
+          </graph>
+          <value label="Rotation" size="2" precision="2" scientific="false" unit="@degree" factor="1">
+            <input>anglePlane</input>
+          </value>
+        </vertical>
+      </grid>
       <info label="This tab helps to measure the inclination of the plane. The inclination of the plane is measured as the phone rests flat on the surface, regardless of its orientation. The rotation gives the direction of the inclination."/>
     </view>
   </views>

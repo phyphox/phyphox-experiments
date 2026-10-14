@@ -1,4 +1,4 @@
-<phyphox version="1.14" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Centripetal Acceleration</title>
   <category>Mechanics</category>
   <description>
@@ -455,24 +455,28 @@ Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in mani
   </input>
   <views>
     <view label="Relation">
-      <graph label="Acceleration" labelX="Angular velocity ω" unitX="[[unit_short_radian_per_second]]" labelY="Acceleration a" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="false" style="dots">
-        <input axis="x">gyr</input>
-        <input axis="y">acc</input>
-      </graph>
-      <graph label="Square plot" labelX="ω²" unitX="rad²/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
-        <input axis="x">gyr_squared</input>
-        <input axis="y">acc</input>
-      </graph>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Acceleration" labelX="Angular velocity ω" unitX="@radian_per_second" labelY="Acceleration a" unitY="@meter_per_square_second" unitYperX="@meter_per_second" partialUpdate="false" style="dots">
+          <input axis="x">gyr</input>
+          <input axis="y">acc</input>
+        </graph>
+        <graph label="Square plot" labelX="ω²" unitX="rad²/s²" labelY="[[quantity_short_acceleration]]" unitY="@meter_per_square_second" unitYperX="@meter" partialUpdate="false" style="dots">
+          <input axis="x">gyr_squared</input>
+          <input axis="y">acc</input>
+        </graph>
+      </grid>
     </view>
     <view label="Time">
-      <graph label="Acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
-        <input axis="x">t</input>
-        <input axis="y">acc</input>
-      </graph>
-      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
-        <input axis="x">t</input>
-        <input axis="y">gyr</input>
-      </graph>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_acceleration]]" unitY="@meter_per_square_second" unitYperX="m/s³" partialUpdate="true">
+          <input axis="x">t</input>
+          <input axis="y">acc</input>
+        </graph>
+        <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_angular_velocity]]" unitY="@radian_per_second" unitYperX="rad/s²" partialUpdate="true">
+          <input axis="x">t</input>
+          <input axis="y">gyr</input>
+        </graph>
+      </grid>
     </view>
   </views>
   <analysis sleep="0.5">

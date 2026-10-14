@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.21">
     <title>Magnetometer</title>
     <category>Texas Instruments SensorTag</category>
     <description>Read the magnetometer of an Texas Instruments SensorTag like the CC2650 or the CC1350.</description>
@@ -24,18 +24,20 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Magnetic field X" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">magXCal</input>
-            </graph>
-            <graph label="Magnetic field Y" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">magYCal</input>
-            </graph>
-            <graph label="Magnetic field Z" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">magZCal</input>
-            </graph>
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <graph label="Magnetic field X" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">magXCal</input>
+                </graph>
+                <graph label="Magnetic field Y" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">magYCal</input>
+                </graph>
+                <graph label="Magnetic field Z" labelX="t" unitX="s" labelY="B" unitY="mT" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">magZCal</input>
+                </graph>
+            </grid>
         </view>
     </views>
     <analysis>

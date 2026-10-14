@@ -1,4 +1,4 @@
-<phyphox version="1.10">
+<phyphox version="1.21">
     <title>Accelerometer</title>
     <category>PocketLab One</category>
     <description>Simple readings from the accelerometer of a PocketLab One.</description>
@@ -24,18 +24,20 @@
     </input>
     <views>
         <view label="Accelerometer">
-            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">accXCal</input>
-            </graph>
-            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">accYCal</input>
-            </graph>
-            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">accZCal</input>
-            </graph>
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">accXCal</input>
+                </graph>
+                <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">accYCal</input>
+                </graph>
+                <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">accZCal</input>
+                </graph>
+            </grid>
         </view>
 
     </views>

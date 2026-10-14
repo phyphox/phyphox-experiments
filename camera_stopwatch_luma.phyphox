@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Camera Stopwatch: Brightness</title>
   <category>Camera</category>
   <description>Measure times between changes in brightness, for example caused by passing objects.
@@ -1196,6 +1196,39 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
   <views>
     <view label="Settings">
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
+      <stack>
+        <image src="luma_bar.png"/>
+        <transform originX="0.05">
+          <input as="scaleX" min="0" max="1" mapMin="0" mapMax="1">threshold_low</input>
+          <geometry aspectRatio="5" left="0.05" top="0.18" right="0.95" bottom="0.45" color="202020c0"/>
+        </transform>
+        <transform originX="0.95">
+          <input as="scaleX" min="0" max="1" mapMin="1" mapMax="0">threshold_high</input>
+          <geometry aspectRatio="5" left="0.05" top="0.18" right="0.95" bottom="0.45" color="202020c0"/>
+        </transform>
+        <geometry aspectRatio="5" left="0.05" top="0.18" right="0.95" bottom="0.45" lineColor="808080" lineWidth="0.002"/>
+        <scale aspectRatio="5" min="0" max="1" size="0.8" ticStep="0.2" precision="1" startX="0.05" startY="0.45" endX="0.95" endY="0.45" lineWidth="0" ticLength="0.012" minorTics="1" minorTicLength="0.006" valueDistance="0.04"/>
+        <transform>
+          <input as="translateX" min="0" max="1" mapMin="0" mapMax="0.9">threshold_low</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="ff7e22" lineWidth="0.005"/>
+        </transform>
+        <transform>
+          <input as="translateX" min="0" max="1" mapMin="0" mapMax="0.9">threshold_high</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="ff7e22" lineWidth="0.005"/>
+        </transform>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="1" mapMin="0" mapMax="0.9">amplitude</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="202020" lineWidth="0.009"/>
+        </transform>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="1" mapMin="0" mapMax="0.9">amplitude</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="ffffff" lineWidth="0.004"/>
+        </transform>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="1" mapMin="0" mapMax="0.9">amplitude</input>
+          <geometry shape="circle" aspectRatio="5" centerX="0.05" centerY="0.09" radius="0.012" color="ffffff" lineColor="202020" lineWidth="0.003"/>
+        </transform>
+      </stack>
       <slider type="range" label="Trigger range" minValue="0" maxValue="1" stepSize="0.01">
         <output value="lowerValue">threshold_low</output>
         <output value="upperValue">threshold_high</output>
@@ -1211,29 +1244,29 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
         <map min="0.5">Triggered</map>
       </value>
       <separator height="1"/>
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_luma]]" partialUpdate="true">
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_luma]]" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
       <separator height="1"/>
-      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+      <value label="Frame rate" unit="@hertz" precision="1">
         <input>frameRate</input>
       </value>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="2" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="2" unit="@second">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="2" unit="@second">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="2" unit="@second">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="2" unit="@second">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -1243,19 +1276,19 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="2" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="2" unit="@second">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="2" unit="@second">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="2" unit="@second">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="2" unit="@second">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -1265,22 +1298,22 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       </button>
     </view>
     <view label="Duration">
-      <value label="Trigger duration 0" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 0" size="3" precision="2" unit="@second">
         <input>don0</input>
       </value>
-      <value label="Trigger duration 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 1" size="3" precision="2" unit="@second">
         <input>don1</input>
       </value>
-      <value label="Trigger duration 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 2" size="3" precision="2" unit="@second">
         <input>don2</input>
       </value>
-      <value label="Trigger duration 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 3" size="3" precision="2" unit="@second">
         <input>don3</input>
       </value>
-      <value label="Trigger duration 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 4" size="3" precision="2" unit="@second">
         <input>don4</input>
       </value>
-      <value label="Trigger duration 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 5" size="3" precision="2" unit="@second">
         <input>don5</input>
       </value>
       <separator height="1"/>
@@ -1290,45 +1323,45 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       </button>
     </view>
     <view label="Triggers">
-      <value label="Trigger on 0" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 0" size="1" precision="2" unit="@second">
         <input>on0</input>
       </value>
-      <value label="Trigger off 0" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 0" size="1" precision="2" unit="@second">
         <input>off0</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 1" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 1" size="1" precision="2" unit="@second">
         <input>on1</input>
       </value>
-      <value label="Trigger off 1" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 1" size="1" precision="2" unit="@second">
         <input>off1</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 2" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 2" size="1" precision="2" unit="@second">
         <input>on2</input>
       </value>
-      <value label="Trigger off 2" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 2" size="1" precision="2" unit="@second">
         <input>off2</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 3" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 3" size="1" precision="2" unit="@second">
         <input>on3</input>
       </value>
-      <value label="Trigger off 3" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 3" size="1" precision="2" unit="@second">
         <input>off3</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 4" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 4" size="1" precision="2" unit="@second">
         <input>on4</input>
       </value>
-      <value label="Trigger off 4" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 4" size="1" precision="2" unit="@second">
         <input>off4</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 5" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 5" size="1" precision="2" unit="@second">
         <input>on5</input>
       </value>
-      <value label="Trigger off 5" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 5" size="1" precision="2" unit="@second">
         <input>off5</input>
       </value>
       <separator height="1"/>
@@ -1338,21 +1371,23 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       </button>
     </view>
     <view label="Many">
-      <graph label="Trigger on events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
-        <input axis="x">tindex</input>
-        <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
-      </graph>
-      <graph label="Trigger durations" labelX="Event number" labelY="Duration" unitY="[[unit_short_second]]" scaleMinY="fixed" minY="0">
-        <input axis="x">tindex</input>
-        <input axis="y" style="vbars" lineWidth="0.9">ddlist</input>
-      </graph>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Trigger on events" labelX="Event number" labelY="Time interval" unitY="@second">
+          <input axis="x">tindex</input>
+          <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
+        </graph>
+        <graph label="Trigger durations" labelX="Event number" labelY="Duration" unitY="@second" scaleMinY="fixed" minY="0">
+          <input axis="x">tindex</input>
+          <input axis="y" style="vbars" lineWidth="0.9">ddlist</input>
+        </graph>
+      </grid>
       <value label="Event number" size="1" precision="0">
         <input>tindex</input>
       </value>
-      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
+      <value label="Average interval" size="2" precision="3" unit="@second">
         <input>avgInterval</input>
       </value>
-      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
+      <value label="Average rate" size="2" precision="2" unit="@hertz">
         <input>avgRate</input>
       </value>
       <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">

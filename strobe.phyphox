@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Flashlight Stroboscope</title>
   <category>Tools</category>
   <description>Toggle your phone's flashlight with a tunable frequency.Note that the flash is not designed to be toggled with precise timing. Depending on your phone's model, the usable frequencies can be limited. Please note the information shown under the strobe controls.</description>
@@ -239,7 +239,7 @@
       <slider label="Brightness" minValue="0" maxValue="1" stepSize="0.01">
         <output>intensity</output>
       </slider>
-      <edit label="Frequency" min="0" max="50" unit="[[unit_short_hertz]]">
+      <edit label="Frequency" min="0" max="50" unit="@hertz">
         <output>frequency</output>
       </edit>
       <slider label="Frequency" minValue="0" maxValue="50" stepSize="0.1" showValue="false">
@@ -252,22 +252,22 @@
         <input type="value">0.5</input>
         <output>dutycycle</output>
       </button>
-      <value label="Period" unit="[[unit_short_milli_second]]" factor="1000">
+      <value label="Period" unit="@milli_second" factor="1000">
         <input>period</input>
       </value>
-      <value label="On duration" visibility="onok" unit="[[unit_short_milli_second]]" factor="1000">
+      <value label="On duration" visibility="onok" unit="@milli_second" factor="1000">
         <input>on</input>
       </value>
-      <value label="On duration" visibility="onwarning" unit="[[unit_short_milli_second]]" color="red" factor="1000">
+      <value label="On duration" visibility="onwarning" unit="@milli_second" color="red" factor="1000">
         <input>on</input>
       </value>
-      <value label="Off duration" visibility="offok" unit="[[unit_short_milli_second]]" factor="1000">
+      <value label="Off duration" visibility="offok" unit="@milli_second" factor="1000">
         <input>off</input>
       </value>
-      <value label="Off duration" visibility="offwarning" unit="[[unit_short_milli_second]]" color="red" factor="1000">
+      <value label="Off duration" visibility="offwarning" unit="@milli_second" color="red" factor="1000">
         <input>off</input>
       </value>
-      <graph label="Preview" scaleMinX="fixed" scaleMinY="fixed" scaleMaxY="fixed" minX="0" minY="0" maxY="1" unitX="[[unit_short_second]]" labelX="[[quantity_short_time]]" labelY="Brightness">
+      <graph label="Preview" scaleMinX="fixed" scaleMinY="fixed" scaleMaxY="fixed" minX="0" minY="0" maxY="1" unitX="@second" labelX="[[quantity_short_time]]" labelY="Brightness">
         <input axis="x">previewt</input>
         <input axis="y">previewy</input>
       </graph>

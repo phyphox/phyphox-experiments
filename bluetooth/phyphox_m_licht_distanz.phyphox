@@ -58,21 +58,25 @@
     </input>    	
 	<views>
         <view label="Rawdata">
-        <graph style="dots" label="Distance-Light" timeOnX="false" labelX="d" unitX="mm" labelY="Ev" unitY="lx" partialUpdate="false">
-                <input axis="x">distance</input>
-                <input axis="y">light</input>
-		</graph>          
-		<graph label="Illuminance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
-			<input axis="x">time</input>
-			<input axis="y">light</input>
-		</graph>
-		<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
-			<input>light</input>
-		</value>		
-		<graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
-            <input axis="x">time</input>
-            <input axis="y">distance</input>
-		</graph>        		            
+        <grid maxWidth="1" maxWidthUnit="screen">
+            <graph style="dots" label="Distance-Light" timeOnX="false" labelX="d" unitX="mm" labelY="Ev" unitY="lx" partialUpdate="false">
+                    <input axis="x">distance</input>
+                    <input axis="y">light</input>
+    		</graph>          
+            <vertical>
+        		<graph label="Illuminance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="Ev" unitY="lx" partialUpdate="true">
+        			<input axis="x">time</input>
+        			<input axis="y">light</input>
+        		</graph>
+        		<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
+        			<input>light</input>
+        		</value>		
+            </vertical>
+    		<graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">distance</input>
+    		</graph>        		            
+        </grid>
         </view>
     </views>
 

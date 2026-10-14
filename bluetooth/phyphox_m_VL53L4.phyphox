@@ -32,21 +32,26 @@
     </input>       
     <views>
         <view label="Rawdata">
-            <graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
-                <input axis="x">time</input>
-                <input axis="y">distance</input>                
-            </graph>
-            <value label="Distance" unit="mm" size="1" precision="1" scientific="false" factor="1" >
-                <input>distance</input>
-            </value> 
-
-            <graph label="Standard deviation" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="σ" unitY="mm" partialUpdate="true">
-                <input axis="x">time</input>
-                <input axis="y">std</input>                
-            </graph>
-            <value label="σ" unit="mm" size="1" precision="1" scientific="false" factor="1" >
-                <input>std</input>
-            </value>                         			
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <vertical>
+                    <graph label="Distance" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="d" unitY="mm" partialUpdate="true">
+                        <input axis="x">time</input>
+                        <input axis="y">distance</input>                
+                    </graph>
+                    <value label="Distance" unit="mm" size="1" precision="1" scientific="false" factor="1" >
+                        <input>distance</input>
+                    </value> 
+                </vertical>
+                <vertical>
+                    <graph label="Standard deviation" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="σ" unitY="mm" partialUpdate="true">
+                        <input axis="x">time</input>
+                        <input axis="y">std</input>                
+                    </graph>
+                    <value label="σ" unit="mm" size="1" precision="1" scientific="false" factor="1" >
+                        <input>std</input>
+                    </value>                         			
+                </vertical>
+            </grid>
         </view>
         <view label="Settings">
             <value label="Rate" unit="Hz" size="1" precision="0" scientific="false" factor="1" >

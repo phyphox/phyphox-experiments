@@ -1,4 +1,4 @@
-<phyphox locale="en" version="1.19">
+<phyphox locale="en" version="1.21">
   <title>Color (Hue Saturation Value)</title>
   <category>Camera</category>
   <description>Determine the color using the hue saturation value (HSV) color model.
@@ -268,7 +268,7 @@ Nəzərə alın ki, ağ balansı nəticəyə təsir edir. Telefonunuzun avtomati
   </input>
   <views>
     <view label="HSV">
-      <value label="Hue" size="1" unit="[[unit_short_degree]]" color="orange">
+      <value label="Hue" size="1" unit="@degree" color="orange">
         <input>h</input>
       </value>
       <value label="Saturation" size="1" color="green">
@@ -277,23 +277,41 @@ Nəzərə alın ki, ağ balansı nəticəyə təsir edir. Telefonunuzun avtomati
       <value label="Value" size="1" color="white">
         <input>v</input>
       </value>
-      <image src="hue.png"/>
-      <graph label="Hue" labelX="[[quantity_short_time]]" labelY="Hue" partialUpdate="true" unitX="[[unit_short_second]]" unitY="[[unit_short_degree]]">
-        <input axis="x" lineWidth="2" color="orange">t</input>
-        <input axis="y">h</input>
-      </graph>
-      <graph label="Saturation and Value" labelX="[[quantity_short_time]]" labelY="sat., val." partialUpdate="true" unitX="[[unit_short_second]]">
-        <input axis="x" lineWidth="2" color="green">t</input>
-        <input axis="y">s</input>
-        <input axis="x" lineWidth="2" color="white">t</input>
-        <input axis="y">v</input>
-      </graph>
+      <stack>
+        <image src="hue_bar.png"/>
+        <geometry aspectRatio="5" left="0.05" top="0.18" right="0.95" bottom="0.45" lineColor="808080" lineWidth="0.002"/>
+        <scale aspectRatio="5" min="0" max="360" size="0.8" ticStep="60" startX="0.05" startY="0.45" endX="0.95" endY="0.45" lineWidth="0" ticLength="0.012" minorTics="1" minorTicLength="0.006" valueDistance="0.04"/>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="360" mapMin="0" mapMax="0.9">h</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="202020" lineWidth="0.009"/>
+        </transform>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="360" mapMin="0" mapMax="0.9">h</input>
+          <geometry shape="line" aspectRatio="5" startX="0.05" startY="0.12" endX="0.05" endY="0.51" lineColor="ffffff" lineWidth="0.004"/>
+        </transform>
+        <transform visibility="t">
+          <input as="translateX" min="0" max="360" mapMin="0" mapMax="0.9">h</input>
+          <geometry shape="circle" aspectRatio="5" centerX="0.05" centerY="0.09" radius="0.012" color="ffffff" lineColor="202020" lineWidth="0.003"/>
+        </transform>
+      </stack>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Hue" labelX="[[quantity_short_time]]" labelY="Hue" partialUpdate="true" unitX="@second" unitY="@degree">
+          <input axis="x" lineWidth="2" color="orange">t</input>
+          <input axis="y">h</input>
+        </graph>
+        <graph label="Saturation and Value" labelX="[[quantity_short_time]]" labelY="sat., val." partialUpdate="true" unitX="@second">
+          <input axis="x" lineWidth="2" color="green">t</input>
+          <input axis="y">s</input>
+          <input axis="x" lineWidth="2" color="white">t</input>
+          <input axis="y">v</input>
+        </graph>
+      </grid>
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
       <separator height="1"/>
-      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+      <value label="Frame rate" unit="@hertz" precision="1">
         <input>frameRate</input>
       </value>
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera settings to set up the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>

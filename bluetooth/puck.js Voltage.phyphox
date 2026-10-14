@@ -1,4 +1,4 @@
-<phyphox version="1.15">
+<phyphox version="1.21">
     <title>Voltage (D31)</title>
     <category>puck.js</category>
     <description>Read the voltage at pin D31 of a puck.js.</description>
@@ -42,7 +42,7 @@
     </input>
     <views>
         <view label="Voltage">
-            <graph label="Voltage" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="V" unitY="V" partialUpdate="true">
+            <graph label="Voltage" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="V" unitY="V" partialUpdate="true">
                 <input axis="x">tout</input>
                 <input axis="y">V</input>
             </graph>

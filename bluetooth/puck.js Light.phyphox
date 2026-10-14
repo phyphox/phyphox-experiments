@@ -1,4 +1,4 @@
-<phyphox version="1.15">
+<phyphox version="1.21">
     <title>Light</title>
     <category>puck.js</category>
     <description>Read the light sensor of a puck.js.</description>
@@ -42,7 +42,7 @@
     </input>
     <views>
         <view label="Light">
-            <graph label="Light" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Light" unitY="[[unit_short_arbitrary_unit]]" partialUpdate="true">
+            <graph label="Light" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="Light" unitY="@arbitrary_unit" partialUpdate="true">
                 <input axis="x">tout</input>
                 <input axis="y">light</input>
             </graph>

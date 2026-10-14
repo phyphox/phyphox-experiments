@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Acoustic Stopwatch</title>
   <category>Timers</category>
   <description>
@@ -828,13 +828,13 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
   </input>
   <views>
     <view label="Simple">
-      <edit label="Threshold" unit="[[unit_short_arbitrary_unit]]" default="0.1" signed="false" min="0" max="1">
+      <edit label="Threshold" unit="@arbitrary_unit" default="0.1" signed="false" min="0" max="1">
         <output>threshold</output>
       </edit>
-      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.1" signed="false">
+      <edit label="Minimum Delay" unit="@second" default="0.1" signed="false">
         <output>mindelay</output>
       </edit>
-      <value label="Time" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time" size="3" precision="3" unit="@second">
         <input>dt01</input>
       </value>
       <button label="Reset">
@@ -849,19 +849,19 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected."/>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="3" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="3" unit="@second">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="3" unit="@second">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="3" unit="@second">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="3" unit="@second">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -873,19 +873,19 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="3" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="3" unit="@second">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="3" unit="@second">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="3" unit="@second">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="3" unit="@second">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -897,17 +897,17 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       </button>
     </view>
     <view label="Many">
-      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
+      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="@second">
         <input axis="x">tindex</input>
         <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
       </graph>
       <value label="Event number" size="1" precision="0">
         <input>tindex</input>
       </value>
-      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
+      <value label="Average interval" size="2" precision="3" unit="@second">
         <input>avgInterval</input>
       </value>
-      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
+      <value label="Average rate" size="2" precision="2" unit="@hertz">
         <input>avgRate</input>
       </value>
       <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">

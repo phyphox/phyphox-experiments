@@ -1,4 +1,4 @@
-<phyphox version="1.15">
+<phyphox version="1.21">
     <title>Magnetometer</title>
     <category>puck.js</category>
     <description>Read the magnetometer of a puck.js.</description>
@@ -49,18 +49,20 @@
     </input>
     <views>
         <view label="Magnetometer">
-            <graph label="Magnetometer x" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="green">
-                <input axis="x">tout</input>
-                <input axis="y">magXCal</input>
-            </graph>
-            <graph label="Magnetometer y" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="blue">
-                <input axis="x">tout</input>
-                <input axis="y">magYCal</input>
-            </graph>
-            <graph label="Magnetometer z" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="yellow">
-                <input axis="x">tout</input>
-                <input axis="y">magZCal</input>
-            </graph>
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <graph label="Magnetometer x" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_magnetic_field]]" unitY="@micro_tesla" partialUpdate="true" color="green">
+                    <input axis="x">tout</input>
+                    <input axis="y">magXCal</input>
+                </graph>
+                <graph label="Magnetometer y" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_magnetic_field]]" unitY="@micro_tesla" partialUpdate="true" color="blue">
+                    <input axis="x">tout</input>
+                    <input axis="y">magYCal</input>
+                </graph>
+                <graph label="Magnetometer z" timeOnX="true" linearTime="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_magnetic_field]]" unitY="@micro_tesla" partialUpdate="true" color="yellow">
+                    <input axis="x">tout</input>
+                    <input axis="y">magZCal</input>
+                </graph>
+            </grid>
         </view>
     </views>
     <analysis>

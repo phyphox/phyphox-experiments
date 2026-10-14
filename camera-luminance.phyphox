@@ -1,4 +1,4 @@
-<phyphox locale="en" version="1.19">
+<phyphox locale="en" version="1.21">
   <title>Brightness (Luminance)</title>
   <category>Camera</category>
   <description>Measure the luminance, i.e. the brightness observed through your camera's lens.
@@ -370,7 +370,7 @@ Həmçinin görüntünün hər hansı hissəsi (və ya əslində hər hansı rə
       <value label="Luminance" size="2" precision="3">
         <input>luminance</input>
       </value>
-      <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="[[quantity_short_luminance]]" partialUpdate="true" unitX="[[unit_short_second]]">
+      <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="[[quantity_short_luminance]]" partialUpdate="true" unitX="@second">
         <input axis="x" lineWidth="2">t</input>
         <input axis="y">luminance</input>
       </graph>
@@ -379,7 +379,7 @@ Həmçinin görüntünün hər hansı hissəsi (və ya əslində hər hansı rə
       <separator height="1"/>
       <camera-gui label="Preview" exposure_adjustment_level="3" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
       <separator height="1"/>
-      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+      <value label="Frame rate" unit="@hertz" precision="1">
         <input>frameRate</input>
       </value>
       <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera settings to set up the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>

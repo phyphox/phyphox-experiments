@@ -1,4 +1,4 @@
-<phyphox version="1.10">
+<phyphox version="1.21">
     <title>Gyroscope</title>
     <category>Texas Instruments SensorTag</category>
     <description>Read the gyroscope of an Texas Instruments SensorTag like the CC2650 or the CC1350.</description>
@@ -24,18 +24,20 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Angular velocity X" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">gyrXCal</input>
-            </graph>
-            <graph label="Angular velocity Y" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">gyrYCal</input>
-            </graph>
-            <graph label="Angular velocity Z" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">gyrZCal</input>
-            </graph>
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <graph label="Angular velocity X" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">gyrXCal</input>
+                </graph>
+                <graph label="Angular velocity Y" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">gyrYCal</input>
+                </graph>
+                <graph label="Angular velocity Z" labelX="t" unitX="s" labelY="⍵" unitY="rad/s" unitYperX="rad/s²" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">gyrZCal</input>
+                </graph>
+            </grid>
         </view>
     </views>
     <analysis>

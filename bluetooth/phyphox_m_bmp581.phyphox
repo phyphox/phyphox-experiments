@@ -33,27 +33,35 @@
     </input>
 	<views>
         <view label="Rawdata">
-            <graph label="Pressure" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
-                <input axis="y">pressure</input>
-                <input axis="x">time</input>
-            </graph>
-            <value label="Pressure" size="1" precision="3" scientific="false" unit="hPa" factor="1" >
-                <input>pressure</input>
-            </value>
-            <graph label="Altitude (from barometer)" timeOnX="true" linearTime="true" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="height" labelZ="" unitX="s" unitY="cm" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
-                <input axis="x">time</input>
-                <input axis="y">height</input>
-            </graph>
-            <value label="Altitude" size="1" precision="1" scientific="false" unit="cm" factor="1" >
-                <input>height</input>
-            </value>
-            <graph label="Temperature" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
-                <input axis="y">temperature</input>
-                <input axis="x">time</input>
-            </graph>
-            <value label="Temperature" size="1" precision="1" scientific="false" unit="°C" factor="1" >
-                <input>temperature</input>
-            </value>            			
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <vertical>
+                    <graph label="Pressure" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
+                        <input axis="y">pressure</input>
+                        <input axis="x">time</input>
+                    </graph>
+                    <value label="Pressure" size="1" precision="3" scientific="false" unit="hPa" factor="1" >
+                        <input>pressure</input>
+                    </value>
+                </vertical>
+                <vertical>
+                    <graph label="Altitude (from barometer)" timeOnX="true" linearTime="true" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="height" labelZ="" unitX="s" unitY="cm" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+                        <input axis="x">time</input>
+                        <input axis="y">height</input>
+                    </graph>
+                    <value label="Altitude" size="1" precision="1" scientific="false" unit="cm" factor="1" >
+                        <input>height</input>
+                    </value>
+                </vertical>
+                <vertical>
+                    <graph label="Temperature" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                        <input axis="y">temperature</input>
+                        <input axis="x">time</input>
+                    </graph>
+                    <value label="Temperature" size="1" precision="1" scientific="false" unit="°C" factor="1" >
+                        <input>temperature</input>
+                    </value>            			
+                </vertical>
+            </grid>
         </view>		
         <view label="Settings">		
             <value label="Rate" size="1" precision="0" scientific="false" unit="Hz" factor="1" >

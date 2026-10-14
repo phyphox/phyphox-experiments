@@ -28,27 +28,35 @@
     </input>
     <views>
         <view label="Rawdata">
-            <graph label="Magnetometer x" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
-                <input axis="y">magX</input>
-                <input axis="x">time</input>
-            </graph>
-			<value label="Magnetometer x" unit="µT" size="1" precision="2" scientific="false" factor="1" >
-                <input>magX</input>
-            </value>            
-			<graph label="Magnetometer y" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
-                <input axis="y">magY</input>
-                <input axis="x">time</input>
-            </graph>
-			<value label="Magnetometer y" unit="µT" size="1" precision="2" scientific="false" factor="1" >
-                <input>magY</input>
-            </value>             
-			<graph label="Magnetometer z" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
-                <input axis="y">magZ</input>
-                <input axis="x">time</input>
-            </graph>
-			<value label="Magnetometer z" unit="µT" size="1" precision="2" scientific="false" factor="1" >
-                <input>magZ</input>
-            </value>             
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <vertical>
+                    <graph label="Magnetometer x" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
+                        <input axis="y">magX</input>
+                        <input axis="x">time</input>
+                    </graph>
+        			<value label="Magnetometer x" unit="µT" size="1" precision="2" scientific="false" factor="1" >
+                        <input>magX</input>
+                    </value>            
+                </vertical>
+                <vertical>
+        			<graph label="Magnetometer y" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
+                        <input axis="y">magY</input>
+                        <input axis="x">time</input>
+                    </graph>
+        			<value label="Magnetometer y" unit="µT" size="1" precision="2" scientific="false" factor="1" >
+                        <input>magY</input>
+                    </value>             
+                </vertical>
+                <vertical>
+        			<graph label="Magnetometer z" timeOnX="true" linearTime="true" labelX="t" unitX="s" labelY="B" unitY="µT" partialUpdate="true">
+                        <input axis="y">magZ</input>
+                        <input axis="x">time</input>
+                    </graph>
+        			<value label="Magnetometer z" unit="µT" size="1" precision="2" scientific="false" factor="1" >
+                        <input>magZ</input>
+                    </value>             
+                </vertical>
+            </grid>
         </view>
 		<view label="Settings">
 			<value label="Rate" unit="Hz" size="1" precision="0" scientific="false" factor="1" >

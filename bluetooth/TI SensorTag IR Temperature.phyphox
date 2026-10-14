@@ -1,4 +1,4 @@
-<phyphox version="1.7">
+<phyphox version="1.21">
     <title>IR Temperature (early models only)</title>
     <category>Texas Instruments SensorTag</category>
     <description>Read the ambient and object temperature from the IR temperature sensor found on early versions of the Texas Instruments CC2650 SensorTag</description>
@@ -21,14 +21,16 @@
     </input>
     <views>
         <view label="Raw Data">
-            <graph label="Ambient temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">ambCal</input>
-            </graph>
-            <graph label="Object Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
-                <input axis="x">t</input>
-                <input axis="y">objCal</input>
-            </graph>
+            <grid maxWidth="1" maxWidthUnit="screen">
+                <graph label="Ambient temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">ambCal</input>
+                </graph>
+                <graph label="Object Temperature" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                    <input axis="x">t</input>
+                    <input axis="y">objCal</input>
+                </graph>
+            </grid>
         </view>
     </views>
     <analysis>

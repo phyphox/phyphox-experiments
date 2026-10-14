@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Camera Spectrum: Brightness</title>
   <category>Camera</category>
   <icon format="base64">
@@ -568,14 +568,14 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
   </input>
   <views>
     <view label="Spectrum">
-      <value label="Peak frequency" unit="[[unit_short_hertz]]">
+      <value label="Peak frequency" unit="@hertz">
         <input>f0</input>
       </value>
       <value label="Peak frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>
-      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="@hertz" labelY="FFT Mag" unitY="@arbitrary_unit">
         <input axis="x">halfFrequency</input>
         <input axis="y">fft</input>
       </graph>
@@ -583,31 +583,33 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       <value label="Samples used" precision="0">
         <input>actual_samples</input>
       </value>
-      <value label="Period used" unit="[[unit_short_second]]" precision="2">
+      <value label="Period used" unit="@second" precision="2">
         <input>period</input>
       </value>
-      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+      <value label="Resolution" unit="@hertz" precision="2">
         <input>df</input>
       </value>
-      <value label="Acquisition rate" unit="[[unit_short_hertz]]" precision="0">
+      <value label="Acquisition rate" unit="@hertz" precision="0">
         <input>arate</input>
       </value>
-      <value label="Nyquist frequency" unit="[[unit_short_hertz]]" precision="0">
+      <value label="Nyquist frequency" unit="@hertz" precision="0">
         <input>maxf</input>
       </value>
       <separator height="1"/>
       <camera-gui label="Preview" exposure_adjustment_level="3"/>
     </view>
     <view label="History">
-      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
-        <input axis="x">fmap</input>
-        <input axis="y">tmap</input>
-        <input axis="z">fftmap</input>
-      </graph>
-      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
-        <input axis="x">t</input>
-        <input axis="y">f0</input>
-      </graph>
+      <grid maxWidth="1" maxWidthUnit="screen">
+        <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="@hertz" labelY="Time" unitY="@second" labelZ="FFT Mag" unitZ="@arbitrary_unit" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+          <input axis="x">fmap</input>
+          <input axis="y">tmap</input>
+          <input axis="z">fftmap</input>
+        </graph>
+        <graph label="History" labelX="Time" unitX="@second" labelY="Peak frequency" unitY="@hertz" partialUpdate="true" style="dots">
+          <input axis="x">t</input>
+          <input axis="y">f0</input>
+        </graph>
+      </grid>
     </view>
     <view label="Settings">
       <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
@@ -622,7 +624,7 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
       </dropdown>
     </view>
     <view label="Raw data">
-      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_luma]]" partialUpdate="true">
+      <graph label="Luma" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_luma]]" partialUpdate="true">
         <input axis="x">time_subrange</input>
         <input axis="y">luma_subrange</input>
       </graph>

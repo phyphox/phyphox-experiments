@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Proximity Stopwatch</title>
   <category>Timers</category>
   <icon format="base64">
@@ -1101,16 +1101,16 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
   </input>
   <views>
     <view label="Settings">
-      <edit label="Trigger below" unit="[[unit_short_centi_meter]]" default="3" signed="false" min="0">
+      <edit label="Trigger below" unit="@centi_meter" default="3" signed="false" min="0">
         <output>threshold_low</output>
       </edit>
-      <edit label="Trigger above" unit="[[unit_short_centi_meter]]" default="100" signed="false" min="0">
+      <edit label="Trigger above" unit="@centi_meter" default="100" signed="false" min="0">
         <output>threshold_high</output>
       </edit>
       <separator height="1"/>
       <info label="The timer triggers both above and below given thresholds. If you only want to trigger on far distances, set the value for &quot;trigger below&quot; to zero. If you only want to trigger on close distances, set the &quot;trigger above&quot; value very high. You can estimate a suitable threshold for your other trigger from the graph below. Most sensors only measure two distances, usually 0 cm and about 5 cm."/>
       <separator height="1"/>
-      <graph label="Distance" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_distance]]" unitY="[[unit_short_centi_meter]]" partialUpdate="true">
+      <graph label="Distance" timeOnX="true" labelX="[[quantity_short_time]]" unitX="@second" labelY="[[quantity_short_distance]]" unitY="@centi_meter" partialUpdate="true">
         <input axis="x">t</input>
         <input axis="y">amplitude</input>
       </graph>
@@ -1118,19 +1118,19 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       <info label="The precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment. On iPhones, the sensor only works in portrait mode (i.e. when holding the phone upright) and will turn off the screen while triggered."/>
     </view>
     <view label="Sequence">
-      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="2" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="2" unit="@second">
         <input>dt12</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="2" unit="@second">
         <input>dt23</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="2" unit="@second">
         <input>dt34</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="2" unit="@second">
         <input>dt45</input>
       </value>
       <separator height="1"/>
@@ -1140,19 +1140,19 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       </button>
     </view>
     <view label="Parallel">
-      <value label="Time 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 1" size="3" precision="2" unit="@second">
         <input>dt01</input>
       </value>
-      <value label="Time 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 2" size="3" precision="2" unit="@second">
         <input>dt02</input>
       </value>
-      <value label="Time 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 3" size="3" precision="2" unit="@second">
         <input>dt03</input>
       </value>
-      <value label="Time 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 4" size="3" precision="2" unit="@second">
         <input>dt04</input>
       </value>
-      <value label="Time 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Time 5" size="3" precision="2" unit="@second">
         <input>dt05</input>
       </value>
       <separator height="1"/>
@@ -1162,22 +1162,22 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       </button>
     </view>
     <view label="Duration">
-      <value label="Trigger duration 0" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 0" size="3" precision="2" unit="@second">
         <input>don0</input>
       </value>
-      <value label="Trigger duration 1" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 1" size="3" precision="2" unit="@second">
         <input>don1</input>
       </value>
-      <value label="Trigger duration 2" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 2" size="3" precision="2" unit="@second">
         <input>don2</input>
       </value>
-      <value label="Trigger duration 3" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 3" size="3" precision="2" unit="@second">
         <input>don3</input>
       </value>
-      <value label="Trigger duration 4" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 4" size="3" precision="2" unit="@second">
         <input>don4</input>
       </value>
-      <value label="Trigger duration 5" size="3" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger duration 5" size="3" precision="2" unit="@second">
         <input>don5</input>
       </value>
       <separator height="1"/>
@@ -1187,45 +1187,45 @@ Hassaslığın, telefonunuzdaki yakınlık sensörüne önemli bir şekilde bağ
       </button>
     </view>
     <view label="Triggers">
-      <value label="Trigger on 0" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 0" size="1" precision="2" unit="@second">
         <input>on0</input>
       </value>
-      <value label="Trigger off 0" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 0" size="1" precision="2" unit="@second">
         <input>off0</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 1" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 1" size="1" precision="2" unit="@second">
         <input>on1</input>
       </value>
-      <value label="Trigger off 1" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 1" size="1" precision="2" unit="@second">
         <input>off1</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 2" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 2" size="1" precision="2" unit="@second">
         <input>on2</input>
       </value>
-      <value label="Trigger off 2" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 2" size="1" precision="2" unit="@second">
         <input>off2</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 3" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 3" size="1" precision="2" unit="@second">
         <input>on3</input>
       </value>
-      <value label="Trigger off 3" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 3" size="1" precision="2" unit="@second">
         <input>off3</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 4" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 4" size="1" precision="2" unit="@second">
         <input>on4</input>
       </value>
-      <value label="Trigger off 4" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 4" size="1" precision="2" unit="@second">
         <input>off4</input>
       </value>
       <separator height="1"/>
-      <value label="Trigger on 5" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger on 5" size="1" precision="2" unit="@second">
         <input>on5</input>
       </value>
-      <value label="Trigger off 5" size="1" precision="2" unit="[[unit_short_second]]">
+      <value label="Trigger off 5" size="1" precision="2" unit="@second">
         <input>off5</input>
       </value>
       <separator height="1"/>

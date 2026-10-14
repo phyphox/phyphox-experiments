@@ -1,4 +1,4 @@
-<phyphox version="1.20" locale="en">
+<phyphox version="1.21" locale="en">
   <title>Audio Scope</title>
   <category>Acoustics</category>
   <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
@@ -352,11 +352,11 @@ Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir gör�
   </input>
   <views>
     <view label="Scope">
-      <graph label="Audio Data" labelX="Time" unitX="[[unit_short_milli_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]" scaleMinY="extend" scaleMaxY="extend">
+      <graph label="Audio Data" labelX="Time" unitX="@milli_second" labelY="Amplitude" unitY="@arbitrary_unit" scaleMinY="extend" scaleMaxY="extend">
         <input axis="x">subtime0</input>
         <input axis="y">subdata</input>
       </graph>
-      <edit label="Duration" unit="[[unit_short_milli_second]]" min="1" max="500">
+      <edit label="Duration" unit="@milli_second" min="1" max="500">
         <output>length</output>
       </edit>
       <slider label="Duration" minValue="1" maxValue="500" stepSize="10" showValue="false">

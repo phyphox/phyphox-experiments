@@ -35,50 +35,66 @@
     </output>	
 	<views>
         <view label="Gyroscope">                                   
-			<graph label="Gyroscope X" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">gyr_x</input>
-			</graph>
-			<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" >
-					<input>gyr_x</input>
-			</value>		
-			<graph label="Gyroscope Y" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">gyr_y</input>
-			</graph>
-			<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" >
-					<input>gyr_y</input>
-			</value>
-			<graph label="Gyroscope Z" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">gyr_z</input>
-			</graph>
-			<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" >
-					<input>gyr_z</input>
-			</value>							
+			<grid maxWidth="1" maxWidthUnit="screen">
+				<vertical>
+					<graph label="Gyroscope X" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">gyr_x</input>
+					</graph>
+					<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" >
+							<input>gyr_x</input>
+					</value>		
+				</vertical>
+				<vertical>
+					<graph label="Gyroscope Y" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">gyr_y</input>
+					</graph>
+					<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" >
+							<input>gyr_y</input>
+					</value>
+				</vertical>
+				<vertical>
+					<graph label="Gyroscope Z" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">gyr_z</input>
+					</graph>
+					<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" >
+							<input>gyr_z</input>
+					</value>							
+				</vertical>
+			</grid>
         </view>
         <view label="Acceleration">                                   
-			<graph label="Acceleration X" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">acc_x</input>
-			</graph>
-			<value label="Acceleration X" size="1" precision="2" scientific="false"  factor="1" >
-					<input>acc_x</input>
-			</value>	
-			<graph label="Acceleration Y" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">acc_y</input>
-			</graph>
-			<value label="Acceleration Y" size="1" precision="2" scientific="false"  factor="1" >
-					<input>acc_y</input>
-			</value>
-			<graph label="Acceleration Z" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
-				<input axis="x">time</input>
-				<input axis="y">acc_z</input>
-			</graph>
-			<value label="Acceleration Z" size="1" precision="2" scientific="false"  factor="1" >
-					<input>acc_z</input>
-			</value>								
+			<grid maxWidth="1" maxWidthUnit="screen">
+				<vertical>
+					<graph label="Acceleration X" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">acc_x</input>
+					</graph>
+					<value label="Acceleration X" size="1" precision="2" scientific="false"  factor="1" >
+							<input>acc_x</input>
+					</value>	
+				</vertical>
+				<vertical>
+					<graph label="Acceleration Y" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">acc_y</input>
+					</graph>
+					<value label="Acceleration Y" size="1" precision="2" scientific="false"  factor="1" >
+							<input>acc_y</input>
+					</value>
+				</vertical>
+				<vertical>
+					<graph label="Acceleration Z" timeOnX="true" linearTime="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true">
+						<input axis="x">time</input>
+						<input axis="y">acc_z</input>
+					</graph>
+					<value label="Acceleration Z" size="1" precision="2" scientific="false"  factor="1" >
+							<input>acc_z</input>
+					</value>								
+				</vertical>
+			</grid>
         </view>				
     </views>
     <analysis>
