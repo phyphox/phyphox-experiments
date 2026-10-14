@@ -13,9 +13,9 @@
       <title>Dopplereffekt</title>
       <category>Akustik</category>
       <description>
-        Kleine Frequenzänderungen des Dopplereffekts messen.
+        Erfasse kleine Frequenzverschiebungen durch den Dopplereffekt.
 
-                Hierzu wird ein Tongenerator benötigt, der eine konstante Frequenz erzeugt (z.B. 1000Hz). Diese Frequenz muss im Experiment angegeben werden zusammen mit einer Frequenzspanne, in welcher die Doppler-Verschobene Frequenz erwartet wird (z.B. 10Hz). Das Experiment ermittelt die aufgenommene Frequenz und berechnet die relative Geschwindigkeit der Schallquelle.
+        Du benötigst einen Tongenerator, der einen Ton mit konstanter Frequenz erzeugt (zum Beispiel 1000Hz von einem zweiten Smartphone). Gib diese Grundfrequenz in den Einstellungen des Experiments ein. Das Experiment bestimmt die aufgenommene Frequenz und berechnet die Relativgeschwindigkeit der Schallquelle.
     </description>
       <string original="Setup">Einstellungen</string>
       <string original="Base frequency">Grundfrequenz</string>
@@ -28,6 +28,7 @@
       <string original="Frequency">Frequenz</string>
       <string original="Speed">Geschwindigkeit</string>
       <string original="Settings">Einstellungen</string>
+      <string original="Enter the frequency of your tone generator as base frequency. A shorter time step gives more values per second, a longer one gives more precise values. Values are only shown while the tone is clearly recognizable and stays within a few hundred hertz of the base frequency.">Gib die Frequenz deines Tongenerators als Grundfrequenz ein. Ein kürzerer Zeitschritt liefert mehr Werte pro Sekunde, ein längerer liefert präzisere Werte. Werte werden nur angezeigt, solange der Ton deutlich erkennbar ist und seine Frequenz höchstens wenige hundert Hertz von der Grundfrequenz abweicht.</string>
     </translation>
     <translation locale="cs">
       <title>Dopplerův jev</title>

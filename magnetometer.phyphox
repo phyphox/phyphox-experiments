@@ -34,6 +34,8 @@
       <string original="Low">Niedrig</string>
       <string original="High">Hoch</string>
       <string original="Compass">Kompass</string>
+      <string original="Tilt correction">Neigungskorrektur</string>
+      <string original="Hold your phone roughly horizontal with the screen facing up. Tilt correction uses the accelerometer to compensate a tilted phone; without it, the phone has to lie flat. The compass shows magnetic north as measured by the magnetometer, so magnets, electronics and iron nearby will deflect it.">Halte dein Smartphone ungefähr waagerecht mit dem Bildschirm nach oben. Die Neigungskorrektur nutzt den Beschleunigungssensor, um eine Neigung des Smartphones auszugleichen; ohne sie muss das Smartphone waagerecht liegen. Der Kompass zeigt die vom Magnetometer gemessene magnetische Nordrichtung an. Magnete, elektronische Geräte und Eisen in der Nähe lenken ihn daher ab.</string>
     </translation>
     <translation locale="cs">
       <title>Magnetometr</title>
