@@ -69,7 +69,7 @@
 		                	<input axis="y">white_light</input>
 		                	<input axis="x">time</input>
 				</graph>
-				<value label="Illuminance" size="1" precision="0" scientific="false" unit="lx" factor="1" >
+				<value label="Illuminance (white)" size="1" precision="0" scientific="false" unit="lx" factor="1" >
 					<input>white_light</input>
 				</value>		
 			</vertical>
@@ -146,7 +146,8 @@
     <export>
         <set name="Raw Data">
             <data name="Time (s)">time</data>
-
+            <data name="Illuminance (lx)">light</data>
+            <data name="Illuminance white (lx)">white_light</data>
         </set>
     </export>
 </phyphox>

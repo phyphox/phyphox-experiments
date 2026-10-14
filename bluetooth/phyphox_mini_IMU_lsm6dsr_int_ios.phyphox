@@ -1,0 +1,214 @@
+<phyphox version="1.12" locale="en">
+    <title>Acceleration iOS</title>
+    <category>phyphox:mini raw sensor</category>
+	<color>ADEBB3</color>
+	<icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAJDUlEQVR4nO2dC4wkRRnHZ7nDAIo8bh8z3Svc7nTVAnu3s12t+IwKvhLEEOShRAIhCD7wESFRA2owYhA1KiGgUREMqEfkKY+AUY+HPDRA8B4eeMbkJHd6KC85c3LenX5fz8zuTM10d81s99T0zP+XVGZ3uqbqq/q+/uqr6u7qQgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEiXcX+q4ijxkBOILfR5veM4B9iWCfQIR8mLSel73UD+byEp+fJoZVralg1kTDEoH0Nn/e4m5S8awVYnkKO2ZQQZMTFXXkXKf7Gt8heSeGRycnJ/27KClFlRka6rxNPxyq8mGh5uo5/sY1tmkBKHet6rSbHrTJRfT6VAXGVbbpAGQWFfGtt/3YnyF5Ivz7ctPlgiPMXrSvk8FFCw6CjvfbbbALqEIvpLu1V+gxH8u1iRR9tuC+gQ1xcfXaryG4LCZ8YDr2y7TcAQdtuRc/1ukxKbsUaQA9hds9tOVflYI8gP5K4fjD+T5a6Y49uShwN5nu02gghGg8NLZAB7YsbyvY7vfS464JMP8CJQQjzwkO12ggjo7PxArPJI+bwcHGcA7OLZ1ccYwJ6x2bFX2W4raMPozMyBFKw9105x9ZW9JAPgPBzscdAXkecWu60EsTiB9yX9jKWg8NpCbW3fxAAYnvbR/0/qQ0gp8JSlpgFTJgLxelLW10mBPywpcWTTMUMDqDFCv38/DQk/d3zxSWdV+TU9bAbIgg4NAAwaMIAhBwYw5MAAhhwYwJADAxhyYABDDgxgyIEBDDkwgCEHBjDkwACGnL4wgKCwb0/qAa3YNADXlxVHyTVU1y6uy1XeZ5wAj6X3FFsGUPKnDm9bp5K/J5nGs6oXaNgyAD7bY+r9i4u9CXqDLQNwlPhFVL1hUvJZqv8tWdUPalj0AKfGGkCYxM6i752clQygYDUIHKHyNyUZQbh1DZ5Kzg6bs4AxVfboLP9zsidgQ/CuKGCTivSxvQ5ALn4s7rkDTZ5b8Chaytg2AIaVyso1MQI2FjaaXsg1FMQagJIvUXq0d0lsNzICJbeOzU8L2303EMQZQF8n3sdwZvRA2/2Xe0rz4hLryuwyUWC4xnb/5RrqwI+37BCao+QE4q+2+zC35F351SR+Z7sfc8kgKJ/lL1amsFlVpwyI8vc4vvyy7b7MHSbKr+4aIj8/MTcz1ctU8uX5HNknK1++VJyXx9nuy9xhqvxS4H2417K5vviCiVeioO9vJVUOei1f7ulj5S+jeq82dPt/5JtIeixf/ulj5RtvW0v57jto9WGH9Fq+3NPPyp8IplcbuX0l1xRmZ1/Ra/lyTz8rvypf8tnP29rYkC339LvyGYr4vxUT7O12A+9jtmTrR/YpGN4MkQflh3LOl98U4fJ3YEv6Gq4qHxveN883SCqxsaS898Tlz4vya4y4yvuqq8Tzdbno74dpjv8624L1BfxaFyeQ/9AVWFLy3Hb5c6b8BcLNLAPvFN7W1rYsfQUp67KI8fGe1rz5VD6IQd+VcyEp8Z/GaRGUP6C4gXghSpl0eDnngfIHlZUr94tR6HbOAuUPMLwxc6RilXxikJVP08MTSoH4dD0l5g+cA/g3FBtdTsPjTfT5S5o53eD44hvhrKmzR8+XUZB9Yu3i1NWU7qb+vo7k+Ar16ZmHBNMHLaFp5lCD3hyj2I2Dqnwm7PSGttBXyyKyjoQbVreZKWlB8xbKd1pSvWQspyc/pCJe4BdtT8xNvDLdVuvC+OKkOOUOqvIZIwOgIZLy3RyvrJbg+dtRddJZf04nZWX+jgRyOZ/qqHEDonyGztifUjv+Xk+FNiug7JYjlLyZjt0V9U5kUvSFelm8fT4/hKqd6et5qZrz0xl/ZbsZGX3/icw6IVwhG0Llm8DuvE3bb9efFuLnDvlhE2042F3yp1/bVJ4Sn9WM6Dttqh3huEAr67HsGqnEj7pWPgc95CIzEy5jqB3vdnzv7HrSDo+0vLUkkD/g79sWFg4V8ldaX93WmIUDxsbjY7Mri1GycQC+aCjy5UJtOp46+jiYpHy3+ibwdfVHq6hT/ss3UdDfF2QiYIbExQDOvHiX5ob/lXSjyLiammuMm8K/57zJ+nFy92ubypybmokqi+9FJA9xUT0dPL/y4FQardNkaUtMebuyFmcA5B2+qRn/ZSZlUt47tX45c6E+8iDNQ4B8goLwt2bQNHOi3vTVXRLrC1Eusg+J9QCB/G3jMZ6zm5RJffBFbZz/XsOx90Z41u2U70Z+tR57nsmjJg/NoLltWZ7mffu1lcOBMICWebovKyZl0hz/Q/FxgFnMRYHf4/w8QqZXLjkISe/sD4W+NjNhMyDWAyjxTOOx8VVTEyZlFue9t2sGcL+ep7r2QtM/k34lD81vT0ux2c2YPCBhmLa5vvfGzATNgHgDkE81DwFmzwgkeYBGVlSkS8fPorq+z1M9yh/xbmWxkx9oSaHJrTiBd+tSXD59ruP168yXLDMgYQhY23wmeqealSkvbjKc2ltTjeALc6p8LP3ux9V7FbsspyNoLs8XNvja/2Jj5bOsWF7pok66hhXMb+7mCyHUEW8IpzYDsOdu/CwgvCjTeBZ+16TMlqmeLz/YjWy81qINBfd2U05HhAHHACjWlPh1AO1GUh4qG+b07Sj63ts0L7nLPcJdwceqexOJx8Npd3iVNXpoCKleg1hcUwjkpjTaDBpIuhjEewlrXuCOqJ3DOEgkxf5BGyKv0erb0BRYBl45SrbJ+Wmh1b02lUaDRRINwJfvbJkm89lL3qHuKTn2Cef3Sm5tVr7coSuYx3HNQDaQ1zhKl4tnZ3TsQW0IuCjTzhhGTC4HR90wG8ZMSvxJD9YWki/PaCkrmD6MXPk/NSPYy9vR0efP2GPQd79pmQ0osblnN4gME6Y3hPAdP8Yzo/AqoPhIVJ1kGO+INJq2My25o1jxZjPrhGGmgzuCqhdnEhdvxFqTh03ICxxBRvAT3n0kpqydvGUtrxWk2miwNPhsDKfEgbw0HNOVuIQvJXeznwAPCfT74/l2M74phMr8GnsPvkyNHUoBAAAAAAAAAAAAAAAAAAAAAAAQ/wfoRmdNw4Q4vgAAAABJRU5ErkJggg==</icon>
+    <description>LSM6DSR 6667Hz</description>
+	<translations>
+    <translation locale="de">
+      <title>Beschleunigung iOS</title>
+      <category>phyphox:mini Sensoren</category>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Accelerometer X">Beschleunigungssensor X</string>
+      <string original="Accelerometer Y">Beschleunigungssensor Y</string>
+      <string original="Accelerometer Z">Beschleunigungssensor Z</string>
+      <string original="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds.">Experimentell: Die Abtastrate von 6400 Hz wird möglicherweise nicht zuverlässig übertragen – durch Verbindungsprobleme können Lücken oder fehlende Daten auftreten. phyphox wechselt zu optimalen Verbindungsparametern, was einige Sekunden dauern kann.</string>
+    </translation>
+	</translations>
+    <data-containers>
+		<container size="0">acc_time</container>
+				
+		<container size="0">acc_time_ramp</container>		
+		<container size="0">acc_timestamps</container>
+		<container size="1">acc_timestamps_count</container>
+		<container size="1">acc_package_endtime</container>
+
+		<container size="0">raw_count</container>
+
+		<container size="0">acc_x_raw</container>
+		<container size="0">acc_x_SI</container>
+		<container size="0">acc_x_if</container>
+		<container size="0">acc_x_raw_subrange</container>
+
+		<container size="0">acc_y_raw</container>
+		<container size="0">acc_y_SI</container>
+		<container size="0">acc_y_if</container>
+		<container size="0">acc_y_raw_subrange</container>
+
+		<container size="0">acc_z_raw</container>
+		<container size="0">acc_z_SI</container>
+		<container size="0">acc_z_if</container>
+		<container size="0">acc_z_raw_subrange</container>
+
+		<container size="0">acc_timestamps_subrange</container>								
+				
+		<container size="1" init="1">en</container>
+		<container size="1" init="10">rate</container>
+		<container size="1" init="1">range_acc</container>
+		<container size="1" init="1">range_gyr</container>
+		<container size="1" init="1">format</container>
+		<container size="1" init="40">config_n_times</container>
+		<container size="1" init="0">average</container>
+
+		<container size="15" init="0,0.78,1.56,3.125,6.25,12.5,25,50,100,200,400,800,1600,3200,6400">rate_table</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification"  mtu="247" subscribeOnStart="true">
+			<config char="cddf1022-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010c0c000A</config>
+			<!--en, rate, range acc, range gyr, format, eventsize, average -->
+			<config char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A0101012800</config>
+
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">acc_timestamps</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="6" conversion="int16LittleEndian">acc_x_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="6" repeating="6" conversion="int16LittleEndian">acc_y_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="8" repeating="6" conversion="int16LittleEndian">acc_z_raw</output>		
+        </bluetooth>
+    </input>
+    <output>
+    </output>	
+	<views>
+
+		<view label="Accelerometer">  
+		<info label="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds."/> 
+		<graph label="Accelerometer X" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_x_SI</input>
+		</graph>
+		<value label="Accelerometer X" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_x_SI</input>
+		</value>	
+
+		<graph label="Accelerometer Y" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_y_SI</input>
+		</graph>
+		<value label="Accelerometer Y" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_y_SI</input>
+		</value>	
+
+		<graph label="Accelerometer Z" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_z_SI</input>
+		</graph>
+		<value label="Accelerometer Z" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_z_SI</input>
+		</value>
+		</view>
+    </views>
+    <analysis requireFill="acc_timestamps" requireFillThreshold="4" timedRun="false" timedRunStartDelay="0" timedRunStopDelay="10">
+		<!-- generate time stamps part 1-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 2-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+
+		<!-- generate time stamps part 3-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 4-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- calculate acc values START -->
+
+		<!-- X Y Z-->	
+		
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_x_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_x_SI</output>
+		</formula>
+
+
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_y_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_y_SI</output>
+		</formula>
+		
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_z_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_z_SI</output>
+		</formula>		
+
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">acc_time</data>
+			<data name="Acc X (m/s²)">acc_x_SI</data>
+			<data name="Acc Y (m/s²)">acc_y_SI</data>
+			<data name="Acc Z (m/s²)">acc_z_SI</data>				
+			
+        </set>
+    </export>
+</phyphox>

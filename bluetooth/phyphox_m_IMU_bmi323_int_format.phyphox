@@ -76,7 +76,7 @@
 					<input axis="x">gyr_time</input>
 					<input axis="y">gyr_x_SI</input>
 				</graph>
-				<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" >
+				<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 		                <input>gyr_x_SI</input>
 				</value>	
 			</vertical>
@@ -85,7 +85,7 @@
 					<input axis="x">gyr_time</input>
 					<input axis="y">gyr_y_SI</input>
 				</graph>
-				<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" >
+				<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 		                <input>gyr_y_SI</input>
 				</value>
 			</vertical>
@@ -94,7 +94,7 @@
 					<input axis="x">gyr_time</input>
 					<input axis="y">gyr_z_SI</input>
 				</graph>
-				<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" >
+				<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 		                <input>gyr_z_SI</input>
 				</value>		
 			</vertical>
@@ -341,7 +341,6 @@
     </analysis>
     <export>
         <set name="Raw Data">
-            <data name="Time (s)">gyr_time</data>
             <data name="Time (s)">gyr_time</data>
 			<data name="Gyr X (°/s)">gyr_x_SI</data>
 			<data name="Gyr Y (°/s)">gyr_y_SI</data>

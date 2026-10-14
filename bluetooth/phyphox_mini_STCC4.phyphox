@@ -1,0 +1,104 @@
+<phyphox version="1.18" locale="en">
+    <title>CO₂, Temperature, Humidity</title>
+    <category>phyphox:mini raw sensor</category>
+    <color>ADEBB3</color>
+    <icon format="base64">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</icon>
+    <description>STCC4, HDC1080</description>
+    <translations>
+        <translation locale="de">
+            <title>CO₂, Temperatur, Feuchtigkeit</title>
+            <category>phyphox:mini Sensoren</category>
+            <string original="Rawdata">Rohdaten</string>
+            <string original="CO₂">CO₂</string>
+            <string original="Temperature">Temperatur</string>
+            <string original="Relative humidity">Relative Luftfeuchtigkeit</string>
+            <string original="RH">RH</string>
+        </translation>
+    </translations>
+
+    <data-containers>
+        <container size="0">hdc_time_raw</container>
+		<container size="0">hdc_time</container>
+		<container size="1">hdc_timeOffset</container>
+		<container size="0">temperature</container>
+		<container size="0">humidity</container>
+		
+		<container size="0">co2_time_raw</container>
+		<container size="0">co2_time</container>
+		<container size="1">co2_timeOffset</container>
+		<container size="0">co2</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification" subscribeOnStart="true">
+			<config char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+			<config char="cddf100c-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+            <output char="cddf100b-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">co2</output>
+			<output char="cddf100b-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">co2_time_raw</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">temperature</output>
+			<output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">humidity</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian">hdc_time_raw</output>
+        </bluetooth>
+    </input>       
+    <output>
+    </output>
+    <views>
+        <view label="Rawdata">
+            <graph label="CO₂" timeOnX="true" labelX="time" unitX="s" labelY="CO₂" unitY="ppm" partialUpdate="true">
+                <input axis="x">co2_time</input>
+                <input axis="y">co2</input>                
+            </graph>
+            <value label="CO₂" unit="ppm" size="1" precision="1" scientific="false" factor="1" >
+                <input>co2</input>
+            </value> 
+			
+            <graph label="Temperature" timeOnX="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">hdc_time</input>
+                <input axis="y">temperature</input>                
+            </graph>
+            <value label="Temperature" unit="°C" size="1" precision="1" scientific="false" factor="1" >
+                <input>temperature</input>
+            </value> 
+
+            <graph label="Relative humidity" timeOnX="true" labelX="time" unitX="s" labelY="RH" unitY="%" partialUpdate="true">
+                <input axis="x">hdc_time</input>
+                <input axis="y">humidity</input>                
+            </graph>
+            <value label="RH" unit="%" size="1" precision="1" scientific="false" factor="1" >
+                <input>humidity</input>
+            </value> 
+        </view>
+       
+    </views>
+    <analysis sleep="0" onUserInput="false">
+		<first>
+            <input as="value" clear="false">hdc_time_raw</input>
+            <output as="first">hdc_timeOffset</output>
+        </first>
+		<first>
+            <input as="value" clear="false">co2_time_raw</input>
+            <output as="first">co2_timeOffset</output>
+        </first>		
+		
+		<subtract>
+            <input as="minuend" clear="false">hdc_time_raw</input>
+            <input as="subtrahend" clear="false">hdc_timeOffset</input>
+            <output as="difference">hdc_time</output>			
+        </subtract>
+		<subtract>
+            <input as="minuend" clear="false">co2_time_raw</input>
+            <input as="subtrahend" clear="false">co2_timeOffset</input>
+            <output as="difference">co2_time</output>			
+        </subtract>
+
+    </analysis>
+    <export>
+        <set name="Raw data">
+            <data name="Time T,RH (s)">hdc_time</data>
+            <data name="Temperature (°C)">temperature</data>
+			<data name="rel Humidity (%)">humidity</data>
+			<data name="Time CO₂ (s)">co2_time</data>
+			<data name="CO₂ (ppm)">co2</data>
+        </set>
+    </export>
+</phyphox>

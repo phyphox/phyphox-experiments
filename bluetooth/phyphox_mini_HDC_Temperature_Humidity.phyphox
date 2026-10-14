@@ -1,0 +1,118 @@
+<phyphox version="1.20" locale="en">
+    <title>Temperature, Humidity</title>
+    <category>phyphox:mini raw sensor</category>
+    <color>ADEBB3</color>
+    <icon format="base64">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</icon>
+    <description>Measure temperature and humidity measured by the HDC1080.</description>
+    <translations>
+        <translation locale="de">
+            <title>Temperatur, Feuchtigkeit</title>
+            <category>phyphox:mini Sensoren</category>
+            <description>Messe Temperatur und relative Luftfeuchtigkeit mit dem HDC1080.</description>
+            <string original="Rawdata">Rohdaten</string>
+            <string original="Settings">Einstellungen</string>
+            <string original="Temperature">Temperatur</string>
+            <string original="Relative humidity">Relative Luftfeuchtigkeit</string>
+            <string original="current measurement interval">aktuelles Messintervall</string>
+            <string original="100ms">100 ms</string>
+            <string original="500ms">500 ms</string>
+            <string original="1s">1 s</string>
+            <string original="2s">2 s</string>
+        </translation>
+    </translations>
+
+    <data-containers>
+        <container size="0">time_raw</container>
+        <container size="1">timeOffset</container>
+		<container size="0">time</container>
+
+        <container size="0">temperature</container>
+        <container size="0">humidity</container>
+		
+		<container size="1">count</container>
+		<container size="1">first</container>
+		<container size="1">rate</container>
+
+        <container size="1" init="1" clearGroup="_">enable</container>
+        <container size="1" init="3" clearGroup="_">interval</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification" subscribeOnStart="true">
+            <config char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">temperature</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">humidity</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian">time_raw</output>
+        </bluetooth>
+    </input>       
+    <output>
+        <bluetooth id="phyphox:mini">
+            <input keep="true" char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="singleByte" offset="0" triggerId="setConfig">enable</input>
+            <input keep="true" char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="singleByte" offset="1" triggerId="setConfig">interval</input>
+        </bluetooth>
+    </output>
+    <views>
+        <view label="Rawdata">
+            <graph label="Temperature" timeOnX="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">temperature</input>                
+            </graph>
+            <value label="Temperature" unit="°C" size="1" precision="1" scientific="false" factor="1" >
+                <input>temperature</input>
+            </value> 
+
+            <graph label="Relative humidity" timeOnX="true" labelX="time" unitX="s" labelY="RH" unitY="%" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">humidity</input>                
+            </graph>
+            <value label="RH" unit="%" size="1" precision="1" scientific="false" factor="1" >
+                <input>humidity</input>
+            </value> 
+        </view>
+
+        <view label="Settings">
+        
+			<dropdown label="measurement interval" default="1">
+				<output>interval</output>
+				<map value="1">100ms</map>
+				<map value="5">500ms</map>
+				<map value="10">1s</map>
+				<map value="20">2s</map>
+			</dropdown>	
+  
+            <button label="set configuration">
+                <trigger>setConfig</trigger>
+            </button>  
+
+                                     
+        </view>      
+    </views>
+    <analysis sleep="0" onUserInput="false">
+		<first>
+            <input as="value" clear="false">time_raw</input>
+            <output as="first">timeOffset</output>
+        </first>
+		<subtract>
+            <input as="minuend" clear="false">time_raw</input>
+            <input as="subtrahend" clear="false">timeOffset</input>
+            <output as="difference">time</output>			
+        </subtract>
+        <count>
+            <input as="buffer" clear="false">temperature</input>
+            <output as="count">count</output>
+        </count>
+        <formula formula="[2]/([1])">
+            <input as="in" clear="false">time</input>
+            <input as="in" clear="false">count</input>
+            <output as="out">rate</output>
+        </formula>
+
+    </analysis>
+    <export>
+        <set name="Raw data">
+            <data name="Time (s)">time</data>
+            <data name="Temperature (°C)">temperature</data>
+			<data name="rel Humidity (%)">humidity</data>
+        </set>
+    </export>
+</phyphox>

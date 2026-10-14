@@ -1,0 +1,215 @@
+<phyphox version="1.12" locale="en">
+    <title>Acceleration Android</title>
+    <category>phyphox:mini raw sensor</category>
+	<color>ADEBB3</color>
+	<icon format="base64">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</icon>
+    <description>LSM6DSR 6667Hz</description>
+	<translations>
+    <translation locale="de">
+      <title>Beschleunigung Android</title>
+      <category>phyphox:mini Sensoren</category>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Accelerometer X">Beschleunigungssensor X</string>
+      <string original="Accelerometer Y">Beschleunigungssensor Y</string>
+      <string original="Accelerometer Z">Beschleunigungssensor Z</string>
+      <string original="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds.">Experimentell: Die Abtastrate von 6400 Hz wird möglicherweise nicht zuverlässig übertragen – durch Verbindungsprobleme können Lücken oder fehlende Daten auftreten. phyphox wechselt zu optimalen Verbindungsparametern, was einige Sekunden dauern kann.</string>
+    </translation>
+	</translations>
+    <data-containers>
+		<container size="0">acc_time</container>
+				
+		<container size="0">acc_time_ramp</container>		
+		<container size="0">acc_timestamps</container>
+		<container size="1">acc_timestamps_count</container>
+		<container size="1">acc_package_endtime</container>
+
+		<container size="0">raw_count</container>
+
+		<container size="0">acc_x_raw</container>
+		<container size="0">acc_x_SI</container>
+		<container size="0">acc_x_if</container>
+		<container size="0">acc_x_raw_subrange</container>
+
+		<container size="0">acc_y_raw</container>
+		<container size="0">acc_y_SI</container>
+		<container size="0">acc_y_if</container>
+		<container size="0">acc_y_raw_subrange</container>
+
+		<container size="0">acc_z_raw</container>
+		<container size="0">acc_z_SI</container>
+		<container size="0">acc_z_if</container>
+		<container size="0">acc_z_raw_subrange</container>
+
+		<container size="0">acc_timestamps_subrange</container>								
+				
+		<container size="1" init="1">en</container>
+		<container size="1" init="10">rate</container>
+		<container size="1" init="1">range_acc</container>
+		<container size="1" init="1">range_gyr</container>
+		<container size="1" init="1">format</container>
+		<container size="1" init="40">config_n_times</container>
+		<container size="1" init="0">average</container>
+
+		<container size="15" init="0,0.78,1.56,3.125,6.25,12.5,25,50,100,200,400,800,1600,3200,6400">rate_table</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification"  mtu="247" subscribeOnStart="true">
+			<config char="cddf1022-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">01090A000A</config>
+			<!--en, rate, range acc, range gyr, format, eventsize, average -->
+			<config char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A0101012800</config>
+
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">acc_timestamps</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="6" conversion="int16LittleEndian">acc_x_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="6" repeating="6" conversion="int16LittleEndian">acc_y_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="8" repeating="6" conversion="int16LittleEndian">acc_z_raw</output>		
+        </bluetooth>
+    </input>
+    <output>
+
+    </output>	
+	<views>
+		
+		<view label="Accelerometer">  
+		<info label="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds."/>
+		<graph label="Accelerometer X" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_x_SI</input>
+		</graph>
+		<value label="Accelerometer X" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_x_SI</input>
+		</value>	
+
+		<graph label="Accelerometer Y" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_y_SI</input>
+		</graph>
+		<value label="Accelerometer Y" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_y_SI</input>
+		</value>	
+
+		<graph label="Accelerometer Z" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_z_SI</input>
+		</graph>
+		<value label="Accelerometer Z" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_z_SI</input>
+		</value>
+		</view>
+    </views>
+    <analysis requireFill="acc_timestamps" requireFillThreshold="4" timedRun="false" timedRunStartDelay="0" timedRunStopDelay="10">
+		<!-- generate time stamps part 1-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 2-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+
+		<!-- generate time stamps part 3-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 4-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+	  
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+		
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- calculate acc values START -->
+
+		<!-- X Y Z-->	
+		
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_x_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_x_SI</output>
+		</formula>
+
+
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_y_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_y_SI</output>
+		</formula>
+		
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_z_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_z_SI</output>
+		</formula>		
+
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">acc_time</data>
+			<data name="Acc X (m/s²)">acc_x_SI</data>
+			<data name="Acc Y (m/s²)">acc_y_SI</data>
+			<data name="Acc Z (m/s²)">acc_z_SI</data>				
+			
+        </set>
+    </export>
+</phyphox>

@@ -83,7 +83,7 @@
         <set name="Rawdata">
             <data name="Time (s)">time</data>
             <data name="Distance (mm)">distance</data>
-			<data name="Standart deviation (mm)">std</data>
+			<data name="Standard deviation (mm)">std</data>
         </set>
     </export>
 </phyphox>

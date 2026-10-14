@@ -41,7 +41,7 @@
 						<input axis="x">time</input>
 						<input axis="y">gyr_x</input>
 					</graph>
-					<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 							<input>gyr_x</input>
 					</value>		
 				</vertical>
@@ -50,7 +50,7 @@
 						<input axis="x">time</input>
 						<input axis="y">gyr_y</input>
 					</graph>
-					<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 							<input>gyr_y</input>
 					</value>
 				</vertical>
@@ -59,7 +59,7 @@
 						<input axis="x">time</input>
 						<input axis="y">gyr_z</input>
 					</graph>
-					<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
 							<input>gyr_z</input>
 					</value>							
 				</vertical>
@@ -72,7 +72,7 @@
 						<input axis="x">time</input>
 						<input axis="y">acc_x</input>
 					</graph>
-					<value label="Acceleration X" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Acceleration X" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
 							<input>acc_x</input>
 					</value>	
 				</vertical>
@@ -81,7 +81,7 @@
 						<input axis="x">time</input>
 						<input axis="y">acc_y</input>
 					</graph>
-					<value label="Acceleration Y" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Acceleration Y" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
 							<input>acc_y</input>
 					</value>
 				</vertical>
@@ -90,7 +90,7 @@
 						<input axis="x">time</input>
 						<input axis="y">acc_z</input>
 					</graph>
-					<value label="Acceleration Z" size="1" precision="2" scientific="false"  factor="1" >
+					<value label="Acceleration Z" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
 							<input>acc_z</input>
 					</value>								
 				</vertical>
@@ -112,12 +112,12 @@
     <export>
         <set name="Raw Data"> 
             <data name="Time (s)">time</data>
-			<data name="Gyr X (°/s)">acc_x</data>
-			<data name="Gyr Y (°/s)">acc_y</data>
-			<data name="Gyr Z (°/s)">acc_z</data>
-			<data name="Acc X (m/s²)">gyr_x</data>
-			<data name="Acc Y (m/s²)">gyr_y</data>
-			<data name="Acc Z (m/s²)">gyr_z</data>			
+			<data name="Gyr X (°/s)">gyr_x</data>
+			<data name="Gyr Y (°/s)">gyr_y</data>
+			<data name="Gyr Z (°/s)">gyr_z</data>
+			<data name="Acc X (m/s²)">acc_x</data>
+			<data name="Acc Y (m/s²)">acc_y</data>
+			<data name="Acc Z (m/s²)">acc_z</data>			
         </set>
     </export>
 </phyphox>

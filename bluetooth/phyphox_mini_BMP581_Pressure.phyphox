@@ -1,0 +1,145 @@
+<phyphox version="1.20" locale="en">
+    <title>Pressure, Temperature</title>
+    <category>phyphox:mini raw sensor</category>
+	<color>ADEBB3</color>
+	<icon format="base64">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</icon>
+    <description>Using the Bosch BMP581 sensor to measure air pressure and temperature.</description>
+	<translations>
+    <translation locale="de">
+      <title>Luftdruck, Temperatur</title>
+      <category>phyphox:mini Sensoren</category>
+      <description>Verwendung des Bosch BMP581 Sensors zur Messung von Luftdruck und Temperatur.</description>
+      <string original="Rawdata">Rohdaten</string>
+      <string original="Pressure">Luftdruck</string>
+	  <string original="Temperature">Temperatur</string>
+	  <string original="Altitude (calculated)">Höhe (berechnet)</string>
+	  <string original="Altitude">Höhe</string>
+	  <string original="Settings">Einstellungen</string>
+	  <string original="iir coefficient">IIR-Koeffizient</string>
+	  <string original="set configuration">Konfiguration übernehmen</string>
+	</translation>
+	</translations>
+    <data-containers>
+		<container size="0">time_raw</container>	
+		<container size="0">time</container>
+		
+		<container size="0">pressure_raw</container>		
+		<container size="0">pressure</container>
+		
+		<container size="0">height</container>
+		<container size="0">temperature_raw</container>
+		<container size="0">temperature</container>
+		
+		<container size="0">reference_values</container>
+		<container size="1">reference_average</container>
+			
+		<container size="1" static="false" init="1" clearGroup="_">cfg_enable</container>
+		<container size="1" static="false" init="4" clearGroup="_">cfg_oversampling</container>
+		<container size="1" static="false" init="1" clearGroup="_">cfg_iir</container>
+				
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification" mtu="180" subscribeOnStart="true">
+			<config char="cddf1008-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010401</config>
+			<output char="cddf1007-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian" repeating="12">pressure_raw</output>
+			<output char="cddf1007-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian" repeating="12">temperature_raw</output>
+			<output char="cddf1007-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian" repeating="12">time_raw</output>
+        </bluetooth>
+    </input>
+	<output>
+	<bluetooth id="phyphox:mini" name="phyphox:mini">
+		<input keep="true" char="cddf1008-30f7-4671-8b43-5e40ba53514a" conversion="singleByte" offset="0" triggerId="setConfig">cfg_enable</input>
+		<input keep="true" char="cddf1008-30f7-4671-8b43-5e40ba53514a" conversion="singleByte" offset="1" triggerId="setConfig">cfg_oversampling</input>
+		<input keep="true" char="cddf1008-30f7-4671-8b43-5e40ba53514a" conversion="singleByte" offset="2" triggerId="setConfig">cfg_iir</input>
+	</bluetooth>
+	</output>
+	<views>
+        <view label="Rawdata">
+            <graph label="Pressure" timeOnX="true" labelX="t" unitX="s" labelY="p" unitY="hPa" partialUpdate="true">
+                <input axis="y">pressure</input>
+                <input axis="x">time</input>
+            </graph>
+            <value label="Pressure" size="1" precision="3" scientific="false" unit="hPa" factor="1" >
+                <input>pressure</input>
+            </value>
+            
+            <graph label="Temperature" timeOnX="true" labelX="t" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="y">temperature</input>
+                <input axis="x">time</input>
+            </graph>
+            <value label="Temperature" size="1" precision="1" scientific="false" unit="°C" factor="1" >
+                <input>temperature</input>
+            </value>
+            <graph label="Altitude (calculated)" timeOnX="true" labelX="t" labelY="h" unitX="s" unitY="m" partialUpdate="true">
+                <input axis="x">time</input>
+                <input axis="y">height</input>
+            </graph>
+            <value label="Altitude" size="1" precision="1" scientific="false" unit="m" factor="1" >
+                <input>height</input>
+            </value>		
+        </view>		
+        <view label="Settings">		
+			<dropdown label="iir coefficient" default="1">
+				<output>cfg_iir</output>
+				<map value="1">1</map>
+				<map value="2">3</map>
+				<map value="3">7</map>
+				<map value="4">15</map>
+				<map value="5">31</map>
+				<map value="6">63</map>
+				<map value="7">127</map>
+			</dropdown>			
+			<dropdown label="Oversampling" default="4">
+				<output>cfg_oversampling</output>
+				<map value="0">1x</map>
+				<map value="1">2x</map>
+				<map value="2">4x</map>
+				<map value="3">8x</map>
+				<map value="4">16x</map>
+				<map value="5">32x</map>
+				<map value="6">64x</map>
+				<map value="7">128x</map>
+			</dropdown>
+			<button label="set configuration">
+				<trigger>setConfig</trigger>
+			</button>			
+        </view>	
+    </views>
+	<analysis requireFill="pressure_raw">
+		<subrange cycles="1-20">
+            <input as="in" clear="false">pressure_raw</input>
+            <input as="from" type="value">0</input>
+            <input as="length" type="value">50</input>
+            <output as="out" clear="true">reference_values</output>
+        </subrange>
+        <average cycles="1-20">
+            <input as="buffer" clear="false">reference_values</input>
+            <output as="average" >reference_average</output>
+        </average>
+        <formula formula="44330*(1-([1_]/[2])^(1/5.255))">
+            <input as="in" clear="false">pressure_raw</input>
+            <input as="in" clear="false">reference_average</input>
+            <output clear="false" as="out">height</output>
+        </formula>					
+		<append>
+            <input as="in" clear="true">pressure_raw</input>
+            <output as="out" clear="false" >pressure</output>
+        </append>	
+		<append>
+            <input as="in" clear="true">time_raw</input>
+            <output as="out" clear="false" >time</output>
+        </append>		
+		<append>
+            <input as="in" clear="true">temperature_raw</input>
+            <output as="out" clear="false" >temperature</output>
+        </append>		
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">time</data>
+			<data name="Pressure (hPa)">pressure</data>
+			<data name="Temperature (°C)">temperature</data>
+			<data name="Altitude (m)">height</data>
+        </set>
+    </export>
+</phyphox>

@@ -1,0 +1,510 @@
+<phyphox version="1.20" locale="en">
+    <title>Acceleration + FFT</title>
+    <category>phyphox:mini tools</category>
+	<color>ADEBB3</color>
+	<icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEZ0lEQVR4nO3cz2seRRzH8Uds7EmLJvo8u6vU5pmZBFKT7M6hhBY8tKAoggcvUvHgyYvnKraiF0HRg+DfIB48lR56LfXiD2hTFC8ePYjpwZNFFHU2MfJIdp7ss9l9nnnm+37BF0Kyszsz30+eH7BsrwcAAAAAAAAAAAAAAAAAADDn+lafSTeHZ2c9D0xZmpsLWWFuZ9b8/W/dyXJzfsJzvJdY9VGdajJmccNkdY/dr/5TZrn93YqQa/72SPP3yv1uknOk1tw9cA5PNRmTFENb99j9GuTq6fZ3KzJZrra8m+j+Vvc8BGBOpbm65A+Afr32eUabmZtXk/zUSV81GmN7Cwd+717m98enhb5xYIxSx7vZtYh0EYCkUM90NWZUVui3RwJwfdLx6BEA8boIgGvGh66hF6uqt7b2wFHGjCIALejkM8C4Ws0WjzJmFAFoAQEQrpsA6Cuunq8qd+ixo4wZRQBawIdA4QiAcARAOAIgHAEQjgAI11YAMKcIgHAEQDgCIBwBEI4ACEcAhCMAwhEA4QiAcARAOAIgHAEQjgAIRwCEIwDCEQDhCEB87htsmudSqz9Lc/3Gw3b5xLiDCUBc7k8L/f3/G6l/G/fcHwIQkbRQL1Q1Mi3M594xBCAe7r/9WmUjC/O7762AAEQkK5/u5Wlmenr4RNUYAhCRWQQgW1ePp9a86HuIA6ZomgFYyldS94Hzqvu28efu+a25Wz73r7vV4VDTDECWm/erxgw21Fp3K8RYUwuA7S24//6fPd84Pu10kfCbVgD668PT3utYc7PbVcKLAAhHAIQjAMIRAOEIgHAEQDgCIBwBEI4ACEcAhCMAwhEA4QiAcARAOAIgHAEQjgAIRwCEIwARmuS+ewIQkSb33ROAiDS5754AxKLhffdzEoCJnl8gUtMNnoMATPz8ApFiDUCT5xeIFGsAmjy/QKR4AzD5/KLSt/pMnfc7AhAZ9/39gnuZuz2y4Dvua9553/EEIDKu+dsV73vbvuMJQESyXG35N1htVY0hABVjN5ZNYs3HqdWfuGusjjs2KKFvcOjz251jYd5NC/3Xf8e6n1Or3vEdH5TQNzj0+fWUOu7OuVNxnZ3yb75rBSP0DQ5/fvpl35hBrl7yXSsY4W9wfPMLSowbHPr8ghLjBoc+v6DEuMGhzy8oMW5w6PMLSowbHPr8pm7Jnkz66yunqiot9Ae+BSS5vlw1JlkfPuvdqMJ87b2WNT/4xj22OTwrZX5lPbr25KDbrtveQlKoV9yivvQmlJppla9GrkcXXbeOtd5/99L02qwXSNUMgutV+wEozDezXhhVMwCuV602/xGlHnIvL3/MemFUzQC4Xi2trDzYagiyQn8x64VRNcv1qtXml1yqzmVW35v54qhDSt/r7LbzbDVbTKx5y13kK/c+8+3YyvV37ivNL+7nnfLe+EOP3xtzyx37k0vwr0mhf6w1xlV5bDmmHLt3jlrXimp+uz2x6s2yR500HwAAAAAAAAAAAAAwT/4B2tqjAme2ek4AAAAASUVORK5CYII=</icon>
+    <description>LSM6DSR at 6667 Hz in int16 format, like IMU_lsm6dsr_int, plus a frequency spectrum. The FFT runs over the most recent block of samples of one selectable axis and reports the dominant frequency. The frequency axis is scaled with the sample rate measured from the timestamps, not with the nominal 6667 Hz - the sensor clock runs about 8 percent fast, which would shift every frequency by the same amount.</description>
+	<translations>
+    <translation locale="de">
+      <title>Beschleunigung + FFT</title>
+      <category>phyphox:mini Werkzeuge</category>
+      <description>LSM6DSR mit 6667 Hz im int16-Format, wie IMU_lsm6dsr_int, zusätzlich mit Frequenzspektrum. Die FFT läuft über den jeweils letzten Block an Messwerten einer wählbaren Achse und nennt die dominante Frequenz. Die Frequenzachse wird mit der aus den Zeitstempeln gemessenen Abtastrate skaliert, nicht mit den nominellen 6667 Hz – der Sensortakt läuft rund 8 Prozent zu schnell, was sonst jede Frequenz um denselben Betrag verschieben würde.</description>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Accelerometer X">Beschleunigungssensor X</string>
+      <string original="Accelerometer Y">Beschleunigungssensor Y</string>
+      <string original="Accelerometer Z">Beschleunigungssensor Z</string>
+      <string original="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds.">Experimentell: Die Abtastrate von 6400 Hz wird möglicherweise nicht zuverlässig übertragen – durch Verbindungsprobleme können Lücken oder fehlende Daten auftreten. phyphox wechselt zu optimalen Verbindungsparametern, was einige Sekunden dauern kann.</string>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Axis">Achse</string>
+      <string original="FFT length">FFT-Länge</string>
+      <string original="Ignore below">Ignoriere unterhalb</string>
+      <string original="Dominant frequency">Dominante Frequenz</string>
+      <string original="Peak amplitude">Amplitude des Maximums</string>
+      <string original="Measured sample rate">Gemessene Abtastrate</string>
+      <string original="Frequency resolution">Frequenzauflösung</string>
+      <string original="Window length">Fensterlänge</string>
+      <string original="Spectrum of the selected axis">Spektrum der gewählten Achse</string>
+      <string original="Pick the axis to analyse and the block length of the FFT. A longer block resolves frequencies more finely but reacts more slowly, because it always covers the most recent samples only.">Wähle die zu analysierende Achse und die Blocklänge der FFT. Ein längerer Block löst Frequenzen feiner auf, reagiert aber träger, weil er immer nur die jeweils letzten Messwerte umfasst.</string>
+      <string original="The mean of the block is subtracted before the transform, otherwise gravity would dominate the spectrum with a huge peak at 0 Hz. Everything below the limit set here is excluded from the peak search, which keeps slow drift from being mistaken for the signal.">Vor der Transformation wird der Mittelwert des Blocks abgezogen, sonst würde die Schwerkraft das Spektrum mit einer riesigen Spitze bei 0 Hz beherrschen. Alles unterhalb der hier gesetzten Grenze bleibt bei der Suche nach dem Maximum außen vor, damit langsame Drift nicht für das Signal gehalten wird.</string>
+      <string original="The sample rate is measured from the timestamps of the block, because the sensor clock does not run exactly at the nominal rate. Frequency resolution is sample rate divided by FFT length.">Die Abtastrate wird aus den Zeitstempeln des Blocks gemessen, weil der Sensortakt nicht genau der Nennrate folgt. Die Frequenzauflösung ist Abtastrate geteilt durch FFT-Länge.</string>
+      <string original="Frequency (Hz)">Frequenz (Hz)</string>
+      <string original="Amplitude (a.u.)">Amplitude (a.u.)</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="time">Zeit</string>
+      <string original="Time (s)">Zeit (s)</string>
+      <string original="Dominant frequency (Hz)">Dominante Frequenz (Hz)</string>
+      <string original="Measured sample rate (Hz)">Gemessene Abtastrate (Hz)</string>
+      <string original="Frequency resolution (Hz)">Frequenzauflösung (Hz)</string>
+    </translation>
+	</translations>
+    <data-containers>
+		<container size="0">acc_time</container>
+
+		<container size="0">acc_time_ramp</container>
+		<container size="0">acc_timestamps</container>
+		<container size="1">acc_timestamps_count</container>
+		<container size="1">acc_package_endtime</container>
+
+		<container size="0">raw_count</container>
+
+		<container size="0">acc_x_raw</container>
+		<container size="0">acc_x_SI</container>
+		<container size="0">acc_x_if</container>
+		<container size="0">acc_x_raw_subrange</container>
+
+		<container size="0">acc_y_raw</container>
+		<container size="0">acc_y_SI</container>
+		<container size="0">acc_y_if</container>
+		<container size="0">acc_y_raw_subrange</container>
+
+		<container size="0">acc_z_raw</container>
+		<container size="0">acc_z_SI</container>
+		<container size="0">acc_z_if</container>
+		<container size="0">acc_z_raw_subrange</container>
+
+		<container size="0">acc_timestamps_subrange</container>
+
+		<container size="1" init="1">en</container>
+		<container size="1" init="10">rate</container>
+		<container size="1" init="1">range_acc</container>
+		<container size="1" init="1">range_gyr</container>
+		<container size="1" init="1">format</container>
+		<container size="1" init="40">config_n_times</container>
+		<container size="1" init="0">average</container>
+
+		<container size="15" init="0,0.78,1.56,3.125,6.25,12.5,25,50,100,200,400,800,1600,3200,6400">rate_table</container>
+
+		<!-- FFT settings -->
+		<container size="1" init="0">axis_sel</container>
+		<container size="1" init="4096">n_fft</container>
+		<container size="1" init="5">f_min</container>
+		<container size="1">ind0</container>
+		<container size="1">ind1</container>
+		<container size="1">ind2</container>
+
+		<!-- most recent block of samples -->
+		<container size="1">n_total</container>
+		<container size="1">fft_from</container>
+		<container size="0">win_x</container>
+		<container size="0">win_y</container>
+		<container size="0">win_z</container>
+		<container size="0">win_t</container>
+		<container size="0">sel_a</container>
+		<container size="0">sel_b</container>
+		<container size="0">sel_c</container>
+		<container size="0">fft_win</container>
+		<container size="1">win_mean</container>
+		<container size="0">fft_in</container>
+
+		<!-- sample rate measured from the timestamps of that block -->
+		<container size="1">n_win</container>
+		<container size="0">t_first</container>
+		<container size="1">t_last</container>
+		<container size="1">fs_actual</container>
+		<container size="1">win_seconds</container>
+		<container size="1">df</container>
+
+		<!-- transform and spectrum -->
+		<container size="0">fft_re</container>
+		<container size="0">fft_im</container>
+		<container size="0">mag_full</container>
+		<container size="1">n_half</container>
+		<container size="0">fft_mag</container>
+		<container size="1">f_max</container>
+		<container size="0">fft_freq</container>
+
+		<!-- peak search -->
+		<container size="0">search_freq</container>
+		<container size="0">search_mag</container>
+		<container size="1">peak_mag</container>
+		<container size="0">peak_hit</container>
+		<container size="1">peak_freq</container>
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification"  mtu="247" subscribeOnStart="true">
+			<config char="cddf1022-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">01090A000A</config>
+			<!--en, rate, range acc, range gyr, format, eventsize, average -->
+			<config char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A0101012800</config>
+
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">acc_timestamps</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="6" conversion="int16LittleEndian">acc_x_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="6" repeating="6" conversion="int16LittleEndian">acc_y_raw</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="8" repeating="6" conversion="int16LittleEndian">acc_z_raw</output>
+        </bluetooth>
+    </input>
+    <output>
+
+    </output>
+	<views>
+		<view label="Spectrum">
+			<info label="Pick the axis to analyse and the block length of the FFT. A longer block resolves frequencies more finely but reacts more slowly, because it always covers the most recent samples only."/>
+			<dropdown label="Axis" default="0">
+				<output>axis_sel</output>
+				<map value="0">X</map>
+				<map value="1">Y</map>
+				<map value="2">Z</map>
+			</dropdown>
+			<dropdown label="FFT length" default="4096">
+				<output>n_fft</output>
+				<map value="1024">1024</map>
+				<map value="2048">2048</map>
+				<map value="4096">4096</map>
+				<map value="8192">8192</map>
+				<map value="16384">16384</map>
+			</dropdown>
+			<edit label="Ignore below" signed="false" decimal="true" min="0" max="3000" unit="Hz" factor="1" default="5">
+				<output>f_min</output>
+			</edit>
+			<separator height="0.5"/>
+			<graph label="Spectrum of the selected axis" labelX="Frequency (Hz)" labelY="Amplitude (a.u.)" partialUpdate="false">
+				<input axis="x">fft_freq</input>
+				<input axis="y">fft_mag</input>
+			</graph>
+			<value label="Dominant frequency" size="1.2" precision="2" scientific="false" factor="1" unit="Hz">
+				<input>peak_freq</input>
+			</value>
+			<value label="Peak amplitude" size="1" precision="1" scientific="false" factor="1">
+				<input>peak_mag</input>
+			</value>
+			<separator height="0.5"/>
+			<info label="The mean of the block is subtracted before the transform, otherwise gravity would dominate the spectrum with a huge peak at 0 Hz. Everything below the limit set here is excluded from the peak search, which keeps slow drift from being mistaken for the signal."/>
+			<info label="The sample rate is measured from the timestamps of the block, because the sensor clock does not run exactly at the nominal rate. Frequency resolution is sample rate divided by FFT length."/>
+			<value label="Measured sample rate" size="1" precision="0" scientific="false" factor="1" unit="Hz">
+				<input>fs_actual</input>
+			</value>
+			<value label="Frequency resolution" size="1" precision="3" scientific="false" factor="1" unit="Hz">
+				<input>df</input>
+			</value>
+			<value label="Window length" size="1" precision="3" scientific="false" factor="1" unit="s">
+				<input>win_seconds</input>
+			</value>
+		</view>
+
+		<view label="Accelerometer">
+		<info label="Experimental: The 6400 Hz sampling rate may not transmit reliably – you might notice gaps or missing data due to connection issues. phyphox will switch to optimal connection parameters, which may take a few seconds."/>
+		<graph label="Accelerometer X" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_x_SI</input>
+		</graph>
+		<value label="Accelerometer X" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_x_SI</input>
+		</value>
+
+		<graph label="Accelerometer Y" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_y_SI</input>
+		</graph>
+		<value label="Accelerometer Y" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_y_SI</input>
+		</value>
+
+		<graph label="Accelerometer Z" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+			<input axis="x">acc_time</input>
+			<input axis="y">acc_z_SI</input>
+		</graph>
+		<value label="Accelerometer Z" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+                <input>acc_z_SI</input>
+		</value>
+		</view>
+    </views>
+    <analysis requireFill="acc_timestamps" requireFillThreshold="4" timedRun="false" timedRunStartDelay="0" timedRunStopDelay="10">
+		<!-- generate time stamps part 1-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 2-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+
+		<!-- generate time stamps part 3-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- generate time stamps part 4-->
+		<split>
+			<input as="data" clear="false">acc_timestamps</input>
+			<input as="index" clear="false" type="value">1</input>
+			<output as="out2" clear="true">acc_timestamps</output>
+			<output as="out1" clear="true">acc_timestamps_subrange</output>
+		</split>
+
+		<formula formula="[1]+([2]-1)/(6667*1)">
+			<input as="in" clear="false">acc_timestamps_subrange</input>
+			<input as="in" clear="false">config_n_times</input>
+			<output as="out" clear="true">acc_package_endtime</output>
+		</formula>
+
+		<ramp>
+			<input as="start" clear="true">acc_timestamps_subrange</input>
+			<input as="stop" clear="true">acc_package_endtime</input>
+			<input as="length" clear="false" >config_n_times</input>
+			<output as="out" clear="false">acc_time</output>
+		</ramp>
+		<!-- calculate acc values START -->
+
+		<!-- X Y Z-->
+
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_x_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_x_SI</output>
+		</formula>
+
+
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_y_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_y_SI</output>
+		</formula>
+
+		<formula formula="[1_]*9.81*16/32768">
+			<input as="in" clear="true">acc_z_raw</input>
+			<!-- <input as="in" clear="false">selected_acc_range</input> -->
+			<output as="out" clear="false">acc_z_SI</output>
+		</formula>
+
+		<!-- ================= FFT ================= -->
+
+		<!-- Cut out the most recent n_fft samples. Once enough data has arrived
+		     this is always exactly a power of two, which the FFT needs for
+		     results that are identical on Android and iOS. -->
+		<count>
+			<input clear="false">acc_x_SI</input>
+			<output>n_total</output>
+		</count>
+		<formula formula="max([1]-[2],0)">
+			<input as="in" clear="false">n_total</input>
+			<input as="in" clear="false">n_fft</input>
+			<output as="out" clear="true">fft_from</output>
+		</formula>
+		<subrange>
+			<input as="in" clear="false">acc_x_SI</input>
+			<input as="from" clear="false">fft_from</input>
+			<input as="length" clear="false">n_fft</input>
+			<output as="out" clear="true">win_x</output>
+		</subrange>
+		<subrange>
+			<input as="in" clear="false">acc_y_SI</input>
+			<input as="from" clear="false">fft_from</input>
+			<input as="length" clear="false">n_fft</input>
+			<output as="out" clear="true">win_y</output>
+		</subrange>
+		<subrange>
+			<input as="in" clear="false">acc_z_SI</input>
+			<input as="from" clear="false">fft_from</input>
+			<input as="length" clear="false">n_fft</input>
+			<output as="out" clear="true">win_z</output>
+		</subrange>
+		<subrange>
+			<input as="in" clear="false">acc_time</input>
+			<input as="from" clear="false">fft_from</input>
+			<input as="length" clear="false">n_fft</input>
+			<output as="out" clear="true">win_t</output>
+		</subrange>
+
+		<!-- Select one axis. The indicator is a single value, which the basic
+		     math modules repeat across the whole block, so exactly one of the
+		     three terms survives. -->
+		<formula formula="1-min(abs([1]-0),1)">
+			<input as="in" clear="false">axis_sel</input>
+			<output as="out" clear="true">ind0</output>
+		</formula>
+		<formula formula="1-min(abs([1]-1),1)">
+			<input as="in" clear="false">axis_sel</input>
+			<output as="out" clear="true">ind1</output>
+		</formula>
+		<formula formula="1-min(abs([1]-2),1)">
+			<input as="in" clear="false">axis_sel</input>
+			<output as="out" clear="true">ind2</output>
+		</formula>
+		<multiply>
+			<input clear="false">win_x</input>
+			<input clear="false">ind0</input>
+			<output>sel_a</output>
+		</multiply>
+		<multiply>
+			<input clear="false">win_y</input>
+			<input clear="false">ind1</input>
+			<output>sel_b</output>
+		</multiply>
+		<multiply>
+			<input clear="false">win_z</input>
+			<input clear="false">ind2</input>
+			<output>sel_c</output>
+		</multiply>
+		<add>
+			<input clear="true">sel_a</input>
+			<input clear="true">sel_b</input>
+			<input clear="true">sel_c</input>
+			<output>fft_win</output>
+		</add>
+
+		<!-- Remove the mean, otherwise gravity produces one huge bin at 0 Hz
+		     and the interesting peaks disappear next to it. -->
+		<average>
+			<input as="buffer" clear="false">fft_win</input>
+			<output as="average" clear="true">win_mean</output>
+		</average>
+		<subtract>
+			<input clear="false">fft_win</input>
+			<input clear="false">win_mean</input>
+			<output>fft_in</output>
+		</subtract>
+
+		<!-- Sample rate from the timestamps of this very block. The sensor
+		     clock runs a few percent off the nominal 6667 Hz, and that error
+		     would go straight into every frequency. -->
+		<count>
+			<input clear="false">win_t</input>
+			<output>n_win</output>
+		</count>
+		<subrange>
+			<input as="in" clear="false">win_t</input>
+			<input as="from" type="value">0</input>
+			<input as="length" type="value">1</input>
+			<output as="out" clear="true">t_first</output>
+		</subrange>
+		<max>
+			<input as="y" clear="false">win_t</input>
+			<output as="max">t_last</output>
+		</max>
+		<subtract>
+			<input clear="false">t_last</input>
+			<input clear="false">t_first</input>
+			<output>win_seconds</output>
+		</subtract>
+		<formula formula="([1]-1)/[2]">
+			<input as="in" clear="false">n_win</input>
+			<input as="in" clear="false">win_seconds</input>
+			<output as="out" clear="true">fs_actual</output>
+		</formula>
+		<formula formula="[1]/[2]">
+			<input as="in" clear="false">fs_actual</input>
+			<input as="in" clear="false">n_fft</input>
+			<output as="out" clear="true">df</output>
+		</formula>
+
+		<!-- Transform, magnitude, and keep the positive half of the spectrum -->
+		<fft>
+			<input as="re" clear="false">fft_in</input>
+			<output as="re" clear="true">fft_re</output>
+			<output as="im" clear="true">fft_im</output>
+		</fft>
+		<formula formula="sqrt([1_]^2+[2_]^2)">
+			<input as="in" clear="true">fft_re</input>
+			<input as="in" clear="true">fft_im</input>
+			<output as="out" clear="true">mag_full</output>
+		</formula>
+		<formula formula="[1]/2">
+			<input as="in" clear="false">n_fft</input>
+			<output as="out" clear="true">n_half</output>
+		</formula>
+		<subrange>
+			<input as="in" clear="true">mag_full</input>
+			<input as="from" type="value">0</input>
+			<input as="length" clear="false">n_half</input>
+			<output as="out" clear="true">fft_mag</output>
+		</subrange>
+
+		<!-- Frequency axis: bin k sits at k * fs / n_fft -->
+		<formula formula="[1]*([2]-1)/[3]">
+			<input as="in" clear="false">fs_actual</input>
+			<input as="in" clear="false">n_half</input>
+			<input as="in" clear="false">n_fft</input>
+			<output as="out" clear="true">f_max</output>
+		</formula>
+		<ramp>
+			<input as="start" type="value">0</input>
+			<input as="stop" clear="false">f_max</input>
+			<input as="length" clear="false">n_half</input>
+			<output as="out" clear="true">fft_freq</output>
+		</ramp>
+
+		<!-- Peak search above f_min. The maximum itself gives the amplitude,
+		     the rangefilter then picks the bin that reaches it and hands over
+		     the matching frequency. -->
+		<rangefilter>
+			<input clear="false">fft_freq</input>
+			<input as="min" clear="false">f_min</input>
+			<input clear="false">fft_mag</input>
+			<output>search_freq</output>
+			<output>search_mag</output>
+		</rangefilter>
+		<max>
+			<input as="y" clear="false">search_mag</input>
+			<output as="max">peak_mag</output>
+		</max>
+		<rangefilter>
+			<input clear="true">search_mag</input>
+			<input as="min" clear="false">peak_mag</input>
+			<input clear="true">search_freq</input>
+			<output>peak_hit</output>
+			<output>peak_freq</output>
+		</rangefilter>
+
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Time (s)">acc_time</data>
+			<data name="Acc X (m/s²)">acc_x_SI</data>
+			<data name="Acc Y (m/s²)">acc_y_SI</data>
+			<data name="Acc Z (m/s²)">acc_z_SI</data>
+        </set>
+        <set name="Spectrum">
+            <data name="Frequency (Hz)">fft_freq</data>
+			<data name="Amplitude (a.u.)">fft_mag</data>
+			<data name="Dominant frequency (Hz)">peak_freq</data>
+			<data name="Measured sample rate (Hz)">fs_actual</data>
+			<data name="Frequency resolution (Hz)">df</data>
+        </set>
+    </export>
+</phyphox>

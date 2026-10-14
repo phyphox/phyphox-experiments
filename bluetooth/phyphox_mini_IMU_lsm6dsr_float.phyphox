@@ -1,0 +1,137 @@
+<phyphox version="1.20" locale="en">
+    <title>Acceleration,rotation rate</title>
+    <category>phyphox:mini raw sensor</category>
+	<color>ADEBB3</color>
+	<icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAIvklEQVR4nO2deYwURRSHexdXEUWunZ3t7lGWna5aYGF3utrEEBWvRI2iojFGUaPBM6LxiPGKKPEANfFIPBKjRjEQ7wNRo5iNQUwU+INIgoIoqCCKRgVFgUXQ93oGnF2nj+ntnurpfl9Sgez2dh2/11Wvql53KQpBEARBEARBEARBEARBEH1psYy8LtirmmAfaJZxiyrYONllImqEZrLzdMF36hb/pyz1qsK4TnbZiBqgW+ztfuLvS5rF3xhhtQ+TXUYiOho1i211MoCSEaxTRd6SXVAiGho1wZe7GYCdBNsB110tu7BEBGQtdgQ4f3s8jYCGhOSiC+N6EHeXTyOgISEJZDozB2dE3mi18sfhTAB6gfvBIdzixwhKQ8IM2XUgfJK12idqpjEdRHscpnw9IOCvvoT26g0EW6y0tQ2WXT+iH9qE/KHwVF8DAr0FYv8WhtguRrBCdn0JYNjEw0aoJrsCnvJlfp26kAxgT6aQY7Lrn1pGdXMdu3av+XykyTRmy26H1IHTMRjPH6qwjFvThD2A1j3alN0eqQLG9SnQ+JtkCl9mAGtlt0eaaIB5+H1hjPEwbPwB9/kc0nuQnsFpIKSbcE1AFfwySLfhNa73AQezubudy26UdGApTSDQC8EEZ1vgbxfCvzNVyzixZcKYrFtWYGTNIO5ar3tmu/ITalX91INPaVWig4B2b1HIHwl/3ug7o6KhfeTae1jsbzCAU6OrLdEHVRgX+ByPd4Mwr7SaxjHwZw1B8oJ7zPPMy2RXhlxFwgn09kGUzZ7iW2wRCD9+IHnhuO+jZ3k4rLoRPlAtdq2H8H+qpnFhCFk16B4zCzDEBUo1w4kXbW2DwejO1LuMXGj3TBrQpS91c8RUs/3wMPIBf+Eoj1nD8lwud2AYedn5CfZA2eZTLzq46HyGdf9EoFnakOK4XlkUfHrCygvudbRLt78BVxzDyksvsELl3sy4I6w8EgFu17o8kevDzq+y9x/+dA/uO9fJ0ODXg8LMq66xw7VraAA4nOB2MQaHlBabXob/jw07H/BbfnCql9caRbro7NzfLVIHpofnR5FtbnxupB7RCh885Re7DDU7FOoB+gKN8onLDGCrarLJssvoF1yfwFmLswHwHtlljB0Y2OE+N2d/YRyA7HJ60KAJ4yoo63bXmYZpXCK7oPED5sr+FoL4x3EM1sQeCoT/1Lv87Nswp5mJocU0JoHD97tXA5YWatBxewcM4WRF7ljaCE/z6V57CuXlhh7iNInljSfFXTn+i59GrOBQbYRGfVQ3+QnoTEZeWMM4AJzSk1SLPeGnx+rjzFrsrsjLV29gd+i+Cug/QQ+yDSN4wSjuAaOamiu0Ywxf8B7CUppau41OcOrOBgObDeX8MGhkEhpMeK2WHBpx3T0M8V087p248GLPMgR7DdKTqsUftLeQyxL8/BH492l8KwjSEjCmb/y+ROLR7e/GABTZDR1L8KmIVHzpiX2New+y2zmWgPN0s3yBokm4BmCv99PLJJWBJ39a0Hi/YpSOfJErl43/DEPHLPAZMrLbOLbgO3oDDfEGI/gOHbJYGIP9/iBbYC9XwwxBdvvGGtxt8/1ipmfD855MZ6YV19zBEOaDCD/VTnT+vR24Koxz9LH6KNntWhfgPrvtjYfZ5Qo2rzwP3FYufgvIuNf+EBR68i5xBj5SL5T5SxD8Xeje5+B0EN9HlNWGdctIwzgEGnNlFE8jCuOVP47JWrdh6iJ/PIqIoWWldwL2JVyfx8CT1oJxbIsY01Uax2nHLgzgCXo++FPOt3ldgytzsutIOGFv8ri/eVN8mcNBXFwl9Bg64P4vyq4m4QBulng4VD2ZQlvF2LlSF7/Ey3kszru1IbLrSlRA6xrT4eKIrUT/oCiwswHgfdymj3DNF0rAF0SIGoBd9P+f/P8icP0YAIILSA7DxDR5tSM8wamTvQEj+HpcLdNNdjt+6WPv7/0aAKKbvLtkUL34O3zLVyFvvY6wlKb+P6rGANzuQ9QpgQyASA5kACmHDCDlkAGkHDKAlEMGkHLIAFIOGUDKIQNIOWQAKYcMIOWQAaQcyQbQoAp2Fn540j58goI+a48sA8h2ZQ+C+6/uk5/9CjefFVWeRAVkGYAd1++Ur2DPwiX7RZU3UYYsA4An/SWnfIt5s0XNHR1Do8qfKCHRAGa5GYCdBP+s2ezQoioDocgzgOGFtuG+ziASbAOdGRAhMmcBkMdF/l4yZVvsz9AQ4SN7HaC1wE/xPDamOBzsDOmL5UQ5sg0AwU/PuX3atXyaiFHNtShTavAwgHX4jZ1aJHi65/j98ldpmkjh6GHgZgBxTmAEq2S3XSLIFvJnyBYzaIJe4wbZ7VfX4Pk/gT8SGYMEzuMa2W1Yt6D41X5tM3aJThQNRiLEh9Qq8jfKbsu6IynikxMYAL/iw9i6Wi0Yt9ZqCljtNFC3jLkKTQOrw7/4bGGt3/6lhaCIibP4tBQcMXEWX6fNoGiJs/i0HRwxcRYfoYCQCIm7+AiFhEVEPYiPUFCoD/A7fhg3r1n8KdVid2Motdv19SI+QmHhPoDGWNZPvE26aUyqdG09iV8GvRjihGbycx3Gxuf6X1un4hNuwNO/3EHEzUrZp1lJ/IQCgv3oJObe409J/OQyyOkjz3jEK15A4ieYZmu06iwoX0PiJxzcHXMRdimJn3B0waa4rJBtJ/ETjmoZl3qJTOInGN1iM0n8FBPkYGcSP0GAmK9XKf4KTRh3wgzhMc3ib9rHsAs+IzuRt8uuCxEAHY9rC+gD9HUY+S480VN2fYgq0QXfGIYBlNYN6Fy/eiPck7nZdoVCqOuHoZbWHJ749rrB+7LrRFSDfdzrgE7d7pNUwS+XXSWiSnTBvhr42M9W0cHOdcoowca5ntcr+DYMpwKRF0MXPx+cxofwEEc8xVM12WQ8MhZu0yi7HsRAsJQmrZCfivGAmmlM3yusV1wgQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEEZx/AVQV17pwP5IuAAAAAElFTkSuQmCC</icon>
+    <description>LSM6DSR Float</description>
+	<translations>
+    <translation locale="de">
+      <title>Beschleunigung, Drehrate</title>
+      <category>phyphox:mini Sensoren</category>
+      <string original="Gyroscope">Gyroskop</string>
+      <string original="Gyroscope X">Gyroskop X</string>
+      <string original="Gyroscope Y">Gyroskop Y</string>
+      <string original="Gyroscope Z">Gyroskop Z</string>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Accelerometer X">Beschleunigungssensor X</string>
+      <string original="Accelerometer Y">Beschleunigungssensor Y</string>
+      <string original="Accelerometer Z">Beschleunigungssensor Z</string>
+    </translation>
+	</translations>
+	<data-containers>
+		<container size="1">acc_x_SI_count</container>
+		
+		
+		<container size="0">acc_timestamps</container>
+		<container size="0">gyr_timestamps</container>
+	
+		<container size="0">acc_x</container>
+		<container size="0">acc_y</container>
+		<container size="0">acc_z</container>
+		
+		<container size="0">gyr_x</container>
+		<container size="0">gyr_y</container>
+		<container size="0">gyr_z</container>
+				
+		<container size="1" init="1">en</container>
+		<container size="1" init="10">rate</container>
+		<container size="1" init="1">range_acc</container>
+		<container size="1" init="1">range_gyr</container>
+		<container size="1" init="1">format</container>
+		<container size="1" init="40">config_n_times</container>
+		<container size="1" init="0">average</container>
+
+		<container size="15" init="0,0.78,1.56,3.125,6.25,12.5,25,50,100,200,400,800,1600,3200,6400">rate_table</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification"  mtu="247" subscribeOnStart="true">
+			<!--en, rate, range acc, range gyr, format, eventsize, average -->
+			<config char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">03050101000F00</config>
+
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="0" repeating="16" conversion="float32LittleEndian">acc_timestamps</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="16" conversion="float32LittleEndian">acc_x</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="8" repeating="16" conversion="float32LittleEndian">acc_y</output>
+			<output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="12" repeating="16" conversion="float32LittleEndian">acc_z</output>		
+			<output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="0" repeating="16" conversion="float32LittleEndian">gyr_timestamps</output>
+			<output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="4" repeating="16" conversion="float32LittleEndian">gyr_x</output>
+			<output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="8" repeating="16" conversion="float32LittleEndian">gyr_y</output>
+			<output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="12" repeating="16" conversion="float32LittleEndian">gyr_z</output>					
+        </bluetooth>
+    </input>
+    <output>
+
+    </output>	
+	<views>
+		<view label="Gyroscope">  
+			<graph label="Gyroscope X" timeOnX="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">gyr_timestamps</input>
+				<input axis="y">gyr_x</input>
+			</graph>
+			<value label="Gyroscope X" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
+					<input>gyr_x</input>
+			</value>	
+
+			<graph label="Gyroscope Y" timeOnX="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">gyr_timestamps</input>
+				<input axis="y">gyr_y</input>
+			</graph>
+			<value label="Gyroscope Y" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
+					<input>gyr_y</input>
+			</value>	
+
+			<graph label="Gyroscope Z" timeOnX="true" labelX="time" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">gyr_timestamps</input>
+				<input axis="y">gyr_z</input>
+			</graph>
+			<value label="Gyroscope Z" size="1" precision="2" scientific="false"  factor="1" unit="°/s">
+					<input>gyr_z</input>
+			</value>
+
+		</view>
+		<view label="Accelerometer">  
+			<graph label="Accelerometer X" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">acc_timestamps</input>
+				<input axis="y">acc_x</input>
+			</graph>
+			<value label="Accelerometer X" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+					<input>acc_x</input>
+			</value>	
+
+			<graph label="Accelerometer Y" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">acc_timestamps</input>
+				<input axis="y">acc_y</input>
+			</graph>
+			<value label="Accelerometer Y" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+					<input>acc_y</input>
+			</value>	
+
+			<graph label="Accelerometer Z" timeOnX="true" labelX="time" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+				<input axis="x">acc_timestamps</input>
+				<input axis="y">acc_z</input>
+			</graph>
+			<value label="Accelerometer Z" size="1" precision="2" scientific="false"  factor="1" unit="m/s²">
+					<input>acc_z</input>
+			</value>			
+		</view>
+    </views>
+    <analysis>
+
+		<count>
+			<input clear="false">acc_x</input>    		
+			<output>acc_x_SI_count</output>
+		</count>		
+    </analysis>
+    <export>
+        <set name="Raw Data">
+            <data name="Acc Time (s)">acc_timestamps</data>
+			<data name="Acc X (m/s²)">acc_x</data>
+			<data name="Acc Y (m/s²)">acc_y</data>
+			<data name="Acc Z (m/s²)">acc_z</data>				
+			<data name="Gyr Time (s)">gyr_timestamps</data>
+			<data name="Gyr X (°/s)">gyr_x</data>
+			<data name="Gyr Y (°/s)">gyr_y</data>
+			<data name="Gyr Z (°/s)">gyr_z</data>				
+        </set>
+    </export>
+</phyphox>

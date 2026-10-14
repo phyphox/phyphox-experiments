@@ -1,0 +1,125 @@
+<phyphox version="1.18" locale="en">
+    <title>CO₂, Temperature, Humidity, Pressure</title>
+    <category>phyphox:mini raw sensor</category>
+    <color>ADEBB3</color>
+    <icon format="base64">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</icon>
+    <description>STCC4, HDC1080, BMP581</description>
+    <translations>
+        <translation locale="de">
+            <title>CO₂, Temperatur, Feuchtigkeit, Luftdruck</title>
+            <category>phyphox:mini Sensoren</category>
+            <string original="Rawdata">Rohdaten</string>
+            <string original="CO₂">CO₂</string>
+            <string original="Temperature">Temperatur</string>
+            <string original="Relative humidity">Relative Luftfeuchtigkeit</string>
+            <string original="RH">RH</string>
+            <string original="Pressure">Luftdruck</string>
+            <string original="P">P</string>
+        </translation>
+    </translations>
+
+    <data-containers>
+        <container size="0">hdc_time_raw</container>
+		<container size="0">hdc_time</container>
+		<container size="1">timeOffset</container>
+		<container size="0">temperature</container>
+		<container size="0">humidity</container>
+		
+		<container size="0">co2_time_raw</container>
+		<container size="0">co2_time</container>
+		<container size="0">co2</container>
+
+		<container size="0">bmp_time_raw</container>
+		<container size="0">bmp_time</container>
+		<container size="0">pressure</container>
+
+    </data-containers>
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification" subscribeOnStart="true">
+			<config char="cddf1006-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+			<config char="cddf100c-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010A</config>
+            <output char="cddf100b-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">co2</output>
+			<output char="cddf100b-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">co2_time_raw</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">temperature</output>
+			<output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="4" conversion="float32LittleEndian">humidity</output>
+            <output char="cddf1005-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian">hdc_time_raw</output>
+			
+			<config char="cddf1008-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">010600</config>
+			<output char="cddf1007-30f7-4671-8b43-5e40ba53514a" offset="0" conversion="float32LittleEndian">pressure</output>
+			<output char="cddf1007-30f7-4671-8b43-5e40ba53514a" offset="8" conversion="float32LittleEndian">bmp_time_raw</output>
+        </bluetooth>
+    </input>       
+    <output>
+    </output>
+    <views>
+        <view label="Rawdata">
+            <graph label="CO₂" timeOnX="true" labelX="time" unitX="s" labelY="CO₂" unitY="ppm" partialUpdate="true">
+                <input axis="x">co2_time</input>
+                <input axis="y">co2</input>                
+            </graph>
+            <value label="CO₂" unit="ppm" size="1" precision="1" scientific="false" factor="1" >
+                <input>co2</input>
+            </value> 
+			
+            <graph label="Temperature" timeOnX="true" labelX="time" unitX="s" labelY="T" unitY="°C" partialUpdate="true">
+                <input axis="x">hdc_time</input>
+                <input axis="y">temperature</input>                
+            </graph>
+            <value label="Temperature" unit="°C" size="1" precision="1" scientific="false" factor="1" >
+                <input>temperature</input>
+            </value> 
+
+            <graph label="Relative humidity" timeOnX="true" labelX="time" unitX="s" labelY="RH" unitY="%" partialUpdate="true">
+                <input axis="x">hdc_time</input>
+                <input axis="y">humidity</input>                
+            </graph>
+            <value label="RH" unit="%" size="1" precision="1" scientific="false" factor="1" >
+                <input>humidity</input>
+            </value>
+            <graph label="Pressure" timeOnX="true" labelX="time" unitX="s" labelY="P" unitY="hPa" partialUpdate="true">
+                <input axis="x">bmp_time</input>
+                <input axis="y">pressure</input>                
+            </graph>
+            <value label="P" unit="hPa" size="1" precision="1" scientific="false" factor="1" >
+                <input>pressure</input>
+            </value> 			
+        </view>
+       
+    </views>
+    <analysis sleep="0" onUserInput="false">
+		<first>
+            <input as="value" clear="false">bmp_time_raw</input>
+            <output as="first">timeOffset</output>
+        </first>
+		
+		
+		<subtract>
+            <input as="minuend" clear="false">hdc_time_raw</input>
+            <input as="subtrahend" clear="false">timeOffset</input>
+            <output as="difference">hdc_time</output>			
+        </subtract>
+		<subtract>
+            <input as="minuend" clear="false">co2_time_raw</input>
+            <input as="subtrahend" clear="false">timeOffset</input>
+            <output as="difference">co2_time</output>			
+        </subtract>
+		<subtract>
+            <input as="minuend" clear="false">bmp_time_raw</input>
+            <input as="subtrahend" clear="false">timeOffset</input>
+            <output as="difference">bmp_time</output>			
+        </subtract>
+		
+
+    </analysis>
+    <export>
+        <set name="Raw data">
+            <data name="Timestamps T,RH (s)">hdc_time</data>
+            <data name="Temperature (°C)">temperature</data>
+			<data name="rel Humidity (%)">humidity</data>
+			<data name="Timestamps CO₂ (s)">co2_time</data>
+			<data name="CO₂ (ppm)">co2</data>
+			<data name="Timestamps P (s)">bmp_time</data>
+			<data name="P (hPa)">pressure</data>
+        </set>
+    </export>
+</phyphox>

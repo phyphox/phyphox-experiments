@@ -1,0 +1,583 @@
+<phyphox version="1.20" locale="en">
+    <title>Earth rotation (LSM6DSR)</title>
+    <category>phyphox:mini experiments</category>
+    <color>ADEBB3</color>
+    <icon format="base64">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</icon>
+    <description>Measures the rotation rate of the Earth with the LSM6DSR gyroscope of a phyphox:mini. The gyroscope runs at its most sensitive range (125 °/s). Because the Earth signal is about the size of a single sensor bit, the bias is removed by an ABBA reversal: measure flat, turn the phyphox:mini upside down, measure, turn it back and measure again. The Earth signal changes sign with the flip, the sensor bias does not.</description>
+    <translations>
+        <translation locale="de">
+            <title>Erdrotation (LSM6DSR)</title>
+            <category>phyphox:mini Experimente</category>
+            <description>Misst die Drehrate der Erde mit dem LSM6DSR-Gyroskop eines phyphox:mini. Das Gyroskop läuft im empfindlichsten Messbereich (125 °/s). Da das Erdsignal etwa so groß ist wie ein einzelnes Sensorbit, wird der Nullpunktfehler über eine ABBA-Umkehr entfernt: flach messen, phyphox:mini umdrehen, messen, zurückdrehen und nochmal messen. Das Erdsignal wechselt beim Umdrehen das Vorzeichen, der Sensor-Offset nicht.</description>
+            <string original="Measurement">Messung</string>
+            <string original="Put the phyphox:mini on a table that does not vibrate, start the measurement and do not touch it during a measuring phase. Phase 1 = settle, 2 = flat (A1), 3 = TURN OVER, 4 = upside down (B), 5 = TURN BACK, 6 = flat (A2), 7 = done. Only turn the phyphox:mini while the phase number is 3 or 5.">Den phyphox:mini auf einen erschütterungsfreien Tisch legen, die Messung starten und ihn während einer Messphase nicht berühren. Phase 1 = beruhigen, 2 = flach (A1), 3 = UMDREHEN, 4 = kopfüber (B), 5 = ZURÜCKDREHEN, 6 = flach (A2), 7 = fertig. Nur dann umdrehen, wenn die Phasennummer 3 oder 5 ist.</string>
+            <string original="Elapsed time">Verstrichene Zeit</string>
+            <string original="Phase">Phase</string>
+            <string original="Next step in">Nächster Schritt in</string>
+            <string original="The two steps in the live curve are the flips. Between them the curve has to be flat and quiet - every bump ruins the average.">Die beiden Stufen in der Live-Kurve sind die Umdrehungen. Dazwischen muss die Kurve flach und ruhig sein – jeder Stoß verdirbt den Mittelwert.</string>
+            <string original="Gyroscope, all axes">Gyroskop, alle Achsen</string>
+            <string original="Earth rotation rate">Erdrotationsrate</string>
+            <string original="Expected">Erwartet</string>
+            <string original="Deviation">Abweichung</string>
+            <string original="Result">Ergebnis</string>
+            <string original="The headline value uses the accelerometer to find out which way is up, so the phyphox:mini does not have to lie perfectly flat and you do not have to know how the board is mounted inside.">Der Hauptwert ermittelt die Lotrechte aus dem Beschleunigungssensor. Der phyphox:mini muss deshalb nicht exakt waagerecht liegen, und du musst nicht wissen, wie die Platine im Gehäuse verbaut ist.</string>
+            <string original="Length of day">Tageslänge</string>
+            <string original="Reversal difference per axis. The axis that pointed up shows the full signal, the other two should be near zero. Expected for the vertical axis: 2 * 0.00418 °/s * sin(latitude).">Umkehrdifferenz je Achse. Die Achse, die nach oben zeigte, liefert das volle Signal, die beiden anderen sollten nahe null liegen. Erwartet für die lotrechte Achse: 2 · 0,00418 °/s · sin(Breitengrad).</string>
+            <string original="Reversal difference X">Umkehrdifferenz X</string>
+            <string original="Reversal difference Y">Umkehrdifferenz Y</string>
+            <string original="Reversal difference Z">Umkehrdifferenz Z</string>
+            <string original="Projected onto vertical">Auf die Lotrechte projiziert</string>
+            <string original="Orientation during phase A1, measured by the accelerometer. The axis near 9.81 was pointing up or down.">Ausrichtung während Phase A1, gemessen mit dem Beschleunigungssensor. Die Achse nahe 9,81 zeigte nach oben oder unten.</string>
+            <string original="Acceleration X">Beschleunigung X</string>
+            <string original="Acceleration Y">Beschleunigung Y</string>
+            <string original="Acceleration Z">Beschleunigung Z</string>
+            <string original="Samples per window. If one of these is zero or much smaller than expected (rate times window length), the connection dropped packets and the result is not trustworthy.">Samples pro Fenster. Ist einer davon null oder deutlich kleiner als erwartet (Rate mal Fensterlänge), hat die Verbindung Pakete verloren und das Ergebnis ist nicht belastbar.</string>
+            <string original="Samples A1">Samples A1</string>
+            <string original="Samples B">Samples B</string>
+            <string original="Samples A2">Samples A2</string>
+            <string original="Raw data">Rohdaten</string>
+            <string original="Gyroscope X">Gyroskop X</string>
+            <string original="Gyroscope Y">Gyroskop Y</string>
+            <string original="Gyroscope Z">Gyroskop Z</string>
+            <string original="Settings">Einstellungen</string>
+            <string original="Set your latitude before starting. The vertical component of the Earth rotation is proportional to sin(latitude), so without it the result cannot be scaled correctly. Southern hemisphere: use a negative value.">Den Breitengrad vor dem Start eintragen. Die lotrechte Komponente der Erdrotation ist proportional zu sin(Breitengrad), ohne ihn lässt sich das Ergebnis nicht richtig skalieren. Südhalbkugel: negativen Wert eintragen.</string>
+            <string original="Latitude">Breitengrad</string>
+            <string original="Window length per measuring phase. Longer windows average away more noise but collect more thermal drift. The phase B window is twice this value, so the total run is 3 * pause + 4 * window.">Fensterlänge je Messphase. Längere Fenster mitteln mehr Rauschen weg, sammeln aber mehr thermische Drift an. Das B-Fenster ist doppelt so lang, der ganze Durchlauf dauert also 3 · Pause + 4 · Fensterlänge.</string>
+            <string original="Window length">Fensterlänge</string>
+            <string original="Pause for turning">Pause zum Umdrehen</string>
+            <string original="Resulting schedule (seconds after start): A1 from b1 to b2, turn over, B from b3 to b4, turn back, A2 from b5 to b6.">Daraus ergibt sich folgender Ablauf (Sekunden nach dem Start): A1 von b1 bis b2, umdrehen, B von b3 bis b4, zurückdrehen, A2 von b5 bis b6.</string>
+            <string original="A1 start">A1 Start</string>
+            <string original="A1 end / turn over">A1 Ende / umdrehen</string>
+            <string original="B start">B Start</string>
+            <string original="B end / turn back">B Ende / zurückdrehen</string>
+            <string original="A2 start">A2 Start</string>
+            <string original="A2 end / done">A2 Ende / fertig</string>
+            <string original="Gyr time (s)">Gyr Zeit (s)</string>
+            <string original="Acc time (s)">Acc Zeit (s)</string>
+            <string original="Latitude (°)">Breitengrad (°)</string>
+            <string original="Window length (s)">Fensterlänge (s)</string>
+            <string original="Mean A1 X">Mittel A1 X</string>
+            <string original="Mean A1 Y">Mittel A1 Y</string>
+            <string original="Mean A1 Z">Mittel A1 Z</string>
+            <string original="Mean B X">Mittel B X</string>
+            <string original="Mean B Y">Mittel B Y</string>
+            <string original="Mean B Z">Mittel B Z</string>
+            <string original="Mean A2 X">Mittel A2 X</string>
+            <string original="Mean A2 Y">Mittel A2 Y</string>
+            <string original="Mean A2 Z">Mittel A2 Z</string>
+            <string original="Reversal difference X (°/s)">Umkehrdifferenz X (°/s)</string>
+            <string original="Reversal difference Y (°/s)">Umkehrdifferenz Y (°/s)</string>
+            <string original="Reversal difference Z (°/s)">Umkehrdifferenz Z (°/s)</string>
+            <string original="Projected (°/s)">Projiziert (°/s)</string>
+            <string original="Earth rotation (°/s)">Erdrotation (°/s)</string>
+            <string original="Earth rotation (°/h)">Erdrotation (°/h)</string>
+            <string original="Length of day (h)">Tageslänge (h)</string>
+            <string original="Deviation (%)">Abweichung (%)</string>
+        </translation>
+    </translations>
+
+    <data-containers>
+        <!-- user settings -->
+        <container size="1" init="51">latitude</container>
+        <container size="1" init="45">seg</container>
+        <container size="1" init="10">gap</container>
+        <container size="1" init="0.00417807">omega_ref</container>
+
+        <!-- phase boundaries, derived from seg and gap -->
+        <container size="1">b1</container>
+        <container size="1">b2</container>
+        <container size="1">b3</container>
+        <container size="1">b4</container>
+        <container size="1">b5</container>
+        <container size="1">b6</container>
+
+        <!-- clock -->
+        <container size="1">t_now</container>
+        <container size="1">phase</container>
+        <container size="1">t_next</container>
+
+        <!-- raw BLE streams -->
+        <container size="0">gyr_t</container>
+        <container size="0">gyr_x</container>
+        <container size="0">gyr_y</container>
+        <container size="0">gyr_z</container>
+        <container size="0">acc_t</container>
+        <container size="0">acc_x</container>
+        <container size="0">acc_y</container>
+        <container size="0">acc_z</container>
+
+        <!-- windowed data -->
+        <container size="0">a1_t</container>
+        <container size="0">a1_x</container>
+        <container size="0">a1_y</container>
+        <container size="0">a1_z</container>
+        <container size="0">bb_t</container>
+        <container size="0">bb_x</container>
+        <container size="0">bb_y</container>
+        <container size="0">bb_z</container>
+        <container size="0">a2_t</container>
+        <container size="0">a2_x</container>
+        <container size="0">a2_y</container>
+        <container size="0">a2_z</container>
+        <container size="0">ac_t</container>
+        <container size="0">ac_x</container>
+        <container size="0">ac_y</container>
+        <container size="0">ac_z</container>
+
+        <!-- window averages -->
+        <container size="1">m_a1x</container>
+        <container size="1">m_a1y</container>
+        <container size="1">m_a1z</container>
+        <container size="1">m_bx</container>
+        <container size="1">m_by</container>
+        <container size="1">m_bz</container>
+        <container size="1">m_a2x</container>
+        <container size="1">m_a2y</container>
+        <container size="1">m_a2z</container>
+        <container size="1">m_ax</container>
+        <container size="1">m_ay</container>
+        <container size="1">m_az</container>
+
+        <!-- sample counts, for checking that the windows were actually filled -->
+        <container size="1">n_a1</container>
+        <container size="1">n_bb</container>
+        <container size="1">n_a2</container>
+
+        <!-- results -->
+        <container size="1">dw_x</container>
+        <container size="1">dw_y</container>
+        <container size="1">dw_z</container>
+        <container size="1">a_abs</container>
+        <container size="1">dw_proj</container>
+        <container size="1">omega_dps</container>
+        <container size="1">omega_dph</container>
+        <container size="1">day_h</container>
+        <container size="1">dev_pct</container>
+    </data-containers>
+
+    <input>
+        <bluetooth id="phyphox:mini" name="phyphox:mini" mode="notification" mtu="247" subscribeOnStart="true">
+            <!-- enable(acc+gyr), rate 104 Hz, acc 16 g, gyr 125 °/s, float, 15 samples per packet -->
+            <config char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="hexadecimal">03040102000F00</config>
+
+            <output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="0"  repeating="16" conversion="float32LittleEndian">gyr_t</output>
+            <output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="4"  repeating="16" conversion="float32LittleEndian">gyr_x</output>
+            <output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="8"  repeating="16" conversion="float32LittleEndian">gyr_y</output>
+            <output char="cddf1000-30f7-4671-8b43-5e40ba53514a" offset="12" repeating="16" conversion="float32LittleEndian">gyr_z</output>
+
+            <output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="0"  repeating="16" conversion="float32LittleEndian">acc_t</output>
+            <output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="4"  repeating="16" conversion="float32LittleEndian">acc_x</output>
+            <output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="8"  repeating="16" conversion="float32LittleEndian">acc_y</output>
+            <output char="cddf1001-30f7-4671-8b43-5e40ba53514a" offset="12" repeating="16" conversion="float32LittleEndian">acc_z</output>
+        </bluetooth>
+    </input>
+
+    <views>
+        <view label="Measurement">
+            <info label="Put the phyphox:mini on a table that does not vibrate, start the measurement and do not touch it during a measuring phase. Phase 1 = settle, 2 = flat (A1), 3 = TURN OVER, 4 = upside down (B), 5 = TURN BACK, 6 = flat (A2), 7 = done. Only turn the phyphox:mini while the phase number is 3 or 5."/>
+            <value label="Elapsed time" size="1" precision="1" scientific="false" factor="1" unit="s">
+                <input>t_now</input>
+            </value>
+            <value label="Phase" size="1" precision="0" scientific="false" factor="1">
+                <input>phase</input>
+            </value>
+            <value label="Next step in" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>t_next</input>
+            </value>
+            <separator height="0.5"/>
+            <info label="The two steps in the live curve are the flips. Between them the curve has to be flat and quiet - every bump ruins the average."/>
+            <graph label="Gyroscope, all axes" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_x</input>
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_y</input>
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_z</input>
+            </graph>
+            <separator height="0.5"/>
+            <value label="Earth rotation rate" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>omega_dps</input>
+            </value>
+            <value label="Expected" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>omega_ref</input>
+            </value>
+            <value label="Deviation" size="1" precision="1" scientific="false" factor="1" unit="%">
+                <input>dev_pct</input>
+            </value>
+        </view>
+
+        <view label="Result">
+            <info label="The headline value uses the accelerometer to find out which way is up, so the phyphox:mini does not have to lie perfectly flat and you do not have to know how the board is mounted inside."/>
+            <value label="Earth rotation rate" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>omega_dps</input>
+            </value>
+            <value label="Earth rotation rate" size="1" precision="3" scientific="false" factor="1" unit="°/h">
+                <input>omega_dph</input>
+            </value>
+            <value label="Length of day" size="1" precision="3" scientific="false" factor="1" unit="h">
+                <input>day_h</input>
+            </value>
+            <value label="Deviation" size="1" precision="1" scientific="false" factor="1" unit="%">
+                <input>dev_pct</input>
+            </value>
+            <separator height="0.5"/>
+            <info label="Reversal difference per axis. The axis that pointed up shows the full signal, the other two should be near zero. Expected for the vertical axis: 2 * 0.00418 °/s * sin(latitude)."/>
+            <value label="Reversal difference X" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>dw_x</input>
+            </value>
+            <value label="Reversal difference Y" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>dw_y</input>
+            </value>
+            <value label="Reversal difference Z" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>dw_z</input>
+            </value>
+            <value label="Projected onto vertical" size="1" precision="5" scientific="false" factor="1" unit="°/s">
+                <input>dw_proj</input>
+            </value>
+            <separator height="0.5"/>
+            <info label="Orientation during phase A1, measured by the accelerometer. The axis near 9.81 was pointing up or down."/>
+            <value label="Acceleration X" size="1" precision="2" scientific="false" factor="1" unit="m/s²">
+                <input>m_ax</input>
+            </value>
+            <value label="Acceleration Y" size="1" precision="2" scientific="false" factor="1" unit="m/s²">
+                <input>m_ay</input>
+            </value>
+            <value label="Acceleration Z" size="1" precision="2" scientific="false" factor="1" unit="m/s²">
+                <input>m_az</input>
+            </value>
+            <separator height="0.5"/>
+            <info label="Samples per window. If one of these is zero or much smaller than expected (rate times window length), the connection dropped packets and the result is not trustworthy."/>
+            <value label="Samples A1" size="1" precision="0" scientific="false" factor="1">
+                <input>n_a1</input>
+            </value>
+            <value label="Samples B" size="1" precision="0" scientific="false" factor="1">
+                <input>n_bb</input>
+            </value>
+            <value label="Samples A2" size="1" precision="0" scientific="false" factor="1">
+                <input>n_a2</input>
+            </value>
+        </view>
+
+        <view label="Raw data">
+            <graph label="Gyroscope X" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_x</input>
+            </graph>
+            <graph label="Gyroscope Y" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_y</input>
+            </graph>
+            <graph label="Gyroscope Z" timeOnX="true" labelX="t" unitX="s" labelY="ω" unitY="°/s" partialUpdate="true" hideTimeMarkers="true">
+                <input axis="x">gyr_t</input>
+                <input axis="y">gyr_z</input>
+            </graph>
+            <graph label="Acceleration Z" timeOnX="true" labelX="t" unitX="s" labelY="a" unitY="m/s²" partialUpdate="true" hideTimeMarkers="true">
+                <input axis="x">acc_t</input>
+                <input axis="y">acc_z</input>
+            </graph>
+        </view>
+
+        <view label="Settings">
+            <info label="Set your latitude before starting. The vertical component of the Earth rotation is proportional to sin(latitude), so without it the result cannot be scaled correctly. Southern hemisphere: use a negative value."/>
+            <edit label="Latitude" signed="true" decimal="true" min="-90" max="90" unit="°" factor="1" default="51">
+                <output>latitude</output>
+            </edit>
+            <separator height="0.5"/>
+            <info label="Window length per measuring phase. Longer windows average away more noise but collect more thermal drift. The phase B window is twice this value, so the total run is 3 * pause + 4 * window."/>
+            <edit label="Window length" signed="false" decimal="false" min="10" max="600" unit="s" factor="1" default="45">
+                <output>seg</output>
+            </edit>
+            <edit label="Pause for turning" signed="false" decimal="false" min="3" max="60" unit="s" factor="1" default="10">
+                <output>gap</output>
+            </edit>
+            <separator height="0.5"/>
+            <info label="Resulting schedule (seconds after start): A1 from b1 to b2, turn over, B from b3 to b4, turn back, A2 from b5 to b6."/>
+            <value label="A1 start" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b1</input>
+            </value>
+            <value label="A1 end / turn over" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b2</input>
+            </value>
+            <value label="B start" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b3</input>
+            </value>
+            <value label="B end / turn back" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b4</input>
+            </value>
+            <value label="A2 start" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b5</input>
+            </value>
+            <value label="A2 end / done" size="1" precision="0" scientific="false" factor="1" unit="s">
+                <input>b6</input>
+            </value>
+        </view>
+    </views>
+
+    <analysis sleep="1">
+        <!-- phase boundaries from the two settings -->
+        <formula formula="[1]">
+            <input keep="true">gap</input>
+            <output>b1</output>
+        </formula>
+        <formula formula="[1]+[2]">
+            <input keep="true">gap</input>
+            <input keep="true">seg</input>
+            <output>b2</output>
+        </formula>
+        <formula formula="2*[1]+[2]">
+            <input keep="true">gap</input>
+            <input keep="true">seg</input>
+            <output>b3</output>
+        </formula>
+        <formula formula="2*[1]+3*[2]">
+            <input keep="true">gap</input>
+            <input keep="true">seg</input>
+            <output>b4</output>
+        </formula>
+        <formula formula="3*[1]+3*[2]">
+            <input keep="true">gap</input>
+            <input keep="true">seg</input>
+            <output>b5</output>
+        </formula>
+        <formula formula="3*[1]+4*[2]">
+            <input keep="true">gap</input>
+            <input keep="true">seg</input>
+            <output>b6</output>
+        </formula>
+
+        <!-- experiment clock, phase number and countdown to the next boundary -->
+        <timer>
+            <output as="out">t_now</output>
+        </timer>
+        <formula formula="1+heaviside([1]-[2])+heaviside([1]-[3])+heaviside([1]-[4])+heaviside([1]-[5])+heaviside([1]-[6])+heaviside([1]-[7])">
+            <input keep="true">t_now</input>
+            <input keep="true">b1</input>
+            <input keep="true">b2</input>
+            <input keep="true">b3</input>
+            <input keep="true">b4</input>
+            <input keep="true">b5</input>
+            <input keep="true">b6</input>
+            <output>phase</output>
+        </formula>
+        <formula formula="max([2]+([3]-[2])*heaviside([1]-[2])+([4]-[3])*heaviside([1]-[3])+([5]-[4])*heaviside([1]-[4])+([6]-[5])*heaviside([1]-[5])+([7]-[6])*heaviside([1]-[6])-[1],0)">
+            <input keep="true">t_now</input>
+            <input keep="true">b1</input>
+            <input keep="true">b2</input>
+            <input keep="true">b3</input>
+            <input keep="true">b4</input>
+            <input keep="true">b5</input>
+            <input keep="true">b6</input>
+            <output>t_next</output>
+        </formula>
+
+        <!-- cut the three measuring windows out of the gyroscope stream -->
+        <rangefilter>
+            <input keep="true">gyr_t</input>
+            <input as="min" keep="true">b1</input>
+            <input as="max" keep="true">b2</input>
+            <input keep="true">gyr_x</input>
+            <input keep="true">gyr_y</input>
+            <input keep="true">gyr_z</input>
+            <output>a1_t</output>
+            <output>a1_x</output>
+            <output>a1_y</output>
+            <output>a1_z</output>
+        </rangefilter>
+        <rangefilter>
+            <input keep="true">gyr_t</input>
+            <input as="min" keep="true">b3</input>
+            <input as="max" keep="true">b4</input>
+            <input keep="true">gyr_x</input>
+            <input keep="true">gyr_y</input>
+            <input keep="true">gyr_z</input>
+            <output>bb_t</output>
+            <output>bb_x</output>
+            <output>bb_y</output>
+            <output>bb_z</output>
+        </rangefilter>
+        <rangefilter>
+            <input keep="true">gyr_t</input>
+            <input as="min" keep="true">b5</input>
+            <input as="max" keep="true">b6</input>
+            <input keep="true">gyr_x</input>
+            <input keep="true">gyr_y</input>
+            <input keep="true">gyr_z</input>
+            <output>a2_t</output>
+            <output>a2_x</output>
+            <output>a2_y</output>
+            <output>a2_z</output>
+        </rangefilter>
+        <!-- accelerometer during A1, used as the "which way is up" reference -->
+        <rangefilter>
+            <input keep="true">acc_t</input>
+            <input as="min" keep="true">b1</input>
+            <input as="max" keep="true">b2</input>
+            <input keep="true">acc_x</input>
+            <input keep="true">acc_y</input>
+            <input keep="true">acc_z</input>
+            <output>ac_t</output>
+            <output>ac_x</output>
+            <output>ac_y</output>
+            <output>ac_z</output>
+        </rangefilter>
+
+        <!-- how many samples actually arrived per window -->
+        <count>
+            <input keep="true">a1_t</input>
+            <output>n_a1</output>
+        </count>
+        <count>
+            <input keep="true">bb_t</input>
+            <output>n_bb</output>
+        </count>
+        <count>
+            <input keep="true">a2_t</input>
+            <output>n_a2</output>
+        </count>
+
+        <!-- window averages -->
+        <average>
+            <input as="buffer" keep="true">a1_x</input>
+            <output as="average">m_a1x</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">a1_y</input>
+            <output as="average">m_a1y</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">a1_z</input>
+            <output as="average">m_a1z</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">bb_x</input>
+            <output as="average">m_bx</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">bb_y</input>
+            <output as="average">m_by</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">bb_z</input>
+            <output as="average">m_bz</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">a2_x</input>
+            <output as="average">m_a2x</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">a2_y</input>
+            <output as="average">m_a2y</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">a2_z</input>
+            <output as="average">m_a2z</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">ac_x</input>
+            <output as="average">m_ax</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">ac_y</input>
+            <output as="average">m_ay</output>
+        </average>
+        <average>
+            <input as="buffer" keep="true">ac_z</input>
+            <output as="average">m_az</output>
+        </average>
+
+        <!-- ABBA reversal difference per axis: (A1 + A2)/2 - B -->
+        <formula formula="([1]+[2])/2-[3]">
+            <input keep="true">m_a1x</input>
+            <input keep="true">m_a2x</input>
+            <input keep="true">m_bx</input>
+            <output>dw_x</output>
+        </formula>
+        <formula formula="([1]+[2])/2-[3]">
+            <input keep="true">m_a1y</input>
+            <input keep="true">m_a2y</input>
+            <input keep="true">m_by</input>
+            <output>dw_y</output>
+        </formula>
+        <formula formula="([1]+[2])/2-[3]">
+            <input keep="true">m_a1z</input>
+            <input keep="true">m_a2z</input>
+            <input keep="true">m_bz</input>
+            <output>dw_z</output>
+        </formula>
+
+        <!-- project the reversal difference onto the vertical found by the accelerometer -->
+        <formula formula="sqrt([1]^2+[2]^2+[3]^2)">
+            <input keep="true">m_ax</input>
+            <input keep="true">m_ay</input>
+            <input keep="true">m_az</input>
+            <output>a_abs</output>
+        </formula>
+        <formula formula="([1]*[4]+[2]*[5]+[3]*[6])/[7]">
+            <input keep="true">dw_x</input>
+            <input keep="true">dw_y</input>
+            <input keep="true">dw_z</input>
+            <input keep="true">m_ax</input>
+            <input keep="true">m_ay</input>
+            <input keep="true">m_az</input>
+            <input keep="true">a_abs</input>
+            <output>dw_proj</output>
+        </formula>
+
+        <!-- the reversal difference is twice the vertical component: 2 * Omega * sin(latitude) -->
+        <formula formula="abs([1])/(2*abs(sin([2]*3.141592653589793/180)))">
+            <input keep="true">dw_proj</input>
+            <input keep="true">latitude</input>
+            <output>omega_dps</output>
+        </formula>
+        <formula formula="[1]*3600">
+            <input keep="true">omega_dps</input>
+            <output>omega_dph</output>
+        </formula>
+        <formula formula="360/[1]/3600">
+            <input keep="true">omega_dps</input>
+            <output>day_h</output>
+        </formula>
+        <formula formula="([1]-[2])/[2]*100">
+            <input keep="true">omega_dps</input>
+            <input keep="true">omega_ref</input>
+            <output>dev_pct</output>
+        </formula>
+    </analysis>
+
+    <export>
+        <set name="Raw data">
+            <data name="Gyr time (s)">gyr_t</data>
+            <data name="Gyr X (°/s)">gyr_x</data>
+            <data name="Gyr Y (°/s)">gyr_y</data>
+            <data name="Gyr Z (°/s)">gyr_z</data>
+            <data name="Acc time (s)">acc_t</data>
+            <data name="Acc X (m/s²)">acc_x</data>
+            <data name="Acc Y (m/s²)">acc_y</data>
+            <data name="Acc Z (m/s²)">acc_z</data>
+        </set>
+        <set name="Result">
+            <data name="Latitude (°)">latitude</data>
+            <data name="Window length (s)">seg</data>
+            <data name="Mean A1 X">m_a1x</data>
+            <data name="Mean A1 Y">m_a1y</data>
+            <data name="Mean A1 Z">m_a1z</data>
+            <data name="Mean B X">m_bx</data>
+            <data name="Mean B Y">m_by</data>
+            <data name="Mean B Z">m_bz</data>
+            <data name="Mean A2 X">m_a2x</data>
+            <data name="Mean A2 Y">m_a2y</data>
+            <data name="Mean A2 Z">m_a2z</data>
+            <data name="Reversal difference X (°/s)">dw_x</data>
+            <data name="Reversal difference Y (°/s)">dw_y</data>
+            <data name="Reversal difference Z (°/s)">dw_z</data>
+            <data name="Projected (°/s)">dw_proj</data>
+            <data name="Earth rotation (°/s)">omega_dps</data>
+            <data name="Earth rotation (°/h)">omega_dph</data>
+            <data name="Length of day (h)">day_h</data>
+            <data name="Deviation (%)">dev_pct</data>
+            <data name="Samples A1">n_a1</data>
+            <data name="Samples B">n_bb</data>
+            <data name="Samples A2">n_a2</data>
+        </set>
+    </export>
+</phyphox>

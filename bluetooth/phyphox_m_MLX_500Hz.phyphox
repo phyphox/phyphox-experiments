@@ -87,9 +87,9 @@
     <export>
         <set name="Raw Data">
             <data name="Time (s)">time</data>
-            <data name="Magnetometer X">magX</data>
-			<data name="Magnetometer X">magY</data>
-			<data name="Magnetometer X">magZ</data>
+            <data name="Magnetometer X (µT)">magX</data>
+			<data name="Magnetometer Y (µT)">magY</data>
+			<data name="Magnetometer Z (µT)">magZ</data>
         </set>
     </export>
 </phyphox>
