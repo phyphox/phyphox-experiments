@@ -19,7 +19,7 @@
                 Dieses Experiment nimmt Daten über den Beschleunigungssensor auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Die maximale Frequenz im Spektrum hängt von der maximalen Aufnahmerate des Sensors ab.
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Peak frequency">Frequenzspitze</string>
       <string original="Fourier Transform">Fourier-Transformierte</string>
       <string original="Settings">Einstellungen</string>
       <string original="Raw data">Rohdaten</string>
@@ -46,7 +46,7 @@
 Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítává spektrum jejich frekvencí pomocí Fourierovy transformace(FFT). Maximální detekovatelná frekvence záleží na maximální vzorkovací frekvenci vašeho senzoru.
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Peak frequency">Maximální frekvence</string>
       <string original="Fourier Transform">Fourierova transformace</string>
       <string original="Samples used">Počet vzorků</string>
       <string original="Period used">Použitá perioda</string>
@@ -74,7 +74,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             W tym eksperymencie rejestrowane są dane pochodzące z czujnika przyspieszenia urządzenia (akcelerometru) i poddawane są one szybkiej transformacie Fourier (FFT). Maksymalna częstotliwość w widmie zdeterminowana jest szybkością pracy czujnika rejestrującego dane.
     </description>
       <string original="Spectrum">Widmo</string>
-      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Peak frequency">Częstotliwość dominująca</string>
       <string original="Fourier Transform">Transformata Fourier'a</string>
       <string original="Samples used">Rejestrowana próba</string>
       <string original="Period used">Rejestrowany czas</string>
@@ -100,7 +100,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
 
             Dit experiment registreert gegevens van de accelerometer en berekent het frequentiespectrum via een Fourier-transformatie (FFT). De maximaal waarneembare frequentie hangt af van de maximale snelheid van dataverwerving van uw sensor.
     </description>
-      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Peak frequency">Piekfrequentie</string>
       <string original="Fourier Transform">Fourier Transformatie</string>
       <string original="Samples used">Gebruikte monsters</string>
       <string original="Period used">Tijdsduur</string>
@@ -126,7 +126,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Этот эксперимент записывает данные с акселерометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
     </description>
       <string original="Spectrum">Спектр</string>
-      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Peak frequency">Частота пиков</string>
       <string original="Fourier Transform">Преобразование Фурье</string>
       <string original="Samples used">Используемые образцы</string>
       <string original="Period used">Используемый период</string>
@@ -155,7 +155,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Questo esperimento riceve i dati dall'accelerometro e ricava lo spettro di frequenza attraverso la trasformata di Fourier (FFT). La massima frequenza rilevabile dipende dalla massima acquisizione di frequenza del tuo sensore.
     </description>
       <string original="Spectrum">Spettro</string>
-      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Peak frequency">Frequenza di picco</string>
       <string original="Fourier Transform">Trasformata di Fourier</string>
       <string original="Samples used">Campioni usati</string>
       <string original="Period used">Periodo usato</string>
@@ -181,7 +181,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Αυτό το πείραμα καταγράφει δεδομένα από το επιταχυνσιόμετρο και υπολογίζει το φάσμα της συχνότητάς του με μετασχηματισμός Fourier (FFT). Η μέγιστη αντιληπτή συχνότητα εξαρτάται από τον μέγιστο ρυθμό καταγραφής του αισθητήρα σας.
     </description>
       <string original="Spectrum">Φάσμα</string>
-      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Peak frequency">Συχνότητα μεγίστου</string>
       <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
       <string original="Samples used">Πλήθος δειγμάτων</string>
       <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
@@ -208,7 +208,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
 本実験では，加速度計により測定された加速度の時系列データを記録し，フーリエ変換 (FFT) を用いて加速度スペクトルの計算を行います．測定可能な最大（ナイキスト周波数）周波数は所有するセンサーの最大サンプリングレートによります．
     </description>
       <string original="Spectrum">スペクトル</string>
-      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Peak frequency">ピーク周波数</string>
       <string original="Fourier Transform">フーリエ変換スペクトル</string>
       <string original="Frequency">周波数</string>
       <string original="FFT Mag">FFTピーク強度</string>
@@ -235,7 +235,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Este experimento grava dados do acelerômetro e calcula seu espectro de frequências através da transformada de Fourier (FFT). A máxima frequência detectável depende da taxa máxima de aquisição do seu sensor.
     </description>
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Peak frequency">Frequência do pico</string>
       <string original="Fourier Transform">Transformada de Fourier</string>
       <string original="Frequency">Frequência</string>
       <string original="FFT Mag">TFR Mag</string>
@@ -262,7 +262,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Bu deney, verileri ivme ölçerden kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Algılanabilir maksimum frekans, sensörünüzün maksimum alım oranına bağlıdır.
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Peak frequency">Zirve frekansı</string>
       <string original="Fourier Transform">Fourier dönüşümü</string>
       <string original="Frequency">Frekans</string>
       <string original="Samples used">Kullanılan örnekler</string>
@@ -289,7 +289,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
 	此實驗自加速儀取得資料並利用快速傅力葉轉換(FFT)計算其頻譜。最大可偵測頻率與你手機感測器的最大資料獲取速度有關。
     </description>
       <string original="Spectrum">加速頻譜</string>
-      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Peak frequency">峰值頻率</string>
       <string original="Fourier Transform">傅立葉轉換</string>
       <string original="Frequency">頻率</string>
       <string original="Samples used">使用樣本數</string>
@@ -315,7 +315,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
              Cette expérience enregistre les données de l'accéléromètre et calcule son spectre en fréquences par transformation de Fourier (FFT). La fréquence maximale que l'on peut détecter dépend du taux d'acquisition du capteur.
     </description>
       <string original="Spectrum">Spectre</string>
-      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Peak frequency">Fréquence du pic</string>
       <string original="Fourier Transform">Transformée de Fourier</string>
       <string original="Frequency">Fréquence</string>
       <string original="FFT Mag">FFT Amplitude</string>
@@ -343,7 +343,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Thí nghiệm này ghi lại dữ liệu từ gia tốc kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số phát hiện tối đa phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
     </description>
       <string original="Spectrum">Phổ</string>
-      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Peak frequency">Tần số đỉnh</string>
       <string original="Fourier Transform">Biến đổi Fourier</string>
       <string original="Frequency">Tần số</string>
       <string original="Samples used">Mẫu được dùng</string>
@@ -371,7 +371,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
            本实验记录加速度计的数据并通过傅里叶变换（FFT）计算其频谱。最大可测频率与你的传感器的最大采样率有关。
     </description>
       <string original="Spectrum">频谱</string>
-      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Peak frequency">峰值频率</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
       <string original="FFT Mag">FFT幅值</string>
@@ -399,7 +399,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Ovaj eksperiment snima podatke iz brzinometra i izračunava njegov frekvencijski spektar kroz Furijeovu transformaciju (FFT). Maksimalna frekvencija koja se može detektovati zavisi od maksimalne brzine moći prikupljanja Vašeg senzora.
     </description>
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Fourier Transform">Furijeove transformacije</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Samples used">Korišćeni primeri</string>
@@ -425,7 +425,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             Ovaj eksperiment snima podatke iz brzinometra i izračunava njegov frekvencijski spektar kroz Furijeovu transformaciju (FFT). Maksimalna frekvencija koja se može detektovati zavisi od maksimalne brzine moći prikupljanja Vašeg senzora.
     </description>
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Fourier Transform">Furijeove transformacije</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Samples used">Korišćeni primeri</string>
@@ -451,7 +451,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
              Este experimento registra datos del acelerómetro y calcula su espectro de frecuencia a través de una transformación de Fourier (FFT). La frecuencia máxima detectable depende de la velocidad máxima de adquisición de su sensor.
     </description>
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Peak frequency">Pico de frecuencia</string>
       <string original="Fourier Transform">Transformada de Fourier</string>
       <string original="Frequency">Frecuencia</string>
       <string original="Samples used">Muestras usadas</string>
@@ -477,7 +477,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             ეს ექსპერიმენტი იღებს მონაცემებს აქსელომეტრიდან და ითვლის სიხშირეების სპექტრს ფურიეს გარდაქმნებით (FFT). მაქსიმალური სიხშირე რისი აღმოჩენაც შესაძლებელია დამოკიდებულია თქვენს ტელეფონზე.
     </description>
       <string original="Spectrum">სპექტრი</string>
-      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="Peak frequency">პიკი-სიხშირე</string>
       <string original="1/min">1/წთ</string>
       <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
       <string original="Frequency">სიხშირე</string>
@@ -505,7 +505,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             यह प्रयोग त्वरणमापी से डेटा रिकॉर्ड करता है और फूरियर रूपांतरण (FFT) के माध्यम से इसकी आवृत्ति स्पेक्ट्रम की गणना करता है। अधिकतम पता लगाने योग्य आवृत्ति आपके फ़ोन के सेंसर की अधिकतम अर्जन दर पर निर्भर करती है।
     </description>
       <string original="Spectrum">वर्णक्रम</string>
-      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="Peak frequency">शिखर (Peak) आवृत्ति</string>
       <string original="1/min">1/मिनट</string>
       <string original="Fourier Transform">फूरियर रूपांतरण</string>
       <string original="Frequency">आवृत्ति</string>
@@ -534,7 +534,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
             இந்தப் பரிசோதனை முடுக்க மானியிலிருந்து தரவைப் பதிவுசெய்து, அதன் அதிர்வெண் நிறமாலையை Fourier உருமாற்றம் (FFT) மூலம் கணக்கிடுகிறது. அதிகபட்ச கண்டறியக்கூடிய அதிர்வெண் உங்கள் உணர்வியின் அதிகபட்ச கையகப்படுத்தல் விகிதத்தைப் பொறுத்தது.
     </description>
       <string original="Spectrum">நிறமாலை</string>
-      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="Peak frequency">உச்ச-அதிர்வெண்</string>
       <string original="1/min">1/நிமிடம்</string>
       <string original="Fourier Transform">Fourier உருமாற்றம்</string>
       <string original="Frequency">அதிர்வெண்</string>
@@ -566,7 +566,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </description>
       <string original="Settings">સેટિંગ્સ</string>
       <string original="Spectrum">સ્પેક્ટ્રમ</string>
-      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="Peak frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
       <string original="1/min">1/મિનીટ</string>
       <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
       <string original="Frequency">ફ્રીક્વન્સી</string>
@@ -597,7 +597,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 진동수</string>
+      <string original="Peak frequency">최대 진동수</string>
       <string original="Fourier Transform">푸리에 변환</string>
       <string original="Frequency">진동수</string>
       <string original="FFT Mag">FFT 크기</string>
@@ -625,7 +625,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
     </description>
       <string original="Settings">Tənzimləmələr</string>
       <string original="Spectrum">Spektr</string>
-      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Peak frequency">Pik tezlik</string>
       <string original="Fourier Transform">Furye çevrilməsi</string>
       <string original="Frequency">Tezlik</string>
       <string original="FFT Mag">FFT amplitudu</string>
@@ -713,10 +713,10 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
   </input>
   <views>
     <view label="Spectrum">
-      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+      <value label="Peak frequency" unit="[[unit_short_hertz]]">
         <input>f0</input>
       </value>
-      <value label="Peak-Frequency" factor="60" unit="1/min">
+      <value label="Peak frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>
@@ -747,7 +747,7 @@ Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítáv
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
-      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">f0</input>
       </graph>

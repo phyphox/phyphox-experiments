@@ -24,7 +24,7 @@
       <string original="Distance">Entfernung</string>
       <string original="Velocity">Geschwindigkeit</string>
       <string original="Results">Ergebnisse</string>
-      <string original="Raw Data">Rohdaten</string>
+      <string original="Raw data">Rohdaten</string>
       <string original="Magnetic field x">Magnetfeld x</string>
       <string original="Magnetic field y">Magnetfeld y</string>
       <string original="Magnetic field z">Magnetfeld z</string>
@@ -46,7 +46,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string>
       <string original="Distance">vzdálenost</string>
       <string original="Velocity">Rychlost</string>
-      <string original="Raw Data">Neupravená data</string>
+      <string original="Raw data">Neupravená data</string>
       <string original="Magnetic field x">Magnetické pole x</string>
       <string original="Magnetic field y">Magnetické pole y</string>
       <string original="Magnetic field z">Magnetické pole z</string>
@@ -67,7 +67,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx jest odległością pomiędzy kolejnymi magnesami</string>
       <string original="Distance">Dystans</string>
       <string original="Velocity">Prędkość</string>
-      <string original="Raw Data">Surowe dane</string>
+      <string original="Raw data">Surowe dane</string>
       <string original="Magnetic field x">Składowa x indukcji magnetycznej</string>
       <string original="Magnetic field y">Składowa y indukcji magnetycznej</string>
       <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
@@ -88,7 +88,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx is de afstand tussen twee magneten</string>
       <string original="Distance">Afstand</string>
       <string original="Velocity">Snelheid</string>
-      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Raw data">Onbewerkte data</string>
       <string original="Magnetic field x">Magnetisch veld x</string>
       <string original="Magnetic field y">Magnetisch veld y</string>
       <string original="Magnetic field z">Magnetisch veld z</string>
@@ -112,7 +112,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="x (m)">x (м)</string>
       <string original="Velocity">Скорость</string>
       <string original="v (m/s)">v (м/с)</string>
-      <string original="Raw Data">Исходные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Magnetic field x">Магнитное поле x</string>
       <string original="Bx (µT)">Bx (мкTл)</string>
       <string original="Magnetic field y">Магнитное поле y</string>
@@ -135,7 +135,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx è la distanza fra due magneti</string>
       <string original="Distance">Distanza</string>
       <string original="Velocity">Velocità</string>
-      <string original="Raw Data">Dati grezzi</string>
+      <string original="Raw data">Dati grezzi</string>
       <string original="Magnetic field x">Campo magnetico x</string>
       <string original="Magnetic field y">Campo magnetico y</string>
       <string original="Magnetic field z">Campo magnetico z</string>
@@ -156,7 +156,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx είναι η απόσταση ανάμεσα σε δύο μαγνήτες</string>
       <string original="Distance">Απόσταση</string>
       <string original="Velocity">Ταχύτητα</string>
-      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Magnetic field x">Μαγνητικό πεδίο x</string>
       <string original="Magnetic field y">Μαγνητικό πεδίο y</string>
       <string original="Magnetic field z">Μαγνητικό πεδίο z</string>
@@ -178,7 +178,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx : 磁石間の距離</string>
       <string original="Distance">距離</string>
       <string original="Velocity">速度</string>
-      <string original="Raw Data">センサー出力</string>
+      <string original="Raw data">センサー出力</string>
       <string original="Magnetic field x">磁界 x</string>
       <string original="Magnetic field y">磁界 y</string>
       <string original="Magnetic field z">磁界 z</string>
@@ -199,7 +199,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Distance">Distância</string>
       <string original="x">X</string>
       <string original="Velocity">Velocidade</string>
-      <string original="Raw Data">Sensores</string>
+      <string original="Raw data">Sensores</string>
       <string original="Magnetic field x">Campo magnético x</string>
       <string original="Magnetic field y">Campo magnético Y</string>
       <string original="Magnetic field z">Campo magnético z</string>
@@ -219,7 +219,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx iki mıknatıs arasındaki mesafedir</string>
       <string original="Distance">Mesafe</string>
       <string original="Velocity">Hız</string>
-      <string original="Raw Data">Ham veri</string>
+      <string original="Raw data">Ham veri</string>
       <string original="Magnetic field x">Manyetik alan x</string>
       <string original="Magnetic field y">Manyetik alan y</string>
       <string original="Magnetic field z">Manyetik alan z</string>
@@ -239,7 +239,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx 是兩個磁鐵中的間距</string>
       <string original="Distance">距離</string>
       <string original="Velocity">速度</string>
-      <string original="Raw Data">原始數據</string>
+      <string original="Raw data">原始數據</string>
       <string original="Magnetic field x">x方向磁場</string>
       <string original="Magnetic field y">y方向磁場</string>
       <string original="Magnetic field z">z方向磁場</string>
@@ -257,7 +257,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Results">Résultats</string>
       <string original="dx is the distance between two magnets">dx est la distance entre deux aimants</string>
       <string original="Velocity">Vitesse</string>
-      <string original="Raw Data">Données brutes</string>
+      <string original="Raw data">Données brutes</string>
       <string original="Magnetic field x">Champs magnétique selon x</string>
       <string original="Magnetic field y">Champs magnétique selon y</string>
       <string original="Magnetic field z">Champs magnétique selon z</string>
@@ -277,7 +277,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx là khoảng cách giữa hai nam châm</string>
       <string original="Distance">Khoảng cách</string>
       <string original="Velocity">Vận tốc</string>
-      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Raw data">Dữ liệu thô</string>
       <string original="Magnetic field x">Từ trường x</string>
       <string original="Magnetic field y">Từ trường y</string>
       <string original="Magnetic field z">Từ trường z</string>
@@ -297,7 +297,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx是两个磁铁间的间距</string>
       <string original="Distance">距离</string>
       <string original="Velocity">速度</string>
-      <string original="Raw Data">原始数据</string>
+      <string original="Raw data">原始数据</string>
       <string original="Magnetic field x">X方向磁场</string>
       <string original="Magnetic field y">Y方向磁场</string>
       <string original="Magnetic field z">Z方向磁场</string>
@@ -317,7 +317,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx je razdaljina između dva magneta</string>
       <string original="Distance">Razdaljina</string>
       <string original="Velocity">Brzina</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Magnetic field x">Magnetno polje x</string>
       <string original="Magnetic field y">Magnetno polje y</string>
       <string original="Magnetic field z">Magnetno polje z</string>
@@ -337,7 +337,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx je razdaljina između dva magneta</string>
       <string original="Distance">Razdaljina</string>
       <string original="Velocity">Brzina</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Magnetic field x">Magnetno polje x</string>
       <string original="Magnetic field y">Magnetno polje y</string>
       <string original="Magnetic field z">Magnetno polje z</string>
@@ -357,7 +357,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx es la distancia entre dos imanes</string>
       <string original="Distance">Distancia</string>
       <string original="Velocity">Velocidad</string>
-      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Raw data">Datos sin procesar</string>
       <string original="Magnetic field x">Campo magnético x</string>
       <string original="Magnetic field y">Campo magnético y</string>
       <string original="Magnetic field z">Campo magnético z</string>
@@ -377,7 +377,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx არის მანძილი ორ მაგნიტს შორის</string>
       <string original="Distance">მანძილი</string>
       <string original="Velocity">სიჩქარე</string>
-      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
       <string original="Magnetic field x">მაგნიტური ველი x</string>
       <string original="Magnetic field y">მაგნიტური ველი y</string>
       <string original="Magnetic field z">მაგნიტური ველი z</string>
@@ -397,7 +397,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx दो चुम्बकों के बीच की दूरी है</string>
       <string original="Distance">दूरी</string>
       <string original="Velocity">वेग</string>
-      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
       <string original="Magnetic field x">चुंबकीय क्षेत्र x</string>
       <string original="Magnetic field y">चुंबकीय क्षेत्र y</string>
       <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
@@ -419,7 +419,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="Distance">தூரம்</string>
       <string original="x">தூரம் (x)</string>
       <string original="Velocity">வேகம்</string>
-      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Raw data">மூலத்தரவு</string>
       <string original="Magnetic field x">காந்தப்புலம் x</string>
       <string original="Magnetic field y">காந்தப்புலம் y</string>
       <string original="Magnetic field z">காந்தப்புலம் z</string>
@@ -443,7 +443,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx એ બે ચુંબક વચ્ચેનું અંતર છે</string>
       <string original="Distance">અંતર</string>
       <string original="Velocity">વેગ</string>
-      <string original="Raw Data">રો ડેટા</string>
+      <string original="Raw data">રો ડેટા</string>
       <string original="Magnetic field x">ચુંબકીય ક્ષેત્ર x</string>
       <string original="Magnetic field y">ચુંબકીય ક્ષેત્ર y</string>
       <string original="Magnetic field z">ચુંબકીય ક્ષેત્ર z</string>
@@ -465,7 +465,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx는 두 자석 사이의 거리입니다</string>
       <string original="Distance">거리</string>
       <string original="Velocity">속력</string>
-      <string original="Raw Data">원 데이터</string>
+      <string original="Raw data">원 데이터</string>
       <string original="Magnetic field x">자기장 x</string>
       <string original="Magnetic field y">자기장 y</string>
       <string original="Magnetic field z">자기장 z</string>
@@ -485,7 +485,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
       <string original="dx is the distance between two magnets">dx iki maqnit arasındakı məsafədir</string>
       <string original="Distance">Məsafə</string>
       <string original="Velocity">Sürət</string>
-      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Raw data">Xam verilənlər</string>
       <string original="Magnetic field x">Maqnit sahəsi x</string>
       <string original="Magnetic field y">Maqnit sahəsi y</string>
       <string original="Magnetic field z">Maqnit sahəsi z</string>
@@ -542,7 +542,7 @@ Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdá
         <input axis="y">speedClean</input>
       </graph>
     </view>
-    <view label="Raw Data">
+    <view label="Raw data">
       <graph label="Magnetic field x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Bx" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="ffffff">
         <input axis="x">t</input>
         <input axis="y">magX</input>

@@ -38,7 +38,7 @@
       <string original="GPS active">GPS aktiv</string>
       <string original="Simple">Einfach</string>
       <string original="Compass">Kompass</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Beachte, dass manche Geräte über keinen GPS-Sensor verfügen und die Standortdaten nur aus den Mobilfunk- und WLAN-Netzen erzeugen. Diese Daten haben eine schlechtere Genauigkeit.</string>
       <string original="Distance">Entfernung</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Stelle auch sicher, dass die Systemeinstellung zum Standort nicht auf "Energie sparen" steht, denn dies schaltet GPS ab, während Navigations-Apps weiterhin einen vagen Standort über das Netzwerk ermitteln.</string>
       <string original="Movement">Bewegung</string>
@@ -74,7 +74,7 @@
       <string original="Horizontal Accuracy">Horizontální přesnost</string>
       <string original="Vertical Accuracy">Vertikální přesnost</string>
       <string original="Satellites">Satelity</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Prosím vemte v potaz, že některá zařízení nejsou vybavena senzorem GPS a vaši pozici určují pomocí telefonního signálu či WIFI připojení. Tyto zdroje dat jsou bohužel nepřesné.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Prosím vemte v potaz, že některá zařízení nejsou vybavena senzorem GPS a vaši pozici určují pomocí telefonního signálu či WIFI připojení. Tyto zdroje dat jsou bohužel nepřesné.</string>
       <string original="GPS active">GPS aktivní</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Ujistěte se, že služba určování polohy není v „úsporném režimu“. Ten většinou vypne GPS. Navigační aplikace mohou i přesto stále určovat přibližnou polohu z údajů o síti.</string>
       <string original="Position">Pozice</string>
@@ -111,7 +111,7 @@
       <string original="Horizontal Accuracy">Dokładność w poziomie</string>
       <string original="Vertical Accuracy">Dokładność w pionie</string>
       <string original="Satellites">Liczba satelitów</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Należy pamiętać, że część urządzeń nie jest wyposażona w czujniki systemu GPS, ale określają położenie na podstawie połączenia telefonicznego oraz Wi-Fi. Tego rodzaju źródła informacji nie są dostatecznie precyzyjne.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Należy pamiętać, że część urządzeń nie jest wyposażona w czujniki systemu GPS, ale określają położenie na podstawie połączenia telefonicznego oraz Wi-Fi. Tego rodzaju źródła informacji nie są dostatecznie precyzyjne.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Upewnij się, że system lokalizacji urządzenia nie pracuje w trybie 'Oszczędzania energii' ponieważ zazwyczaj w trybie tym GPS jest wyłączony a dane o położeniu uzyskiwane są za pośrednictwem sieci operatora oraz sieci Internet.</string>
       <string original="Position">Położenie</string>
       <string original="Movement">Ruch</string>
@@ -143,7 +143,7 @@
       <string original="Horizontal Accuracy">Horizontale Nauwkeurigheid</string>
       <string original="Vertical Accuracy">Verticale Nauwkeurigheid</string>
       <string original="Satellites">Satellieten</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Houd er rekening mee dat sommige smartphones geen GPS-sensor hebben, maar locatiegegevens bieden via mobiele of WIFI-verbindingen. Deze gegevensbronnen produceren gegevens met onvoldoende nauwkeurigheid.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Houd er rekening mee dat sommige smartphones geen GPS-sensor hebben, maar locatiegegevens bieden via mobiele of WIFI-verbindingen. Deze gegevensbronnen produceren gegevens met onvoldoende nauwkeurigheid.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Zorg er ook voor dat de locatie-instelling van uw smartphone niet is ingesteld op "energiebesparing", omdat dit gewoonlijk de GPS uitschakelt terwijl navigatie-apps mogelijk nog steeds een vage locatie geven die wordt bepaald via het netwerk.</string>
       <string original="Position">Positie</string>
       <string original="Movement">Beweging</string>
@@ -179,7 +179,7 @@
       <string original="Horizontal Accuracy">Горизонтальная точность</string>
       <string original="Vertical Accuracy">Вертикальная точность</string>
       <string original="Satellites">Спутники</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Обратите внимание, что некоторые устройства не имеют GPS-датчика, но предоставляют данные о местоположении через мобильные или WIFI-соединения. Эти источники дают данные с низкой точностью.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Обратите внимание, что некоторые устройства не имеют GPS-датчика, но предоставляют данные о местоположении через мобильные или WIFI-соединения. Эти источники дают данные с низкой точностью.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Также убедитесь, что настройки местоположения вашей системы не установлены на «Экономный режим», потому что при этом отключается GPS, в то время как навигационные приложения могут по-прежнему показывать неопределенное местоположение, доступное через сеть интернета.</string>
       <string original="Position">Положение</string>
       <string original="Movement">Движение</string>
@@ -218,7 +218,7 @@
       <string original="Horizontal Accuracy">Accuratezza orizzontale</string>
       <string original="Vertical Accuracy">Accuratezza verticale</string>
       <string original="Satellites">Satelliti</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Attenzione: molti dispositivi non hanno il GPS, ma ottengono i dati tramite la connessione dati o WIFI. Questi dati sono meno precisi.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Attenzione: molti dispositivi non hanno il GPS, ma ottengono i dati tramite la connessione dati o WIFI. Questi dati sono meno precisi.</string>
       <string original="Position">Posizione</string>
       <string original="Movement">Movimento</string>
       <string original="Distance travelled">Distanza percorsa</string>
@@ -254,7 +254,7 @@
       <string original="Horizontal Accuracy">Οριζόντια ακρίβεια</string>
       <string original="Vertical Accuracy">Κατακόρυφη ακρίβεια</string>
       <string original="Satellites">Δορυφόροι</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Σημείωση: ορισμένες συσκευές δεν διαθέτουν GPS, αλλά παρέχουν στοιχεία τοποθεσίας από δίκτυα WIFI ή κινητής τηλεφωνίας. Αυτά τα στοιχεία δημιουργούν δεδομένα με μικρή ακρίβεια.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off GPS while navigation apps might still show a vague location determined through the network.">Επίσης σιγουρευτείτε ότι το σύστημα δεν είναι σε κατάσταση εξοικονόμηση ενέργειας (power saving) γιατί συνήθως τότε απενεργοποιείται το GPS. Οι εφαρμογές πλοήγησης τότε, ίσως να δείχνουν κατά προσέγγιση την τοποθεσία από το δίκτυο τηλεφωνίας.</string>
       <string original="Position">Θέση</string>
       <string original="Movement">Κίνηση</string>
@@ -288,7 +288,7 @@
       <string original="Horizontal Accuracy">水平方向精度</string>
       <string original="Vertical Accuracy">垂直方向精度</string>
       <string original="Satellites">衛星数</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">一部の機器はGPSセンサーを持っていませんが，モバイル通信基地やWIFI接続地点データから位置情報を得ていることに注意してください．その場合，位置情報は得られますが，精度はよくありません．</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">位置情報サービスが省電力モードでないことを確認してください．省電力モードになると多くの場合正確なGPS情報源を切断してしまいます．</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">水平方向精度は位置の不確かさで垂直方向精度は高度の不確かさです。もしゼロになっていたら、この情報は現在利用できないことを示しています。</string>
     </translation>
@@ -317,7 +317,7 @@
       <string original="Horizontal Accuracy">Precisão Horizontal</string>
       <string original="Vertical Accuracy">Precisão Vertical</string>
       <string original="Satellites">Satélites</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nota: alguns dispositivos não possuem um sensor GPS, mas fornecem dados de localização através das conexões móveis ou WIFI. Estas fontes de dados produzem dados com precisão ruim.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nota: alguns dispositivos não possuem um sensor GPS, mas fornecem dados de localização através das conexões móveis ou WIFI. Estas fontes de dados produzem dados com precisão ruim.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Também tenha certeza que a configuração do seu sistema de localização não esteja definida como "Economia de Energia" porque isto normalmente desliga o GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">A precisão horizontal é a incerteza da sua localização, enquanto a precisão vertical é a (normalmente pior) a incerteza da sua elevação (altura). Se a precisão é zero, esta informação não está disponível.</string>
     </translation>
@@ -349,7 +349,7 @@
       <string original="Horizontal Accuracy">Yatay doğruluk</string>
       <string original="Vertical Accuracy">Dikey doğruluk</string>
       <string original="Satellites">Uydular</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Bazı cihazların GPS sensörü bulunmadığını, ancak mobil veya WIFI bağlantılarıyla konum verilerini sağladığını unutmayın. Bu veri kaynakları, hatalı doğrulukta veri üretir.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Bazı cihazların GPS sensörü bulunmadığını, ancak mobil veya WIFI bağlantılarıyla konum verilerini sağladığını unutmayın. Bu veri kaynakları, hatalı doğrulukta veri üretir.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ayrıca, sisteminizin konum ayarının "Güç tasarrufu" olarak ayarlanmadığından emin olun, çünkü bu genellikle hassas GPS kaynağını kapatır.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Yatay doğruluk konumunuzun belirsizliğidir, dikey doğruluk ise (genellikle daha kötü) yüksekliğinizin belirsizliğidir (yükseklik). Doğruluk sıfır yazıyor ise, bu bilgi mevcut değildir.</string>
     </translation>
@@ -372,7 +372,7 @@
       <string original="Horizontal Accuracy">水平精準度</string>
       <string original="Vertical Accuracy">鉛直精準度</string>
       <string original="Satellites">衛星數量</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些裝置並沒有GPS感測器，但藉由電信業者或WIFI連結依然提供位置資訊。這些來源提供低精度的數據。</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些裝置並沒有GPS感測器，但藉由電信業者或WIFI連結依然提供位置資訊。這些來源提供低精度的數據。</string>
     </translation>
     <translation locale="fr">
       <title>Localisation (GPS)</title>
@@ -401,7 +401,7 @@
       <string original="Distance from start">Distance au point de départ</string>
       <string original="Horizontal Accuracy">Précision horizontale</string>
       <string original="Vertical Accuracy">Précision verticale</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Notez que certains appareils ne possèdent pas de capteur GPS, mais fournissent des données de localisation via des connexions mobiles ou WIFI. Ces sources produisent des données avec une mauvaise précision.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Notez que certains appareils ne possèdent pas de capteur GPS, mais fournissent des données de localisation via des connexions mobiles ou WIFI. Ces sources produisent des données avec une mauvaise précision.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Assurez-vous également que votre système ne soit pas en mode "Économie d'énergie", car cela désactive généralement le GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La précision horizontale correspond à l'incertitude de votre position, tandis que la précision verticale correspond à l'incertitude (mauvaise en général) de votre altitude (hauteur). Si la précision indiquée est égale à zéro c'est que cette information n'est pas disponible.</string>
       <string original="unknown">inconnu</string>
@@ -437,7 +437,7 @@
       <string original="Horizontal Accuracy">Sai số ngang</string>
       <string original="Vertical Accuracy">Sai số cao</string>
       <string original="Satellites">Số vệ tinh</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Lưu ý, một số thiết bị không có cảm biến GPS, nhưng dữ liệu vị trí được lấy thông qua kết nối di động hoặc WIFI. Những nguồn dữ liệu này tạo ra dữ liệu với độ chính xác kém.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Lưu ý, một số thiết bị không có cảm biến GPS, nhưng dữ liệu vị trí được lấy thông qua kết nối di động hoặc WIFI. Những nguồn dữ liệu này tạo ra dữ liệu với độ chính xác kém.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Ngoài ra, hãy đảm bảo rằng hệ thống cài đặt vị trí của bạn không được đặt thành "Tiết kiệm năng lượng" vì điều này thường giảm độ chính xác của GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Sai số ngang là độ sai số của vị trí của bạn, trong khi sai số cao là độ sai số (thường tệ hơn) về độ cao của bạn. Nếu độ chính xác bằng không thì nó có nghĩa là thông tin này không hỗ trợ.</string>
       <string original="unknown">chưa biết</string>
@@ -471,7 +471,7 @@
       <string original="Horizontal Accuracy">平面位置精度</string>
       <string original="Vertical Accuracy">垂直位置精度</string>
       <string original="Satellites">卫星数量</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些装置并没有GPS传感器，但能通过移动或WIFI连接提供定位数据。这些来源的数据精度较差。</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">注意，某些装置并没有GPS传感器，但能通过移动或WIFI连接提供定位数据。这些来源的数据精度较差。</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">还要确保你的系统定位设置没有设为“省电模式”，因为这通常会关闭精确的GPS数据源。</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">平面精度是指你的定位误差，垂直精度（通常更差）是指你的海拔误差。如果精度为零，则该信息不可用。</string>
       <string original="m (WGS84)">m (WGS84 坐标系)</string>
@@ -506,7 +506,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Horizontal Accuracy">Horizontalna tačnost</string>
       <string original="Vertical Accuracy">Vertikalna tačnost</string>
       <string original="Satellites">Sateliti</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
     </translation>
@@ -532,7 +532,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Horizontal Accuracy">Horizontalna tačnost</string>
       <string original="Vertical Accuracy">Vertikalna tačnost</string>
       <string original="Satellites">Sateliti</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Napomena, neki uređaji nemaju GPS senzor, ali pružaju podatke o lokaciji preko mobilnih ili WIFI veza. Ovi izvori ne daju potpuno tačne podatke.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Takođe se uverite da je su Vaša lokacija sistema nije podešena na "Power saving" jer ovo obično isključuje precizni GPS izvor.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Horizontalna tačnost je nepouzdanost Vaše lokacije, dok je vertikalna tačnost (obično veća) nepouzdanost Vaše visine. Ako je tačnost nula, ova informacija nije dostupna.</string>
     </translation>
@@ -565,7 +565,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Horizontal Accuracy">Precisión horizontal</string>
       <string original="Vertical Accuracy">Precisión vertical</string>
       <string original="Satellites">Satélites</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Tenga en cuenta que algunos dispositivos no tienen un sensor GPS, pero proporcionan datos de ubicación a través de conexiones móviles o WIFI. Estas fuentes de datos producen datos con mala precisión.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Tenga en cuenta que algunos dispositivos no tienen un sensor GPS, pero proporcionan datos de ubicación a través de conexiones móviles o WIFI. Estas fuentes de datos producen datos con mala precisión.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">También asegúrese de que la configuración de ubicación de su sistema no esté configurada en "Ahorro de energía" porque esto generalmente apaga la fuente precisa de GPS.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La precisión horizontal es la incertidumbre de su ubicación, mientras que la precisión vertical es la incertidumbre (generalmente peor) de su elevación (altura). Si la precisión es cero, esta información no está disponible.</string>
     </translation>
@@ -600,7 +600,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">ვერტიკალური სიზუსტე</string>
       <string original="Satellites">სატელიტები</string>
       <string original="unknown">უცნობი</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ყურადღება მიაქციე, რომ ზოგიერთ მოწყობილობას არ აქვს GPS სენსორი, მაგრამ მონაცემებს მაინც იძლევა ინტერნეტის დახმარებით. ესეთი მონაცემები იქნება ცუდი სიზუსტით.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ყურადღება მიაქციე, რომ ზოგიერთ მოწყობილობას არ აქვს GPS სენსორი, მაგრამ მონაცემებს მაინც იძლევა ინტერნეტის დახმარებით. ესეთი მონაცემები იქნება ცუდი სიზუსტით.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">ასევე ყურადღება მიაქციე, რომ არ გაქვს "Power saving" ჩართული, რადგან ის ხშირად გამორთავს GPS წვდომას.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">ჰორიზონტალური სიზუსტე არის ცდომილება თქვენს მდებარეობაში, ხოლო ვერტიკალური სიზუსტე (ხშირად უარესი) არის სიმაღლის ცდომილება. თუ სიზუსტე არის ნული ეს მონაცემი არ არის ხელმისაწვდომი.</string>
     </translation>
@@ -634,7 +634,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">उर्ध्वाधर यथार्थता</string>
       <string original="Satellites">उपग्रह</string>
       <string original="unknown">अज्ञात</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ध्यान दें, कि कुछ उपकरणों में GPS सेंसर नहीं होता है, लेकिन वे मोबाइल या वाईफ़ाई कनेक्शन के माध्यम से स्थान डेटा प्रदान करते हैं। ये डेटा-स्रोत खराब सटीकता के साथ जेनरेट करते हैं।</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">ध्यान दें, कि कुछ उपकरणों में GPS सेंसर नहीं होता है, लेकिन वे मोबाइल या वाईफ़ाई कनेक्शन के माध्यम से स्थान डेटा प्रदान करते हैं। ये डेटा-स्रोत खराब सटीकता के साथ जेनरेट करते हैं।</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">यह भी सुनिश्चित करें कि आपके सिस्टम की लोकेशन सेटिंग "पावर सेविंग" पर सेट न हो, क्योंकि यह आमतौर पर सटीक GPS स्रोत को बंद कर देता है।</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">क्षैतिज मान में सटीकता आपकी अवस्थिति में अनिश्चितता है और ऊर्ध्वाधर मान में सटीकता आपकी समुद्र तल से ऊँचाई में अनिश्चितता है जो कि अक्सर बदतर होती है। सटीकता शून्य होने की स्थिति में यह जानकारी उपलब्ध नहीं होगी।</string>
     </translation>
@@ -668,7 +668,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">செங்குத்துத் துல்லியம்</string>
       <string original="Satellites">செயற்கைக்கோள்கள்</string>
       <string original="unknown">அறியப்படாதது</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">சில சாதனங்களில் GPS உணர்வி இருப்பதில்லை, மாறாக அவை Wifi அல்லது இணையத்தின் மூலம் இருப்பிடத் தகவலை வழங்குகின்றன என்பதை கவனத்தில் கொள்ளவும். இந்தத் தரவு மூலங்கள் குறைந்த துல்லியத்துடன் கூடிய தரவை உருவாக்குகின்றன.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">சில சாதனங்களில் GPS உணர்வி இருப்பதில்லை, மாறாக அவை Wifi அல்லது இணையத்தின் மூலம் இருப்பிடத் தகவலை வழங்குகின்றன என்பதை கவனத்தில் கொள்ளவும். இந்தத் தரவு மூலங்கள் குறைந்த துல்லியத்துடன் கூடிய தரவை உருவாக்குகின்றன.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">மேலும், உங்கள் சாதனத்தின் இருப்பிட அமைப்பு 'மின் சேமிப்பு' (Power saving) என அமைக்கப்படவில்லை என்பதை உறுதிப்படுத்திக்கொள்ளுங்கள், ஏனெனில் இது பொதுவாக துல்லியமான GPS மூலத்தை அணைத்துவிடும்.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">கிடைமட்டத் துல்லியம் என்பது உங்கள் இருப்பிடத்தின் நிச்சயமற்ற தன்மையைக் குறிக்கிறது, அதே சமயம் செங்குத்துத் துல்லியம் என்பது உங்கள் உயரத்தின் (பொதுவாக மோசமான) நிச்சயமற்ற தன்மையைக் குறிக்கிறது. துல்லியம் பூஜ்ஜியமாக இருந்தால், இந்தத் தகவல் கிடைக்கவில்லை என்று அர்த்தம்.</string>
       <string original="Coordinates">ஆயத்தொலைவுகள்</string>
@@ -706,7 +706,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">ઉભી ચોકસાઈ</string>
       <string original="Satellites">ઉપગ્રહ</string>
       <string original="unknown">અજ્ઞાત</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">નોંધ કરો કે કેટલાક ઉપકરણોમાં GPS સેન્સર હોતું નથી, પરંતુ તેઓ મોબાઇલ અથવા WIFI કનેક્શન દ્વારા લોકેશન ડેટા પ્રદાન કરે છે. આ ડેટા સ્ત્રોતો નબળી ચોકસાઈ સાથે ડેટા ઉત્પન્ન કરે છે.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">નોંધ કરો કે કેટલાક ઉપકરણોમાં GPS સેન્સર હોતું નથી, પરંતુ તેઓ મોબાઇલ અથવા WIFI કનેક્શન દ્વારા લોકેશન ડેટા પ્રદાન કરે છે. આ ડેટા સ્ત્રોતો નબળી ચોકસાઈ સાથે ડેટા ઉત્પન્ન કરે છે.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">ઉપરાંત, ખાતરી કરો કે તમારી સિસ્ટમની લોકેશન સેટિંગ્સ "પાવર સેવિંગ" પર સેટ કરેલી નથી, કારણ કે આ સામાન્ય રીતે સાચા GPS સ્રોતને અક્ષમ કરે છે.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">આડી ચોકસાઈ એ તમારા લોકેશનની અનિશ્ચિતતા છે, જ્યારે ઊભી ચોકસાઈ એ તમારી ઊંચાઈની (સામાન્ય રીતે ખરાબ) અનિશ્ચિતતા છે. જો ચોકસાઈ શૂન્ય હોય, તો આ માહિતી ઉપલબ્ધ નથી.</string>
       <string original="Coordinates">કોઓર્ડિનેટ્સ</string>
@@ -743,7 +743,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">수직 정확도</string>
       <string original="Satellites">위성</string>
       <string original="unknown">알려지지 않음</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">주의, 일부 장치에는 GPS 센서가 없지만 이동 통신 기반 또는 WIFI 연결에서 위치 정보를 가져옵니다. 이러한 경우 위치 정보의 정확도는 좋지 않습니다.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">주의, 일부 장치에는 GPS 센서가 없지만 이동 통신 기반 또는 WIFI 연결에서 위치 정보를 가져옵니다. 이러한 경우 위치 정보의 정확도는 좋지 않습니다.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">또한 시스템의 위치 설정이 "절전 모드"로 설정되어 있지 않은지 확인하십시오.이 설정은 일반적으로 정확한 GPS 소스를 끄기 때문입니다.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">수평 정확도는 위치의 불확실성이며, 수직 정확도는 고도의 (일반적으로 더 나쁜) 불확실성입니다. 정확도가 0이면 이 정보를 사용할 수 없습니다.</string>
       <string original="Coordinates">좌표</string>
@@ -778,7 +778,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
       <string original="Vertical Accuracy">Şaquli dəqiqlik</string>
       <string original="Satellites">Peyklər</string>
       <string original="unknown">naməlum</string>
-      <string original="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nəzərə alın ki, bəzi cihazlarda GPS sensoru yoxdur, lakin onlar məkan verilənlərini mobil və ya Wi-Fi bağlantıları vasitəsilə təqdim edir. Bu verilən mənbələri pis dəqiqlikli nəticələr verir.</string>
+      <string original="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy.">Nəzərə alın ki, bəzi cihazlarda GPS sensoru yoxdur, lakin onlar məkan verilənlərini mobil və ya Wi-Fi bağlantıları vasitəsilə təqdim edir. Bu verilən mənbələri pis dəqiqlikli nəticələr verir.</string>
       <string original="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source.">Həmçinin sisteminizin məkan tənzimləməsinin "Enerjiyə qənaət" rejimində olmadığına əmin olun, çünki bu, adətən dəqiq GPS mənbəyini söndürür.</string>
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">Üfüqi dəqiqlik məkanınızın qeyri-müəyyənliyi, şaquli dəqiqlik isə hündürlüyünüzün (adətən daha pis olan) qeyri-müəyyənliyidir. Dəqiqlik sıfırdırsa, bu məlumat mövcud deyil.</string>
       <string original="Coordinates">Koordinatlar</string>
@@ -931,7 +931,7 @@ Brzinu i smer obično daje uređaj i zasnivaju se na dva ili više uzastopnih is
         <map max="-1">unknown</map>
       </value>
       <separator height="1"/>
-      <info label="Note, that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
+      <info label="Note that some devices do not have a GPS sensor, but provide location data through mobile or WIFI connections. These data sources produce data with bad accuracy."/>
       <separator height="1"/>
       <info label="Also make sure that your system's location setting is not set to &quot;Power saving&quot; because this usually turns off the precise GPS source."/>
       <separator height="1"/>

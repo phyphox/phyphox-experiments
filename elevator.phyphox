@@ -24,7 +24,7 @@
                 Weitere Details:
                 Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
     </description>
-      <string original="Raw Data">Rohdaten</string>
+      <string original="Raw data">Rohdaten</string>
       <string original="Pressure">Druck</string>
       <string original="Altitude (from barometer)">Höhe (über Barometer)</string>
       <string original="Motion">Bewegung</string>
@@ -47,7 +47,7 @@ Aby se v tomto experimentu eliminoval určitý šum, jsou hodnoty z barometru zp
       <string original="Motion">Pohyb</string>
       <string original="Altitude (from barometer)">Výška (z barometru)</string>
       <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
-      <string original="Raw Data">Neupravená data</string>
+      <string original="Raw data">Neupravená data</string>
       <string original="Pressure">Tlak</string>
       <string original="Accelerometer z">Akcelerometr z</string>
       <string original="Vertical velocity (from altitude)">Svislá rychlost (z výšky)</string>
@@ -64,7 +64,7 @@ Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru 
       <string original="Motion">Ruch</string>
       <string original="Altitude (from barometer)">Wysokość (z barometru)</string>
       <string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string>
-      <string original="Raw Data">Surowe dane</string>
+      <string original="Raw data">Surowe dane</string>
       <string original="Pressure">Ciśnienie</string>
       <string original="Accelerometer z">Akcelerometr - składowa z</string>
       <string original="Vertical velocity (from altitude)">Prędkość w pionie (z wysokości)</string>
@@ -83,7 +83,7 @@ Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru 
       <string original="Motion">Beweging</string>
       <string original="Altitude (from barometer)">Hoogte (van drukmeter)</string>
       <string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string>
-      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Raw data">Onbewerkte data</string>
       <string original="Pressure">Druk</string>
       <string original="Vertical velocity (from altitude)">Verticale snelheid (uit hoogte)</string>
     </translation>
@@ -101,7 +101,7 @@ Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru 
       <string original="Motion">Движение</string>
       <string original="Altitude (from barometer)">Высота (барометр)</string>
       <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
-      <string original="Raw Data">Исходные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Pressure">Давление</string>
       <string original="Accelerometer z">Акселерометр z</string>
       <string original="Vertical velocity (from altitude)">Вертикальная скорость (от высоты)</string>
@@ -120,7 +120,7 @@ Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru 
       <string original="Motion">Movimento</string>
       <string original="Altitude (from barometer)">Altezza (dal barometro)</string>
       <string original="z acceleration (from accelerometer)">accelerazione lungo z (dall'accelerometro)</string>
-      <string original="Raw Data">Dati grezzi</string>
+      <string original="Raw data">Dati grezzi</string>
       <string original="Pressure">Pressione</string>
       <string original="Accelerometer z">Accelerazione z</string>
       <string original="Vertical velocity (from altitude)">Velocità verticale (dall'altezza)</string>
@@ -139,7 +139,7 @@ Dodatkowe wskazówki: Wskazania czujnika ciśnienia atmosferycznego - barometru 
       <string original="Motion">Κίνηση</string>
       <string original="Altitude (from barometer)">Υψόμετρο (από το βαρόμετρο)</string>
       <string original="z acceleration (from accelerometer)">Επιτάχυνση στον z (από το επιταχυνσιόμετρο)</string>
-      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Pressure">Πίεση</string>
       <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
       <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από το ύψος)</string>
@@ -156,7 +156,7 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Motion">位置・速度・加速度</string>
       <string original="Altitude (from barometer)">バロメーターから換算された高度</string>
       <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
-      <string original="Raw Data">センサー出力</string>
+      <string original="Raw data">センサー出力</string>
       <string original="Pressure">圧力</string>
       <string original="Accelerometer z">加速度計 z</string>
       <string original="Vertical velocity (from altitude)">高度から計算される垂直速度</string>
@@ -175,7 +175,7 @@ GPSが動作しないような場所においても，バロメータにより�
       <string original="Motion">Movimento</string>
       <string original="Altitude (from barometer)">Altura (a partir do barômetro)</string>
       <string original="z acceleration (from accelerometer)">Aceleração z (a partir do acelerômetro)</string>
-      <string original="Raw Data">Sensores</string>
+      <string original="Raw data">Sensores</string>
       <string original="Pressure">Pressão</string>
       <string original="Accelerometer z">Acelerômetro z</string>
       <string original="Vertical velocity (from altitude)">Velocidade vertical (a partir da altura)</string>
@@ -194,7 +194,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Hareket</string>
       <string original="Altitude (from barometer)">Yükseklik (barometreden)</string>
       <string original="z acceleration (from accelerometer)">z ivmesi (ivmeölçerden)</string>
-      <string original="Raw Data">Ham veri</string>
+      <string original="Raw data">Ham veri</string>
       <string original="Pressure">Basınç</string>
       <string original="Accelerometer z">İvmeölçer Z</string>
       <string original="Vertical velocity (from altitude)">Düşey hız (yükseklikten)</string>
@@ -213,7 +213,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">運動</string>
       <string original="Altitude (from barometer)">高度（由高度計）</string>
       <string original="z acceleration (from accelerometer)">z方向加速度 （由加速儀）</string>
-      <string original="Raw Data">原始數據</string>
+      <string original="Raw data">原始數據</string>
       <string original="Pressure">壓力</string>
       <string original="Accelerometer z">z方向加速儀</string>
       <string original="Vertical velocity (from altitude)">鉛直速度 (由高度）</string>
@@ -231,7 +231,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Mouvement</string>
       <string original="Altitude (from barometer)">Altitude (selon le baromètre)</string>
       <string original="z acceleration (from accelerometer)">accélération selon z (selon l'accéléromètre)</string>
-      <string original="Raw Data">Données brutes</string>
+      <string original="Raw data">Données brutes</string>
       <string original="Pressure">Pression</string>
       <string original="Accelerometer z">Accélération selon z</string>
       <string original="Vertical velocity (from altitude)">vitesse verticale (à partir de la hauteur)</string>
@@ -250,7 +250,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Chuyển động</string>
       <string original="Altitude (from barometer)">Độ cao (từ áp kế)</string>
       <string original="z acceleration (from accelerometer)">gia tốc z (từ gia tốc kế)</string>
-      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Raw data">Dữ liệu thô</string>
       <string original="Pressure">Áp suất</string>
       <string original="Accelerometer z">Gia tốc kế z</string>
       <string original="Vertical velocity (from altitude)">Tốc độ thẳng đứng (từ độ cao)</string>
@@ -269,7 +269,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">运动</string>
       <string original="Altitude (from barometer)">高度（来自气压计）</string>
       <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
-      <string original="Raw Data">原始数据</string>
+      <string original="Raw data">原始数据</string>
       <string original="Pressure">气压</string>
       <string original="Accelerometer z">z轴加速度计</string>
       <string original="Vertical velocity (from altitude)">垂直速度（来自高度）</string>
@@ -288,7 +288,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Kretanje</string>
       <string original="Altitude (from barometer)">Visina (sa barometra)</string>
       <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Pressure">Pritisak</string>
       <string original="Accelerometer z">Brzinometar z</string>
       <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
@@ -307,7 +307,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Kretanje</string>
       <string original="Altitude (from barometer)">Visina (sa barometra)</string>
       <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Pressure">Pritisak</string>
       <string original="Accelerometer z">Brzinometar z</string>
       <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
@@ -326,7 +326,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Motion">Movimiento</string>
       <string original="Altitude (from barometer)">Altitud (tomada del barómetro)</string>
       <string original="z acceleration (from accelerometer)">aceleración z (tomada del acelerómetro)</string>
-      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Raw data">Datos sin procesar</string>
       <string original="Pressure">Presión</string>
       <string original="Accelerometer z">Acelerómetro z</string>
       <string original="Vertical velocity (from altitude)">Velocidad vertical (tomada de la altura)</string>
@@ -346,7 +346,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">სიმაღლე (ბარომეტრიდან)</string>
       <string original="Vertical velocity (from altitude)">ვერტიკალური სიჩქარე (სიმაღლიდან)</string>
       <string original="z acceleration (from accelerometer)">z აჩქარება (აქსელომეტრიდან)</string>
-      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
       <string original="Pressure">წნევა</string>
       <string original="Accelerometer z">აქსელომეტრი z</string>
     </translation>
@@ -365,7 +365,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">ऊँचाई</string>
       <string original="Vertical velocity (from altitude)">उर्ध्वाधर वेग (ऊँचाई से )</string>
       <string original="z acceleration (from accelerometer)">z त्वरण (अक्सेलेरोमीटर- त्वरणमापी से )</string>
-      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
       <string original="Pressure">दबाव</string>
       <string original="Accelerometer z">त्वरण मापी z</string>
     </translation>
@@ -384,7 +384,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">உயரம் (காற்றழுத்தமானியிலிருந்து)</string>
       <string original="Vertical velocity (from altitude)">செங்குத்து வேகம் (உயரத்திலிருந்து)</string>
       <string original="z acceleration (from accelerometer)">z முடுக்கம் (முடுக்க மானியிலிருந்து)</string>
-      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Raw data">மூலத்தரவு</string>
       <string original="Pressure">அழுத்தம்</string>
       <string original="Accelerometer z">முடுக்கமானி z</string>
     </translation>
@@ -404,7 +404,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">ઊંચાઈ (બેરોમીટરથી)</string>
       <string original="Vertical velocity (from altitude)">ઉભો વેગ (ઊંચાઈથી)</string>
       <string original="z acceleration (from accelerometer)">z પ્રવેગ (બેરોમીટરથી)</string>
-      <string original="Raw Data">રો ડેટા</string>
+      <string original="Raw data">રો ડેટા</string>
       <string original="Pressure">દબાણ</string>
       <string original="Accelerometer z">એક્સીલેરોમીટર z</string>
     </translation>
@@ -425,7 +425,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">고도(기압계에서)</string>
       <string original="Vertical velocity (from altitude)">수직 속력(고도에서)</string>
       <string original="z acceleration (from accelerometer)">z 가속도(가속도계에서)</string>
-      <string original="Raw Data">원 데이터</string>
+      <string original="Raw data">원 데이터</string>
       <string original="Pressure">압력</string>
       <string original="Accelerometer z">가속도계 z</string>
     </translation>
@@ -444,7 +444,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
       <string original="Altitude (from barometer)">Hündürlük (barometrdən)</string>
       <string original="Vertical velocity (from altitude)">Şaquli sürət (hündürlükdən)</string>
       <string original="z acceleration (from accelerometer)">z təcili (akselerometrdən)</string>
-      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Raw data">Xam verilənlər</string>
       <string original="Pressure">Təzyiq</string>
       <string original="Accelerometer z">Akselerometr z</string>
     </translation>
@@ -488,7 +488,7 @@ Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan 
         <input axis="y">a</input>
       </graph>
     </view>
-    <view label="Raw Data">
+    <view label="Raw data">
       <graph label="Pressure" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_pressure]]" unitY="[[unit_short_hecto_pascal]]" partialUpdate="true">
         <input axis="x">p_time</input>
         <input axis="y">pressure</input>

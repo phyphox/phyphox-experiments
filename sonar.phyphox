@@ -36,8 +36,7 @@
       <string original="On this page you just get the measured delay.">Auf dieser Seite bekommst du nur die ermittelten Zeiten.</string>
       <string original="Time series">Zeitreihe</string>
       <string original="Normalized history">Normalisierter Verlauf</string>
-      <string original="distance">Entfernung</string>
-      <string original="time">Zeit</string>
+      <string original="Distance">Entfernung</string>
       <string original="Delay">Laufzeit</string>
       <string original="Time">Zeit</string>
       <string original="Settings">Einstellungen</string>
@@ -65,8 +64,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Time">čas</string>
       <string original="Time series">Časové úseky</string>
       <string original="Normalized history">Normalizovaná historie</string>
-      <string original="distance">vzdálenost</string>
-      <string original="time">čas</string>
+      <string original="Distance">vzdálenost</string>
       <string original="Delay">Zpoždění</string>
       <string original="Settings">Nastavení</string>
     </translation>
@@ -93,8 +91,7 @@ Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jisto
       <string original="Time">Czas</string>
       <string original="Time series">Szeregi czasowe</string>
       <string original="Normalized history">Skala barwna</string>
-      <string original="distance">odległość</string>
-      <string original="time">czas</string>
+      <string original="Distance">odległość</string>
       <string original="Delay">Opóźnienie</string>
       <string original="Settings">Ustawienia</string>
     </translation>
@@ -123,8 +120,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time">Tijd</string>
       <string original="Time series">Tijdreeks</string>
       <string original="Normalized history">Genormaliseerde geschiedenis</string>
-      <string original="distance">afstand</string>
-      <string original="time">tijd</string>
+      <string original="Distance">afstand</string>
       <string original="Delay">Uitstel</string>
       <string original="Settings">Instellingen</string>
     </translation>
@@ -150,8 +146,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Chirp">Щебетание</string>
       <string original="Time series">Временные отрезки</string>
       <string original="Normalized history">Нормализованная история</string>
-      <string original="distance">расстояние</string>
-      <string original="time">время</string>
+      <string original="Distance">расстояние</string>
       <string original="Delay">Задержка</string>
       <string original="Time">Время</string>
       <string original="Settings">Настройки</string>
@@ -178,8 +173,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time">Tempo</string>
       <string original="Time series">Serie temporale</string>
       <string original="Normalized history">Cronologia normalizzata</string>
-      <string original="distance">distanza</string>
-      <string original="time">tempo</string>
+      <string original="Distance">distanza</string>
       <string original="Delay">Ritardo</string>
       <string original="Settings">Impostazioni</string>
     </translation>
@@ -206,8 +200,7 @@ Voer dit experiment best uit in een rustige omgeving.
       <string original="Time">χρόνος</string>
       <string original="Time series">Χρονοσειρές</string>
       <string original="Normalized history">Ιστορικό</string>
-      <string original="distance">Απόσταση</string>
-      <string original="time">χρόνος</string>
+      <string original="Distance">Απόσταση</string>
       <string original="Delay">Καθυστέρηση</string>
       <string original="Settings">Ρυθμίσεις</string>
     </translation>
@@ -226,8 +219,7 @@ Voer dit experiment best uit in een rustige omgeving.
     </description>
       <string original="Time series">時系列計測</string>
       <string original="Normalized history">規格化された強度</string>
-      <string original="distance">距離</string>
-      <string original="time">時間</string>
+      <string original="Distance">距離</string>
       <string original="Echo location">距離計測</string>
       <string original="Speed of Sound">音速</string>
       <string original="Normalized to spherical surface">球状表面への規格化</string>
@@ -254,8 +246,7 @@ Voer dit experiment best uit in een rustige omgeving.
     </description>
       <string original="Time series">Série Temporal</string>
       <string original="Normalized history">Histórico Normalizado</string>
-      <string original="distance">distância</string>
-      <string original="time">tempo</string>
+      <string original="Distance">distância</string>
       <string original="Echo location">Ecolocalização</string>
       <string original="Speed of Sound">Velocidade do Som</string>
       <string original="Normalized to spherical surface">Normalizado para uma superfície esférica</string>
@@ -282,8 +273,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Zaman serileri</string>
       <string original="Normalized history">Normalleştirilmiş tarih</string>
-      <string original="distance">mesafe</string>
-      <string original="time">zaman</string>
+      <string original="Distance">mesafe</string>
       <string original="Echo location">Eko konumu</string>
       <string original="Speed of Sound">Ses hızı</string>
       <string original="Normalized to spherical surface">Küresel yüzeye göre normalize</string>
@@ -333,7 +323,6 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Évolution dans le temps</string>
       <string original="Normalized history">Historique normalisé</string>
-      <string original="time">temps</string>
       <string original="Echo location">Distance</string>
       <string original="Speed of Sound">Vitesse du son</string>
       <string original="Normalized to spherical surface">Normalisé par une surface sphérique</string>
@@ -360,8 +349,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Chuỗi t. gian</string>
       <string original="Normalized history">Lịch sử đã chuẩn hoá</string>
-      <string original="distance">khoảng cách</string>
-      <string original="time">thời gian</string>
+      <string original="Distance">khoảng cách</string>
       <string original="Echo location">Vị trí tiếng vang</string>
       <string original="Speed of Sound">Tốc độ âm thanh</string>
       <string original="Normalized to spherical surface">Chuẩn hoá mặt cầu</string>
@@ -388,8 +376,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">时间序列</string>
       <string original="Normalized history">归一化历史记录</string>
-      <string original="distance">距离</string>
-      <string original="time">时间</string>
+      <string original="Distance">距离</string>
       <string original="Echo location">回声位置</string>
       <string original="Speed of Sound">声速</string>
       <string original="Normalized to spherical surface">归一化至球面</string>
@@ -416,8 +403,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Vremenski intervali</string>
       <string original="Normalized history">Standardna Legenda</string>
-      <string original="distance">rastojanje</string>
-      <string original="time">vreme</string>
+      <string original="Distance">rastojanje</string>
       <string original="Echo location">Eho lokacija</string>
       <string original="Speed of Sound">Brzina zvuka</string>
       <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
@@ -444,8 +430,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Vremenski intervali</string>
       <string original="Normalized history">Standardna Legenda</string>
-      <string original="distance">rastojanje</string>
-      <string original="time">vreme</string>
+      <string original="Distance">rastojanje</string>
       <string original="Echo location">Eho lokacija</string>
       <string original="Speed of Sound">Brzina zvuka</string>
       <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
@@ -472,8 +457,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">Series de tiempo</string>
       <string original="Normalized history">Historia normalizada</string>
-      <string original="distance">distancia</string>
-      <string original="time">tiempo</string>
+      <string original="Distance">distancia</string>
       <string original="Echo location">Ecolocalización</string>
       <string original="Speed of Sound">Velocidad del sonido</string>
       <string original="Normalized to spherical surface">Normalizado a superficie esférica</string>
@@ -500,8 +484,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">დროების სია</string>
       <string original="Normalized history">ნორმირებული ისტორია</string>
-      <string original="distance">მანძილი</string>
-      <string original="time">დრო</string>
+      <string original="Distance">მანძილი</string>
       <string original="Echo location">ექოს ლოკაცია</string>
       <string original="Speed of Sound">ხსმის სიჩქარე</string>
       <string original="Normalized to spherical surface">ნორმირებულია სფერული ზედაპირისთვის</string>
@@ -528,8 +511,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">समय क्रम</string>
       <string original="Normalized history">मानकीकृत हिस्ट्री</string>
-      <string original="distance">दूरी</string>
-      <string original="time">समय</string>
+      <string original="Distance">दूरी</string>
       <string original="Echo location">प्रतिध्वनि की स्थिति</string>
       <string original="Speed of Sound">ध्वनि की गति</string>
       <string original="Normalized to spherical surface">गोलाकार सतह के लिए मानकीकरण</string>
@@ -556,8 +538,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
     </description>
       <string original="Time series">காலத் தொடர்</string>
       <string original="Normalized history">இயல்பாக்கப்பட்ட வரலாறு</string>
-      <string original="distance">தூரம்</string>
-      <string original="time">நேரம்</string>
+      <string original="Distance">தூரம்</string>
       <string original="Echo location">எதிரொலி இருப்பிடம்</string>
       <string original="Speed of Sound">ஒலியின் வேகம்</string>
       <string original="Normalized to spherical surface">கோள (spherical) மேற்பரப்புக்கானது</string>
@@ -588,8 +569,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Settings">સેટિંગ્સ</string>
       <string original="Time series">ટાઇમ સીરીઝ</string>
       <string original="Normalized history">સામાન્ય ઇતિહાસ</string>
-      <string original="distance">અંતર</string>
-      <string original="time">સમય</string>
+      <string original="Distance">અંતર</string>
       <string original="Echo location">ઇકોનું સ્થાન</string>
       <string original="Speed of Sound">ધ્વનિની ગતિ</string>
       <string original="Normalized to spherical surface">ગોળાકાર સપાટી પર સામાન્યીકૃત</string>
@@ -618,8 +598,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Settings">설정</string>
       <string original="Time series">시계열</string>
       <string original="Normalized history">정규화된 이력</string>
-      <string original="distance">거리</string>
-      <string original="time">시간</string>
+      <string original="Distance">거리</string>
       <string original="Echo location">반향 위치</string>
       <string original="Speed of Sound">소리 속력</string>
       <string original="Normalized to spherical surface">구면 정규화</string>
@@ -646,8 +625,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <string original="Settings">Tənzimləmələr</string>
       <string original="Time series">Vaxt sırası</string>
       <string original="Normalized history">Normallaşdırılmış tarixçə</string>
-      <string original="distance">Məsafə</string>
-      <string original="time">vaxt</string>
+      <string original="Distance">Məsafə</string>
       <string original="Echo location">Əks-sədanın yeri</string>
       <string original="Speed of Sound">Səsin sürəti</string>
       <string original="Normalized to spherical surface">Sferik səthə normallaşdırılıb</string>
@@ -721,7 +699,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
   </output>
   <views>
     <view label="Time series">
-      <graph label="Normalized history" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="time" unitY="[[unit_short_second]]" labelZ="[[quantity_short_amplitude]]" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="1440" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Normalized history" labelX="Distance" unitX="[[unit_short_centi_meter]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="[[quantity_short_amplitude]]" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="1440" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_map</input>
         <input axis="y">time_map</input>
         <input axis="z">weighted_map</input>
@@ -731,7 +709,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
       <edit label="Speed of Sound" unit="[[unit_short_meter_per_second]]" default="340">
         <output>speedofsound</output>
       </edit>
-      <graph label="Echo location" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Echo location" labelX="Distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_out</input>
         <input axis="y">relative_cc_out</input>
         <input axis="x">distance_out</input>
@@ -745,7 +723,7 @@ Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı 
         <input axis="x">distance_out</input>
         <input axis="y" color="666666">relative_cc_h5</input>
       </graph>
-      <graph label="Normalized to spherical surface" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+      <graph label="Normalized to spherical surface" labelX="Distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
         <input axis="x">distance_out</input>
         <input axis="y">weighted_cc_out</input>
         <input axis="x">distance_out</input>

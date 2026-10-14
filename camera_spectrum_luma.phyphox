@@ -13,7 +13,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
   <translations>
     <translation locale="cs">
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Peak frequency">Maximální frekvence</string>
       <string original="Fourier Transform">Fourierova transformace</string>
       <string original="Frequency">Frekvence</string>
       <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
@@ -32,7 +32,7 @@ If you are using auto exposure, be aware that the average brightness will drift 
     </translation>
     <translation locale="de">
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Peak frequency">Frequenzspitze</string>
       <string original="Fourier Transform">Fourier-Transformierte</string>
       <string original="Frequency">Frequenz</string>
       <string original="Samples used">Genutzte Werte</string>
@@ -58,7 +58,7 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
     </translation>
     <translation locale="el">
       <string original="Spectrum">Φάσμα</string>
-      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Peak frequency">Συχνότητα μεγίστου</string>
       <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
       <string original="Frequency">Συχνότητα</string>
       <string original="Samples used">Πλήθος δειγμάτων</string>
@@ -84,7 +84,7 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
     </translation>
     <translation locale="es">
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Peak frequency">Pico de frecuencia</string>
       <string original="Fourier Transform">Transformada de Fourier</string>
       <string original="Frequency">Frecuencia</string>
       <string original="Samples used">Muestras usadas</string>
@@ -100,7 +100,7 @@ Wenn du automatische Belichtung verwendest, beachte, dass die durchschnittliche 
     </translation>
     <translation locale="fr">
       <string original="Spectrum">Spectre</string>
-      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Peak frequency">Fréquence du pic</string>
       <string original="Fourier Transform">Transformée de Fourier</string>
       <string original="Frequency">Fréquence</string>
       <string original="FFT Mag">FFT Amplitude</string>
@@ -127,7 +127,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
     </translation>
     <translation locale="hi">
       <string original="Spectrum">वर्णक्रम</string>
-      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="Peak frequency">शिखर (Peak) आवृत्ति</string>
       <string original="1/min">1/मिनट</string>
       <string original="Fourier Transform">फूरियर रूपांतरण</string>
       <string original="Frequency">आवृत्ति</string>
@@ -147,7 +147,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
     </translation>
     <translation locale="it">
       <string original="Spectrum">Spettro</string>
-      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Peak frequency">Frequenza di picco</string>
       <string original="Fourier Transform">Trasformata di Fourier</string>
       <string original="Frequency">Frequenza</string>
       <string original="Samples used">Campioni usati</string>
@@ -163,7 +163,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
     </translation>
     <translation locale="ja">
       <string original="Spectrum">スペクトル</string>
-      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Peak frequency">ピーク周波数</string>
       <string original="Fourier Transform">フーリエ変換スペクトル</string>
       <string original="Frequency">周波数</string>
       <string original="FFT Mag">FFTピーク強度</string>
@@ -180,7 +180,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
     </translation>
     <translation locale="ka">
       <string original="Spectrum">სპექტრი</string>
-      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="Peak frequency">პიკი-სიხშირე</string>
       <string original="1/min">1/წთ</string>
       <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
       <string original="Frequency">სიხშირე</string>
@@ -198,7 +198,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
       <string original="Raw data">დაუმუშავებელი მონაცემები</string>
     </translation>
     <translation locale="nl">
-      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Peak frequency">Piekfrequentie</string>
       <string original="Fourier Transform">Fourier Transformatie</string>
       <string original="Frequency">Frequentie</string>
       <string original="Samples used">Gebruikte monsters</string>
@@ -214,7 +214,7 @@ Si vous utilisez le réglage exposition automatique de la caméra, sachez que la
     </translation>
     <translation locale="pl">
       <string original="Spectrum">Widmo</string>
-      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Peak frequency">Częstotliwość dominująca</string>
       <string original="Fourier Transform">Transformata Fourier'a</string>
       <string original="Frequency">Częstotliwość</string>
       <string original="Samples used">Rejestrowana próba</string>
@@ -241,7 +241,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="pt">
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Peak frequency">Frequência do pico</string>
       <string original="Fourier Transform">Transformada de Fourier</string>
       <string original="Frequency">Frequência</string>
       <string original="FFT Mag">TFR Mag</string>
@@ -258,7 +258,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="ru">
       <string original="Spectrum">Спектр</string>
-      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Peak frequency">Частота пиков</string>
       <string original="1/min">1/мин</string>
       <string original="Fourier Transform">Преобразование Фурье</string>
       <string original="Frequency">Частота</string>
@@ -287,7 +287,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="sr">
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Fourier Transform">Furijeove transformacije</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Samples used">Korišćeni primeri</string>
@@ -303,7 +303,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="sr_Latn">
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Fourier Transform">Furijeove transformacije</string>
       <string original="Frequency">Frekvencija</string>
       <string original="Samples used">Korišćeni primeri</string>
@@ -319,7 +319,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="tr">
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Peak frequency">Zirve frekansı</string>
       <string original="1/min">1/dakika</string>
       <string original="Fourier Transform">Fourier dönüşümü</string>
       <string original="Frequency">Frekans</string>
@@ -336,7 +336,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="vi">
       <string original="Spectrum">Phổ</string>
-      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Peak frequency">Tần số đỉnh</string>
       <string original="1/min">1/phút</string>
       <string original="Fourier Transform">Biến đổi Fourier</string>
       <string original="Frequency">Tần số</string>
@@ -355,7 +355,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="zh_Hans">
       <string original="Spectrum">频谱</string>
-      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Peak frequency">峰值频率</string>
       <string original="Fourier Transform">傅里叶变换</string>
       <string original="Frequency">频率</string>
       <string original="FFT Mag">FFT幅值</string>
@@ -383,7 +383,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
     </translation>
     <translation locale="zh_Hant">
       <string original="Spectrum">加速頻譜</string>
-      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Peak frequency">峰值頻率</string>
       <string original="Fourier Transform">傅立葉轉換</string>
       <string original="Frequency">頻率</string>
       <string original="Samples used">使用樣本數</string>
@@ -407,7 +407,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
 நீங்கள் தானியங்கி வெளிப்பாடு (Exposure) அமைப்பைப் பயன்படுத்தினால், சராசரி பிரகாசம் குறுகிய காலத்திற்குள் 0.5-ஐ நோக்கி நகரும் என்பதை நினைவில் கொள்ளுங்கள். இது மாறும் ஒளி நிலைகளிலும் நம்பகமான தூண்டுதலை அனுமதிக்கலாம், ஆனால் இது தூண்டுதல்களின் துல்லியத்தையும், குறிப்பாக அளவிடப்பட்ட நேர அளவுகளையும் பாதிக்கக்கூடும். மேலும், இந்த ஸ்டாப்வாட்ச் ஒளிர்வுக்குப் பதிலாக லூமாவை (luma) பயன்படுத்துகிறது என்பதையும் கவனத்தில் கொள்ளவும்; அதாவது, இது பிரகாசத்தின் ஒரு நேரியல் அல்லாத பிரதிநிதித்துவமாகும், இதை வேகமாக கணக்கிட முடியும். இதன் பொருள், இந்த மதிப்பு ஒளிர்வின் அளவீடுகளுடன் ஒப்பிடத்தக்கதாக இருக்காது என்பதும், இது மாறும் வெளிப்பாடு அமைப்புகளால் பாதிக்கப்படும் என்பதுமாகும்.
 </description>
       <string original="Spectrum">நிறமாலை</string>
-      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="Peak frequency">உச்ச-அதிர்வெண்</string>
       <string original="1/min">1/நிமிடம்</string>
       <string original="Fourier Transform">Fourier உருமாற்றம்</string>
       <string original="Frequency">அதிர்வெண்</string>
@@ -439,7 +439,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
 </description>
       <string original="Settings">સેટિંગ્સ</string>
       <string original="Spectrum">સ્પેક્ટ્રમ</string>
-      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="Peak frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
       <string original="1/min">1/મિનીટ</string>
       <string original="Fourier Transform">ફુરિયર ટ્રાન્સફોર્મ</string>
       <string original="Frequency">ફ્રીક્વન્સી</string>
@@ -470,7 +470,7 @@ Jeśli korzystasz z automatycznej ekspozycji, pamiętaj, że średnia jasność 
 </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 진동수</string>
+      <string original="Peak frequency">최대 진동수</string>
       <string original="Fourier Transform">푸리에 변환</string>
       <string original="Frequency">진동수</string>
       <string original="FFT Mag">FFT 크기</string>
@@ -498,7 +498,7 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
 </description>
       <string original="Settings">Tənzimləmələr</string>
       <string original="Spectrum">Spektr</string>
-      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Peak frequency">Pik tezlik</string>
       <string original="Fourier Transform">Furye çevrilməsi</string>
       <string original="Frequency">Tezlik</string>
       <string original="FFT Mag">FFT amplitudu</string>
@@ -568,10 +568,10 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
   </input>
   <views>
     <view label="Spectrum">
-      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+      <value label="Peak frequency" unit="[[unit_short_hertz]]">
         <input>f0</input>
       </value>
-      <value label="Peak-Frequency" factor="60" unit="1/min">
+      <value label="Peak frequency" factor="60" unit="1/min">
         <input>f0</input>
       </value>
       <separator height="1"/>
@@ -604,7 +604,7 @@ Avtomatik ekspozisiyadan istifadə edirsinizsə, nəzərə alın ki, orta parlaq
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
-      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">f0</input>
       </graph>

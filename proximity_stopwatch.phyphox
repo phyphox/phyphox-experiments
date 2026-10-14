@@ -9,7 +9,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         In this experiment you bring an object close to your proximity sensor (usually located at the front next to the speaker used for phone calls) and measure the times when the object is close to or far away from your phone.
 
-        Note, that the precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.
+        Note that the precision depends strongly on the proximity sensor in your phone. For slow sensors this can easily be worse than a second while fast sensors usually do not get faster than tenths of a second. Faster measurements, but based on sound, can be achieved using the acoustic stopwatch experiment.
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Proximity_Stopwatch</link>
   <data-containers>

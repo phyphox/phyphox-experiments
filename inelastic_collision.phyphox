@@ -55,7 +55,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Retained on collision 4">Bei Stoß 4 behalten</string>
       <string original="Retained on collision 5">Bei Stoß 5 behalten</string>
       <string original="Average retained">Im Mittel behalten</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche das Akustische Stoppuhr-Experiment erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet. Wenn ja, sollte dieses Experiment hier ebenso funktionieren.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche das Akustische Stoppuhr-Experiment erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet. Wenn ja, sollte dieses Experiment hier ebenso funktionieren.</string>
     </translation>
     <translation locale="cs">
       <title>(Ne)pružná srážka</title>
@@ -95,7 +95,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Settings">Nastavení</string>
       <string original="Threshold">Práh měření</string>
       <string original="Minimum Delay">Minimální zpoždění</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Tento modul bohužel nefunguje na pomalých mobilních zařízeních. Pro ověření použitelnosti prosím nejdříve vyzkoušejte experiment akustických stopek a srovnejte ho s měřením s pomocí normálních hodin. Pokud měření stopkami funguje jak má, pak by tento experiment měl fungovat také.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Tento modul bohužel nefunguje na pomalých mobilních zařízeních. Pro ověření použitelnosti prosím nejdříve vyzkoušejte experiment akustických stopek a srovnejte ho s měřením s pomocí normálních hodin. Pokud měření stopkami funguje jak má, pak by tento experiment měl fungovat také.</string>
     </translation>
     <translation locale="pl">
       <title>(Nie)sprężyste zderzenie</title>
@@ -136,7 +136,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Settings">Ustawienia</string>
       <string original="Threshold">Poziom wyzwalania</string>
       <string original="Minimum Delay">Minimalne opóźnienie</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Niestety wyniki eksperymentu mogą być niepoprawne w przypadku smartfonów pracujących z niską częstotliwością. Podczas pierwszego pomiaru zaleca się porównać uzyskane wyniki z rezultatami tradycyjnych pomiarów ze stoperem.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Niestety wyniki eksperymentu mogą być niepoprawne w przypadku smartfonów pracujących z niską częstotliwością. Podczas pierwszego pomiaru zaleca się porównać uzyskane wyniki z rezultatami tradycyjnych pomiarów ze stoperem.</string>
     </translation>
     <translation locale="nl">
       <title>(On)elastische botsing</title>
@@ -176,7 +176,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Settings">Instellingen</string>
       <string original="Threshold">Drempel</string>
       <string original="Minimum Delay">Minimale vertraging</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Helaas werkt dit niet op langzame smartphones. Vergelijk eerst het akoestische chronometer-experiment met een gewone klok, om er zeker van te zijn dat het experiment werkt zoals verwacht. Als het werkt, zou dit experiment hier ook moeten werken.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Helaas werkt dit niet op langzame smartphones. Vergelijk eerst het akoestische chronometer-experiment met een gewone klok, om er zeker van te zijn dat het experiment werkt zoals verwacht. Als het werkt, zou dit experiment hier ook moeten werken.</string>
     </translation>
     <translation locale="ru">
       <title>(Не)упругое столкновение</title>
@@ -217,7 +217,7 @@ Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou do
       <string original="Settings">Настройки</string>
       <string original="Threshold">Порог</string>
       <string original="Minimum Delay">Минимальная задержка</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
     </translation>
     <translation locale="it">
       <title>Collisione (an)elastica</title>
@@ -257,7 +257,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Impostazioni</string>
       <string original="Threshold">Soglia</string>
       <string original="Minimum Delay">Ritardo minimo</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Purtroppo questo esperimento non funziona su telefoni troppo lenti. Per assicurarti che l'esperimento stia funzionando correttamente, confronta l'esperimento del cronometro acustico con un qualsiasi cronometro. Se si comporta correttamente l'esperimento funziona.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Purtroppo questo esperimento non funziona su telefoni troppo lenti. Per assicurarti che l'esperimento stia funzionando correttamente, confronta l'esperimento del cronometro acustico con un qualsiasi cronometro. Se si comporta correttamente l'esperimento funziona.</string>
     </translation>
     <translation locale="el">
       <title>(Αν)ελαστική Κρούση</title>
@@ -298,7 +298,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Ρυθμίσεις</string>
       <string original="Threshold">Κατώφλι ενεργοπ.</string>
       <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
     </translation>
     <translation locale="ja">
       <title>(非) 弾性衝突</title>
@@ -339,7 +339,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">設定</string>
       <string original="Threshold">閾値</string>
       <string original="Minimum Delay">ホールドオフ時間</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">残念ながら，本実験は動作速度の遅いスマートフォンにおいては機能しません．本実験が予測通り動作するかどうか確かめるために，音響ストップウォッチの実験結果と通常のタイマーを比較して下さい．問題なく動作していることが確認できれば，本実験も問題なく動作します．</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">残念ながら，本実験は動作速度の遅いスマートフォンにおいては機能しません．本実験が予測通り動作するかどうか確かめるために，音響ストップウォッチの実験結果と通常のタイマーを比較して下さい．問題なく動作していることが確認できれば，本実験も問題なく動作します．</string>
     </translation>
     <translation locale="pt">
       <title>Colisão (IN)elástica</title>
@@ -380,7 +380,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Configurações</string>
       <string original="Threshold">Limiar</string>
       <string original="Minimum Delay">Intervalo Mínimo</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Infelizmente, isto não funcionará em aparelhos lentos. Por favor, compare o experimento do cronômetro acústico com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado. Se funcionar, este experimento aqui deverá funcionar também.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Infelizmente, isto não funcionará em aparelhos lentos. Por favor, compare o experimento do cronômetro acústico com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado. Se funcionar, este experimento aqui deverá funcionar também.</string>
     </translation>
     <translation locale="tr">
       <title>Elastik olmayan çarpışma</title>
@@ -421,7 +421,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Ayarlar</string>
       <string original="Threshold">Eşik</string>
       <string original="Minimum Delay">Minimum Gecikme</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Ne yazık ki, bu yavaş telefonlarda çalışmaz. Lütfen deneyin beklendiği gibi çalıştığından emin olmak için akustik kronometre deneyi önce normal bir saate göre karşılaştırın. Eğer işe yarıyorsa, bu deney de burada çalışmalıdır.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Ne yazık ki, bu yavaş telefonlarda çalışmaz. Lütfen deneyin beklendiği gibi çalıştığından emin olmak için akustik kronometre deneyi önce normal bir saate göre karşılaştırın. Eğer işe yarıyorsa, bu deney de burada çalışmalıdır.</string>
     </translation>
     <translation locale="zh_Hant">
       <title>（非）彈性碰撞</title>
@@ -462,7 +462,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">設定</string>
       <string original="Threshold">門檻</string>
       <string original="Minimum Delay">最小延遲</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地，這在慢的手機中不能使用。請將聲學碼表與正常的時鐘比較已確保此實驗能如期地運作。如果在聲學碼表中可以使用，則此實驗亦能使用。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地，這在慢的手機中不能使用。請將聲學碼表與正常的時鐘比較已確保此實驗能如期地運作。如果在聲學碼表中可以使用，則此實驗亦能使用。</string>
     </translation>
     <translation locale="fr">
       <title>Collision (in)élastique</title>
@@ -503,7 +503,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Paramètres</string>
       <string original="Threshold">Seuil</string>
       <string original="Minimum Delay">Délai minimum</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Malheureusement, cette expérience ne fonctionnera pas sur les téléphones les plus lents. Vérifiez d'abord que l'expérience chronomètre sonore fonctionne comme prévu en comparant ses résultats à ceux d'un chronomètre classique. Si cela fonctionne, cette expérience devrait également fonctionner.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Malheureusement, cette expérience ne fonctionnera pas sur les téléphones les plus lents. Vérifiez d'abord que l'expérience chronomètre sonore fonctionne comme prévu en comparant ses résultats à ceux d'un chronomètre classique. Si cela fonctionne, cette expérience devrait également fonctionner.</string>
     </translation>
     <translation locale="vi">
       <title>Va chạm (không) đàn hồi</title>
@@ -544,7 +544,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Cài đặt</string>
       <string original="Threshold">Ngưỡng</string>
       <string original="Minimum Delay">Độ trễ tối thiểu</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
     </translation>
     <translation locale="zh_Hans">
       <title>非弹性碰撞</title>
@@ -585,7 +585,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">设置</string>
       <string original="Threshold">阈值</string>
       <string original="Minimum Delay">最小时延</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地是，本功能在慢速手机上不能使用。请将声学秒表实验和平常的时钟相比较，以确保实验能够按预期运行。如果声学秒表能使用，则本实验也能使用。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地是，本功能在慢速手机上不能使用。请将声学秒表实验和平常的时钟相比较，以确保实验能够按预期运行。如果声学秒表能使用，则本实验也能使用。</string>
     </translation>
     <translation locale="sr">
       <title>(Ne)elastični sudar</title>
@@ -625,7 +625,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Podešavanja</string>
       <string original="Threshold">Prag</string>
       <string original="Minimum Delay">Minimalno zakašnjenje</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
     </translation>
     <translation locale="sr_Latn">
       <title>(Ne)elastični sudar</title>
@@ -665,7 +665,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Podešavanja</string>
       <string original="Threshold">Prag</string>
       <string original="Minimum Delay">Minimalno zakašnjenje</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
     </translation>
     <translation locale="es">
       <title>Colisión Inelástica</title>
@@ -706,7 +706,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">Ajustes</string>
       <string original="Threshold">Umbral</string>
       <string original="Minimum Delay">Retraso mínimo</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
     </translation>
     <translation locale="ka">
       <title>(არა)ინერტული დაჯახება</title>
@@ -747,7 +747,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">პარამეტრები</string>
       <string original="Threshold">გაშვების ზღვარი</string>
       <string original="Minimum Delay">საშუალო დაგვიანება</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">სამწუხაროდ, ეს არიმუშავებს ნელ ტელეფონებზე. გთხოვთ შეადაროთ აკუსტიკური საათის ექსპერიმენტი რეალურს საათს, რომ დარწმუნდეთ მის სისწორეში. თუ მუშაობს ამ ექსპერიმენტსაც არ უნდა ქონდეს პრობლემა.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">სამწუხაროდ, ეს არიმუშავებს ნელ ტელეფონებზე. გთხოვთ შეადაროთ აკუსტიკური საათის ექსპერიმენტი რეალურს საათს, რომ დარწმუნდეთ მის სისწორეში. თუ მუშაობს ამ ექსპერიმენტსაც არ უნდა ქონდეს პრობლემა.</string>
     </translation>
     <translation locale="hi">
       <title>(अ)प्रत्यास्थ संघट्ट</title>
@@ -788,7 +788,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">सेटिंग्स</string>
       <string original="Threshold">थ्रेशोल्ड</string>
       <string original="Minimum Delay">न्यूनतम डिले</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले ध्वनिक विरामघड़ी (स्टॉपवॉच) प्रयोग की तुलना नियमित घड़ी से करें। अगर वह काम करता है, तो यहां यह प्रयोग भी काम करना चाहिए।</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले ध्वनिक विरामघड़ी (स्टॉपवॉच) प्रयोग की तुलना नियमित घड़ी से करें। अगर वह काम करता है, तो यहां यह प्रयोग भी काम करना चाहिए।</string>
     </translation>
     <translation locale="ta">
       <title>(மீள்) மீட்சியற்ற மோதல்</title>
@@ -829,7 +829,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Settings">அமைப்புகள்</string>
       <string original="Threshold">வரம்பு</string>
       <string original="Minimum Delay">குறுகிய இடைவெளி</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">துரதிர்ஷ்டவசமாக, இது வேகம்குறைந்த தொலைபேசிகளில் இயங்காது. இந்தச் சோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்திக்கொள்ள, முதலில் ஒலி அடிப்படையிலான நிறுத்தற்கடிகாரச் சோதனையை ஒரு சாதாரண கடிகாரத்துடன் ஒப்பிட்டுப் பார்க்கவும். அது சரியாக வேலை செய்தால், இந்தச் சோதனையும் வேலை செய்யும்.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">துரதிர்ஷ்டவசமாக, இது வேகம்குறைந்த தொலைபேசிகளில் இயங்காது. இந்தச் சோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்திக்கொள்ள, முதலில் ஒலி அடிப்படையிலான நிறுத்தற்கடிகாரச் சோதனையை ஒரு சாதாரண கடிகாரத்துடன் ஒப்பிட்டுப் பார்க்கவும். அது சரியாக வேலை செய்தால், இந்தச் சோதனையும் வேலை செய்யும்.</string>
     </translation>
     <translation locale="bn">
       <string original="Settings">সেটিং</string>
@@ -878,7 +878,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">જાળવેલી સરેરાશ</string>
       <string original="Threshold">થ્રેશોલ્ડ</string>
       <string original="Minimum Delay">લઘુતમ વિલંબ</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા એકોસ્ટિક સ્ટોપવોચ પ્રયોગની તુલના નિયમિત ઘડિયાળ સાથે કરો જેથી ખાતરી કરી શકાય કે તે અપેક્ષા મુજબ કાર્ય કરે છે. જો તે કાર્ય કરે છે, તો આ પ્રયોગ પણ કાર્ય કરશે.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા એકોસ્ટિક સ્ટોપવોચ પ્રયોગની તુલના નિયમિત ઘડિયાળ સાથે કરો જેથી ખાતરી કરી શકાય કે તે અપેક્ષા મુજબ કાર્ય કરે છે. જો તે કાર્ય કરે છે, તો આ પ્રયોગ પણ કાર્ય કરશે.</string>
     </translation>
     <translation locale="kn"/>
     <translation locale="or"/>
@@ -921,7 +921,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">평균 남는 비율</string>
       <string original="Threshold">임계값</string>
       <string original="Minimum Delay">최소 지연</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 먼저 음향 스톱워치 실험을 일반 시계와 비교하여 실험이 예상대로 작동하는지 확인하십시오. 그것이 작동한다면, 이 실험은 여기에서도 작동할 것입니다.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 먼저 음향 스톱워치 실험을 일반 시계와 비교하여 실험이 예상대로 작동하는지 확인하십시오. 그것이 작동한다면, 이 실험은 여기에서도 작동할 것입니다.</string>
     </translation>
     <translation locale="az">
       <title>(Qeyri-)elastik toqquşma</title>
@@ -962,7 +962,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
       <string original="Average retained">Orta hesabla saxlanılan</string>
       <string original="Threshold">Hədd</string>
       <string original="Minimum Delay">Minimal gecikmə</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Təəssüf ki, bu, yavaş telefonlarda işləməyəcək. Əvvəlcə akustik saniyəölçən təcrübəsini adi saatla müqayisə edərək onun gözlənildiyi kimi işlədiyinə əmin olun. Əgər o işləyirsə, bu təcrübə də işləməlidir.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well.">Təəssüf ki, bu, yavaş telefonlarda işləməyəcək. Əvvəlcə akustik saniyəölçən təcrübəsini adi saatla müqayisə edərək onun gözlənildiyi kimi işlədiyinə əmin olun. Əgər o işləyirsə, bu təcrübə də işləməlidir.</string>
     </translation>
   </translations>
   <data-containers>
@@ -1172,7 +1172,7 @@ Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una su
         <output>mindelay</output>
       </edit>
       <separator height="1"/>
-      <info label="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well."/>
+      <info label="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure that the experiment is working as expected. If it works, this experiment here should work as well."/>
     </view>
   </views>
   <analysis requireFill="recording">

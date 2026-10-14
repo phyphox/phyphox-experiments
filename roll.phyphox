@@ -21,7 +21,7 @@
       <link label="Video" highlight="true">https://youtu.be/gqxBT3R0fw8</link>
       <string original="Velocity">Geschwindigkeit</string>
       <string original="Roll radius">Rollenradius</string>
-      <string original="Raw Data">Rohdaten</string>
+      <string original="Raw data">Rohdaten</string>
       <string original="Gyroscope y">Gyroskop y</string>
     </translation>
     <translation locale="cs">
@@ -34,7 +34,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Rychlost</string>
       <string original="Roll radius">Poloměr valení</string>
-      <string original="Raw Data">Neupravená data</string>
+      <string original="Raw data">Neupravená data</string>
       <string original="Gyroscope y">Gyroskop y</string>
     </translation>
     <translation locale="pl">
@@ -47,7 +47,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Prędkość</string>
       <string original="Roll radius">Promień rolki</string>
-      <string original="Raw Data">Surowe dane</string>
+      <string original="Raw data">Surowe dane</string>
       <string original="Gyroscope y">Żyroskop - składowa y</string>
     </translation>
     <translation locale="nl">
@@ -60,7 +60,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Snelheid</string>
       <string original="Roll radius">Straal van de rol</string>
-      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Raw data">Onbewerkte data</string>
       <string original="Gyroscope y">Gyroscoop y</string>
     </translation>
     <translation locale="ru">
@@ -73,7 +73,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Скорость</string>
       <string original="Roll radius">Радиус рулона</string>
-      <string original="Raw Data">Исходные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Gyroscope y">Гироскоп y</string>
     </translation>
     <translation locale="it">
@@ -86,7 +86,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Velocità</string>
       <string original="Roll radius">Raggio del cilindro</string>
-      <string original="Raw Data">Dati grezzi</string>
+      <string original="Raw data">Dati grezzi</string>
       <string original="Gyroscope y">Giroscopio y</string>
     </translation>
     <translation locale="el">
@@ -99,7 +99,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Ταχύτητα</string>
       <string original="Roll radius">Ακτίνα κυλίνδρου</string>
-      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Gyroscope y">Γυροσκόπιο y</string>
     </translation>
     <translation locale="ja">
@@ -112,7 +112,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">速度</string>
       <string original="Roll radius">回転体半径</string>
-      <string original="Raw Data">センサー出力</string>
+      <string original="Raw data">センサー出力</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>
     </translation>
     <translation locale="pt">
@@ -125,7 +125,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Velocidade</string>
       <string original="Roll radius">Raio do tubo</string>
-      <string original="Raw Data">Sensores</string>
+      <string original="Raw data">Sensores</string>
       <string original="Gyroscope y">Giroscópio y</string>
     </translation>
     <translation locale="tr">
@@ -138,7 +138,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Hız</string>
       <string original="Roll radius">Rulo yarıçapı</string>
-      <string original="Raw Data">Ham veri</string>
+      <string original="Raw data">Ham veri</string>
       <string original="Gyroscope y">Jiroskop y</string>
     </translation>
     <translation locale="zh_Hant">
@@ -151,7 +151,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">速度</string>
       <string original="Roll radius">滾動半徑</string>
-      <string original="Raw Data">原始數據</string>
+      <string original="Raw data">原始數據</string>
       <string original="Gyroscope y">y方向陀螺儀</string>
     </translation>
     <translation locale="fr">
@@ -164,7 +164,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Vitesse</string>
       <string original="Roll radius">Rayon du tube</string>
-      <string original="Raw Data">Données brutes</string>
+      <string original="Raw data">Données brutes</string>
       <string original="Gyroscope y">Gyroscope axe y</string>
     </translation>
     <translation locale="vi">
@@ -177,7 +177,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Vận tốc</string>
       <string original="Roll radius">Bán kính cuộn</string>
-      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Raw data">Dữ liệu thô</string>
       <string original="Gyroscope y">Con quay hồi chuyển y</string>
     </translation>
     <translation locale="zh_Hans">
@@ -190,7 +190,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">速度</string>
       <string original="Roll radius">滚筒半径</string>
-      <string original="Raw Data">原始数据</string>
+      <string original="Raw data">原始数据</string>
       <string original="Gyroscope y">y方向陀螺仪</string>
     </translation>
     <translation locale="sr">
@@ -203,7 +203,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Brzina</string>
       <string original="Roll radius">Prečnik tube</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Gyroscope y">Žiroskop y</string>
     </translation>
     <translation locale="sr_Latn">
@@ -216,7 +216,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Brzina</string>
       <string original="Roll radius">Prečnik tube</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Gyroscope y">Žiroskop y</string>
     </translation>
     <translation locale="es">
@@ -229,7 +229,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">Velocidad</string>
       <string original="Roll radius">Radio del Tubo</string>
-      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Raw data">Datos sin procesar</string>
       <string original="Gyroscope y">Giroscopio y</string>
     </translation>
     <translation locale="ka">
@@ -242,7 +242,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">სიჩქარე</string>
       <string original="Roll radius">ბრუნავი სხეულის რადიუსი</string>
-      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
       <string original="Gyroscope y">გიროსკოპი y</string>
     </translation>
     <translation locale="hi">
@@ -255,7 +255,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">वेग</string>
       <string original="Roll radius">रोल की त्रिज्या</string>
-      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
       <string original="Gyroscope y">जायरोस्कोप y</string>
     </translation>
     <translation locale="ta">
@@ -268,7 +268,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Velocity">வேகம்</string>
       <string original="Roll radius">உருளையின் ஆரம்</string>
-      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Raw data">மூலத்தரவு</string>
     </translation>
     <translation locale="bn"/>
     <translation locale="gu">
@@ -281,7 +281,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Roll radius">રોલ ત્રિજ્યા</string>
       <string original="Velocity">વેગ</string>
-      <string original="Raw Data">રો ડેટા</string>
+      <string original="Raw data">રો ડેટા</string>
       <string original="Gyroscope y">ગાયરોસ્કોપ y</string>
     </translation>
     <translation locale="kn"/>
@@ -296,7 +296,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Roll radius">굴림통 반지름</string>
       <string original="Velocity">속력</string>
-      <string original="Raw Data">원 데이터</string>
+      <string original="Raw data">원 데이터</string>
       <string original="Gyroscope y">자이로스코프 y</string>
     </translation>
     <translation locale="az">
@@ -309,7 +309,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
     </description>
       <string original="Roll radius">Rulonun radiusu</string>
       <string original="Velocity">Sürət</string>
-      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Raw data">Xam verilənlər</string>
       <string original="Gyroscope y">Giroskop y</string>
     </translation>
   </translations>
@@ -340,7 +340,7 @@ Umístěte své mobilní zařízení do papírového válce tak, aby se mohl ot�
         <input axis="y">vkmh</input>
       </graph>
     </view>
-    <view label="Raw Data">
+    <view label="Raw data">
       <graph label="Gyroscope y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true" color="ffff00">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrY</input>

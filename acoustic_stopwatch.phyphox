@@ -80,7 +80,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
       <string original="Time 4">Zeit 4</string>
       <string original="Time 5">Zeit 5</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Ändere die Schwelle auf einen Wert oberhalb der Umgebungsgeräusche, aber unterhalb des Auslösegeräusches (dies kannst du zum Beispiel im Experiment "Audio Oszilloskop" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden (beispielsweise durch Echos oder Hall).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche es erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche es erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet.</string>
       <string original="Many">Viele</string>
       <string original="Events">Ereignisse</string>
       <string original="Event number">Ereignis-Nummer</string>
@@ -105,7 +105,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Minimum Delay">Minimální zpoždění</string>
       <string original="Time">čas</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Nastavte práh tak, aby byl veškerý šum z okolí pod ním, avšak spouštěcí zvuk jej přesahoval (tyto hodnoty můžete zjistit pomocí experimentu zvukový rozsah). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem (ozvěny, zvuky vibrací).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Tento experiment bohužel nefunguje na pomalejších telefonech. Doporučujeme srovnat naměřený čas s měřením na klasických stopkách, abyste si ověřili, že experiment na vašem přístroji funguje správně.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Tento experiment bohužel nefunguje na pomalejších telefonech. Doporučujeme srovnat naměřený čas s měřením na klasických stopkách, abyste si ověřili, že experiment na vašem přístroji funguje správně.</string>
       <string original="Sequence">Sekvence</string>
       <string original="Time 1">Čas 1</string>
       <string original="Time 2">Čas 2</string>
@@ -138,7 +138,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time">Czas</string>
       <string original="Reset">Wyczyść</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Określ warunki wyzwalania tak, by były powyżej średniego szumu pochodzącego z otoczenia i jednocześnie urządzenie reagowało na sygnał dźwiękowy towarzyszący badanemu zdarzeniu (można do tego celu wykorzystać eksperyment 'Oscylogram audio'. Określenie minimalnego czasy opóźnienia pozwala zapobiec uruchamianiu stopera przez dźwięki otoczenia (wywołane m. in. zjawiskiem echa lub drganiami).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Niestety, stoper akustyczny nie działa prawidłowo na urządzeniach pracujących z niewielką częstotliwością. Przy pierwszym pomiarze należy otrzymane wyniki skonfrontować z wynikami uzyskanymi tradycyjnym stoperem.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Niestety, stoper akustyczny nie działa prawidłowo na urządzeniach pracujących z niewielką częstotliwością. Przy pierwszym pomiarze należy otrzymane wyniki skonfrontować z wynikami uzyskanymi tradycyjnym stoperem.</string>
       <string original="Sequence">Międzyczasy</string>
       <string original="Time 1">Czas 1</string>
       <string original="Time 2">Czas 2</string>
@@ -170,7 +170,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Minimum Delay">Minimale vertraging</string>
       <string original="Time">Tijd</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Wijzig de drempelwaarde om boven het omgevingsgeluidsniveau te komen, maar onder de triggerniveau (u kunt het 'audioscope' experiment proberen om dit te controleren). Stel ook de minimale vertraging in om triggers te voorkomen die korter zijn dan die tijd (bijvoorbeeld vanwege echo of nagalm).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Helaas werkt dit niet op langzame smartphones. Vergelijk dit eerst met een gewone klok om er zeker van te zijn dat het experiment werkt zoals verwacht.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Helaas werkt dit niet op langzame smartphones. Vergelijk dit eerst met een gewone klok om er zeker van te zijn dat het experiment werkt zoals verwacht.</string>
       <string original="Sequence">Opeenvolgend</string>
       <string original="Time 1">Tijdstip 1</string>
       <string original="Time 2">Tijdstip 2</string>
@@ -202,7 +202,7 @@ Po spuštění experimentu se stopky zapnou po prvním zvukovém signálu, kter�
       <string original="Time">Время</string>
       <string original="Reset">Сброс</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Измените предельное значение выше уровня шума окружающей среды, но ниже порога (вы можете попробовать эксперимент «Акустический диапазон», чтобы проверить их). Также установите минимальную задержку, чтобы избежать триггеров короче, чем это время (например, из-за эха или реверберации).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">К сожалению, это не будет работать на медленных телефонах. Сравните с обычными часами, чтобы убедиться, что эксперимент работает должным образом.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">К сожалению, это не будет работать на медленных телефонах. Сравните с обычными часами, чтобы убедиться, что эксперимент работает должным образом.</string>
       <string original="Sequence">Последовательность</string>
       <string original="Time 1">Время 1</string>
       <string original="Time 2">Время 2</string>
@@ -235,7 +235,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Minimum Delay">Ritardo minimo</string>
       <string original="Time">Tempo</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Aggiusta il valore di soglia al di sopra del rumore di fondo ma al di sotto del rumore del trigger (puoi controllare questi valori con l’esperimento “Audioscopio”). Aggiusta il ritardo minimo per evitare trigger più brevi di questo valore (dovuti per esempio ad eco).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Purtroppo questo esperimento non funziona su tutti i telefoni. Per assicurarti che l’esperimento funzioni correttamente, confronta il tempo misurato dal cronometro acustico con quello misurato con un normale orologio.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Purtroppo questo esperimento non funziona su tutti i telefoni. Per assicurarti che l’esperimento funzioni correttamente, confronta il tempo misurato dal cronometro acustico con quello misurato con un normale orologio.</string>
       <string original="Sequence">Serie</string>
       <string original="Time 1">Tempo 1</string>
       <string original="Time 2">Tempo 2</string>
@@ -268,7 +268,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">χρόνος</string>
       <string original="Reset">Επαναφορά</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Αλλάξτε το κατώφλι ενεργοποίησης ώστε να είναι πάνω από τη στάθμη του περιβαλλοντικού θορύβου, αλλά κάτω από τον ήχο ενεργοποίησης (μπορείτε να το δοκιμάσετε χρησιμοποιώντας το πείραμα με τον ηχητικό παλμογράφο). Επίσης θέστε την ελάχιστη καθυστέρηση για να αποφύγεται ενεργοποιήσεις μικρότερες από αυτό το διάστημα (για παράδειγμα λόγω αντηχήσεων ή ηχούς).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Δυστυχώς, δεν θα λειτουργήσει σε αργά τηλέφωνα. Παρακαλούμε συγκρίνετε αρχικά με ένα κανονικό ρολοϊ, ώστε να βεβαιωθείτε ότι το πείραμα λειτουργεί όπως αναμένονταν.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Δυστυχώς, δεν θα λειτουργήσει σε αργά τηλέφωνα. Παρακαλούμε συγκρίνετε αρχικά με ένα κανονικό ρολοϊ, ώστε να βεβαιωθείτε ότι το πείραμα λειτουργεί όπως αναμένονταν.</string>
       <string original="Sequence">Σειριακό</string>
       <string original="Time 1">Χρόνος 1</string>
       <string original="Time 2">Χρόνος 2</string>
@@ -301,7 +301,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">時間</string>
       <string original="Reset">リセット</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">環境ノイズレベル以上となるように閾値を変更 (聴音器により確認可能).また最小遅延時間は，設定値よりも短い信号を無視する設定 (ex.反響音や残響音等の意図しないタイマー動作を防止する)．</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">残念ながら，このアプリケーションは動作速度が遅いスマートフォンでは動作をしません．予測通り実験が動作するかを確認するために，はじめに通常のストップウォッチの計測結果と比較してください．</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">残念ながら，このアプリケーションは動作速度が遅いスマートフォンでは動作をしません．予測通り実験が動作するかを確認するために，はじめに通常のストップウォッチの計測結果と比較してください．</string>
       <string original="Sequence">ラップ</string>
       <string original="Time 1">時間 1</string>
       <string original="Time 2">時間 2</string>
@@ -334,7 +334,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">Tempo</string>
       <string original="Reset">Reiniciar</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Mude o limiar para que fique acima do nível de ruído mas abaixo do barulho de disparo (você pode usar o experimento do osciloscópio de som para ver os valores). Também defina o atraso mínimo para evitar que o barulho do disparo seja menor que esse tempo (por exemplo devido a eco ou reverberação).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Infelizmente, isto não irá funcionar em aparelhos lentos. Por favor, compara com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Infelizmente, isto não irá funcionar em aparelhos lentos. Por favor, compara com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado.</string>
       <string original="Sequence">Sequência</string>
       <string original="Time 1">Tempo 1</string>
       <string original="Time 2">Tempo 2</string>
@@ -366,7 +366,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">Zaman</string>
       <string original="Reset">Sıfırla</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Eşiği çevre gürültü seviyesinin üzerinde, ancak tetikleme gürültüsünün altında olacak şekilde değiştirin (bunları kontrol etmek için ses kapsam deneyini yapabilirsiniz). Ayrıca, tetikleyicilerin o andan daha kısa sürmesini önlemek için (örneğin yankı veya yankılanma nedeniyle) minimum gecikmeyi ayarlayın.</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Ne yazık ki, bu deney yavaş telefonlarda çalışmaz. Deneyin beklendiği gibi çalıştığından emin olmak için lütfen önce bir saatle karşılaştırın.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Ne yazık ki, bu deney yavaş telefonlarda çalışmaz. Deneyin beklendiği gibi çalıştığından emin olmak için lütfen önce bir saatle karşılaştırın.</string>
       <string original="Sequence">Sıralama</string>
       <string original="Time 1">Zaman 1</string>
       <string original="Time 2">Zaman 2</string>
@@ -400,7 +400,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">時間</string>
       <string original="Reset">重置</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">你可以調整門檻使之高於環境音量，但其必須小於處發聲音的音量（你可以利用聲學觀測器查看），並且調整最小延遲以防止重複觸發（如回音或反射的實驗）。</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">不幸地是，這在較慢的手機上並不能使用。請先將之與標準時鐘比較，以確保該實驗能如期地運行。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">不幸地是，這在較慢的手機上並不能使用。請先將之與標準時鐘比較，以確保該實驗能如期地運行。</string>
       <string original="Sequence">序列</string>
       <string original="Time 1">時間 1</string>
       <string original="Time 2">時間 2</string>
@@ -426,7 +426,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">Durée</string>
       <string original="Reset">Remise à zéro</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Choisissez un seuil plus élevé que le bruit ambiant, mais plus bas que le son de déclenchement (vous pouvez utiliser l'expérience « Mesure du son » pour cela). La valeur du délai minimum doit être plus grande que la durée du son qui déclenche le lancement du chronomètre, afin que ce son ne déclenche pas également l'arrêt du chronomètre.</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Malheureusement certains téléphones sont trop lents pour cette expérience. Comparez une fois vos résultats à ceux d'un autre chronomètre pour vérifier que cette expérience fonctionne correctement.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Malheureusement certains téléphones sont trop lents pour cette expérience. Comparez une fois vos résultats à ceux d'un autre chronomètre pour vérifier que cette expérience fonctionne correctement.</string>
       <string original="Sequence">Répété</string>
       <string original="Time 1">Temps 1</string>
       <string original="Time 2">Temps 2</string>
@@ -459,7 +459,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">Thời gian</string>
       <string original="Reset">Đặt lại</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Thay đổi ngưỡng ở trên mức tiếng ồn môi trường, nhưng dưới mức nhiễu kích hoạt (bạn có thể thử thí nghiệm độ to âm thanh để kiểm tra các mức này). Đồng thời đặt độ trễ tối thiểu để tránh các kích hoạt ngắn hơn thời gian đó (ví dụ do phản xạ âm).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Thật không may, cái này sẽ không hoạt động trên điện thoại chậm. Vui lòng so sánh với đồng hồ thông thường trước, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Thật không may, cái này sẽ không hoạt động trên điện thoại chậm. Vui lòng so sánh với đồng hồ thông thường trước, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi.</string>
       <string original="Sequence">Nối tiếp</string>
       <string original="Time 1">Thời gian 1</string>
       <string original="Time 2">Thời gian 2</string>
@@ -493,7 +493,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">时间</string>
       <string original="Reset">复位</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">调整阈值使其高于环境噪音，但低于触发值（可以尝试利用“音频范围”检测这些值）。并设置最小时延来避免重复触发（例如回声或混响）。</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">不幸地是，这在慢速手机上并不能实现。请先将其与常规的闹钟相比较，以确保该实验能按预期运行。</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">不幸地是，这在慢速手机上并不能实现。请先将其与常规的闹钟相比较，以确保该实验能按预期运行。</string>
       <string original="Sequence">序列</string>
       <string original="Time 1">时间 1</string>
       <string original="Time 2">时间 2</string>
@@ -525,7 +525,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Minimum Delay">Minimalno zakašnjenje</string>
       <string original="Time">Vreme</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Promenite prag da bude iznad nivoa pozadinske buke, ali ga spustite ispod zvuka okidača (možete probati eksperiment Zvučno polje radi provere). Takođe, postavite minimalno zakašnjenje kako biste izbegli okidače kraće od tog vremena (na primer, zbog eha ili odjeka).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo prvo uporedite sa regularnim satom, kako biste se uverili da eksperiment radi kako treba.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo prvo uporedite sa regularnim satom, kako biste se uverili da eksperiment radi kako treba.</string>
       <string original="Sequence">Niz</string>
       <string original="Time 1">Vreme 1</string>
       <string original="Time 2">Vreme 2</string>
@@ -557,7 +557,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Minimum Delay">Minimalno zakašnjenje</string>
       <string original="Time">Vreme</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Promenite prag da bude iznad nivoa pozadinske buke, ali ga spustite ispod zvuka okidača (možete probati eksperiment Zvučno polje radi provere). Takođe, postavite minimalno zakašnjenje kako biste izbegli okidače kraće od tog vremena (na primer, zbog eha ili odjeka).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo prvo uporedite sa regularnim satom, kako biste se uverili da eksperiment radi kako treba.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo prvo uporedite sa regularnim satom, kako biste se uverili da eksperiment radi kako treba.</string>
       <string original="Sequence">Niz</string>
       <string original="Time 1">Vreme 1</string>
       <string original="Time 2">Vreme 2</string>
@@ -589,7 +589,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">tiempo</string>
       <string original="Reset">Reiniciar</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Cambie el umbral para que esté por encima del nivel de ruido ambiental, pero por debajo del ruido de activación (puede probar el experimento de visualización de audio para verificar ésto). Establezca también el retraso mínimo para evitar disparadores más cortos que ese tiempo (por ejemplo, debido al eco o la reverberación).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Desafortunadamente, esto no funcionará en teléfonos lentos. Primero, compara con un reloj normal para asegurarte de que el experimento funciona como se esperaba.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Desafortunadamente, esto no funcionará en teléfonos lentos. Primero, compara con un reloj normal para asegurarte de que el experimento funciona como se esperaba.</string>
       <string original="Sequence">Secuencia</string>
       <string original="Time 1">Tiempo 1</string>
       <string original="Time 2">Tiempo 2</string>
@@ -622,7 +622,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">დრო</string>
       <string original="Reset">გადატვირთვა</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">შეცვალე სიგნალის ზღვარის დონე გარემოს ხმაურზე მაღლა, თუმცა გაშვების სიგნალზე დაბლა ( თქვენ შეგიძლიათ აუდიოსკოპის ექპერიმენტის გამოყენება ამისთვის). ასევე დააყენეთ მინიმუმი დაგვიანების დრო რადგან მაშინათვე არ მოხდეს წამზომის გათიშვა, მაგალითად ექოთი.</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">სამწუხაროდ, ეს არ იმუშავებს ნელ ტელეფონებზე. გთხოვთ პირველ რიგში შეადაროთ ჩვეულებრივ საათს, რომ დაწმუნდეთ სისწორეში.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">სამწუხაროდ, ეს არ იმუშავებს ნელ ტელეფონებზე. გთხოვთ პირველ რიგში შეადაროთ ჩვეულებრივ საათს, რომ დაწმუნდეთ სისწორეში.</string>
       <string original="Sequence">თანმიმდევრობა</string>
       <string original="Time 1">დრო 1</string>
       <string original="Time 2">დრო 2</string>
@@ -656,7 +656,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">समय</string>
       <string original="Reset">रीसेट</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">थ्रेशोल्ड को वातावरणीय शोर स्तर से ऊपर, लेकिन ट्रिगर शोर के नीचे बदलें (आप इन्हें जांचने के लिए ऑडियो स्कोप प्रयोग का प्रयास कर सकते हैं)। उस समय से कम के ट्रिगर से बचने के लिए न्यूनतम विलंब (डिले) भी सेट करें (उदाहरण के लिए प्रतिध्वनि या प्रतिध्वनि के कारण)।</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले सामान्य घड़ी से तुलना करें।</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले सामान्य घड़ी से तुलना करें।</string>
       <string original="Sequence">क्रम</string>
       <string original="Time 1">समय 1</string>
       <string original="Time 2">समय 2</string>
@@ -690,7 +690,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">நேரம்</string>
       <string original="Reset">மீட்டமை</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">சுற்றுப்புற இரைச்சல் அளவை விட அதிகமாகவும், ஆனால் தூண்டுதல் சத்தத்திற்குக் குறைவாகவும் இருக்குமாறு வரம்பை மாற்றவும் (இவற்றைச் சரிபார்க்க ஒலி அளவி பரிசோதனையை நீங்கள் முயற்சி செய்யலாம்). அந்த நேரத்தை விடக் குறைவான தூண்டுதல்களைத் தவிர்க்க குறுகிய இடைவெளியையும் அமைக்கவும் (எடுத்துக்காட்டாக எதிரொலி அல்லது எதிரொலி காரணமாக).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">துரதிர்ஷ்டவசமாக, இது மெதுவான தொலைபேசிகளில் வேலை செய்யாது. பரிசோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்த, முதலில் வழக்கமான கடிகாரத்துடன் ஒப்பிடவும்.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">துரதிர்ஷ்டவசமாக, இது மெதுவான தொலைபேசிகளில் வேலை செய்யாது. பரிசோதனை எதிர்பார்த்தபடி செயல்படுகிறதா என்பதை உறுதிப்படுத்த, முதலில் வழக்கமான கடிகாரத்துடன் ஒப்பிடவும்.</string>
       <string original="Sequence">வரிசை</string>
       <string original="Time 1">நேரம் ௧</string>
       <string original="Time 2">நேரம் ௨</string>
@@ -734,7 +734,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">સમય</string>
       <string original="Reset">રીસેટ</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">થ્રેશોલ્ડને પર્યાવરણીય અવાજ સ્તરથી ઉપર રાખો, પરંતુ ટ્રીગર અવાજથી નીચે રાખો (આ તપાસવા માટે તમે ઓડિઓ સ્કોપ પ્રયોગ અજમાવી શકો છો). તે સમય કરતાં ટૂંકા ટ્રીગરને ટાળવા માટે ન્યૂનતમ વિલંબ પણ સેટ કરો (ઉદાહરણ તરીકે, ઇકો અથવા પડઘાને કારણે).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા નિયમિત ઘડિયાળ સાથે સરખામણી કરો, ખાતરી કરવા માટે કે પ્રયોગ અપેક્ષા મુજબ કામ કરી રહ્યો છે.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">કમનસીબે, આ ધીમા ફોન પર કામ કરશે નહીં. કૃપા કરીને પહેલા નિયમિત ઘડિયાળ સાથે સરખામણી કરો, ખાતરી કરવા માટે કે પ્રયોગ અપેક્ષા મુજબ કામ કરી રહ્યો છે.</string>
       <string original="Sequence">ક્રમ</string>
       <string original="Time 1">ટાઇમ 1</string>
       <string original="Time 2">ટાઇમ 2</string>
@@ -770,7 +770,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">시간</string>
       <string original="Reset">초기화</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">임계값을 환경 소음 레벨보다 높지만 트리거 노이즈 미만으로 변경합니다(음향 파형(Audio Scope) 실험을 통해 이를 확인할 수 있음). 또한 최소 지연을 설정하여 트리거가 특정 시간보다 짧아지지 않도록 합니다(예: 메아리 또는 잔향에 의한 것).</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 실험이 예상대로 작동하는지 확인하려면 먼저 일반 시계와 비교하십시오.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">불행히도, 이것은 느린 휴대전화에서는 작동하지 않습니다. 실험이 예상대로 작동하는지 확인하려면 먼저 일반 시계와 비교하십시오.</string>
       <string original="Sequence">순서</string>
       <string original="Time 1">시간 1</string>
       <string original="Time 2">시간 2</string>
@@ -803,7 +803,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <string original="Time">vaxt</string>
       <string original="Reset">Sıfırla</string>
       <string original="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation).">Həddi ətraf küy səviyyəsindən yuxarı, lakin trigger səsindən aşağı olacaq şəkildə dəyişin (bunları yoxlamaq üçün səs ossiloqrafı təcrübəsini sınaya bilərsiniz). Həmçinin minimal gecikməni təyin edin ki, bu vaxtdan qısa triggerlərin (məsələn, əks-səda və ya reverberasiya səbəbindən) qarşısı alınsın.</string>
-      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected.">Təəssüf ki, bu, yavaş telefonlarda işləməyəcək. Təcrübənin gözlənildiyi kimi işlədiyinə əmin olmaq üçün əvvəlcə adi saatla müqayisə edin.</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected.">Təəssüf ki, bu, yavaş telefonlarda işləməyəcək. Təcrübənin gözlənildiyi kimi işlədiyinə əmin olmaq üçün əvvəlcə adi saatla müqayisə edin.</string>
       <string original="Sequence">Ardıcıllıq</string>
       <string original="Time 1">Vaxt 1</string>
       <string original="Time 2">Vaxt 2</string>
@@ -846,7 +846,7 @@ Una volta avviato l'esperimento, il cronometro parte alla prima rilevazione di u
       <separator height="1"/>
       <info label="Change the threshold to be above the environmental noise level, but below the trigger noise (you can try the audio scope experiment to check these). Also set the minimum delay to avoid triggers shorter than that time (for example due to echo or reverberation)."/>
       <separator height="1"/>
-      <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure, that the experiment is working as expected."/>
+      <info label="Unfortunately, this won't work on slow phones. Please compare to a regular clock first, to make sure that the experiment is working as expected."/>
     </view>
     <view label="Sequence">
       <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">

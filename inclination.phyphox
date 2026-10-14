@@ -9,7 +9,7 @@ iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 
         This tool uses the accelerometer to determine the inclination of the phone. When the phone is resting on a table, the inclination is zero. For non-zero inclination, the direction of the inclination is given as rotation.
 
-        Note, that the definition of the angles has been chosen for the task of measuring an inclination (especially for inclined plane experiments) independent of the rotation (about the z axis) of the phone.
+        Note that the definition of the angles has been chosen for the task of measuring an inclination (especially for inclined plane experiments) independent of the rotation (about the z axis) of the phone.
     </description>
   <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Inclination</link>
   <translations>

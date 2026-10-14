@@ -18,7 +18,7 @@
                 Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment "Autokorrelation".
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Peak frequency">Frequenzspitze</string>
       <string original="Fourier Transform">Fourier-Transformierte</string>
       <string original="Settings">Einstellungen</string>
       <string original="Raw data">Rohdaten</string>
@@ -49,7 +49,7 @@
 Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem, pak můžete docílit lepších výsledků použitím experimentu "autokorelace".
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Peak frequency">Maximální frekvence</string>
       <string original="Musical note">Tón</string>
       <string original="Low">Nízká</string>
       <string original="High">Vysoká</string>
@@ -81,7 +81,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             Podczas eksperymentu, za pomocą mikrofonu urządzenia, rejestrowany jest dźwięk, a uzyskane widmo częstotliwościowe jest rezultatem poddania danych analizie Fourier'a (FFT). W przypadku analizy dźwięku o pojedynczej częstotliwości bardziej precyzyjne wyniki otrzymuje się w eksperymencie "Autokorelacja".
     </description>
       <string original="Spectrum">Widmo</string>
-      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Peak frequency">Częstotliwość dominująca</string>
       <string original="Musical note">Nuta</string>
       <string original="Low">Niska</string>
       <string original="High">Wysoka</string>
@@ -110,7 +110,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
 
              Dit experiment neemt audio op via de microfoon en berekent het frequentiespectrum via een Fourier-transformatie (FFT). Als u slechts één toon hebt met een enkele frequentie, krijgt u mogelijk nauwkeuriger resultaten van het audio-experiment "autocorrelatie".
     </description>
-      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Peak frequency">Piekfrequentie</string>
       <string original="Musical note">Muzieknoot</string>
       <string original="Low">Laag</string>
       <string original="High">Hoog</string>
@@ -137,7 +137,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             Этот эксперимент записывает звук с микрофона и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Если у вас есть только один тон с одной частотой, вы можете получить более точные результаты из акустического эксперимента «автокорреляция».
     </description>
       <string original="Spectrum">Спектр</string>
-      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Peak frequency">Частота пиков</string>
       <string original="Musical note">Музыкальная нота</string>
       <string original="Low">Низкая</string>
       <string original="High">Низкая</string>
@@ -171,7 +171,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             Questo esperimento registra audio dal microfono e calcola il suo spettro in frequenza attraverso una trasformata di Fourier (FFT). Risultati più precisi si possono ottenere con l'esperimento "autocorrelazione" dell'audio per suoni semplici, composti di un'unica frequenza.
     </description>
       <string original="Spectrum">Spettro</string>
-      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Peak frequency">Frequenza di picco</string>
       <string original="Musical note">Nota musicale</string>
       <string original="Low">Bassa</string>
       <string original="High">Alta</string>
@@ -200,7 +200,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             Σ' αυτό το πείραμα καταγράφεται ήχος από το μικρόφωνο και υπολογίζεται η συχνότητά του με χρήση μετασχηματισμού Fourier (FFT). Αν πρόκειται για ένα απλό τόνο με μια συχνότητα, είναι πιθανό να πάρετε ακριβέστερα αποτελέσματα με το πείραμα της συχνότητας ήχου που χρησιμοποιεί αυτοσυσχέτιση.
     </description>
       <string original="Spectrum">Φάσμα</string>
-      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Peak frequency">Συχνότητα μεγίστου</string>
       <string original="Musical note">Μουσική νότα</string>
       <string original="Low">Χαμηλά</string>
       <string original="High">Υψηλή</string>
@@ -231,7 +231,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
 本実験は，マイクから音声を録音し，フーリエ変換により周波数スペクトルの計算を行います．単一周波数を有する単一音源を利用する場合は，"音響の自己相関"実験の方がより正確な測定結果が得られるかもしれません．
     </description>
       <string original="Spectrum">スペクトル</string>
-      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Peak frequency">ピーク周波数</string>
       <string original="Musical note">音名</string>
       <string original="Low">低い</string>
       <string original="Cents from note">音名に対するセント値</string>
@@ -259,7 +259,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
             Este experimento grava o áudio do microfone e calcula o espectro de frequência através de uma transformada de Fourier (FFT). Caso você tenha um tom com apenas uma frequência, você pode ter resultados mais precisos através do experimento de "autocorrelação" do áudio .
     </description>
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Peak frequency">Frequência do pico</string>
       <string original="Musical note">Nota musical</string>
       <string original="Low">Baixa</string>
       <string original="High">Alta</string>
@@ -287,7 +287,7 @@ Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrál
 Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Tek frekanslı tek bir tonunuz varsa, "otokorelasyon" ses denemesinden daha kesin sonuçlar alabilirsiniz.
     </description>
       <string original="Spectrum">Spektrum</string>
-      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Peak frequency">Zirve frekansı</string>
       <string original="Musical note">Müzik notası</string>
       <string original="Low">Düşük</string>
       <string original="High">Yüksek</string>
@@ -315,7 +315,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
 	此實驗由麥克風錄製聲音，並利用快速傅立葉轉換 (FFT)計算得頻譜。如果你只有單頻的音調，你可能可以在「自相關」聲學實驗中得到更精確的結果。
     </description>
       <string original="Spectrum">加速頻譜</string>
-      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Peak frequency">峰值頻率</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
       <string original="High">高</string>
@@ -343,7 +343,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             Cette expérience enregistre le signal audio du micro et calcule son spectre fréquentiel par une transformée de Fourier (FFT). Si le signal ne comporte qu'une seule tonalité avec une seule fréquence, vous pouvez obtenir des résultats plus précis avec l'expérience « Autocorrélation Audio ».
     </description>
       <string original="Spectrum">Spectre</string>
-      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Peak frequency">Fréquence du pic</string>
       <string original="Musical note">Note Musicale</string>
       <string original="Low">Basse</string>
       <string original="High">Haute</string>
@@ -375,7 +375,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             Thí nghiệm này ghi lại âm thanh từ micrô và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Nếu bạn chỉ có một đơn âm với một tần số duy nhất, bạn có thể nhận được kết quả chính xác hơn từ thí nghiệm âm thanh "tự tương quan".
     </description>
       <string original="Spectrum">Phổ</string>
-      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Peak frequency">Tần số đỉnh</string>
       <string original="Musical note">Nốt nhạc</string>
       <string original="Low">Thấp</string>
       <string original="High">Cao</string>
@@ -407,7 +407,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             本实验记录来自麦克风的声音并通过快速傅里叶变换（FFT）来计算它的频谱。如果你只有一个单一频率的音调，你可以在“自相关”声学实验中得到更精确的结果。
     </description>
       <string original="Spectrum">频谱</string>
-      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Peak frequency">峰值频率</string>
       <string original="Musical note">音符</string>
       <string original="Low">低</string>
       <string original="High">高</string>
@@ -439,7 +439,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             Ovaj eksepriment snima zvuk iz mikrofona i računa njegov spektar frekvencija po sistemu Fourierove transformacije (FFT). Ako imate samo jedan ton sa jednom frekvencijom, možete dobiti preciznije rezultate iz "autokorelacija" zvučnog eksperimenta.
     </description>
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Musical note">Muzička nota</string>
       <string original="Low">Niska</string>
       <string original="High">Visoka</string>
@@ -466,7 +466,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             Ovaj eksepriment snima zvuk iz mikrofona i računa njegov spektar frekvencija po sistemu Fourierove transformacije (FFT). Ako imate samo jedan ton sa jednom frekvencijom, možete dobiti preciznije rezultate iz "autokorelacija" zvučnog eksperimenta.
     </description>
       <string original="Spectrum">Spektar</string>
-      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Peak frequency">Maskimalna frekvencija</string>
       <string original="Musical note">Muzička nota</string>
       <string original="Low">Niska</string>
       <string original="High">Visoka</string>
@@ -493,7 +493,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
              Este experimento graba audio del micrófono y calcula su espectro de frecuencia a través de una transformada de Fourier (FFT). Si sólo se tiene un único tono con una sola frecuencia, puede obtener resultados más precisos con el experimento de audio de "autocorrelación".
     </description>
       <string original="Spectrum">Espectro</string>
-      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Peak frequency">Pico de frecuencia</string>
       <string original="Musical note">Nota musical</string>
       <string original="Low">Bajo</string>
       <string original="High">Alto</string>
@@ -524,7 +524,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             ეს ექსპერიმენტი იწერს ხმას მიკროფონის საშუალებით და ითვლის მის სიხშირის სპექტრს ფურიეს გარდაქმნებით. თუ თქვენ გაქვთ მონო სიგნალი ერთი სიხშირით, ალბათ უკეთეს შედეგს მიიღებთ "აუტოკორელაციის" აუდიო ექსპერიმენტით.
     </description>
       <string original="Spectrum">სპექტრი</string>
-      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="Peak frequency">პიკი-სიხშირე</string>
       <string original="Musical note">მუსიკალური ნოტი</string>
       <string original="Low">დაბალი</string>
       <string original="High">მაღალი</string>
@@ -556,7 +556,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
 यह प्रयोग माइक्रोफ़ोन से ऑडियो रिकॉर्ड (श्रव्य दर्ज़) करता है, और फूरियर रूपांतरण (FFT) के माध्यम से इसके आवृत्ति वर्णक्रम (स्पेक्ट्रम) की गणना करता है। यदि आपके पास एकल आवृत्ति वाला केवल एक स्वर है, तो आपको "स्वतःसहसंबंध" श्रव्य प्रयोग से अधिक सटीक परिणाम मिल सकते हैं।
     </description>
       <string original="Spectrum">वर्णक्रम</string>
-      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="Peak frequency">शिखर (Peak) आवृत्ति</string>
       <string original="Musical note">संगीत नोट</string>
       <string original="Low">निम्न</string>
       <string original="High">उच्च</string>
@@ -589,7 +589,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
             இந்தப் பரிசோதனையானது ஒலிவாங்கியிலிருந்து ஒலியைப் பதிவுசெய்து அதன் அதிர்வெண் நிறமாலையை Fourier உருமாற்றம் (FFT) மூலம் கணக்கிடுகிறது. உங்களிடம் ஒற்றை அதிர்வெண் கொண்ட ஒற்றை ஒலி மட்டுமே இருந்தால், "தன்னியக்கத் தொடர்பு" ஒலியியல் பரிசோதனையிலிருந்து நீங்கள் மிகவும் துல்லியமான முடிவுகளைப் பெறலாம்.
     </description>
       <string original="Spectrum">நிறமாலை</string>
-      <string original="Peak-Frequency">உச்ச-அதிர்வெண்</string>
+      <string original="Peak frequency">உச்ச-அதிர்வெண்</string>
       <string original="Musical note">இசை வடிவம்</string>
       <string original="Low">குறைவான</string>
       <string original="High">அதிகமான</string>
@@ -623,7 +623,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </description>
       <string original="Settings">સેટિંગ્સ</string>
       <string original="Spectrum">સ્પેક્ટ્રમ</string>
-      <string original="Peak-Frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
+      <string original="Peak frequency">ઉચ્ચતમ ફ્રીક્વન્સી</string>
       <string original="Musical note">સંગીતમય ટોન</string>
       <string original="Low">નિમ્ન</string>
       <string original="High">ઉચ્ચ</string>
@@ -656,7 +656,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </description>
       <string original="Settings">설정</string>
       <string original="Spectrum">스펙트럼</string>
-      <string original="Peak-Frequency">최대 진동수</string>
+      <string original="Peak frequency">최대 진동수</string>
       <string original="Musical note">음표</string>
       <string original="Low">저</string>
       <string original="High">고</string>
@@ -687,7 +687,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
     </description>
       <string original="Settings">Tənzimləmələr</string>
       <string original="Spectrum">Spektr</string>
-      <string original="Peak-Frequency">Pik tezlik</string>
+      <string original="Peak frequency">Pik tezlik</string>
       <string original="Musical note">Musiqi notu</string>
       <string original="Low">Aşağı</string>
       <string original="High">Yuxarı</string>
@@ -768,7 +768,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
   </output>
   <views>
     <view label="Spectrum">
-      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+      <value label="Peak frequency" unit="[[unit_short_hertz]]">
         <input>f0</input>
       </value>
       <separator height="1"/>
@@ -862,7 +862,7 @@ Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (
         <input axis="y">tmap</input>
         <input axis="z">fftmap</input>
       </graph>
-      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
         <input axis="x">t</input>
         <input axis="y">f0</input>
       </graph>

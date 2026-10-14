@@ -5,9 +5,9 @@
 
 This configuration allows you to set a lower threshold and an upper threshold for the average hue in the measurement rectangle. If the hue falls within the range, the current time is noted as a trigger event. Times between different events as well as the duration of these events are recorded.
 
-Note, that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
+Note that phyphox expresses hue in the range of 0° to 360° and uses cyclic averaging. If the lower threshold is larger than the upper threshold, the hue range across the 360° to 0° is selected. For example, a range from 10° to 30° will trigger on 20°, but not on 40°. But a range from 350° to 10° will trigger on 359° as well as 0°, but not on 20°.
 
-The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note, that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
+The temporal resolution is determined by the camera's preview frame rate, which typically is fixed at 30fps, resulting in a sample rate of 33 ms. Note that phyphox uses the preview stream of the camera for real-time analysis, which is limited to this rate. If your phone offers high-speed or slow motion recordings, the higher frame rates are only available in the recording (not in realtime), which is currently not used by phyphox.
 
 Be aware that automatic white balance as well as auto exposure may cause a drift in the determined colors and thus in the exact thresholds for triggering.
 </description>

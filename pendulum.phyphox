@@ -38,7 +38,7 @@
       <string original="Resonance">Resonanz</string>
       <string original="Length">Länge</string>
       <string original="Autocorrelation">Autokorrelation</string>
-      <string original="Raw Data">Rohdaten</string>
+      <string original="Raw data">Rohdaten</string>
       <string original="Here, you can enter the length of your pendulum (pivot point to center of mass) and determine the earth's acceleration g.">Hier kannst du die Länge deines Pendels (vom Drehpunkt zum Schwerpunkt) eingeben und darüber die Erdbeschleunigung g bestimmen.</string>
       <string original="Here, you can determine the length of your pendulum (pivot point to center of mass) assuming g = 9.81 m/s².">Hier kannst du die Länge deines Pendels (vom Drehpunkt zum Schwerpunkt) bestimmen unter der Annahme g = 9.81 m/s².</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
@@ -76,7 +76,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Rezonance</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
       <string original="Autocorrelation">Autokorelace</string>
-      <string original="Raw Data">Neupravená data</string>
+      <string original="Raw data">Neupravená data</string>
       <string original="Gyroscope x">Gyroskop x</string>
       <string original="Gyroscope y">Gyroskop y</string>
       <string original="Gyroscope z">Gyroskop z</string>
@@ -108,7 +108,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Rezonans</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string>
       <string original="Autocorrelation">Autokorelacja</string>
-      <string original="Raw Data">Surowe dane</string>
+      <string original="Raw data">Surowe dane</string>
       <string original="Gyroscope x">Żyroskop - składowa x</string>
       <string original="Gyroscope y">Żyroskop - składowa y</string>
       <string original="Gyroscope z">Żyroskop - składowa z</string>
@@ -140,7 +140,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Resonantie</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Op dit tabblad wordt de amplitude uitgezet tegen de gemeten frequentie. Je kunt dit gebruiken om de resonantie van een gedwongen oscillator te bestuderen. De amplitude is genormaliseerd op een bereik van 0 tot 1.</string>
       <string original="Autocorrelation">Autocorrelatie</string>
-      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Raw data">Onbewerkte data</string>
       <string original="Gyroscope x">Gyroscoop x</string>
       <string original="Gyroscope y">Gyroscoop y</string>
       <string original="Gyroscope z">Gyroscoop z</string>
@@ -171,7 +171,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Резонанс</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
       <string original="Autocorrelation">Автокорреляция</string>
-      <string original="Raw Data">Исходные данные</string>
+      <string original="Raw data">Исходные данные</string>
       <string original="Gyroscope x">Гироскоп x</string>
       <string original="Gyroscope y">Гироскоп y</string>
       <string original="Gyroscope z">Гироскоп z</string>
@@ -202,7 +202,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Risonanza</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
       <string original="Autocorrelation">Autocorrelazione</string>
-      <string original="Raw Data">Dati grezzi</string>
+      <string original="Raw data">Dati grezzi</string>
       <string original="Gyroscope x">Giroscopio x</string>
       <string original="Gyroscope y">Giroscopio y</string>
       <string original="Gyroscope z">Giroscopio z</string>
@@ -234,7 +234,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="Resonance">Συντονισμός</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Σε αυτή την καρτέλα, το πλάτος σχεδιάζεται σε συνάρτηση με την υπολογιζόμενη συχνότητα. Μπορείτε έτσι να βρείτε τη συχνότητα συντονισμού σε μια εξαναγκασμένη ταλάντωση. Το πλάτος κανονικοποιείται σε μια κλίμακα από 0 έως 1.</string>
       <string original="Autocorrelation">Αυτοσυσχέτιση</string>
-      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
       <string original="Gyroscope x">Γυροσκόπιο x</string>
       <string original="Gyroscope y">Γυροσκόπιο y</string>
       <string original="Gyroscope z">Γυροσκόπιο z</string>
@@ -268,7 +268,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
       <string original="Autocorrelation">自己相関</string>
       <string original="correlation">相関係数</string>
-      <string original="Raw Data">センサー出力</string>
+      <string original="Raw data">センサー出力</string>
       <string original="Gyroscope x">ジャイロスコープ x</string>
       <string original="Gyroscope y">ジャイロスコープ y</string>
       <string original="Gyroscope z">ジャイロスコープ　z</string>
@@ -300,7 +300,7 @@ Perioda kmitání je získána autokorelací součtu všech složek zrychlení. 
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Nesta aba, a amplitude é plotada contra a frequência. Você pode utilizar isto para medir a ressonância de um oscilador forçado. A amplitude é normalizada entre 0 e 1.</string>
       <string original="Autocorrelation">Autocorrelação</string>
       <string original="correlation">correlação</string>
-      <string original="Raw Data">Sensores</string>
+      <string original="Raw data">Sensores</string>
       <string original="Gyroscope x">Giroscópio x</string>
       <string original="Gyroscope y">Giroscópio y</string>
       <string original="Gyroscope z">Giroscópio z</string>
@@ -331,7 +331,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
       <string original="Autocorrelation">Otokorelasyon</string>
       <string original="correlation">bağıntı</string>
-      <string original="Raw Data">Ham veri</string>
+      <string original="Raw data">Ham veri</string>
       <string original="Gyroscope x">Jiroskop x</string>
       <string original="Gyroscope y">Jiroskop y</string>
       <string original="Gyroscope z">Jiroskop z</string>
@@ -361,7 +361,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Resonance">共振</string>
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">這個分頁中顯示振幅對測得的頻率的作圖。你可以用此量測一個振盪器的共振頻率。振幅已歸一化成0至1。</string>
       <string original="Autocorrelation">自相關</string>
-      <string original="Raw Data">原始數據</string>
+      <string original="Raw data">原始數據</string>
       <string original="Gyroscope x">x方向陀螺儀</string>
       <string original="Gyroscope y">y方向陀螺儀</string>
       <string original="Gyroscope z">z方向陀螺儀</string>
@@ -393,7 +393,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Dans cet onglet, l'amplitude est tracée en fonction de la fréquence mesurée. Cela permet de tracer la courbe de résonnance d’un pendule en oscillations forcées. L'amplitude est normalisée de 0 à 1.</string>
       <string original="Autocorrelation">Autocorrélation</string>
       <string original="correlation">corrélation</string>
-      <string original="Raw Data">Données brutes</string>
+      <string original="Raw data">Données brutes</string>
       <string original="Gyroscope x">Gyroscope axe x</string>
       <string original="Gyroscope y">Gyroscope axe y</string>
       <string original="Gyroscope z">Gyroscope axe z</string>
@@ -425,7 +425,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Trên mục này, biên độ được vẽ theo tần số được phát hiện. Bạn có thể sử dụng điều này để đo cộng hưởng của bộ dao động cưỡng bức. Biên độ được chuẩn hóa thành phạm vi từ 0 đến 1.</string>
       <string original="Autocorrelation">Tự tương quan</string>
       <string original="correlation">tương quan</string>
-      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Raw data">Dữ liệu thô</string>
       <string original="Gyroscope x">Con quay hồi chuyển x</string>
       <string original="Gyroscope y">Con quay hồi chuyển y</string>
       <string original="Gyroscope z">Con quay hồi chuyển z</string>
@@ -457,7 +457,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">此页面中，以振幅与测得频率之比作图。你可以借此来测量一个振子的共振。振幅已归一化到0至1范围。</string>
       <string original="Autocorrelation">自相关</string>
       <string original="correlation">相关系数</string>
-      <string original="Raw Data">原始数据</string>
+      <string original="Raw data">原始数据</string>
       <string original="Gyroscope x">x方向陀螺仪</string>
       <string original="Gyroscope y">y方向陀螺仪</string>
       <string original="Gyroscope z">z方向陀螺仪</string>
@@ -486,7 +486,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
       <string original="Autocorrelation">Autokorelacija</string>
       <string original="correlation">korelacija</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Gyroscope x">Žiroskop x</string>
       <string original="Gyroscope y">Žiroskop y</string>
       <string original="Gyroscope z">Žiroskop z</string>
@@ -515,7 +515,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
       <string original="Autocorrelation">Autokorelacija</string>
       <string original="correlation">korelacija</string>
-      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Raw data">Sirovi podaci</string>
       <string original="Gyroscope x">Žiroskop x</string>
       <string original="Gyroscope y">Žiroskop y</string>
       <string original="Gyroscope z">Žiroskop z</string>
@@ -547,7 +547,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">En esta pestaña, la amplitud se representa contra la frecuencia detectada. Puede usar esto para medir la resonancia de un oscilador controlado. La amplitud se normaliza a un rango de 0 a 1.</string>
       <string original="Autocorrelation">Autocorrelación</string>
       <string original="correlation">Correlación</string>
-      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Raw data">Datos sin procesar</string>
       <string original="Gyroscope x">Giroscopio x</string>
       <string original="Gyroscope y">Giroscopio y</string>
       <string original="Gyroscope z">Giroscopio z</string>
@@ -579,7 +579,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">ამ გვერდზე, ამპლიტუდის სიხსირეზე დამოკიდებულებაა წარმოდგენილი. თქვენ შეგიძლიათ ეს გამოიყენოთ ბიძგიანი ქანქარისთვის. ამპლიტუდა დანორმირებულია 0-დან 1-მდე.</string>
       <string original="Autocorrelation">ავტო კორელაცია</string>
       <string original="correlation">კორელაცია</string>
-      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
       <string original="Gyroscope x">გიროსკოპი x</string>
       <string original="Gyroscope y">გიროსკოპი y</string>
       <string original="Gyroscope z">გიროსკოპი z</string>
@@ -611,7 +611,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">इस टैब पर, आयाम को ज्ञात आवृत्ति के विरुद्ध प्लॉट किया जाता है। आप इसका उपयोग किसी चालित दोलक के अनुनाद को मापने के लिए कर सकते हैं। आयाम को 0 से 1 की सीमा तक सामान्यीकृत किया गया है।</string>
       <string original="Autocorrelation">स्वतः सहसंबंध</string>
       <string original="correlation">सहसंबंध</string>
-      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
       <string original="Gyroscope x">जायरोस्कोप x</string>
       <string original="Gyroscope y">जायरोस्कोप y</string>
       <string original="Gyroscope z">जायरोस्कोप z</string>
@@ -644,7 +644,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="Autocorrelation">தன்னியக்க தொடர்பு</string>
       <string original="Δt">Δநேரம்</string>
       <string original="correlation">தொடர்பு</string>
-      <string original="Raw Data">மூலத்தரவு</string>
+      <string original="Raw data">மூலத்தரவு</string>
       <string original="Settings">அமைப்புகள்</string>
     </translation>
     <translation locale="bn">
@@ -677,7 +677,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">આ ટેબ પર, ઓળખાયેલ ફ્રીક્વન્સી વિરુદ્ધ એમ્પ્લીટ્યુડનું પ્લોટિંગ કરવામાં આવે છે. તમે આનો ઉપયોગ સંચાલિત ઓસિલેટરના રેઝોનન્સને માપવા માટે કરી શકો છો. એમ્પ્લીટ્યુડ 0 થી 1 ની રેન્જમાં નોર્મલાઇઝ કરવામાં આવે છે.</string>
       <string original="Autocorrelation">ઓટો-કોરિલેશન</string>
       <string original="correlation">કોરિલેશન</string>
-      <string original="Raw Data">રો ડેટા</string>
+      <string original="Raw data">રો ડેટા</string>
       <string original="Gyroscope x">ગાયરોસ્કોપ x</string>
       <string original="Gyroscope y">ગાયરોસ્કોપ y</string>
       <string original="Gyroscope z">ગાયરોસ્કોપ z</string>
@@ -711,7 +711,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">이 탭에서는 감지된 진동수에 따른 진폭 그래프를 보여줍니다. 이를 이용해 강제 진동자의 공진을 측정할 수 있습니다. 진폭은 0에서 1 사이의 값으로 정규화됩니다.</string>
       <string original="Autocorrelation">자기 상관</string>
       <string original="correlation">상관</string>
-      <string original="Raw Data">원 데이터</string>
+      <string original="Raw data">원 데이터</string>
       <string original="Gyroscope x">자이로스코프 x</string>
       <string original="Gyroscope y">자이로스코프 y</string>
       <string original="Gyroscope z">자이로스코프 z</string>
@@ -742,7 +742,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
       <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu bölmədə amplitud aşkarlanan tezliyə görə qurulur. Bundan məcburi rəqs sisteminin rezonansını ölçmək üçün istifadə edə bilərsiniz. Amplitud 0-dan 1-ə qədər diapazona normallaşdırılıb.</string>
       <string original="Autocorrelation">Avtokorrelyasiya</string>
       <string original="correlation">korrelyasiya</string>
-      <string original="Raw Data">Xam verilənlər</string>
+      <string original="Raw data">Xam verilənlər</string>
       <string original="Gyroscope x">Giroskop x</string>
       <string original="Gyroscope y">Giroskop y</string>
       <string original="Gyroscope z">Giroskop z</string>
@@ -855,7 +855,7 @@ Salınım periyodu, üç jiroskop bileşeninin toplamının otokorelasyonuyla el
         <input>frequency</input>
       </value>
     </view>
-    <view label="Raw Data">
+    <view label="Raw data">
       <graph label="Gyroscope x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
         <input axis="x">gyr_time</input>
         <input axis="y">gyrX</input>
