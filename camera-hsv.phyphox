@@ -309,7 +309,7 @@ Nəzərə alın ki, ağ balansı nəticəyə təsir edir. Telefonunuzun avtomati
       <separator height="1"/>
       <separator color="white"/>
       <separator height="1"/>
-      <camera-gui label="Preview" exposure_adjustment_level="3"/>
+      <camera-gui label="Preview" exposure_adjustment_level="3" markOverexposure="ff0000" markUnderexposure="0000ff"/>
       <separator height="1"/>
       <value label="Frame rate" unit="@hertz" precision="1">
         <input>frameRate</input>
