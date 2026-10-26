@@ -411,6 +411,11 @@
       <string original="The horizontal accuracy is the uncertainty of your location, while the vertical accuracy is the (usually worse) uncertainty of your altitude. If the accuracy is zero, this information is not available.">La précision horizontale correspond à l'incertitude de votre position, tandis que la précision verticale correspond à l'incertitude (mauvaise en général) de votre altitude (hauteur). Si la précision indiquée est égale à zéro c'est que cette information n'est pas disponible.</string>
       <string original="unknown">inconnu</string>
       <string original="Coordinates">Coordonnées</string>
+      <string original="Speedometer">Vitesse</string>
+      <string original="Range">Plage de mesure</string>
+      <string original="Bicycle">Vélo</string>
+      <string original="Car">Voiture</string>
+      <string original="Aircraft">Avion</string>
     </translation>
     <translation locale="vi">
       <title>Vị trí (GPS)</title>

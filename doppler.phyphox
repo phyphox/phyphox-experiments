@@ -247,6 +247,7 @@ Usa qualcosa che generi un tono a frequenza costante (per esempio 1000Hz). Puoi 
       <string original="Frequency">Fréquence</string>
       <string original="Speed">Vitesse</string>
       <string original="Settings">Paramètres</string>
+      <string original="Enter the frequency of your tone generator as base frequency. A shorter time step gives more values per second, a longer one gives more precise values. Values are only shown while the tone is clearly recognizable and stays within a few hundred hertz of the base frequency.">Entrer la fréquence émise comme référence. Un temps de mesure court donnera plus de mesures par seconde, un temps de mesure long donnera des mesurse plus précises. Les mesures ne seront affichés que si la fréquence mesurée est clairement définie et ne s'éloigne pas à plus que quelques centaines de hertz de la valeur de référence.</string>
     </translation>
     <translation locale="vi">
       <title>Hiệu ứng Doppler</title>
